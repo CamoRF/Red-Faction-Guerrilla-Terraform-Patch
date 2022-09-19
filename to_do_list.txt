@@ -1,0 +1,49 @@
+---------------
+Community Patch
+---------------
+
+* Remove table templates to reduce memory pool usage, put them in their own doc files
+* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
+* Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
+* HD character textures 
+* HD weapon, backpack, grinder projectile textures
+* Try to fix CTF spawn flips (try intial and respawn bools for team spawns)
+* Fix formatting for all XTBL files
+* Buff stealth pack transparency even more - test
+* Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
+* Give sniper infinite range - test
+* Buff nano rifle accuracy - test
+* Replace intial loading screen so players know if they installed the patch correctly
+* Replace interface-guerrillalogo.cpeg_pc 
+* Test map exploits in changelog
+* Kaboom pack sounds get stuck when you die - test
+* Add neutral spawns to Siege maps as done with Framework
+* Add kaboom pack spawns to some maps?
+* Fix random backpacks on WC maps (requires adding backpack racks I believe)
+* Fix grenade (seems to randomly stop working when played online and character tposes, weapon also breaks if unique ID is changed from 33, might need to be scripted in future)
+* Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host (maybe try an alternative projectile?)
+* Fix DLC weapon selection icons and reticules
+* Merge files inside chunks.vpp, dlc01_precache.vpp and terr01_precache.vpp_pc into mp_common.vpp_pc - done 
+* Add cliff under maps that are missing it
+* Add CTF and Damage Control objective to WC maps when Nanoforge supports it
+* Fix out of bounds spots on Excavation, Remnant, Puncture, Warlords and Gradient
+* Increase player cap in custom games above 16 if it needs to be
+* Test all maps during day and night and check fog, bloom, moon size and sun texture in dtodx file
+* Fix clipping backpacks on Jenkins
+* Update WC map thumbnails if they changed a lot after ATMs work
+* Doublecheck the misslepod isn't missing the projectile
+* Armored Mason in multiplayer
+* Format all XTBL files in misc and table - done 
+* Add drop shadows to dlc01_gameplay_properties.xtbl
+* Apply changes from the base game tweak table to the dlc tweak table
+* Remove artifical gravity from vehicles
+* Revert the stripper names and stuff
+* Remove blur from RPG explosions
+* Compress all vpp_pc files possible, might help with stability like it does in RFA
+* Upscale grinder projectile texture
+* Add reducing randomness of projectile of grinder by adjusting collision  to changelog
+* Add new weapon spawns to more EDF
+* Update changelog so its consistent with formatting
+* Add DLC weapon spawns around the map when its possible - done
+
+
