@@ -1,0 +1,490 @@
+<root>
+	<Table>
+		<Demolitions_Master>
+			<Name>dlc01_dm_01</Name>
+			<Demo_Info_Body_Text>ACT_DLC_DM_01</Demo_Info_Body_Text>
+			<Level>1</Level>
+			<Radio_Message>zzz_war_totem_destroyed</Radio_Message>
+			<Weapon_List>
+				<Weapon_Data>sledgehammer
+					<Non_Weapon_Icon_Name>ui_hud_icon_walker</Non_Weapon_Icon_Name>
+					<Ammo>-1</Ammo>
+				</Weapon_Data>
+				<Weapon_Data>sledgehammer
+					<Ammo>-2</Ammo>
+					<Weapon>mar_charge_placer</Weapon>
+				</Weapon_Data>
+			</Weapon_List>
+			<Time_Limit>60</Time_Limit>
+			<Par_Time>25</Par_Time>
+			<Unlimited_Ammo>False</Unlimited_Ammo>
+			<Info_Title_1>ACT_WALKER</Info_Title_1>
+			<Success_String>ACT_SUCCESS</Success_String>
+			<Failure_String_Ammo>ACT_FAIL_TIME</Failure_String_Ammo>
+			<Failure_String_Time>ACT_FAIL_TIME</Failure_String_Time>
+			<Failure_String_Death>ACT_FAIL_DEATH</Failure_String_Death>
+			<Active_Range>70</Active_Range>
+			<_Editor>
+				<Category>DLC01</Category>
+			</_Editor>
+			<Standard_Rewards></Standard_Rewards>
+			<Use_Vehicle_Spawn>True</Use_Vehicle_Spawn>
+			<Failure_String_Range>ACT_FAIL_RANGE</Failure_String_Range>
+			<Multiple_Target_Buildings>True</Multiple_Target_Buildings>
+			<Briefing_Destroy_Message>ACT_DEMO_MASTER_SUBTITLE</Briefing_Destroy_Message>
+			<Corner_HUD_Destroy_Message>ACT_DM_BUILDING_MULTI</Corner_HUD_Destroy_Message>
+			<base_activity_data>dlc01_dm_01</base_activity_data>
+		</Demolitions_Master>
+		<Demolitions_Master>
+			<Name>dlc01_dm_02</Name>
+			<Demo_Info_Body_Text>ACT_DLC_DM_02</Demo_Info_Body_Text>
+			<Level>1</Level>
+			<Radio_Message>zzz_war_totem_destroyed</Radio_Message>
+			<Weapon_List>
+				<Weapon_Data>sledgehammer
+					<Ammo>63</Ammo>
+					<Weapon>missilepod</Weapon>
+				</Weapon_Data>
+			</Weapon_List>
+			<Time_Limit>30</Time_Limit>
+			<Par_Time>20</Par_Time>
+			<Unlimited_Ammo>False</Unlimited_Ammo>
+			<Info_Title_1>ACT_ROCKET_LAUNCHER</Info_Title_1>
+			<Success_String>ACT_SUCCESS</Success_String>
+			<Failure_String_Ammo>ACT_FAIL_TIME</Failure_String_Ammo>
+			<Failure_String_Time>ACT_FAIL_TIME</Failure_String_Time>
+			<Failure_String_Death>ACT_FAIL_DEATH</Failure_String_Death>
+			<Active_Range>50</Active_Range>
+			<_Editor>
+				<Category>DLC01</Category>
+			</_Editor>
+			<Standard_Rewards></Standard_Rewards>
+			<Use_Vehicle_Spawn>False</Use_Vehicle_Spawn>
+			<Failure_String_Range>ACT_FAIL_RANGE</Failure_String_Range>
+			<Multiple_Target_Buildings>False</Multiple_Target_Buildings>
+			<Briefing_Destroy_Message>ACT_DEMO_MASTER_SUBTITLE</Briefing_Destroy_Message>
+			<Corner_HUD_Destroy_Message>ACT_DM_DESTROY_BUILDING</Corner_HUD_Destroy_Message>
+			<base_activity_data>dlc01_dm_02</base_activity_data>
+		</Demolitions_Master>
+		<Demolitions_Master>
+			<Name>dlc01_dm_03</Name>
+			<Demo_Info_Body_Text>ACT_DLC_DM_03</Demo_Info_Body_Text>
+			<Level>1</Level>
+			<Radio_Message>zzz_war_totem_destroyed</Radio_Message>
+			<Weapon_List>
+				<Weapon_Data>sledgehammer
+					<Ammo>1</Ammo>
+					<Weapon>mar_charge_placer</Weapon>
+				</Weapon_Data>
+				<Weapon_Data>sledgehammer
+					<Non_Weapon_Icon_Name>ui_hud_icon_car</Non_Weapon_Icon_Name>
+					<Ammo>-1</Ammo>
+				</Weapon_Data>
+			</Weapon_List>
+			<Time_Limit>40</Time_Limit>
+			<Par_Time>20</Par_Time>
+			<Unlimited_Ammo>False</Unlimited_Ammo>
+			<Info_Title_1>ACT_WALKER</Info_Title_1>
+			<Success_String>ACT_SUCCESS</Success_String>
+			<Failure_String_Ammo>ACT_FAIL_TIME</Failure_String_Ammo>
+			<Failure_String_Time>ACT_FAIL_TIME</Failure_String_Time>
+			<Failure_String_Death>ACT_FAIL_DEATH</Failure_String_Death>
+			<Active_Range>60</Active_Range>
+			<_Editor>
+				<Category>DLC01</Category>
+			</_Editor>
+			<Standard_Rewards></Standard_Rewards>
+			<Use_Vehicle_Spawn>True</Use_Vehicle_Spawn>
+			<Failure_String_Range>ACT_FAIL_RANGE</Failure_String_Range>
+			<Multiple_Target_Buildings>False</Multiple_Target_Buildings>
+			<Briefing_Destroy_Message>ACT_DEMO_MASTER_SUBTITLE</Briefing_Destroy_Message>
+			<Corner_HUD_Destroy_Message>ACT_DM_DESTROY_BUILDING</Corner_HUD_Destroy_Message>
+			<base_activity_data>dlc01_dm_03</base_activity_data>
+		</Demolitions_Master>
+		<Demolitions_Master>
+			<Name>dlc01_dm_04</Name>
+			<Demo_Info_Body_Text>ACT_DLC_DM_04</Demo_Info_Body_Text>
+			<Level>1</Level>
+			<Radio_Message>zzz_war_totem_destroyed</Radio_Message>
+			<Weapon_List>
+				<Weapon_Data>sledgehammer
+					<Ammo>24</Ammo>
+					<Weapon>rpg_launcher</Weapon>
+				</Weapon_Data>
+			</Weapon_List>
+			<Time_Limit>55</Time_Limit>
+			<Par_Time>35</Par_Time>
+			<Unlimited_Ammo>False</Unlimited_Ammo>
+			<Info_Title_1>ACT_ROCKET_LAUNCHER</Info_Title_1>
+			<Success_String>ACT_SUCCESS</Success_String>
+			<Failure_String_Ammo>ACT_FAIL_TIME</Failure_String_Ammo>
+			<Failure_String_Time>ACT_FAIL_TIME</Failure_String_Time>
+			<Failure_String_Death>ACT_FAIL_DEATH</Failure_String_Death>
+			<Active_Range>55</Active_Range>
+			<_Editor>
+				<Category>DLC01</Category>
+			</_Editor>
+			<Standard_Rewards></Standard_Rewards>
+			<Use_Vehicle_Spawn>False</Use_Vehicle_Spawn>
+			<Failure_String_Range>ACT_FAIL_RANGE</Failure_String_Range>
+			<Multiple_Target_Buildings>True</Multiple_Target_Buildings>
+			<Briefing_Destroy_Message>ACT_DEMO_MASTER_SUBTITLE</Briefing_Destroy_Message>
+			<Corner_HUD_Destroy_Message>ACT_DM_BUILDING_MULTI</Corner_HUD_Destroy_Message>
+			<base_activity_data>dlc01_dm_04</base_activity_data>
+		</Demolitions_Master>
+		<Demolitions_Master>
+			<Name>dlc01_dm_05</Name>
+			<Demo_Info_Body_Text>ACT_DLC_DM_05</Demo_Info_Body_Text>
+			<Level>1</Level>
+			<Radio_Message>zzz_war_totem_destroyed</Radio_Message>
+			<Weapon_List>
+				<Weapon_Data>sledgehammer
+					<Ammo>12</Ammo>
+					<Weapon>gauss_rifle</Weapon>
+				</Weapon_Data>
+				<Weapon_Data>sledgehammer
+					<Non_Weapon_Icon_Name>ui_hud_icon_barrel</Non_Weapon_Icon_Name>
+					<Ammo>-1</Ammo>
+				</Weapon_Data>
+			</Weapon_List>
+			<Time_Limit>60</Time_Limit>
+			<Par_Time>30</Par_Time>
+			<Unlimited_Ammo>False</Unlimited_Ammo>
+			<Info_Title_1>ACT_ROCKET_LAUNCHER</Info_Title_1>
+			<Success_String>ACT_SUCCESS</Success_String>
+			<Failure_String_Ammo>ACT_FAIL_TIME</Failure_String_Ammo>
+			<Failure_String_Time>ACT_FAIL_TIME</Failure_String_Time>
+			<Failure_String_Death>ACT_FAIL_DEATH</Failure_String_Death>
+			<Active_Range>35</Active_Range>
+			<_Editor>
+				<Category>DLC01</Category>
+			</_Editor>
+			<Standard_Rewards></Standard_Rewards>
+			<Use_Vehicle_Spawn>False</Use_Vehicle_Spawn>
+			<Failure_String_Range>ACT_FAIL_RANGE</Failure_String_Range>
+			<Multiple_Target_Buildings>False</Multiple_Target_Buildings>
+			<Briefing_Destroy_Message>ACT_DEMO_MASTER_SUBTITLE</Briefing_Destroy_Message>
+			<Corner_HUD_Destroy_Message>ACT_DM_BUILDING_MULTI</Corner_HUD_Destroy_Message>
+			<base_activity_data>dlc01_dm_05</base_activity_data>
+		</Demolitions_Master>
+		<Demolitions_Master>
+			<Name>dlc01_dm_06</Name>
+			<Demo_Info_Body_Text>ACT_DLC_DM_06</Demo_Info_Body_Text>
+			<Level>1</Level>
+			<Radio_Message>zzz_war_totem_destroyed</Radio_Message>
+			<Weapon_List>
+				<Weapon_Data>sledgehammer
+					<Ammo>1</Ammo>
+					<Weapon>rail_driver</Weapon>
+				</Weapon_Data>
+				<Weapon_Data>sledgehammer
+					<Non_Weapon_Icon_Name>ui_hud_icon_hydro_tank</Non_Weapon_Icon_Name>
+					<Ammo>40</Ammo>
+				</Weapon_Data>
+			</Weapon_List>
+			<Time_Limit>120</Time_Limit>
+			<Par_Time>60</Par_Time>
+			<Unlimited_Ammo>False</Unlimited_Ammo>
+			<Info_Title_1>ACT_ROCKET_LAUNCHER</Info_Title_1>
+			<Success_String>ACT_SUCCESS</Success_String>
+			<Failure_String_Ammo>ACT_FAIL_TIME</Failure_String_Ammo>
+			<Failure_String_Time>ACT_FAIL_TIME</Failure_String_Time>
+			<Failure_String_Death>ACT_FAIL_DEATH</Failure_String_Death>
+			<Active_Range>50</Active_Range>
+			<_Editor>
+				<Category>DLC01</Category>
+			</_Editor>
+			<Standard_Rewards></Standard_Rewards>
+			<Use_Vehicle_Spawn>False</Use_Vehicle_Spawn>
+			<Failure_String_Range>ACT_FAIL_RANGE</Failure_String_Range>
+			<Multiple_Target_Buildings>True</Multiple_Target_Buildings>
+			<Briefing_Destroy_Message>ACT_DEMO_MASTER_SUBTITLE</Briefing_Destroy_Message>
+			<Corner_HUD_Destroy_Message>ACT_DM_BUILDING_MULTI</Corner_HUD_Destroy_Message>
+			<base_activity_data>dlc01_dm_06</base_activity_data>
+		</Demolitions_Master>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Demolitions_Master</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Demolitions Master</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
+			<Default>Default</Default>
+			<MaxLength>31</MaxLength>
+		</Element>
+		<Element>
+			<Name>base_activity_data</Name>
+			<Type>Reference</Type>
+			<Display_Name>Layers/Scripts</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>activity.xtbl</File>
+				<Type>base_activity.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Demo_Info_Body_Text</Name>
+			<Type>Reference</Type>
+			<Display_Name>Description</Display_Name>
+			<Description>This is a description of the activity to be displayed on the splash screen when the activity starts.</Description>
+			<Default>Enter a description of the activity</Default>
+			<Reference>
+				<File>localized_exports\Activity_demo_master_text.xtbl</File>
+				<Type>Demo_Master_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Level</Name>
+			<Type>Int</Type>
+			<Default>1</Default>
+		</Element>
+		<Element>
+			<Name>Radio_Message</Name>
+			<Type>Reference</Type>
+			<Display_Name>Radio Message</Display_Name>
+			<Reference>
+				<File>rfg_voice_lines.xtbl</File>
+				<Type>Voice_Line.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Use_Vehicle_Spawn</Name>
+			<Type>Selection</Type>
+			<Display_Name>Use Vehicle Spawn</Display_Name>
+			<Description>This tells the activity whether or not it should care about any vehicle spawns parented to it.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>Weapon_List</Name>
+			<Type>List</Type>
+			<Display_Name>Weapon List</Display_Name>
+			<Description>List of weapons available to the player during this specific demolitions master type.</Description>
+			<Element>
+				<Name>Weapon_Data</Name>
+				<Type>Element</Type>
+				<Display_Name>Weapon Data</Display_Name>
+				<Default>sledgehammer</Default>
+				<Element>
+					<Name>Weapon</Name>
+					<Type>Reference</Type>
+					<Description>Weapons available to the player during the activity.</Description>
+					<Required>false</Required>
+					<Reference>
+						<File>weapons.xtbl</File>
+						<Type>Weapon.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>Non_Weapon_Icon_Name</Name>
+					<Type>Selection</Type>
+					<Display_Name>Non-Weapon Icon Name</Display_Name>
+					<Description>If using something other than a weapon (such as a vehicle or barrel), this field specifies the name of an icon to use.</Description>
+					<Required>false</Required>
+					<Choice>ui_hud_icon_walker</Choice>
+					<Choice>ui_hud_icon_walker_min</Choice>
+					<Choice>ui_hud_icon_barrel</Choice>
+					<Choice>ui_hud_icon_hydro_tank</Choice>
+					<Choice>ui_hud_icon_rpg_turret</Choice>
+					<Choice>ui_hud_icon_car</Choice>
+				</Element>
+				<Element>
+					<Name>Ammo</Name>
+					<Type>Int</Type>
+					<Description>The amount of ammo the player will have for this weapon.</Description>
+					<Default>0</Default>
+				</Element>
+			</Element>
+			<Max_Children>4</Max_Children>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+		<Element>
+			<Name>Time_Limit</Name>
+			<Type>Int</Type>
+			<Display_Name>Time Limit</Display_Name>
+			<Description>Time (seconds) the player has to destroy the target building. Only required when activity type is set to "limited time".</Description>
+			<Required>false</Required>
+			<Default>60</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>Par_Time</Name>
+			<Type>Int</Type>
+			<Display_Name>Par Time</Display_Name>
+			<Default>10</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>Unlimited_Ammo</Name>
+			<Type>Selection</Type>
+			<Display_Name>Unlimited Ammo</Display_Name>
+			<Description>Whether or not the player has unlimited ammo during this specific activity.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>Multiple_Target_Buildings</Name>
+			<Type>Selection</Type>
+			<Display_Name>Multiple Target Buildings</Display_Name>
+			<Description>If true, this will cause the subtitle to say "DESTROY THE BUILDINGS USING" (note the plural "buildings").</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>Briefing_Destroy_Message</Name>
+			<Type>Reference</Type>
+			<Display_Name>Briefing Destroy Message</Display_Name>
+			<Description>The localized string for "DESTROY THE BUILDING(S) USING" in the briefing screen.</Description>
+			<Default>ACT_DEMO_MASTER_SUBTITLE</Default>
+			<Reference>
+				<File>localized_exports\Activity_demo_master_text.xtbl</File>
+				<Type>Demo_Master_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Corner_HUD_Destroy_Message</Name>
+			<Type>Reference</Type>
+			<Display_Name>Corner HUD Destroy Message</Display_Name>
+			<Description>The localized string for "DESTROY THE BUILDING(S)" in the corner HUD during the activity.</Description>
+			<Default>MISS_DEMO_DESTROY_BUILDING</Default>
+			<Reference>
+				<File>localized_exports\Activity_demo_master_text.xtbl</File>
+				<Type>Demo_Master_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Info_Title_1</Name>
+			<Type>Reference</Type>
+			<Display_Name>Info Title 1</Display_Name>
+			<Description>First line of text that will show up in the HUD after "DESTROY THE BUILDING USING". This will contain a string such as "5 REMOTE CHARGES" or "ONLY THE HAMMER".</Description>
+			<Default>THE WEAPONS GIVEN</Default>
+			<Reference>
+				<File>localized_exports\Activity_demo_master_text.xtbl</File>
+				<Type>Demo_Master_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Info_Title_2</Name>
+			<Type>Reference</Type>
+			<Display_Name>Info Title 2</Display_Name>
+			<Description>Second line of text that will show up in the HUD after "DESTROY THE BUILDING USING". This will contain a string such as "IN 60 SEC OR LESS".</Description>
+			<Required>false</Required>
+			<Reference>
+				<File>localized_exports\Activity_demo_master_text.xtbl</File>
+				<Type>Demo_Master_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Success_String</Name>
+			<Type>Reference</Type>
+			<Display_Name>Success String</Display_Name>
+			<Description>Added for localization purposes.</Description>
+			<Default>SUCCESS</Default>
+			<Reference>
+				<File>localized_exports\Activity_demo_master_text.xtbl</File>
+				<Type>Demo_Master_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Failure_String_Ammo</Name>
+			<Type>Reference</Type>
+			<Display_Name>Failure String Ammo</Display_Name>
+			<Description>Added for localization purposes.</Description>
+			<Default>OUT OF AMMO</Default>
+			<Reference>
+				<File>localized_exports\Activity_demo_master_text.xtbl</File>
+				<Type>Demo_Master_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Failure_String_Time</Name>
+			<Type>Reference</Type>
+			<Display_Name>Failure String Time</Display_Name>
+			<Description>Added for localization purposes.</Description>
+			<Default>OUT OF TIME</Default>
+			<Reference>
+				<File>localized_exports\Activity_demo_master_text.xtbl</File>
+				<Type>Demo_Master_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Failure_String_Range</Name>
+			<Type>Reference</Type>
+			<Display_Name>Failure String Range</Display_Name>
+			<Description>Added for localization purposes.</Description>
+			<Reference>
+				<File>localized_exports\Activity_demo_master_text.xtbl</File>
+				<Type>Demo_Master_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Failure_String_Death</Name>
+			<Type>Reference</Type>
+			<Display_Name>Failure String Death</Display_Name>
+			<Description>Added for localization purposes.</Description>
+			<Default>YOU DIED</Default>
+			<Reference>
+				<File>localized_exports\Activity_demo_master_text.xtbl</File>
+				<Type>Demo_Master_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Active_Range</Name>
+			<Type>Float</Type>
+			<Display_Name>Active Range</Display_Name>
+			<Description>Distance (in meters) the player is allowed to go from the center of the building without ending the activity.</Description>
+			<Default>25.0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>Standard_Rewards</Name>
+			<Type>Element</Type>
+			<Display_Name>Standard Rewards</Display_Name>
+			<Element>
+				<Name>EDF_Control_Reduction</Name>
+				<Type>Float</Type>
+				<Display_Name>EDF Control Reduction</Display_Name>
+				<Required>false</Required>
+				<Default>0.0</Default>
+			</Element>
+			<Element>
+				<Name>Morale_Increase</Name>
+				<Type>Float</Type>
+				<Display_Name>Morale Increase</Display_Name>
+				<Required>false</Required>
+				<Default>0.0</Default>
+			</Element>
+			<Element>
+				<Name>Salvage_Reward</Name>
+				<Type>Int</Type>
+				<Display_Name>Salvage Reward</Display_Name>
+				<Required>false</Required>
+				<Default>0</Default>
+			</Element>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>DLC01</Name>
+		</Category>
+	</EntryCategories>
+</root>

@@ -1,0 +1,30 @@
+<root>
+	<Table>
+		<Level>
+			<Name>wc1</Name>
+			<StartPosition>0</StartPosition>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Level>
+	</Table>
+	<TableDescription>
+		<Name>Level</Name>
+		<Type>TableDescription</Type>
+		<Required>false</Required>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>StartPosition</Name>
+			<Type>String</Type>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>
+

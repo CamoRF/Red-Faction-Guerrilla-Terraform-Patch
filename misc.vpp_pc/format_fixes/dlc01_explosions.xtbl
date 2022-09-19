@@ -1,0 +1,625 @@
+<root>
+	<Table>
+		<Explosion>
+			<Name>propane_tank2</Name>
+			<Radius>2</Radius>
+			<AI_Sound_Radius>50</AI_Sound_Radius>
+			<vehicle_damage_max>2500</vehicle_damage_max>
+			<vehicle_damage_min>50</vehicle_damage_min>
+			<Impulse>19000</Impulse>
+			<Effects>
+				<Element>dth_propane_tank_sm_a</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>3.5</CrumbleRadius>
+			<KnockdownRadius>6</KnockdownRadius>
+			<FlinchRadius>11</FlinchRadius>
+			<Duration>200</Duration>
+			<player_mult>3.0</player_mult>
+			<MaxSalvagePieces>2</MaxSalvagePieces>
+			<SalvageProbability>1</SalvageProbability>
+			<human_damage_min>250</human_damage_min>
+			<Human_Damage_Max>1500</Human_Damage_Max>
+			<Structural_Damage>-1</Structural_Damage>
+			<SalvageMaterial>metal</SalvageMaterial>
+			<Unique_ID>107</Unique_ID>
+			<player_veh_mult>0.5</player_veh_mult>
+			<camera_shake_type>explosion_large</camera_shake_type>
+			<camera_shake_multiplier>0.7</camera_shake_multiplier>
+			<camera_shake_falloff>35.0</camera_shake_falloff>
+			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
+			<Ignore_Orientation>True</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
+		</Explosion>
+		<Explosion>
+			<Name>DLC_remote_charge</Name>
+			<Radius>3.0</Radius>
+			<AI_Sound_Radius>75</AI_Sound_Radius>
+			<vehicle_damage_max>3000</vehicle_damage_max>
+			<vehicle_damage_min>200</vehicle_damage_min>
+			<Impulse>30000</Impulse>
+			<Effects>
+				<Element>dth_propane_tank_sm_a</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>3.75</CrumbleRadius>
+			<KnockdownRadius>5.5</KnockdownRadius>
+			<FlinchRadius>9.0</FlinchRadius>
+			<player_mult>0.8</player_mult>
+			<MaxSalvagePieces>0</MaxSalvagePieces>
+			<SalvageProbability>0</SalvageProbability>
+			<human_damage_min>250</human_damage_min>
+			<Human_Damage_Max>1250</Human_Damage_Max>
+			<Structural_Damage>27000</Structural_Damage>
+			<Unique_ID>100</Unique_ID>
+			<camera_shake_type>explosion_large</camera_shake_type>
+			<camera_shake_multiplier>0.85</camera_shake_multiplier>
+			<camera_shake_falloff>50.0</camera_shake_falloff>
+			<player_veh_mult>0.8</player_veh_mult>
+			<Material_Effects>
+				<Entry>
+					<Material>Concrete</Material>
+					<Effect>wep_rpg_exp_cement_a</Effect>
+				</Entry>
+			</Material_Effects>
+			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
+			<Ignore_Orientation>False</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
+		</Explosion>
+		<Explosion>
+			<Name>DLC_marauder_shockade</Name>
+			<Radius>4.5</Radius>
+			<AI_Sound_Radius>50</AI_Sound_Radius>
+			<vehicle_damage_max>3000</vehicle_damage_max>
+			<vehicle_damage_min>200</vehicle_damage_min>
+			<Impulse>40000</Impulse>
+			<Effects>
+				<Element>shockwave_grenade_exp</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>5.0</CrumbleRadius>
+			<KnockdownRadius>6.0</KnockdownRadius>
+			<FlinchRadius>8.5</FlinchRadius>
+			<player_mult>0.8</player_mult>
+			<MaxSalvagePieces>0</MaxSalvagePieces>
+			<SalvageProbability>0</SalvageProbability>
+			<human_damage_min>250</human_damage_min>
+			<Human_Damage_Max>1250</Human_Damage_Max>
+			<Structural_Damage>22500</Structural_Damage>
+			<Unique_ID>101</Unique_ID>
+			<camera_shake_type>explosion_large</camera_shake_type>
+			<camera_shake_multiplier>0.8</camera_shake_multiplier>
+			<camera_shake_falloff>45.0</camera_shake_falloff>
+			<Flags>
+				<Flag>no gibs</Flag>
+			</Flags>
+			<player_veh_mult>0.8</player_veh_mult>
+			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
+			<Ignore_Orientation>False</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
+		</Explosion>
+		<Explosion>
+			<Name>DLC_Gauss_mission3</Name>
+			<Radius>2</Radius>
+			<AI_Sound_Radius>50</AI_Sound_Radius>
+			<vehicle_damage_max>8000</vehicle_damage_max>
+			<vehicle_damage_min>3000</vehicle_damage_min>
+			<Impulse>30000</Impulse>
+			<Effects>
+				<Element>wep_gauss_turret_exp_a</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>3</CrumbleRadius>
+			<KnockdownRadius>2.5</KnockdownRadius>
+			<FlinchRadius>3.5</FlinchRadius>
+			<player_mult>0.4</player_mult>
+			<MaxSalvagePieces>0</MaxSalvagePieces>
+			<SalvageProbability>0</SalvageProbability>
+			<human_damage_min>600</human_damage_min>
+			<Human_Damage_Max>2000</Human_Damage_Max>
+			<Structural_Damage>8000</Structural_Damage>
+			<Unique_ID>102</Unique_ID>
+			<camera_shake_type>explosion_small</camera_shake_type>
+			<camera_shake_multiplier>0.75</camera_shake_multiplier>
+			<camera_shake_falloff>25.0</camera_shake_falloff>
+			<Flags>
+				<Flag>no gibs</Flag>
+			</Flags>
+			<player_veh_mult>0.2</player_veh_mult>
+			<Material_Effects>
+				<Entry>
+					<Material>Concrete</Material>
+					<Effect>wep_rpg_exp_cement_a</Effect>
+				</Entry>
+			</Material_Effects>
+			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
+			<Ignore_Orientation>False</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
+		</Explosion>
+		<Explosion>
+			<Name>DLC_turret_edf_rocket</Name>
+			<Radius>5.5</Radius>
+			<AI_Sound_Radius>100</AI_Sound_Radius>
+			<vehicle_damage_max>3500</vehicle_damage_max>
+			<vehicle_damage_min>0</vehicle_damage_min>
+			<Impulse>30000</Impulse>
+			<Effects>
+				<Element>veh_med_tank_shell_exp_a</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>5.0</CrumbleRadius>
+			<KnockdownRadius>7.5</KnockdownRadius>
+			<FlinchRadius>12</FlinchRadius>
+			<player_mult>.01</player_mult>
+			<MaxSalvagePieces>0</MaxSalvagePieces>
+			<SalvageProbability>0</SalvageProbability>
+			<human_damage_min>200</human_damage_min>
+			<Human_Damage_Max>1000</Human_Damage_Max>
+			<Structural_Damage>25000</Structural_Damage>
+			<Unique_ID>104</Unique_ID>
+			<player_veh_mult>0.05</player_veh_mult>
+			<Material_Effects>
+				<Entry>
+					<Material>Concrete</Material>
+					<Effect>wep_rpg_exp_cement_a</Effect>
+				</Entry>
+			</Material_Effects>
+			<camera_shake_type>explosion_large</camera_shake_type>
+			<camera_shake_multiplier>1.0</camera_shake_multiplier>
+			<camera_shake_falloff>50.0</camera_shake_falloff>
+			<player_vehicle_impulse_mult>.25</player_vehicle_impulse_mult>
+			<Ignore_Orientation>False</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
+		</Explosion>
+		<Explosion>
+			<Name>DLC_EDF_SuperRocket_Miss3</Name>
+			<Radius>5.5</Radius>
+			<AI_Sound_Radius>100</AI_Sound_Radius>
+			<vehicle_damage_max>8000</vehicle_damage_max>
+			<vehicle_damage_min>3000</vehicle_damage_min>
+			<Impulse>30000</Impulse>
+			<Effects>
+				<Element>veh_med_tank_shell_exp_a</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>5.0</CrumbleRadius>
+			<KnockdownRadius>7.5</KnockdownRadius>
+			<FlinchRadius>12</FlinchRadius>
+			<player_mult>0.4</player_mult>
+			<MaxSalvagePieces>0</MaxSalvagePieces>
+			<SalvageProbability>0</SalvageProbability>
+			<human_damage_min>600</human_damage_min>
+			<Human_Damage_Max>2000</Human_Damage_Max>
+			<Structural_Damage>25000</Structural_Damage>
+			<Unique_ID>105</Unique_ID>
+			<camera_shake_type>explosion_large</camera_shake_type>
+			<camera_shake_multiplier>1.0</camera_shake_multiplier>
+			<camera_shake_falloff>50</camera_shake_falloff>
+			<player_veh_mult>0.2</player_veh_mult>
+			<Material_Effects>
+				<Entry>
+					<Material>Concrete</Material>
+					<Effect>wep_rpg_exp_cement_a</Effect>
+				</Entry>
+			</Material_Effects>
+			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
+			<Ignore_Orientation>False</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
+		</Explosion>
+		<Explosion>
+			<Name>DLC_missilepod</Name>
+			<Radius>2.0</Radius>
+			<AI_Sound_Radius>50</AI_Sound_Radius>
+			<vehicle_damage_max>1500</vehicle_damage_max>
+			<vehicle_damage_min>150</vehicle_damage_min>
+			<Impulse>25000</Impulse>
+			<Effects>
+				<Element>wep_mass_driver_exp_a</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>2.5</CrumbleRadius>
+			<KnockdownRadius>5.5</KnockdownRadius>
+			<FlinchRadius>7.0</FlinchRadius>
+			<player_mult>0.5</player_mult>
+			<MaxSalvagePieces>0</MaxSalvagePieces>
+			<SalvageProbability>0</SalvageProbability>
+			<human_damage_min>500</human_damage_min>
+			<Human_Damage_Max>1000</Human_Damage_Max>
+			<Structural_Damage>15000</Structural_Damage>
+			<Unique_ID>106</Unique_ID>
+			<player_veh_mult>0.3</player_veh_mult>
+			<Material_Effects>
+				<Entry>
+					<Material>Concrete</Material>
+					<Effect>wep_rpg_exp_cement_a</Effect>
+				</Entry>
+			</Material_Effects>
+			<camera_shake_type>explosion_small</camera_shake_type>
+			<camera_shake_multiplier>0.9</camera_shake_multiplier>
+			<camera_shake_falloff>30.0</camera_shake_falloff>
+			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
+			<Ignore_Orientation>False</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
+			<Flags>
+				<Flag>no gibs</Flag>
+			</Flags>
+		</Explosion>
+	</Table>
+	<TableTemplates>
+		<Explosion>
+			<Name>DLC_test_splosion</Name>
+			<Radius>3.5</Radius>
+			<AI_Sound_Radius>75</AI_Sound_Radius>
+			<vehicle_damage_max>3500</vehicle_damage_max>
+			<vehicle_damage_min>200</vehicle_damage_min>
+			<Impulse>28000</Impulse>
+			<Effects>
+				<Element>wep_miner_rpg_exp_a</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>4.0</CrumbleRadius>
+			<KnockdownRadius>6.5</KnockdownRadius>
+			<FlinchRadius>10</FlinchRadius>
+			<player_mult>0.6</player_mult>
+			<MaxSalvagePieces>0</MaxSalvagePieces>
+			<SalvageProbability>0</SalvageProbability>
+			<human_damage_min>280</human_damage_min>
+			<Human_Damage_Max>1700</Human_Damage_Max>
+			<Structural_Damage>22500</Structural_Damage>
+			<Unique_ID>103</Unique_ID>
+			<camera_shake_type>explosion_large</camera_shake_type>
+			<camera_shake_multiplier>0.9</camera_shake_multiplier>
+			<camera_shake_falloff>55.0</camera_shake_falloff>
+			<player_veh_mult>0.7</player_veh_mult>
+			<Material_Effects>
+				<Entry>
+					<Material>Concrete</Material>
+					<Effect>wep_rpg_exp_cement_a</Effect>
+				</Entry>
+				<Entry>
+					<Material>Terrain</Material>
+					<Effect>wep_rpg_exp_dirt_a</Effect>
+				</Entry>
+				<Entry>
+					<Material>Sand</Material>
+					<Effect>wep_rpg_exp_dirt_a</Effect>
+				</Entry>
+				<Entry>
+					<Material>Gravel</Material>
+					<Effect>wep_rpg_exp_dirt_a</Effect>
+				</Entry>
+			</Material_Effects>
+			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
+			<Ignore_Orientation>False</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
+		</Explosion>
+	</TableTemplates>
+	<TableDescription>
+		<Name>Explosion</Name>
+		<Type>TableDescription</Type>
+		<Description>An explosion.  Wooooo.</Description>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Explosion Name</Display_Name>
+			<Description>The name of the explosion.</Description>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>Unique_ID</Name>
+			<Type>Int</Type>
+			<Display_Name>Unique ID</Display_Name>
+			<Description>Do not try to reuse values if adding.  Just keep adding.  You can get last used index by looking at output generated by starting game and looking for "Max explosion unique_id:"</Description>
+			<Unique>true</Unique>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>254</MaxValue>
+		</Element>
+		<Element>
+			<Name>Flags</Name>
+			<Type>Flags</Type>
+			<Required>false</Required>
+			<Flag>incendiary</Flag>
+			<Flag>weaken</Flag>
+			<Flag>no gibs</Flag>
+			<Flag>ignore projectiles</Flag>
+			<Flag>destroy if not streamed</Flag>
+			<Flag>nano dissolve</Flag>
+		</Element>
+		<Element>
+			<Name>Always_Ragdoll</Name>
+			<Type>Selection</Type>
+			<Display_Name>Always Ragdoll</Display_Name>
+			<Description>Always ragdoll instead of playing knockdown animations.</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>Ignore_Orientation</Name>
+			<Type>Selection</Type>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>Radius</Name>
+			<Type>Float</Type>
+			<Display_Name>Blast Radius</Display_Name>
+			<Description>The radius of the explosion, in meters.  Also used for extra control point in human damage fall off (see Blast Radius Human Damage).</Description>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>CrumbleRadius</Name>
+			<Type>Float</Type>
+			<Display_Name>Secondary Damage Radius</Display_Name>
+			<Description>Secondary damage radius, damage is applied without impulse, pieces crumble.  Also the distance at which the Minimum Vehicle Damage is done (see below).</Description>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>KnockdownRadius</Name>
+			<Type>Float</Type>
+			<Display_Name>Human Damage Radius</Display_Name>
+			<Description>The distance at which the damage to humans falls off to 0.</Description>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>FlinchRadius</Name>
+			<Type>Float</Type>
+			<Display_Name>Human Flinch Radius</Display_Name>
+			<Description>NPCs at this radius flinch due to the explosion.</Description>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>AI_Sound_Radius</Name>
+			<Type>Float</Type>
+			<Display_Name>AI Sound Radius</Display_Name>
+			<Description>Maximum distance in which the AI can hear the explosion.</Description>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>vehicle_damage_max</Name>
+			<Type>Int</Type>
+			<Display_Name>Maximum Vehicle Damage</Display_Name>
+			<Description>Amount of hitpoints to do at the exact center of the explosion to vehicles and oridinary objects (not human or destroyable).</Description>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>vehicle_damage_min</Name>
+			<Type>Int</Type>
+			<Display_Name>Minimum Vehicle Damage</Display_Name>
+			<Description>Minimum amount of hitpoints to do at the Secondary Radius to vehicles and oridinary objects (not human or destroyable).  Should be much less than Max Vehicle Damage.</Description>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>Human_Damage_Max</Name>
+			<Type>Int</Type>
+			<Display_Name>Maximum Human Damage</Display_Name>
+			<Description>Amount of hitpoints to do at the exact center of the explosion to humans.</Description>
+			<Default>-1</Default>
+		</Element>
+		<Element>
+			<Name>human_damage_min</Name>
+			<Type>Int</Type>
+			<Display_Name>Blast Radius Human Damage</Display_Name>
+			<Description>Amount of hitpoints to do at the Blast Radius of the explosion to humans.  Fades off to 0 automatically at Human Damage Radius.</Description>
+			<Default>-1</Default>
+		</Element>
+		<Element>
+			<Name>player_mult</Name>
+			<Type>Float</Type>
+			<Display_Name>Player Damage Multiplier</Display_Name>
+			<Description>Multiplier applied to damage calculation for players.</Description>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>player_veh_mult</Name>
+			<Type>Float</Type>
+			<Display_Name>Player Vehicle Damage Multiplier</Display_Name>
+			<Description>This is a multiplier applied to the damage calculation to the player's vehicle.  It is used instead of the Player multiplier - they are not multiplied together.</Description>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>player_vehicle_impulse_mult</Name>
+			<Type>Float</Type>
+			<Display_Name>Player Vehicle Impulse Multiplier</Display_Name>
+			<Description>Multiplier for when the player's vehicle is hit with this explosion.</Description>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>Impulse</Name>
+			<Type>Int</Type>
+			<Description>Maximum impulse to apply at the center of the explosion in kg * m/s. This is interpolated to 0 at the edge.</Description>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>Structural_Damage</Name>
+			<Type>Int</Type>
+			<Display_Name>Structural Damage</Display_Name>
+			<Description>Damage amount to be applied to destroyable objects.  Damage to destroyable objects is computed entirely different then normal objects, so this value has little relevence compared to human or vehicle damage.</Description>
+			<Default>-1</Default>
+		</Element>
+		<Element>
+			<Name>Duration</Name>
+			<Type>Int</Type>
+			<Display_Name>Expanding Explosion Duration</Display_Name>
+			<Description>This is used to control how long (in milliseconds) it takes an expanding explosion to reach the full radius.</Description>
+			<Required>false</Required>
+			<Default>500</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>Delay</Name>
+			<Type>Int</Type>
+			<Display_Name>Expanding Explosion Delay</Display_Name>
+			<Description>This controls how long to delay (in milliseconds) before starting to delete pieces, the effect(s) start immediately</Description>
+			<Required>false</Required>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>Effects</Name>
+			<Type>List</Type>
+			<Description>List of effects from the effects table to play.</Description>
+			<Element>
+				<Name>Element</Name>
+				<Type>Reference</Type>
+				<Display_Name>Effect</Display_Name>
+				<Reference>
+					<File>effects.xtbl</File>
+					<Type>Effect.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+			<Element_Name>Element</Element_Name>
+		</Element>
+		<Element>
+			<Name>Material_Effects</Name>
+			<Type>Grid</Type>
+			<Display_Name>Material Effects</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>Entry</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>Material</Name>
+					<Type>Reference</Type>
+					<Reference>
+						<File>rfg_effect_materials.xtbl</File>
+						<Type>Material.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>Effect</Name>
+					<Type>Reference</Type>
+					<Reference>
+						<File>effects.xtbl</File>
+						<Type>Effect.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+		<Element>
+			<Name>SalvageMaterial</Name>
+			<Type>Reference</Type>
+			<Display_Name>Salvage Material</Display_Name>
+			<Required>false</Required>
+			<Default>0</Default>
+			<Reference>
+				<File>salvage.xtbl</File>
+				<Type>Material.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>MaxSalvagePieces</Name>
+			<Type>Int</Type>
+			<Display_Name>Max Salvage Pieces</Display_Name>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>SalvageProbability</Name>
+			<Type>Float</Type>
+			<Display_Name>Salvage Probability</Display_Name>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>1</MaxValue>
+			<UseSlider>True</UseSlider>
+		</Element>
+		<Element>
+			<Name>ConeAngle</Name>
+			<Type>Float</Type>
+			<Display_Name>Cone Half Angle</Display_Name>
+			<Description>When specified it defines half angle (in degrees) for a cone around the fvec of the explosion orient, things outside that cone are not damaged.</Description>
+			<Required>false</Required>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>180</MaxValue>
+		</Element>
+		<Element>
+			<Name>Blast_decal_radius</Name>
+			<Type>Float</Type>
+			<Display_Name>Blast Decal Radius</Display_Name>
+			<Description>This is the radius of the sphere used to place blast decals.
+
+If this is not set, an average of the Blast Radius and Secondary Damage Radius will be used.</Description>
+			<Required>false</Required>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Break_off_pieces</Name>
+			<Type>Element</Type>
+			<Display_Name>Break Off Pieces</Display_Name>
+			<Description>Set this to make the explosion behave like a nano-rifle (breaking off pieces from objects).</Description>
+			<Required>false</Required>
+			<Element>
+				<Name>Time_between_breaks</Name>
+				<Type>Int</Type>
+				<Display_Name>Time Between Breaks</Display_Name>
+				<Description>Time between each destruction frame of breaking links.</Description>
+				<Default>0</Default>
+			</Element>
+		</Element>
+		<Element>
+			<Name>camera_shake_type</Name>
+			<Type>Selection</Type>
+			<Display_Name>Camera Shake Type</Display_Name>
+			<Description>The type of camera shake to play for this explosion.</Description>
+			<Required>false</Required>
+			<Default>explosion_large</Default>
+			<Choice>explosion_small</Choice>
+			<Choice>explosion_large</Choice>
+			<Choice>explosion_quake</Choice>
+			<Choice>explosion_very_large</Choice>
+			<Choice>explosion_smash</Choice>
+		</Element>
+		<Element>
+			<Name>camera_shake_multiplier</Name>
+			<Type>Float</Type>
+			<Display_Name>Camera Shake Multiplier</Display_Name>
+			<Description>Base multiplier of the camera shake.  Values &gt; 1.0 will make the shaking effect more intense than usual.</Description>
+			<Required>false</Required>
+			<Default>1.0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>100</MaxValue>
+		</Element>
+		<Element>
+			<Name>camera_shake_falloff</Name>
+			<Type>Float</Type>
+			<Display_Name>Camera Shake Falloff</Display_Name>
+			<Description>The distance from the explosion at which the camera doesn't shake at all.</Description>
+			<Required>false</Required>
+			<Default>50.0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

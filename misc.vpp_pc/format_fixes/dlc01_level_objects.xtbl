@@ -1,0 +1,636 @@
+<root>
+	<Table>
+		<Level_Object>
+			<Name>dlc01_fuelcell</Name>
+			<Non_Inherited_Attributes>
+				<Movable_By_Humans>False</Movable_By_Humans>
+			</Non_Inherited_Attributes>
+			<Non_Destroyable_Attributes>
+				<Hitpoints>999999</Hitpoints>
+				<Dislodge_Hitpoints>500</Dislodge_Hitpoints>
+				<Affected_by_objects>False</Affected_by_objects>
+				<Damaged_by_bullets>False</Damaged_by_bullets>
+				<Dislodged_by_bullets>False</Dislodged_by_bullets>
+				<Dislodge_on_death>False</Dislodge_on_death>
+				<Weight>999999</Weight>
+				<Physical_Material>Steel-SuperStrong</Physical_Material>
+				<Restitution>0.0</Restitution>
+				<Allow_Dynamic_Link>False</Allow_Dynamic_Link>
+				<Dynamic_link_affects_effects>False</Dynamic_link_affects_effects>
+			</Non_Destroyable_Attributes>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Level_Object>
+		<Level_Object>
+			<Name>dlc01_wartotem</Name>
+			<Non_Inherited_Attributes>
+				<Movable_By_Humans>False</Movable_By_Humans>
+				<custom_effects>
+					<effect>
+						<effect_name>veh_smoke_corpse_generic</effect_name>
+					</effect>
+				</custom_effects>
+			</Non_Inherited_Attributes>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Level_Object>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Level_Object</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Level Object</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Object Name</Display_Name>
+			<Description>Name of the property entry.</Description>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>Inherited_Attributes</Name>
+			<Type>Element</Type>
+			<Display_Name>Inherited Attributes</Display_Name>
+			<Description>These properties are applied to all movers, including movers spawned from destruction.</Description>
+			<Required>false</Required>
+			<Element>
+				<Name>Effect_material_overrides</Name>
+				<Type>Element</Type>
+				<Display_Name>Effect Material Overrides</Display_Name>
+				<Description>These effects are used in place of the general effect material defined for this object.</Description>
+				<Required>false</Required>
+				<Element>
+					<Name>Collision_impact</Name>
+					<Type>Reference</Type>
+					<Display_Name>Collision Impact</Display_Name>
+					<Required>false</Required>
+					<Reference>
+						<File>effects.xtbl</File>
+						<Type>Effect.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>Min_impact_energy</Name>
+					<Type>String</Type>
+					<Display_Name>Min Impact Energy</Display_Name>
+					<Description>The minimum amount of kinetic energy required to trigger an impact effect.  A good default value for this is about 100 times the mass of the object.</Description>
+					<Required>false</Required>
+				</Element>
+				<Element>
+					<Name>Melee_impact</Name>
+					<Type>Grid</Type>
+					<Display_Name>Melee Impact</Display_Name>
+					<Description>Define effects to play for each melee group</Description>
+					<Required>false</Required>
+					<Element>
+						<Name>definition</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>Melee_group</Name>
+							<Type>Reference</Type>
+							<Display_Name>Melee Group</Display_Name>
+							<Reference>
+								<File>rfg_melee_groups.xtbl</File>
+								<Type>Melee_Group.Name</Type>
+								<OpenSeparate>False</OpenSeparate>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Effect</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>effects.xtbl</File>
+								<Type>Effect.Name</Type>
+								<OpenSeparate>False</OpenSeparate>
+							</Reference>
+						</Element>
+					</Element>
+					<Min_Children>1</Min_Children>
+					<Num_Display_Rows>8</Num_Display_Rows>
+				</Element>
+				<Element>
+					<Name>Bullet_impact</Name>
+					<Type>Grid</Type>
+					<Display_Name>Bullet Impact</Display_Name>
+					<Description>Define effects to play for each bullet group</Description>
+					<Required>false</Required>
+					<Element>
+						<Name>definition</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>Bullet_group</Name>
+							<Type>Reference</Type>
+							<Display_Name>Bullet Group</Display_Name>
+							<Reference>
+								<File>rfg_bullet_groups.xtbl</File>
+								<Type>Bullet_Group.Name</Type>
+								<OpenSeparate>False</OpenSeparate>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Effect</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>effects.xtbl</File>
+								<Type>Effect.Name</Type>
+								<OpenSeparate>False</OpenSeparate>
+							</Reference>
+						</Element>
+					</Element>
+					<Num_Display_Rows>8</Num_Display_Rows>
+				</Element>
+			</Element>
+			<Element>
+				<Name>Script_Point_Effects</Name>
+				<Type>List</Type>
+				<Display_Name>Script Point Effects</Display_Name>
+				<Required>false</Required>
+				<Element>
+					<Name>Script_Point_Effect</Name>
+					<Type>Element</Type>
+					<Display_Name>Script Point Effect</Display_Name>
+					<Element>
+						<Name>Script_Point_Name</Name>
+						<Type>String</Type>
+						<Display_Name>Script Point Name</Display_Name>
+					</Element>
+					<Element>
+						<Name>Hitpoints</Name>
+						<Type>Int</Type>
+						<Description>If hitpoints are not set, then this will not take damage or play a death effect/explosion.</Description>
+						<Required>false</Required>
+						<Default>200</Default>
+					</Element>
+					<Element>
+						<Name>Custom_Effect</Name>
+						<Type>Reference</Type>
+						<Display_Name>Custom Effect</Display_Name>
+						<Description>Effect that plays under normal circumstances.</Description>
+						<Required>false</Required>
+						<Default>0</Default>
+						<Reference>
+							<File>effects.xtbl</File>
+							<Type>Effect.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
+						</Reference>
+					</Element>
+					<Element>
+						<Name>Prefix_Effect</Name>
+						<Type>Reference</Type>
+						<Display_Name>Prefix Effect</Display_Name>
+						<Description>Plays before a death explosion or effect.</Description>
+						<Required>false</Required>
+						<Reference>
+							<File>effects.xtbl</File>
+							<Type>Effect.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
+						</Reference>
+					</Element>
+					<Element>
+						<Name>Prefix_Effect_Delay_Min</Name>
+						<Type>Float</Type>
+						<Display_Name>Prefix Effect Delay Min</Display_Name>
+						<Description>The delay (in seconds) to use before exploding/dying.</Description>
+						<Default>0.0</Default>
+					</Element>
+					<Element>
+						<Name>Prefix_Effect_Delay_Max</Name>
+						<Type>Float</Type>
+						<Display_Name>Prefix Effect Delay Max</Display_Name>
+						<Description>The max time using the prefix effect.</Description>
+						<Required>false</Required>
+						<Default>0.0</Default>
+					</Element>
+					<Element>
+						<Name>Prefix_Hitpoints</Name>
+						<Type>Int</Type>
+						<Display_Name>Prefix Hitpoints</Display_Name>
+						<Description>The number of hitpoints assigned back to the mover once the prefix effect starts (so the death can be sooner if it takes more damage).  If this is not set, the prefix will take the alloted time.</Description>
+						<Required>false</Required>
+						<Default>0</Default>
+					</Element>
+					<Element>
+						<Name>Death_Effect</Name>
+						<Type>Reference</Type>
+						<Display_Name>Death Effect</Display_Name>
+						<Description>effect to play when dead</Description>
+						<Required>false</Required>
+						<Reference>
+							<File>effects.xtbl</File>
+							<Type>Effect.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
+						</Reference>
+					</Element>
+					<Element>
+						<Name>Death_Explosion</Name>
+						<Type>Reference</Type>
+						<Display_Name>Death Explosion</Display_Name>
+						<Description>explosion to play when dead</Description>
+						<Required>false</Required>
+						<Reference>
+							<File>explosions.xtbl</File>
+							<Type>Explosion.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
+						</Reference>
+					</Element>
+					<Element>
+						<Name>Bullet_impact</Name>
+						<Type>Grid</Type>
+						<Display_Name>Bullet Impact</Display_Name>
+						<Description>Define effects to play for each bullet group</Description>
+						<Required>false</Required>
+						<Element>
+							<Name>definition</Name>
+							<Type>Element</Type>
+							<Element>
+								<Name>Bullet_group</Name>
+								<Type>Reference</Type>
+								<Display_Name>Bullet Group</Display_Name>
+								<Reference>
+									<File>rfg_bullet_groups.xtbl</File>
+									<Type>Bullet_Group.Name</Type>
+									<OpenSeparate>False</OpenSeparate>
+								</Reference>
+							</Element>
+							<Element>
+								<Name>Effect</Name>
+								<Type>Reference</Type>
+								<Reference>
+									<File>effects.xtbl</File>
+									<Type>Effect.Name</Type>
+									<OpenSeparate>False</OpenSeparate>
+								</Reference>
+							</Element>
+						</Element>
+						<Num_Display_Rows>8</Num_Display_Rows>
+					</Element>
+					<Element>
+						<Name>Flags</Name>
+						<Type>Flags</Type>
+						<Flag>Stop Custom on Detach</Flag>
+						<Flag>Kill on Detach</Flag>
+						<Flag>Prefix Effect No Loop</Flag>
+						<Flag>No Bullet Damage</Flag>
+						<Flag>No Melee Damage</Flag>
+						<Flag>Kiosk Large Screen</Flag>
+						<Flag>Kiosk Small Screen</Flag>
+						<Flag>Night Only</Flag>
+						<Flag>Kill on Move</Flag>
+					</Element>
+				</Element>
+				<Max_Children>4</Max_Children>
+				<Min_Children>1</Min_Children>
+				<Num_Display_Rows>8</Num_Display_Rows>
+				<Element_Name>Script_Point_Effect.Script_Point_Name</Element_Name>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Non_Inherited_Attributes</Name>
+			<Type>Element</Type>
+			<Display_Name>Non Inherited Attributes</Display_Name>
+			<Description>These properties can go on both destroyables and non-destroyables, but are not respected by movers generated from destruction.</Description>
+			<Required>false</Required>
+			<Element>
+				<Name>Movable_By_Humans</Name>
+				<Type>Selection</Type>
+				<Display_Name>Movable By Humans</Display_Name>
+				<Description>If the object isn't anchored and this is true, then the object can be pushed by a human.</Description>
+				<Default>True</Default>
+				<Choice>True</Choice>
+				<Choice>False</Choice>
+			</Element>
+			<Element>
+				<Name>custom_effects</Name>
+				<Type>List</Type>
+				<Display_Name>Custom Effects</Display_Name>
+				<Description>A list of effects that play on an object.  Custom behavior for these can be defined.</Description>
+				<Required>false</Required>
+				<Element>
+					<Name>effect</Name>
+					<Type>Element</Type>
+					<Display_Name>Effect</Display_Name>
+					<Element>
+						<Name>effect_name</Name>
+						<Type>Reference</Type>
+						<Display_Name>Effect Name</Display_Name>
+						<Reference>
+							<File>effects.xtbl</File>
+							<Type>Effect.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
+						</Reference>
+					</Element>
+					<Element>
+						<Name>attachment_point</Name>
+						<Type>String</Type>
+						<Display_Name>Attachment Point</Display_Name>
+						<Description>A script point name, etc.</Description>
+						<Required>false</Required>
+					</Element>
+				</Element>
+				<Max_Children>3</Max_Children>
+				<Min_Children>1</Min_Children>
+				<Num_Display_Rows>8</Num_Display_Rows>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Non_Destroyable_Attributes</Name>
+			<Type>Element</Type>
+			<Display_Name>Non Destroyable Attributes</Display_Name>
+			<Description>These properties are only applicable on non-destroyables.</Description>
+			<Required>false</Required>
+			<Element>
+				<Name>Hitpoints</Name>
+				<Type>Int</Type>
+				<Description>Number of hitpoints for the object.</Description>
+				<Default>0</Default>
+			</Element>
+			<Element>
+				<Name>Dislodge_Hitpoints</Name>
+				<Type>Int</Type>
+				<Display_Name>Dislodge Hitpoints</Display_Name>
+				<Description>If the object dislodges, this is the damage required before it dislodges.  This must be less than the Hitpoints value.  Set this to 0 if you don't want the object to dislodge (if the object explodes this MUST be 0).</Description>
+				<Default>500</Default>
+			</Element>
+			<Element>
+				<Name>Affected_by_objects</Name>
+				<Type>Selection</Type>
+				<Display_Name>Damaged by Objects</Display_Name>
+				<Description>Whether the object is dislodged and damaged by cars, explosions, level objects and melee.</Description>
+				<Default>True</Default>
+				<Choice>True</Choice>
+				<Choice>False</Choice>
+			</Element>
+			<Element>
+				<Name>Damaged_by_bullets</Name>
+				<Type>Selection</Type>
+				<Display_Name>Damaged by Bullets</Display_Name>
+				<Description>Whether or not this object takes damage from bullets.</Description>
+				<Default>True</Default>
+				<Choice>True</Choice>
+				<Choice>False</Choice>
+			</Element>
+			<Element>
+				<Name>Dislodged_by_bullets</Name>
+				<Type>Selection</Type>
+				<Display_Name>Dislodged by Bullets</Display_Name>
+				<Description>Whether the object is dislodged by bullets.</Description>
+				<Default>True</Default>
+				<Choice>True</Choice>
+				<Choice>False</Choice>
+			</Element>
+			<Element>
+				<Name>Dislodge_on_death</Name>
+				<Type>Selection</Type>
+				<Display_Name>Dislodge on Death</Display_Name>
+				<Description>When this object is "killed," should the corpse be automatically dislodged? (Note: dislodge hitpoints are still valid, and can be used, but this guarantees that the corpse will be movable)</Description>
+				<Default>False</Default>
+				<Choice>True</Choice>
+				<Choice>False</Choice>
+			</Element>
+			<Element>
+				<Name>Weight</Name>
+				<Type>Int</Type>
+				<Display_Name>Weight (kilograms)</Display_Name>
+				<Description>Weight of the object in kilograms.  (1 kg = 2.2 lbs)</Description>
+				<Default>0</Default>
+				<MinValue>1</MinValue>
+			</Element>
+			<Element>
+				<Name>Corpse_mass</Name>
+				<Type>Int</Type>
+				<Display_Name>Corpse Mass (kilograms)</Display_Name>
+				<Required>false</Required>
+				<Default>0</Default>
+				<MinValue>1</MinValue>
+			</Element>
+			<Element>
+				<Name>Physical_Material</Name>
+				<Type>Reference</Type>
+				<Display_Name>Physical Material</Display_Name>
+				<Description>Physical material name</Description>
+				<Default>concrete</Default>
+				<Reference>
+					<File>rfg_materials.xtbl</File>
+					<Type>Material.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Effect_Material</Name>
+				<Type>Reference</Type>
+				<Display_Name>Effect Material</Display_Name>
+				<Description>Effect material, only set if you don't want to use the effect material linked to the physical material set above</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_effect_materials.xtbl</File>
+					<Type>Material.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Friction</Name>
+				<Type>Float</Type>
+				<Description>How much friction (0.0 = no friction, 1.0  = maximum friction)</Description>
+				<Required>false</Required>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>1</MaxValue>
+			</Element>
+			<Element>
+				<Name>Restitution</Name>
+				<Type>Float</Type>
+				<Description>How bouncy it is. (0.0 = it won't bounce, 1.9 = super bouncy)</Description>
+				<Required>false</Required>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>1.9</MaxValue>
+			</Element>
+			<Element>
+				<Name>Linear_dampening</Name>
+				<Type>Float</Type>
+				<Display_Name>Linear Dampening</Display_Name>
+				<Description>Higher valuse cause objects to lose velocity more quickly.</Description>
+				<Required>false</Required>
+				<Default>0.01</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>100</MaxValue>
+			</Element>
+			<Element>
+				<Name>Angular_dampening</Name>
+				<Type>Float</Type>
+				<Display_Name>Angular Dampening</Display_Name>
+				<Description>Higher valuse cause objects to lose rotational velocity more quickly.</Description>
+				<Required>false</Required>
+				<Default>0.05</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>100</MaxValue>
+			</Element>
+			<Element>
+				<Name>Allow_Dynamic_Link</Name>
+				<Type>Selection</Type>
+				<Display_Name>Allow Dynamic Link</Display_Name>
+				<Description>When this is set, this object can be linked to another destroyable, like using a constraint, but more efficient.</Description>
+				<Default>False</Default>
+				<Choice>True</Choice>
+				<Choice>False</Choice>
+			</Element>
+			<Element>
+				<Name>Dynamic_link_affects_effects</Name>
+				<Type>Selection</Type>
+				<Display_Name>Dynamic Link Affects Effects</Display_Name>
+				<Description>This means that this object will not play its custom effects unless dynamically linked, and will stop them if that link is broken.</Description>
+				<Default>False</Default>
+				<Choice>True</Choice>
+				<Choice>False</Choice>
+			</Element>
+			<Element>
+				<Name>Death_Effect</Name>
+				<Type>Reference</Type>
+				<Display_Name>Death Effect</Display_Name>
+				<Description>Effect to play when the hitpoints reach zero, name of the effect from effects.xtbl.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>effects.xtbl</File>
+					<Type>Effect.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Release_Effect</Name>
+				<Type>Element</Type>
+				<Display_Name>Release Effect</Display_Name>
+				<Required>false</Required>
+				<Default>0.0</Default>
+				<Element>
+					<Name>Effect</Name>
+					<Type>Reference</Type>
+					<Reference>
+						<File>effects.xtbl</File>
+						<Type>Effect.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>Delay</Name>
+					<Type>Float</Type>
+					<Display_Name>Delay (seconds)</Display_Name>
+					<Default>0.0</Default>
+				</Element>
+				<Element>
+					<Name>Loop</Name>
+					<Type>Float</Type>
+					<Display_Name>Loop (seconds)</Display_Name>
+					<Default>0.0</Default>
+				</Element>
+			</Element>
+			<Element>
+				<Name>Prefix_Effects</Name>
+				<Type>Element</Type>
+				<Display_Name>Prefix Effects</Display_Name>
+				<Description>Effects to be played when an object is destroyed but before the death effects happen.</Description>
+				<Required>false</Required>
+				<Element>
+					<Name>Effects</Name>
+					<Type>List</Type>
+					<Description>Properties for the prefix effect</Description>
+					<Element>
+						<Name>Effect</Name>
+						<Type>Element</Type>
+						<Description>List of effects to be played during the prefix period.</Description>
+						<Element>
+							<Name>Effect_Name</Name>
+							<Type>Reference</Type>
+							<Display_Name>Effect Name</Display_Name>
+							<Description>Name of the effect</Description>
+							<Reference>
+								<File>effects.xtbl</File>
+								<Type>Effect.Name</Type>
+								<OpenSeparate>False</OpenSeparate>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Looping</Name>
+							<Type>Selection</Type>
+							<Default>True</Default>
+							<Choice>True</Choice>
+							<Choice>False</Choice>
+						</Element>
+						<Element>
+							<Name>Attachment_Point</Name>
+							<Type>String</Type>
+							<Display_Name>Attachment Point</Display_Name>
+							<Description>Scripting point to attach the effect to</Description>
+							<Required>false</Required>
+						</Element>
+					</Element>
+					<Max_Children>2</Max_Children>
+					<Num_Display_Rows>8</Num_Display_Rows>
+				</Element>
+				<Element>
+					<Name>Min_Duration</Name>
+					<Type>Float</Type>
+					<Display_Name>Min Duration</Display_Name>
+					<Description>Minimum amount of time in (in seconds) to play the prefix effect before letting the object do the death effect</Description>
+					<Default>1.0</Default>
+				</Element>
+				<Element>
+					<Name>Max_Duration</Name>
+					<Type>Float</Type>
+					<Display_Name>Max Duration</Display_Name>
+					<Description>Maximum ammount of time to play the prefix effect for.  If specified, the actual amount of time that the effect will last is a random value in the range of min-max.</Description>
+					<Required>false</Required>
+					<Default>0.0</Default>
+				</Element>
+				<Element>
+					<Name>Prefix_Hitpoints</Name>
+					<Type>Int</Type>
+					<Display_Name>Prefix Hitpoints</Display_Name>
+					<Description>This specifies additional hitpoints given to the object once it has died.  If the object looses all these hitpoints, the prefix effect will be ended prematurly and the death effect will play.</Description>
+					<Required>false</Required>
+					<Default>0</Default>
+				</Element>
+			</Element>
+			<Element>
+				<Name>DeathExplosionList</Name>
+				<Type>List</Type>
+				<Display_Name>Death Explosion</Display_Name>
+				<Description>List of explosions (and optional script point names) to play when the object reaches 0 hit points.</Description>
+				<Required>false</Required>
+				<Element>
+					<Name>explosion</Name>
+					<Type>Element</Type>
+					<Display_Name>Explosion</Display_Name>
+					<Element>
+						<Name>Death_Explosion</Name>
+						<Type>Reference</Type>
+						<Display_Name>Death Explosion</Display_Name>
+						<Description>Explosion to play when the hitpoints reach zero, name of the effect from explosions.xtbl.</Description>
+						<Reference>
+							<File>explosions.xtbl</File>
+							<Type>Explosion.Name</Type>
+							<OpenSeparate>False</OpenSeparate>
+						</Reference>
+					</Element>
+					<Element>
+						<Name>attachment_point</Name>
+						<Type>String</Type>
+						<Display_Name>Attachment Point</Display_Name>
+						<Description>A script point name, etc.  Use object pos and orient if this is not defined.</Description>
+						<Required>false</Required>
+					</Element>
+				</Element>
+				<Max_Children>2</Max_Children>
+				<Min_Children>1</Min_Children>
+				<Num_Display_Rows>4</Num_Display_Rows>
+			</Element>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>
