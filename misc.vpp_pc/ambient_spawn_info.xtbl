@@ -1,0 +1,688 @@
+<root>
+	<Table>
+		<ambient_spawn_info>
+			<Name>Gov_0503</Name>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
+			<_Editor>
+				<Category>Eos Gov Corp</Category>
+			</_Editor>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>End_0604</Name>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
+			<_Editor>
+				<Category>End Game</Category>
+			</_Editor>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>End_0703</Name>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
+			<_Editor>
+				<Category>End Game</Category>
+			</_Editor>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Gov_0504</Name>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
+			<_Editor>
+				<Category>Eos Gov Corp</Category>
+			</_Editor>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Eos_0505</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Eos</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Eos_0406</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Eos</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Eos_0506</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Eos</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Eos_0407</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Eos</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Free_0408</Name>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Freefire</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo</default_ambient_behavior>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Free_0409</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Freefire</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Free_0508</Name>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Freefire</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Free_0509</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Freefire</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Parker_0410</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Parker</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Parker_0510</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Parker</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Dust_0609</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Dust</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Dust_0610</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Dust</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Dust_0708</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Dust</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Dust_0709</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Dust</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Dust_0710</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Dust</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Dust_0711</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Dust</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Dust_0712</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Dust</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Dust_0809</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Dust</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Dust_0810</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Dust</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Bad_0908</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Badlands</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Bad_0909</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Badlands</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Bad_0910</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Badlands</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Bad_1008</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Badlands</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Bad_1009</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Badlands</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Bad_1010</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Badlands</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Bad_1108</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Badlands</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Bad_1110</Name>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Badlands</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Bad_1208</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Badlands</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Bad_1210</Name>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Badlands</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Oasis_0806</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Oasis</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Oasis_0906</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Oasis</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Oasis_0907</Name>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Oasis</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Oasis_1006</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Oasis</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Oasis_1106</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Oasis</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Oasis_1107</Name>
+			<ped_spawn_density>High</ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<_Editor>
+				<Category>Oasis</Category>
+			</_Editor>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Parker_0312</Name>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<_Editor>
+				<Category>Parker</Category>
+			</_Editor>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+		
+		<ambient_spawn_info>
+			<Name>Racetrack</Name>
+			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<_Editor>
+				<Category>Test</Category>
+			</_Editor>
+			<ped_spawn_density>High</ped_spawn_density>
+			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<veh_spawn_density>High</veh_spawn_density>
+			<night_veh_spawn_density>High</night_veh_spawn_density>
+		</ambient_spawn_info>
+	</Table>
+	<TableTemplates>
+	</TableTemplates>
+	<TableDescription>
+		<Name>ambient_spawn_info</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>ped_spawn_density</Name>
+			<Type>Selection</Type>
+			<Display_Name>Pedestrian Spawn Density</Display_Name>
+			<Required>false</Required>
+			<Default>Low</Default>
+			<Choice>Low</Choice>
+			<Choice>Medium</Choice>
+			<Choice>High</Choice>
+		</Element>
+		<Element>
+			<Name>night_ped_spawn_density</Name>
+			<Type>Selection</Type>
+			<Display_Name>Night Pedestrian Density</Display_Name>
+			<Required>false</Required>
+			<Default>Low</Default>
+			<Choice>Low</Choice>
+			<Choice>Medium</Choice>
+			<Choice>High</Choice>
+		</Element>
+		<Element>
+			<Name>veh_spawn_density</Name>
+			<Type>Selection</Type>
+			<Display_Name>Vehicle Spawn Density</Display_Name>
+			<Required>false</Required>
+			<Default>Low</Default>
+			<Choice>Low</Choice>
+			<Choice>Medium</Choice>
+			<Choice>High</Choice>
+		</Element>
+		<Element>
+			<Name>night_veh_spawn_density</Name>
+			<Type>Selection</Type>
+			<Display_Name>Night Vehicle Density</Display_Name>
+			<Required>false</Required>
+			<Default>Low</Default>
+			<Choice>Low</Choice>
+			<Choice>Medium</Choice>
+			<Choice>High</Choice>
+		</Element>
+		<Element>
+			<Name>npc_spawn_group</Name>
+			<Type>Reference</Type>
+			<Display_Name>NPC Spawn Group</Display_Name>
+			<Reference>
+				<File>spawn_group_human.xtbl</File>
+				<Type>spawn_group_human.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>vehicle_spawn_group</Name>
+			<Type>Reference</Type>
+			<Display_Name>Vehicle Spawn Group</Display_Name>
+			<Reference>
+				<File>spawn_group_vehicle.xtbl</File>
+				<Type>spawn_group_vehicle.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>default_ambient_behavior</Name>
+			<Type>Reference</Type>
+			<Display_Name>Default Ambient Behavior</Display_Name>
+			<Reference>
+				<File>Ambient_spawn_behavior.xtbl</File>
+				<Type>Behaviors.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Single_Line_XML>False</Single_Line_XML>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Badlands</Name>
+		</Category>
+		<Category>
+			<Name>Dust</Name>
+		</Category>
+		<Category>
+			<Name>End Game</Name>
+		</Category>
+		<Category>
+			<Name>Eos</Name>
+		</Category>
+		<Category>
+			<Name>Eos Gov Corp</Name>
+		</Category>
+		<Category>
+			<Name>Freefire</Name>
+		</Category>
+		<Category>
+			<Name>Oasis</Name>
+		</Category>
+		<Category>
+			<Name>Parker</Name>
+		</Category>
+		<Category>
+			<Name>Test</Name>
+		</Category>
+	</EntryCategories>
+</root>
