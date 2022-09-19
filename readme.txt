@@ -19,4 +19,4 @@ MANUAL INSTALLATION
 4. Extract the .7z file and drag and drop the "data" folder to "Red Faction Guerrilla Re-MARS-tered" where the rfg.exe is located. You will be asked if you want to overwrite, select yes to all. 
 
 Note: You can install new versions of the patch over the top of old versions
-Note: Don't use RSL or mod manager mods with this patch
+Note: Don't use RSL or mod manager mods with this patch 
