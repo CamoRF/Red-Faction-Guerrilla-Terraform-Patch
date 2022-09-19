@@ -1,0 +1,154 @@
+<root>
+	<Table>
+		<ArbitrationData>
+			<Name>EDF</Name>
+			<AssignmentDistLowNone>300</AssignmentDistLowNone>
+			<AssignmentDistLowYellow>300</AssignmentDistLowYellow>
+			<AssignmentDistLowOrange>300</AssignmentDistLowOrange>
+			<AssignmentDistLowRed>400</AssignmentDistLowRed>
+			<AssignmentDistLowMaroon>500</AssignmentDistLowMaroon>
+			<AssignmentDistMediumNone>200</AssignmentDistMediumNone>
+			<AssignmentDistMediumYellow>200</AssignmentDistMediumYellow>
+			<AssignmentDistMediumOrange>200</AssignmentDistMediumOrange>
+			<AssignmentDistMediumRed>200</AssignmentDistMediumRed>
+			<AssignmentDistMediumMaroon>200</AssignmentDistMediumMaroon>
+			<AssignmentDistHighNone>200</AssignmentDistHighNone>
+			<AssignmentDistHighYellow>150</AssignmentDistHighYellow>
+			<AssignmentDistHighOrange>100</AssignmentDistHighOrange>
+			<AssignmentDistHighRed>75</AssignmentDistHighRed>
+			<AssignmentDistHighMaroon>80</AssignmentDistHighMaroon>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</ArbitrationData>
+		<ArbitrationData>
+			<Name>Guerilla</Name>
+			<AssignmentDistLowNone>300</AssignmentDistLowNone>
+			<AssignmentDistLowYellow>300</AssignmentDistLowYellow>
+			<AssignmentDistLowOrange>300</AssignmentDistLowOrange>
+			<AssignmentDistLowRed>400</AssignmentDistLowRed>
+			<AssignmentDistLowMaroon>500</AssignmentDistLowMaroon>
+			<AssignmentDistMediumNone>200</AssignmentDistMediumNone>
+			<AssignmentDistMediumYellow>200</AssignmentDistMediumYellow>
+			<AssignmentDistMediumOrange>200</AssignmentDistMediumOrange>
+			<AssignmentDistMediumRed>200</AssignmentDistMediumRed>
+			<AssignmentDistMediumMaroon>200</AssignmentDistMediumMaroon>
+			<AssignmentDistHighNone>200</AssignmentDistHighNone>
+			<AssignmentDistHighYellow>150</AssignmentDistHighYellow>
+			<AssignmentDistHighOrange>100</AssignmentDistHighOrange>
+			<AssignmentDistHighRed>75</AssignmentDistHighRed>
+			<AssignmentDistHighMaroon>80</AssignmentDistHighMaroon>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</ArbitrationData>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>ArbitrationData</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>human_team_names.xtbl</File>
+				<Type>HumanTeamNames.TeamNameList.TeamName</Type>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>AssignmentDistLowNone</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist Low None</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistLowYellow</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist Low Yellow</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistLowOrange</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist Low Orange</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistLowRed</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist Low Red</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistLowMaroon</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist Low Maroon</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistMediumNone</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist Medium None</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistMediumYellow</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist Medium Yellow</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistMediumOrange</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist Medium Orange</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistMediumRed</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist Medium Red</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistMediumMaroon</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist Medium Maroon</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistHighNone</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist High None</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistHighYellow</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist High Yellow</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistHighOrange</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist High Orange</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistHighRed</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist High Red</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>AssignmentDistHighMaroon</Name>
+			<Type>Int</Type>
+			<Display_Name>Assignment Dist High Maroon</Display_Name>
+			<Default>100</Default>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

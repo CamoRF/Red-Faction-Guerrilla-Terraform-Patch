@@ -1,0 +1,43 @@
+<root>
+	<Table>
+		<Location>
+			<Name>Left Hand</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Location>
+		<Location>
+			<Name>Right Hand</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Location>
+		<Location>
+			<Name>Left Foot</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Location>
+		<Location>
+			<Name>Right Foot</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Location>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Location</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>IK Location Name</Display_Name>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

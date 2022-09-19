@@ -1,0 +1,1179 @@
+<root>
+	<Table>
+		<Skeleton_Set>
+			<Name>Civilian_Female</Name>
+			<Parent_Skeleton>Civilian_Male</Parent_Skeleton>
+			<Groups>
+				<Group>
+					<group>Default</group>
+					<States>
+						<State>
+							<ID>walk</ID>
+							<Animation>
+								<Filename>civf_wlk_a</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sprint</ID>
+							<Animation>
+								<Filename>civm_flee.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sit idle</ID>
+							<Animation>
+								<Filename>civm_sit_idle_a.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>one hand ready</ID>
+							<Animation>
+								<Filename>civm_1hrd_idle.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sleep</ID>
+							<Animation>
+								<Filename>civf_ambnt_slp_bed_a.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand lean</ID>
+							<Animation>
+								<Filename>civm_stndln_idle.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand arms crossed</ID>
+							<Animation>
+								<Filename>civm_std_idle_armscrssd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk confident</ID>
+							<Animation>
+								<Filename>civf_wlk_cnfdnt.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk more confident</ID>
+							<Animation>
+								<Filename>civf_wlk_a.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk angry</ID>
+							<Animation>
+								<Filename>civf_wlk_angr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk stiff b</ID>
+							<Animation>
+								<Filename>civf_wlk_b.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk oppressed</ID>
+							<Animation>
+								<Filename>civm_wlk_heddwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk confident 35</ID>
+							<Animation>
+								<Filename>civf_wlk_high_cnfdnt.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk confident dn 35</ID>
+							<Animation>
+								<Filename>civf_wlk_low_cnfdnt.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk more confident 35</ID>
+							<Animation>
+								<Filename>civf_wlk_high_a.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk more confident dn 35</ID>
+							<Animation>
+								<Filename>civf_wlk_low_a.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk angry 35</ID>
+							<Animation>
+								<Filename>civf_wlk_high_angr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk angry dn 35</ID>
+							<Animation>
+								<Filename>civf_wlk_low_angr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk stiff a 35</ID>
+							<Animation>
+								<Filename>civf_wlk_high_b.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk stiff a dn 35</ID>
+							<Animation>
+								<Filename>civf_wlk_low_b.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sam stand</ID>
+							<Animation>
+								<Filename>civf_ambnt_std_a.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sam weld</ID>
+							<Animation>
+								<Filename>civf_ambnt_weld_crch.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ambient steps sit</ID>
+							<Animation>
+								<Filename>civf_ambnt_stps_sit.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sitting</ID>
+							<Animation>
+								<Filename>civf_ambnt_sit.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sit bench</ID>
+							<Animation>
+								<Filename>civf_ambnt_sit.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ambient sleep in bed</ID>
+							<Animation>
+								<Filename>civf_ambnt_slp_bed.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ambient weld</ID>
+							<Animation>
+								<Filename>civf_ambnt_weld_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand</ID>
+							<Animation>
+								<Filename>civf_ambnt_std_a.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ambient work stand</ID>
+							<Animation>
+								<Filename>civf_ambnt_work_std.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>react angry a</ID>
+							<Animation>
+								<Filename>civm_std_angry_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>react angry c</ID>
+							<Animation>
+								<Filename>civm_std_angry_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>react angry b</ID>
+							<Animation>
+								<Filename>civm_std_angry_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>react angry d</ID>
+							<Animation>
+								<Filename>civm_std_angry_d.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to sit</ID>
+							<Animation>
+								<Filename>civm_std-sit.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>sit to stand</ID>
+							<Animation>
+								<Filename>civm_sit-std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to sit angry</ID>
+							<Animation>
+								<Filename>civm_sit_angr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand peeing</ID>
+							<Animation>
+								<Filename>civm_std_pee.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to sleep</ID>
+							<Animation>
+								<Filename>civm_std-sleep.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>sleep to stand</ID>
+							<Animation>
+								<Filename>civm_sleep-std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand use computer</ID>
+							<Animation>
+								<Filename>civm_std_cmputr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand scan horizion</ID>
+							<Animation>
+								<Filename>civm_std_lookarnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to lean</ID>
+							<Animation>
+								<Filename>civm_std-ln.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>lean to stand</ID>
+							<Animation>
+								<Filename>civm_stndln-std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>paranoid glances</ID>
+							<Animation>
+								<Filename>civm_wlk_idle_parand.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>sam stand idle b</ID>
+							<Animation>
+								<Filename>civf_ambnt_idle_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>sam stand idle c</ID>
+							<Animation>
+								<Filename>civf_ambnt_idle_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>sam weld start</ID>
+							<Animation>
+								<Filename>civf_ambnt_weld_strt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>sam weld end</ID>
+							<Animation>
+								<Filename>civf_ambnt_weld_end.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>sam weld use</ID>
+							<Animation>
+								<Filename>civf_ambnt_weld_use.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>sam weld inspect</ID>
+							<Animation>
+								<Filename>civf_ambnt_weld_inspect.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient steps to sit</ID>
+							<Animation>
+								<Filename>civf_ambnt_stps_tosit.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient steps to stand</ID>
+							<Animation>
+								<Filename>civf_ambnt_stps_tostnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient lay in bed</ID>
+							<Animation>
+								<Filename>civf_ambnt_lay_bed.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>look left</ID>
+							<Animation>
+								<Filename>civf_ambnt_lay_bed_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient give</ID>
+							<Animation>
+								<Filename>civf_grab_nnfrg.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient weld inspect</ID>
+							<Animation>
+								<Filename>civf_ambnt_weld_std_inspect.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient weld use</ID>
+							<Animation>
+								<Filename>civf_ambnt_weld_std_use.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient take</ID>
+							<Animation>
+								<Filename>civf_std_give_nnfrg.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient work a</ID>
+							<Animation>
+								<Filename>civf_ambnt_work_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient work b</ID>
+							<Animation>
+								<Filename>civf_ambnt_work_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ambient work c</ID>
+							<Animation>
+								<Filename>civf_ambnt_work_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>sam stand point</ID>
+							<Animation>
+								<Filename>civf_ambnt_std_ptfwrd.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+				<Group>
+					<group>Hammer</group>
+					<States>
+						<State>
+							<ID>run</ID>
+							<Animation>
+								<Filename>civf_hmr_run</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run back</ID>
+							<Animation>
+								<Filename>civf_hmr_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run left</ID>
+							<Animation>
+								<Filename>civf_hmr_run_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run right</ID>
+							<Animation>
+								<Filename>civf_hmr_run_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand ready</ID>
+							<Animation>
+								<Filename>civf_hmr_rd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand</ID>
+							<Animation>
+								<Filename>civf_hmr_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk</ID>
+							<Animation>
+								<Filename>civf_hmr_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk back</ID>
+							<Animation>
+								<Filename>civf_hmr_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk left</ID>
+							<Animation>
+								<Filename>civf_hmr_wlk_l</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk right</ID>
+							<Animation>
+								<Filename>civf_hmr_wlk_r</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sprint</ID>
+							<Animation>
+								<Filename>civf_hmr_runrd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready</ID>
+							<Animation>
+								<Filename>civf_hmr_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back</ID>
+							<Animation>
+								<Filename>civf_hmr_wlk_bck</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left</ID>
+							<Animation>
+								<Filename>civf_hmr_wlk_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right</ID>
+							<Animation>
+								<Filename>civf_hmr_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run anim</ID>
+							<Animation>
+								<Filename>civf_hmr_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run down 35</ID>
+							<Animation>
+								<Filename>civf_hmr_run_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run up 35</ID>
+							<Animation>
+								<Filename>civf_hmr_run_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk anim</ID>
+							<Animation>
+								<Filename>civf_hmr_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk down 35</ID>
+							<Animation>
+								<Filename>civf_hmr_rdywlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk up 35</ID>
+							<Animation>
+								<Filename>civf_hmr_rdywlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk left anim</ID>
+							<Animation>
+								<Filename>civf_hmr_wlk_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk left down 35</ID>
+							<Animation>
+								<Filename>civf_hmr_rdywlk_dwn_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk left up 35</ID>
+							<Animation>
+								<Filename>civf_hmr_rdywlk_up_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk right anim</ID>
+							<Animation>
+								<Filename>civf_hmr_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk right up 35</ID>
+							<Animation>
+								<Filename>civf_hmr_rdywlk_up_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk right down 35</ID>
+							<Animation>
+								<Filename>civf_hmr_rdywlk_dwn_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk back anim</ID>
+							<Animation>
+								<Filename>civf_hmr_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk back up35</ID>
+							<Animation>
+								<Filename>civf_hmr_rdywlk_up_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk down 35</ID>
+							<Animation>
+								<Filename>civf_hmr_rdywlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cower crouch</ID>
+							<Animation>
+								<Filename>male_hmr_cwr_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cower stand</ID>
+							<Animation>
+								<Filename>male_hmr_cwr_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch cower 1</ID>
+							<Animation>
+								<Filename>male_hmr_cwr_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch cower 2</ID>
+							<Animation>
+								<Filename>male_hmr_cwr_std.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>melee</ID>
+							<Animation>
+								<Filename>civf_hmr_atck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee2</ID>
+							<Animation>
+								<Filename>civf_hmr_atck_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee3</ID>
+							<Animation>
+								<Filename>civf_hmr_atck_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>equip</ID>
+							<Animation>
+								<Filename>civf_hmr_drw.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>unequip</ID>
+							<Animation>
+								<Filename>civf_hmr_std_hlstr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand ready to stand</ID>
+							<Animation>
+								<Filename>civf_hmr_rd-std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to ready</ID>
+							<Animation>
+								<Filename>civf_hmr_std-rd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand ready shuffle left</ID>
+							<Animation>
+								<Filename>civf_hmr_ml_trn_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand ready shuffle right</ID>
+							<Animation>
+								<Filename>civf_hmr_ml_trn_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion duck backwards</ID>
+							<Animation>
+								<Filename>civf_hmr_dck_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion duck forwards</ID>
+							<Animation>
+								<Filename>civf_hmr_dck_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion duck left</ID>
+							<Animation>
+								<Filename>civf_hmr_dck_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion duck right</ID>
+							<Animation>
+								<Filename>civf_hmr_dck_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand shuffle left</ID>
+							<Animation>
+								<Filename>civf_hmr_std_trnsttlel.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand shuffle right</ID>
+							<Animation>
+								<Filename>civf_hmr_std_trnsttler.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard look around</ID>
+							<Animation>
+								<Filename>civf_hmr_guard_lookarnd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run to stand</ID>
+							<Animation>
+								<Filename>civf_hmr_std-run.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run to walk</ID>
+							<Animation>
+								<Filename>civf_hmr_std-run.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand to run</ID>
+							<Animation>
+								<Filename>civf_hmr_std-run.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk to run</ID>
+							<Animation>
+								<Filename>civf_hmr_std-run.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand weapon idle</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand weapon idle a</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+				<Group>
+					<group>Rifle</group>
+					<States>
+						<State>
+							<ID>down ready run</ID>
+							<Animation>
+								<Filename>civf_rfl_dwnrd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand ready</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run back</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_wlk_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready left</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_run_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready right</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_run_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch walk</ID>
+							<Animation>
+								<Filename>civf_rfl_crchrd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run</ID>
+							<Animation>
+								<Filename>civf_rfl_noncombat_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk</ID>
+							<Animation>
+								<Filename>civf_rfl_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cower crouch</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cower stand</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch cower 1</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch cower 2</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>anim1</ID>
+							<Animation>
+								<Filename>civf_rfl_wlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>anim2</ID>
+							<Animation>
+								<Filename>civf_rfl_wlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk anim</ID>
+							<Animation>
+								<Filename>civf_rfl_wlk.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>run fire left</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_runfire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire right</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_runfire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire</ID>
+							<Animation>
+								<Filename>civf_rfl_wlk_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire left</ID>
+							<Animation>
+								<Filename>civf_rfl_wlk_fire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire right</ID>
+							<Animation>
+								<Filename>civf_rfl_wlk_fire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand fire</ID>
+							<Animation>
+								<Filename>civf_rfl_sht.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_runfire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire back</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_runfire_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard shade eyes</ID>
+							<Animation>
+								<Filename>civf_rfl_std_idle_d.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand weapon idle</ID>
+							<Animation>
+								<Filename>civf_rfl_std_idle_d.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+				<Group>
+					<group>AK</group>
+					<States>
+						<State>
+							<ID>down ready run</ID>
+							<Animation>
+								<Filename>civf_rfl_dwnrd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand ready</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run back</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_wlk_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready left</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_run_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready right</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_run_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch walk</ID>
+							<Animation>
+								<Filename>civf_rfl_crchrd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run</ID>
+							<Animation>
+								<Filename>civf_rfl_noncombat_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk</ID>
+							<Animation>
+								<Filename>civf_rfl_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cower crouch</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cower stand</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch cower 1</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch cower 2</ID>
+							<Animation>
+								<Filename>male_rfl_std_cwr.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>run fire left</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_runfire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire right</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_runfire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire</ID>
+							<Animation>
+								<Filename>civf_rfl_wlk_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire left</ID>
+							<Animation>
+								<Filename>civf_rfl_wlk_fire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire right</ID>
+							<Animation>
+								<Filename>civf_rfl_wlk_fire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand fire</ID>
+							<Animation>
+								<Filename>civf_rfl_sht.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_runfire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire back</ID>
+							<Animation>
+								<Filename>civf_rfl_rd_runfire_bck.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+			</Groups>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Skeleton_Set>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Skeleton_Set</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Skeleton Set</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Skeleton Name</Display_Name>
+		</Element>
+		<Element>
+			<Name>Parent_Skeleton</Name>
+			<Type>String</Type>
+			<Display_Name>Parent Skeleton</Display_Name>
+			<Required>false</Required>
+		</Element>
+		<Element>
+			<Name>Variant_Type</Name>
+			<Type>Reference</Type>
+			<Display_Name>Variant Type</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>anim_set_variants.xtbl</File>
+				<Type>Override.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Groups</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>Group</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>group</Name>
+					<Type>Reference</Type>
+					<Display_Name>Group</Display_Name>
+					<Unique>true</Unique>
+					<Reference>
+						<File>anim_groups.xtbl</File>
+						<Type>Anim_Group.Name</Type>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>States</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>State</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_states.xtbl</File>
+								<Type>State.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+				<Element>
+					<Name>Actions</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>Action</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_actions.xtbl</File>
+								<Type>Action.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

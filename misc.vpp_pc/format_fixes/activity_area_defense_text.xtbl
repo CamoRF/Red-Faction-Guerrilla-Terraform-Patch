@@ -1,0 +1,39 @@
+<root>
+	<Table>
+		<Area_Defense_Identifier>
+			<Name>ACT_AREA_DEFENSE_NAME</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Area_Defense_Identifier>
+		<Area_Defense_Identifier>
+			<Name>ACT_AREA_DEFENSE_VEHICLE_SUBTITLE</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Area_Defense_Identifier>
+		<Area_Defense_Identifier>
+			<Name>ACT_AREA_DEFENSE_HUMANS_SUBTITLE</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Area_Defense_Identifier>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Area_Defense_Identifier</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>
+
+
