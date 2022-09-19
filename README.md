@@ -1,4 +1,4 @@
-# Red Faction Guerrilla Community-Patch
+# Red Faction Guerrilla Community Patch
 - Version: v1.06 Pre Alpha 19-09-2022 Build 829
 - Work-in-progress project that adds content, fixes bugs, and enhances many features.
 
