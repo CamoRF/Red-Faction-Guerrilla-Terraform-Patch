@@ -45,6 +45,14 @@ Community Patch
 * Add new weapon spawns to more EDF
 * Update changelog so its consistent with formatting
 * Add DLC weapon spawns around the map when its possible - done
-* Consistent weapon carry player movement speed
-* EDF Voice needs to be added to the EDF team for team games
+* Consistent weapon carry player movement speed -
+* EDF Voice needs to be added to the EDF team for team games -
+* Add more spawns to Scrap Heap along with buildings near the invisible wall, map is quite large -
+* Increase player movement speed in multiplayer - 
+* Try to make it so you can walk up steeper inclines - 
+* Flame thrower weapon using reconstructor with Nano Rifle stream - 
+* Change online_tweak_table.xtbl floats to "-1" - 
+* Player icons not working in multiplayer? - 
+* Change Wrecking Crew matchmaking playlist names -
+* Port over improvements from RF:A patch -
 
