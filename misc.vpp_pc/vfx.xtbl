@@ -7,20 +7,13 @@
 		</container_name>
 		<container_preload_category>preload</container_preload_category>
 		<container_other_category>cutscene</container_other_category>
-
-		<!-- This is used to filter out at different stages. The name is the xml element needed
-		to make the decision. Callbacks will occur with this variable at container creation
-		and adding primitives. -->
 		<container_filter>streaming_category</container_filter>
-
 		<container_multiplayer_filter>multiplayer</container_multiplayer_filter>
 		<container_singleplayer_filter>singleplayer</container_singleplayer_filter>
-
 		<container_type>GSC_EFFECTS</container_type>
 		<container_preload_type>GSC_EFFECTS_PRELOAD</container_preload_type>
 		<container_other_type>GSC_CUTSCENE_EFFECTS</container_other_type>
 		<container_multiplayer_type>GSC_MP_EFFECTS</container_multiplayer_type>
-
 		<container_contents>vfx
 			<name>filename</name>
 			<ext>effect</ext>
@@ -30,7 +23,6 @@
 			<report_errors>false</report_errors> 
 		</container_contents>
 	</stream2_container_description>
-
 	<Table>
 		<Effect>
 			<Name>mp_backpack_heal_a</Name>
@@ -1247,8 +1239,8 @@
 				<Category>Entries:Character:General</Category>
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
-			<Singleplayer>False</Singleplayer> <!--From True-->
-			<Multiplayer>False</Multiplayer> <!--From True-->
+			<Singleplayer>True</Singleplayer>
+			<Multiplayer>True</Multiplayer>
 			<LOD>
 				<Spawning>
 					<Distance>10</Distance>
