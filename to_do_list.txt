@@ -1,5 +1,5 @@
 ---------------
-Community Patch
+To do
 ---------------
 
 * Remove table templates to reduce memory pool usage, put them in their own doc files
@@ -11,19 +11,16 @@ Community Patch
 * Fix formatting for all XTBL files
 * Buff stealth pack transparency even more - test
 * Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
-* Give sniper infinite range - test
-* Buff nano rifle accuracy - test
 * Replace intial loading screen so players know if they installed the patch correctly
 * Replace interface-guerrillalogo.cpeg_pc 
 * Test map exploits in changelog
-* Kaboom pack sounds get stuck when you die - test
+* Kaboom pack sounds get stuck when you die
 * Add neutral spawns to Siege maps as done with Framework
 * Add kaboom pack spawns to some maps?
 * Fix random backpacks on WC maps (requires adding backpack racks I believe)
 * Fix grenade (seems to randomly stop working when played online and character tposes, weapon also breaks if unique ID is changed from 33, might need to be scripted in future)
 * Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host (maybe try an alternative projectile?)
 * Fix DLC weapon selection icons and reticules
-* Merge files inside chunks.vpp, dlc01_precache.vpp and terr01_precache.vpp_pc into mp_common.vpp_pc - done 
 * Add cliff under maps that are missing it
 * Add CTF and Damage Control objective to WC maps when Nanoforge supports it
 * Fix out of bounds spots on Excavation, Remnant, Puncture, Warlords and Gradient
@@ -37,24 +34,43 @@ Community Patch
 * Add drop shadows to dlc01_gameplay_properties.xtbl
 * Apply changes from the base game tweak table to the dlc tweak table
 * Remove artifical gravity from vehicles
-* Revert the stripper names and stuff
+* Revert the stripper names and stuff?
 * Remove blur from RPG explosions
 * Compress all vpp_pc files possible, might help with stability like it does in RFA
 * Upscale grinder projectile texture
 * Add reducing randomness of projectile of grinder by adjusting collision  to changelog
 * Add new weapon spawns to more EDF
 * Update changelog so its consistent with formatting
-* Add DLC weapon spawns around the map when its possible - done
-* Consistent weapon carry player movement speed -
-* EDF Voice needs to be added to the EDF team for team games -
-* Add more spawns to Scrap Heap along with buildings near the invisible wall, map is quite large -
-* Increase player movement speed in multiplayer - 
-* Try to make it so you can walk up steeper inclines - 
-* Flame thrower weapon using reconstructor with Nano Rifle stream - 
-* Change online_tweak_table.xtbl floats to "-1" - 
-* Player icons not working in multiplayer? - 
-* Change Wrecking Crew matchmaking playlist names -
-* Port over improvements from RF:A patch -
-* Restore Dan Masons yellow jacket and clothing that matches the cutscenes and upscale it -
-* Test crash with destroying a damage control objective that doesn't exist on the server -
-* Increase jump height in multiplayer - 
+* Consistent weapon carry player movement speed
+* EDF Voice needs to be added to the EDF team for team game
+* Add more spawns to Scrap Heap along with buildings near the invisible wall, map is quite large
+* Increase player movement speed in multiplayer
+* Try to make it so you can walk up steeper inclines
+* Flame thrower weapon using reconstructor with Nano Rifle stream
+* Change online_tweak_table.xtbl floats to "-1"
+* Player icons not working in multiplayer?
+* Change Wrecking Crew matchmaking playlist names
+* Port over improvements from RF:A patch
+* Restore Dan Masons yellow jacket and clothing that matches the cutscenes and upscale it
+* Test crash with destroying a damage control objective that doesn't exist on the server
+* Increase jump height in multiplayer
+* Reduce size of blood decals, one bullet can result in a super large pool while they are still alive
+* Improve driving skills of NPCs - 
+* Reduce EDF density slightly, maybe too many drones
+* Increase morale drop for death - 
+* Remove Eos versions of NPCs from all sectors except Eos and Oasis
+* Remove Kepler from NPC spawns
+* Balance difficulties: Casual = just want to blow stuff up, Normal = about average, Hard = Balanced and fair but challenging, Insane = Truly punishing experience 
+* Unlock Insane difficulty by default
+
+----
+Test
+----
+* Give sniper infinite range
+* Buff nano rifle accuracy
+
+----
+Done
+----
+* Add DLC weapon spawns around the map when its possible
+* Merge files inside chunks.vpp, dlc01_precache.vpp and terr01_precache.vpp_pc into mp_common.vpp_pc
