@@ -19933,6 +19933,7 @@
 				<Flag>show_on_map</Flag>
 				<Flag>plume_on_death</Flag>
 				<Flag>inherit_damage_pct</Flag>
+				<Flag>casts_drop_shadows</Flag>	
 			</chunk_flags>
 			<importance>NONE</importance>
 			<team>Neutral</team>
