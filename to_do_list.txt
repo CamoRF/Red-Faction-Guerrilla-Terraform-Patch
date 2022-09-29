@@ -1,78 +1,70 @@
 ---------------
 To do
 ---------------
-
-* Remove table templates to reduce memory pool usage, put them in their own doc files
-* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
-* Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
-* HD character textures 
-* HD weapon, backpack, grinder projectile textures
-* Try to fix CTF spawn flips (try intial and respawn bools for team spawns)
-* Fix formatting for all XTBL files
-* Buff stealth pack transparency even more - test
-* Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
-* Replace intial loading screen so players know if they installed the patch correctly
-* Replace interface-guerrillalogo.cpeg_pc 
-* Test map exploits in changelog
-* Kaboom pack sounds get stuck when you die
-* Add neutral spawns to Siege maps as done with Framework
-* Add kaboom pack spawns to some maps?
-* Fix random backpacks on WC maps (requires adding backpack racks I believe)
-* Fix grenade (seems to randomly stop working when played online and character tposes, weapon also breaks if unique ID is changed from 33, might need to be scripted in future)
-* Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host (maybe try an alternative projectile?)
-* Fix DLC weapon selection icons and reticules
-* Add cliff under maps that are missing it
-* Add CTF and Damage Control objective to WC maps when Nanoforge supports it
+* Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
+* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
 * Fix out of bounds spots on Excavation, Remnant, Puncture, Warlords and Gradient
-* Increase player cap in custom games above 16 if it needs to be
-* Test all maps during day and night and check fog, bloom, moon size and sun texture in dtodx file
-* Fix clipping backpacks on Jenkins
-* Update WC map thumbnails if they changed a lot after ATMs work
 * Doublecheck the misslepod isn't missing the projectile
-* Armored Mason in multiplayer
-* Format all XTBL files in misc and table - done 
-* Add drop shadows to dlc01_gameplay_properties.xtbl
+* Add drop shadows to dlc01_gameplay_properties.xtbl - wip
 * Apply changes from the base game tweak table to the dlc tweak table
-* Remove artifical gravity from vehicles
-* Revert the stripper names and stuff?
 * Remove blur from RPG explosions
-* Compress all vpp_pc files possible, might help with stability like it does in RFA
 * Upscale grinder projectile texture
-* Add reducing randomness of projectile of grinder by adjusting collision  to changelog
 * Add new weapon spawns to more EDF
 * Update changelog so its consistent with formatting
 * Consistent weapon carry player movement speed
-* EDF Voice needs to be added to the EDF team for team game
-* Add more spawns to Scrap Heap along with buildings near the invisible wall, map is quite large
-* Increase player movement speed in multiplayer
 * Try to make it so you can walk up steeper inclines
 * Flame thrower weapon using reconstructor with Nano Rifle stream
-* Change online_tweak_table.xtbl floats to "-1"
-* Player icons not working in multiplayer?
-* Change Wrecking Crew matchmaking playlist names
-* Port over improvements from RF:A patch
-* Restore Dan Masons yellow jacket and clothing that matches the cutscenes and upscale it
-* Test crash with destroying a damage control objective that doesn't exist on the server
-* Increase jump height in multiplayer
 * Reduce size of blood decals, one bullet can result in a super large pool while they are still alive
-* Improve driving skills of NPCs - 
+* Improve driving skills of NPCs
 * Reduce EDF density slightly, maybe too many drones
 * Increase morale drop for death - 
 * Remove Eos versions of NPCs from all sectors except Eos and Oasis
 * Remove Kepler from NPC spawns
 * Balance difficulties: Casual = just want to blow stuff up, Normal = about average, Hard = Balanced and fair but challenging, Insane = Truly punishing experience 
 * Unlock Insane difficulty by default
-* Replace intial loading screen with an xdelta
-* Movement changes from RFA
-* Test out of bounds spots (see changelog)
+* Replace intial loading screen (interface-init_load in misc.vpp_pc and interface.vpp_pc)
+* Change Lab Babe to Lab Lady, Stripper to Outcast, Marauder Babe to Marauder Lab Tech
+* Test version of Pinaccle with experimental spawn flipping fixes that apply only in CTF
+* Add Subverter to Guerrilla tech level
+* Increase gravity slightly, jumping feels floaty
+
+
+-----------
+Low Priority 
+------------
+* Restore Dan Masons yellow jacket and clothing that matches the cutscenes and upscale it
 * Take new screenshots for thumbnail with new WC maps if they need them  (Eg. Complex)
-* Try dragging the asm files onto RFGUtil to fix DLC weapons
+* Armored Mason in multiplayer
+* Increase player cap in custom games above 16 if it needs to be
+* Test all maps during day and night and check fog, bloom, moon size and sun texture in dtodx file
+* Use mp_explosion_overrides.xtbl for explosion changes so it doesn't mess with singleplayer
+* Add cliff under maps that are missing it when bounding box makes sense
+* Add CTF and Damage Control objective to WC maps when Nanoforge supports it
+* Add kaboom pack spawns to some maps?
+* Add neutral spawns to Siege maps as done with Framework
+* Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
+* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
+* Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
+* Fix formatting for all XTBL files
+* Try to fix CTF spawn flips (try intial and respawn bools for team spawns)
+* Fix random backpacks on WC maps (requires adding backpack racks I believe)
+* Fix grenade (seems to randomly stop working when played online and character tposes, weapon also breaks if unique ID is changed from 33, might need to be scripted in future)
+* Add more spawns to Scrap Heap along with buildings near the invisible wall, map is quite large (alternative map)
+* Update WC map thumbnails if they changed a lot after ATMs work
+* Increase player movement speed in multiplayer
+* Increase jump height in multiplayer - doesn't seem possible
 
 ----
 Test
 ----
 * Give sniper infinite range
 * Buff nano rifle accuracy
+* Fix clipping backpacks on Jenkins - test
+* Kaboom pack sounds get stuck when you die
+* Buff stealth pack transparency even more, try to remove the shimmer
+* Test out of bounds spots (see changelog)
+* Movement speed slow in multiplayer except when moving sideways?
+* Player icons not working in multiplayer?
 
 ----
 Done
@@ -80,3 +72,18 @@ Done
 * Add DLC weapon spawns around the map when its possible
 * Merge files inside chunks.vpp, dlc01_precache.vpp and terr01_precache.vpp_pc into mp_common.vpp_pc
 * Export all maps
+* Compress all vpp_pc files possible, might help with stability like it does in RFA
+* Remove artifical gravity from vehicles
+* Test crash with destroying a damage control objective that doesn't exist on the server
+* Format all XTBL files in misc and table - done 
+* Remove table templates to reduce memory pool usage, put them in their own doc files
+* Change online_tweak_table.xtbl floats to "-1"
+* Add reducing randomness of projectile of grinder by adjusting collision  to changelog
+* EDF Voice needs to be added to the EDF team for team game
+
+------
+OTHER PROJECTS
+------
+
+* HD character textures 
+* HD weapons and backpack textures

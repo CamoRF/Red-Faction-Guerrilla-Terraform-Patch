@@ -24,7 +24,7 @@
 					<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 					<area_damage_dealt_factor>1</area_damage_dealt_factor>
 					<kaboom>
-						<kaboom_explosion_name>mp_kaboom</kaboom_explosion_name> <!--thermo_rocket--> <!--mp_kaboom-->
+						<kaboom_explosion_name>mp_kaboom</kaboom_explosion_name>
 						<kaboom_death_chance>1</kaboom_death_chance>
 						<kaboom_delay_ms>500</kaboom_delay_ms>
 						<kaboom_damages_user>True</kaboom_damages_user>
@@ -52,8 +52,8 @@
 					<sfx_alr>MP_BACKPACK_COMMANDO</sfx_alr>
 					<sfx_npc_alr>MP_BACKPACK_COMMANDO_NPC</sfx_npc_alr>-->
 					<!--<failed_activation_foley>MP_BACKPACK_KABOOM_NO_FUEL</failed_activation_foley>-->
-					<!--<sfx_alr>MP_BACKPACK_KABOOM_PC</sfx_alr>-->
-					<!--<sfx_npc_alr>MP_BACKPACK_KABOOM_NPC</sfx_npc_alr>-->
+					<sfx_alr>MP_BACKPACK_KABOOM_PC</sfx_alr>
+					<sfx_npc_alr>MP_BACKPACK_KABOOM_NPC</sfx_npc_alr>
 					<backpack_effects></backpack_effects>
 					<loop_waits_for_attack>True</loop_waits_for_attack>
 				</activation_effects>
@@ -1091,8 +1091,8 @@
 					<refire_delay_factor>1</refire_delay_factor>
 					<unlimited_ammo>False</unlimited_ammo>
 					<stealth>
-						<stealth_transparency>1.0</stealth_transparency> <!--From 0.05-->
-						<local_stealth_transparency>1.0</local_stealth_transparency> <!--From 0.25-->
+						<stealth_transparency>10.0</stealth_transparency> <!--From 0.05-->
+						<local_stealth_transparency>10.0</local_stealth_transparency> <!--From 0.25-->
 						<stealth_time_ms>1000</stealth_time_ms>
 						<restealth_time_ms>1000</restealth_time_ms>
 					</stealth>

@@ -1,0 +1,100 @@
+<root>
+	<Table>
+		<angel_of_mercy>
+			<Name>Default</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<levels>
+				<level>
+					<reward>50</reward>
+					<max_chase_cars>2</max_chase_cars>
+					<min_distance>250</min_distance>
+					<vehicle_spawn_group>EDF Low Level Pursuit</vehicle_spawn_group>
+					<num_dropoffs_per_level>3</num_dropoffs_per_level>
+				</level>
+				<level>
+					<min_distance>500</min_distance>
+					<max_chase_cars>2</max_chase_cars>
+					<reward>100</reward>
+					<vehicle_spawn_group>EDF Mid Level Pursuit</vehicle_spawn_group>
+					<num_dropoffs_per_level>3</num_dropoffs_per_level>
+				</level>
+				<level>
+					<min_distance>600</min_distance>
+					<max_chase_cars>3</max_chase_cars>
+					<reward>150</reward>
+					<vehicle_spawn_group>EDF High Level Pursuit</vehicle_spawn_group>
+					<num_dropoffs_per_level>3</num_dropoffs_per_level>
+				</level>
+				<level>
+					<min_distance>700</min_distance>
+					<max_chase_cars>3</max_chase_cars>
+					<reward>200</reward>
+					<vehicle_spawn_group>EDF Critical Level Pursuit</vehicle_spawn_group>
+					<num_dropoffs_per_level>3</num_dropoffs_per_level>
+				</level>
+			</levels>
+		</angel_of_mercy>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>angel_of_mercy</Name>
+		<Type>TableDescription</Type>
+		<Required>false</Required>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>levels</Name>
+			<Type>List</Type>
+			<Element>
+				<Name>level</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>min_distance</Name>
+					<Type>Int</Type>
+					<Description>Minimum distance of the drop point</Description>
+					<Default>50</Default>
+				</Element>
+				<Element>
+					<Name>max_chase_cars</Name>
+					<Type>Int</Type>
+					<Description>The number of cars that will chase the player.</Description>
+					<Default>3</Default>
+				</Element>
+				<Element>
+					<Name>reward</Name>
+					<Type>Int</Type>
+					<Description>Reward for completing the mission (in morale)</Description>
+					<Default>100</Default>
+				</Element>
+				<Element>
+					<Name>vehicle_spawn_group</Name>
+					<Type>Reference</Type>
+					<Display_Name>Vehicle Spawn Group</Display_Name>
+					<Reference>
+						<File>spawn_group_vehicle.xtbl</File>
+						<Type>spawn_group_vehicle.Name</Type>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>num_dropoffs_per_level</Name>
+					<Type>Int</Type>
+					<Description>The number of dropoffs you have to make before moving to the next level of the activity</Description>
+					<Default>3</Default>
+				</Element>
+			</Element>
+			<Max_Children>10</Max_Children>
+			<Min_Children>1</Min_Children>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>
