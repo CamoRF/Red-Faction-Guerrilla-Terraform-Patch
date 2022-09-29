@@ -62,6 +62,11 @@ To do
 * Remove Kepler from NPC spawns
 * Balance difficulties: Casual = just want to blow stuff up, Normal = about average, Hard = Balanced and fair but challenging, Insane = Truly punishing experience 
 * Unlock Insane difficulty by default
+* Replace intial loading screen with an xdelta
+* Movement changes from RFA
+* Test out of bounds spots (see changelog)
+* Take new screenshots for thumbnail with new WC maps if they need them  (Eg. Complex)
+* Try dragging the asm files onto RFGUtil to fix DLC weapons
 
 ----
 Test
@@ -74,3 +79,4 @@ Done
 ----
 * Add DLC weapon spawns around the map when its possible
 * Merge files inside chunks.vpp, dlc01_precache.vpp and terr01_precache.vpp_pc into mp_common.vpp_pc
+* Export all maps
