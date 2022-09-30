@@ -275,14 +275,12 @@ v1.06 ALPHA CHANGES
 [Map Additions & Changes]
 * Added weapon spawns to all 19 wrecking crew maps, thanks to ATMLVE for his help!
 * Added DLC weapon spawns to every regular multiplayer map (Subverter on all maps, Super Gauss on some maps that have a walkway that can be destroyed to stop the spawn or added as a spawn in a hidden location, Misslepod on maps that have the thermobaric rocket launcher)!
-* Bagman can now be played on every wrecking crew and siege map!
 * Added fog to Imperial
 * Added a few placeholder weapon spawns on Complex, Factory and Watchtower
 * Added 3 neutral respawns to Framework so the map is more playable in modes other than siege
 * Added various objects to fix line of sight on various WC maps, added 3 radio towers to Transmission to indicate where the invisible wall is, thanks to ATMLVE for his help!
+* Added bagman spawns to all wrecking crew and siege maps
 * Invasions lighting and weather changed to match Broadsides
-* Objects from the singleplayer and DLC merged into mp_common.vpp_pc
-* Increased transparency of stealth backpack further and removed the shimmer 
 
 [Map Fixes]
 * Fixed some of the vanilla bugs with out of bounds map exploits on Haven, Doubletime, Equilbrium, Downfall, Abandoned & Compound
@@ -290,17 +288,17 @@ v1.06 ALPHA CHANGES
 
 [Multiplayer Fixes]
 * Fixed Marauder Babe character having the wrong footstep sounds
-* Changed "Biker Chick" character name to "Stripper"
-* Changed "Marauder Science Tech" character name to "Marauder Babe"
-* Changed "Female Lab Assistant" character name to "Lab Babe"
-* Re-implemented GFWL into matchmaking as it's fixed now
+* Changed "Biker Chick" character name to "Outcast"
+* Changed "Marauder Science Tech" character name to "Marauder Lady"
+* Changed "Female Lab Assistant" character name to "Lab Lady"
+* Re-implemented GFWL map into matchmaking as it's fixed now
 * Added Large Mixer maps to Team Anarchy and Team Bagman matchmaking playlists
-* Fixed bug with broken leader and bagman highlighting not working
-* Improvements to rubberbanding and trueskill fix
+* Fixed bug with leader and bagman highlighting not working
+* Improvements to rubberbanding and trueskill fixes
 * Propane tank weapon disabled for now due to bugs
 * Possibly fixed Kaboom backpack sound getting stuck when you die
 * Reduced backpack clipping for Jenkins
-* Fixed player icon not working
+* Fixed player names and icons not working
 
 [Multiplayer Additions & Changes]
 * Increased max player cap for Team Anarchy and Team Bagman matchmaking playlists to 16 from 12
@@ -310,7 +308,7 @@ v1.06 ALPHA CHANGES
 * Slightly increased base player movement speed
 * Movement speed is now consistent across all weapons
 * Default enemy icon visibility changed to delayed from normal
-
+* Increased transparency of stealth backpack further and removed the shimmer 
 
 [General Fixes & Changes]
 * Fixed bug with glass bullet holes with lots of them spawning at once looking weird and causing lag when player zoomed in to the decal
@@ -319,17 +317,19 @@ v1.06 ALPHA CHANGES
 * Increased draw distance of lighting
 * Improved debris collision
 * Increased ladder climbing speed slightly
-* Optimized various files to reduce the memory pool load, should help with reducing crashes
+* Reduced size of blood pools slightly to increase realism
 
 [Singleplayer Additions & Changes]
 * Increased time it takes for you to go down an alert level in singleplayer 
 * Added 4K AI upscaled loading screens
 * Added Subverter to Guerrilla loadout at same tech level as the Assault Rifle
 * Changes to the base game tweak_table.xtbl now work in the DLC
+* Removed artificial gravity from vehicles
 
 [Singleplayer Fixes]
 * Removed Kepler and Carmen from NPC spawn lists
 * Improved NPC spawn lists with EOS and Oasis NPC variants only spawning in both EOS and Dust while all Dust and Parker variants spawn there
+* Fixed objects missing shadows in DLC
 
 [Grinder Fix]
 * Reduced randomness of the projectile by adjusting collision
@@ -350,6 +350,16 @@ v1.06 ALPHA CHANGES
 [Sniper Buff/Fix]
 * Removed spread at all distances
 * Increased zoom magnification to 5.0 from 4.0
+
+[Misslepod Fix]
+* Reduced start speed of the projectile to 40 from 50
+* Reduced max speed of the projectile to 60 from 70
+* Reduced acceleration of the projectile to 8 from 10
+* Changed the projectile from standard rocket to the thermobaric rocket (cosmetic only to fix how the projectile was almost invisible due to the smoke trail)
+* Redued the refire delay to 0ms from 200ms
+
+-----------
+
 
 ------------
 |KNOWN BUGS|

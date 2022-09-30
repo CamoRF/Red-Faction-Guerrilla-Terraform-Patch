@@ -6777,7 +6777,7 @@
 			<max_hit_points>400</max_hit_points>
 			<knock_down_hits>30</knock_down_hits>
 			<max_speed>5.5</max_speed>
-			<FootstepsControl>GUR_NPC</FootstepsControl>
+			<FootstepsControl>MAR_NPC</FootstepsControl> <!--From GUR_NPC-->
 			<Equip_Item_Name>shotgun</Equip_Item_Name>
 			<Props>
 				<Prop>

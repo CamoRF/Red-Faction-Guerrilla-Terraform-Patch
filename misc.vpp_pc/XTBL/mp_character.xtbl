@@ -9,7 +9,7 @@
 					<Display_Name>Carmen</Display_Name>
 					<Bitmap_Name>ui_mp_char_chuck</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
-					<Persona_Group>Guerilla Female</Persona_Group>
+					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
 							<backpack_name>Commando</backpack_name>
@@ -106,7 +106,7 @@
 					<Display_Name>Marauder Lady</Display_Name>
 					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
-					<Persona_Group>Guerilla Female</Persona_Group>
+					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
 							<backpack_name>Commando</backpack_name>
@@ -4165,7 +4165,7 @@
 					<Display_Name>Carmen</Display_Name>
 					<Bitmap_Name>ui_mp_char_chuck</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
-					<Persona_Group>Guerilla Female</Persona_Group>
+					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
 							<backpack_name>Commando</backpack_name>

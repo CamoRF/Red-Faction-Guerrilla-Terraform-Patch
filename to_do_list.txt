@@ -58,33 +58,6 @@ Test
 ----
 Done
 ----
-* Reduce size of blood decals, one bullet can result in a super large pool while they are still alive
-* Add DLC weapon spawns around the map when its possible
-* Merge files inside chunks.vpp, dlc01_precache.vpp and terr01_precache.vpp_pc into mp_common.vpp_pc
-* Export all maps
-* Compress all vpp_pc files possible, might help with stability like it does in RFA
-* Remove artifical gravity from vehicles
-* Test crash with destroying a damage control objective that doesn't exist on the server
-* Format all XTBL files in misc and table - done 
-* Remove table templates to reduce memory pool usage, put them in their own doc files
-* Change online_tweak_table.xtbl floats to "-1"
-* Add reducing randomness of projectile of grinder by adjusting collision  to changelog
-* EDF Voice needs to be added to the EDF team for team game
-* Add missing shadows and drop shadows to dlc01_gameplay_properties.xtbl 
-* Consistent weapon carry player movement speed
-* Change Lab Babe to Lab Lady, Stripper to Outcast, Marauder Babe to Marauder Lab Tech
-* Remove Eos and Oasis versions of NPCs from all sectors except Eos and Oasis
-* Remove Kepler from NPC spawns
-* Add Subverter to Guerrilla tech level
-* Kaboom pack sounds get stuck when you die
-* Fix clipping backpacks on Jenkins
-* Buff nano rifle accuracy
-* Buff stealth pack transparency even more, try to remove the shimmer
-* Movement speed slow in multiplayer except when moving sideways?
-* Apply changes from the base game tweak table to the dlc tweak table
-* Player icons not working in multiplayer
-* Increase sniper projectile speed and range
-* Apply the 5 second countdown change to the GOG .exe
 
 ------
 OTHER PROJECTS

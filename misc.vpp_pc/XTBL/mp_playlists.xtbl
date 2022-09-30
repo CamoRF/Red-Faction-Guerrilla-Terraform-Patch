@@ -333,7 +333,7 @@
 			</_Editor>
 			<xp_scalar>1</xp_scalar>
 		</playlists>
-		
+<!--		
 		<playlists>
 			<Name>CTF_4-16</Name>
 			<Online_ID>7</Online_ID>
@@ -343,7 +343,7 @@
 			<Game_Type>Ranked</Game_Type>
 			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
 			<min_players>4</min_players>
-			<max_players>16</max_players> <!--From 10-->
+			<max_players>16</max_players>
 			<Playlist_Entries>
 				<Entries>TOctf_CrashSite1</Entries>
 				<Entries>TOctf_CrashSite2</Entries>
@@ -405,7 +405,7 @@
 			</_Editor>
 			<max_party_size>5</max_party_size>
 			<xp_scalar>1</xp_scalar>
-		</playlists>	
+		</playlists>	-->
 		
 		<!--<playlists>
 			<Name>Siege_10-12</Name>
@@ -616,104 +616,6 @@
 		</playlists>-->
 	</Table>
 	<TableTemplates>
-		<playlists>
-			<Name>Hardcore_6-8</Name>
-			<Online_ID>10</Online_ID>
-			<Display_Name>MENU_DOWNLOADABLE_CONTENT</Display_Name> <!--Name shows up as hardcore in game-->
-			<Description>Anarchy matches on smaller maps</Description>
-			<Required_XP_Level>1</Required_XP_Level>
-			<Game_Type>Ranked</Game_Type>
-			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
-			<min_players>4</min_players>
-			<max_players>8</max_players>
-			<Playlist_Entries>
-				<Entries>HCctf_CrashSite</Entries>
-				<Entries>HCctf_Sandpit</Entries>
-				<Entries>HCctf_Warlords</Entries>
-				<Entries>HCdc_CrashSite</Entries>
-				<Entries>HCdc_Deadzone</Entries>
-				<Entries>HCdc_Radial</Entries>
-				<Entries>HCdc_Sandpit</Entries>
-				<Entries>HCdc_Warlords</Entries>
-				<Entries>HCta_CrashSite</Entries>
-				<Entries>HCta_Deadzone</Entries>
-				<Entries>HCta_Downfall</Entries>
-				<Entries>HCta_Sandpit</Entries>
-			</Playlist_Entries>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<max_party_size>4</max_party_size>
-			<xp_scalar>1</xp_scalar>
-		</playlists>
-		
-		<playlists>
-			<Name>Beginner_6</Name>
-			<Online_ID>11</Online_ID>
-			<Display_Name>MENU_PLYLST_PATCH_4</Display_Name>
-			<Description>Anarchy matches on smaller maps</Description>
-			<Required_XP_Level>1</Required_XP_Level>
-			<Game_Type>Ranked</Game_Type>
-			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
-			<min_players>6</min_players>
-			<max_players>6</max_players>
-			<Playlist_Entries>
-				<Entries>BeA_Deadzone</Entries>
-				<Entries>BeA_FallFactor</Entries>
-				<Entries>BeA_Radial</Entries>
-				<Entries>BeA_Warlords</Entries>
-				<Entries>BeA_Wreckage</Entries>
-				<Entries>BeCTF_CrashSite</Entries>
-				<Entries>BeCTF_Sandpit</Entries>
-				<Entries>BeDC_CrashSite</Entries>
-				<Entries>BeDC_Quarantine</Entries>
-				<Entries>BeTA_Downfall</Entries>
-				<Entries>BeTA_Excavation</Entries>
-				<Entries>BeTA_Pinnacle</Entries>
-				<Entries>BeTA_Quarantine</Entries>
-				<Entries>BeTA_Rift</Entries>
-			</Playlist_Entries>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<max_party_size>1</max_party_size>
-			<xp_scalar>1</xp_scalar>
-		</playlists>
-		
-		<playlists>
-			<Name>NewMixer_6-8</Name>
-			<Online_ID>12</Online_ID>
-			<Display_Name>MENU_PLYLST_PATCH_35</Display_Name> <!--Name shows up as partial recall in game-->
-			<Description>DLC maps</Description>
-			<Required_XP_Level>1</Required_XP_Level>
-			<Game_Type>Ranked</Game_Type>
-			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
-			<min_players>3</min_players>
-			<max_players>8</max_players>
-			<max_party_size>4</max_party_size>
-			<Playlist_Entries>
-				<Entries>NM_DC_Broadside2</Entries>
-				<Entries>NM_DC_Compound2</Entries>
-				<Entries>NM_DC_Division2</Entries>
-				<Entries>NM_DC_Equillibrium2</Entries>
-				<Entries>NM_DC_Gradient2</Entries>
-				<Entries>NM_DC_Haven2</Entries>
-				<Entries>NM_DC_Puncture2</Entries>
-				<Entries>NM_DC_Remnant2</Entries>
-				<Entries>NM_TA_Broadside1</Entries>
-				<Entries>NM_TA_Compound1</Entries>
-				<Entries>NM_TA_Division1</Entries>
-				<Entries>NM_TA_Equillibrium1</Entries>
-				<Entries>NM_TA_Gradient1</Entries>
-				<Entries>NM_TA_Haven1</Entries>
-				<Entries>NM_TA_Puncture1</Entries>
-				<Entries>NM_TA_Remnant1</Entries>
-			</Playlist_Entries>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<xp_scalar>1</xp_scalar>
-		</playlists>
 	</TableTemplates>
 	<TableDescription>
 		<Name>playlists</Name>
