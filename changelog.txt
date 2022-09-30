@@ -3,9 +3,9 @@
 |--------------------------|
 
 Author: Camo
-Version: v1.055
-Date: 16-9-2022
-Build: 216
+Version: v1.06
+Date: 1-10-2022
+Build: 147
 
 -----------------------
 INTIAL RELEASE CHANGES
@@ -287,7 +287,8 @@ v1.06 ALPHA CHANGES
 * Fixed missing objects on various maps when played in Demolition and Bagman
 
 [Multiplayer Fixes]
-* Fixed Marauder Babe character having the wrong footstep sounds
+* Fixed Marauder Lady character having the wrong footstep sounds
+* Fixed various voices for the new characters
 * Changed "Biker Chick" character name to "Outcast"
 * Changed "Marauder Science Tech" character name to "Marauder Lady"
 * Changed "Female Lab Assistant" character name to "Lab Lady"
@@ -308,7 +309,8 @@ v1.06 ALPHA CHANGES
 * Slightly increased base player movement speed
 * Movement speed is now consistent across all weapons
 * Default enemy icon visibility changed to delayed from normal
-* Increased transparency of stealth backpack further and removed the shimmer 
+* Increased transparency of stealth backpack further and removed the shimmer
+* Changed the DLC weapon placeholder weapon icons to badge icons to avoid confusion with standard weapons 
 
 [General Fixes & Changes]
 * Fixed bug with glass bullet holes with lots of them spawning at once looking weird and causing lag when player zoomed in to the decal
@@ -357,9 +359,6 @@ v1.06 ALPHA CHANGES
 * Reduced acceleration of the projectile to 8 from 10
 * Changed the projectile from standard rocket to the thermobaric rocket (cosmetic only to fix how the projectile was almost invisible due to the smoke trail)
 * Redued the refire delay to 0ms from 200ms
-
------------
-
 
 ------------
 |KNOWN BUGS|
