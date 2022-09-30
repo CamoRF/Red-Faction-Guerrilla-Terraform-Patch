@@ -1,117 +1,88 @@
 <root>
 	<Table>
-<!--START DLC Weapons Added-->		
+<!--START DLC Weapons Added-->
 		<Upgrade>
-		<Name>missilepod</Name>
-		<Type>Weapon</Type>
-		<Levels>
-			<Level>
-				<Cost>0</Cost>
-				<Value>0</Value>
-				<Available>True</Available>
-				<Also_Unlock_Level>1</Also_Unlock_Level>
-				<Unlock_Action>Unlocked</Unlock_Action>
-				<Show_Locked>False</Show_Locked>
-				<Activity_Count>0</Activity_Count>
+			<Name>missilepod</Name>
+			<Type>Weapon</Type>
+			<Levels>
+				<Level>
+					<Cost>0</Cost>
+					<Value>0</Value>
+					<Available>True</Available>
+					<Also_Unlock_Level>1</Also_Unlock_Level>
+					<Unlock_Action>Unlocked</Unlock_Action>
+					<Show_Locked>False</Show_Locked>
+					<Activity_Count>0</Activity_Count>
 				</Level>
-			<Level>
-				<Description>UPG_MISSILEPOD</Description>
-				<Cost>0</Cost>
-				<Value>1</Value>
-				<Available>True</Available>
-				<Also_Unlock_Level>2</Also_Unlock_Level>
-				<Unlock_Action>Purchased</Unlock_Action>
-				<Show_Locked>False</Show_Locked>
-				<Upgrade_Name>WEAP_MISSILEPOD</Upgrade_Name>
-				<Activity_Count>1</Activity_Count>
+				<Level>
+					<Description>UPG_MISSILEPOD</Description>
+					<Cost>0</Cost>
+					<Value>1</Value>
+					<Available>True</Available>
+					<Also_Unlock_Level>2</Also_Unlock_Level>
+					<Unlock_Action>Purchased</Unlock_Action>
+					<Show_Locked>False</Show_Locked>
+					<Upgrade_Name>WEAP_MISSILEPOD</Upgrade_Name>
+					<Activity_Count>1</Activity_Count>
 				</Level>
-			<Level>
-				<Description>UPG_MISSILEPOD_AMMO</Description>
-				<Cost>0</Cost>
-				<Value>2</Value>
-				<Available>True</Available>
-				<Show_Locked>False</Show_Locked>
-				<Unlock_Action>Unlocked</Unlock_Action>
-				<Also_Unlock_Level>3</Also_Unlock_Level>
-				<Upgrade_Name>UPG_MISSILEPOD_AMMO_NAME</Upgrade_Name>
-				<Activity_Count>5</Activity_Count>
+				<Level>
+					<Description>UPG_MISSILEPOD_AMMO</Description>
+					<Cost>0</Cost>
+					<Value>2</Value>
+					<Available>True</Available>
+					<Show_Locked>False</Show_Locked>
+					<Unlock_Action>Unlocked</Unlock_Action>
+					<Also_Unlock_Level>3</Also_Unlock_Level>
+					<Upgrade_Name>UPG_MISSILEPOD_AMMO_NAME</Upgrade_Name>
+					<Activity_Count>5</Activity_Count>
 				</Level>
 			</Levels>
-		<_Editor>
-			<Category>Normal</Category>
+			<_Editor>
+				<Category>Normal</Category>
 			</_Editor>
-		<Weapon>missilepod</Weapon>
-		<Display_Name>WEAP_MISSILEPOD</Display_Name>
-		<Icon_Image>ui_hud_weapon_icon_pod</Icon_Image>
-		<Blueprint>ui_blueprint_misslepod</Blueprint>
-		<voice_line>saf_pur_rpg</voice_line>
-		<always_show_upgrade>True</always_show_upgrade>
+			<Weapon>missilepod</Weapon>
+			<Display_Name>WEAP_MISSILEPOD</Display_Name>
+			<Icon_Image>ui_hud_weapon_icon_pod</Icon_Image>
+			<Blueprint>ui_blueprint_misslepod</Blueprint>
+			<voice_line>saf_pur_rpg</voice_line>
+			<always_show_upgrade>True</always_show_upgrade>
 		</Upgrade>
 		<Upgrade>
-		<Name>spiker</Name>
-		<Type>Weapon</Type>
-		<Levels>
-			<Level>
-				<Cost>0</Cost>
-				<Value>0</Value>
-				<Available>True</Available>
-				<Show_Locked>False</Show_Locked>
-				<Unlock_Action>Unlocked</Unlock_Action>
-				<Also_Unlock_Level>1</Also_Unlock_Level>
-				<Activity_Count>0</Activity_Count>
+			<Name>super_gauss</Name>
+			<Type>Weapon</Type>
+			<Levels>
+				<Level>
+					<Cost>0</Cost>
+					<Value>0</Value>
+					<Available>True</Available>
+					<Also_Unlock_Level>1</Also_Unlock_Level>
+					<Unlock_Action>Unlocked</Unlock_Action>
+					<Show_Locked>False</Show_Locked>
+					<Activity_Count>0</Activity_Count>
 				</Level>
-			<Level>
-				<Cost>0</Cost>
-				<Value>1</Value>
-				<Available>True</Available>
-				<Show_Locked>False</Show_Locked>
-				<Unlock_Action>Unlocked</Unlock_Action>
-				<Also_Unlock_Level>2</Also_Unlock_Level>
-				<Activity_Count>0</Activity_Count>
-				</Level>
-			</Levels>
-		<_Editor>
-			<Category>Normal</Category>
-			</_Editor>
-		<Display_Name>UPG_RADIATION_NAME</Display_Name>
-		<Weapon>spiker</Weapon>
-		</Upgrade>
-		<Upgrade>
-		<Name>super_gauss</Name>
-		<Type>Weapon</Type>
-		<Levels>
-			<Level>
-				<Cost>0</Cost>
-				<Value>0</Value>
-				<Available>True</Available>
-				<Also_Unlock_Level>1</Also_Unlock_Level>
-				<Unlock_Action>Unlocked</Unlock_Action>
-				<Show_Locked>False</Show_Locked>
-				<Activity_Count>0</Activity_Count>
-				</Level>
-			<Level>
-				<Description>UPG_SUPER_GAUSS</Description>
-				<Cost>0</Cost>
-				<Value>1</Value>
-				<Available>True</Available>
-				<Also_Unlock_Level>2</Also_Unlock_Level>
-				<Unlock_Action>Unlocked</Unlock_Action>
-				<Show_Locked>False</Show_Locked>
-				<Upgrade_Name>WEAP_SUPERGAUSS</Upgrade_Name>
-				<Activity_Count>0</Activity_Count>
+				<Level>
+					<Description>UPG_SUPER_GAUSS</Description>
+					<Cost>0</Cost>
+					<Value>1</Value>
+					<Available>True</Available>
+					<Also_Unlock_Level>2</Also_Unlock_Level>
+					<Unlock_Action>Unlocked</Unlock_Action>
+					<Show_Locked>False</Show_Locked>
+					<Upgrade_Name>WEAP_SUPERGAUSS</Upgrade_Name>
+					<Activity_Count>0</Activity_Count>
 				</Level>
 			</Levels>
-		<_Editor>
-			<Category>Normal</Category>
+			<_Editor>
+				<Category>Normal</Category>
 			</_Editor>
-		<Weapon>EDF_Super_Gauss</Weapon>
-		<Display_Name>WEAP_SUPERGAUSS</Display_Name>
-		<Icon_Image>ui_hud_weapon_icon_gauss</Icon_Image>
-		<Blueprint>ui_blueprint_guass_rifle</Blueprint>
-		<voice_line>saf_pur_rpg</voice_line>
-		<always_show_upgrade>True</always_show_upgrade>
+			<Weapon>EDF_Super_Gauss</Weapon>
+			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
+			<Icon_Image>ui_hud_weapon_icon_gauss</Icon_Image>
+			<Blueprint>ui_blueprint_guass_rifle</Blueprint>
+			<voice_line>saf_pur_rpg</voice_line>
+			<always_show_upgrade>True</always_show_upgrade>
 		</Upgrade>
-<!--END DLC Weapons Added-->		
+<!--END DLC Weapons Added-->
 		<Upgrade>
 			<Name>sledgehammer</Name>
 			<Type>Weapon Upgrade</Type>
@@ -1458,7 +1429,7 @@
 			<Icon_Image>ui_mp_weapon_upgrade3</Icon_Image>
 			<Blueprint>ui_blueprint_hammer</Blueprint>
 			<Weapon>sledgehammer</Weapon>
-		</Upgrade>		
+		</Upgrade>
 		<Upgrade>
 			<Name>sledgehammer4</Name>
 			<Type>Weapon Upgrade</Type>
@@ -1491,7 +1462,7 @@
 			<Icon_Image>ui_mp_weapon_upgrade3</Icon_Image>
 			<Blueprint>ui_blueprint_hammer</Blueprint>
 			<Weapon>sledgehammer</Weapon>
-		</Upgrade>		
+		</Upgrade>
 		<Upgrade>
 			<Name>sledgehammer5</Name>
 			<Type>Weapon Upgrade</Type>
@@ -1524,7 +1495,7 @@
 			<Icon_Image>ui_mp_weapon_upgrade2</Icon_Image>
 			<Blueprint>ui_blueprint_hammer</Blueprint>
 			<Weapon>sledgehammer</Weapon>
-		</Upgrade>		
+		</Upgrade>
 		<Upgrade>
 			<Name>sledgehammer6</Name>
 			<Type>Weapon Upgrade</Type>
@@ -1557,7 +1528,7 @@
 			<Icon_Image>ui_mp_weapon_upgrade2</Icon_Image>
 			<Blueprint>ui_blueprint_hammer</Blueprint>
 			<Weapon>sledgehammer</Weapon>
-		</Upgrade>		
+		</Upgrade>
 		<Upgrade>
 			<Name>sledgehammer7</Name>
 			<Type>Weapon Upgrade</Type>
@@ -1590,7 +1561,7 @@
 			<Icon_Image>ui_hud_weapon_icon_hammer</Icon_Image>
 			<Blueprint>ui_blueprint_hammer</Blueprint>
 			<Weapon>sledgehammer</Weapon>
-		</Upgrade>		
+		</Upgrade>
 		<Upgrade>
 			<Name>sledgehammer8</Name>
 			<Type>Weapon Upgrade</Type>
@@ -1623,7 +1594,7 @@
 			<Icon_Image>ui_mp_weapon_marauder</Icon_Image>
 			<Blueprint>ui_blueprint_hammer</Blueprint>
 			<Weapon>sledgehammer</Weapon>
-		</Upgrade>		
+		</Upgrade>
 		<Upgrade>
 			<Name>sledgehammer9</Name>
 			<Type>Weapon Upgrade</Type>
@@ -1656,7 +1627,7 @@
 			<Icon_Image>ui_mp_weapon_war</Icon_Image>
 			<Blueprint>ui_blueprint_hammer</Blueprint>
 			<Weapon>sledgehammer</Weapon>
-		</Upgrade>		
+		</Upgrade>
 		<Upgrade>
 			<Name>sledgehammer10</Name>
 			<Type>Weapon Upgrade</Type>
@@ -1689,7 +1660,7 @@
 			<Icon_Image>ui_mp_weapon_axe</Icon_Image>
 			<Blueprint>ui_blueprint_hammer</Blueprint>
 			<Weapon>sledgehammer</Weapon>
-		</Upgrade>		
+		</Upgrade>
 		<Upgrade>
 			<Name>sledgehammer11</Name>
 			<Type>Weapon Upgrade</Type>
@@ -1722,7 +1693,7 @@
 			<Icon_Image>ui_mp_weapon_bat</Icon_Image>
 			<Blueprint>ui_blueprint_hammer</Blueprint>
 			<Weapon>sledgehammer</Weapon>
-		</Upgrade>		
+		</Upgrade>
 		<Upgrade>
 			<Name>sledgehammer12</Name>
 			<Type>Weapon Upgrade</Type>
@@ -1755,7 +1726,7 @@
 			<Icon_Image>ui_mp_weapon_prod</Icon_Image>
 			<Blueprint>ui_blueprint_hammer</Blueprint>
 			<Weapon>sledgehammer</Weapon>
-		</Upgrade>		
+		</Upgrade>
 		<Upgrade>
 			<Name>sledgehammer13</Name>
 			<Type>Weapon Upgrade</Type>
@@ -1788,7 +1759,7 @@
 			<Icon_Image>ui_mp_weapon_plastic</Icon_Image>
 			<Blueprint>ui_blueprint_hammer</Blueprint>
 			<Weapon>sledgehammer</Weapon>
-		</Upgrade>		
+		</Upgrade>
 		<Upgrade>
 			<Name>sledgehammer14</Name>
 			<Type>Weapon Upgrade</Type>
@@ -2111,10 +2082,7 @@
 			<Blueprint>ui_blueprint_jetpack</Blueprint>
 		</Upgrade>
 	</Table>
-
-	<TableTemplates>
-	</TableTemplates>
-
+	<TableTemplates></TableTemplates>
 	<TableDescription>
 		<Name>Upgrade</Name>
 		<Type>TableDescription</Type>
@@ -2297,7 +2265,6 @@
 			<Num_Display_Rows>16</Num_Display_Rows>
 		</Element>
 	</TableDescription>
-
 	<EntryCategories>
 		<Category>
 			<Name>Normal</Name>

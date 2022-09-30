@@ -36,14 +36,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</squad_loadout> 	
-		
-		<squad_loadout>
-			<Name>Spiker</Name>
-			<weapon_type>spiker</weapon_type>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</squad_loadout> 		
+	
 <!--END Added DLC Weapons to SP-->		
 		<squad_loadout>
 			<Name>Pistol</Name>

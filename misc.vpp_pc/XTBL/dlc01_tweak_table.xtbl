@@ -2889,59 +2889,6 @@
 		</Tweak_Table_Entry>
 	</Table>
 	<TableTemplates>
-		<Tweak_Table_Entry>
-			<Name>Stuntman_airtime_multiplier</Name>
-			<Value>20</Value>
-			<Description>Base Score = (Air time * airtime_multiplier) + (destruction * destruction_multiplier)</Description>
-			<_Editor>
-				<Category>Activities:Stuntman</Category>
-			</_Editor>
-		</Tweak_Table_Entry>
-		<
-		Tweak_Table_Entry>
-			<Name>Stuntman_min_dist_for_bonus</Name>
-			<Value>20</Value>
-			<Description>This is the distance the player must jump to get the distance multiplier bonus to kick in.</Description>
-			<_Editor>
-				<Category>Activities:Stuntman</Category>
-			</_Editor>
-		</Tweak_Table_Entry>
-		
-		<Tweak_Table_Entry>
-			<Name>Stuntman_destruction_multiplier</Name>
-			<Value>10</Value>
-			<Description>Base Score = (Air time * airtime_multiplier) + (destruction * destruction_multiplier)</Description>
-			<_Editor>
-				<Category>Activities:Stuntman</Category>
-			</_Editor>
-		</Tweak_Table_Entry>
-		
-		<Tweak_Table_Entry>
-			<Name>Stuntman_min_height_for_bonus</Name>
-			<Value>20</Value>
-			<Description>This is the height the player must jump to get the height multiplier bonus to kick in.</Description>
-			<_Editor>
-				<Category>Activities:Stuntman</Category>
-			</_Editor>
-		</Tweak_Table_Entry>
-		
-		<Tweak_Table_Entry>
-			<Name>Civilian_min_wounded_damage_pct</Name>
-			<Value>5</Value>
-			<Description>Percent of total HP that must be taken in a single blow to become "wounded" (switch to wounded animation set)</Description>
-			<_Editor>
-				<Category>AI</Category>
-			</_Editor>
-		</Tweak_Table_Entry>
-		
-		<Tweak_Table_Entry>
-			<Name>Ai_cover_README</Name>
-			<Value>0</Value>
-			<Description>Raising these values can have significant computational cost - be careful!</Description>
-			<_Editor>
-				<Category>AI:Cover</Category>
-			</_Editor>
-		</Tweak_Table_Entry>
 	</TableTemplates>
 	<TableDescription>
 		<Name>Tweak_Table_Entry</Name>

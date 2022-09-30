@@ -1,15 +1,27 @@
 <root>
-	<Table>		
+	<Table>
+<!--NOTE:  Spiker Reticules
+
+ui_hud_weapon_icon_grinder
+ui_hud_weapon_icon_spiker
+ui_hud_reti_spiker2
+ui_hud_reti_spiker1
+
+-->
+
 <!--START DLC Weapons Added-->
 	<Weapon>
 		<Name>EDF_Super_Gauss</Name>
-		<Unique_ID>130</Unique_ID>
-		<Inventory_Item>edf_super_gauss</Inventory_Item>
-		<Item_3d>EDF_Super_Gauss</Item_3d>
-		<Default_team>EDF</Default_team>
 		<icon_name>ui_hud_weapon_icon_gauss</icon_name>
 		<reticule_name>ui_hud_reti_gaussrifle1</reticule_name>
 		<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule>
+		<!--<icon_name>ui_hud_weapon_icon_supergauss</icon_name>
+		<reticule_name>ui_hud_reti_supergauss</reticule_name>
+		<fine_aim_reticule>ui_hud_reti_supergauss0</fine_aim_reticule>-->			
+		<Unique_ID>130</Unique_ID>
+		<Inventory_Item>edf_super_gauss</Inventory_Item>
+		<Item_3d>EDF_Super_Gauss</Item_3d>
+		<Default_team>EDF</Default_team>		
 		<Weapon_Class>bullet</Weapon_Class>
 		<Trigger_Type>automatic</Trigger_Type>
 		<Ammo_Type>bullet</Ammo_Type>
@@ -105,6 +117,12 @@
 
 	<Weapon>
 		<Name>missilepod</Name>
+		<icon_name>ui_badge_icon_fire</icon_name> <!--ui_hud_weapon_icon_thermo--> <!--ui_badge_icon_murry--> <!--ui_badge_icon_fire-->
+		<reticule_name>ui_hud_reti_thermobaric</reticule_name>
+		<fine_aim_reticule>ui_hud_reti_thermobaric2</fine_aim_reticule>
+		<!--<icon_name>ui_hud_weapon_icon_pod</icon_name>
+		<reticule_name>ui_hud_reti_missilepod2</reticule_name>
+		<fine_aim_reticule>ui_hud_reti_missilepod3</fine_aim_reticule>-->		
 		<Weapon_Class>launcher</Weapon_Class>
 		<Trigger_Type>single</Trigger_Type>
 		<Ammo_Type>projectile</Ammo_Type>
@@ -112,7 +130,7 @@
 		<Max_Rounds>36</Max_Rounds>
 		<Range_Max>40</Range_Max>
 		<Range_Red>40</Range_Red>
-		<Default_Refire_Delay>200</Default_Refire_Delay>
+		<Default_Refire_Delay>0</Default_Refire_Delay> <!--From 200-->
 		<Damage_Scaling_Max>
 			<NPC_Damage>100</NPC_Damage>
 			<Player_Damage>100</Player_Damage>
@@ -171,19 +189,16 @@
 		<Ammo_Box_Restock>36</Ammo_Box_Restock>
 		<Num_Magazines>4</Num_Magazines>
 		<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-		<icon_name>ui_hud_weapon_icon_thermo</icon_name>
-		<reticule_name>ui_hud_reti_thermobaric</reticule_name>
 		<dummy>False</dummy>
 		<Unique_ID>132</Unique_ID>
 		<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 		<Default_team>Marauder</Default_team>
-		<fine_aim_reticule>ui_hud_reti_thermobaric2</fine_aim_reticule>
 		<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
 		<aim_assist>0.5</aim_assist>
 		<Projectile_Info>
 			<Model>rpg_projectile</Model>
-			<Start_Speed>50</Start_Speed>
-			<Max_Speed>70</Max_Speed>
+			<Start_Speed>40</Start_Speed> <!--From 50-->
+			<Max_Speed>60</Max_Speed> <!--From 70-->
 			<Attached_Effect>wep_miner_rpg_trail_s3</Attached_Effect>
 			<Projectile_Flags>
 				<Flag>align orient to flightpath</Flag>
@@ -191,131 +206,12 @@
 				</Projectile_Flags>
 			<Time_Until_Propelled>0.0</Time_Until_Propelled>
 			<Gravity>0</Gravity>
-			<Acceleration>10</Acceleration>
-			<Inaccurate_flight>0.12</Inaccurate_flight>
+			<Acceleration>8</Acceleration> <!--From 10-->
+			<Inaccurate_flight>0.00</Inaccurate_flight> <!--From 0.12-->
 			</Projectile_Info>
 		<Explosion>DLC_missilepod</Explosion>
 		<Player_Move_Speed>1.25</Player_Move_Speed>
 		<Max_Rounds_Upgrade>63</Max_Rounds_Upgrade>
-	</Weapon>
-	
-	<Weapon>
-		<Name>spiker</Name>
-		<Weapon_Class>harpoon</Weapon_Class>
-		<Trigger_Type>single</Trigger_Type>
-		<Ammo_Type>projectile</Ammo_Type>
-		<Magazine_Size>20</Magazine_Size>
-		<Max_Rounds>120</Max_Rounds>
-		<Range_Max>60</Range_Max>
-		<Range_Red>60</Range_Red>
-		<Default_Refire_Delay>180</Default_Refire_Delay>
-		<Damage_Scaling_Max>
-			<NPC_Damage>185</NPC_Damage>
-			<Player_Damage>45</Player_Damage>
-			<Threshold>100</Threshold>
-			<Vehicle_Damage>185</Vehicle_Damage>
-			<Player_Vehicle_Damage>45</Player_Vehicle_Damage>
-			</Damage_Scaling_Max>
-		<Spread_Max>1.5</Spread_Max>
-		<Spread_Min>0.3</Spread_Min>
-		<NPC_Spread_Max>2.1</NPC_Spread_Max>
-		<NPC_Spread_Min>0.35</NPC_Spread_Min>
-		<To_Spread_Max>3</To_Spread_Max>
-		<To_Spread_Min>800</To_Spread_Min>
-		<Spread_Multiplier_Run>0.8</Spread_Multiplier_Run>
-		<_Editor>
-			<Category>Entries:Marauder</Category>
-			</_Editor>
-		<Ragdoll_Force_Shoot>1</Ragdoll_Force_Shoot>
-		<MeleeAttacks>
-			<Crouching>ar_melee</Crouching>
-			<CrouchMoving>ar_melee</CrouchMoving>
-			<StandingSecondary>ar_melee2</StandingSecondary>
-			<MovingSecondary>ar_melee</MovingSecondary>
-			<ProneAttackSecondary>ar_melee</ProneAttackSecondary>
-			<StandingPrimary>ar_melee</StandingPrimary>
-			<CrouchingPrimary>ar_melee</CrouchingPrimary>
-			<CrouchingSecondary>ar_melee2</CrouchingSecondary>
-			</MeleeAttacks>
-		<Animation_Group>Railgun</Animation_Group>
-		<Flags>
-			<Flag>shatter</Flag>
-			<Flag>is obvious weapon</Flag>
-			<Flag>can fine aim</Flag>
-			<Flag>mp selectable</Flag>
-		</Flags>
-		<Min_Engagement_Distance>20</Min_Engagement_Distance>
-		<Max_Engagement_Distance>50</Max_Engagement_Distance>
-		<Inventory_Item>spiker</Inventory_Item>
-		<Item_3d>spiker</Item_3d>
-		<Recoil_Kick>.7</Recoil_Kick>
-		<Acceleration>0.0</Acceleration>
-		<Sounds>
-			<Sound_Group>rail driver</Sound_Group>
-			<Fire_Sound>WEP_TUR_HARPOON_PC_ATTACK</Fire_Sound>
-			<Sound_Radius>100</Sound_Radius>
-			<NPC_Fire_Sounds>
-				<NPC_Fire_Sound>WEP_TUR_HARPOON_NPC_ATTACK_NEAR</NPC_Fire_Sound>
-				</NPC_Fire_Sounds>
-			<No_Ammo_Sound>WEP_RAIL_DRYFIRE_PC</No_Ammo_Sound>
-			<Flyby_Sound>WEP_HARPOON_FLYBY</Flyby_Sound>
-			</Sounds>
-		<Visuals>
-			<Muzzle_Flash>wep_edf_autoblaster_flash</Muzzle_Flash>
-			<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke>
-			<Fire_Camera_Shake>weapon_fire_autoblast</Fire_Camera_Shake>
-			<Player_Hit_Camera_Shake>npc_gauss_rifle</Player_Hit_Camera_Shake>
-			<Tracer_Frequency>1</Tracer_Frequency>
-			<Tracer_Effect>wep_gauss_rifle_tracer</Tracer_Effect>
-			</Visuals>
-		<Reload_Delay>300</Reload_Delay>
-		<Spread_Fine_Aim_Min>0.1</Spread_Fine_Aim_Min>
-		<Spread_Fine_Aim_Max>1.1</Spread_Fine_Aim_Max>
-		<NPC_Firing_Pattern>Default Spiker</NPC_Firing_Pattern>
-		<Bullet_hole_scale>1.5</Bullet_hole_scale>
-		<Zoom_Magnification>1.65</Zoom_Magnification>
-		<Ammo_Box_Restock>120</Ammo_Box_Restock>
-		<Num_Magazines>6</Num_Magazines>
-		<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-		<icon_name>ui_hud_weapon_icon_grinder</icon_name>
-		<reticule_name>ui_hud_reti_harpoon</reticule_name>
-		<dummy>False</dummy>
-		<mp_kill_phrase>HM_KILL_PHRASE_RAILED</mp_kill_phrase>
-		<Headshot_Multiplier>4.0</Headshot_Multiplier>
-		<Unique_ID>93</Unique_ID>
-		<NPC_Refire_Delay>250</NPC_Refire_Delay>
-		<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
-		<Bullet_Group>Harpoon</Bullet_Group>
-		<Default_team>Marauder</Default_team>
-		<fine_aim_reticule>ui_hud_reti_harpoon</fine_aim_reticule>
-		<Alert_Level_Multiplier>1.0</Alert_Level_Multiplier>
-		<Dropped_ammo_scale>0.7666667</Dropped_ammo_scale>
-		<aim_assist>1</aim_assist>
-		<Projectile_Info>
-			<Model>spiker_projectile</Model>
-			<Start_Speed>125</Start_Speed>
-			<Max_Speed>125</Max_Speed>
-			<Attached_Effect>wep_turret_harpoon_trail_a</Attached_Effect>
-			<Projectile_Flags>
-				<Flag>attach on impact</Flag>
-				<Flag>align orient to flightpath</Flag>
-				<Flag>damage on impact</Flag>
-				<Flag>immediate effect detach</Flag>
-				</Projectile_Flags>
-			<Time_Until_Propelled>0.0</Time_Until_Propelled>
-			<Friction>1</Friction>
-			<Restitution>1</Restitution>
-			<Gravity>0</Gravity>
-			</Projectile_Info>
-		<NPC_Aim_Drift>Spiker</NPC_Aim_Drift>
-		<Damage_Scaling_Min>
-			<NPC_Damage>0.0</NPC_Damage>
-			<Player_Damage>0.0</Player_Damage>
-			<Vehicle_Damage>-1</Vehicle_Damage>
-			<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
-			</Damage_Scaling_Min>
-		<Player_Move_Speed>1.25</Player_Move_Speed>
-		<Max_Rounds_Upgrade>120</Max_Rounds_Upgrade>
 	</Weapon>
 	
 	<Weapon>
@@ -324,9 +220,12 @@
 		<Inventory_Item>edf_subverter</Inventory_Item>
 		<Item_3d>edf_subverter</Item_3d>
 		<Default_team>EDF</Default_team>
-		<icon_name>ui_hud_weapon_icon_pistol</icon_name>
+		<icon_name>ui_badge_icon_edf</icon_name> <!--ui_hud_weapon_icon_pistol-->
 		<reticule_name>ui_hud_reti_enforcer</reticule_name>
 		<fine_aim_reticule>ui_hud_reti_enforcer2</fine_aim_reticule>
+		<!--<icon_name>ui_hud_weapon_icon_sub</icon_name>
+		<reticule_name>ui_hud_reti_subverter</reticule_name>
+		<fine_aim_reticule>ui_hud_reti_subverter0</fine_aim_reticule>-->		
 		<Weapon_Class>bullet</Weapon_Class>
 		<Trigger_Type>automatic</Trigger_Type>
 		<Ammo_Type>bullet</Ammo_Type>
@@ -409,138 +308,6 @@
 		<Player_Move_Speed>1.25</Player_Move_Speed>
 		<Bullet_hole_scale>0.8</Bullet_hole_scale>
 	</Weapon>
-	
-	<Weapon>
-		<Name>royal_sword</Name>
-		<Weapon_Class>melee_gutter</Weapon_Class>
-		<Trigger_Type>single</Trigger_Type>
-		<Ammo_Type>melee</Ammo_Type>
-		<Magazine_Size>1</Magazine_Size>
-		<Max_Rounds>1</Max_Rounds>
-		<Range_Max>1.8</Range_Max>
-		<Range_Red>4.5</Range_Red>
-		<Default_Refire_Delay>0</Default_Refire_Delay>
-		<Damage_Scaling_Max>
-			<NPC_Damage>1000</NPC_Damage>
-			<Player_Damage>1000</Player_Damage>
-			<Vehicle_Damage>-1</Vehicle_Damage>
-			<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
-		</Damage_Scaling_Max>
-		<Damage_Scaling_Min>
-			<NPC_Damage>25</NPC_Damage>
-			<Player_Damage>25</Player_Damage>
-			<Vehicle_Damage>-1</Vehicle_Damage>
-			<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
-		</Damage_Scaling_Min>
-		<_Editor>
-			<Category>Entries:Marauder</Category>
-		</_Editor>
-		<Animation_Group>Gutter</Animation_Group>
-		<Flags>
-			<Flag>shatter</Flag>
-			<Flag>held in left hand</Flag>
-			<Flag>disable player cover</Flag>
-			<!--<Flag>mp selectable</Flag>-->
-		</Flags>
-		<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
-		<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
-		<MeleeAttacks>
-			<StandingPrimary>sword stand sideways</StandingPrimary>
-			<StandingSecondary>sword stand overhead</StandingSecondary>
-			<MovingPrimary>sledgehammer_melee</MovingPrimary>
-			<MovingSecondary>sledgehammer_melee_2</MovingSecondary>
-			<Crouching>sledgehammer_melee</Crouching>
-			<CrouchMoving>sledgehammer_melee</CrouchMoving>
-			<ProneAttackPrimary>sledgehammer_melee</ProneAttackPrimary>
-			<ProneAttackSecondary>sledgehammer_melee_2</ProneAttackSecondary>
-			<CrouchingPrimary>sword stand sideways</CrouchingPrimary>
-			<CrouchingSecondary>sword stand overhead</CrouchingSecondary>
-			<StandingTertiary>sword stand overhead</StandingTertiary>
-			<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
-		</MeleeAttacks>
-		<Inventory_Item>royal_sword</Inventory_Item>
-		<Item_3d>royal_sword</Item_3d>
-		<Acceleration>0.0</Acceleration>
-		<Visuals>
-			<Attachment_prop>holster-hammer</Attachment_prop>
-			<Special_Hit_Effect>wep_gutter_impact_flesh</Special_Hit_Effect>
-		</Visuals>
-		<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
-		<Ammo_Box_Restock>0</Ammo_Box_Restock>
-		<Num_Magazines>2</Num_Magazines>
-		<Player_Move_Speed>1.25</Player_Move_Speed>
-		<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-		<icon_name>ui_hud_weapon_icon_royalsword</icon_name>
-		<reticule_name>ui_hud_reti_royalsword</reticule_name>
-		<dummy>False</dummy>
-		<Unique_ID>98</Unique_ID>
-		<Melee_Group>Gutter</Melee_Group>
-		<Default_team>Marauder</Default_team>
-		<Zoom_Magnification>1.45</Zoom_Magnification>
-		<aim_assist>0.75</aim_assist>
-	</Weapon>
-	
-	<Weapon>
-		<Name>pickaxe</Name>
-		<Weapon_Class>melee</Weapon_Class>
-		<Trigger_Type>single</Trigger_Type>
-		<Ammo_Type>melee</Ammo_Type>
-		<Magazine_Size>1</Magazine_Size>
-		<Max_Rounds>1</Max_Rounds>
-		<Range_Max>1.8</Range_Max>
-		<Range_Red>4.5</Range_Red>
-		<Default_Refire_Delay>0</Default_Refire_Delay>
-		<Damage_Scaling_Max>
-			<NPC_Damage>0</NPC_Damage>
-			<Player_Damage>0</Player_Damage>
-			<Vehicle_Damage>-1</Vehicle_Damage>
-			<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
-		</Damage_Scaling_Max>
-		<_Editor>
-			<Category>Entries:Marauder</Category>
-		</_Editor>
-		<Animation_Group>Hammer</Animation_Group>
-		<Flags>
-			<Flag>shatter</Flag>
-			<Flag>held in left hand</Flag>
-			<Flag>disable player cover</Flag>
-			<!--<Flag>mp selectable</Flag>-->
-		</Flags>
-		<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
-		<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
-		<MeleeAttacks>
-			<StandingPrimary>sledgehammer_melee_side_u1</StandingPrimary>
-			<MovingPrimary>sledgehammer_melee</MovingPrimary>
-			<MovingSecondary>sledgehammer_melee_2</MovingSecondary>
-			<Crouching>sledgehammer_melee</Crouching>
-			<CrouchMoving>sledgehammer_melee</CrouchMoving>
-			<ProneAttackPrimary>sledgehammer_melee</ProneAttackPrimary>
-			<ProneAttackSecondary>sledgehammer_melee_2</ProneAttackSecondary>
-			<CrouchingPrimary>sledgehammer_melee_side_u1</CrouchingPrimary>
-			<StandingTertiary>sledgehammer_melee_vert_u1</StandingTertiary>
-			<CrouchingTertiary>sledgehammer_melee_vert_u1</CrouchingTertiary>
-		</MeleeAttacks>
-		<Inventory_Item>pickaxe</Inventory_Item>
-		<Item_3d>pickaxe</Item_3d>
-		<Acceleration>0.0</Acceleration>
-		<Visuals>
-			<Attachment_prop>holster-hammer</Attachment_prop>
-		</Visuals>
-		<Player_Move_Speed>1.25</Player_Move_Speed>
-		<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
-		<Ammo_Box_Restock>0</Ammo_Box_Restock>
-		<Num_Magazines>2</Num_Magazines>
-		<icon_name>ui_hud_weapon_icon_pickaxe</icon_name>
-		<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-		<reticule_name>ui_hud_reti_pickaxe</reticule_name>
-		<dummy>False</dummy>
-		<Melee_Group>Sledgehammer</Melee_Group>
-		<Unique_ID>95</Unique_ID>
-		<Default_team>Marauder</Default_team>
-		<Zoom_Magnification>1.45</Zoom_Magnification>
-		<aim_assist>0.75</aim_assist>
-	</Weapon>	
-<!--END DLC Weapons Added-->
 <!--START Gutter & Flag Fix-->
 		<Weapon>
 			<Name>gutter</Name>

@@ -1,20 +1,22 @@
 ---------------
 To do
 ---------------
-* Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
-* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
-* Fix out of bounds spots on Excavation, Remnant, Puncture, Warlords and Gradient
-* Remove blur from RPG explosions
-* Upscale grinder projectile texture
+
 * Update changelog so its consistent with formatting
-* Reduce size of blood decals, one bullet can result in a super large pool while they are still alive
-* Replace intial loading screen (interface-init_load in misc.vpp_pc and interface.vpp_pc)
-* Add a single kaboom pack spawn with only 1 on the rack on crevice
-* Add a single kaboom pack spawn with only 1 on the rack on overpass
+
+
 
 -----------
 Low Priority 
 ------------
+* Remove blur from RPG explosions
+* Upscale grinder projectile texture
+* Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
+* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
+* Fix out of bounds spots on Excavation, Remnant, Puncture, Warlords and Gradient
+* Replace intial loading screen (interface-init_load in misc.vpp_pc and interface.vpp_pc)
+* Add a single kaboom pack spawn with only 1 on the rack on crevice
+* Add a single kaboom pack spawn with only 1 on the rack on overpass
 * Restore Dan Masons yellow jacket and clothing that matches the cutscenes and upscale it
 * Take new screenshots for thumbnail with new WC maps if they need them  (Eg. Complex)
 * Armored Mason in multiplayer
@@ -56,6 +58,7 @@ Test
 ----
 Done
 ----
+* Reduce size of blood decals, one bullet can result in a super large pool while they are still alive
 * Add DLC weapon spawns around the map when its possible
 * Merge files inside chunks.vpp, dlc01_precache.vpp and terr01_precache.vpp_pc into mp_common.vpp_pc
 * Export all maps

@@ -1,29 +1,6 @@
 <root>
 	<Table>
-		<Inventory_Item>
-			<Name>flamethrower</Name>
-			<Display_Name>FLAMETHROWER</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Fires a constant stream of fire!</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
 <!--START DLC Weapons Added-->
-		<Inventory_Item>
-			<Name>spiker</Name>
-			<Display_Name>WEAP_SPIKER</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-		
 		<Inventory_Item>
 			<Name>edf_super_gauss</Name>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
@@ -55,30 +32,6 @@
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
 			<Description>Fast missile launcher</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-	
-		<Inventory_Item>
-			<Name>pickaxe</Name>
-			<Display_Name>WEAP_PICKAXE</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-	
-		<Inventory_Item>
-			<Name>royal_sword</Name>
-			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Very regal.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

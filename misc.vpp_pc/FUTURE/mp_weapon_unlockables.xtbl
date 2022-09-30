@@ -1,5 +1,13 @@
 <root>
-	<Table>
+	<Table>		
+		<unlockable>
+			<Name>sledgehammer</Name>
+			<level_needed>0</level_needed>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<image_name>mp_hammer_default</image_name>
+		</unlockable>		
 		<unlockable>
 			<Name>sledgehammer</Name>
 			<level_needed>0</level_needed>
