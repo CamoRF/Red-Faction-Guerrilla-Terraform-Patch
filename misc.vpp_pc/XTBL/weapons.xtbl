@@ -9252,7 +9252,7 @@
 			<icon_name>ui_hud_weapon_icon_gauss</icon_name>
 			<small_icon_name>ui_hud_weapon_icon_sm_gauss</small_icon_name>
 			<fine_aim_reticule>ui_hud_reti_grinder2</fine_aim_reticule>
-			<Player_Move_Speed>0.98</Player_Move_Speed>
+			<Player_Move_Speed>1.25</Player_Move_Speed>
 			<Spread_Fine_Aim_Min>0.1</Spread_Fine_Aim_Min>
 			<Spread_Fine_Aim_Max>0.2</Spread_Fine_Aim_Max>
 			<Spread_Multiplier_Run>0.4</Spread_Multiplier_Run>

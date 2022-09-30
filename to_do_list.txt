@@ -5,29 +5,14 @@ To do
 * Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
 * Fix out of bounds spots on Excavation, Remnant, Puncture, Warlords and Gradient
 * Doublecheck the misslepod isn't missing the projectile
-* Add drop shadows to dlc01_gameplay_properties.xtbl - wip
 * Apply changes from the base game tweak table to the dlc tweak table
 * Remove blur from RPG explosions
 * Upscale grinder projectile texture
-* Add new weapon spawns to more EDF
 * Update changelog so its consistent with formatting
-* Consistent weapon carry player movement speed
-* Try to make it so you can walk up steeper inclines
 * Flame thrower weapon using reconstructor with Nano Rifle stream
 * Reduce size of blood decals, one bullet can result in a super large pool while they are still alive
-* Improve driving skills of NPCs
-* Reduce EDF density slightly, maybe too many drones
-* Increase morale drop for death - 
-* Remove Eos versions of NPCs from all sectors except Eos and Oasis
-* Remove Kepler from NPC spawns
-* Balance difficulties: Casual = just want to blow stuff up, Normal = about average, Hard = Balanced and fair but challenging, Insane = Truly punishing experience 
-* Unlock Insane difficulty by default
 * Replace intial loading screen (interface-init_load in misc.vpp_pc and interface.vpp_pc)
-* Change Lab Babe to Lab Lady, Stripper to Outcast, Marauder Babe to Marauder Lab Tech
 * Test version of Pinaccle with experimental spawn flipping fixes that apply only in CTF
-* Add Subverter to Guerrilla tech level
-* Increase gravity slightly, jumping feels floaty
-
 
 -----------
 Low Priority 
@@ -53,6 +38,11 @@ Low Priority
 * Update WC map thumbnails if they changed a lot after ATMs work
 * Increase player movement speed in multiplayer
 * Increase jump height in multiplayer - doesn't seem possible
+* Increase gravity slightly, jumping feels floaty
+* Try to make it so you can walk up steeper inclines
+* Improve driving skills of NPCs
+* Reduce EDF density slightly, maybe too many drones
+* Add new weapon spawns to more EDF
 
 ----
 Test
@@ -65,6 +55,7 @@ Test
 * Test out of bounds spots (see changelog)
 * Movement speed slow in multiplayer except when moving sideways?
 * Player icons not working in multiplayer?
+* Add Subverter to Guerrilla tech level
 
 ----
 Done
@@ -80,6 +71,11 @@ Done
 * Change online_tweak_table.xtbl floats to "-1"
 * Add reducing randomness of projectile of grinder by adjusting collision  to changelog
 * EDF Voice needs to be added to the EDF team for team game
+* Add missing shadows and drop shadows to dlc01_gameplay_properties.xtbl 
+* Consistent weapon carry player movement speed
+* Change Lab Babe to Lab Lady, Stripper to Outcast, Marauder Babe to Marauder Lab Tech
+* Remove Eos and Oasis versions of NPCs from all sectors except Eos and Oasis
+* Remove Kepler from NPC spawns
 
 ------
 OTHER PROJECTS
@@ -87,3 +83,6 @@ OTHER PROJECTS
 
 * HD character textures 
 * HD weapons and backpack textures
+* Balance difficulties: Casual = just want to blow stuff up, Normal = about average, Hard = Balanced and fair but challenging, Insane = Truly punishing experience 
+* Unlock Insane difficulty by default
+* Increase morale drop for death - 

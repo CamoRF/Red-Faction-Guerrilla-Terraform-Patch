@@ -36,7 +36,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<SquadSpawnPeriod>50</SquadSpawnPeriod>
-			<NPCSpawnPeriod>50</NPCSpawnPeriod>
+			<NPCSpawnPeriod>0</NPCSpawnPeriod>
 			<MinSpawnDistance>100.0</MinSpawnDistance>
 		</SpawnParameters>
 		

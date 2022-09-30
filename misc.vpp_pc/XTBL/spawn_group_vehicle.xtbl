@@ -442,13 +442,33 @@
 				<vehicle_type>Mar_Jetter_1</vehicle_type>
 <!--START DLC Vehicles Added-->			
 				<vehicle_type>Mar_stomper_MG</vehicle_type>
-				<vehicle_type>Mar_chomper</vehicle_type>
-<!--END DLC Vehicles Added-->			
+				<vehicle_type>Mar_chomper</vehicle_type>		
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
+		<spawn_group_vehicle>
+			<Name>Mar_Stomper</Name>
+			<vehicle_list>	
+				<vehicle_type>Mar_stomper_MG</vehicle_type>	
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:Marauder</Category>
+			</_Editor>
+		</spawn_group_vehicle>
+		
+		<spawn_group_vehicle>
+			<Name>Mar_Chomper</Name>
+			<vehicle_list>	
+				<vehicle_type>Mar_chomper</vehicle_type>
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:Marauder</Category>
+			</_Editor>
+		</spawn_group_vehicle>
+<!--END DLC Vehicles Added-->		
 		
 		<spawn_group_vehicle>
 			<Name>Default Guerilla</Name>

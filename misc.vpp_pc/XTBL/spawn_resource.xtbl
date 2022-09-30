@@ -786,6 +786,16 @@
 					<vehicle_group>Mar_Raider</vehicle_group>
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
+<!--START DLC Vehicles Added-->				
+				<vehicle_info>
+					<vehicle_group>Mar_Stomper</vehicle_group>
+					<reservation_count>1</reservation_count>
+				</vehicle_info>
+				<vehicle_info>
+					<vehicle_group>Mar_Chomper</vehicle_group>
+					<reservation_count>1</reservation_count>
+				</vehicle_info>
+<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries</Category>
