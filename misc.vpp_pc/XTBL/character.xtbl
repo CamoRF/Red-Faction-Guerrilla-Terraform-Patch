@@ -6377,6 +6377,30 @@
 						</Item>
 					</Items>
 				</Prop>
+<!--START Added-->				
+				<Prop>
+					<Prop_Name>Armor L1</Prop_Name>
+					<Chance>100</Chance>
+					<Type>accessory_misc</Type>
+					<Items>
+						<Item>
+							<Name>Mason_Armor_L1</Name>
+							<Chance>100</Chance>
+						</Item>
+					</Items>
+				</Prop>
+				<Prop>
+					<Prop_Name>Armor L2</Prop_Name>
+					<Chance>100</Chance>
+					<Type>accessory_misc</Type>
+					<Items>
+						<Item>
+							<Name>Mason_Armor_L2</Name>
+							<Chance>100</Chance>
+						</Item>
+					</Items>
+				</Prop>
+<!--END Added-->				
 			</Props>
 			<Heads>
 				<Head>
@@ -11458,7 +11482,7 @@
 					</Items>
 				</Prop>
 			</Props>
-			<Last_Equip_Item_Name>charge_placer</Last_Equip_Item_Name>
+			<Last_Equip_Item_Name>charge_placer</Last_Equip_Item_Name>		
 			<Heads>
 				<Head>
 					<Name>mason_head</Name>

@@ -1,5 +1,16 @@
 <root>
 	<Table>
+		<Inventory_Item>
+			<Name>flamethrower</Name>
+			<Display_Name>Flamethrower</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Fires a constant stream of fire!</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>
 <!--START DLC Weapons Added-->
 		<Inventory_Item>
 			<Name>spiker</Name>

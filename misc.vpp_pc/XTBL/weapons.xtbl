@@ -3,7 +3,7 @@
 <!--START Experimental Weapons Added-->
 		<Weapon>
 			<Name>flamethrower</Name>
-			<Inventory_Item>repair_tool</Inventory_Item>
+			<Inventory_Item>flamethrower</Inventory_Item>
 			<Item_3d>repair_tool</Item_3d>
 			<Weapon_Class>flame</Weapon_Class> <!--From "repair"-->
 			<Trigger_Type>automatic</Trigger_Type>
@@ -551,8 +551,8 @@
 			<Flag>shatter</Flag>
 			<Flag>is obvious weapon</Flag>
 			<Flag>can fine aim</Flag>
-			<!--<Flag>mp selectable</Flag>-->
-			</Flags>
+			<Flag>mp selectable</Flag>
+		</Flags>
 		<Min_Engagement_Distance>20</Min_Engagement_Distance>
 		<Max_Engagement_Distance>50</Max_Engagement_Distance>
 		<Inventory_Item>spiker</Inventory_Item>
