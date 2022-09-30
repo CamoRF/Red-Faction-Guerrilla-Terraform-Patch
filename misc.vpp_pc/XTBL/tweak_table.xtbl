@@ -146,7 +146,7 @@
 		
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_pct</Name>
-			<Value>99999</Value> <!--From 1.0-->
+			<Value>9999</Value> <!--From 1.0-->
 			<Description>Minimum fade percentage for NPCs near the camera.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -1132,7 +1132,7 @@
 		
 		<Tweak_Table_Entry>
 			<Name>Mp_enemy_player_name_min_dot</Name>
-			<Value>1.000</Value> <!--From 0.994-->
+			<Value>0.994</Value>
 			<Description>Used to determine whether we should render an enemy player's name or not. Minimum dot product between the camera's forward vec and the vec between the local player and the remote player</Description>
 			<_Editor>
 				<Category>Multiplayer</Category>
@@ -1141,7 +1141,7 @@
 		
 		<Tweak_Table_Entry>
 			<Name>Mp_enemy_player_name_crouching_min_dot</Name>
-			<Value>1.000</Value> <!--From 0.999-->
+			<Value>0.999</Value>
 			<Description>Used to determine whether we should render an enemy player's name or not. Minimum dot product between the camera's forward vec and the vec between the local player and the remote player</Description>
 			<_Editor>
 				<Category>Multiplayer</Category>
@@ -1693,7 +1693,7 @@
 		
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_dist</Name>
-			<Value>11562.0</Value> <!--From 0.0-->
+			<Value>9999</Value> <!--From 0.0-->
 			<Description>Distance from the camera at which NPCs reach the minimum fade percent.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -1702,7 +1702,7 @@
 		
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_max_fade_dist</Name>
-			<Value>11562.0</Value> <!--From 0.6-->
+			<Value>9999</Value> <!--From 0.6-->
 			<Description>Distance from the camera at which friendly NPCs are fully faded-in.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>

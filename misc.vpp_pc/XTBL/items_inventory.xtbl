@@ -2,7 +2,7 @@
 	<Table>
 		<Inventory_Item>
 			<Name>flamethrower</Name>
-			<Display_Name>Flamethrower</Display_Name>
+			<Display_Name>FLAMETHROWER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
