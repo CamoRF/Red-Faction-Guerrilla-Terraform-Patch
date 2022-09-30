@@ -196,7 +196,7 @@ ui_hud_reti_spiker1
 		<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
 		<aim_assist>0.5</aim_assist>
 		<Projectile_Info>
-			<Model>rpg_projectile</Model>
+			<Model>thermobaric_rocket_projectile</Model>
 			<Start_Speed>40</Start_Speed> <!--From 50-->
 			<Max_Speed>60</Max_Speed> <!--From 70-->
 			<Attached_Effect>wep_miner_rpg_trail_s3</Attached_Effect>
