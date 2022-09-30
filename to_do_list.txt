@@ -4,14 +4,13 @@ To do
 * Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
 * Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
 * Fix out of bounds spots on Excavation, Remnant, Puncture, Warlords and Gradient
-* Doublecheck the misslepod isn't missing the projectile
-
 * Remove blur from RPG explosions
 * Upscale grinder projectile texture
 * Update changelog so its consistent with formatting
 * Reduce size of blood decals, one bullet can result in a super large pool while they are still alive
 * Replace intial loading screen (interface-init_load in misc.vpp_pc and interface.vpp_pc)
-* Test version of Pinaccle with experimental spawn flipping fixes that apply only in CTF
+* Add a single kaboom pack spawn with only 1 on the rack on crevice
+* Add a single kaboom pack spawn with only 1 on the rack on overpass
 
 -----------
 Low Priority 
@@ -44,14 +43,15 @@ Low Priority
 * Add new weapon spawns to more EDF
 * Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to
 the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
+* Test version of Pinaccle with experimental spawn flipping fixes that apply only in CTF
+* Doublecheck the misslepod isn't missing the projectile
+* Overpass needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
 
 ----
 Test
 ----
-* Give sniper infinite range
-* Test out of bounds spots (see changelog)
-* Player icons not working in multiplayer?
 
+* Test out of bounds spots (see changelog)
 
 ----
 Done
@@ -79,6 +79,9 @@ Done
 * Buff stealth pack transparency even more, try to remove the shimmer
 * Movement speed slow in multiplayer except when moving sideways?
 * Apply changes from the base game tweak table to the dlc tweak table
+* Player icons not working in multiplayer
+* Increase sniper projectile speed and range
+* Apply the 5 second countdown change to the GOG .exe
 
 ------
 OTHER PROJECTS

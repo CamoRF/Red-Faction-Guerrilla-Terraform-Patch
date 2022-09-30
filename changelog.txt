@@ -300,7 +300,7 @@ v1.06 ALPHA CHANGES
 * Propane tank weapon disabled for now due to bugs
 * Possibly fixed Kaboom backpack sound getting stuck when you die
 * Reduced backpack clipping for Jenkins
-* 
+* Fixed player icon not working
 
 [Multiplayer Additions & Changes]
 * Increased max player cap for Team Anarchy and Team Bagman matchmaking playlists to 16 from 12
@@ -346,6 +346,10 @@ v1.06 ALPHA CHANGES
 * Reverted changes in previous update, following changes are compared to vanilla values
 * Repair range increased to 3.0 from 2.5
 * Repair radius increased to 2.1 from 1.6
+
+[Sniper Buff/Fix]
+* Removed spread at all distances
+* Increased zoom magnification to 5.0 from 4.0
 
 ------------
 |KNOWN BUGS|

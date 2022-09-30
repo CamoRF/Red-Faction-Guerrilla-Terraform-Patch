@@ -7480,8 +7480,8 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Spread_Max>1.0</Spread_Max>
-			<Spread_Min>0.25</Spread_Min>
+			<Spread_Max>0.0</Spread_Max> <!--From 1.0-->
+			<Spread_Min>0.0</Spread_Min> <!--From 0.25-->
 			<NPC_Spread_Max>1.5</NPC_Spread_Max>
 			<NPC_Spread_Min>0.02</NPC_Spread_Min>
 			<To_Spread_Max>1</To_Spread_Max>
@@ -7522,7 +7522,7 @@
 			<NPC_Firing_Pattern>Default Sniper Rifle</NPC_Firing_Pattern>
 			<NPC_Refire_Delay>950</NPC_Refire_Delay>
 			<Bullet_hole_scale>1.4</Bullet_hole_scale>
-			<Zoom_Magnification>4.0</Zoom_Magnification>
+			<Zoom_Magnification>5.0</Zoom_Magnification> <!--From 4.0-->
 			<Ammo_Box_Restock>12</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
