@@ -1,1676 +1,1672 @@
 <root>
-<Table>
-	<continuous_attack_data>
-		<Name>je_td_03</Name>
-		<attacker_count>2</attacker_count>
-		<respawn_period>0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>True</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+	<Table>
+		<continuous_attack_data>
+			<Name>je_td_03</Name>
+			<attacker_count>2</attacker_count>
+			<respawn_period>0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>True</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Guerrilla Express</Category>
+			<_Editor>
+				<Category>Guerrilla Express</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>je_td_05</Name>
-		<attacker_count>3</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>marauder_squad_2</squad_def>
-				<vehicle_group>Mar_Raider</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>je_td_05</Name>
+			<attacker_count>3</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>marauder_squad_2</squad_def>
+					<vehicle_group>Mar_Raider</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_2</squad_def>
-				<vehicle_group>Mar_Raider</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>marauder_squad_2</squad_def>
+					<vehicle_group>Mar_Raider</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_2</squad_def>
-				<vehicle_group>Mar_Raider</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>marauder_squad_2</squad_def>
+					<vehicle_group>Mar_Raider</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Guerrilla Express</Category>
+			<_Editor>
+				<Category>Guerrilla Express</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>je_td_06</Name>
-		<attacker_count>3</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>marauder_squad_2</squad_def>
-				<vehicle_group>Mar_Raider</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>je_td_06</Name>
+			<attacker_count>3</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>marauder_squad_2</squad_def>
+					<vehicle_group>Mar_Raider</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_2</squad_def>
-				<vehicle_group>Mar_Raider</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>marauder_squad_2</squad_def>
+					<vehicle_group>Mar_Raider</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_2</squad_def>
-				<vehicle_group>Mar_Raider</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>marauder_squad_2</squad_def>
+					<vehicle_group>Mar_Raider</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Guerrilla Express</Category>
+			<_Editor>
+				<Category>Guerrilla Express</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>je_td_13</Name>
-		<attacker_count>3</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>marauder_squad_2</squad_def>
-				<vehicle_group>Mar_Raider</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>je_td_13</Name>
+			<attacker_count>3</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>marauder_squad_2</squad_def>
+					<vehicle_group>Mar_Raider</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_2</squad_def>
-				<vehicle_group>Mar_Raider</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>marauder_squad_2</squad_def>
+					<vehicle_group>Mar_Raider</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_2</squad_def>
-				<vehicle_group>Mar_Raider</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>marauder_squad_2</squad_def>
+					<vehicle_group>Mar_Raider</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Guerrilla Express</Category>
+			<_Editor>
+				<Category>Guerrilla Express</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>Assault</Name>
-		<attacker_count>2</attacker_count>
-		<respawn_period>2.0</respawn_period>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				<Sub_Group_Index>0</Sub_Group_Index>
+		<continuous_attack_data>
+			<Name>Assault</Name>
+			<attacker_count>2</attacker_count>
+			<respawn_period>2.0</respawn_period>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
+					<Sub_Group_Index>0</Sub_Group_Index>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_3</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				<Sub_Group_Index>1</Sub_Group_Index>
+				<squad_info>
+					<squad_def>basic_squad_3</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
+					<Sub_Group_Index>1</Sub_Group_Index>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>Highway To Hell</Name>
-		<attacker_count>1</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_1</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>Highway To Hell</Name>
+			<attacker_count>1</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_1</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<Sub_Group_Index>1</Sub_Group_Index>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<Sub_Group_Index>1</Sub_Group_Index>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>Default</Type>
-		<Show_Squad_Icons>True</Show_Squad_Icons>
+			<Type>Default</Type>
+			<Show_Squad_Icons>True</Show_Squad_Icons>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>Traffic Jam</Name>
-		<attacker_count>2</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				<Sub_Group_Index>0</Sub_Group_Index>
+		<continuous_attack_data>
+			<Name>Traffic Jam</Name>
+			<attacker_count>2</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
+					<Sub_Group_Index>0</Sub_Group_Index>
 				</squad_info>
-			<squad_info>
-				<Sub_Group_Index>0</Sub_Group_Index>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<Sub_Group_Index>0</Sub_Group_Index>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<Sub_Group_Index>1</Sub_Group_Index>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<Sub_Group_Index>1</Sub_Group_Index>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<Sub_Group_Index>1</Sub_Group_Index>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<Sub_Group_Index>1</Sub_Group_Index>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<Sub_Group_Index>2</Sub_Group_Index>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<Sub_Group_Index>2</Sub_Group_Index>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<Sub_Group_Index>2</Sub_Group_Index>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<Sub_Group_Index>2</Sub_Group_Index>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
-		<Type>Patrol</Type>
-		<Show_Squad_Icons>True</Show_Squad_Icons>
+			<Type>Patrol</Type>
+			<Show_Squad_Icons>True</Show_Squad_Icons>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>Friends, Martians, Countrymen</Name>
-		<attacker_count>2</attacker_count>
-		<respawn_period>0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<Sub_Group_Index>0</Sub_Group_Index>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>mis_FMC_EDFContAttack</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>Friends, Martians, Countrymen</Name>
+			<attacker_count>2</attacker_count>
+			<respawn_period>0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<Sub_Group_Index>0</Sub_Group_Index>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>mis_FMC_EDFContAttack</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>DFA</Name>
-		<attacker_count>2</attacker_count>
-		<respawn_period>5</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>marauder_squad_4</squad_def>
-				<vehicle_group>Mar_Raider</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_2</squad_def>
-				<vehicle_group>Mar_Jetter_1</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_4</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				</squad_info>
-			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>SYE</Name>
-		<attacker_count>4</attacker_count>
-		<respawn_period>1</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_1</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>DFA</Name>
+			<attacker_count>2</attacker_count>
+			<respawn_period>5</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>marauder_squad_4</squad_def>
+					<vehicle_group>Mar_Raider</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>marauder_squad_2</squad_def>
+					<vehicle_group>Mar_Jetter_1</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>marauder_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>marauder_squad_4</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>Party Time</Name>
-		<attacker_count>3</attacker_count>
-		<respawn_period>1</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
+		<continuous_attack_data>
+			<Name>SYE</Name>
+			<attacker_count>4</attacker_count>
+			<respawn_period>1</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_1</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>Intro 1</Name>
-		<attacker_count>2</attacker_count>
-		<respawn_period>5.0</respawn_period>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				<Sub_Group_Index>0</Sub_Group_Index>
+		<continuous_attack_data>
+			<Name>Party Time</Name>
+			<attacker_count>3</attacker_count>
+			<respawn_period>1</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>True</stay_in_vehicle>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
 				</squad_info>
-			<squad_info>
-				<Sub_Group_Index>0</Sub_Group_Index>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>True</stay_in_vehicle>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
 				</squad_info>
-			<squad_info>
-				<Sub_Group_Index>0</Sub_Group_Index>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car_NoTurret</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				</squad_info>
-			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>WKWYA</Name>
-		<attacker_count>2</attacker_count>
-		<respawn_period>1.5</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_1</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_1</squad_def>
-				<vehicle_group>EDF_staff_car_NoTurret</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car_NoTurret</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>True</stay_in_vehicle>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>GOT</Name>
-		<attacker_count>2</attacker_count>
-		<respawn_period>5</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>True</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<Sub_Group_Index>0</Sub_Group_Index>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>Intro 1</Name>
+			<attacker_count>2</attacker_count>
+			<respawn_period>5.0</respawn_period>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
+					<Sub_Group_Index>0</Sub_Group_Index>
+				</squad_info>
+				<squad_info>
+					<Sub_Group_Index>0</Sub_Group_Index>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<Sub_Group_Index>0</Sub_Group_Index>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car_NoTurret</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+		</continuous_attack_data>
+		<continuous_attack_data>
+			<Name>WKWYA</Name>
+			<attacker_count>2</attacker_count>
+			<respawn_period>1.5</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_1</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_1</squad_def>
+					<vehicle_group>EDF_staff_car_NoTurret</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car_NoTurret</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+			</squad_list>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>Ants</Name>
-		<attacker_count>3</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>mis_AVM_ContAttack</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>mis_AVM_ContAttack</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>mis_AVM_ContAttack</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>mis_AVM_ContAttack</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>GOT</Name>
+			<attacker_count>2</attacker_count>
+			<respawn_period>5</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>True</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<Sub_Group_Index>0</Sub_Group_Index>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>Final Mission</Name>
-		<attacker_count>4</attacker_count>
-		<respawn_period>0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>Ants</Name>
+			<attacker_count>3</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>mis_AVM_ContAttack</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				<vehicle_group>EDF_APC</vehicle_group>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>mis_AVM_ContAttack</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>mis_AVM_ContAttack</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>mis_AVM_ContAttack</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>Emergency Broadcast System</Name>
-		<attacker_count>1</attacker_count>
-		<respawn_period>0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>Final Mission</Name>
+			<attacker_count>4</attacker_count>
+			<respawn_period>0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_6</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<Sub_Group_Index>0</Sub_Group_Index>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>True</stay_in_vehicle>
+					<vehicle_group>EDF_APC</vehicle_group>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>SniperHunter</Name>
-		<attacker_count>2</attacker_count>
-		<respawn_period>15</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>True</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<Sub_Group_Index>0</Sub_Group_Index>
-				<squad_def>basic_squad_3</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>Emergency Broadcast System</Name>
+			<attacker_count>1</attacker_count>
+			<respawn_period>0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_3</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_6</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_3</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<Sub_Group_Index>0</Sub_Group_Index>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>Final Mission Part 1</Name>
-		<attacker_count>3</attacker_count>
-		<respawn_period>3</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>True</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>SniperHunter</Name>
+			<attacker_count>2</attacker_count>
+			<respawn_period>15</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>True</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<Sub_Group_Index>0</Sub_Group_Index>
+					<squad_def>basic_squad_3</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_3</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_3</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>Save the Guerrilla Camp</Name>
-		<attacker_count>3</attacker_count>
-		<respawn_period>1</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>True</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>Final Mission Part 1</Name>
+			<attacker_count>3</attacker_count>
+			<respawn_period>3</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>True</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_3</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>Tank Attack</Name>
-		<attacker_count>3</attacker_count>
-		<respawn_period>1</respawn_period>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>Save the Guerrilla Camp</Name>
+			<attacker_count>3</attacker_count>
+			<respawn_period>1</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>True</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_3</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Entries</Category>
-			</_Editor>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>je_ad_01_01</Name>
-		<attacker_count>4</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				</squad_info>
-			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>je_ad_01_02</Name>
-		<attacker_count>4</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>Tank Attack</Name>
+			<attacker_count>3</attacker_count>
+			<respawn_period>1</respawn_period>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+		</continuous_attack_data>
+		<continuous_attack_data>
+			<Name>je_ad_01_01</Name>
+			<attacker_count>4</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+			</squad_list>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>je_ad_01_03</Name>
-		<attacker_count>5</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_tank_heavy</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>je_ad_01_02</Name>
+			<attacker_count>4</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>je_ad_02a</Name>
-		<attacker_count>5</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>True</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>je_ad_01_03</Name>
+			<attacker_count>5</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_tank_heavy</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_APC_NoTurret</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>je_ad_02b</Name>
-		<attacker_count>6</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>True</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_APC_NoTurret</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>je_ad_02a</Name>
+			<attacker_count>5</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>True</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_APC_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_APC_NoTurret</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_4</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>je_ad_02c</Name>
-		<attacker_count>9</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>True</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>je_ad_02b</Name>
+			<attacker_count>6</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>True</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_APC_NoTurret</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_APC_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_APC_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_APC_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>marauder_squad_4</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_4</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_4</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_01a</Name>
-		<attacker_count>4</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>je_ad_02c</Name>
+			<attacker_count>9</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>True</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_APC_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_APC_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>marauder_squad_4</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>marauder_squad_4</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_01b</Name>
-		<attacker_count>5</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_01a</Name>
+			<attacker_count>4</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_01c</Name>
-		<attacker_count>6</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_01b</Name>
+			<attacker_count>5</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_1</squad_def>
-				<vehicle_group>EDF_tank_medium</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_02a</Name>
-		<attacker_count>3</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>Vanilla EDF</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_01c</Name>
+			<attacker_count>6</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_flyerMG</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>Vanilla EDF</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_1</squad_def>
+					<vehicle_group>EDF_tank_medium</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_02b</Name>
-		<attacker_count>4</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>Vanilla EDF</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_02a</Name>
+			<attacker_count>3</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>Vanilla EDF</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_flyerMG</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_flyerMG</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>Vanilla EDF</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>Vanilla EDF</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_02c</Name>
-		<attacker_count>5</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>Vanilla EDF</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_02b</Name>
+			<attacker_count>4</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>Vanilla EDF</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>Vanilla EDF</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_flyerMG</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_1</squad_def>
-				<vehicle_group>EDF_flyerMG</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>Vanilla EDF</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>Vanilla EDF</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_03a</Name>
-		<attacker_count>4</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_02c</Name>
+			<attacker_count>5</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>Vanilla EDF</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>Vanilla EDF</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_1</squad_def>
+					<vehicle_group>EDF_flyerMG</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>Vanilla EDF</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_03b</Name>
-		<attacker_count>5</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_03a</Name>
+			<attacker_count>4</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_03c</Name>
-		<attacker_count>6</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_APC_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_03b</Name>
+			<attacker_count>5</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_tank_heavy</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_04a</Name>
-		<attacker_count>6</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car_NoTurret</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_03c</Name>
+			<attacker_count>6</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_APC_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_tank_heavy</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_04b</Name>
-		<attacker_count>8</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car_NoTurret</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_04a</Name>
+			<attacker_count>6</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car_NoTurret</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_04c</Name>
-		<attacker_count>10</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_04b</Name>
+			<attacker_count>8</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car_NoTurret</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_05a</Name>
-		<attacker_count>5</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_Supplytruck_NoTurret</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_04c</Name>
+			<attacker_count>10</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_Supplytruck_MG</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_Supplytruck_MG</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_Supplytruck_MG</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_05b</Name>
-		<attacker_count>6</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_Supplytruck_NoTurret</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_05a</Name>
+			<attacker_count>5</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_Supplytruck_NoTurret</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_Supplytruck_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_Supplytruck_MG</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_Supplytruck_MG</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_Supplytruck_MG</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_Supplytruck_MG</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_05c</Name>
-		<attacker_count>7</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_Supplytruck_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_05b</Name>
+			<attacker_count>6</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_Supplytruck_NoTurret</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_Supplytruck_MG</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_Supplytruck_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_4</squad_def>
-				<vehicle_group>EDF_Supplytruck_MG</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_Supplytruck_MG</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_06a</Name>
-		<attacker_count>5</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_05c</Name>
+			<attacker_count>7</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_Supplytruck_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_Supplytruck_MG</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_4</squad_def>
+					<vehicle_group>EDF_Supplytruck_MG</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_06b</Name>
-		<attacker_count>6</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_06a</Name>
+			<attacker_count>5</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_1</squad_def>
-				<vehicle_group>EDF_tank_medium</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_06c</Name>
-		<attacker_count>6</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_06b</Name>
+			<attacker_count>6</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_1</squad_def>
+					<vehicle_group>EDF_tank_medium</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_1</squad_def>
-				<vehicle_group>EDF_tank_medium</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_1</squad_def>
-				<vehicle_group>EDF_tank_artillery</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_1</squad_def>
-				<vehicle_group>EDF_tank_artillery</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_07a</Name>
-		<attacker_count>5</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_06c</Name>
+			<attacker_count>6</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_1</squad_def>
+					<vehicle_group>EDF_tank_medium</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_1</squad_def>
+					<vehicle_group>EDF_tank_artillery</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_1</squad_def>
+					<vehicle_group>EDF_tank_artillery</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_07b</Name>
-		<attacker_count>7</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_07a</Name>
+			<attacker_count>5</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>marauder_squad_2</squad_def>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>ls_ad_07c</Name>
-		<attacker_count>8</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_07b</Name>
+			<attacker_count>7</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_APC_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_turr</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_staff_car_Gauss</vehicle_group>
-				<stay_in_vehicle>True</stay_in_vehicle>
+				<squad_info>
+					<squad_def>marauder_squad_2</squad_def>
+					<stay_in_vehicle>False</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Area Defense</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-	<continuous_attack_data>
-		<Name>je_rs_04</Name>
-		<attacker_count>3</attacker_count>
-		<respawn_period>0.0</respawn_period>
-		<Type>Default</Type>
-		<Show_Squad_Icons>False</Show_Squad_Icons>
-		<squad_list>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+		<continuous_attack_data>
+			<Name>ls_ad_07c</Name>
+			<attacker_count>8</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_APC</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
-			<squad_info>
-				<squad_def>basic_squad_2</squad_def>
-				<vehicle_group>EDF_scout_Gauss</vehicle_group>
-				<stay_in_vehicle>False</stay_in_vehicle>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_APC_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_staff_car_Gauss</vehicle_group>
+					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
-		<_Editor>
-			<Category>Riding Shotgun</Category>
+			<_Editor>
+				<Category>Area Defense</Category>
+			</_Editor>
+		</continuous_attack_data>
+		<continuous_attack_data>
+			<Name>je_rs_04</Name>
+			<attacker_count>3</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<stay_in_vehicle>False</stay_in_vehicle>
+				</squad_info>
+			</squad_list>
+			<_Editor>
+				<Category>Riding Shotgun</Category>
 			</_Editor>
 		</continuous_attack_data>
 	</Table>
-
-<TableTemplates>
-	</TableTemplates>
-
-<TableDescription>
-	<Name>continuous_attack_data</Name>
-	<Type>TableDescription</Type>
-	<Element>
-		<Name>Name</Name>
-		<Type>String</Type>
-		</Element>
-	<Element>
-		<Name>attacker_count</Name>
-		<Type>Int</Type>
-		<Display_Name>Default Attacker Count</Display_Name>
-		<Default>0</Default>
-		</Element>
-	<Element>
-		<Name>respawn_period</Name>
-		<Type>Float</Type>
-		<Display_Name>Respawn Period (sec)</Display_Name>
-		<Default>0.0</Default>
-		<MinValue>0</MinValue>
-		</Element>
-	<Element>
-		<Name>Type</Name>
-		<Type>Selection</Type>
-		<Description>Set this to true if you want the squads to follow a patrol.  Otherwise set this to false for the squad to find their own path to the target.</Description>
-		<Default>Default</Default>
-		<Choice>Default</Choice>
-		<Choice>Patrol</Choice>
-		</Element>
-	<Element>
-		<Name>Show_Squad_Icons</Name>
-		<Type>Selection</Type>
-		<Display_Name>Show Squad Icons</Display_Name>
-		<Default>False</Default>
-		<Choice>True</Choice>
-		<Choice>False</Choice>
-		</Element>
-	<Element>
-		<Name>squad_list</Name>
-		<Type>List</Type>
-		<Display_Name>Squad List</Display_Name>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>continuous_attack_data</Name>
+		<Type>TableDescription</Type>
 		<Element>
-			<Name>squad_info</Name>
-			<Type>Element</Type>
-			<Display_Name>Squad Info</Display_Name>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>attacker_count</Name>
+			<Type>Int</Type>
+			<Display_Name>Default Attacker Count</Display_Name>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>respawn_period</Name>
+			<Type>Float</Type>
+			<Display_Name>Respawn Period (sec)</Display_Name>
+			<Default>0.0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>Type</Name>
+			<Type>Selection</Type>
+			<Description>Set this to true if you want the squads to follow a patrol.  Otherwise set this to false for the squad to find their own path to the target.</Description>
+			<Default>Default</Default>
+			<Choice>Default</Choice>
+			<Choice>Patrol</Choice>
+		</Element>
+		<Element>
+			<Name>Show_Squad_Icons</Name>
+			<Type>Selection</Type>
+			<Display_Name>Show Squad Icons</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>squad_list</Name>
+			<Type>List</Type>
+			<Display_Name>Squad List</Display_Name>
 			<Element>
-				<Name>Sub_Group_Index</Name>
-				<Type>Int</Type>
-				<Display_Name>Sub-group Index</Display_Name>
-				<Description>Specifies a sub-group for squad definitions.  Only one sub-group can be active at any time, and only squads which are members of that subgroup will be elligible for spawning.</Description>
-				<Required>false</Required>
-				<Default>0</Default>
+				<Name>squad_info</Name>
+				<Type>Element</Type>
+				<Display_Name>Squad Info</Display_Name>
+				<Element>
+					<Name>Sub_Group_Index</Name>
+					<Type>Int</Type>
+					<Display_Name>Sub-group Index</Display_Name>
+					<Description>Specifies a sub-group for squad definitions.  Only one sub-group can be active at any time, and only squads which are members of that subgroup will be elligible for spawning.</Description>
+					<Required>false</Required>
+					<Default>0</Default>
 				</Element>
-			<Element>
-				<Name>squad_def</Name>
-				<Type>Reference</Type>
-				<Display_Name>Squad Definition</Display_Name>
-				<Reference>
-					<File>squads.xtbl</File>
-					<Type>Squads.Name</Type>
-					<OpenSeparate>False</OpenSeparate>
+				<Element>
+					<Name>squad_def</Name>
+					<Type>Reference</Type>
+					<Display_Name>Squad Definition</Display_Name>
+					<Reference>
+						<File>squads.xtbl</File>
+						<Type>Squads.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
 					</Reference>
 				</Element>
-			<Element>
-				<Name>vehicle_group</Name>
-				<Type>Reference</Type>
-				<Display_Name>Vehicle Group</Display_Name>
-				<Required>false</Required>
-				<Reference>
-					<File>spawn_group_vehicle.xtbl</File>
-					<Type>spawn_group_vehicle.Name</Type>
-					<OpenSeparate>False</OpenSeparate>
+				<Element>
+					<Name>vehicle_group</Name>
+					<Type>Reference</Type>
+					<Display_Name>Vehicle Group</Display_Name>
+					<Required>false</Required>
+					<Reference>
+						<File>spawn_group_vehicle.xtbl</File>
+						<Type>spawn_group_vehicle.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
 					</Reference>
 				</Element>
-			<Element>
-				<Name>stay_in_vehicle</Name>
-				<Type>Selection</Type>
-				<Display_Name>Stay In Vehicle</Display_Name>
-				<Default>False</Default>
-				<Choice>True</Choice>
-				<Choice>False</Choice>
+				<Element>
+					<Name>stay_in_vehicle</Name>
+					<Type>Selection</Type>
+					<Display_Name>Stay In Vehicle</Display_Name>
+					<Default>False</Default>
+					<Choice>True</Choice>
+					<Choice>False</Choice>
 				</Element>
-			<Element>
-				<Name>veh_hp_scale_factor</Name>
-				<Type>Float</Type>
-				<Display_Name>Vehicle HP Scale Factor</Display_Name>
-				<Description>Vehicle HP will be multiplied by this factor at spawn time.</Description>
-				<Required>false</Required>
-				<Default>1.0</Default>
+				<Element>
+					<Name>veh_hp_scale_factor</Name>
+					<Type>Float</Type>
+					<Display_Name>Vehicle HP Scale Factor</Display_Name>
+					<Description>Vehicle HP will be multiplied by this factor at spawn time.</Description>
+					<Required>false</Required>
+					<Default>1.0</Default>
 				</Element>
 			</Element>
-		<Max_Children>16</Max_Children>
-		<Min_Children>1</Min_Children>
-		<Num_Display_Rows>8</Num_Display_Rows>
+			<Max_Children>16</Max_Children>
+			<Min_Children>1</Min_Children>
+			<Num_Display_Rows>8</Num_Display_Rows>
 		</Element>
 	</TableDescription>
-
-<EntryCategories>
-	<Category>
-		<Name>Area Defense</Name>
+	<EntryCategories>
+		<Category>
+			<Name>Area Defense</Name>
 		</Category>
-	<Category>
-		<Name>Entries</Name>
+		<Category>
+			<Name>Entries</Name>
 		</Category>
-	<Category>
-		<Name>Guerrilla Express</Name>
+		<Category>
+			<Name>Guerrilla Express</Name>
 		</Category>
-	<Category>
-		<Name>Riding Shotgun</Name>
+		<Category>
+			<Name>Riding Shotgun</Name>
 		</Category>
 	</EntryCategories>
 </root>

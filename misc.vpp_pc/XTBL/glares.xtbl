@@ -1,0 +1,660 @@
+<root>
+	<Table>
+		<Glare>
+			<Name>SunGlare01</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>SunGlare01.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>true</Rear_View>
+				<Intensity>9999</Intensity>
+				<!--From 9999-->
+				<Radius>
+					<Fixed_Radius>20</Fixed_Radius>
+					<!--From 40-->
+				</Radius>
+			</Corona_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>TestGlare01</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>128</B>
+				<A>255</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>LightCorona01.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>false</Rear_View>
+				<Intensity>0</Intensity>
+				<!--From 1-->
+				<Radius>
+					<Variable_Radius>
+						<Max>0</Max>
+						<!--From 1-->
+						<Distance_Factor>0.6</Distance_Factor>
+						<Scale_Factor>0.0</Scale_Factor>
+						<!--From 0.8-->
+						<Diminish_Distance>-0.05</Diminish_Distance>
+					</Variable_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<Volumetric_Bitmap>
+				<Bitmap_File>
+					<Filename>LightBeam01.tga</Filename>
+				</Bitmap_File>
+				<Cone_Angle>180</Cone_Angle>
+				<Volumetric_Height>0.6</Volumetric_Height>
+				<Volumetric_Length>2.4</Volumetric_Length>
+			</Volumetric_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>WhiteGlare01</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>WhiteCorona01.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>false</Rear_View>
+				<Intensity>0</Intensity>
+				<!--From 1-->
+				<Radius>
+					<Variable_Radius>
+						<Max>0</Max>
+						<!--From 1-->
+						<Distance_Factor>0.5</Distance_Factor>
+						<Scale_Factor>0.0</Scale_Factor>
+						<!--From 0.8-->
+						<Diminish_Distance>-0.1</Diminish_Distance>
+					</Variable_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<Volumetric_Bitmap>
+				<Bitmap_File>
+					<Filename>WhiteBeam01.tga</Filename>
+				</Bitmap_File>
+				<Cone_Angle>180</Cone_Angle>
+				<Volumetric_Height>5.4</Volumetric_Height>
+				<Volumetric_Length>8</Volumetric_Length>
+			</Volumetric_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>WideGlare01</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>WhiteCorona01.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>false</Rear_View>
+				<Intensity>0</Intensity>
+				<!--From 2-->
+				<Radius>
+					<Variable_Radius>
+						<Max>0</Max>
+						<!--From 1-->
+						<Distance_Factor>0.6</Distance_Factor>
+						<Scale_Factor>0.0</Scale_Factor>
+						<!--From 0.6-->
+						<Diminish_Distance>-0.05</Diminish_Distance>
+					</Variable_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<Volumetric_Bitmap>
+				<Bitmap_File>
+					<Filename>WhiteBeam02.tga</Filename>
+				</Bitmap_File>
+				<Cone_Angle>180</Cone_Angle>
+				<Volumetric_Height>4</Volumetric_Height>
+				<Volumetric_Length>7</Volumetric_Length>
+			</Volumetric_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>FloorGlare01</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>WhiteCorona01.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>false</Rear_View>
+				<Intensity>0</Intensity>
+				<!--From 1-->
+				<Radius>
+					<Variable_Radius>
+						<Max>0</Max>
+						<!--From 1-->
+						<Distance_Factor>0.6</Distance_Factor>
+						<Scale_Factor>0.0</Scale_Factor>
+						<!--From 0.6-->
+						<Diminish_Distance>-0.1</Diminish_Distance>
+					</Variable_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<Volumetric_Bitmap>
+				<Bitmap_File>
+					<Filename>WhiteBeam01.tga</Filename>
+				</Bitmap_File>
+				<Cone_Angle>180</Cone_Angle>
+				<Volumetric_Height>1</Volumetric_Height>
+				<Volumetric_Length>1.5</Volumetric_Length>
+			</Volumetric_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>TestGlow01</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>128</B>
+				<A>255</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>LightCorona01.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>false</Rear_View>
+				<Intensity>0</Intensity>
+				<!--From 1-->
+				<Radius>
+					<Variable_Radius>
+						<Max>0</Max>
+						<!--From 1-->
+						<Distance_Factor>0.6</Distance_Factor>
+						<Scale_Factor>0.0</Scale_Factor>
+						<!--From 0.8-->
+						<Diminish_Distance>-0.05</Diminish_Distance>
+					</Variable_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>SoftWhiteLight01</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>226</B>
+				<A>65</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>SoftWhiteLight01.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>false</Rear_View>
+				<Intensity>0</Intensity>
+				<!--From 1-->
+				<Radius>
+					<Variable_Radius>
+						<Max>0</Max>
+						<!--From 1-->
+						<Distance_Factor>0.6</Distance_Factor>
+						<Scale_Factor>0.0</Scale_Factor>
+						<!--From 0.8-->
+						<Diminish_Distance>-0.05</Diminish_Distance>
+					</Variable_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>SoftWhiteLight02</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>65</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>SoftWhiteLight01.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>false</Rear_View>
+				<Intensity>0</Intensity>
+				<!--From 1-->
+				<Radius>
+					<Variable_Radius>
+						<Max>0</Max>
+						<!--From 1-->
+						<Distance_Factor>0.6</Distance_Factor>
+						<Scale_Factor>0.0</Scale_Factor>
+						<!--From 0.8-->
+						<Diminish_Distance>-0.05</Diminish_Distance>
+					</Variable_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>Camera01</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>226</B>
+				<A>65</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>WhiteGlow01.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>false</Rear_View>
+				<Intensity>0</Intensity>
+				<!--From 1-->
+				<Radius>
+					<Variable_Radius>
+						<Max>0</Max>
+						<!--From 1-->
+						<Distance_Factor>0.6</Distance_Factor>
+						<Scale_Factor>0.0</Scale_Factor>
+						<!--From 0.8-->
+						<Diminish_Distance>-0.05</Diminish_Distance>
+					</Variable_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>streetlight01</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>226</B>
+				<A>65</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>SoftWhiteLight01.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>false</Rear_View>
+				<Intensity>0</Intensity>
+				<!--From 1-->
+				<Radius>
+					<Variable_Radius>
+						<Max>0</Max>
+						<!--From 1-->
+						<Distance_Factor>0.6</Distance_Factor>
+						<Scale_Factor>0.0</Scale_Factor>
+						<!--From 0.8-->
+						<Diminish_Distance>-0.05</Diminish_Distance>
+					</Variable_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<Volumetric_Bitmap>
+				<Bitmap_File>
+					<Filename>streetlight01.tga</Filename>
+				</Bitmap_File>
+				<Cone_Angle>180</Cone_Angle>
+				<Volumetric_Height>3</Volumetric_Height>
+				<Volumetric_Length>5</Volumetric_Length>
+			</Volumetric_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>RPG Muzzle Flash</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>fire14b.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>true</Rear_View>
+				<Intensity>2</Intensity>
+				<Radius>
+					<Fixed_Radius>.1</Fixed_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<Volumetric_Bitmap>
+				<Bitmap_File>
+					<Filename>fire14.tga</Filename>
+				</Bitmap_File>
+				<Cone_Angle>90</Cone_Angle>
+				<Volumetric_Height>1</Volumetric_Height>
+				<Volumetric_Length>1</Volumetric_Length>
+			</Volumetric_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>Turret Muzzle Flash</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>128</B>
+				<A>255</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>muzzleflash01_L.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>true</Rear_View>
+				<Intensity>1</Intensity>
+				<Radius>
+					<Fixed_Radius>.3</Fixed_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<Volumetric_Bitmap>
+				<Bitmap_File>
+					<Filename>muzzleflash_sideAS.tga</Filename>
+				</Bitmap_File>
+				<Cone_Angle>90</Cone_Angle>
+				<Volumetric_Height>0.6</Volumetric_Height>
+				<Volumetric_Length>0.5</Volumetric_Length>
+			</Volumetric_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>Siren_Glare_Red</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>0</G>
+				<B>0</B>
+				<A>255</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>glare_sirenWhite.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>false</Rear_View>
+				<Intensity>0</Intensity>
+				<!--From 1-->
+				<Radius>
+					<Variable_Radius>
+						<Max>0.0</Max>
+						<!--From 1.25-->
+						<Distance_Factor>.5</Distance_Factor>
+						<Scale_Factor>0</Scale_Factor>
+						<!--From 2-->
+						<Diminish_Distance>.35</Diminish_Distance>
+					</Variable_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>Siren_Glare_Blue</Name>
+			<Light_Color>
+				<R>0</R>
+				<G>0</G>
+				<B>255</B>
+				<A>255</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>glare_sirenWhite.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>false</Rear_View>
+				<Intensity>0</Intensity>
+				<!--From 1-->
+				<Radius>
+					<Variable_Radius>
+						<Max>0.0</Max>
+						<!--From 1.25-->
+						<Distance_Factor>.5</Distance_Factor>
+						<Scale_Factor>0</Scale_Factor>
+						<!--From 2-->
+						<Diminish_Distance>.35</Diminish_Distance>
+					</Variable_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+		<Glare>
+			<Name>Siren_Glare_White</Name>
+			<Light_Color>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
+			</Light_Color>
+			<Corona_Bitmap>
+				<Bitmap_File>
+					<Filename>glare_sirenWhite.tga</Filename>
+				</Bitmap_File>
+				<Rear_View>false</Rear_View>
+				<Intensity>0</Intensity>
+				<!--From 1-->
+				<Radius>
+					<Variable_Radius>
+						<Max>0.0</Max>
+						<!--From 1.25-->
+						<Distance_Factor>.5</Distance_Factor>
+						<Scale_Factor>0</Scale_Factor>
+						<!--From 2-->
+						<Diminish_Distance>.35</Diminish_Distance>
+					</Variable_Radius>
+				</Radius>
+			</Corona_Bitmap>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Glare>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Glare</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Glare Name</Display_Name>
+			<Description>The name for the glare.</Description>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>Light_Color</Name>
+			<Type>Element</Type>
+			<Display_Name>Light Color</Display_Name>
+			<Description>The color of the light.</Description>
+			<Element>
+				<Name>R</Name>
+				<Type>Int</Type>
+				<Display_Name>Red</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>255</MaxValue>
+			</Element>
+			<Element>
+				<Name>G</Name>
+				<Type>Int</Type>
+				<Display_Name>Green</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>255</MaxValue>
+			</Element>
+			<Element>
+				<Name>B</Name>
+				<Type>Int</Type>
+				<Display_Name>Blue</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>255</MaxValue>
+			</Element>
+			<Element>
+				<Name>A</Name>
+				<Type>Int</Type>
+				<Display_Name>Alpha</Display_Name>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>255</MaxValue>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Corona_Bitmap</Name>
+			<Type>Element</Type>
+			<Display_Name>Corona Bitmap</Display_Name>
+			<Description>The bitmap to use for the corona.</Description>
+			<Element>
+				<Name>Bitmap_File</Name>
+				<Type>Filename</Type>
+				<Display_Name>Bitmap File</Display_Name>
+				<Description>The .tga file to use for the corona.</Description>
+				<Extension>tga</Extension>
+				<StartingPath>data\maps\Effects</StartingPath>
+				<ShowPreload>False</ShowPreload>
+			</Element>
+			<Element>
+				<Name>Rear_View</Name>
+				<Type>Selection</Type>
+				<Display_Name>Rear View</Display_Name>
+				<Description>Whether or not to show corona from the rear view (useful for muzzle flashes).</Description>
+				<Default>true</Default>
+				<Choice>true</Choice>
+				<Choice>false</Choice>
+			</Element>
+			<Element>
+				<Name>Intensity</Name>
+				<Type>Float</Type>
+				<Description>Brightness multiplier.  Intensity (opacity) drops off with distance automatically.  This is capped, so higher values here increase the range at which it's drawn at full opacity.  For always full opacity, use 9999 or something.</Description>
+				<Default>0.0</Default>
+			</Element>
+			<Element>
+				<Name>Radius</Name>
+				<Type>ComboElement</Type>
+				<Description>The radius used for the corona bitmap.  Can be either fixed or variable.</Description>
+				<Element>
+					<Name>Fixed_Radius</Name>
+					<Type>Float</Type>
+					<Display_Name>Fixed Radius</Display_Name>
+					<Description>If present, this is the fixed radius used for corona bitmap (although angle will also influence radius).</Description>
+					<Required>false</Required>
+					<Default>0.0</Default>
+				</Element>
+				<Element>
+					<Name>Variable_Radius</Name>
+					<Type>Element</Type>
+					<Display_Name>Variable Radius</Display_Name>
+					<Description>Parameters defining the variable radius for the corona bitmap.</Description>
+					<Required>false</Required>
+					<Element>
+						<Name>Max</Name>
+						<Type>Float</Type>
+						<Display_Name>Maximum Radius</Display_Name>
+						<Description>Max radius, used for culling purposes.</Description>
+						<Default>0.0</Default>
+					</Element>
+					<Element>
+						<Name>Distance_Factor</Name>
+						<Type>Float</Type>
+						<Display_Name>Radius Distance Factor</Display_Name>
+						<Description>How fast the corona gets bigger as you get further from it.  (Follows a sqrt(), in case you were wondering.)</Description>
+						<Default>0.0</Default>
+					</Element>
+					<Element>
+						<Name>Scale_Factor</Name>
+						<Type>Float</Type>
+						<Display_Name>Radius Scale Factor</Display_Name>
+						<Description>Scales how large the corona is overall.</Description>
+						<Default>0.0</Default>
+					</Element>
+					<Element>
+						<Name>Diminish_Distance</Name>
+						<Type>Float</Type>
+						<Display_Name>Diminish Distance</Display_Name>
+						<Description>Distance at which the corona is no longer visible.  negative means always visible, more negative means less shrinking with closeness.</Description>
+						<Default>0.0</Default>
+					</Element>
+				</Element>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Volumetric_Bitmap</Name>
+			<Type>Element</Type>
+			<Display_Name>Volumetric Bitmap</Display_Name>
+			<Description>Volumetric bitmap, visible outside visibility cone.</Description>
+			<Required>false</Required>
+			<Element>
+				<Name>Bitmap_File</Name>
+				<Type>Filename</Type>
+				<Display_Name>Bitmap File</Display_Name>
+				<Description>The .tga file to use for the volumetric bitmap.</Description>
+				<Extension>tga</Extension>
+				<StartingPath>data\maps\Effects</StartingPath>
+				<ShowPreload>False</ShowPreload>
+			</Element>
+			<Element>
+				<Name>Cone_Angle</Name>
+				<Type>Float</Type>
+				<Display_Name>Cone Angle</Display_Name>
+				<Description>Glare visibility cone.  This is full angle.  360 degrees for all angle visibility.</Description>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>360</MaxValue>
+			</Element>
+			<Element>
+				<Name>Volumetric_Height</Name>
+				<Type>Float</Type>
+				<Display_Name>Volumetric Height</Display_Name>
+				<Description>How high/wide the volumetric bitmap should be in world units.</Description>
+				<Default>0.0</Default>
+			</Element>
+			<Element>
+				<Name>Volumetric_Length</Name>
+				<Type>Float</Type>
+				<Display_Name>Volumetric Length</Display_Name>
+				<Description>How long the volumetric bitmap should be in world units.</Description>
+				<Default>0.0</Default>
+			</Element>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

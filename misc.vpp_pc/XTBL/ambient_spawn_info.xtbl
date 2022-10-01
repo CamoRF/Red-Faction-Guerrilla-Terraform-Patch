@@ -114,7 +114,7 @@
 		
 		<ambient_spawn_info>
 			<Name>Free_0408</Name>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<npc_spawn_group>Default Guerilla</npc_spawn_group>
 			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
 			<_Editor>
 				<Category>Freefire</Category>
@@ -130,7 +130,7 @@
 			<Name>Free_0409</Name>
 			<ped_spawn_density>High</ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<npc_spawn_group>Default Guerilla</npc_spawn_group>
 			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
 			<_Editor>
 				<Category>Freefire</Category>
@@ -142,7 +142,7 @@
 		
 		<ambient_spawn_info>
 			<Name>Free_0508</Name>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<npc_spawn_group>Default Guerilla</npc_spawn_group>
 			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
 			<_Editor>
 				<Category>Freefire</Category>
@@ -158,7 +158,7 @@
 			<Name>Free_0509</Name>
 			<ped_spawn_density>High</ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<npc_spawn_group>Default Guerilla</npc_spawn_group>
 			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
 			<_Editor>
 				<Category>Freefire</Category>
@@ -172,7 +172,7 @@
 			<Name>Parker_0410</Name>
 			<ped_spawn_density>High</ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<npc_spawn_group>Default Guerilla</npc_spawn_group>
 			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
 			<_Editor>
 				<Category>Parker</Category>
@@ -185,7 +185,7 @@
 		<ambient_spawn_info>
 			<Name>Parker_0510</Name>
 			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<npc_spawn_group>Default Guerilla</npc_spawn_group>
 			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
 			<_Editor>
 				<Category>Parker</Category>
@@ -562,7 +562,7 @@
 		
 		<ambient_spawn_info>
 			<Name>Racetrack</Name>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
+			<npc_spawn_group>Default Guerilla</npc_spawn_group>
 			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
 			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
 			<_Editor>

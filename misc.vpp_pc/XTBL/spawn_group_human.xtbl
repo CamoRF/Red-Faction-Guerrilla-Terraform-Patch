@@ -1021,8 +1021,7 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
-<!--NOTE: Reference List-->		
+			
 		<spawn_group_human>
 			<Name>All NPCs</Name>
 			<human_list>
@@ -1113,7 +1112,7 @@
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-<!--NOTE: Mission Fixes-->
+		
 		<spawn_group_human>
 			<Name>Vanilla EDF</Name>
 			<human_list>
@@ -1215,7 +1214,8 @@
 			<_Editor>
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
-		</spawn_group_human>		
+		</spawn_group_human>
+<!--NOTE: Mission Fixes-->		
 	</Table>
 	<TableTemplates>
 	</TableTemplates>
