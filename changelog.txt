@@ -160,7 +160,7 @@ v1.05 ALPHA CHANGES
 * Added Subverter to EDF loadout in singleplayer
 * Added Super Gauss Rifle to EDF heavy loadout in singleplayer
 
-[New multiplayer characters]
+[New Multiplayer Characters]
 * Carmen
 * Jenkins 
 * Elegant Jean
@@ -173,6 +173,7 @@ v1.05 ALPHA CHANGES
 * Voice of Mars
 * Ian's model replaced with an elegant version and he was also added to Guerrila team in addition to free for all
 * Rachel's model replaced with an elegant version and she was also added to the Guerrila team in addition to free for all
+* Most characters now have custom thumbnails
 
 [Proximity Mine Buff]
 * Time before mines become active after being placed reduced to 1 second from 1.5 seconds
@@ -210,19 +211,20 @@ v1.05 ALPHA CHANGES
 * Doubled hitpoints of all walkers
 
 [NPC & Player Changes]
-* Reduced distance when NPCs panic when the player throws a weapon in their vicinity to 1 metre from 3 metres
-* Attached projectiles now remain on NPCs for 30 minutes
 * Ambient friendly marauders will now always follow the player giving them nasty looks
+* Attached projectiles now remain on NPCs for 30 minutes
+* Distance EDF will notice player with an obvious weapon reduced to 1 metre from 3
 * Damage you can do to a friendly marauder to cause him to become hostile reduced to 50% from 75%
-* Time friendly marauders return to a friendly state after making them hostile increased to 1 minute from 20 seconds
+* Reduced distance when NPCs panic when the player throws a weapon in their vicinity to 1 metre from 3 metres
 * NPCs now have the same fatal fall speed as the player
 * NPCs now do the same amount of damage to other NPCs vehicles to be consistent with the player (to 1.0 from 0.2)
 * NPCs now do the same damage to other NPCs as the player in all circumstances to be consistent with the player (add details)
 * NPCs can be converted to the Red Faction from a longer distance (to 24 from 12) to compensate for the increased draw distance
+* Time friendly marauders return to a friendly state after making them hostile increased to 1 minute from 20 seconds
 * Increased max NPCs attacking player to 4 from 2 for green alert, to 6 from 2 for yellow, to 8 from 3 for orange and to 10 from 4 for red
 * Player now keeps 50% of salvage picked up between saving and dying instead of losing it all
 * Player now does same damage to friendly NPCs as enemy NPCs
-* Distance EDF will notice player with an obvious weapon reduced to 1 metre from 3
+
 
 [NPC & Vehicle Additions]
 * Increased density and variety of traffic and NPC types and animations
@@ -274,12 +276,12 @@ v1.06 ALPHA CHANGES
 
 [Map Additions & Changes]
 * Added weapon spawns to all 19 wrecking crew maps, thanks to ATMLVE for his help!
-* Added DLC weapon spawns to every regular multiplayer map (Subverter on all maps, Super Gauss on some maps that have a walkway that can be destroyed to stop the spawn or added as a spawn in a hidden location, Misslepod on maps that have the thermobaric rocket launcher)!
+* Added DLC weapon spawns to every regular multiplayer map (Subverter on all maps, Super Gauss on some maps that have a walkway that can be destroyed to stop the spawn or added as a spawn in a hidden location, Misslepod on maps that have the thermobaric rocket launcher)
 * Added fog to Imperial
-* Added a few placeholder weapon spawns on Complex, Factory and Watchtower
 * Added 3 neutral respawns to Framework so the map is more playable in modes other than siege
 * Added various objects to fix line of sight on various WC maps, added 3 radio towers to Transmission to indicate where the invisible wall is, thanks to ATMLVE for his help!
 * Added bagman spawns to all wrecking crew and siege maps
+* Added Large Mixer maps to Team Anarchy and Team Bagman matchmaking playlists
 * Invasions lighting and weather changed to match Broadsides
 
 [Map Fixes]
@@ -288,50 +290,51 @@ v1.06 ALPHA CHANGES
 
 [Multiplayer Fixes]
 * Fixed Marauder Lady character having the wrong footstep sounds
+* Fixed bug with leader and bagman highlighting not working
 * Fixed various voices for the new characters
+* Fixed player names and icons not working
 * Changed "Biker Chick" character name to "Outcast"
 * Changed "Marauder Science Tech" character name to "Marauder Lady"
 * Changed "Female Lab Assistant" character name to "Lab Lady"
 * Re-implemented GFWL map into matchmaking as it's fixed now
-* Added Large Mixer maps to Team Anarchy and Team Bagman matchmaking playlists
-* Fixed bug with leader and bagman highlighting not working
-* Improvements to rubberbanding and trueskill fixes
 * Propane tank weapon disabled for now due to bugs
 * Possibly fixed Kaboom backpack sound getting stuck when you die
 * Reduced backpack clipping for Jenkins
-* Fixed player names and icons not working
+* Improvements to rubberbanding and trueskill fixes
 
 [Multiplayer Additions & Changes]
-* Increased max player cap for Team Anarchy and Team Bagman matchmaking playlists to 16 from 12
-* Marauder characters can now be played on the Red Faction team in team games in addition to free for all
+* Changed the DLC weapon placeholder weapon icons to badge icons to avoid confusion with standard weapons 
+* Default enemy icon visibility changed to delayed from normal
 * EDF Voice character can now be played on the EDF team in team games in addition to free for all
+* Increased max player cap for Team Anarchy and Team Bagman matchmaking playlists to 16 from 12
+* Increased transparency of stealth backpack further and removed the shimmer
+* Marauder characters can now be played on the Red Faction team in team games in addition to free for all
+* Movement speed is now consistent across all weapons
 * Reduced match start countdown to 5 seconds from 10
 * Slightly increased base player movement speed
-* Movement speed is now consistent across all weapons
-* Default enemy icon visibility changed to delayed from normal
-* Increased transparency of stealth backpack further and removed the shimmer
-* Changed the DLC weapon placeholder weapon icons to badge icons to avoid confusion with standard weapons 
+* Alec Mason now has armor to match his thumbnail
 
 [General Fixes & Changes]
 * Fixed bug with glass bullet holes with lots of them spawning at once looking weird and causing lag when player zoomed in to the decal
 * Fixed issue with broken loading screens and thumbnails when wrecking crew maps are played in the regular wrecking crew mode, also gave them the same HD textures as the multiplayer versions
 * Fixed more objects that were missing shadows
 * Increased draw distance of lighting
-* Improved debris collision
 * Increased ladder climbing speed slightly
+* Improved debris collision
 * Reduced size of blood pools slightly to increase realism
+* Removed spiker, dlc pickaxe and impaler completely due to various bugs
 
 [Singleplayer Additions & Changes]
-* Increased time it takes for you to go down an alert level in singleplayer 
 * Added 4K AI upscaled loading screens
 * Added Subverter to Guerrilla loadout at same tech level as the Assault Rifle
 * Changes to the base game tweak_table.xtbl now work in the DLC
+* Increased time it takes for you to go down an alert level in singleplayer 
 * Removed artificial gravity from vehicles
 
 [Singleplayer Fixes]
+* Fixed some objects missing shadows in DLC
 * Removed Kepler and Carmen from NPC spawn lists
 * Improved NPC spawn lists with EOS and Oasis NPC variants only spawning in both EOS and Dust while all Dust and Parker variants spawn there
-* Fixed objects missing shadows in DLC
 
 [Grinder Fix]
 * Reduced randomness of the projectile by adjusting collision
@@ -354,10 +357,10 @@ v1.06 ALPHA CHANGES
 * Increased zoom magnification to 5.0 from 4.0
 
 [Misslepod Fix]
+* Changed the projectile from standard rocket to the thermobaric rocket (cosmetic only to fix how the projectile was almost invisible due to the smoke trail)
 * Reduced start speed of the projectile to 40 from 50
 * Reduced max speed of the projectile to 60 from 70
 * Reduced acceleration of the projectile to 8 from 10
-* Changed the projectile from standard rocket to the thermobaric rocket (cosmetic only to fix how the projectile was almost invisible due to the smoke trail)
 * Redued the refire delay to 0ms from 200ms
 
 ------------
@@ -369,28 +372,20 @@ v1.06 ALPHA CHANGES
 * Tanks and the bulldozer scare NPCs and they drive like maniacs
 * NPCs have trouble with handling larger vehicles
 * Vehicle spawn locations aren't final
-* Vanilla bug when making walkers spawn at safehouses can cause no vehicle to spawn at all occasionally 
-* Vanilla bug with NPCs driving like crazy when obstructed instead of waiting and going around them calmly
 
 [Missions]
 * The first DLC transporter might be broken due to the vehicle not spawning for some unknown reason, uninstall the patch to complete this mission and then you can safetly reinstall after you've finished it
 
 [DLC Weapons]
-* DLC melee weapons: Implemented but disabled due to a missing texture bug
-* DLC weapons: They use placeholder icons and reticules currently
-* DLC weapon: Spiker model is missing textures when dropped on the ground
-* DLC weapon: Spiker is implemented but disabled in multiplayer due to an issue where if you're not the host the projectile is invisible
-* DLC weapons: Super Gauss needs to be added to more EDF loadouts in singleplayer
-* DLC weapons: Spiker and misslepod need to be added to Marauder loadouts in singleplayer
+* Pickaxe and Impaler have missing textures so they are not implemeneted yet
+* Spiker has missing texture when it's dropped on the ground and only the host can see the projectile so it's not implemented yet
+* Weapons use placeholder icons and reticules for now
 
 [Backpacks]
 * Kaboom backpack has floating objects on the model
 * Kaboom pack might not show up in random backpack rotation on any map possibly due to there not being a backpack rack on the map
-* Kaboom pack sounds can get stuck when you die sometimes
 * Random backpack option doesn't work on wrecking crew maps possibly due to there not being backpack racks on the maps yet
-* Vanilla bug with floating backpacks on players when they first spawn, seems to be related to high ping
 * Backpacks might clip through the characters on some of the new models, this can be fixed by fine tuning the offset axis values but will take time
-* Vanilla bug with some backpacks clipping through Alec Mason in singleplayer
 
 [Maps]
 * Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman and Bagman will not work on any Wrecking Crew map until the Nanoforge modding tool allows us to add siege, CTF and damage control objectives to maps
@@ -398,7 +393,6 @@ v1.06 ALPHA CHANGES
 * Some maps with night might be overly bright, will be fixed when the weather and lighting files are understood more
 * There might be some maps missing the slight bloom reduction tweak, these will be fixed throughout development as there's a lot of weather and lighting files and it's very tedious to work on them; most maps seem to be fixed however
 * Lack of fog on various maps including Complex, will be fixed when the weather and lighting files are more understood
-* Vanilla bug with siege objectives desyncing
 * Some maps might have extreme fog when using the alternative time of day
 * Wrecking crew maps don't have backpack spawns until the Nanoforge modding tool allows us to add them
 
@@ -409,12 +403,18 @@ v1.06 ALPHA CHANGES
 * New character names have !! in front of them because I haven't figured out how to add proper menu entry strings yet
 
 [Vanilla]
-* Vanilla bug with walkers not spawning sometimes
-* Vanilla issue with extreme cloud speed on some maps
-* Various maps have vanilla bugs with out of bounds spots, these will be fixed when Nanoforge supports invisible walls
+* Walkers don't spawn sometimes
+* Issue with extreme cloud speed on some maps
+* Various maps still have bugs with out of bounds spots
 * Debris collision and despawn limit changes don't apply to multiplayer most likely due to hardcoded networking optimizations
 * LOD cap for small rocks seems to be hardcoded and cannot be increased further
 * Projectile despawn rate seems to be hardcoded and cannot be increased further
+* Adding walker spawns at safehouses can cause no vehicle to spawn at all occasionally 
+* NPCs driving like crazy when obstructed instead of waiting and going around them calmly
+* Game can sometimes crash when loading into a multiplayer match
+* Some backpacks clipping through Alec Mason in singleplayer
+* Floating backpacks on players when they first spawn, seems to be related to high ping
+* Siege objectives and weapon pickups can sometimes desync in multiplayer
 
 [Wrecking Crew Mode]
 * Maps don't have barrels and might crash, alternative solutions will be sought after in the future such as attempting to add entirely new .vpp_pc map files instead of replacing the maps
