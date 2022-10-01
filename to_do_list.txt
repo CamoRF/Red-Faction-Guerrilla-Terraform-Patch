@@ -6,7 +6,8 @@ v1.061 HOTFIX
 * Fix grinder projectile texture
 * Fix missing texture on Marauder lady
 * Fix misslepod crashing game? (make the projectile despawn, give its own unique projectile entry to fix the killfeed, use a smaller explosion, make the clips/mags despawn)
-
+* .exe with match countdown set to 6 seconds
+* .exe with match end countdown set to 6 seconds
 
 
 -----------
