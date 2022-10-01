@@ -1,6 +1,6 @@
 <root>
 	<Table>
-	<!--START DLC Weapons Added-->	
+		<!--START DLC Weapons Added-->
 		<Explosion>
 			<Name>DLC_missilepod</Name>
 			<Radius>2.0</Radius>
@@ -40,24 +40,31 @@
 			<Flags>
 				<Flag>no gibs</Flag>
 			</Flags>
-		</Explosion>	
-	<!--END DLC Weapons Added-->		
-	<!--START Kaboom Pack Explosion-->
+		</Explosion>
+		<!--END DLC Weapons Added-->
+		<!--START Kaboom Pack Explosion-->
 		<Explosion>
 			<Name>mp_kaboom</Name>
-			<Radius>7.2</Radius> <!--From 5--> <!--From 6.2 in old version-->
-			<CrumbleRadius>4.2</CrumbleRadius> <!--From 2--> <!--From 3.2 in old version-->
+			<Radius>7.2</Radius>
+			<!--From 5-->
+			<!--From 6.2 in old version-->
+			<CrumbleRadius>4.2</CrumbleRadius>
+			<!--From 2-->
+			<!--From 3.2 in old version-->
 			<AI_Sound_Radius>200</AI_Sound_Radius>
 			<vehicle_damage_max>700</vehicle_damage_max>
 			<vehicle_damage_min>300</vehicle_damage_min>
 			<Impulse>22000</Impulse>
 			<Effects>
-				<Element>wep_thermo_rpg_exp</Element> <!--Original: mp_kaboom_pack_exp_a-->
+				<Element>wep_thermo_rpg_exp</Element>
+				<!--Original: mp_kaboom_pack_exp_a-->
 			</Effects>
 			<_Editor>
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
-			<KnockdownRadius>9.2</KnockdownRadius> <!--From 7--> <!--From 8.2 in old version-->
+			<KnockdownRadius>9.2</KnockdownRadius>
+			<!--From 7-->
+			<!--From 8.2 in old version-->
 			<FlinchRadius>22</FlinchRadius>
 			<Duration>250</Duration>
 			<Delay>0</Delay>
@@ -73,42 +80,10 @@
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
-	<!--This is just a copy paste of the thermo for reference 
-	<Explosion>
-			<Name>camo</Name>
-			<Radius>6.5</Radius>
-			<AI_Sound_Radius>100</AI_Sound_Radius>
-			<vehicle_damage_max>15000</vehicle_damage_max>
-			<vehicle_damage_min>1000</vehicle_damage_min>
-			<Impulse>40000</Impulse>
-			<Effects>
-				<Element>wep_thermo_rpg_exp</Element>
-				</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-				</_Editor>
-			<CrumbleRadius>7</CrumbleRadius>
-			<KnockdownRadius>9.5</KnockdownRadius>
-			<FlinchRadius>20</FlinchRadius>
-			<player_mult>0.7</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>450</human_damage_min>
-			<Human_Damage_Max>6000</Human_Damage_Max>
-			<Structural_Damage>50000</Structural_Damage>
-			<Unique_ID>56</Unique_ID>
-			<camera_shake_type>explosion_very_large</camera_shake_type>
-			<camera_shake_multiplier>1.0</camera_shake_multiplier>
-			<camera_shake_falloff>95.0</camera_shake_falloff>
-			<Duration>300</Duration>
-			<player_veh_mult>0.6</player_veh_mult>
-			<Material_Effects></Material_Effects>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-			</Explosion>-->
-	<!--END Kaboom Pack Explosion-->
-	<!--START Grenade Explosion-->
+		<!--This is just a copy paste of the thermo for reference 
+	<Explosion><Name>camo</Name><Radius>6.5</Radius><AI_Sound_Radius>100</AI_Sound_Radius><vehicle_damage_max>15000</vehicle_damage_max><vehicle_damage_min>1000</vehicle_damage_min><Impulse>40000</Impulse><Effects><Element>wep_thermo_rpg_exp</Element></Effects><_Editor><Category>Entries</Category></_Editor><CrumbleRadius>7</CrumbleRadius><KnockdownRadius>9.5</KnockdownRadius><FlinchRadius>20</FlinchRadius><player_mult>0.7</player_mult><MaxSalvagePieces>0</MaxSalvagePieces><SalvageProbability>0</SalvageProbability><human_damage_min>450</human_damage_min><Human_Damage_Max>6000</Human_Damage_Max><Structural_Damage>50000</Structural_Damage><Unique_ID>56</Unique_ID><camera_shake_type>explosion_very_large</camera_shake_type><camera_shake_multiplier>1.0</camera_shake_multiplier><camera_shake_falloff>95.0</camera_shake_falloff><Duration>300</Duration><player_veh_mult>0.6</player_veh_mult><Material_Effects></Material_Effects><player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult><Ignore_Orientation>False</Ignore_Orientation><Always_Ragdoll>False</Always_Ragdoll></Explosion>-->
+		<!--END Kaboom Pack Explosion-->
+		<!--START Grenade Explosion-->
 		<Explosion>
 			<Name>grenade_exp</Name>
 			<Radius>1.5</Radius>
@@ -143,23 +118,28 @@
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
-	<!--New explosion test-->	
+		<!--New explosion test-->
 		<Explosion>
 			<Name>grenade_camo</Name>
-			<Radius>6.2</Radius> <!--From 3.0-->
+			<Radius>6.2</Radius>
+			<!--From 3.0-->
 			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>900</vehicle_damage_max>
 			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>20000</Impulse> <!--From 10000-->
+			<Impulse>20000</Impulse>
+			<!--From 10000-->
 			<Effects>
 				<Element>wep_edf_grenade_exp_a</Element>
 			</Effects>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<CrumbleRadius>3.5</CrumbleRadius> <!--From 3.5-->
-			<KnockdownRadius>4.0</KnockdownRadius> <!--From 4.0-->
-			<FlinchRadius>5.0</FlinchRadius> <!--From 5.0-->
+			<CrumbleRadius>3.5</CrumbleRadius>
+			<!--From 3.5-->
+			<KnockdownRadius>4.0</KnockdownRadius>
+			<!--From 4.0-->
+			<FlinchRadius>5.0</FlinchRadius>
+			<!--From 5.0-->
 			<player_mult>0.8</player_mult>
 			<MaxSalvagePieces>0</MaxSalvagePieces>
 			<SalvageProbability>0</SalvageProbability>
@@ -178,7 +158,7 @@
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
-	<!--END Grenade Explosion-->
+		<!--END Grenade Explosion-->
 		<Explosion>
 			<Name>mp_shockwave_blast</Name>
 			<Radius>2.5</Radius>
@@ -211,7 +191,7 @@
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>		
+		</Explosion>
 		<Explosion>
 			<Name>rocket</Name>
 			<Radius>3.65</Radius>
@@ -221,7 +201,7 @@
 			<Impulse>28000</Impulse>
 			<Effects>
 				<Element>wep_miner_rpg_exp_a</Element>
-				</Effects>
+			</Effects>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -297,7 +277,7 @@
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>	
+		</Explosion>
 		<Explosion>
 			<Name>Vehicle</Name>
 			<Radius>4.0</Radius>
@@ -497,7 +477,7 @@
 			<Impulse>40000</Impulse>
 			<Effects>
 				<Element>wep_miner_rpg_exp_a</Element>
-				</Effects>
+			</Effects>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -1083,7 +1063,7 @@
 			<player_veh_mult>0.05</player_veh_mult>
 			<Flags>
 				<Flag>destroy if not streamed</Flag>
-				</Flags>
+			</Flags>
 			<Material_Effects>
 				<Entry>
 					<Material>Concrete</Material>
@@ -1567,7 +1547,8 @@
 			</_Editor>
 			<CrumbleRadius>8.0</CrumbleRadius>
 			<KnockdownRadius>8</KnockdownRadius>
-			<FlinchRadius>0</FlinchRadius> <!--From 15-->
+			<FlinchRadius>0</FlinchRadius>
+			<!--From 15-->
 			<Duration>200</Duration>
 			<Delay>200</Delay>
 			<player_mult>0.8</player_mult>
@@ -2539,412 +2520,7 @@
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
 	</Table>
-	<TableTemplates>
-		<Explosion>
-			<Name>cluster_bomb_exp</Name>
-			<Radius>2</Radius>
-			<CrumbleRadius>3.5</CrumbleRadius>
-			<AI_Sound_Radius>100</AI_Sound_Radius>
-			<vehicle_damage_max>1000</vehicle_damage_max>
-			<vehicle_damage_min>250</vehicle_damage_min>
-			<Impulse>18000</Impulse>
-			<Effects>
-				<Element>dth_propane_tank_sm_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<KnockdownRadius>7</KnockdownRadius>
-			<FlinchRadius>15</FlinchRadius>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>Molotov Explosion</Name>
-			<Radius>3</Radius>
-			<AI_Sound_Radius>100</AI_Sound_Radius>
-			<vehicle_damage_max>0</vehicle_damage_max>
-			<vehicle_damage_min>0</vehicle_damage_min>
-			<Impulse>0</Impulse>
-			<Effects>
-				<Element>wep_miner_rpg_exp_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>3</CrumbleRadius>
-			<KnockdownRadius>3</KnockdownRadius>
-			<FlinchRadius>3</FlinchRadius>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>Bruckheimer</Name>
-			<Radius>2</Radius>
-			<AI_Sound_Radius>100</AI_Sound_Radius>
-			<vehicle_damage_max>5000</vehicle_damage_max>
-			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>20000</Impulse>
-			<Effects>
-				<Element>wep_miner_rpg_exp_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>3</CrumbleRadius>
-			<KnockdownRadius>0.0</KnockdownRadius>
-			<FlinchRadius>0.0</FlinchRadius>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>mortar_explosion</Name>
-			<Radius>10</Radius>
-			<CrumbleRadius>16</CrumbleRadius>
-			<AI_Sound_Radius>100</AI_Sound_Radius>
-			<vehicle_damage_max>65000</vehicle_damage_max>
-			<vehicle_damage_min>2000</vehicle_damage_min>
-			<Impulse>40000</Impulse>
-			<Effects>
-				<Element>mortar_blast_exp</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<KnockdownRadius>15</KnockdownRadius>
-			<FlinchRadius>30</FlinchRadius>
-			<Duration>500</Duration>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>exp_vehicle_gastank1</Name>
-			<Radius>3</Radius>
-			<CrumbleRadius>4</CrumbleRadius>
-			<AI_Sound_Radius>100</AI_Sound_Radius>
-			<vehicle_damage_max>5000</vehicle_damage_max>
-			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>20000</Impulse>
-			<Effects>
-				<Element>veh_exp_engine1</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<KnockdownRadius>5</KnockdownRadius>
-			<FlinchRadius>10</FlinchRadius>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>Explosion_PLACEHOLDER</Name>
-			<Radius>1</Radius>
-			<CrumbleRadius>2</CrumbleRadius>
-			<AI_Sound_Radius>100</AI_Sound_Radius>
-			<vehicle_damage_max>5000</vehicle_damage_max>
-			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>16000</Impulse>
-			<Effects>
-				<Element>wep_miner_rpg_exp_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<KnockdownRadius>1</KnockdownRadius>
-			<FlinchRadius>1</FlinchRadius>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>grenade_player_exp</Name>
-			<Radius>1.0</Radius>
-			<AI_Sound_Radius>50</AI_Sound_Radius>
-			<vehicle_damage_max>2000</vehicle_damage_max>
-			<vehicle_damage_min>500</vehicle_damage_min>
-			<Impulse>15000</Impulse>
-			<Effects>
-				<Element>wep_miner_rpg_exp_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>4.0</CrumbleRadius>
-			<KnockdownRadius>6</KnockdownRadius>
-			<FlinchRadius>12</FlinchRadius>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>mp_ied_explosion</Name>
-			<Radius>5</Radius>
-			<CrumbleRadius>10</CrumbleRadius>
-			<AI_Sound_Radius>200</AI_Sound_Radius>
-			<vehicle_damage_max>900</vehicle_damage_max>
-			<vehicle_damage_min>300</vehicle_damage_min>
-			<Impulse>22000</Impulse>
-			<Effects>
-				<Element>exp_carbomb</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<KnockdownRadius>8</KnockdownRadius>
-			<FlinchRadius>22</FlinchRadius>
-			<Duration>750</Duration>
-			<Delay>0</Delay>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>nano_rifle_exp_old</Name>
-			<Radius>0.5</Radius>
-			<AI_Sound_Radius>0</AI_Sound_Radius>
-			<vehicle_damage_max>1000</vehicle_damage_max>
-			<vehicle_damage_min>1000</vehicle_damage_min>
-			<Impulse>10</Impulse>
-			<Effects>
-				<Element>des_concrete_collapse_sm</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>0</CrumbleRadius>
-			<KnockdownRadius>0.7</KnockdownRadius>
-			<FlinchRadius>0.7</FlinchRadius>
-			<Flags>
-				<Flag>weaken</Flag>
-			</Flags>
-			<player_mult>1.0</player_mult>
-			<Duration>1500</Duration>
-			<Delay>1000</Delay>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>nano_rifle_exp2_old</Name>
-			<Radius>1.5</Radius>
-			<AI_Sound_Radius>0</AI_Sound_Radius>
-			<vehicle_damage_max>1000</vehicle_damage_max>
-			<vehicle_damage_min>1000</vehicle_damage_min>
-			<Impulse>500</Impulse>
-			<Effects>
-				<Element>wep_turret_gauss_exp_near</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>0</CrumbleRadius>
-			<KnockdownRadius>1.5</KnockdownRadius>
-			<FlinchRadius>1.5</FlinchRadius>
-			<Flags>
-				<Flag>weaken</Flag>
-			</Flags>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>rail_driver_exp</Name>
-			<Radius>1</Radius>
-			<AI_Sound_Radius>25</AI_Sound_Radius>
-			<vehicle_damage_max>500</vehicle_damage_max>
-			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>9000</Impulse>
-			<Effects>
-				<Element>wep_turret_gauss_exp_near</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>1</CrumbleRadius>
-			<KnockdownRadius>1.25</KnockdownRadius>
-			<FlinchRadius>1.25</FlinchRadius>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>mp_commando</Name>
-			<Radius>1</Radius>
-			<CrumbleRadius>1</CrumbleRadius>
-			<AI_Sound_Radius>200</AI_Sound_Radius>
-			<vehicle_damage_max>200</vehicle_damage_max>
-			<vehicle_damage_min>30</vehicle_damage_min>
-			<Impulse>10000</Impulse>
-			<Effects>
-				<Element>wep_remote_charge_exp_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries:Multiplayer</Category>
-			</_Editor>
-			<KnockdownRadius>2</KnockdownRadius>
-			<FlinchRadius>15</FlinchRadius>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>mp_shockwave_activated</Name>
-			<Radius>4</Radius>
-			<CrumbleRadius>4</CrumbleRadius>
-			<AI_Sound_Radius>100</AI_Sound_Radius>
-			<vehicle_damage_max>700</vehicle_damage_max>
-			<vehicle_damage_min>0</vehicle_damage_min>
-			<Impulse>20000</Impulse>
-			<Effects>
-				<Element>wep_remote_charge_exp_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries:Multiplayer</Category>
-			</_Editor>
-			<KnockdownRadius>6</KnockdownRadius>
-			<FlinchRadius>6</FlinchRadius>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<Duration>200</Duration>
-			<human_damage_min>-1</human_damage_min>
-			<Human_Damage_Max>-1</Human_Damage_Max>
-			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>mp_veh_mover_collision</Name>
-			<Radius>0</Radius>
-			<CrumbleRadius>0</CrumbleRadius>
-			<AI_Sound_Radius>0</AI_Sound_Radius>
-			<vehicle_damage_max>0</vehicle_damage_max>
-			<vehicle_damage_min>0</vehicle_damage_min>
-			<Impulse>0</Impulse>
-			<Effects>
-				<Element>wep_remote_charge_exp_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries:Multiplayer</Category>
-			</_Editor>
-			<KnockdownRadius>0</KnockdownRadius>
-			<FlinchRadius>0</FlinchRadius>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>0</human_damage_min>
-			<Human_Damage_Max>0</Human_Damage_Max>
-			<Structural_Damage>0</Structural_Damage>
-			<Unique_ID>0</Unique_ID>
-			<player_veh_mult>1.0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-	</TableTemplates>
+	<TableTemplates></TableTemplates>
 	<TableDescription>
 		<Name>Explosion</Name>
 		<Type>TableDescription</Type>
@@ -2992,7 +2568,7 @@
 			<Default>False</Default>
 			<Choice>True</Choice>
 			<Choice>False</Choice>
-			</Element>
+		</Element>
 		<Element>
 			<Name>Radius</Name>
 			<Type>Float</Type>

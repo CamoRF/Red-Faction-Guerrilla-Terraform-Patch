@@ -1,6 +1,6 @@
 <root>
-	<Table>		
-<!--START Added DLC Weapons-->		
+	<Table>
+		<!--START Added DLC Weapons-->
 		<Item>
 			<Name>EDF_Super_Gauss</Name>
 			<Item_Flags>
@@ -71,9 +71,10 @@
 			<Item_Flags>
 				<!--<Flag>fast_cleanup</Flag>-->
 				<!--<Flag>no_auto_delete</Flag>-->
-				<Flag>no_pickup_delete</Flag>   <!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>				
+				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -118,33 +119,10 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>-->
+				<!--<Flag>no_auto_delete</Flag><Flag>no_pickup_delete</Flag><Flag>casts_shadows</Flag><Flag>casts_drop_shadows</Flag>-->
 			</Item_Flags>
 		</Item>
-		<Item>
-			<Name>misslepod_projectile</Name>
-			<Mass>1</Mass>
-			<Respawn_Delay>5000</Respawn_Delay>
-			<_Editor>
-				<Category>Entries:WeaponMarauder</Category>
-			</_Editor>
-			<Item_Flags>
-				<Flag>collide_as_box</Flag>
-				<!--<Flag>no_auto_delete</Flag>
-				<Flag>no_pickup_delete</Flag>
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>-->
-			</Item_Flags>
-			<Spin_Time>5000</Spin_Time>
-			<streaming_category>General</streaming_category>
-			<Mesh>
-				<Filename>therm_rocket_projectile.SMESHX</Filename>
-			</Mesh>
-		</Item>		
-<!--END Added DLC Weapons-->		
+		<!--END Added DLC Weapons-->
 		<Item>
 			<Name>Lawrence_Eos_Coat</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -165,7 +143,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Eos_Edf</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -183,7 +160,6 @@
 				<Category>Cloth:Eos</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>Jake_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -204,7 +180,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Dan_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -225,7 +200,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Dustin_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -246,7 +220,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Epic_Banner_T</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -265,7 +238,6 @@
 			</_Editor>
 			<Cloth_Sound>OBJ_FLAG_FLAP</Cloth_Sound>
 		</Item>
-		
 		<Item>
 			<Name>Miner_Earpiece</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -277,7 +249,6 @@
 			</Mesh>
 			<streaming_category>Head mesh</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>sledgehammer</Name>
 			<_Editor>
@@ -296,7 +267,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_1</Name>
 			<_Editor>
@@ -315,7 +285,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_2</Name>
 			<_Editor>
@@ -334,7 +303,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_3</Name>
 			<_Editor>
@@ -352,7 +320,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>Krystal_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -373,7 +340,6 @@
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>Debbie_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -385,7 +351,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Debbie_Jacket</Name>
 			<Item_Flags>
@@ -407,7 +372,6 @@
 			</_Editor>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Mila_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -419,7 +383,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>OldCoot_Beard</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -431,7 +394,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Samanya_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -452,7 +414,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>mass_driver_bullet</Name>
 			<Mass>1</Mass>
@@ -471,7 +432,6 @@
 				<Filename>mass_drive_bullet.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>beam</Name>
 			<_Editor>
@@ -480,9 +440,12 @@
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
 				<!--<Flag>fast_cleanup</Flag>-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -492,7 +455,6 @@
 				<Filename>beam_test.SMESHX</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>Jake_MP_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -504,7 +466,6 @@
 				<Filename>jake_mp_hair.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>Selma_BackPack</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -525,7 +486,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Selma_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -537,7 +497,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Blair_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -549,7 +508,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Blair_LegPack</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -570,7 +528,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Isaiah_Hat</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -582,7 +539,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Isaiah_Hat_Dust</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -594,7 +550,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Isaiah_Hat_Eos</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -606,7 +561,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Isaiah_Hat_Oasis</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -618,7 +572,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>edf_rocket_turret_head</Name>
 			<Item_Flags>
@@ -647,7 +600,6 @@
 				<Filename>edfrt_weapon_col.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>edf_rocket_turret_top</Name>
 			<Item_Flags>
@@ -672,7 +624,6 @@
 			<Mass>100</Mass>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>gauss_turret_head</Name>
 			<Item_Flags>
@@ -701,7 +652,6 @@
 				<Filename>GT_weapon_col.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>jetter_rocket_turret_head</Name>
 			<Item_Flags>
@@ -719,7 +669,6 @@
 				<Filename>null_weapon.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>jetter_mg_turret_head</Name>
 			<Item_Flags>
@@ -737,7 +686,6 @@
 				<Filename>null_weapon.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>rocket_turret_head</Name>
 			<Item_Flags>
@@ -766,7 +714,6 @@
 				<Filename>rocket_turret_col.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>rocket_turret_top</Name>
 			<Item_Flags>
@@ -791,7 +738,6 @@
 			<Mass>100</Mass>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>rocket_turret_middle</Name>
 			<Item_Flags>
@@ -809,7 +755,6 @@
 			<Mass>30</Mass>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>gauss_turret_top</Name>
 			<Item_Flags>
@@ -834,7 +779,6 @@
 			<Mass>100</Mass>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>turret_tank_1</Name>
 			<Item_Flags>
@@ -853,7 +797,6 @@
 			</Mesh>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>turret_head_1</Name>
 			<Item_Flags>
@@ -882,7 +825,6 @@
 				<Filename>hmg_weapon_col.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>turret_top_1</Name>
 			<Item_Flags>
@@ -907,7 +849,6 @@
 			<Mass>100</Mass>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>turret_middle_1</Name>
 			<Item_Flags>
@@ -925,7 +866,6 @@
 			<Mass>30</Mass>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>turret_base_1</Name>
 			<Item_Flags>
@@ -944,7 +884,6 @@
 			<Mass>100</Mass>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>medical_supplies</Name>
 			<_Editor>
@@ -952,10 +891,13 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
 				<Flag>is_ammo_box</Flag>
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -977,7 +919,6 @@
 				<Filename>courier_case.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>wiring_kit</Name>
 			<Respawn_Delay>30000</Respawn_Delay>
@@ -996,7 +937,6 @@
 				<Filename>wiring_kit.SMESHX</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>Voice_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -1008,7 +948,6 @@
 				<Filename>voice_hair.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>Mason_Coat</Name>
 			<Item_Flags>
@@ -1030,7 +969,6 @@
 			</_Editor>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Mason_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -1042,7 +980,6 @@
 				<Filename>mason_hair.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>Kyle_JetPack</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -1063,7 +1000,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>flag_guerrilla</Name>
 			<_Editor>
@@ -1090,7 +1026,6 @@
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>flag_edf</Name>
 			<_Editor>
@@ -1117,7 +1052,6 @@
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>Kat_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -1129,7 +1063,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Bev_Cap</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -1141,7 +1074,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Kayla_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -1153,7 +1085,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Braun_Mask</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -1165,7 +1096,6 @@
 			</Mesh>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Braun_Helmet</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -1177,7 +1107,6 @@
 				<Filename>Braun_Helmet_A.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>chain_noose</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -1195,7 +1124,6 @@
 				<Category>Cloth:Chains</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>wire_bunch</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -1213,7 +1141,6 @@
 				<Category>Cloth:Wires</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>Olga_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -1225,11 +1152,9 @@
 				<Filename>olga_hair.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>Jayde_Hair_Long</Name>
-			<Item_Flags>
-			</Item_Flags>
+			<Item_Flags></Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<_Editor>
 				<Category>Character Props:Jayde</Category>
@@ -1239,7 +1164,6 @@
 				<Filename>Jayde_Hair.SMESHX</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>repair_tool</Name>
 			<Item_Flags>
@@ -1272,13 +1196,12 @@
 				</Prop>
 			</Props>
 		</Item>
-		
 		<Item>
 			<Name>repair_battery</Name>
 			<Item_Flags>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
-			</Item_Flags>	
+			</Item_Flags>
 			<_Editor>
 				<Category>Entries:WeaponOther</Category>
 			</_Editor>
@@ -1288,7 +1211,6 @@
 			</Mesh>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Camie_Dress</Name>
 			<Item_Flags>
@@ -1310,7 +1232,6 @@
 			</_Editor>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Camie_Shirt</Name>
 			<Item_Flags>
@@ -1332,7 +1253,6 @@
 			</_Editor>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Camie_Spine</Name>
 			<Item_Flags>
@@ -1354,7 +1274,6 @@
 			</_Editor>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>sh_repair_tool</Name>
 			<Touch_Script>give_item_safehouse</Touch_Script>
@@ -1382,7 +1301,6 @@
 			<streaming_category>General</streaming_category>
 			<SafehouseWeapon>repair_tool</SafehouseWeapon>
 		</Item>
-		
 		<Item>
 			<Name>sh_m16</Name>
 			<Touch_Script>give_item_safehouse</Touch_Script>
@@ -1410,7 +1328,6 @@
 			<streaming_category>General</streaming_category>
 			<SafehouseWeapon>m16</SafehouseWeapon>
 		</Item>
-		
 		<Item>
 			<Name>sh_rail_driver</Name>
 			<Touch_Script>give_item_safehouse</Touch_Script>
@@ -1431,7 +1348,6 @@
 				<Filename>rail_driver.SMESHX</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>sh_shotgun</Name>
 			<Touch_Script>give_item_safehouse</Touch_Script>
@@ -1459,7 +1375,6 @@
 			<streaming_category>General</streaming_category>
 			<SafehouseWeapon>Shotgun</SafehouseWeapon>
 		</Item>
-		
 		<Item>
 			<Name>sh_rpg_launcher</Name>
 			<Touch_Script>give_item_safehouse</Touch_Script>
@@ -1487,7 +1402,6 @@
 			<streaming_category>General</streaming_category>
 			<SafehouseWeapon>rpg_launcher</SafehouseWeapon>
 		</Item>
-		
 		<Item>
 			<Name>sh_grinder</Name>
 			<Touch_Script>give_item_safehouse</Touch_Script>
@@ -1515,7 +1429,6 @@
 			<streaming_category>General</streaming_category>
 			<SafehouseWeapon>grinder</SafehouseWeapon>
 		</Item>
-		
 		<Item>
 			<Name>sh_nano_rifle</Name>
 			<Touch_Script>give_item_safehouse</Touch_Script>
@@ -1536,7 +1449,6 @@
 				<Filename>nanorifle.SMESHX</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>sh_edf_pistol</Name>
 			<Touch_Script>give_item_safehouse</Touch_Script>
@@ -1564,7 +1476,6 @@
 			<streaming_category>General</streaming_category>
 			<SafehouseWeapon>edf_pistol</SafehouseWeapon>
 		</Item>
-		
 		<Item>
 			<Name>sh_sniper_rifle</Name>
 			<Touch_Script>give_item_safehouse</Touch_Script>
@@ -1592,7 +1503,6 @@
 			<streaming_category>General</streaming_category>
 			<SafehouseWeapon>sniper_rifle</SafehouseWeapon>
 		</Item>
-		
 		<Item>
 			<Name>sh_arc_welder</Name>
 			<Touch_Script>give_item_safehouse</Touch_Script>
@@ -1613,7 +1523,6 @@
 				<Filename>arc_welder.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>multi_object_backpack_fleetfoot</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -1638,7 +1547,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>sniper_rifle</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -1674,7 +1582,6 @@
 			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 		</Item>
-		
 		<Item>
 			<Name>rail_driver</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -1711,7 +1618,6 @@
 				<Filename>rail_pickup.smeshx</Filename>
 			</pickup_static_mesh>
 		</Item>
-		
 		<Item>
 			<Name>enforcer</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -1740,7 +1646,6 @@
 				<Filename>Enforcer.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>nano_rifle</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -1775,7 +1680,6 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<MaterialEffect>reconstructor_shards</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>arc_welder</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -1804,7 +1708,6 @@
 			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 		</Item>
-		
 		<Item>
 			<Name>gutter</Name>
 			<_Editor>
@@ -1835,7 +1738,6 @@
 			</pickup_static_mesh>
 			<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>
 		</Item>
-		
 		<Item>
 			<Name>arc_welder_clip</Name>
 			<_Editor>
@@ -1849,14 +1751,16 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>charge_placer</Name>
 			<_Editor>
@@ -1887,7 +1791,6 @@
 				<Filename>remote_charge_pickup.smeshx</Filename>
 			</pickup_static_mesh>
 		</Item>
-		
 		<Item>
 			<Name>grinder</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -1923,7 +1826,6 @@
 			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 		</Item>
-		
 		<Item>
 			<Name>grinder_projectile</Name>
 			<Mass>0.5</Mass>
@@ -1933,8 +1835,10 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_cylinder</Flag>
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -1951,7 +1855,6 @@
 			</character_mesh>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>edf_pistol_clip</Name>
 			<_Editor>
@@ -1965,14 +1868,16 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>edf_pistol</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -2011,7 +1916,6 @@
 				<Filename>pistol_pickup.SMESHX</Filename>
 			</pickup_static_mesh>
 		</Item>
-		
 		<Item>
 			<Name>mine</Name>
 			<Mesh>
@@ -2031,7 +1935,6 @@
 			<streaming_category>General</streaming_category>
 			<Collision_Sound>WEP_CHARGE_PLANT</Collision_Sound>
 		</Item>
-		
 		<Item>
 			<Name>mine_placer</Name>
 			<Mesh>
@@ -2054,7 +1957,6 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 		</Item>
-		
 		<Item>
 			<Name>rpg_clip</Name>
 			<_Editor>
@@ -2067,15 +1969,15 @@
 			<streaming_category>General</streaming_category>
 			<Touch_Sound>SYS_WEP_RPG_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_RPG_AMMO_PICKUP</Touch_Sound_2>
-			<Item_Flags> <!--Added All Flags-->
+			<Item_Flags>
+				<!--Added All Flags-->
 				<!--<Flag>collide_as_box</Flag>-->
-				<!--<Flag>no_auto_delete</Flag>--> 
+				<!--<Flag>no_auto_delete</Flag>-->
 				<Flag>no_pickup_delete</Flag>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>shotgun</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -2114,7 +2016,6 @@
 				<Filename>shotgun_pickup.smeshx</Filename>
 			</pickup_static_mesh>
 		</Item>
-		
 		<Item>
 			<Name>shotgun_clip</Name>
 			<_Editor>
@@ -2128,14 +2029,16 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>rpg_projectile</Name>
 			<Mass>1</Mass>
@@ -2145,8 +2048,10 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag> <!--Added--> 
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -2158,7 +2063,6 @@
 				<Filename>rpg_projectile.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>rpg_launcher</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -2190,7 +2094,6 @@
 				<Filename>rpg.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>m16</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -2219,7 +2122,6 @@
 				<Filename>assault_rifle.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>ar_clip</Name>
 			<_Editor>
@@ -2233,14 +2135,16 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>grenade</Name>
 			<Mesh>
@@ -2262,7 +2166,6 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 		</Item>
-		
 		<Item>
 			<Name>remote_charge</Name>
 			<Mass>.05</Mass>
@@ -2291,7 +2194,6 @@
 			<Touch_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound_2>
 		</Item>
-		
 		<Item>
 			<Name>charge_launcher</Name>
 			<Mesh>
@@ -2310,7 +2212,6 @@
 			</Item_Flags>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>power_item</Name>
 			<Item_Flags>
@@ -2328,7 +2229,6 @@
 			<Touch_Script>give_item</Touch_Script>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Kyle_hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2340,7 +2240,6 @@
 			</Mesh>
 			<streaming_category>Character prop</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>multi_object_backpack_jetpack</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2365,7 +2264,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Eddie_Boot_Cover</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2377,7 +2275,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Eddie_Knife_Calf</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2389,7 +2286,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Eddie_Thigh_Pack_Left</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2401,7 +2297,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Eddie_Boot_Wrap</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2413,7 +2308,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Eddie_Calf_Wrap</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2425,7 +2319,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Eddie_Hip_Bag_Right</Name>
 			<Item_Flags>
@@ -2447,7 +2340,6 @@
 			</_Editor>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Eddie_Hip_Bag_Front</Name>
 			<Item_Flags>
@@ -2469,7 +2361,6 @@
 			</_Editor>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Eddie_Mask</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2490,7 +2381,6 @@
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>multi_object_backpack_stealth</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2516,7 +2406,6 @@
 			</character_mesh>
 			<MaterialEffect>stealth_pack</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>multi_object_backpack_kaboom</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2541,7 +2430,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>multi_object_backpack_commando</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2567,7 +2455,6 @@
 			</character_mesh>
 			<MaterialEffect>firepower</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sniper_clip</Name>
 			<_Editor>
@@ -2581,14 +2468,16 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>multi_object_backpack_shockwave</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2613,7 +2502,6 @@
 				<Anim_set>BackPacks</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>multi_object_backpack_rhino</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2639,7 +2527,6 @@
 			</character_mesh>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>rail_clip</Name>
 			<_Editor>
@@ -2653,14 +2540,16 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>rail_power_pack</Name>
 			<_Editor>
@@ -2676,9 +2565,8 @@
 			<Item_Flags>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
-			</Item_Flags>	
+			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>thermobaric_rockets</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -2720,7 +2608,6 @@
 				<Filename>therm_rocket_pickup.smeshx</Filename>
 			</pickup_static_mesh>
 		</Item>
-		
 		<Item>
 			<Name>thermobaric_rocket_projectile</Name>
 			<Mass>1</Mass>
@@ -2730,10 +2617,7 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<!--<Flag>no_auto_delete</Flag><Flag>no_pickup_delete</Flag><Flag>casts_shadows</Flag><Flag>casts_drop_shadows</Flag>-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -2741,7 +2625,6 @@
 				<Filename>therm_rocket_projectile.SMESHX</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>multi_object_backpack_heal</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2760,7 +2643,6 @@
 			<Touch_Script>give_backpack</Touch_Script>
 			<MaterialEffect>heal</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>multi_object_backpack_thrust</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2778,7 +2660,6 @@
 			</Item_Flags>
 			<Touch_Script>give_backpack</Touch_Script>
 		</Item>
-		
 		<Item>
 			<Name>multi_object_backpack_vision</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2804,7 +2685,6 @@
 			</character_mesh>
 			<MaterialEffect>vison</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>tech_level_pickup</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2823,7 +2703,6 @@
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>tech_level_pickup_random</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2843,7 +2722,6 @@
 			</Item_Flags>
 			<Touch_Arg2>2.0</Touch_Arg2>
 		</Item>
-		
 		<Item>
 			<Name>nano_rifle_clip</Name>
 			<_Editor>
@@ -2864,7 +2742,6 @@
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>singularity_bomb</Name>
 			<Item_Flags>
@@ -2893,7 +2770,6 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 		</Item>
-		
 		<Item>
 			<Name>Camie_Veil</Name>
 			<Item_Flags>
@@ -2915,7 +2791,6 @@
 			</_Editor>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Camie_Head</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -2936,8 +2811,7 @@
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 		</Item>
-
-<!--START Propane Tank-->		
+		<!--START Propane Tank-->
 		<Item>
 			<Name>propane_tank</Name>
 			<Touch_Script>ask_pickup</Touch_Script>
@@ -2972,12 +2846,10 @@
 			</Damage_Info>
 			<Explosion>propane_tank</Explosion>
 		</Item>
-<!--END Propane Tank-->		
-		
+		<!--END Propane Tank-->
 		<Item>
 			<Name>Marie_Hair_Short</Name>
-			<Item_Flags>
-			</Item_Flags>
+			<Item_Flags></Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<_Editor>
 				<Category>Character Props:Marie</Category>
@@ -2987,7 +2859,6 @@
 				<Filename>Marie_Hair_Short_Geo.SMESHX</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>sh_gutter</Name>
 			<Item_Flags>
@@ -3014,7 +2885,6 @@
 				<Category>Entries:WeaponSafehouse</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>sh_remote_charge</Name>
 			<_Editor>
@@ -3042,7 +2912,6 @@
 			<Touch_Script>give_item_safehouse</Touch_Script>
 			<SafehouseWeapon>charge_placer</SafehouseWeapon>
 		</Item>
-		
 		<Item>
 			<Name>sh_sledgehammer</Name>
 			<Item_Flags>
@@ -3063,13 +2932,14 @@
 				<Filename>sledgehammer.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>sh_thermobaric_rockets</Name>
 			<Item_Flags>
 				<Flag>ignore_physics</Flag>
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -3090,7 +2960,6 @@
 				<Category>Entries:WeaponSafehouse</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>enf_clip</Name>
 			<_Editor>
@@ -3104,14 +2973,16 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>base_head</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3129,7 +3000,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>base_hires_head</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3147,7 +3017,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>base_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3165,7 +3034,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>dustin_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3183,7 +3051,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>middle_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3201,7 +3068,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>exterior_cloth</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3222,9 +3088,8 @@
 			<Item_Flags>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
-			</Item_Flags>	
+			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>May_Mask</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3236,7 +3101,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>May_Helmet_A</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3248,7 +3112,6 @@
 			</Mesh>
 			<streaming_category>Head mesh</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>May_Helmet_B</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3260,7 +3123,6 @@
 			</Mesh>
 			<streaming_category>Head mesh</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>ammo_box</Name>
 			<_Editor>
@@ -3303,7 +3165,6 @@
 			<Explosion>ammo_box</Explosion>
 			<MaterialEffect>weapon_sheen</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>placed_salvage</Name>
 			<Spin_Time>3000</Spin_Time>
@@ -3319,14 +3180,14 @@
 			<Touch_Sound>HUD_SALVAGE_PICKUP_METAL</Touch_Sound>
 			<Touch_Arg1>2</Touch_Arg1>
 			<MaterialEffect>salvage_sheen</MaterialEffect>
-			<Item_Flags> <!--Flags Added-->
+			<Item_Flags>
+				<!--Flags Added-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>banner_soldier</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3347,9 +3208,8 @@
 			<Item_Flags>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
-			</Item_Flags>	
+			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>banner_welcome</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3370,9 +3230,8 @@
 			<Item_Flags>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
-			</Item_Flags>	
+			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>wire_bunch_a</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3392,9 +3251,8 @@
 			<Item_Flags>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
-			</Item_Flags>	
+			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>chain_a</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3414,9 +3272,8 @@
 			<Item_Flags>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
-			</Item_Flags>	
+			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>chain_long</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3436,9 +3293,8 @@
 			<Item_Flags>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
-			</Item_Flags>	
+			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>marauder_flag</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3459,9 +3315,8 @@
 			<Item_Flags>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
-			</Item_Flags>	
+			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>mission_flag</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3482,9 +3337,8 @@
 			<Item_Flags>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
-			</Item_Flags>	
+			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>grinder_clip</Name>
 			<_Editor>
@@ -3505,7 +3359,6 @@
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>edfrt_turret_head_corpse</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3524,7 +3377,6 @@
 			</Item_Flags>
 			<Mass>80</Mass>
 		</Item>
-		
 		<Item>
 			<Name>machinegun_turret_head_corpse</Name>
 			<Item_Flags>
@@ -3543,7 +3395,6 @@
 				<Category>Entries:TurretCorpses</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>gauss_turret_head_corpse</Name>
 			<Item_Flags>
@@ -3562,7 +3413,6 @@
 				<Category>Entries:TurretCorpses</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>rocket_turret_head_corpse</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3581,7 +3431,6 @@
 			</Item_Flags>
 			<Mass>80</Mass>
 		</Item>
-		
 		<Item>
 			<Name>nano_rifle_prototypes</Name>
 			<_Editor>
@@ -3599,7 +3448,6 @@
 				<Filename>nanorifle.SMESHX</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>artillery_base</Name>
 			<Item_Flags>
@@ -3618,7 +3466,6 @@
 			<Mass>100000</Mass>
 			<streaming_category>Head mesh</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>artillery_middle</Name>
 			<Item_Flags>
@@ -3636,7 +3483,6 @@
 			<Mass>10</Mass>
 			<streaming_category>Head mesh</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>artillery_gun</Name>
 			<Item_Flags>
@@ -3654,7 +3500,6 @@
 				<Filename>tharsis_gun_weapon.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>riot_shield</Name>
 			<Respawn_Delay>30000</Respawn_Delay>
@@ -3675,7 +3520,6 @@
 				<Filename>riot_shield.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>mar_harpoon_turret</Name>
 			<Item_Flags>
@@ -3711,8 +3555,7 @@
 				<Filename>harpoon_turret_col.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
-<!--START Harpoon Projectile-->		
+		<!--START Harpoon Projectile-->
 		<Item>
 			<Name>harpoon_projectile</Name>
 			<Mass>1</Mass>
@@ -3722,7 +3565,8 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>no_pickup_delete</Flag>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
@@ -3733,8 +3577,7 @@
 				<Filename>harpoon.smeshx</Filename>
 			</Mesh>
 		</Item>
-<!--END Harpoon Projectile-->		
-		
+		<!--END Harpoon Projectile-->
 		<Item>
 			<Name>harpoon_turret_head_corpse</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3753,7 +3596,6 @@
 			</Item_Flags>
 			<Mass>80</Mass>
 		</Item>
-		
 		<Item>
 			<Name>gutter_col_dummy</Name>
 			<_Editor>
@@ -3771,7 +3613,6 @@
 				<Filename>gutter_shield_col.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>vision_headset_prop</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3786,8 +3627,6 @@
 				<Filename>vision_headset.smeshx</Filename>
 			</Mesh>
 		</Item>
-	
-		
 		<Item>
 			<Name>Isaiah_EarMuffs</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3799,7 +3638,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Isaiah_EarMuffs_Dust</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3811,7 +3649,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Isaiah_EarMuffs_Oasis</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3823,7 +3660,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Isaiah_LegPack</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3844,7 +3680,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>mass_driver_head</Name>
 			<Item_Flags>
@@ -3872,7 +3707,6 @@
 				<Filename>rocket_turret_col.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>weapon_locker</Name>
 			<_Editor>
@@ -3900,7 +3734,6 @@
 				<Anim_set>Weap_RM</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>bftp_bomb</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3917,7 +3750,6 @@
 			</Item_Flags>
 			<Touch_Script>blast_from_the_past</Touch_Script>
 		</Item>
-		
 		<Item>
 			<Name>courier_case</Name>
 			<_Editor>
@@ -3925,9 +3757,12 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag> <!--Added?-->
-				<Flag>no_auto_delete</Flag> <!--Added?-->
-				<Flag>no_pickup_delete</Flag> <!--Added?-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added?-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added?-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added?-->
 				<Flag>use_pickup</Flag>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
@@ -3938,15 +3773,13 @@
 			<Respawn_Delay>5000</Respawn_Delay>
 			<Damage_Info>
 				<Hitpoints>0</Hitpoints>
-				<Flags>
-				</Flags>
+				<Flags></Flags>
 			</Damage_Info>
 			<Explosion>ab_rocket</Explosion>
 			<Mesh>
 				<Filename>courier_case.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>massdriver_turret_corpse</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3965,7 +3798,6 @@
 			</Item_Flags>
 			<Mass>80</Mass>
 		</Item>
-		
 		<Item>
 			<Name>nano_forge</Name>
 			<_Editor>
@@ -3981,21 +3813,26 @@
 			<Item_Flags>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
-			</Item_Flags>	
+			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>beer_bottle_a</Name>
 			<_Editor>
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<!--<Flag>collide_as_box</Flag>-->
+				<!--Removed-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>collide_as_cylinder</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4005,19 +3842,24 @@
 				<Filename>beer_bottle_a.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>bar_glass</Name>
 			<_Editor>
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>collide_as_box</Flag>-->
+				<!--Removed-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_cylinder</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4027,19 +3869,24 @@
 				<Filename>bar_glass.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>beer_bottle_b</Name>
 			<_Editor>
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>collide_as_box</Flag>-->
+				<!--Removed-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_cylinder</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4049,7 +3896,6 @@
 				<Filename>beer_bottle_a.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>art_tank_missile</Name>
 			<Mass>1</Mass>
@@ -4059,8 +3905,10 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4070,7 +3918,6 @@
 				<Filename>art_tank_missile.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>aircraft_bomb</Name>
 			<Mass>1</Mass>
@@ -4080,8 +3927,10 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4091,7 +3940,6 @@
 				<Filename>aircraft_bomb.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>toolbox</Name>
 			<_Editor>
@@ -4099,9 +3947,12 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4111,19 +3962,24 @@
 				<Filename>amb_toolbox.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>cigarette</Name>
 			<_Editor>
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>collide_as_box</Flag>-->
+				<!--Removed-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_cylinder</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4133,18 +3989,22 @@
 				<Filename>amb_cigarette.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>wrench</Name>
 			<_Editor>
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>collide_as_box</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_cylinder</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4154,7 +4014,6 @@
 				<Filename>amb_wrench.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>clipboard</Name>
 			<_Editor>
@@ -4162,9 +4021,12 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4174,18 +4036,22 @@
 				<Filename>amb_clipboard.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>binoculars</Name>
 			<_Editor>
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
-				<Flag>collide_as_cylinder</Flag> <!--Added--> 
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>collide_as_box</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_cylinder</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4195,7 +4061,6 @@
 				<Filename>amb_binoculars.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>amb_file_folder</Name>
 			<_Editor>
@@ -4203,9 +4068,12 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4215,7 +4083,6 @@
 				<Filename>amb_file_folder.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>cellphone</Name>
 			<_Editor>
@@ -4223,9 +4090,12 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4235,7 +4105,6 @@
 				<Filename>amb_cellphone.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>lunchbox</Name>
 			<_Editor>
@@ -4243,9 +4112,12 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4261,7 +4133,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>jackhammer</Name>
 			<_Editor>
@@ -4269,9 +4140,12 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4287,7 +4161,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>briefcase</Name>
 			<_Editor>
@@ -4295,10 +4168,14 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>use_pickup</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4308,15 +4185,13 @@
 			<Respawn_Delay>5000</Respawn_Delay>
 			<Damage_Info>
 				<Hitpoints>0</Hitpoints>
-				<Flags>
-				</Flags>
+				<Flags></Flags>
 			</Damage_Info>
 			<Explosion>ab_rocket</Explosion>
 			<Mesh>
 				<Filename>amb_briefcase.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>blast_carbomb</Name>
 			<_Editor>
@@ -4337,15 +4212,13 @@
 			<Respawn_Delay>5000</Respawn_Delay>
 			<Damage_Info>
 				<Hitpoints>0</Hitpoints>
-				<Flags>
-				</Flags>
+				<Flags></Flags>
 			</Damage_Info>
 			<Explosion>ab_rocket</Explosion>
 			<Mesh>
 				<Filename>blast_carbomb.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>ore_salvage_1</Name>
 			<Spin_Time>3000</Spin_Time>
@@ -4369,24 +4242,7 @@
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
-		<!--<Item>
-			<Name>amb_rock</Name>
-			<_Editor>
-				<Category>Ambient Props</Category>
-			</_Editor>
-			<Item_Flags>
-				<Flag>collide_as_box</Flag>
-				<Flag>fast_cleanup</Flag>
-			</Item_Flags>
-			<Spin_Time>5000</Spin_Time>
-			<streaming_category>General</streaming_category>
-			<Mesh>
-				<Filename>amb_rock.smeshx</Filename>
-			</Mesh>
-			<Collision_Sound>OBJ_LINKED_ROCK_01</Collision_Sound>
-		</Item>-->
-		
+		<!--<Item><Name>amb_rock</Name><_Editor><Category>Ambient Props</Category></_Editor><Item_Flags><Flag>collide_as_box</Flag><Flag>fast_cleanup</Flag></Item_Flags><Spin_Time>5000</Spin_Time><streaming_category>General</streaming_category><Mesh><Filename>amb_rock.smeshx</Filename></Mesh><Collision_Sound>OBJ_LINKED_ROCK_01</Collision_Sound></Item>-->
 		<Item>
 			<Name>amb_rock</Name>
 			<Touch_Script>ask_pickup</Touch_Script>
@@ -4409,7 +4265,7 @@
 			</Mesh>
 			<Mass>1</Mass>
 			<Collision_Sound>OBJ_LINKED_ROCK_01</Collision_Sound>
-			  <Damage_Info>
+			<Damage_Info>
 				<Hitpoints>100000</Hitpoints>
 				<Flags>
 					<Flag>damaged_by_bullets</Flag>
@@ -4418,7 +4274,6 @@
 				</Flags>
 			</Damage_Info>
 		</Item>
-		
 		<Item>
 			<Name>gauss_rifle</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -4447,7 +4302,6 @@
 				<Filename>gauss_rifle.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>autoblaster</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -4476,7 +4330,6 @@
 				<Filename>autoblaster.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>g_turret_base</Name>
 			<Item_Flags>
@@ -4495,7 +4348,6 @@
 			<Mass>100</Mass>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>g_turret_middle</Name>
 			<Item_Flags>
@@ -4513,7 +4365,6 @@
 			<Mass>30</Mass>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>bag</Name>
 			<_Editor>
@@ -4521,9 +4372,12 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4533,7 +4387,6 @@
 				<Filename>amb_bag.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>amb_idcard</Name>
 			<_Editor>
@@ -4541,10 +4394,14 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4554,7 +4411,6 @@
 				<Filename>amb_idcard.SMESHX</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>marauder_drapery</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4573,7 +4429,6 @@
 			</_Editor>
 			<Cloth_Sound>OBJ_FLAG_FLAP</Cloth_Sound>
 		</Item>
-		
 		<Item>
 			<Name>banner_marauder</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4592,7 +4447,6 @@
 			</_Editor>
 			<Cloth_Sound>OBJ_FLAG_FLAP</Cloth_Sound>
 		</Item>
-		
 		<Item>
 			<Name>autoblaster_clip</Name>
 			<_Editor>
@@ -4606,14 +4460,16 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>gauss_clip</Name>
 			<_Editor>
@@ -4627,14 +4483,16 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed--> 
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>Selma_BackPack_Oasis</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4655,7 +4513,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Selma_BackPack_Eos</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4676,7 +4533,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Selma_BackPack_Dust</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4697,7 +4553,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Isaiah_LegPack_Oasis</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4718,7 +4573,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Blair_LegPack_Dust</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4739,7 +4593,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Blair_LegPack_Eos</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4760,7 +4613,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Blair_LegPack_Oasis</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4781,7 +4633,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Isaiah_EarMuffs_Eos</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4793,18 +4644,22 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>amb_spraybottle</Name>
 			<_Editor>
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>collide_as_box</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_cylinder</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4814,7 +4669,6 @@
 				<Filename>amb_spraybottle.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>Eddie_Mask_A</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4835,7 +4689,6 @@
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>multi_object_backpack_tremor</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4860,7 +4713,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>lawrence_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4878,7 +4730,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>numah_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4896,7 +4747,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>jamaya_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4914,7 +4764,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>krystal_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4932,7 +4781,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>kayla_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4950,7 +4798,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-	
 		<Item>
 			<Name>marie_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4968,7 +4815,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>jean_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4986,7 +4832,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>blair_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5004,7 +4849,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>braun_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5022,7 +4866,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>heidi_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5040,7 +4883,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>mila_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5058,7 +4900,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>selma_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5076,7 +4917,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>celia_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5094,7 +4934,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>isaiah_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5112,7 +4951,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>harrison_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5130,7 +4968,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>ian_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5148,7 +4985,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>kyle_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5166,7 +5002,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>torvald_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5184,7 +5019,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>pierce_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5202,7 +5036,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>jackson_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5220,7 +5053,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>john_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5238,7 +5070,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>bev_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5256,7 +5087,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>may_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5274,7 +5104,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>jake_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5292,7 +5121,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>olga_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5310,7 +5138,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>oldcoot_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5328,7 +5155,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>kat_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5346,7 +5172,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>jorge_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5364,7 +5189,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>rachel_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5382,7 +5206,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>clark_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5400,7 +5223,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>chuck_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5418,7 +5240,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>debbie_head_lod</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5436,7 +5257,6 @@
 				<Category>Head meshes</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>Braun_Helmet_B</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5448,7 +5268,6 @@
 				<Filename>Braun_Helmet_B.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>Braun_Backpack</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5469,18 +5288,22 @@
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>amb_small_hammer</Name>
 			<_Editor>
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>collide_as_box</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_cylinder</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5490,18 +5313,22 @@
 				<Filename>amb_small_hammer.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>amb_welding_torch</Name>
 			<_Editor>
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>collide_as_box</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_cylinder</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5511,18 +5338,22 @@
 				<Filename>amb_welding_torch.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>amb_broom</Name>
 			<_Editor>
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>collide_as_box</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_cylinder</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5532,18 +5363,22 @@
 				<Filename>amb_broom.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>amb_data_pad</Name>
 			<_Editor>
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>collide_as_box</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_cylinder</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5553,18 +5388,22 @@
 				<Filename>amb_data_pad.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>amb_fork</Name>
 			<_Editor>
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>collide_as_box</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_cylinder</Flag>
+				<!--Added-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5574,9 +5413,7 @@
 				<Filename>amb_fork.smeshx</Filename>
 			</Mesh>
 		</Item>
-
-<!--START NILL Mesh-->
-		
+		<!--START NILL Mesh-->
 		<Item>
 			<Name>nothing</Name>
 			<Item_Flags>
@@ -5591,9 +5428,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Item>
-		
-<!--END NILL Mesh-->		
-		
+		<!--END NILL Mesh-->
 		<Item>
 			<Name>sledge_upgrade_4</Name>
 			<_Editor>
@@ -5611,7 +5446,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_5</Name>
 			<_Editor>
@@ -5629,7 +5463,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_6</Name>
 			<_Editor>
@@ -5647,7 +5480,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_7</Name>
 			<_Editor>
@@ -5665,7 +5497,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_8</Name>
 			<_Editor>
@@ -5689,7 +5520,6 @@
 				<Anim_set>None</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_9</Name>
 			<_Editor>
@@ -5707,7 +5537,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_10</Name>
 			<_Editor>
@@ -5725,7 +5554,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_11</Name>
 			<_Editor>
@@ -5743,7 +5571,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_12</Name>
 			<_Editor>
@@ -5761,7 +5588,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_13</Name>
 			<_Editor>
@@ -5779,7 +5605,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>sledge_upgrade_14</Name>
 			<_Editor>
@@ -5803,7 +5628,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>golden_hammer</Name>
 			<_Editor>
@@ -5821,7 +5645,6 @@
 			</Item_Flags>
 			<MaterialEffect>invulnerability</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>Eddie_Mask_B</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5842,7 +5665,6 @@
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>multi_object_bagman_flag</Name>
 			<Item_Flags>
@@ -5861,7 +5683,6 @@
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>amb_box</Name>
 			<_Editor>
@@ -5869,10 +5690,14 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--Removed-->
+				<Flag>collide_as_mover</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5882,7 +5707,6 @@
 				<Filename>amb_box.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>Heidi_Hair</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5894,7 +5718,6 @@
 				<Filename>heidi_hair.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>Epic_Banner_M</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5913,7 +5736,6 @@
 			</_Editor>
 			<Cloth_Sound>OBJ_FLAG_FLAP</Cloth_Sound>
 		</Item>
-		
 		<Item>
 			<Name>Epic_Banner_BS</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5932,7 +5754,6 @@
 			</_Editor>
 			<Cloth_Sound>OBJ_FLAG_FLAP</Cloth_Sound>
 		</Item>
-		
 		<Item>
 			<Name>Epic_Banner_BM</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5951,7 +5772,6 @@
 			</_Editor>
 			<Cloth_Sound>OBJ_FLAG_FLAP</Cloth_Sound>
 		</Item>
-		
 		<Item>
 			<Name>Epic_Banner_BL</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -5970,7 +5790,6 @@
 			</_Editor>
 			<Cloth_Sound>OBJ_FLAG_FLAP</Cloth_Sound>
 		</Item>
-		
 		<Item>
 			<Name>mine_dropper</Name>
 			<Respawn_Delay>60000</Respawn_Delay>
@@ -5990,7 +5809,6 @@
 			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 		</Item>
-		
 		<Item>
 			<Name>turret_arc_null</Name>
 			<Item_Flags>
@@ -6007,7 +5825,6 @@
 				<Filename>arc_welder_null.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>Isaiah_Hat_MP</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6019,7 +5836,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Isaiah_EarMuffs_MP</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6031,7 +5847,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>EDF_NoTurret</Name>
 			<Item_Flags>
@@ -6050,7 +5865,6 @@
 			</Mesh>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>nogunner_MG</Name>
 			<Item_Flags>
@@ -6068,7 +5882,6 @@
 				<Filename>no_gunner_MG.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>MP_Braun_Helmet_B</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6080,7 +5893,6 @@
 				<Filename>Braun_Helmet_B_MP.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>MP_Braun_Helmet</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6092,7 +5904,6 @@
 				<Filename>Braun_Helmet_A_MP.smeshx</Filename>
 			</Mesh>
 		</Item>
-		
 		<Item>
 			<Name>Isaiah_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6113,7 +5924,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>John_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6134,7 +5944,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Jackson_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6155,7 +5964,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>RFCommander_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6176,7 +5984,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Pierce_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6197,7 +6004,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Torvald_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6218,7 +6024,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Kyle_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6239,7 +6044,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Heidi_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6260,7 +6064,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Numah_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6281,7 +6084,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>OldCoot_Armband</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6302,7 +6104,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>Eos_Earth</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6320,7 +6121,6 @@
 				<Category>Cloth:Eos</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>Eos_Council</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6338,7 +6138,6 @@
 				<Category>Cloth:Eos</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>invis_middle</Name>
 			<Item_Flags>
@@ -6354,7 +6153,6 @@
 			<Mass>30</Mass>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Jetpack_straps</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6375,7 +6173,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>flag_guerrilla_dummy</Name>
 			<_Editor>
@@ -6402,7 +6199,6 @@
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>flag_edf_dummy</Name>
 			<_Editor>
@@ -6429,7 +6225,6 @@
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>Lawrence_Coat</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6450,7 +6245,6 @@
 				<Anim_set>none</Anim_set>
 			</character_mesh>
 		</Item>
-		
 		<Item>
 			<Name>flamewalker_null</Name>
 			<Item_Flags>
@@ -6466,7 +6260,6 @@
 			<Mass>30</Mass>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>spawned_salvage</Name>
 			<Spin_Time>3000</Spin_Time>
@@ -6477,9 +6270,12 @@
 			<_Editor>
 				<Category>Entries:Salvage</Category>
 			</_Editor>
-			<Item_Flags> <!--Flags Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+			<Item_Flags>
+				<!--Flags Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -6488,7 +6284,6 @@
 			<Touch_Sound>HUD_SALVAGE_PICKUP_METAL</Touch_Sound>
 			<MaterialEffect>salvage_sheen</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>spawned_salvage2</Name>
 			<Spin_Time>3000</Spin_Time>
@@ -6499,9 +6294,12 @@
 			<_Editor>
 				<Category>Entries:Salvage</Category>
 			</_Editor>
-			<Item_Flags> <!--Flags Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+			<Item_Flags>
+				<!--Flags Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -6510,7 +6308,6 @@
 			<Touch_Sound>HUD_SALVAGE_PICKUP_METAL</Touch_Sound>
 			<MaterialEffect>salvage_sheen</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>spawned_salvage3</Name>
 			<Spin_Time>3000</Spin_Time>
@@ -6521,9 +6318,12 @@
 			<_Editor>
 				<Category>Entries:Salvage</Category>
 			</_Editor>
-			<Item_Flags> <!--Flags Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+			<Item_Flags>
+				<!--Flags Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -6532,7 +6332,6 @@
 			<Touch_Sound>HUD_SALVAGE_PICKUP_METAL</Touch_Sound>
 			<MaterialEffect>salvage_sheen</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>spawned_salvage4</Name>
 			<Spin_Time>3000</Spin_Time>
@@ -6543,9 +6342,12 @@
 			<_Editor>
 				<Category>Entries:Salvage</Category>
 			</_Editor>
-			<Item_Flags> <!--Flags Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+			<Item_Flags>
+				<!--Flags Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -6554,7 +6356,6 @@
 			<Touch_Sound>HUD_SALVAGE_PICKUP_METAL</Touch_Sound>
 			<MaterialEffect>salvage_sheen</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>spawned_salvage5</Name>
 			<Spin_Time>3000</Spin_Time>
@@ -6565,9 +6366,12 @@
 			<_Editor>
 				<Category>Entries:Salvage</Category>
 			</_Editor>
-			<Item_Flags> <!--Flags Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+			<Item_Flags>
+				<!--Flags Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -6576,7 +6380,6 @@
 			<Touch_Sound>HUD_SALVAGE_PICKUP_METAL</Touch_Sound>
 			<MaterialEffect>salvage_sheen</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>spawned_salvage6</Name>
 			<Spin_Time>3000</Spin_Time>
@@ -6587,9 +6390,12 @@
 			<_Editor>
 				<Category>Entries:Salvage</Category>
 			</_Editor>
-			<Item_Flags> <!--Flags Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+			<Item_Flags>
+				<!--Flags Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -6598,7 +6404,6 @@
 			<Touch_Sound>HUD_SALVAGE_PICKUP_METAL</Touch_Sound>
 			<MaterialEffect>salvage_sheen</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>spawned_salvage7</Name>
 			<Spin_Time>3000</Spin_Time>
@@ -6609,9 +6414,12 @@
 			<_Editor>
 				<Category>Entries:Salvage</Category>
 			</_Editor>
-			<Item_Flags> <!--Flags Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+			<Item_Flags>
+				<!--Flags Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -6630,9 +6438,12 @@
 			<_Editor>
 				<Category>Entries:Salvage</Category>
 			</_Editor>
-			<Item_Flags> <!--Flags Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
+			<Item_Flags>
+				<!--Flags Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -6641,7 +6452,6 @@
 			<Touch_Sound>HUD_SALVAGE_PICKUP_METAL</Touch_Sound>
 			<MaterialEffect>salvage_sheen</MaterialEffect>
 		</Item>
-		
 		<Item>
 			<Name>Mason_Armor_L1</Name>
 			<Item_Flags>
@@ -6663,7 +6473,6 @@
 			</_Editor>
 			<streaming_category>Character prop</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Mason_Armor_L2</Name>
 			<Item_Flags>
@@ -6685,7 +6494,6 @@
 			</_Editor>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Kat_Goggles</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6697,7 +6505,6 @@
 			</Mesh>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Kat_Hat</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6709,7 +6516,6 @@
 			</Mesh>
 			<streaming_category>General</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>Kat_Goggles_Glass</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6722,10 +6528,7 @@
 			<streaming_category>General</streaming_category>
 		</Item>
 	</Table>
-
-	<TableTemplates>
-	</TableTemplates>
-
+	<TableTemplates></TableTemplates>
 	<TableDescription>
 		<Name>Item</Name>
 		<Type>TableDescription</Type>
@@ -6982,7 +6785,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-<!--START Streaming MP-->		
+		<!--START Streaming MP-->
 		<Element>
 			<Name>streaming_category</Name>
 			<Type>Selection</Type>
@@ -6997,7 +6800,7 @@
 			<Choice>Character prop mesh only</Choice>
 			<Choice>MP and WC backpack</Choice>
 		</Element>
-<!--END Streaming MP-->		
+		<!--END Streaming MP-->
 		<Element>
 			<Name>MaterialEffect</Name>
 			<Type>Reference</Type>
@@ -7010,7 +6813,6 @@
 			</Reference>
 		</Element>
 	</TableDescription>
-
 	<EntryCategories>
 		<Category>
 			<Name>Ambient Props</Name>

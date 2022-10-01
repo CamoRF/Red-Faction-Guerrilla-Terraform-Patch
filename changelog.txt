@@ -312,7 +312,6 @@ v1.06 ALPHA CHANGES
 * Movement speed is now consistent across all weapons
 * Reduced match start countdown to 5 seconds from 10
 * Slightly increased base player movement speed
-* Alec Mason now has armor to match his thumbnail
 
 [General Fixes & Changes]
 * Fixed bug with glass bullet holes with lots of them spawning at once looking weird and causing lag when player zoomed in to the decal
@@ -368,9 +367,11 @@ v1.061 ALPHA HOTFIX CHANGES
 * Fixed some missing NPC spawn list changes
 * Fixed missing restoration of character breath effect
 * Fixed some missing optimized files to possibly reduce crashing
+* Reverted adding armour to Alec Mason in multiplayer due to crashing
 * Reverted other changes to Misslepod to possibly improve stability
 * Removed shadows on Misslepod magazine and projectile to possibly improve stability
 * Misslepod magazine and projectile now despawns to possibly improve stability
+* Misc fixes and testing done to iron out issues with v1.06
 
 
 ------------
@@ -390,6 +391,7 @@ v1.061 ALPHA HOTFIX CHANGES
 * Pickaxe and Impaler have missing textures so they are not implemeneted yet
 * Spiker has missing texture when it's dropped on the ground and only the host can see the projectile so it's not implemented yet
 * Weapons use placeholder icons and reticules for now
+* Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer
 
 [Backpacks]
 * Kaboom backpack has floating objects on the model

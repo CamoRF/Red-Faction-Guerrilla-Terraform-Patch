@@ -1,5 +1,5 @@
 <root>
-	<Table>	
+	<Table>
 		<playlists>
 			<Name>Ranked Quickmatch</Name>
 			<Online_ID>0</Online_ID>
@@ -17,7 +17,7 @@
 			<max_party_size>8</max_party_size>
 			<xp_scalar>1</xp_scalar>
 		</playlists>
-<!--START Added WC Map Playlists-->		
+		<!--START Added WC Map Playlists-->
 		<playlists>
 			<Name>Anarchy_NewMaps_2-8</Name>
 			<Online_ID>1</Online_ID>
@@ -55,11 +55,10 @@
 			<max_party_size>1</max_party_size>
 			<xp_scalar>1</xp_scalar>
 		</playlists>
-		
 		<playlists>
 			<Name>TeamAnarchy_NewMaps_4-16</Name>
 			<Online_ID>2</Online_ID>
-			<Display_Name>MENU_WRECKING_CREW</Display_Name>  
+			<Display_Name>MENU_WRECKING_CREW</Display_Name>
 			<Description>Team Anarchy on wrecking crew maps</Description>
 			<Required_XP_Level>1</Required_XP_Level>
 			<Game_Type>Ranked</Game_Type>
@@ -93,11 +92,10 @@
 			<max_party_size>4</max_party_size>
 			<xp_scalar>1</xp_scalar>
 		</playlists>
-
-<!--END Added WC Map Playlists-->
-		
+		<!--END Added WC Map Playlists-->
 		<playlists>
-			<Name>Anarchy_2-8</Name> <!--From Anarchy_5-6-->
+			<Name>Anarchy_2-8</Name>
+			<!--From Anarchy_5-6-->
 			<Online_ID>3</Online_ID>
 			<Display_Name>MENU_ANARCHY</Display_Name>
 			<Description>Anarchy matches on smaller maps</Description>
@@ -105,7 +103,8 @@
 			<Game_Type>Ranked</Game_Type>
 			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
 			<min_players>2</min_players>
-			<max_players>8</max_players> <!--From 6-->
+			<max_players>8</max_players>
+			<!--From 6-->
 			<Playlist_Entries>
 				<Entries>Aa_CrashSite1</Entries>
 				<Entries>Aa_CrashSite2</Entries>
@@ -143,8 +142,10 @@
 				<Entries>Aa_Crossover1</Entries>
 				<Entries>Aa_Crossover2</Entries>
 				<Entries>Aa_Crossover3</Entries>
-				<Entries>Aa_Warlords1</Entries> <!--Added-->
-				<Entries>Aa_Warlords1</Entries> <!--Added-->
+				<Entries>Aa_Warlords1</Entries>
+				<!--Added-->
+				<Entries>Aa_Warlords1</Entries>
+				<!--Added-->
 			</Playlist_Entries>
 			<_Editor>
 				<Category>Entries</Category>
@@ -152,9 +153,9 @@
 			<max_party_size>1</max_party_size>
 			<xp_scalar>1</xp_scalar>
 		</playlists>
-		
 		<playlists>
-			<Name>Bagman_2-8</Name> <!--From Bagman_5-6-->
+			<Name>Bagman_2-8</Name>
+			<!--From Bagman_5-6-->
 			<Online_ID>4</Online_ID>
 			<Display_Name>MENU_MP_MODE_BAGMAN</Display_Name>
 			<Description>DLC maps</Description>
@@ -162,7 +163,8 @@
 			<Game_Type>Ranked</Game_Type>
 			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
 			<min_players>2</min_players>
-			<max_players>8</max_players> <!--From 6-->
+			<max_players>8</max_players>
+			<!--From 6-->
 			<max_party_size>1</max_party_size>
 			<Playlist_Entries>
 				<Entries>Bag_Compound1</Entries>
@@ -206,9 +208,9 @@
 			</_Editor>
 			<xp_scalar>1</xp_scalar>
 		</playlists>
-		
 		<playlists>
-			<Name>Team Anarchy_4-16</Name> <!--From TeamBagman_6-8-->
+			<Name>Team Anarchy_4-16</Name>
+			<!--From TeamBagman_6-8-->
 			<Online_ID>5</Online_ID>
 			<Display_Name>MENU_TEAM_ANARCHY</Display_Name>
 			<Description>Team Anarchy on mid-sized maps</Description>
@@ -216,7 +218,8 @@
 			<Game_Type>Ranked</Game_Type>
 			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
 			<min_players>4</min_players>
-			<max_players>16</max_players> <!--From 8-->
+			<max_players>16</max_players>
+			<!--From 8-->
 			<Playlist_Entries>
 				<Entries>TAta_CrashSite1</Entries>
 				<Entries>TAta_CrashSite2</Entries>
@@ -276,7 +279,6 @@
 			<max_party_size>4</max_party_size>
 			<xp_scalar>1</xp_scalar>
 		</playlists>
-		
 		<playlists>
 			<Name>TeamBagman_6-8</Name>
 			<Online_ID>6</Online_ID>
@@ -286,7 +288,8 @@
 			<Game_Type>Ranked</Game_Type>
 			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
 			<min_players>4</min_players>
-			<max_players>16</max_players> <!--From 8-->
+			<max_players>16</max_players>
+			<!--From 8-->
 			<max_party_size>4</max_party_size>
 			<Playlist_Entries>
 				<Entries>TBag_Compound1</Entries>
@@ -333,290 +336,16 @@
 			</_Editor>
 			<xp_scalar>1</xp_scalar>
 		</playlists>
-<!--		
-		<playlists>
-			<Name>CTF_4-16</Name>
-			<Online_ID>7</Online_ID>
-			<Display_Name>CTF</Display_Name>
-			<Description>Capture the flag</Description>
-			<Required_XP_Level>1</Required_XP_Level>
-			<Game_Type>Ranked</Game_Type>
-			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
-			<min_players>4</min_players>
-			<max_players>16</max_players>
-			<Playlist_Entries>
-				<Entries>TOctf_CrashSite1</Entries>
-				<Entries>TOctf_CrashSite2</Entries>
-				<Entries>TOctf_Deadzone1</Entries>
-				<Entries>TOctf_Deadzone2</Entries>
-				<Entries>TOctf_FallFactor1</Entries>
-				<Entries>TOctf_FallFactor2</Entries>
-				<Entries>TOctf_Pinnacle1</Entries>
-				<Entries>TOctf_Pinnacle2</Entries>
-				<Entries>TOctf_Radial1</Entries>
-				<Entries>TOctf_Radial2</Entries>
-				<Entries>TOctf_Sandpit1</Entries>
-				<Entries>TOctf_Sandpit2</Entries>
-				<Entries>TOctf_Warlords1</Entries>
-				<Entries>TOctf_Warlords2</Entries>
-				<Entries>TOctf_Garrison1</Entries>
-				<Entries>TOctf_Garrison2</Entries>
-				<Entries>TOctf0_Broadside1</Entries>
-				<Entries>TOctf0_Broadside2</Entries>
-				<Entries>TOctf0_Compound1</Entries>
-				<Entries>TOctf0_Compound2</Entries>
-				<Entries>TOctf0_Division1</Entries>
-				<Entries>TOctf0_Division2</Entries>
-				<Entries>TOctf0_Equillibrium1</Entries>
-				<Entries>TOctf0_Equillibrium2</Entries>
-				<Entries>TOctf0_Gradient1</Entries>
-				<Entries>TOctf0_Gradient2</Entries>
-				<Entries>TOctf0_Haven1</Entries>
-				<Entries>TOctf0_Haven2</Entries>
-				<Entries>TOctf0_Puncture1</Entries>
-				<Entries>TOctf0_Puncture2</Entries>
-				<Entries>TOctf0_Remnant1</Entries>
-				<Entries>TOctf0_Remnant2</Entries>
-				<Entries>TOctf_Assembly1</Entries>
-				<Entries>TOctf_Assembly2</Entries>
-				<Entries>TOctf_Assembly3</Entries>
-				<Entries>TOctf_Crossover1</Entries>
-				<Entries>TOctf_Crossover2</Entries>
-				<Entries>TOctf_Crossover3</Entries>
-				<Entries>TOctf_CrashSite1</Entries>
-				<Entries>TOctf_CrashSite2</Entries>
-				<Entries>TOctf_Deadzone1</Entries>
-				<Entries>TOctf_Deadzone2</Entries>
-				<Entries>TOctf_FallFactor1</Entries>
-				<Entries>TOctf_FallFactor2</Entries>
-				<Entries>TOctf_Pinnacle1</Entries>
-				<Entries>TOctf_Pinnacle2</Entries>
-				<Entries>TOctf_Radial1</Entries>
-				<Entries>TOctf_Radial2</Entries>
-				<Entries>TOctf_Sandpit1</Entries>
-				<Entries>TOctf_Sandpit2</Entries>
-				<Entries>TOctf_Warlords1</Entries>
-				<Entries>TOctf_Warlords2</Entries>
-				<Entries>TOctf_Garrison1</Entries>
-				<Entries>TOctf_Garrison2</Entries>
-				</Playlist_Entries>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<max_party_size>5</max_party_size>
-			<xp_scalar>1</xp_scalar>
-		</playlists>	-->
-		
-		<!--<playlists>
-			<Name>Siege_10-12</Name>
-			<Online_ID>8</Online_ID> From 7
-			<Display_Name>MENU_SIEGE</Display_Name>
-			<Description>Siege on all Siege maps</Description>
-			<Required_XP_Level>1</Required_XP_Level>
-			<Game_Type>Ranked</Game_Type>
-			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
-			<min_players>6</min_players>
-			<max_players>12</max_players>
-			<Playlist_Entries>
-				<Entries>Ssiege_Cornered1</Entries>
-				<Entries>Ssiege_Cornered2</Entries>
-				<Entries>Ssiege_Cornered3</Entries>
-				<Entries>Ssiege_Crescent1</Entries>
-				<Entries>Ssiege_Crescent2</Entries>
-				<Entries>Ssiege_Crescent3</Entries>
-				<Entries>Ssiege_Crevice1</Entries>
-				<Entries>Ssiege_Crevice2</Entries>
-				<Entries>Ssiege_Crevice3</Entries>
-				<Entries>Ssiege_Framework1</Entries>
-				<Entries>Ssiege_Framework2</Entries>
-				<Entries>Ssiege_Framework3</Entries>
-				<Entries>Ssiege_Gauntlet1</Entries>
-				<Entries>Ssiege_Gauntlet2</Entries>
-				<Entries>Ssiege_Gauntlet3</Entries>
-				<Entries>Ssiege_Overpass1</Entries>
-				<Entries>Ssiege_Overpass2</Entries>
-				<Entries>Ssiege_Overpass3</Entries>
-			</Playlist_Entries>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<max_party_size>6</max_party_size>
-			<xp_scalar>1</xp_scalar>
-		</playlists>-->		
-		
-	<!--<playlists>
-			<Name>Team Objective_8-10</Name>
-			<Online_ID>9</Online_ID> From 8
-			<Display_Name>MENU_TEAM_OBJECTIVE</Display_Name>
-			<Description>Objective-based games on mid-sized maps</Description>
-			<Required_XP_Level>1</Required_XP_Level>
-			<Game_Type>Ranked</Game_Type>
-			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
-			<min_players>4</min_players>
-			<max_players>10</max_players>
-			<Playlist_Entries>
-				<Entries>TOctf_CrashSite1</Entries>
-				<Entries>TOctf_CrashSite2</Entries>
-				<Entries>TOctf_Deadzone1</Entries>
-				<Entries>TOctf_Deadzone2</Entries>
-				<Entries>TOctf_FallFactor1</Entries>
-				<Entries>TOctf_FallFactor2</Entries>
-				<Entries>TOctf_Pinnacle1</Entries>
-				<Entries>TOctf_Pinnacle2</Entries>
-				<Entries>TOctf_Radial1</Entries>
-				<Entries>TOctf_Radial2</Entries>
-				<Entries>TOctf_Sandpit1</Entries>
-				<Entries>TOctf_Sandpit2</Entries>
-				<Entries>TOctf_Warlords1</Entries>
-				<Entries>TOctf_Warlords2</Entries>
-				<Entries>TOctf_Garrison1</Entries>
-				<Entries>TOctf_Garrison2</Entries>
-				<Entries>TOdc_CrashSite1</Entries>
-				<Entries>TOdc_CrashSite2</Entries>
-				<Entries>TOdc_Deadzone1</Entries>
-				<Entries>TOdc_Deadzone2</Entries>
-				<Entries>TOdc_Downfall1</Entries>
-				<Entries>TOdc_Downfall2</Entries>
-				<Entries>TOdc_Garrison1</Entries>
-				<Entries>TOdc_Garrison2</Entries>
-				<Entries>TOdc_Radial1</Entries>
-				<Entries>TOdc_Radial2</Entries>
-				<Entries>TOdc_Sandpit1</Entries>
-				<Entries>TOdc_Sandpit2</Entries>
-				<Entries>TOdc_Warlords1</Entries>
-				<Entries>TOdc_Warlords2</Entries>
-				<Entries>TOdemo_CrashSite1</Entries>
-				<Entries>TOdemo_CrashSite2</Entries>
-				<Entries>TOdemo_Deadzone1</Entries>
-				<Entries>TOdemo_Deadzone2</Entries>
-				<Entries>TOdemo_FallFactor1</Entries>
-				<Entries>TOdemo_FallFactor2</Entries>
-				<Entries>TOdemo_Garrison1</Entries>
-				<Entries>TOdemo_Garrison2</Entries>
-				<Entries>TOdemo_Radial1</Entries>
-				<Entries>TOdemo_Radial2</Entries>
-				<Entries>TOdemo_Warlords1</Entries>
-				<Entries>TOdemo_Warlords2</Entries>
-				<Entries>TOdemo0_Broadside1</Entries>
-				<Entries>TOdemo0_Broadside2</Entries>
-				<Entries>TOdemo0_Compound1</Entries>
-				<Entries>TOdemo0_Compound2</Entries>
-				<Entries>TOdemo0_Division1</Entries>
-				<Entries>TOdemo0_Division2</Entries>
-				<Entries>TOdemo0_Equillibrium1</Entries>
-				<Entries>TOdemo0_Equillibrium2</Entries>
-				<Entries>TOdemo0_Haven1</Entries>
-				<Entries>TOdemo0_Haven2</Entries>
-				<Entries>TOdemo0_Remnant1</Entries>
-				<Entries>TOdemo0_Remnant2</Entries>
-				<Entries>TOdc0_Broadside1</Entries>
-				<Entries>TOdc0_Broadside2</Entries>
-				<Entries>TOdc0_Compound1</Entries>
-				<Entries>TOdc0_Compound2</Entries>
-				<Entries>TOdc0_Division1</Entries>
-				<Entries>TOdc0_Division2</Entries>
-				<Entries>TOdc0_Equillibrium1</Entries>
-				<Entries>TOdc0_Equillibrium2</Entries>
-				<Entries>TOdc0_Gradient1</Entries>
-				<Entries>TOdc0_Gradient2</Entries>
-				<Entries>TOdc0_Haven1</Entries>
-				<Entries>TOdc0_Haven2</Entries>
-				<Entries>TOdc0_Puncture1</Entries>
-				<Entries>TOdc0_Puncture2</Entries>
-				<Entries>TOdc0_Remnant1</Entries>
-				<Entries>TOdc0_Remnant2</Entries>
-				<Entries>TOctf0_Broadside1</Entries>
-				<Entries>TOctf0_Broadside2</Entries>
-				<Entries>TOctf0_Compound1</Entries>
-				<Entries>TOctf0_Compound2</Entries>
-				<Entries>TOctf0_Division1</Entries>
-				<Entries>TOctf0_Division2</Entries>
-				<Entries>TOctf0_Equillibrium1</Entries>
-				<Entries>TOctf0_Equillibrium2</Entries>
-				<Entries>TOctf0_Gradient1</Entries>
-				<Entries>TOctf0_Gradient2</Entries>
-				<Entries>TOctf0_Haven1</Entries>
-				<Entries>TOctf0_Haven2</Entries>
-				<Entries>TOctf0_Puncture1</Entries>
-				<Entries>TOctf0_Puncture2</Entries>
-				<Entries>TOctf0_Remnant1</Entries>
-				<Entries>TOctf0_Remnant2</Entries>
-				<Entries>TOctf_Assembly1</Entries>
-				<Entries>TOctf_Assembly2</Entries>
-				<Entries>TOctf_Assembly3</Entries>
-				<Entries>TOctf_Crossover1</Entries>
-				<Entries>TOctf_Crossover2</Entries>
-				<Entries>TOctf_Crossover3</Entries>
-				<Entries>TOdc_Assembly1</Entries>
-				<Entries>TOdc_Assembly2</Entries>
-				<Entries>TOdc_Assembly3</Entries>
-				<Entries>TOdc_Crossover1</Entries>
-				<Entries>TOdc_Crossover2</Entries>
-				<Entries>TOdc_Crossover3</Entries>
-				<Entries>TOdemo_Assembly1</Entries>
-				<Entries>TOdemo_Assembly2</Entries>
-				<Entries>TOdemo_Crossover1</Entries>
-				<Entries>TOdemo_Crossover2</Entries>
-				</Playlist_Entries>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<max_party_size>5</max_party_size>
-			<xp_scalar>1</xp_scalar>
-		</playlists>-->
-		
-	<!--<playlists>
-			<Name>LargeMixer_14-16</Name>
-			<Online_ID>10</Online_ID> From 9
-			<Display_Name>MENU_LARGE_MIXER</Display_Name>
-			<Description>Team Anarchy, CTF, Damage Control, and Siege on larger maps</Description>
-			<Required_XP_Level>1</Required_XP_Level>
-			<Game_Type>Ranked</Game_Type>
-			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
-			<min_players>8</min_players>
-			<max_players>16</max_players>
-			<Playlist_Entries>
-				<Entries>LMctf_FallFactor1</Entries>
-				<Entries>LMctf_FallFactor2</Entries>
-				<Entries>LMctf_Radial1</Entries>
-				<Entries>LMctf_Settlement1</Entries>
-				<Entries>LMctf_Settlement2</Entries>
-				<Entries>LMctf_Wasteland1</Entries>
-				<Entries>LMctf_Wasteland2</Entries>
-				<Entries>LMctf_Wreckage1</Entries>
-				<Entries>LMdc_FallFactor1</Entries>
-				<Entries>LMdc_FallFactor2</Entries>
-				<Entries>LMdc_Garrison1</Entries>
-				<Entries>LMdc_Radial1</Entries>
-				<Entries>LMdc_Radial2</Entries>
-				<Entries>LMdc_Settlement1</Entries>
-				<Entries>LMdc_Settlement2</Entries>
-				<Entries>LMdc_Wasteland1</Entries>
-				<Entries>LMdc_Wasteland2</Entries>
-				<Entries>LMdc_Wreckage1</Entries>
-				<Entries>LMta_FallFactor1</Entries>
-				<Entries>LMta_FallFactor2</Entries>
-				<Entries>LMta_Radial1</Entries>
-				<Entries>LMta_Radial2</Entries>
-				<Entries>LMta_Settlement1</Entries>
-				<Entries>LMta_Settlement2</Entries>
-				<Entries>LMta_Wasteland1</Entries>
-				<Entries>LMta_Wasteland2</Entries>
-				<Entries>LMta_Wreckage1</Entries>
-				<Entries>LMta_Wreckage2</Entries>
-				<Entries>LMta_Warlords1</Entries>
-				<Entries>LMta_Framework1</Entries>
-				<Entries>LMta_Framework2</Entries>
-			</Playlist_Entries>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<max_party_size>8</max_party_size>
-			<xp_scalar>1</xp_scalar>
-		</playlists>-->
+		<!--		
+		<playlists><Name>CTF_4-16</Name><Online_ID>7</Online_ID><Display_Name>CTF</Display_Name><Description>Capture the flag</Description><Required_XP_Level>1</Required_XP_Level><Game_Type>Ranked</Game_Type><Matchmaking_Type>This Playlist Only</Matchmaking_Type><min_players>4</min_players><max_players>16</max_players><Playlist_Entries><Entries>TOctf_CrashSite1</Entries><Entries>TOctf_CrashSite2</Entries><Entries>TOctf_Deadzone1</Entries><Entries>TOctf_Deadzone2</Entries><Entries>TOctf_FallFactor1</Entries><Entries>TOctf_FallFactor2</Entries><Entries>TOctf_Pinnacle1</Entries><Entries>TOctf_Pinnacle2</Entries><Entries>TOctf_Radial1</Entries><Entries>TOctf_Radial2</Entries><Entries>TOctf_Sandpit1</Entries><Entries>TOctf_Sandpit2</Entries><Entries>TOctf_Warlords1</Entries><Entries>TOctf_Warlords2</Entries><Entries>TOctf_Garrison1</Entries><Entries>TOctf_Garrison2</Entries><Entries>TOctf0_Broadside1</Entries><Entries>TOctf0_Broadside2</Entries><Entries>TOctf0_Compound1</Entries><Entries>TOctf0_Compound2</Entries><Entries>TOctf0_Division1</Entries><Entries>TOctf0_Division2</Entries><Entries>TOctf0_Equillibrium1</Entries><Entries>TOctf0_Equillibrium2</Entries><Entries>TOctf0_Gradient1</Entries><Entries>TOctf0_Gradient2</Entries><Entries>TOctf0_Haven1</Entries><Entries>TOctf0_Haven2</Entries><Entries>TOctf0_Puncture1</Entries><Entries>TOctf0_Puncture2</Entries><Entries>TOctf0_Remnant1</Entries><Entries>TOctf0_Remnant2</Entries><Entries>TOctf_Assembly1</Entries><Entries>TOctf_Assembly2</Entries><Entries>TOctf_Assembly3</Entries><Entries>TOctf_Crossover1</Entries><Entries>TOctf_Crossover2</Entries><Entries>TOctf_Crossover3</Entries><Entries>TOctf_CrashSite1</Entries><Entries>TOctf_CrashSite2</Entries><Entries>TOctf_Deadzone1</Entries><Entries>TOctf_Deadzone2</Entries><Entries>TOctf_FallFactor1</Entries><Entries>TOctf_FallFactor2</Entries><Entries>TOctf_Pinnacle1</Entries><Entries>TOctf_Pinnacle2</Entries><Entries>TOctf_Radial1</Entries><Entries>TOctf_Radial2</Entries><Entries>TOctf_Sandpit1</Entries><Entries>TOctf_Sandpit2</Entries><Entries>TOctf_Warlords1</Entries><Entries>TOctf_Warlords2</Entries><Entries>TOctf_Garrison1</Entries><Entries>TOctf_Garrison2</Entries></Playlist_Entries><_Editor><Category>Entries</Category></_Editor><max_party_size>5</max_party_size><xp_scalar>1</xp_scalar></playlists>	-->
+		<!--<playlists><Name>Siege_10-12</Name><Online_ID>8</Online_ID> From 7
+			<Display_Name>MENU_SIEGE</Display_Name><Description>Siege on all Siege maps</Description><Required_XP_Level>1</Required_XP_Level><Game_Type>Ranked</Game_Type><Matchmaking_Type>This Playlist Only</Matchmaking_Type><min_players>6</min_players><max_players>12</max_players><Playlist_Entries><Entries>Ssiege_Cornered1</Entries><Entries>Ssiege_Cornered2</Entries><Entries>Ssiege_Cornered3</Entries><Entries>Ssiege_Crescent1</Entries><Entries>Ssiege_Crescent2</Entries><Entries>Ssiege_Crescent3</Entries><Entries>Ssiege_Crevice1</Entries><Entries>Ssiege_Crevice2</Entries><Entries>Ssiege_Crevice3</Entries><Entries>Ssiege_Framework1</Entries><Entries>Ssiege_Framework2</Entries><Entries>Ssiege_Framework3</Entries><Entries>Ssiege_Gauntlet1</Entries><Entries>Ssiege_Gauntlet2</Entries><Entries>Ssiege_Gauntlet3</Entries><Entries>Ssiege_Overpass1</Entries><Entries>Ssiege_Overpass2</Entries><Entries>Ssiege_Overpass3</Entries></Playlist_Entries><_Editor><Category>Entries</Category></_Editor><max_party_size>6</max_party_size><xp_scalar>1</xp_scalar></playlists>-->
+		<!--<playlists><Name>Team Objective_8-10</Name><Online_ID>9</Online_ID> From 8
+			<Display_Name>MENU_TEAM_OBJECTIVE</Display_Name><Description>Objective-based games on mid-sized maps</Description><Required_XP_Level>1</Required_XP_Level><Game_Type>Ranked</Game_Type><Matchmaking_Type>This Playlist Only</Matchmaking_Type><min_players>4</min_players><max_players>10</max_players><Playlist_Entries><Entries>TOctf_CrashSite1</Entries><Entries>TOctf_CrashSite2</Entries><Entries>TOctf_Deadzone1</Entries><Entries>TOctf_Deadzone2</Entries><Entries>TOctf_FallFactor1</Entries><Entries>TOctf_FallFactor2</Entries><Entries>TOctf_Pinnacle1</Entries><Entries>TOctf_Pinnacle2</Entries><Entries>TOctf_Radial1</Entries><Entries>TOctf_Radial2</Entries><Entries>TOctf_Sandpit1</Entries><Entries>TOctf_Sandpit2</Entries><Entries>TOctf_Warlords1</Entries><Entries>TOctf_Warlords2</Entries><Entries>TOctf_Garrison1</Entries><Entries>TOctf_Garrison2</Entries><Entries>TOdc_CrashSite1</Entries><Entries>TOdc_CrashSite2</Entries><Entries>TOdc_Deadzone1</Entries><Entries>TOdc_Deadzone2</Entries><Entries>TOdc_Downfall1</Entries><Entries>TOdc_Downfall2</Entries><Entries>TOdc_Garrison1</Entries><Entries>TOdc_Garrison2</Entries><Entries>TOdc_Radial1</Entries><Entries>TOdc_Radial2</Entries><Entries>TOdc_Sandpit1</Entries><Entries>TOdc_Sandpit2</Entries><Entries>TOdc_Warlords1</Entries><Entries>TOdc_Warlords2</Entries><Entries>TOdemo_CrashSite1</Entries><Entries>TOdemo_CrashSite2</Entries><Entries>TOdemo_Deadzone1</Entries><Entries>TOdemo_Deadzone2</Entries><Entries>TOdemo_FallFactor1</Entries><Entries>TOdemo_FallFactor2</Entries><Entries>TOdemo_Garrison1</Entries><Entries>TOdemo_Garrison2</Entries><Entries>TOdemo_Radial1</Entries><Entries>TOdemo_Radial2</Entries><Entries>TOdemo_Warlords1</Entries><Entries>TOdemo_Warlords2</Entries><Entries>TOdemo0_Broadside1</Entries><Entries>TOdemo0_Broadside2</Entries><Entries>TOdemo0_Compound1</Entries><Entries>TOdemo0_Compound2</Entries><Entries>TOdemo0_Division1</Entries><Entries>TOdemo0_Division2</Entries><Entries>TOdemo0_Equillibrium1</Entries><Entries>TOdemo0_Equillibrium2</Entries><Entries>TOdemo0_Haven1</Entries><Entries>TOdemo0_Haven2</Entries><Entries>TOdemo0_Remnant1</Entries><Entries>TOdemo0_Remnant2</Entries><Entries>TOdc0_Broadside1</Entries><Entries>TOdc0_Broadside2</Entries><Entries>TOdc0_Compound1</Entries><Entries>TOdc0_Compound2</Entries><Entries>TOdc0_Division1</Entries><Entries>TOdc0_Division2</Entries><Entries>TOdc0_Equillibrium1</Entries><Entries>TOdc0_Equillibrium2</Entries><Entries>TOdc0_Gradient1</Entries><Entries>TOdc0_Gradient2</Entries><Entries>TOdc0_Haven1</Entries><Entries>TOdc0_Haven2</Entries><Entries>TOdc0_Puncture1</Entries><Entries>TOdc0_Puncture2</Entries><Entries>TOdc0_Remnant1</Entries><Entries>TOdc0_Remnant2</Entries><Entries>TOctf0_Broadside1</Entries><Entries>TOctf0_Broadside2</Entries><Entries>TOctf0_Compound1</Entries><Entries>TOctf0_Compound2</Entries><Entries>TOctf0_Division1</Entries><Entries>TOctf0_Division2</Entries><Entries>TOctf0_Equillibrium1</Entries><Entries>TOctf0_Equillibrium2</Entries><Entries>TOctf0_Gradient1</Entries><Entries>TOctf0_Gradient2</Entries><Entries>TOctf0_Haven1</Entries><Entries>TOctf0_Haven2</Entries><Entries>TOctf0_Puncture1</Entries><Entries>TOctf0_Puncture2</Entries><Entries>TOctf0_Remnant1</Entries><Entries>TOctf0_Remnant2</Entries><Entries>TOctf_Assembly1</Entries><Entries>TOctf_Assembly2</Entries><Entries>TOctf_Assembly3</Entries><Entries>TOctf_Crossover1</Entries><Entries>TOctf_Crossover2</Entries><Entries>TOctf_Crossover3</Entries><Entries>TOdc_Assembly1</Entries><Entries>TOdc_Assembly2</Entries><Entries>TOdc_Assembly3</Entries><Entries>TOdc_Crossover1</Entries><Entries>TOdc_Crossover2</Entries><Entries>TOdc_Crossover3</Entries><Entries>TOdemo_Assembly1</Entries><Entries>TOdemo_Assembly2</Entries><Entries>TOdemo_Crossover1</Entries><Entries>TOdemo_Crossover2</Entries></Playlist_Entries><_Editor><Category>Entries</Category></_Editor><max_party_size>5</max_party_size><xp_scalar>1</xp_scalar></playlists>-->
+		<!--<playlists><Name>LargeMixer_14-16</Name><Online_ID>10</Online_ID> From 9
+			<Display_Name>MENU_LARGE_MIXER</Display_Name><Description>Team Anarchy, CTF, Damage Control, and Siege on larger maps</Description><Required_XP_Level>1</Required_XP_Level><Game_Type>Ranked</Game_Type><Matchmaking_Type>This Playlist Only</Matchmaking_Type><min_players>8</min_players><max_players>16</max_players><Playlist_Entries><Entries>LMctf_FallFactor1</Entries><Entries>LMctf_FallFactor2</Entries><Entries>LMctf_Radial1</Entries><Entries>LMctf_Settlement1</Entries><Entries>LMctf_Settlement2</Entries><Entries>LMctf_Wasteland1</Entries><Entries>LMctf_Wasteland2</Entries><Entries>LMctf_Wreckage1</Entries><Entries>LMdc_FallFactor1</Entries><Entries>LMdc_FallFactor2</Entries><Entries>LMdc_Garrison1</Entries><Entries>LMdc_Radial1</Entries><Entries>LMdc_Radial2</Entries><Entries>LMdc_Settlement1</Entries><Entries>LMdc_Settlement2</Entries><Entries>LMdc_Wasteland1</Entries><Entries>LMdc_Wasteland2</Entries><Entries>LMdc_Wreckage1</Entries><Entries>LMta_FallFactor1</Entries><Entries>LMta_FallFactor2</Entries><Entries>LMta_Radial1</Entries><Entries>LMta_Radial2</Entries><Entries>LMta_Settlement1</Entries><Entries>LMta_Settlement2</Entries><Entries>LMta_Wasteland1</Entries><Entries>LMta_Wasteland2</Entries><Entries>LMta_Wreckage1</Entries><Entries>LMta_Wreckage2</Entries><Entries>LMta_Warlords1</Entries><Entries>LMta_Framework1</Entries><Entries>LMta_Framework2</Entries></Playlist_Entries><_Editor><Category>Entries</Category></_Editor><max_party_size>8</max_party_size><xp_scalar>1</xp_scalar></playlists>-->
 	</Table>
-	<TableTemplates>
-	</TableTemplates>
+	<TableTemplates></TableTemplates>
 	<TableDescription>
 		<Name>playlists</Name>
 		<Type>TableDescription</Type>

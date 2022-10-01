@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START DLC Weapons Added-->	
+		<!--START DLC Weapons Added-->
 		<MeleeMove>
 			<Name>missilepod_melee</Name>
 			<AttackAnim>melee</AttackAnim>
@@ -71,8 +71,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>160</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<AttackAnim>melee</AttackAnim>
@@ -148,8 +147,7 @@
 					<AttackAnim>melee2</AttackAnim>
 					<AttackPoint>Weapon</AttackPoint>
 					<HitRadius>0.4</HitRadius>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<SecondaryImpact>
 						<HitRange>2.0</HitRange>
 						<HitHeight>1.2</HitHeight>
@@ -256,8 +254,8 @@
 					</AI>
 				</AnimSet>
 			</MoveDataList>
-		</MeleeMove>		
-<!--END DLC Weapons Added-->		
+		</MeleeMove>
+		<!--END DLC Weapons Added-->
 		<MeleeMove>
 			<Name>ar_melee</Name>
 			<AttackAnim>melee</AttackAnim>
@@ -313,7 +311,7 @@
 						<HitRange>1.6</HitRange>
 						<HitHeight>1.4</HitHeight>
 					</SecondaryImpact>
-					</AnimSet>
+				</AnimSet>
 				<AnimSet>
 					<AnimSetName>Elite.xtbl</AnimSetName>
 					<AttackAnim>melee</AttackAnim>
@@ -331,8 +329,7 @@
 					</HitDirection>
 					<ImpactForce>70</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<CameraShake>melee_impact</CameraShake>
 					<RagdollImpulse>70</RagdollImpulse>
 					<HitHeight>1.0</HitHeight>
@@ -344,7 +341,7 @@
 						<MinAttackDist>0.0</MinAttackDist>
 						<MaxAttackDist>1.5</MaxAttackDist>
 					</AI>
-					</AnimSet>
+				</AnimSet>
 				<AnimSet>
 					<AnimSetName>Male.xtbl</AnimSetName>
 					<AttackAnim>melee</AttackAnim>
@@ -362,8 +359,7 @@
 					</HitDirection>
 					<ImpactForce>70</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<CameraShake>melee_impact</CameraShake>
 					<RagdollImpulse>70</RagdollImpulse>
 					<HitHeight>1.0</HitHeight>
@@ -406,8 +402,7 @@
 					<AttackAnim>melee</AttackAnim>
 					<AttackPoint>Right hand</AttackPoint>
 					<HitRadius>0.3</HitRadius>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<SecondaryImpact>
 						<HitRange>1.0</HitRange>
 						<HitHeight>1.7</HitHeight>
@@ -469,8 +464,7 @@
 					</HitDirection>
 					<ImpactForce>70</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<CameraShake>melee_impact</CameraShake>
 					<RagdollImpulse>70</RagdollImpulse>
 					<HitHeight>1.0</HitHeight>
@@ -503,8 +497,7 @@
 					<RagdollImpulse>70</RagdollImpulse>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<CameraShake>melee_impact</CameraShake>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<SecondaryImpact>
 						<HitRange>1.0</HitRange>
 						<HitHeight>1.4</HitHeight>
@@ -513,14 +506,13 @@
 						<MinAttackDist>0.0</MinAttackDist>
 						<MaxAttackDist>1.5</MaxAttackDist>
 					</AI>
-					</AnimSet>
+				</AnimSet>
 				<AnimSet>
 					<AnimSetName>Riot.xtbl</AnimSetName>
 					<AttackAnim>melee2</AttackAnim>
 					<AttackPoint>Left hand</AttackPoint>
 					<HitRadius>0.5</HitRadius>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<SecondaryImpact>
 						<HitRange>1.0</HitRange>
 						<HitHeight>1.0</HitHeight>
@@ -610,8 +602,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>160</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<AttackAnim>melee</AttackAnim>
@@ -669,8 +660,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<AttackAnim>melee</AttackAnim>
@@ -696,8 +686,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<AttackAnim>melee</AttackAnim>
@@ -718,8 +707,7 @@
 					<AttackAnim>melee</AttackAnim>
 					<AttackPoint>Right hand</AttackPoint>
 					<HitRadius>0.3</HitRadius>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<SecondaryImpact>
 						<HitRange>1.0</HitRange>
 						<HitHeight>1.75</HitHeight>
@@ -930,8 +918,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>300</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<AttackAnim>melee2</AttackAnim>
@@ -1021,8 +1008,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>350</ImpactForce>
 					<AwayImpulseScale>0.25</AwayImpulseScale>
 					<AttackAnim>melee</AttackAnim>
@@ -1079,8 +1065,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>350</ImpactForce>
 					<AwayImpulseScale>0.25</AwayImpulseScale>
 					<AttackAnim>melee3</AttackAnim>
@@ -1107,8 +1092,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>350</ImpactForce>
 					<AwayImpulseScale>0.25</AwayImpulseScale>
 					<AttackAnim>melee3</AttackAnim>
@@ -1280,8 +1264,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>0.0</AwayImpulseScale>
 					<AttackAnim>stomp civilian</AttackAnim>
@@ -1336,8 +1319,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>0.0</AwayImpulseScale>
 					<AttackAnim>kick civilian</AttackAnim>
@@ -1391,8 +1373,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>0.0</AwayImpulseScale>
 					<AttackAnim>melee slow slow fast</AttackAnim>
@@ -1442,8 +1423,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>0.0</AwayImpulseScale>
 					<AttackAnim>melee slow fast slow</AttackAnim>
@@ -1493,8 +1473,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>0.0</AwayImpulseScale>
 					<AttackAnim>melee slow fast fast</AttackAnim>
@@ -1544,8 +1523,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>0.0</AwayImpulseScale>
 					<AttackAnim>melee slow fast</AttackAnim>
@@ -1595,8 +1573,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>0.0</AwayImpulseScale>
 					<AttackAnim>melee fast slow fast</AttackAnim>
@@ -1646,8 +1623,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>0.0</AwayImpulseScale>
 					<AttackAnim>melee fast slow</AttackAnim>
@@ -1697,8 +1673,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>0.0</AwayImpulseScale>
 					<AttackAnim>melee fast fast slow</AttackAnim>
@@ -1748,8 +1723,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>0.0</AwayImpulseScale>
 					<AttackAnim>melee fast fast fast</AttackAnim>
@@ -1799,8 +1773,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>0.0</AwayImpulseScale>
 					<AttackAnim>melee fast fast</AttackAnim>
@@ -1960,8 +1933,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>50</ImpactForce>
 					<AwayImpulseScale>0.0</AwayImpulseScale>
 					<AttackAnim>melee fast</AttackAnim>
@@ -1993,8 +1965,7 @@
 					<RagdollImpulse>70</RagdollImpulse>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<CameraShake>melee_impact</CameraShake>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<SecondaryImpact>
 						<HitRange>1.0</HitRange>
 						<HitHeight>1.4</HitHeight>
@@ -2152,8 +2123,7 @@
 					<AttackAnim>melee2</AttackAnim>
 					<AttackPoint>Weapon</AttackPoint>
 					<HitRadius>0.4</HitRadius>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<SecondaryImpact>
 						<HitRange>2.0</HitRange>
 						<HitHeight>1.2</HitHeight>
@@ -2198,8 +2168,7 @@
 					<RagdollImpulse>70</RagdollImpulse>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<CameraShake>hammer_alt_impact</CameraShake>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<SecondaryImpact>
 						<HitRange>2.0</HitRange>
 						<HitHeight>1.4</HitHeight>
@@ -2286,8 +2255,7 @@
 					<AttackAnim>melee</AttackAnim>
 					<AttackPoint>Weapon</AttackPoint>
 					<HitRadius>0.4</HitRadius>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<SecondaryImpact>
 						<HitRange>1.6</HitRange>
 						<HitHeight>1.4</HitHeight>
@@ -2322,8 +2290,7 @@
 					</HitDirection>
 					<ImpactForce>100</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<CameraShake>melee_impact</CameraShake>
 					<RagdollImpulse>70</RagdollImpulse>
 					<HitHeight>1.0</HitHeight>
@@ -2470,8 +2437,7 @@
 					</HitDirection>
 					<ImpactForce>70</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<CameraShake>melee_impact</CameraShake>
 					<RagdollImpulse>70</RagdollImpulse>
 					<HitHeight>1.0</HitHeight>
@@ -2502,8 +2468,7 @@
 					</HitDirection>
 					<ImpactForce>70</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<CameraShake>melee_impact</CameraShake>
 					<RagdollImpulse>70</RagdollImpulse>
 					<HitHeight>1.0</HitHeight>
@@ -2615,8 +2580,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>300</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<AttackAnim>melee2</AttackAnim>
@@ -2705,8 +2669,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>300</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<AttackAnim>melee2</AttackAnim>
@@ -2780,7 +2743,7 @@
 						<HitRange>1.9</HitRange>
 						<HitHeight>1.4</HitHeight>
 					</SecondaryImpact>
-					</AnimSet>
+				</AnimSet>
 				<AnimSet>
 					<AnimSetName>Male.xtbl</AnimSetName>
 					<AttackPoint>Weapon</AttackPoint>
@@ -2795,8 +2758,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>350</ImpactForce>
 					<AwayImpulseScale>0.25</AwayImpulseScale>
 					<AttackAnim>melee</AttackAnim>
@@ -2885,8 +2847,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>350</ImpactForce>
 					<AwayImpulseScale>0.25</AwayImpulseScale>
 					<AttackAnim>melee</AttackAnim>
@@ -2975,8 +2936,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>350</ImpactForce>
 					<AwayImpulseScale>0.25</AwayImpulseScale>
 					<AttackAnim>melee</AttackAnim>
@@ -2993,7 +2953,7 @@
 					</AI>
 				</AnimSet>
 			</MoveDataList>
-		</MeleeMove>		
+		</MeleeMove>
 		<MeleeMove>
 			<Name>sledgehammer_melee_vert_gold</Name>
 			<AttackAnim>melee2</AttackAnim>
@@ -3065,8 +3025,7 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
-					<Flags>
-					</Flags>
+					<Flags></Flags>
 					<ImpactForce>300</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<AttackAnim>melee2</AttackAnim>
@@ -3085,8 +3044,7 @@
 			</MoveDataList>
 		</MeleeMove>
 	</Table>
-	<TableTemplates>
-	</TableTemplates>
+	<TableTemplates></TableTemplates>
 	<TableDescription>
 		<Name>MeleeMove</Name>
 		<Type>TableDescription</Type>

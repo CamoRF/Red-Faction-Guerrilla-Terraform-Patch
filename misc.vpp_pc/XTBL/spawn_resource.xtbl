@@ -10,7 +10,6 @@
 			<mar_population>8</mar_population>
 			<rotate_slots>True</rotate_slots>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>WMR</Name>
 			<edf_population>2</edf_population>
@@ -44,7 +43,6 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>DFA</Name>
 			<edf_population>2</edf_population>
@@ -64,7 +62,6 @@
 				</vehicle_info>
 			</vehicle_list>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>FMC</Name>
 			<edf_population>2</edf_population>
@@ -102,7 +99,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>RT</Name>
 			<edf_population>3</edf_population>
@@ -140,7 +136,6 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>H2H</Name>
 			<edf_population>3</edf_population>
@@ -190,7 +185,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>TA</Name>
 			<edf_population>3</edf_population>
@@ -226,7 +220,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>SYE</Name>
 			<edf_population>2</edf_population>
@@ -252,7 +245,6 @@
 				</vehicle_info>
 			</vehicle_list>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>PartyTime</Name>
 			<edf_population>2</edf_population>
@@ -306,7 +298,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>TJ</Name>
 			<edf_population>3</edf_population>
@@ -348,7 +339,6 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>WKWYA</Name>
 			<edf_population>3</edf_population>
@@ -382,7 +372,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>Intro 2</Name>
 			<edf_population>2</edf_population>
@@ -408,7 +397,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>Tutorial</Name>
 			<edf_population>3</edf_population>
@@ -442,7 +430,6 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>GOT</Name>
 			<edf_population>2</edf_population>
@@ -474,7 +461,6 @@
 				</vehicle_info>
 			</vehicle_list>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>AVM</Name>
 			<edf_population>2</edf_population>
@@ -506,7 +492,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>STGC</Name>
 			<edf_population>2</edf_population>
@@ -548,7 +533,6 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>Intro1</Name>
 			<edf_population>3</edf_population>
@@ -572,7 +556,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>Final</Name>
 			<edf_population>3</edf_population>
@@ -604,7 +587,6 @@
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 			</vehicle_list>
-			
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -619,7 +601,6 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>DBC</Name>
 			<edf_population>2</edf_population>
@@ -669,7 +650,6 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>AtEDFCC</Name>
 			<edf_population>3</edf_population>
@@ -711,7 +691,6 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>EBS</Name>
 			<edf_population>2</edf_population>
@@ -745,7 +724,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>SH</Name>
 			<edf_population>2</edf_population>
@@ -771,7 +749,6 @@
 				</vehicle_info>
 			</vehicle_list>
 		</spawn_resource_entry>
-		
 		<spawn_resource_entry>
 			<Name>MarTemple</Name>
 			<edf_population>3</edf_population>
@@ -786,7 +763,7 @@
 					<vehicle_group>Mar_Raider</vehicle_group>
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
-<!--START DLC Vehicles Added-->				
+				<!--START DLC Vehicles Added-->
 				<vehicle_info>
 					<vehicle_group>Mar_Stomper</vehicle_group>
 					<reservation_count>1</reservation_count>
@@ -795,7 +772,7 @@
 					<vehicle_group>Mar_Chomper</vehicle_group>
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
-<!--END DLC Vehicles Added-->
+				<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries</Category>
@@ -808,8 +785,7 @@
 			</npc_list>
 		</spawn_resource_entry>
 	</Table>
-	<TableTemplates>
-	</TableTemplates>
+	<TableTemplates></TableTemplates>
 	<TableDescription>
 		<Name>spawn_resource_entry</Name>
 		<Type>TableDescription</Type>
@@ -900,8 +876,8 @@
 					<Default>1</Default>
 					<MinValue>1</MinValue>
 					<MaxValue>9</MaxValue>
-					</Element>
 				</Element>
+			</Element>
 			<Max_Children>9</Max_Children>
 			<Min_Children>1</Min_Children>
 			<Num_Display_Rows>8</Num_Display_Rows>

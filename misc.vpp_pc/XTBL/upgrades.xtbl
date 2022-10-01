@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START DLC Weapons Added-->
+		<!--START DLC Weapons Added-->
 		<Upgrade>
 			<Name>missilepod</Name>
 			<Type>Weapon</Type>
@@ -82,7 +82,7 @@
 			<voice_line>saf_pur_rpg</voice_line>
 			<always_show_upgrade>True</always_show_upgrade>
 		</Upgrade>
-<!--END DLC Weapons Added-->
+		<!--END DLC Weapons Added-->
 		<Upgrade>
 			<Name>sledgehammer</Name>
 			<Type>Weapon Upgrade</Type>

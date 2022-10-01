@@ -13,7 +13,6 @@
 			<veh_spawn_density>High</veh_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>End_0604</Name>
 			<npc_spawn_group>All NPCs</npc_spawn_group>
@@ -27,7 +26,6 @@
 			<veh_spawn_density>High</veh_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>End_0703</Name>
 			<npc_spawn_group>All NPCs</npc_spawn_group>
@@ -41,7 +39,6 @@
 			<veh_spawn_density>High</veh_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Gov_0504</Name>
 			<npc_spawn_group>All NPCs</npc_spawn_group>
@@ -55,7 +52,6 @@
 			<veh_spawn_density>High</veh_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Eos_0505</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -69,7 +65,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Eos_0406</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -83,7 +78,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Eos_0506</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -97,7 +91,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Eos_0407</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -111,7 +104,6 @@
 			<ped_spawn_density>High</ped_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Free_0408</Name>
 			<npc_spawn_group>Default Guerilla</npc_spawn_group>
@@ -125,7 +117,6 @@
 			<veh_spawn_density>High</veh_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Free_0409</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -139,7 +130,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Free_0508</Name>
 			<npc_spawn_group>Default Guerilla</npc_spawn_group>
@@ -153,7 +143,6 @@
 			<veh_spawn_density>High</veh_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Free_0509</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -167,7 +156,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Parker_0410</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -181,7 +169,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Parker_0510</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -195,7 +182,6 @@
 			<ped_spawn_density>High</ped_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Dust_0609</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -209,7 +195,6 @@
 			<ped_spawn_density>High</ped_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Dust_0610</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -223,7 +208,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Dust_0708</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -237,7 +221,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Dust_0709</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -251,7 +234,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<ped_spawn_density>High</ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Dust_0710</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -265,7 +247,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<ped_spawn_density>High</ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Dust_0711</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -279,7 +260,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Dust_0712</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -293,7 +273,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Dust_0809</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -307,7 +286,6 @@
 			<ped_spawn_density>High</ped_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Dust_0810</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -321,7 +299,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Bad_0908</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -335,7 +312,6 @@
 			<ped_spawn_density>High</ped_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Bad_0909</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -349,7 +325,6 @@
 			<ped_spawn_density>High</ped_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Bad_0910</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -363,7 +338,6 @@
 			<ped_spawn_density>High</ped_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Bad_1008</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -377,7 +351,6 @@
 			<ped_spawn_density>High</ped_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Bad_1009</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -391,7 +364,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Bad_1010</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -405,7 +377,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Bad_1108</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -419,7 +390,6 @@
 			<ped_spawn_density>High</ped_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Bad_1110</Name>
 			<npc_spawn_group>All NPCs</npc_spawn_group>
@@ -433,7 +403,6 @@
 			<veh_spawn_density>High</veh_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Bad_1208</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -447,7 +416,6 @@
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Bad_1210</Name>
 			<npc_spawn_group>All NPCs</npc_spawn_group>
@@ -461,7 +429,6 @@
 			<veh_spawn_density>High</veh_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Oasis_0806</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -475,7 +442,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Oasis_0906</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -489,7 +455,6 @@
 			<ped_spawn_density>High</ped_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Oasis_0907</Name>
 			<veh_spawn_density>High</veh_spawn_density>
@@ -503,7 +468,6 @@
 			<ped_spawn_density>High</ped_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Oasis_1006</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -517,7 +481,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Oasis_1106</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -531,7 +494,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Oasis_1107</Name>
 			<ped_spawn_density>High</ped_spawn_density>
@@ -545,7 +507,6 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Parker_0312</Name>
 			<npc_spawn_group>All NPCs</npc_spawn_group>
@@ -559,7 +520,6 @@
 			<veh_spawn_density>High</veh_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		
 		<ambient_spawn_info>
 			<Name>Racetrack</Name>
 			<npc_spawn_group>Default Guerilla</npc_spawn_group>
@@ -574,8 +534,7 @@
 			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
 	</Table>
-	<TableTemplates>
-	</TableTemplates>
+	<TableTemplates></TableTemplates>
 	<TableDescription>
 		<Name>ambient_spawn_info</Name>
 		<Type>TableDescription</Type>

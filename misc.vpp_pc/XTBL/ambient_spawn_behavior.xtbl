@@ -4,7 +4,7 @@
 			<Name>Camo Eos</Name>
 			<_Editor>
 				<Category>Entries:Dust</Category>
-				</_Editor>
+			</_Editor>
 			<Behavior_List>
 				<Behavior>
 					<Animation_Override>drunk</Animation_Override>
@@ -16,7 +16,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Chance>10</Chance>
 					<Day_Start>0</Day_Start>
@@ -26,7 +25,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>oppressed</Animation_Override>
 					<Chance>10</Chance>
@@ -36,7 +34,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>tired</Animation_Override>
 					<Chance>10</Chance>
@@ -46,7 +43,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>confident</Animation_Override>
 					<Chance>10</Chance>
@@ -56,7 +52,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>afraid</Animation_Override>
 					<Chance>10</Chance>
@@ -66,7 +61,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded</Animation_Override>
 					<Chance>10</Chance>
@@ -76,7 +70,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_box</Ambient_Prop>
 					<Chance>10</Chance>
@@ -86,7 +79,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_broom</Ambient_Prop>
 					<Chance>10</Chance>
@@ -96,7 +88,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_data_pad</Ambient_Prop>
 					<Chance>10</Chance>
@@ -106,7 +97,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_file_folder</Ambient_Prop>
 					<Chance>10</Chance>
@@ -116,7 +106,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_rock</Ambient_Prop>
 					<Chance>10</Chance>
@@ -126,7 +115,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_welding_torch</Ambient_Prop>
 					<Chance>10</Chance>
@@ -136,7 +124,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_spraybottle</Ambient_Prop>
 					<Chance>10</Chance>
@@ -146,7 +133,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>binoculars</Ambient_Prop>
 					<Chance>10</Chance>
@@ -156,7 +142,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>clipboard</Ambient_Prop>
 					<Chance>10</Chance>
@@ -166,7 +151,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>jackhammer</Ambient_Prop>
 					<Chance>10</Chance>
@@ -176,7 +160,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>sledgehammer</Ambient_Prop>
 					<Chance>10</Chance>
@@ -186,7 +169,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>wiring_kit</Ambient_Prop>
 					<Chance>10</Chance>
@@ -196,7 +178,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded back</Animation_Override>
 					<Chance>10</Chance>
@@ -206,7 +187,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded left leg</Animation_Override>
 					<Chance>10</Chance>
@@ -216,7 +196,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded right leg</Animation_Override>
 					<Chance>10</Chance>
@@ -226,7 +205,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>cigarette</Ambient_Prop>
 					<Chance>10</Chance>
@@ -236,7 +214,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>cold</Animation_Override>
 					<Chance>35</Chance>
@@ -247,8 +224,7 @@
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
 			</Behavior_List>
-		</Behaviors>		
-		
+		</Behaviors>
 		<Behaviors>
 			<Name>Camo Most Sectors</Name>
 			<_Editor>
@@ -265,7 +241,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Chance>10</Chance>
 					<Day_Start>0</Day_Start>
@@ -275,7 +250,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>oppressed</Animation_Override>
 					<Chance>10</Chance>
@@ -285,7 +259,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>tired</Animation_Override>
 					<Chance>10</Chance>
@@ -295,7 +268,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>confident</Animation_Override>
 					<Chance>10</Chance>
@@ -305,7 +277,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>afraid</Animation_Override>
 					<Chance>10</Chance>
@@ -315,7 +286,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded</Animation_Override>
 					<Chance>10</Chance>
@@ -325,7 +295,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_box</Ambient_Prop>
 					<Chance>10</Chance>
@@ -335,7 +304,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_broom</Ambient_Prop>
 					<Chance>10</Chance>
@@ -345,7 +313,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_data_pad</Ambient_Prop>
 					<Chance>10</Chance>
@@ -355,7 +322,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_file_folder</Ambient_Prop>
 					<Chance>10</Chance>
@@ -365,7 +331,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_rock</Ambient_Prop>
 					<Chance>10</Chance>
@@ -375,7 +340,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_welding_torch</Ambient_Prop>
 					<Chance>10</Chance>
@@ -385,7 +349,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_spraybottle</Ambient_Prop>
 					<Chance>10</Chance>
@@ -395,7 +358,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>binoculars</Ambient_Prop>
 					<Chance>10</Chance>
@@ -405,7 +367,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>clipboard</Ambient_Prop>
 					<Chance>10</Chance>
@@ -415,7 +376,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>jackhammer</Ambient_Prop>
 					<Chance>10</Chance>
@@ -425,7 +385,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>sledgehammer</Ambient_Prop>
 					<Chance>10</Chance>
@@ -435,7 +394,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>wiring_kit</Ambient_Prop>
 					<Chance>10</Chance>
@@ -445,7 +403,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded back</Animation_Override>
 					<Chance>10</Chance>
@@ -455,7 +412,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded left leg</Animation_Override>
 					<Chance>10</Chance>
@@ -465,7 +421,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded right leg</Animation_Override>
 					<Chance>10</Chance>
@@ -475,7 +430,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>cigarette</Ambient_Prop>
 					<Chance>10</Chance>
@@ -485,9 +439,9 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
-					<Animation_Override>drunk</Animation_Override> <!--Added-->
+					<Animation_Override>drunk</Animation_Override>
+					<!--Added-->
 					<Ambient_Prop>bar_glass</Ambient_Prop>
 					<Chance>10</Chance>
 					<Day_Start>0</Day_Start>
@@ -495,10 +449,9 @@
 					<MaleFemaleRatio>0.0</MaleFemaleRatio>
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
-				</Behavior>				
+				</Behavior>
 			</Behavior_List>
-		</Behaviors>		
-		
+		</Behaviors>
 		<Behaviors>
 			<Name>Refinery Supervisor</Name>
 			<_Editor>
@@ -514,7 +467,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>confident</Animation_Override>
 					<Ambient_Prop>amb_data_pad</Ambient_Prop>
@@ -525,7 +477,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>confident</Animation_Override>
 					<Ambient_Prop>amb_file_folder</Ambient_Prop>
@@ -536,7 +487,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_data_pad</Ambient_Prop>
 					<Chance>10</Chance>
@@ -546,7 +496,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_file_folder</Ambient_Prop>
 					<Chance>10</Chance>
@@ -556,7 +505,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>cigarette</Ambient_Prop>
 					<Chance>10</Chance>
@@ -568,7 +516,6 @@
 				</Behavior>
 			</Behavior_List>
 		</Behaviors>
-		
 		<Behaviors>
 			<Name>Refinery Miner</Name>
 			<_Editor>
@@ -584,7 +531,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>tired</Animation_Override>
 					<Chance>10</Chance>
@@ -594,7 +540,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>tired</Animation_Override>
 					<Chance>10</Chance>
@@ -604,7 +549,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Chance>30</Chance>
 					<Day_Start>7</Day_Start>
@@ -614,7 +558,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>tired</Animation_Override>
 					<Chance>30</Chance>
@@ -625,7 +568,6 @@
 					<Morale_Max>1.0</Morale_Max>
 					<Ambient_Prop>amb_rock</Ambient_Prop>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>tired</Animation_Override>
 					<Chance>20</Chance>
@@ -636,7 +578,6 @@
 					<Morale_Max>1.0</Morale_Max>
 					<Ambient_Prop>amb_welding_torch</Ambient_Prop>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>jackhammer</Ambient_Prop>
 					<Chance>20</Chance>
@@ -646,7 +587,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>cigarette</Ambient_Prop>
 					<Chance>20</Chance>
@@ -656,7 +596,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_box</Ambient_Prop>
 					<Chance>10</Chance>
@@ -666,7 +605,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>wiring_kit</Ambient_Prop>
 					<Chance>10</Chance>
@@ -676,7 +614,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Chance>0</Chance>
 					<Day_Start>0</Day_Start>
@@ -685,7 +622,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>oppressed</Animation_Override>
 					<Chance>5</Chance>
@@ -697,7 +633,6 @@
 				</Behavior>
 			</Behavior_List>
 		</Behaviors>
-		
 		<Behaviors>
 			<Name>Dust Drunk</Name>
 			<_Editor>
@@ -714,7 +649,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>drunk</Animation_Override>
 					<Chance>25</Chance>
@@ -725,7 +659,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>drunk</Animation_Override>
 					<Chance>25</Chance>
@@ -736,7 +669,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Chance>15</Chance>
 					<Day_Start>20</Day_Start>
@@ -746,7 +678,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Chance>15</Chance>
 					<Day_Start>20</Day_Start>
@@ -756,7 +687,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Chance>20</Chance>
 					<Day_Start>0</Day_Start>
@@ -766,7 +696,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Chance>20</Chance>
 					<Day_Start>0</Day_Start>
@@ -776,7 +705,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded</Animation_Override>
 					<Chance>15</Chance>
@@ -786,7 +714,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>tired</Animation_Override>
 					<Chance>20</Chance>
@@ -796,7 +723,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>oppressed</Animation_Override>
 					<Chance>20</Chance>
@@ -806,7 +732,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>drunk</Animation_Override>
 					<Ambient_Prop>beer_bottle_b</Ambient_Prop>
@@ -817,7 +742,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>drunk</Animation_Override>
 					<Ambient_Prop>beer_bottle_b</Ambient_Prop>
@@ -828,7 +752,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>afraid</Animation_Override>
 					<Chance>15</Chance>
@@ -838,7 +761,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded back</Animation_Override>
 					<Chance>10</Chance>
@@ -848,7 +770,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded left leg</Animation_Override>
 					<Chance>10</Chance>
@@ -858,7 +779,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded right leg</Animation_Override>
 					<Chance>10</Chance>
@@ -868,7 +788,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>cigarette</Ambient_Prop>
 					<Chance>10</Chance>
@@ -878,9 +797,9 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
-					<Animation_Override>drunk</Animation_Override> <!--Added-->
+					<Animation_Override>drunk</Animation_Override>
+					<!--Added-->
 					<Ambient_Prop>bar_glass</Ambient_Prop>
 					<Chance>10</Chance>
 					<Day_Start>0</Day_Start>
@@ -891,7 +810,6 @@
 				</Behavior>
 			</Behavior_List>
 		</Behaviors>
-		
 		<Behaviors>
 			<Name>Dust Worker</Name>
 			<_Editor>
@@ -908,7 +826,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Chance>24</Chance>
 					<Day_Start>7</Day_Start>
@@ -918,7 +835,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>confident</Animation_Override>
 					<Chance>24</Chance>
@@ -928,7 +844,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>tired</Animation_Override>
 					<Chance>10</Chance>
@@ -938,7 +853,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>oppressed</Animation_Override>
 					<Chance>10</Chance>
@@ -948,7 +862,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_box</Ambient_Prop>
 					<Chance>10</Chance>
@@ -958,7 +871,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_broom</Ambient_Prop>
 					<Chance>10</Chance>
@@ -968,7 +880,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_data_pad</Ambient_Prop>
 					<Chance>10</Chance>
@@ -978,7 +889,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_file_folder</Ambient_Prop>
 					<Chance>10</Chance>
@@ -988,7 +898,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_rock</Ambient_Prop>
 					<Chance>10</Chance>
@@ -998,7 +907,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_spraybottle</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1008,7 +916,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_welding_torch</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1018,7 +925,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>afraid</Animation_Override>
 					<Chance>10</Chance>
@@ -1028,7 +934,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded</Animation_Override>
 					<Chance>10</Chance>
@@ -1038,7 +943,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded back</Animation_Override>
 					<Chance>10</Chance>
@@ -1048,7 +952,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded left leg</Animation_Override>
 					<Chance>10</Chance>
@@ -1058,7 +961,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded right leg</Animation_Override>
 					<Chance>10</Chance>
@@ -1068,7 +970,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>cigarette</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1078,7 +979,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>jackhammer</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1088,7 +988,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>sledgehammer</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1098,7 +997,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>wiring_kit</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1108,7 +1006,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>drunk</Animation_Override>
 					<Ambient_Prop>beer_bottle_b</Ambient_Prop>
@@ -1119,7 +1016,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>clipboard</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1131,7 +1027,6 @@
 				</Behavior>
 			</Behavior_List>
 		</Behaviors>
-		
 		<Behaviors>
 			<Name>Dust Ambient</Name>
 			<_Editor>
@@ -1148,7 +1043,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Chance>10</Chance>
 					<Day_Start>0</Day_Start>
@@ -1158,7 +1052,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>oppressed</Animation_Override>
 					<Chance>10</Chance>
@@ -1168,7 +1061,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>tired</Animation_Override>
 					<Chance>10</Chance>
@@ -1178,7 +1070,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>confident</Animation_Override>
 					<Chance>10</Chance>
@@ -1188,7 +1079,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>afraid</Animation_Override>
 					<Chance>10</Chance>
@@ -1198,7 +1088,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded</Animation_Override>
 					<Chance>10</Chance>
@@ -1208,7 +1097,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_box</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1218,7 +1106,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_broom</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1228,7 +1115,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_data_pad</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1238,7 +1124,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_file_folder</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1248,7 +1133,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_rock</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1258,7 +1142,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_welding_torch</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1268,7 +1151,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_spraybottle</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1278,7 +1160,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>binoculars</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1288,7 +1169,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>clipboard</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1298,7 +1178,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>jackhammer</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1308,7 +1187,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>sledgehammer</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1318,7 +1196,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>wiring_kit</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1328,7 +1205,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded back</Animation_Override>
 					<Chance>10</Chance>
@@ -1338,7 +1214,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded left leg</Animation_Override>
 					<Chance>10</Chance>
@@ -1348,7 +1223,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded right leg</Animation_Override>
 					<Chance>10</Chance>
@@ -1358,7 +1232,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>cigarette</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1368,9 +1241,9 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
-					<Animation_Override>drunk</Animation_Override> <!--Added-->
+					<Animation_Override>drunk</Animation_Override>
+					<!--Added-->
 					<Ambient_Prop>bar_glass</Ambient_Prop>
 					<Chance>10</Chance>
 					<Day_Start>0</Day_Start>
@@ -1378,15 +1251,14 @@
 					<MaleFemaleRatio>0.0</MaleFemaleRatio>
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
-				</Behavior>				
+				</Behavior>
 			</Behavior_List>
 		</Behaviors>
-	
 		<Behaviors>
 			<Name>Eos Ambient</Name>
 			<_Editor>
 				<Category>Entries:Dust</Category>
-				</_Editor>
+			</_Editor>
 			<Behavior_List>
 				<Behavior>
 					<Animation_Override>drunk</Animation_Override>
@@ -1398,7 +1270,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Chance>10</Chance>
 					<Day_Start>0</Day_Start>
@@ -1408,7 +1279,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>oppressed</Animation_Override>
 					<Chance>10</Chance>
@@ -1418,7 +1288,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>tired</Animation_Override>
 					<Chance>10</Chance>
@@ -1428,7 +1297,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>confident</Animation_Override>
 					<Chance>10</Chance>
@@ -1438,7 +1306,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>afraid</Animation_Override>
 					<Chance>10</Chance>
@@ -1448,7 +1315,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded</Animation_Override>
 					<Chance>10</Chance>
@@ -1458,7 +1324,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_box</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1468,7 +1333,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_broom</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1478,7 +1342,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_data_pad</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1488,7 +1351,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_file_folder</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1498,7 +1360,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_rock</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1508,7 +1369,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_welding_torch</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1518,7 +1378,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>amb_spraybottle</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1528,7 +1387,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>binoculars</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1538,7 +1396,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>clipboard</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1548,7 +1405,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>jackhammer</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1558,7 +1414,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>sledgehammer</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1568,7 +1423,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>wiring_kit</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1578,7 +1432,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded back</Animation_Override>
 					<Chance>10</Chance>
@@ -1588,7 +1441,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded left leg</Animation_Override>
 					<Chance>10</Chance>
@@ -1598,7 +1450,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>wounded right leg</Animation_Override>
 					<Chance>10</Chance>
@@ -1608,7 +1459,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Ambient_Prop>cigarette</Ambient_Prop>
 					<Chance>10</Chance>
@@ -1618,7 +1468,6 @@
 					<Morale_Min>0.0</Morale_Min>
 					<Morale_Max>1.0</Morale_Max>
 				</Behavior>
-				
 				<Behavior>
 					<Animation_Override>cold</Animation_Override>
 					<Chance>35</Chance>
@@ -1631,8 +1480,7 @@
 			</Behavior_List>
 		</Behaviors>
 	</Table>
-	<TableTemplates>
-	</TableTemplates>
+	<TableTemplates></TableTemplates>
 	<TableDescription>
 		<Name>Behaviors</Name>
 		<Type>TableDescription</Type>

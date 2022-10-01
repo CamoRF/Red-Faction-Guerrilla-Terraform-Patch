@@ -11,30 +11,34 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</mp_weapons>
-		
 		<mp_weapons>
 			<Name>edf_subverter</Name>
 			<Damage_Scaling_Min>
-				<Player_Damage>43</Player_Damage> <!--From 45-->
+				<Player_Damage>43</Player_Damage>
 			</Damage_Scaling_Min>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</mp_weapons>
-		
+		<mp_weapons>
+			<Name>missilepod</Name>
+			<Default_Refire_Delay>0</Default_Refire_Delay>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</mp_weapons>
 		<mp_weapons>
 			<Name>nano_rifle</Name>
-			<Spread_Min>0.35</Spread_Min> <!--From 0.45-->
-			<Spread_Max>1.35</Spread_Max> <!--From 1.45-->
-			<Spread_Fine_Aim_Min>0.15</Spread_Fine_Aim_Min> <!--From 0.2-->
-			<Spread_Fine_Aim_Max>0.75</Spread_Fine_Aim_Max> <!--From 0.8-->
+			<Spread_Min>0.35</Spread_Min>
+			<Spread_Max>1.35</Spread_Max>
+			<Spread_Fine_Aim_Min>0.15</Spread_Fine_Aim_Min>
+			<Spread_Fine_Aim_Max>0.75</Spread_Fine_Aim_Max>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</mp_weapons>
 	</Table>
-	<TableTemplates>
-	</TableTemplates>
+	<TableTemplates></TableTemplates>
 	<TableDescription>
 		<Name>mp_weapons</Name>
 		<Type>TableDescription</Type>
@@ -119,7 +123,7 @@
 			<Default>0.0</Default>
 		</Element>
 		<Element>
-			<Name>Player_Damage_Min_Range</Name> 
+			<Name>Player_Damage_Min_Range</Name>
 			<Type>Float</Type>
 			<Required>false</Required>
 			<Default>0.0</Default>

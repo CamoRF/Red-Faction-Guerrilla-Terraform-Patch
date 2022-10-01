@@ -8,7 +8,6 @@
 			<team_name>EDF</team_name>
 			<member_count>3</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>basic_squad_2</Name>
 			<_Editor>
@@ -17,7 +16,6 @@
 			<team_name>EDF</team_name>
 			<member_count>4</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>basic_squad_4</Name>
 			<_Editor>
@@ -26,7 +24,6 @@
 			<team_name>EDF</team_name>
 			<member_count>6</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>basic_squad_6</Name>
 			<_Editor>
@@ -35,7 +32,6 @@
 			<team_name>EDF</team_name>
 			<member_count>8</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>basic_squad_8</Name>
 			<_Editor>
@@ -44,7 +40,6 @@
 			<team_name>EDF</team_name>
 			<member_count>9</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>marauder_squad_1</Name>
 			<team_name>Marauder</team_name>
@@ -53,7 +48,6 @@
 				<Category>Marauder</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>marauder_squad_2</Name>
 			<team_name>Marauder</team_name>
@@ -62,7 +56,6 @@
 				<Category>Marauder</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>marauder_squad_4</Name>
 			<_Editor>
@@ -71,7 +64,6 @@
 			<team_name>Marauder</team_name>
 			<member_count>4</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>marauder_squad_6</Name>
 			<_Editor>
@@ -80,7 +72,6 @@
 			<team_name>Marauder</team_name>
 			<member_count>6</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>guerilla_squad_1</Name>
 			<_Editor>
@@ -89,7 +80,6 @@
 			<team_name>Guerilla</team_name>
 			<member_count>1</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>guerilla_squad_2</Name>
 			<_Editor>
@@ -98,7 +88,6 @@
 			<team_name>Guerilla</team_name>
 			<member_count>2</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>guerilla_squad_3</Name>
 			<_Editor>
@@ -107,7 +96,6 @@
 			<team_name>Guerilla</team_name>
 			<member_count>3</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>guerilla_squad_4</Name>
 			<_Editor>
@@ -116,7 +104,6 @@
 			<team_name>Guerilla</team_name>
 			<member_count>4</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>guerilla_squad_6</Name>
 			<_Editor>
@@ -125,7 +112,6 @@
 			<team_name>Guerilla</team_name>
 			<member_count>6</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>player_ally_squad</Name>
 			<_Editor>
@@ -134,7 +120,6 @@
 			<team_name>Guerilla</team_name>
 			<member_count>0</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>Carmen</Name>
 			<_Editor>
@@ -144,7 +129,6 @@
 			<special_npc>Carmen</special_npc>
 			<member_count>1</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>Dan</Name>
 			<_Editor>
@@ -154,7 +138,6 @@
 			<special_npc>Dan</special_npc>
 			<member_count>1</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>mis_FMC_Colonel</Name>
 			<_Editor>
@@ -164,7 +147,6 @@
 			<special_npc>EDF_Colonel_Baker</special_npc>
 			<member_count>2</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>Jorge</Name>
 			<team_name>Guerilla</team_name>
@@ -174,7 +156,6 @@
 				<Category>Mission/Activities</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>mis_SYE_pilot</Name>
 			<team_name>EDF</team_name>
@@ -184,7 +165,6 @@
 				<Category>Mission/Activities</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>Marauder_SciTech</Name>
 			<team_name>Marauder</team_name>
@@ -194,7 +174,6 @@
 				<Category>Marauder</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>mis_Ambush_Engineer</Name>
 			<team_name>Guerilla</team_name>
@@ -204,7 +183,6 @@
 				<Category>Mission/Activities</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>mis_DBC_Sniper</Name>
 			<team_name>EDF</team_name>
@@ -214,7 +192,6 @@
 			</_Editor>
 			<special_npc>EDF_Lieutenant_Sniper</special_npc>
 		</Squads>
-		
 		<Squads>
 			<Name>civilian_squad_1</Name>
 			<team_name>Civilian</team_name>
@@ -223,7 +200,6 @@
 				<Category>Civilians</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>civilian_squad_2</Name>
 			<team_name>Civilian</team_name>
@@ -232,7 +208,6 @@
 				<Category>Civilians</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>civilian_squad_3</Name>
 			<team_name>Civilian</team_name>
@@ -241,7 +216,6 @@
 				<Category>Civilians</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>civilian_squad_4</Name>
 			<team_name>Civilian</team_name>
@@ -250,7 +224,6 @@
 				<Category>Civilians</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>civilian_squad_6</Name>
 			<team_name>Civilian</team_name>
@@ -259,7 +232,6 @@
 				<Category>Civilians</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>mis_DBC_VIP_1</Name>
 			<team_name>EDF</team_name>
@@ -269,7 +241,6 @@
 			</_Editor>
 			<special_npc>DBC_VIP_1</special_npc>
 		</Squads>
-		
 		<Squads>
 			<Name>mis_DBC_VIP_2</Name>
 			<team_name>EDF</team_name>
@@ -279,7 +250,6 @@
 			</_Editor>
 			<special_npc>DBC_VIP_2</special_npc>
 		</Squads>
-		
 		<Squads>
 			<Name>mis_DBC_VIP_3</Name>
 			<team_name>EDF</team_name>
@@ -289,7 +259,6 @@
 			</_Editor>
 			<special_npc>DBC_VIP_3</special_npc>
 		</Squads>
-		
 		<Squads>
 			<Name>mis_SH_Snipers</Name>
 			<team_name>EDF</team_name>
@@ -299,16 +268,14 @@
 				<Category>Mission/Activities</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>basic_squad_3</Name>
 			<_Editor>
 				<Category>EDF</Category>
-				</_Editor>
+			</_Editor>
 			<team_name>EDF</team_name>
 			<member_count>5</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>basic_squad_5</Name>
 			<_Editor>
@@ -317,7 +284,6 @@
 			<team_name>EDF</team_name>
 			<member_count>7</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>basic_squad_7</Name>
 			<_Editor>
@@ -326,7 +292,6 @@
 			<team_name>EDF</team_name>
 			<member_count>9</member_count>
 		</Squads>
-		
 		<Squads>
 			<Name>Samanya</Name>
 			<team_name>Guerilla</team_name>
@@ -336,7 +301,6 @@
 				<Category>Mission/Activities</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>mis_H2H_Elite</Name>
 			<team_name>EDF</team_name>
@@ -346,7 +310,6 @@
 				<Category>Mission/Activities</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>Kyle</Name>
 			<team_name>Guerilla</team_name>
@@ -356,7 +319,6 @@
 				<Category>Mission/Activities</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>OldCoot</Name>
 			<team_name>Guerilla</team_name>
@@ -364,8 +326,8 @@
 			<special_npc>OldCoot</special_npc>
 			<_Editor>
 				<Category>Mission/Activities</Category>
-				</_Editor>
-			</Squads>
+			</_Editor>
+		</Squads>
 		<Squads>
 			<Name>GeneralRoth</Name>
 			<team_name>EDF</team_name>
@@ -375,7 +337,6 @@
 				<Category>Mission/Activities</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>mis_Tutorial_Pilot</Name>
 			<team_name>EDF</team_name>
@@ -385,7 +346,6 @@
 				<Category>Mission/Activities</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>RFC</Name>
 			<team_name>Guerilla</team_name>
@@ -395,7 +355,6 @@
 				<Category>Mission/Activities</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>mis_TJ_Guerrillas</Name>
 			<team_name>Guerilla</team_name>
@@ -405,7 +364,6 @@
 				<Category>Mission/Activities</Category>
 			</_Editor>
 		</Squads>
-		
 		<Squads>
 			<Name>Radio_Operator</Name>
 			<team_name>Guerilla</team_name>
@@ -416,8 +374,7 @@
 			</_Editor>
 		</Squads>
 	</Table>
-	<TableTemplates>
-	</TableTemplates>
+	<TableTemplates></TableTemplates>
 	<TableDescription>
 		<Name>Squads</Name>
 		<Type>TableDescription</Type>
