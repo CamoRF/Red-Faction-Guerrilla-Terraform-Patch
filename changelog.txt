@@ -363,6 +363,7 @@ v1.061 ALPHA HOTFIX CHANGES
 ---------------------------
 
 [Fixes]
+* Added the current community patch version to the initial loading screen
 * Fixed missing server host migration fix
 * Fixed some missing NPC spawn list changes
 * Fixed missing restoration of character breath effect
