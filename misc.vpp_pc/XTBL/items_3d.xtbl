@@ -1,5 +1,6 @@
 <root>
 	<Table>		
+<!--START Added DLC Weapons-->		
 		<Item>
 			<Name>EDF_Super_Gauss</Name>
 			<Item_Flags>
@@ -116,13 +117,34 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--<Flag>no_auto_delete</Flag>-->
-				<Flag>no_pickup_delete</Flag>   <!--Added-->	
+				<Flag>fast_cleanup</Flag>
+				<!--<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
 				<Flag>casts_shadows</Flag>
-				<Flag>casts_drop_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag>-->
 			</Item_Flags>
 		</Item>
+		<Item>
+			<Name>misslepod_projectile</Name>
+			<Mass>1</Mass>
+			<Respawn_Delay>5000</Respawn_Delay>
+			<_Editor>
+				<Category>Entries:WeaponMarauder</Category>
+			</_Editor>
+			<Item_Flags>
+				<Flag>collide_as_box</Flag>
+				<!--<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>casts_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag>-->
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<streaming_category>General</streaming_category>
+			<Mesh>
+				<Filename>therm_rocket_projectile.SMESHX</Filename>
+			</Mesh>
+		</Item>		
+<!--END Added DLC Weapons-->		
 		<Item>
 			<Name>Lawrence_Eos_Coat</Name>
 			<Spin_Time>5000</Spin_Time>

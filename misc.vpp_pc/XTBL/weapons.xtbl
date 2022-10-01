@@ -130,7 +130,7 @@ ui_hud_reti_spiker1
 		<Max_Rounds>36</Max_Rounds>
 		<Range_Max>40</Range_Max>
 		<Range_Red>40</Range_Red>
-		<Default_Refire_Delay>0</Default_Refire_Delay> <!--From 200-->
+		<Default_Refire_Delay>200</Default_Refire_Delay>
 		<Damage_Scaling_Max>
 			<NPC_Damage>100</NPC_Damage>
 			<Player_Damage>100</Player_Damage>
@@ -196,9 +196,9 @@ ui_hud_reti_spiker1
 		<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
 		<aim_assist>0.5</aim_assist>
 		<Projectile_Info>
-			<Model>thermobaric_rocket_projectile</Model>
-			<Start_Speed>40</Start_Speed> <!--From 50-->
-			<Max_Speed>60</Max_Speed> <!--From 70-->
+			<Model>misslepod_projectile</Model>
+			<Start_Speed>50</Start_Speed>
+			<Max_Speed>70</Max_Speed>
 			<Attached_Effect>wep_miner_rpg_trail_s3</Attached_Effect>
 			<Projectile_Flags>
 				<Flag>align orient to flightpath</Flag>
@@ -206,8 +206,8 @@ ui_hud_reti_spiker1
 				</Projectile_Flags>
 			<Time_Until_Propelled>0.0</Time_Until_Propelled>
 			<Gravity>0</Gravity>
-			<Acceleration>8</Acceleration> <!--From 10-->
-			<Inaccurate_flight>0.00</Inaccurate_flight> <!--From 0.12-->
+			<Acceleration>10</Acceleration>
+			<Inaccurate_flight>0.0</Inaccurate_flight> <!--From 0.12-->
 			</Projectile_Info>
 		<Explosion>DLC_missilepod</Explosion>
 		<Player_Move_Speed>1.25</Player_Move_Speed>

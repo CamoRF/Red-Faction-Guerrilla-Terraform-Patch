@@ -358,10 +358,6 @@ v1.06 ALPHA CHANGES
 
 [Misslepod Fix]
 * Changed the projectile from standard rocket to the thermobaric rocket (cosmetic only to fix how the projectile was almost invisible due to the smoke trail)
-* Reduced start speed of the projectile to 40 from 50
-* Reduced max speed of the projectile to 60 from 70
-* Reduced acceleration of the projectile to 8 from 10
-* Redued the refire delay to 0ms from 200ms
 
 ---------------------------
 v1.061 ALPHA HOTFIX CHANGES
@@ -369,9 +365,13 @@ v1.061 ALPHA HOTFIX CHANGES
 
 [Fixes]
 * Fixed missing server host migration fix
-* Fixed missing NPC spawn list changes
+* Fixed some missing NPC spawn list changes
 * Fixed missing restoration of character breath effect
-* Fixed some missing optimized files to reduce crashing
+* Fixed some missing optimized files to possibly reduce crashing
+* Reverted other changes to Misslepod to possibly improve stability
+* Removed shadows on Misslepod magazine and projectile to possibly improve stability
+* Misslepod magazine and projectile now despawns to possibly improve stability
+
 
 ------------
 |KNOWN BUGS|

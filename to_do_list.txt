@@ -2,17 +2,15 @@
 v1.061 HOTFIX
 ---------------
 * Replace intial loading screen (interface-init_load in misc.vpp_pc and interface.vpp_pc)
-* Add a single kaboom pack spawn with only 1 on the rack on overpass and crevice
-* Fix grinder projectile texture
-* Fix missing texture on Marauder lady
-* Fix misslepod crashing game? (make the projectile despawn, give its own unique projectile entry to fix the killfeed, use a smaller explosion, make the clips/mags despawn)
-* .exe with match countdown set to 6 seconds
-* .exe with match end countdown set to 6 seconds
+* Fix misslepod crashing game? (make the projectile despawn - done , give its own unique projectile entry to fix the killfeed - done, use a smaller explosion, make the clips/mags despawn - done)
+
 
 
 -----------
 v1.0xx
 ------------
+* .exe with match countdown set to 6 seconds
+* .exe with match end countdown set to 6 seconds
 * Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host, Broken DLC weapons might need to be merged into items_mp.vpp_pc? (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
 * Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
 * Fix out of bounds spots on Excavation, Remnant, Puncture, Warlords and Gradient
@@ -46,6 +44,9 @@ the cut turret flamethrower weapon, issues were it either didn't have any ammo o
 * Overpass needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
 * Test version of Pinaccle with experimental spawn flipping fixes that apply only in CTF (try intial and respawn bools for team spawns)
 * Test adding multiple bagman spawns to randomize where it respawns
+* Fix grinder projectile texture
+* Add a single kaboom pack spawn with only 1 on the rack on overpass and crevice
+* Fix missing texture on Marauder lady
 
 ----
 Test
