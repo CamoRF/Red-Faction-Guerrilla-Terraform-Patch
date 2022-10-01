@@ -286,7 +286,7 @@ v1.06 ALPHA CHANGES
 
 [Map Fixes]
 * Fixed some of the vanilla bugs with out of bounds map exploits on Haven, Doubletime, Equilbrium, Downfall, Abandoned & Compound
-* Fixed missing objects on various maps when played in Demolition and Bagman
+* Fixed vanilla bug with missing objects on various maps when played in Demolition and Bagman
 
 [Multiplayer Fixes]
 * Fixed Marauder Lady character having the wrong footstep sounds
@@ -303,7 +303,7 @@ v1.06 ALPHA CHANGES
 * Improvements to rubberbanding and trueskill fixes
 
 [Multiplayer Additions & Changes]
-* Changed the DLC weapon placeholder weapon icons to badge icons to avoid confusion with standard weapons 
+* Changed the DLC weapon placeholder icons to badge icons to avoid confusion with standard weapons 
 * Default enemy icon visibility changed to delayed from normal
 * EDF Voice character can now be played on the EDF team in team games in addition to free for all
 * Increased max player cap for Team Anarchy and Team Bagman matchmaking playlists to 16 from 12
@@ -334,7 +334,7 @@ v1.06 ALPHA CHANGES
 [Singleplayer Fixes]
 * Fixed some objects missing shadows in DLC
 * Removed Kepler and Carmen from NPC spawn lists
-* Improved NPC spawn lists with EOS and Oasis NPC variants only spawning in both EOS and Dust while all Dust and Parker variants spawn there
+* Improved NPC spawn lists: Oasis and EOS variants can spawn in both Oasis and EOS, Parker and Dust variants can spawn in both Parker and Dust, All variants can spawn in Oasis and EOS
 
 [Grinder Fix]
 * Reduced randomness of the projectile by adjusting collision
