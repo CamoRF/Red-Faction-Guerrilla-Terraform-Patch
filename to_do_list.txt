@@ -12,6 +12,7 @@ To do
 * Upscale grinder projectile texture
 * Remove blur from RPG explosions
 * Optimize every file that doesn't break singleplayer loading (avoid animations, loading screens, mission related stuff etc)
+* Make sure Eos and Oasis people spawn in Dust
 
 -----------
 Low Priority 
