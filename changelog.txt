@@ -3,7 +3,7 @@
 |--------------------------|
 
 Author: Camo
-Version: v1.06
+Version: v1.061 HOTFIX
 Date: 1-10-2022
 Build: 147
 
@@ -362,6 +362,16 @@ v1.06 ALPHA CHANGES
 * Reduced max speed of the projectile to 60 from 70
 * Reduced acceleration of the projectile to 8 from 10
 * Redued the refire delay to 0ms from 200ms
+
+---------------------------
+v1.061 ALPHA HOTFIX CHANGES
+---------------------------
+
+[Fixes]
+* Fixed missing server host migration fix
+* Fixed missing NPC spawn list changes
+* Fixed missing restoration of character breath effect
+* Fixed some missing optimized files to reduce crashing
 
 ------------
 |KNOWN BUGS|
