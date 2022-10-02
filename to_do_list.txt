@@ -1,14 +1,7 @@
----------------
-v1.061 HOTFIX
----------------
-* Replace intial loading screen (interface-init_load in misc.vpp_pc and interface.vpp_pc)
-* Fix misslepod crashing game? (make the projectile despawn - done , give its own unique projectile entry to fix the killfeed - done, use a smaller explosion, make the clips/mags despawn - done)
-* Re-export Watchtower - done, make xdelta for next hotfix
-* Fix weapon pickups remaining when picked up on Vista
-
 -----------
 v1.0xx
 ------------
+* Fix weapon pickups remaining when picked up on Vista
 * .exe with match countdown set to 6 seconds
 * .exe with match end countdown set to 6 seconds
 * Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host, Broken DLC weapons might need to be merged into items_mp.vpp_pc? (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
@@ -51,7 +44,6 @@ the cut turret flamethrower weapon, issues were it either didn't have any ammo o
 ----
 Test
 ----
-* Test out of bounds spots (see changelog)
 
 ----
 Done
@@ -66,4 +58,4 @@ OTHER PROJECTS
 * HD weapons and backpack textures
 * Balance difficulties: Casual = just want to blow stuff up, Normal = about average, Hard = Balanced and fair but challenging, Insane = Truly punishing experience 
 * Unlock Insane difficulty by default
-* Increase morale drop for death - 
+* Increase morale drop for death
