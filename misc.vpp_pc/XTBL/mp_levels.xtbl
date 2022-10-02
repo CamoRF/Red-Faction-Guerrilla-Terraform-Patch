@@ -1938,7 +1938,8 @@
 			<Load_image>Transmission</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
-		<mp_level_list>
+<!--Vista Original TOD 12:00-->
+		<!--<mp_level_list>
 			<Name>Vista</Name>
 			<Filename>wc4</Filename>
 			<_Editor>
@@ -1965,7 +1966,7 @@
 			</player_weapons>
 			<Description>MENU_LEVEL_CORNERED_DESC</Description>
 			<time_of_day>19:00</time_of_day>
-			<!--From 12:00-->
+
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_vista</level_image_name>
 			<dust_enabled>False</dust_enabled>
@@ -1987,7 +1988,7 @@
 			<ideal_max_players>10</ideal_max_players>
 			<Load_image>Vista</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>-->
 		<mp_level_list>
 			<Name>Warlords</Name>
 			<Filename>mp_warlords</Filename>
