@@ -3,9 +3,9 @@
 |--------------------------|
 
 Author: Camo
-Version: v1.061 ALPHA
+Version: v1.062 ALPHA
 Date: 2-10-2022
-Build: 332
+Build: 1100
 
 -----------------------
 INTIAL RELEASE CHANGES
@@ -373,6 +373,15 @@ v1.061 ALPHA HOTFIX CHANGES
 * Removed shadows on Misslepod magazine and projectile to possibly improve stability
 * Misslepod magazine and projectile now despawns to possibly improve stability
 * Misc fixes and testing done to iron out issues with v1.06
+
+---------------------------
+v1.062 ALPHA HOTFIX CHANGES
+---------------------------
+
+[Fixes]
+* Disabled Vista in multiplayer level select due to bugs with duplicate weapon pickups
+* Re-exported Complex and Watchtower to possibly fix crashes
+* Initial loading screen updated
 
 ------------
 |KNOWN BUGS|
