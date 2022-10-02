@@ -3,7 +3,8 @@ v1.061 HOTFIX
 ---------------
 * Replace intial loading screen (interface-init_load in misc.vpp_pc and interface.vpp_pc)
 * Fix misslepod crashing game? (make the projectile despawn - done , give its own unique projectile entry to fix the killfeed - done, use a smaller explosion, make the clips/mags despawn - done)
-
+* Re-export Watchtower - done, make xdelta for next hotfix
+* Fix weapon pickups remaining when picked up on Vista
 
 
 -----------
