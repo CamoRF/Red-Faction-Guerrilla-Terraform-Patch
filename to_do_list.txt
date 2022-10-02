@@ -2,43 +2,76 @@
 v1.0xx
 ------------
 * Fix weapon pickups remaining when picked up on Vista
+
 * .exe with match countdown set to 6 seconds
+
 * .exe with match end countdown set to 6 seconds
+
 * Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host, Broken DLC weapons might need to be merged into items_mp.vpp_pc? (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
+
 * Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
+
 * Fix out of bounds spots on Excavation, Remnant, Puncture, Warlords and Gradient
+
 * Remove blur from RPG explosions
+
 * Restore Dan Masons yellow jacket and clothing that matches the cutscenes and upscale it
+
 * Take new screenshots for thumbnail with new WC maps if they need them  (Eg. Complex)
+
 * Increase player cap in custom games above 16 if it needs to be
+
 * Test all maps during day and night and check fog, bloom, moon size and sun texture in dtodx file
+
 * Use mp_explosion_overrides.xtbl for explosion changes so it doesn't mess with singleplayer
+
 * Add cliff under maps that are missing it when bounding box makes sense
+
 * Add CTF and Damage Control objective to WC maps when Nanoforge supports it
+
 * Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
+
 * Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
+
 * Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
+
 * Fix random backpacks on WC maps (requires adding backpack racks I believe)
+
 * Fix grenade (seems to randomly stop working when played online and character tposes, weapon also breaks if unique ID is changed from 33, might need to be scripted in future)
+
 * Add more spawns to Scrap Heap along with buildings near the invisible wall, map is quite large (alternative map)
+
 * Update WC map thumbnails if they changed a lot after ATMs work
-* Increase jump height in multiplayer - doesn't seem possible
-* Increase gravity slightly, jumping feels floaty
+
 * Try to make it so you can walk up steeper inclines
+
 * Improve driving skills of NPCs
+
 * Reduce EDF density slightly, maybe too many drones
+
 * Add new weapon spawns to more EDF
+
 * Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to
 the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
+
 * Add CTF flags, Gutter, Impaler and DLC Pickaxe to the sledgehammer upgrade list in multiplayer
+
 * Reduce mass of debris
+
 * Re-implement merging items from SP and DLC to mp_common.vpp_pc later
+
 * Add more neutral spawns to Siege maps (Framework done)
+
 * Overpass needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
+
 * Test version of Pinaccle with experimental spawn flipping fixes that apply only in CTF (try intial and respawn bools for team spawns)
+
 * Test adding multiple bagman spawns to randomize where it respawns
+
 * Fix grinder projectile texture
+
 * Add a single kaboom pack spawn with only 1 on the rack on overpass and crevice
+
 * Fix missing texture on Marauder lady
 
 ----
@@ -48,14 +81,20 @@ Test
 ----
 Done
 ----
-* Optimize every file that doesn't break singleplayer loading (avoid animations, loading screens, mission related stuff etc)
-* Make sure Eos and Oasis people spawn in Dust
 
 ------
 OTHER PROJECTS
 ------
 * HD character textures 
+
 * HD weapons and backpack textures
+
 * Balance difficulties: Casual = just want to blow stuff up, Normal = about average, Hard = Balanced and fair but challenging, Insane = Truly punishing experience 
+
 * Unlock Insane difficulty by default
+
 * Increase morale drop for death
+
+* Tanks and the bulldozer scare NPCs and they drive like maniacs
+
+* Increase gravity slightly, jumping feels floaty
