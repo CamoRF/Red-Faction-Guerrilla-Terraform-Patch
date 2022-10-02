@@ -368,6 +368,7 @@ v1.061 ALPHA HOTFIX CHANGES
 * Fixed some missing NPC spawn list changes
 * Fixed missing restoration of character breath effect
 * Fixed some missing optimized files to possibly reduce crashing
+* Fixed friendly fire not working in singleplayer
 * Reverted adding armour to Alec Mason in multiplayer due to crashing
 * Reverted other changes to Misslepod to possibly improve stability
 * Removed shadows on Misslepod magazine and projectile to possibly improve stability
