@@ -18,3 +18,9 @@ See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Commun
 
 # TODO
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Community-Patch/v1.061-Hotfix/to_do_list.txt)
+
+# Credits
+- ATMLVE for helping with adding weapon spawns and various other fixes to the Wrecking Crew maps
+- moneyl for lots of help & developing all the tools that make this project possible including Nanoforge, AsmTool, RfgUtil
+- Gibbed for his work on other tools used in the development of this mod
+- arrows for his previous work on porting DLC weapons and vehicles to the base game and developing mTool
