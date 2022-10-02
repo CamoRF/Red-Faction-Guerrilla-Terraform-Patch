@@ -1,7 +1,7 @@
 # Red Faction Guerrilla Community Patch
-- Version: v1.061 ALPHA
+- Version: v1.062 ALPHA
 - Date: 2-10-2022
-- Build: 332
+- Build: 1110
 - Work-in-progress project that adds content, fixes bugs, and enhances many features.
 
 # Auto Install (Recommended)
