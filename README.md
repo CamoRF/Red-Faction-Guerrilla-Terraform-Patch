@@ -12,6 +12,7 @@
 - [v1.05 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6247)
 - [v1.06 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6259)
 - [v1.061 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6264)
+- [v1.062 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6267)
 
 # Changelog
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Community-Patch/v1.061-Hotfix/changelog.txt)
