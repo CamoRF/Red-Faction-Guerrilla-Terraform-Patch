@@ -368,6 +368,7 @@ v1.061 ALPHA HOTFIX CHANGES
 * Fixed some missing NPC spawn list changes
 * Fixed missing restoration of character breath effect
 * Fixed some missing optimized files to possibly reduce crashing
+* Fixed friendly fire not working in singleplayer
 * Reverted adding armour to Alec Mason in multiplayer due to crashing
 * Reverted other changes to Misslepod to possibly improve stability
 * Removed shadows on Misslepod magazine and projectile to possibly improve stability
@@ -415,6 +416,7 @@ v1.062 ALPHA HOTFIX CHANGES
 * Lack of fog on various maps including Complex, will be fixed when the weather and lighting files are more understood
 * Some maps might have extreme fog when using the alternative time of day
 * Wrecking crew maps don't have backpack spawns until the Nanoforge modding tool allows us to add them
+* Vista is currently disabled in multiplayer due to a bug with duplicate weapon pickups
 
 [Characters]
 * EDF heavy changed to the white model in team games due to a bug with new characters
