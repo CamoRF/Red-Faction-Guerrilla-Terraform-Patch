@@ -1939,6 +1939,7 @@
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
 <!--Vista Original TOD 12:00-->
+<!--NOTE: Disabled due to duplicate weapon pickups-->
 		<!--<mp_level_list>
 			<Name>Vista</Name>
 			<Filename>wc4</Filename>
