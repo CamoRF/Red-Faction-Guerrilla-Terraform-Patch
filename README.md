@@ -26,3 +26,4 @@ See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Commun
 - Gibbed for his work on other tools used in the development of this mod.
 - ATMLVE for helping with adding weapon spawns and various other fixes to the Wrecking Crew maps.
 - arrows for his previous work on porting DLC weapons and vehicles to the base game and developing mTool.
+- Goober and the [Faction Files community, join the Discord!](https://discord.com/invite/factionfiles).
