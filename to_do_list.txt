@@ -1,4 +1,15 @@
 -----------
+v1.063
+-----------
+* Make Expansion bridge changes cleaner when we can clone between maps
+* Fill out empty space in the surrounding empty area on Gulch 
+* Marauder weapon icon for misslepod killfeed mostly works when suicide, shows as rocket during kills
+* Add two Nanorifle spawns near the bridge on Invasion
+* Reconstructor might be too powerful still
+* Assault Rifle: Should feel more satisfying to use but still be average (Accuracy, firerate, damage?, should require burst shots at long range but not close to mid range)
+
+
+-----------
 v1.0xx
 ------------
 * Fix weapon pickups remaining when picked up on Vista
@@ -98,3 +109,7 @@ OTHER PROJECTS
 * Tanks and the bulldozer scare NPCs and they drive like maniacs
 
 * Increase gravity slightly, jumping feels floaty
+
+* Quick Save hotkey 
+
+* First person: Remove Alec Masons head, replace weapon models with ones for first person, reduce clipping, change animations, script to switch back to third person in vehicles
