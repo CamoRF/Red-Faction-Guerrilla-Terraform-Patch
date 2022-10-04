@@ -174,6 +174,7 @@
 			<Num_Magazines>4</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
+			<mp_kill_phrase>HM_KILL_PHRASE_EXPLOSION</mp_kill_phrase> <!--Added-->
 			<Unique_ID>132</Unique_ID>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<Default_team>Marauder</Default_team>
@@ -271,6 +272,7 @@
 				<Muzzle_Flash>wep_edf_sniper_flash_a</Muzzle_Flash>
 				<Fire_Camera_Shake>weapon_fire_enforcer</Fire_Camera_Shake>
 				<Tracer_Frequency>1</Tracer_Frequency>
+				<Tracer_Effect>wep_bullet_tracer_a</Tracer_Effect> <!--Added-->
 			</Visuals>
 			<Sounds>
 				<Fire_Sound>WEP_ASSAULT_B_NEAR_LOOP</Fire_Sound>
@@ -2554,7 +2556,7 @@
 			<Acceleration>0.0</Acceleration>
 			<Sounds>
 				<Sound_Group>assault rifle</Sound_Group>
-				<Fire_Sound>WEP_ASSAULT_PC_LOOP</Fire_Sound>
+				<Fire_Sound>WEP_ASSAULT_B_NEAR_LOOP</Fire_Sound> <!--From WEP_ASSAULT_PC_LOOP-->
 				<Sound_Radius>50</Sound_Radius>
 				<No_Ammo_Sound>WEP_ASSAULT_DRYFIRE_PC</No_Ammo_Sound>
 				<NPC_Fire_Sounds>
@@ -2568,6 +2570,7 @@
 				<Muzzle_Flash>wep_edf_rifle_flash_a</Muzzle_Flash>
 				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke>
 				<Fire_Camera_Shake>weapon_fire_ar</Fire_Camera_Shake>
+				<Tracer_Effect>wep_bullet_tracer_a</Tracer_Effect> <!--Added-->
 				<Tracer_Frequency>1</Tracer_Frequency>
 			</Visuals>
 			<Spread_Fine_Aim_Min>0.7</Spread_Fine_Aim_Min>
@@ -6989,7 +6992,7 @@
 			<!--from 160-->
 			<Range_Max>35</Range_Max>
 			<Range_Red>50</Range_Red>
-			<Default_Refire_Delay>100</Default_Refire_Delay>
+			<Default_Refire_Delay>95</Default_Refire_Delay> <!--From 100-->
 			<Damage_Scaling_Max>
 				<NPC_Damage>40</NPC_Damage>
 				<Player_Damage>32</Player_Damage>
@@ -6997,9 +7000,9 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Spread_Max>2.0</Spread_Max>
+			<Spread_Max>1.75</Spread_Max> <!--From 2.0 in v1.062-->
 			<!--from 2.5-->
-			<Spread_Min>0.95</Spread_Min>
+			<Spread_Min>0.75</Spread_Min> <!--From 0.95 in v1.062-->
 			<!--from 1.0-->
 			<NPC_Spread_Max>3.6</NPC_Spread_Max>
 			<NPC_Spread_Min>1.2</NPC_Spread_Min>
@@ -7030,7 +7033,7 @@
 			<Max_Engagement_Distance>18</Max_Engagement_Distance>
 			<Inventory_Item>m16</Inventory_Item>
 			<Item_3d>m16</Item_3d>
-			<Recoil_Kick>0.9</Recoil_Kick>
+			<Recoil_Kick>0.75</Recoil_Kick> <!--From 0.9-->
 			<Acceleration>0.0</Acceleration>
 			<Spread_Fine_Aim_Min>0.67</Spread_Fine_Aim_Min>
 			<Spread_Fine_Aim_Max>1.2</Spread_Fine_Aim_Max>

@@ -895,7 +895,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Repair_range</Name>
-			<Value>3.0</Value>
+			<Value>2.8</Value>
 			<!--From 2.5-->
 			<Description>This is how far ahead a player can repair objects using the repair tool.</Description>
 			<_Editor>
@@ -904,7 +904,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Repair_radius</Name>
-			<Value>2.1</Value>
+			<Value>1.9</Value>
 			<!--From 1.6-->
 			<Description>When a player uses the repair tool, objects within a sphere of this radius will be repaired</Description>
 			<_Editor>

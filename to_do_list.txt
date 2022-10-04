@@ -1,12 +1,13 @@
 -----------
 v1.063
 -----------
+* Add two Nanorifle spawns near the bridge on Invasion - done
 * Make Expansion bridge changes cleaner when we can clone between maps
 * Fill out empty space in the surrounding empty area on Gulch 
-* Marauder weapon icon for misslepod killfeed mostly works when suicide, shows as rocket during kills
-* Add two Nanorifle spawns near the bridge on Invasion
-* Reconstructor might be too powerful still
-* Assault Rifle: add <Tracer_Effect>wep_bullet_tracer_a</Tracer_Effect> under visuals in weapons.xtbl
+* Marauder weapon icon for misslepod killfeed mostly works when suicide, shows as rocket during kills - test
+* Reconstructor might be too powerful still - done
+* Assault Rifle: add <Tracer_Effect>wep_bullet_tracer_a</Tracer_Effect> under visuals in weapons.xtbl - done
+* Assault Rifle changes: wip
 
 
 -----------
