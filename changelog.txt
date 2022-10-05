@@ -383,7 +383,7 @@ v1.062 ALPHA HOTFIX CHANGES
 
 [Fixes]
 * Disabled Vista in multiplayer level select due to bugs with duplicate weapon pickups
-* Re-exported Complex and Watchtower to possibly fix crashes
+* Re-exported Complex and Watchtower to possibly fix crashes (EDIT: Didn't work)
 
 ---------------------------
 v1.063 ALPHA HOTFIX CHANGES
@@ -396,7 +396,6 @@ v1.063 ALPHA HOTFIX CHANGES
 * Fixed issue with duplicate weapon pickups on Vista and re-implemented the map
 * Fixed two spawns where you got stuck inside the shipping container geometry on the Nordic Bonus/GFWL map
 * Fixed issue where it was impossible to get the bag down from the bridge by adding two Nanoforge spawns on Invasion
-* Possibly fixed issue with incorrect Misslepod killfeed icon
 
 [Reconstructor Nerf/Fix]
 * Repair range reduced to 2.8 from 3.0
@@ -430,6 +429,7 @@ v1.063 ALPHA HOTFIX CHANGES
 * Spiker has missing texture when it's dropped on the ground and only the host can see the projectile so it's not implemented yet
 * Weapons use placeholder icons and reticules for now
 * Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer
+* Misslepod sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon
 
 [Backpacks]
 * Kaboom backpack has floating objects on the model
@@ -438,6 +438,7 @@ v1.063 ALPHA HOTFIX CHANGES
 * Backpacks might clip through the characters on some of the new models, this can be fixed by fine tuning the offset axis values but will take time
 
 [Maps]
+* Complex and Watchtower have gamebreaking crashing issues, AVOID PLAYING THEM!
 * Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman and Bagman will not work on any Wrecking Crew map until the Nanoforge modding tool allows us to add siege, CTF and damage control objectives to maps
 * Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman, Bagman and Siege will not work on Siege maps until the Nanoforge modding tool allows us to add CTF and damage control objectives to maps
 * Some maps with night might be overly bright, will be fixed when the weather and lighting files are understood more
@@ -445,6 +446,12 @@ v1.063 ALPHA HOTFIX CHANGES
 * Lack of fog on various maps including Complex, will be fixed when the weather and lighting files are more understood
 * Some maps might have extreme fog when using the alternative time of day
 * Wrecking crew maps don't have backpack spawns until the Nanoforge modding tool allows us to add them
+* Gulch has a lot of empty space outside the map
+* Scrapheap has a spawn where you can get stuck in a frame
+* Ruins has issues with some of the rocks being hard to climb
+* Ruins has issues with some of the spikes on the buildings causing players to get stuck
+* Repurcussion might need adjustments to some of the spawns inside the pipes
+* GFWL/Nordic Bonus: Some of the shipping containers are floating
 
 [Characters]
 * EDF heavy changed to the white model in team games due to a bug with new characters
