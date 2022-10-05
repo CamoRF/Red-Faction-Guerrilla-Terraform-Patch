@@ -56,6 +56,24 @@ the cut turret flamethrower weapon, issues were it either didn't have any ammo o
 * Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host, Broken DLC weapons might need to be merged into items_mp.vpp_pc? (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
 * Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
 
+-----
+NOTES
+-----
+* Casual = Swat EDF like flies and blow shit up as the ultimate space asshole.
+  Normal = An average mix of sandbox fun and tactical combat. Nothing too heavy.
+  Hard = You'll need to think smarter and plan your attacks ahead of time, using guerrilla hit and run tactics and then getting the hell out, if you want to succeed. Challenging, but balanced.
+  Insane = An ultimate test of your guerrilla skills. You stand no chance against the military might of the EDF without careful planning and tactical knowledge in a realistic guerrilla warfare scenario. Where you are but an average man, standing against the overwhelming force of your oppressive military dictators. 
+
+* I'd balance it generally around Normal and Hard as the defaults.
+  Casual is pretty self-explanatory, and Insane would be a semi-realistic guerrilla warfare simulation.
+  Then the game has something to offer everyone. You can sandbox and dick around with little trouble, get an average middle of the road mix of challenge and story, get a balanced challenge that requires you to use hit and run tactics with forward thinking, or get a true realistic challenge of guerrilla skill and tactics that will push you in a desperate struggle for freedom. 
+
+* Stealth in vanilla is pretty much useless, so implementing those fixes would make stealth a much more viable option. I think in general we want to lean the player towards using guerrilla tactics on higher difficulties.
+  Encourage hit and run and stealth
+
+* https://discord.com/channels/@me/1004543616875778089/1022032142038994944
+* http://www.mediafire.com/file/w5kw5nkq6c2m88r/Red_Faction_Guerrilla_%2528Multiplayer_Beta%252C_Jun_18_2008%2529.rar/file
+
 ------
 OTHER PROJECTS
 ------
