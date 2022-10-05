@@ -3,6 +3,8 @@ v1.06x
 ------------
 
 [Fixes]
+* Disable the two broken maps
+* Fix stealthpack not working (effects.xtbl, matfx.xtbl, mp_backpacks.xtbl?)
 * Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
 * Fix grenade (seems to randomly stop working when played online and character tposes, weapon also breaks if unique ID is changed from 33, might need to be scripted in future)
 * Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
