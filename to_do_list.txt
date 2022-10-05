@@ -28,13 +28,17 @@ v1.06x
 * GFWL/Nordic Bonus: Some of the shipping containers are floating
 * Complex: remake it from scratch using the vanilla map file
 * Watchtower: remake it from scratch using the vanilla map file
-* Expansion: bridge changes cleaner when we can clone between maps
+* Expansion: make bridge changes cleaner when we can clone between maps
 * Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
 * Pinaccle: experimental spawn flipping fixes that apply only in CTF (try intial and respawn bools for team spawns)
 
 * Test adding multiple bagman spawns to randomize where it respawns
 * Update WC map thumbnails after the maps are polished
 
+* Quarantine: when it's possible to add new map files make a version of it without mines and out in the crators
+* Scrapheap: when it's possible to add new map files make a version of it without mines with lots of structures up until the invisible wall
+* Gulch: when it's possible to add new map files make a version of it without the mines with lots of towers, spawns, weapons around the currently empty part of the map
+* All WC maps: when it's possible to add new map files, add all the vanilla versions back and update wrecking_crew_maps.xtbl to restore barrels
 
 [Additions/Changes]
 * .exe with match countdown set to 6 seconds
