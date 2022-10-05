@@ -384,6 +384,27 @@ v1.062 ALPHA HOTFIX CHANGES
 * Re-exported Complex and Watchtower to possibly fix crashes
 * Initial loading screen updated
 
+---------------------------
+v1.063 ALPHA HOTFIX CHANGES
+---------------------------
+
+[Fixes]
+* Fixed two spawns where you got stuck inside the shipping container geometry on the Nordic Bonus/GFWL map
+* Fixed issue where it was impossible to get the bag down from the bridge by adding two Nanoforge spawns on Invasion
+* Possibly fixed issue with incorrect Misslepod killfeed icon
+
+[Assault Rifle Buff/Fix]
+* Added bullet tracers to the Assault Rifle 
+* Increased firerate slightly (Refire delay reduced to 95 from 100)
+* Reduced spread at max range slightly (Reduced to 1.85 from 2.0)
+* Reduced spread at min range slightly (Reduced to 0.85 from 0.95)
+* Reduced recoil slightly (Reduced to 0.8 from 0.9)
+* Increased damage slightly at min range (Increased to 41 from 40)
+
+[Reconstructor Nerf/Fix]
+* Repair range reduced to 2.8 from 3.0
+* Repair radius reduced to 1.9 from 2.1
+
 ------------
 |KNOWN BUGS|
 ------------
