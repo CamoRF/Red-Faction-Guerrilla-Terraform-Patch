@@ -391,6 +391,7 @@ v1.063 ALPHA HOTFIX CHANGES
 [Fixes]
 * Fixed two spawns where you got stuck inside the shipping container geometry on the Nordic Bonus/GFWL map
 * Fixed issue where it was impossible to get the bag down from the bridge by adding two Nanoforge spawns on Invasion
+* Fixed dates on the EOS war memorial
 * Possibly fixed issue with incorrect Misslepod killfeed icon
 
 [Reconstructor Nerf/Fix]
