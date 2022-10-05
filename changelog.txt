@@ -379,19 +379,24 @@ v1.061 ALPHA HOTFIX CHANGES
 v1.062 ALPHA HOTFIX CHANGES
 ---------------------------
 
+[Changes]
+* Initial loading screen updated
+
 [Fixes]
 * Disabled Vista in multiplayer level select due to bugs with duplicate weapon pickups
 * Re-exported Complex and Watchtower to possibly fix crashes
-* Initial loading screen updated
 
 ---------------------------
 v1.063 ALPHA HOTFIX CHANGES
 ---------------------------
 
+[Changes]
+* Initial loading screen updated
+
 [Fixes]
+* Fixed issue with duplicate weapon pickups on Vista and re-implemented the map
 * Fixed two spawns where you got stuck inside the shipping container geometry on the Nordic Bonus/GFWL map
 * Fixed issue where it was impossible to get the bag down from the bridge by adding two Nanoforge spawns on Invasion
-* Fixed dates on the EOS war memorial
 * Possibly fixed issue with incorrect Misslepod killfeed icon
 
 [Reconstructor Nerf/Fix]
@@ -441,7 +446,6 @@ v1.063 ALPHA HOTFIX CHANGES
 * Lack of fog on various maps including Complex, will be fixed when the weather and lighting files are more understood
 * Some maps might have extreme fog when using the alternative time of day
 * Wrecking crew maps don't have backpack spawns until the Nanoforge modding tool allows us to add them
-* Vista is currently disabled in multiplayer due to a bug with duplicate weapon pickups
 
 [Characters]
 * EDF heavy changed to the white model in team games due to a bug with new characters

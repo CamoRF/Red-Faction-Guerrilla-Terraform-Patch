@@ -1,15 +1,9 @@
 -----------
-v1.063
------------
-* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
-* Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
-
------------
 v1.0xx
 ------------
 * Fill out empty space in the surrounding empty area on Gulch 
 * Make Expansion bridge changes cleaner when we can clone between maps
-* Fix weapon pickups remaining when picked up on Vista
+
 * .exe with match countdown set to 6 seconds
 * .exe with match end countdown set to 6 seconds
 * Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host, Broken DLC weapons might need to be merged into items_mp.vpp_pc? (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
@@ -44,6 +38,8 @@ the cut turret flamethrower weapon, issues were it either didn't have any ammo o
 * Fix grinder projectile texture
 * Add a single kaboom pack spawn with only 1 on the rack on overpass and crevice
 * Fix missing texture on Marauder lady
+* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
+* Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
 
 ----
 Test
@@ -58,6 +54,7 @@ Done
 * Reconstructor might be too powerful still - done
 * Assault Rifle: add <Tracer_Effect>wep_bullet_tracer_a</Tracer_Effect> under visuals in weapons.xtbl - done
 * Assault Rifle changes: wip
+* Fix weapon pickups remaining when picked up on Vista
 
 ------
 OTHER PROJECTS
