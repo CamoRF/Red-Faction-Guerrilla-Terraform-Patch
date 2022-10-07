@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		<!--START Kaboom Pack Added-->
+<!--START Kaboom Pack Added-->
 		<mp_backpacks>
 			<Name>Kaboom</Name>
 			<_Editor>
@@ -99,7 +99,7 @@
 			</pickup_effects>
 			<Unique_ID>10</Unique_ID>
 		</mp_backpacks>
-		<!--END Kaboom Pack Added-->
+<!--END Kaboom Pack Added-->
 		<mp_backpacks>
 			<Name>Fleetfoot</Name>
 			<_Editor>
@@ -134,9 +134,7 @@
 				<fall_speed_safety_factor>1.0</fall_speed_safety_factor>
 			</passive_abilities>
 			<activatable>0.0
-				
 				<deactivatable>True
-					
 					<player_deactivatable>True</player_deactivatable>
 				</deactivatable>
 				<uses_fuel>
@@ -295,7 +293,6 @@
 				<fall_speed_safety_factor>1.3</fall_speed_safety_factor>
 			</passive_abilities>
 			<activatable>0.0
-				
 				<active_abilities>
 					<movement_speed_factor>1</movement_speed_factor>
 					<damage_taken_factor>0</damage_taken_factor>
@@ -332,7 +329,6 @@
 					<fuel_refill_foley>MP_BACKPACK_THRUST_REFUELED</fuel_refill_foley>
 				</uses_fuel>
 				<deactivatable>True
-					
 					<player_deactivatable>False</player_deactivatable>
 				</deactivatable>
 				<no_cover>True</no_cover>
@@ -552,7 +548,6 @@
 				<fall_speed_safety_factor>1.0</fall_speed_safety_factor>
 			</passive_abilities>
 			<activatable>0.0
-				
 				<active_abilities>
 					<movement_speed_factor>1</movement_speed_factor>
 					<damage_taken_factor>1</damage_taken_factor>
@@ -758,7 +753,6 @@
 				<fall_speed_safety_factor>1.0</fall_speed_safety_factor>
 			</passive_abilities>
 			<activatable>0.0
-				
 				<uses_fuel>
 					<fuel_use_per_second>.15</fuel_use_per_second>
 					<fuel_regen_per_second>.125</fuel_regen_per_second>
@@ -852,23 +846,15 @@
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
 			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<radar>False</radar>
-			<fuel_use_per_second>0.10</fuel_use_per_second>
-			<!--from 0.1-->
-			<!--From 0.55 in previous patch version-->
+			<fuel_use_per_second>0.10</fuel_use_per_second> <!--from 0.1--> <!--From 0.55 in previous patch version-->
 			<jump_boost_horizontal>0.0</jump_boost_horizontal>
 			<jump_boost_vertical>0.0</jump_boost_vertical>
 			<activatable>
-				<fuel_use_per_second>0.10</fuel_use_per_second>
-				<!--from 0.91-->
-				<!--From 0.55 in previous patch version-->
-				<fuel_regen_per_second>0.042</fuel_regen_per_second>
-				<!--from 0.1-->
-				<!--From 0.066 in previous patch version-->
+				<fuel_use_per_second>0.10</fuel_use_per_second> <!--from 0.91--> <!--From 0.55 in previous patch version-->
+				<fuel_regen_per_second>0.042</fuel_regen_per_second> <!--from 0.1--> <!--From 0.066 in previous patch version-->
 				<uses_fuel>
-					<fuel_use_per_second>0.50</fuel_use_per_second>
-					<!--From 0.91-->
-					<fuel_regen_per_second>0.042</fuel_regen_per_second>
-					<!--From 0.10-->
+					<fuel_use_per_second>0.50</fuel_use_per_second> <!--From 0.91-->
+					<fuel_regen_per_second>0.042</fuel_regen_per_second> <!--From 0.10-->
 					<fuel_activation_cost>0.05</fuel_activation_cost>
 					<minimum_fuel_to_activate>1.0</minimum_fuel_to_activate>
 					<fuel_refill_foley>MP_BACKPACK_HEAL_REFUELED</fuel_refill_foley>
@@ -882,11 +868,8 @@
 					<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 					<area_damage_dealt_factor>1</area_damage_dealt_factor>
 					<health_regen>
-						<health_regen_per_second>235</health_regen_per_second>
-						<!--from 450-->
-						<!--From 180 in previous patch version-->
-						<health_regen_radius>7.0</health_regen_radius>
-						<!--from 5.8-->
+						<health_regen_per_second>235</health_regen_per_second> <!--from 450--> <!--From 180 in previous patch version-->
+						<health_regen_radius>7.0</health_regen_radius> <!--from 5.8-->
 						<health_regen_heal_enemies>True</health_regen_heal_enemies>
 					</health_regen>
 					<refire_delay_factor>1</refire_delay_factor>
@@ -921,12 +904,9 @@
 			</activatable>
 			<health_regen_per_second>0.0</health_regen_per_second>
 			<health_regen>
-				<health_regen_per_second>235</health_regen_per_second>
-				<!--from 500-->
-				<!--From 180 in previous patch version-->
+				<health_regen_per_second>235</health_regen_per_second> <!--from 500--> <!--From 180 in previous patch version-->
 				<health_regen_radius>7.0</health_regen_radius>
-				<health_regen_heal_enemies>True</health_regen_heal_enemies>
-				<!--from false-->
+				<health_regen_heal_enemies>True</health_regen_heal_enemies> <!--from False-->
 			</health_regen>
 			<passive_abilities>
 				<movement_speed_factor>1.0</movement_speed_factor>
@@ -993,9 +973,7 @@
 				<fall_speed_safety_factor>1.0</fall_speed_safety_factor>
 			</passive_abilities>
 			<activatable>0.0
-				
 				<deactivatable>True
-					
 					<player_deactivatable>True</player_deactivatable>
 				</deactivatable>
 				<active_abilities>
@@ -1098,9 +1076,7 @@
 				<fall_speed_safety_factor>1.0</fall_speed_safety_factor>
 			</passive_abilities>
 			<activatable>0.0
-				
 				<deactivatable>True
-					
 					<player_deactivatable>True</player_deactivatable>
 				</deactivatable>
 				<active_abilities>
@@ -1111,10 +1087,8 @@
 					<refire_delay_factor>1</refire_delay_factor>
 					<unlimited_ammo>False</unlimited_ammo>
 					<stealth>
-						<stealth_transparency>10.0</stealth_transparency>
-						<!--From 0.05-->
-						<local_stealth_transparency>10.0</local_stealth_transparency>
-						<!--From 0.25-->
+						<stealth_transparency>1.0</stealth_transparency> <!--From 0.05-->
+						<local_stealth_transparency>1.0</local_stealth_transparency> <!--From 0.25-->
 						<stealth_time_ms>1000</stealth_time_ms>
 						<restealth_time_ms>1000</restealth_time_ms>
 					</stealth>
@@ -1143,12 +1117,9 @@
 					<loop_waits_for_attack>True</loop_waits_for_attack>
 				</activation_effects>
 				<material_effects>
-					<on_backpack>False</on_backpack>
-					<!--From True-->
-					<on_human>False</on_human>
-					<!--From True-->
-					<on_weapon>False</on_weapon>
-					<!--From True-->
+					<on_backpack>True</on_backpack>
+					<on_human>True</on_human>
+					<on_weapon>True</on_weapon>
 				</material_effects>
 			</activatable>
 			<activation_effects>

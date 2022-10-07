@@ -185,9 +185,6 @@ v1.05 ALPHA CHANGES
 * Repair range increased to 5.0 from 2.5
 * Repair radius increased to 3.2 from 1.6
 
-[Nanorifle Buff]
-* Player body damage increased to 200 from 180
-
 [Stealth Pack Buff]
 * Increased transparency to 1.0 from 0.05
 * Increased local transparency to 1.0 from 0.25
@@ -316,7 +313,6 @@ v1.06 ALPHA CHANGES
 * Fixed bug with glass bullet holes with lots of them spawning at once looking weird and causing lag when player zoomed in to the decal
 * Fixed issue with broken loading screens and thumbnails when wrecking crew maps are played in the regular wrecking crew mode, also gave them the same HD textures as the multiplayer versions
 * Fixed more objects that were missing shadows
-* Increased draw distance of lighting
 * Increased ladder climbing speed slightly
 * Improved debris collision
 * Reduced size of blood pools slightly to increase realism
@@ -337,13 +333,6 @@ v1.06 ALPHA CHANGES
 [Grinder Fix]
 * Reduced randomness of the projectile by adjusting collision
 * Start and max speeds of the projectile increased to 70 from 65
-
-[Nanorifle Buff/Fix]
-* Reverted damage change in previous update
-* Bullet spread at min range reduced to 0.35 from 0.45
-* Bullet spread at max range reduced to 1.35 from 1.45
-* Bullet spread when aiming down sights at min range reduced to 0.15 from 0.2 
-* Bullet spread when aiming down sights at max range reduced to 0.75 from 0.8
 
 [Reconstructor Nerf/Fix]
 * Reverted changes in previous update, following changes are compared to vanilla values
@@ -383,7 +372,7 @@ v1.062 ALPHA HOTFIX CHANGES
 
 [Fixes]
 * Disabled Vista in multiplayer level select due to bugs with duplicate weapon pickups
-* Re-exported Complex and Watchtower to possibly fix crashes (EDIT: Didn't work)
+* Re-exported Complex and Watchtower to possibly fix crashes
 
 ---------------------------
 v1.063 ALPHA HOTFIX CHANGES
@@ -395,7 +384,7 @@ v1.063 ALPHA HOTFIX CHANGES
 [Fixes]
 * Fixed issue with duplicate weapon pickups on Vista and re-implemented the map
 * Fixed two spawns where you got stuck inside the shipping container geometry on the Nordic Bonus/GFWL map
-* Fixed issue where it was impossible to get the bag down from the bridge by adding two Nanoforge spawns on Invasion
+* Fixed issue where it was almost impossible to get the bag down from the bridge by adding two Nanoforge spawns on Invasion
 
 [Reconstructor Nerf/Fix]
 * Repair range reduced to 2.8 from 3.0
@@ -411,6 +400,24 @@ v1.063 ALPHA HOTFIX CHANGES
 
 [Subverter Additions]
 * Added bullet tracers
+
+---------------------------
+v1.064 ALPHA HOTFIX CHANGES
+---------------------------
+
+[Fixes]
+* Fixed crashing issues with Complex and Watchtower for real this time
+* Fixed player getting stuck on a building on Ruins
+* Fixed unobtainable rocket launcher spawn on Complex
+* Fixed broken stealth pack
+* Fixed broken nanorifle
+* Fixed various floating buildings and objects on WC maps
+* Fixed some spawns where player got stuck on Scrapheap
+* Fixed some objects that didn't spawn in demolition or bagman on Vista
+
+[Maps] 
+* Added various player spawns, weapon spawns and towers to the previously empty area surrounding the main area on Gulch
+* Added towers indicating where the invisible wall is, buildings, towers, player spawns and weapon spawns surrounding the main area on Scrapheap
 
 ------------
 |KNOWN BUGS|
@@ -438,7 +445,6 @@ v1.063 ALPHA HOTFIX CHANGES
 * Backpacks might clip through the characters on some of the new models, this can be fixed by fine tuning the offset axis values but will take time
 
 [Maps]
-* Complex and Watchtower have gamebreaking crashing issues, AVOID PLAYING THEM!
 * Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman and Bagman will not work on any Wrecking Crew map until the Nanoforge modding tool allows us to add siege, CTF and damage control objectives to maps
 * Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman, Bagman and Siege will not work on Siege maps until the Nanoforge modding tool allows us to add CTF and damage control objectives to maps
 * Some maps with night might be overly bright, will be fixed when the weather and lighting files are understood more

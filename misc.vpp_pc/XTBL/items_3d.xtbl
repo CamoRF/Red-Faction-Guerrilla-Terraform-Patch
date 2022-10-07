@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		<!--START Added DLC Weapons-->
+<!--START Added DLC Weapons-->
 		<Item>
 			<Name>EDF_Super_Gauss</Name>
 			<Item_Flags>
@@ -119,10 +119,9 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag><Flag>no_pickup_delete</Flag><Flag>casts_shadows</Flag><Flag>casts_drop_shadows</Flag>-->
 			</Item_Flags>
 		</Item>
-		<!--END Added DLC Weapons-->
+<!--END Added DLC Weapons-->
 		<Item>
 			<Name>Lawrence_Eos_Coat</Name>
 			<Spin_Time>5000</Spin_Time>

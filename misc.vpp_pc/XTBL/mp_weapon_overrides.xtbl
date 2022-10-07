@@ -27,16 +27,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</mp_weapons>
-		<mp_weapons>
-			<Name>nano_rifle</Name>
-			<Spread_Min>0.35</Spread_Min>
-			<Spread_Max>1.35</Spread_Max>
-			<Spread_Fine_Aim_Min>0.15</Spread_Fine_Aim_Min>
-			<Spread_Fine_Aim_Max>0.75</Spread_Fine_Aim_Max>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</mp_weapons>
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

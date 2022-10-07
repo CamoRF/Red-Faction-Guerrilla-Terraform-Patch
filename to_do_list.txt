@@ -3,15 +3,11 @@ v1.06x
 ------------
 
 [Fixes]
-* Fix Complex crashing the game
-* Fix Nanorifle shooting in random directions
-* Fix stealthpack not working (effects.xtbl, matfx.xtbl, mp_backpacks.xtbl?)
 * Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
 * Fix grenade (seems to randomly stop working when played online and character tposes, weapon also breaks if unique ID is changed from 33, might need to be scripted in future)
 * Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
 * Fix missing texture on Marauder lady
 * Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
-* Fix grinder projectile texture
 * Restore Dan Masons yellow jacket
 * Use mp_explosion_overrides.xtbl for explosion changes so it doesn't mess with singleplayer
 
@@ -20,29 +16,18 @@ v1.06x
 * Add cliff under maps that are missing it when bounding box makes sense
 * Add CTF, Damage Control objectives and backpack racks to WC maps when Nanoforge supports it
 * Add more neutral spawns to Siege maps (Framework done)
-
 * Fix out of bounds spots on Excavation, Remnant, Puncture, Warlords and Gradient
-* Fix random backpacks on WC maps (requires adding backpack racks I believe)
-
-* Scrapheap: very large and needs mines around the map, has a spawn where you can get stuck in a frame
-* Gulch: very large and needs mines around the map
+* Fix random backpacks on WC maps (requires adding backpack racks I believe)awn where you can get stuck in a frame
 * Ruins: has issues with some of the rocks being hard to climb and the player can get stuck on the spikes on buildings
 * Repurcussion: might need adjustments to some of the spawns inside the pipes
 * GFWL/Nordic Bonus: Some of the shipping containers are floating
-* Complex: remake it from scratch using the vanilla map file
-* Watchtower: remake it from scratch using the vanilla map file
 * Expansion: make bridge changes cleaner when we can clone between maps
 * Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
 * Pinaccle: experimental spawn flipping fixes that apply only in CTF (try intial and respawn bools for team spawns)
-* Invasion: Floating building
-
 * Test adding multiple bagman spawns to randomize where it respawns
 * Update WC map thumbnails after the maps are polished
-
-* Quarantine: when it's possible to add new map files make a version of it without mines and out in the crators
-* Scrapheap: when it's possible to add new map files make a version of it without mines with lots of structures up until the invisible wall
-* Gulch: when it's possible to add new map files make a version of it without the mines with lots of towers, spawns, weapons around the currently empty part of the map
-* All WC maps: when it's possible to add new map files, add all the vanilla versions back and update wrecking_crew_maps.xtbl to restore barrels
+* Tutorial area map
+* Add barrels back to WC maps without gamemode flags 
 
 [Additions/Changes]
 * .exe with match countdown set to 6 seconds
