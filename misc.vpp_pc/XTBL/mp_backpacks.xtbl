@@ -48,10 +48,9 @@
 						<camera_shake>backpack_kaboom_ramp</camera_shake>
 						<player_effects>mp_kaboom_charge_sound</player_effects>
 					</ramp_up_effects>
-					<!--<failed_activation_foley>MP_BACKPACK_COMMANDO_NO_FUEL</failed_activation_foley><sfx_alr>MP_BACKPACK_COMMANDO</sfx_alr><sfx_npc_alr>MP_BACKPACK_COMMANDO_NPC</sfx_npc_alr>-->
 					<!--<failed_activation_foley>MP_BACKPACK_KABOOM_NO_FUEL</failed_activation_foley>-->
-					<sfx_alr>MP_BACKPACK_KABOOM_PC</sfx_alr>
-					<sfx_npc_alr>MP_BACKPACK_KABOOM_NPC</sfx_npc_alr>
+					<!--<sfx_alr>MP_BACKPACK_KABOOM_PC</sfx_alr>
+					<sfx_npc_alr>MP_BACKPACK_KABOOM_NPC</sfx_npc_alr>-->
 					<backpack_effects></backpack_effects>
 					<loop_waits_for_attack>True</loop_waits_for_attack>
 				</activation_effects>
@@ -60,8 +59,6 @@
 					<fuel_regen_per_second>.25</fuel_regen_per_second>
 					<fuel_activation_cost>1</fuel_activation_cost>
 					<minimum_fuel_to_activate>1</minimum_fuel_to_activate>
-					<!--<fuel_refill_foley>MP_BACKPACK_COMMANDO_REFUELED</fuel_refill_foley>-->
-					<!--<fuel_refill_foley>MP_BACKPACK_KABOOM_REFUELED</fuel_refill_foley>-->
 				</uses_fuel>
 			</activatable>
 			<jump_boost_horizontal>0.0</jump_boost_horizontal>
@@ -85,7 +82,6 @@
 				<ramp_up_effects>
 					<camera_shake>backpack_kaboom_ramp</camera_shake>
 				</ramp_up_effects>
-				<!--<failed_activation_foley>MP_BACKPACK_NO_FUEL_WARNING</failed_activation_foley>-->
 			</activation_effects>
 			<icon_name>ui_hud_backpack_icon_kaboom</icon_name>
 			<hint_text>HM_BACKPACK_KABOOM_HINT</hint_text>
