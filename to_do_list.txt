@@ -10,13 +10,21 @@ v1.06x
 * Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
 * Restore Dan Masons yellow jacket
 * Use mp_explosion_overrides.xtbl for explosion changes so it doesn't mess with singleplayer
+* Compress + Condense table.vpp_pc
 
 [Maps]
 * Add a single kaboom pack spawn with only 1 on the rack on overpass and crevice
 * Add cliff under maps that are missing it when bounding box makes sense
 * Add CTF, Damage Control objectives and backpack racks to WC maps when Nanoforge supports it
 * Add more neutral spawns to Siege maps (Framework done)
-* Fix out of bounds spots on Excavation, Remnant, Puncture, Warlords and Gradient
+* Fix out of bounds spots on Excavation - done
+* Fix out of bounds spot on Remnant - mostly done but there's still a small rock
+* Fix out of bounds spot on Puncture -
+* Fix out of bounds spot on Stratosphere -
+* Add team spawns on WC maps - 
+* Add more siege maps (Framework and Fallfactor)
+ 
+Puncture, stratosphere, Warlords and Gradient
 * Fix random backpacks on WC maps (requires adding backpack racks I believe)awn where you can get stuck in a frame
 * Ruins: has issues with some of the rocks being hard to climb and the player can get stuck on the spikes on buildings
 * Repurcussion: might need adjustments to some of the spawns inside the pipes
@@ -28,6 +36,8 @@ v1.06x
 * Update WC map thumbnails after the maps are polished
 * Tutorial area map
 * Add barrels back to WC maps without gamemode flags 
+* Fix missing flags on every map
+* Move the rocket launcher on complex to an even more hidden spot on the rock
 
 [Additions/Changes]
 * .exe with match countdown set to 6 seconds

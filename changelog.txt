@@ -414,6 +414,12 @@ v1.064 ALPHA HOTFIX CHANGES
 * Fixed various floating buildings and objects on WC maps
 * Fixed some spawns where player got stuck on Scrapheap
 * Fixed some objects that didn't spawn in demolition or bagman on Vista
+* Fixed out of bounds map exploit on Remnant
+* Fixed out of bounds map exploit on Excavation
+* Fixed out of bounds map exploit on Imperial
+* Fixed out of bounds map exploit on Warlords
+* Fixed out of bounds map exploit on Puncture
+* Fixed out of bounds map exploit on Stratosphere
 
 [Maps] 
 * Added various player spawns, weapon spawns and towers to the previously empty area surrounding the main area on Gulch
