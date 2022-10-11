@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		<!--START Added DLC Weapons to SP-->
+<!--START Added DLC Weapons to SP-->
 		<squad_loadout>
 			<Name>Subverter</Name>
 			<weapon_type>edf_subverter</weapon_type>
@@ -33,7 +33,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</squad_loadout>
-		<!--END Added DLC Weapons to SP-->
+<!--END Added DLC Weapons to SP-->
 		<squad_loadout>
 			<Name>Pistol</Name>
 			<weapon_type>edf_pistol</weapon_type>

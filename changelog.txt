@@ -402,28 +402,73 @@ v1.063 ALPHA HOTFIX CHANGES
 * Added bullet tracers
 
 ---------------------------
-v1.064 ALPHA HOTFIX CHANGES
+v1.064 ALPHA CHANGES
 ---------------------------
 
 [Fixes]
 * Fixed crashing issues with Complex and Watchtower for real this time
 * Fixed player getting stuck on a building on Ruins
-* Fixed unobtainable rocket launcher spawn on Complex
 * Fixed broken stealth pack
 * Fixed broken nanorifle
 * Fixed various floating buildings and objects on WC maps
 * Fixed some spawns where player got stuck on Scrapheap
 * Fixed some objects that didn't spawn in demolition or bagman on Vista
-* Fixed out of bounds map exploit on Remnant
+* Fixed out of bounds map exploits on Remnant
 * Fixed out of bounds map exploit on Excavation
-* Fixed out of bounds map exploit on Imperial
+* Fixed out of bounds map exploits on Imperial
 * Fixed out of bounds map exploit on Warlords
-* Fixed out of bounds map exploit on Puncture
+* Fixed out of bounds map exploits on Puncture
 * Fixed out of bounds map exploit on Stratosphere
+* Fixed out of bounds map exploits on Broadside
+* Fixed out of bounds map exploit on Rift
+* Fixed out of bounds map exploits on Vista 
+* Fixed out of bounds map exploits on Fortress
+* Fixed out of bounds map exploit on Repurcussion
+* Fixed out of bounds map exploits on Overpass 
+* Fixed out of bounds map exploits on Downfall
+* Fixed out of bounds map exploits on Gradient
+* Fixed missing killzones/cliffs under various maps
+* Fixed two weapon spawns in the same location on Gulch 
+* Fixed two weapon spawns in the same location on Cascade 
+* Deleted out of bounds player spawn on Repurcussion
+* Deleted out of bounds weapon spawn on Abandoned
+* Fixed host migrating randomly (again)
+
 
 [Maps] 
 * Added various player spawns, weapon spawns and towers to the previously empty area surrounding the main area on Gulch
 * Added towers indicating where the invisible wall is, buildings, towers, player spawns and weapon spawns surrounding the main area on Scrapheap
+* Added a misslepod spawn in a difficult to reach location on Settlement 
+* Added a super gauss rifle spawn in a difficult to reach location on Settlement
+* Added a hidden thermo spawn on Repurcussion
+* Added a hidden misslepod spawn on Repurcussion
+* Added a misslepod spawn to one of the walkways on Rift 
+* Added a misslepod to one of the walkways on Haven
+* Added a rocket spawn to Stratosphere
+* Added more spectator cameras to GFWL/Nordic Bonus
+* Slight adjustments to existing misslepod and super gauss rifle spawn locations on Settlement 
+* Slight adjustment to the existing super gauss rifle spawn on Rift
+* Slight adjustments to the existing misslepod and super gauss rifle spawns on Excavation
+* Moved rocket launcher spawn to a more hidden location on Complex
+* Moved super gauss rifle spawn location on Haven 
+* Added new siege maps
+
+[Changes] 
+* Enabled friendly fire by default in custom games
+* 
+
+[Sort]
+- Removed out of bounds weapons on GFWL/Nordic Bonus
+- Added smokestack to GFWL/Nordic Bonus 
+- Added trees and signs to indicate where the out of bounds areas are 
+- Fixed out of bounds exploits on GFWL
+- Added another monument on Imperial 
+- Added another building on Imperial 
+- Fixed out of bounds on Imperial 
+- Added a second rail gun spawn on Imperial 
+- Moved bag spawn location on Imperial
+- Fixed broken effects on GFWL
+- Added another rail driver spawn on Imperial
 
 ------------
 |KNOWN BUGS|

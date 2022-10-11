@@ -5,8 +5,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<SquadSpawnPeriod>50</SquadSpawnPeriod>
-			<!--From 75 for all of them-->
+			<SquadSpawnPeriod>50</SquadSpawnPeriod> <!--From 75 for all of them-->
 			<NPCSpawnPeriod>50</NPCSpawnPeriod>
 			<MinSpawnDistance>100.0</MinSpawnDistance>
 		</SpawnParameters>

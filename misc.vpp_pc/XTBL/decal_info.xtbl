@@ -9,7 +9,6 @@
 		<container_type>GSC_DECALS</container_type>
 		<container_preload_type>GSC_DECALS_PRELOAD</container_preload_type>
 		<container_contents>material
-			
 			<name>filename</name>
 			<ext>mat</ext>
 			<bitmap_file_preload_ext>slw3</bitmap_file_preload_ext>
@@ -25,8 +24,7 @@
 				<Filename>vfx_decal_bullet_cem.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.2</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -46,8 +44,7 @@
 				<Filename>vfx_decal_bullet_glass.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.16</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -67,8 +64,7 @@
 				<Filename>decal_test1.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.12</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -89,8 +85,7 @@
 			</Material>
 			<Preload>True</Preload>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>0</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>0</Fade_Time> <!--From 0-->
 			<Width>0.3</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -110,8 +105,7 @@
 			</Material>
 			<Preload>True</Preload>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -131,8 +125,7 @@
 			</Material>
 			<Preload>True</Preload>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -152,8 +145,7 @@
 			</Material>
 			<Preload>True</Preload>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -173,8 +165,7 @@
 			</Material>
 			<Preload>True</Preload>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -193,8 +184,7 @@
 				<Filename>decal_blood_splat.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>0</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>0</Fade_Time> <!--From 0-->
 			<Width>0.3</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -214,8 +204,7 @@
 				<Filename>decal_blood_splat_2.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>0</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>0</Fade_Time> <!--From 0-->
 			<Width>0.8</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -235,8 +224,7 @@
 				<Filename>decal_blood_splat_2.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>0</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>0</Fade_Time> <!--From 0-->
 			<Width>2.0</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -257,8 +245,7 @@
 			</Material>
 			<Preload>True</Preload>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -277,8 +264,7 @@
 				<Filename>vfx_decal_glass_crack.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>1.4</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -298,8 +284,7 @@
 				<Filename>vfx_decal_glass_crack_2.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>1.6</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -319,8 +304,7 @@
 				<Filename>vfx_decal_glass_crack_3.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>1.2</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -340,8 +324,7 @@
 				<Filename>vfx_decal_bullet_comp.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.1</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -361,8 +344,7 @@
 				<Filename>vfx_decal_bullet_dirt.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.1</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -382,8 +364,7 @@
 				<Filename>vfx_decal_bullet_metal.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.15</Width>
 			<Depth>.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -404,8 +385,7 @@
 			</Material>
 			<Preload>True</Preload>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -425,8 +405,7 @@
 			</Material>
 			<Preload>True</Preload>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -446,8 +425,7 @@
 			</Material>
 			<Preload>True</Preload>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -467,8 +445,7 @@
 			</Material>
 			<Preload>True</Preload>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -488,8 +465,7 @@
 			</Material>
 			<Preload>True</Preload>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>1</Width>
 			<Depth>0.02</Depth>
 			<Depth_Fade_Start>0.5133333</Depth_Fade_Start>
@@ -508,8 +484,7 @@
 				<Filename>vfx_decal_raildriver.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time>
-			<!--From 0-->
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.15</Width>
 			<Depth>.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>

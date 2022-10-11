@@ -3,7 +3,7 @@
 		<MP_character>
 			<Name>FFA</Name>
 			<Character_Grid>
-				<!--START NEW CHARACTERS ADDED-->
+<!--START NEW CHARACTERS ADDED-->
 				<Character_Element>
 					<Character_Name>Carmen</Character_Name>
 					<Display_Name>Carmen</Display_Name>
@@ -937,8 +937,7 @@
 							<backpack_offset>
 								<X>.01</X>
 								<Y>-.02</Y>
-								<Z>.08</Z>
-								<!--From .03-->
+								<Z>.08</Z> <!--From .03-->
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -1269,7 +1268,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				<!--END NEW CHARACTERS ADDED-->
+<!--END NEW CHARACTERS ADDED-->
 				<Character_Element>
 					<Character_Name>EDF_Grunt_Braun</Character_Name>
 					<Display_Name>MENU_CHAR_GRUNT</Display_Name>
@@ -3657,11 +3656,9 @@
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>EDF_Elite_Heavy_MP</Character_Name>
-					<!--<Character_Name>EDF_Elite_Heavy_Tan_MP</Character_Name>-->
+					<Character_Name>EDF_Elite_Heavy_MP</Character_Name> <!--<Character_Name>EDF_Elite_Heavy_Tan_MP</Character_Name>-->
 					<Display_Name>MENU_CHAR_HEAVY</Display_Name>
-					<Bitmap_Name>ui_mp_char_edf_heavy_w</Bitmap_Name>
-					<!--<Bitmap_Name>ui_mp_char_edf_heavy</Bitmap_Name>-->
+					<Bitmap_Name>ui_mp_char_edf_heavy_w</Bitmap_Name> <!--<Bitmap_Name>ui_mp_char_edf_heavy</Bitmap_Name>-->
 					<Unlock_Level>114</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
 					<backpack_offsets></backpack_offsets>
@@ -3674,7 +3671,7 @@
 		<MP_character>
 			<Name>Guerilla</Name>
 			<Character_Grid>
-				<!--START MARAUDERS ON RF TEAM-->
+<!--START MARAUDERS ON RF TEAM-->
 				<Character_Element>
 					<Character_Name>EddieMP</Character_Name>
 					<Display_Name>MENU_CHAR_EDDIE</Display_Name>
@@ -3966,8 +3963,8 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				<!--END MARAUDERS ON RF TEAM-->
-				<!--START NEW CHARACTERS ADDED-->
+<!--END MARAUDERS ON RF TEAM-->
+<!--START NEW CHARACTERS ADDED-->
 				<Character_Element>
 					<Character_Name>Camie</Character_Name>
 					<Display_Name>Marauder Lady</Display_Name>
@@ -4356,12 +4353,10 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				<!--START Elegant Ian model swap-->
+<!--START Elegant Ian model swap-->
 				<Character_Element>
 					<Character_Name>Ian_Oasis</Character_Name>
-					<Display_Name>Elegant Ian</Display_Name>
-					<!--From Ian-->
-					<!--From MENU_CHAR_IAN-->
+					<Display_Name>Elegant Ian</Display_Name> <!--From Ian--> <!--From MENU_CHAR_IAN-->
 					<Bitmap_Name>ui_mp_char_ian</Bitmap_Name>
 					<Unlock_Level>60</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
@@ -5038,7 +5033,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				<!--END NEW CHARACTERS ADDED-->
+<!--END NEW CHARACTERS ADDED-->
 				<Character_Element>
 					<Character_Name>MP_Dustin</Character_Name>
 					<Display_Name>MENU_CHAR_DUSTIN</Display_Name>

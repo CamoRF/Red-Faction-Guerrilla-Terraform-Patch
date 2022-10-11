@@ -1,6 +1,34 @@
 ------------
-v1.06x
+v1.064
 ------------
+
+[Sort]
+* Double check all flags on maps 
+* Remake scrapheap and remove the spawns where you get stuck, add mines around the map
+* Export doubletime and fix the out of bounds place where you fall down the hole - test
+* Fix bounding boxes on WC map weapons
+* Fix out of bounds spot on GFWL and Crevice
+* Remove ghost children from objects
+* Haven: Add more mines to the out of bounds area starting from the building you leap from 
+* Cascade: Add a couple m16 spawns, Add a repair tool under the bridge
+* Pipeline: Add a couple hidden misslepod spawns
+* Imperial: Fix the two small rock out of bounds exploits
+* Slightly bump RPG explosion radius? 
+* Slightly bump grinder speed?
+* Move bag on Abandonded 
+* Add team spawns on Imperial 
+* Add more weapons to make your way up the large buildings on Imperial, nano forge and reconstructor 
+* Use smaller mines on Equilbrium/landbridge
+* Restore complex smokestack
+	0101smokestack_a.rfgchunk_pc
+
+	186.775, 0, -367.993
+
+	-0.000, 0, -1.000
+
+	0, 1.000, 0
+
+	1.000, 0.000, -0.000
 
 [Fixes]
 * Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
@@ -85,3 +113,11 @@ OTHER PROJECTS
 * Increase gravity slightly, jumping feels floaty
 * Quick Save hotkey 
 * First person: Remove Alec Masons head, replace weapon models with ones for first person, reduce clipping, change animations, script to switch back to third person in vehicles
+
+------------
+LOW PRIORITY 
+------------
+
+- Singularity launcher
+- Gauss shotgun
+- Reconstructor flamethrower

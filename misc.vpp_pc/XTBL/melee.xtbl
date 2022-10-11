@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		<!--START DLC Weapons Added-->
+<!--START DLC Weapons Added-->
 		<MeleeMove>
 			<Name>missilepod_melee</Name>
 			<AttackAnim>melee</AttackAnim>
@@ -255,7 +255,7 @@
 				</AnimSet>
 			</MoveDataList>
 		</MeleeMove>
-		<!--END DLC Weapons Added-->
+<!--END DLC Weapons Added-->
 		<MeleeMove>
 			<Name>ar_melee</Name>
 			<AttackAnim>melee</AttackAnim>

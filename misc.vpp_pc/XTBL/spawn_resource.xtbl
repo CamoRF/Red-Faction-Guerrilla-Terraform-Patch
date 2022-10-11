@@ -5,9 +5,9 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<edf_population>8</edf_population>
+			<edf_population>3</edf_population>
 			<gue_population>8</gue_population>
-			<mar_population>8</mar_population>
+			<mar_population>3</mar_population>
 			<rotate_slots>True</rotate_slots>
 		</spawn_resource_entry>
 		<spawn_resource_entry>
@@ -763,7 +763,7 @@
 					<vehicle_group>Mar_Raider</vehicle_group>
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
-				<!--START DLC Vehicles Added-->
+<!--START DLC Vehicles Added-->
 				<vehicle_info>
 					<vehicle_group>Mar_Stomper</vehicle_group>
 					<reservation_count>1</reservation_count>
@@ -772,7 +772,7 @@
 					<vehicle_group>Mar_Chomper</vehicle_group>
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
-				<!--END DLC Vehicles Added-->
+<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries</Category>

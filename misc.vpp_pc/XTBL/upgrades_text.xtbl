@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		<!--START DLC Weapons Added-->
+<!--START DLC Weapons Added-->
 		<Upgrades_Identifier>
 			<Name>UPG_SUPER_GAUSS</Name>
 			<_Editor>
@@ -13,7 +13,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Upgrades_Identifier>
-		<!--END DLC Weapons Added-->
+<!--END DLC Weapons Added-->
 		<Upgrades_Identifier>
 			<Name>UPG_JETPACK</Name>
 			<_Editor>

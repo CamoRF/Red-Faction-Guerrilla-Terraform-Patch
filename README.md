@@ -1,7 +1,7 @@
 # Red Faction Guerrilla Community Patch
 - Version: v1.064 ALPHA
-- Date: 7-10-2022
-- Build: 107
+- Date: 11-10-2022
+- Build: 1203
 - Work-in-progress project that adds content, fixes bugs, and enhances many features.
 
 # Auto Install (Recommended)
@@ -14,7 +14,7 @@
 - [v1.061 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6264)
 - [v1.062 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6267)
 - [v1.063 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6269)
-- [v1.064 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6269)
+- [vPlaceholder](placeholder)
 
 # Changelog
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Community-Patch/v1.061-Hotfix/changelog.txt)
