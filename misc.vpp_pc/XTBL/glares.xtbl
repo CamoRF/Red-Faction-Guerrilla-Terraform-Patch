@@ -13,9 +13,9 @@
 					<Filename>SunGlare01.tga</Filename>
 				</Bitmap_File>
 				<Rear_View>true</Rear_View>
-				<Intensity>9999</Intensity>
+				<Intensity>5000</Intensity> <!--From 9999-->
 				<Radius>
-					<Fixed_Radius>20</Fixed_Radius>
+					<Fixed_Radius>10</Fixed_Radius> <!--From 20-->
 				</Radius>
 			</Corona_Bitmap>
 			<_Editor>

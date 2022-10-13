@@ -1,34 +1,26 @@
 ------------
-v1.064
+v1.07
 ------------
 
 [Sort]
-* Double check all flags on maps 
-* Remake scrapheap and remove the spawns where you get stuck, add mines around the map
-* Export doubletime and fix the out of bounds place where you fall down the hole - test
-* Fix bounding boxes on WC map weapons
-* Fix out of bounds spot on GFWL and Crevice
+* Make team spawns children of CTF objective
+* Remove spawns where you get stuck on Scrapheap
+* Fix out of bounds areas on Doubletime
+* Fix bounding boxes on WC map weapons (Frost and Stratosphere to go)
 * Remove ghost children from objects
-* Haven: Add more mines to the out of bounds area starting from the building you leap from 
+* Haven: Add more mines to the out of bounds area cliff starting from the building you leap from 
 * Cascade: Add a couple m16 spawns, Add a repair tool under the bridge
 * Pipeline: Add a couple hidden misslepod spawns
-* Imperial: Fix the two small rock out of bounds exploits
-* Slightly bump RPG explosion radius? 
-* Slightly bump grinder speed?
-* Move bag on Abandonded 
+* Crash site has duplicate weapon spawns on the hill in the middle and the rpg hill 
+* Wrecking crew bagman playlist is missing the regular WC maps, only has DLC
+* Add team bagman wrecking crew playlist
+* Add pipes to help you climb the hill on Frost
 * Add team spawns on Imperial 
 * Add more weapons to make your way up the large buildings on Imperial, nano forge and reconstructor 
 * Use smaller mines on Equilbrium/landbridge
-* Restore complex smokestack
-	0101smokestack_a.rfgchunk_pc
-
-	186.775, 0, -367.993
-
-	-0.000, 0, -1.000
-
-	0, 1.000, 0
-
-	1.000, 0.000, -0.000
+* Add siege objectives to Quarantine, Stratosphere and Garrison
+* Add new Marauder NPCs to SP
+* Add Spiker to singleplayer
 
 [Fixes]
 * Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
@@ -45,14 +37,9 @@ v1.064
 * Add cliff under maps that are missing it when bounding box makes sense
 * Add CTF, Damage Control objectives and backpack racks to WC maps when Nanoforge supports it
 * Add more neutral spawns to Siege maps (Framework done)
-* Fix out of bounds spots on Excavation - done
-* Fix out of bounds spot on Remnant - mostly done but there's still a small rock
 * Fix out of bounds spot on Puncture -
-* Fix out of bounds spot on Stratosphere -
 * Add team spawns on WC maps - 
 * Add more siege maps (Framework and Fallfactor)
- 
-Puncture, stratosphere, Warlords and Gradient
 * Fix random backpacks on WC maps (requires adding backpack racks I believe)awn where you can get stuck in a frame
 * Ruins: has issues with some of the rocks being hard to climb and the player can get stuck on the spikes on buildings
 * Repurcussion: might need adjustments to some of the spawns inside the pipes
@@ -121,3 +108,22 @@ LOW PRIORITY
 - Singularity launcher
 - Gauss shotgun
 - Reconstructor flamethrower
+
+[DONE]
+
+* Restore complex smokestack - done
+	0101smokestack_a.rfgchunk_pc
+
+	186.775, 0, -367.993
+
+	-0.000, 0, -1.000
+
+	0, 1.000, 0
+
+	1.000, 0.000, -0.000
+* Fix out of bounds spot on GFWL and Crevice 	
+* Imperial: Fix the two small rock out of bounds exploits
+* Move bag on Abandonded 
+* Fix out of bounds spot on Stratosphere - done
+* Fix out of bounds spots on Excavation - done
+* Fix out of bounds spot on Remnant - mostly done but there's still a small rock

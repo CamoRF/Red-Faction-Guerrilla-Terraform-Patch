@@ -1,5 +1,105 @@
 <root>
 	<Table>
+<!--START WC Playlists Added-->		
+		<playlist_entries>
+			<Name>Bag_Ruins</Name>
+			<mode>bagman</mode>
+			<level>wcdlc1</level>
+			<ideal_players>6</ideal_players>
+			<default_score>50</default_score>
+			<_Editor>
+				<Category>Entries:Bagman_5-6</Category>
+			</_Editor>
+			<options_set>Default</options_set>
+		</playlist_entries>
+		<playlist_entries>
+			<Name>Bag_Repercussion</Name>
+			<mode>bagman</mode>
+			<level>wcdlc2</level>
+			<ideal_players>6</ideal_players>
+			<default_score>50</default_score>
+			<_Editor>
+				<Category>Entries:Bagman_5-6</Category>
+			</_Editor>
+			<options_set>Default</options_set>
+		</playlist_entries>
+		<playlist_entries>
+			<Name>Bag_Imperial</Name>
+			<mode>bagman</mode>
+			<level>wcdlc3</level>
+			<ideal_players>6</ideal_players>
+			<default_score>50</default_score>
+			<_Editor>
+				<Category>Entries:Bagman_5-6</Category>
+			</_Editor>
+			<options_set>Default</options_set>
+		</playlist_entries>
+		<playlist_entries>
+			<Name>Bag_Expansion</Name>
+			<mode>bagman</mode>
+			<level>wcdlc4</level>
+			<ideal_players>6</ideal_players>
+			<default_score>50</default_score>
+			<_Editor>
+				<Category>Entries:Bagman_5-6</Category>
+			</_Editor>
+			<options_set>Default</options_set>
+		</playlist_entries>
+		<playlist_entries>
+			<Name>Bag_Frost</Name>
+			<mode>bagman</mode>
+			<level>wcdlc5</level>
+			<ideal_players>6</ideal_players>
+			<default_score>50</default_score>
+			<_Editor>
+				<Category>Entries:Bagman_5-6</Category>
+			</_Editor>
+			<options_set>Default</options_set>
+		</playlist_entries>
+		<playlist_entries>
+			<Name>Bag_Abandoned</Name>
+			<mode>bagman</mode>
+			<level>wcdlc6</level>
+			<ideal_players>6</ideal_players>
+			<default_score>50</default_score>
+			<_Editor>
+				<Category>Entries:Bagman_5-6</Category>
+			</_Editor>
+			<options_set>Default</options_set>
+		</playlist_entries>
+		<playlist_entries>
+			<Name>Bag_Stratosphere</Name>
+			<mode>bagman</mode>
+			<level>wcdlc7</level>
+			<ideal_players>6</ideal_players>
+			<default_score>50</default_score>
+			<_Editor>
+				<Category>Entries:Bagman_5-6</Category>
+			</_Editor>
+			<options_set>Default</options_set>
+		</playlist_entries>
+		<playlist_entries>
+			<Name>Bag_Invasion</Name>
+			<mode>bagman</mode>
+			<level>wcdlc8</level>
+			<ideal_players>6</ideal_players>
+			<default_score>50</default_score>
+			<_Editor>
+				<Category>Entries:Bagman_5-6</Category>
+			</_Editor>
+			<options_set>Default</options_set>
+		</playlist_entries>
+		<playlist_entries>
+			<Name>Bag_GFWL</Name>
+			<mode>bagman</mode>
+			<level>wcdlc9</level>
+			<ideal_players>6</ideal_players>
+			<default_score>50</default_score>
+			<_Editor>
+				<Category>Entries:Bagman_5-6</Category>
+			</_Editor>
+			<options_set>Default</options_set>
+		</playlist_entries>		
 		<playlist_entries>
 			<Name>ta_Ruins</Name>
 			<mode>team_deathmatch</mode>
@@ -9,7 +109,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>50</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>ta_Repercussion</Name>
@@ -20,7 +120,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>50</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>ta_Imperial</Name>
@@ -31,7 +131,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>50</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>ta_Expansion</Name>
@@ -42,7 +142,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>45</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>ta_Frost</Name>
@@ -53,7 +153,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>50</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>ta_Abandoned</Name>
@@ -64,7 +164,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>50</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>ta_Stratosphere</Name>
@@ -75,7 +175,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>50</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>ta_Invasion</Name>
@@ -86,7 +186,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>50</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>ta_GFWL</Name>
@@ -97,7 +197,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>50</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>Aa_Ruins</Name>
@@ -108,7 +208,7 @@
 			</_Editor>
 			<ideal_players>3</ideal_players>
 			<default_score>20</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>Aa_Repercussion</Name>
@@ -119,7 +219,7 @@
 			</_Editor>
 			<ideal_players>3</ideal_players>
 			<default_score>20</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>Aa_Imperial</Name>
@@ -130,7 +230,7 @@
 			</_Editor>
 			<ideal_players>3</ideal_players>
 			<default_score>20</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>Aa_Expansion</Name>
@@ -141,7 +241,7 @@
 			</_Editor>
 			<ideal_players>3</ideal_players>
 			<default_score>20</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>Aa_Frost</Name>
@@ -152,7 +252,7 @@
 			</_Editor>
 			<ideal_players>3</ideal_players>
 			<default_score>20</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>Aa_Abandoned</Name>
@@ -163,7 +263,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>20</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>Aa_Stratosphere</Name>
@@ -174,7 +274,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>20</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>Aa_Invasion</Name>
@@ -185,7 +285,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>20</default_score>
-			<options_set>DLC</options_set>
+			<options_set>Default</options_set>
 		</playlist_entries>
 		<playlist_entries>
 			<Name>Aa_GFWL</Name>
@@ -196,7 +296,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>20</default_score>
-			<options_set>DLC</options_set></playlist_entries>-->
+			<options_set>Default</options_set></playlist_entries>-->
 			<playlist_entries>
 				<Name>ta_Complex</Name>
 				<mode>team_deathmatch</mode>
@@ -206,7 +306,7 @@
 				</_Editor>
 				<ideal_players>6</ideal_players>
 				<default_score>50</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>ta_Watchtower</Name>
@@ -217,7 +317,7 @@
 				</_Editor>
 				<ideal_players>6</ideal_players>
 				<default_score>50</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>ta_ScrapHeap</Name>
@@ -228,7 +328,7 @@
 				</_Editor>
 				<ideal_players>6</ideal_players>
 				<default_score>50</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>ta_Vista</Name>
@@ -239,7 +339,7 @@
 				</_Editor>
 				<ideal_players>6</ideal_players>
 				<default_score>50</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>ta_Fortress</Name>
@@ -250,7 +350,7 @@
 				</_Editor>
 				<ideal_players>6</ideal_players>
 				<default_score>50</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>ta_Factory</Name>
@@ -261,7 +361,7 @@
 				</_Editor>
 				<ideal_players>6</ideal_players>
 				<default_score>50</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>ta_Gulch</Name>
@@ -272,7 +372,7 @@
 				</_Editor>
 				<ideal_players>6</ideal_players>
 				<default_score>50</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>ta_Cascade</Name>
@@ -283,7 +383,7 @@
 				</_Editor>
 				<ideal_players>6</ideal_players>
 				<default_score>50</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>ta_Transmission</Name>
@@ -294,7 +394,7 @@
 				</_Editor>
 				<ideal_players>6</ideal_players>
 				<default_score>50</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>ta_Pipeline</Name>
@@ -305,7 +405,7 @@
 				</_Editor>
 				<ideal_players>6</ideal_players>
 				<default_score>50</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Complex</Name>
@@ -316,7 +416,7 @@
 				</_Editor>
 				<ideal_players>3</ideal_players>
 				<default_score>20</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Watchtower</Name>
@@ -327,7 +427,7 @@
 				</_Editor>
 				<ideal_players>3</ideal_players>
 				<default_score>20</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_ScrapHeap</Name>
@@ -338,7 +438,7 @@
 				</_Editor>
 				<ideal_players>3</ideal_players>
 				<default_score>20</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Vista</Name>
@@ -349,7 +449,7 @@
 				</_Editor>
 				<ideal_players>3</ideal_players>
 				<default_score>20</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Fortress</Name>
@@ -360,7 +460,7 @@
 				</_Editor>
 				<ideal_players>3</ideal_players>
 				<default_score>20</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Factory</Name>
@@ -371,7 +471,7 @@
 				</_Editor>
 				<ideal_players>6</ideal_players>
 				<default_score>20</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Gulch</Name>
@@ -382,7 +482,7 @@
 				</_Editor>
 				<ideal_players>3</ideal_players>
 				<default_score>20</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Cascade</Name>
@@ -393,7 +493,7 @@
 				</_Editor>
 				<ideal_players>3</ideal_players>
 				<default_score>20</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Transmission</Name>
@@ -404,7 +504,7 @@
 				</_Editor>
 				<ideal_players>3</ideal_players>
 				<default_score>20</default_score>
-				<options_set>DLC</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Pipeline</Name>
@@ -415,415 +515,9 @@
 				</_Editor>
 				<ideal_players>3</ideal_players>
 				<default_score>20</default_score>
-				<options_set>DLC</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Broadside1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_broadside</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
 				<options_set>Default</options_set>
 			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Broadside2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_broadside</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>VisibleSpecialModes</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Compound1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_minibase</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Compound2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_minibase</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>SuperCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Division1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_division</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Division2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_division</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>SuperCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Equillibrium1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_landbridge</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Equillibrium2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_landbridge</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>FastArmed1Random</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Gradient1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_overhang</level>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Gradient2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_overhang</level>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>VisibleSpecialModes</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Haven1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_islands</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Haven2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_islands</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>FastArmed3</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Puncture1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_puncture</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Broadside1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_broadside</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Broadside2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_broadside</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Jetpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Compound1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_minibase</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Compound2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_minibase</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Rhino</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Division1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_division</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Division2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_division</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>FastArmed5</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Equillibrium1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_landbridge</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Equillibrium2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_landbridge</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Concussion</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Gradient1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_overhang</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Gradient2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_overhang</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Jetpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Haven1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_islands</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Haven2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_islands</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Jetpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Puncture1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_puncture</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo0_Broadside1</Name>
-				<mode>demolition</mode>
-				<level>mpdlc_broadside</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo0_Broadside2</Name>
-				<mode>demolition</mode>
-				<level>mpdlc_broadside</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo:DLC</Category>
-				</_Editor>
-				<options_set>Fleetfoot</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo0_Compound1</Name>
-				<mode>demolition</mode>
-				<level>mpdlc_minibase</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo0_Compound2</Name>
-				<mode>demolition</mode>
-				<level>mpdlc_minibase</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo:DLC</Category>
-				</_Editor>
-				<options_set>Jetpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo0_Division1</Name>
-				<mode>demolition</mode>
-				<level>mpdlc_division</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo0_Division2</Name>
-				<mode>demolition</mode>
-				<level>mpdlc_division</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo:DLC</Category>
-				</_Editor>
-				<options_set>FastArmed1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo0_Equillibrium1</Name>
-				<mode>demolition</mode>
-				<level>mpdlc_landbridge</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo0_Equillibrium2</Name>
-				<mode>demolition</mode>
-				<level>mpdlc_landbridge</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo:DLC</Category>
-				</_Editor>
-				<options_set>WeaponPeacekeeper</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo0_Haven1</Name>
-				<mode>demolition</mode>
-				<level>mpdlc_islands</level>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo0_Haven2</Name>
-				<mode>demolition</mode>
-				<level>mpdlc_islands</level>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo:DLC</Category>
-				</_Editor>
-				<options_set>WeaponPeacekeeper</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TAta0_Broadside1</Name>
-				<mode>team_deathmatch</mode>
-				<level>mpdlc_broadside</level>
-				<ideal_players>8</ideal_players>
-				<default_score>50</default_score>
-				<_Editor>
-					<Category>Entries:TeamAnarchy_6-8:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
+<!--END WC Playlists Added-->			
 			<playlist_entries>
 				<Name>Aa0_Broadside1</Name>
 				<mode>deathmatch</mode>
@@ -844,7 +538,7 @@
 				<_Editor>
 					<Category>Entries:Anarchy_5-6:DLC</Category>
 				</_Editor>
-				<options_set>Jetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa0_Compound1</Name>
@@ -866,7 +560,7 @@
 				<_Editor>
 					<Category>Entries:Anarchy_5-6:DLC</Category>
 				</_Editor>
-				<options_set>Rhino</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa0_Division1</Name>
@@ -888,7 +582,7 @@
 				<_Editor>
 					<Category>Entries:Anarchy_5-6:DLC</Category>
 				</_Editor>
-				<options_set>FastArmed3</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa0_Equillibrium1</Name>
@@ -910,7 +604,7 @@
 				<_Editor>
 					<Category>Entries:Anarchy_5-6:DLC</Category>
 				</_Editor>
-				<options_set>FastArmed5</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa0_Gradient1</Name>
@@ -932,7 +626,7 @@
 				<_Editor>
 					<Category>Entries:Anarchy_5-6:DLC</Category>
 				</_Editor>
-				<options_set>JetpackARCharges</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa0_Haven1</Name>
@@ -954,7 +648,7 @@
 				<_Editor>
 					<Category>Entries:Anarchy_5-6:DLC</Category>
 				</_Editor>
-				<options_set>JetpackARReconstructor</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa0_Puncture1</Name>
@@ -976,7 +670,7 @@
 				<_Editor>
 					<Category>Entries:Anarchy_5-6:DLC</Category>
 				</_Editor>
-				<options_set>Concussion</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa0_Remnant1</Name>
@@ -998,7 +692,7 @@
 				<_Editor>
 					<Category>Entries:Anarchy_5-6:DLC</Category>
 				</_Editor>
-				<options_set>RandomShuffleBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_CrashSite1</Name>
@@ -1020,7 +714,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8:NonDLC</Category>
 				</_Editor>
-				<options_set>WeaponPeacekeeper</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_Deadzone1</Name>
@@ -1042,7 +736,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8:NonDLC</Category>
 				</_Editor>
-				<options_set>FastArmed3</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_Downfall1</Name>
@@ -1056,160 +750,6 @@
 				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
-				<Name>NM_TA_Haven1</Name>
-				<mode>team_deathmatch</mode>
-				<level>mpdlc_islands</level>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_TA_Equillibrium1</Name>
-				<mode>team_deathmatch</mode>
-				<level>mpdlc_landbridge</level>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_TA_Compound1</Name>
-				<mode>team_deathmatch</mode>
-				<level>mpdlc_minibase</level>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_TA_Remnant1</Name>
-				<mode>team_deathmatch</mode>
-				<level>mpdlc_ruins</level>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_TA_Puncture1</Name>
-				<mode>team_deathmatch</mode>
-				<level>mpdlc_puncture</level>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_TA_Division1</Name>
-				<mode>team_deathmatch</mode>
-				<level>mpdlc_division</level>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_TA_Gradient1</Name>
-				<mode>team_deathmatch</mode>
-				<level>mpdlc_overhang</level>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_TA_Broadside1</Name>
-				<mode>team_deathmatch</mode>
-				<level>mpdlc_broadside</level>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeA_Deadzone</Name>
-				<mode>deathmatch</mode>
-				<level>mp_deadzone</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<options_set>Beginner_Deadzone1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeA_FallFactor</Name>
-				<mode>deathmatch</mode>
-				<level>mp_fallfactor</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<options_set>Beginner_FallFactor1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeA_Radial</Name>
-				<mode>deathmatch</mode>
-				<level>mp_radial</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<options_set>Beginner_Radial1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeA_Warlords</Name>
-				<mode>deathmatch</mode>
-				<level>mp_warlords</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>44</default_score>
-				<options_set>Beginner_Warlords1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeA_Wreckage</Name>
-				<mode>deathmatch</mode>
-				<level>mp_wreckage</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>44</default_score>
-				<options_set>Beginner_FallFactor1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeCTF_CrashSite</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_crashsite</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<options_set>Beginner_CrashSite1</options_set>
-			</playlist_entries>
-			<playlist_entries>
 				<Name>TAta_CrashSite1</Name>
 				<mode>team_deathmatch</mode>
 				<level>mp_crashsite</level>
@@ -1218,215 +758,6 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>50</default_score>
-				<options_set>SuperCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Radial1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_radial</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>RandomBackpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Radial2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_radial</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Competitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_FallFactor1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_fallfactor</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>JetpackARReconstructor</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Crescent1</Name>
-				<mode>siege</mode>
-				<level>mp_crescent</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>50</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Crescent2</Name>
-				<mode>siege</mode>
-				<level>mp_crescent</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>46</default_score>
-				<options_set>SiegeHeavyWeapons4Alt</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Crescent3</Name>
-				<mode>siege</mode>
-				<level>mp_crescent</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>46</default_score>
-				<options_set>SiegeHeavyWeapons1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Crevice1</Name>
-				<mode>siege</mode>
-				<level>mp_crevice</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>52</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Crevice2</Name>
-				<mode>siege</mode>
-				<level>mp_crevice</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>46</default_score>
-				<options_set>SiegeHeavyWeapons2Alt</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Crevice3</Name>
-				<mode>siege</mode>
-				<level>mp_crevice</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>48</default_score>
-				<options_set>Jetpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Cornered1</Name>
-				<mode>siege</mode>
-				<level>mp_cornered</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>46</default_score>
-				<options_set>SiegeHeavyWeapons1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Cornered2</Name>
-				<mode>siege</mode>
-				<level>mp_cornered</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>52</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Cornered3</Name>
-				<mode>siege</mode>
-				<level>mp_cornered</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>48</default_score>
-				<options_set>Jetpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Framework1</Name>
-				<mode>siege</mode>
-				<level>mp_framework</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>50</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Framework2</Name>
-				<mode>siege</mode>
-				<level>mp_framework</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>SiegeHeavyWeapons2</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Framework3</Name>
-				<mode>siege</mode>
-				<level>mp_framework</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>48</default_score>
-				<options_set>SiegeHeavyWeapons1Lite</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Gauntlet1</Name>
-				<mode>siege</mode>
-				<level>mp_gauntlet</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>SiegeHeavyWeapons1Lite</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Gauntlet2</Name>
-				<mode>siege</mode>
-				<level>mp_gauntlet</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>50</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Gauntlet3</Name>
-				<mode>siege</mode>
-				<level>mp_gauntlet</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>46</default_score>
-				<options_set>SiegeHeavyWeapons3</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Overpass1</Name>
-				<mode>siege</mode>
-				<level>mp_overpass</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>52</default_score>
 				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
@@ -1449,7 +780,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>50</default_score>
-				<options_set>RandomShuffleBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_CrashSite1</Name>
@@ -1471,7 +802,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>50</default_score>
-				<options_set>RandomShuffleBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Deadzone1</Name>
@@ -1482,7 +813,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>48</default_score>
-				<options_set>RandomShuffleBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Deadzone2</Name>
@@ -1493,127 +824,6 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>48</default_score>
-				<options_set>FastArmed3</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMctf_Radial1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_radial</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:ctf</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>44</default_score>
-				<options_set>SuperCompetitiveNoBP</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMdc_Radial1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_radial</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:dc</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>FleetfootFast</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMdc_Radial2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_radial</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:dc</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>46</default_score>
-				<options_set>Jetpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMdc_FallFactor1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_fallfactor</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:dc</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>RandomBackpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMdc_FallFactor2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_fallfactor</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:dc</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>FastArmed1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMdc_Settlement1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_settlement</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:dc</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>RandomBackpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMdc_Settlement2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_settlement</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:dc</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>WeaponEnforcer</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMdc_Wasteland1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_wasteland</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:dc</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>FleetfootFast</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMdc_Wasteland2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_wasteland</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:dc</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>43</default_score>
-				<options_set>FastArmed2Random</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMdc_Wreckage1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_wreckage</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:dc</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>ThrustShuffle</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMdc_Garrison1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_garrison</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:dc</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
 				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
@@ -1636,7 +846,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>50</default_score>
-				<options_set>RandomBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Deadzone2</Name>
@@ -1647,62 +857,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>50</default_score>
-				<options_set>FastArmed1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMctf_FallFactor1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_fallfactor</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:ctf</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>46</default_score>
-				<options_set>JetpackARReconstructor</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMctf_FallFactor2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_fallfactor</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:ctf</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>FleetReconstructor</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMctf_Settlement1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_settlement</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:ctf</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>FleetfootFast</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMctf_Settlement2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_settlement</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:ctf</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>FastArmed4Random</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMctf_Wasteland1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_wasteland</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:ctf</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>FleetfootFast</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>LMta_FallFactor1</Name>
@@ -1713,7 +868,7 @@
 				</_Editor>
 				<ideal_players>12</ideal_players>
 				<default_score>43</default_score>
-				<options_set>Sniping</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>LMta_FallFactor2</Name>
@@ -1724,7 +879,7 @@
 				</_Editor>
 				<ideal_players>12</ideal_players>
 				<default_score>43</default_score>
-				<options_set>JetpackGrinderRocket</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>LMta_Radial1</Name>
@@ -1746,7 +901,7 @@
 				</_Editor>
 				<ideal_players>12</ideal_players>
 				<default_score>45</default_score>
-				<options_set>RandomBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>LMta_Settlement1</Name>
@@ -1757,7 +912,7 @@
 				</_Editor>
 				<ideal_players>12</ideal_players>
 				<default_score>43</default_score>
-				<options_set>VisibleEnemies</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>LMta_Settlement2</Name>
@@ -1768,7 +923,7 @@
 				</_Editor>
 				<ideal_players>12</ideal_players>
 				<default_score>46</default_score>
-				<options_set>FastArmed3</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Downfall1</Name>
@@ -1779,7 +934,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>48</default_score>
-				<options_set>FastArmed1</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Downfall2</Name>
@@ -1790,7 +945,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>48</default_score>
-				<options_set>JetpackGrinderRocket</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Excavation1</Name>
@@ -1801,7 +956,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>48</default_score>
-				<options_set>RandomShuffleBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Excavation2</Name>
@@ -1812,7 +967,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>48</default_score>
-				<options_set>FastArmed2</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Rift1</Name>
@@ -1823,7 +978,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>48</default_score>
-				<options_set>FastArmed3</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Rift2</Name>
@@ -1834,7 +989,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>48</default_score>
-				<options_set>Jetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Quarantine1</Name>
@@ -1845,7 +1000,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>50</default_score>
-				<options_set>WeaponPeacekeeper</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Quarantine2</Name>
@@ -1856,7 +1011,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>50</default_score>
-				<options_set>ThrustShuffle</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Sandpit1</Name>
@@ -1867,8 +1022,19 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>49</default_score>
-				<options_set>RhinoPeacekeeper</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
+			<playlist_entries>
+				<Name>TAta0_Broadside1</Name>
+				<mode>team_deathmatch</mode>
+				<level>mpdlc_broadside</level>
+				<ideal_players>8</ideal_players>
+				<default_score>50</default_score>
+				<_Editor>
+					<Category>Entries:TeamAnarchy_6-8:DLC</Category>
+				</_Editor>
+				<options_set>Default</options_set>
+			</playlist_entries>			
 			<playlist_entries>
 				<Name>TAta_Downfall1</Name>
 				<mode>team_deathmatch</mode>
@@ -1878,7 +1044,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>48</default_score>
-				<options_set>JetpackARCharges</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Downfall2</Name>
@@ -1889,7 +1055,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>48</default_score>
-				<options_set>RandomBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Excavation1</Name>
@@ -1900,7 +1066,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>48</default_score>
-				<options_set>RandomBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Excavation2</Name>
@@ -1911,7 +1077,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>48</default_score>
-				<options_set>FastArmed3</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Rift1</Name>
@@ -1922,7 +1088,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>48</default_score>
-				<options_set>Jetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Rift2</Name>
@@ -1933,7 +1099,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>48</default_score>
-				<options_set>FastArmed3</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Sandpit1</Name>
@@ -1944,7 +1110,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>49</default_score>
-				<options_set>FastArmed1</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Sandpit2</Name>
@@ -1955,7 +1121,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>49</default_score>
-				<options_set>RhinoARCharges</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Warlords1</Name>
@@ -1966,337 +1132,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>48</default_score>
-				<options_set>JetpackGrinderRocket</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Overpass2</Name>
-				<mode>siege</mode>
-				<level>mp_overpass</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>50</default_score>
-				<options_set>SiegeHeavyWeapons3</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>Ssiege_Overpass3</Name>
-				<mode>siege</mode>
-				<level>mp_overpass</level>
-				<_Editor>
-					<Category>Entries:Siege_10-12</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>SiegeHeavyWeapons4Alt</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_FallFactor2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_fallfactor</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>FleetReconstructor</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_CrashSite1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_crashsite</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>WeaponPeacekeeper</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_CrashSite2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_crashsite</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
 				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Deadzone1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_deadzone</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>RandomBackpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Deadzone2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_deadzone</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Garrison1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_garrison</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Garrison2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_garrison</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>FastArmed3</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Pinnacle1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_pinnacle</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>FleetfootFast</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Pinnacle2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_pinnacle</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>Jetpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Sandpit1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_sandpit</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>RhinoPeacekeeper</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Sandpit2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_sandpit</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_CrashSite1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_crashsite</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_CrashSite2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_crashsite</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>WeaponEnforcer</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Deadzone1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_deadzone</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Deadzone2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_deadzone</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>FastArmed3</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Downfall1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_downfall</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Downfall2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_downfall</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>Jetpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Garrison1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_garrison</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Garrison2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_garrison</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>FleetfootFast</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Sandpit1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_sandpit</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>FastArmed1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Sandpit2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_sandpit</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Warlords1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_warlords</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_CrashSite1</Name>
-				<mode>demolition</mode>
-				<level>mp_crashsite</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>ShuffleBackpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_CrashSite2</Name>
-				<mode>demolition</mode>
-				<level>mp_crashsite</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>WeaponPeacekeeper</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_Deadzone1</Name>
-				<mode>demolition</mode>
-				<level>mp_deadzone</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>FleetReconstructor</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_Deadzone2</Name>
-				<mode>demolition</mode>
-				<level>mp_deadzone</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>ShuffleBackpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_FallFactor1</Name>
-				<mode>demolition</mode>
-				<level>mp_fallfactor</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>JetpackARCharges</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_FallFactor2</Name>
-				<mode>demolition</mode>
-				<level>mp_fallfactor</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>FastArmed1Random</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Sandpit2</Name>
@@ -2307,7 +1143,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>49</default_score>
-				<options_set>FastArmed5</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Warlords2</Name>
@@ -2318,7 +1154,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>48</default_score>
-				<options_set>FastArmed1</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Quarantine1</Name>
@@ -2329,29 +1165,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>48</default_score>
-				<options_set>WeaponPeacekeeper</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMctf_Wasteland2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_wasteland</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:ctf</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>Sniping</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>LMctf_Wreckage1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_wreckage</level>
-				<_Editor>
-					<Category>Entries:LargeMixer_14-16:ctf</Category>
-				</_Editor>
-				<ideal_players>12</ideal_players>
-				<default_score>45</default_score>
-				<options_set>JetpackARCharges</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>LMta_Framework1</Name>
@@ -2373,7 +1187,7 @@
 				</_Editor>
 				<ideal_players>12</ideal_players>
 				<default_score>45</default_score>
-				<options_set>SnipingNoBP</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>LMta_Wasteland1</Name>
@@ -2395,7 +1209,7 @@
 				</_Editor>
 				<ideal_players>12</ideal_players>
 				<default_score>45</default_score>
-				<options_set>SnipingNoBP</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>LMta_Wreckage1</Name>
@@ -2406,7 +1220,7 @@
 				</_Editor>
 				<ideal_players>12</ideal_players>
 				<default_score>45</default_score>
-				<options_set>SnipingJetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>LMta_Wreckage2</Name>
@@ -2428,127 +1242,6 @@
 				</_Editor>
 				<ideal_players>12</ideal_players>
 				<default_score>45</default_score>
-				<options_set>RandomSledgeONLYFast</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_Garrison1</Name>
-				<mode>demolition</mode>
-				<level>mp_garrison</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>FastArmed5</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_Garrison2</Name>
-				<mode>demolition</mode>
-				<level>mp_garrison</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_Radial1</Name>
-				<mode>demolition</mode>
-				<level>mp_radial</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>FleetfootFast</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_Radial2</Name>
-				<mode>demolition</mode>
-				<level>mp_radial</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>VisibleSpecialModes</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Warlords1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_warlords</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Warlords2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_warlords</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Competitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Warlords2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_warlords</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>FastArmed5</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_Warlords1</Name>
-				<mode>demolition</mode>
-				<level>mp_warlords</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>RhinoPeacekeeper</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_Warlords2</Name>
-				<mode>demolition</mode>
-				<level>mp_warlords</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Radial1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_radial</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>FastArmed4Random</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Radial2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_radial</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
 				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
@@ -2560,7 +1253,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>48</default_score>
-				<options_set>HyperCompetitive</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag_Haven1</Name>
@@ -2582,7 +1275,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6</Category>
 				</_Editor>
-				<options_set>Jetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag_Equillibrium1</Name>
@@ -2604,7 +1297,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6</Category>
 				</_Editor>
-				<options_set>FleetfootFast</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag_Compound1</Name>
@@ -2626,7 +1319,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6</Category>
 				</_Editor>
-				<options_set>RhinoPeacekeeper</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag_Remnant1</Name>
@@ -2648,7 +1341,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6</Category>
 				</_Editor>
-				<options_set>Jetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag_Puncture1</Name>
@@ -2670,7 +1363,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6</Category>
 				</_Editor>
-				<options_set>SuperCompetitive</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag_Division1</Name>
@@ -2692,7 +1385,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6</Category>
 				</_Editor>
-				<options_set>FastArmed1</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag_Gradient1</Name>
@@ -2714,7 +1407,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6</Category>
 				</_Editor>
-				<options_set>FleetfootFast</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag_Haven1</Name>
@@ -2736,7 +1429,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8</Category>
 				</_Editor>
-				<options_set>JetpackARReconstructor</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag_Equillibrium1</Name>
@@ -2758,7 +1451,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8</Category>
 				</_Editor>
-				<options_set>SuperCompetitive</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag_Compound1</Name>
@@ -2780,7 +1473,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8</Category>
 				</_Editor>
-				<options_set>RandomBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag_Remnant1</Name>
@@ -2802,7 +1495,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8</Category>
 				</_Editor>
-				<options_set>Jetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag_Puncture1</Name>
@@ -2824,7 +1517,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8</Category>
 				</_Editor>
-				<options_set>SuperCompetitive</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag_Division1</Name>
@@ -2846,7 +1539,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8</Category>
 				</_Editor>
-				<options_set>FastArmed1Random</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag_Gradient1</Name>
@@ -2879,7 +1572,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8</Category>
 				</_Editor>
-				<options_set>Jetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag_Broadside1</Name>
@@ -2901,7 +1594,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8</Category>
 				</_Editor>
-				<options_set>FleetfootFast</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag_Broadside2</Name>
@@ -2912,183 +1605,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6</Category>
 				</_Editor>
-				<options_set>Jetpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeCTF_Sandpit</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_sandpit</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>46</default_score>
-				<options_set>Beginner_Sandpit1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeDC_Quarantine</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_quarantine</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>47</default_score>
-				<options_set>Beginner_Quarantine1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeTA_Downfall</Name>
-				<mode>team_deathmatch</mode>
-				<level>mp_downfall</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>46</default_score>
-				<options_set>Beginner_Downfall1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeTA_Excavation</Name>
-				<mode>team_deathmatch</mode>
-				<level>mp_excavation</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>44</default_score>
-				<options_set>Beginner_Excavation1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeTA_Pinnacle</Name>
-				<mode>deathmatch</mode>
-				<level>mp_pinnacle</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>44</default_score>
-				<options_set>Beginner_Pinnacle1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeTA_Rift</Name>
-				<mode>team_deathmatch</mode>
-				<level>mp_rift</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<options_set>Beginner_Rift1</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeDC_CrashSite</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_crashsite</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>47</default_score>
-				<options_set>Beginner_CrashSite2</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>BeTA_Quarantine</Name>
-				<mode>team_deathmatch</mode>
-				<level>mp_quarantine</level>
-				<_Editor>
-					<Category>Entries:Beginner_6</Category>
-				</_Editor>
-				<ideal_players>6</ideal_players>
-				<default_score>45</default_score>
-				<options_set>Beginner_Quarantine2</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_DC_Broadside2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_broadside</level>
-				<ideal_players>6</ideal_players>
-				<default_score>42</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_DC_Gradient2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_overhang</level>
-				<ideal_players>6</ideal_players>
-				<default_score>42</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_DC_Division2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_division</level>
-				<ideal_players>6</ideal_players>
-				<default_score>42</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_DC_Puncture2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_puncture</level>
-				<ideal_players>6</ideal_players>
-				<default_score>42</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_DC_Remnant2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_ruins</level>
-				<ideal_players>6</ideal_players>
-				<default_score>42</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_DC_Compound2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_minibase</level>
-				<ideal_players>6</ideal_players>
-				<default_score>42</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_DC_Equillibrium2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_landbridge</level>
-				<ideal_players>6</ideal_players>
-				<default_score>42</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>NM_DC_Haven2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_islands</level>
-				<ideal_players>6</ideal_players>
-				<default_score>42</default_score>
-				<_Editor>
-					<Category>Entries:NewMixer</Category>
-				</_Editor>
-				<options_set>SimpleCompetitive</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta0_Broadside2</Name>
@@ -3099,7 +1616,7 @@
 				<_Editor>
 					<Category>Entries:TeamAnarchy_6-8:DLC</Category>
 				</_Editor>
-				<options_set>FastArmed2</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta0_Compound1</Name>
@@ -3121,7 +1638,7 @@
 				<_Editor>
 					<Category>Entries:TeamAnarchy_6-8:DLC</Category>
 				</_Editor>
-				<options_set>JetpackARCharges</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta0_Division1</Name>
@@ -3143,7 +1660,7 @@
 				<_Editor>
 					<Category>Entries:TeamAnarchy_6-8:DLC</Category>
 				</_Editor>
-				<options_set>SuperCompetitive</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta0_Equillibrium1</Name>
@@ -3165,7 +1682,7 @@
 				<_Editor>
 					<Category>Entries:TeamAnarchy_6-8:DLC</Category>
 				</_Editor>
-				<options_set>JetpackGrinderRocket</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta0_Gradient1</Name>
@@ -3187,7 +1704,7 @@
 				<_Editor>
 					<Category>Entries:TeamAnarchy_6-8:DLC</Category>
 				</_Editor>
-				<options_set>FastArmed1</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta0_Haven1</Name>
@@ -3209,7 +1726,7 @@
 				<_Editor>
 					<Category>Entries:TeamAnarchy_6-8:DLC</Category>
 				</_Editor>
-				<options_set>FleetReconstructor</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta0_Puncture1</Name>
@@ -3231,7 +1748,7 @@
 				<_Editor>
 					<Category>Entries:TeamAnarchy_6-8:DLC</Category>
 				</_Editor>
-				<options_set>WeaponGauss</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta0_Remnant1</Name>
@@ -3253,95 +1770,7 @@
 				<_Editor>
 					<Category>Entries:TeamAnarchy_6-8:DLC</Category>
 				</_Editor>
-				<options_set>RhinoPeacekeeper</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Puncture2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_puncture</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>SuperCompetitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Remnant1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_ruins</level>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
 				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf0_Remnant2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mpdlc_ruins</level>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf:DLC</Category>
-				</_Editor>
-				<options_set>JetpackARCharges</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Puncture2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_puncture</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Rhino</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Remnant1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_ruins</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc0_Remnant2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mpdlc_ruins</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc:DLC</Category>
-				</_Editor>
-				<options_set>Fleetfoot</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo0_Remnant1</Name>
-				<mode>demolition</mode>
-				<level>mpdlc_ruins</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo:DLC</Category>
-				</_Editor>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo0_Remnant2</Name>
-				<mode>demolition</mode>
-				<level>mpdlc_ruins</level>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo:DLC</Category>
-				</_Editor>
-				<options_set>WeaponPeacekeeper</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_Downfall2</Name>
@@ -3352,7 +1781,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8:NonDLC</Category>
 				</_Editor>
-				<options_set>WeaponEnforcer</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_Excavation1</Name>
@@ -3374,7 +1803,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8:NonDLC</Category>
 				</_Editor>
-				<options_set>RhinoPeacekeeper</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_Quarantine1</Name>
@@ -3396,7 +1825,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8:NonDLC</Category>
 				</_Editor>
-				<options_set>Concussion</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_Rift1</Name>
@@ -3418,7 +1847,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8:NonDLC</Category>
 				</_Editor>
-				<options_set>Thrust</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_Sandpit1</Name>
@@ -3440,7 +1869,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8:NonDLC</Category>
 				</_Editor>
-				<options_set>FastArmed5</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_Warlords1</Name>
@@ -3462,7 +1891,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8:NonDLC</Category>
 				</_Editor>
-				<options_set>Jetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag0_CrashSite1</Name>
@@ -3484,7 +1913,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6:NonDLC</Category>
 				</_Editor>
-				<options_set>WeaponPeacekeeper</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag0_Deadzone1</Name>
@@ -3506,7 +1935,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6:NonDLC</Category>
 				</_Editor>
-				<options_set>Jetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag0_Downfall1</Name>
@@ -3528,7 +1957,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6:NonDLC</Category>
 				</_Editor>
-				<options_set>Fleetfoot</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag0_Excavation1</Name>
@@ -3550,7 +1979,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6:NonDLC</Category>
 				</_Editor>
-				<options_set>Thrust</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag0_Quarantine1</Name>
@@ -3572,7 +2001,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6:NonDLC</Category>
 				</_Editor>
-				<options_set>WeaponSledgehammerONLY</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag0_Rift1</Name>
@@ -3594,7 +2023,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6:NonDLC</Category>
 				</_Editor>
-				<options_set>WeaponShotgun</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag0_Sandpit1</Name>
@@ -3616,7 +2045,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6:NonDLC</Category>
 				</_Editor>
-				<options_set>Jetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag0_Warlords1</Name>
@@ -3638,7 +2067,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6:NonDLC</Category>
 				</_Editor>
-				<options_set>RandomBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_Radial1</Name>
@@ -3649,7 +2078,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8:NonDLC</Category>
 				</_Editor>
-				<options_set>Fleetfoot</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_Radial2</Name>
@@ -3660,7 +2089,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8:NonDLC</Category>
 				</_Editor>
-				<options_set>JetpackARCharges</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_Assembly1</Name>
@@ -3682,7 +2111,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8:NonDLC</Category>
 				</_Editor>
-				<options_set>RandomShuffleBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TBag0_CrossOver1</Name>
@@ -3704,7 +2133,7 @@
 				<_Editor>
 					<Category>Entries:TeamBagman_6-8:NonDLC</Category>
 				</_Editor>
-				<options_set>Concussion</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag0_Assembly1</Name>
@@ -3737,7 +2166,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>50</default_score>
-				<options_set>JetpackARCharges</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Assembly3</Name>
@@ -3748,7 +2177,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>50</default_score>
-				<options_set>RandomBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Crossover1</Name>
@@ -3770,7 +2199,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>50</default_score>
-				<options_set>FastArmed5</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Aa_Crossover3</Name>
@@ -3781,7 +2210,7 @@
 				</_Editor>
 				<ideal_players>5</ideal_players>
 				<default_score>50</default_score>
-				<options_set>RandomShuffleBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Crossover1</Name>
@@ -3803,7 +2232,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>50</default_score>
-				<options_set>FleetSledge</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Crossover3</Name>
@@ -3814,7 +2243,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>50</default_score>
-				<options_set>FastArmed1Random</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Assembly1</Name>
@@ -3836,7 +2265,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>50</default_score>
-				<options_set>Jetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>TAta_Assembly3</Name>
@@ -3847,183 +2276,7 @@
 				</_Editor>
 				<ideal_players>8</ideal_players>
 				<default_score>50</default_score>
-				<options_set>RandomBackpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Assembly1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_pcx_assembly</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
 				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Assembly2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_pcx_assembly</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Competitive</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Assembly3</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_pcx_assembly</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>ThrustShuffle</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Crossover1</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_pcx_crossover</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Crossover2</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_pcx_crossover</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Jetpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOctf_Crossover3</Name>
-				<mode>capture_the_flag</mode>
-				<level>mp_pcx_crossover</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:ctf</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>FastArmed1Random</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Crossover1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_pcx_crossover</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Crossover2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_pcx_crossover</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>FleetReconstructor</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Crossover3</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_pcx_crossover</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>FastArmed4Random</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Assembly1</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_pcx_assembly</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Assembly2</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_pcx_assembly</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>RandomShuffleBackpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdc_Assembly3</Name>
-				<mode>king_of_the_hill</mode>
-				<level>mp_pcx_assembly</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:dc</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>74</default_score>
-				<options_set>JetpackARReconstructor</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_Assembly1</Name>
-				<mode>demolition</mode>
-				<level>mp_pcx_assembly</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_Assembly2</Name>
-				<mode>demolition</mode>
-				<level>mp_pcx_assembly</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Jetpack</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_Crossover1</Name>
-				<mode>demolition</mode>
-				<level>mp_pcx_crossover</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>Default</options_set>
-			</playlist_entries>
-			<playlist_entries>
-				<Name>TOdemo_Crossover2</Name>
-				<mode>demolition</mode>
-				<level>mp_pcx_crossover</level>
-				<_Editor>
-					<Category>Entries:TeamObjective_8-10:demo</Category>
-				</_Editor>
-				<ideal_players>8</ideal_players>
-				<default_score>75</default_score>
-				<options_set>FastArmed5</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag0_Assembly2</Name>
@@ -4034,7 +2287,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6:NonDLC</Category>
 				</_Editor>
-				<options_set>Jetpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 			<playlist_entries>
 				<Name>Bag0_CrossOver1</Name>
@@ -4056,7 +2309,7 @@
 				<_Editor>
 					<Category>Entries:Bagman_5-6:NonDLC</Category>
 				</_Editor>
-				<options_set>RandomBackpack</options_set>
+				<options_set>Default</options_set>
 			</playlist_entries>
 		</Table>
 	<TableTemplates></TableTemplates>

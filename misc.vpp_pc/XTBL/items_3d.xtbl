@@ -1,6 +1,173 @@
 <root>
 	<Table>
-<!--START Added DLC Weapons-->
+<!--START Added DLC Characters-->	
+		<Item>
+			<Name>Sam_DLC_Cape</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>sam_dlc_cape.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>sam_dlc_cape.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+			<_Editor>
+				<Category>Character Props:Sam_DLC</Category>
+			</_Editor>
+		</Item>
+		<Item>
+			<Name>Sam_DLC_Skirt</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>sam_dlc_skirt.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>sam_dlc_skirt.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+			<_Editor>
+				<Category>Character Props:Sam_DLC</Category>
+			</_Editor>
+		</Item>
+		<Item>
+			<Name>Sam_DLC_Hair</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>sam_dlc_hair.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>sam_dlc_hair.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+			<_Editor>
+				<Category>Character Props:Sam_DLC</Category>
+			</_Editor>
+		</Item>
+		<Item>
+			<Name>vasha_skirt</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>vasha_skirt.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>vasha_skirt.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+			<_Editor>
+				<Category>Character Props:Vasha</Category>
+			</_Editor>
+		</Item>
+		<Item>
+			<Name>Hess_CalfWrap_L</Name>
+			<Spin_Time>5000</Spin_Time>
+			<_Editor>
+				<Category>Character Props:Hess</Category>
+			</_Editor>
+			<Mesh>
+				<Filename>hess_calfwrap_l.smeshx</Filename>
+			</Mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+		</Item>
+		<Item>
+			<Name>Hess_BootCover_L</Name>
+			<Spin_Time>5000</Spin_Time>
+			<_Editor>
+				<Category>Character Props:Hess</Category>
+			</_Editor>
+			<Mesh>
+				<Filename>hess_bootcover_l.smeshx</Filename>
+			</Mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+		</Item>
+		<Item>
+			<Name>Hess_KnifeCalf_R</Name>
+			<Spin_Time>5000</Spin_Time>
+			<_Editor>
+				<Category>Character Props:Hess</Category>
+			</_Editor>
+			<Mesh>
+				<Filename>hess_knifecalf_l.smeshx</Filename>
+			</Mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+		</Item>
+		<Item>
+			<Name>Hess_BootCover_R</Name>
+			<Spin_Time>5000</Spin_Time>
+			<_Editor>
+				<Category>Character Props:Hess</Category>
+			</_Editor>
+			<Mesh>
+				<Filename>hess_bootcover_r.smeshx</Filename>
+			</Mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+		</Item>
+		<Item>
+			<Name>Hess_Helmet</Name>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>hess_helmet.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>hess_helmet.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop</streaming_category>
+			<_Editor>
+				<Category>Character Props:Hess</Category>
+			</_Editor>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+		</Item>
+		<Item>
+			<Name>Hess_Props</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>hess_props.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>hess_props.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+				<Filename></Filename>
+			</character_mesh>
+			<_Editor>
+				<Category>Character Props:Hess</Category>
+			</_Editor>
+			<streaming_category>Character prop mesh only</streaming_category>
+		</Item>		
+<!--END Added DLC Characters-->		
+<!--START Added DLC Weapons-->		
 		<Item>
 			<Name>EDF_Super_Gauss</Name>
 			<Item_Flags>
@@ -119,9 +286,10 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
+				<!--<Flag>no_auto_delete</Flag><Flag>no_pickup_delete</Flag><Flag>casts_shadows</Flag><Flag>casts_drop_shadows</Flag>-->
 			</Item_Flags>
 		</Item>
-<!--END Added DLC Weapons-->
+		<!--END Added DLC Weapons-->
 		<Item>
 			<Name>Lawrence_Eos_Coat</Name>
 			<Spin_Time>5000</Spin_Time>

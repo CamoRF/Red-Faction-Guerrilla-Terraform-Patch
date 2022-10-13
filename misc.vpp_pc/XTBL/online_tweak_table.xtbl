@@ -83,7 +83,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_bad_lag_rtt_ms</Name>
-			<Value>21474836</Value>
+			<Value>9999</Value>
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -91,7 +91,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_bad_lag_duration_ms</Name>
-			<Value>21474836</Value>
+			<Value>9999</Value>
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -114,29 +114,6 @@
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
-		<Name>Tweak_Table_Entry</Name>
-		<Type>TableDescription</Type>
-		<Description>A simple way to add and modify tweakable values within a single table file.</Description>
-		<Required>false</Required>
-		<Element>
-			<Name>Name</Name>
-			<Type>String</Type>
-			<Description>The name of the value.</Description>
-			<Unique>true</Unique>
-		</Element>
-		<Element>
-			<Name>Value</Name>
-			<Type>Float</Type>
-			<Description>How this value is used is situation dependent</Description>
-			<Default>0</Default>
-		</Element>
-		<Element>
-			<Name>Description</Name>
-			<Type>String</Type>
-			<Description>Breif description of how this value is used.  It is NOT read into the game.</Description>
-			<Required>false</Required>
-			<MultiLine>true</MultiLine>
-		</Element>
 	</TableDescription>
 	<EntryCategories>
 		<Category>
