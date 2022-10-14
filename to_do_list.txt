@@ -3,72 +3,111 @@ v1.07
 ------------
 
 [Sort]
-* Make team spawns children of CTF objective
-* Remove spawns where you get stuck on Scrapheap
-* Fix out of bounds areas on Doubletime
-* Fix bounding boxes on WC map weapons (Frost and Stratosphere to go)
-* Remove ghost children from objects
-* Haven: Add more mines to the out of bounds area cliff starting from the building you leap from 
-* Cascade: Add a couple m16 spawns, Add a repair tool under the bridge
-* Pipeline: Add a couple hidden misslepod spawns
-* Crash site has duplicate weapon spawns on the hill in the middle and the rpg hill 
-* Wrecking crew bagman playlist is missing the regular WC maps, only has DLC
-* Add team bagman wrecking crew playlist
-* Add pipes to help you climb the hill on Frost
-* Add team spawns on Imperial 
-* Add more weapons to make your way up the large buildings on Imperial, nano forge and reconstructor 
-* Use smaller mines on Equilbrium/landbridge
-* Add siege objectives to Quarantine, Stratosphere and Garrison
-* Add new Marauder NPCs to SP
-* Add Spiker to singleplayer
+	* Make team spawns children of CTF objective
+	* Remove spawns where you get stuck on Scrapheap
+	* Fix out of bounds areas on Doubletime
+	* Fix bounding boxes on WC map weapons (Frost and Stratosphere to go)
+	* Remove ghost children from objects
+	* Haven: Add more mines to the out of bounds area cliff starting from the building you leap from 
+	* Cascade: Add a couple m16 spawns, Add a repair tool under the bridge
+	* Pipeline: Add a couple hidden misslepod spawns
+	* Crash site has duplicate weapon spawns on the hill in the middle and the rpg hill 
+	* Ladder pipe not showing on Frost
+	* Add ladders going to top on Frost?
+	* Add ladders to towers on Gulch
+	* Add barrels to indicate where barrier is on Frost
+	* Add pipes to help you climb the hill on Frost
+	* Add team spawns on Imperial 
+	* Add more weapons to make your way up the large buildings on Imperial, nano forge and reconstructor 
+	* Use smaller mines on Equilbrium/landbridge
+	* Add siege objectives to Stratosphere and Garrison
+	* Add new Marauder NPCs to SP
+	* Add Spiker to singleplayer
+	* Add an RPG at 217.850, -18.775, -292.580 on Frost
+
+* Frost Barrels 
+	- 315.575, -15.644, -298.588
+	- 303.483, -16.648, -277.102
+	- 293.037, -16.345, -290.762
+	- 249.349, -21.736, -275.162
+	- 225.579, -19.042, -267.273
+
+* Frost ladders 
+	- 242.024, 13.900, -403.447
+
+* Gulch 
+	- Rotate the frame things at 221.501,1605, -212.787 and have them all aligned
+	- Add rocket spawn at 155.707, 12.000, -354.738
+	- Add m16 spawn at 177.009, -1.839, -368.254, 248.158, 6.050, -383.544
+	- Add enforcer spawn at 271.929, 6.563, -414.557
+	- Add weapon spawn at 310.354, 0.209, -389.052
+	- You can see through the map at 324.939, -0.894, -385.320
+	- Add weapon spawn at 339.145, 2.507, -391.431
+	- Add mine spawn at 371.515, 10.687, -349.298
+	- Add tower at 398.621, 17.859, -340.350
+	- Add Enforcer spawn at 377.531, 31.011, -286.439
+	- Add RPG spawn at 311.127, 11.517, -237.283
+	- Add m16 or pistol at 260.790, 5.468, -205.516
+	- Add m16 or pistol spawn at 295.170. 6.285, -151.236
+	- Replace grinder at 239.608, 15.789, -184.580 with sniper
+
+
+* Scrapheap 
+	- RPG: 239.713, 21.812, -148.270
+	- Sniper: 271.627, 22.385, -221.727
+	- Minefield need to be closer 
+
+* Pipeline 
+	- Misslepod: 342.738, 16.281, -264.843
+	- Mines: 262.601, 10.148, -224.239
 
 [Fixes]
-* Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
-* Fix grenade (seems to randomly stop working when played online and character tposes, weapon also breaks if unique ID is changed from 33, might need to be scripted in future)
-* Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
-* Fix missing texture on Marauder lady
-* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
-* Restore Dan Masons yellow jacket
-* Use mp_explosion_overrides.xtbl for explosion changes so it doesn't mess with singleplayer
-* Compress + Condense table.vpp_pc
+	* Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
+	* Fix grenade (seems to randomly stop working when played online and character tposes, weapon also breaks if unique ID is changed from 33, might need to be scripted in future)
+	* Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
+	* Fix missing texture on Marauder lady
+	* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
+	* Restore Dan Masons yellow jacket
+	* Use mp_explosion_overrides.xtbl for explosion changes so it doesn't mess with singleplayer
+	* Compress + Condense table.vpp_pc
 
 [Maps]
-* Add a single kaboom pack spawn with only 1 on the rack on overpass and crevice
-* Add cliff under maps that are missing it when bounding box makes sense
-* Add CTF, Damage Control objectives and backpack racks to WC maps when Nanoforge supports it
-* Add more neutral spawns to Siege maps (Framework done)
-* Fix out of bounds spot on Puncture -
-* Add team spawns on WC maps - 
-* Add more siege maps (Framework and Fallfactor)
-* Fix random backpacks on WC maps (requires adding backpack racks I believe)awn where you can get stuck in a frame
-* Ruins: has issues with some of the rocks being hard to climb and the player can get stuck on the spikes on buildings
-* Repurcussion: might need adjustments to some of the spawns inside the pipes
-* GFWL/Nordic Bonus: Some of the shipping containers are floating
-* Expansion: make bridge changes cleaner when we can clone between maps
-* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
-* Pinaccle: experimental spawn flipping fixes that apply only in CTF (try intial and respawn bools for team spawns)
-* Test adding multiple bagman spawns to randomize where it respawns
-* Update WC map thumbnails after the maps are polished
-* Tutorial area map
-* Add barrels back to WC maps without gamemode flags 
-* Fix missing flags on every map
-* Move the rocket launcher on complex to an even more hidden spot on the rock
+	* Add a single kaboom pack spawn with only 1 on the rack on overpass and crevice
+	* Add cliff under maps that are missing it when bounding box makes sense
+	* Add CTF, Damage Control objectives and backpack racks to WC maps when Nanoforge supports it
+	* Add more neutral spawns to Siege maps (Framework done)
+	* Fix out of bounds spot on Puncture -
+	* Add team spawns on WC maps - 
+	* Add more siege maps (Framework and Fallfactor)
+	* Fix random backpacks on WC maps (requires adding backpack racks I believe)awn where you can get stuck in a frame
+	* Ruins: has issues with some of the rocks being hard to climb and the player can get stuck on the spikes on buildings
+	* Repurcussion: might need adjustments to some of the spawns inside the pipes
+	* GFWL/Nordic Bonus: Some of the shipping containers are floating
+	* Expansion: make bridge changes cleaner when we can clone between maps
+	* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
+	* Pinaccle: experimental spawn flipping fixes that apply only in CTF (try intial and respawn bools for team spawns)
+	* Test adding multiple bagman spawns to randomize where it respawns
+	* Update WC map thumbnails after the maps are polished
+	* Tutorial area map
+	* Add barrels back to WC maps without gamemode flags 
+	* Fix missing flags on every map
+	* Move the rocket launcher on complex to an even more hidden spot on the rock
 
 [Additions/Changes]
-* .exe with match countdown set to 6 seconds
-* .exe with match end countdown set to 6 seconds
-* Remove blur from RPG explosions?
-* Try to make it so you can walk up steeper inclines?
-* Improve driving skills of NPCs
-* Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to
-the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
-* Reduce mass of debris
-* Merge items from SP and DLC into mp_common.vpp_pc
+	* .exe with match countdown set to 6 seconds
+	* .exe with match end countdown set to 6 seconds
+	* Remove blur from RPG explosions?
+	* Try to make it so you can walk up steeper inclines?
+	* Improve driving skills of NPCs
+	* Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to
+	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
+	* Reduce mass of debris
+	* Merge items from SP and DLC into mp_common.vpp_pc
 
 [Weapons]
-* Add CTF flags, Gutter, Impaler and DLC Pickaxe to the sledgehammer upgrade list in multiplayer if possible and when the dlc melee weapons are added
-* Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host, Broken DLC weapons might need to be merged into items_mp.vpp_pc? (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
-* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
+	* Add CTF flags, Gutter, Impaler and DLC Pickaxe to the sledgehammer upgrade list in multiplayer if possible and when the dlc melee weapons are added
+	* Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host, Broken DLC weapons might need to be merged into items_mp.vpp_pc? (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
+	* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
 
 -----
 NOTES
@@ -100,7 +139,10 @@ OTHER PROJECTS
 * Increase gravity slightly, jumping feels floaty
 * Quick Save hotkey 
 * First person: Remove Alec Masons head, replace weapon models with ones for first person, reduce clipping, change animations, script to switch back to third person in vehicles
-
+* Gameplay changes 
+	- Salvage balancing, too expensive on normal and hard 
+	- Improve vehicle handling 
+	- Reduce EDF accuracy 
 ------------
 LOW PRIORITY 
 ------------
@@ -127,3 +169,8 @@ LOW PRIORITY
 * Fix out of bounds spot on Stratosphere - done
 * Fix out of bounds spots on Excavation - done
 * Fix out of bounds spot on Remnant - mostly done but there's still a small rock
+Add siege objectives to Quarantine
+* Wrecking crew bagman playlist is missing the regular WC maps, only has DLC
+* Add team bagman wrecking crew playlist
+
+

@@ -132,7 +132,7 @@
 			<max_hit_points>550</max_hit_points>
 			<knock_down_hits>30</knock_down_hits>
 			<max_speed>5</max_speed>
-			<FootstepsControl>GUR_PC</FootstepsControl>
+			<FootstepsControl>MAR_NPC</FootstepsControl>
 			<Props>
 				<Prop>
 					<Prop_Name>Cape</Prop_Name>
@@ -249,12 +249,12 @@
 				<Category>Entries:Marauder:Scavenger</Category>
 			</_Editor>
 			<Personas>
-				<Persona>D01MSM01</Persona>
-				<Persona>D01MSM02</Persona>
-				<Persona>D01MSM03</Persona>
-				<Persona>D01MSM04</Persona>
-				<Persona>D01MSM05</Persona>
-				<Persona>D01MSM06</Persona>
+				<Persona>MSM01</Persona>
+				<Persona>MSM02</Persona>
+				<Persona>MSM03</Persona>
+				<Persona>MSM04</Persona>
+				<Persona>MSM05</Persona>
+				<Persona>MSM06</Persona>
 			</Personas>
 			<Height>1.0</Height>
 			<Variation>0.0</Variation>
@@ -406,7 +406,7 @@
 			</Flags>
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<AimErrorPct>150</AimErrorPct>
-			<origin_district>Common</origin_district>
+			<origin_district>Special</origin_district>
 		</Character>
 <!--END DLC CHARACTERS ADDED-->
 		<Character>

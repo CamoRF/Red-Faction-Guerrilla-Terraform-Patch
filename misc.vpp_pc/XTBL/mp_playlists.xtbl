@@ -19,15 +19,15 @@
 		</playlists>
 <!--START Added WC Map Playlists-->
 		<playlists>
-			<Name>Anarchy_NewMaps_2-8</Name>
+			<Name>Anarchy WC</Name>
 			<Online_ID>1</Online_ID>
-			<Display_Name>WRECKING CREW ANARCHY</Display_Name> <!--MENU_WRECKING_CREW-->
+			<Display_Name>ANARCHY WC</Display_Name> <!--MENU_WRECKING_CREW-->
 			<Description>Anarchy on wrecking crew maps</Description>
 			<Required_XP_Level>1</Required_XP_Level>
 			<Game_Type>Ranked</Game_Type>
 			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
 			<min_players>2</min_players>
-			<max_players>8</max_players>
+			<max_players>16</max_players>
 			<Playlist_Entries>
 				<Entries>Aa_Ruins</Entries>
 				<Entries>Aa_Repercussion</Entries>
@@ -56,9 +56,9 @@
 			<xp_scalar>1.25</xp_scalar> <!--From 1-->
 		</playlists>
 		<playlists>
-			<Name>TeamAnarchy_NewMaps_4-16</Name>
+			<Name>Team Anarchy WC</Name>
 			<Online_ID>2</Online_ID>
-			<Display_Name>WRECKING CREW TEAM ANARCHY</Display_Name>
+			<Display_Name>TEAM ANARCHY WC</Display_Name>
 			<Description>Team Anarchy on wrecking crew maps</Description>
 			<Required_XP_Level>1</Required_XP_Level>
 			<Game_Type>Ranked</Game_Type>
@@ -89,19 +89,19 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<max_party_size>4</max_party_size>
+			<max_party_size>8</max_party_size>
 			<xp_scalar>1.25</xp_scalar> <!--From 1-->
 		</playlists>
 		<playlists>
-			<Name>Bagman_NewMaps_2-8</Name>
+			<Name>Bagman WC</Name>
 			<Online_ID>3</Online_ID>
-			<Display_Name>WRECKING CREW BAGMAN</Display_Name> <!--MENU_WRECKING_CREW-->
+			<Display_Name>Bagman WC</Display_Name> <!--MENU_WRECKING_CREW-->
 			<Description>Bagman on wrecking crew maps</Description>
 			<Required_XP_Level>1</Required_XP_Level>
 			<Game_Type>Ranked</Game_Type>
 			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
 			<min_players>2</min_players>
-			<max_players>8</max_players>
+			<max_players>16</max_players>
 			<Playlist_Entries>
 				<Entries>Bag_Ruins</Entries>
 				<Entries>Bag_Repercussion</Entries>
@@ -128,11 +128,48 @@
 			</_Editor>
 			<max_party_size>1</max_party_size>
 			<xp_scalar>1.25</xp_scalar> <!--From 1-->
+		</playlists>
+		<playlists>
+			<Name>Team Bagman WC</Name>
+			<Online_ID>4</Online_ID>
+			<Display_Name>Team Bagman WC</Display_Name> <!--MENU_WRECKING_CREW-->
+			<Description>Team Bagman on wrecking crew maps</Description>
+			<Required_XP_Level>1</Required_XP_Level>
+			<Game_Type>Ranked</Game_Type>
+			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
+			<min_players>2</min_players>
+			<max_players>16</max_players>
+			<Playlist_Entries>
+				<Entries>TBag_Ruins</Entries>
+				<Entries>TBag_Repercussion</Entries>
+				<Entries>TBag_Imperial</Entries>
+				<Entries>TBag_Expansion</Entries>
+				<Entries>TBag_Frost</Entries>
+				<Entries>TBag_Abandoned</Entries>
+				<Entries>TBag_Stratosphere</Entries>
+				<Entries>TBag_Invasion</Entries>
+				<Entries>TBag_GFWL</Entries>
+				<Entries>TBag_Complex</Entries>
+				<Entries>TBag_Watchtower</Entries>
+				<Entries>TBag_ScrapHeap</Entries>
+				<Entries>TBag_Vista</Entries>
+				<Entries>TBag_Fortress</Entries>
+				<Entries>TBag_Factory</Entries>
+				<Entries>TBag_Gulch</Entries>
+				<Entries>TBag_Cascade</Entries>
+				<Entries>TBag_Transmission</Entries>
+				<Entries>TBag_Pipeline</Entries>				
+			</Playlist_Entries>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<max_party_size>8</max_party_size>
+			<xp_scalar>1.25</xp_scalar> <!--From 1-->
 		</playlists>		
 <!--END Added WC Map Playlists-->
 		<playlists>
-			<Name>Anarchy_2-8</Name> <!--From Anarchy_5-6-->
-			<Online_ID>4</Online_ID>
+			<Name>Anarchy</Name> <!--From Anarchy_5-6-->
+			<Online_ID>5</Online_ID>
 			<Display_Name>MENU_ANARCHY</Display_Name>
 			<Description>Anarchy matches on smaller maps</Description>
 			<Required_XP_Level>1</Required_XP_Level>
@@ -187,8 +224,8 @@
 			<xp_scalar>1.25</xp_scalar> <!--From 1-->
 		</playlists>
 		<playlists>
-			<Name>Team Anarchy_4-16</Name> <!--From TeamAnarchy_6-8-->
-			<Online_ID>5</Online_ID>
+			<Name>Team Anarchy</Name>
+			<Online_ID>6</Online_ID>
 			<Display_Name>MENU_TEAM_ANARCHY</Display_Name>
 			<Description>Team Anarchy on mid-sized maps</Description>
 			<Required_XP_Level>1</Required_XP_Level>
@@ -252,19 +289,19 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<max_party_size>4</max_party_size>
+			<max_party_size>8</max_party_size>
 			<xp_scalar>1.25</xp_scalar> <!--From 1-->
 		</playlists>		
 		<playlists>
-			<Name>Bagman_2-8</Name> <!--From Bagman_5-6-->
-			<Online_ID>6</Online_ID>
+			<Name>Bagman</Name> <!--From Bagman_5-6-->
+			<Online_ID>7</Online_ID>
 			<Display_Name>MENU_MP_MODE_BAGMAN</Display_Name>
 			<Description>DLC maps</Description>
 			<Required_XP_Level>1</Required_XP_Level>
 			<Game_Type>Ranked</Game_Type>
 			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
 			<min_players>2</min_players>
-			<max_players>8</max_players> <!--From 6-->
+			<max_players>16</max_players> <!--From 6-->
 			<max_party_size>1</max_party_size>
 			<Playlist_Entries>
 				<Entries>Bag_Compound1</Entries>
@@ -309,8 +346,8 @@
 			<xp_scalar>1.25</xp_scalar> <!--From 1-->
 		</playlists>
 		<playlists>
-			<Name>TeamBagman_6-8</Name>
-			<Online_ID>7</Online_ID>
+			<Name>Team Bagman</Name>
+			<Online_ID>8</Online_ID>
 			<Display_Name>MENU_MP_MODE_TM_BAGMAN</Display_Name>
 			<Description>DLC maps</Description>
 			<Required_XP_Level>1</Required_XP_Level>
@@ -318,7 +355,7 @@
 			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
 			<min_players>4</min_players>
 			<max_players>16</max_players> <!--From 8-->
-			<max_party_size>4</max_party_size>
+			<max_party_size>8</max_party_size>
 			<Playlist_Entries>
 				<Entries>TBag_Compound1</Entries>
 				<Entries>TBag_Division1</Entries>
