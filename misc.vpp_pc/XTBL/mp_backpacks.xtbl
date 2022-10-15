@@ -1045,8 +1045,8 @@
 			<stealth>
 				<restealth_time_ms>500</restealth_time_ms>
 				<stealth_time_ms>2500</stealth_time_ms>
-				<stealth_transparency>1.0</stealth_transparency> <!--From 0.05-->
-				<local_stealth_transparency>1.0</local_stealth_transparency> <!--From 0.3-->
+				<stealth_transparency>10.0</stealth_transparency> <!--From 0.05-->
+				<local_stealth_transparency>10.0</local_stealth_transparency> <!--From 0.3-->
 			</stealth>
 			<radar>False</radar>
 			<fuel_use_per_second>0.0</fuel_use_per_second>
@@ -1076,8 +1076,8 @@
 					<refire_delay_factor>1</refire_delay_factor>
 					<unlimited_ammo>False</unlimited_ammo>
 					<stealth>
-						<stealth_transparency>1.0</stealth_transparency> <!--From 0.05-->
-						<local_stealth_transparency>1.0</local_stealth_transparency> <!--From 0.25-->
+						<stealth_transparency>10.0</stealth_transparency> <!--From 0.05-->
+						<local_stealth_transparency>10.0</local_stealth_transparency> <!--From 0.25-->
 						<stealth_time_ms>1000</stealth_time_ms>
 						<restealth_time_ms>1000</restealth_time_ms>
 					</stealth>

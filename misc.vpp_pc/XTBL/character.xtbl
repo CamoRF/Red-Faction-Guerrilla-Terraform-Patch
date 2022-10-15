@@ -104,11 +104,11 @@
 			<origin_district>Special</origin_district>
 		</Character>
 		<Character>
-			<Name>rfg_PC_DLC</Name>
+			<Name>Sam_DLC</Name> <!--Change this to "rfg_PC_DLC" to play as DLC Sam in the base game-->
 			<Model>
 				<Filename>sam_dlc.cmeshx</Filename>
 			</Model>
-			<Anim_Set>Samanya.xtbl</Anim_Set>
+			<Anim_Set>Samanya.xtbl</Anim_Set> <!--Change this to "Player.xtbl" to play as DLC Sam in the base game-->
 			<Rig>
 				<Filename>sam_dlc.rigx</Filename>
 			</Rig>
@@ -5079,7 +5079,6 @@
 			<origin_district>Special</origin_district>
 		</Character>
 		<Character>
-			<Team>EDF</Team>
 			<Name>mp_edf_engineer</Name>
 			<Model>
 				<Filename>greene_mp.cmeshx</Filename>
@@ -5088,7 +5087,7 @@
 			<Rig>
 				<Filename>greene_mp.rigx</Filename>
 			</Rig>
-			<Team>Guerilla</Team>
+			<Team>EDF</Team>
 			<_Editor>
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
