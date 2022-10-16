@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		<Blood_decal_info>
+		<Blood_decal_info> <!--Add original value comments-->
 			<Name>Blood_decal_info</Name>
 			<Close_decals>
 				<Decal>blood_decal_close</Decal>

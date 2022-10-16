@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		<GameStateData>
+		<GameStateData> <!--Add commented original values-->
 			<Name>EDFStateData</Name>
 			<SolidYellowMin>125</SolidYellowMin>
 			<SolidYellowMax>150</SolidYellowMax>
