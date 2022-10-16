@@ -138,7 +138,7 @@
 					<Display_name>TERR_PARKER</Display_name>
 					<liberated_tech>1</liberated_tech>
 					<liberated_marauder>1</liberated_marauder>
-					<liberated_edf>1</liberated_edf>
+					<liberated_edf>1</liberated_edf> <!--From 1-->
 					<DiscLayer>Layer 1</DiscLayer>
 					<district_index>1</district_index>
 					<thumbnail>
@@ -287,7 +287,7 @@
 					<Display_name>TERR_DUST</Display_name>
 					<liberated_tech>2</liberated_tech>
 					<liberated_marauder>2</liberated_marauder>
-					<liberated_edf>2</liberated_edf>
+					<liberated_edf>1</liberated_edf> <!--From 2-->
 					<DiscLayer>Layer 0</DiscLayer>
 					<district_index>2</district_index>
 					<thumbnail>
@@ -454,7 +454,7 @@
 					<Display_name>TERR_BADLANDS</Display_name>
 					<liberated_tech>3</liberated_tech>
 					<liberated_marauder>3</liberated_marauder>
-					<liberated_edf>3</liberated_edf>
+					<liberated_edf>1</liberated_edf> <!--From 3-->
 					<DiscLayer>Layer 0</DiscLayer>
 					<district_index>3</district_index>
 					<thumbnail>
@@ -602,7 +602,7 @@
 					<Display_name>TERR_OASIS</Display_name>
 					<liberated_tech>3</liberated_tech>
 					<liberated_marauder>3</liberated_marauder>
-					<liberated_edf>3</liberated_edf>
+					<liberated_edf>1</liberated_edf> <!--From 3-->
 					<DiscLayer>Layer 0</DiscLayer>
 					<district_index>4</district_index>
 					<thumbnail>
@@ -680,7 +680,7 @@
 					<Display_name>TERR_MANUFACTURING</Display_name>
 					<liberated_tech>4</liberated_tech>
 					<liberated_marauder>4</liberated_marauder>
-					<liberated_edf>4</liberated_edf>
+					<liberated_edf>1</liberated_edf> <!--From 4-->
 					<DiscLayer>Layer 1</DiscLayer>
 					<district_index>5</district_index>
 					<thumbnail>
@@ -833,7 +833,7 @@
 					<Display_name>TERR_EOS</Display_name>
 					<liberated_tech>5</liberated_tech>
 					<liberated_marauder>5</liberated_marauder>
-					<liberated_edf>5</liberated_edf>
+					<liberated_edf>1</liberated_edf> <!--From 5-->
 					<DiscLayer>Layer 1</DiscLayer>
 					<district_index>6</district_index>
 					<thumbnail>
@@ -922,7 +922,7 @@
 					<Display_name>TERR_END_GAME</Display_name>
 					<liberated_tech>5</liberated_tech>
 					<liberated_marauder>5</liberated_marauder>
-					<liberated_edf>5</liberated_edf>
+					<liberated_edf>1</liberated_edf> <!--From 5-->
 					<DiscLayer>Layer 1</DiscLayer>
 					<district_index>7</district_index>
 					<thumbnail>
