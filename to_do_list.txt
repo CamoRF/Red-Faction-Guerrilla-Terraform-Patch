@@ -2,28 +2,54 @@
 v1.07
 ------------
 
-[Sort]
-	* Make team spawns children of CTF objective
-	* Remove spawns where you get stuck on Scrapheap
-	* Fix out of bounds areas on Doubletime
-	* Fix bounding boxes on WC map weapons (Frost and Stratosphere to go)
-	* Remove ghost children from objects
-	* Haven: Add more mines to the out of bounds area cliff starting from the building you leap from 
+[Weapons]
+	* Add Spiker to singleplayer and add it to Marauder loadout
+	* Update loading screen image and changelog
+	* Update WC map thumbnails after the maps are semi finalized
+
+[Maps]
+	* Add a single kaboom pack spawn with only 1 on the rack on overpass and crevice - wip
+	* Add team spawns to all WC maps
+	* Fix random backpacks on WC maps
+	* Ruins: has issues with some of the rocks being hard to climb and the player can get stuck on the spikes on buildings
+	* Repurcussion: might need adjustments to some of the spawns inside the pipes
+	* GFWL/Nordic Bonus: Some of the shipping containers are floating
+	* Imperial: Add more weapons to make your way up the large buildings on Imperial, nano forge and reconstructor 
+	* Imperial: Add spawns and weapons to the two new buildings added
 	* Cascade: Add a couple m16 spawns, Add a repair tool under the bridge
-	* Pipeline: Add a couple hidden misslepod spawns
-	* Crash site has duplicate weapon spawns on the hill in the middle and the rpg hill 
-	* Ladder pipe not showing on Frost
-	* Add ladders going to top on Frost?
-	* Add ladders to towers on Gulch
-	* Add barrels to indicate where barrier is on Frost
-	* Add pipes to help you climb the hill on Frost
-	* Add team spawns on Imperial 
-	* Add more weapons to make your way up the large buildings on Imperial, nano forge and reconstructor 
-	* Use smaller mines on Equilbrium/landbridge
-	* Add siege objectives to Stratosphere and Garrison
-	* Add new Marauder NPCs to SP
-	* Add Spiker to singleplayer
-	* Add an RPG at 217.850, -18.775, -292.580 on Frost
+	* Scrapheap: Move spawns where you can get stuck in the frames on Scrapheap
+	* Test adding multiple bagman spawns to randomize where it respawns
+
+
+[Out of Bounds Exploits]
+	* Puncture 
+	* Doubletime
+	* Equilbrium/landbridge
+	* Haven
+	
+[Misc]
+	* Merge items from SP and DLC into mp_common.vpp_pc
+	* Test out the preload chunk xtbl and file with objectives
+
+------------
+LOW PRIORITY 
+------------
+
+[Weapons]
+	* Add CTF flags, Gutter, Impaler and DLC Pickaxe to the sledgehammer upgrade list in multiplayer if possible and when the dlc melee weapons are added
+	* Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host, Broken DLC weapons might need to be merged into items_mp.vpp_pc? (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
+	* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
+	* Singularity launcher
+	* Gauss shotgun
+	* Reconstructor flamethrower
+	
+[Additions/Changes]
+	* Remove blur from RPG explosions?
+	* Try to make it so you can walk up steeper inclines?
+	* Improve driving skills of NPCs
+	* Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to
+	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
+	* Reduce mass of debris?
 
 [Fixes]
 	* Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
@@ -31,53 +57,17 @@ v1.07
 	* Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
 	* Fix missing texture on Marauder lady
 	* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
-	* Restore Dan Masons yellow jacket
-	* Use mp_explosion_overrides.xtbl for explosion changes so it doesn't mess with singleplayer
-	* Compress + Condense table.vpp_pc
+	* Restore Dan Masons yellow jacket		
 
-[Maps]
-	* Add a single kaboom pack spawn with only 1 on the rack on overpass and crevice
-	* Add cliff under maps that are missing it when bounding box makes sense
-	* Add CTF, Damage Control objectives and backpack racks to WC maps when Nanoforge supports it
-	* Add more neutral spawns to Siege maps (Framework done)
-	* Fix out of bounds spot on Puncture -
-	* Add team spawns on WC maps - 
-	* Add more siege maps (Framework and Fallfactor)
-	* Fix random backpacks on WC maps (requires adding backpack racks I believe)awn where you can get stuck in a frame
-	* Ruins: has issues with some of the rocks being hard to climb and the player can get stuck on the spikes on buildings
-	* Repurcussion: might need adjustments to some of the spawns inside the pipes
-	* GFWL/Nordic Bonus: Some of the shipping containers are floating
+[Maps] 	
 	* Expansion: make bridge changes cleaner when we can clone between maps
 	* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
-	* Pinaccle: experimental spawn flipping fixes that apply only in CTF (try intial and respawn bools for team spawns)
-	* Test adding multiple bagman spawns to randomize where it respawns
-	* Update WC map thumbnails after the maps are polished
+	* Add CTF, Damage Control objectives and backpack racks to WC maps when Nanoforge supports it	
 	* Tutorial area map
-	* Add barrels back to WC maps without gamemode flags 
-	* Fix missing flags on every map
-	* Move the rocket launcher on complex to an even more hidden spot on the rock
 
-[Additions/Changes]
-	* .exe with match countdown set to 6 seconds
-	* .exe with match end countdown set to 6 seconds
-	* Remove blur from RPG explosions?
-	* Try to make it so you can walk up steeper inclines?
-	* Improve driving skills of NPCs
-	* Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to
-	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
-	* Reduce mass of debris
-	* Merge items from SP and DLC into mp_common.vpp_pc
-
-[Weapons]
-	* Add CTF flags, Gutter, Impaler and DLC Pickaxe to the sledgehammer upgrade list in multiplayer if possible and when the dlc melee weapons are added
-	* Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host, Broken DLC weapons might need to be merged into items_mp.vpp_pc? (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
-	* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
-
-
-
-------
-OTHER PROJECTS
-------
+------------------------------------------------
+OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
+------------------------------------------------
 * HD character textures 
 * HD weapons and backpack textures
 * Balance difficulties: Casual = just want to blow stuff up, Normal = about average, Hard = Balanced and fair but challenging, Insane = Truly punishing experience 
@@ -95,64 +85,14 @@ OTHER PROJECTS
 	- Rebalance side activity pro times
 	- Make EDF withdraw from liberated sectors
 	- Uncap alert level in scriptx files
-------------
-LOW PRIORITY 
-------------
-
-- Singularity launcher
-- Gauss shotgun
-- Reconstructor flamethrower
-
-[DONE]
-
-* Restore complex smokestack - done
-	0101smokestack_a.rfgchunk_pc
-
-	186.775, 0, -367.993
-
-	-0.000, 0, -1.000
-
-	0, 1.000, 0
-
-	1.000, 0.000, -0.000
-* Fix out of bounds spot on GFWL and Crevice 	
-* Imperial: Fix the two small rock out of bounds exploits
-* Move bag on Abandonded 
-* Fix out of bounds spot on Stratosphere - done
-* Fix out of bounds spots on Excavation - done
-* Fix out of bounds spot on Remnant - mostly done but there's still a small rock
-Add siege objectives to Quarantine
-* Wrecking crew bagman playlist is missing the regular WC maps, only has DLC
-* Add team bagman wrecking crew playlist
------
-NOTES
------
 * Casual = Swat EDF like flies and blow shit up as the ultimate space asshole.
   Normal = An average mix of sandbox fun and tactical combat. Nothing too heavy.
   Hard = You'll need to think smarter and plan your attacks ahead of time, using guerrilla hit and run tactics and then getting the hell out, if you want to succeed. Challenging, but balanced.
   Insane = An ultimate test of your guerrilla skills. You stand no chance against the military might of the EDF without careful planning and tactical knowledge in a realistic guerrilla warfare scenario. Where you are but an average man, standing against the overwhelming force of your oppressive military dictators. 
-
 * I'd balance it generally around Normal and Hard as the defaults.
   Casual is pretty self-explanatory, and Insane would be a semi-realistic guerrilla warfare simulation.
   Then the game has something to offer everyone. You can sandbox and dick around with little trouble, get an average middle of the road mix of challenge and story, get a balanced challenge that requires you to use hit and run tactics with forward thinking, or get a true realistic challenge of guerrilla skill and tactics that will push you in a desperate struggle for freedom. 
-
 * Stealth in vanilla is pretty much useless, so implementing those fixes would make stealth a much more viable option. I think in general we want to lean the player towards using guerrilla tactics on higher difficulties.
   Encourage hit and run and stealth
-
 * https://discord.com/channels/@me/1004543616875778089/1022032142038994944
-* http://www.mediafire.com/file/w5kw5nkq6c2m88r/Red_Faction_Guerrilla_%2528Multiplayer_Beta%252C_Jun_18_2008%2529.rar/file
-
-* Frost Barrels 
-	- 315.575, -15.644, -298.588
-	- 303.483, -16.648, -277.102
-	- 293.037, -16.345, -290.762
-	- 249.349, -21.736, -275.162
-	- 225.579, -19.042, -267.273
-
-* Frost ladders 
-	- 242.024, 13.900, -403.447
-
-* Gulch 
-	- Rotate the frame things at 221.501,1605, -212.787 and have them all aligned - test
-	- You can see through the map at 324.939, -0.894, -385.320 - test
-	- Add ladders to towers
+* http://www.mediafire.com/file/w5kw5nkq6c2m88r/Red_Faction_Guerrilla_%2528Multiplayer_Beta%252C_Jun_18_2008%2529.rar/file	
