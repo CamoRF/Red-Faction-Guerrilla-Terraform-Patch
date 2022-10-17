@@ -2,15 +2,15 @@
 	<Table>
 <!--START DLC CHARACTERS ADDED-->	
 		<Character>
-			<Name>rfg_PC_DLC</Name> <!--Sam_DLC_SP--> <!--Change this to "rfg_PC_DLC" to play as DLC Sam in the base game-->
+			<Name>rfg_PC_DLC</Name> <!--Change this to "Sam_DLC_SP" to play as restore Alec in the base game-->
 			<Model>
 				<Filename>sam_dlc.cmeshx</Filename>
 			</Model>
-			<Anim_Set>Player.xtbl</Anim_Set> <!--Samanya.xtbl--> <!--Change this to "Player.xtbl" to play as DLC Sam in the base game-->
+			<Anim_Set>Player.xtbl</Anim_Set>
 			<Rig>
 				<Filename>sam_dlc.rigx</Filename>
 			</Rig>
-			<Team>Guerilla</Team> <!--Marauder-->
+			<Team>Guerilla</Team> <!--From Marauder-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -138,7 +138,7 @@
 			<Model>
 				<Filename>sam_dlc.cmeshx</Filename>
 			</Model>
-			<Anim_Set>Player.xtbl</Anim_Set>
+			<Anim_Set>Samanya.xtbl</Anim_Set>
 			<Rig>
 				<Filename>sam_dlc.rigx</Filename>
 			</Rig>

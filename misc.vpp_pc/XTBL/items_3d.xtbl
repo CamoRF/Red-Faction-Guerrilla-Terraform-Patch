@@ -2002,10 +2002,8 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_cylinder</Flag>
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -2035,12 +2033,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>-->
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
