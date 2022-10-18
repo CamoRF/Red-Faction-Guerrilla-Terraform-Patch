@@ -4,8 +4,8 @@
 
 Author: Camo
 Version: v1.07 PRE ALPHA
-Date: 16-10-2022
-Build: 904
+Date: 19-10-2022
+Build: 944
 
 -----------------------
 INTIAL RELEASE CHANGES
@@ -402,7 +402,7 @@ v1.063 ALPHA HOTFIX CHANGES
 * Added bullet tracers
 
 ---------------------------
-v1.07 ALPHA CHANGES
+v1.07 PRE ALPHA CHANGES
 ---------------------------
 
 [Fixes]
@@ -433,7 +433,6 @@ v1.07 ALPHA CHANGES
 * Fixed out of bounds map exploits on Scrapheap
 * Fixed out of bounds map exploits on Haven 
 * Fixed out of bounds map exploits on Puncture
-* 
 * Fixed broken VFX on GFWL/Nordic Bonus
 * Fixed missing killzones/cliffs under various maps
 * Fixed two weapon spawns in the same location on Gulch 
@@ -474,11 +473,15 @@ v1.07 ALPHA CHANGES
 * Moved bag location on Abandoned
 * Completely overhauled Frost to be much more playable
 * Completely overhauled Gulch to fill in all the empty space and make it similar to Wasteland
-* Added kaboom pack pickup to Crevice and Overpass 
+* Added kaboom pack pickup on Crevice, Overpass and Gauntlet with a single pack on the rack near the attacking team spawn
 * Moved the RPG spawn location on Complex to a more hidden location
 * Added another rail driver spawn on Imperial
 * Moved smokestack on GFWL/Nordic Bonus and added signs and trees to indicate out of bounds areas
 * Added a monument and two more buildings to Imperial
+* Fixed CTF spawn flipping
+* Improved spawns on Siege maps when played in other game modes
+* Changed backpack names on all maps to make it easier to find backpack racks without having to check their children 
+* Added (camo) to object names for all map changes made by the community patch
 
 [Characters] 
 * Added DLC Samanya Marauder
@@ -488,6 +491,7 @@ v1.07 ALPHA CHANGES
 
 [Changes] 
 * Enabled friendly fire by default in custom games
+* Added Kaboom pack to random backpack rotation
 
 ------------
 |KNOWN BUGS|
