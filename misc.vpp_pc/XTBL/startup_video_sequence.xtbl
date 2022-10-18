@@ -31,7 +31,9 @@
 					<Video_File>
 						<Filename>legal_hd2.bik</Filename>
 					</Video_File>
-					<Video_Flags>skip_on_user_input</Video_Flags> <!--Added-->
+					<Video_Flags>
+						<Flag>skip_on_user_input</Flag> <!--Added-->
+					</Video_Flags>
 				</Video>
 			</Video_List>
 			<_Editor>
