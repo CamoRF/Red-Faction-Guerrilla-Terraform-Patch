@@ -3,6 +3,7 @@ v1.07
 ------------
 
 [Fixes]
+	* Issue with double text for the you won/you lost text at end of game with large text over the top of small text
 
 [Weapons]
 	* Add Spiker to singleplayer and add it to Marauder loadout
@@ -21,6 +22,12 @@ v1.07
 	* Cascade: Add a couple m16 spawns, Add a repair tool under the bridge
 	* Scrapheap: Move spawns where you can get stuck in the frames on Scrapheap
 	* Test adding multiple bagman spawns to randomize where it respawns
+	* Cascade: add siege target at 220.022, -24.919, -241.849
+	* Cascade: One of the towers is floating
+	* Add all backpacks at 0,0,0 on all WC maps 
+	* Double check all maps have kaboom or missing packs on the level at 0,0,0 so they work in the random rotation option
+	* Double check all WC maps have a disabled barrel at 0,0,0
+	* Double check all backpacks were renamed and (camo) was added to weapons added or bugs fixed on all maps
 
 [Out of Bounds Exploits]
 	* Puncture -test
@@ -28,12 +35,13 @@ v1.07
 	* Equilbrium/landbridge - test
 	* Haven - test 
 	* Downfall inside rocks - test
-	* Frost - test 
+	* Frost: 173.800, 44.603, -323.943
 	* Expansion - test
 	
 [Misc]
 	* Merge items from SP and DLC into mp_common.vpp_pc
 	* Test out the preload chunk xtbl and file with objectives
+	* Validate optimized XML starting at character_xxxx
 
 ------------
 LOW PRIORITY 
