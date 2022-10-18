@@ -431,6 +431,9 @@ v1.07 ALPHA CHANGES
 * Fixed out of bounds map exploit on Crevice 
 * Fixed out of bounds map exploits on GFWL/Nordic 
 * Fixed out of bounds map exploits on Scrapheap
+* Fixed out of bounds map exploits on Haven 
+* Fixed out of bounds map exploits on Puncture
+* 
 * Fixed broken VFX on GFWL/Nordic Bonus
 * Fixed missing killzones/cliffs under various maps
 * Fixed two weapon spawns in the same location on Gulch 

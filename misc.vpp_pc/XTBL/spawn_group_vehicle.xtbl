@@ -61,9 +61,9 @@
 				<vehicle_type>Walker_Min</vehicle_type>
 				<vehicle_type>Walker_Min2</vehicle_type>
 				<vehicle_type>Walker_Min3</vehicle_type>
-				<!--START DLC Vehicles Added-->
+<!--START DLC Vehicles Added-->
 				<vehicle_type>Mar_Walker</vehicle_type>
-				<!--END DLC Vehicles Added-->
+<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Special</Category>
@@ -398,9 +398,9 @@
 				<vehicle_type>Walker_Civilian</vehicle_type>
 				<vehicle_type>Walker_Civilian2</vehicle_type>
 				<vehicle_type>Walker_Civilian3</vehicle_type>
-				<!--START DLC Vehicles Added-->
+<!--START DLC Vehicles Added-->
 				<vehicle_type>Mar_Walker</vehicle_type>
-				<!--END DLC Vehicles Added-->
+<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Guerilla</Category>
@@ -411,9 +411,9 @@
 			<vehicle_list>
 				<vehicle_type>Mar_Raider_1</vehicle_type>
 				<vehicle_type>Mar_Jetter_1</vehicle_type>
-				<!--START DLC Vehicles Added-->
+<!--START DLC Vehicles Added-->
 				<vehicle_type>Mar_stomper_MG</vehicle_type>
-				<vehicle_type>Mar_chomper</vehicle_type>
+				<vehicle_type>Mar_chomper</vehicle_type>				
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Marauder</Category>
@@ -437,7 +437,7 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		<!--END DLC Vehicles Added-->
+<!--END DLC Vehicles Added-->
 		<spawn_group_vehicle>
 			<Name>Default Guerilla</Name>
 			<vehicle_list>
@@ -562,10 +562,10 @@
 			<vehicle_list>
 				<vehicle_type>Mar_Raider_1</vehicle_type>
 				<vehicle_type>Mar_Jetter_1</vehicle_type>
-				<!--START DLC Vehicles Added-->
+<!--START DLC Vehicles Added-->
 				<vehicle_type>Mar_stomper_MG</vehicle_type>
 				<vehicle_type>Mar_chomper</vehicle_type>
-				<!--END DLC Vehicles Added-->
+<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries</Category>
@@ -972,10 +972,10 @@
 			<vehicle_list>
 				<vehicle_type>Mar_Raider_1</vehicle_type>
 				<vehicle_type>Mar_Jetter_1</vehicle_type>
-				<!--START DLC Vehicles Added-->
+<!--START DLC Vehicles Added-->
 				<vehicle_type>Mar_stomper_MG</vehicle_type>
 				<vehicle_type>Mar_chomper</vehicle_type>
-				<!--END DLC Vehicles Added-->
+<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Marauder</Category>
@@ -987,9 +987,9 @@
 				<vehicle_type>Walker_Min</vehicle_type>
 				<vehicle_type>Walker_Min2</vehicle_type>
 				<vehicle_type>Walker_Min3</vehicle_type>
-				<!--START DLC Vehicles Added-->
+<!--START DLC Vehicles Added-->
 				<vehicle_type>Mar_Walker</vehicle_type>
-				<!--END DLC Vehicles Added-->
+<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Guerilla</Category>
@@ -1526,10 +1526,10 @@
 			<vehicle_list>
 				<vehicle_type>Mar_Raider_1</vehicle_type>
 				<vehicle_type>Mar_Jetter_1</vehicle_type>
-				<!--START DLC Vehicles Added-->
+<!--START DLC Vehicles Added-->
 				<vehicle_type>Mar_stomper_MG</vehicle_type>
 				<vehicle_type>Mar_chomper</vehicle_type>
-				<!--END DLC Vehicles Added-->
+<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>

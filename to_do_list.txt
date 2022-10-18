@@ -2,6 +2,9 @@
 v1.07
 ------------
 
+[Fixes]
+	* DLC Sam is crashing in MP now, probably related to porting her to SP - test
+
 [Weapons]
 	* Add Spiker to singleplayer and add it to Marauder loadout
 	* Update loading screen image and changelog
@@ -21,13 +24,14 @@ v1.07
 	* Test adding multiple bagman spawns to randomize where it respawns
 	* Enable the grinder spawn on rock in middle of Crash Site in TA/Anarchy
 
-
 [Out of Bounds Exploits]
-	* Puncture 
-	* Doubletime
-	* Equilbrium/landbridge
-	* Haven
-	* Downfall inside rocks
+	* Puncture -test
+	* Doubletime - test
+	* Equilbrium/landbridge - test
+	* Haven - test 
+	* Downfall inside rocks - test
+	* Frost - test 
+	* Expansion - test
 	
 [Misc]
 	* Merge items from SP and DLC into mp_common.vpp_pc

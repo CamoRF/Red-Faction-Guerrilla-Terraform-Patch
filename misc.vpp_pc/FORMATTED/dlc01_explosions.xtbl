@@ -260,55 +260,6 @@
 		</Explosion>
 	</Table>
 	<TableTemplates>
-		<Explosion>
-			<Name>DLC_test_splosion</Name>
-			<Radius>3.5</Radius>
-			<AI_Sound_Radius>75</AI_Sound_Radius>
-			<vehicle_damage_max>3500</vehicle_damage_max>
-			<vehicle_damage_min>200</vehicle_damage_min>
-			<Impulse>28000</Impulse>
-			<Effects>
-				<Element>wep_miner_rpg_exp_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>4.0</CrumbleRadius>
-			<KnockdownRadius>6.5</KnockdownRadius>
-			<FlinchRadius>10</FlinchRadius>
-			<player_mult>0.6</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>280</human_damage_min>
-			<Human_Damage_Max>1700</Human_Damage_Max>
-			<Structural_Damage>22500</Structural_Damage>
-			<Unique_ID>103</Unique_ID>
-			<camera_shake_type>explosion_large</camera_shake_type>
-			<camera_shake_multiplier>0.9</camera_shake_multiplier>
-			<camera_shake_falloff>55.0</camera_shake_falloff>
-			<player_veh_mult>0.7</player_veh_mult>
-			<Material_Effects>
-				<Entry>
-					<Material>Concrete</Material>
-					<Effect>wep_rpg_exp_cement_a</Effect>
-				</Entry>
-				<Entry>
-					<Material>Terrain</Material>
-					<Effect>wep_rpg_exp_dirt_a</Effect>
-				</Entry>
-				<Entry>
-					<Material>Sand</Material>
-					<Effect>wep_rpg_exp_dirt_a</Effect>
-				</Entry>
-				<Entry>
-					<Material>Gravel</Material>
-					<Effect>wep_rpg_exp_dirt_a</Effect>
-				</Entry>
-			</Material_Effects>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
 	</TableTemplates>
 	<TableDescription>
 		<Name>Explosion</Name>
