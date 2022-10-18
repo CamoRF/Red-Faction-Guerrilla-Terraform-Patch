@@ -3,7 +3,6 @@ v1.07
 ------------
 
 [Fixes]
-	* DLC Sam is crashing in MP now, probably related to porting her to SP - test
 
 [Weapons]
 	* Add Spiker to singleplayer and add it to Marauder loadout
@@ -11,7 +10,7 @@ v1.07
 	* Update WC map thumbnails after the maps are semi finalized
 
 [Maps]
-	* Add a single kaboom pack spawn with only 1 on the rack on overpass and crevice - wip
+	* Add a single kaboom pack spawn with only 1 on the rack on overpass and crevice
 	* Add team spawns to all WC maps
 	* Fix random backpacks on WC maps
 	* Ruins: has issues with some of the rocks being hard to climb and the player can get stuck on the spikes on buildings
@@ -22,7 +21,6 @@ v1.07
 	* Cascade: Add a couple m16 spawns, Add a repair tool under the bridge
 	* Scrapheap: Move spawns where you can get stuck in the frames on Scrapheap
 	* Test adding multiple bagman spawns to randomize where it respawns
-	* Enable the grinder spawn on rock in middle of Crash Site in TA/Anarchy
 
 [Out of Bounds Exploits]
 	* Puncture -test
@@ -101,3 +99,4 @@ OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
 	-  Stealth in vanilla is pretty much useless, so implementing those fixes would make stealth a much more viable option. I think in general we want to lean the player towards using guerrilla tactics on higher difficulties.
 	- Encourage hit and run and stealth
 	- https://discord.com/channels/@me/1004543616875778089/1022032142038994944
+	
