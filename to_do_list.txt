@@ -11,7 +11,6 @@ v1.07
 	* Update WC map thumbnails after the maps are semi finalized
 
 [Maps]
-	* Add a single kaboom pack spawn with only 1 on the rack on overpass and crevice
 	* Add team spawns to all WC maps
 	* Fix random backpacks on WC maps
 	* Ruins: has issues with some of the rocks being hard to climb and the player can get stuck on the spikes on buildings
@@ -22,26 +21,22 @@ v1.07
 	* Cascade: Add a couple m16 spawns, Add a repair tool under the bridge
 	* Scrapheap: Move spawns where you can get stuck in the frames on Scrapheap
 	* Test adding multiple bagman spawns to randomize where it respawns
-	* Cascade: add siege target at 220.022, -24.919, -241.849
-	* Cascade: One of the towers is floating
 	* Add all backpacks at 0,0,0 on all WC maps 
 	* Double check all maps have kaboom or missing packs on the level at 0,0,0 so they work in the random rotation option
 	* Double check all WC maps have a disabled barrel at 0,0,0
-	* Double check all backpacks were renamed and (camo) was added to weapons added or bugs fixed on all maps
 
-[Out of Bounds Exploits]
-	* Puncture -test
-	* Doubletime - test
-	* Equilbrium/landbridge - test
-	* Haven - test 
-	* Downfall inside rocks - test
-	* Frost: 173.800, 44.603, -323.943
-	* Expansion - test
+
+[Fix: Out of Bounds Exploits]
+	* Puncture
+	* Doubletime
+	* Equilbrium/landbridge
+	* Haven
+	* Downfall
+	* Expansion
 	
 [Misc]
-	* Merge items from SP and DLC into mp_common.vpp_pc
+	* Merge items from SP and DLC into mp_common.vpp_pc?
 	* Test out the preload chunk xtbl and file with objectives
-	* Validate optimized XML starting at character_xxxx
 
 ------------
 LOW PRIORITY 
@@ -69,7 +64,8 @@ LOW PRIORITY
 	* Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
 	* Fix missing texture on Marauder lady
 	* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
-	* Restore Dan Masons yellow jacket		
+	* Restore Dan Masons yellow jacket	
+	* Double check all backpacks were renamed and (camo) was added to weapons added or bugs fixed on all maps	
 
 [Maps] 	
 	* Expansion: make bridge changes cleaner when we can clone between maps
