@@ -2,69 +2,12 @@
 	<Table>
 <!--START Experimental Misc-->
 		<Weapon>
-			<Name>fists_test2</Name>
-			<Weapon_Class>melee_sledgehammer</Weapon_Class>
-			<Trigger_Type>single</Trigger_Type>
-			<Ammo_Type>melee</Ammo_Type>
-			<Magazine_Size>1</Magazine_Size>
-			<Max_Rounds>1</Max_Rounds>
-			<Range_Max>1</Range_Max>
-			<Range_Red>1</Range_Red>
-			<Default_Refire_Delay>0</Default_Refire_Delay>
-			<Damage_Scaling_Max>
-				<NPC_Damage>0</NPC_Damage>
-				<Player_Damage>0</Player_Damage>
-				<Vehicle_Damage>-1</Vehicle_Damage>
-				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
-			</Damage_Scaling_Max>
-			<_Editor>
-				<Category>Entries:Guerilla</Category>
-			</_Editor>
-			<Animation_Group>remote charge</Animation_Group>
-			<Flags>
-				<Flag>shatter</Flag>
-				<Flag>held in left hand</Flag>
-				<!--<Flag>disable player cover</Flag>-->
-				<Flag>mp selectable</Flag>
-				<Flag>draw projectile in opposite hand</Flag>
-			</Flags>
-			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
-			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
-			<MeleeAttacks>
-				<StandingPrimary>remote_charge_melee</StandingPrimary>
-				<StandingSecondary>remote_charge_punch</StandingSecondary>
-				<StandingTertiary>remote_charge_melee</StandingTertiary>
-				<CrouchingPrimary>remote_charge_melee</CrouchingPrimary>
-				<CrouchingSecondary>remote_charge_punch</CrouchingSecondary>
-				<CrouchingTertiary>remote_charge_melee</CrouchingTertiary>
-			</MeleeAttacks>
-			<Inventory_Item>fists2</Inventory_Item>
-			<Item_3d>fists</Item_3d>
-			<Acceleration>0.0</Acceleration>
-			<!--<Visuals>
-				<Attachment_prop>holster-hammer</Attachment_prop>
-			</Visuals>-->
-			<Player_Move_Speed>1.25</Player_Move_Speed>
-			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
-			<Ammo_Box_Restock>0</Ammo_Box_Restock>
-			<Num_Magazines>2</Num_Magazines>
-			<icon_name>fists2</icon_name>
-			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<reticule_name>ui_hud_reti_hammer</reticule_name>
-			<dummy>False</dummy>
-			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group> <!--Sledgehammer--> 
-			<Unique_ID>136</Unique_ID>
-			<Default_team>Guerilla</Default_team>
-			<Zoom_Magnification>1.45</Zoom_Magnification>
-			<aim_assist>0.75</aim_assist>
-		</Weapon>		
-		<Weapon>
 			<Name>fists</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
-			<Ammo_Type>melee</Ammo_Type> <!--from Thrown-->
+			<Ammo_Type>thrown</Ammo_Type>
 			<Magazine_Size>1</Magazine_Size> <!--From 1-->
-			<Max_Rounds>4</Max_Rounds> <!--From 18-->
+			<Max_Rounds>1</Max_Rounds> <!--From 18-->
 			<Range_Max>1</Range_Max> <!--From 10-->
 			<Range_Red>1</Range_Red> <!--From 10-->
 			<Default_Refire_Delay>0</Default_Refire_Delay> <!--From 2000-->
@@ -82,10 +25,10 @@
 				<Model>remote_charge</Model>
 				<Max_Speed>20</Max_Speed>
 				<Projectile_Flags>
-					<!--<Flag>attach on impact</Flag>-->
-					<!--<Flag>align orient to flightpath</Flag>-->
+					<Flag>attach on impact</Flag>
+					<Flag>align orient to flightpath</Flag>
 					<Flag>tossable</Flag>
-					<!--<Flag>detonate on explosion impact</Flag>-->
+					<Flag>detonate on explosion impact</Flag>
 				</Projectile_Flags>
 				<Mass>5.0</Mass>
 				<Angular_Velocity>
@@ -123,16 +66,16 @@
 			</MeleeAttacks>
 			<Sounds>
 				<Special_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Special_Sound>
-				<!--<No_Ammo_Sound>WEP_CHARGE_DRYFIRE_PC</No_Ammo_Sound>-->
+				<No_Ammo_Sound>WEP_CHARGE_DRYFIRE_PC</No_Ammo_Sound>
 			</Sounds>
 			<Player_Move_Speed>1.25</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Reload_Delay>150</Reload_Delay>
 			<Ammo_Box_Restock>1</Ammo_Box_Restock> <!--From 18-->
-			<Num_Magazines>2</Num_Magazines> <!--From 18-->
+			<Num_Magazines>1</Num_Magazines> <!--From 18-->
 			<icon_name>ui_badge_icon_fist</icon_name> <!--ui_badge_icon_hand-->
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<reticule_name>ui_hud_reti_hammer</reticule_name> <!--From ui_hud_reti_mines-->
+			<reticule_name>ui_hud_reti_mines</reticule_name>
 			<dummy>False</dummy>
 			<Unique_ID>135</Unique_ID>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
@@ -147,7 +90,7 @@
 			<Item_3d>repair_tool</Item_3d>
 			<Weapon_Class>repair</Weapon_Class> <!--From repair--> <!--Test: nano_rifle--> <!--Test: arc_welder-->
 			<Trigger_Type>automatic</Trigger_Type>
-			<Ammo_Type>repair</Ammo_Type> <!--From repair--> <!--electricity--> <!--flame-->
+			<Ammo_Type>electricity</Ammo_Type> <!--From repair-->
 			<Animation_Group>Arc</Animation_Group>
 			<Magazine_Size>0</Magazine_Size> <!--From 0--> <!--From 250-->
 			<Max_Rounds>0</Max_Rounds> <!--1000-->
@@ -197,12 +140,12 @@
 			<Overheat_Cool_Down_Time>0.0</Overheat_Cool_Down_Time> <!--From 2.45-->
 			<Overheat_Percent_Per_Shot>0.0</Overheat_Percent_Per_Shot> <!--From 0.1-->
 			<Sounds>
-				<!--<Sound_Group>reconstructor</Sound_Group>-->
-				<Fire_Sound>VEH_WEP_MWALKER_FLAME_ATTACK</Fire_Sound>
+				<Sound_Group>reconstructor</Sound_Group>
+				<Fire_Sound>WEP_RECONSTRUCTOR_PC_ATTACK</Fire_Sound>
 				<NPC_Fire_Sounds>
-					<NPC_Fire_Sound>WEP_TUR_MACHINE_NPC_ATTACK</NPC_Fire_Sound>
+					<NPC_Fire_Sound>WEP_RECONSTRUCTOR_NPC_ATTACK</NPC_Fire_Sound>
 				</NPC_Fire_Sounds>
-				<!--<No_Ammo_Sound>WEP_RECONSTRUCTOR_PC_ATTACKFAIL_01</No_Ammo_Sound>-->
+				<No_Ammo_Sound>WEP_RECONSTRUCTOR_PC_ATTACKFAIL_01</No_Ammo_Sound>
 			</Sounds>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<aim_assist>0.5</aim_assist>

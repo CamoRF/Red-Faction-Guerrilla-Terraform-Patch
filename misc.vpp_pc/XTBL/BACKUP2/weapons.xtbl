@@ -3,7 +3,7 @@
 <!--START Experimental Misc-->
 		<Weapon>
 			<Name>fists_test2</Name>
-			<Weapon_Class>melee_sledgehammer</Weapon_Class>
+			<Weapon_Class>melee</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
 			<Magazine_Size>1</Magazine_Size>
@@ -24,9 +24,8 @@
 			<Flags>
 				<Flag>shatter</Flag>
 				<Flag>held in left hand</Flag>
-				<!--<Flag>disable player cover</Flag>-->
+				<Flag>disable player cover</Flag>
 				<Flag>mp selectable</Flag>
-				<Flag>draw projectile in opposite hand</Flag>
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
 			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
@@ -145,7 +144,7 @@
 			<Name>flame_thrower</Name>
 			<Inventory_Item>flame_thrower</Inventory_Item>
 			<Item_3d>repair_tool</Item_3d>
-			<Weapon_Class>repair</Weapon_Class> <!--From repair--> <!--Test: nano_rifle--> <!--Test: arc_welder-->
+			<Weapon_Class>arc_welder</Weapon_Class> <!--From repair--> <!--Test: nano_rifle--> <!--Test: arc_welder-->
 			<Trigger_Type>automatic</Trigger_Type>
 			<Ammo_Type>repair</Ammo_Type> <!--From repair--> <!--electricity--> <!--flame-->
 			<Animation_Group>Arc</Animation_Group>
@@ -212,9 +211,9 @@
 			<Name>grenade_mp</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class> <!--From thrown_grenade--> <!--thrown_charge-->
 			<Trigger_Type>single</Trigger_Type>
-			<Ammo_Type>projectile</Ammo_Type> <!--thrown--> <!--projectile-->
-			<Magazine_Size>1</Magazine_Size>
-			<Max_Rounds>1</Max_Rounds> <!--8-->
+			<Ammo_Type>thrown</Ammo_Type> <!--thrown--> <!--projectile-->
+			<Magazine_Size>4</Magazine_Size>
+			<Max_Rounds>4</Max_Rounds> <!--8-->
 			<Range_Max>25</Range_Max>
 			<Range_Red>25</Range_Red>
 			<Default_Refire_Delay>2000</Default_Refire_Delay> <!--From 0--> <!--From 2000-->
@@ -300,7 +299,7 @@
 				</NPC_Fire_Sounds>
 			</Sounds>
 			<!--<Reload_Delay>150</Reload_Delay>--> <!--Added-->
-			<Ammo_Box_Restock>1</Ammo_Box_Restock> <!--From 0--> <!--8-->
+			<Ammo_Box_Restock>4</Ammo_Box_Restock> <!--From 0--> <!--8-->
 			<Num_Magazines>1</Num_Magazines> <!--From 1--> <!--8-->
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>

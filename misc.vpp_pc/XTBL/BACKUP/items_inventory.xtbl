@@ -11,18 +11,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>fists2</Name>
-			<Display_Name>FISTS TEST 2</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>		
+		</Inventory_Item>			
 		<Inventory_Item>
 			<Name>flame_thrower</Name>
 			<Display_Name>FLAMETHROWER</Display_Name>
