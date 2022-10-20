@@ -1,5 +1,161 @@
 <root>
 	<Table>
+<!--START DLC Experimental-->
+		<Item>
+			<Name>mar_remote_charge</Name>
+			<Mass>.05</Mass>
+			<Respawn_Delay>5000</Respawn_Delay>
+			<_Editor>
+				<Category>Entries:WeaponMarauder</Category>
+			</_Editor>
+			<Item_Flags>
+				<Flag>collide_as_box</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->				
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<Collision_Sound>WEP_CHARGE_PLANT</Collision_Sound>
+			<streaming_category>Multiplayer</streaming_category> <!--From General-->
+			<Touch_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound>
+			<Touch_Sound_2>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound_2>
+			<character_mesh>
+				<character_mesh>
+					<Filename>dlc_marauder_charge.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>dlc_marauder_charge.rigx</Filename>
+				</rig>
+				<Anim_set>None</Anim_set>
+			</character_mesh>
+		</Item>
+		<Item>
+			<Name>mar_charge_placer</Name>
+			<_Editor>
+				<Category>Entries:WeaponMarauder</Category>
+			</_Editor>
+			<Spin_Time>5000</Spin_Time>
+			<Props>
+				<Prop>
+					<Name>mar_remote_charge</Name>
+					<Type>ammo</Type>
+				</Prop>
+			</Props>
+			<Touch_Script>give_item</Touch_Script>
+			<Respawn_Delay>45000</Respawn_Delay>
+			<Item_Flags>
+				<Flag>spin</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->				
+			</Item_Flags>
+			<streaming_category>Multiplayer</streaming_category> <!--From General-->
+			<Touch_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound>
+			<Touch_Sound_2>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound_2>
+			<Mesh>
+				<Filename>dlc_mdr_detonator.smeshx</Filename>
+			</Mesh>
+			<pickup_static_mesh>
+				<Filename>dlc_marauder_charge_pickup.smeshx</Filename>
+			</pickup_static_mesh>
+		</Item>	
+		<Item>
+			<Name>spiker_projectile</Name>
+			<Item_Flags>
+				<Flag>collide_as_box</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->				
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<Mesh>
+				<Filename>spiker_projectile.smeshx</Filename>
+			</Mesh>
+			<Mass>1</Mass>
+			<Respawn_Delay>5000</Respawn_Delay>
+			<streaming_category>Multiplayer</streaming_category> <!--From General-->
+			<_Editor>
+				<Category>Entries:Projectiles</Category>
+			</_Editor>
+		</Item>
+		<Item>
+			<Name>pickaxe</Name>
+			<_Editor>
+				<Category>Entries:Hammers</Category>
+			</_Editor>
+			<Spin_Time>5000</Spin_Time>
+			<streaming_category>Multiplayer</streaming_category> <!--From General-->
+			<Touch_Script>give_item</Touch_Script>
+			<Mesh>
+				<Filename>dlc_pickaxe.smeshx</Filename>
+			</Mesh>
+			<Item_Flags>
+				<Flag>high_res_map_large</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->				
+			</Item_Flags>
+			<MaterialEffect>invulnerability</MaterialEffect>
+			<pickup_static_mesh>
+				<Filename>dlc_pickaxe.smeshx</Filename>
+			</pickup_static_mesh>
+			<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>
+		</Item>
+		<Item>
+			<Name>royal_sword</Name>
+			<Item_Flags>
+				<!--<Flag>spin</Flag>-->
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->				
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<Mesh>
+				<Filename>dlc_royal_sword.smeshx</Filename>
+			</Mesh>
+			<pickup_static_mesh>
+				<Filename>dlc_royal_sword.smeshx</Filename>
+			</pickup_static_mesh>
+			<Touch_Script>give_item</Touch_Script>
+			<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>
+			<Respawn_Delay>30000</Respawn_Delay>
+			<streaming_category>Multiplayer</streaming_category> <!--From General-->
+			<_Editor>
+				<Category>Entries:WeaponMarauder</Category>
+			</_Editor>
+		</Item>
+		<Item>
+			<Name>spiker</Name>
+			<Touch_Script>give_item</Touch_Script>
+			<Respawn_Delay>60000</Respawn_Delay>
+			<_Editor>
+				<Category>Entries:WeaponMarauder</Category>
+			</_Editor>
+			<Spin_Time>5000</Spin_Time>
+			<Props>
+				<Prop>
+					<Name>rail_clip</Name>
+					<Attach_tag>Attach_Clip</Attach_tag>
+					<Type>clip</Type>
+				</Prop>
+				<Prop>
+					<Name>rail_power_pack</Name>
+					<Attach_tag>Attach_Pack</Attach_tag>
+					<Type>accessory_misc</Type>
+				</Prop>
+			</Props>
+			<Item_Flags>
+				<!--<Flag>spin</Flag>-->
+				<Flag>high_res_map_large</Flag>
+				<Flag>casts_shadows</Flag> <!--Added-->
+				<Flag>casts_drop_shadows</Flag> <!--Added-->
+			</Item_Flags>
+			<streaming_category>Multiplayer</streaming_category> <!--From General-->
+			<Mesh>
+				<Filename>spiker_rifle.smeshx</Filename>
+			</Mesh>
+			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
+			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
+			<pickup_static_mesh>
+				<Filename>spiker_rifle.smeshx</Filename> <!--From spiker_rifle_pickup.smeshx-->
+			</pickup_static_mesh>
+		</Item>
+<!--END-->
 <!--START Added DLC Characters-->	
 		<Item>
 			<Name>Sam_DLC_Cape</Name>
@@ -166,7 +322,7 @@
 			</_Editor>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>		
-<!--END Added DLC Characters-->		
+<!--END Added DLC Characters-->
 <!--START Added DLC Weapons-->		
 		<Item>
 			<Name>EDF_Super_Gauss</Name>
@@ -238,8 +394,7 @@
 			<Item_Flags>
 				<!--<Flag>fast_cleanup</Flag>-->
 				<!--<Flag>no_auto_delete</Flag>-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -286,10 +441,14 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag><Flag>no_pickup_delete</Flag><Flag>casts_shadows</Flag><Flag>casts_drop_shadows</Flag>-->
+<!--Removed for stability-->				
+				<!--<Flag>no_auto_delete</Flag> 
+				<Flag>no_pickup_delete</Flag>
+				<Flag>casts_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag>-->
 			</Item_Flags>
 		</Item>
-		<!--END Added DLC Weapons-->
+<!--END Added DLC Weapons-->
 		<Item>
 			<Name>Lawrence_Eos_Coat</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6947,7 +7106,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-		<!--START Streaming MP-->
+<!--START Streaming MP-->
 		<Element>
 			<Name>streaming_category</Name>
 			<Type>Selection</Type>
@@ -6962,7 +7121,7 @@
 			<Choice>Character prop mesh only</Choice>
 			<Choice>MP and WC backpack</Choice>
 		</Element>
-		<!--END Streaming MP-->
+<!--END Streaming MP-->
 		<Element>
 			<Name>MaterialEffect</Name>
 			<Type>Reference</Type>
