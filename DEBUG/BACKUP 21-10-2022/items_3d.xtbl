@@ -21,7 +21,58 @@
 				<Filename>harpoon.smeshx</Filename>
 			</Mesh>
 		</Item>
-<!--END Harpoon Projectile-->
+<!--END Harpoon Projectile-->	
+<!--START Experimental-->
+<!--		<Item>
+			<Name>handheld_harpoon_turret</Name>
+			<Item_Flags>
+				<Flag>collide_as_box</Flag>
+				<Flag>high_res_map_large</Flag>
+				<Flag>casts_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<Mesh>
+				<Filename>harpoon_turret.cmeshx</Filename> 
+			</Mesh>			
+			<character_mesh>
+				<character_mesh>
+					<Filename>harpoon_turret.cmeshx</Filename>
+				</character_mesh>
+			</character_mesh>
+			<_Editor>
+				<Category>Entries:Turrets</Category>
+			</_Editor>
+			<Mass>100</Mass>
+			<streaming_category>Multiplayer</streaming_category>
+		</Item>-->
+		<!--<Item>
+			<Name>handheld_rocket_turret</Name>
+			<Item_Flags>
+				<Flag>collide_as_box</Flag>
+				<Flag>high_res_map_large</Flag>
+				<Flag>casts_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<Mesh>
+				<Filename>rocket_turret.cmeshX</Filename> 
+			</Mesh>	
+			<character_mesh>
+				<character_mesh>
+					<Filename>rocket_turret.cmeshX</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>RPG.rigx</Filename>
+				</rig>
+				<Anim_set>Weap_RPG</Anim_set>
+			</character_mesh>
+			<_Editor>
+				<Category>Entries:Turrets</Category>
+			</_Editor>
+			<Mass>100</Mass>
+			<streaming_category>Multiplayer</streaming_category>
+		</Item>-->	
 		<Item>
 			<Name>fists</Name>
 			<Mass>.05</Mass>
@@ -56,7 +107,7 @@
 			<Touch_Sound_2>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound_2>
 		</Item>
 		<Item>
-			<Name>grenade_mp</Name>
+			<Name>grenade_camo</Name>
 			<_Editor>
 				<Category>Entries:WeaponGuerilla</Category>
 			</_Editor>
