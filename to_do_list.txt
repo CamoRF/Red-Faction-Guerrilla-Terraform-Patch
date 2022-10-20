@@ -38,6 +38,7 @@ v1.07
 [Misc]
 	* Merge items from SP and DLC into mp_common.vpp_pc?
 	* Test out the preload chunk xtbl and file with objectives
+	* Move alert_level.xtbl changes to add-on
 
 ------------
 LOW PRIORITY 
