@@ -2,8 +2,8 @@
 	<Table>	
 <!--START DLC Experimental-->
 		<Inventory_Item>
-			<Name>fists</Name>
-			<Display_Name>FISTS</Display_Name>
+			<Name>handheld_harpoon_turret</Name>
+			<Display_Name>HARPOON</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
@@ -13,8 +13,19 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>fists2</Name>
-			<Display_Name>FISTS TEST 2</Display_Name>
+			<Name>handheld_rocket_turret</Name>
+			<Display_Name>HANDHELD ROCKET TURRET</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Bang bang! Point and shoot.</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>	
+		<Inventory_Item>
+			<Name>fists</Name>
+			<Display_Name>FISTS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
@@ -36,7 +47,7 @@
 		</Inventory_Item>		
 		<Inventory_Item>
 			<Name>grenade_camo</Name>
-			<Display_Name>WEAP_GRENADE</Display_Name>
+			<Display_Name>GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
@@ -44,7 +55,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>		
+		</Inventory_Item>	
 		<Inventory_Item>
 			<Name>spiker</Name>
 			<Display_Name>WEAP_SPIKER</Display_Name>
@@ -69,7 +80,7 @@
 		</Inventory_Item>
 		<Inventory_Item>
 			<Name>mar_charge_placer</Name>
-			<Display_Name>REMOTE CHARGES MARAUDER</Display_Name>
+			<Display_Name>REMOTE CHARGES DLC</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
