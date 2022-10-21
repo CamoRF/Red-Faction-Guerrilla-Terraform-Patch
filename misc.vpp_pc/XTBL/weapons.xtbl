@@ -2,66 +2,13 @@
 	<Table>
 <!--START Experimental Misc-->	
 		<Weapon>
-			<Name>fists</Name>
-			<Weapon_Class>melee</Weapon_Class>
-			<Trigger_Type>single</Trigger_Type>
-			<Ammo_Type>melee</Ammo_Type>
-			<Magazine_Size>0</Magazine_Size>
-			<Max_Rounds>0</Max_Rounds>
-			<Range_Max>1</Range_Max>
-			<Range_Red>1</Range_Red>
-			<Default_Refire_Delay>0</Default_Refire_Delay>
-			<Damage_Scaling_Max>
-				<NPC_Damage>0</NPC_Damage>
-				<Player_Damage>0</Player_Damage>
-				<Vehicle_Damage>-1</Vehicle_Damage>
-				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
-			</Damage_Scaling_Max>
-			<_Editor>
-				<Category>Entries:Guerilla</Category>
-			</_Editor>
-			<Animation_Group>remote charge</Animation_Group>
-			<Flags>
-				<Flag>mp selectable</Flag>
-			</Flags>
-			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
-			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
-			<MeleeAttacks>
-				<StandingPrimary>remote_charge_melee</StandingPrimary>
-				<StandingSecondary>remote_charge_punch</StandingSecondary>
-				<StandingTertiary>remote_charge_melee</StandingTertiary>
-				<CrouchingPrimary>remote_charge_melee</CrouchingPrimary>
-				<CrouchingSecondary>remote_charge_punch</CrouchingSecondary>
-				<CrouchingTertiary>remote_charge_melee</CrouchingTertiary>
-			</MeleeAttacks>
-			<Inventory_Item>fists</Inventory_Item>
-			<Item_3d>charge_placer</Item_3d>
-			<Acceleration>0.0</Acceleration>
-			<Visuals>
-				<Attachment_prop>holster-hammer</Attachment_prop>
-			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
-			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
-			<Ammo_Box_Restock>0</Ammo_Box_Restock>
-			<Num_Magazines>1</Num_Magazines>
-			<icon_name>ui_badge_icon_fist</icon_name>
-			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<reticule_name>ui_hud_reti_hammer</reticule_name>
-			<dummy>False</dummy>
-			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
-			<Unique_ID>133</Unique_ID>
-			<Default_team>Guerilla</Default_team>
-			<Zoom_Magnification>1.45</Zoom_Magnification>
-			<aim_assist>0.75</aim_assist>
-		</Weapon>
-		<Weapon>
 			<Name>flame_thrower</Name>
 			<Inventory_Item>flame_thrower</Inventory_Item>
 			<Item_3d>mar_harpoon_turret</Item_3d> <!--From repair_tool-->
 			<Weapon_Class>repair</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
-			<Ammo_Type>electricity</Ammo_Type> <!--repair, electricity, flame-->
-			<Animation_Group>Railgun</Animation_Group> <!--From Arc--> <!--Rocket Launcher--> <!--Railgun--> <!--Grinder-->
+			<Ammo_Type>electricity</Ammo_Type>
+			<Animation_Group>Arc</Animation_Group> <!--From Arc--> <!--Rocket Launcher--> <!--Railgun--> <!--Grinder-->
 			<Magazine_Size>0</Magazine_Size>
 			<Max_Rounds>1</Max_Rounds>
 			<Default_Refire_Delay>200</Default_Refire_Delay>
@@ -118,6 +65,59 @@
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<aim_assist>0.5</aim_assist>
 			<Player_Move_Speed>1.25</Player_Move_Speed>
+		</Weapon>		
+		<Weapon>
+			<Name>fists</Name>
+			<Weapon_Class>melee</Weapon_Class>
+			<Trigger_Type>single</Trigger_Type>
+			<Ammo_Type>melee</Ammo_Type>
+			<Magazine_Size>0</Magazine_Size>
+			<Max_Rounds>0</Max_Rounds>
+			<Range_Max>1</Range_Max>
+			<Range_Red>1</Range_Red>
+			<Default_Refire_Delay>0</Default_Refire_Delay>
+			<Damage_Scaling_Max>
+				<NPC_Damage>0</NPC_Damage>
+				<Player_Damage>0</Player_Damage>
+				<Vehicle_Damage>-1</Vehicle_Damage>
+				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
+			</Damage_Scaling_Max>
+			<_Editor>
+				<Category>Entries:Guerilla</Category>
+			</_Editor>
+			<Animation_Group>remote charge</Animation_Group>
+			<Flags>
+				<Flag>mp selectable</Flag>
+			</Flags>
+			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
+			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
+			<MeleeAttacks>
+				<StandingPrimary>remote_charge_melee</StandingPrimary>
+				<StandingSecondary>remote_charge_punch</StandingSecondary>
+				<StandingTertiary>remote_charge_melee</StandingTertiary>
+				<CrouchingPrimary>remote_charge_melee</CrouchingPrimary>
+				<CrouchingSecondary>remote_charge_punch</CrouchingSecondary>
+				<CrouchingTertiary>remote_charge_melee</CrouchingTertiary>
+			</MeleeAttacks>
+			<Inventory_Item>fists</Inventory_Item>
+			<Item_3d>charge_placer</Item_3d>
+			<Acceleration>0.0</Acceleration>
+			<Visuals>
+				<Attachment_prop>holster-hammer</Attachment_prop>
+			</Visuals>
+			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
+			<Ammo_Box_Restock>0</Ammo_Box_Restock>
+			<Num_Magazines>1</Num_Magazines>
+			<icon_name>ui_badge_icon_fist</icon_name>
+			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
+			<reticule_name>ui_hud_reti_hammer</reticule_name>
+			<dummy>False</dummy>
+			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
+			<Unique_ID>133</Unique_ID>
+			<Default_team>Guerilla</Default_team>
+			<Zoom_Magnification>1.45</Zoom_Magnification>
+			<aim_assist>0.75</aim_assist>
 		</Weapon>
 		<Weapon>
 			<Name>grenade_mp</Name>
