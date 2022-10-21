@@ -1,6 +1,6 @@
 <root>
-	<Table>
-<!--START Harpoon Projectile-->
+	<Table>	
+<!--START Harpoon Projectile-->		
 		<Item>
 			<Name>harpoon_projectile</Name>
 			<Mass>1</Mass>
@@ -852,14 +852,11 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<Flag>collide_as_box</Flag>
 				<!--<Flag>fast_cleanup</Flag>-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<Flag>collide_as_box</Flag> 
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -2165,12 +2162,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>-->
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -2379,7 +2373,7 @@
 			<Touch_Sound>SYS_WEP_RPG_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_RPG_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--Added All Flags-->
+<!--Added All Flags-->
 				<!--<Flag>collide_as_box</Flag>-->
 				<!--<Flag>no_auto_delete</Flag>-->
 				<Flag>no_pickup_delete</Flag>
@@ -2438,12 +2432,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>-->
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -2457,10 +2448,8 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -2544,12 +2533,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>-->
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -2877,12 +2863,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>-->
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -2949,12 +2932,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>-->
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -3025,8 +3005,12 @@
 				<Category>Entries:WeaponGuerilla</Category>
 			</_Editor>
 			<Item_Flags>
+<!--Flags Added-->				
 				<Flag>collide_as_box</Flag>
-				<!--<Flag>no_auto_delete</Flag><Flag>no_pickup_delete</Flag><Flag>casts_shadows</Flag><Flag>casts_drop_shadows</Flag>-->
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>casts_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -3220,7 +3204,7 @@
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 		</Item>
-		<!--START Propane Tank-->
+<!--START Propane Tank-->
 		<Item>
 			<Name>propane_tank</Name>
 			<Touch_Script>ask_pickup</Touch_Script>
@@ -3255,7 +3239,7 @@
 			</Damage_Info>
 			<Explosion>propane_tank</Explosion>
 		</Item>
-		<!--END Propane Tank-->
+<!--END Propane Tank-->
 		<Item>
 			<Name>Marie_Hair_Short</Name>
 			<Item_Flags></Item_Flags>
@@ -3345,10 +3329,8 @@
 			<Name>sh_thermobaric_rockets</Name>
 			<Item_Flags>
 				<Flag>ignore_physics</Flag>
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -3382,12 +3364,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<!--<Flag>no_auto_delete</Flag>-->
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -3963,6 +3942,9 @@
 			<Mesh>
 				<Filename>harpoon_turret_col.smeshx</Filename>
 			</Mesh>
+			<Touch_Script>give_item</Touch_Script>
+			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
+			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>	
 		</Item>
 		<Item>
 			<Name>harpoon_turret_head_corpse</Name>
@@ -4143,12 +4125,9 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag>
-				<!--Added?-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added?-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added?-->
+				<Flag>collide_as_mover</Flag> <!--Added?-->
+				<Flag>no_auto_delete</Flag> <!--Added?-->
+				<Flag>no_pickup_delete</Flag> <!--Added?-->
 				<Flag>use_pickup</Flag>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
@@ -4207,18 +4186,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--Removed-->
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4234,18 +4207,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--Removed-->
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4261,18 +4228,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--Removed-->
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4291,10 +4252,8 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4313,10 +4272,8 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4333,12 +4290,9 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4354,18 +4308,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--Removed-->
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4381,16 +4329,11 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4407,12 +4350,9 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4428,16 +4368,11 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4454,12 +4389,9 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4476,12 +4408,9 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4498,12 +4427,9 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4526,12 +4452,9 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4554,14 +4477,10 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>use_pickup</Flag>
-				<!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>use_pickup</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4621,14 +4540,13 @@
 			<MaterialEffect>salvage_sheen</MaterialEffect>
 			<Item_Flags>
 				<Flag>spin</Flag>
-				<!--Flags Added-->
+<!--Flags Added-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
 		</Item>
-		<!--<Item><Name>amb_rock</Name><_Editor><Category>Ambient Props</Category></_Editor><Item_Flags><Flag>collide_as_box</Flag><Flag>fast_cleanup</Flag></Item_Flags><Spin_Time>5000</Spin_Time><streaming_category>General</streaming_category><Mesh><Filename>amb_rock.smeshx</Filename></Mesh><Collision_Sound>OBJ_LINKED_ROCK_01</Collision_Sound></Item>-->
 		<Item>
 			<Name>amb_rock</Name>
 			<Touch_Script>ask_pickup</Touch_Script>
@@ -4758,12 +4676,9 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4780,14 +4695,10 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4846,12 +4757,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<!--<Flag>no_auto_delete</Flag>-->
-				<!--Added-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -4869,12 +4777,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<!--<Flag>no_auto_delete</Flag>-->
-				<!--Added-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5036,16 +4941,11 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5680,16 +5580,11 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5705,16 +5600,11 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5730,16 +5620,11 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5755,16 +5640,11 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5780,16 +5660,11 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>collide_as_box</Flag>--> <!--Removed-->
+				<Flag>collide_as_cylinder</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -5799,7 +5674,7 @@
 				<Filename>amb_fork.smeshx</Filename>
 			</Mesh>
 		</Item>
-		<!--START NILL Mesh-->
+<!--START NILL Mesh-->
 		<Item>
 			<Name>nothing</Name>
 			<Item_Flags>
@@ -5814,7 +5689,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Item>
-		<!--END NILL Mesh-->
+<!--END NILL Mesh-->
 		<Item>
 			<Name>sledge_upgrade_4</Name>
 			<_Editor>
@@ -6076,14 +5951,10 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--<Flag>fast_cleanup</Flag>--> <!--Removed-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -6657,11 +6528,8 @@
 				<Category>Entries:Salvage</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--Flags Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -6801,11 +6669,8 @@
 				<Category>Entries:Salvage</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--Flags Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
@@ -6825,11 +6690,8 @@
 				<Category>Entries:Salvage</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--Flags Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
