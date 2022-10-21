@@ -3,9 +3,9 @@
 		<mp_weapons>
 			<Name>grenade_mp</Name>
 			<Ammo_count>
-				<Magazine_Size>99</Magazine_Size>
+				<Magazine_Size>4</Magazine_Size>
 				<Num_Magazines>1</Num_Magazines>
-				<Max_Rounds>99</Max_Rounds>
+				<Max_Rounds>4</Max_Rounds>
 			</Ammo_count>
 			<_Editor>
 				<Category>Entries</Category>
@@ -14,20 +14,9 @@
 		<mp_weapons>
 			<Name>stun_grenade</Name>
 			<Ammo_count>
-				<Magazine_Size>99</Magazine_Size>
+				<Magazine_Size>4</Magazine_Size>
 				<Num_Magazines>1</Num_Magazines>
-				<Max_Rounds>99</Max_Rounds>
-			</Ammo_count>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</mp_weapons>
-		<mp_weapons>
-			<Name>stun_grenade</Name>
-			<Ammo_count>
-				<Magazine_Size>99</Magazine_Size>
-				<Num_Magazines>1</Num_Magazines>
-				<Max_Rounds>99</Max_Rounds>
+				<Max_Rounds>4</Max_Rounds>
 			</Ammo_count>
 			<_Editor>
 				<Category>Entries</Category>
@@ -36,9 +25,9 @@
 		<mp_weapons>
 			<Name>nano_grenade</Name>
 			<Ammo_count>
-				<Magazine_Size>99</Magazine_Size>
+				<Magazine_Size>4</Magazine_Size>
 				<Num_Magazines>1</Num_Magazines>
-				<Max_Rounds>99</Max_Rounds>
+				<Max_Rounds>4</Max_Rounds>
 			</Ammo_count>
 			<_Editor>
 				<Category>Entries</Category>

@@ -3,103 +3,6 @@
 		<MP_character>
 			<Name>FFA</Name>
 			<Character_Grid>
-				<Character_Element>
-					<Character_Name>EDF_Elite_Riot_Shield</Character_Name>
-					<Display_Name>RIOT TEST</Display_Name>
-					<Bitmap_Name>ui_mp_char_edf_elite</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level>
-					<Persona_Group>EDF Male</Persona_Group>
-					<backpack_offsets>
-						<backpack>
-							<backpack_name>Vision</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Tremor</backpack_name>
-							<backpack_offset>
-								<X>-.02</X>
-								<Y>-.03</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Thrust</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Stealth</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Shockwave</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Rhino</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Kaboom</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Jetpack</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Heal</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>-.02</Y>
-								<Z>.02</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Fleetfoot</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Commando</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-					</backpack_offsets>
-				</Character_Element>			
 <!--START DLC CHARACTERS ADDED-->	
 				<Character_Element>
 					<Character_Name>rfg_PC_DLC</Character_Name>
@@ -600,7 +503,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>-0.12</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -632,7 +535,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>-0.12</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -4950,23 +4853,23 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-0.12</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Tremor</backpack_name>
 							<backpack_offset>
-								<X>-.02</X>
-								<Y>-.03</Y>
-								<Z>0</Z>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>-0.1</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Thrust</backpack_name>
 							<backpack_offset>
 								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
+								<Y>0</Y>
+								<Z>-0.1</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -4974,7 +4877,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-0.1</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -4982,39 +4885,39 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-0.12</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Rhino</backpack_name>
 							<backpack_offset>
 								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
+								<Y>0</Y>
+								<Z>-0.1</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Kaboom</backpack_name>
 							<backpack_offset>
 								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
+								<Y>0</Y>
+								<Z>-0.1</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Jetpack</backpack_name>
 							<backpack_offset>
 								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
+								<Y>0</Y>
+								<Z>-0.1</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Heal</backpack_name>
 							<backpack_offset>
 								<X>0</X>
-								<Y>-.02</Y>
-								<Z>.02</Z>
+								<Y>0</Y>
+								<Z>-0.1</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -5022,7 +4925,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-0.1</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -5030,7 +4933,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-0.1</Z>
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
