@@ -1,28 +1,6 @@
 <root>
 	<Table>	
-<!--START DLC Experimental-->
-		<!--<Inventory_Item>
-			<Name>handheld_harpoon_turret</Name>
-			<Display_Name>HARPOON</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>handheld_rocket_turret</Name>
-			<Display_Name>HANDHELD ROCKET TURRET</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>-->	
+<!--START Experimental-->
 		<Inventory_Item>
 			<Name>fists</Name>
 			<Display_Name>FISTS</Display_Name>
