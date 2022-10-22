@@ -23,7 +23,7 @@
 			<human_damage_min>500</human_damage_min>
 			<Human_Damage_Max>1000</Human_Damage_Max>
 			<Structural_Damage>15000</Structural_Damage>
-			<Unique_ID>106</Unique_ID>
+			<Unique_ID>120</Unique_ID>
 			<player_veh_mult>0.3</player_veh_mult>
 			<Material_Effects>
 				<Entry>
@@ -67,7 +67,7 @@
 			<human_damage_min>-1</human_damage_min>
 			<Human_Damage_Max>-1</Human_Damage_Max>
 			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>1</Unique_ID>
+			<Unique_ID>121</Unique_ID>
 			<player_veh_mult>1.0</player_veh_mult>
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
@@ -95,7 +95,7 @@
 			<human_damage_min>300</human_damage_min>
 			<Human_Damage_Max>750</Human_Damage_Max>
 			<Structural_Damage>-1</Structural_Damage>
-			<Unique_ID>107</Unique_ID>
+			<Unique_ID>122</Unique_ID>
 			<camera_shake_type>explosion_small</camera_shake_type>
 			<Flags>
 				<Flag>no gibs</Flag>
@@ -116,69 +116,104 @@
 			<Impulse>6000</Impulse>
 			<Effects>
 				<Element>wep_edf_grenade_exp_a</Element>
+				<Element>shockwave_grenade_exp</Element>
 			</Effects>
 			<_Editor>
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
-			<CrumbleRadius>5.0</CrumbleRadius>
-			<KnockdownRadius>10.0</KnockdownRadius>
-			<FlinchRadius>10.0</FlinchRadius>
+			<CrumbleRadius>0.0</CrumbleRadius>
+			<KnockdownRadius>7.5</KnockdownRadius>
+			<FlinchRadius>7.5</FlinchRadius>
 			<player_mult>1.0</player_mult>
 			<MaxSalvagePieces>0</MaxSalvagePieces>
 			<SalvageProbability>0</SalvageProbability>
 			<human_damage_min>0</human_damage_min>
 			<Human_Damage_Max>0</Human_Damage_Max>
-			<Structural_Damage>15000</Structural_Damage>
-			<Unique_ID>108</Unique_ID>
+			<Structural_Damage>0</Structural_Damage>
+			<Unique_ID>123</Unique_ID>
 			<camera_shake_type>explosion_small</camera_shake_type>
-			<camera_shake_multiplier>0.6</camera_shake_multiplier>
-			<camera_shake_falloff>40.0</camera_shake_falloff>
+			<camera_shake_multiplier>0.3</camera_shake_multiplier>
+			<camera_shake_falloff>20.0</camera_shake_falloff>
 			<Flags>
 				<Flag>no gibs</Flag>
 			</Flags>
 			<Blast_decal_radius>0.1</Blast_decal_radius>
 			<player_veh_mult>0.1</player_veh_mult>
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
+			<Ignore_Orientation>True</Ignore_Orientation>
+			<Always_Ragdoll>True</Always_Ragdoll>
 		</Explosion>		
 		<Explosion>
 			<Name>nano_grenade</Name>
-			<Radius>1.0</Radius> <!--From 6.2-->
+			<Radius>0.5</Radius>
+			<AI_Sound_Radius>0</AI_Sound_Radius>
+			<vehicle_damage_max>1000</vehicle_damage_max>
+			<vehicle_damage_min>1000</vehicle_damage_min>
+			<Impulse>0</Impulse>
+			<Effects>
+				<Element>des_concrete_collapse_sm</Element>
+				<Element>wep_nanorifle_swarm_a</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>0</CrumbleRadius>
+			<KnockdownRadius>0</KnockdownRadius>
+			<FlinchRadius>0.7</FlinchRadius>
+			<player_mult>0</player_mult>
+			<MaxSalvagePieces>0</MaxSalvagePieces>
+			<SalvageProbability>0</SalvageProbability>
+			<human_damage_min>0</human_damage_min>
+			<Human_Damage_Max>0</Human_Damage_Max>
+			<Structural_Damage>10</Structural_Damage>
+			<Unique_ID>124</Unique_ID>
+			<camera_shake_type>npc_nano_rifle</camera_shake_type> <!--Added-->
+			<camera_shake_multiplier>0</camera_shake_multiplier>
+			<player_veh_mult>0</player_veh_mult>
+			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
+			<Ignore_Orientation>False</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
+			<Flags>
+				<Flag>nano dissolve</Flag>
+			</Flags>
+		</Explosion>
+	<!--	<Explosion>
+			<Name>nano_grenade_old</Name>
+			<Radius>1.2</Radius>
 			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>900</vehicle_damage_max>
 			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>50</Impulse> <!--From 20000-->
+			<Impulse>50</Impulse>
 			<Effects>
 				<Element>wep_nanorifle_swarm_a</Element>
 			</Effects>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<CrumbleRadius>0.25</CrumbleRadius> <!--From 3.5-->
-			<KnockdownRadius>0.25</KnockdownRadius> <!--From 4.0-->
-			<FlinchRadius>0.0</FlinchRadius> <!--From 5.0-->
+			<CrumbleRadius>0.25</CrumbleRadius>
+			<KnockdownRadius>0.25</KnockdownRadius>
+			<FlinchRadius>0.0</FlinchRadius>
 			<Duration>500</Duration>
 			<Delay>250</Delay>
-			<player_mult>1.0</player_mult> <!--From 0.8-->
+			<player_mult>1.0</player_mult>
 			<MaxSalvagePieces>0</MaxSalvagePieces>
 			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>10</human_damage_min> <!--From 300--> 
-			<Human_Damage_Max>20</Human_Damage_Max> <!--From 750-->
-			<Structural_Damage>0.25</Structural_Damage> <!--From -1 -->
-			<Unique_ID>109</Unique_ID>
-			<camera_shake_type>npc_nano_rifle</camera_shake_type> <!--From explosion_small-->
+			<human_damage_min>10</human_damage_min>
+			<Human_Damage_Max>20</Human_Damage_Max>
+			<Structural_Damage>0.25</Structural_Damage>
+			<Unique_ID>125</Unique_ID>
+			<camera_shake_type>npc_nano_rifle</camera_shake_type>
 			<Flags>
 				<Flag>no gibs</Flag>
 				<Flag>nano dissolve</Flag>
 			</Flags>
-			<player_veh_mult>1.0</player_veh_mult> <!--From 0.8-->
-			<camera_shake_multiplier>0.5</camera_shake_multiplier> <!--From 1.0-->
-			<camera_shake_falloff>40.0</camera_shake_falloff> <!--From 40.0-->
-			<player_vehicle_impulse_mult>0.0</player_vehicle_impulse_mult> <!--From 1.0-->
+			<player_veh_mult>1.0</player_veh_mult>
+			<camera_shake_multiplier>0.5</camera_shake_multiplier>
+			<camera_shake_falloff>40.0</camera_shake_falloff>
+			<player_vehicle_impulse_mult>0.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
+		</Explosion>-->		
 <!--END New Explosions Added-->	
 		<Explosion>
 			<Name>grenade_exp</Name>
@@ -247,6 +282,77 @@
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
+		<Explosion>
+			<Name>nano_rifle_exp</Name>
+			<Radius>1.2</Radius>
+			<AI_Sound_Radius>0</AI_Sound_Radius>
+			<vehicle_damage_max>300</vehicle_damage_max>
+			<vehicle_damage_min>300</vehicle_damage_min>
+			<Impulse>1000</Impulse>
+			<Effects>
+				<Element>wep_nanorifle_swarm_a</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>0</CrumbleRadius>
+			<KnockdownRadius>0</KnockdownRadius>
+			<FlinchRadius>1.31</FlinchRadius>
+			<player_mult>0</player_mult>
+			<MaxSalvagePieces>0</MaxSalvagePieces>
+			<SalvageProbability>0</SalvageProbability>
+			<human_damage_min>0</human_damage_min>
+			<Human_Damage_Max>0</Human_Damage_Max>
+			<Structural_Damage>0</Structural_Damage>
+			<Duration>750</Duration>
+			<Delay>0</Delay>
+			<Break_off_pieces>
+				<Time_between_breaks>150</Time_between_breaks>
+			</Break_off_pieces>
+			<Unique_ID>27</Unique_ID>
+			<camera_shake_multiplier>0</camera_shake_multiplier>
+			<Blast_decal_radius>0.0001</Blast_decal_radius>
+			<Flags>
+				<Flag>no gibs</Flag>
+				<Flag>nano dissolve</Flag>
+			</Flags>
+			<player_veh_mult>0</player_veh_mult>
+			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
+			<Ignore_Orientation>False</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
+		</Explosion>
+		<Explosion>
+			<Name>nano_rifle_exp2</Name>
+			<Radius>0.5</Radius>
+			<AI_Sound_Radius>0</AI_Sound_Radius>
+			<vehicle_damage_max>1000</vehicle_damage_max>
+			<vehicle_damage_min>1000</vehicle_damage_min>
+			<Impulse>0</Impulse>
+			<Effects>
+				<Element>des_concrete_collapse_sm</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>0</CrumbleRadius>
+			<KnockdownRadius>0</KnockdownRadius>
+			<FlinchRadius>0.7</FlinchRadius>
+			<player_mult>0</player_mult>
+			<MaxSalvagePieces>0</MaxSalvagePieces>
+			<SalvageProbability>0</SalvageProbability>
+			<human_damage_min>0</human_damage_min>
+			<Human_Damage_Max>0</Human_Damage_Max>
+			<Structural_Damage>10</Structural_Damage>
+			<Unique_ID>28</Unique_ID>
+			<camera_shake_multiplier>0</camera_shake_multiplier>
+			<player_veh_mult>0</player_veh_mult>
+			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
+			<Ignore_Orientation>False</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
+			<Flags>
+				<Flag>nano dissolve</Flag>
+			</Flags>
+		</Explosion>		
 		<Explosion>
 			<Name>rocket</Name>
 			<Radius>3.65</Radius>
@@ -1019,77 +1125,6 @@
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>nano_rifle_exp</Name>
-			<Radius>1.2</Radius>
-			<AI_Sound_Radius>0</AI_Sound_Radius>
-			<vehicle_damage_max>300</vehicle_damage_max>
-			<vehicle_damage_min>300</vehicle_damage_min>
-			<Impulse>1000</Impulse>
-			<Effects>
-				<Element>wep_nanorifle_swarm_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>0</CrumbleRadius>
-			<KnockdownRadius>0</KnockdownRadius>
-			<FlinchRadius>1.31</FlinchRadius>
-			<player_mult>0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>0</human_damage_min>
-			<Human_Damage_Max>0</Human_Damage_Max>
-			<Structural_Damage>0</Structural_Damage>
-			<Duration>750</Duration>
-			<Delay>0</Delay>
-			<Break_off_pieces>
-				<Time_between_breaks>150</Time_between_breaks>
-			</Break_off_pieces>
-			<Unique_ID>27</Unique_ID>
-			<camera_shake_multiplier>0</camera_shake_multiplier>
-			<Blast_decal_radius>0.0001</Blast_decal_radius>
-			<Flags>
-				<Flag>no gibs</Flag>
-				<Flag>nano dissolve</Flag>
-			</Flags>
-			<player_veh_mult>0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>
-		<Explosion>
-			<Name>nano_rifle_exp2</Name>
-			<Radius>0.5</Radius>
-			<AI_Sound_Radius>0</AI_Sound_Radius>
-			<vehicle_damage_max>1000</vehicle_damage_max>
-			<vehicle_damage_min>1000</vehicle_damage_min>
-			<Impulse>0</Impulse>
-			<Effects>
-				<Element>des_concrete_collapse_sm</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>0</CrumbleRadius>
-			<KnockdownRadius>0</KnockdownRadius>
-			<FlinchRadius>0.7</FlinchRadius>
-			<player_mult>0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>0</human_damage_min>
-			<Human_Damage_Max>0</Human_Damage_Max>
-			<Structural_Damage>10</Structural_Damage>
-			<Unique_ID>28</Unique_ID>
-			<camera_shake_multiplier>0</camera_shake_multiplier>
-			<player_veh_mult>0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-			<Flags>
-				<Flag>nano dissolve</Flag>
-			</Flags>
 		</Explosion>
 		<Explosion>
 			<Name>ab_rocket</Name>

@@ -52,7 +52,7 @@
 				<CrouchingSecondary>rpg_melee</CrouchingSecondary>
 			</MeleeAttacks>
 			<reticule_name>ui_hud_reti_reconstructor</reticule_name>
-			<Unique_ID>134</Unique_ID>
+			<Unique_ID>150</Unique_ID>
 			<Overheat_Cool_Down_Time>0.0</Overheat_Cool_Down_Time>
 			<Overheat_Percent_Per_Shot>0.0</Overheat_Percent_Per_Shot>
 			<Sounds>
@@ -117,7 +117,7 @@
 			<reticule_name>ui_hud_reti_hammer</reticule_name>
 			<dummy>False</dummy>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
-			<Unique_ID>135</Unique_ID>
+			<Unique_ID>151</Unique_ID>
 			<Default_team>Guerilla</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
 			<aim_assist>0.75</aim_assist>
@@ -213,7 +213,7 @@
 			<Num_Magazines>1</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
-			<Unique_ID>136</Unique_ID>
+			<Unique_ID>152</Unique_ID>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
 			<Default_team>EDF</Default_team>
 			<aim_assist>0.5</aim_assist>
@@ -310,7 +310,7 @@
 			<Num_Magazines>1</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
-			<Unique_ID>137</Unique_ID>
+			<Unique_ID>153</Unique_ID>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
 			<Default_team>EDF</Default_team>
 			<aim_assist>0.5</aim_assist>
@@ -411,7 +411,7 @@
 			<Num_Magazines>1</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
-			<Unique_ID>138</Unique_ID>
+			<Unique_ID>154</Unique_ID>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
 			<Default_team>Marauder</Default_team>
 			<aim_assist>0.5</aim_assist>
@@ -420,7 +420,8 @@
 			<reticule_name>ui_hud_reti_mines</reticule_name>
 		</Weapon>
 <!--END-->
-<!--START DLC Experimental-->
+	
+<!--START DLC Weapons Added-->
 		<Weapon>
 			<Name>royal_sword</Name>
 			<Weapon_Class>melee_gutter</Weapon_Class>
@@ -484,7 +485,7 @@
 			<icon_name>ui_badge_icon_knives</icon_name> <!--ui_hud_weapon_icon_royalsword-->
 			<reticule_name>ui_hud_reti_gutter</reticule_name> <!--From ui_hud_reti_royalsword-->
 			<dummy>False</dummy>
-			<Unique_ID>98</Unique_ID>
+			<Unique_ID>155</Unique_ID>
 			<Melee_Group>Gutter</Melee_Group>
 			<Default_team>Marauder</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
@@ -545,11 +546,11 @@
 			<reticule_name>ui_hud_reti_hammer</reticule_name> <!--From ui_hud_reti_pickaxe-->
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
-			<Unique_ID>95</Unique_ID>
+			<Unique_ID>156</Unique_ID>
 			<Default_team>Marauder</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
 			<aim_assist>0.75</aim_assist>
-		</Weapon>
+		</Weapon>		
 		<Weapon>
 			<Name>spiker</Name>
 			<Weapon_Class>harpoon</Weapon_Class>
@@ -633,7 +634,7 @@
 			<dummy>False</dummy>
 			<mp_kill_phrase>HM_KILL_PHRASE_RAILED</mp_kill_phrase>
 			<Headshot_Multiplier>4.0</Headshot_Multiplier>
-			<Unique_ID>93</Unique_ID>
+			<Unique_ID>157</Unique_ID>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<Bullet_Group>Harpoon</Bullet_Group>
@@ -666,15 +667,13 @@
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
 			<Max_Rounds_Upgrade>120</Max_Rounds_Upgrade>
-		</Weapon>
-<!--END-->		
-<!--START DLC Weapons Added-->
+		</Weapon>		
 		<Weapon>
 			<Name>EDF_Super_Gauss</Name>
 			<icon_name>ui_hud_weapon_icon_gauss</icon_name>
 			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name>
 			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule>
-			<Unique_ID>130</Unique_ID>
+			<Unique_ID>158</Unique_ID>
 			<Inventory_Item>edf_super_gauss</Inventory_Item>
 			<Item_3d>EDF_Super_Gauss</Item_3d>
 			<Default_team>EDF</Default_team>
@@ -842,7 +841,7 @@
 			<Num_Magazines>4</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
-			<Unique_ID>132</Unique_ID>
+			<Unique_ID>159</Unique_ID>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<Default_team>Marauder</Default_team>
 			<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
@@ -867,7 +866,7 @@
 		</Weapon>	
 		<Weapon>
 			<Name>edf_subverter</Name>
-			<Unique_ID>131</Unique_ID>
+			<Unique_ID>160</Unique_ID>
 			<Inventory_Item>edf_subverter</Inventory_Item>
 			<Item_3d>edf_subverter</Item_3d>
 			<Default_team>EDF</Default_team>

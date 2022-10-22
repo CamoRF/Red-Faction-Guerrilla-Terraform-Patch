@@ -10,6 +10,16 @@ v1.07
 	* Update loading screen image and changelog
 	* Update WC map thumbnails after the maps are semi finalized
 	* Try adding Spiker and DLC Melee weapons with the new RFGUtil version
+	* Add subverter on Downfall 
+	* Add subverter to Quarantine 
+	* Add Marauder charge placer to base game 
+	* Add player and weapon spawns to new buildings added on Imperial 
+	* Add subverter to Crashsite - done
+	* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords
+	* Add Subverter to Gauntlet
+	* Add subverter to Garrison
+	* Add kaboom pack back to Rift at 0,0,0
+	* Adding backpack racks at 0,0,0 using an asset from a map on WC maps allows random packs to work? 
 
 [Maps]
 	* Add team spawns to all WC maps
@@ -25,6 +35,18 @@ v1.07
 	* Add all backpacks at 0,0,0 on all WC maps 
 	* Double check all maps have kaboom or missing packs on the level at 0,0,0 so they work in the random rotation option
 	* Double check all WC maps have a disabled barrel at 0,0,0
+	* Fix CTF spawn flipping by making duplicate team spawns that only spawn in CTF and disabling all vanilla spawns in CTF
+	* Disable all other game mode flags for children of all objectives
+	* Watchtower siege  - wip
+	* Transmission siege 
+	* Crash site siege  - wip
+	* Repurcussion siege?
+	* Warlords siege? 
+	* Factory siege? 
+	* Add disabled kaboom pack to Gauntlet and Crescent 
+	* Add Kaboom to Overpass 
+	* Fix middle rockspot on Deadzone
+	* 
 
 
 [Fix: Out of Bounds Exploits]
@@ -32,7 +54,7 @@ v1.07
 	* Doubletime
 	* Equilbrium/landbridge
 	* Haven
-	* Downfall
+	* Downfall (inside rock exploit)
 	* Expansion
 	
 [Misc]
@@ -80,7 +102,6 @@ OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
 ------------------------------------------------
 * HD character textures 
 * HD weapons and backpack textures
-* Balance difficulties: Casual = just want to blow stuff up, Normal = about average, Hard = Balanced and fair but challenging, Insane = Truly punishing experience 
 * Unlock Insane difficulty by default
 * Increase morale drop for death
 * Tanks and the bulldozer scare NPCs and they drive like maniacs
