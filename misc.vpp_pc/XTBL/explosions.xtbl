@@ -145,11 +145,11 @@
 		</Explosion>		
 		<Explosion>
 			<Name>nano_grenade</Name>
-			<Radius>0.5</Radius>
-			<AI_Sound_Radius>0</AI_Sound_Radius>
+			<Radius>1.2</Radius>
+			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>1000</vehicle_damage_max>
 			<vehicle_damage_min>1000</vehicle_damage_min>
-			<Impulse>0</Impulse>
+			<Impulse>50</Impulse>
 			<Effects>
 				<Element>des_concrete_collapse_sm</Element>
 				<Element>wep_nanorifle_swarm_a</Element>
@@ -157,24 +157,27 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<CrumbleRadius>0</CrumbleRadius>
-			<KnockdownRadius>0</KnockdownRadius>
-			<FlinchRadius>0.7</FlinchRadius>
-			<player_mult>0</player_mult>
+			<CrumbleRadius>0.35</CrumbleRadius>
+			<KnockdownRadius>0.35</KnockdownRadius>
+			<FlinchRadius>0.35</FlinchRadius>
+			<Duration>500</Duration>
+			<Delay>250</Delay>			
+			<player_mult>1</player_mult>
 			<MaxSalvagePieces>0</MaxSalvagePieces>
 			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>0</human_damage_min>
-			<Human_Damage_Max>0</Human_Damage_Max>
+			<human_damage_min>10</human_damage_min>
+			<Human_Damage_Max>20</Human_Damage_Max>
 			<Structural_Damage>10</Structural_Damage>
 			<Unique_ID>124</Unique_ID>
 			<camera_shake_type>npc_nano_rifle</camera_shake_type> <!--Added-->
 			<camera_shake_multiplier>0</camera_shake_multiplier>
-			<player_veh_mult>0</player_veh_mult>
+			<player_veh_mult>1</player_veh_mult>
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
 			<Flags>
 				<Flag>nano dissolve</Flag>
+				<Flag>no gibs</Flag>
 			</Flags>
 		</Explosion>
 	<!--	<Explosion>

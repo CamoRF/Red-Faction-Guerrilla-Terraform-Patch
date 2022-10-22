@@ -453,8 +453,8 @@ v1.07 PRE ALPHA CHANGES
 
 
 [Maps] 
-* Added various player spawns, weapon spawns and towers to the previously empty area surrounding the main area on Gulch
-* Added towers indicating where the invisible wall is, buildings, towers, player spawns and weapon spawns surrounding the main area on Scrapheap
+* Added various player spawns, weapon spawns and objects to the previously empty area surrounding the main area on Gulch
+* Added mines around the main area on Scrapheap
 * Added a misslepod spawn in a difficult to reach location on Settlement 
 * Added a super gauss rifle spawn in a difficult to reach location on Settlement
 * Added a hidden thermo spawn on Repurcussion
@@ -472,16 +472,12 @@ v1.07 PRE ALPHA CHANGES
 * Added new siege maps
 * Moved bag location on Abandoned
 * Completely overhauled Frost to be much more playable
-* Completely overhauled Gulch to fill in all the empty space and make it similar to Wasteland
-* Added kaboom pack pickup on Crevice, Overpass and Gauntlet with a single pack on the rack near the attacking team spawn
+* Added kaboom pack pickup on Crevice and Overpass with a single pack on the rack near the attacking team spawn
 * Moved the RPG spawn location on Complex to a more hidden location
 * Added another rail driver spawn on Imperial
 * Moved smokestack on GFWL/Nordic Bonus and added signs and trees to indicate out of bounds areas
 * Added a monument and two more buildings to Imperial
-* Fixed CTF spawn flipping
 * Improved spawns on Siege maps when played in other game modes
-* Changed backpack names on all maps to make it easier to find backpack racks without having to check their children 
-* Added (camo) to object names for all map changes made by the community patch
 
 [Characters] 
 * Added DLC Samanya Marauder
@@ -525,14 +521,9 @@ v1.07 PRE ALPHA CHANGES
 * Backpacks might clip through the characters on some of the new models, this can be fixed by fine tuning the offset axis values but will take time
 
 [Maps]
-* Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman and Bagman will not work on any Wrecking Crew map until the Nanoforge modding tool allows us to add siege, CTF and damage control objectives to maps
+* Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman, Bagman and Siege will not work on any Wrecking Crew map until the Nanoforge modding tool allows us to add siege, CTF and damage control objectives to maps
 * Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman, Bagman and Siege will not work on Siege maps until the Nanoforge modding tool allows us to add CTF and damage control objectives to maps
-* Some maps with night might be overly bright, will be fixed when the weather and lighting files are understood more
-* There might be some maps missing the slight bloom reduction tweak, these will be fixed throughout development as there's a lot of weather and lighting files and it's very tedious to work on them; most maps seem to be fixed however
-* Lack of fog on various maps including Complex, will be fixed when the weather and lighting files are more understood
-* Some maps might have extreme fog when using the alternative time of day
 * Wrecking crew maps don't have backpack spawns until the Nanoforge modding tool allows us to add them
-* Gulch has a lot of empty space outside the map
 * Scrapheap has a spawn where you can get stuck in a frame
 * Ruins has issues with some of the rocks being hard to climb
 * Ruins has issues with some of the spikes on the buildings causing players to get stuck
