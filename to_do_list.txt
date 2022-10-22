@@ -46,7 +46,8 @@ v1.07
 	* Add disabled kaboom pack to Gauntlet and Crescent 
 	* Add Kaboom to Overpass 
 	* Fix middle rockspot on Deadzone
-	* 
+	* Half cloud speed on all maps
+	* Move the misslepod on Fallfactor to one of the thin pipes that can be destroyed
 
 
 [Fix: Out of Bounds Exploits]
@@ -126,4 +127,4 @@ OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
 	-  Stealth in vanilla is pretty much useless, so implementing those fixes would make stealth a much more viable option. I think in general we want to lean the player towards using guerrilla tactics on higher difficulties.
 	- Encourage hit and run and stealth
 	- https://discord.com/channels/@me/1004543616875778089/1022032142038994944
-* player_female.xtbl	
+* player_female.xtbl could maybe be used to fix player model swaps in SP

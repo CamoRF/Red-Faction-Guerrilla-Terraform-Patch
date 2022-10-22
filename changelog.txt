@@ -427,30 +427,27 @@ v1.07 PRE ALPHA CHANGES
 * Fixed out of bounds map exploits on Overpass 
 * Fixed out of bounds map exploits on Downfall
 * Fixed out of bounds map exploits on Gradient
-* Fixed out of boudns map exploits on Imperial
 * Fixed out of bounds map exploit on Crevice 
 * Fixed out of bounds map exploits on GFWL/Nordic 
 * Fixed out of bounds map exploits on Scrapheap
 * Fixed out of bounds map exploits on Haven 
-* Fixed out of bounds map exploits on Puncture
+* Fixed out of bounds map exploit on Garrison
 * Fixed broken VFX on GFWL/Nordic Bonus
 * Fixed missing killzones/cliffs under various maps
 * Fixed two weapon spawns in the same location on Gulch 
-* Fixed two weapon spawns in the same location on Cascade 
-* Deleted out of bounds player spawn on Repurcussion
-* Deleted out of bounds weapon spawn on Abandoned
+* Fixed two weapon spawns in the same location on Cascade
+* Fixed missing under the map killboxes on various maps
+* Fixed missing dust effect on various WC maps 
 * Fixed host migrating randomly (again)
 * Fixed incorrect weapon bounding boxes on all WC maps
 * Fixed more broken flags on various maps
-* Fixed out of bounds map exploit on Garrison
-* Table.vpp_pc is now compressed and condensed properly
 * Fixed vanilla issue with spawn flipping in CTF
+* Deleted out of bounds player spawn on Repurcussion
+* Deleted out of bounds weapon spawn on Abandoned
+* Table.vpp_pc is now compressed and condensed properly
 * Various improvements to previous out of bound exploit fixes 
 * Various improvements to Siege map spawns when they are played in other gamemodes 
 * Various improvements to performance & stability
-* Fixed missing under the map killboxes on various maps
-* Fixed missing dust effect on various WC maps
-
 
 [Maps] 
 * Added various player spawns, weapon spawns and objects to the previously empty area surrounding the main area on Gulch
@@ -463,20 +460,20 @@ v1.07 PRE ALPHA CHANGES
 * Added a misslepod to one of the walkways on Haven
 * Added a rocket spawn to Stratosphere
 * Added a hidden misslepod spawn to Pipeline
+* Added a monument and two more buildings to Imperial
 * Added more spectator cameras to GFWL/Nordic Bonus
+* Added kaboom pack pickup on Crevice and Overpass with a single pack on the rack near the attacking team spawn
+* Added another rail driver spawn on Imperial
+* Added new siege maps: 
 * Slight adjustments to existing misslepod and super gauss rifle spawn locations on Settlement 
 * Slight adjustment to the existing super gauss rifle spawn on Rift
 * Slight adjustments to the existing misslepod and super gauss rifle spawns on Excavation
 * Moved rocket launcher spawn to a more hidden location on Complex
 * Moved super gauss rifle spawn location on Haven 
-* Added new siege maps
 * Moved bag location on Abandoned
-* Completely overhauled Frost to be much more playable
-* Added kaboom pack pickup on Crevice and Overpass with a single pack on the rack near the attacking team spawn
 * Moved the RPG spawn location on Complex to a more hidden location
-* Added another rail driver spawn on Imperial
 * Moved smokestack on GFWL/Nordic Bonus and added signs and trees to indicate out of bounds areas
-* Added a monument and two more buildings to Imperial
+* Completely overhauled Frost to be much more playable
 * Improved spawns on Siege maps when played in other game modes
 
 [Characters] 
@@ -500,7 +497,7 @@ v1.07 PRE ALPHA CHANGES
 ------------
 
 [Singleplayer]
-* Flat beds and other large vehicles can blow up the Oasis safehouse when they spawn
+* Flat beds and other large vehicles can damage safehouses when they spawn
 * NPCs have trouble with handling larger vehicles
 * Vehicle spawn locations aren't final
 
@@ -524,9 +521,7 @@ v1.07 PRE ALPHA CHANGES
 * Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman, Bagman and Siege will not work on any Wrecking Crew map until the Nanoforge modding tool allows us to add siege, CTF and damage control objectives to maps
 * Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman, Bagman and Siege will not work on Siege maps until the Nanoforge modding tool allows us to add CTF and damage control objectives to maps
 * Wrecking crew maps don't have backpack spawns until the Nanoforge modding tool allows us to add them
-* Scrapheap has a spawn where you can get stuck in a frame
 * Ruins has issues with some of the rocks being hard to climb
-* Ruins has issues with some of the spikes on the buildings causing players to get stuck
 * Repurcussion might need adjustments to some of the spawns inside the pipes
 * GFWL/Nordic Bonus: Some of the shipping containers are floating
 
@@ -539,10 +534,7 @@ v1.07 PRE ALPHA CHANGES
 [Vanilla]
 * Walkers don't spawn sometimes
 * Issue with extreme cloud speed on some maps
-* Various maps still have bugs with out of bounds spots
-* Debris collision and despawn limit changes don't apply to multiplayer most likely due to hardcoded networking optimizations
 * LOD cap for small rocks seems to be hardcoded and cannot be increased further
-* Projectile despawn rate seems to be hardcoded and cannot be increased further
 * Adding walker spawns at safehouses can cause no vehicle to spawn at all occasionally 
 * NPCs driving like crazy when obstructed instead of waiting and going around them calmly
 * Game can sometimes crash when loading into a multiplayer match
