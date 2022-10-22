@@ -488,10 +488,16 @@ v1.07 PRE ALPHA CHANGES
 * Added DLC Vasha Marauder 
 * Added DLC Hess Marauder to MP and SP
 * Added various DLC variants of NPCs to singleplayer spawns
+* Fixed backpack clipping on Jenkins
 
 [Changes] 
 * Enabled friendly fire by default in custom games
 * Added Kaboom pack to random backpack rotation
+
+[Weapons] 
+* Added Nano Grenade 
+* Added Stun Grenade 
+* Added Explosive Grenade
 
 ------------
 |KNOWN BUGS|
