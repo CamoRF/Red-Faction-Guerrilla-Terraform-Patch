@@ -607,7 +607,7 @@
 			<Flags>
 				<Flag>held in left hand</Flag>
 				<Flag>draw projectile in opposite hand</Flag>
-				<Flag>mp selectable</Flag>
+				<!--<Flag>mp selectable</Flag>--> <!--Disabled because it doesn't work yet-->
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>10</Max_Engagement_Distance>
@@ -685,7 +685,7 @@
 				<Flag>shatter</Flag>
 				<Flag>is obvious weapon</Flag>
 				<Flag>can fine aim</Flag>
-				<Flag>mp selectable</Flag>				
+				<!--<Flag>mp selectable</Flag>-->		<!--Disabled due to texture and projectile issues-->		
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>50</Max_Engagement_Distance>

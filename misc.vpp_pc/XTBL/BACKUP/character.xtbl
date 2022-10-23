@@ -2,7 +2,7 @@
 	<Table>
 <!--START DLC CHARACTERS ADDED-->	
 		<Character>
-			<Name>Sam_DLC</Name> <!--Change this to "Sam_DLC_SP" to play as restore Alec in the base game--> <!--rfg_PC_DLC-->
+			<Name>rfg_PC_DLC</Name> <!--Change this to "Sam_DLC_SP" to play as restore Alec in the base game-->
 			<Model>
 				<Filename>sam_dlc.cmeshx</Filename>
 			</Model>
@@ -311,7 +311,7 @@
 			<Model>
 				<Filename>vasha.cmeshx</Filename>
 			</Model>
-			<Anim_Set>player_female.xtbl</Anim_Set>
+			<Anim_Set>Civilian_Female.xtbl</Anim_Set>
 			<Rig>
 				<Filename>vasha.rigx</Filename>
 			</Rig>

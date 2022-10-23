@@ -31,7 +31,7 @@
 			<Weapon>grenade_mp</Weapon>
 		</Upgrade>
 <!--START DLC Weapons Added-->
-		<Upgrade>
+		<!--<Upgrade>
 			<Name>remote_charges_dlc</Name>
 			<Type>Weapon</Type>
 			<Levels>
@@ -104,8 +104,8 @@
 			</_Editor>
 			<Display_Name>WEAP_SUBVERTER</Display_Name>
 			<Weapon>edf_subverter</Weapon>
-		</Upgrade>		
-		<Upgrade>
+		</Upgrade>-->		
+<!--		<Upgrade>
 			<Name>spiker</Name>
 			<Type>Weapon</Type>
 			<Levels>
@@ -133,7 +133,7 @@
 			</_Editor>
 			<Display_Name>UPG_RADIATION_NAME</Display_Name>
 			<Weapon>spiker</Weapon>
-		</Upgrade>	
+		</Upgrade>-->	
 		<Upgrade>
 			<Name>missilepod</Name>
 			<Type>Weapon</Type>
