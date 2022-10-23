@@ -2,11 +2,11 @@
 	<Table>
 <!--START DLC CHARACTERS ADDED-->	
 		<Character>
-			<Name>Sam_DLC</Name> <!--Change this to "rfg_PC_DLC" to play as Sam in the base game-->
+			<Name>rfg_PC_DLC</Name> <!--Change this to "rfg_PC_DLC" to play as Sam in the base game--> <!--Crashes when loading in mp if changed to something else-->
 			<Model>
 				<Filename>sam_dlc.cmeshx</Filename>
 			</Model>
-			<Anim_Set>Player.xtbl</Anim_Set>
+			<Anim_Set>player_female.xtbl</Anim_Set> <!--From Player.xtbl-->
 			<Rig>
 				<Filename>sam_dlc.rigx</Filename>
 			</Rig>
