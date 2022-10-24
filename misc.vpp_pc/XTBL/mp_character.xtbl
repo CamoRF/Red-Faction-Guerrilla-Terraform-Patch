@@ -5,7 +5,7 @@
 			<Character_Grid>
 <!--START DLC CHARACTERS ADDED-->	
 				<Character_Element>
-					<Character_Name>rfg_PC_DLC</Character_Name>
+					<Character_Name>sam_dlc</Character_Name>
 					<Display_Name>DLC Samanya</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -4355,7 +4355,7 @@
 					</backpack_offsets>
 				</Character_Element>				
 				<Character_Element>
-					<Character_Name>rfg_PC_DLC</Character_Name>
+					<Character_Name>sam_dlc</Character_Name>
 					<Display_Name>DLC Samanya</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>

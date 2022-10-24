@@ -2,7 +2,7 @@
 	<Table>
 <!--START DLC CHARACTERS ADDED-->	
 		<Character>
-			<Name>rfg_PC_DLC</Name> <!--Change this to "rfg_PC_DLC" to play as Sam in the base game--> <!--Crashes when loading in mp if changed to something else-->
+			<Name>sam_dlc</Name>
 			<Model>
 				<Filename>sam_dlc.cmeshx</Filename>
 			</Model>
