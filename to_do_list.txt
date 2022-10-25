@@ -48,6 +48,7 @@ v1.07
 	* Fix middle rockspot on Deadzone
 	* Half cloud speed on all maps
 	* Move the misslepod on Fallfactor to one of the thin pipes that can be destroyed
+	* Add (camo) to stuff added by patch and change mines/cliffs to out of bounds fix when the NF update is out
 
 
 [Fix: Out of Bounds Exploits]
@@ -62,6 +63,7 @@ v1.07
 	* Merge items from SP and DLC into mp_common.vpp_pc?
 	* Test out the preload chunk xtbl and file with objectives
 	* Move alert_level.xtbl changes to add-on
+	* Move other non essential gameplay changes to add-on
 
 ------------
 LOW PRIORITY 
