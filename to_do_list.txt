@@ -10,16 +10,8 @@ v1.07
 	* Update loading screen image and changelog
 	* Update WC map thumbnails after the maps are semi finalized
 	* Try adding Spiker and DLC Melee weapons with the new RFGUtil version
-	* Add subverter on Downfall 
-	* Add subverter to Quarantine 
 	* Add Marauder charge placer to base game 
-	* Add player and weapon spawns to new buildings added on Imperial 
-	* Add subverter to Crashsite - done
-	* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords
-	* Add Subverter to Gauntlet
-	* Add subverter to Garrison
-	* Add kaboom pack back to Rift at 0,0,0
-	* Adding backpack racks at 0,0,0 using an asset from a map on WC maps allows random packs to work? 
+
 
 [Maps]
 	* Add team spawns to all WC maps
@@ -49,6 +41,15 @@ v1.07
 	* Half cloud speed on all maps
 	* Move the misslepod on Fallfactor to one of the thin pipes that can be destroyed
 	* Add (camo) to stuff added by patch and change mines/cliffs to out of bounds fix when the NF update is out
+	* Add player and weapon spawns to new buildings added on Imperial 
+	* Add subverter to Crashsite - done
+	* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords
+	* Add Subverter to Gauntlet
+	* Add subverter to Garrison
+	* Add kaboom pack back to Rift at 0,0,0
+	* Adding backpack racks at 0,0,0 using an asset from a map on WC maps allows random packs to work? 
+	* Add subverter on Downfall 
+	* Add subverter to Quarantine 
 
 
 [Fix: Out of Bounds Exploits]
