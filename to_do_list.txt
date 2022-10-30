@@ -50,6 +50,9 @@ v1.07
 	* Adding backpack racks at 0,0,0 using an asset from a map on WC maps allows random packs to work? 
 	* Add subverter on Downfall 
 	* Add subverter to Quarantine 
+	* Move weapons added to regular maps, use RSL to get better co-ords 
+	* Add more cameras to GFWL/Nordic Bonus
+	* Add siege to Crash Site and Imperial
 
 
 [Fix: Out of Bounds Exploits]
