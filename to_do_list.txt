@@ -1,59 +1,31 @@
-------------
+------
 v1.07
-------------
-
-[Fixes]
-	* Issue with double text for the you won/you lost text at end of game with large text over the top of small text
-
-[Weapons]
-	* Add Spiker to singleplayer and add it to Marauder loadout
-	* Update loading screen image and changelog
-	* Update WC map thumbnails after the maps are semi finalized
-	* Try adding Spiker and DLC Melee weapons with the new RFGUtil version
-	* Add Marauder charge placer to base game 
-
+------
 
 [Maps]
 	* Add team spawns to all WC maps
-	* Fix random backpacks on WC maps
 	* Ruins: has issues with some of the rocks being hard to climb and the player can get stuck on the spikes on buildings
 	* Repurcussion: might need adjustments to some of the spawns inside the pipes
-	* GFWL/Nordic Bonus: Some of the shipping containers are floating
 	* Imperial: Add more weapons to make your way up the large buildings on Imperial, nano forge and reconstructor 
-	* Imperial: Add spawns and weapons to the two new buildings added
 	* Cascade: Add a couple m16 spawns, Add a repair tool under the bridge
 	* Scrapheap: Move spawns where you can get stuck in the frames on Scrapheap
-	* Test adding multiple bagman spawns to randomize where it respawns
-	* Add all backpacks at 0,0,0 on all WC maps 
 	* Double check all maps have kaboom or missing packs on the level at 0,0,0 so they work in the random rotation option
 	* Double check all WC maps have a disabled barrel at 0,0,0
 	* Fix CTF spawn flipping by making duplicate team spawns that only spawn in CTF and disabling all vanilla spawns in CTF
 	* Disable all other game mode flags for children of all objectives
 	* Watchtower siege  - wip
-	* Transmission siege 
-	* Crash site siege  - wip
-	* Repurcussion siege?
-	* Warlords siege? 
-	* Factory siege? 
 	* Add disabled kaboom pack to Gauntlet and Crescent 
-	* Add Kaboom to Overpass 
-	* Fix middle rockspot on Deadzone
-	* Half cloud speed on all maps
+	* Add Kaboom to Overpass
 	* Move the misslepod on Fallfactor to one of the thin pipes that can be destroyed
-	* Add (camo) to stuff added by patch and change mines/cliffs to out of bounds fix when the NF update is out
-	* Add player and weapon spawns to new buildings added on Imperial 
-	* Add subverter to Crashsite - done
+	* Add (camo) to stuff added by patch and change mines/cliffs to out of bounds fix
+	* Make sure all WC maps have at least 16 spawns
 	* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords
 	* Add Subverter to Gauntlet
-	* Add subverter to Garrison
+	* Add Subverter to Garrison
+	* Add Subverter to Downfall 
 	* Add kaboom pack back to Rift at 0,0,0
 	* Adding backpack racks at 0,0,0 using an asset from a map on WC maps allows random packs to work? 
-	* Add subverter on Downfall 
-	* Add subverter to Quarantine 
-	* Move weapons added to regular maps, use RSL to get better co-ords 
 	* Add more cameras to GFWL/Nordic Bonus
-	* Add siege to Crash Site and Imperial
-
 
 [Fix: Out of Bounds Exploits]
 	* Puncture
@@ -63,15 +35,24 @@ v1.07
 	* Downfall (inside rock exploit)
 	* Expansion
 	
-[Misc]
-	* Merge items from SP and DLC into mp_common.vpp_pc?
-	* Test out the preload chunk xtbl and file with objectives
-	* Move alert_level.xtbl changes to add-on
-	* Move other non essential gameplay changes to add-on
+[Misc]	
+	* Update loading screen image and changelog
+	* Update WC map thumbnails after the maps are semi finalized
+	
+----
+DONE
+----
+	
+	* Add siege to Crash Site and Imperial
+	* Add subverter to Quarantine 
+	* Add subverter to Crash Site
+	* Add player and weapon spawns to new buildings added on Imperial
+	* Imperial: Add spawns and weapons to the two new buildings added
+	* GFWL/Nordic Bonus: Some of the shipping containers are floating	
 
-------------
+-------------------
 LOW PRIORITY 
-------------
+-------------------
 
 [Weapons]
 	* Add CTF flags, Gutter, Impaler and DLC Pickaxe to the sledgehammer upgrade list in multiplayer if possible and when the dlc melee weapons are added
@@ -80,14 +61,9 @@ LOW PRIORITY
 	* Singularity launcher
 	* Gauss shotgun
 	* Reconstructor flamethrower
-	
-[Additions/Changes]
-	* Remove blur from RPG explosions?
-	* Try to make it so you can walk up steeper inclines?
-	* Improve driving skills of NPCs
-	* Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to
-	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
-	* Reduce mass of debris?
+	* Add Spiker to singleplayer and add it to Marauder loadout	
+	* Try adding Spiker and DLC Melee weapons with the new RFGUtil version
+	* Add Marauder charge placer to base game 	
 
 [Fixes]
 	* Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
@@ -97,16 +73,33 @@ LOW PRIORITY
 	* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
 	* Restore Dan Masons yellow jacket	
 	* Double check all backpacks were renamed and (camo) was added to weapons added or bugs fixed on all maps	
+	* Issue with double text for the you won/you lost text at end of game with large text over the top of small text	
 
 [Maps] 	
 	* Expansion: make bridge changes cleaner when we can clone between maps
 	* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
 	* Add CTF, Damage Control objectives and backpack racks to WC maps when Nanoforge supports it	
 	* Tutorial area map
+	* Half cloud speed on all maps
+	* Fix middle rockspot on Deadzone	
+	* Test adding multiple bagman spawns to randomize where it respawns 	
 
+[Misc]
+	* Merge items from SP and DLC into mp_common.vpp_pc?
+	* Test out the preload chunk xtbl and file with objectives
+	* Move alert_level.xtbl changes to add-on
+	* Move other non essential gameplay changes to add-on	
+	* Remove blur from RPG explosions?
+	* Try to make it so you can walk up steeper inclines?
+	* Improve driving skills of NPCs
+	* Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to
+	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
+	* Reduce mass of debris?	
+	
 ------------------------------------------------
 OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
 ------------------------------------------------
+
 * HD character textures 
 * HD weapons and backpack textures
 * Unlock Insane difficulty by default
@@ -133,4 +126,4 @@ OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
 	-  Stealth in vanilla is pretty much useless, so implementing those fixes would make stealth a much more viable option. I think in general we want to lean the player towards using guerrilla tactics on higher difficulties.
 	- Encourage hit and run and stealth
 	- https://discord.com/channels/@me/1004543616875778089/1022032142038994944
-* player_female.xtbl could maybe be used to fix player model swaps in SP
+* player_female.xtbl could maybe be used to fix player model swaps in SP	
