@@ -5054,7 +5054,7 @@
 				<Special_Effect>wep_reconstructor_swarm_a</Special_Effect>
 				<Muzzle_Flash>wep_reconstructor_muzzle_a</Muzzle_Flash>
 				<Fire_Camera_Shake>weapon_fire_repair</Fire_Camera_Shake>
-				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
+				<Fire_Camera_Shake_Ignore_Disabled>false</Fire_Camera_Shake_Ignore_Disabled> <!--From true-->
 				<Secondary_Camera_Shake>npc_reconstructor</Secondary_Camera_Shake>
 				<Overheated_effect>wep_reconstructor_overheat_a</Overheated_effect>
 			</Visuals>
