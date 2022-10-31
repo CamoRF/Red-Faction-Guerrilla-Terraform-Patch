@@ -1,74 +1,6 @@
 <root>
 	<Table>
-<!--START Experimental Misc-->	
-		<Weapon>
-			<Name>flame_thrower</Name>
-			<Inventory_Item>flame_thrower</Inventory_Item>
-			<Item_3d>repair_tool</Item_3d>
-			<Weapon_Class>repair</Weapon_Class>
-			<Trigger_Type>automatic</Trigger_Type>
-			<Ammo_Type>electricity</Ammo_Type>
-			<Animation_Group>Arc</Animation_Group>
-			<Magazine_Size>0</Magazine_Size>
-			<Max_Rounds>1</Max_Rounds>
-			<Default_Refire_Delay>200</Default_Refire_Delay>
-			<Range_Max>0.0</Range_Max>
-			<Range_Red>0.0</Range_Red>
-			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
-			<Max_Engagement_Distance>0.0</Max_Engagement_Distance>
-			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
-			<Damage_Scaling_Max>
-				<NPC_Damage>0.0</NPC_Damage>
-				<Player_Damage>60</Player_Damage> <!--From 40-->
-				<Vehicle_Damage>-1</Vehicle_Damage>
-				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
-			</Damage_Scaling_Max>		
-			<_Editor>
-				<Category>Entries:Other</Category>
-			</_Editor>
-			<Ammo_Box_Restock>0</Ammo_Box_Restock>
-			<Num_Magazines>2</Num_Magazines>
-			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<icon_name>ui_badge_icon_fire</icon_name>
-			<dummy>False</dummy>
-			<Visuals>
-				<Special_Effect>des_fire_trail_a</Special_Effect>
-				<Secondary_Special_Effect>veh_walker_flame_pilot_a</Secondary_Special_Effect>
-				<Muzzle_Flash>wep_miner_rpg_flash_a</Muzzle_Flash>
-				<Fire_Camera_Shake>weapon_fire_arc_weak</Fire_Camera_Shake>
-				<Fire_Camera_Shake_Ignore_Disabled>false</Fire_Camera_Shake_Ignore_Disabled>
-				<Secondary_Camera_Shake>npc_reconstructor</Secondary_Camera_Shake>
-				<Overheated_effect>wep_reconstructor_overheat_a</Overheated_effect>
-			</Visuals>
-			<Flags>
-				<Flag>disable player cover</Flag>
-				<!--<Flag>mp selectable</Flag>-->
-				<Flag>looping effects</Flag>
-			</Flags>
-			<MeleeAttacks>
-				<StandingPrimary>rpg_melee</StandingPrimary>
-				<StandingSecondary>rpg_melee</StandingSecondary>
-				<CrouchingPrimary>rpg_melee</CrouchingPrimary>
-				<CrouchingSecondary>rpg_melee</CrouchingSecondary>
-			</MeleeAttacks>
-			<reticule_name>ui_hud_reti_reconstructor</reticule_name>
-			<Unique_ID>150</Unique_ID>
-			<Overheat_Cool_Down_Time>0.0</Overheat_Cool_Down_Time>
-			<Overheat_Percent_Per_Shot>0.0</Overheat_Percent_Per_Shot>
-			<Sounds>
-				<Fire_Sound>WEP_RECONSTRUCTOR_PC_ATTACK</Fire_Sound>
-				<NPC_Fire_Sounds>
-					<NPC_Fire_Sound>WEP_RECONSTRUCTOR_NPC_ATTACK</NPC_Fire_Sound>
-				</NPC_Fire_Sounds>
-				<No_Ammo_Sound>WEP_RECONSTRUCTOR_PC_ATTACKFAIL_01</No_Ammo_Sound>
-			</Sounds>
-			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
-			<aim_assist>0.5</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
-			<Special_Hit_Effect>env_barrel_fire_a</Special_Hit_Effect>
-			<Player_Hit_Camera_Shake>npc_arc_welder</Player_Hit_Camera_Shake>
-		</Weapon>	
-		
+<!--START Experimental Misc-->		
 		<Weapon>
 			<Name>fists</Name>
 			<Weapon_Class>melee</Weapon_Class>
@@ -456,7 +388,7 @@
 				<Flag>shatter</Flag>
 				<Flag>held in left hand</Flag>
 				<Flag>disable player cover</Flag>
-				<!--<Flag>mp selectable</Flag>-->				
+				<Flag>mp selectable</Flag>				
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
 			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
@@ -486,7 +418,7 @@
 			<Num_Magazines>2</Num_Magazines>
 			<Player_Move_Speed>1.09</Player_Move_Speed>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance> 
-			<icon_name>ui_badge_icon_knives</icon_name> <!--ui_hud_weapon_icon_royalsword-->
+			<icon_name>ui_badge_icon_knives</icon_name> <!--From ui_hud_weapon_icon_royalsword-->
 			<reticule_name>ui_hud_reti_gutter</reticule_name> <!--From ui_hud_reti_royalsword-->
 			<dummy>False</dummy>
 			<Unique_ID>155</Unique_ID>
@@ -520,7 +452,7 @@
 				<Flag>shatter</Flag>
 				<Flag>held in left hand</Flag>
 				<Flag>disable player cover</Flag>
-				<!--<Flag>mp selectable</Flag>-->				
+				<Flag>mp selectable</Flag>			
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
 			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
@@ -607,7 +539,7 @@
 			<Flags>
 				<Flag>held in left hand</Flag>
 				<Flag>draw projectile in opposite hand</Flag>
-				<!--<Flag>mp selectable</Flag>--> <!--Disabled because it doesn't work yet-->
+				<!--<Flag>mp selectable</Flag>-->
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>10</Max_Engagement_Distance>
@@ -630,9 +562,9 @@
 			<Reload_Delay>150</Reload_Delay>
 			<Ammo_Box_Restock>50</Ammo_Box_Restock>
 			<Num_Magazines>50</Num_Magazines>
-			<icon_name>ui_hud_weapon_icon_mcharge</icon_name>
+			<icon_name>ui_hud_weapon_icon_charges</icon_name> <!--From ui_hud_weapon_icon_mcharge-->
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<reticule_name>ui_hud_reti_maraudercharge</reticule_name>
+			<reticule_name>ui_hud_reti_mines</reticule_name> <!--From ui_hud_reti_maraudercharge-->
 			<dummy>False</dummy>
 			<Unique_ID>97</Unique_ID>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
@@ -643,7 +575,7 @@
 		</Weapon>		
 		
 		<Weapon>
-			<Name>spiker</Name>
+			<Name>spiker</Name> <!--Only host can see projectile and it has no texture when dropped on ground-->
 			<Weapon_Class>harpoon</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>projectile</Ammo_Type>
@@ -685,7 +617,7 @@
 				<Flag>shatter</Flag>
 				<Flag>is obvious weapon</Flag>
 				<Flag>can fine aim</Flag>
-				<!--<Flag>mp selectable</Flag>-->		<!--Disabled due to texture and projectile issues-->		
+				<Flag>mp selectable</Flag>	
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>50</Max_Engagement_Distance>
@@ -720,7 +652,7 @@
 			<Ammo_Box_Restock>120</Ammo_Box_Restock>
 			<Num_Magazines>6</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<icon_name>ui_badge_icon_ultor</icon_name> <!--From ui_badge_icon_ultor-->
+			<icon_name>ui_badge_icon_ultor</icon_name> <!--From ui_hud_weapon_icon_spiker-->
 			<reticule_name>ui_hud_reti_harpoon</reticule_name> <!--From ui_hud_reti_spiker2-->
 			<dummy>False</dummy>
 			<mp_kill_phrase>HM_KILL_PHRASE_RAILED</mp_kill_phrase>
@@ -735,7 +667,7 @@
 			<Dropped_ammo_scale>0.7666667</Dropped_ammo_scale>
 			<aim_assist>1</aim_assist>
 			<Projectile_Info>
-				<Model>spiker_projectile</Model> <!--harpoon_projectile-->
+				<Model>spiker_projectile</Model> <!--Try harpoon_projectile-->
 				<Start_Speed>125</Start_Speed>
 				<Max_Speed>125</Max_Speed>
 				<Attached_Effect>wep_turret_harpoon_trail_a</Attached_Effect>
@@ -762,9 +694,9 @@
 		
 		<Weapon>
 			<Name>EDF_Super_Gauss</Name>
-			<icon_name>ui_hud_weapon_icon_gauss</icon_name>
-			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name>
-			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule>
+			<icon_name>ui_hud_weapon_icon_gauss</icon_name> <!--From ui_hud_weapon_icon_supergauss-->
+			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name> <!--From ui_hud_reti_supergauss-->
+			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule> <!--From ui_hud_reti_supergauss0-->
 			<Unique_ID>158</Unique_ID>
 			<Inventory_Item>edf_super_gauss</Inventory_Item>
 			<Item_3d>EDF_Super_Gauss</Item_3d>
@@ -864,9 +796,9 @@
 		
 		<Weapon>
 			<Name>missilepod</Name>
-			<icon_name>ui_badge_icon_murry</icon_name>
-			<reticule_name>ui_hud_reti_thermobaric</reticule_name>
-			<fine_aim_reticule>ui_hud_reti_thermobaric2</fine_aim_reticule>
+			<icon_name>ui_badge_icon_murry</icon_name> <!--From ui_hud_weapon_icon_pod-->
+			<reticule_name>ui_hud_reti_thermobaric</reticule_name> <!--From ui_hud_reti_missilepod2-->
+			<fine_aim_reticule>ui_hud_reti_thermobaric2</fine_aim_reticule> <!--From ui_hud_reti_missilepod3-->
 			<Weapon_Class>launcher</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>projectile</Ammo_Type>
@@ -940,7 +872,7 @@
 			<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
 			<aim_assist>0.5</aim_assist>
 			<Projectile_Info>
-				<Model>art_tank_missile</Model> <!--art_tank_missile--> <!--thermobaric_rocket_projectile-->
+				<Model>art_tank_missile</Model> <!--From rpg_projectile-->
 				<Start_Speed>50</Start_Speed>
 				<Max_Speed>70</Max_Speed>
 				<Attached_Effect>wep_miner_rpg_trail_s3</Attached_Effect>
@@ -964,9 +896,9 @@
 			<Inventory_Item>edf_subverter</Inventory_Item>
 			<Item_3d>edf_subverter</Item_3d>
 			<Default_team>EDF</Default_team>
-			<icon_name>ui_badge_icon_edf</icon_name>
-			<reticule_name>ui_hud_reti_enforcer</reticule_name>
-			<fine_aim_reticule>ui_hud_reti_enforcer2</fine_aim_reticule>
+			<icon_name>ui_badge_icon_edf</icon_name> <!--From ui_hud_weapon_icon_sub-->
+			<reticule_name>ui_hud_reti_enforcer</reticule_name> <!--From ui_hud_reti_subverter-->
+			<fine_aim_reticule>ui_hud_reti_enforcer2</fine_aim_reticule> <!--From ui_hud_reti_subverter0-->
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
 			<Ammo_Type>bullet</Ammo_Type>
