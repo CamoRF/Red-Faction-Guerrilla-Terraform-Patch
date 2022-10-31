@@ -935,6 +935,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
+				<Flag>king_of_the_hill</Flag> <!--Added-->				
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 15:30-->
 			<glow_multiplier>6</glow_multiplier>
