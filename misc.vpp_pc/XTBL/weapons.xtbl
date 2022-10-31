@@ -5071,8 +5071,8 @@
 			</MeleeAttacks>
 			<reticule_name>ui_hud_reti_reconstructor</reticule_name>
 			<Unique_ID>38</Unique_ID>
-			<Overheat_Cool_Down_Time>2.45</Overheat_Cool_Down_Time>
-			<Overheat_Percent_Per_Shot>0.1</Overheat_Percent_Per_Shot>
+			<Overheat_Cool_Down_Time>1.8375</Overheat_Cool_Down_Time> <!--From 2.45-->
+			<Overheat_Percent_Per_Shot>0.075</Overheat_Percent_Per_Shot> <!--From 0.1-->
 			<Sounds>
 				<Sound_Group>reconstructor</Sound_Group>
 				<Fire_Sound>WEP_RECONSTRUCTOR_PC_ATTACK</Fire_Sound>
@@ -7675,10 +7675,10 @@
 			<Max_Rounds>200</Max_Rounds> <!--from 160-->
 			<Range_Max>35</Range_Max>
 			<Range_Red>50</Range_Red>
-			<Default_Refire_Delay>95</Default_Refire_Delay> <!--From 100-->
+			<Default_Refire_Delay>94</Default_Refire_Delay> <!--From 95 in v1.063--> <!--From 100-->
 			<Damage_Scaling_Max>
 				<NPC_Damage>40</NPC_Damage>
-				<Player_Damage>32</Player_Damage>
+				<Player_Damage>34</Player_Damage> <!--From 32-->
 				<Threshold>80</Threshold>
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
@@ -7705,7 +7705,7 @@
 			<Damage_Scaling_Min>
 				<Threshold>30</Threshold>
 				<NPC_Damage>60</NPC_Damage>
-				<Player_Damage>41</Player_Damage> <!--From 40 in v1.062--> <!--from 44-->
+				<Player_Damage>42</Player_Damage> <!--From 41 in v1.063--> <!--From 40 in v1.062--> <!--from 44-->
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
@@ -7713,10 +7713,10 @@
 			<Max_Engagement_Distance>18</Max_Engagement_Distance>
 			<Inventory_Item>m16</Inventory_Item>
 			<Item_3d>m16</Item_3d>
-			<Recoil_Kick>0.8</Recoil_Kick> <!--From 0.9-->
+			<Recoil_Kick>0.75</Recoil_Kick> <!--From 0.8 in v1.063--> <!--From 0.9-->
 			<Acceleration>0.0</Acceleration>
-			<Spread_Fine_Aim_Min>0.67</Spread_Fine_Aim_Min>
-			<Spread_Fine_Aim_Max>1.2</Spread_Fine_Aim_Max>
+			<Spread_Fine_Aim_Min>0.62</Spread_Fine_Aim_Min> <!--From 0.67-->
+			<Spread_Fine_Aim_Max>1.15</Spread_Fine_Aim_Max> <!--From 1.2-->
 			<NPC_Firing_Pattern>Default m16</NPC_Firing_Pattern>
 			<Reload_Delay>200</Reload_Delay>
 			<Dropped_ammo_scale>0.5</Dropped_ammo_scale>
@@ -7728,7 +7728,7 @@
 			<reticule_name>ui_hud_reti_assault3</reticule_name>
 			<dummy>False</dummy>
 			<NPC_Aim_Drift>Default</NPC_Aim_Drift>
-			<Headshot_Multiplier>2.0</Headshot_Multiplier> <!--from 3.0-->
+			<Headshot_Multiplier>2.1</Headshot_Multiplier> <!--From 2.0 in v1.063--> <!--from 3.0-->
 			<Bullet_Group>Standard</Bullet_Group>
 			<Unique_ID>100</Unique_ID>
 			<Default_team>EDF</Default_team>
