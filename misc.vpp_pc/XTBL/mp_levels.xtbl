@@ -389,6 +389,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>08:30</alternate_time_of_day>
 			<glow_multiplier>1.2</glow_multiplier>
