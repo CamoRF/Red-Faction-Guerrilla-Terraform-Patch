@@ -443,6 +443,10 @@ v1.07 PRE ALPHA CHANGES
 * Fixed more broken flags on various maps
 * Fixed vanilla issue with spawn flipping in CTF
 * Fixed vanilla issue with multiple floating fences on Crescent
+* Fixed vanilla issue with mixed up smokestack children on Equilbrium
+* Fixed issue with mixed up building children on Fortress 
+* Fixed issue with mixed up radio tower children on Fortress
+* Fixed issue with duplicate remote charge spawn on Ruins
 * Deleted out of bounds player spawn on Repurcussion
 * Deleted out of bounds weapon spawn on Abandoned
 * Table.vpp_pc is now compressed and condensed properly
