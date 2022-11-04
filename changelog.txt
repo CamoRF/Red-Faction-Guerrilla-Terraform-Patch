@@ -439,7 +439,7 @@ v1.07 PRE ALPHA CHANGES
 * Fixed missing under the map killboxes on various maps
 * Fixed missing dust effect on various WC maps 
 * Fixed host migrating randomly (again)
-* Fixed incorrect weapon bounding boxes on all WC maps
+* Fixed incorrect weapon bounding boxes on all maps
 * Fixed more broken flags on various maps
 * Fixed vanilla issue with spawn flipping in CTF
 * Fixed vanilla issue with multiple floating fences on Crescent
@@ -453,9 +453,14 @@ v1.07 PRE ALPHA CHANGES
 * Various improvements to previous out of bound exploit fixes 
 * Various improvements to Siege map spawns when they are played in other gamemodes 
 * Various improvements to performance & stability
+* Fixed floating containers on GFWL/Nordic Bonus
+* Fixed issues with mixed up vent and smokestack children on Repurcussion
+* Countless misc fixes to all 50 maps
+
 
 [Maps] 
 * Added various player spawns, weapon spawns and objects to the previously empty area surrounding the main area on Gulch
+* Add various player and weapon spawns to the previously empty areas on Transmission
 * Added mines around the main area on Scrapheap
 * Added a misslepod spawn in a difficult to reach location on Settlement 
 * Added a super gauss rifle spawn in a difficult to reach location on Settlement
@@ -480,6 +485,9 @@ v1.07 PRE ALPHA CHANGES
 * Moved smokestack on GFWL/Nordic Bonus and added signs and trees to indicate out of bounds areas
 * Completely overhauled Frost to be much more playable
 * Improved spawns on Siege maps when played in other game modes
+* Added more spectator cameras to GFWL/Nordic Bonus
+* Added more spectator cameras to Repurcussion
+
 
 [Characters] 
 * Added DLC Samanya Marauder
