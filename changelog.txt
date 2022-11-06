@@ -444,18 +444,23 @@ v1.07 PRE ALPHA CHANGES
 * Fixed vanilla issue with spawn flipping in CTF
 * Fixed vanilla issue with multiple floating fences on Crescent
 * Fixed vanilla issue with mixed up smokestack children on Equilbrium
+* Fixed vanilla issues with missing persistent flag on various map objects
+* Fixed more vanilla issues with some objects not spawning in various game modes
 * Fixed issue with mixed up building children on Fortress 
 * Fixed issue with mixed up radio tower children on Fortress
 * Fixed issue with duplicate remote charge spawn on Ruins
-* Deleted out of bounds player spawn on Repurcussion
-* Deleted out of bounds weapon spawn on Abandoned
+* Fixed vanilla issue with inconsistent naming on various objects and removed the display_name string from objects that didn't need it
+* Fixed floating containers on GFWL/Nordic Bonus
+* Fixed issues with mixed up vent and smokestack children on Repurcussion
 * Table.vpp_pc is now compressed and condensed properly
 * Various improvements to previous out of bound exploit fixes 
 * Various improvements to Siege map spawns when they are played in other gamemodes 
 * Various improvements to performance & stability
-* Fixed floating containers on GFWL/Nordic Bonus
-* Fixed issues with mixed up vent and smokestack children on Repurcussion
+* Removed out of bounds player spawn on Repurcussion
+* Removed out of bounds weapon spawn on Abandoned
+
 * Countless misc fixes to all 50 maps
+
 
 
 [Maps] 
@@ -474,7 +479,10 @@ v1.07 PRE ALPHA CHANGES
 * Added more spectator cameras to GFWL/Nordic Bonus
 * Added kaboom pack pickup on Crevice and Overpass with a single pack on the rack near the attacking team spawn
 * Added another rail driver spawn on Imperial
-* Added new siege maps: 
+* Added Siege to Abandoned, Cascade, Crash Site, Doubletime, Equilibrium, Garrison, Imperial, Quarantine, Radial, Repurcussion, Rift and Stratosphere
+* Added Damage Control to Frost and Stratosphere
+* Added Vision pack to Broadside to counter the Stealth pack that was already on the map 
+* Added Vision pack to Cornered to counter the Stealth pack that was already on the map
 * Slight adjustments to existing misslepod and super gauss rifle spawn locations on Settlement 
 * Slight adjustment to the existing super gauss rifle spawn on Rift
 * Slight adjustments to the existing misslepod and super gauss rifle spawns on Excavation
@@ -485,9 +493,9 @@ v1.07 PRE ALPHA CHANGES
 * Moved smokestack on GFWL/Nordic Bonus and added signs and trees to indicate out of bounds areas
 * Completely overhauled Frost to be much more playable
 * Improved spawns on Siege maps when played in other game modes
-* Added more spectator cameras to GFWL/Nordic Bonus
-* Added more spectator cameras to Repurcussion
-
+* Adjusted various DLC weapon spawns on most maps
+* Disabled Misslepod and Super Gauss Rifle spawns in Demolition and Damage Control
+* 
 
 [Characters] 
 * Added DLC Samanya Marauder
@@ -504,6 +512,13 @@ v1.07 PRE ALPHA CHANGES
 * Added Nano Grenade 
 * Added Stun Grenade 
 * Added Explosive Grenade
+* Added Fist/unarmed weapon
+
+[Misc]
+* Added comments for implementing DLC weapon reticules in future
+* Optimized more files to reduce memory pool limit
+* Formatted more files to make the game easier to mod on top of the patch
+* Added backpacks missing from random backpack rotation to various maps
 
 ------------
 |KNOWN BUGS|
