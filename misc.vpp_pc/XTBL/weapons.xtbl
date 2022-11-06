@@ -770,7 +770,7 @@
 				<Muzzle_Flash>wep_gauss_rifle_muzzle</Muzzle_Flash>
 				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke>
 				<Fire_Camera_Shake>weapon_fire_gauss_r</Fire_Camera_Shake>
-				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
+				<Fire_Camera_Shake_Ignore_Disabled>false</Fire_Camera_Shake_Ignore_Disabled> <!--From true-->
 				<Player_Hit_Camera_Shake>npc_shockwave</Player_Hit_Camera_Shake>
 				<Tracer_Frequency>1</Tracer_Frequency>
 				<Tracer_Effect>wep_gauss_rifle_tracer</Tracer_Effect>
