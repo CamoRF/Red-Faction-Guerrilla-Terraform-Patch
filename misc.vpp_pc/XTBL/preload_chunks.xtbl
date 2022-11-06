@@ -27,6 +27,42 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</preload_chunks>
+		<preload_chunks>
+			<Name>backpack rack</Name>
+			<Chunk>
+				<Filename>backpackrack.rfgchunkx</Filename>
+			</Chunk>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</preload_chunks>
+		<preload_chunks>
+			<Name>edf flag stand</Name>
+			<Chunk>
+				<Filename>edf_flag_stand.rfgchunkx</Filename>
+			</Chunk>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</preload_chunks>
+		<preload_chunks>
+			<Name>rf flag stand</Name>
+			<Chunk>
+				<Filename>guerrilla_flag_stand.rfgchunkx</Filename>
+			</Chunk>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</preload_chunks>
+		<preload_chunks>
+			<Name>mp dc controlpoint</Name>
+			<Chunk>
+				<Filename>mp_dc_controlpoint.rfgchunkx</Filename>
+			</Chunk>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</preload_chunks>		
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

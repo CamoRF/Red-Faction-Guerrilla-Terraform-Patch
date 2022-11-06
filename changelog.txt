@@ -458,10 +458,7 @@ v1.07 PRE ALPHA CHANGES
 * Various improvements to performance & stability
 * Removed out of bounds player spawn on Repurcussion
 * Removed out of bounds weapon spawn on Abandoned
-
 * Countless misc fixes to all 50 maps
-
-
 
 [Maps] 
 * Added various player spawns, weapon spawns and objects to the previously empty area surrounding the main area on Gulch
@@ -495,6 +492,7 @@ v1.07 PRE ALPHA CHANGES
 * Improved spawns on Siege maps when played in other game modes
 * Adjusted various DLC weapon spawns on most maps
 * Disabled Misslepod and Super Gauss Rifle spawns in Demolition and Damage Control
+* Improved the layout of Ruins
 * 
 
 [Characters] 
@@ -519,6 +517,7 @@ v1.07 PRE ALPHA CHANGES
 * Optimized more files to reduce memory pool limit
 * Formatted more files to make the game easier to mod on top of the patch
 * Added backpacks missing from random backpack rotation to various maps
+* Added assets from SP, SP DLC and all maps to mp_common.vpp_pc to speed up loading and possibly make transferring assets between maps easier
 
 ------------
 |KNOWN BUGS|
@@ -549,9 +548,7 @@ v1.07 PRE ALPHA CHANGES
 * Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman, Bagman and Siege will not work on any Wrecking Crew map until the Nanoforge modding tool allows us to add siege, CTF and damage control objectives to maps
 * Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman, Bagman and Siege will not work on Siege maps until the Nanoforge modding tool allows us to add CTF and damage control objectives to maps
 * Wrecking crew maps don't have backpack spawns until the Nanoforge modding tool allows us to add them
-* Ruins has issues with some of the rocks being hard to climb
 * Repurcussion might need adjustments to some of the spawns inside the pipes
-* GFWL/Nordic Bonus: Some of the shipping containers are floating
 
 [Characters]
 * EDF heavy changed to the white model in team games due to a bug with new characters
