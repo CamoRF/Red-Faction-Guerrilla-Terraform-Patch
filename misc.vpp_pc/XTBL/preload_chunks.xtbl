@@ -1,6 +1,24 @@
 <root>
 	<Table>
 		<preload_chunks>
+			<Name>Mp dc controlpoint</Name>
+			<Chunk>
+				<Filename>mp_dc_controlpoint.rfgchunkx</Filename>
+			</Chunk>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</preload_chunks>		
+		<preload_chunks>
+			<Name>Missing destroyable</Name>
+			<Chunk>
+				<Filename>missing_destroyable.rfgchunkx</Filename>
+			</Chunk>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</preload_chunks>		
+		<preload_chunks>
 			<Name>Missing chunk</Name>
 			<_Editor>
 				<Category>Entries</Category>
@@ -10,14 +28,14 @@
 			</Chunk>
 		</preload_chunks>
 		<preload_chunks>
-			<Name>Missing destroyable</Name>
+			<Name>Guerrilla flag stand</Name>
 			<Chunk>
-				<Filename>missing_destroyable.rfgchunkx</Filename>
+				<Filename>guerrilla_flag_stand.rfgchunkx</Filename>
 			</Chunk>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</preload_chunks>
+		</preload_chunks>		
 		<preload_chunks>
 			<Name>Barricade</Name>
 			<Chunk>
@@ -28,7 +46,16 @@
 			</_Editor>
 		</preload_chunks>
 		<preload_chunks>
-			<Name>backpack rack</Name>
+			<Name>Edf flag stand</Name>
+			<Chunk>
+				<Filename>edf_flag_stand.rfgchunkx</Filename>
+			</Chunk>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</preload_chunks>		
+		<preload_chunks>
+			<Name>Backpackrack</Name>
 			<Chunk>
 				<Filename>backpackrack.rfgchunkx</Filename>
 			</Chunk>
@@ -36,33 +63,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</preload_chunks>
-		<preload_chunks>
-			<Name>edf flag stand</Name>
-			<Chunk>
-				<Filename>edf_flag_stand.rfgchunkx</Filename>
-			</Chunk>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</preload_chunks>
-		<preload_chunks>
-			<Name>rf flag stand</Name>
-			<Chunk>
-				<Filename>guerrilla_flag_stand.rfgchunkx</Filename>
-			</Chunk>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</preload_chunks>
-		<preload_chunks>
-			<Name>mp dc controlpoint</Name>
-			<Chunk>
-				<Filename>mp_dc_controlpoint.rfgchunkx</Filename>
-			</Chunk>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</preload_chunks>		
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
