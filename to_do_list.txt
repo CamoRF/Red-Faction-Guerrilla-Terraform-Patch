@@ -3,6 +3,12 @@ v1.07
 ------
 
 [Maps]
+	* Doublecheck out of bounds exploits on Doubletime, Downfall and Remnant
+	* Add team only stealth and vision backpacks to Quarantine, opposite teams to heal and firepower
+	* Transfer mine beacon to Scrapheap and Abandoned 
+	* Transfer cliff warning sign to ?
+	* Add flag objectives to WC and siege maps
+	* Doublecheck items_3d.xtbl comments by comparing it to vanilla file
 	* Add team spawns to all WC maps
 	* Add spawns to Scrapheap and Vista
 	* Add more cameras to GFWL/Nordic Bonus
@@ -26,6 +32,7 @@ v1.07
 	* Test out the preload chunk xtbl and file with objectives - test
 	* Half cloud speed on all maps
 	* Test adding multiple bagman spawns to randomize where it respawns 	
+	* Pipeline siege
 
 [Fix: Out of Bounds Exploits]
 	* Puncture - test 
