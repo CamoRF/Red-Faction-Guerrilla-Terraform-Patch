@@ -224,6 +224,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>10:30</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -856,7 +857,7 @@
 				<Flag>team_deathmatch</Flag>
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>		
+				<Flag>demolition</Flag>
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
