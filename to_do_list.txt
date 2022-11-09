@@ -25,11 +25,14 @@ v1.07
 	* Equilbrium/landbridge - test
 	* Haven - test 
 	* Downfall (inside rock exploit) - test
-	* Fix middle rockspot on Deadzone	
+	* Fix middle rockspot on Deadzone
+	* Large rock on Imperial
 
 [Misc]	
 	* Update WC map thumbnails after the maps are semi finalized
 	* Restore the vanilla inital loading screen in the interface.vpp_pc file, seems to only need to be replaced in misc.vpp_pc
+	* Try to fix Impaler, Pickaxe, Spiker and Marauder Charge Placer using new knowledge of asm files and new RfgUtil
+	* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?, maybe RfgUtil update will help?
 	
 ----------------------
 DONE/ADD TO CHANGELOG
@@ -59,12 +62,9 @@ LOW PRIORITY
 
 [Weapons]
 	* Add CTF flags, Gutter, Impaler and DLC Pickaxe to the sledgehammer upgrade list in multiplayer if possible and when the dlc melee weapons are added
-	* Fix spiker missing texture when on ground and the projectile not being visible for other players if they are not the host, Broken DLC weapons might need to be merged into items_mp.vpp_pc? (maybe try an alternative projectile?), testing changing the streaming value to multiplayer in items_3d.xtbl, Try dragging the asm files onto RFGUtil to fix DLC weapons, test remaking the changes to items.vpp_pc
-	* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?
 	* Weapon ideas: Singularity launcher, Gauss shotgun, Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to
 	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
 	* Add Spiker to singleplayer and add it to Marauder loadout	
-	* Try adding Marauder charge placer, Spiker, Pickaxe and Royal Sword/Impaler weapons when the peg tool is out
 
 [Fixes]
 	* Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
@@ -75,26 +75,23 @@ LOW PRIORITY
 	* Issue with double text for the you won/you lost text at end of game with large text over the top of small text	
 
 [Maps] 	
-	* Expansion: make bridge changes cleaner when we can clone between maps
+	* Add packs missing from maps to 0,0,0 so they show up in random backpack rotation - wip
+	* Add another Subverter to Gauntlet, Garrison and Downfall	
+	* Add team spawns to all WC maps
+	* Add more cameras to GFWL/Nordic Bonus	and Repurcussion	
 	* Tutorial area map
 	* Watchtower siege
 	* Gulch siege
 	* Pipeline siege	
 	* Test adding multiple bagman spawns to randomize where it respawns 	
 	* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives	
-	* Repurcussion: might need adjustments to some of the spawns inside the pipes
-	* Add more cameras to GFWL/Nordic Bonus	
+	* Repurcussion: might need adjustments to some of the spawns inside the pipes?
 	* Double check all WC maps have a disabled barrel at 0,0,0
-	* Add more cameras to Repurcussion	
-	* Add packs missing from maps to 0,0,0 so they show up in random backpack rotation - wip
-	* Add another Subverter to Gauntlet, Garrison and Downfall	
-	* Add team spawns to all WC maps	
 
 [Misc]
-	* Move other non essential gameplay changes to add-on (alert_level.xtbl for example)	
+	* Move other non essential gameplay changes to add-on when the patch is final (alert_level.xtbl for example)	
 	* Try to make it so you can walk up steeper inclines if possible
 	* Improve driving skills of NPCs (reduce AI speed)
-	* Reduce mass of debris?
 	* Half cloud speed on all maps	
 	
 ------------------------------------------------
@@ -105,8 +102,6 @@ OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
 * HD weapons and backpack textures
 * Unlock Insane difficulty by default
 * Increase morale drop for death
-* Tanks and the bulldozer scare NPCs and they drive like maniacs
-* Increase gravity slightly, jumping feels floaty
 * Quick Save hotkey 
 * First person: Remove Alec Masons head, replace weapon models with ones for first person, reduce clipping, change animations, script to switch back to third person in vehicles
 * Gameplay changes 
