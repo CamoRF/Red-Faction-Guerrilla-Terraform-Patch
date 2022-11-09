@@ -3,38 +3,23 @@ v1.07
 ------
 
 [Maps]
-	* Doublecheck out of bounds exploits on Doubletime, Downfall and Remnant
-	* Add team only stealth and vision backpacks to Quarantine, opposite teams to heal and firepower
-	* Transfer mine beacon to Scrapheap and Abandoned 
-	* Transfer cliff warning sign to ?
-	* Add flag objectives to WC and siege maps
-	* Doublecheck items_3d.xtbl comments by comparing it to vanilla file
-	* Add team spawns to all WC maps
 	* Add spawns to Scrapheap and Vista
-	* Add more cameras to GFWL/Nordic Bonus
-	* Add kaboom pack to Crescent 
-	* Add packs missing from maps to 0,0,0 so they show up in random backpack rotation - wip
-	* Add more cameras to Repurcussion
-	* Add another Subverter to Gauntlet, Garrison and Downfall
 	* Add kaboom pack back to Rift at 0,0,0
-	* Repurcussion: might need adjustments to some of the spawns inside the pipes
-	* Imperial: Add more weapons to make your way up the large buildings on Imperial, nano forge and reconstructor 
-	* Cascade: add a repair tool under the bridge
-	* Double check all maps have kaboom or missing packs on the level at 0,0,0 so they work in the random rotation option
-	* Double check all WC maps have a disabled barrel at 0,0,0
+	* Add team only stealth and vision backpacks to Quarantine, opposite teams to heal and firepower
+	* Add flag objectives to siege maps	
+	* Double check items_3d.xtbl comments by comparing it to vanilla file
+	* Double check all maps have kaboom or missing packs on the level at 0,0,0 so they work in the random rotation option	
 	* Disable all other game mode flags for children of all objectives - wip
-	* Watchtower siege?
-	* Gulch siege?
-	* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
+	* Imperial: Add more weapons to make your way up the large buildings on Imperial, nano forge and reconstructor 
+	* Cascade: Add a repair tool under the bridge
 	* Make sure all WC maps have at least 16 spawns
 	* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords - wip
-	* Adding backpack racks at 0,0,0 using an asset from a map on WC maps allows random packs to work? 
-	* Test out the preload chunk xtbl and file with objectives - test
-	* Half cloud speed on all maps
-	* Test adding multiple bagman spawns to randomize where it respawns 	
-	* Pipeline siege
+	* Transfer smoke, fire, mine beacon and artillery sign asset to Ruins
+	* Transfer the mine beacon and cliff warning sign asset to Expansion
+	* Transfer the mine beacon and artillery sign asset to Transmission and Abandoned
 
 [Fix: Out of Bounds Exploits]
+	* Double check out of bounds exploits on Doubletime, Downfall and Remnant	
 	* Puncture - test 
 	* Doubletime - test 
 	* Equilbrium/landbridge - test
@@ -44,6 +29,7 @@ v1.07
 
 [Misc]	
 	* Update WC map thumbnails after the maps are semi finalized
+	* Restore the vanilla inital loading screen in the interface.vpp_pc file, seems to only need to be replaced in misc.vpp_pc
 	
 ----------------------
 DONE/ADD TO CHANGELOG
@@ -64,6 +50,8 @@ DONE/ADD TO CHANGELOG
 	* Move the misslepod on Fallfactor to one of the thin pipes that can be destroyed
 	* Expansion out of bounds exploit
 	* Fix grenade (seems to randomly stop working when played online and character tposes, weapon also breaks if unique ID is changed from 33, might need to be scripted in future)
+	* Add kaboom pack to Crescent 
+	* Transfer mine beacon to Scrapheap	
 
 -------------------
 LOW PRIORITY 
@@ -88,14 +76,26 @@ LOW PRIORITY
 
 [Maps] 	
 	* Expansion: make bridge changes cleaner when we can clone between maps
-	* Add CTF, Damage Control objectives and backpack racks to WC maps when Nanoforge supports it	
 	* Tutorial area map
+	* Watchtower siege
+	* Gulch siege
+	* Pipeline siege	
+	* Test adding multiple bagman spawns to randomize where it respawns 	
+	* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives	
+	* Repurcussion: might need adjustments to some of the spawns inside the pipes
+	* Add more cameras to GFWL/Nordic Bonus	
+	* Double check all WC maps have a disabled barrel at 0,0,0
+	* Add more cameras to Repurcussion	
+	* Add packs missing from maps to 0,0,0 so they show up in random backpack rotation - wip
+	* Add another Subverter to Gauntlet, Garrison and Downfall	
+	* Add team spawns to all WC maps	
 
 [Misc]
 	* Move other non essential gameplay changes to add-on (alert_level.xtbl for example)	
 	* Try to make it so you can walk up steeper inclines if possible
 	* Improve driving skills of NPCs (reduce AI speed)
-	* Reduce mass of debris?	
+	* Reduce mass of debris?
+	* Half cloud speed on all maps	
 	
 ------------------------------------------------
 OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
