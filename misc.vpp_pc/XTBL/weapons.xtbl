@@ -4243,7 +4243,7 @@
 				<Muzzle_Flash>wep_gauss_rifle_muzzle</Muzzle_Flash>
 				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke>
 				<Fire_Camera_Shake>weapon_fire_gauss_r</Fire_Camera_Shake>
-				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
+				<Fire_Camera_Shake_Ignore_Disabled>false</Fire_Camera_Shake_Ignore_Disabled> <!--From true-->
 				<Tracer_Frequency>1</Tracer_Frequency>
 				<Tracer_Effect>wep_gauss_rifle_tracer</Tracer_Effect>
 				<Player_Hit_Camera_Shake>npc_gauss_rifle</Player_Hit_Camera_Shake>
@@ -4345,7 +4345,7 @@
 				<Muzzle_Flash>wep_edf_sniper_flash_a</Muzzle_Flash>
 				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke>
 				<Fire_Camera_Shake>weapon_fire_sniper</Fire_Camera_Shake>
-				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
+				<Fire_Camera_Shake_Ignore_Disabled>false</Fire_Camera_Shake_Ignore_Disabled> <!--From true-->
 				<Tracer_Frequency>1</Tracer_Frequency>
 				<Tracer_Effect>wep_edf_sniper_trail_a</Tracer_Effect>
 				<Player_Hit_Camera_Shake>npc_sniper_rifle</Player_Hit_Camera_Shake>
@@ -4714,7 +4714,7 @@
 			<Visuals>
 				<Muzzle_Flash>wep_nanorifle_flash_a</Muzzle_Flash>
 				<Fire_Camera_Shake>weapon_fire_nano</Fire_Camera_Shake>
-				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
+				<Fire_Camera_Shake_Ignore_Disabled>false</Fire_Camera_Shake_Ignore_Disabled> <!--From true-->
 				<Tracer_Frequency>1</Tracer_Frequency>
 				<Tracer_Effect>wep_nanorifle_trail_a</Tracer_Effect>
 				<Player_Hit_Camera_Shake>npc_nano_rifle</Player_Hit_Camera_Shake>
@@ -5071,8 +5071,8 @@
 			</MeleeAttacks>
 			<reticule_name>ui_hud_reti_reconstructor</reticule_name>
 			<Unique_ID>38</Unique_ID>
-			<Overheat_Cool_Down_Time>1.8375</Overheat_Cool_Down_Time> <!--From 2.45-->
-			<Overheat_Percent_Per_Shot>0.075</Overheat_Percent_Per_Shot> <!--From 0.1-->
+			<Overheat_Cool_Down_Time>2</Overheat_Cool_Down_Time> <!--From 2.45-->
+			<Overheat_Percent_Per_Shot>0.1</Overheat_Percent_Per_Shot> <!--From 0.1-->
 			<Sounds>
 				<Sound_Group>reconstructor</Sound_Group>
 				<Fire_Sound>WEP_RECONSTRUCTOR_PC_ATTACK</Fire_Sound>

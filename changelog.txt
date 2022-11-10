@@ -511,11 +511,19 @@ v1.07 PRE ALPHA CHANGES
 * Various improvements to Siege map spawns when they are played in other gamemodes 
 * Various improvements to performance & stability
 * Table.vpp_pc is now compressed and condensed properly
-* Reconstructor and Gauss Rifle now respect the players camera shake settings
+* Reconstructor, Gauss Rifle, Super Gauss Rifle, Nanorifle and Sniper Rifle now respect the players camera shake settings
 
 [Assault Rifle Buff/Fix]
+* Refire delay reduced to 94 from 95
+* Player damage at max range increased to 34 from 32
+* Player damage at min range increased to 42 from 41
+* Spread at max range reduced to 1.85 from 2.0
+* Spread at min range reduced to 0.85 from 0.95
+* Recoil kick reduced to 0.75 from 0.8
+* Headshot damage multiplayer increased to 2.1 from 2.0
 
-[Reconstructor Cooldown/Overheat changes] 
+[Reconstructor Buff]
+* Overheat cool down time reduced to 2 from 2.45
 
 [Increased weapon projectile prop despawn timer placeholder]
 
