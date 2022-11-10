@@ -511,6 +511,7 @@ v1.07 PRE ALPHA CHANGES
 * Various improvements to Siege map spawns when they are played in other gamemodes 
 * Various improvements to performance & stability
 * Table.vpp_pc is now compressed and condensed properly
+* Reconstructor and Gauss Rifle now respect the players camera shake settings
 
 [Assault Rifle Buff/Fix]
 
