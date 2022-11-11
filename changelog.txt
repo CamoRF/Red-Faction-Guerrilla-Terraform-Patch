@@ -525,6 +525,12 @@ v1.07 PRE ALPHA CHANGES
 [Reconstructor Buff]
 * Overheat cool down time reduced to 2 from 2.45
 
+[Sniper Rifle]
+* Range max reduced to 0 from 100
+* Range red increased to 999 from 300
+* Added "use even spread" flag
+* Reverted zoom magnification change
+
 [Increased weapon projectile prop despawn timer placeholder]
 
 ------------

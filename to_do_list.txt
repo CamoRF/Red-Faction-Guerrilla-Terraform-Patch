@@ -18,15 +18,16 @@ v1.07
 	* Transfer the mine beacon and cliff warning sign asset to Expansion
 	* Transfer the mine beacon and artillery sign asset to Transmission and Abandoned
 	* Finish new siege maps
+	
 
 [Fix: Out of Bounds Exploits]
-	* Double check out of bounds exploits on Doubletime, Downfall and Remnant	
+	* Double check out of bounds exploits on Doubletime, Downfall and Remnant - downfall isn't fixed
 	* Puncture - test 
 	* Doubletime - test 
 	* Equilbrium/landbridge - test
 	* Haven - test 
 	* Downfall (inside rock exploit) - test
-	* Fix middle rockspot on Deadzone
+	* Middle rockspot on Deadzone
 	* Large rock on Imperial
 
 [Misc]	
@@ -36,6 +37,9 @@ v1.07
 	* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?, maybe RfgUtil update will help?
 	* Double check DLC weapons in items_3d.xtbl
 	* Maybe the dlc version of the gutter could be used to fix the Impaler textures by adding new entries etc
+
+[Weapon]
+	* Sniper scope is broken
 	
 ----------------------
 DONE/ADD TO CHANGELOG

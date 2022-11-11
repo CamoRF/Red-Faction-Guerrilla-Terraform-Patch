@@ -7815,8 +7815,8 @@
 			<Ammo_Type>bullet</Ammo_Type>
 			<Magazine_Size>4</Magazine_Size>
 			<Max_Rounds>8</Max_Rounds>
-			<Range_Max>100</Range_Max>
-			<Range_Red>300</Range_Red>
+			<Range_Max>0</Range_Max> <!--From 100-->
+			<Range_Red>999</Range_Red> <!--From 300-->
 			<Default_Refire_Delay>775</Default_Refire_Delay>
 			<Damage_Scaling_Max>
 				<NPC_Damage>350</NPC_Damage>
@@ -7842,9 +7842,9 @@
 				<Flag>can scope</Flag>
 				<Flag>mp selectable</Flag>
 				<Flag>is obvious weapon</Flag>
-				<Flag>use even spread</Flag> <!--Added-->
-				<Flag>armor piercing</Flag> <!--Added-->
-				<Flag>penetrating bullets</Flag> <!--Added-->				
+				<Flag>use even spread</Flag> <!--Added--> <!--Add to changelog-->
+				<!--<Flag>armor piercing</Flag>
+				<Flag>penetrating bullets</Flag>--> <!--Added-->				
 			</Flags>
 			<Damage_Scaling_Min>
 				<Threshold>50</Threshold>
@@ -7870,7 +7870,7 @@
 			<NPC_Firing_Pattern>Default Sniper Rifle</NPC_Firing_Pattern>
 			<NPC_Refire_Delay>950</NPC_Refire_Delay>
 			<Bullet_hole_scale>1.4</Bullet_hole_scale>
-			<Zoom_Magnification>5.0</Zoom_Magnification> <!--From 4.0-->
+			<Zoom_Magnification>4.0</Zoom_Magnification> <!--Reverted-->
 			<Ammo_Box_Restock>12</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
