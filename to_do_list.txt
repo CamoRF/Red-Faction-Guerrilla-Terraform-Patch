@@ -35,7 +35,6 @@ v1.07
 	* Try to fix Impaler, Pickaxe, Spiker and Marauder Charge Placer using new knowledge of asm files and new RfgUtil
 	* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?, maybe RfgUtil update will help?
 	* Double check DLC weapons in items_3d.xtbl
-	* Make it so the Impaler and Gutter fall on the ground instead of staying upright and spinning
 	* Maybe the dlc version of the gutter could be used to fix the Impaler textures by adding new entries etc
 	
 ----------------------
@@ -59,6 +58,7 @@ DONE/ADD TO CHANGELOG
 	* Fix grenade (seems to randomly stop working when played online and character tposes, weapon also breaks if unique ID is changed from 33, might need to be scripted in future)
 	* Add kaboom pack to Crescent 
 	* Transfer mine beacon to Scrapheap	
+	* Make it so the Impaler and Gutter fall on the ground instead of staying upright and spinning
 
 -------------------
 LOW PRIORITY 

@@ -198,7 +198,7 @@
 		<Item>
 			<Name>royal_sword</Name>
 			<Item_Flags>
-				<Flag>spin</Flag>
+				<!--<Flag>spin</Flag>-->
 				<Flag>casts_shadows</Flag> <!--Added-->
 				<Flag>casts_drop_shadows</Flag> <!--Added-->				
 			</Item_Flags>
@@ -250,7 +250,7 @@
 			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<pickup_static_mesh>
-				<Filename>spiker_rifle_pickup.smeshx</Filename>
+				<Filename>spiker_rifle.smeshx</Filename> <!--From spiker_rifle_pickup.smeshx-->
 			</pickup_static_mesh>
 		</Item>
 <!--END-->
@@ -2150,7 +2150,7 @@
 			<streaming_category>General</streaming_category>
 			<Item_Flags>
 				<Flag>high_res_map_large</Flag>
-				<Flag>spin</Flag>
+				<!--<Flag>spin</Flag>-->
 				<Flag>casts_shadows</Flag>
 				<Flag>casts_drop_shadows</Flag>
 			</Item_Flags>
