@@ -21,10 +21,10 @@ v1.07
 	
 
 [Fix: Out of Bounds Exploits]
-	* Double check out of bounds exploits on Doubletime, Downfall and Remnant - downfall isn't fixed
 	* Puncture - test 
 	* Doubletime - test 
 	* Equilbrium/landbridge - test
+	* Remnant - 
 	* Haven - test 
 	* Downfall (inside rock exploit) - test
 	* Middle rockspot on Deadzone
@@ -33,13 +33,12 @@ v1.07
 [Misc]	
 	* Update WC map thumbnails after the maps are semi finalized
 	* Restore the vanilla inital loading screen in the interface.vpp_pc file, seems to only need to be replaced in misc.vpp_pc
-	* Try to fix Impaler, Pickaxe, Spiker and Marauder Charge Placer using new knowledge of asm files and new RfgUtil
-	* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?, maybe RfgUtil update will help?
 	* Double check DLC weapons in items_3d.xtbl
-	* Maybe the dlc version of the gutter could be used to fix the Impaler textures by adding new entries etc
 
-[Weapon]
-	* Sniper scope is broken
+[Weapons]
+	* Spiker: missing textures when on ground, only host can see the projectile (peg file related most likely)
+	* DLC remote charges: missing textures, missing mesh when thrown (peg file related most likely)
+	* Pickaxe and Impaler: missing textures in all circumstances (peg file again)
 	
 ----------------------
 DONE/ADD TO CHANGELOG
@@ -63,6 +62,7 @@ DONE/ADD TO CHANGELOG
 	* Add kaboom pack to Crescent 
 	* Transfer mine beacon to Scrapheap	
 	* Make it so the Impaler and Gutter fall on the ground instead of staying upright and spinning
+	* Sniper scope is broken
 
 -------------------
 LOW PRIORITY 
@@ -72,7 +72,8 @@ LOW PRIORITY
 	* Add CTF flags, Gutter, Impaler and DLC Pickaxe to the sledgehammer upgrade list in multiplayer if possible and when the dlc melee weapons are added
 	* Weapon ideas: Singularity launcher, Gauss shotgun, Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to
 	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
-	* Add Spiker to singleplayer and add it to Marauder loadout	
+	* Add Spiker to singleplayer and add it to Marauder loadout
+	* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?, maybe RfgUtil update will help?	
 
 [Fixes]
 	* Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
@@ -101,6 +102,15 @@ LOW PRIORITY
 	* Try to make it so you can walk up steeper inclines if possible
 	* Improve driving skills of NPCs (reduce AI speed)
 	* Half cloud speed on all maps	
+	
+[Missions]
+		* NPC drives off the cliff in Redemption near the large bridge (
+		* Tank doesn't spawn in Redemption
+		* Redemption could use more checkpoints like after you rescue the prisoners
+[Vehicles]
+		* Apply gravity changes to DLC vehicles
+		* Walker camera jerk when explosion nearby or swing down onto a car
+		* Increase mouse sensitivity in walkers
 	
 ------------------------------------------------
 OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
@@ -131,3 +141,4 @@ OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
 	- Encourage hit and run and stealth
 	- https://discord.com/channels/@me/1004543616875778089/1022032142038994944
 * player_female.xtbl could maybe be used to fix player model swaps in SP	
+* Mod to kill unkillable NPCs

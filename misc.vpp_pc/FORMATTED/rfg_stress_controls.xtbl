@@ -2,22 +2,22 @@
 	<Table>
 		<Stress_Control>
 			<Name>Default</Name>
+			<Objects_Per_Frame>350</Objects_Per_Frame> <!--From 400-->
+			<Repeat_Delay_Min>150</Repeat_Delay_Min> <!--From 100-->
+			<Repeat_Delay_Max>5050</Repeat_Delay_Max> <!--From 5000-->
 			<Force_Scalar>0.12</Force_Scalar>
 			<Parent_Yield_Scalar>1.4</Parent_Yield_Scalar>
 			<_Editor>
 				<Category>Entries</Category>
-			</_Editor>
-			<Objects_Per_Frame>400</Objects_Per_Frame>
-			<Repeat_Delay_Min>100</Repeat_Delay_Min>
-			<Repeat_Delay_Max>5000</Repeat_Delay_Max>
+			</_Editor>			
 		</Stress_Control>
 		<Stress_Control>
 			<Name>Multi</Name>
-			<Objects_Per_Frame>400</Objects_Per_Frame>
-			<Repeat_Delay_Min>100</Repeat_Delay_Min>
-			<Repeat_Delay_Max>5000</Repeat_Delay_Max>
+			<Objects_Per_Frame>350</Objects_Per_Frame> <!--From 400-->
+			<Repeat_Delay_Min>150</Repeat_Delay_Min> <!--100-->
+			<Repeat_Delay_Max>5050</Repeat_Delay_Max> <!--From 5000-->
 			<Force_Scalar>0.1</Force_Scalar>
-			<Parent_Yield_Scalar>0.5</Parent_Yield_Scalar>
+			<Parent_Yield_Scalar>0.5</Parent_Yield_Scalar> 
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

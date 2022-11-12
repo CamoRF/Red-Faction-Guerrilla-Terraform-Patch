@@ -480,7 +480,6 @@ v1.07 PRE ALPHA CHANGES
 * Completely overhauled Frost to be much more playable
 * Slight adjustments to existing DLC weapon spawns on Settlement, Rift, Excavation, Crash site and most other MP maps
 * Disabled Misslepod and Super Gauss Rifle spawns in Demolition and Damage Control
-* Improved the layout of Ruins
 
 [Characters] 
 * Added DLC Samanya Marauder
@@ -522,9 +521,6 @@ v1.07 PRE ALPHA CHANGES
 * Recoil kick reduced to 0.75 from 0.8
 * Headshot damage multiplayer increased to 2.1 from 2.0
 
-[Reconstructor Buff]
-* Overheat cool down time reduced to 2 from 2.45
-
 [Sniper Rifle]
 * Range max reduced to 0 from 100
 * Range red increased to 999 from 300
@@ -532,6 +528,9 @@ v1.07 PRE ALPHA CHANGES
 * Reverted zoom magnification change
 
 [Increased weapon projectile prop despawn timer placeholder]
+
+[Optimization]
+* Slightly reduced objects processed per frame in rfg_stress_controls.xtbl
 
 ------------
 |KNOWN BUGS|
@@ -544,6 +543,7 @@ v1.07 PRE ALPHA CHANGES
 
 [Missions]
 * The first DLC transporter might be broken due to the vehicle not spawning for some unknown reason, uninstall the patch to complete this mission and then you can safetly reinstall after you've finished it
+* Redemption: Tank might not spawn 
 
 [DLC Weapons]
 * Pickaxe and Impaler have missing textures so they are not implemeneted yet
@@ -580,6 +580,7 @@ v1.07 PRE ALPHA CHANGES
 * Some backpacks clipping through Alec Mason in singleplayer
 * Floating backpacks on players when they first spawn, seems to be related to high ping
 * Siege objectives and weapon pickups can sometimes desync in multiplayer
+* Redemption: NPC might drive off near the cliff near the large bridge (with uncapped fps?)
 
 [Wrecking Crew Mode]
 * Maps don't have barrels and might crash, alternative solutions will be sought after in the future such as attempting to add entirely new .vpp_pc map files instead of replacing the maps

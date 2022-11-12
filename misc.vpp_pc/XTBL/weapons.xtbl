@@ -5071,8 +5071,8 @@
 			</MeleeAttacks>
 			<reticule_name>ui_hud_reti_reconstructor</reticule_name>
 			<Unique_ID>38</Unique_ID>
-			<Overheat_Cool_Down_Time>2</Overheat_Cool_Down_Time> <!--From 2.45-->
-			<Overheat_Percent_Per_Shot>0.1</Overheat_Percent_Per_Shot> <!--From 0.1-->
+			<Overheat_Cool_Down_Time>2.0</Overheat_Cool_Down_Time>
+			<Overheat_Percent_Per_Shot>0.1</Overheat_Percent_Per_Shot>
 			<Sounds>
 				<Sound_Group>reconstructor</Sound_Group>
 				<Fire_Sound>WEP_RECONSTRUCTOR_PC_ATTACK</Fire_Sound>
