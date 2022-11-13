@@ -18,8 +18,9 @@ v1.07
 	* Transfer the mine beacon and cliff warning sign asset to Expansion
 	* Transfer the mine beacon and artillery sign asset to Transmission and Abandoned
 	* Finish new siege maps
+	* Fix any messed up children on vanilla mp maps
+	* Fix floating or clipping weapons and spawns on all maps
 	
-
 [Fix: Out of Bounds Exploits]
 	* Puncture - test 
 	* Doubletime - test 
@@ -134,10 +135,6 @@ OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
     - Normal = An average mix of sandbox fun and tactical combat. Nothing too heavy.
     - Hard = You'll need to think smarter and plan your attacks ahead of time, using guerrilla hit and run tactics and then getting the hell out, if you want to succeed. Challenging, but balanced.
 	- Insane = An ultimate test of your guerrilla skills. You stand no chance against the military might of the EDF without careful planning and tactical knowledge in a realistic guerrilla warfare scenario. Where you are but an average man, standing against the overwhelming force of your oppressive military dictators. 
-	- I'd balance it generally around Normal and Hard as the defaults.
-	- Casual is pretty self-explanatory, and Insane would be a semi-realistic guerrilla warfare simulation.
-	- Then the game has something to offer everyone. You can sandbox and dick around with little trouble, get an average middle of the road mix of challenge and story, get a balanced challenge that requires you to use hit and run tactics with forward thinking, or get a true realistic challenge of guerrilla skill and tactics that will push you in a desperate struggle for freedom. 
-	-  Stealth in vanilla is pretty much useless, so implementing those fixes would make stealth a much more viable option. I think in general we want to lean the player towards using guerrilla tactics on higher difficulties.
 	- Encourage hit and run and stealth
 	- https://discord.com/channels/@me/1004543616875778089/1022032142038994944
 * player_female.xtbl could maybe be used to fix player model swaps in SP	
