@@ -1,4 +1,4 @@
-# Red Faction Guerrilla Community Patch
+![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Community-Patch/v1.061-Hotfix/Logo_Temp.png?raw=true "Logo")
 - Version: v1.07 ALPHA
 - Date: xx-xx-2022
 - Build: xxxx
