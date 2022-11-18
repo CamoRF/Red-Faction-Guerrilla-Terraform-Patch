@@ -1,44 +1,45 @@
 ------
 v1.07
 ------
-Cornered 
+* [Cornered] 
 
-CTF
+	CTF Stands
 
-255.476, 5.064, -417.209
+	* 255.476, 5.064, -417.209
 
-307.566, 12.689, -164.786
+	* 307.566, 12.689, -164.786
 
-Overpass 
+* [Overpass]
 
-CTF
+	CTF Stands
 
-276.602, 11.984, -281.828
+	* 276.602, 11.984, -281.828
 
-196.915, -2.947, -116.402
+	* 196.915, -2.947, -116.402
 
-Gauntlet
+* [Gauntlet]
 
-CTF 
+	CTF Stands 
 
-255.914, -13.984, -372.032
+	* 255.914, -13.984, -372.032
 
-252.722, -21.984, -73.927
+	* 252.722, -21.984, -73.927
 
-Crevice
+* [Crevice]
 
-CTF
+	CTF Stands 
 
-264.655, 9.995, -234.045
+	* 264.655, 9.995, -234.045
 
-115.461, 5.986, -276.093
+	* 115.461, 5.986, -276.093
 
-Crescent
+* [Crescent]
 
-180.129, -10, 184.915
+	CTF Stands
 
-247.371, 2.669, -360.016
+	* 180.129, -10, 184.915
 
+	* 247.371, 2.669, -360.016
 
 [Maps]
 	* Add spawns to Scrapheap and Vista
@@ -143,9 +144,11 @@ LOW PRIORITY
 	* Half cloud speed on all maps	
 	
 [Missions]
-		* NPC drives off the cliff in Redemption near the large bridge (
+		* NPC drives off the cliff in Redemption near the large bridge (see screenshot)
 		* Tank doesn't spawn in Redemption
 		* Redemption could use more checkpoints like after you rescue the prisoners
+		* Test protecting Building mission near Oasis Residential
+		* EOS Assault (gone wrong) softlock
 [Vehicles]
 		* Apply gravity changes to DLC vehicles
 		* Walker camera jerk when explosion nearby or swing down onto a car
