@@ -1,11 +1,47 @@
 ------
 v1.07
 ------
+Cornered 
+
+CTF
+
+255.476, 5.064, -417.209
+
+307.566, 12.689, -164.786
+
+Overpass 
+
+CTF
+
+276.602, 11.984, -281.828
+
+196.915, -2.947, -116.402
+
+Gauntlet
+
+CTF 
+
+255.914, -13.984, -372.032
+
+252.722, -21.984, -73.927
+
+Crevice
+
+CTF
+
+264.655, 9.995, -234.045
+
+115.461, 5.986, -276.093
+
+Crescent
+
+180.129, -10, 184.915
+
+247.371, 2.669, -360.016
+
 
 [Maps]
 	* Add spawns to Scrapheap and Vista
-	* Add kaboom pack back to Rift at 0,0,0
-	* Add team only stealth and vision backpacks to Quarantine, opposite teams to heal and firepower
 	* Add flag objectives to siege maps	
 	* Double check items_3d.xtbl comments by comparing it to vanilla file
 	* Double check all maps have kaboom or missing packs on the level at 0,0,0 so they work in the random rotation option	
@@ -64,6 +100,8 @@ DONE/ADD TO CHANGELOG
 	* Transfer mine beacon to Scrapheap	
 	* Make it so the Impaler and Gutter fall on the ground instead of staying upright and spinning
 	* Sniper scope is broken
+	* Add kaboom pack back to Rift at 0,0,0
+	* Add team only stealth and vision backpacks to Quarantine, opposite teams to heal and firepower
 
 -------------------
 LOW PRIORITY 
