@@ -72,11 +72,14 @@ v1.07
 	* Update WC map thumbnails after the maps are semi finalized
 	* Restore the vanilla inital loading screen in the interface.vpp_pc file, seems to only need to be replaced in misc.vpp_pc
 	* Double check DLC weapons in items_3d.xtbl
+	* Reduce EDF squads
 
 [Weapons]
 	* Spiker: missing textures when on ground, only host can see the projectile (peg file related most likely)
 	* DLC remote charges: missing textures, missing mesh when thrown (peg file related most likely)
 	* Pickaxe and Impaler: missing textures in all circumstances (peg file again)
+	* Disable Super Gauss and Misslepod spawns in Damage Control and Demolition
+	* Move Super Gauss Rifle on Haven
 	
 ----------------------
 DONE/ADD TO CHANGELOG
@@ -147,8 +150,8 @@ LOW PRIORITY
 		* NPC drives off the cliff in Redemption near the large bridge (see screenshot)
 		* Tank doesn't spawn in Redemption
 		* Redemption could use more checkpoints like after you rescue the prisoners
-		* Test protecting Building mission near Oasis Residential
-		* EOS Assault (gone wrong) softlock
+		* Test protecting Building mission near Oasis Residential (see screenshot)
+		* EOS side mission (see screenshot)
 [Vehicles]
 		* Apply gravity changes to DLC vehicles
 		* Walker camera jerk when explosion nearby or swing down onto a car
