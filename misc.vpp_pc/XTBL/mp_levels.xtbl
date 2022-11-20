@@ -1676,7 +1676,7 @@
 			<time_of_day>17:30</time_of_day> <!--From 13:00-->
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc1</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
 			<Display_name>MENU_LEVEL_DLC_WC1</Display_name>

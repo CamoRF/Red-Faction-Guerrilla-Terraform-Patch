@@ -83,6 +83,7 @@ v1.07
 	* SP DLC crashing when loading map (related to porting characters?)
 	* Move artificial gravity removal to gameplay add-on 
 	* Move changes to tank health to gameplay add-on
+	* Make Oasis/EOS vehicles and npcs rare in other sectors by duplicating spawn lists
 
 [Weapons]
 	* Spiker: missing textures when on ground, only host can see the projectile (peg file related most likely)
