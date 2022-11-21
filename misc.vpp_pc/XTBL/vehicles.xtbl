@@ -1,6 +1,859 @@
 <root>
 	<Table>
-<!--START Added DLC Vehicles-->		
+<!--START DLC Vehicles Added-->
+		<Vehicle>
+			<Name>Mar_chomper</Name>
+			<_Editor>
+				<Category>Wheeled_Marauder</Category>
+			</_Editor>
+			<Group>Small</Group>
+			<Value>0.02</Value>
+			<Props>1000</Props>
+			<Display_Name>Chomper</Display_Name>
+			<Max_Hitpoints>3500</Max_Hitpoints>
+			<Special_Vehicle_Type>None</Special_Vehicle_Type>
+			<Convertible>false</Convertible>
+			<Mass>1800</Mass>
+			<Axles>
+				<Axle>
+					<Name>Axle</Name>
+					<Wheel_Friction>1.6</Wheel_Friction>
+					<Wheel_Braking_Torque>1500</Wheel_Braking_Torque>
+					<Wheel_Spring_Length>.65</Wheel_Spring_Length>
+					<Wheel_Spring_Strength>50</Wheel_Spring_Strength>
+					<Wheel_Damp_Comp>3</Wheel_Damp_Comp>
+					<Wheel_Damp_Exp>3</Wheel_Damp_Exp>
+					<Wheel_Does_Steer>true</Wheel_Does_Steer>
+					<Wheel_Does_Handbrake>false</Wheel_Does_Handbrake>
+					<Wheel_Mass>30</Wheel_Mass>
+					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
+					<Spring_Compression_Distance>.5</Spring_Compression_Distance>
+					<Spring_Extension_Distance>.3</Spring_Extension_Distance>
+				</Axle>
+				<Axle>
+					<Name>Axle</Name>
+					<Wheel_Friction>1.55</Wheel_Friction>
+					<Wheel_Braking_Torque>1500</Wheel_Braking_Torque>
+					<Wheel_Spring_Length>.65</Wheel_Spring_Length>
+					<Wheel_Spring_Strength>50</Wheel_Spring_Strength>
+					<Wheel_Damp_Comp>3</Wheel_Damp_Comp>
+					<Wheel_Damp_Exp>3</Wheel_Damp_Exp>
+					<Wheel_Does_Steer>false</Wheel_Does_Steer>
+					<Wheel_Does_Handbrake>true</Wheel_Does_Handbrake>
+					<Wheel_Mass>30</Wheel_Mass>
+					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
+					<Spring_Compression_Distance>.5</Spring_Compression_Distance>
+					<Spring_Extension_Distance>.3</Spring_Extension_Distance>
+				</Axle>
+			</Axles>
+			<Transmission>
+				<Gear_Ratios>
+					<Element>2.8</Element>
+					<Element>1.9</Element>
+				</Gear_Ratios>
+				<Downshift_RPMs>
+					<Element>3000</Element>
+				</Downshift_RPMs>
+				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
+				<Upshift_RPMs>6500
+					<Element>7000</Element>
+				</Upshift_RPMs>
+				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
+				<Clutch_Delay>.2</Clutch_Delay>
+				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
+			</Transmission>
+			<Foley>
+				<Low_Impact>VEH_IMPACT_LOW</Low_Impact>
+				<High_Impact>VEH_IMPACT_HIGH</High_Impact>
+				<Scraping>VEH_SCRAPE</Scraping>
+				<Wavebank>veh_min_atv</Wavebank>
+				<Chassis_Land_Low>VEH_CHASSIS_LAND_LOW</Chassis_Land_Low>
+				<Chassis_Land_High>VEH_CHASSIS_LAND_HIGH</Chassis_Land_High>
+				<Engine_Start>VEH_MIN_ATV_START</Engine_Start>
+				<Engine>MIN_ATV</Engine>
+				<Engine_Off>VEH_MIN_ATV_STOP</Engine_Off>
+				<Horn>VEH_HORN_MED_ATTACK_01</Horn>
+				<Corpse_Impact>MOV_BODY_CAR_HIT</Corpse_Impact>
+				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
+			</Foley>
+			<Mesh_Name>
+				<Filename>mar_chomper.carx</Filename>
+			</Mesh_Name>
+			<Preload>False</Preload>
+			<Default_Team>Marauder</Default_Team>
+			<VehicleClass>Automobile</VehicleClass>
+			<Center_Of_Mass_Z>.35</Center_Of_Mass_Z>
+			<Cameras>
+				<Camera>
+					<Follow_Distance>7.1</Follow_Distance>
+					<Follow_Height>1.6</Follow_Height>
+					<Turret_Camera>False</Turret_Camera>
+					<Lookat_Offset>
+						<X>0.0</X>
+						<Y>1.1</Y>
+						<Z>0.0</Z>
+					</Lookat_Offset>
+					<Force_T_Cam>False</Force_T_Cam>
+					<Lookat_Enter_Offset>
+						<X>2</X>
+						<Y>1</Y>
+						<Z>-5</Z>
+					</Lookat_Enter_Offset>
+				</Camera>
+			</Cameras>
+			<Center_Of_Mass_Y>-.35</Center_Of_Mass_Y>
+			<Viscosity_Friction>0</Viscosity_Friction>
+			<Roll_Torque_Factor>.35</Roll_Torque_Factor>
+			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
+			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
+			<EnforcedMaxSpeed>52</EnforcedMaxSpeed>
+			<Engine>
+				<Torque>510</Torque>
+				<Min_RPM>500</Min_RPM>
+				<Opt_RPM>3500</Opt_RPM>
+				<Max_RPM>7000</Max_RPM>
+				<Min_RPM_Torque_Factor>.8</Min_RPM_Torque_Factor>
+				<Max_RPM_Torque_Factor>.6</Max_RPM_Torque_Factor>
+				<Min_RPM_Resistance>.01</Min_RPM_Resistance>
+				<Opt_RPM_Resistance>0</Opt_RPM_Resistance>
+				<Max_RPM_Resistance>.1</Max_RPM_Resistance>
+				<Reverse_torque_multiplier>.75</Reverse_torque_multiplier>
+			</Engine>
+			<Steering>
+				<Max_Steering_Angle>40</Max_Steering_Angle>
+				<Max_Speed_Steering>42</Max_Speed_Steering>
+			</Steering>
+			<Angular_Damping>
+				<Normal_Spin_Damping>.3</Normal_Spin_Damping>
+				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
+			</Angular_Damping>
+			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
+			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
+			<CanBlockRoads>False</CanBlockRoads>
+			<Effects>
+				<Exhaust>veh_exhaust_generic_a</Exhaust>
+			</Effects>
+			<spawn_offset_info>
+				<spawn_height>1.35</spawn_height>
+				<spawn_box_max>
+					<X>1.44</X>
+					<Y>0.76</Y>
+					<Z>2.48</Z>
+				</spawn_box_max>
+				<X>2.0</X>
+				<Y>2.0</Y>
+				<Z>2.0</Z>
+			</spawn_offset_info>
+			<Collision_Damage_Scale>1.5</Collision_Damage_Scale>
+			<EnforcedMaxRSpeed>28</EnforcedMaxRSpeed>
+			<speed_effects>
+				<camera_fov_multiplier>1.4</camera_fov_multiplier>
+				<camera_fov_min_speed>30</camera_fov_min_speed>
+				<camera_shake_min_speed>35</camera_shake_min_speed>
+				<radial_blur_max>0</radial_blur_max>
+				<radial_blur_min_speed>0</radial_blur_min_speed>
+			</speed_effects>
+			<Yaw_Torque_Scalar>1.2</Yaw_Torque_Scalar>
+			<Powerslide_Friction>0.9</Powerslide_Friction>
+			<Powerslide_Power>2.5</Powerslide_Power>
+			<AIEnforcedMaxSpeed>65</AIEnforcedMaxSpeed>
+			<Energy_Scale>1.00</Energy_Scale>
+			<Collision_Mass_Scalar>2.0</Collision_Mass_Scalar>
+		</Vehicle>
+		<Vehicle>
+			<Name>Mar_chomper_MG</Name>
+			<_Editor>
+				<Category>Wheeled_Marauder</Category>
+			</_Editor>
+			<Group>Small</Group>
+			<Value>0.02</Value>
+			<Props>1000</Props>
+			<Display_Name>ChomperMG</Display_Name>
+			<Max_Hitpoints>3500</Max_Hitpoints>
+			<Special_Vehicle_Type>None</Special_Vehicle_Type>
+			<Convertible>false</Convertible>
+			<Mass>1800</Mass>
+			<Axles>
+				<Axle>
+					<Name>Axle</Name>
+					<Wheel_Friction>1.6</Wheel_Friction>
+					<Wheel_Braking_Torque>1500</Wheel_Braking_Torque>
+					<Wheel_Spring_Length>.65</Wheel_Spring_Length>
+					<Wheel_Spring_Strength>50</Wheel_Spring_Strength>
+					<Wheel_Damp_Comp>3</Wheel_Damp_Comp>
+					<Wheel_Damp_Exp>3</Wheel_Damp_Exp>
+					<Wheel_Does_Steer>true</Wheel_Does_Steer>
+					<Wheel_Does_Handbrake>false</Wheel_Does_Handbrake>
+					<Wheel_Mass>30</Wheel_Mass>
+					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
+					<Spring_Compression_Distance>.5</Spring_Compression_Distance>
+					<Spring_Extension_Distance>.3</Spring_Extension_Distance>
+				</Axle>
+				<Axle>
+					<Name>Axle</Name>
+					<Wheel_Friction>1.55</Wheel_Friction>
+					<Wheel_Braking_Torque>1500</Wheel_Braking_Torque>
+					<Wheel_Spring_Length>.65</Wheel_Spring_Length>
+					<Wheel_Spring_Strength>50</Wheel_Spring_Strength>
+					<Wheel_Damp_Comp>3</Wheel_Damp_Comp>
+					<Wheel_Damp_Exp>3</Wheel_Damp_Exp>
+					<Wheel_Does_Steer>false</Wheel_Does_Steer>
+					<Wheel_Does_Handbrake>true</Wheel_Does_Handbrake>
+					<Wheel_Mass>30</Wheel_Mass>
+					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
+					<Spring_Compression_Distance>.5</Spring_Compression_Distance>
+					<Spring_Extension_Distance>.3</Spring_Extension_Distance>
+				</Axle>
+			</Axles>
+			<Transmission>
+				<Gear_Ratios>
+					<Element>2.8</Element>
+					<Element>1.9</Element>
+				</Gear_Ratios>
+				<Downshift_RPMs>
+					<Element>3000</Element>
+				</Downshift_RPMs>
+				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
+				<Upshift_RPMs>6500
+					<Element>7000</Element>
+				</Upshift_RPMs>
+				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
+				<Clutch_Delay>.2</Clutch_Delay>
+				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
+			</Transmission>
+			<Foley>
+				<Low_Impact>VEH_IMPACT_LOW</Low_Impact>
+				<High_Impact>VEH_IMPACT_HIGH</High_Impact>
+				<Scraping>VEH_SCRAPE</Scraping>
+				<Wavebank>veh_min_atv</Wavebank>
+				<Chassis_Land_Low>VEH_CHASSIS_LAND_LOW</Chassis_Land_Low>
+				<Chassis_Land_High>VEH_CHASSIS_LAND_HIGH</Chassis_Land_High>
+				<Engine_Start>VEH_MIN_ATV_START</Engine_Start>
+				<Engine>MIN_ATV</Engine>
+				<Engine_Off>VEH_MIN_ATV_STOP</Engine_Off>
+				<Horn>VEH_HORN_MED_ATTACK_01</Horn>
+				<Corpse_Impact>MOV_BODY_CAR_HIT</Corpse_Impact>
+				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
+			</Foley>
+			<Mesh_Name>
+				<Filename>mar_chomper.carx</Filename>
+			</Mesh_Name>
+			<Preload>False</Preload>
+			<Default_Team>Marauder</Default_Team>
+			<VehicleClass>Automobile</VehicleClass>
+			<Center_Of_Mass_Z>-.15</Center_Of_Mass_Z>
+			<Cameras>
+				<Camera>
+					<Follow_Distance>7.1</Follow_Distance>
+					<Follow_Height>1.6</Follow_Height>
+					<Turret_Camera>False</Turret_Camera>
+					<Lookat_Offset>
+						<X>0.0</X>
+						<Y>1.1</Y>
+						<Z>0.0</Z>
+					</Lookat_Offset>
+					<Force_T_Cam>False</Force_T_Cam>
+					<Lookat_Enter_Offset>
+						<X>2</X>
+						<Y>1</Y>
+						<Z>-5</Z>
+					</Lookat_Enter_Offset>
+				</Camera>
+			</Cameras>
+			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
+			<Viscosity_Friction>0</Viscosity_Friction>
+			<Roll_Torque_Factor>.35</Roll_Torque_Factor>
+			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
+			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
+			<EnforcedMaxSpeed>52</EnforcedMaxSpeed>
+			<Engine>
+				<Torque>510</Torque>
+				<Min_RPM>500</Min_RPM>
+				<Opt_RPM>3500</Opt_RPM>
+				<Max_RPM>7000</Max_RPM>
+				<Min_RPM_Torque_Factor>.8</Min_RPM_Torque_Factor>
+				<Max_RPM_Torque_Factor>.6</Max_RPM_Torque_Factor>
+				<Min_RPM_Resistance>.01</Min_RPM_Resistance>
+				<Opt_RPM_Resistance>0</Opt_RPM_Resistance>
+				<Max_RPM_Resistance>.1</Max_RPM_Resistance>
+				<Reverse_torque_multiplier>.75</Reverse_torque_multiplier>
+			</Engine>
+			<Steering>
+				<Max_Steering_Angle>40</Max_Steering_Angle>
+				<Max_Speed_Steering>42</Max_Speed_Steering>
+			</Steering>
+			<Angular_Damping>
+				<Normal_Spin_Damping>.3</Normal_Spin_Damping>
+				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
+			</Angular_Damping>
+			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
+			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
+			<CanBlockRoads>False</CanBlockRoads>
+			<Effects>
+				<Exhaust>veh_exhaust_generic_a</Exhaust>
+			</Effects>
+			<spawn_offset_info>
+				<spawn_height>1.35</spawn_height>
+				<spawn_box_max>
+					<X>1.44</X>
+					<Y>0.76</Y>
+					<Z>2.48</Z>
+				</spawn_box_max>
+				<X>2.0</X>
+				<Y>2.0</Y>
+				<Z>2.0</Z>
+			</spawn_offset_info>
+			<Collision_Damage_Scale>1.5</Collision_Damage_Scale>
+			<EnforcedMaxRSpeed>28</EnforcedMaxRSpeed>
+			<speed_effects>
+				<camera_fov_multiplier>1.4</camera_fov_multiplier>
+				<camera_fov_min_speed>30</camera_fov_min_speed>
+				<camera_shake_min_speed>35</camera_shake_min_speed>
+				<radial_blur_max>0</radial_blur_max>
+				<radial_blur_min_speed>0</radial_blur_min_speed>
+			</speed_effects>
+			<Yaw_Torque_Scalar>1.2</Yaw_Torque_Scalar>
+			<Powerslide_Friction>0.9</Powerslide_Friction>
+			<Powerslide_Power>2.5</Powerslide_Power>
+			<AIEnforcedMaxSpeed>65</AIEnforcedMaxSpeed>
+			<Energy_Scale>1.00</Energy_Scale>
+			<Collision_Mass_Scalar>2.0</Collision_Mass_Scalar>
+			<Turrets>
+				<Mount>
+					<Name>Turret</Name>
+					<Seat>driver</Seat>
+					<PropPoint>turret_1</PropPoint>
+					<Flags></Flags>
+					<AttachedTurret>turret_vehicle_MGNoGunnerPrim</AttachedTurret>
+				</Mount>
+				<Mount>
+					<Name>Turret</Name>
+					<Seat>driver</Seat>
+					<PropPoint>turret_2</PropPoint>
+					<Flags></Flags>
+					<AttachedTurret>turret_vehicle_MGNoGunnerSec</AttachedTurret>
+				</Mount>
+			</Turrets>
+		</Vehicle>
+		<Vehicle>
+			<Name>Mar_chomper_MGWing</Name>
+			<_Editor>
+				<Category>Wheeled_Marauder</Category>
+			</_Editor>
+			<Group>Small</Group>
+			<Value>0.02</Value>
+			<Props>1000</Props>
+			<Display_Name>ChomperMGWing</Display_Name>
+			<Max_Hitpoints>3500</Max_Hitpoints>
+			<Special_Vehicle_Type>None</Special_Vehicle_Type>
+			<Convertible>false</Convertible>
+			<Mass>1800</Mass>
+			<Axles>
+				<Axle>
+					<Name>Axle</Name>
+					<Wheel_Friction>1.6</Wheel_Friction>
+					<Wheel_Braking_Torque>1500</Wheel_Braking_Torque>
+					<Wheel_Spring_Length>.65</Wheel_Spring_Length>
+					<Wheel_Spring_Strength>50</Wheel_Spring_Strength>
+					<Wheel_Damp_Comp>3</Wheel_Damp_Comp>
+					<Wheel_Damp_Exp>3</Wheel_Damp_Exp>
+					<Wheel_Does_Steer>true</Wheel_Does_Steer>
+					<Wheel_Does_Handbrake>false</Wheel_Does_Handbrake>
+					<Wheel_Mass>30</Wheel_Mass>
+					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
+					<Spring_Compression_Distance>.5</Spring_Compression_Distance>
+					<Spring_Extension_Distance>.3</Spring_Extension_Distance>
+				</Axle>
+				<Axle>
+					<Name>Axle</Name>
+					<Wheel_Friction>1.55</Wheel_Friction>
+					<Wheel_Braking_Torque>1500</Wheel_Braking_Torque>
+					<Wheel_Spring_Length>.65</Wheel_Spring_Length>
+					<Wheel_Spring_Strength>50</Wheel_Spring_Strength>
+					<Wheel_Damp_Comp>3</Wheel_Damp_Comp>
+					<Wheel_Damp_Exp>3</Wheel_Damp_Exp>
+					<Wheel_Does_Steer>false</Wheel_Does_Steer>
+					<Wheel_Does_Handbrake>true</Wheel_Does_Handbrake>
+					<Wheel_Mass>30</Wheel_Mass>
+					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
+					<Spring_Compression_Distance>.5</Spring_Compression_Distance>
+					<Spring_Extension_Distance>.3</Spring_Extension_Distance>
+				</Axle>
+			</Axles>
+			<Transmission>
+				<Gear_Ratios>
+					<Element>2.8</Element>
+					<Element>1.9</Element>
+				</Gear_Ratios>
+				<Downshift_RPMs>
+					<Element>3000</Element>
+				</Downshift_RPMs>
+				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
+				<Upshift_RPMs>6500
+					<Element>7000</Element>
+				</Upshift_RPMs>
+				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
+				<Clutch_Delay>.2</Clutch_Delay>
+				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
+			</Transmission>
+			<Foley>
+				<Low_Impact>VEH_IMPACT_LOW</Low_Impact>
+				<High_Impact>VEH_IMPACT_HIGH</High_Impact>
+				<Scraping>VEH_SCRAPE</Scraping>
+				<Wavebank>veh_min_atv</Wavebank>
+				<Chassis_Land_Low>VEH_CHASSIS_LAND_LOW</Chassis_Land_Low>
+				<Chassis_Land_High>VEH_CHASSIS_LAND_HIGH</Chassis_Land_High>
+				<Engine_Start>VEH_MIN_ATV_START</Engine_Start>
+				<Engine>MIN_ATV</Engine>
+				<Engine_Off>VEH_MIN_ATV_STOP</Engine_Off>
+				<Horn>VEH_HORN_MED_ATTACK_01</Horn>
+				<Corpse_Impact>MOV_BODY_CAR_HIT</Corpse_Impact>
+				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
+			</Foley>
+			<Mesh_Name>
+				<Filename>mar_chomper.carx</Filename>
+			</Mesh_Name>
+			<Preload>False</Preload>
+			<Default_Team>Marauder</Default_Team>
+			<VehicleClass>Automobile</VehicleClass>
+			<Center_Of_Mass_Z>0</Center_Of_Mass_Z>
+			<Cameras>
+				<Camera>
+					<Follow_Distance>7.1</Follow_Distance>
+					<Follow_Height>1.6</Follow_Height>
+					<Turret_Camera>False</Turret_Camera>
+					<Lookat_Offset>
+						<X>0.0</X>
+						<Y>1.1</Y>
+						<Z>0.0</Z>
+					</Lookat_Offset>
+					<Force_T_Cam>False</Force_T_Cam>
+					<Lookat_Enter_Offset>
+						<X>2</X>
+						<Y>1</Y>
+						<Z>-5</Z>
+					</Lookat_Enter_Offset>
+				</Camera>
+			</Cameras>
+			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
+			<Viscosity_Friction>0</Viscosity_Friction>
+			<Roll_Torque_Factor>.35</Roll_Torque_Factor>
+			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
+			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
+			<EnforcedMaxSpeed>52</EnforcedMaxSpeed>
+			<Engine>
+				<Torque>510</Torque>
+				<Min_RPM>500</Min_RPM>
+				<Opt_RPM>3500</Opt_RPM>
+				<Max_RPM>7000</Max_RPM>
+				<Min_RPM_Torque_Factor>.8</Min_RPM_Torque_Factor>
+				<Max_RPM_Torque_Factor>.6</Max_RPM_Torque_Factor>
+				<Min_RPM_Resistance>.01</Min_RPM_Resistance>
+				<Opt_RPM_Resistance>0</Opt_RPM_Resistance>
+				<Max_RPM_Resistance>.1</Max_RPM_Resistance>
+				<Reverse_torque_multiplier>.75</Reverse_torque_multiplier>
+			</Engine>
+			<Steering>
+				<Max_Steering_Angle>40</Max_Steering_Angle>
+				<Max_Speed_Steering>42</Max_Speed_Steering>
+			</Steering>
+			<Angular_Damping>
+				<Normal_Spin_Damping>.3</Normal_Spin_Damping>
+				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
+			</Angular_Damping>
+			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
+			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
+			<CanBlockRoads>False</CanBlockRoads>
+			<Effects>
+				<Exhaust>veh_exhaust_generic_a</Exhaust>
+			</Effects>
+			<spawn_offset_info>
+				<spawn_height>1.35</spawn_height>
+				<spawn_box_max>
+					<X>1.44</X>
+					<Y>0.76</Y>
+					<Z>2.48</Z>
+				</spawn_box_max>
+				<X>2.0</X>
+				<Y>2.0</Y>
+				<Z>2.0</Z>
+			</spawn_offset_info>
+			<Collision_Damage_Scale>1.5</Collision_Damage_Scale>
+			<EnforcedMaxRSpeed>28</EnforcedMaxRSpeed>
+			<speed_effects>
+				<camera_fov_multiplier>1.4</camera_fov_multiplier>
+				<camera_fov_min_speed>30</camera_fov_min_speed>
+				<camera_shake_min_speed>35</camera_shake_min_speed>
+				<radial_blur_max>0</radial_blur_max>
+				<radial_blur_min_speed>0</radial_blur_min_speed>
+			</speed_effects>
+			<Yaw_Torque_Scalar>1.2</Yaw_Torque_Scalar>
+			<Powerslide_Friction>0.9</Powerslide_Friction>
+			<Powerslide_Power>2.5</Powerslide_Power>
+			<AIEnforcedMaxSpeed>65</AIEnforcedMaxSpeed>
+			<Energy_Scale>1.00</Energy_Scale>
+			<Collision_Mass_Scalar>2.0</Collision_Mass_Scalar>
+			<Turrets>
+				<Mount>
+					<Name>Turret</Name>
+					<Seat>driver</Seat>
+					<PropPoint>turret_3</PropPoint>
+					<Flags></Flags>
+					<AttachedTurret>turret_vehicle_MGNoGunnerPrim</AttachedTurret>
+				</Mount>
+				<Mount>
+					<Name>Turret</Name>
+					<Seat>driver</Seat>
+					<PropPoint>turret_4</PropPoint>
+					<Flags></Flags>
+					<AttachedTurret>turret_vehicle_MGNoGunnerSec</AttachedTurret>
+				</Mount>
+			</Turrets>
+		</Vehicle>
+		<Vehicle>
+			<Name>Mar_chomper_Harp</Name>
+			<_Editor>
+				<Category>Wheeled_Marauder</Category>
+			</_Editor>
+			<Group>Small</Group>
+			<Value>0.02</Value>
+			<Props>1000</Props>
+			<Display_Name>ChomperHarp</Display_Name>
+			<Max_Hitpoints>3500</Max_Hitpoints>
+			<Special_Vehicle_Type>None</Special_Vehicle_Type>
+			<Convertible>false</Convertible>
+			<Mass>1800</Mass>
+			<Axles>
+				<Axle>
+					<Name>Axle</Name>
+					<Wheel_Friction>1.6</Wheel_Friction>
+					<Wheel_Braking_Torque>1500</Wheel_Braking_Torque>
+					<Wheel_Spring_Length>.65</Wheel_Spring_Length>
+					<Wheel_Spring_Strength>50</Wheel_Spring_Strength>
+					<Wheel_Damp_Comp>3</Wheel_Damp_Comp>
+					<Wheel_Damp_Exp>3</Wheel_Damp_Exp>
+					<Wheel_Does_Steer>true</Wheel_Does_Steer>
+					<Wheel_Does_Handbrake>false</Wheel_Does_Handbrake>
+					<Wheel_Mass>30</Wheel_Mass>
+					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
+					<Spring_Compression_Distance>.5</Spring_Compression_Distance>
+					<Spring_Extension_Distance>.3</Spring_Extension_Distance>
+				</Axle>
+				<Axle>
+					<Name>Axle</Name>
+					<Wheel_Friction>1.55</Wheel_Friction>
+					<Wheel_Braking_Torque>1500</Wheel_Braking_Torque>
+					<Wheel_Spring_Length>.65</Wheel_Spring_Length>
+					<Wheel_Spring_Strength>50</Wheel_Spring_Strength>
+					<Wheel_Damp_Comp>3</Wheel_Damp_Comp>
+					<Wheel_Damp_Exp>3</Wheel_Damp_Exp>
+					<Wheel_Does_Steer>false</Wheel_Does_Steer>
+					<Wheel_Does_Handbrake>true</Wheel_Does_Handbrake>
+					<Wheel_Mass>30</Wheel_Mass>
+					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
+					<Spring_Compression_Distance>.5</Spring_Compression_Distance>
+					<Spring_Extension_Distance>.3</Spring_Extension_Distance>
+				</Axle>
+			</Axles>
+			<Transmission>
+				<Gear_Ratios>
+					<Element>2.8</Element>
+					<Element>1.9</Element>
+				</Gear_Ratios>
+				<Downshift_RPMs>
+					<Element>3000</Element>
+				</Downshift_RPMs>
+				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
+				<Upshift_RPMs>6500
+					<Element>7000</Element>
+				</Upshift_RPMs>
+				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
+				<Clutch_Delay>.2</Clutch_Delay>
+				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
+			</Transmission>
+			<Foley>
+				<Low_Impact>VEH_IMPACT_LOW</Low_Impact>
+				<High_Impact>VEH_IMPACT_HIGH</High_Impact>
+				<Scraping>VEH_SCRAPE</Scraping>
+				<Wavebank>veh_min_atv</Wavebank>
+				<Chassis_Land_Low>VEH_CHASSIS_LAND_LOW</Chassis_Land_Low>
+				<Chassis_Land_High>VEH_CHASSIS_LAND_HIGH</Chassis_Land_High>
+				<Engine_Start>VEH_MIN_ATV_START</Engine_Start>
+				<Engine>MIN_ATV</Engine>
+				<Engine_Off>VEH_MIN_ATV_STOP</Engine_Off>
+				<Horn>VEH_HORN_MED_ATTACK_01</Horn>
+				<Corpse_Impact>MOV_BODY_CAR_HIT</Corpse_Impact>
+				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
+			</Foley>
+			<Mesh_Name>
+				<Filename>mar_chomper.carx</Filename>
+			</Mesh_Name>
+			<Preload>False</Preload>
+			<Default_Team>Marauder</Default_Team>
+			<VehicleClass>Automobile</VehicleClass>
+			<Center_Of_Mass_Z>0</Center_Of_Mass_Z>
+			<Cameras>
+				<Camera>
+					<Follow_Distance>7.1</Follow_Distance>
+					<Follow_Height>1.6</Follow_Height>
+					<Turret_Camera>False</Turret_Camera>
+					<Lookat_Offset>
+						<X>0.0</X>
+						<Y>1.1</Y>
+						<Z>0.0</Z>
+					</Lookat_Offset>
+					<Force_T_Cam>False</Force_T_Cam>
+					<Lookat_Enter_Offset>
+						<X>2</X>
+						<Y>1</Y>
+						<Z>-5</Z>
+					</Lookat_Enter_Offset>
+				</Camera>
+			</Cameras>
+			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
+			<Viscosity_Friction>0</Viscosity_Friction>
+			<Roll_Torque_Factor>.35</Roll_Torque_Factor>
+			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
+			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
+			<EnforcedMaxSpeed>52</EnforcedMaxSpeed>
+			<Engine>
+				<Torque>510</Torque>
+				<Min_RPM>500</Min_RPM>
+				<Opt_RPM>3500</Opt_RPM>
+				<Max_RPM>7000</Max_RPM>
+				<Min_RPM_Torque_Factor>.8</Min_RPM_Torque_Factor>
+				<Max_RPM_Torque_Factor>.6</Max_RPM_Torque_Factor>
+				<Min_RPM_Resistance>.01</Min_RPM_Resistance>
+				<Opt_RPM_Resistance>0</Opt_RPM_Resistance>
+				<Max_RPM_Resistance>.1</Max_RPM_Resistance>
+				<Reverse_torque_multiplier>.75</Reverse_torque_multiplier>
+			</Engine>
+			<Steering>
+				<Max_Steering_Angle>40</Max_Steering_Angle>
+				<Max_Speed_Steering>42</Max_Speed_Steering>
+			</Steering>
+			<Angular_Damping>
+				<Normal_Spin_Damping>.3</Normal_Spin_Damping>
+				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
+			</Angular_Damping>
+			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
+			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
+			<CanBlockRoads>False</CanBlockRoads>
+			<Effects>
+				<Exhaust>veh_exhaust_generic_a</Exhaust>
+			</Effects>
+			<spawn_offset_info>
+				<spawn_height>1.35</spawn_height>
+				<spawn_box_max>
+					<X>1.44</X>
+					<Y>0.76</Y>
+					<Z>2.48</Z>
+				</spawn_box_max>
+				<X>2.0</X>
+				<Y>2.0</Y>
+				<Z>2.0</Z>
+			</spawn_offset_info>
+			<Collision_Damage_Scale>1.5</Collision_Damage_Scale>
+			<EnforcedMaxRSpeed>28</EnforcedMaxRSpeed>
+			<speed_effects>
+				<camera_fov_multiplier>1.4</camera_fov_multiplier>
+				<camera_fov_min_speed>30</camera_fov_min_speed>
+				<camera_shake_min_speed>35</camera_shake_min_speed>
+				<radial_blur_max>0</radial_blur_max>
+				<radial_blur_min_speed>0</radial_blur_min_speed>
+			</speed_effects>
+			<Yaw_Torque_Scalar>1.2</Yaw_Torque_Scalar>
+			<Powerslide_Friction>0.9</Powerslide_Friction>
+			<Powerslide_Power>2.5</Powerslide_Power>
+			<AIEnforcedMaxSpeed>65</AIEnforcedMaxSpeed>
+			<Energy_Scale>1.00</Energy_Scale>
+			<Collision_Mass_Scalar>2.0</Collision_Mass_Scalar>
+			<Turrets>
+				<Mount>
+					<Name>Turret</Name>
+					<Seat>driver</Seat>
+					<PropPoint>turret_1</PropPoint>
+					<Flags></Flags>
+					<AttachedTurret>DLC_turret_vehicle_harp_NoGunner</AttachedTurret>
+				</Mount>
+				<Mount>
+					<Name>Turret</Name>
+					<Seat>driver</Seat>
+					<PropPoint>turret_2</PropPoint>
+					<Flags></Flags>
+					<AttachedTurret>DLC_turret_vehicle_harp_NoGunner</AttachedTurret>
+				</Mount>
+			</Turrets>
+		</Vehicle>
+		<Vehicle>
+			<Name>Mar_stomper_MG</Name>
+			<_Editor>
+				<Category>Wheeled_Marauder</Category>
+			</_Editor>
+			<Group>Medium</Group>
+			<Value>0.02</Value>
+			<Props>1000</Props>
+			<Display_Name>StomperMG</Display_Name>
+			<Max_Hitpoints>6000</Max_Hitpoints>
+			<Special_Vehicle_Type>None</Special_Vehicle_Type>
+			<Convertible>false</Convertible>
+			<Mass>4800</Mass>
+			<Axles>
+				<Axle>
+					<Name>Axle</Name>
+					<Wheel_Friction>1.45</Wheel_Friction>
+					<Wheel_Braking_Torque>6000</Wheel_Braking_Torque>
+					<Wheel_Spring_Length>0.65</Wheel_Spring_Length>
+					<Wheel_Spring_Strength>30</Wheel_Spring_Strength>
+					<Wheel_Damp_Comp>2</Wheel_Damp_Comp>
+					<Wheel_Damp_Exp>2</Wheel_Damp_Exp>
+					<Wheel_Does_Steer>true</Wheel_Does_Steer>
+					<Wheel_Does_Handbrake>false</Wheel_Does_Handbrake>
+					<Wheel_Mass>40</Wheel_Mass>
+					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
+					<Spring_Compression_Distance>0.5</Spring_Compression_Distance>
+					<Spring_Extension_Distance>.5</Spring_Extension_Distance>
+				</Axle>
+				<Axle>
+					<Name>Axle</Name>
+					<Wheel_Friction>1.45</Wheel_Friction>
+					<Wheel_Braking_Torque>5000</Wheel_Braking_Torque>
+					<Wheel_Spring_Length>0.65</Wheel_Spring_Length>
+					<Wheel_Spring_Strength>30</Wheel_Spring_Strength>
+					<Wheel_Damp_Comp>4</Wheel_Damp_Comp>
+					<Wheel_Damp_Exp>4</Wheel_Damp_Exp>
+					<Wheel_Does_Steer>false</Wheel_Does_Steer>
+					<Wheel_Does_Handbrake>true</Wheel_Does_Handbrake>
+					<Wheel_Mass>40</Wheel_Mass>
+					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
+					<Spring_Compression_Distance>.5</Spring_Compression_Distance>
+					<Spring_Extension_Distance>.5</Spring_Extension_Distance>
+				</Axle>
+			</Axles>
+			<Transmission>
+				<Gear_Ratios>
+					<Element>2.4</Element>
+					<Element>1.8</Element>
+					<Element>1.2</Element>
+				</Gear_Ratios>
+				<Downshift_RPMs>
+					<Element>2500</Element>
+					<Element>3000</Element>
+				</Downshift_RPMs>
+				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
+				<Upshift_RPMs>6500
+					<Element>5500</Element>
+					<Element>5500</Element>
+				</Upshift_RPMs>
+				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
+				<Clutch_Delay>.4</Clutch_Delay>
+				<Reverse_Gear_Ratio>2</Reverse_Gear_Ratio>
+			</Transmission>
+			<Foley>
+				<High_Impact>VEH_IMPACT_HIGH</High_Impact>
+				<Scraping>VEH_SCRAPE</Scraping>
+				<Wavebank>veh_min_pickup</Wavebank>
+				<Chassis_Land_Low>VEH_CHASSIS_LAND_LOW</Chassis_Land_Low>
+				<Chassis_Land_High>VEH_CHASSIS_LAND_HIGH</Chassis_Land_High>
+				<Horn>VEH_HORN_MED_ATTACK_01</Horn>
+				<Engine_Start>VEH_MIN_PICKUP_START</Engine_Start>
+				<Engine>MIN_PICKUP</Engine>
+				<Engine_Off>VEH_MIN_PICKUP_STOP</Engine_Off>
+				<Low_Impact>VEH_IMPACT_LOW</Low_Impact>
+				<Corpse_Impact>MOV_BODY_CAR_HIT</Corpse_Impact>
+				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
+			</Foley>
+			<Mesh_Name>
+				<Filename>mar_stomper.carx</Filename>
+			</Mesh_Name>
+			<Preload>False</Preload>
+			<Default_Team>Marauder</Default_Team>
+			<VehicleClass>Automobile</VehicleClass>
+			<Center_Of_Mass_Z>.25</Center_Of_Mass_Z>
+			<Cameras>
+				<Camera>
+					<Follow_Distance>7.5</Follow_Distance>
+					<Follow_Height>1.4</Follow_Height>
+					<Turret_Camera>False</Turret_Camera>
+					<Lookat_Offset>
+						<X>0.0</X>
+						<Y>1.2</Y>
+						<Z>0.0</Z>
+					</Lookat_Offset>
+					<Force_T_Cam>False</Force_T_Cam>
+					<Lookat_Enter_Offset>
+						<X>0.0</X>
+						<Y>-0.4</Y>
+						<Z>.5</Z>
+					</Lookat_Enter_Offset>
+				</Camera>
+			</Cameras>
+			<Center_Of_Mass_Y>-.35</Center_Of_Mass_Y>
+			<Viscosity_Friction>0</Viscosity_Friction>
+			<Roll_Torque_Factor>.4</Roll_Torque_Factor>
+			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
+			<Yaw_Torque_Factor>.4</Yaw_Torque_Factor>
+			<EnforcedMaxSpeed>47</EnforcedMaxSpeed>
+			<Engine>
+				<Torque>1250</Torque>
+				<Min_RPM>500</Min_RPM>
+				<Opt_RPM>3000</Opt_RPM>
+				<Max_RPM>5500</Max_RPM>
+				<Min_RPM_Torque_Factor>.8</Min_RPM_Torque_Factor>
+				<Max_RPM_Torque_Factor>.7</Max_RPM_Torque_Factor>
+				<Min_RPM_Resistance>0</Min_RPM_Resistance>
+				<Opt_RPM_Resistance>0</Opt_RPM_Resistance>
+				<Max_RPM_Resistance>0</Max_RPM_Resistance>
+				<Reverse_torque_multiplier>.75</Reverse_torque_multiplier>
+			</Engine>
+			<Steering>
+				<Max_Steering_Angle>40</Max_Steering_Angle>
+				<Max_Speed_Steering>32</Max_Speed_Steering>
+				<Steering_Wheel_Max_Speed>200</Steering_Wheel_Max_Speed>
+				<Steering_Wheel_Max_Return_Speed>350</Steering_Wheel_Max_Return_Speed>
+			</Steering>
+			<Angular_Damping>
+				<Normal_Spin_Damping>.25</Normal_Spin_Damping>
+				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
+			</Angular_Damping>
+			<Terrain_Damage_Scale>0.5</Terrain_Damage_Scale>
+			<Vehicle_Interaction>Mar_stomper</Vehicle_Interaction>
+			<CanBlockRoads>False</CanBlockRoads>
+			<spawn_offset_info>
+				<spawn_height>1.97</spawn_height>
+				<spawn_box_max>
+					<X>1.55</X>
+					<Y>0.93</Y>
+					<Z>2.75</Z>
+				</spawn_box_max>
+				<X>2.0</X>
+				<Y>2.0</Y>
+				<Z>2.0</Z>
+			</spawn_offset_info>
+			<Collision_Damage_Scale>2</Collision_Damage_Scale>
+			<EnforcedMaxRSpeed>25</EnforcedMaxRSpeed>
+			<speed_effects>
+				<camera_fov_multiplier>1.4</camera_fov_multiplier>
+				<camera_fov_min_speed>30</camera_fov_min_speed>
+				<camera_shake_min_speed>30</camera_shake_min_speed>
+				<radial_blur_max>0.0</radial_blur_max>
+				<radial_blur_min_speed>0.0</radial_blur_min_speed>
+			</speed_effects>
+			<Yaw_Torque_Scalar>1.1</Yaw_Torque_Scalar>
+			<Powerslide_Friction>0.9</Powerslide_Friction>
+			<Powerslide_Power>2.0</Powerslide_Power>
+			<AIEnforcedMaxSpeed>55</AIEnforcedMaxSpeed>
+			<Turrets>
+				<Mount>
+					<Name>Turret</Name>
+					<Seat>passenger_1</Seat>
+					<PropPoint>turret_1</PropPoint>
+					<Flags></Flags>
+					<AttachedTurret>turret_stomper_mg</AttachedTurret>
+				</Mount>
+			</Turrets>
+			<Energy_Scale>1.5</Energy_Scale>
+		</Vehicle>
 		<Vehicle>
 			<Name>Mar_Walker</Name>
 			<_Editor>
@@ -15,12 +868,6 @@
 			<Special_Vehicle_Type>Special</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
 			<Mass>10000</Mass>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Rig>
 				<Rig>
 					<Filename>walker_civilian.rigX</Filename>
@@ -108,350 +955,8 @@
 			<Collision_Damage_Scale>1</Collision_Damage_Scale>
 			<Vehicle_Damage_Scale>1</Vehicle_Damage_Scale>
 			<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
-		</Vehicle>
-		<Vehicle>
-			<Name>Mar_stomper_MG</Name>
-			<_Editor>
-				<Category>Wheeled_Marauder</Category>
-			</_Editor>
-			<Group>Medium</Group>
-			<Value>0.02</Value>
-			<Props>1000</Props>
-			<Display_Name>StomperMG</Display_Name>
-			<Max_Hitpoints>6000</Max_Hitpoints>
-			<Special_Vehicle_Type>None</Special_Vehicle_Type>
-			<Convertible>false</Convertible>
-			<Mass>4800</Mass>
-			<Axles>
-				<Axle>
-					<Name>Axle</Name>
-					<Wheel_Friction>1.45</Wheel_Friction>
-					<Wheel_Braking_Torque>6000</Wheel_Braking_Torque>
-					<Wheel_Spring_Length>0.65</Wheel_Spring_Length>
-					<Wheel_Spring_Strength>30</Wheel_Spring_Strength>
-					<Wheel_Damp_Comp>2</Wheel_Damp_Comp>
-					<Wheel_Damp_Exp>2</Wheel_Damp_Exp>
-					<Wheel_Does_Steer>true</Wheel_Does_Steer>
-					<Wheel_Does_Handbrake>false</Wheel_Does_Handbrake>
-					<Wheel_Mass>40</Wheel_Mass>
-					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
-					<Spring_Compression_Distance>0.5</Spring_Compression_Distance>
-					<Spring_Extension_Distance>.5</Spring_Extension_Distance>
-				</Axle>
-				<Axle>
-					<Name>Axle</Name>
-					<Wheel_Friction>1.45</Wheel_Friction>
-					<Wheel_Braking_Torque>5000</Wheel_Braking_Torque>
-					<Wheel_Spring_Length>0.65</Wheel_Spring_Length>
-					<Wheel_Spring_Strength>30</Wheel_Spring_Strength>
-					<Wheel_Damp_Comp>4</Wheel_Damp_Comp>
-					<Wheel_Damp_Exp>4</Wheel_Damp_Exp>
-					<Wheel_Does_Steer>false</Wheel_Does_Steer>
-					<Wheel_Does_Handbrake>true</Wheel_Does_Handbrake>
-					<Wheel_Mass>40</Wheel_Mass>
-					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
-					<Spring_Compression_Distance>.5</Spring_Compression_Distance>
-					<Spring_Extension_Distance>.5</Spring_Extension_Distance>
-				</Axle>
-			</Axles>
-			<Transmission>
-				<Gear_Ratios>
-					<Element>2.4</Element>
-					<Element>1.8</Element>
-					<Element>1.2</Element>
-				</Gear_Ratios>
-				<Downshift_RPMs>
-					<Element>2500</Element>
-					<Element>3000</Element>
-				</Downshift_RPMs>
-				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
-				<Upshift_RPMs>6500
-					
-					<Element>5500</Element>
-					<Element>5500</Element>
-				</Upshift_RPMs>
-				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
-				<Clutch_Delay>.4</Clutch_Delay>
-				<Reverse_Gear_Ratio>2</Reverse_Gear_Ratio>
-			</Transmission>
-			<Foley>
-				<High_Impact>VEH_IMPACT_HIGH</High_Impact>
-				<Scraping>VEH_SCRAPE</Scraping>
-				<Wavebank>veh_min_pickup</Wavebank>
-				<Chassis_Land_Low>VEH_CHASSIS_LAND_LOW</Chassis_Land_Low>
-				<Chassis_Land_High>VEH_CHASSIS_LAND_HIGH</Chassis_Land_High>
-				<Horn>VEH_HORN_MED_ATTACK_01</Horn>
-				<Engine_Start>VEH_MIN_PICKUP_START</Engine_Start>
-				<Engine>MIN_PICKUP</Engine>
-				<Engine_Off>VEH_MIN_PICKUP_STOP</Engine_Off>
-				<Low_Impact>VEH_IMPACT_LOW</Low_Impact>
-				<Corpse_Impact>MOV_BODY_CAR_HIT</Corpse_Impact>
-				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
-			</Foley>
-			<Mesh_Name>
-				<Filename>mar_stomper.carx</Filename>
-			</Mesh_Name>
-			<Preload>False</Preload>
-			<Default_Team>Marauder</Default_Team>
-			<VehicleClass>Automobile</VehicleClass>
-			<Center_Of_Mass_Z>.25</Center_Of_Mass_Z>
-			<Cameras>
-				<Camera>
-					<Follow_Distance>7.5</Follow_Distance>
-					<Follow_Height>1.4</Follow_Height>
-					<Turret_Camera>False</Turret_Camera>
-					<Lookat_Offset>
-						<X>0.0</X>
-						<Y>1.2</Y>
-						<Z>0.0</Z>
-					</Lookat_Offset>
-					<Force_T_Cam>False</Force_T_Cam>
-					<Lookat_Enter_Offset>
-						<X>0.0</X>
-						<Y>-0.4</Y>
-						<Z>.5</Z>
-					</Lookat_Enter_Offset>
-				</Camera>
-			</Cameras>
-			<Center_Of_Mass_Y>-.35</Center_Of_Mass_Y>
-			<Viscosity_Friction>0</Viscosity_Friction>
-			<Roll_Torque_Factor>.4</Roll_Torque_Factor>
-			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
-			<Yaw_Torque_Factor>.4</Yaw_Torque_Factor>
-			<EnforcedMaxSpeed>47</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
-			<Engine>
-				<Torque>1250</Torque>
-				<Min_RPM>500</Min_RPM>
-				<Opt_RPM>3000</Opt_RPM>
-				<Max_RPM>5500</Max_RPM>
-				<Min_RPM_Torque_Factor>.8</Min_RPM_Torque_Factor>
-				<Max_RPM_Torque_Factor>.7</Max_RPM_Torque_Factor>
-				<Min_RPM_Resistance>0</Min_RPM_Resistance>
-				<Opt_RPM_Resistance>0</Opt_RPM_Resistance>
-				<Max_RPM_Resistance>0</Max_RPM_Resistance>
-				<Reverse_torque_multiplier>.75</Reverse_torque_multiplier>
-			</Engine>
-			<Steering>
-				<Max_Steering_Angle>40</Max_Steering_Angle>
-				<Max_Speed_Steering>32</Max_Speed_Steering>
-				<Steering_Wheel_Max_Speed>200</Steering_Wheel_Max_Speed>
-				<Steering_Wheel_Max_Return_Speed>350</Steering_Wheel_Max_Return_Speed>
-			</Steering>
-			<Angular_Damping>
-				<Normal_Spin_Damping>.25</Normal_Spin_Damping>
-				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
-			</Angular_Damping>
-			<Terrain_Damage_Scale>0.5</Terrain_Damage_Scale>
-			<Vehicle_Interaction>Mar_stomper</Vehicle_Interaction>
-			<CanBlockRoads>False</CanBlockRoads>
-			<spawn_offset_info>
-				<spawn_height>1.97</spawn_height>
-				<spawn_box_max>
-					<X>1.55</X>
-					<Y>0.93</Y>
-					<Z>2.75</Z>
-				</spawn_box_max>
-				<X>2.0</X>
-				<Y>2.0</Y>
-				<Z>2.0</Z>
-			</spawn_offset_info>
-			<Collision_Damage_Scale>2</Collision_Damage_Scale>
-			<EnforcedMaxRSpeed>25</EnforcedMaxRSpeed>
-			<speed_effects>
-				<camera_fov_multiplier>1.4</camera_fov_multiplier>
-				<camera_fov_min_speed>30</camera_fov_min_speed>
-				<camera_shake_min_speed>30</camera_shake_min_speed>
-				<radial_blur_max>0.0</radial_blur_max>
-				<radial_blur_min_speed>0.0</radial_blur_min_speed>
-			</speed_effects>
-			<Yaw_Torque_Scalar>1.1</Yaw_Torque_Scalar>
-			<Powerslide_Friction>0.9</Powerslide_Friction>
-			<Powerslide_Power>2.0</Powerslide_Power>
-			<AIEnforcedMaxSpeed>55</AIEnforcedMaxSpeed>
-			<Turrets>
-				<Mount>
-					<Name>Turret</Name>
-					<Seat>passenger_1</Seat>
-					<PropPoint>turret_1</PropPoint>
-					<Flags></Flags>
-					<AttachedTurret>turret_stomper_mg</AttachedTurret>
-				</Mount>
-			</Turrets>
-			<Energy_Scale>1.5</Energy_Scale>
-		</Vehicle>
-		<Vehicle>
-			<Name>Mar_chomper</Name>
-			<_Editor>
-				<Category>Wheeled_Marauder</Category>
-			</_Editor>
-			<Group>Small</Group>
-			<Value>0.02</Value>
-			<Props>1000</Props>
-			<Display_Name>Chomper</Display_Name>
-			<Max_Hitpoints>3500</Max_Hitpoints>
-			<Special_Vehicle_Type>None</Special_Vehicle_Type>
-			<Convertible>false</Convertible>
-			<Mass>1800</Mass>
-			<Axles>
-				<Axle>
-					<Name>Axle</Name>
-					<Wheel_Friction>1.6</Wheel_Friction>
-					<Wheel_Braking_Torque>1500</Wheel_Braking_Torque>
-					<Wheel_Spring_Length>.65</Wheel_Spring_Length>
-					<Wheel_Spring_Strength>50</Wheel_Spring_Strength>
-					<Wheel_Damp_Comp>3</Wheel_Damp_Comp>
-					<Wheel_Damp_Exp>3</Wheel_Damp_Exp>
-					<Wheel_Does_Steer>true</Wheel_Does_Steer>
-					<Wheel_Does_Handbrake>false</Wheel_Does_Handbrake>
-					<Wheel_Mass>30</Wheel_Mass>
-					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
-					<Spring_Compression_Distance>.5</Spring_Compression_Distance>
-					<Spring_Extension_Distance>.3</Spring_Extension_Distance>
-				</Axle>
-				<Axle>
-					<Name>Axle</Name>
-					<Wheel_Friction>1.55</Wheel_Friction>
-					<Wheel_Braking_Torque>1500</Wheel_Braking_Torque>
-					<Wheel_Spring_Length>.65</Wheel_Spring_Length>
-					<Wheel_Spring_Strength>50</Wheel_Spring_Strength>
-					<Wheel_Damp_Comp>3</Wheel_Damp_Comp>
-					<Wheel_Damp_Exp>3</Wheel_Damp_Exp>
-					<Wheel_Does_Steer>false</Wheel_Does_Steer>
-					<Wheel_Does_Handbrake>true</Wheel_Does_Handbrake>
-					<Wheel_Mass>30</Wheel_Mass>
-					<Wheel_Engine_Torque>.5</Wheel_Engine_Torque>
-					<Spring_Compression_Distance>.5</Spring_Compression_Distance>
-					<Spring_Extension_Distance>.3</Spring_Extension_Distance>
-				</Axle>
-			</Axles>
-			<Transmission>
-				<Gear_Ratios>
-					<Element>2.8</Element>
-					<Element>1.9</Element>
-				</Gear_Ratios>
-				<Downshift_RPMs>
-					<Element>3000</Element>
-				</Downshift_RPMs>
-				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
-				<Upshift_RPMs>6500
-					
-					<Element>7000</Element>
-				</Upshift_RPMs>
-				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
-				<Clutch_Delay>.2</Clutch_Delay>
-				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
-			</Transmission>
-			<Foley>
-				<Low_Impact>VEH_IMPACT_LOW</Low_Impact>
-				<High_Impact>VEH_IMPACT_HIGH</High_Impact>
-				<Scraping>VEH_SCRAPE</Scraping>
-				<Wavebank>veh_min_atv</Wavebank>
-				<Chassis_Land_Low>VEH_CHASSIS_LAND_LOW</Chassis_Land_Low>
-				<Chassis_Land_High>VEH_CHASSIS_LAND_HIGH</Chassis_Land_High>
-				<Engine_Start>VEH_MIN_ATV_START</Engine_Start>
-				<Engine>MIN_ATV</Engine>
-				<Engine_Off>VEH_MIN_ATV_STOP</Engine_Off>
-				<Horn>VEH_HORN_MED_ATTACK_01</Horn>
-				<Corpse_Impact>MOV_BODY_CAR_HIT</Corpse_Impact>
-				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
-			</Foley>
-			<Mesh_Name>
-				<Filename>mar_chomper.carx</Filename>
-			</Mesh_Name>
-			<Preload>False</Preload>
-			<Default_Team>Marauder</Default_Team>
-			<VehicleClass>Automobile</VehicleClass>
-			<Center_Of_Mass_Z>.35</Center_Of_Mass_Z>
-			<Cameras>
-				<Camera>
-					<Follow_Distance>7.1</Follow_Distance>
-					<Follow_Height>1.6</Follow_Height>
-					<Turret_Camera>False</Turret_Camera>
-					<Lookat_Offset>
-						<X>0.0</X>
-						<Y>1.1</Y>
-						<Z>0.0</Z>
-					</Lookat_Offset>
-					<Force_T_Cam>False</Force_T_Cam>
-					<Lookat_Enter_Offset>
-						<X>2</X>
-						<Y>1</Y>
-						<Z>-5</Z>
-					</Lookat_Enter_Offset>
-				</Camera>
-			</Cameras>
-			<Center_Of_Mass_Y>-.35</Center_Of_Mass_Y>
-			<Viscosity_Friction>0</Viscosity_Friction>
-			<Roll_Torque_Factor>.35</Roll_Torque_Factor>
-			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
-			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
-			<EnforcedMaxSpeed>52</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
-			<Engine>
-				<Torque>510</Torque>
-				<Min_RPM>500</Min_RPM>
-				<Opt_RPM>3500</Opt_RPM>
-				<Max_RPM>7000</Max_RPM>
-				<Min_RPM_Torque_Factor>.8</Min_RPM_Torque_Factor>
-				<Max_RPM_Torque_Factor>.6</Max_RPM_Torque_Factor>
-				<Min_RPM_Resistance>.01</Min_RPM_Resistance>
-				<Opt_RPM_Resistance>0</Opt_RPM_Resistance>
-				<Max_RPM_Resistance>.1</Max_RPM_Resistance>
-				<Reverse_torque_multiplier>.75</Reverse_torque_multiplier>
-			</Engine>
-			<Steering>
-				<Max_Steering_Angle>40</Max_Steering_Angle>
-				<Max_Speed_Steering>42</Max_Speed_Steering>
-			</Steering>
-			<Angular_Damping>
-				<Normal_Spin_Damping>.3</Normal_Spin_Damping>
-				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
-			</Angular_Damping>
-			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
-			<CanBlockRoads>False</CanBlockRoads>
-			<Effects>
-				<Exhaust>veh_exhaust_generic_a</Exhaust>
-			</Effects>
-			<spawn_offset_info>
-				<spawn_height>1.35</spawn_height>
-				<spawn_box_max>
-					<X>1.44</X>
-					<Y>0.76</Y>
-					<Z>2.48</Z>
-				</spawn_box_max>
-				<X>2.0</X>
-				<Y>2.0</Y>
-				<Z>2.0</Z>
-			</spawn_offset_info>
-			<Collision_Damage_Scale>1.5</Collision_Damage_Scale>
-			<EnforcedMaxRSpeed>28</EnforcedMaxRSpeed>
-			<speed_effects>
-				<camera_fov_multiplier>1.4</camera_fov_multiplier>
-				<camera_fov_min_speed>30</camera_fov_min_speed>
-				<camera_shake_min_speed>35</camera_shake_min_speed>
-				<radial_blur_max>0</radial_blur_max>
-				<radial_blur_min_speed>0</radial_blur_min_speed>
-			</speed_effects>
-			<Yaw_Torque_Scalar>1.2</Yaw_Torque_Scalar>
-			<Powerslide_Friction>0.9</Powerslide_Friction>
-			<Powerslide_Power>2.5</Powerslide_Power>
-			<AIEnforcedMaxSpeed>65</AIEnforcedMaxSpeed>
-			<Energy_Scale>1.00</Energy_Scale>
-			<Collision_Mass_Scalar>2.0</Collision_Mass_Scalar>
-		</Vehicle>
-<!--END Added DLC Vehicles-->		
+		</Vehicle>		
+<!--END DLC Vehicles Added-->		
 		<Vehicle>
 			<Name>MarsRover1</Name>
 			<_Editor>
@@ -539,12 +1044,6 @@
 			<Pitch_Torque_Factor>.1</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.4</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>10</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>75</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -613,7 +1112,6 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -695,12 +1193,6 @@
 			</Turrets>
 			<Vehicle_Interaction>EDF_APC-A_1</Vehicle_Interaction>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2200</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -755,7 +1247,7 @@
 			<EnforcedMaxRSpeed>30</EnforcedMaxRSpeed>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity> <!--Artificial Gravity Multiplier-->
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
@@ -790,7 +1282,6 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -872,12 +1363,6 @@
 			</Turrets>
 			<Vehicle_Interaction>EDF_APC-A_1</Vehicle_Interaction>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2200</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -932,7 +1417,7 @@
 			<EnforcedMaxRSpeed>30</EnforcedMaxRSpeed>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
@@ -966,7 +1451,6 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -1048,12 +1532,6 @@
 			</Turrets>
 			<Vehicle_Interaction>EDF_APC-A_1</Vehicle_Interaction>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2200</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -1108,7 +1586,7 @@
 			<EnforcedMaxRSpeed>30</EnforcedMaxRSpeed>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
@@ -1142,7 +1620,6 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -1225,12 +1702,6 @@
 			</Turrets>
 			<Vehicle_Interaction>EDF_APC-A_1</Vehicle_Interaction>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2200</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -1285,7 +1756,7 @@
 			<EnforcedMaxRSpeed>30</EnforcedMaxRSpeed>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
@@ -1319,7 +1790,6 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -1401,12 +1871,6 @@
 			</Turrets>
 			<Vehicle_Interaction>EDF_APC-A_1</Vehicle_Interaction>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2200</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -1461,7 +1925,7 @@
 			<EnforcedMaxRSpeed>30</EnforcedMaxRSpeed>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
@@ -1495,7 +1959,6 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -1577,12 +2040,6 @@
 			</Turrets>
 			<Vehicle_Interaction>EDF_APC-A_1</Vehicle_Interaction>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2200</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -1637,7 +2094,7 @@
 			<EnforcedMaxRSpeed>30</EnforcedMaxRSpeed>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
@@ -1671,7 +2128,6 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -1753,12 +2209,6 @@
 			</Turrets>
 			<Vehicle_Interaction>EDF_APC-A_1</Vehicle_Interaction>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2200</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -1813,7 +2263,7 @@
 			<EnforcedMaxRSpeed>30</EnforcedMaxRSpeed>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
@@ -1847,7 +2297,6 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -1929,12 +2378,6 @@
 			</Turrets>
 			<Vehicle_Interaction>EDF_APC-A_1</Vehicle_Interaction>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2200</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -1989,7 +2432,7 @@
 			<EnforcedMaxRSpeed>30</EnforcedMaxRSpeed>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
@@ -2023,7 +2466,6 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -2096,12 +2538,6 @@
 			</Axles>
 			<Vehicle_Interaction>EDF_APC_noturret</Vehicle_Interaction>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2200</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -2156,7 +2592,7 @@
 			</Foley>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
@@ -2199,7 +2635,6 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -2272,12 +2707,6 @@
 			</Axles>
 			<Vehicle_Interaction>EDF_APC_noturret</Vehicle_Interaction>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2200</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -2332,7 +2761,7 @@
 			</Foley>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
@@ -2375,7 +2804,6 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -2448,12 +2876,6 @@
 			</Axles>
 			<Vehicle_Interaction>EDF_APC_noturret</Vehicle_Interaction>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2200</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -2508,7 +2930,7 @@
 			</Foley>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
@@ -2551,7 +2973,6 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -2624,12 +3045,6 @@
 			</Axles>
 			<Vehicle_Interaction>EDF_APC_noturret</Vehicle_Interaction>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2200</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -2684,7 +3099,7 @@
 			</Foley>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
@@ -2747,12 +3162,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>63</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -2809,7 +3218,6 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -2924,12 +3332,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>63</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -2986,7 +3388,6 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -3101,12 +3502,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>63</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -3163,7 +3558,6 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -3278,12 +3672,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>63</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -3340,7 +3728,6 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -3455,12 +3842,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>63</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -3517,7 +3898,6 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -3632,12 +4012,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>63</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -3694,7 +4068,6 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -3809,12 +4182,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>63</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -3871,7 +4238,6 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -3986,12 +4352,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>63</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -4048,7 +4408,6 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -4163,12 +4522,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>63</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -4225,7 +4578,6 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -4340,12 +4692,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>63</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -4402,7 +4748,6 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -4517,12 +4862,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>63</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -4579,7 +4918,6 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -4670,12 +5008,6 @@
 			<Special_Vehicle_Type>Special</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
 			<Mass>10000</Mass>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Rig>
 				<Rig>
 					<Filename>walker_civilian.rigX</Filename>
@@ -4778,12 +5110,6 @@
 			<Special_Vehicle_Type>Special</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
 			<Mass>10000</Mass>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Rig>
 				<Rig>
 					<Filename>walker_civilian.rigX</Filename>
@@ -4886,12 +5212,6 @@
 			<Special_Vehicle_Type>Special</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
 			<Mass>10000</Mass>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Rig>
 				<Rig>
 					<Filename>walker_civilian.rigX</Filename>
@@ -5038,7 +5358,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -5079,12 +5398,6 @@
 			<Pitch_Torque_Factor>.3</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.3</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>64</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>700</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -5148,7 +5461,7 @@
 			<Powerslide_Friction>0.9</Powerslide_Friction>
 			<Powerslide_Power>2.2</Powerslide_Power>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-5</Extra_Gravity>
 			</Aerodynamics>
 			<AIEnforcedMaxSpeed>74</AIEnforcedMaxSpeed>
 		</Vehicle>
@@ -5175,7 +5488,6 @@
 					<Element>2000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -5244,12 +5556,6 @@
 			<Pitch_Torque_Factor>.2</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.2</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>56</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>650</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -5336,12 +5642,6 @@
 			<Props>1000</Props>
 			<Display_Name>Flatbed2A</Display_Name>
 			<Max_Hitpoints>6000</Max_Hitpoints>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>8000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -5408,7 +5708,6 @@
 					<Element>1800</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 					<Element>3000</Element>
@@ -5517,16 +5816,10 @@
 			<Display_Name>HeavyTank</Display_Name>
 			<Special_Vehicle_Type>Tank</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
-			<Max_Hitpoints>36000</Max_Hitpoints>
+			<Max_Hitpoints>18000</Max_Hitpoints>
 			<Mass>40000</Mass>
 			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
 			<Viscosity_Friction>0.1</Viscosity_Friction>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>15000</Torque>
 				<Opt_RPM>3000</Opt_RPM>
@@ -5614,7 +5907,7 @@
 			<Aerodynamics>
 				<Frontal_Area>10</Frontal_Area>
 				<Drag_Coefficient>10</Drag_Coefficient>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-10</Extra_Gravity>
 			</Aerodynamics>
 			<Collision_Damage_Scale>.1</Collision_Damage_Scale>
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
@@ -5747,7 +6040,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -5791,12 +6083,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>65</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>350</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -5914,7 +6200,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>6</Diff_Gear_Ratio>
@@ -5957,12 +6242,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.4</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>58</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>250</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -6080,7 +6359,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>4500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -6118,12 +6396,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.3</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>46</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>400</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -6239,7 +6511,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>4500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -6290,12 +6561,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.25</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>49</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -6399,7 +6664,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>4500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -6450,12 +6714,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.25</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>49</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -6559,7 +6817,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>4500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -6610,12 +6867,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.25</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>49</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -6721,7 +6972,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>4000</Element>
 					<Element>4000</Element>
 				</Upshift_RPMs>
@@ -6760,12 +7010,6 @@
 			<Pitch_Torque_Factor>.2</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.2</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>40</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -6824,7 +7068,7 @@
 				<radial_blur_min_speed>0.0</radial_blur_min_speed>
 			</speed_effects>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 		</Vehicle>
 		<Vehicle>
@@ -6884,7 +7128,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>4000</Element>
 					<Element>4000</Element>
 				</Upshift_RPMs>
@@ -6923,12 +7166,6 @@
 			<Pitch_Torque_Factor>.2</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.2</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>40</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -6987,7 +7224,7 @@
 				<radial_blur_min_speed>0.0</radial_blur_min_speed>
 			</speed_effects>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 		</Vehicle>
 		<Vehicle>
@@ -7047,7 +7284,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>4000</Element>
 					<Element>4000</Element>
 				</Upshift_RPMs>
@@ -7086,12 +7322,6 @@
 			<Pitch_Torque_Factor>.2</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.2</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>40</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -7150,7 +7380,7 @@
 				<radial_blur_min_speed>0.0</radial_blur_min_speed>
 			</speed_effects>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 		</Vehicle>
 		<Vehicle>
@@ -7210,7 +7440,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>4000</Element>
 					<Element>4000</Element>
 				</Upshift_RPMs>
@@ -7254,12 +7483,6 @@
 			<Pitch_Torque_Factor>.1</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.2</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>38</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>150</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -7375,7 +7598,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>4000</Element>
 					<Element>4000</Element>
 				</Upshift_RPMs>
@@ -7419,12 +7641,6 @@
 			<Pitch_Torque_Factor>.1</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.2</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>38</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>150</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -7540,7 +7756,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>4000</Element>
 					<Element>4000</Element>
 				</Upshift_RPMs>
@@ -7584,12 +7799,6 @@
 			<Pitch_Torque_Factor>.1</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.2</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>38</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>150</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -7686,12 +7895,6 @@
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>63</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>500</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -7748,7 +7951,6 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -7847,7 +8049,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -7886,12 +8087,6 @@
 			<Mass>3000</Mass>
 			<Yaw_Torque_Factor>.3</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>54</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -8063,7 +8258,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>7000</Element>
 					<Element>7000</Element>
 				</Upshift_RPMs>
@@ -8116,12 +8310,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>62</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>180</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -8231,7 +8419,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>7000</Element>
 					<Element>7000</Element>
 				</Upshift_RPMs>
@@ -8284,12 +8471,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>62</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>180</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -8399,7 +8580,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>7000</Element>
 					<Element>7000</Element>
 				</Upshift_RPMs>
@@ -8452,12 +8632,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>62</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>180</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -8567,7 +8741,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>7000</Element>
 					<Element>7000</Element>
 				</Upshift_RPMs>
@@ -8620,12 +8793,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>62</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>180</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -8743,7 +8910,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>7000</Element>
 					<Element>7000</Element>
 				</Upshift_RPMs>
@@ -8796,12 +8962,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>62</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>180</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -8919,7 +9079,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>7000</Element>
 					<Element>7000</Element>
 				</Upshift_RPMs>
@@ -8972,12 +9131,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.5</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>62</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>180</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -9095,7 +9248,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -9148,12 +9300,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.4</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>52</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>750</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -9260,7 +9406,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -9313,12 +9458,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.4</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>52</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>750</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -9425,7 +9564,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -9478,12 +9616,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.4</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>52</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>750</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -9590,7 +9722,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -9643,12 +9774,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.4</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>52</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>750</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -9770,7 +9895,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -9823,12 +9947,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.4</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>52</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>750</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -9950,7 +10068,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -10003,12 +10120,6 @@
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.4</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>52</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>750</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -10130,7 +10241,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -10164,12 +10274,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>53</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>950</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -10295,7 +10399,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -10329,12 +10432,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>53</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>950</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -10460,7 +10557,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -10494,12 +10590,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>53</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>950</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -10625,7 +10715,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -10659,12 +10748,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>53</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>950</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -10805,7 +10888,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -10839,12 +10921,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>53</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>950</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -10985,7 +11061,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -11019,12 +11094,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>53</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>950</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -11165,7 +11234,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -11199,12 +11267,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>60</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1050</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -11345,7 +11407,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -11379,12 +11440,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>60</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1050</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -11525,7 +11580,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -11559,12 +11613,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>60</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1050</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -11705,7 +11753,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -11739,12 +11786,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>40</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1150</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -11885,7 +11926,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -11919,12 +11959,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>40</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1150</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -12065,7 +12099,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -12099,12 +12132,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>40</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1150</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -12245,7 +12272,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -12279,12 +12305,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>55</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1050</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -12408,7 +12428,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -12460,12 +12479,6 @@
 			<Pitch_Torque_Factor>.2</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.4</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>65</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -12576,7 +12589,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -12629,12 +12641,6 @@
 				<Max_Steering_Angle>32</Max_Steering_Angle>
 				<Max_Speed_Steering>25</Max_Speed_Steering>
 			</Steering>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1900</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -12689,12 +12695,6 @@
 			<Special_Vehicle_Type>None</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
 			<Mass>1800</Mass>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Mesh_Name>
 				<Filename>edf_aaxair_1.carx</Filename>
 			</Mesh_Name>
@@ -12791,7 +12791,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -12830,12 +12829,6 @@
 			<Mass>3000</Mass>
 			<Yaw_Torque_Factor>.3</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>54</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -12972,7 +12965,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -13018,12 +13010,6 @@
 			<Mass>3000</Mass>
 			<Yaw_Torque_Factor>.3</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>54</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -13160,7 +13146,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -13199,12 +13184,6 @@
 			<Mass>3000</Mass>
 			<Yaw_Torque_Factor>.3</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>54</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -13341,7 +13320,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -13380,12 +13358,6 @@
 			<Mass>3000</Mass>
 			<Yaw_Torque_Factor>.3</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>54</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -13522,7 +13494,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -13561,12 +13532,6 @@
 			<Mass>3000</Mass>
 			<Yaw_Torque_Factor>.3</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>54</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -13703,7 +13668,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -13742,12 +13706,6 @@
 			<Mass>3000</Mass>
 			<Yaw_Torque_Factor>.3</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>54</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -13921,7 +13879,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 					<Element>3000</Element>
@@ -13961,12 +13918,6 @@
 				<Max_Steering_Angle>35</Max_Steering_Angle>
 				<Max_Speed_Steering>25</Max_Speed_Steering>
 			</Steering>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1900</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -14029,16 +13980,10 @@
 			<Display_Name>HeavyTank2</Display_Name>
 			<Special_Vehicle_Type>Tank</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
-			<Max_Hitpoints>36000</Max_Hitpoints>
+			<Max_Hitpoints>18000</Max_Hitpoints>
 			<Mass>40000</Mass>
 			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
 			<Viscosity_Friction>0.1</Viscosity_Friction>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>15000</Torque>
 				<Opt_RPM>3000</Opt_RPM>
@@ -14126,7 +14071,7 @@
 			<Aerodynamics>
 				<Frontal_Area>10</Frontal_Area>
 				<Drag_Coefficient>10</Drag_Coefficient>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-10</Extra_Gravity>
 			</Aerodynamics>
 			<Collision_Damage_Scale>.1</Collision_Damage_Scale>
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
@@ -14213,16 +14158,10 @@
 			<Display_Name>HeavyTank3</Display_Name>
 			<Special_Vehicle_Type>Tank</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
-			<Max_Hitpoints>36000</Max_Hitpoints>
+			<Max_Hitpoints>18000</Max_Hitpoints>
 			<Mass>40000</Mass>
 			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
 			<Viscosity_Friction>0.1</Viscosity_Friction>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>15000</Torque>
 				<Opt_RPM>3000</Opt_RPM>
@@ -14310,7 +14249,7 @@
 			<Aerodynamics>
 				<Frontal_Area>10</Frontal_Area>
 				<Drag_Coefficient>10</Drag_Coefficient>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-10</Extra_Gravity>
 			</Aerodynamics>
 			<Collision_Damage_Scale>.1</Collision_Damage_Scale>
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
@@ -14401,12 +14340,6 @@
 			<Mass>40000</Mass>
 			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
 			<Viscosity_Friction>0.1</Viscosity_Friction>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>15000</Torque>
 				<Opt_RPM>3000</Opt_RPM>
@@ -14494,7 +14427,7 @@
 			<Aerodynamics>
 				<Frontal_Area>10</Frontal_Area>
 				<Drag_Coefficient>10</Drag_Coefficient>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-10</Extra_Gravity>
 			</Aerodynamics>
 			<Collision_Damage_Scale>.1</Collision_Damage_Scale>
 			<Pitch_Torque_Factor>.5</Pitch_Torque_Factor>
@@ -14581,16 +14514,10 @@
 			<Display_Name>MediumTank</Display_Name>
 			<Special_Vehicle_Type>Tank</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
-			<Max_Hitpoints>20000</Max_Hitpoints>
+			<Max_Hitpoints>10000</Max_Hitpoints>
 			<Mass>30000</Mass>
 			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
 			<Viscosity_Friction>.1</Viscosity_Friction>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>12000</Torque>
 				<Opt_RPM>3000</Opt_RPM>
@@ -14666,7 +14593,7 @@
 			<Aerodynamics>
 				<Frontal_Area>10</Frontal_Area>
 				<Drag_Coefficient>10</Drag_Coefficient>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-5</Extra_Gravity>
 			</Aerodynamics>
 			<Collision_Damage_Scale>.1</Collision_Damage_Scale>
 			<Pitch_Torque_Factor>1</Pitch_Torque_Factor>
@@ -14759,12 +14686,6 @@
 			<Special_Vehicle_Type>None</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
 			<Mass>1800</Mass>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Mesh_Name>
 				<Filename>edf_aaxair_1.carx</Filename>
 			</Mesh_Name>
@@ -14860,7 +14781,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -14899,12 +14819,6 @@
 			<Mass>3000</Mass>
 			<Yaw_Torque_Factor>.3</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>54</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -15041,7 +14955,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -15080,12 +14993,6 @@
 			<Mass>3000</Mass>
 			<Yaw_Torque_Factor>.3</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>54</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -15255,7 +15162,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -15301,12 +15207,6 @@
 			</Cameras>
 			<Pitch_Torque_Factor>0</Pitch_Torque_Factor>
 			<EnforcedMaxSpeed>37</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -15358,7 +15258,7 @@
 			<vehicle_family>EDFSupply</vehicle_family>
 			<Viscosity_Friction>.1</Viscosity_Friction>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<speed_effects>
 				<camera_fov_multiplier>1.4</camera_fov_multiplier>
@@ -15387,12 +15287,6 @@
 			<Special_Vehicle_Type>Bomber</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
 			<Mass>1800</Mass>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Mesh_Name>
 				<Filename>edf_abxair_1.carx</Filename>
 			</Mesh_Name>
@@ -15609,7 +15503,6 @@
 					<Element>3700</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>7500</Element>
 					<Element>7500</Element>
 				</Upshift_RPMs>
@@ -15689,12 +15582,6 @@
 			<Special_Vehicle_Type>None</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
 			<Mass>1800</Mass>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Mesh_Name>
 				<Filename>edf_aaxair_1.carx</Filename>
 			</Mesh_Name>
@@ -15782,12 +15669,6 @@
 			<Special_Vehicle_Type>Special</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
 			<Mass>2000</Mass>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Rig>
 				<Rig>
 					<Filename>walker_min.rigx</Filename>
@@ -15916,7 +15797,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -15969,12 +15849,6 @@
 				<Max_Steering_Angle>32</Max_Steering_Angle>
 				<Max_Speed_Steering>25</Max_Speed_Steering>
 			</Steering>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1900</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -16072,7 +15946,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -16125,12 +15998,6 @@
 				<Max_Steering_Angle>32</Max_Steering_Angle>
 				<Max_Speed_Steering>25</Max_Speed_Steering>
 			</Steering>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1900</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -16185,12 +16052,6 @@
 			<Special_Vehicle_Type>Special</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
 			<Mass>2000</Mass>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Rig>
 				<Rig>
 					<Filename>walker_min.rigx</Filename>
@@ -16275,12 +16136,6 @@
 			<Special_Vehicle_Type>Special</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
 			<Mass>2000</Mass>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Rig>
 				<Rig>
 					<Filename>walker_min.rigx</Filename>
@@ -16365,12 +16220,6 @@
 			<Special_Vehicle_Type>Special</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
 			<Mass>3500</Mass>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Rig>
 				<Rig>
 					<Filename>walker_flamer.rigx</Filename>
@@ -16467,16 +16316,10 @@
 			<Display_Name>MediumTank2</Display_Name>
 			<Special_Vehicle_Type>Tank</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
-			<Max_Hitpoints>20000</Max_Hitpoints>
+			<Max_Hitpoints>10000</Max_Hitpoints>
 			<Mass>30000</Mass>
 			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
 			<Viscosity_Friction>.1</Viscosity_Friction>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>12000</Torque>
 				<Opt_RPM>3000</Opt_RPM>
@@ -16552,7 +16395,7 @@
 			<Aerodynamics>
 				<Frontal_Area>10</Frontal_Area>
 				<Drag_Coefficient>10</Drag_Coefficient>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-5</Extra_Gravity>
 			</Aerodynamics>
 			<Collision_Damage_Scale>.1</Collision_Damage_Scale>
 			<Pitch_Torque_Factor>1</Pitch_Torque_Factor>
@@ -16642,16 +16485,10 @@
 			<Display_Name>MediumTank3</Display_Name>
 			<Special_Vehicle_Type>Tank</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
-			<Max_Hitpoints>20000</Max_Hitpoints>
+			<Max_Hitpoints>10000</Max_Hitpoints>
 			<Mass>30000</Mass>
 			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
 			<Viscosity_Friction>.1</Viscosity_Friction>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>12000</Torque>
 				<Opt_RPM>3000</Opt_RPM>
@@ -16727,7 +16564,7 @@
 			<Aerodynamics>
 				<Frontal_Area>10</Frontal_Area>
 				<Drag_Coefficient>10</Drag_Coefficient>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-5</Extra_Gravity>
 			</Aerodynamics>
 			<Collision_Damage_Scale>.1</Collision_Damage_Scale>
 			<Pitch_Torque_Factor>1</Pitch_Torque_Factor>
@@ -16817,16 +16654,10 @@
 			<Display_Name>ArtTank</Display_Name>
 			<Special_Vehicle_Type>Artillery Tank</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
-			<Max_Hitpoints>36000</Max_Hitpoints>
+			<Max_Hitpoints>18000</Max_Hitpoints>
 			<Mass>40000</Mass>
 			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
 			<Viscosity_Friction>0.1</Viscosity_Friction>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>15000</Torque>
 				<Opt_RPM>3000</Opt_RPM>
@@ -16902,7 +16733,7 @@
 			<Aerodynamics>
 				<Frontal_Area>10</Frontal_Area>
 				<Drag_Coefficient>10</Drag_Coefficient>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-10</Extra_Gravity>
 			</Aerodynamics>
 			<Collision_Damage_Scale>.1</Collision_Damage_Scale>
 			<Pitch_Torque_Factor>1.5</Pitch_Torque_Factor>
@@ -17036,7 +16867,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -17082,12 +16912,6 @@
 			</Cameras>
 			<Pitch_Torque_Factor>0</Pitch_Torque_Factor>
 			<EnforcedMaxSpeed>37</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -17139,7 +16963,7 @@
 			<vehicle_family>EDFSupply</vehicle_family>
 			<Viscosity_Friction>.1</Viscosity_Friction>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<speed_effects>
 				<camera_fov_multiplier>1.4</camera_fov_multiplier>
@@ -17209,7 +17033,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -17255,12 +17078,6 @@
 			</Cameras>
 			<Pitch_Torque_Factor>0</Pitch_Torque_Factor>
 			<EnforcedMaxSpeed>37</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -17312,7 +17129,7 @@
 			<vehicle_family>EDFSupply</vehicle_family>
 			<Viscosity_Friction>.1</Viscosity_Friction>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<speed_effects>
 				<camera_fov_multiplier>1.4</camera_fov_multiplier>
@@ -17382,7 +17199,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -17416,12 +17232,6 @@
 			</Cameras>
 			<Pitch_Torque_Factor>0</Pitch_Torque_Factor>
 			<EnforcedMaxSpeed>37</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -17485,7 +17295,7 @@
 			<Roll_Torque_Factor>.1</Roll_Torque_Factor>
 			<Yaw_Torque_Factor>.02</Yaw_Torque_Factor>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<speed_effects>
 				<camera_fov_multiplier>1.4</camera_fov_multiplier>
@@ -17555,7 +17365,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -17589,12 +17398,6 @@
 			</Cameras>
 			<Pitch_Torque_Factor>0</Pitch_Torque_Factor>
 			<EnforcedMaxSpeed>37</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -17658,7 +17461,7 @@
 			<Roll_Torque_Factor>.1</Roll_Torque_Factor>
 			<Yaw_Torque_Factor>.02</Yaw_Torque_Factor>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<speed_effects>
 				<camera_fov_multiplier>1.4</camera_fov_multiplier>
@@ -17728,7 +17531,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -17762,12 +17564,6 @@
 			</Cameras>
 			<Pitch_Torque_Factor>0</Pitch_Torque_Factor>
 			<EnforcedMaxSpeed>37</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -17831,7 +17627,7 @@
 			<Roll_Torque_Factor>.1</Roll_Torque_Factor>
 			<Yaw_Torque_Factor>.02</Yaw_Torque_Factor>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<speed_effects>
 				<camera_fov_multiplier>1.4</camera_fov_multiplier>
@@ -17901,7 +17697,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -17947,12 +17742,6 @@
 			</Cameras>
 			<Pitch_Torque_Factor>0</Pitch_Torque_Factor>
 			<EnforcedMaxSpeed>37</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -17995,7 +17784,7 @@
 			<Roll_Torque_Factor>.1</Roll_Torque_Factor>
 			<Yaw_Torque_Factor>.02</Yaw_Torque_Factor>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Turrets>
 				<Mount>
@@ -18074,7 +17863,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18120,12 +17908,6 @@
 			</Cameras>
 			<Pitch_Torque_Factor>0</Pitch_Torque_Factor>
 			<EnforcedMaxSpeed>37</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -18168,7 +17950,7 @@
 			<Roll_Torque_Factor>.1</Roll_Torque_Factor>
 			<Yaw_Torque_Factor>.02</Yaw_Torque_Factor>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Turrets>
 				<Mount>
@@ -18247,7 +18029,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18293,12 +18074,6 @@
 			</Cameras>
 			<Pitch_Torque_Factor>0</Pitch_Torque_Factor>
 			<EnforcedMaxSpeed>37</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>2000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -18341,7 +18116,7 @@
 			<Roll_Torque_Factor>.1</Roll_Torque_Factor>
 			<Yaw_Torque_Factor>.02</Yaw_Torque_Factor>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-15</Extra_Gravity>
 			</Aerodynamics>
 			<Turrets>
 				<Mount>
@@ -18422,7 +18197,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18475,12 +18249,6 @@
 				<Max_Steering_Angle>32</Max_Steering_Angle>
 				<Max_Speed_Steering>25</Max_Speed_Steering>
 			</Steering>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1900</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -18587,7 +18355,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18640,12 +18407,6 @@
 				<Max_Steering_Angle>32</Max_Steering_Angle>
 				<Max_Speed_Steering>25</Max_Speed_Steering>
 			</Steering>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1900</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -18752,7 +18513,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18805,12 +18565,6 @@
 				<Max_Steering_Angle>32</Max_Steering_Angle>
 				<Max_Speed_Steering>25</Max_Speed_Steering>
 			</Steering>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1900</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -18917,7 +18671,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>500</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18967,12 +18720,6 @@
 			<Center_Of_Mass_Y>-.1</Center_Of_Mass_Y>
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<EnforcedMaxSpeed>42</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1500</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -19082,7 +18829,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>500</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -19132,12 +18878,6 @@
 			<Center_Of_Mass_Y>-.1</Center_Of_Mass_Y>
 			<Pitch_Torque_Factor>.4</Pitch_Torque_Factor>
 			<EnforcedMaxSpeed>42</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1500</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -19238,7 +18978,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -19295,12 +19034,6 @@
 			<Pitch_Torque_Factor>.0</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.1</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>32</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1500</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -19348,7 +19081,7 @@
 				<radial_blur_min_speed>0.0</radial_blur_min_speed>
 			</speed_effects>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-4</Extra_Gravity>
 			</Aerodynamics>
 		</Vehicle>
 		<Vehicle>
@@ -19408,7 +19141,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -19465,12 +19197,6 @@
 			<Pitch_Torque_Factor>.0</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.1</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>32</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1500</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -19518,7 +19244,7 @@
 				<radial_blur_min_speed>0.0</radial_blur_min_speed>
 			</speed_effects>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-4</Extra_Gravity>
 			</Aerodynamics>
 		</Vehicle>
 		<Vehicle>
@@ -19578,7 +19304,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -19635,12 +19360,6 @@
 			<Pitch_Torque_Factor>.0</Pitch_Torque_Factor>
 			<Yaw_Torque_Factor>.1</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>32</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1500</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -19688,7 +19407,7 @@
 				<radial_blur_min_speed>0.0</radial_blur_min_speed>
 			</speed_effects>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-4</Extra_Gravity>
 			</Aerodynamics>
 		</Vehicle>
 		<Vehicle>
@@ -19706,12 +19425,6 @@
 			<Mass>40000</Mass>
 			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
 			<Viscosity_Friction>0.1</Viscosity_Friction>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>12000</Torque>
 				<Opt_RPM>3000</Opt_RPM>
@@ -19799,7 +19512,7 @@
 			<Aerodynamics>
 				<Frontal_Area>10</Frontal_Area>
 				<Drag_Coefficient>10</Drag_Coefficient>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-10</Extra_Gravity>
 			</Aerodynamics>
 			<Collision_Damage_Scale>.1</Collision_Damage_Scale>
 			<Pitch_Torque_Factor>0.1</Pitch_Torque_Factor>
@@ -19854,12 +19567,6 @@
 			<Props>1000</Props>
 			<Display_Name>Tanker</Display_Name>
 			<Max_Hitpoints>8000</Max_Hitpoints>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>5000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -19929,7 +19636,6 @@
 					<Element>1300</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -20017,7 +19723,7 @@
 			<Pitch_Unit_Inertia>1.0</Pitch_Unit_Inertia>
 			<Yaw_Unit_Inertia>1.5</Yaw_Unit_Inertia>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-25</Extra_Gravity>
 			</Aerodynamics>
 			<Rig>
 				<Rig>
@@ -20037,12 +19743,6 @@
 			<Props>1000</Props>
 			<Display_Name>Tanker2</Display_Name>
 			<Max_Hitpoints>8000</Max_Hitpoints>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>5000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -20112,7 +19812,6 @@
 					<Element>1300</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -20200,7 +19899,7 @@
 			<Pitch_Unit_Inertia>1.0</Pitch_Unit_Inertia>
 			<Yaw_Unit_Inertia>1.5</Yaw_Unit_Inertia>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-25</Extra_Gravity>
 			</Aerodynamics>
 			<Rig>
 				<Rig>
@@ -20220,12 +19919,6 @@
 			<Props>1000</Props>
 			<Display_Name>Tanker3</Display_Name>
 			<Max_Hitpoints>8000</Max_Hitpoints>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>5000</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -20295,7 +19988,6 @@
 					<Element>1300</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -20383,7 +20075,7 @@
 			<Pitch_Unit_Inertia>1.0</Pitch_Unit_Inertia>
 			<Yaw_Unit_Inertia>1.5</Yaw_Unit_Inertia>
 			<Aerodynamics>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-25</Extra_Gravity>
 			</Aerodynamics>
 			<Rig>
 				<Rig>
@@ -20402,12 +20094,6 @@
 			<Value>0.02</Value>
 			<Props>1000</Props>
 			<Display_Name>Flatbed</Display_Name>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Max_Hitpoints>12000</Max_Hitpoints>
 			<Engine>
 				<Torque>1500</Torque>
@@ -20472,7 +20158,6 @@
 					<Element>1300</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -20570,12 +20255,6 @@
 			<Props>1000</Props>
 			<Display_Name>Flatbed2</Display_Name>
 			<Max_Hitpoints>12000</Max_Hitpoints>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1500</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -20639,7 +20318,6 @@
 					<Element>1300</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -20733,12 +20411,6 @@
 			<Props>1000</Props>
 			<Display_Name>Flatbed3</Display_Name>
 			<Max_Hitpoints>12000</Max_Hitpoints>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>1500</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -20802,7 +20474,6 @@
 					<Element>1300</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -20943,7 +20614,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -20977,12 +20647,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>55</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>950</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -21114,7 +20778,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -21148,12 +20811,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>55</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>950</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -21285,7 +20942,6 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -21319,12 +20975,6 @@
 				</Camera>
 			</Cameras>
 			<EnforcedMaxSpeed>55</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>950</Torque>
 				<Min_RPM>500</Min_RPM>
@@ -21425,7 +21075,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 					<Element>5000</Element>
@@ -21473,12 +21122,6 @@
 			<Mass>2400</Mass>
 			<Yaw_Torque_Factor>.3</Yaw_Torque_Factor>
 			<EnforcedMaxSpeed>50</EnforcedMaxSpeed>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>900</Torque>
 				<Min_RPM>1000</Min_RPM>
@@ -21589,16 +21232,10 @@
 			<Display_Name>MediumTankClean</Display_Name>
 			<Special_Vehicle_Type>Tank</Special_Vehicle_Type>
 			<Convertible>false</Convertible>
-			<Max_Hitpoints>20000</Max_Hitpoints>
+			<Max_Hitpoints>10000</Max_Hitpoints>
 			<Mass>30000</Mass>
 			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
 			<Viscosity_Friction>.1</Viscosity_Friction>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>12000</Torque>
 				<Opt_RPM>3000</Opt_RPM>
@@ -21674,7 +21311,7 @@
 			<Aerodynamics>
 				<Frontal_Area>10</Frontal_Area>
 				<Drag_Coefficient>10</Drag_Coefficient>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-5</Extra_Gravity>
 			</Aerodynamics>
 			<Collision_Damage_Scale>.1</Collision_Damage_Scale>
 			<Pitch_Torque_Factor>1</Pitch_Torque_Factor>
@@ -21768,12 +21405,6 @@
 			<Mass>40000</Mass>
 			<Center_Of_Mass_Y>-.6</Center_Of_Mass_Y>
 			<Viscosity_Friction>0.1</Viscosity_Friction>
-			<LODs>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-				<LOD_Distance>9999</LOD_Distance>
-			</LODs>
 			<Engine>
 				<Torque>25000</Torque>
 				<Opt_RPM>3000</Opt_RPM>
@@ -21849,7 +21480,7 @@
 			<Aerodynamics>
 				<Frontal_Area>10</Frontal_Area>
 				<Drag_Coefficient>10</Drag_Coefficient>
-				<Extra_Gravity>0</Extra_Gravity>
+				<Extra_Gravity>-10</Extra_Gravity>
 			</Aerodynamics>
 			<Collision_Damage_Scale>.1</Collision_Damage_Scale>
 			<Pitch_Torque_Factor>1.5</Pitch_Torque_Factor>
