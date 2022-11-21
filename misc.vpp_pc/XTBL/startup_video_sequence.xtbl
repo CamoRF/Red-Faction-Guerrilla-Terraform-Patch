@@ -5,7 +5,7 @@
 			<Video_List>
 				<Video>
 					<Video_File>
-						<Filename>logo_nordic_hd2.bik</Filename>
+						<Filename>logo_nordic_hd.bik</Filename> <!--Add 2 at the end of the file to skip them completely in an add-on mod-->
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag>
@@ -13,7 +13,7 @@
 				</Video>
 				<Video>
 					<Video_File>
-						<Filename>logo_kaiko2.bik</Filename>
+						<Filename>logo_kaiko.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag>
@@ -21,7 +21,7 @@
 				</Video>
 				<Video>
 					<Video_File>
-						<Filename>logo_volition_hd2.bik</Filename>
+						<Filename>logo_volition_hd.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag>
@@ -29,7 +29,7 @@
 				</Video>
 				<Video>
 					<Video_File>
-						<Filename>legal_hd2.bik</Filename>
+						<Filename>legal_hd.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag> <!--Added-->
