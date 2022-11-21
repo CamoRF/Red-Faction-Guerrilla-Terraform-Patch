@@ -2,537 +2,509 @@
 	<Table>
 		<ambient_spawn_info>
 			<Name>Gov_0503</Name>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
-			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Guerilla Eos-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_EosCommand-->
+			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 			<_Editor>
 				<Category>Eos Gov Corp</Category>
 			</_Editor>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>End_0604</Name>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
-			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Default Guerilla-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_Eos-->
+			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 			<_Editor>
 				<Category>End Game</Category>
 			</_Editor>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>End_0703</Name>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
-			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Default Guerilla-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_Eos-->
+			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 			<_Editor>
 				<Category>End Game</Category>
 			</_Editor>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Gov_0504</Name>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
-			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Guerilla Eos-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_EosCommand-->
+			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 			<_Editor>
 				<Category>Eos Gov Corp</Category>
 			</_Editor>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Eos_0505</Name>
 			<ped_spawn_density>High</ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Guerilla Eos-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_Eos-->
 			<_Editor>
 				<Category>Eos</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Eos_0406</Name>
 			<ped_spawn_density>High</ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Guerilla Eos-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_Eos-->
 			<_Editor>
 				<Category>Eos</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Eos_0506</Name>
 			<ped_spawn_density>High</ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Guerilla Eos-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_Eos-->
 			<_Editor>
 				<Category>Eos</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Eos_0407</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Medium-->
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Guerilla Eos-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_Eos-->
 			<_Editor>
 				<Category>Eos</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Eos</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Free_0408</Name>
-			<npc_spawn_group>Default Guerilla</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Parker Eos-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Manufacturing-->
 			<_Editor>
 				<Category>Freefire</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo</default_ambient_behavior>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Free_0409</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>Default Guerilla</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<ped_spawn_density>High</ped_spawn_density> <!--From Medium-->
+			<veh_spawn_density>High</veh_spawn_density> <!--From Low-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Parker-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Manufacturing-->
 			<_Editor>
 				<Category>Freefire</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Free_0508</Name>
-			<npc_spawn_group>Default Guerilla</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Parker-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Manufacturing-->
 			<_Editor>
 				<Category>Freefire</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Free_0509</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>Default Guerilla</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<ped_spawn_density>High</ped_spawn_density> <!--From Medium-->
+			<veh_spawn_density>High</veh_spawn_density> <!--From Low-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Parker-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Manufacturing-->
 			<_Editor>
 				<Category>Freefire</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Parker_0410</Name>
 			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>Default Guerilla</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Low-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Parker-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Parker-->
 			<_Editor>
 				<Category>Parker</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Parker_0510</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>Default Guerilla</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Low-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Parker-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Parker-->
 			<_Editor>
 				<Category>Parker</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
+			<ped_spawn_density>High</ped_spawn_density> <!--From Medium-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Dust_0609</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Medium-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Parker-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Dust-->
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Dust_0610</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<ped_spawn_density>High</ped_spawn_density> <!--From Medium-->
+			<veh_spawn_density>High</veh_spawn_density> <!--From Medium-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Parker-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Dust-->
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Dust_0708</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<ped_spawn_density>High</ped_spawn_density> <!--From Medium-->
+			<veh_spawn_density>High</veh_spawn_density> <!--From Medium-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Dust2-->
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Dust_0709</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Medium-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Dust-->
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Dust_0710</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Medium-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Dust-->
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Dust_0711</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<ped_spawn_density>High</ped_spawn_density> <!--From Medium-->
+			<veh_spawn_density>High</veh_spawn_density> <!--From Medium-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Dust2-->
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Dust_0712</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<ped_spawn_density>High</ped_spawn_density> <!--From Medium-->
+			<veh_spawn_density>High</veh_spawn_density> <!--From Low-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Dust2-->
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Dust_0809</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Medium-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Dust-->
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Dust_0810</Name>
 			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Low-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Dust-->
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Bad_0908</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Low-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Oasis-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Badlands-->
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Bad_0909</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Low-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Oasis-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Badlands-->
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Bad_0910</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Low-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Oasis-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Badlands-->
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Bad_1008</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Low-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Oasis-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Badlands-->
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Bad_1009</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Low-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Oasis-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Badlands-->
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Bad_1010</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Low-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Oasis-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Badlands-->
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Bad_1108</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Medium-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Oasis-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Badlands-->
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Bad_1110</Name>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Oasis-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Badlands-->
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Bad_1208</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<ped_spawn_density>High</ped_spawn_density> <!--From Medium-->
+			<veh_spawn_density>High</veh_spawn_density> <!--From Medium-->
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Oasis-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Badlands-->
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Bad_1210</Name>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<npc_spawn_group>Camo_Parker_Dust</npc_spawn_group> <!--From Guerilla Dust Oasis-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Badlands-->
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Oasis_0806</Name>
 			<ped_spawn_density>High</ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Guerilla Oasis-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_Oasis-->
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Oasis_0906</Name>
 			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Guerilla Oasis-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_Oasis-->
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Oasis_0907</Name>
-			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<veh_spawn_density>High</veh_spawn_density> <!--From Medium-->
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Guerilla Oasis-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_Oasis-->
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Oasis_1006</Name>
 			<ped_spawn_density>High</ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Guerilla Oasis-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_Oasis-->
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Oasis_1106</Name>
 			<ped_spawn_density>High</ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Guerilla Oasis-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_Oasis-->
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Oasis_1107</Name>
 			<ped_spawn_density>High</ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
+			<npc_spawn_group>Camo_Most_NPCs</npc_spawn_group> <!--From Guerilla Oasis-->
+			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group> <!--From Amb_Oasis-->
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>Parker_0312</Name>
-			<npc_spawn_group>All NPCs</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
+			<npc_spawn_group>Default Civilian</npc_spawn_group> <!--From Guerilla Parker-->
+			<vehicle_spawn_group>Camo_Parker_Dust</vehicle_spawn_group> <!--From Amb_Parker-->
+			<default_ambient_behavior>Camo Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
 			<_Editor>
 				<Category>Parker</Category>
 			</_Editor>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
-		<ambient_spawn_info>
-			<Name>Racetrack</Name>
-			<npc_spawn_group>Default Guerilla</npc_spawn_group>
-			<vehicle_spawn_group>Camo_Most_Vehicles</vehicle_spawn_group>
-			<default_ambient_behavior>Camo Most Sectors</default_ambient_behavior>
-			<_Editor>
-				<Category>Test</Category>
-			</_Editor>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-		</ambient_spawn_info>
+
+<!--<ambient_spawn_info>
+<Name>Racetrack</Name>
+<npc_spawn_group>Default Guerilla</npc_spawn_group>
+<vehicle_spawn_group>racetrack</vehicle_spawn_group>
+<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
+<_Editor>
+	<Category>Test</Category>
+</_Editor>
+<ped_spawn_density>High</ped_spawn_density>
+<night_ped_spawn_density>High</night_ped_spawn_density>
+<veh_spawn_density>High</veh_spawn_density>
+<night_veh_spawn_density>High</night_veh_spawn_density>
+</ambient_spawn_info>-->
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
@@ -613,7 +585,6 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
 	<EntryCategories>
 		<Category>

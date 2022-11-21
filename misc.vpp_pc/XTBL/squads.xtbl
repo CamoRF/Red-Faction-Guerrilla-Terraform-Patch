@@ -6,7 +6,7 @@
 				<Category>EDF</Category>
 			</_Editor>
 			<team_name>EDF</team_name>
-			<member_count>3</member_count>
+			<member_count>2</member_count> <!--From 1-->
 		</Squads>
 		<Squads>
 			<Name>basic_squad_2</Name>
@@ -14,31 +14,55 @@
 				<Category>EDF</Category>
 			</_Editor>
 			<team_name>EDF</team_name>
-			<member_count>4</member_count>
+			<member_count>3</member_count> <!--From 2-->
 		</Squads>
+		<Squads>
+			<Name>basic_squad_3</Name>
+			<_Editor>
+				<Category>EDF</Category>
+			</_Editor>
+			<team_name>EDF</team_name>
+			<member_count>4</member_count> <!--From 3-->
+		</Squads>	
 		<Squads>
 			<Name>basic_squad_4</Name>
 			<_Editor>
 				<Category>EDF</Category>
 			</_Editor>
 			<team_name>EDF</team_name>
-			<member_count>6</member_count>
+			<member_count>5</member_count> <!--From 4-->
 		</Squads>
+		<Squads>
+			<Name>basic_squad_5</Name>
+			<_Editor>
+				<Category>EDF</Category>
+			</_Editor>
+			<team_name>EDF</team_name>
+			<member_count>6</member_count> <!--From 5-->
+		</Squads>		
 		<Squads>
 			<Name>basic_squad_6</Name>
 			<_Editor>
 				<Category>EDF</Category>
 			</_Editor>
 			<team_name>EDF</team_name>
-			<member_count>8</member_count>
+			<member_count>7</member_count> <!--From 6-->
 		</Squads>
+		<Squads>
+			<Name>basic_squad_7</Name>
+			<_Editor>
+				<Category>EDF</Category>
+			</_Editor>
+			<team_name>EDF</team_name>
+			<member_count>8</member_count> <!--From 7-->
+		</Squads>		
 		<Squads>
 			<Name>basic_squad_8</Name>
 			<_Editor>
 				<Category>EDF</Category>
 			</_Editor>
 			<team_name>EDF</team_name>
-			<member_count>9</member_count>
+			<member_count>8</member_count> <!--From 8-->
 		</Squads>
 		<Squads>
 			<Name>marauder_squad_1</Name>
@@ -121,6 +145,46 @@
 			<member_count>0</member_count>
 		</Squads>
 		<Squads>
+			<Name>civilian_squad_1</Name>
+			<team_name>Civilian</team_name>
+			<member_count>1</member_count>
+			<_Editor>
+				<Category>Civilians</Category>
+			</_Editor>
+		</Squads>
+		<Squads>
+			<Name>civilian_squad_2</Name>
+			<team_name>Civilian</team_name>
+			<member_count>2</member_count>
+			<_Editor>
+				<Category>Civilians</Category>
+			</_Editor>
+		</Squads>
+		<Squads>
+			<Name>civilian_squad_3</Name>
+			<team_name>Civilian</team_name>
+			<member_count>3</member_count>
+			<_Editor>
+				<Category>Civilians</Category>
+			</_Editor>
+		</Squads>
+		<Squads>
+			<Name>civilian_squad_4</Name>
+			<team_name>Civilian</team_name>
+			<member_count>4</member_count>
+			<_Editor>
+				<Category>Civilians</Category>
+			</_Editor>
+		</Squads>
+		<Squads>
+			<Name>civilian_squad_6</Name>
+			<team_name>Civilian</team_name>
+			<member_count>6</member_count>
+			<_Editor>
+				<Category>Civilians</Category>
+			</_Editor>
+		</Squads>		
+		<Squads>
 			<Name>Carmen</Name>
 			<_Editor>
 				<Category>Mission/Activities</Category>
@@ -193,46 +257,6 @@
 			<special_npc>EDF_Lieutenant_Sniper</special_npc>
 		</Squads>
 		<Squads>
-			<Name>civilian_squad_1</Name>
-			<team_name>Civilian</team_name>
-			<member_count>1</member_count>
-			<_Editor>
-				<Category>Civilians</Category>
-			</_Editor>
-		</Squads>
-		<Squads>
-			<Name>civilian_squad_2</Name>
-			<team_name>Civilian</team_name>
-			<member_count>2</member_count>
-			<_Editor>
-				<Category>Civilians</Category>
-			</_Editor>
-		</Squads>
-		<Squads>
-			<Name>civilian_squad_3</Name>
-			<team_name>Civilian</team_name>
-			<member_count>3</member_count>
-			<_Editor>
-				<Category>Civilians</Category>
-			</_Editor>
-		</Squads>
-		<Squads>
-			<Name>civilian_squad_4</Name>
-			<team_name>Civilian</team_name>
-			<member_count>4</member_count>
-			<_Editor>
-				<Category>Civilians</Category>
-			</_Editor>
-		</Squads>
-		<Squads>
-			<Name>civilian_squad_6</Name>
-			<team_name>Civilian</team_name>
-			<member_count>6</member_count>
-			<_Editor>
-				<Category>Civilians</Category>
-			</_Editor>
-		</Squads>
-		<Squads>
 			<Name>mis_DBC_VIP_1</Name>
 			<team_name>EDF</team_name>
 			<member_count>1</member_count>
@@ -268,30 +292,7 @@
 				<Category>Mission/Activities</Category>
 			</_Editor>
 		</Squads>
-		<Squads>
-			<Name>basic_squad_3</Name>
-			<_Editor>
-				<Category>EDF</Category>
-			</_Editor>
-			<team_name>EDF</team_name>
-			<member_count>5</member_count>
-		</Squads>
-		<Squads>
-			<Name>basic_squad_5</Name>
-			<_Editor>
-				<Category>EDF</Category>
-			</_Editor>
-			<team_name>EDF</team_name>
-			<member_count>7</member_count>
-		</Squads>
-		<Squads>
-			<Name>basic_squad_7</Name>
-			<_Editor>
-				<Category>EDF</Category>
-			</_Editor>
-			<team_name>EDF</team_name>
-			<member_count>9</member_count>
-		</Squads>
+
 		<Squads>
 			<Name>Samanya</Name>
 			<team_name>Guerilla</team_name>

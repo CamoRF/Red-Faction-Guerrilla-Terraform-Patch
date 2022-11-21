@@ -5,48 +5,57 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<SquadSpawnPeriod>50</SquadSpawnPeriod> <!--From 75 for all of them-->
-			<NPCSpawnPeriod>50</NPCSpawnPeriod>
-			<MinSpawnDistance>100.0</MinSpawnDistance>
+			<SquadSpawnPeriod>150</SquadSpawnPeriod> <!--From 300-->
+			<NPCSpawnPeriod>150</NPCSpawnPeriod> <!--From 300-->
+			<MinSpawnDistance>125.0</MinSpawnDistance> <!--From 100.0-->
 		</SpawnParameters>
+		
 		<SpawnParameters>
 			<Name>Guerilla</Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<SquadSpawnPeriod>50</SquadSpawnPeriod>
-			<NPCSpawnPeriod>50</NPCSpawnPeriod>
-			<MinSpawnDistance>100.0</MinSpawnDistance>
+			<SquadSpawnPeriod>150</SquadSpawnPeriod> <!--From 300-->
+			<NPCSpawnPeriod>150</NPCSpawnPeriod> <!--From 300-->
+			<MinSpawnDistance>125.0</MinSpawnDistance> <!--From 100.0-->
 		</SpawnParameters>
+		
+<!--START Added-->	
 		<SpawnParameters>
 			<Name>Neutral</Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<SquadSpawnPeriod>50</SquadSpawnPeriod>
-			<NPCSpawnPeriod>50</NPCSpawnPeriod>
-			<MinSpawnDistance>100.0</MinSpawnDistance>
+			<SquadSpawnPeriod>150</SquadSpawnPeriod>
+			<NPCSpawnPeriod>150</NPCSpawnPeriod>
+			<MinSpawnDistance>125.0</MinSpawnDistance>
 		</SpawnParameters>
+		
 		<SpawnParameters>
 			<Name>Civilian</Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<SquadSpawnPeriod>50</SquadSpawnPeriod>
+			<SquadSpawnPeriod>150</SquadSpawnPeriod>
 			<NPCSpawnPeriod>0</NPCSpawnPeriod>
-			<MinSpawnDistance>100.0</MinSpawnDistance>
+			<MinSpawnDistance>125.0</MinSpawnDistance>
 		</SpawnParameters>
+		
 		<SpawnParameters>
 			<Name>Marauder</Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<SquadSpawnPeriod>50</SquadSpawnPeriod>
-			<NPCSpawnPeriod>50</NPCSpawnPeriod>
-			<MinSpawnDistance>100.0</MinSpawnDistance>
+			<SquadSpawnPeriod>150</SquadSpawnPeriod>
+			<NPCSpawnPeriod>150</NPCSpawnPeriod>
+			<MinSpawnDistance>125.0</MinSpawnDistance>
 		</SpawnParameters>
+<!--END Added-->	
 	</Table>
-	<TableTemplates></TableTemplates>
+
+	<TableTemplates>
+	</TableTemplates>
+
 	<TableDescription>
 		<Name>SpawnParameters</Name>
 		<Type>TableDescription</Type>
@@ -78,6 +87,7 @@
 			<Default>100.0</Default>
 		</Element>
 	</TableDescription>
+
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

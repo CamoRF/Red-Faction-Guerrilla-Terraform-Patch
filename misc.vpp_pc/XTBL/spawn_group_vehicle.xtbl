@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--START Added-->		
 		<spawn_group_vehicle>
 			<Name>Camo_Most_Vehicles</Name>
 			<vehicle_list>
@@ -51,6 +52,116 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
+		<spawn_group_vehicle>
+			<Name>Camo_Parker_Dust</Name>
+			<vehicle_list>
+				<vehicle_type>Civ_ResLuxury-C_1</vehicle_type>
+				<vehicle_type>Civ_ResLuxury-C_1</vehicle_type>
+				<vehicle_type>Civ_ResRunner_1</vehicle_type>
+				<vehicle_type>Civ_ResRunner_1</vehicle_type>
+				<vehicle_type>Col_Caravan_1</vehicle_type>
+				<vehicle_type>Col_Caravan_2</vehicle_type>
+				<vehicle_type>Col_Caravan_3</vehicle_type>
+				<vehicle_type>Col_Taxi_1</vehicle_type>
+				<vehicle_type>Col_Taxi_2</vehicle_type>
+				<vehicle_type>Col_Taxi_3</vehicle_type>
+				<vehicle_type>Min_Emergency_1</vehicle_type>
+				<vehicle_type>Min_Emergency_1</vehicle_type>				
+				<vehicle_type>Col_FixedFlatbed</vehicle_type>
+				<vehicle_type>Col_FixedFlatbed</vehicle_type>
+				<vehicle_type>Col_FixedFlatbed_2</vehicle_type>
+				<vehicle_type>Col_FixedFlatbed2</vehicle_type>
+				<vehicle_type>Col_FixedFlatbed3</vehicle_type>
+				<vehicle_type>Col_FixedFlatbed</vehicle_type>
+				<vehicle_type>Col_FixedFlatbed_2</vehicle_type>
+				<vehicle_type>Col_FixedFlatbed2</vehicle_type>
+				<vehicle_type>Col_FixedFlatbed3</vehicle_type>				
+				<vehicle_type>Col_FuelTanker_1</vehicle_type>
+				<vehicle_type>Col_FuelTanker_1</vehicle_type>
+				<vehicle_type>Col_FuelTanker_2</vehicle_type>
+				<vehicle_type>Col_FuelTanker_3</vehicle_type>
+				<vehicle_type>Col_FuelTanker_1</vehicle_type>
+				<vehicle_type>Col_FuelTanker_2</vehicle_type>
+				<vehicle_type>Col_FuelTanker_3</vehicle_type>				
+				<vehicle_type>Col_Mini_Hauler_1</vehicle_type>
+				<vehicle_type>Col_Mini_Hauler_1</vehicle_type>				
+				<vehicle_type>Col_Mini_Hauler_2</vehicle_type>
+				<vehicle_type>Col_Mini_Hauler_3</vehicle_type>
+				<vehicle_type>Col_Mini_Hauler_1</vehicle_type>
+				<vehicle_type>Col_Mini_Hauler_2</vehicle_type>
+				<vehicle_type>Col_Mini_Hauler_3</vehicle_type>				
+				<vehicle_type>Col_TrashTruck_1</vehicle_type>
+				<vehicle_type>Col_TrashTruck_1</vehicle_type>				
+				<vehicle_type>Col_TrashTruck_1</vehicle_type>
+				<vehicle_type>Col_TrashTruck_1</vehicle_type>
+				<vehicle_type>Col_TrashTruck_1</vehicle_type>				
+				<vehicle_type>Min_ATV_1</vehicle_type>
+				<vehicle_type>Min_ATV_2</vehicle_type>
+				<vehicle_type>Min_ATV_3</vehicle_type>
+				<vehicle_type>Min_ATV_1</vehicle_type>
+				<vehicle_type>Min_ATV_2</vehicle_type>
+				<vehicle_type>Min_ATV_3</vehicle_type>
+				<vehicle_type>Min_ATV_1</vehicle_type>
+				<vehicle_type>Min_ATV_2</vehicle_type>
+				<vehicle_type>Min_ATV_3</vehicle_type>
+				<vehicle_type>Min_ATV_1</vehicle_type>
+				<vehicle_type>Min_ATV_2</vehicle_type>
+				<vehicle_type>Min_ATV_3</vehicle_type>
+				<vehicle_type>Min_ATV_1</vehicle_type>
+				<vehicle_type>Min_ATV_2</vehicle_type>
+				<vehicle_type>Min_ATV_3</vehicle_type>					
+				<vehicle_type>Min_DumpTruck_1</vehicle_type>
+				<vehicle_type>Min_DumpTruck_2</vehicle_type>
+				<vehicle_type>Min_DumpTruck_3</vehicle_type>
+				<vehicle_type>Min_DumpTruck_1</vehicle_type>
+				<vehicle_type>Min_DumpTruck_2</vehicle_type>
+				<vehicle_type>Min_DumpTruck_3</vehicle_type>
+				<vehicle_type>Min_LightPickup_1</vehicle_type>
+				<vehicle_type>Min_LightPickup_2</vehicle_type>
+				<vehicle_type>Min_LightPickup_3</vehicle_type>
+				<vehicle_type>Min_LightPickup_1</vehicle_type>
+				<vehicle_type>Min_LightPickup_2</vehicle_type>
+				<vehicle_type>Min_LightPickup_3</vehicle_type>
+				<vehicle_type>Min_LightPickup_1</vehicle_type>
+				<vehicle_type>Min_LightPickup_2</vehicle_type>
+				<vehicle_type>Min_LightPickup_3</vehicle_type>
+				<vehicle_type>Min_LightPickup_1</vehicle_type>
+				<vehicle_type>Min_LightPickup_2</vehicle_type>
+				<vehicle_type>Min_LightPickup_3</vehicle_type>	
+				<vehicle_type>Min_LightPickup_1</vehicle_type>
+				<vehicle_type>Min_LightPickup_2</vehicle_type>
+				<vehicle_type>Min_LightPickup_3</vehicle_type>					
+				<vehicle_type>Min_Rover-A_1</vehicle_type>
+				<vehicle_type>Min_Rover-A_2</vehicle_type>
+				<vehicle_type>Min_Rover-A_3</vehicle_type>
+				<vehicle_type>Min_Rover-A_1</vehicle_type>
+				<vehicle_type>Min_Rover-A_2</vehicle_type>
+				<vehicle_type>Min_Rover-A_3</vehicle_type>
+				<vehicle_type>Min_Rover-A_1</vehicle_type>
+				<vehicle_type>Min_Rover-A_2</vehicle_type>
+				<vehicle_type>Min_Rover-A_3</vehicle_type>
+				<vehicle_type>Min_Rover-A_1</vehicle_type>
+				<vehicle_type>Min_Rover-A_2</vehicle_type>
+				<vehicle_type>Min_Rover-A_3</vehicle_type>
+				<vehicle_type>Min_Rover-A_1</vehicle_type>
+				<vehicle_type>Min_Rover-A_2</vehicle_type>
+				<vehicle_type>Min_Rover-A_3</vehicle_type>					
+				<vehicle_type>Min_SupplyTruck_1</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_2</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_3</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_1</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_2</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_3</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_1</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_2</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_3</vehicle_type>				
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:AmbientGroups</Category>
+			</_Editor>
+		</spawn_group_vehicle>		
+		
 		<spawn_group_vehicle>
 			<Name>Camo_All_Walkers</Name>
 			<vehicle_list>
@@ -61,14 +172,32 @@
 				<vehicle_type>Walker_Min</vehicle_type>
 				<vehicle_type>Walker_Min2</vehicle_type>
 				<vehicle_type>Walker_Min3</vehicle_type>
-<!--START DLC Vehicles Added-->
 				<vehicle_type>Mar_Walker</vehicle_type>
-<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Special</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
+		<spawn_group_vehicle>
+			<Name>Mar_Stomper</Name>
+			<vehicle_list>
+				<vehicle_type>Mar_stomper_MG</vehicle_type>
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:Marauder</Category>
+			</_Editor>
+		</spawn_group_vehicle>
+		<spawn_group_vehicle>
+			<Name>Mar_Chomper</Name>
+			<vehicle_list>
+				<vehicle_type>Mar_chomper</vehicle_type>
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:Marauder</Category>
+			</_Editor>
+		</spawn_group_vehicle>		
+
 		<spawn_group_vehicle>
 			<Name>Vanilla Guerilla</Name>
 			<vehicle_list>
@@ -92,6 +221,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>Vanilla EDF</Name>
 			<vehicle_list>
@@ -104,6 +234,60 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
+		<spawn_group_vehicle>
+			<Name>Vanilla Marauder</Name>
+			<vehicle_list>
+				<vehicle_type>Mar_Raider_1</vehicle_type>
+				<vehicle_type>Mar_Jetter_1</vehicle_type>
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</spawn_group_vehicle>		
+<!--END Added-->		
+
+<!--START Edited-->
+		<spawn_group_vehicle>
+			<Name>gue_walker</Name>
+			<vehicle_list>
+				<vehicle_type>Walker_Civilian</vehicle_type>
+				<vehicle_type>Walker_Civilian2</vehicle_type>
+				<vehicle_type>Walker_Civilian3</vehicle_type>
+				<vehicle_type>Mar_Walker</vehicle_type>				
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:Guerilla</Category>
+			</_Editor>
+		</spawn_group_vehicle>
+
+		<spawn_group_vehicle>
+			<Name>Mar_Raider</Name>
+			<vehicle_list>
+				<vehicle_type>Mar_Raider_1</vehicle_type>			
+				<vehicle_type>Mar_Jetter_1</vehicle_type> 
+				<vehicle_type>Mar_stomper_MG</vehicle_type>
+				<vehicle_type>Mar_chomper</vehicle_type>				
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:Marauder</Category>
+			</_Editor>
+		</spawn_group_vehicle>
+		
+		<spawn_group_vehicle>
+			<Name>Mar_Jetter_1</Name>
+			<vehicle_list>
+				<vehicle_type>Mar_Jetter_1</vehicle_type>
+				<vehicle_type>Mar_Raider_1</vehicle_type>
+				<vehicle_type>Mar_stomper_MG</vehicle_type>
+				<vehicle_type>Mar_chomper</vehicle_type>
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:Marauder</Category>
+			</_Editor>
+		</spawn_group_vehicle>
+<!--END Edited-->		
+		
 		<spawn_group_vehicle>
 			<Name>Amb_Raids_Eos</Name>
 			<vehicle_list>
@@ -215,7 +399,6 @@
 				<vehicle_type>Walker_Civilian</vehicle_type>
 				<vehicle_type>Walker_Civilian2</vehicle_type>
 				<vehicle_type>Walker_Civilian3</vehicle_type>
-				<vehicle_type>Mar_Walker</vehicle_type>
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Missions</Category>
@@ -392,114 +575,26 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		<spawn_group_vehicle>
-			<Name>gue_walker</Name>
-			<vehicle_list>
-				<vehicle_type>Walker_Civilian</vehicle_type>
-				<vehicle_type>Walker_Civilian2</vehicle_type>
-				<vehicle_type>Walker_Civilian3</vehicle_type>
-<!--START DLC Vehicles Added-->
-				<vehicle_type>Mar_Walker</vehicle_type>
-<!--END DLC Vehicles Added-->
-			</vehicle_list>
-			<_Editor>
-				<Category>Entries:Guerilla</Category>
-			</_Editor>
-		</spawn_group_vehicle>
-		<spawn_group_vehicle>
-			<Name>Mar_Raider</Name>
-			<vehicle_list>
-				<vehicle_type>Mar_Raider_1</vehicle_type>
-				<vehicle_type>Mar_Jetter_1</vehicle_type>
-<!--START DLC Vehicles Added-->
-				<vehicle_type>Mar_stomper_MG</vehicle_type>
-				<vehicle_type>Mar_chomper</vehicle_type>				
-			</vehicle_list>
-			<_Editor>
-				<Category>Entries:Marauder</Category>
-			</_Editor>
-		</spawn_group_vehicle>
-		<spawn_group_vehicle>
-			<Name>Mar_Stomper</Name>
-			<vehicle_list>
-				<vehicle_type>Mar_stomper_MG</vehicle_type>
-			</vehicle_list>
-			<_Editor>
-				<Category>Entries:Marauder</Category>
-			</_Editor>
-		</spawn_group_vehicle>
-		<spawn_group_vehicle>
-			<Name>Mar_Chomper</Name>
-			<vehicle_list>
-				<vehicle_type>Mar_chomper</vehicle_type>
-			</vehicle_list>
-			<_Editor>
-				<Category>Entries:Marauder</Category>
-			</_Editor>
-		</spawn_group_vehicle>
-<!--END DLC Vehicles Added-->
+<!--ORIGINAL LOCATION OF gue_walker-->
+<!--ORIGINAL LOCATION OF Mar_Raider-->
 		<spawn_group_vehicle>
 			<Name>Default Guerilla</Name>
 			<vehicle_list>
-				<vehicle_type>Civ_ResLuxury-C_1</vehicle_type>
-				<vehicle_type>Civ_ResRunner-C_1</vehicle_type>
-				<vehicle_type>Civ_ResRunner_1</vehicle_type>
-				<vehicle_type>Col_Caravan_1</vehicle_type>
-				<vehicle_type>Col_Caravan_2</vehicle_type>
-				<vehicle_type>Col_Caravan_3</vehicle_type>
-				<vehicle_type>Col_FixedFlatbed</vehicle_type>
-				<vehicle_type>Col_FixedFlatbed_2</vehicle_type>
-				<vehicle_type>Col_FixedFlatbed2</vehicle_type>
-				<vehicle_type>Col_FixedFlatbed3</vehicle_type>
-				<vehicle_type>Col_FuelTanker_1</vehicle_type>
-				<vehicle_type>Col_FuelTanker_2</vehicle_type>
-				<vehicle_type>Col_FuelTanker_3</vehicle_type>
-				<vehicle_type>Col_Mini_Hauler_1</vehicle_type>
-				<vehicle_type>Col_Mini_Hauler_2</vehicle_type>
-				<vehicle_type>Col_Mini_Hauler_3</vehicle_type>
-				<vehicle_type>Col_Taxi_1</vehicle_type>
-				<vehicle_type>Col_Taxi_2</vehicle_type>
-				<vehicle_type>Col_Taxi_3</vehicle_type>
-				<vehicle_type>Col_TrashTruck_1</vehicle_type>
-				<vehicle_type>Col_TrashTruck_MG1</vehicle_type>
-				<vehicle_type>Min_ATV_1</vehicle_type>
-				<vehicle_type>Min_ATV_2</vehicle_type>
-				<vehicle_type>Min_ATV_3</vehicle_type>
-				<vehicle_type>Min_ATV_MG1</vehicle_type>
-				<vehicle_type>Min_ATV_MG2</vehicle_type>
-				<vehicle_type>Min_ATV_MG3</vehicle_type>
-				<vehicle_type>Min_DumpTruck_1</vehicle_type>
-				<vehicle_type>Min_DumpTruck_2</vehicle_type>
-				<vehicle_type>Min_DumpTruck_3</vehicle_type>
-				<vehicle_type>Min_Emergency_1</vehicle_type>
 				<vehicle_type>Min_LightPickup_1</vehicle_type>
 				<vehicle_type>Min_LightPickup_2</vehicle_type>
 				<vehicle_type>Min_LightPickup_3</vehicle_type>
-				<vehicle_type>Min_LightPickup_MG1</vehicle_type>
-				<vehicle_type>Min_LightPickup_MG2</vehicle_type>
-				<vehicle_type>Min_LightPickup_MG3</vehicle_type>
 				<vehicle_type>Min_Rover-A_1</vehicle_type>
-				<vehicle_type>Min_Rover-A_1WK</vehicle_type>
 				<vehicle_type>Min_Rover-A_2</vehicle_type>
-				<vehicle_type>Min_Rover-A_2WK</vehicle_type>
 				<vehicle_type>Min_Rover-A_3</vehicle_type>
-				<vehicle_type>Min_Rover-A_3WK</vehicle_type>
-				<vehicle_type>Min_Rover-A_DMG1</vehicle_type>
-				<vehicle_type>Min_Rover-A_DMG2</vehicle_type>
-				<vehicle_type>Min_Rover-A_DMG3</vehicle_type>
-				<vehicle_type>Min_Rover-A_DRR1</vehicle_type>
-				<vehicle_type>Min_Rover-A_DRR2</vehicle_type>
-				<vehicle_type>Min_Rover-A_DRR3</vehicle_type>
-				<vehicle_type>Min_Rover-A_MG1</vehicle_type>
-				<vehicle_type>Min_Rover-A_MG2</vehicle_type>
-				<vehicle_type>Min_Rover-A_MG3</vehicle_type>
 				<vehicle_type>Min_SupplyTruck_1</vehicle_type>
 				<vehicle_type>Min_SupplyTruck_2</vehicle_type>
 				<vehicle_type>Min_SupplyTruck_3</vehicle_type>
-				<vehicle_type>Min_SupplyTruck_MG1</vehicle_type>
-				<vehicle_type>Min_SupplyTruck_MG2</vehicle_type>
-				<vehicle_type>Min_SupplyTruck_MG3</vehicle_type>
-				<vehicle_type>Min_SupplyTruck_RT</vehicle_type>
+				<vehicle_type>Min_ATV_1</vehicle_type>
+				<vehicle_type>Min_ATV_2</vehicle_type>
+				<vehicle_type>Min_ATV_3</vehicle_type>
+				<vehicle_type>Col_Mini_Hauler_1</vehicle_type>
+				<vehicle_type>Col_Mini_Hauler_2</vehicle_type>
+				<vehicle_type>Col_Mini_Hauler_3</vehicle_type>
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries</Category>
@@ -508,50 +603,10 @@
 		<spawn_group_vehicle>
 			<Name>Default EDF</Name>
 			<vehicle_list>
-				<vehicle_type>EDF_APC-A_1</vehicle_type>
-				<vehicle_type>EDF_APC-A_2</vehicle_type>
-				<vehicle_type>EDF_APC-A_3</vehicle_type>
-				<vehicle_type>EDF_APC-A_4</vehicle_type>
-				<vehicle_type>EDF_APC-A_Gauss</vehicle_type>
-				<vehicle_type>EDF_APC-A_Gauss2</vehicle_type>
-				<vehicle_type>EDF_APC-A_Gauss3</vehicle_type>
-				<vehicle_type>EDF_APC-A_Gauss4</vehicle_type>
-				<vehicle_type>EDF_APC_noturret</vehicle_type>
-				<vehicle_type>EDF_APC_noturret2</vehicle_type>
-				<vehicle_type>EDF_APC_noturret3</vehicle_type>
-				<vehicle_type>EDF_APC_noturret4</vehicle_type>
 				<vehicle_type>EDF_Scout_1</vehicle_type>
 				<vehicle_type>EDF_Scout_2</vehicle_type>
 				<vehicle_type>EDF_Scout_3</vehicle_type>
 				<vehicle_type>EDF_Scout_4</vehicle_type>
-				<vehicle_type>EDF_Scout_Gauss</vehicle_type>
-				<vehicle_type>EDF_Scout_Gauss2</vehicle_type>
-				<vehicle_type>EDF_Scout_Gauss3</vehicle_type>
-				<vehicle_type>EDF_Scout_Gauss4</vehicle_type>
-				<vehicle_type>EDF_Scout_Rocket</vehicle_type>
-				<vehicle_type>EDF_ScoutNoTurret</vehicle_type>
-				<vehicle_type>EDF_ScoutNTurret2</vehicle_type>
-				<vehicle_type>EDF_ScoutNTurret3</vehicle_type>
-				<vehicle_type>EDF_ScoutNTurret4</vehicle_type>
-				<vehicle_type>EDF_StaffCar_1</vehicle_type>
-				<vehicle_type>EDF_StaffCar_2</vehicle_type>
-				<vehicle_type>EDF_StaffCar_3</vehicle_type>
-				<vehicle_type>EDF_StaffCar_Gauss</vehicle_type>
-				<vehicle_type>EDF_StaffCar_Gauss2</vehicle_type>
-				<vehicle_type>EDF_StaffCar_Gauss3</vehicle_type>
-				<vehicle_type>EDF_StaffCar_H2H</vehicle_type>
-				<vehicle_type>EDF_StaffCar_NoTurret</vehicle_type>
-				<vehicle_type>EDF_StaffCar_NTurret2</vehicle_type>
-				<vehicle_type>EDF_StaffCar_NTurret3</vehicle_type>
-				<vehicle_type>EDF_Supplytruck_1</vehicle_type>
-				<vehicle_type>EDF_Supplytruck_2</vehicle_type>
-				<vehicle_type>EDF_Supplytruck_3</vehicle_type>
-				<vehicle_type>EDF_Supplytruck_Gauss</vehicle_type>
-				<vehicle_type>EDF_Supplytruck_Gauss2</vehicle_type>
-				<vehicle_type>EDF_Supplytruck_Gauss3</vehicle_type>
-				<vehicle_type>EDF_Supplytruck_NoTurret</vehicle_type>
-				<vehicle_type>EDF_Supplytruck_NTurret2</vehicle_type>
-				<vehicle_type>EDF_Supplytruck_NTurret3</vehicle_type>
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries</Category>
@@ -562,10 +617,6 @@
 			<vehicle_list>
 				<vehicle_type>Mar_Raider_1</vehicle_type>
 				<vehicle_type>Mar_Jetter_1</vehicle_type>
-<!--START DLC Vehicles Added-->
-				<vehicle_type>Mar_stomper_MG</vehicle_type>
-				<vehicle_type>Mar_chomper</vehicle_type>
-<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries</Category>
@@ -967,29 +1018,13 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		<spawn_group_vehicle>
-			<Name>Mar_Jetter_1</Name>
-			<vehicle_list>
-				<vehicle_type>Mar_Raider_1</vehicle_type>
-				<vehicle_type>Mar_Jetter_1</vehicle_type>
-<!--START DLC Vehicles Added-->
-				<vehicle_type>Mar_stomper_MG</vehicle_type>
-				<vehicle_type>Mar_chomper</vehicle_type>
-<!--END DLC Vehicles Added-->
-			</vehicle_list>
-			<_Editor>
-				<Category>Entries:Marauder</Category>
-			</_Editor>
-		</spawn_group_vehicle>
+<!--ORIGINAL LOCATION OF Mar_Jeter_1-->
 		<spawn_group_vehicle>
 			<Name>Walker_Min</Name>
 			<vehicle_list>
 				<vehicle_type>Walker_Min</vehicle_type>
 				<vehicle_type>Walker_Min2</vehicle_type>
 				<vehicle_type>Walker_Min3</vehicle_type>
-<!--START DLC Vehicles Added-->
-				<vehicle_type>Mar_Walker</vehicle_type>
-<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Guerilla</Category>
@@ -1337,7 +1372,7 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		<spawn_group_vehicle>
+<!--		<spawn_group_vehicle>
 			<Name>racetrack</Name>
 			<vehicle_list>
 				<vehicle_type>Civ_ResRunner-C_1</vehicle_type>
@@ -1359,7 +1394,7 @@
 			<_Editor>
 				<Category>Entries:Test</Category>
 			</_Editor>
-		</spawn_group_vehicle>
+		</spawn_group_vehicle>-->
 		<spawn_group_vehicle>
 			<Name>mis_AVM_InitialVehicle</Name>
 			<vehicle_list>
@@ -1418,9 +1453,10 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+
+<!--ORIGINAL Safehouse spawns commented out-->		
 		<spawn_group_vehicle>
-			<Name>Amb_0410Safehouse</Name>
-			<!--Parker Safehouse-->
+			<Name>Amb_0410Safehouse</Name> 	<!--Parker Safehouse-->
 			<vehicle_list>
 				<vehicle_type>Civ_ResLuxury-C_1</vehicle_type>
 				<vehicle_type>Civ_ResLuxury-C_1</vehicle_type>
@@ -1464,7 +1500,10 @@
 				<vehicle_type>Min_Rover-A_3</vehicle_type>
 				<vehicle_type>Min_SupplyTruck_1</vehicle_type>
 				<vehicle_type>Min_SupplyTruck_2</vehicle_type>
-				<vehicle_type>Min_SupplyTruck_3</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_3</vehicle_type>			
+<!--<vehicle_type>Min_LightPickup_1</vehicle_type>
+<vehicle_type>Min_LightPickup_2</vehicle_type>
+<vehicle_type>Min_LightPickup_3</vehicle_type>-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
@@ -1515,7 +1554,13 @@
 				<vehicle_type>Min_Rover-A_3</vehicle_type>
 				<vehicle_type>Min_SupplyTruck_1</vehicle_type>
 				<vehicle_type>Min_SupplyTruck_2</vehicle_type>
-				<vehicle_type>Min_SupplyTruck_3</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_3</vehicle_type>				
+<!--<vehicle_type>Min_ATV_MG1</vehicle_type>
+<vehicle_type>Min_ATV_MG2</vehicle_type>
+<vehicle_type>Min_ATV_MG3</vehicle_type>
+<vehicle_type>Min_Rover-A_DMG1</vehicle_type>
+<vehicle_type>Min_Rover-A_DMG2</vehicle_type>
+<vehicle_type>Min_Rover-A_DMG3</vehicle_type>-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
@@ -1526,10 +1571,17 @@
 			<vehicle_list>
 				<vehicle_type>Mar_Raider_1</vehicle_type>
 				<vehicle_type>Mar_Jetter_1</vehicle_type>
-<!--START DLC Vehicles Added-->
 				<vehicle_type>Mar_stomper_MG</vehicle_type>
-				<vehicle_type>Mar_chomper</vehicle_type>
-<!--END DLC Vehicles Added-->
+				<vehicle_type>Mar_chomper</vehicle_type>			
+<!--<vehicle_type>Min_ATV_MG1</vehicle_type>
+<vehicle_type>Min_ATV_MG2</vehicle_type>
+<vehicle_type>Min_ATV_MG3</vehicle_type>
+<vehicle_type>Min_LightPickup_MG1</vehicle_type>
+<vehicle_type>Min_LightPickup_MG2</vehicle_type>
+<vehicle_type>Min_LightPickup_MG3</vehicle_type>
+<vehicle_type>Min_Rover-A_DMG1</vehicle_type>
+<vehicle_type>Min_Rover-A_DMG2</vehicle_type>
+<vehicle_type>Min_Rover-A_DMG3</vehicle_type>-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
@@ -1593,7 +1645,11 @@
 				<vehicle_type>EDF_MediumTank-A_1</vehicle_type>
 				<vehicle_type>EDF_MediumTank-A_2</vehicle_type>
 				<vehicle_type>EDF_MediumTank-A_3</vehicle_type>
-				<vehicle_type>EDF_MediumTank-A_4</vehicle_type>
+				<vehicle_type>EDF_MediumTank-A_4</vehicle_type>				
+<!--<vehicle_type>Col_TrashTruck_MG1</vehicle_type>
+<vehicle_type>Min_LightPickup_MG1</vehicle_type>
+<vehicle_type>Min_LightPickup_MG2</vehicle_type>
+<vehicle_type>Min_LightPickup_MG3</vehicle_type>-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
@@ -1667,7 +1723,11 @@
 				<vehicle_type>Col_FuelTanker_3</vehicle_type>
 				<vehicle_type>Col_FixedFlatbed</vehicle_type>
 				<vehicle_type>Col_FixedFlatbed2</vehicle_type>
-				<vehicle_type>Col_FixedFlatbed3</vehicle_type>
+				<vehicle_type>Col_FixedFlatbed3</vehicle_type>				
+<!--<vehicle_type>Col_TrashTruck_MG1</vehicle_type>
+<vehicle_type>Min_Rover-A_DMG1</vehicle_type>
+<vehicle_type>Min_Rover-A_DMG2</vehicle_type>
+<vehicle_type>Min_Rover-A_DMG3</vehicle_type>-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>

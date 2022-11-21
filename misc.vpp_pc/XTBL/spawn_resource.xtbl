@@ -5,11 +5,12 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<edf_population>3</edf_population>
-			<gue_population>8</gue_population>
-			<mar_population>3</mar_population>
+			<edf_population>3</edf_population> <!--From 2-->
+			<gue_population>8</gue_population> <!--From 3-->
+			<mar_population>3</mar_population> <!--From 0-->
 			<rotate_slots>True</rotate_slots>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>WMR</Name>
 			<edf_population>2</edf_population>
@@ -43,6 +44,7 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>DFA</Name>
 			<edf_population>2</edf_population>
@@ -62,6 +64,7 @@
 				</vehicle_info>
 			</vehicle_list>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>FMC</Name>
 			<edf_population>2</edf_population>
@@ -69,7 +72,7 @@
 			<mar_population>0</mar_population>
 			<vehicle_list>
 				<vehicle_info>
-					<vehicle_group>Vanilla Guerilla</vehicle_group>
+					<vehicle_group>Vanilla Guerilla</vehicle_group> <!--From Default Guerilla-->
 					<reservation_count>2</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
@@ -99,6 +102,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>RT</Name>
 			<edf_population>3</edf_population>
@@ -122,7 +126,7 @@
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>Vanilla Guerilla</vehicle_group>
+					<vehicle_group>Vanilla Guerilla</vehicle_group> <!--From Default Guerilla-->
 					<reservation_count>2</reservation_count>
 				</vehicle_info>
 			</vehicle_list>
@@ -136,6 +140,7 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>H2H</Name>
 			<edf_population>3</edf_population>
@@ -185,6 +190,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>TA</Name>
 			<edf_population>3</edf_population>
@@ -220,6 +226,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>SYE</Name>
 			<edf_population>2</edf_population>
@@ -227,7 +234,7 @@
 			<mar_population>0</mar_population>
 			<npc_list>
 				<npc_info>
-					<npc_group>Vanilla EDF</npc_group>
+					<npc_group>Vanilla EDF</npc_group> <!--From Default EDF-->
 					<reservation_count>2</reservation_count>
 				</npc_info>
 				<npc_info>
@@ -245,6 +252,7 @@
 				</vehicle_info>
 			</vehicle_list>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>PartyTime</Name>
 			<edf_population>2</edf_population>
@@ -252,11 +260,11 @@
 			<mar_population>1</mar_population>
 			<vehicle_list>
 				<vehicle_info>
-					<vehicle_group>Default Marauder</vehicle_group>
+					<vehicle_group>Vanilla Marauder</vehicle_group> <!--From Default Marauder-->
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>Vanilla EDF</vehicle_group>
+					<vehicle_group>Vanilla EDF</vehicle_group> <!--From Default EDF-->
 					<reservation_count>2</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
@@ -278,15 +286,15 @@
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
-					<npc_group>Vanilla EDF</npc_group>
+					<npc_group>Vanilla EDF</npc_group> <!--From Default EDF-->
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
-					<npc_group>Default Marauder</npc_group>
+					<npc_group>Vanilla Marauder</npc_group> <!--From Default Marauder-->
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
-					<npc_group>Vanilla Guerilla</npc_group>
+					<npc_group>Vanilla Guerilla</npc_group> <!--From Default Guerilla-->
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
@@ -298,6 +306,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>TJ</Name>
 			<edf_population>3</edf_population>
@@ -309,7 +318,7 @@
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>Vanilla Guerilla</vehicle_group>
+					<vehicle_group>Vanilla Guerilla</vehicle_group> <!--From Default Guerilla-->
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
@@ -339,6 +348,7 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>WKWYA</Name>
 			<edf_population>3</edf_population>
@@ -364,7 +374,7 @@
 			</vehicle_list>
 			<npc_list>
 				<npc_info>
-					<npc_group>Vanilla EDF</npc_group>
+					<npc_group>Vanilla EDF</npc_group> <!--From Default EDF-->
 					<reservation_count>2</reservation_count>
 				</npc_info>
 			</npc_list>
@@ -372,6 +382,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>Intro 2</Name>
 			<edf_population>2</edf_population>
@@ -389,7 +400,7 @@
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
-					<npc_group>Vanilla EDF</npc_group>
+					<npc_group>Vanilla EDF</npc_group> <!--From Default EDF-->
 					<reservation_count>2</reservation_count>
 				</npc_info>
 			</npc_list>
@@ -397,6 +408,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>Tutorial</Name>
 			<edf_population>3</edf_population>
@@ -430,6 +442,7 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>GOT</Name>
 			<edf_population>2</edf_population>
@@ -461,6 +474,7 @@
 				</vehicle_info>
 			</vehicle_list>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>AVM</Name>
 			<edf_population>2</edf_population>
@@ -492,6 +506,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>STGC</Name>
 			<edf_population>2</edf_population>
@@ -528,11 +543,12 @@
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
-					<npc_group>Default Marauder</npc_group>
+					<npc_group>Vanilla Marauder</npc_group> <!--From Default Marauder-->
 					<reservation_count>1</reservation_count>
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>Intro1</Name>
 			<edf_population>3</edf_population>
@@ -544,7 +560,7 @@
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>Vanilla Guerilla</vehicle_group>
+					<vehicle_group>Default Guerilla</vehicle_group>
 					<reservation_count>3</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
@@ -556,6 +572,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>Final</Name>
 			<edf_population>3</edf_population>
@@ -601,6 +618,7 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>DBC</Name>
 			<edf_population>2</edf_population>
@@ -624,7 +642,7 @@
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>Vanilla Guerilla</vehicle_group>
+					<vehicle_group>Default Guerilla</vehicle_group>
 					<reservation_count>2</reservation_count>
 				</vehicle_info>
 			</vehicle_list>
@@ -650,6 +668,7 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>AtEDFCC</Name>
 			<edf_population>3</edf_population>
@@ -691,6 +710,7 @@
 				</npc_info>
 			</npc_list>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>EBS</Name>
 			<edf_population>2</edf_population>
@@ -724,6 +744,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>SH</Name>
 			<edf_population>2</edf_population>
@@ -738,7 +759,7 @@
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
-					<npc_group>Default Civilian</npc_group>
+					<npc_group>Default Civilian</npc_group> <!--From Default Civilian-->
 					<reservation_count>1</reservation_count>
 				</npc_info>
 			</npc_list>
@@ -749,6 +770,7 @@
 				</vehicle_info>
 			</vehicle_list>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>MarTemple</Name>
 			<edf_population>3</edf_population>
@@ -763,23 +785,13 @@
 					<vehicle_group>Mar_Raider</vehicle_group>
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
-<!--START DLC Vehicles Added-->
-				<vehicle_info>
-					<vehicle_group>Mar_Stomper</vehicle_group>
-					<reservation_count>1</reservation_count>
-				</vehicle_info>
-				<vehicle_info>
-					<vehicle_group>Mar_Chomper</vehicle_group>
-					<reservation_count>1</reservation_count>
-				</vehicle_info>
-<!--END DLC Vehicles Added-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<npc_list>
 				<npc_info>
-					<npc_group>Default Marauder</npc_group>
+					<npc_group>Vanilla Marauder</npc_group> <!--From Default Marauder-->
 					<reservation_count>1</reservation_count>
 				</npc_info>
 			</npc_list>
@@ -882,7 +894,6 @@
 			<Min_Children>1</Min_Children>
 			<Num_Display_Rows>8</Num_Display_Rows>
 		</Element>
-		<Single_Line_XML>False</Single_Line_XML>
 	</TableDescription>
 	<EntryCategories>
 		<Category>
