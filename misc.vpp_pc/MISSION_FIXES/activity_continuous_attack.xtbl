@@ -879,7 +879,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		<continuous_attack_data>
+		<continuous_attack_data> <!--Mission Fix-->
 			<Name>ls_ad_02a</Name>
 			<attacker_count>3</attacker_count>
 			<respawn_period>0.0</respawn_period>
@@ -888,17 +888,17 @@
 			<squad_list>
 				<squad_info>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>Vanilla EDF</vehicle_group>
+					<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_APC-->
 					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 				<squad_info>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>EDF_flyerMG</vehicle_group>
+					<vehicle_group>EDF_flyerMG</vehicle_group> <!--From EDF_APC-->
 					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 				<squad_info>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>Vanilla EDF</vehicle_group>
+					<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_scout_turr-->
 					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
@@ -915,17 +915,17 @@
 			<squad_list>
 				<squad_info>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>Vanilla EDF</vehicle_group>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
 					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 				<squad_info>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>EDF_flyerMG</vehicle_group>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
 					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 				<squad_info>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>Vanilla EDF</vehicle_group>
+					<vehicle_group>EDF_APC</vehicle_group>
 					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
@@ -942,12 +942,12 @@
 			<squad_list>
 				<squad_info>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>Vanilla EDF</vehicle_group>
+					<vehicle_group>EDF_APC</vehicle_group>
 					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 				<squad_info>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>Vanilla EDF</vehicle_group>
+					<vehicle_group>EDF_scout_turr</vehicle_group>
 					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 				<squad_info>
@@ -957,7 +957,7 @@
 				</squad_info>
 				<squad_info>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>Vanilla EDF</vehicle_group>
+					<vehicle_group>EDF_APC_Gauss</vehicle_group>
 					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
