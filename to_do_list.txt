@@ -1,45 +1,6 @@
 ------
 v1.07
 ------
-* [Cornered] 
-
-	CTF Stands
-
-	* 255.476, 5.064, -417.209
-
-	* 307.566, 12.689, -164.786
-
-* [Overpass]
-
-	CTF Stands
-
-	* 276.602, 11.984, -281.828
-
-	* 196.915, -2.947, -116.402
-
-* [Gauntlet]
-
-	CTF Stands 
-
-	* 255.914, -13.984, -372.032
-
-	* 252.722, -21.984, -73.927
-
-* [Crevice]
-
-	CTF Stands 
-
-	* 264.655, 9.995, -234.045
-
-	* 115.461, 5.986, -276.093
-
-* [Crescent]
-
-	CTF Stands
-
-	* 180.129, -10, 184.915
-
-	* 247.371, 2.669, -360.016
 	
 [Ruins Interior Map]
 	* Add more player spawns
@@ -63,13 +24,38 @@ v1.07
 	* Fix any messed up children on vanilla mp maps
 	* Fix floating or clipping weapons and spawns on all maps
 	
+	* [Cornered] 
+		CTF Stands
+		* 255.476, 5.064, -417.209
+		* 307.566, 12.689, -164.786
+
+	* [Overpass]
+		CTF Stands
+		* 276.602, 11.984, -281.828
+		* 196.915, -2.947, -116.402
+
+	* [Gauntlet]
+		CTF Stands 
+		* 255.914, -13.984, -372.032
+		* 252.722, -21.984, -73.927
+
+	* [Crevice]
+		CTF Stands 
+		* 264.655, 9.995, -234.045
+		* 115.461, 5.986, -276.093
+
+	* [Crescent]
+		CTF Stands
+		* 180.129, -10, 184.915
+		* 247.371, 2.669, -360.016
+	
 [Fix: Out of Bounds Exploits]
 	* Puncture - test 
 	* Doubletime - test 
 	* Equilbrium/landbridge - test
 	* Remnant - 
 	* Haven - test 
-	* Downfall (inside rock exploit) - test
+	* Downfall (inside rock exploit)
 	* Middle rockspot on Deadzone
 	* Large rock on Imperial
 
@@ -78,9 +64,6 @@ v1.07
 	* Restore the vanilla inital loading screen in the interface.vpp_pc file, seems to only need to be replaced in misc.vpp_pc
 	* Double check DLC weapons in items_3d.xtbl
 	* SP DLC crashing when loading map (related to porting characters?)
-	* Move artificial gravity removal to gameplay add-on 
-	* Move changes to tank health to gameplay add-on
-
 
 [Weapons]
 	* Spiker: missing textures when on ground, only host can see the projectile (peg file related most likely)
@@ -115,6 +98,10 @@ DONE/ADD TO CHANGELOG
 	* Sniper scope is broken
 	* Add kaboom pack back to Rift at 0,0,0
 	* Add team only stealth and vision backpacks to Quarantine, opposite teams to heal and firepower
+	* Move artificial gravity removal to gameplay add-on 
+	* Move changes to tank health to gameplay add-on
+	* Truck is weaker in second to last mission in eos the one that has you protect the truck with the missile that will be loaded with the nano forge
+	* First transporter mission in Parker/FFZ is very hard to beat because the truck gets stuck and loses all speed
 
 -------------------
 LOW PRIORITY 
@@ -156,18 +143,15 @@ LOW PRIORITY
 	* Half cloud speed on all maps	
 	
 [Missions]
-		* NPC drives off the cliff in Redemption near the large bridge (see screenshot)
-		* Tank doesn't spawn in Redemption
-		* Redemption could use more checkpoints like after you rescue the prisoners
-		* Test protecting Building mission near Oasis Residential (see screenshot)
-		* EOS side mission (see screenshot)
-		* Truck is weaker in second to last mission in eos the one that has you protect the truck with the missile that will be loaded with the nano forge
-		* First transporter mission in Parker/FFZ is very hard to beat because the truck gets stuck and loses all speed
+	* NPC drives off the cliff in Redemption near the large bridge (see screenshot)
+	* Tank doesn't spawn in Redemption
+	* Redemption could use more checkpoints like after you rescue the prisoners
+	* Test protecting Building mission near Oasis Residential (see screenshot)
+	* EOS side mission (see screenshot)
 
 [Vehicles]
-		* Apply gravity changes to DLC vehicles
-		* Walker camera jerk when explosion nearby or swing down onto a car
-		* Increase mouse sensitivity in walkers
+	* Walker camera jerk when explosion nearby or swing down onto a car
+	* Increase mouse sensitivity in walkers
 	
 ------------------------------------------------
 OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
