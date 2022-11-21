@@ -15,15 +15,20 @@ v1.07
 	* Disable all other game mode flags for children of all objectives - wip
 	* Imperial: Add more weapons to make your way up the large buildings on Imperial, nano forge and reconstructor 
 	* Cascade: Add a repair tool under the bridge
-	* Make sure all WC maps have at least 16 spawns
-	* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords - wip
+	* Make sure all WC maps have at least 16 or more spawns
+	* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords
 	* Transfer smoke, fire, mine beacon and artillery sign asset to Ruins
 	* Transfer the mine beacon and cliff warning sign asset to Expansion
 	* Transfer the mine beacon and artillery sign asset to Transmission and Abandoned
 	* Finish new siege maps
 	* Fix any messed up children on vanilla mp maps
 	* Fix floating or clipping weapons and spawns on all maps
-	
+	* Add another Subverter to Gauntlet, Garrison and Downfall	
+	* Add team spawns to all WC maps
+	* Add more cameras to GFWL/Nordic Bonus	and Repurcussion	
+	* Add misslepod to the top of the large rock on Deadzone
+
+[New Map Objectives]
 	* [Cornered] 
 		CTF Stands
 		* 255.476, 5.064, -417.209
@@ -51,12 +56,11 @@ v1.07
 	
 [Fix: Out of Bounds Exploits]
 	* Puncture - test 
-	* Doubletime - test 
-	* Equilbrium/landbridge - test
-	* Remnant - 
-	* Haven - test 
-	* Downfall (inside rock exploit)
-	* Middle rockspot on Deadzone
+	* Doubletime rock spots
+	* Equilbrium/landbridge
+	* Remnant rock spots
+	* Haven
+	* Downfall (inside and top of rocks exploit)
 	* Large rock on Imperial
 
 [Misc]	
@@ -64,6 +68,7 @@ v1.07
 	* Restore the vanilla inital loading screen in the interface.vpp_pc file, seems to only need to be replaced in misc.vpp_pc
 	* Double check DLC weapons in items_3d.xtbl
 	* SP DLC crashing when loading map (related to porting characters?)
+	* Half cloud speed on all maps in weather file
 
 [Weapons]
 	* Spiker: missing textures when on ground, only host can see the projectile (peg file related most likely)
@@ -102,6 +107,7 @@ DONE/ADD TO CHANGELOG
 	* Move changes to tank health to gameplay add-on
 	* Truck is weaker in second to last mission in eos the one that has you protect the truck with the missile that will be loaded with the nano forge
 	* First transporter mission in Parker/FFZ is very hard to beat because the truck gets stuck and loses all speed
+	* Reverted changes to alert_level.xtbl and added comments for possible changes in gameplay add-on
 
 -------------------
 LOW PRIORITY 
@@ -123,29 +129,21 @@ LOW PRIORITY
 	* Issue with double text for the you won/you lost text at end of game with large text over the top of small text	
 
 [Maps] 	
-	* Add packs missing from maps to 0,0,0 so they show up in random backpack rotation - wip
-	* Add another Subverter to Gauntlet, Garrison and Downfall	
-	* Add team spawns to all WC maps
-	* Add more cameras to GFWL/Nordic Bonus	and Repurcussion	
 	* Tutorial area map
-	* Watchtower siege
-	* Gulch siege
-	* Pipeline siege	
+	* Watchtower, Gulch and Pipeline siege versions?
 	* Test adding multiple bagman spawns to randomize where it respawns 	
 	* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives	
 	* Repurcussion: might need adjustments to some of the spawns inside the pipes?
-	* Double check all WC maps have a disabled barrel at 0,0,0
 
 [Misc]
-	* Move other non essential gameplay changes to add-on when the patch is final (alert_level.xtbl for example)	
+	* Move other non essential gameplay changes to add-on when the patch is final
 	* Try to make it so you can walk up steeper inclines if possible
 	* Improve driving skills of NPCs (reduce AI speed)
-	* Half cloud speed on all maps	
 	
 [Missions]
-	* NPC drives off the cliff in Redemption near the large bridge (see screenshot)
-	* Tank doesn't spawn in Redemption
-	* Redemption could use more checkpoints like after you rescue the prisoners
+	* NPC drives off the cliff in Redemption DLC mission near the large bridge (see screenshot)
+	* Tank doesn't spawn in Redemption DLC mission
+	* Redemption DLC mission could use more checkpoints like after you rescue the prisoners
 	* Test protecting Building mission near Oasis Residential (see screenshot)
 	* EOS side mission (see screenshot)
 
