@@ -21,6 +21,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_resource_entry>
+		
 		<spawn_resource_entry>
 			<Name>DLC_Rescue_Mission1</Name>
 			<edf_population>3</edf_population>
@@ -44,7 +45,7 @@
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>Default_Marauder_DLC</vehicle_group>
+					<vehicle_group>Vanilla_Marauder_DLC</vehicle_group> <!--From Default_Marauder_DLC-->
 					<reservation_count>2</reservation_count>
 				</vehicle_info>
 			</vehicle_list>
@@ -93,7 +94,7 @@
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>Default_Marauder_DLC</vehicle_group>
+					<vehicle_group>Vanilla_Marauder_DLC</vehicle_group> <!--From Default_Marauder_DLC-->
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 			</vehicle_list>
@@ -142,7 +143,7 @@
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>mis_DLC_Miss3_Dans_Tank</vehicle_group>
+					<vehicle_group>Vanilla_Dans_Tank</vehicle_group> <!--From mis_DLC_Miss3_Dans_Tank-->
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>

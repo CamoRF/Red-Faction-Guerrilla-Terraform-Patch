@@ -348,7 +348,7 @@
 				<layer_file_0>dlc01_08_09_130</layer_file_0>
 			</managed_layer_info>
 			<reservation_info>
-				<vehicle_group>EDF_APC</vehicle_group>
+				<vehicle_group>Vanilla_EDF_DLC</vehicle_group> <!--From EDF_APC-->
 				<reserve_at_start>At Start</reserve_at_start>
 			</reservation_info>
 			<script_groups>
