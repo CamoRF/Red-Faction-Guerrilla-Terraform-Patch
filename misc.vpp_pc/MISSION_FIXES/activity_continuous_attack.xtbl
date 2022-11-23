@@ -1,5 +1,35 @@
 <root>
 	<Table>
+<!--START Mission Fix-->		
+		<continuous_attack_data>
+			<Name>ls_ad_02a</Name>
+			<attacker_count>3</attacker_count>
+			<respawn_period>0.0</respawn_period>
+			<Type>Default</Type>
+			<Show_Squad_Icons>False</Show_Squad_Icons>
+			<squad_list>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_APC-->
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>EDF_flyerMG</vehicle_group> <!--From EDF_APC-->
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+				<squad_info>
+					<squad_def>basic_squad_2</squad_def>
+					<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_scout_turr-->
+					<stay_in_vehicle>True</stay_in_vehicle>
+				</squad_info>
+			</squad_list>
+			<_Editor>
+				<Category>Area Defense</Category>
+			</_Editor>
+		</continuous_attack_data>	
+<!--END Mission Fix-->		
+		
 		<continuous_attack_data>
 			<Name>je_td_03</Name>
 			<attacker_count>2</attacker_count>
@@ -22,6 +52,7 @@
 				<Category>Guerrilla Express</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>je_td_05</Name>
 			<attacker_count>3</attacker_count>
@@ -49,6 +80,7 @@
 				<Category>Guerrilla Express</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>je_td_06</Name>
 			<attacker_count>3</attacker_count>
@@ -76,6 +108,7 @@
 				<Category>Guerrilla Express</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>je_td_13</Name>
 			<attacker_count>3</attacker_count>
@@ -103,6 +136,7 @@
 				<Category>Guerrilla Express</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>Assault</Name>
 			<attacker_count>2</attacker_count>
@@ -125,6 +159,7 @@
 			<Type>Default</Type>
 			<Show_Squad_Icons>False</Show_Squad_Icons>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>Highway To Hell</Name>
 			<attacker_count>1</attacker_count>
@@ -148,6 +183,7 @@
 			<Type>Default</Type>
 			<Show_Squad_Icons>True</Show_Squad_Icons>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>Traffic Jam</Name>
 			<attacker_count>2</attacker_count>
@@ -196,6 +232,7 @@
 			<Type>Patrol</Type>
 			<Show_Squad_Icons>True</Show_Squad_Icons>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>Friends, Martians, Countrymen</Name>
 			<attacker_count>2</attacker_count>
@@ -214,6 +251,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>DFA</Name>
 			<attacker_count>2</attacker_count>
@@ -244,6 +282,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>SYE</Name>
 			<attacker_count>4</attacker_count>
@@ -260,6 +299,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>Party Time</Name>
 			<attacker_count>3</attacker_count>
@@ -287,6 +327,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>Intro 1</Name>
 			<attacker_count>2</attacker_count>
@@ -315,6 +356,7 @@
 			<Type>Default</Type>
 			<Show_Squad_Icons>False</Show_Squad_Icons>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>WKWYA</Name>
 			<attacker_count>2</attacker_count>
@@ -347,6 +389,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>GOT</Name>
 			<attacker_count>2</attacker_count>
@@ -364,6 +407,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>Ants</Name>
 			<attacker_count>3</attacker_count>
@@ -416,6 +460,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>Final Mission</Name>
 			<attacker_count>4</attacker_count>
@@ -448,6 +493,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>Emergency Broadcast System</Name>
 			<attacker_count>1</attacker_count>
@@ -480,6 +526,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>SniperHunter</Name>
 			<attacker_count>2</attacker_count>
@@ -505,6 +552,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>Final Mission Part 1</Name>
 			<attacker_count>3</attacker_count>
@@ -531,6 +579,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>Save the Guerrilla Camp</Name>
 			<attacker_count>3</attacker_count>
@@ -555,6 +604,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>Tank Attack</Name>
 			<attacker_count>3</attacker_count>
@@ -572,6 +622,7 @@
 			<Type>Default</Type>
 			<Show_Squad_Icons>False</Show_Squad_Icons>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>je_ad_01_01</Name>
 			<attacker_count>4</attacker_count>
@@ -604,6 +655,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>je_ad_01_02</Name>
 			<attacker_count>4</attacker_count>
@@ -636,6 +688,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>je_ad_01_03</Name>
 			<attacker_count>5</attacker_count>
@@ -673,6 +726,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>je_ad_02a</Name>
 			<attacker_count>5</attacker_count>
@@ -699,6 +753,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>je_ad_02b</Name>
 			<attacker_count>6</attacker_count>
@@ -735,6 +790,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>je_ad_02c</Name>
 			<attacker_count>9</attacker_count>
@@ -783,6 +839,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_01a</Name>
 			<attacker_count>4</attacker_count>
@@ -810,6 +867,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_01b</Name>
 			<attacker_count>5</attacker_count>
@@ -842,6 +900,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_01c</Name>
 			<attacker_count>6</attacker_count>
@@ -879,33 +938,9 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		<continuous_attack_data> <!--Mission Fix-->
-			<Name>ls_ad_02a</Name>
-			<attacker_count>3</attacker_count>
-			<respawn_period>0.0</respawn_period>
-			<Type>Default</Type>
-			<Show_Squad_Icons>False</Show_Squad_Icons>
-			<squad_list>
-				<squad_info>
-					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_APC-->
-					<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-				<squad_info>
-					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>EDF_flyerMG</vehicle_group> <!--From EDF_APC-->
-					<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-				<squad_info>
-					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_scout_turr-->
-					<stay_in_vehicle>True</stay_in_vehicle>
-				</squad_info>
-			</squad_list>
-			<_Editor>
-				<Category>Area Defense</Category>
-			</_Editor>
-		</continuous_attack_data>
+
+<!--ORIGINAL LOCATION OF ls_ad_02a-->
+		
 		<continuous_attack_data>
 			<Name>ls_ad_02b</Name>
 			<attacker_count>4</attacker_count>
@@ -933,6 +968,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_02c</Name>
 			<attacker_count>5</attacker_count>
@@ -965,6 +1001,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_03a</Name>
 			<attacker_count>4</attacker_count>
@@ -992,6 +1029,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_03b</Name>
 			<attacker_count>5</attacker_count>
@@ -1029,6 +1067,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_03c</Name>
 			<attacker_count>6</attacker_count>
@@ -1066,6 +1105,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_04a</Name>
 			<attacker_count>6</attacker_count>
@@ -1100,6 +1140,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_04b</Name>
 			<attacker_count>8</attacker_count>
@@ -1135,6 +1176,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_04c</Name>
 			<attacker_count>10</attacker_count>
@@ -1175,6 +1217,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_05a</Name>
 			<attacker_count>5</attacker_count>
@@ -1211,6 +1254,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_05b</Name>
 			<attacker_count>6</attacker_count>
@@ -1248,6 +1292,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_05c</Name>
 			<attacker_count>7</attacker_count>
@@ -1290,6 +1335,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_06a</Name>
 			<attacker_count>5</attacker_count>
@@ -1317,6 +1363,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_06b</Name>
 			<attacker_count>6</attacker_count>
@@ -1349,6 +1396,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_06c</Name>
 			<attacker_count>6</attacker_count>
@@ -1391,6 +1439,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_07a</Name>
 			<attacker_count>5</attacker_count>
@@ -1433,6 +1482,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_07b</Name>
 			<attacker_count>7</attacker_count>
@@ -1479,6 +1529,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>ls_ad_07c</Name>
 			<attacker_count>8</attacker_count>
@@ -1531,6 +1582,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
+		
 		<continuous_attack_data>
 			<Name>je_rs_04</Name>
 			<attacker_count>3</attacker_count>

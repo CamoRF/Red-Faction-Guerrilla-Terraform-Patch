@@ -4,54 +4,59 @@
 			<Name>MV_0709</Name>
 			<ped_spawn_density>High</ped_spawn_density> <!--From Low-->
 			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<npc_spawn_group>Default Marauder DLC</npc_spawn_group>
+			<npc_spawn_group>Vanilla_Marauder_DLC</npc_spawn_group> <!--From Default Marauder DLC-->
 			<vehicle_spawn_group>Vanilla_Marauder_DLC</vehicle_spawn_group> <!--From Default_Marauder_DLC-->
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
 			<_Editor>
 				<Category>Mariner_Valley</Category>
 			</_Editor>
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>MV_0908</Name>
 			<ped_spawn_density>High</ped_spawn_density> <!--From Low-->
 			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<npc_spawn_group>Default Marauder DLC</npc_spawn_group>
+			<npc_spawn_group>Vanilla_Marauder_DLC</npc_spawn_group> <!--From Default Marauder DLC-->
 			<vehicle_spawn_group>Vanilla_Marauder_DLC</vehicle_spawn_group> <!--From Default_Marauder_DLC-->
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
 			<_Editor>
 				<Category>Mariner_Valley</Category>
 			</_Editor>
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>MV_0708</Name>
-			<npc_spawn_group>Default Marauder DLC</npc_spawn_group>
+			<npc_spawn_group>Vanilla_Marauder_DLC</npc_spawn_group> <!--From Default Marauder DLC-->
 			<vehicle_spawn_group>Vanilla_Marauder_DLC</vehicle_spawn_group> <!--From Default_Marauder_DLC-->
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
 			<_Editor>
 				<Category>Mariner_Valley</Category>
 			</_Editor>
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>MV_0808</Name>
-			<npc_spawn_group>Default Marauder DLC</npc_spawn_group>
+			<npc_spawn_group>Vanilla_Marauder_DLC</npc_spawn_group> <!--From Default Marauder DLC-->
 			<vehicle_spawn_group>Vanilla_Marauder_DLC</vehicle_spawn_group> <!--From Default_Marauder_DLC-->
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
 			<_Editor>
 				<Category>Mariner_Valley</Category>
 			</_Editor>
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>MV_0907</Name>
-			<npc_spawn_group>Default Marauder DLC</npc_spawn_group>
+			<npc_spawn_group>Vanilla_Marauder_DLC</npc_spawn_group> <!--From Default Marauder DLC-->
 			<vehicle_spawn_group>Vanilla_Marauder_DLC</vehicle_spawn_group> <!--From Default_Marauder_DLC-->
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
 			<_Editor>
 				<Category>Mariner_Valley</Category>
 			</_Editor>
 		</ambient_spawn_info>
+		
 		<ambient_spawn_info>
 			<Name>MV_0809</Name>
-			<npc_spawn_group>Default Marauder DLC</npc_spawn_group>
+			<npc_spawn_group>Vanilla_Marauder_DLC</npc_spawn_group>  <!--From Default Marauder DLC-->
 			<vehicle_spawn_group>Vanilla_Marauder_DLC</vehicle_spawn_group> <!--From Default_Marauder_DLC-->
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
 			<_Editor>

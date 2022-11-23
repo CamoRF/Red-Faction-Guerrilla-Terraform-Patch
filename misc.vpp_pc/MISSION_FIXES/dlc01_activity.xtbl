@@ -117,6 +117,34 @@
 		</container_contents>
 	</stream2_container_description>
 	<Table>
+
+<!--START Mission Fix-->		
+		<base_activity>
+			<Name>dlc01_td_02</Name> 
+			<disabled>False</disabled>
+			<control_limit>1.0</control_limit>
+			<restoration_time>At Init</restoration_time>
+			<guerrilla_reinforcement>False</guerrilla_reinforcement>
+			<music_info>
+				<music_intensity>Light</music_intensity>
+			</music_info>
+			<ratchet_alert_level>True</ratchet_alert_level>
+			<_Editor>
+				<Category>Transporter</Category>
+			</_Editor>
+			<managed_layer_info>
+				<layer_file_0>dlc01_08_09_130</layer_file_0>
+			</managed_layer_info>
+			<reservation_info>
+				<vehicle_group>Vanilla_EDF_DLC</vehicle_group> <!--From EDF_APC-->
+				<reserve_at_start>At Start</reserve_at_start>
+			</reservation_info>
+			<script_groups>
+				<script_group_name>dlc01_td_02</script_group_name>
+			</script_groups>
+		</base_activity>
+<!--END Mission Fix-->		
+		
 		<base_activity>
 			<Name>dlc_ha_01</Name>
 			<_Editor>
@@ -139,6 +167,7 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
+		
 		<base_activity>
 			<Name>dlc_ORaid_07_08_Level_1</Name>
 			<managed_layer_info>
@@ -169,6 +198,7 @@
 			<control_limit>1.0</control_limit>
 			<max_alert_cap>Red</max_alert_cap>
 		</base_activity>
+		
 		<base_activity>
 			<Name>DLC_HA_08_08</Name>
 			<disabled>False</disabled>
@@ -196,6 +226,7 @@
 				<Category>HouseArrest</Category>
 			</_Editor>
 		</base_activity>
+		
 		<base_activity>
 			<Name>DLC_AD_07_09</Name>
 			<disabled>False</disabled>
@@ -224,6 +255,7 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</base_activity>
+		
 		<base_activity>
 			<Name>dlc01_dm_01</Name>
 			<disabled>False</disabled>
@@ -250,6 +282,7 @@
 				<special_score>MUS_DEMOMASTER</special_score>
 			</music_info>
 		</base_activity>
+		
 		<base_activity>
 			<Name>dlc01_dm_02</Name>
 			<disabled>False</disabled>
@@ -269,6 +302,7 @@
 				<special_score>MUS_DEMOMASTER</special_score>
 			</music_info>
 		</base_activity>
+		
 		<base_activity>
 			<Name>dlc01_dm_03</Name>
 			<disabled>False</disabled>
@@ -295,6 +329,7 @@
 				<special_score>MUS_DEMOMASTER</special_score>
 			</music_info>
 		</base_activity>
+		
 		<base_activity>
 			<Name>dlc01_dm_04</Name>
 			<disabled>False</disabled>
@@ -314,6 +349,7 @@
 				<special_score>MUS_DEMOMASTER</special_score>
 			</music_info>
 		</base_activity>
+		
 		<base_activity>
 			<Name>dlc01_td_01</Name>
 			<disabled>False</disabled>
@@ -330,31 +366,11 @@
 			<managed_layer_info>
 				<layer_file_0>dlc01_07_09_130</layer_file_0>
 			</managed_layer_info>
+		
 		</base_activity>
-		<base_activity>
-			<Name>dlc01_td_02</Name> <!--Broken Transporter Mission-->
-			<disabled>False</disabled>
-			<control_limit>1.0</control_limit>
-			<restoration_time>At Init</restoration_time>
-			<guerrilla_reinforcement>False</guerrilla_reinforcement>
-			<music_info>
-				<music_intensity>Light</music_intensity>
-			</music_info>
-			<ratchet_alert_level>True</ratchet_alert_level>
-			<_Editor>
-				<Category>Transporter</Category>
-			</_Editor>
-			<managed_layer_info>
-				<layer_file_0>dlc01_08_09_130</layer_file_0>
-			</managed_layer_info>
-			<reservation_info>
-				<vehicle_group>Vanilla_EDF_DLC</vehicle_group> <!--From EDF_APC-->
-				<reserve_at_start>At Start</reserve_at_start>
-			</reservation_info>
-			<script_groups>
-				<script_group_name>dlc01_td_02</script_group_name>
-			</script_groups>
-		</base_activity>
+
+<!--ORIGINAL LOCATION OF dlc01_td_02-->
+		
 		<base_activity>
 			<Name>dlc01_dm_05</Name>
 			<disabled>False</disabled>
@@ -374,6 +390,7 @@
 				<special_score>MUS_DEMOMASTER</special_score>
 			</music_info>
 		</base_activity>
+		
 		<base_activity>
 			<Name>dlc01_dm_06</Name>
 			<disabled>False</disabled>
@@ -398,194 +415,6 @@
 		</base_activity>
 	</Table>
 	<TableTemplates>
-		<base_activity>
-			<Name>test_area_defense</Name>
-			<disabled>False</disabled>
-			<control_limit>1.0</control_limit>
-			<restoration_time>At Init</restoration_time>
-			<guerrilla_reinforcement>False</guerrilla_reinforcement>
-			<reservation_info>
-				<vehicle_group>gue_walker</vehicle_group>
-				<reserve_at_start>At Init</reserve_at_start>
-			</reservation_info>
-			<script_groups>
-				<script_group_name>test_area_defense</script_group_name>
-			</script_groups>
-			<ratchet_alert_level>False</ratchet_alert_level>
-			<managed_layer_info>
-				<layer_file_0>nryan_area_defense_08_08_128</layer_file_0>
-			</managed_layer_info>
-			<_Editor>
-				<Category>Test</Category>
-			</_Editor>
-		</base_activity>
-		<base_activity>
-			<Name>nh_td_test_1</Name>
-			<disabled>False</disabled>
-			<managed_layer_info>
-				<layer_file_0>nickh_act_02_01_128</layer_file_0>
-			</managed_layer_info>
-			<_Editor>
-				<Category>Test</Category>
-			</_Editor>
-			<restoration_time>At Init</restoration_time>
-			<ratchet_alert_level>False</ratchet_alert_level>
-			<guerrilla_reinforcement>False</guerrilla_reinforcement>
-			<control_limit>1.0</control_limit>
-		</base_activity>
-		<base_activity>
-			<Name>test_demo_master</Name>
-			<disabled>False</disabled>
-			<managed_layer_info>
-				<layer_file_0>nickh_act_03_01_128</layer_file_0>
-				<layer_file_1>demomaster_01_08_08_128</layer_file_1>
-			</managed_layer_info>
-			<_Editor>
-				<Category>Test</Category>
-			</_Editor>
-			<restoration_time>At Init</restoration_time>
-			<ratchet_alert_level>False</ratchet_alert_level>
-			<guerrilla_reinforcement>False</guerrilla_reinforcement>
-			<control_limit>1.0</control_limit>
-		</base_activity>
-		<base_activity>
-			<Name>test_dm_vehicle</Name>
-			<disabled>False</disabled>
-			<reservation_info>
-				<vehicle_group>gue_walker</vehicle_group>
-				<reserve_at_start>At Init</reserve_at_start>
-			</reservation_info>
-			<managed_layer_info>
-				<layer_file_0>demomaster_01_08_08_129</layer_file_0>
-			</managed_layer_info>
-			<_Editor>
-				<Category>Test</Category>
-			</_Editor>
-			<restoration_time>At Init</restoration_time>
-			<ratchet_alert_level>False</ratchet_alert_level>
-			<guerrilla_reinforcement>False</guerrilla_reinforcement>
-			<control_limit>1.0</control_limit>
-		</base_activity>
-		<base_activity>
-			<Name>test_convoy</Name>
-			<managed_layer_info>
-				<layer_file_0>test_convoy_08_08_128</layer_file_0>
-				<layer_load_time>At Init</layer_load_time>
-			</managed_layer_info>
-			<_Editor>
-				<Category>Test</Category>
-			</_Editor>
-			<disabled>True</disabled>
-			<vehicle_group>act_convoy_sup_truck</vehicle_group>
-			<layer_load_time>At Start</layer_load_time>
-			<restoration_time>At Init</restoration_time>
-			<ratchet_alert_level>False</ratchet_alert_level>
-			<guerrilla_reinforcement>False</guerrilla_reinforcement>
-			<control_limit>1.0</control_limit>
-		</base_activity>
-		<base_activity>
-			<Name>Test Activity</Name>
-			<script_groups>
-				<script_group_name>Activity_Test</script_group_name>
-			</script_groups>
-			<_Editor>
-				<Category>Test</Category>
-			</_Editor>
-			<disabled>False</disabled>
-			<vehicle_group></vehicle_group>
-			<managed_layer_info>
-				<layer_file_0>test_house_arrest_08_08_128</layer_file_0>
-				<layer_load_time>At Init</layer_load_time>
-			</managed_layer_info>
-			<restoration_time>At Init</restoration_time>
-			<ratchet_alert_level>False</ratchet_alert_level>
-			<guerrilla_reinforcement>False</guerrilla_reinforcement>
-			<control_limit>1.0</control_limit>
-		</base_activity>
-		<base_activity>
-			<Name>test_riding_shotgun</Name>
-			<disabled>False</disabled>
-			<script_groups>
-				<script_group_name>Riding_Shotgun_Managed</script_group_name>
-			</script_groups>
-			<managed_layer_info>
-				<layer_file_0>test_mg_rs_01_01_128</layer_file_0>
-				<layer_load_time>At Init</layer_load_time>
-			</managed_layer_info>
-			<_Editor>
-				<Category>Test</Category>
-			</_Editor>
-			<vehicle_group>act_riding_shotgun</vehicle_group>
-			<reservation_info>
-				<vehicle_group>act_riding_shotgun</vehicle_group>
-				<reserve_at_start>At Init</reserve_at_start>
-			</reservation_info>
-			<human_group>Jorge</human_group>
-			<restoration_time>At Init</restoration_time>
-			<ratchet_alert_level>False</ratchet_alert_level>
-			<guerrilla_reinforcement>False</guerrilla_reinforcement>
-			<control_limit>1.0</control_limit>
-		</base_activity>
-		<base_activity>
-			<Name>test_raid</Name>
-			<disabled>False</disabled>
-			<vehicle_group>EDF_staff_car</vehicle_group>
-			<_Editor>
-				<Category>Test</Category>
-			</_Editor>
-			<reservation_info>
-				<vehicle_group>EDF_APC</vehicle_group>
-				<reserve_at_start>At Init</reserve_at_start>
-				<optional_vehicle_group>gue_rover</optional_vehicle_group>
-			</reservation_info>
-			<human_group>Zack</human_group>
-			<managed_layer_info>
-				<layer_file_0>test_raid_08_08_128</layer_file_0>
-				<layer_load_time>At Init</layer_load_time>
-			</managed_layer_info>
-			<restoration_time>At Init</restoration_time>
-			<ratchet_alert_level>False</ratchet_alert_level>
-			<guerrilla_reinforcement>False</guerrilla_reinforcement>
-			<control_limit>1.0</control_limit>
-		</base_activity>
-		<base_activity>
-			<Name>test_courier</Name>
-			<disabled>False</disabled>
-			<managed_layer_info>
-				<layer_file_0>nickh_act_03_02_128</layer_file_0>
-				<layer_load_time>At Init</layer_load_time>
-			</managed_layer_info>
-			<_Editor>
-				<Category>Test</Category>
-			</_Editor>
-			<reservation_info>
-				<vehicle_group>Default EDF</vehicle_group>
-				<reserve_at_start>At Init</reserve_at_start>
-			</reservation_info>
-			<restoration_time>At Init</restoration_time>
-			<ratchet_alert_level>False</ratchet_alert_level>
-			<guerrilla_reinforcement>False</guerrilla_reinforcement>
-			<control_limit>1.0</control_limit>
-		</base_activity>
-		<base_activity>
-			<Name>je_test_01</Name>
-			<disabled>False</disabled>
-			<reservation_info>
-				<vehicle_group>gue_pickup</vehicle_group>
-				<reserve_at_start>At Init</reserve_at_start>
-			</reservation_info>
-			<managed_layer_info>
-				<layer_file_0>nickh_td_03_02_129</layer_file_0>
-				<layer_load_time>At Init</layer_load_time>
-			</managed_layer_info>
-			<_Editor>
-				<Category>Test</Category>
-			</_Editor>
-			<restoration_time>At Init</restoration_time>
-			<ratchet_alert_level>False</ratchet_alert_level>
-			<guerrilla_reinforcement>False</guerrilla_reinforcement>
-			<control_limit>1.0</control_limit>
-		</base_activity>
 	</TableTemplates>
 	<TableDescription>
 		<Name>base_activity</Name>

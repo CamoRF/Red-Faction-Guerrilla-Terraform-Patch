@@ -2,7 +2,7 @@
 	<Table>
 <!--START Added-->
 		<spawn_group_vehicle>
-			<Name>Vanilla_Amb_Marauder_0709</Name>
+			<Name>Vanilla_Amb_Marauder_DLC</Name>
 			<vehicle_list>
 				<vehicle_type>Mar_chomper_MGWing</vehicle_type>
 				<vehicle_type>Mar_chomper</vehicle_type>
@@ -42,29 +42,30 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-<!--START Mission Fix-->		
+
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_APC</Name>
 			<vehicle_list>
 				<vehicle_type>EDF_APC-A_1</vehicle_type>
-				<!--<vehicle_type>EDF_APC-A_2</vehicle_type>
+				<vehicle_type>EDF_APC-A_2</vehicle_type>
 				<vehicle_type>EDF_APC-A_3</vehicle_type>
-				<vehicle_type>EDF_APC-A_4</vehicle_type>-->
+				<vehicle_type>EDF_APC-A_4</vehicle_type>
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
 
+<!--Possible Mission Fix-->
 		<spawn_group_vehicle>
-			<Name>Vanilla_Dans_Tank</Name>
+			<Name>Vanilla_Dans_Tank_DLC</Name>
 			<vehicle_list>
 				<vehicle_type>DLC_Dans_Tank</vehicle_type>
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Missions</Category>
 			</_Editor>
-		</spawn_group_vehicle>		
+		</spawn_group_vehicle>	
 <!--END Added-->		
 		
 		<spawn_group_vehicle>
@@ -121,7 +122,9 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+
 <!--ORIGINAL LOCATION OF Default_Marauder_DLC-->
+		
 		<spawn_group_vehicle>
 			<Name>Mar_Raider DLC</Name>
 			<vehicle_list>
@@ -131,7 +134,9 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+
 <!--ORIGINAL LOCATION OF Default_EDF_DLC-->
+		
 		<spawn_group_vehicle>
 			<Name>Mar_Jetter DLC</Name>
 			<vehicle_list>
@@ -141,6 +146,7 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Rescue_EDF_APC_Gauss</Name>
 			<vehicle_list>
@@ -153,6 +159,7 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Rescue_EDF_CA_Flyer</Name>
 			<vehicle_list>
@@ -162,6 +169,7 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Rescue_EDF_APC_MG</Name>
 			<vehicle_list>
@@ -174,6 +182,7 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Rescue_EDF_Scout_Gauss</Name>
 			<vehicle_list>
@@ -186,6 +195,7 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Miss2_Flyer_Gauss</Name>
 			<vehicle_list>
@@ -195,6 +205,7 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>Mar_Chomper_MG</Name>
 			<vehicle_list>
@@ -205,6 +216,7 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>Mar_Chomper_Harp</Name>
 			<vehicle_list>
@@ -214,6 +226,7 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>Mar_Chomper_NoTurret</Name>
 			<vehicle_list>
@@ -223,6 +236,7 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>Mar_Chomper_All</Name>
 			<vehicle_list>
@@ -235,6 +249,7 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Miss2_Flyer_Rocket</Name>
 			<vehicle_list>
@@ -244,6 +259,7 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_Staffcar_MG</Name>
 			<vehicle_list>
@@ -255,6 +271,7 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_Staffcar_Gauss</Name>
 			<vehicle_list>
@@ -266,6 +283,7 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>DLC_Civ_Walker</Name>
 			<vehicle_list>
@@ -275,6 +293,7 @@
 				<Category>Entries:Activities</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>DLC_Art_Tank</Name>
 			<vehicle_list>
@@ -285,6 +304,7 @@
 				<Category>Entries:Activities</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>Mar_Stomper_MG</Name>
 			<vehicle_list>
@@ -294,6 +314,7 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Miss3_APC_SuperGauss</Name>
 			<vehicle_list>
@@ -306,6 +327,7 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_ArtTank</Name>
 			<vehicle_list>
@@ -316,6 +338,7 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_HeavyTank</Name>
 			<vehicle_list>
@@ -328,6 +351,7 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_Supply_MG</Name>
 			<vehicle_list>
@@ -339,6 +363,7 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_Supply_Gauss</Name>
 			<vehicle_list>
@@ -350,6 +375,7 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Miss3_Dans_Tank</Name>
 			<vehicle_list>
@@ -359,6 +385,7 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_Scout_Trans</Name>
 			<vehicle_list>
@@ -374,30 +401,6 @@
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
-		<Name>spawn_group_vehicle</Name>
-		<Type>TableDescription</Type>
-		<Element>
-			<Name>Name</Name>
-			<Type>String</Type>
-			<Unique>true</Unique>
-			<MaxLength>32</MaxLength>
-		</Element>
-		<Element>
-			<Name>vehicle_list</Name>
-			<Type>List</Type>
-			<Display_Name>Vehicle List</Display_Name>
-			<Element>
-				<Name>vehicle_type</Name>
-				<Type>Reference</Type>
-				<Display_Name>Vehicle Type</Display_Name>
-				<Reference>
-					<File>vehicles.xtbl</File>
-					<Type>Vehicle.Name</Type>
-					<OpenSeparate>False</OpenSeparate>
-				</Reference>
-			</Element>
-			<Num_Display_Rows>8</Num_Display_Rows>
-		</Element>
 	</TableDescription>
 	<EntryCategories>
 		<Category>
