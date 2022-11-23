@@ -1,11 +1,11 @@
 |--------------------------|
-|RFG COMMUNITY PATCH ALPHA |
+|RF:G TERRFORM PATCH	   |
 |--------------------------|
 
 Author: Camo
 Version: v1.07 PRE ALPHA
-Date: 19-10-2022
-Build: 944
+Date: xx-xx-2022
+Build: xxx
 
 -----------------------
 INTIAL RELEASE CHANGES
@@ -405,14 +405,6 @@ v1.063 ALPHA HOTFIX CHANGES
 v1.07 PRE ALPHA CHANGES
 ---------------------------
 
-[Singleplayer]
-* Reverted removal of artificial gravity; this should fix the transporter mission in Parker/FFZ and the second to last mission in EOS. Will be re-implemented into
-the gameplay add-on along with a complete overhaul to the vehicles handling at a later date.
-* Reverted changes to alert_levels.xtbl; this will be re-implemented into the gameplay add-on at a later date. 
-* Reduced EDF spawns, they are no longer excessive which was making some missions impossible to beat.
-* Redid the changes to vehicle and NPC spawn changes; vehicle and NPCs now make more sense in each sector type. 
-* Reverted changes to tank hitpoints, this should fix the issue with the second to last mission in EOS. This will be re-implemented into the gameplay -addon at a later date.
-
 [Fixes]
 * Fixed crashing issues with Complex and Watchtower properly
 * Fixed player getting stuck on a building in Ruins
@@ -461,12 +453,20 @@ the gameplay add-on along with a complete overhaul to the vehicles handling at a
 * Fixed issues with mixed up vent and smokestack children on Repurcussion
 * Countless misc fixes to all 50 maps
 * Fixed or removed floating containers on GFWL/Nordic Bonus. Some were replaced with vehicle debris, smoke was also added to help with line of sight issues
-* Moved the smokestack on GFWL/Nordic Bonus to the playable area and added the missing smoke effect that was previously under the map in vanilla.
-* Added fire, smoke, trees and signs to indicate the out of bounds areas on GFWL/Nordic Bonus.
-* Moved the misslepod on Fallfactor to a thin pipe that can be more easily destroyed and made minor changes to DLC weapon spawn locations to balance for teams.
+* Moved the smokestack on GFWL/Nordic Bonus to the playable area and added the missing smoke effect that was previously under the map in vanilla
+* Added fire, smoke, trees and signs to indicate the out of bounds areas on GFWL/Nordic Bonus
+* Moved the misslepod on Fallfactor to a thin pipe that can be more easily destroyed and made minor changes to DLC weapon spawn locations to balance for teams
 * Added two additional Assault Rifle spawns on Cascade
 * Added Kaboom backpack spawn near attacker spawn on Overpass with a single pack on the rack 
 * Added Kaboom backpack spawn near attacker spawn on Cresecent with a single pack on the rack
+
+[Singleplayer]
+* Reverted removal of artificial gravity; this should fix the transporter mission in Parker/FFZ and the second to last mission in EOS. Will be re-implemented into
+the gameplay add-on along with a complete overhaul to the vehicles handling at a later date
+* Reverted changes to alert_levels.xtbl; this will be re-implemented into the gameplay add-on at a later date
+* Reduced EDF spawns, they are no longer excessive making some missions impossible to beat
+* Redid the changes to vehicle and NPC spawn changes; vehicle and NPCs now make more sense in each sector type 
+* Reverted changes to tank hitpoints, this should fix the issue with the second to last mission in EOS; This will be re-implemented into the gameplay add-on at a later date
 
 [Maps] 
 * Added capture the flag and damage control to all wrecking crew and siege maps
@@ -508,7 +508,7 @@ the gameplay add-on along with a complete overhaul to the vehicles handling at a
 * Added various DLC variants of NPCs to singleplayer spawns
 * Fixed backpack clipping on Jenkins
 
-[Changes] 
+[Multiplayer] 
 * Enabled friendly fire by default in custom games
 * Added Kaboom pack to random backpack rotation
 
@@ -566,24 +566,23 @@ the gameplay add-on along with a complete overhaul to the vehicles handling at a
 ------------
 
 [Singleplayer]
-* Flat beds and other large vehicles can damage safehouses when they spawn
-* Vehicle spawn locations aren't final
+* Flat beds and other large vehicles can damage safehouses when they spawn (will be fixed when singleplayer map editing is improved)
 * DLC: first transporter is broken due to the vehicle not spawning for some unknown reason, uninstall the patch to complete this mission and then you can safetly reinstall after you've finished it
 * DLC: tank doesn't spawn in Redemption mission
 * DLC: crashes on load
 * Activity: offensive raid at top right of Oasis might not be beatable due to EDF spawns stopping before you destroy enough vehicles
-* Activity: screenshot "sp_eos_side_mission" might be broken
+* Activity: screenshot "sp_eos_side_mission.png" might be broken
 
 [DLC Weapons]
-* Pickaxe and Impaler have missing textures so they are not implemeneted yet
-* Spiker has missing texture when it's dropped on the ground and only the host can see the projectile so it's not implemented yet
+* Pickaxe and Impaler have missing textures so they are not implemeneted yet (should be fixed when cpeg/gpeg tools release)
+* Spiker has missing texture when it's dropped on the ground and only the host can see the projectile so it's not implemented yet (should be fixed when cpeg/gpeg tools release)
 * Weapons use placeholder icons and reticules for now
-* Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer
-* Misslepod sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon
+* Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer (will be fixed when icons and reticules are ported)
+* Misslepod sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon (will be fixed when icons and reticules are ported)
 
 [Backpacks]
-* Kaboom backpack has floating objects on the model
-* Backpacks might clip through the characters on some of the new models, this can be fixed by fine tuning the offset axis values but will take time
+* Kaboom backpack has floating objects on the model (can't be fixed until we have tools to export and import models properly)
+* Backpacks might clip through the characters on some of the new models, this can be fixed by fine tuning the offset axis values but will take time (this will improve with each major patch version)
 
 [Characters]
 * EDF heavy changed to the white model in team games due to a bug with new characters
@@ -592,17 +591,18 @@ the gameplay add-on along with a complete overhaul to the vehicles handling at a
 * New character names have !! in front of them because I haven't figured out how to add proper menu entry strings yet
 
 [Vanilla]
-* DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
+
 * Walkers don't spawn sometimes
 * Issue with extreme cloud speed on some maps
-* LOD cap for small rocks seems to be hardcoded and cannot be increased further
+* LOD cap for small rocks seems to be hardcoded and cannot be increased further without hacking the .exe
 * Adding walker spawns at safehouses can cause no vehicle to spawn at all occasionally 
-* NPCs driving like crazy when obstructed instead of waiting and going around them calmly
-* Game can sometimes crash when loading into a multiplayer match
-* Some backpacks clipping through Alec Mason in singleplayer
+* NPCs drive like crazy when obstructed instead of waiting and going around them calmly
+* Game can sometimes crash when loading into a multiplayer match (stability improved in v1.07)
+* Some backpacks clip through Alec Masons model in singleplayer
 * Floating backpacks on players when they first spawn, seems to be related to high ping
 * Siege objectives and weapon pickups can sometimes desync in multiplayer
 * DLC: NPC might drive off near the cliff near the large bridge during Redemption mission (with uncapped fps or due to bad road path on the map?)
+* DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
 
 [Wrecking Crew Mode]
-* Maps don't have barrels and might crash, alternative solutions will be sought after in the future such as attempting to add entirely new .vpp_pc map files instead of replacing the maps
+* Maps are currently replaced by the multiplayer versions so they lack barrels and have weapon pickups.
