@@ -1,11 +1,6 @@
 ------
 v1.07
 ------
-
-[Rename mod to avoid confusion with 2021 Community Pack] 
-	* Terraform Patch 
-	* Terraforming Patch
-	* Improvement Patch
 	
 [Ruins Interior Map]
 	* Add more player spawns
@@ -48,7 +43,7 @@ v1.07
 		* Finish new siege maps
 		* Add siege to Watchtower and Pipeline
 		* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
-
+        * Haven: refine super gauss location
 
 [New Map Objectives Locations]
 	
@@ -98,7 +93,6 @@ v1.07
 	* DLC remote charges: missing textures, missing mesh when thrown (peg file related most likely)
 	* Pickaxe and Impaler: missing textures in all circumstances (peg file again)
 	* Disable Super Gauss and Misslepod spawns in Damage Control and Demolition
-	* Move Super Gauss Rifle on Haven
 	
 ----------------------
 DONE/ADD TO CHANGELOG
@@ -174,3 +168,4 @@ OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
 * Tutorial area map
 * Improve driving skills of NPCs (reduce AI speed)
 * NPCs have trouble with handling larger vehicles
+* EOS Edf Assault Command Mission: Ally NPCs need to be more aggressive and fight beside you but get stuck and lag behind the player, would be better if they could push foward better as enemies are cleared out, buff number of friendlies as only 4 guerrillas and marauders spawn at a time. (eos_edf_command_assault.png)
