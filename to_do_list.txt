@@ -14,7 +14,7 @@ v1.07
 	* Add effects from GFWL/Nordic Bonus once the effects are transferred to the map again
 	* Make the rocket launcher not respawn on Ruins
 	* Add team exclusive backpacks on Ruins
-	* Change weather to Deadzone, Invasion, SP DLC, 
+	* Change weather to Deadzone, Invasion, SP DLC, GFWL?
 	* Transfer mine beacon, artillery sign, other fire and smoke assets
 
 [Maps]
@@ -31,6 +31,7 @@ v1.07
 		* Fix spawns on Repurcussion where you can get stuck in pipes
 		
 	[Additions]	
+		* Add backpack rack spawns to all WC maps
 		* Add spawns to Scrapheap and Vista
 		* Add flag objectives to siege and WC maps 
 		* Add damage control targets to siege and WC maps
