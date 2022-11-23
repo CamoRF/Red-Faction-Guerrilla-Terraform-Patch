@@ -5,7 +5,7 @@
 			<Character_Grid>
 <!--START DLC CHARACTERS ADDED-->	
 				<Character_Element>
-					<Character_Name>dlc_sam</Character_Name>
+					<Character_Name>sam_dlc</Character_Name>
 					<Display_Name>DLC Samanya</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -101,9 +101,8 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
-					<Character_Name>dlc_vasha</Character_Name>
+					<Character_Name>Vasha</Character_Name>
 					<Display_Name>Vasha</Display_Name>
 					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -199,9 +198,8 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>				
-				
 				<Character_Element>
-					<Character_Name>dlc_hess</Character_Name>
+					<Character_Name>Hess_DLC</Character_Name>
 					<Display_Name>Hess</Display_Name>
 					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -4260,7 +4258,104 @@
 <!--END MARAUDERS ON RF TEAM-->
 <!--START DLC CHARACTERS ADDED-->				
 				<Character_Element>
-					<Character_Name>dlc_sam</Character_Name>
+					<Character_Name>Hess_DLC</Character_Name>
+					<Display_Name>Hess</Display_Name>
+					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
+					<Unlock_Level>0</Unlock_Level>
+					<Persona_Group>Marauder Male</Persona_Group>
+					<backpack_offsets>
+						<backpack>
+							<backpack_name>Commando</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>-.01</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Fleetfoot</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>-.01</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Heal</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>-.02</Y>
+								<Z>.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Jetpack</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Kaboom</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Rhino</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Shockwave</backpack_name>
+							<backpack_offset>
+								<X>.01</X>
+								<Y>-.02</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Stealth</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Thrust</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Tremor</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>0.0</Y>
+								<Z>-.04</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Vision</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>-.02</Y>
+								<Z>-.04</Z>
+							</backpack_offset>
+						</backpack>
+					</backpack_offsets>
+				</Character_Element>				
+				<Character_Element>
+					<Character_Name>sam_dlc</Character_Name>
 					<Display_Name>DLC Samanya</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -4355,112 +4450,13 @@
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
-				</Character_Element>								
-
+				</Character_Element>
 				<Character_Element>
-					<Character_Name>dlc_vasha</Character_Name>
+					<Character_Name>Vasha</Character_Name>
 					<Display_Name>Vasha</Display_Name>
 					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
-					<backpack_offsets>
-						<backpack>
-							<backpack_name>Commando</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0</Y>
-								<Z>-.01</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Fleetfoot</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>-.01</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Heal</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>-.02</Y>
-								<Z>.02</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Jetpack</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Kaboom</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Rhino</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Shockwave</backpack_name>
-							<backpack_offset>
-								<X>.01</X>
-								<Y>-.02</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Stealth</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Thrust</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>.02</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Tremor</backpack_name>
-							<backpack_offset>
-								<X>-.02</X>
-								<Y>0.0</Y>
-								<Z>-.04</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Vision</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>-.02</Y>
-								<Z>-.04</Z>
-							</backpack_offset>
-						</backpack>
-					</backpack_offsets>
-				</Character_Element>
-				
-				<Character_Element>
-					<Character_Name>dlc_hess</Character_Name>
-					<Display_Name>Hess</Display_Name>
-					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level>
-					<Persona_Group>Marauder Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
 							<backpack_name>Commando</backpack_name>
