@@ -1030,7 +1030,7 @@
 			<control_limit>1.0</control_limit>
 		</base_activity>
 		<base_activity>
-			<Name>je_ro_07</Name>
+			<Name>je_ro_07</Name> <!--Mission Fix-->
 			<disabled>False</disabled>
 			<managed_layer_info>
 				<layer_file_0>terr01_11_06_132</layer_file_0>
@@ -1039,9 +1039,9 @@
 			<_Editor>
 				<Category>Offensive Raids</Category>
 			</_Editor>
-			<vehicle_group>EDF_staff_car</vehicle_group>
+			<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_staff_car-->
 			<reservation_info>
-				<vehicle_group>EDF_staff_car</vehicle_group>
+				<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_staff_car-->
 				<reserve_at_start>At Start</reserve_at_start>
 			</reservation_info>
 			<min_alert_cap>Yellow</min_alert_cap>
