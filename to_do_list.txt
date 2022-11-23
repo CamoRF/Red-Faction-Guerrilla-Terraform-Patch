@@ -11,29 +11,46 @@ v1.07
 	* Add more player spawns
 	* Add backpack racks 
 	* Add clutter from Deadzone, GFWL, Invasion
+	* Add effects from GFWL/Nordic Bonus once the effects are transferred to the map again
+	* Make the rocket launcher not respawn on Ruins
+	* Add team exclusive backpacks on Ruins
+	* Change weather to Deadzone, Invasion, SP DLC, 
+	* Transfer mine beacon, artillery sign, other fire and smoke assets
 
 [Maps]
-	* Add spawns to Scrapheap and Vista
-	* Add flag objectives to siege maps	
-	* Double check items_3d.xtbl comments by comparing it to vanilla file
-	* Double check all maps have kaboom or missing packs on the level at 0,0,0 so they work in the random rotation option	
-	* Disable all other game mode flags for children of all objectives - wip
-	* Imperial: Add more weapons to make your way up the large buildings on Imperial, nano forge and reconstructor 
-	* Cascade: Add a repair tool under the bridge
-	* Make sure all WC maps have at least 16 or more spawns
-	* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords
-	* Transfer smoke, fire, mine beacon and artillery sign asset to Ruins
-	* Transfer the mine beacon and cliff warning sign asset to Expansion
-	* Transfer the mine beacon and artillery sign asset to Transmission and Abandoned
-	* Finish new siege maps
-	* Fix any messed up children on vanilla mp maps
-	* Fix floating or clipping weapons and spawns on all maps
-	* Add another Subverter to Gauntlet, Garrison and Downfall	
-	* Add team spawns to all WC maps
-	* Add more cameras to GFWL/Nordic Bonus	and Repurcussion	
-	* Add misslepod to the top of the large rock on Deadzone
 
-[New Map Objectives]
+	[Fixes]
+		* Fix any messed up children on vanilla mp maps
+		* Fix floating or clipping weapons and spawns on all maps
+		* Disable all other game mode flags for children of all objectives
+		* Doublecheck all weapon and object flags
+		* Double check all maps have kaboom or missing packs on the level at 0,0,0 so they work in the random rotation option	
+		* Make sure all WC maps have at least 16 or more spawns
+		* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords
+		* Add team spawns to all WC maps
+		* Fix spawns on Repurcussion where you can get stuck in pipes
+		
+	[Additions]	
+		* Add spawns to Scrapheap and Vista
+		* Add flag objectives to siege and WC maps 
+		* Add damage control targets to siege and WC maps
+		* Cascade: Add a repair tool under the bridge
+		* Gauntlet, Garrison & Downfall: Add more Subverter spawns
+		* GFWL/Nordic Bonus: Add more spawn nodes and spectator cameras 
+		* Repurcussion: Add more spawn nodes and spectator cameras
+		* Deadzone: Add misslepod to the top of the large rock
+		* Imperial: Add more weapons to make your way up the large buildings; nano forge and reconstructor 
+		* Transmission: Transfer mine beacon and artillery sign
+		* Expansion: Transfer mine beacon, artillery sign and cliff warning sign
+		* Abandoned: Transfer mine beacon, artillery sign and cliff warning sign
+		* Gulch: Add mines around the small area in the middle of the map
+		* Finish new siege maps
+		* Add siege to Watchtower and Pipeline
+		* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
+
+
+[New Map Objectives Locations]
+	
 	* [Cornered] 
 		CTF Stands
 		* 255.476, 5.064, -417.209
@@ -70,10 +87,10 @@ v1.07
 
 [Misc]	
 	* Update WC map thumbnails after the maps are semi finalized
-	* Restore the vanilla inital loading screen in the interface.vpp_pc file, seems to only need to be replaced in misc.vpp_pc
 	* Double check DLC weapons in items_3d.xtbl
-	* SP DLC crashing when loading map (related to porting characters?)
-	* Half cloud speed on all maps in weather file
+	* SP DLC crashing when loading map (related to porting characters?, try renaming character str2s?)
+	* Half cloud speed on all maps in weather files (gtodx/dtodx)
+	* Double check items_3d.xtbl and comments by comparing it to vanilla file
 
 [Weapons]
 	* Spiker: missing textures when on ground, only host can see the projectile (peg file related most likely)
@@ -85,72 +102,33 @@ v1.07
 ----------------------
 DONE/ADD TO CHANGELOG
 ----------------------
-	* Make Oasis/EOS vehicles and npcs rare in other sectors by duplicating spawn lists
-	* Reduce EDF squads
-	* Add siege to Crash Site and Imperial
-	* Add subverter to Quarantine 
-	* Add subverter to Crash Site
-	* Add player and weapon spawns to new buildings added on Imperial
-	* Imperial: Add spawns and weapons to the two new buildings added
-	* GFWL/Nordic Bonus: Some of the shipping containers are floating	
-	* Ruins: has issues with some of the rocks being hard to climb and the player can get stuck on the spikes on buildings
-	* Update loading screen image
-	* Add (camo) to stuff added by patch and change mines/cliffs to out of bounds fix
-	* Fix CTF spawn flipping by making duplicate team spawns that only spawn in CTF and disabling all vanilla spawns in CTF
-	* Add Kaboom to Overpass
-	* Cascade: Add a couple m16 spawns
-	* Move the misslepod on Fallfactor to one of the thin pipes that can be destroyed
-	* Expansion out of bounds exploit
-	* Fix grenade (seems to randomly stop working when played online and character tposes, weapon also breaks if unique ID is changed from 33, might need to be scripted in future)
-	* Add kaboom pack to Crescent 
-	* Transfer mine beacon to Scrapheap	
-	* Make it so the Impaler and Gutter fall on the ground instead of staying upright and spinning
-	* Sniper scope is broken
-	* Add kaboom pack back to Rift at 0,0,0
-	* Add team only stealth and vision backpacks to Quarantine, opposite teams to heal and firepower
-	* Move artificial gravity removal to gameplay add-on 
-	* Move changes to tank health to gameplay add-on
-	* Truck is weaker in second to last mission in eos the one that has you protect the truck with the missile that will be loaded with the nano forge
-	* First transporter mission in Parker/FFZ is very hard to beat because the truck gets stuck and loses all speed
-	* Reverted changes to alert_level.xtbl and added comments for possible changes in gameplay add-on
 
 -------------------
 LOW PRIORITY 
 -------------------
 
 [Weapons]
-	* Add CTF flags, Gutter, Impaler and DLC Pickaxe to the sledgehammer upgrade list in multiplayer if possible and when the dlc melee weapons are added
-	* Weapon ideas: Singularity launcher, Gauss shotgun, Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to
-	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
-	* Add Spiker to singleplayer and add it to Marauder loadout
-	* Fix DLC weapon selection icons and reticules, maybe the bitmap file is important?, maybe RfgUtil update will help?	
+	* Add CTF flags, Gutter, Impaler and DLC Pickaxe to the sledgehammer upgrade list in multiplayer and when the dlc melee weapons are added
+	* Weapon ideas: 
+		- Singularity launcher
+		- Gauss shotgun, 
+		- Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to 	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
+	* Add Spiker to singleplayer and add it to Marauder loadout	
 
-[Fixes]
+[Texture Fixes]
 	* Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
 	* Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
 	* Fix missing texture on Marauder lady
 	* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
 	* Restore Dan Masons yellow jacket		
+	
+[Interface]	
+	* Profile saving hud element can get stuck on screen in multiplayer games sometimes
 	* Issue with double text for the you won/you lost text at end of game with large text over the top of small text	
 
-[Maps] 	
-	* Tutorial area map
-	* Watchtower, Gulch and Pipeline siege versions?
-	* Test adding multiple bagman spawns to randomize where it respawns 	
-	* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives	
-	* Repurcussion: might need adjustments to some of the spawns inside the pipes?
-
 [Misc]
-	* Move other non essential gameplay changes to add-on when the patch is final
-	* Try to make it so you can walk up steeper inclines if possible
-	* Improve driving skills of NPCs (reduce AI speed)
-	
-[Missions]
-	* NPC drives off the cliff in Redemption DLC mission near the large bridge (see screenshot)
-	* Tank doesn't spawn in Redemption DLC mission
-	* Redemption DLC mission could use more checkpoints like after you rescue the prisoners
-	* Test protecting Building mission near Oasis Residential (see screenshot)
-	* EOS side mission (see screenshot)
+	* Move other non essential gameplay changes to add-on when found
+	* Try to make it so you can walk up steeper inclines
 
 [Vehicles]
 	* Walker camera jerk when explosion nearby or swing down onto a car
@@ -190,3 +168,8 @@ OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
 * More fleshed out world with more buildings etc
 * Vehicles driving on roads without traffic like FFZ and EOS end game after the missions are completed
 * Space asshole: player causes as much chaos in a given sector while being attacked by progressively more overwhelming forces. Bonus points if you make the song space asshole play
+* Renaming characters to DLC sams default str2 could be used for model swaps
+* Test adding multiple bagman spawns to randomize where it respawns 
+* Tutorial area map
+* Improve driving skills of NPCs (reduce AI speed)
+* NPCs have trouble with handling larger vehicles

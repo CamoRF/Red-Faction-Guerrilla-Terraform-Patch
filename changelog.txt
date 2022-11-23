@@ -405,6 +405,14 @@ v1.063 ALPHA HOTFIX CHANGES
 v1.07 PRE ALPHA CHANGES
 ---------------------------
 
+[Singleplayer]
+* Reverted removal of artificial gravity; this should fix the transporter mission in Parker/FFZ and the second to last mission in EOS. Will be re-implemented into
+the gameplay add-on along with a complete overhaul to the vehicles handling at a later date.
+* Reverted changes to alert_levels.xtbl; this will be re-implemented into the gameplay add-on at a later date. 
+* Reduced EDF spawns, they are no longer excessive which was making some missions impossible to beat.
+* Redid the changes to vehicle and NPC spawn changes; vehicle and NPCs now make more sense in each sector type. 
+* Reverted changes to tank hitpoints, this should fix the issue with the second to last mission in EOS. This will be re-implemented into the gameplay -addon at a later date.
+
 [Fixes]
 * Fixed crashing issues with Complex and Watchtower properly
 * Fixed player getting stuck on a building in Ruins
@@ -432,7 +440,7 @@ v1.07 PRE ALPHA CHANGES
 * Fixed out of bounds map exploits on Scrapheap
 * Fixed out of bounds map exploits on Haven 
 * Fixed out of bounds map exploit on Garrison
-* Fixed broken VFX on GFWL/Nordic Bonus
+* Fixed out of bounds map exploits on Expansion
 * Fixed missing killzones/cliffs under various maps
 * Fixed two weapon spawns in the same location on Gulch 
 * Fixed two weapon spawns in the same location on Cascade
@@ -450,11 +458,18 @@ v1.07 PRE ALPHA CHANGES
 * Fixed issue with mixed up radio tower children on Fortress
 * Fixed issue with duplicate remote charge spawn on Ruins
 * Fixed vanilla issue with inconsistent naming on various objects and removed the display_name string from objects that didn't need it
-* Fixed floating containers on GFWL/Nordic Bonus
 * Fixed issues with mixed up vent and smokestack children on Repurcussion
 * Countless misc fixes to all 50 maps
+* Fixed or removed floating containers on GFWL/Nordic Bonus. Some were replaced with vehicle debris, smoke was also added to help with line of sight issues
+* Moved the smokestack on GFWL/Nordic Bonus to the playable area and added the missing smoke effect that was previously under the map in vanilla.
+* Added fire, smoke, trees and signs to indicate the out of bounds areas on GFWL/Nordic Bonus.
+* Moved the misslepod on Fallfactor to a thin pipe that can be more easily destroyed and made minor changes to DLC weapon spawn locations to balance for teams.
+* Added two additional Assault Rifle spawns on Cascade
+* Added Kaboom backpack spawn near attacker spawn on Overpass with a single pack on the rack 
+* Added Kaboom backpack spawn near attacker spawn on Cresecent with a single pack on the rack
 
 [Maps] 
+* Added capture the flag and damage control to all wrecking crew and siege maps
 * Added various player spawns, weapon spawns and objects to the previously empty area surrounding the main area on Gulch
 * Added various player and weapon spawns to the previously empty areas on Transmission
 * Added a misslepod spawn in a difficult to reach location on Settlement 
@@ -465,10 +480,9 @@ v1.07 PRE ALPHA CHANGES
 * Added a misslepod to one of the walkways on Haven
 * Added a rocket spawn to Stratosphere
 * Added a hidden misslepod spawn to Pipeline
-* Added a monument and two more buildings to Imperial
+* Added a monument and two more buildings to Imperial along with more player and weapon spawns
 * Added kaboom pack pickup on Crevice and Overpass with a single pack on the rack near the attacking team spawn
-* Added another rail driver spawn on Imperial
-* Added Siege to Abandoned, Cascade, Crash Site, Doubletime, Equilibrium, Garrison, Imperial, Quarantine, Radial, Repurcussion, Rift and Stratosphere
+* Added another rail driver spawn on Imperial opposite to the original spawn to help balance the map in team games
 * Added Damage Control to Frost and Stratosphere
 * Added Vision pack to Broadside to counter the Stealth pack that was already on the map 
 * Added Vision pack to Cornered to counter the Stealth pack that was already on the map
@@ -480,6 +494,12 @@ v1.07 PRE ALPHA CHANGES
 * Completely overhauled Frost to be much more playable
 * Slight adjustments to existing DLC weapon spawns on Settlement, Rift, Excavation, Crash site and most other MP maps
 * Disabled Misslepod and Super Gauss Rifle spawns in Demolition and Damage Control
+* Added additional Subverter spawns to Crash Site, Quarantine, 
+* Ruins: completely overhauled due to the map being almost the same as Remnant, it is now the first interior only map in RFG!
+* Added (camo) prefix to objects changed by the patch in the Nanoforge outliner on regular multiplayer maps 
+* Changed names of mine and cliffs that were used to fix out of bounds areas to "out of bounds fix (camo)"
+* Added 12 new siege maps: 
+* Minefield with beacons added to the empty area surrounding Scrapheap
 
 [Characters] 
 * Added DLC Samanya Marauder
@@ -492,11 +512,15 @@ v1.07 PRE ALPHA CHANGES
 * Enabled friendly fire by default in custom games
 * Added Kaboom pack to random backpack rotation
 
+[Backpacks]
+* Kaboom and other backpacks not on the map now show up in random backpack rotation
+
 [Weapons] 
 * Added Nano Grenade 
 * Added Stun Grenade 
 * Added Explosive Grenade
 * Added Fist/unarmed weapon
+* Impaler and Gutter now fall to the ground instead of spinning in the air when placed as spawns or dropped
 
 [Misc]
 * Added comments for implementing DLC weapon reticules in future
@@ -532,18 +556,23 @@ v1.07 PRE ALPHA CHANGES
 [Optimization]
 * Slightly reduced objects processed per frame in rfg_stress_controls.xtbl
 
+[Interface]
+* Restored vanilla initial loading screen in interface.vpp_pc as it only needs to be replaced in misc.vpp_pc
+* Reverted skipping intro videos/logos however added the ability to skip all them by spamming a key.
+* Version updated on initial loading screen
+
 ------------
 |KNOWN BUGS|
 ------------
 
 [Singleplayer]
 * Flat beds and other large vehicles can damage safehouses when they spawn
-* NPCs have trouble with handling larger vehicles
 * Vehicle spawn locations aren't final
-
-[Missions]
-* The first DLC transporter might be broken due to the vehicle not spawning for some unknown reason, uninstall the patch to complete this mission and then you can safetly reinstall after you've finished it
-* Redemption: Tank might not spawn 
+* DLC: first transporter is broken due to the vehicle not spawning for some unknown reason, uninstall the patch to complete this mission and then you can safetly reinstall after you've finished it
+* DLC: tank doesn't spawn in Redemption mission
+* DLC: crashes on load
+* Activity: offensive raid at top right of Oasis might not be beatable due to EDF spawns stopping before you destroy enough vehicles
+* Activity: screenshot "sp_eos_side_mission" might be broken
 
 [DLC Weapons]
 * Pickaxe and Impaler have missing textures so they are not implemeneted yet
@@ -554,15 +583,7 @@ v1.07 PRE ALPHA CHANGES
 
 [Backpacks]
 * Kaboom backpack has floating objects on the model
-* Kaboom pack might not show up in random backpack rotation on any map possibly due to there not being a backpack rack on the map
-* Random backpack option doesn't work on wrecking crew maps possibly due to there not being backpack racks on the maps yet
 * Backpacks might clip through the characters on some of the new models, this can be fixed by fine tuning the offset axis values but will take time
-
-[Maps]
-* Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman, Bagman and Siege will not work on any Wrecking Crew map until the Nanoforge modding tool allows us to add siege, CTF and damage control objectives to maps
-* Gamemodes other than Team Anarchy, Anarchy, Demolition, Team Bagman, Bagman and Siege will not work on Siege maps until the Nanoforge modding tool allows us to add CTF and damage control objectives to maps
-* Wrecking crew maps don't have backpack spawns until the Nanoforge modding tool allows us to add them
-* Repurcussion might need adjustments to some of the spawns inside the pipes
 
 [Characters]
 * EDF heavy changed to the white model in team games due to a bug with new characters
@@ -571,6 +592,7 @@ v1.07 PRE ALPHA CHANGES
 * New character names have !! in front of them because I haven't figured out how to add proper menu entry strings yet
 
 [Vanilla]
+* DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
 * Walkers don't spawn sometimes
 * Issue with extreme cloud speed on some maps
 * LOD cap for small rocks seems to be hardcoded and cannot be increased further
@@ -580,7 +602,7 @@ v1.07 PRE ALPHA CHANGES
 * Some backpacks clipping through Alec Mason in singleplayer
 * Floating backpacks on players when they first spawn, seems to be related to high ping
 * Siege objectives and weapon pickups can sometimes desync in multiplayer
-* Redemption: NPC might drive off near the cliff near the large bridge (with uncapped fps?)
+* DLC: NPC might drive off near the cliff near the large bridge during Redemption mission (with uncapped fps or due to bad road path on the map?)
 
 [Wrecking Crew Mode]
 * Maps don't have barrels and might crash, alternative solutions will be sought after in the future such as attempting to add entirely new .vpp_pc map files instead of replacing the maps
