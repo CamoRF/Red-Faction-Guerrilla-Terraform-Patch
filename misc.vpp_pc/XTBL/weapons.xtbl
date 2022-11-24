@@ -3864,6 +3864,7 @@
 			</Sounds>
 			<Visuals>
 				<Muzzle_Flash>wep_shotgun_muzzle_flash_a</Muzzle_Flash>
+				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke> <!--Added-->
 				<Fire_Camera_Shake>weapon_fire_shotgun</Fire_Camera_Shake>
 				<Tracer_Frequency>0</Tracer_Frequency>
 			</Visuals>
@@ -8241,6 +8242,7 @@
 			<fine_aim_reticule>ui_hud_reti_shotgun2</fine_aim_reticule>
 			<Visuals>
 				<Muzzle_Flash>wep_shotgun_muzzle_flash_a</Muzzle_Flash>
+				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke> <!--Added-->
 				<Fire_Camera_Shake>weapon_fire_shotgun</Fire_Camera_Shake>
 				<Tracer_Frequency>0</Tracer_Frequency>
 			</Visuals>
