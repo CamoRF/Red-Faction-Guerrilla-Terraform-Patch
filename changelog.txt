@@ -572,6 +572,7 @@ the gameplay add-on along with a complete overhaul to the vehicles handling at a
 * DLC: crashes on load
 * Activity: offensive raid at top right of Oasis might not be beatable due to EDF spawns stopping before you destroy enough vehicles
 * Activity: screenshot "sp_eos_side_mission.png" might be broken
+* Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx, dlc01_td_02.scriptx", "misc.vpp_pc\dlc01_activity_timed_delivery.xtbl\dlc01_td_02"
 
 [DLC Weapons]
 * Pickaxe and Impaler have missing textures so they are not implemeneted yet (should be fixed when cpeg/gpeg tools release)
