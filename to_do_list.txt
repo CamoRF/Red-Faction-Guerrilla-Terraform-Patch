@@ -2,17 +2,20 @@
 v1.07
 ------
 	
-[Ruins Interior Map]
-	* Add more player spawns
-	* Add backpack racks 
-	* Add clutter from Deadzone, GFWL, Invasion
-	* Add effects from GFWL/Nordic Bonus once the effects are transferred to the map again
-	* Make the rocket launcher not respawn on Ruins
-	* Add team exclusive backpacks on Ruins
-	* Change weather to Deadzone, Invasion, SP DLC, GFWL?
-	* Transfer mine beacon, artillery sign, other fire and smoke assets
+
 
 [Maps]
+
+	[Ruins Interior Map]
+		* Add more player spawns
+		* Add backpack racks 
+		* Add clutter from Deadzone, GFWL, Invasion
+		* Add effects from GFWL/Nordic Bonus once the effects are transferred to the map again
+		* Make the rocket launcher not respawn on Ruins
+		* Add team exclusive backpacks on Ruins
+		* Change weather to Deadzone, Invasion, SP DLC, GFWL?
+		* Transfer mine beacon, artillery sign, other fire and smoke assets
+		* Add a gutter spawn
 
 	[Fixes]
 		* Fix any messed up children on vanilla mp maps
@@ -24,6 +27,7 @@ v1.07
 		* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords
 		* Add team spawns to all WC maps
 		* Fix spawns on Repurcussion where you can get stuck in pipes
+		* Make sure all subverter spawns use the EDF pistol bounding box
 		
 	[Additions]	
 		* Add backpack rack spawns to all WC maps
