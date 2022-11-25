@@ -4,7 +4,7 @@
 		<Character>
 			<Name>dlc_sam</Name>
 			<Model>
-				<Filename>sam_dlc.cmeshx</Filename>
+				<Filename>dlc_sam.cmeshx</Filename>
 			</Model>
 			<Anim_Set>player_female.xtbl</Anim_Set> <!--From Player.xtbl-->
 			<Rig>
@@ -38,7 +38,7 @@
 					<Type>Back</Type>
 					<Items>
 						<Item>
-							<Name>Sam_DLC_Cape</Name>
+							<Name>DLC_Sam_Cape</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -49,7 +49,7 @@
 					<Type>Head</Type>
 					<Items>
 						<Item>
-							<Name>Sam_DLC_Hair</Name>
+							<Name>DLC_Sam_Hair</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -60,7 +60,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Sam_DLC_Skirt</Name>
+							<Name>DLC_Sam_Skirt</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -127,12 +127,13 @@
 			<origin_district>Special</origin_district>
 			<Heads>
 				<Head>
-					<Name>sam_dlc_head</Name>
+					<Name>dlc_sam_head</Name>
 					<Base_Head>base_hires_head</Base_Head>
 					<Lod_Head>none</Lod_Head>
 				</Head>
 			</Heads>
 		</Character>
+		
 		<Character>
 			<Name>dlc_hess</Name>
 			<Model>
@@ -175,7 +176,7 @@
 					<Type>Head</Type>
 					<Items>
 						<Item>
-							<Name>Hess_Helmet</Name>
+							<Name>DLC_Hess_Helmet</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -186,7 +187,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_CalfWrap_L</Name>
+							<Name>DLC_Hess_CalfWrap_L</Name>
 							<Character_Prop>l-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_L</Item_Prop>
 							<Chance>100</Chance>
@@ -199,7 +200,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_BootCover_L</Name>
+							<Name>DLC_Hess_BootCover_L</Name>
 							<Character_Prop>l-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_L</Item_Prop>
 							<Chance>100</Chance>
@@ -212,7 +213,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_KnifeCalf_R</Name>
+							<Name>DLC_Hess_KnifeCalf_R</Name>
 							<Character_Prop>r-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_R</Item_Prop>
 							<Chance>100</Chance>
@@ -225,7 +226,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_BootCover_R</Name>
+							<Name>DLC_Hess_BootCover_R</Name>
 							<Character_Prop>r-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_R</Item_Prop>
 							<Chance>100</Chance>
@@ -238,7 +239,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_Props</Name>
+							<Name>DLC_Hess_Props</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -306,6 +307,7 @@
 			<AimErrorPct>150</AimErrorPct>
 			<origin_district>Special</origin_district>
 		</Character>		
+		
 		<Character>
 			<Name>dlc_vasha</Name>
 			<Model>
@@ -313,7 +315,7 @@
 			</Model>
 			<Anim_Set>player_female.xtbl</Anim_Set> <!--From Civilian_Female.xtbl-->
 			<Rig>
-				<Filename>vasha.rigx</Filename>
+				<Filename>dlc_vasha.rigx</Filename>
 			</Rig>
 			<Team>Marauder</Team>
 			<_Editor>
@@ -343,7 +345,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>vasha_skirt</Name>
+							<Name>dlc_vasha_skirt</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -412,7 +414,7 @@
 		<Character>
 			<Name>dlc_harvey</Name>
 			<Model>
-				<Filename>hess.cmeshx</Filename>
+				<Filename>dlc_hess.cmeshx</Filename>
 			</Model>
 			<Anim_Set>Scavenger.xtbl</Anim_Set>
 			<Rig>
@@ -451,7 +453,7 @@
 					<Type>Head</Type>
 					<Items>
 						<Item>
-							<Name>Hess_Helmet</Name>
+							<Name>DLC_Hess_Helmet</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -462,7 +464,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_CalfWrap_L</Name>
+							<Name>DLC_Hess_CalfWrap_L</Name>
 							<Character_Prop>l-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_L</Item_Prop>
 							<Chance>100</Chance>
@@ -475,7 +477,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_BootCover_L</Name>
+							<Name>DLC_Hess_BootCover_L</Name>
 							<Character_Prop>l-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_L</Item_Prop>
 							<Chance>100</Chance>
@@ -488,7 +490,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_KnifeCalf_R</Name>
+							<Name>DLC_Hess_KnifeCalf_R</Name>
 							<Character_Prop>r-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_R</Item_Prop>
 							<Chance>100</Chance>
@@ -501,7 +503,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_BootCover_R</Name>
+							<Name>DLC_Hess_BootCover_R</Name>
 							<Character_Prop>r-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_R</Item_Prop>
 							<Chance>100</Chance>
@@ -514,7 +516,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_Props</Name>
+							<Name>DLC_Hess_Props</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -582,11 +584,12 @@
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Common</origin_district>
 		</Character>
+		
 		<Character>
 			<Name>dlc_john</Name>
-			<origin_district>Special</origin_district>
+			<origin_district>Common</origin_district>
 			<Model>
-				<Filename>john_dlc.cmeshx</Filename>
+				<Filename>dlc_john.cmeshx</Filename>
 			</Model>
 			<Rig>
 				<Filename>dlc_john.rigx</Filename>
@@ -627,11 +630,12 @@
 				<Category>Entries:Civilians:Prisoner</Category>
 			</_Editor>
 		</Character>
+		
 		<Character>
 			<Name>dlc_celia</Name>
-			<origin_district>Special</origin_district>
+			<origin_district>Common</origin_district>
 			<Model>
-				<Filename>Celia_dlc.cmeshx</Filename>
+				<Filename>dlc_celia.cmeshx</Filename>
 			</Model>
 			<Rig>
 				<Filename>dlc_celia.rigx</Filename>
@@ -687,11 +691,12 @@
 				<Category>Entries:Civilians:Prisoner</Category>
 			</_Editor>
 		</Character>
+		
 		<Character>
 			<Name>dlc_kat</Name>
-			<origin_district>Special</origin_district>
+			<origin_district>Common</origin_district>
 			<Model>
-				<Filename>kat_dlc.cmeshx</Filename>
+				<Filename>dlc_kat.cmeshx</Filename>
 			</Model>
 			<Rig>
 				<Filename>dlc_kat.rigx</Filename>
@@ -747,11 +752,12 @@
 				<Category>Entries:Civilians:Prisoner</Category>
 			</_Editor>
 		</Character>
+		
 		<Character>
 			<Name>dlc_pierce</Name>
-			<origin_district>Special</origin_district>
+			<origin_district>Common</origin_district>
 			<Model>
-				<Filename>pierce_dlc.cmeshx</Filename>
+				<Filename>dlc_pierce.cmeshx</Filename>
 			</Model>
 			<Rig>
 				<Filename>dlc_pierce.rigx</Filename>

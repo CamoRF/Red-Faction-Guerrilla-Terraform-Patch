@@ -11,11 +11,23 @@
 			<effect_name>env_sun_corona_a</effect_name>
 			<scale>
 				<key>
-					<time>0</time>
+					<time>15</time>
 					<value>0.450000</value>
 				</key>
 				<key>
-					<time>17</time>
+					<time>16</time>
+					<value>0.450000</value>
+				</key>
+				<key>
+					<time>18</time>
+					<value>0.450000</value>
+				</key>
+				<key>
+					<time>38</time>
+					<value>0.450000</value>
+				</key>
+				<key>
+					<time>40</time>
 					<value>0.450000</value>
 				</key>
 			</scale>
@@ -39,12 +51,28 @@
 			</tint>
 			<opacity>
 				<key>
-					<time>21</time>
-					<value>0.550000</value>
+					<time>14</time>
+					<value>0.000000</value>
+				</key>
+				<key>
+					<time>15</time>
+					<value>0.050000</value>
+				</key>
+				<key>
+					<time>16</time>
+					<value>0.300000</value>
 				</key>
 				<key>
 					<time>38</time>
-					<value>0.550000</value>
+					<value>0.300000</value>
+				</key>
+				<key>
+					<time>39</time>
+					<value>0.050000</value>
+				</key>
+				<key>
+					<time>40</time>
+					<value>0.000000</value>
 				</key>
 			</opacity>
 		</orbital>
@@ -59,7 +87,15 @@
 			<effect_name></effect_name>
 			<scale>
 				<key>
+					<time>0</time>
+					<value>2.000000</value>
+				</key>
+				<key>
 					<time>6</time>
+					<value>2.000000</value>
+				</key>
+				<key>
+					<time>13</time>
 					<value>2.000000</value>
 				</key>
 				<key>
@@ -67,7 +103,27 @@
 					<value>2.000000</value>
 				</key>
 				<key>
+					<time>17</time>
+					<value>2.000000</value>
+				</key>
+				<key>
+					<time>19</time>
+					<value>2.000000</value>
+				</key>
+				<key>
+					<time>38</time>
+					<value>2.000000</value>
+				</key>
+				<key>
+					<time>42</time>
+					<value>2.000000</value>
+				</key>
+				<key>
 					<time>44</time>
+					<value>2.000000</value>
+				</key>
+				<key>
+					<time>47</time>
 					<value>2.000000</value>
 				</key>
 			</scale>
@@ -87,16 +143,16 @@
 			</tint>
 			<opacity>
 				<key>
-					<time>0</time>
-					<value>0.700000</value>
+					<time>11</time>
+					<value>0.020000</value>
 				</key>
 				<key>
-					<time>6</time>
-					<value>0.200000</value>
+					<time>18</time>
+					<value>0.070000</value>
 				</key>
 				<key>
-					<time>12</time>
-					<value>0.300000</value>
+					<time>19</time>
+					<value>0.070000</value>
 				</key>
 				<key>
 					<time>21</time>
@@ -106,20 +162,40 @@
 					<time>38</time>
 					<value>0.070000</value>
 				</key>
+				<key>
+					<time>42</time>
+					<value>0.070000</value>
+				</key>
+				<key>
+					<time>45</time>
+					<value>0.020000</value>
+				</key>
 			</opacity>
 		</orbital>
 		<orbital>
-			<plane_rot_x>96.000000</plane_rot_x>
-			<plane_rot_y>0.000000</plane_rot_y>
+			<plane_rot_x>119.000000</plane_rot_x>
+			<plane_rot_y>184.000000</plane_rot_y>
 			<distance_off_plane>0.000000</distance_off_plane>
-			<orbit_time_offset>20.000000</orbit_time_offset>
+			<orbit_time_offset>4.000000</orbit_time_offset>
 			<alpha_blend>false</alpha_blend>
 			<map_name>deimos_d.cvbm_pc</map_name>
 			<name>Deimos</name>
 			<effect_name></effect_name>
 			<scale>
 				<key>
-					<time>21</time>
+					<time>16</time>
+					<value>1.000000</value>
+				</key>
+				<key>
+					<time>17</time>
+					<value>1.000000</value>
+				</key>
+				<key>
+					<time>40</time>
+					<value>1.000000</value>
+				</key>
+				<key>
+					<time>41</time>
 					<value>1.000000</value>
 				</key>
 			</scale>
@@ -127,12 +203,76 @@
 			</tint>
 			<opacity>
 				<key>
-					<time>21</time>
-					<value>0.900000</value>
+					<time>15</time>
+					<value>0.000000</value>
+				</key>
+				<key>
+					<time>16</time>
+					<value>0.765217</value>
+				</key>
+				<key>
+					<time>17</time>
+					<value>0.800000</value>
+				</key>
+				<key>
+					<time>40</time>
+					<value>0.800000</value>
+				</key>
+				<key>
+					<time>41</time>
+					<value>0.000000</value>
+				</key>
+			</opacity>
+		</orbital>
+		<orbital>
+			<plane_rot_x>107.660004</plane_rot_x>
+			<plane_rot_y>0.000000</plane_rot_y>
+			<distance_off_plane>0.000000</distance_off_plane>
+			<orbit_time_offset>3.000000</orbit_time_offset>
+			<alpha_blend>false</alpha_blend>
+			<map_name>phobos_d.cvbm_pc</map_name>
+			<name>Phobos2</name>
+			<effect_name></effect_name>
+			<scale>
+				<key>
+					<time>19</time>
+					<value>2.000000</value>
+				</key>
+				<key>
+					<time>37</time>
+					<value>2.000000</value>
+				</key>
+			</scale>
+			<tint>
+				<key>
+					<time>11</time>
+					<value>0.617207 0.854993 0.871367 32.000000</value>
+				</key>
+			</tint>
+			<opacity>
+				<key>
+					<time>19</time>
+					<value>0.070000</value>
+				</key>
+				<key>
+					<time>22</time>
+					<value>0.070000</value>
+				</key>
+				<key>
+					<time>24</time>
+					<value>0.000000</value>
+				</key>
+				<key>
+					<time>36</time>
+					<value>0.000000</value>
+				</key>
+				<key>
+					<time>39</time>
+					<value>0.070000</value>
 				</key>
 			</opacity>
 		</orbital>
 	</orbitals>
 	<horizon_mountain_enabled>true</horizon_mountain_enabled>
-	<fog_camera_follow>false</fog_camera_follow>
+	<fog_camera_follow>true</fog_camera_follow>
 </root>
