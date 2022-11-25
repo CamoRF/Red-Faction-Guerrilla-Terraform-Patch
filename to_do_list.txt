@@ -1,8 +1,6 @@
 ------
 v1.07
 ------
-	
-
 
 [Maps]
 
@@ -91,6 +89,7 @@ v1.07
 	* SP DLC crashing when loading map (related to porting characters?, try renaming character str2s?)
 	* Half cloud speed on all maps in weather files (gtodx/dtodx)
 	* Double check items_3d.xtbl and comments by comparing it to vanilla file
+	* Merge base SP and DLC precache files into mp_common.vpp_pc
 
 [Weapons]
 	* Spiker: missing textures when on ground, only host can see the projectile (peg file related most likely)
