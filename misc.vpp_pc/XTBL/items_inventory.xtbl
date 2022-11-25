@@ -75,7 +75,7 @@
 <!--END-->
 <!--START DLC Weapons Added-->	
 		<Inventory_Item>
-			<Name>spiker</Name>
+			<Name>dlc_spiker</Name>
 			<Display_Name>WEAP_SPIKER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -87,7 +87,7 @@
 		</Inventory_Item>
 		
 		<Inventory_Item>
-			<Name>pickaxe</Name>
+			<Name>dlc_pickaxe</Name>
 			<Display_Name>WEAP_PICKAXE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -99,7 +99,7 @@
 		</Inventory_Item>
 		
 		<Inventory_Item>
-			<Name>mar_charge_placer</Name>
+			<Name>dlc_mar_charge_placer</Name>
 			<Display_Name>DLC CHARGES</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -111,7 +111,7 @@
 		</Inventory_Item>
 		
 		<Inventory_Item>
-			<Name>royal_sword</Name>
+			<Name>dlc_royal_sword</Name>
 			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -123,7 +123,7 @@
 		</Inventory_Item>			
 		
 		<Inventory_Item>
-			<Name>edf_super_gauss</Name>
+			<Name>dlc_edf_super_gauss</Name>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -135,7 +135,7 @@
 		</Inventory_Item>
 		
 		<Inventory_Item>
-			<Name>edf_subverter</Name>
+			<Name>dlc_edf_subverter</Name>
 			<Display_Name>WEAP_SUBVERTER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -147,7 +147,7 @@
 		</Inventory_Item>
 		
 		<Inventory_Item>
-			<Name>missilepod</Name>
+			<Name>dlc_missilepod</Name>
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>

@@ -359,7 +359,7 @@
 	
 <!--START DLC Weapons Added-->
 		<Weapon>
-			<Name>royal_sword</Name>
+			<Name>dlc_royal_sword</Name>
 			<Weapon_Class>melee_gutter</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -406,8 +406,8 @@
 				<StandingTertiary>sword stand overhead</StandingTertiary>
 				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>royal_sword</Inventory_Item>
-			<Item_3d>royal_sword</Item_3d>
+			<Inventory_Item>dlc_royal_sword</Inventory_Item>
+			<Item_3d>dlc_royal_sword</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
@@ -429,7 +429,7 @@
 		</Weapon>
 		
 		<Weapon>
-			<Name>pickaxe</Name>
+			<Name>dlc_pickaxe</Name>
 			<Weapon_Class>melee</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -468,8 +468,8 @@
 				<StandingTertiary>sledgehammer_melee_vert_u1</StandingTertiary>
 				<CrouchingTertiary>sledgehammer_melee_vert_u1</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>pickaxe</Inventory_Item>
-			<Item_3d>pickaxe</Item_3d>
+			<Inventory_Item>dlc_pickaxe</Inventory_Item>
+			<Item_3d>dlc_pickaxe</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
@@ -490,7 +490,7 @@
 		</Weapon>
 
 		<Weapon>
-			<Name>mar_charge_placer</Name>
+			<Name>dlc_mar_charge_placer</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>thrown</Ammo_Type>
@@ -543,8 +543,8 @@
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>10</Max_Engagement_Distance>
-			<Inventory_Item>mar_charge_placer</Inventory_Item>
-			<Item_3d>mar_charge_placer</Item_3d>
+			<Inventory_Item>dlc_mar_charge_placer</Inventory_Item>
+			<Item_3d>dlc_mar_charge_placer</Item_3d>
 			<MeleeAttacks>
 				<StandingPrimary>marauder_charge_melee</StandingPrimary>
 				<StandingSecondary>marauder_charge_punch</StandingSecondary>
@@ -575,7 +575,7 @@
 		</Weapon>		
 		
 		<Weapon>
-			<Name>spiker</Name>
+			<Name>dlc_spiker</Name>
 			<Weapon_Class>harpoon</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>projectile</Ammo_Type>
@@ -621,8 +621,8 @@
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>50</Max_Engagement_Distance>
-			<Inventory_Item>spiker</Inventory_Item>
-			<Item_3d>spiker</Item_3d>
+			<Inventory_Item>dlc_spiker</Inventory_Item>
+			<Item_3d>dlc_spiker</Item_3d>
 			<Recoil_Kick>.7</Recoil_Kick>
 			<Acceleration>0.0</Acceleration>
 			<Sounds>
@@ -693,13 +693,13 @@
 		</Weapon>		
 		
 		<Weapon>
-			<Name>EDF_Super_Gauss</Name>
+			<Name>dlc_EDF_Super_Gauss</Name>
 			<icon_name>ui_hud_weapon_icon_gauss</icon_name> <!--From ui_hud_weapon_icon_supergauss-->
 			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name> <!--From ui_hud_reti_supergauss-->
 			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule> <!--From ui_hud_reti_supergauss0-->
 			<Unique_ID>158</Unique_ID>
-			<Inventory_Item>edf_super_gauss</Inventory_Item>
-			<Item_3d>EDF_Super_Gauss</Item_3d>
+			<Inventory_Item>dlc_edf_super_gauss</Inventory_Item>
+			<Item_3d>dlc_EDF_Super_Gauss</Item_3d>
 			<Default_team>EDF</Default_team>
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
@@ -795,7 +795,7 @@
 		</Weapon>
 		
 		<Weapon>
-			<Name>missilepod</Name>
+			<Name>dlc_missilepod</Name>
 			<icon_name>ui_badge_icon_murry</icon_name> <!--From ui_hud_weapon_icon_pod-->
 			<reticule_name>ui_hud_reti_thermobaric</reticule_name> <!--From ui_hud_reti_missilepod2-->
 			<fine_aim_reticule>ui_hud_reti_thermobaric2</fine_aim_reticule> <!--From ui_hud_reti_missilepod3-->
@@ -842,8 +842,8 @@
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>30</Max_Engagement_Distance>
-			<Inventory_Item>missilepod</Inventory_Item>
-			<Item_3d>missilepod</Item_3d>
+			<Inventory_Item>dlc_missilepod</Inventory_Item>
+			<Item_3d>dlc_missilepod</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Sounds>
 				<Fire_Sound>WEP_TUR_ROCKET_PC_ATTACK</Fire_Sound>
@@ -891,10 +891,10 @@
 		</Weapon>	
 		
 		<Weapon>
-			<Name>edf_subverter</Name>
+			<Name>dlc_edf_subverter</Name>
 			<Unique_ID>160</Unique_ID>
-			<Inventory_Item>edf_subverter</Inventory_Item>
-			<Item_3d>edf_subverter</Item_3d>
+			<Inventory_Item>dlc_edf_subverter</Inventory_Item>
+			<Item_3d>dlc_edf_subverter</Item_3d>
 			<Default_team>EDF</Default_team>
 			<icon_name>ui_hud_weapon_icon_sub</icon_name> <!--From ui_hud_weapon_icon_sub--> <!--placeholder: ui_badge_icon_edf-->
 			<reticule_name>ui_hud_reti_subverter</reticule_name> <!--From ui_hud_reti_subverter--> <!--placeholder: ui_hud_reti_enforcer-->
