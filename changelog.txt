@@ -467,6 +467,8 @@ the gameplay add-on along with a complete overhaul to the vehicles handling at a
 * Reduced EDF spawns, they are no longer excessive making some missions impossible to beat
 * Redid the changes to vehicle and NPC spawn changes; vehicle and NPCs now make more sense in each sector type 
 * Reverted changes to tank hitpoints, this should fix the issue with the second to last mission in EOS; This will be re-implemented into the gameplay add-on at a later date
+* Added Jenkins vehicle to safehouse spawns
+* Added other variants of the DLC Marauder vehicles
 
 [Maps] 
 * Added capture the flag and damage control to all wrecking crew and siege maps
