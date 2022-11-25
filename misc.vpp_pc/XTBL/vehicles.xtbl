@@ -3,7 +3,7 @@
 <!--START DLC Vehicles Added-->
 		
 		<Vehicle>
-			<Name>Mar_chomper</Name>
+			<Name>dlc_Mar_chomper</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -78,7 +78,7 @@
 				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
 			</Foley>
 			<Mesh_Name>
-				<Filename>mar_chomper.carx</Filename>
+				<Filename>dlc_mar_chomper.carx</Filename>
 			</Mesh_Name>
 			<Preload>False</Preload>
 			<Default_Team>Marauder</Default_Team>
@@ -129,7 +129,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
+			<Vehicle_Interaction>dlc_Mar_chomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<Effects>
 				<Exhaust>veh_exhaust_generic_a</Exhaust>
@@ -163,7 +163,7 @@
 		</Vehicle>
 		
 		<Vehicle>
-			<Name>Mar_chomper_MG</Name>
+			<Name>dlc_Mar_chomper_MG</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -238,7 +238,7 @@
 				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
 			</Foley>
 			<Mesh_Name>
-				<Filename>mar_chomper.carx</Filename>
+				<Filename>dlc_mar_chomper.carx</Filename>
 			</Mesh_Name>
 			<Preload>False</Preload>
 			<Default_Team>Marauder</Default_Team>
@@ -289,7 +289,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
+			<Vehicle_Interaction>dlc_Mar_chomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<Effects>
 				<Exhaust>veh_exhaust_generic_a</Exhaust>
@@ -339,7 +339,7 @@
 		</Vehicle>
 		
 		<Vehicle>
-			<Name>Mar_chomper_MGWing</Name>
+			<Name>dlc_Mar_chomper_MGWing</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -414,7 +414,7 @@
 				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
 			</Foley>
 			<Mesh_Name>
-				<Filename>mar_chomper.carx</Filename>
+				<Filename>dlc_mar_chomper.carx</Filename>
 			</Mesh_Name>
 			<Preload>False</Preload>
 			<Default_Team>Marauder</Default_Team>
@@ -465,7 +465,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
+			<Vehicle_Interaction>dlc_Mar_chomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<Effects>
 				<Exhaust>veh_exhaust_generic_a</Exhaust>
@@ -515,7 +515,7 @@
 		</Vehicle>
 		
 		<Vehicle>
-			<Name>Mar_chomper_Harp</Name>
+			<Name>dlc_Mar_chomper_Harp</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -590,7 +590,7 @@
 				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
 			</Foley>
 			<Mesh_Name>
-				<Filename>mar_chomper.carx</Filename>
+				<Filename>dlc_mar_chomper.carx</Filename>
 			</Mesh_Name>
 			<Preload>False</Preload>
 			<Default_Team>Marauder</Default_Team>
@@ -641,7 +641,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
+			<Vehicle_Interaction>dlc_Mar_chomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<Effects>
 				<Exhaust>veh_exhaust_generic_a</Exhaust>
@@ -691,7 +691,7 @@
 		</Vehicle>
 		
 		<Vehicle>
-			<Name>Mar_stomper_MG</Name>
+			<Name>dlc_Mar_stomper_MG</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -769,7 +769,7 @@
 				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
 			</Foley>
 			<Mesh_Name>
-				<Filename>mar_stomper.carx</Filename>
+				<Filename>dlc_mar_stomper.carx</Filename>
 			</Mesh_Name>
 			<Preload>False</Preload>
 			<Default_Team>Marauder</Default_Team>
@@ -822,7 +822,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.5</Terrain_Damage_Scale>
-			<Vehicle_Interaction>Mar_stomper</Vehicle_Interaction>
+			<Vehicle_Interaction>dlc_Mar_stomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<spawn_offset_info>
 				<spawn_height>1.97</spawn_height>
@@ -861,7 +861,7 @@
 		</Vehicle>
 		
 		<Vehicle>
-			<Name>Mar_Walker</Name>
+			<Name>dlc_Mar_Walker</Name>
 			<_Editor>
 				<Category>Mechs</Category>
 			</_Editor>
@@ -883,7 +883,7 @@
 				<Filename></Filename>
 			</Rig>
 			<Mesh_Name>
-				<Filename>walker_mar.carx</Filename>
+				<Filename>dlc_walker_mar.carx</Filename>
 			</Mesh_Name>
 			<Preload>False</Preload>
 			<Default_Team>Civilian</Default_Team>

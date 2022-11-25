@@ -83,7 +83,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_bad_lag_rtt_ms</Name>
-			<Value>9999</Value>
+			<Value>2147483647</Value>
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -91,7 +91,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_bad_lag_duration_ms</Name>
-			<Value>9999</Value>
+			<Value>2147483647</Value>
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
