@@ -1,6 +1,7 @@
 <root>
 	<Table>
 <!--START DLC Vehicles Added-->
+		
 		<Vehicle>
 			<Name>Mar_chomper</Name>
 			<_Editor>
@@ -160,6 +161,7 @@
 			<Energy_Scale>1.00</Energy_Scale>
 			<Collision_Mass_Scalar>2.0</Collision_Mass_Scalar>
 		</Vehicle>
+		
 		<Vehicle>
 			<Name>Mar_chomper_MG</Name>
 			<_Editor>
@@ -335,6 +337,7 @@
 				</Mount>
 			</Turrets>
 		</Vehicle>
+		
 		<Vehicle>
 			<Name>Mar_chomper_MGWing</Name>
 			<_Editor>
@@ -510,6 +513,7 @@
 				</Mount>
 			</Turrets>
 		</Vehicle>
+		
 		<Vehicle>
 			<Name>Mar_chomper_Harp</Name>
 			<_Editor>
@@ -685,6 +689,7 @@
 				</Mount>
 			</Turrets>
 		</Vehicle>
+		
 		<Vehicle>
 			<Name>Mar_stomper_MG</Name>
 			<_Editor>
@@ -854,6 +859,7 @@
 			</Turrets>
 			<Energy_Scale>1.5</Energy_Scale>
 		</Vehicle>
+		
 		<Vehicle>
 			<Name>Mar_Walker</Name>
 			<_Editor>

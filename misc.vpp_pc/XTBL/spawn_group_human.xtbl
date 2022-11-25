@@ -284,10 +284,10 @@
 				<human_type>Selma_Eos</human_type>
 				<human_type>Selma_Oasis</human_type>
 				<human_type>Torvald</human_type>
-				<human_type>John_dlc</human_type>
-				<human_type>Celia_dlc</human_type>
-				<human_type>Kat_dlc</human_type>
-				<human_type>Pierce_dlc</human_type>			
+				<human_type>dlc_john</human_type>
+				<human_type>dlc_celia</human_type>
+				<human_type>dlc_kat</human_type>
+				<human_type>dlc_pierce</human_type>			
 			</human_list>
 			<_Editor>
 				<Category>Entries:Default Groups</Category>
@@ -299,86 +299,60 @@
 				<human_type>Bev</human_type>
 				<human_type>Blair</human_type>
 				<human_type>Blair_Dust</human_type>
-				<!--<human_type>Blair_Eos</human_type>
-				<human_type>Blair_Oasis</human_type>-->
 				<human_type>Celia</human_type>
 				<human_type>Celia_Eos</human_type>
 				<human_type>Celia_Parker</human_type>
 				<human_type>Chuck</human_type>
 				<human_type>Chuck_Dust</human_type>
-				<!--<human_type>Chuck_Eos</human_type>-->
 				<human_type>Chuck_Parker</human_type>
 				<human_type>Clark</human_type>
 				<human_type>Debbie</human_type> <!--Lab Lady-->
 				<human_type>Dustin</human_type>
-				<!--<human_type>Dustin_Oasis</human_type>-->
 				<human_type>Dustin_Parker</human_type>
 				<human_type>Heidi</human_type>
 				<human_type>Heidi_Dust</human_type>
-				<!--<human_type>Heidi_Oasis</human_type>-->
 				<human_type>Heidi_Parker</human_type>
 				<human_type>Ian</human_type>
-				<!--<human_type>Ian_Oasis</human_type>-->
 				<human_type>Isaiah</human_type>
 				<human_type>Isaiah_Dust</human_type>
-				<!--<human_type>Isaiah_Eos</human_type>
-				<human_type>Isaiah_Oasis</human_type>-->
 				<human_type>Jackson</human_type>
 				<human_type>Jackson_Dust</human_type>
-				<!--<human_type>Jackson_Oasis</human_type>-->
 				<human_type>Jake</human_type>
 				<human_type>Jake_Dust</human_type>
-				<!--<human_type>Jake_Eos</human_type>
-				<human_type>Jake_Oasis</human_type>-->
 				<human_type>Jamaya</human_type>
 				<human_type>Jamaya_Dust</human_type>
-				<!--<human_type>Jamaya_Eos</human_type>-->
 				<human_type>Jayde</human_type>
 				<human_type>Jean</human_type>
-				<!--<human_type>Jean_Oasis</human_type>-->
 				<human_type>John</human_type>
-				<!--<human_type>John_Eos</human_type>
-				<human_type>John_Oasis</human_type>-->
 				<human_type>John_Parker</human_type>
 				<human_type>Kat</human_type>
-				<!--<human_type>Kat_Eos</human_type>
-				<human_type>Kat_Oasis</human_type>-->
 				<human_type>Kat_Parker</human_type>
 				<human_type>Kayla</human_type>
 				<human_type>Kayla_Dust</human_type>
-				<!--<human_type>Kayla_Eos</human_type>-->
 				<human_type>Kayla_Parker</human_type>
 				<human_type>Krystal</human_type>
 				<human_type>Krystal_Dust</human_type>
-				<!--<human_type>Krystal_Eos</human_type>-->
 				<human_type>Lawrence</human_type>
-				<!--<human_type>Lawrence_Eos</human_type>-->
 				<human_type>Marie</human_type>
 				<human_type>Mila</human_type>
 				<human_type>Mila_Oasis</human_type>
 				<human_type>Numah</human_type>
 				<human_type>Numah_Dust</human_type>
-				<!--<human_type>Numah_Eos</human_type>-->
 				<human_type>Olga</human_type>
 				<human_type>Olga_Oasis</human_type>
 				<human_type>Olga_Parker</human_type>
 				<human_type>Pierce</human_type>
-				<!--<human_type>Pierce_Eos</human_type>
-				<human_type>Pierce_Oasis</human_type>-->
 				<human_type>Pierce_Parker</human_type>
 				<human_type>Rachel</human_type>
 				<human_type>Rachel_Dust</human_type>
-				<!--<human_type>Rachel_Oasis</human_type>-->
 				<human_type>Rachel_Parker</human_type>
 				<human_type>Selma</human_type>
 				<human_type>Selma_Dust</human_type>
-				<!--<human_type>Selma_Eos</human_type>
-				<human_type>Selma_Oasis</human_type>-->
 				<human_type>Torvald</human_type>
-				<human_type>John_dlc</human_type>
-				<human_type>Celia_dlc</human_type>
-				<human_type>Kat_dlc</human_type>
-				<human_type>Pierce_dlc</human_type>				
+				<human_type>dlc_john</human_type>
+				<human_type>dlc_celia</human_type>
+				<human_type>dlc_kat</human_type>
+				<human_type>dlc_pierce</human_type>				
 			</human_list>
 			<_Editor>
 				<Category>Entries:Default Groups</Category>
@@ -468,14 +442,10 @@
 				<human_type>Selma_Eos</human_type>
 				<human_type>Selma_Oasis</human_type>
 				<human_type>Torvald</human_type>
-				<human_type>John_dlc</human_type>
-				<human_type>Celia_dlc</human_type>
-				<human_type>Kat_dlc</human_type>
-				<human_type>Pierce_dlc</human_type>
-<!--<human_type>Carmen</human_type>--> <!--Story NPC-->
-<!--<human_type>Jorge</human_type>--> <!--Jenkins-->
-<!--<human_type>Kyle</human_type>--> <!--Kepler-->
-<!--<human_type>OldCoot</human_type>--> <!--Parker-->				
+				<human_type>dlc_john</human_type>
+				<human_type>dlc_celia</human_type>
+				<human_type>dlc_kat</human_type>
+				<human_type>dlc_pierce</human_type>			
 			</human_list>
 			<_Editor>
 				<Category>Entries:Default Groups</Category>
@@ -553,10 +523,10 @@
 				<human_type>Selma</human_type>
 				<human_type>Selma_Dust</human_type>
 				<human_type>Torvald</human_type>
-				<human_type>John_dlc</human_type>
-				<human_type>Celia_dlc</human_type>
-				<human_type>Kat_dlc</human_type>
-				<human_type>Pierce_dlc</human_type>
+				<human_type>dlc_john</human_type>
+				<human_type>dlc_celia</human_type>
+				<human_type>dlc_kat</human_type>
+				<human_type>dlc_pierce</human_type>
 			</human_list>
 			<_Editor>
 				<Category>Entries:Default Groups</Category>
@@ -569,7 +539,7 @@
 				<human_type>Slade</human_type>
 				<human_type>Muir</human_type>
 				<human_type>Camie</human_type>
-				<human_type>Hess_DLC</human_type>				
+				<human_type>dlc_hess</human_type>				
 			</human_list>
 			<_Editor>
 				<Category>Entries:Default Groups</Category>
@@ -630,10 +600,10 @@
 				<human_type>Selma</human_type>
 				<human_type>Selma_Dust</human_type>
 				<human_type>Torvald</human_type>
-				<human_type>John_dlc</human_type>
-				<human_type>Celia_dlc</human_type>
-				<human_type>Kat_dlc</human_type>
-				<human_type>Pierce_dlc</human_type>			
+				<human_type>dlc_john</human_type>
+				<human_type>dlc_celia</human_type>
+				<human_type>dlc_kat</human_type>
+				<human_type>dlc_pierce</human_type>			
 <!--<human_type>Bev</human_type>
 <human_type>Torvald</human_type>
 <human_type>Olga</human_type>
@@ -712,10 +682,10 @@
 				<human_type>Selma</human_type>
 				<human_type>Selma_Dust</human_type>
 				<human_type>Torvald</human_type>
-				<human_type>John_dlc</human_type>
-				<human_type>Celia_dlc</human_type>
-				<human_type>Kat_dlc</human_type>
-				<human_type>Pierce_dlc</human_type>			
+				<human_type>dlc_john</human_type>
+				<human_type>dlc_celia</human_type>
+				<human_type>dlc_kat</human_type>
+				<human_type>dlc_pierce</human_type>			
 <!--<human_type>Bev</human_type>
 <human_type>Torvald</human_type>
 <human_type>Olga</human_type>
@@ -822,10 +792,10 @@
 				<human_type>Selma_Eos</human_type>
 				<human_type>Selma_Oasis</human_type>
 				<human_type>Torvald</human_type>
-				<human_type>John_dlc</human_type>
-				<human_type>Celia_dlc</human_type>
-				<human_type>Kat_dlc</human_type>
-				<human_type>Pierce_dlc</human_type>			
+				<human_type>dlc_john</human_type>
+				<human_type>dlc_celia</human_type>
+				<human_type>dlc_kat</human_type>
+				<human_type>dlc_pierce</human_type>		
 <!--<human_type>Bev</human_type>
 <human_type>Torvald</human_type>
 <human_type>Olga</human_type>
@@ -938,10 +908,10 @@
 				<human_type>Selma_Eos</human_type>
 				<human_type>Selma_Oasis</human_type>
 				<human_type>Torvald</human_type>
-				<human_type>John_dlc</human_type>
-				<human_type>Celia_dlc</human_type>
-				<human_type>Kat_dlc</human_type>
-				<human_type>Pierce_dlc</human_type>			
+				<human_type>dlc_john</human_type>
+				<human_type>dlc_celia</human_type>
+				<human_type>dlc_kat</human_type>
+				<human_type>dlc_pierce</human_type>			
 <!--<human_type>Bev</human_type>
 <human_type>Torvald</human_type>
 <human_type>Olga</human_type>
@@ -1053,10 +1023,10 @@
 				<human_type>Selma_Eos</human_type>
 				<human_type>Selma_Oasis</human_type>
 				<human_type>Torvald</human_type>
-				<human_type>John_dlc</human_type>
-				<human_type>Celia_dlc</human_type>
-				<human_type>Kat_dlc</human_type>
-				<human_type>Pierce_dlc</human_type>		
+				<human_type>dlc_john</human_type>
+				<human_type>dlc_celia</human_type>
+				<human_type>dlc_kat</human_type>
+				<human_type>dlc_pierce</human_type>		
 <!--<human_type>Bev</human_type>
 <human_type>Torvald</human_type>
 <human_type>Olga</human_type>
@@ -1156,10 +1126,10 @@
 				<human_type>Selma</human_type>
 				<human_type>Selma_Dust</human_type>
 				<human_type>Torvald</human_type>
-				<human_type>John_dlc</human_type>
-				<human_type>Celia_dlc</human_type>
-				<human_type>Kat_dlc</human_type>
-				<human_type>Pierce_dlc</human_type>				
+				<human_type>dlc_john</human_type>
+				<human_type>dlc_celia</human_type>
+				<human_type>dlc_kat</human_type>
+				<human_type>dlc_pierce</human_type>				
 <!--<human_type>Bev</human_type>
 <human_type>Torvald</human_type>
 <human_type>Olga</human_type>
@@ -1282,10 +1252,10 @@
 				<human_type>Selma_Eos</human_type>
 				<human_type>Selma_Oasis</human_type>
 				<human_type>Torvald</human_type>
-				<human_type>John_dlc</human_type>
-				<human_type>Celia_dlc</human_type>
-				<human_type>Kat_dlc</human_type>
-				<human_type>Pierce_dlc</human_type>				
+				<human_type>dlc_john</human_type>
+				<human_type>dlc_celia</human_type>
+				<human_type>dlc_kat</human_type>
+				<human_type>dlc_pierce</human_type>				
 <!--<human_type>Bev</human_type>
 <human_type>Torvald</human_type>
 <human_type>Olga</human_type>
