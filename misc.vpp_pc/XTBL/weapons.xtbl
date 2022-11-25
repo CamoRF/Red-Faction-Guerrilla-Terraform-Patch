@@ -896,9 +896,9 @@
 			<Inventory_Item>edf_subverter</Inventory_Item>
 			<Item_3d>edf_subverter</Item_3d>
 			<Default_team>EDF</Default_team>
-			<icon_name>ui_badge_icon_edf</icon_name> <!--From ui_hud_weapon_icon_sub-->
-			<reticule_name>ui_hud_reti_enforcer</reticule_name> <!--From ui_hud_reti_subverter-->
-			<fine_aim_reticule>ui_hud_reti_enforcer2</fine_aim_reticule> <!--From ui_hud_reti_subverter0-->
+			<icon_name>ui_hud_weapon_icon_sub</icon_name> <!--From ui_hud_weapon_icon_sub--> <!--placeholder: ui_badge_icon_edf-->
+			<reticule_name>ui_hud_reti_subverter</reticule_name> <!--From ui_hud_reti_subverter--> <!--placeholder: ui_hud_reti_enforcer-->
+			<fine_aim_reticule>ui_hud_reti_subverter0</fine_aim_reticule> <!--From ui_hud_reti_subverter0--> <!--placeholder: ui_hud_reti_enforcer2-->
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
 			<Ammo_Type>bullet</Ammo_Type>
