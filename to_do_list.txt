@@ -7,6 +7,9 @@ v1.07
 	[Misc]
 		* Generate xdeltas for interface.vpp_pc, items.vpp_pc, humans.vpp_pc, maps and misc.vpp_pc
 		* Build entire map again based on vanilla, have Goober remove tags so SF doesn't use older base version and updates
+		* Test if Marauders spawn with shotguns 
+		* Add new Marauder models to squads
+		* Add new map clones for ATM (Wasteland, Settlement, Sandpit )
 
 	[Ruins Interior Map]
 		* Add more player spawns
@@ -30,6 +33,7 @@ v1.07
 		* Add team spawns to all WC maps
 		* Fix spawns on Repurcussion where you can get stuck in pipes
 		* Make sure all subverter spawns use the EDF pistol bounding box
+		* Fix Badlands transporter mission by adding a custom spawn group. Normally only has the bike type vehicle
 		
 	[Additions]	
 		* Add backpack rack spawns to all WC maps
@@ -104,6 +108,8 @@ v1.07
 ----------------------
 DONE/ADD TO CHANGELOG
 ----------------------
+
+* Fixed some vanilla issues with squads
 
 -------------------
 LOW PRIORITY 
