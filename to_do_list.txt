@@ -5,6 +5,7 @@ v1.07
 [Maps]
 
 	[Misc]
+		* Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
 		* Generate xdeltas for interface.vpp_pc, items.vpp_pc, humans.vpp_pc, maps and misc.vpp_pc
 		* Build entire map again based on vanilla, have Goober remove tags so SF doesn't use older base version and updates
 		* Test if Marauders spawn with shotguns 
