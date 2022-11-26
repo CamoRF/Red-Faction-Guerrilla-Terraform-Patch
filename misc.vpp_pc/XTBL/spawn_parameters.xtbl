@@ -7,7 +7,7 @@
 			</_Editor>
 			<SquadSpawnPeriod>150</SquadSpawnPeriod> <!--From 300-->
 			<NPCSpawnPeriod>150</NPCSpawnPeriod> <!--From 300-->
-			<MinSpawnDistance>125.0</MinSpawnDistance> <!--From 100.0-->
+			<MinSpawnDistance>300.0</MinSpawnDistance> <!--From 100.0-->
 		</SpawnParameters>
 		
 		<SpawnParameters>
@@ -17,11 +17,11 @@
 			</_Editor>
 			<SquadSpawnPeriod>150</SquadSpawnPeriod> <!--From 300-->
 			<NPCSpawnPeriod>150</NPCSpawnPeriod> <!--From 300-->
-			<MinSpawnDistance>125.0</MinSpawnDistance> <!--From 100.0-->
+			<MinSpawnDistance>300.0</MinSpawnDistance> <!--From 100.0-->
 		</SpawnParameters>
 		
 <!--START Added-->	
-<!--		
+		
 		<SpawnParameters>
 			<Name>Neutral</Name>
 			<_Editor>
@@ -29,7 +29,7 @@
 			</_Editor>
 			<SquadSpawnPeriod>150</SquadSpawnPeriod>
 			<NPCSpawnPeriod>150</NPCSpawnPeriod>
-			<MinSpawnDistance>125.0</MinSpawnDistance>
+			<MinSpawnDistance>300.0</MinSpawnDistance>
 		</SpawnParameters>
 		
 		<SpawnParameters>
@@ -39,7 +39,7 @@
 			</_Editor>
 			<SquadSpawnPeriod>150</SquadSpawnPeriod>
 			<NPCSpawnPeriod>0</NPCSpawnPeriod>
-			<MinSpawnDistance>125.0</MinSpawnDistance>
+			<MinSpawnDistance>300.0</MinSpawnDistance>
 		</SpawnParameters>
 		
 		<SpawnParameters>
@@ -49,8 +49,8 @@
 			</_Editor>
 			<SquadSpawnPeriod>150</SquadSpawnPeriod>
 			<NPCSpawnPeriod>150</NPCSpawnPeriod>
-			<MinSpawnDistance>125.0</MinSpawnDistance>
-		</SpawnParameters>-->	
+			<MinSpawnDistance>300.0</MinSpawnDistance>
+		</SpawnParameters>	
 	</Table>
 	<TableTemplates>
 	</TableTemplates>

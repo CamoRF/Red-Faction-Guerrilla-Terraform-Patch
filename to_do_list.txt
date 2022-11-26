@@ -2,8 +2,6 @@
 v1.07
 ------
 
-[Maps]
-
 	[Misc]
 		* Update DLC weapon spawns to new names
 		* Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
@@ -17,12 +15,13 @@ v1.07
 		* Update changelog.txt
 		* Add ladders to buildings on Stratosphere (same ones as Factory)
 		* Make sure show all types is on in the inspector and remove cover nodes, nav points etc from maps (ghost children that i saw before, GFWL has a lot)
-		* Make sure flag 4 is on buildings (seems to be consistently used most of the time)
+		* Make sure flag 4 is on rfg_movers, (seems to be consistently used most of the time)
 		* Make sure children have same flags as parents
 		* In the vanilla WC map projects make sure to add cliffs under maps that are missing them (Frost and some others)
 		* Make sure to remove persistent flag from regular objects 
 		* Make sure to remove display_name prop and rename regular objects on non siege maps
 		* Make sure to remove flag 2 from regular objects
+
 
 	[Ruins Interior Map]
 		* Add more player spawns
@@ -111,7 +110,7 @@ v1.07
 	* SP DLC crashing when loading map (related to porting characters?, try renaming character str2s?)
 	* Half cloud speed on all maps in weather files (gtodx/dtodx)
 	* Double check items_3d.xtbl and comments by comparing it to vanilla file
-	* Merge base SP and DLC precache files into mp_common.vpp_pc
+	* Merge base SP and DLC precache files into mp_common.vpp_pc?
 
 [Weapons]
 	* Spiker: missing textures when on ground, only host can see the projectile (peg file related most likely)
@@ -122,8 +121,6 @@ v1.07
 ----------------------
 DONE/ADD TO CHANGELOG
 ----------------------
-
-* Fixed some vanilla issues with squads
 
 -------------------
 LOW PRIORITY 

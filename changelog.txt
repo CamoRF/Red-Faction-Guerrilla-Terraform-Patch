@@ -459,16 +459,30 @@ v1.07 PRE ALPHA CHANGES
 * Added two additional Assault Rifle spawns on Cascade
 * Added Kaboom backpack spawn near attacker spawn on Overpass with a single pack on the rack 
 * Added Kaboom backpack spawn near attacker spawn on Cresecent with a single pack on the rack
+* Fixed various vanilla issues with squads in singleplayer
 
 [Singleplayer]
-* Reverted removal of artificial gravity; this should fix the transporter mission in Parker/FFZ and the second to last mission in EOS. Will be re-implemented into
-the gameplay add-on along with a complete overhaul to the vehicles handling at a later date
-* Reverted changes to alert_levels.xtbl; this will be re-implemented into the gameplay add-on at a later date
+* Reverted removal of artificial gravity; this should fix the transporter mission in Parker/FFZ and the second to last mission in EOS. ; will be re-implemented in rebalance add-on along with a complete overhaul to the vehicles handling at a later date
+* Reverted changes to alert_levels.xtbl; this will be re-implemented into the rebalance add-on at a later date
 * Reduced EDF spawns, they are no longer excessive making some missions impossible to beat
 * Redid the changes to vehicle and NPC spawn changes; vehicle and NPCs now make more sense in each sector type 
-* Reverted changes to tank hitpoints, this should fix the issue with the second to last mission in EOS; This will be re-implemented into the gameplay add-on at a later date
+* Reverted changes to tank hitpoints, this should fix the issue with the second to last mission in EOS; will be re-implemented in rebalance add-on
 * Added Jenkins vehicle to safehouse spawns
 * Added other variants of the DLC Marauder vehicles
+* Increased min spawn distance for NPCs to 300 from 125
+* Hopefully fixed a broken transporter activity in the Badlands
+* Hopefully fixed a broken offensive raid activity in Oasis
+* Re-did DLC vehicle transfers with unique file names etc to avoid possible issues reported in log file
+* Increased "Camera_npc_min_fade_pct", "Camera_npc_min_fade_dist", "Camera_npc_max_fade_dist" in tweak_table.xtbl to 11562
+* Increased "Blood_splatter_decal_max_dist" in tweak_table.xtbl to 11562
+* Increased "Bullet_hole_decal_max_dist" in tweak_table.xtbl to 11562
+* Increased "Bullet_hole_decal_max_dist_player" in tweak_table.xtbl to 11562
+* Reverted change to "Ai_heavy_vehicle_always_cower_chance" in tweak_table.xtbl
+* Reverted change to "Ai_no_fall_back_chance" in tweak_table.xtbl
+* Reverted changes to "max_npcs_attacking_player_green" -> "max_npcs_attacking_player_red" in tweak_table.xtbl; will be re-implemented in rebalance add-on
+* Reverted change to "Player_death_salvage_percent_kept" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
+* Reverted change to "Edf_notice_player_with_obvious_weapon_dist" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
+* Reverted change to "Salvage_spawn_dead_prob" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
 
 [Maps] 
 * Added capture the flag and damage control to all wrecking crew and siege maps
@@ -512,7 +526,11 @@ the gameplay add-on along with a complete overhaul to the vehicles handling at a
 
 [Multiplayer] 
 * Enabled friendly fire by default in custom games
+* Enabled fleetfoot by default in custom games
 * Added Kaboom pack to random backpack rotation
+* Doubled XP gained
+* Reworked levels and cosmetic unlocks: You now unlock badges, rank icons, characters and hammers at level 5, 10, 20, 30 etc with the "max" rank being 100; The final unlock is the DLC pickaxe at level 126
+* Disabled matchmaking to reduce memory pool limit, reduce complexity of the patch and clean up the menu as it's not needed with custom games with fixed host migration now
 
 [Backpacks]
 * Kaboom and other backpacks not on the map now show up in random backpack rotation
@@ -523,7 +541,11 @@ the gameplay add-on along with a complete overhaul to the vehicles handling at a
 * Added Explosive Grenade
 * Added Fist/unarmed weapon
 * Added smoke to Shotgun muzzle flash
+* Added DLC Marauder Royal Sword
+* Added DLC Pickaxe, unlocked at level 126
+* Added DLC Marauder Remote Charges
 * Impaler and Gutter now fall to the ground instead of spinning in the air when placed as spawns or dropped
+* Re-did DLC weapon transfers with unique file names etc to avoid possible issues reported in log file
 
 [Misc]
 * Added comments for implementing DLC weapon reticules in future
@@ -538,6 +560,7 @@ the gameplay add-on along with a complete overhaul to the vehicles handling at a
 * Various improvements to performance & stability
 * Table.vpp_pc is now compressed and condensed properly
 * Reconstructor, Gauss Rifle, Super Gauss Rifle, Nanorifle and Sniper Rifle now respect the players camera shake settings
+* Re-did lod_properties.xtbl changes to hopefully increase draw distance as much as possible (there's still a hardcoded limit)
 
 [Assault Rifle Buff/Fix]
 * Refire delay reduced to 94 from 95
@@ -556,8 +579,10 @@ the gameplay add-on along with a complete overhaul to the vehicles handling at a
 
 [Increased weapon projectile prop despawn timer placeholder]
 
-[Optimization]
-* Slightly reduced objects processed per frame in rfg_stress_controls.xtbl
+[Destruction Performance Optimization]
+* Reduced objects stress system processes per frame to 350 from 400
+* Increased min delay before checking stress to 150 from 100
+* Increased max delay before checking stress to 5050 from 5000ms
 
 [Interface]
 * Restored vanilla initial loading screen in interface.vpp_pc as it only needs to be replaced in misc.vpp_pc
