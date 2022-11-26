@@ -21,7 +21,7 @@
 		</SpawnParameters>
 		
 <!--START Added-->	
-		
+<!--		
 		<SpawnParameters>
 			<Name>Neutral</Name>
 			<_Editor>
@@ -50,7 +50,7 @@
 			<SquadSpawnPeriod>150</SquadSpawnPeriod>
 			<NPCSpawnPeriod>150</NPCSpawnPeriod>
 			<MinSpawnDistance>125.0</MinSpawnDistance>
-		</SpawnParameters>	
+		</SpawnParameters>-->	
 	</Table>
 	<TableTemplates>
 	</TableTemplates>
