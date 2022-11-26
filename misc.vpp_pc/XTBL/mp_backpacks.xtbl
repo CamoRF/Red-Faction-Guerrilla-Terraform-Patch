@@ -68,20 +68,20 @@
 			</kaboom>
 			<health_regen_per_second>0.0</health_regen_per_second>
 			<passive_abilities>
-				<movement_speed_factor>1.0</movement_speed_factor>
-				<damage_taken_factor>1.0</damage_taken_factor>
-				<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
-				<area_damage_dealt_factor>1.0</area_damage_dealt_factor>
-				<refire_delay_factor>1</refire_delay_factor>
-				<unlimited_ammo>False</unlimited_ammo>
-				<reload_speed_factor>1</reload_speed_factor>
-				<fov_scale>1</fov_scale>
-				<fall_speed_safety_factor>1.0</fall_speed_safety_factor>
+				<!--<movement_speed_factor>1.0</movement_speed_factor>-->
+				<!--<damage_taken_factor>1.0</damage_taken_factor>-->
+				<!--<direct_damage_dealt_factor>1</direct_damage_dealt_factor>-->
+				<!--<area_damage_dealt_factor>1.0</area_damage_dealt_factor>-->
+				<!--<refire_delay_factor>1</refire_delay_factor>-->
+				<!--<unlimited_ammo>False</unlimited_ammo>-->
+				<!--<reload_speed_factor>1</reload_speed_factor>-->
+				<!--<fov_scale>1</fov_scale>-->
+				<!--<fall_speed_safety_factor>1.0</fall_speed_safety_factor>-->
 			</passive_abilities>
 			<activation_effects>
-				<ramp_up_effects>
+				<!--<ramp_up_effects>
 					<camera_shake>backpack_kaboom_ramp</camera_shake>
-				</ramp_up_effects>
+				</ramp_up_effects>-->
 			</activation_effects>
 			<icon_name>ui_hud_backpack_icon_kaboom</icon_name>
 			<hint_text>HM_BACKPACK_KABOOM_HINT</hint_text>
@@ -91,7 +91,7 @@
 						<attack_effect>mp_kaboom_equip_sound</attack_effect>
 					</effect>
 				</player_effects>
-				<loop_waits_for_attack>True</loop_waits_for_attack>
+				<!--<loop_waits_for_attack>True</loop_waits_for_attack>-->
 			</pickup_effects>
 			<Unique_ID>10</Unique_ID>
 		</mp_backpacks>
