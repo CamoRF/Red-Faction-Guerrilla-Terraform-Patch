@@ -6,7 +6,7 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -15,7 +15,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -44,13 +44,14 @@
 			<Load_image>dlc03wc6</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Assembly</Name>
 			<Filename>mp_pcx_assembly</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -59,7 +60,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -89,13 +90,14 @@
 			<Load_image>Assembly</Load_image>
 			<demolition_damage_multiplier>1.4</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Broadside</Name>
 			<Filename>mpdlc_broadside</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -104,7 +106,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -134,13 +136,14 @@
 			<Load_image>Broadside</Load_image>
 			<demolition_damage_multiplier>1.35</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Cascade</Name>
 			<Filename>wc8</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -155,7 +158,7 @@
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
 				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
+			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -184,13 +187,14 @@
 			<Load_image>Cascade</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Complex</Name>
 			<Filename>wc1</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<siege>
+			<!--<siege>
 				<round_time_limit_minutes>6</round_time_limit_minutes>
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
@@ -205,7 +209,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -234,13 +238,14 @@
 			<Load_image>Complex</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Compound</Name>
 			<Filename>mpdlc_minibase</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -249,7 +254,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -279,18 +284,19 @@
 			<Load_image>Compound</Load_image>
 			<demolition_damage_multiplier>0.8</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Cornered</Name>
 			<Filename>mp_cornered</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<siege>
+			<!--<siege>
 				<round_time_limit_minutes>6</round_time_limit_minutes>
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
 				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
+			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -319,13 +325,14 @@
 			<Load_image>Cornered</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Crash Site</Name>
 			<Filename>mp_crashsite</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -334,7 +341,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -365,6 +372,7 @@
 			<Load_image>Crash Site</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Crescent</Name>
 			<Filename>mp_crescent</Filename>
@@ -399,18 +407,19 @@
 			<Load_image>Crescent</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Crevice</Name>
 			<Filename>mp_crevice</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<siege>
+			<!--<siege>
 				<round_time_limit_minutes>6</round_time_limit_minutes>
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
 				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
+			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -439,13 +448,14 @@
 			<Load_image>Crevice</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Deadzone</Name>
 			<Filename>mp_deadzone</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -454,7 +464,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -484,13 +494,14 @@
 			<Load_image>Deadzone</Load_image>
 			<demolition_damage_multiplier>0.75</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Division</Name>
 			<Filename>mpdlc_division</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -499,7 +510,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -529,13 +540,14 @@
 			<Load_image>Division</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Cross Over</Name>
 			<Filename>mp_pcx_crossover</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -544,7 +556,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -575,6 +587,7 @@
 			<Load_image>Crossover</Load_image>
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Downfall</Name>
 			<Filename>mp_downfall</Filename>
@@ -610,13 +623,14 @@
 			<Load_image>Downfall</Load_image>
 			<demolition_damage_multiplier>0.6</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Equilibrium</Name>
 			<Filename>mpdlc_landbridge</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -625,7 +639,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -656,6 +670,7 @@
 			<Load_image>Equilibrium</Load_image>
 			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Excavation</Name>
 			<Filename>mp_excavation</Filename>
@@ -691,13 +706,14 @@
 			<Load_image>Excavation</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Expansion</Name>
 			<Filename>wcdlc4</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -706,7 +722,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -734,13 +750,14 @@
 			<Load_image>dlc03wc4</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Factory</Name>
 			<Filename>wc6</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -755,7 +772,7 @@
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
 				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
+			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -783,6 +800,7 @@
 			<Load_image>Factory</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Fall Factor</Name>
 			<Filename>mp_fallfactor</Filename>
@@ -818,13 +836,14 @@
 			<Load_image>Fall Factor</Load_image>
 			<demolition_damage_multiplier>1.2</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Fortress</Name>
 			<Filename>wc5</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -839,7 +858,7 @@
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
 				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
+			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -867,6 +886,7 @@
 			<Load_image>Fortress</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Framework</Name>
 			<Filename>mp_framework</Filename>
@@ -901,13 +921,14 @@
 			<Load_image>Framework</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Frost</Name>
 			<Filename>wcdlc5</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -916,7 +937,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -945,6 +966,7 @@
 			<Load_image>dlc03wc5</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Garrison</Name>
 			<Filename>mp_garrison</Filename>
@@ -981,13 +1003,14 @@
 			<Load_image>Garrison</Load_image>
 			<demolition_damage_multiplier>1.5</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Gradient</Name>
 			<Filename>mpdlc_overhang</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -996,7 +1019,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1018,8 +1041,7 @@
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
 			</mode_flags>
-			<alternate_time_of_day>11:00</alternate_time_of_day>
-			<!--From 15:30-->
+			<alternate_time_of_day>11:00</alternate_time_of_day> <!--From 15:30-->
 			<glow_multiplier>2</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
 			<ideal_min_players>6</ideal_min_players>
@@ -1027,6 +1049,7 @@
 			<Load_image>Gradient</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Gauntlet</Name>
 			<Filename>mp_gauntlet</Filename>
@@ -1061,13 +1084,14 @@
 			<Load_image>Gauntlet</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Gulch</Name>
 			<Filename>wc7</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1082,7 +1106,7 @@
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
 				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
+			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1110,13 +1134,14 @@
 			<Load_image>Gulch</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Haven</Name>
 			<Filename>mpdlc_islands</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1125,7 +1150,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1155,13 +1180,14 @@
 			<Load_image>Haven</Load_image>
 			<demolition_damage_multiplier>0.5</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Imperial</Name>
 			<Filename>wcdlc3</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1170,7 +1196,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1200,13 +1226,14 @@
 			<Load_image>dlc03wc3</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Invasion</Name>
 			<Filename>wcdlc8</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1215,7 +1242,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1244,13 +1271,14 @@
 			<Load_image>dlc03wc8</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Nordic Special</Name>
 			<Filename>wcdlc9</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1259,7 +1287,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1287,18 +1315,19 @@
 			<Load_image>dlc03wc9</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Overpass</Name>
 			<Filename>mp_overpass</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<siege>
+			<!--<siege>
 				<round_time_limit_minutes>6</round_time_limit_minutes>
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
 				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
+			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1327,6 +1356,7 @@
 			<Load_image>Overpass</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Pinnacle</Name>
 			<Filename>mp_pinnacle</Filename>
@@ -1362,13 +1392,14 @@
 			<Load_image>Pinnacle</Load_image>
 			<demolition_damage_multiplier>2.2</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Pipeline</Name>
 			<Filename>wc10</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1383,7 +1414,7 @@
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
 				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
+			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1411,13 +1442,14 @@
 			<Load_image>Pipeline</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Puncture</Name>
 			<Filename>mpdlc_puncture</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1426,7 +1458,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1456,6 +1488,7 @@
 			<Load_image>Puncture</Load_image>
 			<demolition_damage_multiplier>0.3</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Quarantine</Name>
 			<Filename>mp_quarantine</Filename>
@@ -1492,6 +1525,7 @@
 			<Load_image>Quarantine</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Radial</Name>
 			<Filename>mp_radial</Filename>
@@ -1528,13 +1562,14 @@
 			<Load_image>Radial</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Remnant</Name>
 			<Filename>mpdlc_ruins</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1543,7 +1578,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1573,13 +1608,14 @@
 			<Load_image>Remnant</Load_image>
 			<demolition_damage_multiplier>1.25</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Repercussion</Name>
 			<Filename>wcdlc2</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1588,7 +1624,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1617,6 +1653,7 @@
 			<Load_image>dlc03wc2</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Rift</Name>
 			<Filename>mp_rift</Filename>
@@ -1653,13 +1690,14 @@
 			<Load_image>Rift</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Ruins</Name>
 			<Filename>wcdlc1</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1668,7 +1706,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1696,6 +1734,7 @@
 			<Load_image>dlc03wc1</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Sand Pit</Name>
 			<Filename>mp_sandpit</Filename>
@@ -1731,13 +1770,14 @@
 			<Load_image>Sand Pit</Load_image>
 			<demolition_damage_multiplier>0.45</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Scrap Heap</Name>
 			<Filename>wc3</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1752,7 +1792,7 @@
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
 				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
+			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1780,6 +1820,7 @@
 			<Load_image>Scrap Heap</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Settlement</Name>
 			<Filename>mp_settlement</Filename>
@@ -1815,13 +1856,14 @@
 			<Load_image>Settlement</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Stratosphere</Name>
 			<Filename>wcdlc7</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1830,7 +1872,7 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
+			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1861,13 +1903,14 @@
 			<Load_image>dlc03wc7</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Transmission</Name>
 			<Filename>wc9</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1882,7 +1925,7 @@
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
 				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
+			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1910,13 +1953,14 @@
 			<Load_image>Transmission</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Vista</Name>
 			<Filename>wc4</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -1931,7 +1975,7 @@
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
 				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
+			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1959,6 +2003,7 @@
 			<Load_image>Vista</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Warlords</Name>
 			<Filename>mp_warlords</Filename>
@@ -1994,6 +2039,7 @@
 			<Load_image>Warlords</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Wasteland</Name>
 			<Filename>mp_wasteland</Filename>
@@ -2029,13 +2075,14 @@
 			<Load_image>Wasteland</Load_image>
 			<demolition_damage_multiplier>1.1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Watchtower</Name>
 			<Filename>wc2</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<Deathmatch>
+			<!--<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<num_rounds>1</num_rounds>
 				<respawn_time_ms>5000</respawn_time_ms>
@@ -2050,7 +2097,7 @@
 				<num_rounds>4</num_rounds>
 				<respawn_time_ms>10000</respawn_time_ms>
 				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
+			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -2078,6 +2125,7 @@
 			<Load_image>Watchtower</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		
 		<mp_level_list>
 			<Name>Wreckage</Name>
 			<Filename>mp_wreckage</Filename>

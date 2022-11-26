@@ -6,44 +6,28 @@
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
 			</_Editor>
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
-			<time_of_day>18:00</time_of_day>
+			<Description>Single damage control target on the hill in the middle.</Description> <!--From MENU_LEVEL_SAND_PIT_DESC-->
+			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
-			<level_image_name></level_image_name>
+			<level_image_name>mp_thumb_sandpit</level_image_name>			
 			<dust_enabled>True</dust_enabled>
-			<wind_intensity>60.0</wind_intensity>
-			<wind_direction>315.0</wind_direction>
+			<wind_intensity>70.0</wind_intensity>
+			<wind_direction>200.0</wind_direction>
 			<Display_name>MENU_MP_MODE_DMG_CNTRL</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
-				<!--<Flag>deathmatch</Flag>
-				<Flag>team_deathmatch</Flag>
-				<Flag>capture_the_flag</Flag>-->
 				<Flag>king_of_the_hill</Flag>
-				<!--<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>-->
 			</mode_flags>
-			<alternate_time_of_day>00:00</alternate_time_of_day>
-			<glow_multiplier>2.0</glow_multiplier>
-			<alternate_glow_multiplier>6.0</alternate_glow_multiplier>
-			<ideal_min_players>2</ideal_min_players>
-			<ideal_max_players>8</ideal_max_players>
-			<Load_image></Load_image>
-			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
+			<alternate_time_of_day>09:00</alternate_time_of_day>
+			<glow_multiplier>2.6</glow_multiplier>
+			<alternate_glow_multiplier>4.5</alternate_glow_multiplier>
+			<ideal_min_players>6</ideal_min_players>
+			<ideal_max_players>10</ideal_max_players>
+			<Load_image>Sand Pit</Load_image>
+			<demolition_damage_multiplier>0.45</demolition_damage_multiplier>
 		</mp_level_list>
 		
 		<mp_level_list>
@@ -52,26 +36,16 @@
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
 			</_Editor>
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
-			<time_of_day>18:00</time_of_day>
-			<distance_multiplier>1.0</distance_multiplier>
-			<level_image_name></level_image_name>
+			<Description>Placeholder</Description> <!--From Marauder Rolling Hills-->
+			<time_of_day>21:00</time_of_day>
+			<distance_multiplier>1.75</distance_multiplier>
+			<level_image_name>mp_thumb_wasteland</level_image_name>
 			<dust_enabled>True</dust_enabled>
-			<wind_intensity>60.0</wind_intensity>
-			<wind_direction>315.0</wind_direction>
+			<wind_intensity>70</wind_intensity>
+			<wind_direction>15</wind_direction>
 			<Display_name>TERR_BADLANDS</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
@@ -83,15 +57,14 @@
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
 			</mode_flags>
-			<alternate_time_of_day>00:00</alternate_time_of_day>
-			<glow_multiplier>2.0</glow_multiplier>
-			<alternate_glow_multiplier>6.0</alternate_glow_multiplier>
-			<ideal_min_players>2</ideal_min_players>
-			<ideal_max_players>8</ideal_max_players>
-			<Load_image></Load_image>
-			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
+			<alternate_time_of_day>07:30</alternate_time_of_day>
+			<glow_multiplier>4.0</glow_multiplier>
+			<alternate_glow_multiplier>4.0</alternate_glow_multiplier>
+			<ideal_min_players>12</ideal_min_players>
+			<ideal_max_players>16</ideal_max_players>
+			<Load_image>Wasteland</Load_image>
+			<demolition_damage_multiplier>1.1</demolition_damage_multiplier>
 		</mp_level_list>
-
 
 		<mp_level_list>
 			<Name>Dust</Name>
@@ -99,26 +72,16 @@
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
 			</_Editor>
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
-			<time_of_day>18:00</time_of_day>
-			<distance_multiplier>1.0</distance_multiplier>
-			<level_image_name></level_image_name>
+			<Description>Placeholder</Description> <!--From Early Crater Settlement-->
+			<time_of_day>09:00</time_of_day>
+			<distance_multiplier>1.6</distance_multiplier>
+			<level_image_name>mp_thumb_settlement</level_image_name>
 			<dust_enabled>True</dust_enabled>
-			<wind_intensity>60.0</wind_intensity>
-			<wind_direction>315.0</wind_direction>
+			<wind_intensity>50</wind_intensity>
+			<wind_direction>315</wind_direction>
 			<Display_name>TERR_DUST</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
@@ -131,14 +94,13 @@
 				<Flag>demolition</Flag>
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
-			<glow_multiplier>2.0</glow_multiplier>
-			<alternate_glow_multiplier>6.0</alternate_glow_multiplier>
-			<ideal_min_players>2</ideal_min_players>
-			<ideal_max_players>8</ideal_max_players>
-			<Load_image></Load_image>
-			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
+			<glow_multiplier>9.0</glow_multiplier>
+			<alternate_glow_multiplier>1.5</alternate_glow_multiplier>
+			<ideal_min_players>10</ideal_min_players>
+			<ideal_max_players>16</ideal_max_players>
+			<Load_image>Settlement</Load_image>
+			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>		
-		
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

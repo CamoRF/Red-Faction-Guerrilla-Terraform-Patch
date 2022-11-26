@@ -6,15 +6,15 @@
 				<point_limit>0</point_limit>
 				<num_rounds>1</num_rounds>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<friendly_fire>True</friendly_fire> <!--From False-->
+				<friendly_fire>True</friendly_fire>
 				<respawn_time_seconds>5</respawn_time_seconds>
 				<health_regen_speed_multiplier>1</health_regen_speed_multiplier>
 				<max_health_multiplier>1</max_health_multiplier>
-				<movement_speed_multiplier>1</movement_speed_multiplier>
+				<movement_speed_multiplier>1.2</movement_speed_multiplier>
 				<rubberbanding_level>None</rubberbanding_level>
 				<unlimited_ammo>False</unlimited_ammo>
 				<starting_backpack_wrapper>
-					<starting_backpack>None</starting_backpack>
+					<starting_backpack>Fleetfoot</starting_backpack>
 				</starting_backpack_wrapper>
 				<starting_weapon_wrapper>
 					<replace_starting_weapon>
@@ -68,7 +68,7 @@
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
-					<percent_destruction_required>75</percent_destruction_required>
+					<percent_destruction_required>95</percent_destruction_required> <!--From 75-->
 					<defense_starting_backpack_wrapper></defense_starting_backpack_wrapper>
 					<defense_starting_weapon_wrapper></defense_starting_weapon_wrapper>
 					<defense_third_weapon_wrapper></defense_third_weapon_wrapper>
@@ -124,24 +124,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</options_set>
-		<options_set>
-			<Name>Competitive</Name>
-			<generic_option_overrides>
-				<friendly_fire>True</friendly_fire>
-				<respawn_time_seconds>3</respawn_time_seconds>				
-				<health_regen_speed_multiplier>0.5</health_regen_speed_multiplier>
-				<max_health_multiplier>0.75</max_health_multiplier>
-				<rubberbanding_level>None</rubberbanding_level>
-				<enemy_icon_visibility>delayed</enemy_icon_visibility>
-				<weapon_respawn_speed>Slow</weapon_respawn_speed>
-				<movement_speed_multiplier>1</movement_speed_multiplier>
-			</generic_option_overrides>
-			<mode_specific_option_overrides></mode_specific_option_overrides>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<base_options_set>Default</base_options_set>
-		</options_set>
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
@@ -172,11 +154,7 @@
 				<Name>point_limit</Name>
 				<Type>Int</Type>
 				<Display_Name>Point limit</Display_Name>
-				<Description>Bagman/DC: 25-150 (step: 25)
-	  150-500 (step: 50)
-	CTF: 1-10
-	Anarchy: 5-50 (step: 5)
-	  50-100 (step: 10)</Description>
+				<Description>Bagman/DC: 25-150 (step: 25) 150-500 (step: 50), CTF: 1-10, Anarchy: 5-50 (step: 5) 50-100 (step: 10)</Description>
 				<Required>false</Required>
 				<Default>0</Default>
 				<MinValue>0</MinValue>
@@ -196,8 +174,7 @@
 				<Name>round_time_limit_minutes</Name>
 				<Type>Int</Type>
 				<Display_Name>Round time limit (minutes)</Display_Name>
-				<Description>1-15 (step: 1)
-	15-60 (step: 5)</Description>
+				<Description>1-15 (step: 1) 15-60 (step: 5)</Description>
 				<Required>false</Required>
 				<Default>10</Default>
 				<MinValue>0</MinValue>
@@ -216,8 +193,7 @@
 				<Name>respawn_time_seconds</Name>
 				<Type>Int</Type>
 				<Display_Name>Respawn time (seconds)</Display_Name>
-				<Description>1-10 (step: 1)
-	10-30 (step: 5)</Description>
+				<Description>1-10 (step: 1) 10-30 (step: 5)</Description>
 				<Required>false</Required>
 				<Default>5</Default>
 				<MinValue>0</MinValue>
