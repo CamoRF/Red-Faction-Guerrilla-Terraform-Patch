@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START Experimental Misc-->		
+<!--START Added Brand New Weapons-->	
 		<Weapon>
 			<Name>fists</Name>
 			<Weapon_Class>melee</Weapon_Class>
@@ -355,11 +355,97 @@
 			<icon_name>ui_badge_icon_ae_circle</icon_name>
 			<reticule_name>ui_hud_reti_mines</reticule_name>
 		</Weapon>
-<!--END-->
+<!--END Added Brand New Weapons-->
 	
 <!--START DLC Weapons Added-->
+
 		<Weapon>
-			<Name>dlc_royal_sword</Name>
+			<Name>dlc_charge_placer</Name>
+			<Weapon_Class>thrown_charge</Weapon_Class>
+			<Trigger_Type>single</Trigger_Type>
+			<Ammo_Type>thrown</Ammo_Type>
+			<Magazine_Size>1</Magazine_Size>
+			<Max_Rounds>50</Max_Rounds>
+			<Range_Max>10</Range_Max>
+			<Range_Red>10</Range_Red>
+			<Default_Refire_Delay>2000</Default_Refire_Delay>
+			<Damage_Scaling_Max>
+				<NPC_Damage>0</NPC_Damage>
+				<Player_Damage>0</Player_Damage>
+				<Vehicle_Damage>-1</Vehicle_Damage>
+				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
+			</Damage_Scaling_Max>
+			<Explosion>DLC_remote_charge</Explosion>
+			<Damage_Min_Dist>10</Damage_Min_Dist>
+			<Spread_Max>0</Spread_Max>
+			<Spread_Min>0</Spread_Min>
+			<Projectile_Info>
+				<Model>dlc_remote_charge</Model>
+				<Max_Speed>20</Max_Speed>
+				<Projectile_Flags>
+					<Flag>attach on impact</Flag>
+					<Flag>align orient to flightpath</Flag>
+					<Flag>tossable</Flag>
+					<Flag>detonate on explosion impact</Flag>
+					<Flag>attach orient to flight path</Flag>
+				</Projectile_Flags>
+				<Mass>5.0</Mass>
+				<Angular_Velocity>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Angular_Velocity>
+				<Start_Speed>20</Start_Speed>
+				<Time_Until_Propelled>0.0</Time_Until_Propelled>
+				<Attached_Effect2>wep_remote_charge_light_a</Attached_Effect2>
+				<Attached_Effect2_Description>effect should start once attached</Attached_Effect2_Description>
+				<Attached_Effect3>wep_remote_charge_light_a</Attached_Effect3>
+				<Attached_Effect3_Description>MP friendly version</Attached_Effect3_Description>
+			</Projectile_Info>
+			<_Editor>
+				<Category>Entries:Marauder</Category>
+			</_Editor>
+			<Animation_Group>remote charge</Animation_Group>
+			<Flags>
+				<Flag>held in left hand</Flag>
+				<Flag>draw projectile in opposite hand</Flag>
+				<Flag>mp selectable</Flag>
+			</Flags>
+			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
+			<Max_Engagement_Distance>10</Max_Engagement_Distance>
+			<Inventory_Item>dlc_mar_charge_placer</Inventory_Item>
+			<Item_3d>dlc_charge_placer</Item_3d>
+			<MeleeAttacks>
+				<StandingPrimary>marauder_charge_melee</StandingPrimary>
+				<StandingSecondary>marauder_charge_punch</StandingSecondary>
+				<StandingTertiary>marauder_charge_melee</StandingTertiary>
+				<CrouchingPrimary>marauder_charge_melee</CrouchingPrimary>
+				<CrouchingSecondary>marauder_charge_punch</CrouchingSecondary>
+				<CrouchingTertiary>marauder_charge_melee</CrouchingTertiary>
+			</MeleeAttacks>
+			<Sounds>
+				<Special_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Special_Sound>
+				<No_Ammo_Sound>WEP_CHARGE_DRYFIRE_PC</No_Ammo_Sound>
+			</Sounds>
+			<Player_Move_Speed>1.01</Player_Move_Speed>
+			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
+			<Reload_Delay>150</Reload_Delay>
+			<Ammo_Box_Restock>50</Ammo_Box_Restock>
+			<Num_Magazines>50</Num_Magazines>
+			<icon_name>ui_hud_weapon_icon_charges</icon_name> <!--From ui_hud_weapon_icon_mcharge-->
+			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
+			<reticule_name>ui_hud_reti_mines</reticule_name> <!--From ui_hud_reti_maraudercharge-->
+			<dummy>False</dummy>
+			<Unique_ID>97</Unique_ID>
+			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
+			<Max_Rounds_Upgrade>50</Max_Rounds_Upgrade>
+			<Default_team>Marauder</Default_team>
+			<Zoom_Magnification>1.45</Zoom_Magnification>
+			<aim_assist>0.5</aim_assist>
+		</Weapon>
+
+		<Weapon>
+			<Name>dlc_royal_sword_port</Name>
 			<Weapon_Class>melee_gutter</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -407,7 +493,7 @@
 				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
 			</MeleeAttacks>
 			<Inventory_Item>dlc_royal_sword</Inventory_Item>
-			<Item_3d>dlc_royal_sword</Item_3d>
+			<Item_3d>dlc_royal_sword_port</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
@@ -429,7 +515,7 @@
 		</Weapon>
 		
 		<Weapon>
-			<Name>dlc_pickaxe</Name>
+			<Name>dlc_pickaxe_port</Name>
 			<Weapon_Class>melee</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -469,7 +555,7 @@
 				<CrouchingTertiary>sledgehammer_melee_vert_u1</CrouchingTertiary>
 			</MeleeAttacks>
 			<Inventory_Item>dlc_pickaxe</Inventory_Item>
-			<Item_3d>dlc_pickaxe</Item_3d>
+			<Item_3d>dlc_pickaxe_port</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
@@ -487,92 +573,7 @@
 			<Default_team>Marauder</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
 			<aim_assist>0.75</aim_assist>
-		</Weapon>
-
-		<Weapon>
-			<Name>dlc_mar_charge_placer</Name>
-			<Weapon_Class>thrown_charge</Weapon_Class>
-			<Trigger_Type>single</Trigger_Type>
-			<Ammo_Type>thrown</Ammo_Type>
-			<Magazine_Size>1</Magazine_Size>
-			<Max_Rounds>50</Max_Rounds>
-			<Range_Max>10</Range_Max>
-			<Range_Red>10</Range_Red>
-			<Default_Refire_Delay>2000</Default_Refire_Delay>
-			<Damage_Scaling_Max>
-				<NPC_Damage>0</NPC_Damage>
-				<Player_Damage>0</Player_Damage>
-				<Vehicle_Damage>-1</Vehicle_Damage>
-				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
-			</Damage_Scaling_Max>
-			<Explosion>DLC_remote_charge</Explosion>
-			<Damage_Min_Dist>10</Damage_Min_Dist>
-			<Spread_Max>0</Spread_Max>
-			<Spread_Min>0</Spread_Min>
-			<Projectile_Info>
-				<Model>mar_remote_charge</Model>
-				<Max_Speed>20</Max_Speed>
-				<Projectile_Flags>
-					<Flag>attach on impact</Flag>
-					<Flag>align orient to flightpath</Flag>
-					<Flag>tossable</Flag>
-					<Flag>detonate on explosion impact</Flag>
-					<Flag>attach orient to flight path</Flag>
-				</Projectile_Flags>
-				<Mass>5.0</Mass>
-				<Angular_Velocity>
-					<X>0</X>
-					<Y>0</Y>
-					<Z>0</Z>
-				</Angular_Velocity>
-				<Start_Speed>20</Start_Speed>
-				<Time_Until_Propelled>0.0</Time_Until_Propelled>
-				<Attached_Effect2>wep_remote_charge_light_a</Attached_Effect2>
-				<Attached_Effect2_Description>effect should start once attached</Attached_Effect2_Description>
-				<Attached_Effect3>wep_remote_charge_light_a</Attached_Effect3>
-				<Attached_Effect3_Description>MP friendly version</Attached_Effect3_Description>
-			</Projectile_Info>
-			<_Editor>
-				<Category>Entries:Marauder</Category>
-			</_Editor>
-			<Animation_Group>remote charge</Animation_Group>
-			<Flags>
-				<Flag>held in left hand</Flag>
-				<Flag>draw projectile in opposite hand</Flag>
-				<Flag>mp selectable</Flag>
-			</Flags>
-			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
-			<Max_Engagement_Distance>10</Max_Engagement_Distance>
-			<Inventory_Item>dlc_mar_charge_placer</Inventory_Item>
-			<Item_3d>dlc_mar_charge_placer</Item_3d>
-			<MeleeAttacks>
-				<StandingPrimary>marauder_charge_melee</StandingPrimary>
-				<StandingSecondary>marauder_charge_punch</StandingSecondary>
-				<StandingTertiary>marauder_charge_melee</StandingTertiary>
-				<CrouchingPrimary>marauder_charge_melee</CrouchingPrimary>
-				<CrouchingSecondary>marauder_charge_punch</CrouchingSecondary>
-				<CrouchingTertiary>marauder_charge_melee</CrouchingTertiary>
-			</MeleeAttacks>
-			<Sounds>
-				<Special_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Special_Sound>
-				<No_Ammo_Sound>WEP_CHARGE_DRYFIRE_PC</No_Ammo_Sound>
-			</Sounds>
-			<Player_Move_Speed>1.01</Player_Move_Speed>
-			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
-			<Reload_Delay>150</Reload_Delay>
-			<Ammo_Box_Restock>50</Ammo_Box_Restock>
-			<Num_Magazines>50</Num_Magazines>
-			<icon_name>ui_hud_weapon_icon_charges</icon_name> <!--From ui_hud_weapon_icon_mcharge-->
-			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<reticule_name>ui_hud_reti_mines</reticule_name> <!--From ui_hud_reti_maraudercharge-->
-			<dummy>False</dummy>
-			<Unique_ID>97</Unique_ID>
-			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
-			<Max_Rounds_Upgrade>50</Max_Rounds_Upgrade>
-			<Default_team>Marauder</Default_team>
-			<Zoom_Magnification>1.45</Zoom_Magnification>
-			<aim_assist>0.5</aim_assist>
-		</Weapon>		
+		</Weapon>	
 		
 		<Weapon>
 			<Name>dlc_spiker</Name>
@@ -667,7 +668,7 @@
 			<Dropped_ammo_scale>0.7666667</Dropped_ammo_scale>
 			<aim_assist>1</aim_assist>
 			<Projectile_Info>
-				<Model>spiker_projectile</Model> <!--Try harpoon_projectile-->
+				<Model>dlc_spiker_projectile</Model>
 				<Start_Speed>125</Start_Speed>
 				<Max_Speed>125</Max_Speed>
 				<Attached_Effect>wep_turret_harpoon_trail_a</Attached_Effect>
@@ -693,13 +694,13 @@
 		</Weapon>		
 		
 		<Weapon>
-			<Name>dlc_EDF_Super_Gauss</Name>
+			<Name>dlc_supergauss</Name>
 			<icon_name>ui_hud_weapon_icon_gauss</icon_name> <!--From ui_hud_weapon_icon_supergauss-->
 			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name> <!--From ui_hud_reti_supergauss-->
 			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule> <!--From ui_hud_reti_supergauss0-->
 			<Unique_ID>158</Unique_ID>
 			<Inventory_Item>dlc_edf_super_gauss</Inventory_Item>
-			<Item_3d>dlc_EDF_Super_Gauss</Item_3d>
+			<Item_3d>dlc_supergauss</Item_3d>
 			<Default_team>EDF</Default_team>
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
@@ -891,10 +892,10 @@
 		</Weapon>	
 		
 		<Weapon>
-			<Name>dlc_edf_subverter</Name>
+			<Name>dlc_subverter</Name>
 			<Unique_ID>160</Unique_ID>
 			<Inventory_Item>dlc_edf_subverter</Inventory_Item>
-			<Item_3d>dlc_edf_subverter</Item_3d>
+			<Item_3d>dlc_subverter</Item_3d>
 			<Default_team>EDF</Default_team>
 			<icon_name>ui_hud_weapon_icon_sub</icon_name> <!--From ui_hud_weapon_icon_sub--> <!--placeholder: ui_badge_icon_edf-->
 			<reticule_name>ui_hud_reti_subverter</reticule_name> <!--From ui_hud_reti_subverter--> <!--placeholder: ui_hud_reti_enforcer-->
@@ -982,7 +983,9 @@
 			<Player_Move_Speed>1.25</Player_Move_Speed>
 			<Bullet_hole_scale>0.8</Bullet_hole_scale>
 		</Weapon>
+
 <!--START Gutter & Flag Fix-->
+		
 		<Weapon>
 			<Name>gutter</Name>
 			<Weapon_Class>melee_gutter</Weapon_Class>

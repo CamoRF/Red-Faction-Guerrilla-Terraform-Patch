@@ -1,17 +1,7 @@
 <root>
 	<Table>	
-<!--START Experimental Misc-->	
-		<!--<Inventory_Item>
-			<Name>flame_thrower</Name>
-			<Display_Name>FLAMETHROWER</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>-->
+
+<!--START Added Brand New Weapons-->
 		
 		<Inventory_Item>
 			<Name>fists</Name>
@@ -61,18 +51,8 @@
 			</_Editor>
 		</Inventory_Item>
 		
-		<!--<Inventory_Item>
-			<Name>incendiary_grenade</Name>
-			<Display_Name>INCENDIARY GRENADE</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>-->		
-<!--END-->
+<!--END Added Brand New Weapons-->		
+		
 <!--START DLC Weapons Added-->	
 		<Inventory_Item>
 			<Name>dlc_spiker</Name>
@@ -87,7 +67,7 @@
 		</Inventory_Item>
 		
 		<Inventory_Item>
-			<Name>dlc_pickaxe</Name>
+			<Name>dlc_pickaxe_port</Name>
 			<Display_Name>WEAP_PICKAXE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -98,8 +78,8 @@
 			</_Editor>
 		</Inventory_Item>
 		
-		<!--<Inventory_Item>
-			<Name>dlc_mar_charge_placer</Name>
+		<Inventory_Item>
+			<Name>dlc_charge_placer</Name>
 			<Display_Name>DLC CHARGES</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -108,10 +88,10 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>-->
+		</Inventory_Item>
 		
 		<Inventory_Item>
-			<Name>dlc_royal_sword</Name>
+			<Name>dlc_royal_sword_port</Name>
 			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -123,7 +103,7 @@
 		</Inventory_Item>			
 		
 		<Inventory_Item>
-			<Name>dlc_edf_super_gauss</Name>
+			<Name>dlc_supergauss</Name>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -135,7 +115,7 @@
 		</Inventory_Item>
 		
 		<Inventory_Item>
-			<Name>dlc_edf_subverter</Name>
+			<Name>dlc_subverter</Name>
 			<Display_Name>WEAP_SUBVERTER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -157,7 +137,9 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
+
 <!--END DLC Weapons Added-->
+		
 		<Inventory_Item>
 			<Name>gutter</Name>
 			<Display_Name>WEAP_GUTTER</Display_Name>
@@ -323,7 +305,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<Inventory_Item>
+		<!--<Inventory_Item>
 			<Name>grenade</Name>
 			<Display_Name>WEAP_GRENADE</Display_Name>
 			<Cost>100</Cost>
@@ -333,7 +315,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>-->
 		<!--<Inventory_Item>
 			<Name>power_item</Name>
 			<Display_Name>WEAP_POWER_ITEM</Display_Name>
@@ -666,7 +648,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<Inventory_Item>
+		<!--<Inventory_Item>
 			<Name>marauder_shockade</Name>
 			<Display_Name>WEAP_GRENADE</Display_Name>
 			<Cost>100</Cost>
@@ -676,7 +658,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>-->
 		<Inventory_Item>
 			<Name>golden_hammer</Name>
 			<Display_Name>MENU_HAMMER_UNLOCK</Display_Name>
