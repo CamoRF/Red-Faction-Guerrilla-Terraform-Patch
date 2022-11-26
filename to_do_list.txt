@@ -11,13 +11,11 @@ v1.07
 		* Add new Marauder models to squads
 		* Add new map clones for ATM: Wasteland, Settlement, Sandpit [KOTH]
 		* Rename and repack all the DLC weapon .str2s
-		* Test adding new textures by adding a new str2 and updating the asm so replaced characters can be restored in MP
-		* Update changelog.txt
+		* Test adding new textures by adding a new str2 and updating the asm so replaced characters can be restored in MP and new loading screens could be added (peg tool?)
 		* Add ladders to buildings on Stratosphere (same ones as Factory)
-		* Make sure show all types is on in the inspector and remove cover nodes, nav points etc from maps (ghost children that i saw before, GFWL has a lot)
+		* Make sure show all types is on in the inspector and remove cover nodes, nav points etc from maps (ghost children that i saw before, GFWL has a lot)!
 		* Make sure flag 4 is on rfg_movers, (seems to be consistently used most of the time)
 		* Make sure children have same flags as parents
-		* In the vanilla WC map projects make sure to add cliffs under maps that are missing them (Frost and some others)
 		* Make sure to remove persistent flag from regular objects 
 		* Make sure to remove display_name prop and rename regular objects on non siege maps
 		* Make sure to remove flag 2 from regular objects
@@ -25,12 +23,12 @@ v1.07
 		* Fix area where you can fall down and get stuck on Abandoned
 		* Add Ruins interior and new Quarantine as new map files
 		* Change default WC settings to have barrels on
+		* Add every effect from effects.vpp_pc to GFWL/Nordic Bonus
 
 	[Ruins Interior Map]
 		* Add more player spawns
 		* Add backpack racks 
 		* Add clutter from Deadzone, GFWL, Invasion
-		* Add effects from GFWL/Nordic Bonus once the effects are transferred to the map again
 		* Make the rocket launcher not respawn on Ruins
 		* Add team exclusive backpacks on Ruins
 		* Change weather to Deadzone, Invasion, SP DLC, GFWL?
