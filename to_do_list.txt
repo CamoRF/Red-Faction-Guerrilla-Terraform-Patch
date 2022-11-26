@@ -11,6 +11,8 @@ v1.07
 		* Add new Marauder models to squads
 		* Add new map clones for ATM: Wasteland, Settlement, Sandpit [KOTH]
 		* Rename and repack all the DLC weapon .str2s
+		* Test adding new textures by adding a new str2 and updating the asm so replaced characters can be restored in MP
+		* Update changelog.txt
 
 	[Ruins Interior Map]
 		* Add more player spawns
