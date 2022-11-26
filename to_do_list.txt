@@ -23,6 +23,7 @@ v1.07
 		* Make sure to remove flag 2 from regular objects
 		* Update init loading screen with new texture
 		* Fix area where you can fall down and get stuck on Abandoned
+		* Add Ruins interior and new Quarantine as new map files
 
 	[Ruins Interior Map]
 		* Add more player spawns
