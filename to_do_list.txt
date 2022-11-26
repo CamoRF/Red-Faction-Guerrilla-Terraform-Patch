@@ -45,7 +45,7 @@ v1.07
 		* Fix spawns on Repurcussion where you can get stuck in pipes
 		* Make sure all subverter spawns use the EDF pistol bounding box
 		* Fix Badlands transporter mission by adding a custom spawn group. Normally only has the bike type vehicle - test
-		* SP DLC crashing on load, maybe related to territories.xtbl and the stuff I commented out? (revert territories file to v1.063 version since i deleted the commented stuff for some stupid reason)
+		* SP DLC crashing on load, maybe related to territories.xtbl and the stuff I commented out? (revert territories file to v1.063 version since i deleted the commented stuff for some stupid reason, maybe its from porting the reticules and icons?)
 		
 	[Additions]	
 		* Add backpack rack spawns to all WC maps
