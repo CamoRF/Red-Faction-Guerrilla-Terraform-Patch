@@ -21,7 +21,8 @@ v1.07
 		* Make sure to remove persistent flag from regular objects 
 		* Make sure to remove display_name prop and rename regular objects on non siege maps
 		* Make sure to remove flag 2 from regular objects
-
+		* Update init loading screen with new texture
+		* Fix area where you can fall down and get stuck on Abandoned
 
 	[Ruins Interior Map]
 		* Add more player spawns
@@ -117,10 +118,6 @@ v1.07
 	* DLC remote charges: missing textures, missing mesh when thrown (peg file related most likely)
 	* Pickaxe and Impaler: missing textures in all circumstances (peg file again)
 	* Disable Super Gauss and Misslepod spawns in Damage Control and Demolition
-	
-----------------------
-DONE/ADD TO CHANGELOG
-----------------------
 
 -------------------
 LOW PRIORITY 
