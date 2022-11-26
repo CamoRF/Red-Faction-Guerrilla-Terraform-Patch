@@ -8,6 +8,7 @@
 			</_Editor>
 			<respawn_delay>30</respawn_delay>
 		</guerrilla_reinforcement_info>
+		
 		<guerrilla_reinforcement_info>
 			<Name>guerilla_squad_1</Name>
 			<morale_level>45</morale_level>
@@ -16,6 +17,7 @@
 			</_Editor>
 			<respawn_delay>20</respawn_delay>
 		</guerrilla_reinforcement_info>
+		
 		<guerrilla_reinforcement_info>
 			<Name>guerilla_squad_2</Name>
 			<morale_level>50</morale_level>
@@ -24,6 +26,7 @@
 			</_Editor>
 			<respawn_delay>25</respawn_delay>
 		</guerrilla_reinforcement_info>
+		
 		<guerrilla_reinforcement_info>
 			<Name>guerilla_squad_2</Name>
 			<morale_level>60</morale_level>
@@ -32,6 +35,7 @@
 			</_Editor>
 			<respawn_delay>15</respawn_delay>
 		</guerrilla_reinforcement_info>
+		
 		<guerrilla_reinforcement_info>
 			<Name>guerilla_squad_3</Name>
 			<morale_level>70</morale_level>
@@ -40,6 +44,7 @@
 			</_Editor>
 			<respawn_delay>20</respawn_delay>
 		</guerrilla_reinforcement_info>
+		
 		<guerrilla_reinforcement_info>
 			<Name>guerilla_squad_3</Name>
 			<morale_level>80</morale_level>
@@ -48,6 +53,7 @@
 			</_Editor>
 			<respawn_delay>10</respawn_delay>
 		</guerrilla_reinforcement_info>
+		
 		<guerrilla_reinforcement_info>
 			<Name>guerilla_squad_4</Name>
 			<morale_level>90</morale_level>
@@ -56,6 +62,7 @@
 			</_Editor>
 			<respawn_delay>10</respawn_delay>
 		</guerrilla_reinforcement_info>
+		
 		<guerrilla_reinforcement_info>
 			<Name>guerilla_squad_4</Name>
 			<morale_level>99</morale_level>

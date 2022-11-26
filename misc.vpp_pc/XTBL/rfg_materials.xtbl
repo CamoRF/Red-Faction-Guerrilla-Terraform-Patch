@@ -16,12 +16,11 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>structural</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<EffectMaterial>Terrain</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Carbon</Name>
 			<_Editor>
@@ -40,12 +39,11 @@
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
 				<Flag>structural</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<EffectMaterial>Carbon</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Carbon-EDF</Name>
 			<_Editor>
@@ -65,12 +63,11 @@
 				<Flag>use_pickup</Flag>
 				<Flag>structural</Flag>
 				<Flag>flammable</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<EffectMaterial>Carbon</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Cloth</Name>
 			<Suffix>cl</Suffix>
@@ -82,13 +79,12 @@
 			<Flags>
 				<Flag>no_material_pickup</Flag>
 				<Flag>flammable</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Friction>1.0</Friction>
 			<EffectMaterial>Cloth</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Composite-Weak</Name>
 			<Density>1500</Density>
@@ -110,13 +106,12 @@
 				<Flag>flammable</Flag>
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Composite-Normal</Name>
 			<Density>1750</Density>
@@ -136,13 +131,12 @@
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Composite-Strong</Name>
 			<Density>2000</Density>
@@ -162,13 +156,12 @@
 				<Flag>flammable</Flag>
 				<Flag>structural</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Concrete-Weak</Name>
 			<_Editor>
@@ -188,14 +181,13 @@
 				<Flag>crushable</Flag>
 				<Flag>allow_jitter</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Density>2000</Density>
 			<Friction>.9</Friction>
 			<EffectMaterial>Concrete</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Concrete-Normal</Name>
 			<_Editor>
@@ -214,8 +206,6 @@
 				<Flag>crushable</Flag>
 				<Flag>allow_jitter</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Density>2250</Density>
 			<Friction>0.9</Friction>
@@ -223,6 +213,7 @@
 			<EffectMaterial>Concrete</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Concrete-Strong</Name>
 			<_Editor>
@@ -241,8 +232,6 @@
 				<Flag>crushable</Flag>
 				<Flag>allow_jitter</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Density>2500</Density>
 			<Friction>0.9</Friction>
@@ -250,6 +239,7 @@
 			<EffectMaterial>Concrete</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Electronics-Weak</Name>
 			<Density>1500</Density>
@@ -270,13 +260,12 @@
 				<Flag>flammable</Flag>
 				<Flag>electrifiable</Flag>
 				<Flag>crushable</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Brittleness>3.0</Brittleness>
 			<EffectMaterial>Electronics</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Flesh</Name>
 			<Density>500</Density>
@@ -296,13 +285,12 @@
 				<Flag>bullet_damage</Flag>
 				<Flag>melee_damage</Flag>
 				<Flag>flammable</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Friction>1.0</Friction>
 			<EffectMaterial>Flesh</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Glass-Weak</Name>
 			<Density>2500</Density>
@@ -324,14 +312,13 @@
 				<Flag>bullet_damage</Flag>
 				<Flag>transparent</Flag>
 				<Flag>crushable</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<LinkStrength>25</LinkStrength>
 			<LevelObjectProperties>RFG_Glass</LevelObjectProperties>
 			<EffectMaterial>Glass</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Ice-Normal</Name>
 			<_Editor>
@@ -348,8 +335,6 @@
 				<Flag>use_pickup</Flag>
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Density>1000</Density>
 			<Friction>0.2</Friction>
@@ -357,13 +342,12 @@
 			<EffectMaterial>Ice</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Indestructo</Name>
 			<Suffix>in</Suffix>
 			<Flags>
 				<Flag>indestructible</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<_Editor>
 				<Category>Entries</Category>
@@ -374,6 +358,7 @@
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Plastic-Normal</Name>
 			<Suffix>pl</Suffix>
@@ -392,8 +377,6 @@
 				<Flag>flammable</Flag>
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<LevelObjectProperties>Default</LevelObjectProperties>
 			<Brittleness>0.25</Brittleness>
@@ -401,6 +384,7 @@
 			<EffectMaterial>Plastic</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Plastic-Weak</Name>
 			<Suffix>pl</Suffix>
@@ -420,8 +404,6 @@
 				<Flag>bullet_damage</Flag>
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<LevelObjectProperties>Default</LevelObjectProperties>
 			<Brittleness>0.5</Brittleness>
@@ -429,6 +411,7 @@
 			<EffectMaterial>Plastic</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Rubber</Name>
 			<_Editor>
@@ -443,8 +426,6 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>bullet_damage</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Density>400</Density>
 			<Friction>1</Friction>
@@ -452,6 +433,7 @@
 			<EffectMaterial>Rubber</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Steel-Weak</Name>
 			<Density>2000</Density>
@@ -472,13 +454,12 @@
 				<Flag>structural</Flag>
 				<Flag>electrifiable</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Brittleness>0.75</Brittleness>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Steel-Normal</Name>
 			<Density>2500</Density>
@@ -497,13 +478,12 @@
 				<Flag>structural</Flag>
 				<Flag>electrifiable</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Brittleness>0.5</Brittleness>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Steel-StrongLight</Name>
 			<_Editor>
@@ -522,13 +502,12 @@
 				<Flag>structural</Flag>
 				<Flag>electrifiable</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 			<Brittleness>0.5</Brittleness>
 		</Material>
+		
 		<Material>
 			<Name>Steel-Strong</Name>
 			<_Editor>
@@ -547,13 +526,12 @@
 				<Flag>structural</Flag>
 				<Flag>electrifiable</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 			<Brittleness>0.25</Brittleness>
 		</Material>
+		
 		<Material>
 			<Name>Steel-SuperStrong</Name>
 			<_Editor>
@@ -577,6 +555,7 @@
 			<NoShowMax>False</NoShowMax>
 			<Brittleness>0.1</Brittleness>
 		</Material>
+		
 		<Material>
 			<Name>Stone-Normal</Name>
 			<_Editor>
@@ -594,8 +573,6 @@
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Density>2500</Density>
 			<Friction>0.8</Friction>
@@ -603,6 +580,7 @@
 			<EffectMaterial>Stone</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Stone-StrongLight</Name>
 			<_Editor>
@@ -620,8 +598,6 @@
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
 				<Flag>allow_regrow</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Density>1750</Density>
 			<Friction>0.8</Friction>
@@ -629,6 +605,7 @@
 			<EffectMaterial>Stone</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>Stone-Indestructo</Name>
 			<_Editor>
@@ -639,14 +616,13 @@
 			<LinkStrength>2000</LinkStrength>
 			<Flags>
 				<Flag>indestructible</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Density>500</Density>
 			<Friction>0.8</Friction>
 			<EffectMaterial>Stone</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
+		
 		<Material>
 			<Name>EOS-Glass</Name>
 			<Density>500</Density>
@@ -667,8 +643,6 @@
 				<Flag>bullet_damage</Flag>
 				<Flag>melee_damage</Flag>
 				<Flag>transparent</Flag>
-				<Flag>casts_drop_shadows</Flag>
-				<Flag>casts_shadows</Flag>
 			</Flags>
 			<Friction>0.2</Friction>
 			<EffectMaterial>Glass</EffectMaterial>

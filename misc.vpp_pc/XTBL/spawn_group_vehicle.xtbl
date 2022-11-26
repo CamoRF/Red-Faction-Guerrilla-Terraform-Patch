@@ -411,6 +411,7 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>Amb_DustSafehouse</Name>
 			<vehicle_list>
@@ -455,6 +456,7 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>Amb_BadlandsSafehouse</Name>
 			<vehicle_list>
@@ -471,6 +473,7 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>Amb_EosSafehouse</Name>
 			<vehicle_list>
@@ -579,6 +582,7 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		
 		<spawn_group_vehicle>
 			<Name>Amb_OasisSafehouse</Name>
 			<vehicle_list>
@@ -877,7 +881,7 @@
 			</_Editor>
 		</spawn_group_vehicle>
 		
-				<spawn_group_vehicle>
+		<spawn_group_vehicle>
 			<Name>Amb_Raids_Eos</Name>
 			<vehicle_list>
 				<vehicle_type>Min_Rover-A_1</vehicle_type>
@@ -951,10 +955,7 @@
 			</_Editor>
 		</spawn_group_vehicle>
 		
-		
 <!--END Edited-->		
-		
-<!--ORIGINAL LOCATIONS OF Raids-->
 		
 		<spawn_group_vehicle>
 			<Name>mis_FMC_EDFContAttack</Name>
