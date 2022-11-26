@@ -13,6 +13,11 @@ v1.07
 		* Rename and repack all the DLC weapon .str2s
 		* Test adding new textures by adding a new str2 and updating the asm so replaced characters can be restored in MP
 		* Update changelog.txt
+		* Add ladders to buildings on Stratosphere (same ones as Factory)
+		* Make sure show all types is on in the inspector and remove cover nodes, nav points etc from maps (ghost children that i saw before, GFWL has a lot)
+		* Make sure flag 4 is on buildings (seems to be consistently used most of the time)
+		* Make sure children have same flags as parents
+		* In the vanilla WC map projects make sure to add cliffs under maps that are missing them (Frost and some others)
 
 	[Ruins Interior Map]
 		* Add more player spawns
