@@ -18,6 +18,9 @@ v1.07
 		* Make sure flag 4 is on buildings (seems to be consistently used most of the time)
 		* Make sure children have same flags as parents
 		* In the vanilla WC map projects make sure to add cliffs under maps that are missing them (Frost and some others)
+		* Make sure to remove persistent flag from regular objects 
+		* Make sure to remove display_name prop and rename regular objects on non siege maps
+		* Make sure to remove flag 2 from regular objects
 
 	[Ruins Interior Map]
 		* Add more player spawns
