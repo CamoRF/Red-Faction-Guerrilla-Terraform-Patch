@@ -9,7 +9,8 @@ v1.07
 		* Build entire map again based on vanilla, have Goober remove tags so SF doesn't use older base version and updates
 		* Test if Marauders spawn with shotguns 
 		* Add new Marauder models to squads
-		* Add new map clones for ATM (Wasteland, Settlement, Sandpit )
+		* Add new map clones for ATM: Wasteland, Settlement, Sandpit [KOTH]
+		* Rename and repack all the DLC weapon .str2s
 
 	[Ruins Interior Map]
 		* Add more player spawns
@@ -34,6 +35,7 @@ v1.07
 		* Fix spawns on Repurcussion where you can get stuck in pipes
 		* Make sure all subverter spawns use the EDF pistol bounding box
 		* Fix Badlands transporter mission by adding a custom spawn group. Normally only has the bike type vehicle
+		* SP DLC crashing on load, maybe related to territories.xtbl and the stuff I commented out? (revert territories file to v1.063 version since i deleted the commented stuff for some stupid reason)
 		
 	[Additions]	
 		* Add backpack rack spawns to all WC maps

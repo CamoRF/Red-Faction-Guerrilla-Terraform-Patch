@@ -1,10 +1,10 @@
 <root>
 	<Table>
 		<mp_level_list>
-			<Name>Partial Recall</Name>
-			<Filename>mp_tutorial</Filename>
+			<Name>KOTH</Name>
+			<Filename>mp_koth</Filename> <!--Base on Sandpit-->
 			<_Editor>
-				<Category>Entries:General</Category>
+				<Category>Entries:DLC_2</Category>
 			</_Editor>
 			<Deathmatch>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
@@ -26,10 +26,16 @@
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_PLYLST_PATCH_35</Display_name>
+			<Display_name>MENU_MP_MODE_DMG_CNTRL</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
-				<Flag>deathmatch</Flag>
+				<!--<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>capture_the_flag</Flag>-->
+				<Flag>king_of_the_hill</Flag>
+				<!--<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>2.0</glow_multiplier>
@@ -39,6 +45,100 @@
 			<Load_image></Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		
+		<mp_level_list>
+			<Name>Badlands</Name>
+			<Filename>mp_badlands</Filename> <!--Base on Wasteland-->
+			<_Editor>
+				<Category>Entries:DLC_2</Category>
+			</_Editor>
+			<Deathmatch>
+				<round_time_limit_minutes>10</round_time_limit_minutes>
+				<num_rounds>1</num_rounds>
+				<respawn_time_ms>5000</respawn_time_ms>
+			</Deathmatch>
+			<team_deathmatch>
+				<round_time_limit_minutes>10</round_time_limit_minutes>
+				<num_rounds>1</num_rounds>
+				<respawn_time_ms>5000</respawn_time_ms>
+			</team_deathmatch>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>18:00</time_of_day>
+			<distance_multiplier>1.0</distance_multiplier>
+			<level_image_name></level_image_name>
+			<dust_enabled>True</dust_enabled>
+			<wind_intensity>60.0</wind_intensity>
+			<wind_direction>315.0</wind_direction>
+			<Display_name>TERR_BADLANDS</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<glow_multiplier>2.0</glow_multiplier>
+			<alternate_glow_multiplier>6.0</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
+			<Load_image></Load_image>
+			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
+		</mp_level_list>
+
+
+		<mp_level_list>
+			<Name>Dust</Name>
+			<Filename>mp_dust</Filename> <!--Base on Settlement-->
+			<_Editor>
+				<Category>Entries:DLC_2</Category>
+			</_Editor>
+			<Deathmatch>
+				<round_time_limit_minutes>10</round_time_limit_minutes>
+				<num_rounds>1</num_rounds>
+				<respawn_time_ms>5000</respawn_time_ms>
+			</Deathmatch>
+			<team_deathmatch>
+				<round_time_limit_minutes>10</round_time_limit_minutes>
+				<num_rounds>1</num_rounds>
+				<respawn_time_ms>5000</respawn_time_ms>
+			</team_deathmatch>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>18:00</time_of_day>
+			<distance_multiplier>1.0</distance_multiplier>
+			<level_image_name></level_image_name>
+			<dust_enabled>True</dust_enabled>
+			<wind_intensity>60.0</wind_intensity>
+			<wind_direction>315.0</wind_direction>
+			<Display_name>TERR_DUST</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<glow_multiplier>2.0</glow_multiplier>
+			<alternate_glow_multiplier>6.0</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
+			<Load_image></Load_image>
+			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
+		</mp_level_list>		
+		
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
