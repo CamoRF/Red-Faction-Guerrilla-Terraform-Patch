@@ -1,6 +1,18 @@
 <root>
-	<Table>
-<!--START Added Brand New Weapons-->
+	<Table>	
+<!--START Experimental Misc-->	
+		<Inventory_Item>
+			<Name>flame_thrower</Name>
+			<Display_Name>FLAMETHROWER</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Bang bang! Point and shoot.</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>
+		
 		<Inventory_Item>
 			<Name>fists</Name>
 			<Display_Name>FISTS</Display_Name>
@@ -11,7 +23,8 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>		
+		
 		<Inventory_Item>
 			<Name>grenade_mp</Name>
 			<Display_Name>GRENADE</Display_Name>
@@ -23,6 +36,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
+		
 		<Inventory_Item>
 			<Name>stun_grenade</Name>
 			<Display_Name>STUN GRENADE</Display_Name>
@@ -34,6 +48,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
+		
 		<Inventory_Item>
 			<Name>nano_grenade</Name>
 			<Display_Name>NANO GRENADE</Display_Name>
@@ -45,10 +60,22 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-<!--END Added Brand New Weapons-->
+		
+		<Inventory_Item>
+			<Name>incendiary_grenade</Name>
+			<Display_Name>INCENDIARY GRENADE</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Bang bang! Point and shoot.</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>		
+<!--END-->
 <!--START DLC Weapons Added-->	
 		<Inventory_Item>
-			<Name>dlc_spiker</Name>
+			<Name>spiker</Name>
 			<Display_Name>WEAP_SPIKER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -58,8 +85,9 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
+		
 		<Inventory_Item>
-			<Name>dlc_pickaxe_port</Name>
+			<Name>pickaxe</Name>
 			<Display_Name>WEAP_PICKAXE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -69,8 +97,9 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
+		
 		<Inventory_Item>
-			<Name>dlc_charge_placer</Name>
+			<Name>mar_charge_placer</Name>
 			<Display_Name>DLC CHARGES</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -80,8 +109,9 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
+		
 		<Inventory_Item>
-			<Name>dlc_royal_sword_port</Name>
+			<Name>royal_sword</Name>
 			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -90,9 +120,10 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>			
+		
 		<Inventory_Item>
-			<Name>dlc_supergauss</Name>
+			<Name>edf_super_gauss</Name>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -102,8 +133,9 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
+		
 		<Inventory_Item>
-			<Name>dlc_subverter</Name>
+			<Name>edf_subverter</Name>
 			<Display_Name>WEAP_SUBVERTER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -113,8 +145,9 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
+		
 		<Inventory_Item>
-			<Name>dlc_missilepod</Name>
+			<Name>missilepod</Name>
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -136,7 +169,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<!--<Inventory_Item>
+		<Inventory_Item>
 			<Name>crowbar</Name>
 			<Display_Name>WEAP_CROWBAR</Display_Name>
 			<Cost>100</Cost>
@@ -146,7 +179,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>-->
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>grinder</Name>
 			<Display_Name>WEAP_GRINDER</Display_Name>
@@ -235,7 +268,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<!--<Inventory_Item>
+		<Inventory_Item>
 			<Name>rock</Name>
 			<Display_Name>WEAP_ROCK</Display_Name>
 			<Cost>100</Cost>
@@ -245,7 +278,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>-->
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>shotgun</Name>
 			<Display_Name>WEAP_SHOTGUN</Display_Name>
@@ -290,7 +323,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<!--<Inventory_Item>
+		<Inventory_Item>
 			<Name>grenade</Name>
 			<Display_Name>WEAP_GRENADE</Display_Name>
 			<Cost>100</Cost>
@@ -300,23 +333,23 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>-->
-		<!--<Inventory_Item>
+		</Inventory_Item>
+		<Inventory_Item>
 			<Name>power_item</Name>
 			<Display_Name>WEAP_POWER_ITEM</Display_Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<Max_Inventory>1000</Max_Inventory>
-		</Inventory_Item>-->
-		<!--<Inventory_Item>
+		</Inventory_Item>
+		<Inventory_Item>
 			<Name>metal</Name>
 			<Display_Name>WEAP_METAL</Display_Name>
 			<Max_Inventory>1000</Max_Inventory>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>-->
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>sledgehammer</Name>
 			<Display_Name>WEAP_SLEDGE</Display_Name>
@@ -614,7 +647,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<!--<Inventory_Item>
+		<Inventory_Item>
 			<Name>singularity_EBS</Name>
 			<Display_Name>WEAP_SINGULARITY</Display_Name>
 			<Cost>100</Cost>
@@ -624,7 +657,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>-->
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>satellite_rpg</Name>
 			<Display_Name>WEAP_BOMB</Display_Name>
@@ -633,7 +666,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<!--<Inventory_Item>
+		<Inventory_Item>
 			<Name>marauder_shockade</Name>
 			<Display_Name>WEAP_GRENADE</Display_Name>
 			<Cost>100</Cost>
@@ -643,7 +676,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>-->
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>golden_hammer</Name>
 			<Display_Name>MENU_HAMMER_UNLOCK</Display_Name>
