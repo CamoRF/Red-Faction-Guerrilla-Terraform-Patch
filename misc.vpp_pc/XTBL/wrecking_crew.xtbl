@@ -17,7 +17,6 @@
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 01</games_played_walker_stat>
 					<Challenge_Set>complex</Challenge_Set>
 				</map>
-				
 				<map>
 					<file_name>vanilla_wc2</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC2</display_name>
@@ -32,7 +31,6 @@
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 02</games_played_walker_stat>
 					<Challenge_Set>watchtower</Challenge_Set>
 				</map>
-				
 				<map>
 					<file_name>vanilla_wc3</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC3</display_name>
@@ -46,8 +44,7 @@
 					<Load_image>Scrap Heap</Load_image>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 07</games_played_walker_stat>
 					<Challenge_Set>scrapheap</Challenge_Set>
-				</map>				
-				
+				</map>
 				<map>
 					<file_name>vanilla_wc4</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC4</display_name>
@@ -62,7 +59,6 @@
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 03</games_played_walker_stat>
 					<Challenge_Set>vista</Challenge_Set>
 				</map>
-				
 				<map>
 					<file_name>vanilla_wc5</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC5</display_name>
@@ -76,8 +72,7 @@
 					<Load_image>Fortress</Load_image>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 08</games_played_walker_stat>
 					<Challenge_Set>fortress</Challenge_Set>
-				</map>				
-				
+				</map>
 				<map>
 					<file_name>vanilla_wc6</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC6</display_name>
@@ -92,7 +87,6 @@
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 04</games_played_walker_stat>
 					<Challenge_Set>factory</Challenge_Set>
 				</map>
-				
 				<map>
 					<file_name>vanilla_wc7</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC7</display_name>
@@ -106,8 +100,7 @@
 					<Load_image>Gulch</Load_image>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 09</games_played_walker_stat>
 					<Challenge_Set>gulch</Challenge_Set>
-				</map>				
-				
+				</map>
 				<map>
 					<file_name>vanilla_wc8</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC8</display_name>
@@ -122,7 +115,6 @@
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 05</games_played_walker_stat>
 					<Challenge_Set>cascade</Challenge_Set>
 				</map>
-				
 				<map>
 					<file_name>vanilla_wc9</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC9</display_name>
@@ -136,8 +128,7 @@
 					<Load_image>Transmission</Load_image>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 10</games_played_walker_stat>
 					<Challenge_Set>transmission</Challenge_Set>
-				</map>				
-				
+				</map>
 				<map>
 					<file_name>vanilla_wc10</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC10</display_name>

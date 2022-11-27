@@ -153,7 +153,7 @@
 			<streaming_category>General</streaming_category>
 			<Touch_Script>give_item</Touch_Script>
 			<Mesh>
-				<Filename>dlc_pickaxe.smeshx</Filename>
+				<Filename>dlc_pickaxe_port.smeshx</Filename>
 			</Mesh>
 			<Item_Flags>
 				<Flag>high_res_map_large</Flag>
@@ -257,7 +257,7 @@
 			</Item_Flags>
 			<streaming_category>General</streaming_category>
 			<Mesh>
-				<Filename>dlc_misslepod.smeshx</Filename>
+				<Filename>dlc_missilepod.smeshx</Filename>
 			</Mesh>
 			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
@@ -332,7 +332,7 @@
 		</Item>
 
 <!--END Added DLC Weapons-->
-<!--START Added DLC Characters-->	
+<!--START Added DLC Characters-->
 		
 		<Item>
 			<Name>DLC_Sam_Cape</Name>

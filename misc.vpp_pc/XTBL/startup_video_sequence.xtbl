@@ -3,9 +3,9 @@
 		<Startup_Video>
 			<Name>Default</Name>
 			<Video_List>
-				<Video>
+				<!--<Video>
 					<Video_File>
-						<Filename>logo_nordic_hd_disabled.bik</Filename>
+						<Filename>logo_nordic_hd.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag>
@@ -13,7 +13,7 @@
 				</Video>
 				<Video>
 					<Video_File>
-						<Filename>logo_kaiko_disabled.bik</Filename>
+						<Filename>logo_kaiko.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag>
@@ -21,15 +21,15 @@
 				</Video>
 				<Video>
 					<Video_File>
-						<Filename>logo_volition_hd_disabled.bik</Filename>
+						<Filename>logo_volition_hd.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag>
 					</Video_Flags>
-				</Video>
+				</Video>-->
 				<Video>
 					<Video_File>
-						<Filename>legal_hd_disabled.bik</Filename>
+						<Filename>legal_hd.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag> <!--Added-->

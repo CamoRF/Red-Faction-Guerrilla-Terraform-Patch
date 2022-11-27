@@ -8,7 +8,6 @@
 			</_Editor>
 			<image_name>mp_hammer_default</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_1</Name>
 			<level_needed>5</level_needed> <!--From 28-->
@@ -17,7 +16,6 @@
 			</_Editor>
 			<image_name>mp_hammer_upgrade1</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_2</Name>
 			<level_needed>10</level_needed> <!--From 38-->
@@ -26,7 +24,6 @@
 			</_Editor>
 			<image_name>mp_hammer_upgrade2</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_3</Name>
 			<level_needed>20</level_needed> <!--From 51-->
@@ -35,7 +32,6 @@
 			</_Editor>
 			<image_name>mp_hammer_upgrade3</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_4</Name>
 			<level_needed>30</level_needed> <!--From 58-->
@@ -44,7 +40,6 @@
 			</_Editor>
 			<image_name>mp_hammer_bronze</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_5</Name>
 			<level_needed>40</level_needed> <!--From 65-->
@@ -53,7 +48,6 @@
 			</_Editor>
 			<image_name>mp_hammer_silver</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_6</Name>
 			<level_needed>50</level_needed> <!--From 74-->
@@ -62,7 +56,6 @@
 			</_Editor>
 			<image_name>mp_hammer_gold</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_7</Name>
 			<level_needed>60</level_needed> <!--From 81-->
@@ -71,7 +64,6 @@
 			</_Editor>
 			<image_name>mp_hammer_titanium</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_8</Name>
 			<level_needed>70</level_needed> <!--From 90-->
@@ -80,7 +72,6 @@
 			</_Editor>
 			<image_name>mp_hammer_marauder</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_9</Name>
 			<level_needed>80</level_needed> <!--From 93-->
@@ -89,7 +80,6 @@
 			</_Editor>
 			<image_name>mp_hammer_war</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_10</Name>
 			<level_needed>90</level_needed> <!--From 100-->
@@ -98,7 +88,6 @@
 			</_Editor>
 			<image_name>mp_hammer_axe</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_11</Name>
 			<level_needed>100</level_needed> <!--From 104-->
@@ -107,7 +96,6 @@
 			</_Editor>
 			<image_name>mp_hammer_bat</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_12</Name>
 			<level_needed>100</level_needed> <!--From 112-->
@@ -116,7 +104,6 @@
 			</_Editor>
 			<image_name>mp_hammer_stun</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_13</Name>
 			<level_needed>100</level_needed> <!--From 119-->
@@ -125,7 +112,6 @@
 			</_Editor>
 			<image_name>mp_hammer_plastic</image_name>
 		</unlockable>
-		
 		<unlockable>
 			<Name>sledge_upgrade_14</Name>
 			<level_needed>100</level_needed> <!--From 125-->
@@ -134,15 +120,14 @@
 			</_Editor>
 			<image_name>mp_hammer_ostrich</image_name>
 		</unlockable>
-		
-		<unlockable>
-			<Name>dlc_pickaxe_port</Name> <!--Added-->
+		<!--<unlockable>
+			<Name>dlc_pickaxe_port</Name>
 			<level_needed>126</level_needed>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<image_name>placeholder</image_name>
-		</unlockable>
+		</unlockable>-->
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

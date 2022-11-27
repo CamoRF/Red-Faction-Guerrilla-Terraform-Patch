@@ -1,70 +1,8 @@
 <root>
 	<Table>
-		<playlist_entries>
-			<Name>Ruins</Name>
-			<mode>deathmatch</mode>
-			<level>wcdlc1</level>
-			<_Editor>
-				<Category>Entries:Hardcore_6-8</Category>
-			</_Editor>
-			<ideal_players>3</ideal_players>
-			<default_score>20</default_score>
-			<options_set>Default</options_set>
-		</playlist_entries>
-		</Table>
+	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
-		<Name>playlist_entries</Name>
-		<Type>TableDescription</Type>
-		<Element>
-			<Name>Name</Name>
-			<Type>String</Type>
-			<Description>This is a mandatory field required for the table file to exist, but will be ignored by the game.</Description>
-		</Element>
-		<Element>
-			<Name>mode</Name>
-			<Type>Reference</Type>
-			<Reference>
-				<File>mp_modes.xtbl</File>
-				<Type>mp_modes_list.Name</Type>
-				<OpenSeparate>False</OpenSeparate>
-			</Reference>
-		</Element>
-		<Element>
-			<Name>level</Name>
-			<Type>Reference</Type>
-			<Reference>
-				<File>mp_levels.xtbl</File>
-				<Type>mp_level_list.Filename</Type>
-				<OpenSeparate>False</OpenSeparate>
-			</Reference>
-		</Element>
-		<Element>
-			<Name>ideal_players</Name>
-			<Type>Int</Type>
-			<Description>Ideal number of players to have in a match. If this many players is reached, matchmaking immediately proceeds to the countdown without waiting for additional players.</Description>
-			<Default>8</Default>
-			<MinValue>2</MinValue>
-			<MaxValue>16</MaxValue>
-		</Element>
-		<Element>
-			<Name>options_set</Name>
-			<Type>Reference</Type>
-			<Display_Name>Options set</Display_Name>
-			<Required>false</Required>
-			<Reference>
-				<File>mp_options_sets.xtbl</File>
-				<Type>options_set.Name</Type>
-				<OpenSeparate>False</OpenSeparate>
-			</Reference>
-		</Element>
-		<Element>
-			<Name>default_score</Name>
-			<Type>Int</Type>
-			<Display_Name>Default score</Display_Name>
-			<Description>Default hueristic score determining the probability that this playlist entry will be selected for play. Increase the default score to make a playlist entry appear more often. Decrease the default score to make a playlist entry appear less often.</Description>
-			<Default>50</Default>
-		</Element>
 	</TableDescription>
 	<EntryCategories>
 		<Category>

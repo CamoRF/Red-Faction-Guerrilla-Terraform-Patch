@@ -1,8 +1,6 @@
 <root>
-	<Table>	
-
+	<Table>
 <!--START Added Brand New Weapons-->
-		
 		<Inventory_Item>
 			<Name>fists</Name>
 			<Display_Name>FISTS</Display_Name>
@@ -13,8 +11,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>		
-		
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>grenade_mp</Name>
 			<Display_Name>GRENADE</Display_Name>
@@ -26,7 +23,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		
 		<Inventory_Item>
 			<Name>stun_grenade</Name>
 			<Display_Name>STUN GRENADE</Display_Name>
@@ -38,7 +34,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		
 		<Inventory_Item>
 			<Name>nano_grenade</Name>
 			<Display_Name>NANO GRENADE</Display_Name>
@@ -50,9 +45,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		
-<!--END Added Brand New Weapons-->		
-		
+<!--END Added Brand New Weapons-->
 <!--START DLC Weapons Added-->	
 		<Inventory_Item>
 			<Name>dlc_spiker</Name>
@@ -65,7 +58,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		
 		<Inventory_Item>
 			<Name>dlc_pickaxe_port</Name>
 			<Display_Name>WEAP_PICKAXE</Display_Name>
@@ -77,7 +69,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		
 		<Inventory_Item>
 			<Name>dlc_charge_placer</Name>
 			<Display_Name>DLC CHARGES</Display_Name>
@@ -89,7 +80,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		
 		<Inventory_Item>
 			<Name>dlc_royal_sword_port</Name>
 			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
@@ -100,8 +90,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>			
-		
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>dlc_supergauss</Name>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
@@ -113,7 +102,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		
 		<Inventory_Item>
 			<Name>dlc_subverter</Name>
 			<Display_Name>WEAP_SUBVERTER</Display_Name>
@@ -125,7 +113,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		
 		<Inventory_Item>
 			<Name>dlc_missilepod</Name>
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
@@ -137,9 +124,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-
 <!--END DLC Weapons Added-->
-		
 		<Inventory_Item>
 			<Name>gutter</Name>
 			<Display_Name>WEAP_GUTTER</Display_Name>

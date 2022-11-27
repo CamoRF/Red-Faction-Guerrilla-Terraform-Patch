@@ -3,14 +3,15 @@ v1.07
 ------
 
 	[Misc]
-		* Update DLC weapon spawns to new names
+		* Restore original weapon names from v1.063 in weapons.xtbl
+		* Re-do the vanilla versions of DLC wc maps
 		* Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
 		* Generate xdeltas for interface.vpp_pc, items.vpp_pc, humans.vpp_pc, maps and misc.vpp_pc
-		* Build entire map again based on vanilla, have Goober remove tags so SF doesn't use older base version and updates
+		* Build entire mod again based on vanilla, have Goober remove tags so SF doesn't use older base version and updates
 		* Test if Marauders spawn with shotguns 
 		* Add new Marauder models to squads
 		* Add new map clones for ATM: Wasteland, Settlement, Sandpit [KOTH]
-		* Rename and repack all the DLC weapon .str2s
+		* Rename and repack all the DLC weapon .str2s - done
 		* Test adding new textures by adding a new str2 and updating the asm so replaced characters can be restored in MP and new loading screens could be added (peg tool?)
 		* Add ladders to buildings on Stratosphere (same ones as Factory)
 		* Make sure show all types is on in the inspector and remove cover nodes, nav points etc from maps (ghost children that i saw before, GFWL has a lot)!
@@ -24,6 +25,7 @@ v1.07
 		* Add Ruins interior and new Quarantine as new map files
 		* Change default WC settings to have barrels on
 		* Add every effect from effects.vpp_pc to GFWL/Nordic Bonus
+		* Restore edf tan, rachel, ian, bev, blair, chuck, jake, kayla, numah, pierce, selma and torvald textures and characters when peg tool is out (re-do the character.xtbl file)
 
 	[Ruins Interior Map]
 		* Add more player spawns

@@ -17,7 +17,7 @@
 					<weapon>rpg_launcher</weapon>
 					<backpack>Rhino</backpack>
 					<stress_level>Low</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 					<walker>none</walker>
 				</round>
 				<round>
@@ -57,7 +57,7 @@
 					<backpack>Tremor</backpack>
 					<mode>total_chaos</mode>
 					<stress_level>Low</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 					<walker>none</walker>
 				</round>
 			</challenge_rounds>
@@ -76,7 +76,7 @@
 					<backpack>Jetpack</backpack>
 					<walker>none</walker>
 					<stress_level>Low</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 				</round>
 				<round>
 					<mode>fall_guy</mode>
@@ -92,7 +92,7 @@
 					<backpack>Jetpack</backpack>
 					<walker>none</walker>
 					<stress_level>Low</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 				</round>
 			</challenge_rounds>
 			<_Editor>
@@ -125,7 +125,7 @@
 					<backpack>Jetpack</backpack>
 					<walker>none</walker>
 					<stress_level>Low</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 				</round>
 			</challenge_rounds>
 			<_Editor>
@@ -142,7 +142,7 @@
 					<backpack>Jetpack</backpack>
 					<walker>none</walker>
 					<stress_level>Low</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 				</round>
 				<round>
 					<mode>rampage</mode>
@@ -150,7 +150,7 @@
 					<backpack>Jetpack</backpack>
 					<walker>none</walker>
 					<stress_level>Low</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 				</round>
 				<round>
 					<mode>fall_guy</mode>
@@ -191,7 +191,7 @@
 					<backpack>Rhino</backpack>
 					<walker>none</walker>
 					<stress_level>Low</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 				</round>
 			</challenge_rounds>
 			<_Editor>
@@ -208,7 +208,7 @@
 					<backpack>Rhino</backpack>
 					<walker>none</walker>
 					<stress_level>High</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 				</round>
 				<round>
 					<mode>fall_guy</mode>
@@ -224,7 +224,7 @@
 					<backpack>Jetpack</backpack>
 					<walker>none</walker>
 					<stress_level>High</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 				</round>
 			</challenge_rounds>
 			<_Editor>
@@ -274,7 +274,7 @@
 					<backpack>Jetpack</backpack>
 					<walker>none</walker>
 					<stress_level>Low</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 				</round>
 				<round>
 					<mode>rampage</mode>
@@ -282,7 +282,7 @@
 					<backpack>Jetpack</backpack>
 					<walker>none</walker>
 					<stress_level>High</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 				</round>
 				<round>
 					<mode>fall_guy</mode>
@@ -315,7 +315,7 @@
 					<backpack>Jetpack</backpack>
 					<walker>none</walker>
 					<stress_level>Low</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 				</round>
 				<round>
 					<mode>rampage</mode>
@@ -323,7 +323,7 @@
 					<backpack>Thrust</backpack>
 					<walker>none</walker>
 					<stress_level>High</stress_level>
-					<barrels>False</barrels>
+					<barrels>True</barrels> <!--From False-->
 				</round>
 			</challenge_rounds>
 			<_Editor>

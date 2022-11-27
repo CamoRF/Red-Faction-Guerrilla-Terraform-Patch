@@ -576,7 +576,7 @@
 		</Weapon>	
 		
 		<Weapon>
-			<Name>dlc_spiker</Name>
+			<Name>spiker</Name>
 			<Weapon_Class>harpoon</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>projectile</Ammo_Type>
@@ -694,7 +694,7 @@
 		</Weapon>		
 		
 		<Weapon>
-			<Name>dlc_supergauss</Name>
+			<Name>EDF_Super_Gauss</Name>
 			<icon_name>ui_hud_weapon_icon_gauss</icon_name> <!--From ui_hud_weapon_icon_supergauss-->
 			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name> <!--From ui_hud_reti_supergauss-->
 			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule> <!--From ui_hud_reti_supergauss0-->
@@ -796,7 +796,7 @@
 		</Weapon>
 		
 		<Weapon>
-			<Name>dlc_missilepod</Name>
+			<Name>missilepod</Name>
 			<icon_name>ui_badge_icon_murry</icon_name> <!--From ui_hud_weapon_icon_pod-->
 			<reticule_name>ui_hud_reti_thermobaric</reticule_name> <!--From ui_hud_reti_missilepod2-->
 			<fine_aim_reticule>ui_hud_reti_thermobaric2</fine_aim_reticule> <!--From ui_hud_reti_missilepod3-->
@@ -892,7 +892,7 @@
 		</Weapon>	
 		
 		<Weapon>
-			<Name>dlc_subverter</Name>
+			<Name>edf_subverter</Name>
 			<Unique_ID>160</Unique_ID>
 			<Inventory_Item>dlc_edf_subverter</Inventory_Item>
 			<Item_3d>dlc_subverter</Item_3d>
