@@ -1,0 +1,52 @@
+------------------------------------------------
+OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
+------------------------------------------------
+
+* HD character textures 
+* HD weapons and backpack textures
+* Unlock Insane difficulty by default
+* Increase morale drop for death
+* Quick Save hotkey 
+* First person: Remove Alec Masons head, replace weapon models with ones for first person, reduce clipping, change animations, script to switch back to third person in vehicles
+* Gameplay changes 
+	- Salvage balancing, too expensive on normal and hard 
+	- Improve vehicle handling 
+	- Reduce EDF accuracy 
+	- Vehicle handling overhaul 
+	- Rebalance side activity pro times
+	- Make EDF withdraw from liberated sectors
+	- Uncap alert level during missions in scriptx files
+	- Casual = Swat EDF like flies and blow shit up as the ultimate space asshole.
+    - Normal = An average mix of sandbox fun and tactical combat. Nothing too heavy.
+    - Hard = You'll need to think smarter and plan your attacks ahead of time, using guerrilla hit and run tactics and then getting the hell out, if you want to succeed. Challenging, but balanced.
+	- Insane = An ultimate test of your guerrilla skills. You stand no chance against the military might of the EDF without careful planning and tactical knowledge in a realistic guerrilla warfare scenario. Where you are but an average man, standing against the overwhelming force of your oppressive military dictators. 
+	- Encourage hit and run and stealth
+	- https://discord.com/channels/@me/1004543616875778089/1022032142038994944
+* player_female.xtbl could maybe be used to fix player model swaps in SP	
+* Mod to kill unkillable NPCs
+* Upscale .bik videos with Topez Video Enhance
+* Release gravity control script on FF after some refinements
+* Missions where you fly the EDF fliers or bombers and take out EDF bases on mountains 
+* Stunt jump activities
+* More demo master activities 
+* More fleshed out world with more buildings etc
+* Vehicles driving on roads without traffic like FFZ and EOS end game after the missions are completed
+* Space asshole: player causes as much chaos in a given sector while being attacked by progressively more overwhelming forces. Bonus points if you make the song space asshole play
+* Renaming characters to DLC sams default str2 could be used for model swaps
+* Test adding multiple bagman spawns to randomize where it respawns 
+* Tutorial area map
+* Improve driving skills of NPCs (reduce AI speed)
+* NPCs have trouble with handling larger vehicles
+* Guerilla Express unlocks in 3-8 Guerrilla Actions
+* Ore deposits drop 1 piece of salvage instead of 2
+* Make it so you can't buy all the backpacks from the start 
+* EOS Edf Assault Command Mission: Ally NPCs need to be more aggressive and fight beside you but get stuck and lag behind the player, would be better if they could push foward better as enemies are cleared out, buff number of friendlies as only 4 guerrillas and marauders spawn at a time. (eos_edf_command_assault.png)
+* Makes no sense you can't fast travel in Dust. Or that you have to chase the 1 piece of salvage that decided to fly the fuck away from you.
+* The hammer should be less powerful.
+* Stealth should last 7 sec, it's broken as fuck.
+* The aptly named Rhino "charge" isn't a charge, but a step forward.
+* Reduce the price of Heal, Tremor and Jetpack (300>200/300>200/ 700>600+300 for recharge). 
+* Increase the price of Rhino, Damage boost and Stealth by 25%. The rest of the packs that I haven't mentioned don't need changes. 
+* 290 out of 300 deposits but you have 6000> salvage. 
+* Receive no salvage (including morale bonus) from missions. 
+* Speaking of Badlands, makes little sense that both RF and EDF can spawn in the Irradiated Zone. I think that's also a result of 1.063?
