@@ -6,16 +6,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -31,10 +21,12 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>siege</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 8:30-->
 			<glow_multiplier>2.0</glow_multiplier>
@@ -51,16 +43,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -97,16 +79,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -143,22 +115,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -174,10 +130,12 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->				
+				<Flag>siege</Flag> <!--Added-->	
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->				
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 10:30-->
 			<glow_multiplier>0.9</glow_multiplier>
@@ -194,22 +152,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>
-			<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -225,10 +167,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>10:30</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -245,16 +188,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -291,12 +224,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -332,16 +259,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -414,12 +331,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -455,16 +366,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -501,16 +402,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -547,16 +438,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -630,16 +511,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -713,16 +584,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -738,9 +599,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>12:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -757,22 +620,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -788,9 +635,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -843,22 +692,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -874,9 +707,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -928,16 +763,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -953,10 +778,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<Flag>king_of_the_hill</Flag> <!--Added-->				
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->			
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 15:30-->
 			<glow_multiplier>6</glow_multiplier>
@@ -1010,16 +836,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1091,22 +907,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1125,6 +925,8 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -1141,16 +943,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1187,16 +979,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1212,11 +994,12 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>siege</Flag> <!--Added-->
-				<Flag>capture_the_flag</Flag> <!--Added-->				
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->			
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -1233,16 +1016,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1258,10 +1031,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>12:00</alternate_time_of_day> <!--From 8:30-->
 			<glow_multiplier>6</glow_multiplier>
@@ -1278,16 +1052,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1302,10 +1066,12 @@
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
-				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>team_deathmatch</Flag> 
+				<Flag>bagman</Flag> <!--Added--> 
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier> <!--From 0.0-->
@@ -1322,12 +1088,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1399,22 +1159,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1430,9 +1174,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -1449,16 +1195,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1569,16 +1305,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1615,16 +1341,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1640,10 +1356,12 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->				
+				<Flag>siege</Flag> <!--Added-->	
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->				
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -1697,16 +1415,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1722,9 +1430,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 8:30-->
 			<glow_multiplier>6</glow_multiplier>
@@ -1777,22 +1487,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1808,9 +1502,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>7:30</alternate_time_of_day> <!--From 10:30-->
 			<glow_multiplier>0.9</glow_multiplier>
@@ -1863,16 +1559,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1888,8 +1574,8 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>siege</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
@@ -1910,22 +1596,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1941,9 +1611,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -1960,22 +1632,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -1991,9 +1647,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>19:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -2082,22 +1740,6 @@
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
-			<!--<Deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</Deathmatch>
-			<team_deathmatch>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<num_rounds>1</num_rounds>
-				<respawn_time_ms>5000</respawn_time_ms>
-			</team_deathmatch>
-			<siege>
-				<round_time_limit_minutes>6</round_time_limit_minutes>
-				<num_rounds>4</num_rounds>
-				<respawn_time_ms>10000</respawn_time_ms>
-				<percent_destruction_required>95</percent_destruction_required>
-			</siege>-->
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
@@ -2113,9 +1755,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
+				<Flag>bagman</Flag> <!--Added-->
+				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
