@@ -8,7 +8,7 @@
 			<alpha_blend>false</alpha_blend>
 			<map_name>vfx_sun_01</map_name>
 			<name>Sun</name>
-			<effect_name>env_sun_corona_a</effect_name>
+			<effect_name>null</effect_name>
 			<scale>
 				<key>
 					<time>15</time>

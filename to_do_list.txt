@@ -3,6 +3,15 @@ v1.07
 ------
 
 [Maps] 
+	* See screenshots for map changes and additions
+	* Remove super gauss on haven
+	* Remove super gauss on Rift
+	* Remove misslepod on rift
+	* Add children to objectives on WC and siege maps 
+	* Disable glare on GFWL, vfx or something
+	* Disable kaboom pack on siege maps like gauntlet and crescent
+	* Move regular DCT target to 0,0,0 on Frost and Stratosphere and disable it via gamemode flags
+	* Fix mine beacon height on various maps i added it to, use quarantine as a reference
 	* Disable all other game mode flags for children of all objectives
 	* Doublecheck all weapon and object flags
 	* Make sure all subverter spawns use the EDF pistol bounding box
@@ -103,6 +112,10 @@ LOW PRIORITY
 	* Add team spawns to all WC maps
 	* Fix spawns on maps where you can get stuck in pipes or buildings
 	* Add every effect from effects.vpp_pc to GFWL/Nordic Bonus
+	* Forcefield for invisible wall on transmission
+	* One time car explosion on Frost where the buildings collapse
+	* Delete asm xml, rfgutil etc if i left them in map str2s
+	
 
 [Weather and Lighting]
 	* Half cloud speed on all maps in weather files (gtodx/dtodx)	

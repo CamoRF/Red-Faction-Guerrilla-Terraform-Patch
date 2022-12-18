@@ -7,7 +7,7 @@
 			</_Editor>
 			<SquadSpawnPeriod>150</SquadSpawnPeriod> <!--From 300-->
 			<NPCSpawnPeriod>150</NPCSpawnPeriod> <!--From 300-->
-			<MinSpawnDistance>300.0</MinSpawnDistance> <!--From 100.0-->
+			<MinSpawnDistance>350.0</MinSpawnDistance> <!--From 100.0-->
 		</SpawnParameters>
 		<SpawnParameters>
 			<Name>Guerilla</Name>
@@ -16,7 +16,7 @@
 			</_Editor>
 			<SquadSpawnPeriod>150</SquadSpawnPeriod> <!--From 300-->
 			<NPCSpawnPeriod>150</NPCSpawnPeriod> <!--From 300-->
-			<MinSpawnDistance>300.0</MinSpawnDistance> <!--From 100.0-->
+			<MinSpawnDistance>350.0</MinSpawnDistance> <!--From 100.0-->
 		</SpawnParameters>
 <!--START Added-->
 		<SpawnParameters>
@@ -26,7 +26,7 @@
 			</_Editor>
 			<SquadSpawnPeriod>150</SquadSpawnPeriod>
 			<NPCSpawnPeriod>150</NPCSpawnPeriod>
-			<MinSpawnDistance>300.0</MinSpawnDistance>
+			<MinSpawnDistance>350.0</MinSpawnDistance>
 		</SpawnParameters>
 		<SpawnParameters>
 			<Name>Civilian</Name>
@@ -35,7 +35,7 @@
 			</_Editor>
 			<SquadSpawnPeriod>150</SquadSpawnPeriod>
 			<NPCSpawnPeriod>0</NPCSpawnPeriod>
-			<MinSpawnDistance>300.0</MinSpawnDistance>
+			<MinSpawnDistance>350.0</MinSpawnDistance>
 		</SpawnParameters>
 		<SpawnParameters>
 			<Name>Marauder</Name>
@@ -44,8 +44,9 @@
 			</_Editor>
 			<SquadSpawnPeriod>150</SquadSpawnPeriod>
 			<NPCSpawnPeriod>150</NPCSpawnPeriod>
-			<MinSpawnDistance>300.0</MinSpawnDistance>
-		</SpawnParameters>	
+			<MinSpawnDistance>350.0</MinSpawnDistance>
+		</SpawnParameters>
+<!--END Added-->		
 	</Table>
 	<TableTemplates>
 	</TableTemplates>

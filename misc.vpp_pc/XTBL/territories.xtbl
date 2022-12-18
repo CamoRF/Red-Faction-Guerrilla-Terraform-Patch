@@ -994,7 +994,6 @@
 			</StreamingParams>
 			<territory_index>1</territory_index>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_cornered</Name>
 			<Districts>
@@ -1039,7 +1038,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_crashsite</Name>
 			<Districts>
@@ -1084,7 +1082,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_crescent</Name>
 			<Districts>
@@ -1129,7 +1126,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_crevice</Name>
 			<Districts>
@@ -1174,7 +1170,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_deadzone</Name>
 			<Districts>
@@ -1219,7 +1214,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_downfall</Name>
 			<Districts>
@@ -1264,7 +1258,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_excavation</Name>
 			<Districts>
@@ -1309,7 +1302,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_fallfactor</Name>
 			<Districts>
@@ -1354,7 +1346,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_framework</Name>
 			<Districts>
@@ -1399,7 +1390,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_garrison</Name>
 			<Districts>
@@ -1444,7 +1434,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_gauntlet</Name>
 			<Districts>
@@ -1489,7 +1478,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_overpass</Name>
 			<Districts>
@@ -1534,7 +1522,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_pinnacle</Name>
 			<Districts>
@@ -1623,7 +1610,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_radial</Name>
 			<Districts>
@@ -1668,7 +1654,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_rift</Name>
 			<Districts>
@@ -1713,7 +1698,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_sandpit</Name>
 			<Districts>
@@ -1758,7 +1742,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_settlement</Name>
 			<Districts>
@@ -1803,7 +1786,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_warlords</Name>
 			<Districts>
@@ -1848,7 +1830,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_wasteland</Name>
 			<Districts>
@@ -1893,7 +1874,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>mp_wreckage</Name>
 			<Districts>
@@ -1938,9 +1918,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
-			<Name>wc1</Name>
+			<Name>vwc1</Name>
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -1983,9 +1962,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
-			<Name>wc2</Name>
+			<Name>vwc2</Name>
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2028,9 +2006,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
-			<Name>wc3</Name>
+			<Name>vwc3</Name>
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2073,9 +2050,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
-			<Name>wc4</Name>
+			<Name>vwc4</Name>
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2118,9 +2094,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
-			<Name>wc5</Name>
+			<Name>vwc5</Name>
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2163,9 +2138,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
-			<Name>wc6</Name>
+			<Name>vwc6</Name>
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2208,9 +2182,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
-			<Name>wc7</Name>
+			<Name>vwc7</Name>
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2253,9 +2226,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
-			<Name>wc8</Name>
+			<Name>vwc8</Name>
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2298,7 +2270,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		
 		<Territory>
 			<Name>jeffk_territory</Name>
 			<Districts>
@@ -2364,7 +2335,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>Town</Name>
 			<Districts>
@@ -2404,7 +2374,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>test_ambient_spawn</Name>
 			<Districts>
@@ -2444,8 +2413,7 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
-		<Territory>
+		<!--<Territory>
 			<Name>test_luke_ambient</Name>
 			<Districts>
 				<District>
@@ -2483,8 +2451,7 @@
 				<HorizMask></HorizMask>
 			</StreamingParams>
 			<territory_index>0</territory_index>
-		</Territory>
-
+		</Territory>-->
 		<Territory>
 			<Name>Playable</Name>
 			<Districts>
@@ -2524,8 +2491,7 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
-		<Territory>
+		<!--<Territory>
 			<Name>test_ambient_vehicle</Name>
 			<Districts>
 				<District>
@@ -2564,7 +2530,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>test_raid</Name>
 			<Districts>
@@ -2604,7 +2569,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>test_house_arrest</Name>
 			<Districts>
@@ -2644,7 +2608,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>test_luke_ow</Name>
 			<Districts>
@@ -2684,7 +2647,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>test_house_arrest</Name>
 			<Districts>
@@ -2724,7 +2686,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>test_assassin</Name>
 			<Districts>
@@ -2764,7 +2725,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>test_dfried_ambient</Name>
 			<Districts>
@@ -2804,7 +2764,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>test_rob_tech_level</Name>
 			<Districts>
@@ -2846,7 +2805,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>test_activity_spawn</Name>
 			<Districts>
@@ -2886,7 +2844,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>test_safehouse</Name>
 			<Districts>
@@ -2952,7 +2909,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>test_mg_rs</Name>
 			<Districts>
@@ -2997,7 +2953,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>test_dummy</Name>
 			<Districts>
@@ -3036,8 +2991,7 @@
 				<HorizMask></HorizMask>
 			</StreamingParams>
 			<territory_index>0</territory_index>
-		</Territory>
-
+		</Territory>-->
 		<Territory>
 			<Name>nov</Name>
 			<Districts>
@@ -3173,7 +3127,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>dustnew</Name>
 			<Districts>
@@ -3226,7 +3179,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>old</Name>
 			<Districts>
@@ -3437,7 +3389,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>gamers</Name>
 			<Districts>
@@ -3514,7 +3465,6 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
 		<Territory>
 			<Name>E3</Name>
 			<Districts>
@@ -3657,8 +3607,7 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-
-		<Territory>
+		<!--<Territory>
 			<Name>test_mab</Name>
 			<Districts>
 				<District>
@@ -3701,8 +3650,7 @@
 				<HorizMask></HorizMask>
 			</StreamingParams>
 			<territory_index>0</territory_index>
-		</Territory>
-
+		</Territory>-->
 		<Territory>
 			<Name>tut2</Name>
 			<Districts>

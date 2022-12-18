@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START DLC WC Loading Screens Added-->
+		<!--START DLC WC Loading Screens Added-->
 		<LoadingScreen>
 			<Name>dlc03wc1</Name>
 			<BG_image>
@@ -15,7 +15,6 @@
 				<Category>MP levels:General</Category>
 			</_Editor>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>dlc03wc2</Name>
 			<BG_image>
@@ -30,7 +29,6 @@
 				<Category>Multiplayer:DLC_2</Category>
 			</_Editor>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>dlc03wc3</Name>
 			<BG_image>
@@ -45,7 +43,6 @@
 				<Category>MP levels:General</Category>
 			</_Editor>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>dlc03wc4</Name>
 			<BG_image>
@@ -60,7 +57,6 @@
 				<Category>MP levels:General</Category>
 			</_Editor>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>dlc03wc5</Name>
 			<BG_image>
@@ -75,7 +71,6 @@
 				<Category>MP levels:General</Category>
 			</_Editor>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>dlc03wc6</Name>
 			<BG_image>
@@ -90,7 +85,6 @@
 				<Category>MP levels:General</Category>
 			</_Editor>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>dlc03wc7</Name>
 			<BG_image>
@@ -105,7 +99,6 @@
 				<Category>MP levels:General</Category>
 			</_Editor>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>dlc03wc8</Name>
 			<BG_image>
@@ -120,7 +113,6 @@
 				<Category>MP levels:General</Category>
 			</_Editor>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>dlc03wc9</Name>
 			<BG_image>
@@ -135,9 +127,7 @@
 				<Category>MP levels:General</Category>
 			</_Editor>
 		</LoadingScreen>
-
-<!--END DLC WC Loading Screens Added-->		
-		
+		<!--END DLC WC Loading Screens Added-->
 		<LoadingScreen>
 			<Name>News_EarthDemand</Name>
 			<BG_image>
@@ -175,7 +165,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>News_Terraforming</Name>
 			<BG_image>
@@ -213,7 +202,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>News_HydraRedPlanet</Name>
 			<BG_image>
@@ -251,7 +239,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>News_HumanRights</Name>
 			<BG_image>
@@ -289,7 +276,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>News_MarauderRaid</Name>
 			<BG_image>
@@ -327,7 +313,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>News_HydraVaporize</Name>
 			<BG_image>
@@ -365,7 +350,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>News_MarsDevelopment</Name>
 			<BG_image>
@@ -403,7 +387,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>News_HydraLaunch</Name>
 			<BG_image>
@@ -441,7 +424,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>News_MarauderAttacks</Name>
 			<BG_image>
@@ -479,7 +461,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>News_ARKRevenues</Name>
 			<BG_image>
@@ -517,7 +498,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>News_RothVictory</Name>
 			<BG_image>
@@ -555,7 +535,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Poster_Kepler</Name>
 			<BG_image>
@@ -575,7 +554,6 @@
 			</_Editor>
 			<Image_rot>-12</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Poster_Samanya</Name>
 			<BG_image>
@@ -595,7 +573,6 @@
 			</_Editor>
 			<Image_rot>-10</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Poster_Jenkins</Name>
 			<BG_image>
@@ -615,7 +592,6 @@
 			</_Editor>
 			<Image_rot>-8</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Poster_Dan</Name>
 			<BG_image>
@@ -635,7 +611,6 @@
 			</_Editor>
 			<Image_rot>8</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Poster_Hugo</Name>
 			<BG_image>
@@ -655,7 +630,6 @@
 			</_Editor>
 			<Image_rot>10</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Poster_Mason</Name>
 			<BG_image>
@@ -675,7 +649,6 @@
 			</_Editor>
 			<Image_rot>-6</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Poster_Carmen</Name>
 			<BG_image>
@@ -695,7 +668,6 @@
 			</_Editor>
 			<Image_rot>12</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>EndGame_0</Name>
 			<BG_image>
@@ -711,7 +683,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>EndGame_1</Name>
 			<BG_image>
@@ -727,7 +698,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Eos_0</Name>
 			<BG_image>
@@ -743,7 +713,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Eos_1</Name>
 			<BG_image>
@@ -759,7 +728,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>FreeFire_0</Name>
 			<BG_image>
@@ -775,7 +743,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>FreeFire_1</Name>
 			<BG_image>
@@ -791,7 +758,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Oasis_0</Name>
 			<BG_image>
@@ -807,7 +773,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Oasis_1</Name>
 			<BG_image>
@@ -823,7 +788,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Badlands_0</Name>
 			<BG_image>
@@ -839,7 +803,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Badlands_1</Name>
 			<BG_image>
@@ -855,7 +818,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Dust_0</Name>
 			<BG_image>
@@ -871,7 +833,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Dust_1</Name>
 			<BG_image>
@@ -887,7 +848,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Tutorial_0</Name>
 			<BG_image>
@@ -903,7 +863,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Tutorial_1</Name>
 			<BG_image>
@@ -919,7 +878,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Parker_0</Name>
 			<BG_image>
@@ -935,7 +893,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Parker_1</Name>
 			<BG_image>
@@ -951,7 +908,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>default</Name>
 			<_Editor>
@@ -967,7 +923,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Crash Site</Name>
 			<BG_image>
@@ -983,7 +938,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Assembly</Name>
 			<BG_image>
@@ -999,7 +953,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Crossover</Name>
 			<BG_image>
@@ -1015,7 +968,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Cornered</Name>
 			<BG_image>
@@ -1031,7 +983,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Crescent</Name>
 			<BG_image>
@@ -1047,7 +998,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Crevice</Name>
 			<BG_image>
@@ -1063,7 +1013,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Framework</Name>
 			<BG_image>
@@ -1079,7 +1028,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Gauntlet</Name>
 			<BG_image>
@@ -1095,7 +1043,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Overpass</Name>
 			<BG_image>
@@ -1111,7 +1058,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Deadzone</Name>
 			<BG_image>
@@ -1127,7 +1073,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Downfall</Name>
 			<BG_image>
@@ -1143,7 +1088,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Excavation</Name>
 			<BG_image>
@@ -1159,7 +1103,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Fall Factor</Name>
 			<BG_image>
@@ -1175,7 +1118,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Garrison</Name>
 			<BG_image>
@@ -1191,7 +1133,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Pinnacle</Name>
 			<BG_image>
@@ -1207,7 +1148,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Quarantine</Name>
 			<BG_image>
@@ -1223,7 +1163,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Radial</Name>
 			<BG_image>
@@ -1239,7 +1178,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Rift</Name>
 			<BG_image>
@@ -1255,7 +1193,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Sand Pit</Name>
 			<BG_image>
@@ -1271,7 +1208,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Settlement</Name>
 			<BG_image>
@@ -1287,7 +1223,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Warlords</Name>
 			<BG_image>
@@ -1303,7 +1238,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Wasteland</Name>
 			<BG_image>
@@ -1319,7 +1253,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Wreckage</Name>
 			<BG_image>
@@ -1335,7 +1268,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Complex</Name>
 			<BG_image>
@@ -1351,7 +1283,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Watchtower</Name>
 			<BG_image>
@@ -1367,7 +1298,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Scrap Heap</Name>
 			<BG_image>
@@ -1383,7 +1313,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Vista</Name>
 			<BG_image>
@@ -1399,7 +1328,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Fortress</Name>
 			<BG_image>
@@ -1415,7 +1343,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Factory</Name>
 			<BG_image>
@@ -1431,7 +1358,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Gulch</Name>
 			<BG_image>
@@ -1447,7 +1373,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Cascade</Name>
 			<BG_image>
@@ -1463,7 +1388,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Transmission</Name>
 			<BG_image>
@@ -1479,7 +1403,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Pipeline</Name>
 			<BG_image>
@@ -1495,7 +1418,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Badlands_2</Name>
 			<BG_image>
@@ -1511,7 +1433,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Badlands_3</Name>
 			<BG_image>
@@ -1527,7 +1448,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Tutorial_2</Name>
 			<BG_image>
@@ -1543,7 +1463,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Tutorial_3</Name>
 			<BG_image>
@@ -1559,7 +1478,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Tutorial_4</Name>
 			<BG_image>
@@ -1575,7 +1493,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Parker_2</Name>
 			<BG_image>
@@ -1591,7 +1508,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Parker_3</Name>
 			<BG_image>
@@ -1607,7 +1523,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Dust_2</Name>
 			<BG_image>
@@ -1623,7 +1538,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Dust_3</Name>
 			<BG_image>
@@ -1639,7 +1553,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Oasis_2</Name>
 			<BG_image>
@@ -1655,7 +1568,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Oasis_3</Name>
 			<BG_image>
@@ -1671,7 +1583,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Oasis_4</Name>
 			<BG_image>
@@ -1687,7 +1598,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>FreeFire_2</Name>
 			<BG_image>
@@ -1703,7 +1613,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>FreeFire_3</Name>
 			<BG_image>
@@ -1719,7 +1628,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>FreeFire_4</Name>
 			<BG_image>
@@ -1735,7 +1643,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Eos_2</Name>
 			<BG_image>
@@ -1751,7 +1658,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Eos_3</Name>
 			<BG_image>
@@ -1767,7 +1673,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Eos_4</Name>
 			<BG_image>
@@ -1783,7 +1688,6 @@
 			<Overlay_prob>2</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>EndGame_2</Name>
 			<BG_image>
@@ -1799,7 +1703,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>EndGame_3</Name>
 			<BG_image>
@@ -1815,7 +1718,6 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		
 		<LoadingScreen>
 			<Name>Poster_Permit</Name>
 			<BG_image>

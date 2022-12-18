@@ -1,16 +1,18 @@
 <root>
 	<Table>
-<!--START DLC CHARACTERS ADDED-->	
+		<!--START DLC CHARACTERS ADDED-->
 		<Character>
 			<Name>dlc_sam</Name>
 			<Model>
 				<Filename>dlc_sam.cmeshx</Filename>
 			</Model>
-			<Anim_Set>player_female.xtbl</Anim_Set> <!--From Player.xtbl-->
+			<Anim_Set>player_female.xtbl</Anim_Set>
+			<!--From Player.xtbl-->
 			<Rig>
 				<Filename>dlc_sam.rigx</Filename>
 			</Rig>
-			<Team>Guerilla</Team> <!--From Marauder-->
+			<Team>Guerilla</Team>
+			<!--From Marauder-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -133,7 +135,6 @@
 				</Head>
 			</Heads>
 		</Character>
-		
 		<Character>
 			<Name>dlc_hess</Name>
 			<Model>
@@ -306,14 +307,14 @@
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<AimErrorPct>150</AimErrorPct>
 			<origin_district>Special</origin_district>
-		</Character>		
-		
+		</Character>
 		<Character>
 			<Name>dlc_vasha</Name>
 			<Model>
 				<Filename>dlc_vasha.cmeshx</Filename>
 			</Model>
-			<Anim_Set>player_female.xtbl</Anim_Set> <!--From Civilian_Female.xtbl-->
+			<Anim_Set>player_female.xtbl</Anim_Set>
+			<!--From Civilian_Female.xtbl-->
 			<Rig>
 				<Filename>dlc_vasha.rigx</Filename>
 			</Rig>
@@ -410,7 +411,7 @@
 			<AimErrorPct>100</AimErrorPct>
 			<origin_district>Special</origin_district>
 		</Character>
-<!--START DLC Characters ADDED SP-->
+		<!--START DLC Characters ADDED SP-->
 		<Character>
 			<Name>dlc_harvey</Name>
 			<Model>
@@ -584,7 +585,6 @@
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Common</origin_district>
 		</Character>
-		
 		<Character>
 			<Name>dlc_john</Name>
 			<origin_district>Common</origin_district>
@@ -630,7 +630,6 @@
 				<Category>Entries:Civilians:Prisoner</Category>
 			</_Editor>
 		</Character>
-		
 		<Character>
 			<Name>dlc_celia</Name>
 			<origin_district>Common</origin_district>
@@ -691,7 +690,6 @@
 				<Category>Entries:Civilians:Prisoner</Category>
 			</_Editor>
 		</Character>
-		
 		<Character>
 			<Name>dlc_kat</Name>
 			<origin_district>Common</origin_district>
@@ -752,7 +750,6 @@
 				<Category>Entries:Civilians:Prisoner</Category>
 			</_Editor>
 		</Character>
-		
 		<Character>
 			<Name>dlc_pierce</Name>
 			<origin_district>Common</origin_district>
@@ -797,8 +794,8 @@
 			<_Editor>
 				<Category>Entries:Civilians:Prisoner</Category>
 			</_Editor>
-		</Character>	
-<!--END DLC CHARACTERS ADDED-->
+		</Character>
+		<!--END DLC CHARACTERS ADDED-->
 		<Character>
 			<Name>MP_Selma</Name>
 			<Model>
@@ -7175,29 +7172,8 @@
 						</Item>
 					</Items>
 				</Prop>
-<!--Currently crashes the game for some reason-->				
-				<!--<Prop>
-					<Prop_Name>Armor L1</Prop_Name>
-					<Chance>0</Chance>
-					<Type>accessory_misc</Type>
-					<Items>
-						<Item>
-							<Name>Mason_Armor_L1</Name>
-							<Chance>0</Chance>
-						</Item>
-					</Items>
-				</Prop>
-				<Prop>
-					<Prop_Name>Armor L2</Prop_Name>
-					<Chance>100</Chance>
-					<Type>accessory_misc</Type>
-					<Items>
-						<Item>
-							<Name>Mason_Armor_L2</Name>
-							<Chance>100</Chance>
-						</Item>
-					</Items>
-				</Prop>-->
+				<!--Currently crashes the game for some reason-->
+				<!--<Prop><Prop_Name>Armor L1</Prop_Name><Chance>0</Chance><Type>accessory_misc</Type><Items><Item><Name>Mason_Armor_L1</Name><Chance>0</Chance></Item></Items></Prop><Prop><Prop_Name>Armor L2</Prop_Name><Chance>100</Chance><Type>accessory_misc</Type><Items><Item><Name>Mason_Armor_L2</Name><Chance>100</Chance></Item></Items></Prop>-->
 			</Props>
 			<Heads>
 				<Head>

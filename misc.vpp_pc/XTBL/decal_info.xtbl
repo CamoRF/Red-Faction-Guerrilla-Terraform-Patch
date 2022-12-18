@@ -58,13 +58,13 @@
 			<Length>.16</Length>
 			<Double_sided>True</Double_sided>
 		</Decal_Info>
-		<Decal_Info>
+		<!--<Decal_Info>
 			<Name>Test_decal</Name>
 			<Material>
 				<Filename>decal_test1.matx</Filename>
 			</Material>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>21474836</Fade_Time> <!--From 0-->
+			<Fade_Time>21474836</Fade_Time>
 			<Width>.12</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -85,7 +85,7 @@
 			</Material>
 			<Preload>True</Preload>
 			<Life_Time>-1</Life_Time>
-			<Fade_Time>0</Fade_Time> <!--From 0-->
+			<Fade_Time>0</Fade_Time>
 			<Width>0.3</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -97,7 +97,7 @@
 			</_Editor>
 			<Length>0.3</Length>
 			<Double_sided>False</Double_sided>
-		</Decal_Info>
+		</Decal_Info>-->
 		<Decal_Info>
 			<Name>civ_walker_footstep</Name>
 			<Material>
