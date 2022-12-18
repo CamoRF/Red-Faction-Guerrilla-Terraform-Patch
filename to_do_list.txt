@@ -2,130 +2,51 @@
 v1.07
 ------
 
-	[Misc]
-		* Restore original weapon names from v1.063 in weapons.xtbl
-		* Re-do the vanilla versions of DLC wc maps
-		* Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
-		* Generate xdeltas for interface.vpp_pc, items.vpp_pc, humans.vpp_pc, maps and misc.vpp_pc
-		* Build entire mod again based on vanilla, have Goober remove tags so SF doesn't use older base version and updates
-		* Test if Marauders spawn with shotguns 
-		* Add new Marauder models to squads
-		* Add new map clones for ATM: Wasteland, Settlement, Sandpit [KOTH]
-		* Rename and repack all the DLC weapon .str2s - done
-		* Test adding new textures by adding a new str2 and updating the asm so replaced characters can be restored in MP and new loading screens could be added (peg tool?)
-		* Add ladders to buildings on Stratosphere (same ones as Factory)
-		* Make sure show all types is on in the inspector and remove cover nodes, nav points etc from maps (ghost children that i saw before, GFWL has a lot)!
-		* Make sure flag 4 is on rfg_movers, (seems to be consistently used most of the time)
-		* Make sure children have same flags as parents
-		* Make sure to remove persistent flag from regular objects 
-		* Make sure to remove display_name prop and rename regular objects on non siege maps
-		* Make sure to remove flag 2 from regular objects
-		* Update init loading screen with new texture
-		* Fix area where you can fall down and get stuck on Abandoned
-		* Add Ruins interior and new Quarantine as new map files
-		* Change default WC settings to have barrels on
-		* Add every effect from effects.vpp_pc to GFWL/Nordic Bonus
-		* Restore edf tan, rachel, ian, bev, blair, chuck, jake, kayla, numah, pierce, selma and torvald textures and characters when peg tool is out (re-do the character.xtbl file)
-
-	[Ruins Interior Map]
+[Maps] 
+	* Disable all other game mode flags for children of all objectives
+	* Doublecheck all weapon and object flags
+	* Make sure all subverter spawns use the EDF pistol bounding box
+	* Make sure flag 4 is on rfg_movers, (seems to be consistently used most of the time)
+	* Make sure children have same flags as parents
+	* Make sure to remove persistent flag from regular objects 
+	* Make sure to remove display_name prop and rename regular objects on non siege maps
+	* Make sure show all types is on in the inspector and remove cover nodes, nav points etc from maps (ghost children that i saw before, GFWL has a lot)!
+	* Doublecheck all maps for duplicate weapon spawns 
+	* Fix floating or clipping weapons and spawns on all maps
+	* Fix any messed up children on vanilla mp maps
+	* Add backpack rack spawns to all WC maps
+	* Add flag objectives to siege and WC maps 
+	* Add damage control targets to siege and WC maps
+	* Rename all backpack rack names to reflect the backpack
+	* Transfer art sign to Abandoned
+	* Disable Super Gauss and Misslepod spawns in Damage Control, Demolition and Siege
+	* [Fix: Out of Bounds Exploits]
+		* Puncture - test 
+		* Doubletime rock spots
+		* Equilbrium/landbridge
+		* Remnant rock spots
+		* Haven
+		* Downfall (inside and top of rocks exploit)
+		* Large rock on Imperial
+		* Crescent
+	* Deadzone: Add misslepod to the top of the large rock	
+	* [Ruins Interior Map]
 		* Add more player spawns
 		* Add backpack racks 
-		* Add clutter from Deadzone, GFWL, Invasion
 		* Make the rocket launcher not respawn on Ruins
-		* Add team exclusive backpacks on Ruins
+		* Add team exclusive backpacks?
 		* Change weather to Deadzone, Invasion, SP DLC, GFWL?
-		* Transfer mine beacon, artillery sign, other fire and smoke assets
 		* Add a gutter spawn
-
-	[Fixes]
-		* Fix any messed up children on vanilla mp maps
-		* Fix floating or clipping weapons and spawns on all maps
-		* Disable all other game mode flags for children of all objectives
-		* Doublecheck all weapon and object flags
-		* Double check all maps have kaboom or missing packs on the level at 0,0,0 so they work in the random rotation option	
-		* Make sure all WC maps have at least 16 or more spawns
-		* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords
-		* Add team spawns to all WC maps
-		* Fix spawns on Repurcussion where you can get stuck in pipes
-		* Make sure all subverter spawns use the EDF pistol bounding box
-		* Fix Badlands transporter mission by adding a custom spawn group. Normally only has the bike type vehicle - test
-		* SP DLC crashing on load, maybe related to territories.xtbl and the stuff I commented out? (revert territories file to v1.063 version since i deleted the commented stuff for some stupid reason, maybe its from porting the reticules and icons?)
 		
-	[Additions]	
-		* Add backpack rack spawns to all WC maps
-		* Add spawns to Scrapheap and Vista
-		* Add flag objectives to siege and WC maps 
-		* Add damage control targets to siege and WC maps
-		* Cascade: Add a repair tool under the bridge
-		* Gauntlet, Garrison & Downfall: Add more Subverter spawns
-		* GFWL/Nordic Bonus: Add more spawn nodes and spectator cameras 
-		* Repurcussion: Add more spawn nodes and spectator cameras
-		* Deadzone: Add misslepod to the top of the large rock
-		* Imperial: Add more weapons to make your way up the large buildings; nano forge and reconstructor 
-		* Transmission: Transfer mine beacon and artillery sign
-		* Expansion: Transfer mine beacon, artillery sign and cliff warning sign
-		* Abandoned: Transfer mine beacon, artillery sign and cliff warning sign
-		* Gulch: Add mines around the small area in the middle of the map
-		* Finish new siege maps
-		* Add siege to Watchtower and Pipeline
-		* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives
-        * Haven: refine super gauss location
-
-[New Map Objectives Locations]
-	
-	* [Cornered] 
-		CTF Stands
-		* 255.476, 5.064, -417.209
-		* 307.566, 12.689, -164.786
-
-	* [Overpass]
-		CTF Stands
-		* 276.602, 11.984, -281.828
-		* 196.915, -2.947, -116.402
-
-	* [Gauntlet]
-		CTF Stands 
-		* 255.914, -13.984, -372.032
-		* 252.722, -21.984, -73.927
-
-	* [Crevice]
-		CTF Stands 
-		* 264.655, 9.995, -234.045
-		* 115.461, 5.986, -276.093
-
-	* [Crescent]
-		CTF Stands
-		* 180.129, -10, 184.915
-		* 247.371, 2.669, -360.016
-	
-[Fix: Out of Bounds Exploits]
-	* Puncture - test 
-	* Doubletime rock spots
-	* Equilbrium/landbridge
-	* Remnant rock spots
-	* Haven
-	* Downfall (inside and top of rocks exploit)
-	* Large rock on Imperial
-
-[Misc]	
-	* Update WC map thumbnails after the maps are semi finalized
-	* Double check DLC weapons in items_3d.xtbl
-	* SP DLC crashing when loading map (related to porting characters?, try renaming character str2s?)
-	* Half cloud speed on all maps in weather files (gtodx/dtodx)
-	* Double check items_3d.xtbl and comments by comparing it to vanilla file
-	* Merge base SP and DLC precache files into mp_common.vpp_pc?
-
-[Weapons]
-	* Spiker: missing textures when on ground, only host can see the projectile (peg file related most likely)
-	* DLC remote charges: missing textures, missing mesh when thrown (peg file related most likely)
-	* Pickaxe and Impaler: missing textures in all circumstances (peg file again)
-	* Disable Super Gauss and Misslepod spawns in Damage Control and Demolition
 
 -------------------
 LOW PRIORITY 
 -------------------
 
 [Weapons]
+	* Spiker: missing textures when on ground, only host can see the projectile (peg file related most likely)
+	* DLC remote charges: missing textures, missing mesh when thrown (peg file related most likely)
+	* Pickaxe and Impaler: missing textures in all circumstances (peg file again)
 	* Add CTF flags, Gutter, Impaler and DLC Pickaxe to the sledgehammer upgrade list in multiplayer and when the dlc melee weapons are added
 	* Weapon ideas: 
 		- Singularity launcher
@@ -147,7 +68,41 @@ LOW PRIORITY
 [Misc]
 	* Move other non essential gameplay changes to add-on when found
 	* Try to make it so you can walk up steeper inclines
+	* Merge base SP and DLC precache files into mp_common.vpp_pc?
+	* Double check items_3d.xtbl and add comments of vanilla values by comparing it to vanilla file
+	* Fix Badlands transporter mission by adding a custom spawn group. Normally only has the bike type vehicle
+	* Restore edf tan, rachel, ian, bev, blair, chuck, jake, kayla, numah, pierce, selma and torvald textures and characters when peg tool is out (re-do the character.xtbl file)
+	* Re-do the vanilla versions of DLC wc maps
+	* Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
+	* Generate xdeltas for interface.vpp_pc, items.vpp_pc, humans.vpp_pc, maps and misc.vpp_pc
+	* Build entire mod again based on vanilla, have Goober remove tags so SF doesn't use older base version and updates
+	* Change default WC settings to have barrels on
+	* Make sure to remove flag 2 from regular objects
+	* Test if Marauders spawn with shotguns 
+	* Add new Marauder models to squads
+	* Add new map clones for ATM: Wasteland, Settlement, Sandpit [KOTH]
+	* Test adding new textures by adding a new str2 and updating the asm so replaced characters can be restored in MP and new loading screens could be added (peg tool?)
+	* Add ladders to buildings on Stratosphere (same ones as Factory)
 
 [Vehicles]
 	* Walker camera jerk when explosion nearby or swing down onto a car
 	* Increase mouse sensitivity in walkers
+
+[Maps]
+	* Double check all maps have kaboom or backpacks not on the map at 0,0,0 so they work in the random rotation option	
+	* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives	
+	* Add siege to Watchtower and Pipeline
+	* Finish new siege maps
+	* Imperial: Add more weapons to make your way up the large buildings; nano forge and reconstructor 
+	* Haven: refine super gauss location
+	* Cascade: Add a repair tool under the bridge
+	* Gauntlet, Garrison & Downfall: Add more Subverter spawns
+	* Add more spawns to all Wrecking Crew maps, 16 isn't enough
+	* Update WC map thumbnails
+	* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords
+	* Add team spawns to all WC maps
+	* Fix spawns on maps where you can get stuck in pipes or buildings
+	* Add every effect from effects.vpp_pc to GFWL/Nordic Bonus
+
+[Weather and Lighting]
+	* Half cloud speed on all maps in weather files (gtodx/dtodx)	
