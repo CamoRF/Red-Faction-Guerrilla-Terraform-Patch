@@ -3,10 +3,9 @@ v1.07
 ------
 
 [Maps] 
+	* Restore vanilla WC maps with only bug fixes
 	* See screenshots for map changes and additions
 	* Remove super gauss on haven
-	* Remove super gauss on Rift
-	* Remove misslepod on rift
 	* Add children to objectives on WC and siege maps 
 	* Disable glare on GFWL, vfx or something
 	* Disable kaboom pack on siege maps like gauntlet and crescent
@@ -47,7 +46,6 @@ v1.07
 		* Change weather to Deadzone, Invasion, SP DLC, GFWL?
 		* Add a gutter spawn
 		
-
 -------------------
 LOW PRIORITY 
 -------------------
