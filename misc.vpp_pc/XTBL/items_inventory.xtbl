@@ -1,9 +1,9 @@
 <root>
 	<Table>	
-<!--START Experimental Misc-->
+<!--START Experimental Misc-->		
 		<Inventory_Item>
-			<Name>fists</Name>
-			<Display_Name>FISTS (ALPHA)</Display_Name>
+			<Name>fist</Name>
+			<Display_Name>FISTS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
@@ -13,8 +13,8 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>grenade_mp</Name>
-			<Display_Name>GRENADE (ALPHA)</Display_Name>
+			<Name>gre_mp</Name>
+			<Display_Name>GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
@@ -24,8 +24,8 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>stun_grenade</Name>
-			<Display_Name>STUN GRENADE (ALPHA)</Display_Name>
+			<Name>stun</Name>
+			<Display_Name>STUN GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
@@ -35,8 +35,8 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>nano_grenade</Name>
-			<Display_Name>NANO GRENADE (ALPHA)</Display_Name>
+			<Name>nano</Name>
+			<Display_Name>NANO GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
@@ -46,53 +46,9 @@
 			</_Editor>
 		</Inventory_Item>
 <!--END-->
-<!--START DLC Weapons Added-->	
+<!--START DLC Weapons Added-->
 		<Inventory_Item>
-			<Name>spiker</Name>
-			<Display_Name>WEAP_SPIKER</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>pickaxe</Name>
-			<Display_Name>WEAP_PICKAXE</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>mar_charge_placer</Name>
-			<Display_Name>DLC CHARGES</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>place explosives and blow them up remotly</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>royal_sword</Name>
-			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Very regal.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>edf_super_gauss</Name>
+			<Name>supergauss</Name>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -103,7 +59,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>edf_subverter</Name>
+			<Name>subverter</Name>
 			<Display_Name>WEAP_SUBVERTER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -114,7 +70,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>missilepod</Name>
+			<Name>zmissilepod</Name>
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
