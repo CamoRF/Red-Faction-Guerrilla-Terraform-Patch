@@ -21,40 +21,40 @@
 				<fuel_regen_per_second>0.0</fuel_regen_per_second>
 				<fuel_use_per_second>0.0</fuel_use_per_second>
 				<active_abilities>
-					<!--<movement_speed_factor>1</movement_speed_factor>-->
-					<!--<damage_taken_factor>1</damage_taken_factor>-->
-					<!--<direct_damage_dealt_factor>1</direct_damage_dealt_factor>-->
-					<!--<area_damage_dealt_factor>1</area_damage_dealt_factor>-->
+					<movement_speed_factor>1</movement_speed_factor>
+					<damage_taken_factor>1</damage_taken_factor>
+					<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
+					<area_damage_dealt_factor>1</area_damage_dealt_factor>
 					<kaboom>
 						<kaboom_explosion_name>mp_kaboom</kaboom_explosion_name>
 						<kaboom_death_chance>1</kaboom_death_chance>
 						<kaboom_delay_ms>500</kaboom_delay_ms>
 						<kaboom_damages_user>True</kaboom_damages_user>
-						<!--<kaboom_camera_shake>
+						<kaboom_camera_shake>
 							<kaboom_camera_shake></kaboom_camera_shake>
 							<kaboom_camera_shake_user_intensity>1.0</kaboom_camera_shake_user_intensity>
 							<kaboom_camera_shake_falloff>50</kaboom_camera_shake_falloff>
-						</kaboom_camera_shake>-->
-						<!--<kaboom_camera_shake_user_intensity>1.0</kaboom_camera_shake_user_intensity>-->
+						</kaboom_camera_shake>
+						<kaboom_camera_shake_user_intensity>1.0</kaboom_camera_shake_user_intensity>
 					</kaboom>
-					<!--<refire_delay_factor>1</refire_delay_factor>-->
-					<!--<unlimited_ammo>False</unlimited_ammo>-->
-					<!--<reload_speed_factor>1</reload_speed_factor>-->
-					<!--<fov_scale>1</fov_scale>-->
-					<!--<fall_speed_safety_factor>1.0</fall_speed_safety_factor>-->
+					<refire_delay_factor>1</refire_delay_factor>
+					<unlimited_ammo>False</unlimited_ammo>-->
+					<reload_speed_factor>1</reload_speed_factor>-->
+					<fov_scale>1</fov_scale>-->
+					<fall_speed_safety_factor>1.0</fall_speed_safety_factor>-->
 				</active_abilities>
-				<!--<no_cover>False</no_cover>-->
-				<!--<no_fine_aim>False</no_fine_aim>-->
+				<no_cover>False</no_cover>-->
+				<no_fine_aim>False</no_fine_aim>-->
 				<activation_effects>
 					<ramp_up_effects>
-						<!--<camera_shake>backpack_kaboom_ramp</camera_shake>-->
+						<camera_shake>backpack_kaboom_ramp</camera_shake>-->
 						<player_effects>mp_kaboom_charge_sound</player_effects>
 					</ramp_up_effects>
-					<!--<failed_activation_foley>MP_BACKPACK_KABOOM_NO_FUEL</failed_activation_foley>-->
-					<!--<sfx_alr>MP_BACKPACK_KABOOM_PC</sfx_alr>
+					<failed_activation_foley>MP_BACKPACK_KABOOM_NO_FUEL</failed_activation_foley>-->
+					<sfx_alr>MP_BACKPACK_KABOOM_PC</sfx_alr>
 					<sfx_npc_alr>MP_BACKPACK_KABOOM_NPC</sfx_npc_alr>-->
 					<backpack_effects></backpack_effects>
-					<!--<loop_waits_for_attack>True</loop_waits_for_attack>-->
+					<loop_waits_for_attack>True</loop_waits_for_attack>
 				</activation_effects>
 				<uses_fuel>
 					<fuel_use_per_second>0.0</fuel_use_per_second>
@@ -70,18 +70,18 @@
 			</kaboom>
 			<health_regen_per_second>0.0</health_regen_per_second>
 			<passive_abilities>
-				<!--<movement_speed_factor>1.0</movement_speed_factor>-->
-				<!--<damage_taken_factor>1.0</damage_taken_factor>-->
-				<!--<direct_damage_dealt_factor>1</direct_damage_dealt_factor>-->
-				<!--<area_damage_dealt_factor>1.0</area_damage_dealt_factor>-->
-				<!--<refire_delay_factor>1</refire_delay_factor>-->
-				<!--<unlimited_ammo>False</unlimited_ammo>-->
-				<!--<reload_speed_factor>1</reload_speed_factor>-->
-				<!--<fov_scale>1</fov_scale>-->
-				<!--<fall_speed_safety_factor>1.0</fall_speed_safety_factor>-->
+				<movement_speed_factor>1.0</movement_speed_factor>-->
+				<damage_taken_factor>1.0</damage_taken_factor>-->
+				<direct_damage_dealt_factor>1</direct_damage_dealt_factor>-->
+				<area_damage_dealt_factor>1.0</area_damage_dealt_factor>-->
+				<refire_delay_factor>1</refire_delay_factor>-->
+				<unlimited_ammo>False</unlimited_ammo>-->
+				<reload_speed_factor>1</reload_speed_factor>-->
+				<fov_scale>1</fov_scale>-->
+				<fall_speed_safety_factor>1.0</fall_speed_safety_factor>-->
 			</passive_abilities>
 			<activation_effects>
-				<!--<ramp_up_effects>
+				<ramp_up_effects>
 					<camera_shake>backpack_kaboom_ramp</camera_shake>
 				</ramp_up_effects>-->
 			</activation_effects>
@@ -93,7 +93,7 @@
 						<attack_effect>mp_kaboom_equip_sound</attack_effect>
 					</effect>
 				</player_effects>
-				<!--<loop_waits_for_attack>True</loop_waits_for_attack>-->
+				<loop_waits_for_attack>True</loop_waits_for_attack>
 			</pickup_effects>
 			<Unique_ID>10</Unique_ID>
 		</mp_backpacks>

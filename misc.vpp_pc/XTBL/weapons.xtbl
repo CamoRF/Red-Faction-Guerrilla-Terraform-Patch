@@ -2,7 +2,7 @@
 	<Table>
 <!--START Experimental Misc-->
 		<Weapon>
-			<Name>fists</Name>
+			<Name>fist</Name>
 			<Weapon_Class>melee</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -121,7 +121,7 @@
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>25</Max_Engagement_Distance>
 			<Inventory_Item>gre_mp</Inventory_Item>
-			<Item_3d>grenade</Item_3d>
+			<Item_3d>gre_mp</Item_3d>
 			<MeleeAttacks>
 				<StandingPrimary>remote_charge_melee</StandingPrimary>
 				<StandingSecondary>remote_charge_punch</StandingSecondary>
@@ -355,13 +355,13 @@
 <!--END-->
 <!--START DLC Weapons Added-->
 		<Weapon>
-			<Name>supergauss</Name>
+			<Name>dlc_super_gauss</Name>
 			<icon_name>ui_hud_weapon_icon_gauss</icon_name> <!--From ui_hud_weapon_icon_supergauss-->
 			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name> <!--From ui_hud_reti_supergauss-->
 			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule> <!--From ui_hud_reti_supergauss0-->
 			<Unique_ID>158</Unique_ID>
-			<Inventory_Item>supergauss</Inventory_Item>
-			<Item_3d>EDF_Super_Gauss</Item_3d>
+			<Inventory_Item>dlc_supergauss</Inventory_Item>
+			<Item_3d>dlc_super_gauss</Item_3d>
 			<Default_team>EDF</Default_team>
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
@@ -456,7 +456,7 @@
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
 		</Weapon>
 		<Weapon>
-			<Name>zmissilepod</Name>
+			<Name>dlc_missilepod</Name>
 			<icon_name>ui_badge_icon_murry</icon_name> <!--From ui_hud_weapon_icon_pod-->
 			<reticule_name>ui_hud_reti_thermobaric</reticule_name> <!--From ui_hud_reti_missilepod2-->
 			<fine_aim_reticule>ui_hud_reti_thermobaric2</fine_aim_reticule> <!--From ui_hud_reti_missilepod3-->
@@ -503,8 +503,8 @@
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>30</Max_Engagement_Distance>
-			<Inventory_Item>zmissilepod</Inventory_Item>
-			<Item_3d>missilepod</Item_3d>
+			<Inventory_Item>dlc_missilepod</Inventory_Item>
+			<Item_3d>dlc_missilepod</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Sounds>
 				<Fire_Sound>WEP_TUR_ROCKET_PC_ATTACK</Fire_Sound>
@@ -551,10 +551,10 @@
 			<Max_Rounds_Upgrade>63</Max_Rounds_Upgrade>
 		</Weapon>
 		<Weapon>
-			<Name>subverter</Name>
+			<Name>dlc_subverter</Name>
 			<Unique_ID>160</Unique_ID>
-			<Inventory_Item>subverter</Inventory_Item>
-			<Item_3d>edf_subverter</Item_3d>
+			<Inventory_Item>dlc_subverter</Inventory_Item>
+			<Item_3d>dlc_subverter</Item_3d>
 			<Default_team>EDF</Default_team>
 			<icon_name>ui_badge_icon_edf</icon_name> <!--From ui_hud_weapon_icon_sub-->
 			<reticule_name>ui_hud_reti_enforcer</reticule_name> <!--From ui_hud_reti_subverter-->
