@@ -1,7 +1,7 @@
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/current/Logo_Temp.png?raw=true "Logo")
 
-- Version: v1.07 ALPHA
-- Date: xx-xx-2022
+- Version: v1.064 ALPHA
+- Date: 30-12-2022
 - Build: xxxx
 - Work-in-progress project that adds content, fixes bugs, and enhances many features.
 
@@ -15,7 +15,7 @@
 - [v1.061 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6264)
 - [v1.062 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6267)
 - [v1.063 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6269)
-- [v1.07 ALPHA](placeholder)
+- [v1.064 ALPHA](placeholder)
 
 # Changelog
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Community-Patch/v1.061-Hotfix/changelog.txt)

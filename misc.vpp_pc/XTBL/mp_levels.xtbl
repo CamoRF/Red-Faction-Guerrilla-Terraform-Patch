@@ -167,7 +167,7 @@
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>10:30</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -886,7 +886,7 @@
 			<Load_image>Gauntlet</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
-		<mp_level_list>
+		<!--<mp_level_list>
 			<Name>Gulch</Name>
 			<Filename>wc7</Filename>
 			<_Editor>
@@ -899,7 +899,7 @@
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.2</distance_multiplier>
 			<level_image_name>mp_thumb_gulch</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>True</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
 			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC7</Display_name>
@@ -910,8 +910,8 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -920,7 +920,7 @@
 			<ideal_max_players>16</ideal_max_players>
 			<Load_image>Gulch</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>-->
 		<mp_level_list>
 			<Name>Haven</Name>
 			<Filename>mpdlc_islands</Filename>
@@ -1017,7 +1017,7 @@
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>12:00</alternate_time_of_day> <!--From 8:30-->
 			<glow_multiplier>6</glow_multiplier>
@@ -1051,8 +1051,8 @@
 				<Flag>bagman</Flag> <!--Added--> 
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier> <!--From 0.0-->
@@ -1382,7 +1382,7 @@
 			<Load_image>Rift</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
 		</mp_level_list>
-		<mp_level_list>
+		<!--<mp_level_list>
 			<Name>Ruins</Name>
 			<Filename>wcdlc1</Filename>
 			<_Editor>
@@ -1392,7 +1392,7 @@
 				<Element>m16</Element>
 			</player_weapons>
 			<Description>0</Description>
-			<time_of_day>17:30</time_of_day> <!--From 13:00-->
+			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc1</level_image_name>
 			<dust_enabled>False</dust_enabled>
@@ -1403,20 +1403,20 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
 			</mode_flags>
-			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 8:30-->
+			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
 			<ideal_min_players>4</ideal_min_players>
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>dlc03wc1</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>-->
 		<mp_level_list>
 			<Name>Sand Pit</Name>
 			<Filename>mp_sandpit</Filename>
@@ -1452,7 +1452,7 @@
 			<Load_image>Sand Pit</Load_image>
 			<demolition_damage_multiplier>0.45</demolition_damage_multiplier>
 		</mp_level_list>
-		<mp_level_list>
+		<!--<mp_level_list>
 			<Name>Scrap Heap</Name>
 			<Filename>wc3</Filename>
 			<_Editor>
@@ -1462,7 +1462,7 @@
 				<Element>m16</Element>
 			</player_weapons>
 			<Description>MENU_LEVEL_CORNERED_DESC</Description>
-			<time_of_day>21:00</time_of_day> <!--From 0:00-->
+			<time_of_day>21:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_scrapheap</level_image_name>
 			<dust_enabled>False</dust_enabled>
@@ -1473,20 +1473,20 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
 			</mode_flags>
-			<alternate_time_of_day>7:30</alternate_time_of_day> <!--From 10:30-->
+			<alternate_time_of_day>7:30</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
 			<ideal_min_players>4</ideal_min_players>
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Scrap Heap</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>-->
 		<mp_level_list>
 			<Name>Settlement</Name>
 			<Filename>mp_settlement</Filename>
@@ -1722,8 +1722,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
