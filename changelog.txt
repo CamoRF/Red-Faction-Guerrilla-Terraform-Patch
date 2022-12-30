@@ -408,13 +408,14 @@ v1.064 ALPHA CHANGES
 [Misc]
 * Re-implemented initial logos due to issue with it spamming Red Faction Guerrilla Re-Mars-tered.log, however they can now all be skipped
 * Added Kaboom pack to random backpack rotation
+* Added Jetpack and Thrust to random backpack rotation on Puncture
+* Added stealth/vision to some maps that had one but not the other
 * Initial loading screen updated
 
 [New Weapon Added]
 * Added unarmed/fists weapon
 
 [Fixes]
-
 * Fixed stealth backpack not working 
 * Fixed Nanorifle firing in random directions
 * Fixed Complex, Vista and Watchtower crashing
@@ -424,7 +425,8 @@ v1.064 ALPHA CHANGES
 * Fixed various crashes related to vanilla bugs with maps
 * Fixed various out of bound exploits
 * Fixed various issues with weapon bounding boxes
-* Fixed some floating spawns
+* Fixed some floating spawns 
+* Fixed some floating and/or clipping objects
 * Fixed various missing killboxes under maps, the player will no longer fall for eternity if a clipping bug ever occurs
 * Possible fix for vanilla bug with spawns flipping in CTF
 * Possibly fixed sound getting stuck when Kaboom pack explodes
@@ -448,20 +450,28 @@ v1.064 ALPHA CHANGES
 * Reduced time it takes for a player to re-stealth to 250ms from 500ms
 
 [Maps]
+* Disabled misslepod and super gauss spawn in Siege, Damage Control and Demolition on all maps
+* Added more spawns to siege maps so they are more playable in other game modes
 * Preparation for adding objectives and backpacks to all Wrecking Crew & Siege maps
 * Preparation for easily transferring effects across maps
+* Factory: Added two placeholder backpack racks, CTF, Damage control and a third catwalk
 * Added siege to: Repercussion, Abandoned, Cascade, Crash Site, Quarantine
-* Expansion: Added mine beacons, minefields, cliff warning signs, mine warning signs, marauder crates, EDF crates and a smokestack and removed duplicated placeholder cloned objects
+* Expansion: Added mine beacons, minefields, cliff warning signs, mine warning signs, marauder crates, EDF crates, two smokestacks and removed duplicated placeholder cloned objects
 * Frost: Overhauled layout, added dynamic destruction, minefields, cliffs, and Damage Control
-* Complex: Added CTF and Backpack Racks 
+* Complex: Added CTF, Damage Control & Backpack Racks 
 * Watchtower: Added Backpack Racks
 * Imperial: Added building, monument, more weapons and CTF
 * Repurcussion: Fixed various bugs and added more weapons
 * Transmission: Added minefield, mine beacons before the invisible wall, more spawns and a few more radio towers
-* Cascade: Added backpack racks and made the area under the bridge more accessable
+* Cascade: Added backpack racks, CTF, Damage Control & made the area under the bridge more accessable
 * Stratosphere: Added CTF and Damage Control
 * Imperial: Added CTF
 * Invasion: Added CTF
+* Cornered: Added Kaboom pack spawn for attackers
+* Crevice: Added Kaboom pack spawn for attackers
+* Overpass: Added Kaboom pack spawn for attackers
+* GFWL/Nordic Bonus: Fixed floating shipping containers replacing them with air craft and vehicle debris, added marauder smokestack, marauder statue, added self destructing smokestack outside the map, added shipping containers with explosive barrels on top of the cave area and added fire surrounding the map
+* Abandoned: Added EDF forcefield and buildings to indicate where the invisible wall is, added mine beacons and mine fields to fix out of bounds exploits, added CTF and backpack racks
 * The following maps have been temporaly disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch, Ruins & Scrapheap
 
 ------------
