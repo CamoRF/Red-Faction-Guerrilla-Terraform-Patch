@@ -4,7 +4,7 @@
 
 Author: Camo
 Version: v1.064 ALPHA
-Date: 30-12-2022
+Date: 31-12-2022
 Build: xxx
 
 -----------------------
@@ -450,7 +450,7 @@ v1.064 ALPHA CHANGES
 * Reduced time it takes for a player to re-stealth to 250ms from 500ms
 
 [Maps]
-* Disabled misslepod and super gauss spawn in Siege, Damage Control and Demolition on all maps
+* Disabled misslepod and super gauss spawn in Siege, Damage Control and Demolition on all maps (excluding Crescent)
 * Added more spawns to siege maps so they are more playable in other game modes
 * Preparation for adding objectives and backpacks to all Wrecking Crew & Siege maps
 * Preparation for easily transferring effects across maps
