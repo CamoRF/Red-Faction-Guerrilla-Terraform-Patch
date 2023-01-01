@@ -418,7 +418,7 @@ v1.064 ALPHA CHANGES
 
 [New Characters Added]
 * Added DLC Sam
-* Added DLC Hess 
+* Added DLC Hess
 * Added DLC Vasha
 
 [Fixes]
@@ -452,7 +452,7 @@ v1.064 ALPHA CHANGES
 [Stealth Pack Buff]
 * Reduced fuel usage per second to 0.05625 from 0.075
 * Increased fuel regen per second to 0.1575 from 0.09
-* Reduced time it takes for a player first to become fully stealthed to 1250ms from 2500ms
+* Reduced time it takes for a player to first become fully stealthed to 1250ms from 2500ms
 * Reduced time it takes for a player to re-stealth to 250ms from 500ms
 
 [Maps]
@@ -473,7 +473,7 @@ v1.064 ALPHA CHANGES
 * Transmission: Added minefield & mine beacons before the invisible wall, more spawns and a few more radio towers
 * Cascade: Made the area under the bridge more accessible & more
 * GFWL/Nordic Bonus: Fixed floating shipping containers replacing them with air craft and vehicle debris, added marauder smokestack, marauder statue, added smokestack outside the map, added shipping containers with explosive barrels on top of the cave area, added fire surrounding the map, added cliff warning sign near the GFWL containers & more
-* Abandoned: Added EDF forcefield and buildings to indicate where the invisible wall is, added mine beacons and mine fields to fix out of bounds exploits & more
+* Abandoned: Added EDF forcefield and buildings to indicate where the invisible wall is, added mine beacons and minefields to fix out of bounds exploits & more
 * The following maps have been temporarily disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch, Ruins & Scrapheap
 
 ------------
@@ -521,7 +521,7 @@ v1.064 ALPHA CHANGES
 * DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
 
 [Wrecking Crew Mode]
-* Maps are currently replaced by the multiplayer versions so they lack barrels and have weapon pickups.
+* Maps are currently replaced by the multiplayer versions so they lack barrels and have weapon pickups
 
 [Maps]
 * Some of the Wrecking Crew maps that objectives were added to in v1.064 don't have team spawns yet so the possible fix for the vanilla issue with spawns flipping in CTF won't apply
