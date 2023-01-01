@@ -1,5 +1,180 @@
 <root>
 	<Table>
+<!--START DLC Characters ADDED-->
+		<Item>
+			<Name>dlc_vasha_skirt</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>dlc_vasha_skirt.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>dlc_vasha_skirt.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+			<_Editor>
+				<Category>Character Props:Vasha</Category>
+			</_Editor>
+		</Item>
+		
+		<Item>
+			<Name>dlc_hess_CalfWrap_L</Name>
+			<Spin_Time>5000</Spin_Time>
+			<_Editor>
+				<Category>Character Props:Hess</Category>
+			</_Editor>
+			<Mesh>
+				<Filename>dlc_hess_calfwrap_l.smeshx</Filename>
+			</Mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+		</Item>
+		
+		<Item>
+			<Name>dlc_hess_BootCover_L</Name>
+			<Spin_Time>5000</Spin_Time>
+			<_Editor>
+				<Category>Character Props:Hess</Category>
+			</_Editor>
+			<Mesh>
+				<Filename>dlc_hess_bootcover_l.smeshx</Filename>
+			</Mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+		</Item>
+		
+		<Item>
+			<Name>dlc_hess_KnifeCalf_R</Name>
+			<Spin_Time>5000</Spin_Time>
+			<_Editor>
+				<Category>Character Props:Hess</Category>
+			</_Editor>
+			<Mesh>
+				<Filename>dlc_hess_knifecalf_l.smeshx</Filename>
+			</Mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+		</Item>
+		
+		<Item>
+			<Name>dlc_hess_BootCover_R</Name>
+			<Spin_Time>5000</Spin_Time>
+			<_Editor>
+				<Category>Character Props:Hess</Category>
+			</_Editor>
+			<Mesh>
+				<Filename>dlc_hess_bootcover_r.smeshx</Filename>
+			</Mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+		</Item>
+		
+		<Item>
+			<Name>dlc_hess_Helmet</Name>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>dlc_hess_helmet.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>dlc_hess_helmet.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop</streaming_category>
+			<_Editor>
+				<Category>Character Props:Hess</Category>
+			</_Editor>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+		</Item>
+		
+		<Item>
+			<Name>dlc_hess_Props</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>dlc_hess_props.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>dlc_hess_props.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+				<Filename></Filename>
+			</character_mesh>
+			<_Editor>
+				<Category>Character Props:Hess</Category>
+			</_Editor>
+			<streaming_category>Character prop mesh only</streaming_category>
+		</Item>
+		
+		<Item>
+			<Name>dlc_sam_Cape</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>dlc_sam_cape.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>dlc_sam_cape.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+			<_Editor>
+				<Category>Character Props:Sam_DLC</Category>
+			</_Editor>
+		</Item>
+		
+		<Item>
+			<Name>dlc_sam_Skirt</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>dlc_sam_skirt.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>dlc_sam_skirt.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+			<_Editor>
+				<Category>Character Props:Sam_DLC</Category>
+			</_Editor>
+		</Item>
+		
+		<Item>
+			<Name>dlc_sam_Hair</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>dlc_sam_hair.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>dlc_sam_hair.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+			<_Editor>
+				<Category>Character Props:Sam_DLC</Category>
+			</_Editor>
+		</Item>
 <!--START DLC Weapons ADDED-->		
 		<Item>
 			<Name>EDF_Super_Gauss</Name>

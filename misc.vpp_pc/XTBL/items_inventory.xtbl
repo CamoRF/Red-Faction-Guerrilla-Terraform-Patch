@@ -15,7 +15,7 @@
 <!--END-->
 <!--START DLC Weapons Added-->
 		<Inventory_Item>
-			<Name>edf_super_gauss</Name>
+			<Name>dlc_edf_super_gauss</Name>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -26,7 +26,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>edf_subverter</Name>
+			<Name>dlc_edf_subverter</Name>
 			<Display_Name>WEAP_SUBVERTER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -37,7 +37,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>missilepod</Name>
+			<Name>dlc_missilepod</Name>
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
