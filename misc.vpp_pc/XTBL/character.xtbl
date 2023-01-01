@@ -81,9 +81,65 @@
 						</Item>
 					</Items>
 				</Prop>
+				<Prop>
+					<Prop_Name>Torso</Prop_Name>
+					<Chance>0</Chance>
+					<Type>jetpack</Type>
+					<Items>
+						<Item>
+							<Name>multi_object_backpack_commando</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_fleetfoot</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_heal</Name>
+							<Chance>0</Chance>
+							<Character_Prop>spine2</Character_Prop>
+							<Item_Prop>Attach_To_Player</Item_Prop>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_jetpack</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_kaboom</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_rhino</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_shockwave</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_stealth</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_thrust</Name>
+							<Character_Prop>spine2</Character_Prop>
+							<Item_Prop>Attach_To_Spine2</Item_Prop>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_vision</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_tremor</Name>
+							<Chance>0</Chance>
+						</Item>
+					</Items>
+				</Prop>				
 			</Props>
 			<Flags></Flags>
 			<AimErrorPct>100</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Special</origin_district>
 			<Heads>
 				<Head>
@@ -269,6 +325,7 @@
 				<Flag>use tech level</Flag>
 			</Flags>
 			<AimErrorPct>150</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Common</origin_district>
 		</Character>
 		
@@ -315,9 +372,65 @@
 						</Item>
 					</Items>
 				</Prop>
+				<Prop>
+					<Prop_Name>Torso</Prop_Name>
+					<Chance>0</Chance>
+					<Type>jetpack</Type>
+					<Items>
+						<Item>
+							<Name>multi_object_backpack_commando</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_fleetfoot</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_heal</Name>
+							<Chance>0</Chance>
+							<Character_Prop>spine2</Character_Prop>
+							<Item_Prop>Attach_To_Player</Item_Prop>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_jetpack</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_kaboom</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_rhino</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_shockwave</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_stealth</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_thrust</Name>
+							<Character_Prop>spine2</Character_Prop>
+							<Item_Prop>Attach_To_Spine2</Item_Prop>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_vision</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>multi_object_backpack_tremor</Name>
+							<Chance>0</Chance>
+						</Item>
+					</Items>
+				</Prop>				
 			</Props>
 			<Flags></Flags>
 			<AimErrorPct>100</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Special</origin_district>
 		</Character>
 <!--END DLC Characters ADDED-->		
