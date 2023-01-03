@@ -21,7 +21,6 @@
 				<Category>Character Props:Vasha</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>dlc_hess_CalfWrap_L</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -33,7 +32,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>dlc_hess_BootCover_L</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -45,7 +43,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>dlc_hess_KnifeCalf_R</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -57,7 +54,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>dlc_hess_BootCover_R</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -69,7 +65,6 @@
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>dlc_hess_Helmet</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -90,7 +85,6 @@
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 		</Item>
-		
 		<Item>
 			<Name>dlc_hess_Props</Name>
 			<Item_Flags>
@@ -112,7 +106,6 @@
 			</_Editor>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		
 		<Item>
 			<Name>dlc_sam_Cape</Name>
 			<Item_Flags>
@@ -133,7 +126,6 @@
 				<Category>Character Props:Sam_DLC</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>dlc_sam_Skirt</Name>
 			<Item_Flags>
@@ -154,7 +146,6 @@
 				<Category>Character Props:Sam_DLC</Category>
 			</_Editor>
 		</Item>
-		
 		<Item>
 			<Name>dlc_sam_Hair</Name>
 			<Item_Flags>

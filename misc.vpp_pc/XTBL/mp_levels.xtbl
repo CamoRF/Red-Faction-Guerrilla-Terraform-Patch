@@ -523,7 +523,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->				
+				<!--<Flag>siege</Flag>--> <!--Added-->				
 			</mode_flags>
 			<alternate_time_of_day>10:30</alternate_time_of_day> <!--From 14:00-->
 			<glow_multiplier>6</glow_multiplier>

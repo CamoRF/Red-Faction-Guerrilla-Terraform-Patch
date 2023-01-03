@@ -1,9 +1,0 @@
-* Fix broken ladder on Repurcussion (see screenshot on desktop)
-* Add shape cutters for shortcut (where the wall flickers near the objective and one near the sarlac pit) on quarantine
-* Remove fist weapon completely due to crashing issue
-* Disable siege on Equilibrium for now (glitched 2nd/3rd smokestack)
-* Abandoned terrain collision glitch near forcefield
-* Add more shape cutters for storage shed 2 and 3 on Frost (damage control)
-* Dynamic destruction not working in damage control on Frost 
-* Frost out of bound fixes not enabled or missing?
-* Fix duplicate pistol spawn near the large factory on factory

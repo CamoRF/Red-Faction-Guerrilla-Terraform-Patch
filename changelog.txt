@@ -413,9 +413,6 @@ v1.064 ALPHA CHANGES
 * Added stealth/vision to some maps that had one but not the other
 * Initial loading screen updated
 
-[New Weapon Added]
-* Added unarmed/fists weapon
-
 [New Characters Added]
 * Added DLC Sam
 * Added DLC Hess
@@ -461,7 +458,7 @@ v1.064 ALPHA CHANGES
 * Preparation for adding objectives and backpacks to all Wrecking Crew & Siege maps
 * Preparation for easily transferring effects across maps
 * Factory: Added two placeholder backpack racks, CTF, Damage control and a third catwalk
-* Added Siege to: Cascade, Stratosphere, Rift, Radial, Quarantine (completely custom map), Garrison, Equilbrium, Doubletime, Abandoned, Imperial, Repercussion & Crash Site
+* Added Siege to: Cascade, Stratosphere, Rift, Radial, Quarantine (completely custom map), Garrison, Doubletime, Abandoned, Imperial, Repercussion & Crash Site
 * Added CTF to: Complex, Imperial, Cascade, Stratosphere and Invasion & Abandoned
 * Added Damage Control to: Complex, Cascade, Stratosphere (uses shipping containers) and Frost (uses buildings)
 * Added Backpack Racks to: Complex, Watchtower, Cascade & Abandoned
@@ -531,6 +528,7 @@ v1.064 ALPHA CHANGES
 * Objectives and Backpack Racks still need to be added to most of the Wrecking Crew maps, they will be slowly added in future updates
 * Backpack Rack and Objective spawns on Wrecking Maps may not be final, they will be slowly polished in future updates
 * Some of the out of bounds exploit fixes MIGHT need to be adjusted and can possibly kill the player when they are still inside in the map, they will be slowly polished in future updates
+* Abandoned terrain collision glitch near forcefield (335.016, -0.205, -321.099)
 
 [Loading Screens]
 * Some Wrecking Crew loading screens no longer match the map since they have been adapted for multiplayer, they will be slowly updated in future updates when the maps are final

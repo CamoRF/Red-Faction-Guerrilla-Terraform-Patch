@@ -1,18 +1,5 @@
 <root>
 	<Table>
-<!--START Experimental Misc ADDED-->	
-		<Inventory_Item>
-			<Name>fist</Name>
-			<Display_Name>FISTS</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description></Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-<!--END-->
 <!--START DLC Weapons Added-->
 		<Inventory_Item>
 			<Name>edf_super_gauss</Name>
