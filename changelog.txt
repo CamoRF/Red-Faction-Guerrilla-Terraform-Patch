@@ -408,10 +408,10 @@ v1.064 ALPHA CHANGES
 [Misc]
 * Renamed the project to TERRAFORM PATCH
 * Re-implemented initial logos due to issue with it spamming Red Faction Guerrilla Re-Mars-tered.log, however they can now all be skipped
+* Initial loading screen updated
 * Added Kaboom pack to random backpack rotation
 * Added some backpacks missing from random backpack rotation on various maps
 * Added stealth/vision to some maps that had one but not the other
-* Initial loading screen updated
 
 [New Characters Added]
 * Added DLC Sam
@@ -439,30 +439,29 @@ v1.064 ALPHA CHANGES
 * Increased firerate slightly (reduced refire delay to 94 from 95)
 * Increased damage at max range to 34 from 32
 * Increased damage at min range to 42 from 41
+* Increased headshot damage multiplier to 2.1 from 2.0
 * Reduced bullet spread at max range to 1.85 from 2.0
 * Reduced bullet spread at min range to 0.85 from 0.95
 * Reduced recoil to 0.75 from 0.8
 * Reduced bullet spread when aiming at max range to 1.15 from 1.2
 * Reduced bullet spread when aiming at min range to 0.62 from 0.67
-* Increased headshot damage multiplier to 2.1 from 2.0
 
 [Stealth Pack Buff]
-* Reduced fuel usage per second to 0.05625 from 0.075
 * Increased fuel regen per second to 0.1575 from 0.09
+* Reduced fuel usage per second to 0.05625 from 0.075
 * Reduced time it takes for a player to first become fully stealthed to 1250ms from 2500ms
 * Reduced time it takes for a player to re-stealth to 250ms from 500ms
 
 [Maps]
-* Disabled misslepod and super gauss spawn in Siege, Damage Control and Demolition on all maps (excluding Crescent)
-* Added more spawns to siege maps so they are more playable in other game modes
 * Preparation for adding objectives and backpacks to all Wrecking Crew & Siege maps
 * Preparation for easily transferring effects across maps
-* Factory: Added two placeholder backpack racks, CTF, Damage control and a third catwalk
+* Added more spawns to siege maps so they are more playable in other game modes
 * Added Siege to: Cascade, Stratosphere, Rift, Radial, Quarantine (completely custom map), Garrison, Doubletime, Abandoned, Imperial, Repercussion & Crash Site
 * Added CTF to: Complex, Imperial, Cascade, Stratosphere and Invasion & Abandoned
 * Added Damage Control to: Complex, Cascade, Stratosphere (uses shipping containers) and Frost (uses buildings)
 * Added Backpack Racks to: Complex, Watchtower, Cascade & Abandoned
 * Added Kaboom Backpack Rack for attackers on the following Siege maps: Cornered, Crevice & Overpass
+* Factory: Added two placeholder backpack racks, CTF, Damage control and a third catwalk
 * Expansion: Added mine beacons, minefields, cliff warning signs, mine warning signs, marauder crates, EDF crates, two smokestacks and removed duplicated placeholder cloned objects
 * Frost: Overhauled layout for improved gameplay in multiplayer, added dynamic destruction, minefields & more
 * Imperial: Added building, monument, spawns & more
@@ -472,6 +471,7 @@ v1.064 ALPHA CHANGES
 * GFWL/Nordic Bonus: Fixed floating shipping containers replacing them with air craft and vehicle debris, added marauder smokestack, marauder statue, added smokestack outside the map, added shipping containers with explosive barrels on top of the cave area, added fire surrounding the map, added cliff warning sign near the GFWL containers & more
 * Abandoned: Added EDF forcefield and buildings to indicate where the invisible wall is, added mine beacons and minefields to fix out of bounds exploits & more
 * The following maps have been temporarily disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch, Ruins & Scrapheap
+* Disabled misslepod and super gauss spawn in Siege, Damage Control and Demolition on all maps (excluding Crescent)
 
 ------------
 |KNOWN BUGS|
