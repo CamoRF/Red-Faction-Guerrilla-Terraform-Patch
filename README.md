@@ -18,10 +18,10 @@
 - [v1.064 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6340)
 
 # Changelog
-See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Community-Patch/v1.061-Hotfix/changelog.txt)
+See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/current/changelog.txt)
 
 # TODO
-See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Community-Patch/v1.061-Hotfix/to_do_list.txt)
+See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/current/to_do_list.txt)
 
 # Credits
 - moneyl for lots of help & developing all the tools that make this project possible including Nanoforge, AsmTool, RfgUtil & RSL.
