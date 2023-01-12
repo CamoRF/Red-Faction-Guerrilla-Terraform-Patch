@@ -2,6 +2,10 @@ v1.065
 
 * Factory: add another backpack spawn on the cliff?
 
+* Add backpack racks, ctf stands, damage control target assets to all WC and siege maps. Add spawns for them in Nanoforge etc etc
+
+* Fix issue with Equilibrium Siege smokestacks and re-enable it in mp_levels.xtbl
+
 * Fix the issue with ported dlc weapons using the same items_inventory.xtbl name as the dlc (Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc)
 
 * Length of string pool exceeded.Length of string pool exceeded. (need RSL2 probably)
