@@ -1,8 +1,8 @@
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/current/Logo_Temp.png?raw=true "Logo")
 
-- Version: v1.064 ALPHA
-- Date: 4-1-2023
-- Build: 1150
+- Version: v1.065 ALPHA
+- Date: x-x-2023
+- Build: xxx
 - Work-in-progress project that adds content, fixes bugs, and enhances many features.
 
 # Auto Install (Recommended)
@@ -16,12 +16,13 @@
 - [v1.062 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6267)
 - [v1.063 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6269)
 - [v1.064 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6340)
+- [placeholder](https://www.factionfiles.com/ff.php?action=file&id=6340)
 
 # Changelog
-See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/v1.064-HOTFIX/changelog.txt)
+See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/v1.065-HOTFIX/changelog.txt)
 
 # TODO
-See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/v1.064-HOTFIX/to_do_list.txt)
+See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/v1.065-HOTFIX/to_do_list.txt)
 
 # Credits
 - moneyl for lots of help & developing all the tools that make this project possible including Nanoforge, AsmTool, RfgUtil & RSL.
