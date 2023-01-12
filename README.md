@@ -16,7 +16,7 @@
 - [v1.062 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6267)
 - [v1.063 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6269)
 - [v1.064 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6340)
-- [placeholder](https://www.factionfiles.com/ff.php?action=file&id=6340)
+- [v1.065 ALPHA Placeholder](https://www.factionfiles.com/ff.php?action=file&id=6340)
 
 # Changelog
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/v1.065-HOTFIX/changelog.txt)
@@ -33,7 +33,7 @@ See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraf
 - [Agent Ransack](https://www.mythicsoft.com/agentransack/)
 - [Notepad++](https://notepad-plus-plus.org/)
 - [RSL](https://github.com/rsl-dev/RSL/releases)
-- [placeholder](https://github.com/rsl-dev/RSL/releases)
+- [Scripts](https://github.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/tree/v1.065-HOTFIX/tools/scripts)
 
 # Credits
 - moneyl for lots of help & developing all the tools that make this project possible including Nanoforge, AsmTool, RfgUtil & RSL.
