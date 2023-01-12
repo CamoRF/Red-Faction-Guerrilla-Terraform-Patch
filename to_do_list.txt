@@ -1,0 +1,11 @@
+v1.065
+
+* Factory: add another backpack spawn on the cliff?
+
+* Fix the issue with ported dlc weapons using the same items_inventory.xtbl name as the dlc (Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc)
+
+* Length of string pool exceeded.Length of string pool exceeded. (need RSL2 probably)
+
+* Length of string pool exceeded.Length of string pool exceeded.level_init_pre() (need RSL2 probably)
+
+* unable to allocate anim_rigunable to allocate anim_rigunable to allocate anim_rigunable to allocate anim_rigFailed aligned alloc of 4006 bytes in rigs pool (max pool size is 475136 space left is 826) unable to allocate anim_rigLength of string pool exceeded (need RSL2 probably)

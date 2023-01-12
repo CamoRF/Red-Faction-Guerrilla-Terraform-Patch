@@ -3,9 +3,9 @@
 |--------------------------------------------------------------|
 
 Author: Camo
-Version: v1.064 ALPHA
-Date: 4-1-2023
-Build: 1150
+Version: v1.065 ALPHA
+Date: x-x-2023
+Build: xxxx
 
 -----------------------
 INTIAL RELEASE CHANGES
@@ -472,6 +472,17 @@ v1.064 ALPHA CHANGES
 * Abandoned: Added EDF forcefield and buildings to indicate where the invisible wall is, added mine beacons and minefields to fix out of bounds exploits & more
 * The following maps have been temporarily disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch, Ruins & Scrapheap
 * Disabled misslepod and super gauss spawn in Siege, Damage Control and Demolition on all maps (excluding Crescent)
+
+--------------------
+v1.065 ALPHA CHANGES
+--------------------
+
+[Misc]
+
+[Fixes]
+
+[Maps]
+* Factory: Added more backpack rack spawns
 
 ------------
 |KNOWN BUGS|
