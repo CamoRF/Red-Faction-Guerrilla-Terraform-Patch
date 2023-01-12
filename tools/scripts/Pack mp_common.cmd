@@ -1,0 +1,1 @@
+RfgUtil.exe .\mp_common\ -c

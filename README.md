@@ -24,6 +24,16 @@ See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraf
 # TODO
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/v1.065-HOTFIX/to_do_list.txt)
 
+# Tools Used
+
+- [RfgUtil](https://github.com/Moneyl/RfgUtil/releases)
+- [Nanoforge] (https://github.com/Moneyl/Nanoforge/releases)
+- [mTools] (placeholder)
+- [voidtools Everything] (https://www.voidtools.com/)
+- [Agent Ransack] (https://www.mythicsoft.com/agentransack/)
+- [Notepad++] (https://notepad-plus-plus.org/)
+- [RSL] (https://github.com/rsl-dev/RSL/releases)
+
 # Credits
 - moneyl for lots of help & developing all the tools that make this project possible including Nanoforge, AsmTool, RfgUtil & RSL.
 - rast1234 for developing SyncFaction that makes it easy for users to install this mod automatically and stay up to date.

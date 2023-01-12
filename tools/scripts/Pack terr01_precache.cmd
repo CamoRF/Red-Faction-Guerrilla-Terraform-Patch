@@ -1,0 +1,1 @@
+RfgUtil.exe .\terr01_precache\ -c

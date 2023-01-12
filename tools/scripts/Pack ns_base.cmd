@@ -1,0 +1,1 @@
+RfgUtil.exe .\ns_base\ -c -e
