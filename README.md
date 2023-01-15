@@ -1,3 +1,5 @@
+# NOTE: OVERWRITE WITH FILES FROM THE LATEST BRANCH
+
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/current/Logo_Temp.png?raw=true "Logo")
 
 - Version: v1.064 ALPHA
