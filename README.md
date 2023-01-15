@@ -1,4 +1,3 @@
-# NOTE: OVERWRITE WITH FILES FROM THE LATEST BRANCH
 
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/current/Logo_Temp.png?raw=true "Logo")
 
@@ -6,6 +5,8 @@
 - Date: 4-1-2023
 - Build: 1150
 - Work-in-progress project that adds content, fixes bugs, and enhances many features.
+
+# NOTE: OVERWRITE WITH FILES FROM THE LATEST BRANCH
 
 # Auto Install (Recommended)
 - First verify your game files
