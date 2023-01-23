@@ -28,12 +28,12 @@ See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraf
 
 - [RfgUtil](https://github.com/Moneyl/RfgUtil/releases)
 - [Nanoforge](https://github.com/Moneyl/Nanoforge/releases)
-- [mTools](https://github.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/blob/v1.065-HOTFIX/tools/mTools.zip)
+- [mTools](https://github.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/blob/main/tools/mTools.zip)
 - [voidtools Everything](https://www.voidtools.com/)
 - [Agent Ransack](https://www.mythicsoft.com/agentransack/)
 - [Notepad++](https://notepad-plus-plus.org/)
 - [RSL](https://github.com/rsl-dev/RSL/releases)
-- [Scripts](https://github.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/tree/v1.065-HOTFIX/tools/scripts)
+- [Scripts](https://github.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/tree/main/tools/scripts)
 
 # Credits
 - moneyl for lots of help & developing all the tools that make this project possible including Nanoforge, AsmTool, RfgUtil & RSL.
