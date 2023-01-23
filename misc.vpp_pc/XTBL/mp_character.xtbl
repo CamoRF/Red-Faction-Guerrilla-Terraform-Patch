@@ -3,13 +3,111 @@
 		<MP_character>
 			<Name>FFA</Name>
 			<Character_Grid>
-<!--START DLC CHARACTERS ADDED-->	
+<!--START DLC Characters ADDED-->	
 				<Character_Element>
 					<Character_Name>dlc_sam</Character_Name>
 					<Display_Name>DLC Samanya</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
-					<Unlock_Level>95</Unlock_Level> <!--From 0-->
+					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
+					<backpack_offsets>
+						<backpack>
+							<backpack_name>Commando</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>0</Y>
+								<Z>.01</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Fleetfoot</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>.01</Y>
+								<Z>.04</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Heal</backpack_name>
+							<backpack_offset>
+								<X>-.04</X>
+								<Y>-.08</Y>
+								<Z>.08</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Jetpack</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.06</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Kaboom</backpack_name>
+							<backpack_offset>
+								<X>.04</X>
+								<Y>0.0</Y>
+								<Z>.08</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Rhino</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>-.08</Y>
+								<Z>.08</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Shockwave</backpack_name>
+							<backpack_offset>
+								<X>.01</X>
+								<Y>-.02</Y>
+								<Z>.03</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Stealth</backpack_name>
+							<backpack_offset>
+								<X>.01</X>
+								<Y>0</Y>
+								<Z>.08</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Thrust</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Tremor</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>0.0</Y>
+								<Z>.05</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Vision</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>0</Y>
+								<Z>.04</Z>
+							</backpack_offset>
+						</backpack>
+					</backpack_offsets>
+				</Character_Element>
+				
+				<Character_Element>
+					<Character_Name>dlc_hess</Character_Name>
+					<Display_Name>DLC Hess</Display_Name>
+					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
+					<Unlock_Level>0</Unlock_Level>
+					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
 							<backpack_name>Commando</backpack_name>
@@ -101,36 +199,36 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
+
 				<Character_Element>
 					<Character_Name>dlc_vasha</Character_Name>
-					<Display_Name>Vasha</Display_Name>
+					<Display_Name>DLC Vasha</Display_Name>
 					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
-					<Unlock_Level>95</Unlock_Level> <!--From 0-->
+					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
 							<backpack_name>Commando</backpack_name>
 							<backpack_offset>
-								<X>0</X>
+								<X>-.02</X>
 								<Y>0</Y>
-								<Z>-.01</Z>
+								<Z>.01</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Fleetfoot</backpack_name>
 							<backpack_offset>
 								<X>0</X>
-								<Y>-.01</Y>
-								<Z>0</Z>
+								<Y>.01</Y>
+								<Z>.04</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Heal</backpack_name>
 							<backpack_offset>
-								<X>-.01</X>
-								<Y>-.02</Y>
-								<Z>.02</Z>
+								<X>-.04</X>
+								<Y>-.08</Y>
+								<Z>.08</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -138,23 +236,23 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0.0</Y>
-								<Z>0</Z>
+								<Z>.06</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Kaboom</backpack_name>
 							<backpack_offset>
-								<X>0</X>
+								<X>.04</X>
 								<Y>0.0</Y>
-								<Z>0</Z>
+								<Z>.08</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Rhino</backpack_name>
 							<backpack_offset>
-								<X>-.01</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
+								<X>-.02</X>
+								<Y>-.08</Y>
+								<Z>.08</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -162,15 +260,15 @@
 							<backpack_offset>
 								<X>.01</X>
 								<Y>-.02</Y>
-								<Z>0</Z>
+								<Z>.03</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Stealth</backpack_name>
 							<backpack_offset>
-								<X>-.01</X>
+								<X>.01</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>.08</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -186,121 +284,21 @@
 							<backpack_offset>
 								<X>-.02</X>
 								<Y>0.0</Y>
-								<Z>-.04</Z>
+								<Z>.05</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Vision</backpack_name>
 							<backpack_offset>
 								<X>-.01</X>
-								<Y>-.02</Y>
-								<Z>-.04</Z>
+								<Y>0</Y>
+								<Z>.04</Z>
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
-				</Character_Element>				
-				
-				<Character_Element>
-					<Character_Name>dlc_hess</Character_Name>
-					<Display_Name>Hess</Display_Name>
-					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 0-->
-					<Persona_Group>Marauder Male</Persona_Group>
-					<backpack_offsets>
-						<backpack>
-							<backpack_name>Commando</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0</Y>
-								<Z>-.01</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Fleetfoot</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>-.01</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Heal</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>-.02</Y>
-								<Z>.02</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Jetpack</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Kaboom</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Rhino</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Shockwave</backpack_name>
-							<backpack_offset>
-								<X>.01</X>
-								<Y>-.02</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Stealth</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Thrust</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>.02</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Tremor</backpack_name>
-							<backpack_offset>
-								<X>-.02</X>
-								<Y>0.0</Y>
-								<Z>-.04</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Vision</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>-.02</Y>
-								<Z>-.04</Z>
-							</backpack_offset>
-						</backpack>
-					</backpack_offsets>
-				</Character_Element>								
-
-<!--END DLC CHARACTERS ADDED-->
-<!--START NEW CHARACTERS ADDED-->
-				
+				</Character_Element>
+<!--END DLC Characters ADDED-->				
+<!--START NEW Characters ADDED-->
 				<Character_Element>
 					<Character_Name>Carmen</Character_Name>
 					<Display_Name>Carmen</Display_Name>
@@ -398,7 +396,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Camie</Character_Name>
 					<Display_Name>Marauder Lady</Display_Name>
@@ -496,7 +493,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Jorge</Character_Name>
 					<Display_Name>Jenkins</Display_Name>
@@ -509,7 +505,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.12</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -517,7 +513,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -525,7 +521,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -533,7 +529,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -541,7 +537,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.12</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -549,7 +545,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -557,7 +553,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -565,7 +561,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -573,7 +569,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -581,7 +577,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -589,12 +585,11 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>-.02</Z>
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>jean_oasis</Character_Name>
 					<Display_Name>Elegant Jean</Display_Name>
@@ -692,7 +687,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Samanya</Character_Name>
 					<Display_Name>Samanya</Display_Name>
@@ -790,7 +784,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Mila_Oasis</Character_Name>
 					<Display_Name>Mila</Display_Name>
@@ -888,12 +881,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Debbie</Character_Name>
 					<Display_Name>Lab Lady</Display_Name>
 					<Bitmap_Name>ui_mp_char_selma</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level>
+					<Unlock_Level>31</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -986,12 +978,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Marie</Character_Name>
 					<Display_Name>Outcast</Display_Name>
 					<Bitmap_Name>ui_mp_char_blair</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level>
+					<Unlock_Level>19</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -1084,12 +1075,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Rachel</Character_Name>
 					<Display_Name>Elegant Rachel</Display_Name>
 					<Bitmap_Name>ui_mp_char_rachel</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level>
+					<Unlock_Level>79</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -1182,12 +1172,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Admiral_Kobel</Character_Name>
 					<Display_Name>Admiral Kobel</Display_Name>
 					<Bitmap_Name>ui_mp_char_edf_elite_w</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 0-->
+					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -1243,7 +1232,8 @@
 							<backpack_offset>
 								<X>.01</X>
 								<Y>-.02</Y>
-								<Z>.08</Z> <!--From .03-->
+								<Z>.08</Z>
+								<!--From .03-->
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -1280,12 +1270,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>EDF_General_Roth</Character_Name>
 					<Display_Name>General Roth</Display_Name>
 					<Bitmap_Name>ui_mp_char_numah</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 0-->
+					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -1378,12 +1367,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>EDF_Voice</Character_Name>
 					<Display_Name>Voice of Mars</Display_Name>
 					<Bitmap_Name>ui_mp_char_bev</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 0-->
+					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -1476,14 +1464,14 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-
-<!--START Elegant Ian model swap-->
-				
+				<!--START Elegant Ian model swap-->
 				<Character_Element>
-					<Character_Name>Ian_Oasis</Character_Name> <!--From Ian-->
-					<Display_Name>Ian Oasis</Display_Name> <!--From MENU_CHAR_IAN-->
+					<Character_Name>Ian_Oasis</Character_Name>
+					<!--From Ian-->
+					<Display_Name>Elegant Ian</Display_Name>
+					<!--From MENU_CHAR_IAN-->
 					<Bitmap_Name>ui_mp_char_ian</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level> <!--From 60-->
+					<Unlock_Level>60</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -1576,8 +1564,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-<!--END NEW CHARACTERS ADDED-->
-				
+				<!--END NEW CHARACTERS ADDED-->
 				<Character_Element>
 					<Character_Name>EDF_Grunt_Braun</Character_Name>
 					<Display_Name>MENU_CHAR_GRUNT</Display_Name>
@@ -1675,7 +1662,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Dustin</Character_Name>
 					<Display_Name>MENU_CHAR_DUSTIN</Display_Name>
@@ -1684,7 +1670,6 @@
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Isaiah</Character_Name>
 					<Display_Name>MENU_CHAR_ISAIAH</Display_Name>
@@ -1782,7 +1767,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>John</Character_Name>
 					<Display_Name>MENU_CHAR_JOHN</Display_Name>
@@ -1880,7 +1864,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Heidi_Dust</Character_Name>
 					<Display_Name>MENU_CHAR_HEIDI</Display_Name>
@@ -1978,12 +1961,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>mp_guerilla_engineer_mason</Character_Name>
 					<Display_Name>MENU_CHAR_MASON</Display_Name>
 					<Bitmap_Name>ui_mp_char_mason</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level> <!--From 3-->
+					<Unlock_Level>3</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -2076,7 +2058,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>mp_edf_engineer</Character_Name>
 					<Display_Name>MENU_CHAR_TROOPER</Display_Name>
@@ -2174,12 +2155,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Dan</Character_Name>
 					<Display_Name>MENU_CHAR_DAN</Display_Name>
 					<Bitmap_Name>ui_mp_char_dan</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level> <!--From 16-->
+					<Unlock_Level>16</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -2272,7 +2252,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Celia</Character_Name>
 					<Display_Name>MENU_CHAR_CELIA</Display_Name>
@@ -2370,7 +2349,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Kat</Character_Name>
 					<Display_Name>MENU_CHAR_KAT</Display_Name>
@@ -2468,7 +2446,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Jackson_Dust</Character_Name>
 					<Display_Name>MENU_CHAR_JACKSON</Display_Name>
@@ -2566,7 +2543,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Clark</Character_Name>
 					<Display_Name>MENU_CHAR_CLARK</Display_Name>
@@ -2664,7 +2640,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>EDF_Officer_May_MP</Character_Name>
 					<Display_Name>MENU_CHAR_LIEUTENANT</Display_Name>
@@ -2762,7 +2737,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Olga</Character_Name>
 					<Display_Name>MENU_CHAR_OLGA</Display_Name>
@@ -2860,7 +2834,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>EDF_Elite_MP</Character_Name>
 					<Display_Name>MENU_CHAR_ELITE</Display_Name>
@@ -2958,7 +2931,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Kyle</Character_Name>
 					<Display_Name>MENU_CHAR_KYLE</Display_Name>
@@ -3056,12 +3028,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>EddieMP</Character_Name>
 					<Display_Name>MENU_CHAR_EDDIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_eddie</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 84-->
+					<Unlock_Level>84</Unlock_Level>
 					<Persona_Group>Marauder Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -3154,7 +3125,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Krystal</Character_Name>
 					<Display_Name>MENU_CHAR_KRYSTAL</Display_Name>
@@ -3252,12 +3222,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>OldCoot</Character_Name>
 					<Display_Name>MENU_CHAR_OLDCOOT</Display_Name>
 					<Bitmap_Name>ui_mp_char_oldcoot</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 98-->
+					<Unlock_Level>98</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -3350,12 +3319,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>SladeMP</Character_Name>
 					<Display_Name>MENU_CHAR_SLADE</Display_Name>
 					<Bitmap_Name>ui_mp_char_slade</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 106-->
+					<Unlock_Level>106</Unlock_Level>
 					<Persona_Group>Marauder Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -3448,12 +3416,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>EDF_Elite_Heavy_MP</Character_Name>
 					<Display_Name>MENU_CHAR_HEAVY</Display_Name>
 					<Bitmap_Name>ui_mp_char_edf_heavy_w</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 114-->
+					<Unlock_Level>114</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -3546,12 +3513,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>RFCommander</Character_Name>
 					<Display_Name>MENU_CHAR_RFC</Display_Name>
 					<Bitmap_Name>ui_mp_char_rfcommander</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 120-->
+					<Unlock_Level>120</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -3644,12 +3610,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>MuirMP</Character_Name>
 					<Display_Name>MENU_CHAR_MUIR</Display_Name>
 					<Bitmap_Name>ui_mp_char_muir</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 124-->
+					<Unlock_Level>124</Unlock_Level>
 					<Persona_Group>Marauder Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -3747,33 +3712,32 @@
 				<Category>NewCategory</Category>
 			</_Editor>
 		</MP_character>
+<!--START Teams-->		
 		<MP_character>
 			<Name>EDF</Name>
 			<Character_Grid>
-<!--START NEW CHARACTERS ADDED-->
+<!--START NEW Characters ADDED-->
 				<Character_Element>
 					<Character_Name>Admiral_Kobel</Character_Name>
 					<Display_Name>Admiral Kobel</Display_Name>
 					<Bitmap_Name>ui_mp_char_edf_elite_w</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 0-->
+					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>EDF_General_Roth</Character_Name>
 					<Display_Name>General Roth</Display_Name>
 					<Bitmap_Name>ui_mp_char_numah</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 0-->
+					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>EDF_Voice</Character_Name>
 					<Display_Name>Voice of Mars</Display_Name>
 					<Bitmap_Name>ui_mp_char_bev</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 0-->
+					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -3866,7 +3830,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-<!--END NEW CHARACTERS ADDED-->
+<!--END NEW Characters ADDED-->
 				<Character_Element>
 					<Character_Name>MP_Grunt_Braun</Character_Name>
 					<Display_Name>MENU_CHAR_GRUNT</Display_Name>
@@ -3964,7 +3928,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>mp_edf_engineer</Character_Name>
 					<Display_Name>MENU_CHAR_TROOPER</Display_Name>
@@ -3973,7 +3936,6 @@
 					<Persona_Group>EDF Male</Persona_Group>
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>EDF_Officer_May_MP</Character_Name>
 					<Display_Name>MENU_CHAR_LIEUTENANT</Display_Name>
@@ -3982,7 +3944,6 @@
 					<Persona_Group>EDF Male</Persona_Group>
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>EDF_Elite_MP</Character_Name>
 					<Display_Name>MENU_CHAR_ELITE</Display_Name>
@@ -3991,12 +3952,13 @@
 					<Persona_Group>EDF Male</Persona_Group>
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
-					<Character_Name>EDF_Elite_Heavy_MP</Character_Name> <!--<Character_Name>EDF_Elite_Heavy_Tan_MP</Character_Name>-->
+					<Character_Name>EDF_Elite_Heavy_MP</Character_Name>
+					<!--<Character_Name>EDF_Elite_Heavy_Tan_MP</Character_Name>-->
 					<Display_Name>MENU_CHAR_HEAVY</Display_Name>
-					<Bitmap_Name>ui_mp_char_edf_heavy_w</Bitmap_Name> <!--<Bitmap_Name>ui_mp_char_edf_heavy</Bitmap_Name>-->
-					<Unlock_Level>100</Unlock_Level> <!--From 114-->
+					<Bitmap_Name>ui_mp_char_edf_heavy_w</Bitmap_Name>
+					<!--<Bitmap_Name>ui_mp_char_edf_heavy</Bitmap_Name>-->
+					<Unlock_Level>114</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
@@ -4008,12 +3970,307 @@
 		<MP_character>
 			<Name>Guerilla</Name>
 			<Character_Grid>
+<!--START DLC Characters ADDED-->	
+				<Character_Element>
+					<Character_Name>dlc_sam</Character_Name>
+					<Display_Name>DLC Samanya</Display_Name>
+					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
+					<Unlock_Level>0</Unlock_Level>
+					<Persona_Group>Guerrilla Female</Persona_Group>
+					<backpack_offsets>
+						<backpack>
+							<backpack_name>Commando</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>0</Y>
+								<Z>.01</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Fleetfoot</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>.01</Y>
+								<Z>.04</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Heal</backpack_name>
+							<backpack_offset>
+								<X>-.04</X>
+								<Y>-.08</Y>
+								<Z>.08</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Jetpack</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.06</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Kaboom</backpack_name>
+							<backpack_offset>
+								<X>.04</X>
+								<Y>0.0</Y>
+								<Z>.08</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Rhino</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>-.08</Y>
+								<Z>.08</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Shockwave</backpack_name>
+							<backpack_offset>
+								<X>.01</X>
+								<Y>-.02</Y>
+								<Z>.03</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Stealth</backpack_name>
+							<backpack_offset>
+								<X>.01</X>
+								<Y>0</Y>
+								<Z>.08</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Thrust</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Tremor</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>0.0</Y>
+								<Z>.05</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Vision</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>0</Y>
+								<Z>.04</Z>
+							</backpack_offset>
+						</backpack>
+					</backpack_offsets>
+				</Character_Element>
+				
+				<Character_Element>
+					<Character_Name>dlc_hess</Character_Name>
+					<Display_Name>DLC Hess</Display_Name>
+					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
+					<Unlock_Level>0</Unlock_Level>
+					<Persona_Group>Guerrilla Male</Persona_Group>
+					<backpack_offsets>
+						<backpack>
+							<backpack_name>Commando</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>-.01</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Fleetfoot</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>-.01</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Heal</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>-.02</Y>
+								<Z>.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Jetpack</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Kaboom</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Rhino</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Shockwave</backpack_name>
+							<backpack_offset>
+								<X>.01</X>
+								<Y>-.02</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Stealth</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Thrust</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Tremor</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>0.0</Y>
+								<Z>-.04</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Vision</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>-.02</Y>
+								<Z>-.04</Z>
+							</backpack_offset>
+						</backpack>
+					</backpack_offsets>
+				</Character_Element>
+
+				<Character_Element>
+					<Character_Name>dlc_vasha</Character_Name>
+					<Display_Name>DLC Vasha</Display_Name>
+					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
+					<Unlock_Level>0</Unlock_Level>
+					<Persona_Group>Guerrilla Female</Persona_Group>
+					<backpack_offsets>
+						<backpack>
+							<backpack_name>Commando</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>0</Y>
+								<Z>.01</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Fleetfoot</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>.01</Y>
+								<Z>.04</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Heal</backpack_name>
+							<backpack_offset>
+								<X>-.04</X>
+								<Y>-.08</Y>
+								<Z>.08</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Jetpack</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.06</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Kaboom</backpack_name>
+							<backpack_offset>
+								<X>.04</X>
+								<Y>0.0</Y>
+								<Z>.08</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Rhino</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>-.08</Y>
+								<Z>.08</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Shockwave</backpack_name>
+							<backpack_offset>
+								<X>.01</X>
+								<Y>-.02</Y>
+								<Z>.03</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Stealth</backpack_name>
+							<backpack_offset>
+								<X>.01</X>
+								<Y>0</Y>
+								<Z>.08</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Thrust</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Tremor</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>0.0</Y>
+								<Z>.05</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Vision</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>0</Y>
+								<Z>.04</Z>
+							</backpack_offset>
+						</backpack>
+					</backpack_offsets>
+				</Character_Element>
+<!--END DLC Characters ADDED-->	
 <!--START MARAUDERS ON RF TEAM-->
 				<Character_Element>
 					<Character_Name>EddieMP</Character_Name>
 					<Display_Name>MENU_CHAR_EDDIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_eddie</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 84-->
+					<Unlock_Level>84</Unlock_Level>
 					<Persona_Group>Marauder Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -4106,12 +4363,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>SladeMP</Character_Name>
 					<Display_Name>MENU_CHAR_SLADE</Display_Name>
 					<Bitmap_Name>ui_mp_char_slade</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 106-->
+					<Unlock_Level>106</Unlock_Level>
 					<Persona_Group>Marauder Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -4204,12 +4460,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>MuirMP</Character_Name>
 					<Display_Name>MENU_CHAR_MUIR</Display_Name>
 					<Bitmap_Name>ui_mp_char_muir</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 124-->
+					<Unlock_Level>124</Unlock_Level>
 					<Persona_Group>Marauder Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -4302,307 +4557,8 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-
 <!--END MARAUDERS ON RF TEAM-->
-<!--START DLC CHARACTERS ADDED-->				
-				
-				<Character_Element>
-					<Character_Name>dlc_hess</Character_Name>
-					<Display_Name>Hess</Display_Name>
-					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 0-->
-					<Persona_Group>Marauder Male</Persona_Group>
-					<backpack_offsets>
-						<backpack>
-							<backpack_name>Commando</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0</Y>
-								<Z>-.01</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Fleetfoot</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>-.01</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Heal</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>-.02</Y>
-								<Z>.02</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Jetpack</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Kaboom</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Rhino</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Shockwave</backpack_name>
-							<backpack_offset>
-								<X>.01</X>
-								<Y>-.02</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Stealth</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Thrust</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>.02</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Tremor</backpack_name>
-							<backpack_offset>
-								<X>-.02</X>
-								<Y>0.0</Y>
-								<Z>-.04</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Vision</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>-.02</Y>
-								<Z>-.04</Z>
-							</backpack_offset>
-						</backpack>
-					</backpack_offsets>
-				</Character_Element>				
-				
-				<Character_Element>
-					<Character_Name>dlc_sam</Character_Name>
-					<Display_Name>DLC Samanya</Display_Name>
-					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
-					<Unlock_Level>95</Unlock_Level> <!--From 0-->
-					<Persona_Group>Guerrilla Female</Persona_Group>
-					<backpack_offsets>
-						<backpack>
-							<backpack_name>Commando</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0</Y>
-								<Z>-.01</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Fleetfoot</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>-.01</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Heal</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>-.02</Y>
-								<Z>.02</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Jetpack</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Kaboom</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Rhino</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Shockwave</backpack_name>
-							<backpack_offset>
-								<X>.01</X>
-								<Y>-.02</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Stealth</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Thrust</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>.02</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Tremor</backpack_name>
-							<backpack_offset>
-								<X>-.02</X>
-								<Y>0.0</Y>
-								<Z>-.04</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Vision</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>-.02</Y>
-								<Z>-.04</Z>
-							</backpack_offset>
-						</backpack>
-					</backpack_offsets>
-				</Character_Element>
-				
-				<Character_Element>
-					<Character_Name>dlc_vasha</Character_Name>
-					<Display_Name>Vasha</Display_Name>
-					<Bitmap_Name>ui_mp_char_torvald</Bitmap_Name>
-					<Unlock_Level>95</Unlock_Level> <!--From 0-->
-					<Persona_Group>Guerrilla Female</Persona_Group>
-					<backpack_offsets>
-						<backpack>
-							<backpack_name>Commando</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0</Y>
-								<Z>-.01</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Fleetfoot</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>-.01</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Heal</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>-.02</Y>
-								<Z>.02</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Jetpack</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Kaboom</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Rhino</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>0.0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Shockwave</backpack_name>
-							<backpack_offset>
-								<X>.01</X>
-								<Y>-.02</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Stealth</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>0</Y>
-								<Z>0</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Thrust</backpack_name>
-							<backpack_offset>
-								<X>0</X>
-								<Y>0.0</Y>
-								<Z>.02</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Tremor</backpack_name>
-							<backpack_offset>
-								<X>-.02</X>
-								<Y>0.0</Y>
-								<Z>-.04</Z>
-							</backpack_offset>
-						</backpack>
-						<backpack>
-							<backpack_name>Vision</backpack_name>
-							<backpack_offset>
-								<X>-.01</X>
-								<Y>-.02</Y>
-								<Z>-.04</Z>
-							</backpack_offset>
-						</backpack>
-					</backpack_offsets>
-				</Character_Element>
-
-<!--END DLC CHARACTERS ADDED-->
-<!--START NEW CHARACTERS ADDED-->				
-				
+<!--START NEW Characters ADDED-->
 				<Character_Element>
 					<Character_Name>Camie</Character_Name>
 					<Display_Name>Marauder Lady</Display_Name>
@@ -4700,12 +4656,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Debbie</Character_Name>
 					<Display_Name>Lab Lady</Display_Name>
 					<Bitmap_Name>ui_mp_char_selma</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level> <!--From 31-->
+					<Unlock_Level>31</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -4798,7 +4753,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Carmen</Character_Name>
 					<Display_Name>Carmen</Display_Name>
@@ -4896,7 +4850,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Jorge</Character_Name>
 					<Display_Name>Jenkins</Display_Name>
@@ -4909,23 +4862,23 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.12</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Tremor</backpack_name>
 							<backpack_offset>
-								<X>0</X>
-								<Y>0</Y>
-								<Z>-0.1</Z>
+								<X>-.02</X>
+								<Y>-.03</Y>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Thrust</backpack_name>
 							<backpack_offset>
 								<X>0</X>
-								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Y>0.0</Y>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -4933,7 +4886,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -4941,39 +4894,39 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.12</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Rhino</backpack_name>
 							<backpack_offset>
 								<X>0</X>
-								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Y>0.0</Y>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Kaboom</backpack_name>
 							<backpack_offset>
 								<X>0</X>
-								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Y>0.0</Y>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Jetpack</backpack_name>
 							<backpack_offset>
 								<X>0</X>
-								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Y>0.0</Y>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
 							<backpack_name>Heal</backpack_name>
 							<backpack_offset>
 								<X>0</X>
-								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Y>-.02</Y>
+								<Z>.02</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -4981,7 +4934,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -4989,19 +4942,19 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-0.1</Z>
+								<Z>0</Z>
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-
-<!--START Elegant Ian model swap-->
-				
+				<!--START Elegant Ian model swap-->
 				<Character_Element>
-					<Character_Name>Ian_Oasis</Character_Name> <!--From Ian-->
-					<Display_Name>Ian Oasis</Display_Name> <!--From MENU_CHAR_IAN-->
+					<Character_Name>Ian_Oasis</Character_Name>
+					<Display_Name>Elegant Ian</Display_Name>
+					<!--From Ian-->
+					<!--From MENU_CHAR_IAN-->
 					<Bitmap_Name>ui_mp_char_ian</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level> <!--From 60-->
+					<Unlock_Level>60</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -5094,7 +5047,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>jean_oasis</Character_Name>
 					<Display_Name>Elegant Jean</Display_Name>
@@ -5192,7 +5144,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Samanya</Character_Name>
 					<Display_Name>Samanya</Display_Name>
@@ -5290,7 +5241,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Mila_Oasis</Character_Name>
 					<Display_Name>Mila</Display_Name>
@@ -5388,12 +5338,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Debbie</Character_Name>
 					<Display_Name>Lab Lady</Display_Name>
 					<Bitmap_Name>ui_mp_char_selma</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level> <!--From 31-->
+					<Unlock_Level>31</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -5486,12 +5435,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Marie</Character_Name>
 					<Display_Name>Outcast</Display_Name>
 					<Bitmap_Name>ui_mp_char_blair</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level> <!--From 19-->
+					<Unlock_Level>19</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -5584,12 +5532,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>Rachel</Character_Name>
 					<Display_Name>Elegant Rachel</Display_Name>
 					<Bitmap_Name>ui_mp_char_rachel</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level> <!--From 79-->
+					<Unlock_Level>79</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -5682,9 +5629,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-
-<!--END NEW CHARACTERS ADDED-->
-				
+				<!--END NEW CHARACTERS ADDED-->
 				<Character_Element>
 					<Character_Name>MP_Dustin</Character_Name>
 					<Display_Name>MENU_CHAR_DUSTIN</Display_Name>
@@ -5693,7 +5638,6 @@
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>MP_Isaiah</Character_Name>
 					<Display_Name>MENU_CHAR_ISAIAH</Display_Name>
@@ -5791,7 +5735,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>MP_John</Character_Name>
 					<Display_Name>MENU_CHAR_JOHN</Display_Name>
@@ -5889,7 +5832,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>MP_Heidi</Character_Name>
 					<Display_Name>MENU_CHAR_HEIDI</Display_Name>
@@ -5987,12 +5929,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>mp_guerilla_engineer_mason</Character_Name>
 					<Display_Name>MENU_CHAR_MASON</Display_Name>
 					<Bitmap_Name>ui_mp_char_mason</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level> <!--From 3-->
+					<Unlock_Level>3</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -6085,12 +6026,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>MP_Dan</Character_Name>
 					<Display_Name>MENU_CHAR_DAN</Display_Name>
 					<Bitmap_Name>ui_mp_char_dan</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level> <!--From 16-->
+					<Unlock_Level>16</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -6183,7 +6123,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>MP_Jackson</Character_Name>
 					<Display_Name>MENU_CHAR_JACKSON</Display_Name>
@@ -6281,7 +6220,6 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>MP_Kyle</Character_Name>
 					<Display_Name>MENU_CHAR_KYLE</Display_Name>
@@ -6379,12 +6317,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>MP_OldCoot</Character_Name>
 					<Display_Name>MENU_CHAR_OLDCOOT</Display_Name>
 					<Bitmap_Name>ui_mp_char_oldcoot</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 98-->
+					<Unlock_Level>98</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
@@ -6477,12 +6414,11 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				
 				<Character_Element>
 					<Character_Name>MP_RFC</Character_Name>
 					<Display_Name>MENU_CHAR_RFC</Display_Name>
 					<Bitmap_Name>ui_mp_char_rfcommander</Bitmap_Name>
-					<Unlock_Level>100</Unlock_Level> <!--From 120-->
+					<Unlock_Level>120</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>

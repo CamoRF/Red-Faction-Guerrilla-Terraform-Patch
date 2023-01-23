@@ -20,7 +20,6 @@
 			<EffectMaterial>Terrain</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Carbon</Name>
 			<_Editor>
@@ -43,7 +42,6 @@
 			<EffectMaterial>Carbon</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Carbon-EDF</Name>
 			<_Editor>
@@ -67,7 +65,6 @@
 			<EffectMaterial>Carbon</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Cloth</Name>
 			<Suffix>cl</Suffix>
@@ -84,7 +81,6 @@
 			<EffectMaterial>Cloth</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Composite-Weak</Name>
 			<Density>1500</Density>
@@ -111,7 +107,6 @@
 			<EffectMaterial>Composite</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Composite-Normal</Name>
 			<Density>1750</Density>
@@ -136,7 +131,6 @@
 			<EffectMaterial>Composite</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Composite-Strong</Name>
 			<Density>2000</Density>
@@ -161,7 +155,6 @@
 			<EffectMaterial>Composite</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Concrete-Weak</Name>
 			<_Editor>
@@ -187,7 +180,6 @@
 			<EffectMaterial>Concrete</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Concrete-Normal</Name>
 			<_Editor>
@@ -213,7 +205,6 @@
 			<EffectMaterial>Concrete</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Concrete-Strong</Name>
 			<_Editor>
@@ -239,7 +230,6 @@
 			<EffectMaterial>Concrete</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Electronics-Weak</Name>
 			<Density>1500</Density>
@@ -265,7 +255,6 @@
 			<EffectMaterial>Electronics</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Flesh</Name>
 			<Density>500</Density>
@@ -290,7 +279,6 @@
 			<EffectMaterial>Flesh</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Glass-Weak</Name>
 			<Density>2500</Density>
@@ -318,7 +306,6 @@
 			<EffectMaterial>Glass</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Ice-Normal</Name>
 			<_Editor>
@@ -342,7 +329,6 @@
 			<EffectMaterial>Ice</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Indestructo</Name>
 			<Suffix>in</Suffix>
@@ -358,7 +344,6 @@
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Plastic-Normal</Name>
 			<Suffix>pl</Suffix>
@@ -384,7 +369,6 @@
 			<EffectMaterial>Plastic</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Plastic-Weak</Name>
 			<Suffix>pl</Suffix>
@@ -411,7 +395,6 @@
 			<EffectMaterial>Plastic</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Rubber</Name>
 			<_Editor>
@@ -433,7 +416,6 @@
 			<EffectMaterial>Rubber</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Steel-Weak</Name>
 			<Density>2000</Density>
@@ -459,7 +441,6 @@
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Steel-Normal</Name>
 			<Density>2500</Density>
@@ -483,7 +464,6 @@
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Steel-StrongLight</Name>
 			<_Editor>
@@ -507,7 +487,6 @@
 			<NoShowMax>False</NoShowMax>
 			<Brittleness>0.5</Brittleness>
 		</Material>
-		
 		<Material>
 			<Name>Steel-Strong</Name>
 			<_Editor>
@@ -531,7 +510,6 @@
 			<NoShowMax>False</NoShowMax>
 			<Brittleness>0.25</Brittleness>
 		</Material>
-		
 		<Material>
 			<Name>Steel-SuperStrong</Name>
 			<_Editor>
@@ -555,7 +533,6 @@
 			<NoShowMax>False</NoShowMax>
 			<Brittleness>0.1</Brittleness>
 		</Material>
-		
 		<Material>
 			<Name>Stone-Normal</Name>
 			<_Editor>
@@ -580,7 +557,6 @@
 			<EffectMaterial>Stone</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Stone-StrongLight</Name>
 			<_Editor>
@@ -605,7 +581,6 @@
 			<EffectMaterial>Stone</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>Stone-Indestructo</Name>
 			<_Editor>
@@ -622,7 +597,6 @@
 			<EffectMaterial>Stone</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
 		</Material>
-		
 		<Material>
 			<Name>EOS-Glass</Name>
 			<Density>500</Density>

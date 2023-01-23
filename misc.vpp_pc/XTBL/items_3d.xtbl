@@ -1,324 +1,18 @@
 <root>
 	<Table>
+<!--START DLC Characters ADDED-->
 		<Item>
-			<Name>nothing</Name>
-			<Item_Flags>
-				<Flag>ignore_physics</Flag>
-			</Item_Flags>
-			<Spin_Time>5000</Spin_Time>
-			<Mesh>
-				<Filename>null_weapon.smeshx</Filename>
-			</Mesh>
-			<streaming_category>General</streaming_category>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Item>
-		<Item>
-			<Name>harpoon_projectile</Name>
-			<Mass>1</Mass>
-			<Respawn_Delay>5000</Respawn_Delay>
-			<_Editor>
-				<Category>Entries:Turrets</Category>
-			</_Editor>
-			<Item_Flags>
-				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-			</Item_Flags>
-			<Spin_Time>5000</Spin_Time>
-			<streaming_category>General</streaming_category>
-			<Mesh>
-				<Filename>harpoon.smeshx</Filename>
-			</Mesh>
-		</Item>
-		<Item>
-			<Name>fist</Name>
-			<Mass>.05</Mass>
-			<Respawn_Delay>5000</Respawn_Delay>
-			<_Editor>
-				<Category>Entries:WeaponGuerilla</Category>
-			</_Editor>
-			<Item_Flags>
-				<Flag>collide_as_box</Flag>
-			</Item_Flags>
-			<Spin_Time>5000</Spin_Time>
-			<Mesh>
-				<Filename>remote_detonator.smeshx</Filename>
-			</Mesh>
-			<pickup_static_mesh>
-				<Filename>remote_charge_pickup.smeshx</Filename>
-			</pickup_static_mesh>
-			<character_mesh>
-				<character_mesh>
-					<Filename>remote_mine_chrg.cmeshx</Filename>
-				</character_mesh>
-				<rig>
-					<Filename>remote_mine_chrg.rigx</Filename>
-				</rig>
-				<Anim_set>Weap_RM</Anim_set>
-			</character_mesh>
-			<Collision_Sound>WEP_CHARGE_PLANT</Collision_Sound>
-			<streaming_category>Multiplayer</streaming_category>
-			<Touch_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound>
-			<Touch_Sound_2>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound_2>
-		</Item>
-		<Item>
-			<Name>gre_mp</Name>
-			<_Editor>
-				<Category>Entries:WeaponGuerilla</Category>
-			</_Editor>
-			<Spin_Time>5000</Spin_Time>
-			<Touch_Script>give_item</Touch_Script>
-			<Respawn_Delay>45000</Respawn_Delay>
-			<Item_Flags>
-				<Flag>spin</Flag>
-				<Flag>high_res_map_large</Flag>
-			</Item_Flags>
-			<streaming_category>Multiplayer</streaming_category>
-			<Collision_Sound>WEP_GRENADE_IMPACT</Collision_Sound>
-			<!--ADDED-->
-			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
-			<!--From SYS_WEP_CHARGE_AMMO_PICKUP-->
-			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
-			<!--From SYS_WEP_CHARGE_AMMO_PICKUP-->
-			<Mesh>
-				<Filename>edf_grenade.SMESHX</Filename>
-			</Mesh>
-			<pickup_static_mesh>
-				<Filename>edf_grenade.SMESHX</Filename>
-			</pickup_static_mesh>
-			<character_mesh>
-				<character_mesh>
-					<Filename>edf_grenade.SMESHX</Filename>
-				</character_mesh>
-				<rig>
-					<Filename>remote_mine_chrg.rigx</Filename>
-				</rig>
-				<Anim_set>Weap_RM</Anim_set>
-			</character_mesh>
-		</Item>
-		<Item>
-			<Name>dlc_mar_remote_charge</Name>
-			<Mass>.05</Mass>
-			<Respawn_Delay>5000</Respawn_Delay>
-			<_Editor>
-				<Category>Entries:WeaponMarauder</Category>
-			</_Editor>
-			<Item_Flags>
-				<Flag>collide_as_box</Flag>
-			</Item_Flags>
-			<Spin_Time>5000</Spin_Time>
-			<Collision_Sound>WEP_CHARGE_PLANT</Collision_Sound>
-			<streaming_category>General</streaming_category>
-			<Touch_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound>
-			<Touch_Sound_2>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound_2>
-			<character_mesh>
-				<character_mesh>
-					<Filename>dlc_marauder_charge.cmeshx</Filename>
-				</character_mesh>
-				<rig>
-					<Filename>dlc_marauder_charge.rigx</Filename>
-				</rig>
-				<Anim_set>Weap_RM</Anim_set>
-				<!--From None-->
-			</character_mesh>
-		</Item>
-		<Item>
-			<Name>dlc_mar_charge_placer</Name>
-			<_Editor>
-				<Category>Entries:WeaponMarauder</Category>
-			</_Editor>
-			<Spin_Time>5000</Spin_Time>
-			<Props>
-				<Prop>
-					<Name>mar_remote_charge</Name>
-					<Type>ammo</Type>
-				</Prop>
-			</Props>
-			<Touch_Script>give_item</Touch_Script>
-			<Respawn_Delay>45000</Respawn_Delay>
-			<Item_Flags>
-				<Flag>spin</Flag>
-			</Item_Flags>
-			<streaming_category>General</streaming_category>
-			<Touch_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound>
-			<Touch_Sound_2>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound_2>
-			<Mesh>
-				<Filename>dlc_mdr_detonator.smeshx</Filename>
-			</Mesh>
-			<pickup_static_mesh>
-				<Filename>dlc_marauder_charge_pickup.smeshx</Filename>
-			</pickup_static_mesh>
-		</Item>
-		<Item>
-			<Name>dlc_spiker_projectile</Name>
-			<Item_Flags>
-				<Flag>collide_as_box</Flag>
-			</Item_Flags>
-			<Spin_Time>5000</Spin_Time>
-			<Mesh>
-				<Filename>spiker_projectile.smeshx</Filename>
-			</Mesh>
-			<Mass>1</Mass>
-			<Respawn_Delay>5000</Respawn_Delay>
-			<streaming_category>Multiplayer</streaming_category>
-			<!--From General-->
-			<_Editor>
-				<Category>Entries:Projectiles</Category>
-			</_Editor>
-		</Item>
-		<Item>
-			<Name>dlc_pickaxe</Name>
-			<_Editor>
-				<Category>Entries:Hammers</Category>
-			</_Editor>
-			<Spin_Time>5000</Spin_Time>
-			<streaming_category>General</streaming_category>
-			<Touch_Script>give_item</Touch_Script>
-			<Mesh>
-				<Filename>dlc_pickaxe.smeshx</Filename>
-			</Mesh>
-			<Item_Flags>
-				<Flag>high_res_map_large</Flag>
-			</Item_Flags>
-			<MaterialEffect>invulnerability</MaterialEffect>
-			<pickup_static_mesh>
-				<Filename>dlc_pickaxe.smeshx</Filename>
-			</pickup_static_mesh>
-			<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>
-		</Item>
-		<Item>
-			<Name>dlc_royal_sword</Name>
-			<Item_Flags>
-				<!--<Flag>spin</Flag>-->
-			</Item_Flags>
-			<Spin_Time>5000</Spin_Time>
-			<Mesh>
-				<Filename>dlc_royal_sword.smeshx</Filename>
-			</Mesh>
-			<pickup_static_mesh>
-				<Filename>dlc_royal_sword.smeshx</Filename>
-			</pickup_static_mesh>
-			<Touch_Script>give_item</Touch_Script>
-			<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>
-			<Respawn_Delay>30000</Respawn_Delay>
-			<streaming_category>General</streaming_category>
-			<_Editor>
-				<Category>Entries:WeaponMarauder</Category>
-			</_Editor>
-		</Item>
-		<Item>
-			<Name>dlc_spiker</Name>
-			<Touch_Script>give_item</Touch_Script>
-			<Respawn_Delay>60000</Respawn_Delay>
-			<_Editor>
-				<Category>Entries:WeaponMarauder</Category>
-			</_Editor>
-			<Spin_Time>5000</Spin_Time>
-			<Props>
-				<Prop>
-					<Name>rail_clip</Name>
-					<Attach_tag>Attach_Clip</Attach_tag>
-					<Type>clip</Type>
-				</Prop>
-				<Prop>
-					<Name>rail_power_pack</Name>
-					<Attach_tag>Attach_Pack</Attach_tag>
-					<Type>accessory_misc</Type>
-				</Prop>
-			</Props>
-			<Item_Flags>
-				<Flag>spin</Flag>
-				<Flag>high_res_map_large</Flag>
-			</Item_Flags>
-			<streaming_category>General</streaming_category>
-			<Mesh>
-				<Filename>spiker_rifle.smeshx</Filename>
-			</Mesh>
-			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
-			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
-			<pickup_static_mesh>
-				<Filename>spiker_rifle.smeshx</Filename>
-				<!--From spiker_rifle_pickup.smeshx-->
-			</pickup_static_mesh>
-		</Item>
-		<!--END-->
-		<!--START Added DLC Characters-->
-		<Item>
-			<Name>Sam_DLC_Cape</Name>
+			<Name>dlc_vasha_skirt</Name>
 			<Item_Flags>
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<character_mesh>
 				<character_mesh>
-					<Filename>sam_dlc_cape.cmeshx</Filename>
+					<Filename>dlc_vasha_skirt.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>sam_dlc_cape.rigx</Filename>
-				</rig>
-				<Anim_set>none</Anim_set>
-			</character_mesh>
-			<streaming_category>Character prop mesh only</streaming_category>
-			<_Editor>
-				<Category>Character Props:Sam_DLC</Category>
-			</_Editor>
-		</Item>
-		<Item>
-			<Name>Sam_DLC_Skirt</Name>
-			<Item_Flags>
-				<Flag>inherit_bone_transforms</Flag>
-			</Item_Flags>
-			<Spin_Time>5000</Spin_Time>
-			<character_mesh>
-				<character_mesh>
-					<Filename>sam_dlc_skirt.cmeshx</Filename>
-				</character_mesh>
-				<rig>
-					<Filename>sam_dlc_skirt.rigx</Filename>
-				</rig>
-				<Anim_set>none</Anim_set>
-			</character_mesh>
-			<streaming_category>Character prop mesh only</streaming_category>
-			<_Editor>
-				<Category>Character Props:Sam_DLC</Category>
-			</_Editor>
-		</Item>
-		<Item>
-			<Name>Sam_DLC_Hair</Name>
-			<Item_Flags>
-				<Flag>inherit_bone_transforms</Flag>
-			</Item_Flags>
-			<Spin_Time>5000</Spin_Time>
-			<character_mesh>
-				<character_mesh>
-					<Filename>sam_dlc_hair.cmeshx</Filename>
-				</character_mesh>
-				<rig>
-					<Filename>sam_dlc_hair.rigx</Filename>
-				</rig>
-				<Anim_set>none</Anim_set>
-			</character_mesh>
-			<streaming_category>Character prop mesh only</streaming_category>
-			<_Editor>
-				<Category>Character Props:Sam_DLC</Category>
-			</_Editor>
-		</Item>
-		<Item>
-			<Name>vasha_skirt</Name>
-			<Item_Flags>
-				<Flag>inherit_bone_transforms</Flag>
-			</Item_Flags>
-			<Spin_Time>5000</Spin_Time>
-			<character_mesh>
-				<character_mesh>
-					<Filename>vasha_skirt.cmeshx</Filename>
-				</character_mesh>
-				<rig>
-					<Filename>vasha_skirt.rigx</Filename>
+					<Filename>dlc_vasha_skirt.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -328,58 +22,58 @@
 			</_Editor>
 		</Item>
 		<Item>
-			<Name>Hess_CalfWrap_L</Name>
+			<Name>dlc_hess_CalfWrap_L</Name>
 			<Spin_Time>5000</Spin_Time>
 			<_Editor>
 				<Category>Character Props:Hess</Category>
 			</_Editor>
 			<Mesh>
-				<Filename>hess_calfwrap_l.smeshx</Filename>
+				<Filename>dlc_hess_calfwrap_l.smeshx</Filename>
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
 		<Item>
-			<Name>Hess_BootCover_L</Name>
+			<Name>dlc_hess_BootCover_L</Name>
 			<Spin_Time>5000</Spin_Time>
 			<_Editor>
 				<Category>Character Props:Hess</Category>
 			</_Editor>
 			<Mesh>
-				<Filename>hess_bootcover_l.smeshx</Filename>
+				<Filename>dlc_hess_bootcover_l.smeshx</Filename>
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
 		<Item>
-			<Name>Hess_KnifeCalf_R</Name>
+			<Name>dlc_hess_KnifeCalf_R</Name>
 			<Spin_Time>5000</Spin_Time>
 			<_Editor>
 				<Category>Character Props:Hess</Category>
 			</_Editor>
 			<Mesh>
-				<Filename>hess_knifecalf_l.smeshx</Filename>
+				<Filename>dlc_hess_knifecalf_l.smeshx</Filename>
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
 		<Item>
-			<Name>Hess_BootCover_R</Name>
+			<Name>dlc_hess_BootCover_R</Name>
 			<Spin_Time>5000</Spin_Time>
 			<_Editor>
 				<Category>Character Props:Hess</Category>
 			</_Editor>
 			<Mesh>
-				<Filename>hess_bootcover_r.smeshx</Filename>
+				<Filename>dlc_hess_bootcover_r.smeshx</Filename>
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
 		<Item>
-			<Name>Hess_Helmet</Name>
+			<Name>dlc_hess_Helmet</Name>
 			<Spin_Time>5000</Spin_Time>
 			<character_mesh>
 				<character_mesh>
-					<Filename>hess_helmet.cmeshx</Filename>
+					<Filename>dlc_hess_helmet.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>hess_helmet.rigx</Filename>
+					<Filename>dlc_hess_helmet.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -392,17 +86,17 @@
 			</Item_Flags>
 		</Item>
 		<Item>
-			<Name>Hess_Props</Name>
+			<Name>dlc_hess_Props</Name>
 			<Item_Flags>
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<character_mesh>
 				<character_mesh>
-					<Filename>hess_props.cmeshx</Filename>
+					<Filename>dlc_hess_props.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>hess_props.rigx</Filename>
+					<Filename>dlc_hess_props.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 				<Filename></Filename>
@@ -412,8 +106,67 @@
 			</_Editor>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
-		<!--END Added DLC Characters-->
-		<!--START Added DLC Weapons-->
+		<Item>
+			<Name>dlc_sam_Cape</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>dlc_sam_cape.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>dlc_sam_cape.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+			<_Editor>
+				<Category>Character Props:Sam_DLC</Category>
+			</_Editor>
+		</Item>
+		<Item>
+			<Name>dlc_sam_Skirt</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>dlc_sam_skirt.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>dlc_sam_skirt.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+			<_Editor>
+				<Category>Character Props:Sam_DLC</Category>
+			</_Editor>
+		</Item>
+		<Item>
+			<Name>dlc_sam_Hair</Name>
+			<Item_Flags>
+				<Flag>inherit_bone_transforms</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<character_mesh>
+				<character_mesh>
+					<Filename>dlc_sam_hair.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>dlc_sam_hair.rigx</Filename>
+				</rig>
+				<Anim_set>none</Anim_set>
+			</character_mesh>
+			<streaming_category>Character prop mesh only</streaming_category>
+			<_Editor>
+				<Category>Character Props:Sam_DLC</Category>
+			</_Editor>
+		</Item>
+<!--START DLC Weapons ADDED-->		
 		<Item>
 			<Name>EDF_Super_Gauss</Name>
 			<Item_Flags>
@@ -480,8 +233,7 @@
 			<Item_Flags>
 				<!--<Flag>fast_cleanup</Flag>-->
 				<!--<Flag>no_auto_delete</Flag>-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -524,11 +276,11 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--Removed for stability-->
-				<!--<Flag>no_auto_delete</Flag><Flag>no_pickup_delete</Flag>-->
+				<!--<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>-->
 			</Item_Flags>
 		</Item>
-		<!--END Added DLC Weapons-->
+<!--END Added DLC Weapons-->
 		<Item>
 			<Name>Lawrence_Eos_Coat</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -834,14 +586,11 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>fast_cleanup</Flag>-->
 				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<Flag>collide_as_mover</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<!--<Flag>fast_cleanup</Flag>-->
+				<Flag>no_auto_delete</Flag> <!--Added-->
+				<Flag>collide_as_mover</Flag> <!--Added-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -2050,7 +1799,7 @@
 			<streaming_category>General</streaming_category>
 			<Item_Flags>
 				<Flag>high_res_map_large</Flag>
-				<!--<Flag>spin</Flag>-->
+				<Flag>spin</Flag>
 			</Item_Flags>
 			<pickup_static_mesh>
 				<Filename>gutter_pickup.smeshx</Filename>
@@ -2273,9 +2022,10 @@
 			<Touch_Sound>SYS_WEP_RPG_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_RPG_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
+				<!--Added All Flags-->
+				<!--<Flag>collide_as_box</Flag>-->
 				<!--<Flag>no_auto_delete</Flag>-->
 				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2808,6 +2558,8 @@
 			<Item_Flags>
 				<!--<Flag>fast_cleanup</Flag>-->
 				<!--Removed-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<!--Added-->
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 			</Item_Flags>
@@ -2874,10 +2626,7 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<!--<Flag>no_auto_delete</Flag><Flag>no_pickup_delete</Flag>-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -2986,11 +2735,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
 				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -3060,6 +2806,7 @@
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 		</Item>
+		<!--START Propane Tank-->
 		<Item>
 			<Name>propane_tank</Name>
 			<Touch_Script>ask_pickup</Touch_Script>
@@ -3070,9 +2817,7 @@
 				<Flag>collide_as_cylinder</Flag>
 				<Flag>collide_as_mover</Flag>
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
 				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
 				<Flag>use_pickup</Flag>
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
@@ -3094,6 +2839,7 @@
 			</Damage_Info>
 			<Explosion>propane_tank</Explosion>
 		</Item>
+		<!--END Propane Tank-->
 		<Item>
 			<Name>Marie_Hair_Short</Name>
 			<Item_Flags></Item_Flags>
@@ -3177,6 +2923,10 @@
 			<Name>sh_thermobaric_rockets</Name>
 			<Item_Flags>
 				<Flag>ignore_physics</Flag>
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<character_mesh>
@@ -3211,6 +2961,7 @@
 				<!--<Flag>fast_cleanup</Flag>-->
 				<!--Removed-->
 				<!--<Flag>no_auto_delete</Flag>-->
+				<!--Added-->
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 			</Item_Flags>
@@ -3362,9 +3113,7 @@
 				<Flag>collide_as_mover</Flag>
 				<Flag>is_ammo_box</Flag>
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
 				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -3410,10 +3159,9 @@
 			<Touch_Arg1>2</Touch_Arg1>
 			<MaterialEffect>salvage_sheen</MaterialEffect>
 			<Item_Flags>
+				<!--Flags Added-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
 				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -3560,11 +3308,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<!--<Flag>fast_cleanup</Flag>-->
-				<!--Removed-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
 				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -3742,10 +3487,28 @@
 			<Mesh>
 				<Filename>harpoon_turret_col.smeshx</Filename>
 			</Mesh>
-			<Touch_Script>give_item</Touch_Script>
-			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
-			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 		</Item>
+		<!--START Harpoon Projectile-->
+		<Item>
+			<Name>harpoon_projectile</Name>
+			<Mass>1</Mass>
+			<Respawn_Delay>5000</Respawn_Delay>
+			<_Editor>
+				<Category>Entries:Turrets</Category>
+			</_Editor>
+			<Item_Flags>
+				<Flag>collide_as_box</Flag>
+				<Flag>no_auto_delete</Flag>
+				<!--Added-->
+				<Flag>no_pickup_delete</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<streaming_category>General</streaming_category>
+			<Mesh>
+				<Filename>harpoon.smeshx</Filename>
+			</Mesh>
+		</Item>
+		<!--END Harpoon Projectile-->
 		<Item>
 			<Name>harpoon_turret_head_corpse</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -3918,11 +3681,11 @@
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
 				<Flag>collide_as_mover</Flag>
-				<!--Added-->
+				<!--Added?-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
+				<!--Added?-->
 				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
+				<!--Added?-->
 				<Flag>use_pickup</Flag>
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
@@ -4301,8 +4064,6 @@
 				<!--Added-->
 				<Flag>use_pickup</Flag>
 				<!--Added-->
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>Environmental</streaming_category>
@@ -4328,8 +4089,6 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>Environmental</streaming_category>
@@ -4360,14 +4119,12 @@
 			<MaterialEffect>salvage_sheen</MaterialEffect>
 			<Item_Flags>
 				<Flag>spin</Flag>
+				<!--Flags Added-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
 				<Flag>no_pickup_delete</Flag>
-				<!--Added-->
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 		</Item>
+		<!--<Item><Name>amb_rock</Name><_Editor><Category>Ambient Props</Category></_Editor><Item_Flags><Flag>collide_as_box</Flag><Flag>fast_cleanup</Flag></Item_Flags><Spin_Time>5000</Spin_Time><streaming_category>General</streaming_category><Mesh><Filename>amb_rock.smeshx</Filename></Mesh><Collision_Sound>OBJ_LINKED_ROCK_01</Collision_Sound></Item>-->
 		<Item>
 			<Name>amb_rock</Name>
 			<Touch_Script>ask_pickup</Touch_Script>
@@ -4376,14 +4133,10 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_cylinder</Flag>
-				<!--Added-->
 				<Flag>collide_as_mover</Flag>
-				<!--Added-->
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -4419,8 +4172,6 @@
 			<Item_Flags>
 				<Flag>spin</Flag>
 				<Flag>high_res_map_large</Flag>
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<streaming_category>General</streaming_category>
 			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
@@ -4447,8 +4198,6 @@
 			<Item_Flags>
 				<Flag>spin</Flag>
 				<Flag>high_res_map_large</Flag>
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<streaming_category>General</streaming_category>
 			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
@@ -4462,8 +4211,6 @@
 			<Item_Flags>
 				<Flag>no_auto_delete</Flag>
 				<Flag>collide_as_box</Flag>
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<Mesh>
@@ -4479,8 +4226,6 @@
 			<Name>g_turret_middle</Name>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<Mesh>
@@ -4505,8 +4250,6 @@
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
 				<!--Added-->
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -4528,8 +4271,6 @@
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<!--Added-->
 				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
@@ -4593,8 +4334,6 @@
 				<!--Added-->
 				<!--<Flag>no_auto_delete</Flag>-->
 				<!--Added-->
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -4615,8 +4354,6 @@
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 				<!--<Flag>no_auto_delete</Flag>-->
-				<!--Added-->
-				<!--Added-->
 				<!--Added-->
 			</Item_Flags>
 		</Item>
@@ -4787,8 +4524,6 @@
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
 				<!--Added-->
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -4826,8 +4561,6 @@
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
 				<Flag>inherit_bone_transforms</Flag>
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<Touch_Script>give_backpack</Touch_Script>
 			<character_mesh>
@@ -5431,8 +5164,6 @@
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
 				<!--Added-->
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -5455,8 +5186,6 @@
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<!--Added-->
 				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
@@ -5481,8 +5210,6 @@
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
 				<!--Added-->
-				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -5505,8 +5232,6 @@
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<!--Added-->
 				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
@@ -5531,7 +5256,6 @@
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
 				<!--Added-->
-				<!--Added-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -5539,6 +5263,22 @@
 				<Filename>amb_fork.smeshx</Filename>
 			</Mesh>
 		</Item>
+		<!--START NILL Mesh-->
+		<Item>
+			<Name>nothing</Name>
+			<Item_Flags>
+				<Flag>ignore_physics</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<Mesh>
+				<Filename>null_weapon.smeshx</Filename>
+			</Mesh>
+			<streaming_category>General</streaming_category>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Item>
+		<!--END NILL Mesh-->
 		<Item>
 			<Name>sledge_upgrade_4</Name>
 			<_Editor>
@@ -6342,6 +6082,7 @@
 				<Category>Entries:Salvage</Category>
 			</_Editor>
 			<Item_Flags>
+				<!--Flags Added-->
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
@@ -6363,10 +6104,10 @@
 				<Category>Entries:Salvage</Category>
 			</_Editor>
 			<Item_Flags>
+				<!--Flags Added-->
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
 				<!--Added-->
 			</Item_Flags>
 			<streaming_category>General</streaming_category>
@@ -6385,10 +6126,10 @@
 				<Category>Entries:Salvage</Category>
 			</_Editor>
 			<Item_Flags>
+				<!--Flags Added-->
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
 				<!--Added-->
 			</Item_Flags>
 			<streaming_category>General</streaming_category>
@@ -6407,11 +6148,10 @@
 				<Category>Entries:Salvage</Category>
 			</_Editor>
 			<Item_Flags>
+				<!--Flags Added-->
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
-				<!--Added-->
 				<!--Added-->
 			</Item_Flags>
 			<streaming_category>General</streaming_category>
@@ -6430,10 +6170,10 @@
 				<Category>Entries:Salvage</Category>
 			</_Editor>
 			<Item_Flags>
+				<!--Flags Added-->
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
 				<!--Added-->
 			</Item_Flags>
 			<streaming_category>General</streaming_category>
@@ -6452,10 +6192,10 @@
 				<Category>Entries:Salvage</Category>
 			</_Editor>
 			<Item_Flags>
+				<!--Flags Added-->
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
-				<!--Added-->
 				<!--Added-->
 			</Item_Flags>
 			<streaming_category>General</streaming_category>
@@ -6474,6 +6214,7 @@
 				<Category>Entries:Salvage</Category>
 			</_Editor>
 			<Item_Flags>
+				<!--Flags Added-->
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
@@ -6495,6 +6236,7 @@
 				<Category>Entries:Salvage</Category>
 			</_Editor>
 			<Item_Flags>
+				<!--Flags Added-->
 				<Flag>no_pickup_delete</Flag>
 				<!--Added-->
 				<Flag>no_auto_delete</Flag>
@@ -6838,6 +6580,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
+		<!--START Streaming MP-->
 		<Element>
 			<Name>streaming_category</Name>
 			<Type>Selection</Type>
@@ -6852,6 +6595,7 @@
 			<Choice>Character prop mesh only</Choice>
 			<Choice>MP and WC backpack</Choice>
 		</Element>
+		<!--END Streaming MP-->
 		<Element>
 			<Name>MaterialEffect</Name>
 			<Type>Reference</Type>

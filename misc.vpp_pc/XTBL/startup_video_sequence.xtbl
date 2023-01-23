@@ -32,7 +32,7 @@
 						<Filename>legal_hd.bik</Filename>
 					</Video_File>
 					<Video_Flags>
-						<Flag>skip_on_user_input</Flag> <!--Added-->
+						<Flag>skip_on_user_input</Flag> <!--Added-->					
 					</Video_Flags>
 				</Video>
 			</Video_List>

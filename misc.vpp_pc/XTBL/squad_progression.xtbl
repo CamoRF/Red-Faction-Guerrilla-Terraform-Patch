@@ -7,7 +7,8 @@
 				<progression_properties>
 					<squad_property>
 						<human_type>EDF_Grunt_Braun</human_type>
-						<weapon_type>Subverter</weapon_type> <!--<weapon_type>Pistol</weapon_type>-->
+						<!--<weapon_type>Subverter</weapon_type>-->
+						<weapon_type>Pistol</weapon_type>
 						<spawn_weight>20</spawn_weight>
 					</squad_property>
 					<squad_property>
@@ -40,87 +41,12 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			
-			<squad_level_2>
-				<progression_properties>
-					<squad_property>
-						<human_type>EDF_Trooper</human_type>
-						<weapon_type>Assault Rifle and Grenade</weapon_type>
-						<spawn_weight>30</spawn_weight>
-					</squad_property>
-					<squad_property>
-						<human_type>EDF_Trooper</human_type>
-						<weapon_type>Subverter</weapon_type> <!--<weapon_type>Assault Rifle</weapon_type>-->
-						<spawn_weight>25</spawn_weight>
-					</squad_property>
-					<squad_property>
-						<human_type>EDF_Trooper</human_type>
-						<weapon_type>AutoBlaster</weapon_type>
-						<spawn_weight>15</spawn_weight>
-					</squad_property>
-					<squad_property>
-						<human_type>EDF_Grunt_Braun</human_type>
-						<weapon_type>Assault Rifle</weapon_type>
-						<spawn_weight>10</spawn_weight>
-					</squad_property>
-					<squad_property>
-						<human_type>EDF_Grunt_Braun</human_type>
-						<weapon_type>Pistol and Grenade</weapon_type>
-						<spawn_weight>10</spawn_weight>
-					</squad_property>
-					<squad_property>
-						<human_type>EDF_Grunt_Braun</human_type>
-						<weapon_type>Pistol</weapon_type>
-						<spawn_weight>10</spawn_weight>
-					</squad_property>
-				</progression_properties>
-			</squad_level_2>
-			
-			<squad_level_3>
-				<progression_properties>
-					<squad_property>
-						<human_type>EDF_Trooper</human_type>
-						<weapon_type>Enforcer</weapon_type>
-						<spawn_weight>20</spawn_weight>
-					</squad_property>
-					<squad_property>
-						<human_type>EDF_Trooper</human_type>
-						<weapon_type>AutoBlaster</weapon_type>
-						<spawn_weight>20</spawn_weight>
-					</squad_property>
-					<squad_property>
-						<human_type>EDF_Trooper</human_type>
-						<weapon_type>AutoBlaster and Grenade</weapon_type>
-						<spawn_weight>15</spawn_weight>
-					</squad_property>
-					<squad_property>
-						<human_type>EDF_Trooper</human_type>
-						<weapon_type>Assault Rifle and Grenade</weapon_type>
-						<spawn_weight>15</spawn_weight>
-					</squad_property>
-					<squad_property>
-						<human_type>EDF_Trooper</human_type>
-						<weapon_type>Assault Rifle</weapon_type>
-						<spawn_weight>10</spawn_weight>
-					</squad_property>
-					<squad_property>
-						<human_type>EDF_Officer_May</human_type>
-						<weapon_type>AutoBlaster and Grenade</weapon_type>
-						<spawn_weight>10</spawn_weight>
-					</squad_property>
-					<squad_property>
-						<human_type>EDF_Officer_May</human_type>
-						<weapon_type>Subverter</weapon_type> <!--<weapon_type>Assault Rifle and Grenade</weapon_type>-->
-						<spawn_weight>10</spawn_weight>
-					</squad_property>
-				</progression_properties>
-			</squad_level_3>			
-			
 			<squad_level_4>
 				<progression_properties>
 					<squad_property>
 						<human_type>EDF_Elite</human_type>
-						<weapon_type>Subverter</weapon_type> <!--<weapon_type>Enforcer</weapon_type>-->
+						<weapon_type>Enforcer</weapon_type>
+						<!--<weapon_type>Subverter</weapon_type>-->
 						<spawn_weight>25</spawn_weight>
 					</squad_property>
 					<squad_property>
@@ -160,7 +86,81 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_4>
-			
+			<squad_level_2>
+				<progression_properties>
+					<squad_property>
+						<human_type>EDF_Trooper</human_type>
+						<weapon_type>Assault Rifle and Grenade</weapon_type>
+						<spawn_weight>30</spawn_weight>
+					</squad_property>
+					<squad_property>
+						<human_type>EDF_Trooper</human_type>
+						<weapon_type>Assault Rifle</weapon_type>
+						<!--<weapon_type>Subverter</weapon_type>-->
+						<spawn_weight>25</spawn_weight>
+					</squad_property>
+					<squad_property>
+						<human_type>EDF_Trooper</human_type>
+						<weapon_type>AutoBlaster</weapon_type>
+						<spawn_weight>15</spawn_weight>
+					</squad_property>
+					<squad_property>
+						<human_type>EDF_Grunt_Braun</human_type>
+						<weapon_type>Assault Rifle</weapon_type>
+						<spawn_weight>10</spawn_weight>
+					</squad_property>
+					<squad_property>
+						<human_type>EDF_Grunt_Braun</human_type>
+						<weapon_type>Pistol and Grenade</weapon_type>
+						<spawn_weight>10</spawn_weight>
+					</squad_property>
+					<squad_property>
+						<human_type>EDF_Grunt_Braun</human_type>
+						<weapon_type>Pistol</weapon_type>
+						<spawn_weight>10</spawn_weight>
+					</squad_property>
+				</progression_properties>
+			</squad_level_2>
+			<squad_level_3>
+				<progression_properties>
+					<squad_property>
+						<human_type>EDF_Trooper</human_type>
+						<weapon_type>Enforcer</weapon_type>
+						<spawn_weight>20</spawn_weight>
+					</squad_property>
+					<squad_property>
+						<human_type>EDF_Trooper</human_type>
+						<weapon_type>AutoBlaster</weapon_type>
+						<spawn_weight>20</spawn_weight>
+					</squad_property>
+					<squad_property>
+						<human_type>EDF_Trooper</human_type>
+						<weapon_type>AutoBlaster and Grenade</weapon_type>
+						<spawn_weight>15</spawn_weight>
+					</squad_property>
+					<squad_property>
+						<human_type>EDF_Trooper</human_type>
+						<weapon_type>Assault Rifle and Grenade</weapon_type>
+						<spawn_weight>15</spawn_weight>
+					</squad_property>
+					<squad_property>
+						<human_type>EDF_Trooper</human_type>
+						<weapon_type>Assault Rifle</weapon_type>
+						<spawn_weight>10</spawn_weight>
+					</squad_property>
+					<squad_property>
+						<human_type>EDF_Officer_May</human_type>
+						<weapon_type>AutoBlaster and Grenade</weapon_type>
+						<spawn_weight>10</spawn_weight>
+					</squad_property>
+					<squad_property>
+						<human_type>EDF_Officer_May</human_type>
+						<weapon_type>Assault Rifle and Grenade</weapon_type>
+						<!--<weapon_type>Subverter</weapon_type>-->
+						<spawn_weight>10</spawn_weight>
+					</squad_property>
+				</progression_properties>
+			</squad_level_3>
 			<squad_level_5>
 				<progression_properties>
 					<squad_property>
@@ -190,7 +190,8 @@
 					</squad_property>
 					<squad_property>
 						<human_type>EDF_Elite_Riot_Shield</human_type>
-						<weapon_type>Subverter</weapon_type> <!--<weapon_type>AutoBlaster</weapon_type>-->
+						<weapon_type>AutoBlaster</weapon_type>
+						<!--<weapon_type>Subverter</weapon_type>-->
 						<spawn_weight>10</spawn_weight>
 					</squad_property>
 					<squad_property>
@@ -205,7 +206,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_5>
-			
 			<squad_level_6>
 				<progression_properties>
 					<squad_property>
@@ -215,7 +215,8 @@
 					</squad_property>
 					<squad_property>
 						<human_type>EDF_Elite_Heavy</human_type>
-						<weapon_type>Subverter</weapon_type> <!--<weapon_type>AutoBlaster and Grenade</weapon_type>-->
+						<weapon_type>AutoBlaster and Grenade</weapon_type>
+						<!--<weapon_type>Subverter</weapon_type>-->
 						<spawn_weight>15</spawn_weight>
 					</squad_property>
 					<squad_property>
@@ -251,7 +252,6 @@
 				</progression_properties>
 			</squad_level_6>
 		</squad_progression>
-		
 		<squad_progression>
 			<Name>Reinforcement EDF</Name>
 			<Team>EDF</Team>
@@ -259,7 +259,8 @@
 				<progression_properties>
 					<squad_property>
 						<human_type>EDF_Trooper</human_type>
-						<weapon_type>Subverter</weapon_type> <!--<weapon_type>Assault Rifle</weapon_type>-->
+						<weapon_type>Assault Rifle</weapon_type>
+						<!--<weapon_type>Subverter</weapon_type>-->
 						<spawn_weight>30</spawn_weight>
 					</squad_property>
 					<squad_property>
@@ -287,12 +288,12 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			
 			<squad_level_2>
 				<progression_properties>
 					<squad_property>
 						<human_type>EDF_Trooper</human_type>
-						<weapon_type>Subverter</weapon_type> <!--<weapon_type>AutoBlaster</weapon_type>-->
+						<weapon_type>AutoBlaster</weapon_type>
+						<!--<weapon_type>Subverter</weapon_type>-->
 						<spawn_weight>30</spawn_weight>
 					</squad_property>
 					<squad_property>
@@ -317,7 +318,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_2>
-			
 			<squad_level_3>
 				<progression_properties>
 					<squad_property>
@@ -327,7 +327,8 @@
 					</squad_property>
 					<squad_property>
 						<human_type>EDF_Elite</human_type>
-						<weapon_type>Subverter</weapon_type> <!--<weapon_type>Enforcer</weapon_type>-->
+						<weapon_type>Enforcer</weapon_type>
+						<!--<weapon_type>Subverter</weapon_type>-->
 						<spawn_weight>15</spawn_weight>
 					</squad_property>
 					<squad_property>
@@ -357,7 +358,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_3>
-			
 			<squad_level_4>
 				<progression_properties>
 					<squad_property>
@@ -382,7 +382,8 @@
 					</squad_property>
 					<squad_property>
 						<human_type>EDF_Elite_Riot_Shield</human_type>
-						<weapon_type>Subverter</weapon_type> <!--<weapon_type>AutoBlaster</weapon_type>-->
+						<weapon_type>AutoBlaster</weapon_type>
+						<!--<weapon_type>Subverter</weapon_type>-->
 						<spawn_weight>15</spawn_weight>
 					</squad_property>
 					<squad_property>
@@ -397,7 +398,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_4>
-			
 			<squad_level_5>
 				<progression_properties>
 					<squad_property>
@@ -412,12 +412,14 @@
 					</squad_property>
 					<squad_property>
 						<human_type>EDF_Elite_Riot_Shield</human_type>
-						<weapon_type>Subverter</weapon_type> <!--<weapon_type>AutoBlaster</weapon_type>-->
+						<weapon_type>AutoBlaster</weapon_type>
+						<!--<weapon_type>Subverter</weapon_type>-->
 						<spawn_weight>10</spawn_weight>
 					</squad_property>
 					<squad_property>
 						<human_type>EDF_Elite_Heavy</human_type>
-						<weapon_type>Super Gauss Rifle and Grenade</weapon_type> <!--<weapon_type>Gauss Rifle and Grenade</weapon_type>-->
+						<weapon_type>Gauss Rifle and Grenade</weapon_type>
+						<!--<weapon_type>Super Gauss Rifle and Grenade</weapon_type>-->
 						<spawn_weight>15</spawn_weight>
 					</squad_property>
 					<squad_property>
@@ -442,7 +444,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_5>
-			
 			<squad_level_6>
 				<progression_properties>
 					<squad_property>
@@ -452,12 +453,14 @@
 					</squad_property>
 					<squad_property>
 						<human_type>EDF_Elite_Heavy</human_type>
-						<weapon_type>Super Gauss Rifle and Grenade</weapon_type> <!--<weapon_type>Gauss Rifle and Grenade</weapon_type>-->
+						<weapon_type>Gauss Rifle and Grenade</weapon_type>
+						<!--<weapon_type>Super Gauss Rifle and Grenade</weapon_type>-->
 						<spawn_weight>20</spawn_weight>
 					</squad_property>
 					<squad_property>
 						<human_type>EDF_Elite_Heavy</human_type>
-						<weapon_type>Subverter</weapon_type> <!--<weapon_type>AutoBlaster and Grenade</weapon_type>-->
+						<weapon_type>AutoBlaster and Grenade</weapon_type>
+						<!--<weapon_type>Subverter</weapon_type>-->
 						<spawn_weight>10</spawn_weight>
 					</squad_property>
 					<squad_property>
@@ -483,7 +486,6 @@
 				</progression_properties>
 			</squad_level_6>
 		</squad_progression>
-		
 		<squad_progression>
 			<Name>Marauder</Name>
 			<Team>Marauder</Team>
@@ -509,7 +511,6 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			
 			<squad_level_2>
 				<progression_properties>
 					<squad_property>
@@ -534,7 +535,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_2>
-			
 			<squad_level_3>
 				<progression_properties>
 					<squad_property>
@@ -559,7 +559,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_3>
-			
 			<squad_level_4>
 				<progression_properties>
 					<squad_property>
@@ -584,7 +583,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_4>
-			
 			<squad_level_5>
 				<progression_properties>
 					<squad_property>
@@ -609,7 +607,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_5>
-			
 			<squad_level_6>
 				<progression_properties>
 					<squad_property>
@@ -635,7 +632,6 @@
 				</progression_properties>
 			</squad_level_6>
 		</squad_progression>
-		
 		<squad_progression>
 			<Name>Guerrilla</Name>
 			<Team>Guerilla</Team>
@@ -661,7 +657,6 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			
 			<squad_level_2>
 				<progression_properties>
 					<squad_property>
@@ -686,7 +681,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_2>
-			
 			<squad_level_3>
 				<progression_properties>
 					<squad_property>
@@ -711,7 +705,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_3>
-			
 			<squad_level_4>
 				<progression_properties>
 					<squad_property>
@@ -736,7 +729,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_4>
-			
 			<squad_level_5>
 				<progression_properties>
 					<squad_property>
@@ -771,7 +763,6 @@
 					</squad_property>
 				</progression_properties>
 			</squad_level_5>
-			
 			<squad_level_6>
 				<progression_properties>
 					<squad_property>
