@@ -35,34 +35,15 @@ NOTE: A lot of this to do list was merged in from the old v1.07 changelog, some 
 
 [Misc]
 	* Move other non essential gameplay changes to add-on when found
-	* Try to make it so you can walk up steeper inclines
-	* Merge base SP and DLC precache files into mp_common.vpp_pc?
 	* Double check items_3d.xtbl and add comments of vanilla values by comparing it to vanilla file
 	* Fix Badlands transporter mission by adding a custom spawn group. Normally only has the bike type vehicle
-	* Restore edf tan, rachel, ian, bev, blair, chuck, jake, kayla, numah, pierce, selma and torvald textures and characters when peg tool is out (re-do the character.xtbl file)
-	* Re-do the vanilla versions of DLC wc maps
+	* Restore edf tan, rachel, ian, bev, blair, chuck, jake, kayla, numah, pierce, selma and torvald textures (re-do the character.xtbl file)
 	* Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
 	* Generate xdeltas for interface.vpp_pc, items.vpp_pc, humans.vpp_pc, maps and misc.vpp_pc
-	* Build entire mod again based on vanilla, have Goober remove tags so SF doesn't use older base version and updates
 	* Change default WC settings to have barrels on
-	* Make sure to remove flag 2 from regular objects
 	* Test if Marauders spawn with shotguns 
 	* Add new Marauder models to squads
-	* Add new map clones for ATM: Wasteland, Settlement, Sandpit [KOTH]
 	* Test adding new textures by adding a new str2 and updating the asm so replaced characters can be restored in MP and new loading screens could be added (peg tool?)
-	* Add ladders to buildings on Stratosphere (same ones as Factory)
-	* Add comments for implementing DLC weapon reticules in future
-	* Add backpacks missing from random backpack rotation to various maps
-	* Add assets from SP, SP DLC and all maps to mp_common.vpp_pc to speed up loading and possibly make transferring assets between maps easier
-	* Format more files to make the game easier to mod on top of the patch
-	* Optimize more files to stay below the memory pool limit
-	* Remove out of bounds player spawn on Repurcussion
-	* Remove out of bounds weapon spawn on Abandoned
-	* Various improvements to previous out of bound exploit fixes 
-	* Various improvements to Siege map spawns when they are played in other gamemodes 
-	* Various improvements to performance & stability
-	* Table.vpp_pc is now compressed and condensed properly
-	* Reconstructor, Gauss Rifle, Super Gauss Rifle, Nanorifle and Sniper Rifle now respect the players camera shake settings
 	* Re-do lod_properties.xtbl changes to hopefully increase draw distance as much as possible (there's still a hardcoded limit)
 	
 [Vehicles]
@@ -70,6 +51,11 @@ NOTE: A lot of this to do list was merged in from the old v1.07 changelog, some 
 	* Increase mouse sensitivity in walkers
 
 [Maps]
+	* Add ladders to buildings on Stratosphere (same ones as Factory)	
+	* Fix missing flag 4 from some objects like shipping containers/trailers
+	* Make sure to remove flag 2 from regular objects
+	* Remove out of bounds player spawn on Repurcussion
+	* Remove out of bounds weapon spawn on Abandoned
 	* Double check all maps have kaboom or backpacks not on the map at 0,0,0 so they work in the random rotation option	
 	* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives	
 	* Add siege to Watchtower and Pipeline
@@ -202,57 +188,46 @@ NOTE: A lot of this to do list was merged in from the old v1.07 changelog, some 
 	* Fix issue with mixed up radio tower children on Fortress
 	* Fix issue with duplicate remote charge spawn on Ruins
 	* Fix vanilla issue with inconsistent naming on various objects and removed the display_name string from objects that didn't need it
-	* Fix issues with mixed up vent and smokestack children on Repurcussion
-	* Countless misc fixes to all 50 maps
-	* Fix or removed floating containers on GFWL/Nordic Bonus. Some were replaced with vehicle debris, smoke was also added to help with line of sight issues
-	* Moved the smokestack on GFWL/Nordic Bonus to the playable area and added the missing smoke effect that was previously under the map in vanilla
-	* Added fire, smoke, trees and signs to indicate the out of bounds areas on GFWL/Nordic Bonus
-	* Moved the misslepod on Fallfactor to a thin pipe that can be more easily destroyed and made minor changes to DLC weapon spawn locations to balance for teams
-	* Added two additional Assault Rifle spawns on Cascade
-	* Added Kaboom backpack spawn near attacker spawn on Overpass with a single pack on the rack 
-	* Added Kaboom backpack spawn near attacker spawn on Cresecent with a single pack on the rack
-	* Fix various vanilla issues with squads in singleplayer	
+	* Move the misslepod on Fallfactor to a thin pipe that can be more easily destroyed and made minor changes to DLC weapon spawn locations to balance for teams
 
 [Singleplayer]
-	* Reverted removal of artificial gravity; this should fix the transporter mission in Parker/FFZ and the second to last mission in EOS. ; will be re-implemented in rebalance add-on along with a complete overhaul to the vehicles handling at a later date
-	* Reverted changes to alert_levels.xtbl; this will be re-implemented into the rebalance add-on at a later date
-	* Reduced EDF spawns, they are no longer excessive making some missions impossible to beat
-	* Redid the changes to vehicle and NPC spawn changes; vehicle and NPCs now make more sense in each sector type 
-	* Reverted changes to tank hitpoints, this should fix the issue with the second to last mission in EOS; will be re-implemented in rebalance add-on
-	* Added Jenkins vehicle to safehouse spawns
-	* Added other variants of the DLC Marauder vehicles
-	* Increased min spawn distance for NPCs to 300 from 125
+	* Revert removal of artificial gravity; this should fix the transporter mission in Parker/FFZ and the second to last mission in EOS. ; will be re-implemented in rebalance add-on along with a complete overhaul to the vehicles handling at a later date
+	* Revert changes to alert_levels.xtbl; this will be re-implemented into the rebalance add-on at a later date
+	* Reduce EDF spawns, they are no longer excessive making some missions impossible to beat
+	* Re do the changes to vehicle and NPC spawn changes; vehicle and NPCs now make more sense in each sector type 
+	* Revert changes to tank hitpoints, this should fix the issue with the second to last mission in EOS; will be re-implemented in rebalance add-on
+	* Add Jenkins vehicle to safehouse spawns
+	* Add other variants of the DLC Marauder vehicles
+	* Increase min spawn distance for NPCs to 300 from 125
 	* Fix broken transporter activity in the Badlands
 	* Fix broken offensive raid activity in Oasis
-	* Re-did DLC vehicle transfers with unique file names etc to avoid possible issues reported in log file
-	* Increased "Camera_npc_min_fade_pct", "Camera_npc_min_fade_dist", "Camera_npc_max_fade_dist" in tweak_table.xtbl to 11562
-	* Increased "Blood_splatter_decal_max_dist" in tweak_table.xtbl to 11562
-	* Increased "Bullet_hole_decal_max_dist" in tweak_table.xtbl to 11562
-	* Increased "Bullet_hole_decal_max_dist_player" in tweak_table.xtbl to 11562
-	* Reverted change to "Ai_heavy_vehicle_always_cower_chance" in tweak_table.xtbl
-	* Reverted change to "Ai_no_fall_back_chance" in tweak_table.xtbl
-	* Reverted changes to "max_npcs_attacking_player_green" -> "max_npcs_attacking_player_red" in tweak_table.xtbl; will be re-implemented in rebalance add-on
-	* Reverted change to "Player_death_salvage_percent_kept" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
-	* Reverted change to "Edf_notice_player_with_obvious_weapon_dist" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
-	* Reverted change to "Salvage_spawn_dead_prob" in tweak_table.xtbl; will be re-implemented in rebalance add-on 	
+	* Re do DLC vehicle transfers with unique file names etc to avoid possible issues reported in log file
+	* Increase "Camera_npc_min_fade_pct", "Camera_npc_min_fade_dist", "Camera_npc_max_fade_dist" in tweak_table.xtbl to 11562
+	* Increase "Blood_splatter_decal_max_dist" in tweak_table.xtbl to 11562
+	* Increase "Bullet_hole_decal_max_dist" in tweak_table.xtbl to 11562
+	* Increase "Bullet_hole_decal_max_dist_player" in tweak_table.xtbl to 11562
+	* Revert change to "Ai_heavy_vehicle_always_cower_chance" in tweak_table.xtbl
+	* Revert change to "Ai_no_fall_back_chance" in tweak_table.xtbl
+	* Revert changes to "max_npcs_attacking_player_green" -> "max_npcs_attacking_player_red" in tweak_table.xtbl; will be re-implemented in rebalance add-on
+	* Revert change to "Player_death_salvage_percent_kept" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
+	* Revert change to "Edf_notice_player_with_obvious_weapon_dist" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
+	* Revert change to "Salvage_spawn_dead_prob" in tweak_table.xtbl; will be re-implemented in rebalance add-on 	
 	
 [Multiplayer] 
 	* Enable friendly fire by default in custom games
 	* Enable fleetfoot by default in custom games
-	* Doubled XP gained
-	* Reworked levels and cosmetic unlocks: You now unlock badges, rank icons, characters and hammers at level 5, 10, 20, 30 etc with the "max" rank being 100; The final unlock is the DLC pickaxe at level 126
+	* Double XP gained
+	* Rework levels and cosmetic unlocks: You now unlock badges, rank icons, characters and hammers at level 5, 10, 20, 30 etc with the "max" rank being 100; The final unlock is the DLC pickaxe at level 126
 
 [Increased weapon projectile prop despawn timer placeholder]
 
 [Destruction Performance Optimization]
-	* Reduced objects stress system processes per frame to 350 from 400
-	* Increased min delay before checking stress to 150 from 100
-	* Increased max delay before checking stress to 5050 from 5000ms
+	* Reduce objects stress system processes per frame to 350 from 400
+	* Increase min delay before checking stress to 150 from 100
+	* Increase max delay before checking stress to 5050 from 5000ms
 
 [Interface]
-	* Restored vanilla initial loading screen in interface.vpp_pc as it only needs to be replaced in misc.vpp_pc
-	* Reverted skipping intro videos/logos however added the ability to skip all them by spamming a key.
-	* Version updated on initial loading screen
+	* Restore vanilla initial loading screen in interface.vpp_pc as it only needs to be replaced in misc.vpp_pc
 
 
 
