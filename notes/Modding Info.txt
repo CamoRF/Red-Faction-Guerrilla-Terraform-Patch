@@ -844,3 +844,29 @@ Scriptx notes
 FYI, the handle + num values are referencing objects in the map files. There's a right click option in nanoforge to create that reference from an object and save it to your clipboard
 also, the scriptx viewer in nanoforge might make some of them easier to understand. It can't do editing. Unfortunately doesn't filter out empty scripts
 
+Sandpit KOTH
+
+* Built on top of v1.05 of the patch using Nanoforge pre13
+* Disables the smokestack in damage control on the hill by disabling the spawn in damage control flag
+* Disables two of the damage control targets by disabling the spawn in damage control flags
+* Moves one of the damage control targets to the top of the hill in the middle
+* Adds two kaboom pack spawns on both sides of the hill
+
+
+Broken hotkey 
+
+VanillaVec = rfg.Vector:new(0.0, -9.8, 0.0)
+local function SetGravity()
+	VanillaVec = rfg.Vector:new(0.0, -9.8, 0.0)
+end
+
+function Vanilla(EventData)
+	if(EventData.KeyDown) then
+		if(EventData.KeyCode == rfg.KeyCodes.F10) then
+			rfg.SetGravity(VanillaVec)
+		end 
+	end
+end	
+rfg.RegisterEvent("Keypress", Vanilla, "Toggle Keypress event")
+rsl.Log("Gravity Reset [Hotkey]\n")
+
