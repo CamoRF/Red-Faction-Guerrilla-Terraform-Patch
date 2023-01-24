@@ -838,3 +838,9 @@ Spawn orient
 
 -0.978,0,-0.208
 0.208,0,-0.978
+
+Scriptx notes
+
+FYI, the handle + num values are referencing objects in the map files. There's a right click option in nanoforge to create that reference from an object and save it to your clipboard
+also, the scriptx viewer in nanoforge might make some of them easier to understand. It can't do editing. Unfortunately doesn't filter out empty scripts
+
