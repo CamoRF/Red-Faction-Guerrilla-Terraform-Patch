@@ -542,6 +542,8 @@ v1.064.1 ALPHA CHANGES
 * DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
 * Setting walkers to spawn at safehouses can cause no vehicles to spawn, this was a bug introduced in the remaster
 * Multiplayer lobbies frequently break, players cannot join the lobby unless they go back to the main menu or restart their game
+* Issue with double text for you won/you lost text at end of game with large text over the top of small text in MP?
+* Profile saving hud element can sometimes get stuck on screen in multiplayer games sometimes
 
 [Wrecking Crew Mode]
 * Maps are currently replaced by the multiplayer versions so they lack barrels and have weapon pickups

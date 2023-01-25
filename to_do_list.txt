@@ -1,234 +1,135 @@
-NOTE: A lot of this to do list was merged in from the old v1.07 changelog, some of it might already be implemented in v1.064\v1.064.1. Doublecheck and clean up entire to do list when possible.
+[MAPS]
+* Doublecheck out of bounds exploits on Remnant, Haven, Crescent, Equilbrium, Excavation, Imperial, Warlords, Puncture, Stratosphere, Broadside, Rift, Vista, Fortress, Repurcussion, Overpass, Downfall (rock you can get in still probably still there), Gradient, Crevice, GFWL/Nordic Bonus, Scrapheap, Haven, Garrison, Expansion 
+* Doublecheck weapon spawn additions: Misslepod on Settlement, Super Gauss Rifle on Settlement, Thermo on Repurcussion, Misslepod on Repurcussion, Misslepod on walkway on Rift, Misslepod on walkway on Havem, Rocket spawnon rocket on Stratosphere, Rail driver spawn opposite to the existing spawn on Imperial
+* Doublecheck if super gauss locations were adjusted on Haven and Excavation
+* Doublecheck thermo, super gauss, misslepod are disabled in objective modes (Damge Control, Demo, Siege on all maps)
+* Doublecheck out of bounds player spawn was removed on Repurcussion
+* Doublecheck out of bounds weapon spawn was removed on Abandoned
+* Doublecheck all maps have kaboom backpack at 0,0,0 so they work in random backpack rotation
+* Add more than 16 spawns to all wrecking crew maps
+* Move rocket spawn on complex so it's not near the rock you can climb
+* Add siege to Watchtower and Pipeline 
+* New siege maps need team spawns as children of objectives and attackers need to spawn away from objectives, existing map spawns need to be disabled in siege using gamemode flags 
+* New siege maps need more reconstructor spawns
+* Cascade siege: add siege objectives for the vents under the bridge and add a reconstructor under the bridge
+* Remove flag 2 from regular objects 
+* Add flag 4 to objects that the majority have (eg. shipping containers)  (rfg_movers: seems to be consistently used most of the time)
+* Imperial: Add more weapons to make your way up the large buildings like the nanoforge and reconstructor
+* Doublecheck new spawns were added to transmission in the empty area
+* Add backpacks, CTF and DCT to all wrecking crew maps 
+* Add CTF and DCT to all regular siege maps
+* Doublecheck the one time explosion is on Frost for the collapsing buildings 
+* Frost: Transfer the crane from deadzone as the cranes with constraints float when destroyed
+* Stratosphere: The stack of shipping containers can float when destroyed
+* Gauntlet, Garrison, Downfall, Crash Site and Quarantine and maybe some others need more subverter spawns 
+* All wrecking crew maps need team spawns (check which ones have them already and make a proper list)
+* Doublecheck if map str2 files are compressed and condensed, delete the scriptx file and any asm .xmls i might have forgot to delete 
+* Gradually take notes of spawns where you get stuck or float and fix them (WC maps)
+* Gradually take notes of duplicate weapon spawns and fix them if any are left (WC maps)
+* Gradually improve locations of DLC weapons added to regular MP maps using RSL to get improved co-ords 
+* Gradually take notes of messed up up children and fix them 
+* Gradually take notes of clipping or floating weapons and fix them
+* Stratosphere: Add ladders to buildings (same ones as Factory)
+* Half cloud speed on all maps in weather files (gtodx/dtodx)	
+* Deadzone: doublecheck there's still a misslepod at the top of the large rock
+* Restore vanilla Ruins with fixed building you get stuck on, just add objectives, backpacks, weapon spawns, player spawns etc. Maybe try to fix the higher area that is hard to climb up to (backup the interior only version and add it as an entirely new map later)
+* Quarantine: Add another siege target, disable the regular buildings?
+* Scrapheap: transfer non edf crate asset and place them in empty areas
+* Expansion: the cliff killbox near the hole after you climb the hill needs to be moved closer (has that single cliff warning sign up there)
+* Make sure all subverter spawns use the EDF pistol bounding box
+* Restore vanilla WC maps with only bug fixes so they have barrels in Wrecking Crew
+* Make sure all backpack parents are renamed to the actual backpack name
+* Haven: Remove super gauss?
+* Reduce/disable glare on GFWL/Nordic Bonus
+* Fix issue with Equilibrium Siege smokestacks and re-enable it in mp_levels.xtbl
+* Make sure children have same flags as parents?
+* Make sure to remove persistent flag from regular objects 
+* Make sure to remove display_name prop and rename regular objects on non siege maps
+* Make sure show all types is on in the inspector and remove cover nodes, nav points etc from maps (ghost children that i saw before, GFWL has a lot)!
 
-[Weapons]
-	* Spiker: missing textures when on ground, only host can see the projectile (peg file related most likely)
-	* DLC remote charges: missing textures, missing mesh when thrown (peg file related most likely)
-	* Pickaxe and Impaler: missing textures in all circumstances (peg file again)
-	* Add CTF flags, Gutter, Impaler and DLC Pickaxe to the sledgehammer upgrade list in multiplayer and when the dlc melee weapons are added
-	* Weapon ideas: 
-		- Singularity launcher
-		- Gauss shotgun, 
-		- Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to 	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
-	* Add Spiker to singleplayer and add it to Marauder loadout	
-	* Sniper Rifle: , Range max reduced to 0 from 100, Range red increased to 999 from 300, Added "use even spread" flag, Reverted zoom magnification change?
-	* Add Nano Grenade 
-	* Add Stun Grenade 
-	* Add Explosive Grenade
-	* Add Fist/unarmed weapon
-	* Add smoke to Shotgun muzzle flash
-	* Add DLC Marauder Royal Sword
-	* Add DLC Pickaxe, unlocked at level 126
-	* Add DLC Marauder Remote Charges
-	* Impaler and Gutter now fall to the ground instead of spinning in the air when placed as spawns or dropped?
-	* Re-do DLC weapon transfers with unique file names etc to avoid possible issues reported in log file?
+[MISC]
+* Enable friendly fire by default in custom games
+* Enable fleetfoot by default in custom games
+* Double XP gained
+* Rework levels and cosmetic unlocks: You now unlock badges, rank icons, characters and hammers at level 5, 10, 20, 30 etc with the "max" rank being 100; The final unlock is the DLC pickaxe at level 126
+* Optimize destruction performance: Reduce objects stress system processes per frame to 350 from 400, Increase min delay before checking stress to 150 from 100, Increase max delay before checking stress to 5050 from 5000ms (rfg_stress_controls.xtbl)
+* Revert removal of artificial gravity; this should fix the transporter mission in Parker/FFZ and the second to last mission in EOS. ; will be re-implemented in rebalance add-on along with a complete overhaul to the vehicles handling at a later date (vehicles.xtbl)
+* Re-do mp_character.xtlb and restore characters I removed
+* Increase "Camera_npc_min_fade_pct", "Camera_npc_min_fade_dist", "Camera_npc_max_fade_dist" in tweak_table.xtbl to 11562
+* Increase "Blood_splatter_decal_max_dist" in tweak_table.xtbl to 11562
+* Increase "Bullet_hole_decal_max_dist" in tweak_table.xtbl to 11562
+* Increase "Bullet_hole_decal_max_dist_player" in tweak_table.xtbl to 11562
+* Revert change to "Ai_heavy_vehicle_always_cower_chance" in tweak_table.xtbl
+* Revert change to "Ai_no_fall_back_chance" in tweak_table.xtbl
+* Revert changes to "max_npcs_attacking_player_green" -> "max_npcs_attacking_player_red" in tweak_table.xtbl; will be re-implemented in rebalance add-on
+* Revert change to "Player_death_salvage_percent_kept" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
+* Revert change to "Edf_notice_player_with_obvious_weapon_dist" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
+* Revert change to "Salvage_spawn_dead_prob" in tweak_table.xtbl; will be re-implemented in rebalance add-on 	
+* Double check items_3d.xtbl and add comments of vanilla values by comparing it to vanilla file
+* Re-do mp_character.xtlb and restore characters I removed
+* Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
+* Re-do lod_properties.xtbl
+* When modinfo.xml is supported in SyncFaction only use xdeltas for maps
+* Add Hess DLC character to Marauder spawns in SP
+* Change default WC settings to have barrels enabled by default
+* Test if Marauders spawn with shotguns (might have been caused by that issue reverted in v1.064.1)
 
-[Texture Fixes]
-	* Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
-	* Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
-	* Fix missing texture on Marauder lady
-	* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)
-	* Restore Dan Masons yellow jacket		
-	
-[Interface]	
-	* Profile saving hud element can get stuck on screen in multiplayer games sometimes
-	* Issue with double text for the you won/you lost text at end of game with large text over the top of small text	
+[WEAPONS]
+* Transfer Spiker, DLC remote charges, Pickaxe and Impaler (should drop onto the ground instead of floating, leave gutter floating) to base game when peg tool is out
+* When Pickaxe is implemented have it unlock at level 126 (mp_weapon_unlockables.xtbl)
+* Make sure newly transferred DLC weapons have unique names in items_inventory.xtbl
+* Sniper rifle: increase range (), Reduce range max to 0, increase Range red to 999, Add "use even spread" flag, double check zoom magnification change
+* New weapons: Nano Grenade, Stun Grenade, Explosion Grenade, Fist/unarmed weapon
+* Shotgun: Add smoke to muzzle flash
+* Add DLC weapons to singleplayer NPC loadouts when RSL2 increases the cap (squad_loadout.xtbl, squad_progression.xtbl)
+* Increase weapon projectile prop despawn timer
 
-[Misc]
-	* Move other non essential gameplay changes to add-on when found
-	* Double check items_3d.xtbl and add comments of vanilla values by comparing it to vanilla file
-	* Fix Badlands transporter mission by adding a custom spawn group. Normally only has the bike type vehicle
-	* Restore edf tan, rachel, ian, bev, blair, chuck, jake, kayla, numah, pierce, selma and torvald textures (re-do the character.xtbl file)
-	* Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
-	* Generate xdeltas for interface.vpp_pc, items.vpp_pc, humans.vpp_pc, maps and misc.vpp_pc
-	* Change default WC settings to have barrels on
-	* Test if Marauders spawn with shotguns 
-	* Add new Marauder models to squads
-	* Test adding new textures by adding a new str2 and updating the asm so replaced characters can be restored in MP and new loading screens could be added (peg tool?)
-	* Re-do lod_properties.xtbl changes to hopefully increase draw distance as much as possible (there's still a hardcoded limit)
-	
-[Vehicles]
-	* Walker camera jerk when explosion nearby or swing down onto a car
-	* Increase mouse sensitivity in walkers
+[INTERFACE]
+* Revert 4K AI upscaled loading screens and replaced character textures from interface files (revert entire interface.vpp_pc etc files to vanilla, except for porting over the wrecking crew dlc images) Also note the version number loading screen only needs to be replaced in misc.vpp_pc
+* Try to add new texture entries for new multiplayer characters, maybe they need a new str2 file? maybe the container needs to be updated when peg tool is out?
 
-[Maps]
-	* Expansion: the cliff killbox near the hole after you climb the hill needs to be moved closer (has that single cliff warning sign up there)
-	* Add ladders to buildings on Stratosphere (same ones as Factory)	
-	* Fix missing flag 4 from some objects like shipping containers/trailers
-	* Make sure to remove flag 2 from regular objects
-	* Remove out of bounds player spawn on Repurcussion
-	* Remove out of bounds weapon spawn on Abandoned
-	* Double check all maps have kaboom or backpacks not on the map at 0,0,0 so they work in the random rotation option	
-	* Overpass: needs to be reworked, attackers spawn right next to the shed on the left side of the map, needs more siege objectives	
-	* Add siege to Watchtower and Pipeline
-	* Finish new siege maps
-	* Imperial: Add more weapons to make your way up the large buildings; nano forge and reconstructor 
-	* Haven: refine super gauss location
-	* Cascade: Add a repair tool under the bridge
-	* Gauntlet, Garrison & Downfall: Add more Subverter spawns
-	* Add more spawns to all Wrecking Crew maps, 16 isn't enough
-	* Update WC map thumbnails
-	* Improve locaitons of previously added DLC weapons using RSL to get accurate co-ords
-	* Add team spawns to all WC maps
-	* Fix spawns on maps where you can get stuck in pipes or buildings
-	* Add every effect from effects.vpp_pc to GFWL/Nordic Bonus
-	* Forcefield for invisible wall on transmission
-	* One time car explosion on Frost where the buildings collapse
-	* Delete asm xml, rfgutil etc if i left them in map str2s
-	* Add capture the flag and damage control to all wrecking crew and siege maps
-	* Add various player spawns, weapon spawns and objects to the previously empty area surrounding the main area on Gulch
-	* Add various player and weapon spawns to the previously empty areas on Transmission
-	* Add a misslepod spawn in a difficult to reach location on Settlement 
-	* Add a super gauss rifle spawn in a difficult to reach location on Settlement
-	* Add a hidden thermo spawn on Repurcussion
-	* Add a hidden misslepod spawn on Repurcussion
-	* Add a misslepod spawn to one of the walkways on Rift 
-	* Add a misslepod to one of the walkways on Haven
-	* Add a rocket spawn to Stratosphere
-	* Add a hidden misslepod spawn to Pipeline
-	* Add another rail driver spawn on Imperial opposite to the original spawn to help balance the map in team games
-	* Move rocket launcher spawn to a more hidden location on Complex
-	* Move super gauss rifle spawn location on Haven 
-	* Slight adjustments to existing DLC weapon spawns on Settlement, Rift, Excavation, Crash site and most other MP maps
-	* Disabled Misslepod and Super Gauss Rifle spawns in Demolition and Damage Control
-	* Added additional Subverter spawns to Crash Site, Quarantine, 
-	* Ruins: completely overhauled due to the map being almost the same as Remnant, it is now the first interior only map in RFG!
-	* Added (camo) prefix to objects changed by the patch in the Nanoforge outliner on regular multiplayer maps 
-	* Changed names of mine and cliffs that were used to fix out of bounds areas to "out of bounds fix (camo)"
-	* Restore vanilla WC maps with only bug fixes
-	* Remove super gauss on haven
-	* Add children to objectives on WC and siege maps 
-	* Disable glare on GFWL, vfx or something
-	* Disable kaboom pack on siege maps like gauntlet and crescent
-	* Move regular DCT target to 0,0,0 on Frost and Stratosphere and disable it via gamemode flags
-	* Fix mine beacon height on various maps i added it to, use quarantine as a reference
-	* Disable all other game mode flags for children of all objectives
-	* Doublecheck all weapon and object flags
-	* Make sure all subverter spawns use the EDF pistol bounding box
-	* Make sure flag 4 is on rfg_movers, (seems to be consistently used most of the time)
-	* Make sure children have same flags as parents
-	* Make sure to remove persistent flag from regular objects 
-	* Make sure to remove display_name prop and rename regular objects on non siege maps
-	* Make sure show all types is on in the inspector and remove cover nodes, nav points etc from maps (ghost children that i saw before, GFWL has a lot)!
-	* Doublecheck all maps for duplicate weapon spawns 
-	* Fix floating or clipping weapons and spawns on all maps
-	* Fix any messed up children on vanilla mp maps
-	* Add backpack rack spawns to all WC maps
-	* Add flag objectives to siege and WC maps 
-	* Add damage control targets to siege and WC maps
-	* Rename all backpack rack names to reflect the backpack
-	* Transfer art sign to Abandoned
-	* Disable Super Gauss and Misslepod spawns in Damage Control, Demolition and Siege
-	* [Fix: Out of Bounds Exploits]
-		* Puncture - test 
-		* Doubletime rock spots
-		* Equilbrium/landbridge
-		* Remnant rock spots
-		* Haven
-		* Downfall (inside and top of rocks exploit)
-		* Large rock on Imperial
-		* Crescent
-	* Deadzone: Add misslepod to the top of the large rock	
-	* [Ruins Interior Map]
-		* Add more player spawns
-		* Add backpack racks 
-		* Make the rocket launcher not respawn on Ruins
-		* Add team exclusive backpacks?
-		* Change weather to Deadzone, Invasion, SP DLC, GFWL?
-		* Add a gutter spawn	
-	* Restore vanilla Ruins with fixes, weapon spawns, backpack racks etc. Interior only map can be added 
-	as a new map file at a later date
-	* Restore removed characters, also restore the textures replaced in interface.vpp_pc
-	* Add team spawn children to objectives on new siege maps
-	* Fix issue with Equilibrium Siege smokestacks and re-enable it in mp_levels.xtbl
-	* Add backpack racks, ctf stands, damage control target assets to all WC and siege maps. Add spawns for them in Nanoforge etc etc
-	* Quarantine: Add another siege target, disable the regular buildings?
-	* Scrapheap: transfer non edf crate asset and place them in empty areas
-	* Restore vanilla Fix Ruins with weapons, interior only map can be a new map file added later
-	* Gulch: finish mine beacons etc			
-	
-[Weather and Lighting]
-	* Half cloud speed on all maps in weather files (gtodx/dtodx)	
+[TEXTURE FIXES]
+* Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
+* Fix dates in eos_war_memorial texture, it should be 2075 and 2077, its 5 years off
+* Fix missing texture on Marauder lady
+* Fix "cem_base01_wkpp" missing specular texture (test at Parker's shack)	
 
-[Fixes]
-	* Fix player getting stuck on a building in Ruins
-	* Fix some objects that didn't spawn in demolition or bagman on Vista
-	* Fix out of bounds map exploits on Remnant
-	* Fix out of bounds map exploit on Excavation
-	* Fix out of bounds map exploits on Imperial
-	* Fix out of bounds map exploit on Warlords
-	* Fix out of bounds map exploits on Puncture
-	* Fix out of bounds map exploit on Stratosphere
-	* Fix out of bounds map exploits on Broadside
-	* Fix out of bounds map exploit on Rift
-	* Fix out of bounds map exploits on Vista 
-	* Fix out of bounds map exploits on Fortress
-	* Fix out of bounds map exploit on Repurcussion
-	* Fix out of bounds map exploits on Overpass 
-	* Fix out of bounds map exploits on Downfall
-	* Fix out of bounds map exploits on Gradient
-	* Fix out of bounds map exploit on Crevice 
-	* Fix out of bounds map exploits on GFWL/Nordic 
-	* Fix out of bounds map exploits on Scrapheap
-	* Fix out of bounds map exploits on Haven 
-	* Fix out of bounds map exploit on Garrison
-	* Fix out of bounds map exploits on Expansion
-	* Fix missing killzones/cliffs under various maps
-	* Fix two weapon spawns in the same location on Gulch 
-	* Fix two weapon spawns in the same location on Cascade
-	* Fix missing under the map killboxes on various maps
-	* Fix missing dust effect on various WC maps 
-	* Fix host migrating randomly (again)
-	* Fix incorrect weapon bounding boxes on all maps
-	* Fix more broken flags on various maps
-	* Fix vanilla issue with spawn flipping in CTF
-	* Fix vanilla issue with multiple floating fences on Crescent
-	* Fix vanilla issue with mixed up smokestack children on Equilbrium
-	* Fix vanilla issues with missing persistent flag on various map objects
-	* Fix more vanilla issues with some objects not spawning in various game modes
-	* Fix issue with mixed up building children on Fortress 
-	* Fix issue with mixed up radio tower children on Fortress
-	* Fix issue with duplicate remote charge spawn on Ruins
-	* Fix vanilla issue with inconsistent naming on various objects and removed the display_name string from objects that didn't need it
-	* Move the misslepod on Fallfactor to a thin pipe that can be more easily destroyed and made minor changes to DLC weapon spawn locations to balance for teams
+[MISSION/SP FIXES]
+* Fix Badlands transporter mission by adding a custom spawn group. Normally only has the bike type vehicle
+* Walker camera jerk when explosion nearby or swinging a car 
+* Increase mouse sensitivity in walkers 
 
-[Singleplayer]
-	* Revert removal of artificial gravity; this should fix the transporter mission in Parker/FFZ and the second to last mission in EOS. ; will be re-implemented in rebalance add-on along with a complete overhaul to the vehicles handling at a later date
-	* Revert changes to alert_levels.xtbl; this will be re-implemented into the rebalance add-on at a later date
-	* Reduce EDF spawns, they are no longer excessive making some missions impossible to beat
-	* Re do the changes to vehicle and NPC spawn changes; vehicle and NPCs now make more sense in each sector type 
-	* Revert changes to tank hitpoints, this should fix the issue with the second to last mission in EOS; will be re-implemented in rebalance add-on
-	* Add Jenkins vehicle to safehouse spawns
-	* Add other variants of the DLC Marauder vehicles
-	* Increase min spawn distance for NPCs to 300 from 125
-	* Fix broken transporter activity in the Badlands
-	* Fix broken offensive raid activity in Oasis
-	* Re do DLC vehicle transfers with unique file names etc to avoid possible issues reported in log file
-	* Increase "Camera_npc_min_fade_pct", "Camera_npc_min_fade_dist", "Camera_npc_max_fade_dist" in tweak_table.xtbl to 11562
-	* Increase "Blood_splatter_decal_max_dist" in tweak_table.xtbl to 11562
-	* Increase "Bullet_hole_decal_max_dist" in tweak_table.xtbl to 11562
-	* Increase "Bullet_hole_decal_max_dist_player" in tweak_table.xtbl to 11562
-	* Revert change to "Ai_heavy_vehicle_always_cower_chance" in tweak_table.xtbl
-	* Revert change to "Ai_no_fall_back_chance" in tweak_table.xtbl
-	* Revert changes to "max_npcs_attacking_player_green" -> "max_npcs_attacking_player_red" in tweak_table.xtbl; will be re-implemented in rebalance add-on
-	* Revert change to "Player_death_salvage_percent_kept" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
-	* Revert change to "Edf_notice_player_with_obvious_weapon_dist" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
-	* Revert change to "Salvage_spawn_dead_prob" in tweak_table.xtbl; will be re-implemented in rebalance add-on 	
-	
-[Multiplayer] 
-	* Enable friendly fire by default in custom games
-	* Enable fleetfoot by default in custom games
-	* Double XP gained
-	* Rework levels and cosmetic unlocks: You now unlock badges, rank icons, characters and hammers at level 5, 10, 20, 30 etc with the "max" rank being 100; The final unlock is the DLC pickaxe at level 126
 
-[Increased weapon projectile prop despawn timer placeholder]
-
-[Destruction Performance Optimization]
-	* Reduce objects stress system processes per frame to 350 from 400
-	* Increase min delay before checking stress to 150 from 100
-	* Increase max delay before checking stress to 5050 from 5000ms
-
-[Interface]
-	* Restore vanilla initial loading screen in interface.vpp_pc as it only needs to be replaced in misc.vpp_pc
+[TO SORT]
+* Fix player getting stuck on a building in Ruins
+* Fix some objects that didn't spawn in demolition or bagman on Vista
+* Fix missing killzones/cliffs under various maps
+* Fix two weapon spawns in the same location on Gulch 
+* Fix two weapon spawns in the same location on Cascade
+* Fix missing under the map killboxes on various maps
+* Fix missing dust effect on various WC maps 
+* Fix host migrating randomly (again)
+* Fix incorrect weapon bounding boxes on all maps
+* Fix more broken flags on various maps
+* Fix vanilla issue with spawn flipping in CTF
+* Fix vanilla issue with multiple floating fences on Crescent
+* Fix vanilla issue with mixed up smokestack children on Equilbrium
+* Fix vanilla issues with missing persistent flag on various map objects
+* Fix more vanilla issues with some objects not spawning in various game modes
+* Fix issue with mixed up building children on Fortress 
+* Fix issue with mixed up radio tower children on Fortress
+* Fix vanilla issue with inconsistent naming on various objects and removed the display_name string from objects that didn't need it
+* Move the misslepod on Fallfactor to a thin pipe that can be more easily destroyed and made minor changes to DLC weapon spawn locations to balance for teams
+* Revert changes to alert_levels.xtbl; this will be re-implemented into the rebalance add-on at a later date
+* Reduce EDF spawns, they are no longer excessive making some missions impossible to beat
+* Re do the changes to vehicle and NPC spawn changes; vehicle and NPCs now make more sense in each sector type 
+* Revert changes to tank hitpoints, this should fix the issue with the second to last mission in EOS; will be re-implemented in rebalance add-on
+* Add Jenkins vehicle to safehouse spawns
+* Add other variants of the DLC Marauder vehicles
+* Increase min spawn distance for NPCs to 300 from 125
+* Fix broken transporter activity in the Badlands
+* Fix broken offensive raid activity in Oasis
+* Re do DLC vehicle transfers with unique file names etc to avoid possible issues reported in log file
 
 
 

@@ -49,3 +49,4 @@ OTHER PROJECTS/ADDONS/OUT OF SCOPE/NOTES
 * Receive no salvage (including morale bonus) from missions. 
 * Speaking of Badlands, makes little sense that both RF and EDF can spawn in the Irradiated Zone. I think that's also a result of 1.063?
 * Graphics improvement: graphics improvement script, , HD character textures, HD weapons and backpack textures, HD rocks, HD clouds, try to fix the skybox with clouds just doing a circular motion
+* Weapon ideas: Singularity launcher, Gauss shotgun, Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to 	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
