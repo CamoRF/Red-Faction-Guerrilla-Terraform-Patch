@@ -479,7 +479,7 @@ v1.064.1 ALPHA CHANGES
 
 [Fixes]
 * Fixed singleplayer DLC crashing when loading
-* Fixed issue with ported dlc weapons using the same items_inventory.xtbl name as the dlc "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
+* Fixed issue with ported DLC weapons using the same items_inventory.xtbl name as the dlc "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:\unit4projects\rfg\root\code\volition\vlib\code\util\varray.h(122)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Found too many animation rigs to preload (max : 299)unable to allocate anim_rig" reported in Red Faction Guerrilla Re-Mars-tered.log
 

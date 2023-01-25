@@ -83,6 +83,7 @@
 * Shotgun: Add smoke to muzzle flash
 * Add DLC weapons to singleplayer NPC loadouts when RSL2 increases the cap (squad_loadout.xtbl, squad_progression.xtbl)
 * Increase weapon projectile prop despawn timer
+* Transfer DLC weapon icons and reticules to base game
 
 [INTERFACE]
 * Revert 4K AI upscaled loading screens and replaced character textures from interface files (revert entire interface.vpp_pc etc files to vanilla, except for porting over the wrecking crew dlc images) Also note the version number loading screen only needs to be replaced in misc.vpp_pc
@@ -97,8 +98,7 @@
 [MISSION/SP FIXES]
 * Fix Badlands transporter mission by adding a custom spawn group. Normally only has the bike type vehicle
 * Walker camera jerk when explosion nearby or swinging a car 
-* Increase mouse sensitivity in walkers 
-
+* Increase mouse sensitivity in walkers
 
 [TO SORT]
 * Fix player getting stuck on a building in Ruins
