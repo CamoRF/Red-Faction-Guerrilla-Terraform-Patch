@@ -1,10 +1,8 @@
 [MAPS]
 * Doublecheck out of bounds exploits on Remnant, Haven, Crescent, Equilbrium, Excavation, Imperial, Warlords, Puncture, Stratosphere, Broadside, Rift, Vista, Fortress, Repurcussion, Overpass, Downfall (rock you can get in still probably still there), Gradient, Crevice, GFWL/Nordic Bonus, Scrapheap, Haven, Garrison, Expansion 
 * Doublecheck weapon spawn additions: Misslepod on Settlement, Super Gauss Rifle on Settlement, Thermo on Repurcussion, Misslepod on Repurcussion, Misslepod on walkway on Rift, Misslepod on walkway on Havem, Rocket spawnon rocket on Stratosphere, Rail driver spawn opposite to the existing spawn on Imperial
-* Doublecheck if super gauss locations were adjusted on Haven and Excavation
 * Doublecheck thermo, super gauss, misslepod are disabled in objective modes (Damge Control, Demo, Siege on all maps)
 * Doublecheck out of bounds player spawn was removed on Repurcussion
-* Doublecheck out of bounds weapon spawn was removed on Abandoned
 * Doublecheck all maps have kaboom backpack at 0,0,0 so they work in random backpack rotation
 * Add more than 16 spawns to all wrecking crew maps
 * Move rocket spawn on complex so it's not near the rock you can climb
@@ -55,55 +53,27 @@
 * Fix vanilla issue with inconsistent naming on various objects and removed the display_name string from objects that didn't need it
 
 [MISC]
-* Doublecheck host migration fix (online tweak table)
-* Enable friendly fire by default in custom games
-* Enable fleetfoot by default in custom games
-* Double XP gained
-* Rework levels and cosmetic unlocks: You now unlock badges, rank icons, characters and hammers at level 5, 10, 20, 30 etc with the "max" rank being 100; The final unlock is the DLC pickaxe at level 126
-* Optimize destruction performance: Reduce objects stress system processes per frame to 350 from 400, Increase min delay before checking stress to 150 from 100, Increase max delay before checking stress to 5050 from 5000ms (rfg_stress_controls.xtbl)
-* Revert removal of artificial gravity; this should fix the transporter mission in Parker/FFZ and the second to last mission in EOS. ; will be re-implemented in rebalance add-on along with a complete overhaul to the vehicles handling at a later date (vehicles.xtbl)
 * Re-do mp_character.xtlb and restore characters I removed
-* Increase "Camera_npc_min_fade_pct", "Camera_npc_min_fade_dist", "Camera_npc_max_fade_dist" in tweak_table.xtbl to 11562
-* Increase "Blood_splatter_decal_max_dist" in tweak_table.xtbl to 11562
-* Increase "Bullet_hole_decal_max_dist" in tweak_table.xtbl to 11562
-* Increase "Bullet_hole_decal_max_dist_player" in tweak_table.xtbl to 11562
-* Revert change to "Ai_heavy_vehicle_always_cower_chance" in tweak_table.xtbl
-* Revert change to "Ai_no_fall_back_chance" in tweak_table.xtbl
-* Revert changes to "max_npcs_attacking_player_green" -> "max_npcs_attacking_player_red" in tweak_table.xtbl; will be re-implemented in rebalance add-on
-* Revert change to "Player_death_salvage_percent_kept" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
-* Revert change to "Edf_notice_player_with_obvious_weapon_dist" in tweak_table.xtbl; will be re-implemented in rebalance add-on 
-* Revert change to "Salvage_spawn_dead_prob" in tweak_table.xtbl; will be re-implemented in rebalance add-on 	
 * Double check items_3d.xtbl and add comments of vanilla values by comparing it to vanilla file
 * Re-do mp_character.xtlb and restore characters I removed
 * Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
-* Re-do lod_properties.xtbl
 * When modinfo.xml is supported in SyncFaction only use xdeltas for maps
 * Add Hess DLC character to Marauder spawns in SP
 * Change default WC settings to have barrels enabled by default
-* Test if Marauders spawn with shotguns (might have been caused by that issue reverted in v1.064.1)
-* Revert changes to tank hitpoints, this should fix the issue with the second to last mission in EOS; will be re-implemented in rebalance add-on
-* Revert changes to alert_levels.xtbl; this will be re-implemented into the rebalance add-on at a later date
-* Reduce EDF spawns, they are no longer excessive making some missions impossible to beat
+* Reduce EDF spawns so they are no longer excessive making some missions impossible to beat
 * Re do the changes to vehicle and NPC spawn changes; vehicle and NPCs now make more sense in each sector type
 * Add Jenkins vehicle to safehouse spawns
-* Increase min spawn distance for NPCs to 300 from 125
-* Fix broken transporter activity in the Badlands
-* Fix broken offensive raid activity in Oasis
  
 [WEAPONS]
 * Transfer Spiker, DLC remote charges, Pickaxe and Impaler (should drop onto the ground instead of floating, leave gutter floating) to base game when peg tool is out
 * When Pickaxe is implemented have it unlock at level 126 (mp_weapon_unlockables.xtbl)
 * Make sure newly transferred DLC weapons have unique names in items_inventory.xtbl
-* Sniper rifle: increase range (), Reduce range max to 0, increase Range red to 999, Add "use even spread" flag, double check zoom magnification change
 * New weapons: Nano Grenade, Stun Grenade, Explosion Grenade, Fist/unarmed weapon
-* Shotgun: Add smoke to muzzle flash
 * Add DLC weapons to singleplayer NPC loadouts when RSL2 increases the cap (squad_loadout.xtbl, squad_progression.xtbl)
-* Increase weapon projectile prop despawn timer
 * Transfer DLC weapon icons and reticules to base game
 
 [INTERFACE]
-* Revert 4K AI upscaled loading screens and replaced character textures from interface files (revert entire interface.vpp_pc etc files to vanilla, except for porting over the wrecking crew dlc images) Also note the version number loading screen only needs to be replaced in misc.vpp_pc
-* Try to add new texture entries for new multiplayer characters, maybe they need a new str2 file? maybe the container needs to be updated when peg tool is out?
+* Try to add new texture entries for new multiplayer characters: I tried to duplicate an str2 file, unpack it and rename the cvmb/gvbms, add a new asm entry but the .tga file renamed the same name. The texture just showed up as a single dot in the corner. Using a single placeholder texture for now.
 
 [TEXTURE FIXES]
 * Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture

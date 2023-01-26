@@ -307,8 +307,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ai_heavy_vehicle_always_cower_chance</Name>
-			<Value>25</Value>
-			<!--Maybe 100 in gameplay add-on-->
+			<Value>25</Value> <!--Maybe 100 in gameplay add-on-->
 			<Description>Chance that a particular AI will not attempt to dive or evade a hostile heavy vehicle that is going to hit him/her. Overrides Ai_no_fall_back_chance - if this is set, the NPC will not fall back.</Description>
 			<_Editor>
 				<Category>AI:Behavioral Persona</Category>
@@ -316,8 +315,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ai_no_fall_back_chance</Name>
-			<Value>40</Value>
-			<!--Maybe 100 in gameplay add-on-->
+			<Value>40</Value> <!--Maybe 100 in gameplay add-on-->
 			<Description>Chance that an AI will not fall back when engaging a heavy vehicle, such as a walker or tank.  The NPC will instead stand and engage the enemy vehicle at full auto. Overridded by Ai_heavy_vehicle_always_cower_chance - if that is true,  this will be as well.</Description>
 			<_Editor>
 				<Category>AI:Behavioral Persona</Category>
@@ -422,32 +420,28 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>max_npcs_attacking_player_green</Name>
-			<Value>2</Value>
-			<!--Maybe 4 in gameplay add-on-->
+			<Value>2</Value> <!--Maybe 4 in gameplay add-on-->
 			<_Editor>
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>max_npcs_attacking_player_yellow</Name>
-			<Value>2</Value>
-			<!--Maybe 6 in gameplay add-on-->
+			<Value>2</Value> <!--Maybe 6 in gameplay add-on-->
 			<_Editor>
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>max_npcs_attacking_player_orange</Name>
-			<Value>3</Value>
-			<!--Maybe 8 in gameplay add-on-->
+			<Value>3</Value> <!--Maybe 8 in gameplay add-on-->
 			<_Editor>
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>max_npcs_attacking_player_red</Name>
-			<Value>4</Value>
-			<!--Maybe 10 in gameplay add-on-->
+			<Value>4</Value> <!--Maybe 10 in gameplay add-on-->
 			<_Editor>
 				<Category>AI:vs. Player</Category>
 			</_Editor>
@@ -1017,8 +1011,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Killing_spree_initial_kills</Name>
-			<Value>4</Value>
-			<!--From 3-->
+			<Value>3</Value> <!--4 in rebalance add-on-->
 			<Description>The number of kills required to start a killing spree.  These kills must occur within the amount of time specified by "Killing_spree_initial_time_ms" to begin the activity.</Description>
 			<_Editor>
 				<Category>Activities:Killing Spree</Category>
@@ -1026,8 +1019,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Killing_spree_initial_time_ms</Name>
-			<Value>12000</Value>
-			<!--From 6000-->
+			<Value>6000</Value> <!--12000 in rebalance add-on-->
 			<Description>The amount of time (in ms) allowed to kill X number of people to start a killing spree.  X is specified by "Killing_spree_initial_kills".</Description>
 			<_Editor>
 				<Category>Activities:Killing Spree</Category>
@@ -1091,8 +1083,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Player_death_salvage_percent_kept</Name>
-			<Value>0.0</Value>
-			<!--Maybe 0.5 in gameplay add-on-->
+			<Value>0.0</Value> <!--Maybe 0.5 in gameplay add-on-->
 			<Description>Amount of salvage the player returns with after death (from 0.0 - none to 1.0 - all)</Description>
 			<_Editor>
 				<Category>Human Death Penalties</Category>
@@ -1156,8 +1147,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blast_decal_min_radius</Name>
-			<Value>0.0</Value>
-			<!--From 0.5-->
+			<Value>0.0</Value> <!--From 0.5-->
 			<Description>The minimum radius a blast decal must have to be drawn.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1165,8 +1155,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blood_splatter_decal_max_dist</Name>
-			<Value>11562</Value>
-			<!--From 30-->
+			<Value>11562</Value> <!--From 30-->
 			<Description>The maximum distance from the camera allowed to draw a blood splatter. (blood splatter is always drawn if the player is doing the shooting)</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1174,8 +1163,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_max_dist</Name>
-			<Value>11562</Value>
-			<!--From 15-->
+			<Value>11562</Value> <!--From 15-->
 			<Description>The maximum distance from the camera allowed to draw a bullet impact for anyone other than the local player.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1183,8 +1171,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_max_dist_player</Name>
-			<Value>11562</Value>
-			<!--From 50-->
+			<Value>11562</Value> <!--From 50-->
 			<Description>The maximum distance from the camera allowed to draw a bullet impact for the player.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1192,8 +1179,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_size_variation</Name>
-			<Value>0.125</Value>
-			<!--From 0.1-->
+			<Value>0.125</Value> <!--From 0.1-->
 			<Description>The amount of potential variation in either direction of a bullet hole.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1321,8 +1307,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Rubberbanding_minimum_score</Name>
-			<Value>21474836</Value>
-			<!--From 40-->
+			<Value>21474836</Value> <!--From 40-->
 			<_Editor>
 				<Category>Multiplayer</Category>
 			</_Editor>
@@ -1425,9 +1410,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ai_removes_attached_projectile_time</Name>
-			<Value>3600</Value>
-			<!--30 Minutes-->
-			<!--From 10-->
+			<Value>3600</Value> <!--30 Minutes--> <!--From 10-->
 			<Description>Time, in seconds, for an NPC to remove projectiles that are attached.</Description>
 			<_Editor>
 				<Category>AI:Weapons</Category>
@@ -1518,8 +1501,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Mp_player_move_multiplier_side</Name>
-			<Value>1.00</Value>
-			<!--From 0.85-->
+			<Value>1.00</Value> <!--From 0.85-->
 			<Description>Percentage of normal speed when moving sideways</Description>
 			<_Editor>
 				<Category>Multiplayer</Category>
@@ -1527,8 +1509,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Marauder_follow_player_chance</Name>
-			<Value>100</Value>
-			<!--From 50-->
+			<Value>100</Value> <!--From 50-->
 			<Description>Chance ambient, friendly marauders will follow the player and give him nasty looks</Description>
 			<_Editor>
 				<Category>AI:Behavioral Persona</Category>
@@ -1544,8 +1525,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_dist</Name>
-			<Value>11562</Value>
-			<!--From 0.0-->
+			<Value>11562</Value> <!--From 0.0-->
 			<Description>Distance from the camera at which NPCs reach the minimum fade percent.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -1553,8 +1533,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_max_fade_dist</Name>
-			<Value>11562</Value>
-			<!--From 0.6-->
+			<Value>11562</Value> <!--From 0.6-->
 			<Description>Distance from the camera at which friendly NPCs are fully faded-in.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -1586,8 +1565,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Npc_fatal_fall_speed</Name>
-			<Value>24.0</Value>
-			<!--From 14.0-->
+			<Value>24.0</Value> <!--From 14.0-->
 			<Description>Speed at which a falling NPC dies on impact.</Description>
 			<_Editor>
 				<Category>Movement:Falling</Category>
@@ -1667,8 +1645,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Max_guerrilla_conversion_dist</Name>
-			<Value>24</Value>
-			<!--From 12-->
+			<Value>24</Value> <!--From 12-->
 			<Description>Max distance away we will consider converting someone to a guerrilla</Description>
 			<_Editor>
 				<Category>AI</Category>
@@ -1676,8 +1653,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Marauder_raid_prob</Name>
-			<Value>2.0</Value>
-			<!--From 0.5-->
+			<Value>2.0</Value> <!--From 0.5-->
 			<Description>This is the probability that a Marauder raid will attempt to spawn. This is evaluated every so many “hours” at night. Raids will only spawn if the player is near a patrol flagged as a marauder raid route.</Description>
 			<_Editor>
 				<Category>AI</Category>
@@ -1757,8 +1733,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Automobile_wheel_projectile_detach_speed</Name>
-			<Value>90.0</Value>
-			<!--From 0.25-->
+			<Value>90.0</Value> <!--From 0.25-->
 			<Description>Vehicle speed (m/s) at which projectiles attached to wheel collsion proxies detach.</Description>
 			<_Editor>
 				<Category>Vehicles</Category>
@@ -1806,8 +1781,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Player_friendly_fire_threshold</Name>
-			<Value>50</Value>
-			<!--From 75-->
+			<Value>50</Value> <!--From 75-->
 			<Description>Damage you can do to a "friendly" marauder before he goes hostile on you.</Description>
 			<_Editor>
 				<Category>AI:Marauders</Category>
@@ -1815,8 +1789,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Player_friendly_fire_expire_time</Name>
-			<Value>60</Value>
-			<!--From 20-->
+			<Value>60</Value> <!--From 20-->
 			<Description>Seconds after damaging a "friendly" marauder that he forgets you did it, returning him to a friendly state.</Description>
 			<_Editor>
 				<Category>AI:Marauders</Category>
@@ -1904,8 +1877,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Edf_notice_player_with_obvious_weapon_dist</Name>
-			<Value>3.0</Value>
-			<!--Maybe 1.0 in rebalance add-on-->
+			<Value>3.0</Value> <!--Maybe 1.0 in rebalance add-on-->
 			<Description>Distance at which EDF will react to the player carrying an "obvious" weapon</Description>
 			<_Editor>
 				<Category>AI:vs. Player</Category>
@@ -2033,8 +2005,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Glass_min_radial_decals</Name>
-			<Value>1</Value>
-			<!--From 2-->
+			<Value>1</Value> <!--From 2-->
 			<Description>The minimum number of radial cracks from bullet decals in glass appear (if they appear at all).</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -2042,8 +2013,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Glass_max_radial_decals</Name>
-			<Value>1</Value>
-			<!--From 3-->
+			<Value>1</Value> <!--From 3-->
 			<Description>The maximum number of radial cracks from bullet decals in glass appear.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -2051,8 +2021,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Glass_radial_decal_prob</Name>
-			<Value>100</Value>
-			<!--From 75-->
+			<Value>100</Value> <!--From 75-->
 			<Description>Probability that glass cracks will show up (out of 100).</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -2060,8 +2029,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blast_decal_min_alpha</Name>
-			<Value>1.0</Value>
-			<!--From 0.5-->
+			<Value>1.0</Value> <!--From 0.5-->
 			<Description>The minimum alpha value decals will get based on distance.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -2205,8 +2173,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Salvage_touch_delay_ms</Name>
-			<Value>750</Value>
-			<!--From 1000-->
+			<Value>750</Value> <!--From 1000-->
 			<Description>In ms, the delay between when salvage is spawned, and how soon you can pick it up.  This prevents salvage spawned in your face from using the sledge hammer from being picked up immediately.</Description>
 			<_Editor>
 				<Category>Miscellaneous</Category>
@@ -2286,8 +2253,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Salvage_spawn_dead_prob</Name>
-			<Value>0.25</Value>
-			<!--Maybe 0.50 in rebalance add-on-->
+			<Value>0.25</Value> <!--Maybe 0.50 in rebalance add-on-->
 			<Description>This is the probability used for salvage spawns</Description>
 			<_Editor>
 				<Category>Miscellaneous</Category>
@@ -2311,8 +2277,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Thermo_mid_air_detonation_delay_ms</Name>
-			<Value>0</Value>
-			<!--From 500-->
+			<Value>0</Value> <!--From 500-->
 			<Description>The amount of time (in ms) the player must wait before detonating a thermobaric rocket mid-air.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2328,8 +2293,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_activation_delay_ms</Name>
-			<Value>1000</Value>
-			<!--From 1500-->
+			<Value>1000</Value> <!--From 1500-->
 			<Description>Once placed, a proximity mine will become active after this period of time.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2337,8 +2301,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_detonation_delay_ms</Name>
-			<Value>300</Value>
-			<!--From 600-->
+			<Value>300</Value> <!--From 600-->
 			<Description>Once triggered, proxy mines will detonate after this period of time.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2346,8 +2309,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_radius</Name>
-			<Value>3.5</Value>
-			<!--From 3-->
+			<Value>3.5</Value> <!--From 3-->
 			<Description>Radius within which a proxy mine will detonate on a person.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2355,8 +2317,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_vehicle_radius</Name>
-			<Value>5.0</Value>
-			<!--From 4.5-->
+			<Value>5.0</Value> <!--From 4.5-->
 			<Description>Radius within which a proxy mine will detonate on a vehicle.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2476,8 +2437,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Max_simultaneous_proxies</Name>
-			<Value>64</Value>
-			<!--From 30-->
+			<Value>30</Value> <!--Maybe double it if the limit is increased in RSL2-->
 			<Description>Maximum number of proximity mines that can be out in the world at any given time. The game will crash if more than 128 projectiles (total, not just proxies) are placed, so this tweakable value represents the number at which we start deleting old proxies.</Description>
 			<_Editor>
 				<Category>Weapons</Category>

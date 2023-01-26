@@ -473,9 +473,9 @@ v1.064 ALPHA CHANGES
 * The following maps have been temporarily disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch, Ruins & Scrapheap
 * Disabled misslepod and super gauss spawn in Siege, Damage Control and Demolition on all maps (excluding Crescent)
 
---------------------
+----------------------
 v1.064.1 ALPHA CHANGES
---------------------
+----------------------
 
 [Fixes]
 * Fixed singleplayer DLC crashing when loading
@@ -495,21 +495,96 @@ v1.064.1 ALPHA CHANGES
 * All weapons now respect the players camera shake setting (motion sickness fix)
 * Fixing "varray.h(122)" required reverting adding DLC weapons to EDF in singleplayer (squad_loadout.xtbl, squad_progression.xtbl)
 
+--------------------
+v1.0xx ALPHA CHANGES
+--------------------
+
+[Interface]
+* Reverted adding higher resolution loading screens and thumbnails
+* Reverted replacing other character textures, all new character textures now use a generic placeholder texture until it's possible to add new texture files
+* Reduced interface related files from 765mb to 13.8mb
+
+[Characters] 
+* Restored Numah, Jake, Kayla, Selma, Blair, Bev & Jake
+
+[Misc]
+* Camera_npc_min_fade_pct increased to 11562 from 1.0
+* Camera_npc_min_fade_dist increased to 11562 from 0.0
+* Camera_npc_max_fade_dist increased to 11562 from 0.6
+* Blood_splatter_decal_max_dist increased to 11562 from 30
+* Bullet_hole_decal_max_dist increased to 11562 from 15
+* Bullet_hole_decal_max_dist_player increased to 11562 from 50
+* Re-did lod_properties.xtbl
+* Reduced EDF and Guerilla squad and NPC spawn period to 150 from 300
+* Increased EDF and Guerilla min spawn distance to 350 from 100
+
+[Out of scope fixes]
+* Reverted "Ai_heavy_vehicle_always_cower_chance" to vanilla
+* Reverted to "Ai_no_fall_back_chance" to vanilla
+* Reverted "max_npcs_attacking_player_green, max_npcs_attacking_player_yellow, max_npcs_attacking_player_orange & max_npcs_attacking_player_red" to vanilla
+* Reverted "Player_death_salvage_percent_kept" to vanilla
+* Reverted "Edf_notice_player_with_obvious_weapon_dist" to vanilla
+* Reverted "Salvage_spawn_dead_prob" to vanilla
+* Reverted "Killing_spree_initial_kills" to vanilla
+* Reverted "Killing_spree_initial_time_ms" to vanilla
+* Reverted tank hitpoints to vanilla, hopefully will fix the issue with the second to last mission in EOS breaking
+* Reverted alert_levels.xtbl to vanilla
+* Reverted change to "Max_simultaneous_proxies" in case it causes issues/crashes
+* Reverted removal of artificial gravity from vehicles; this should hopefully fix the transporter mission in Parker/FFZ and the second to last mission in EOS
+* Reverted map loading screen and thumbnail texture replacements
+
+[Destruction Optimization]
+* Reduced objects stress system processes per frame to 350 from 400
+* Increased min delay before checking stress to 150 from 100 
+* Increased max delay before checking stress to 5050 from 5000ms
+
+[Multiplayer]
+* Doubled XP gained
+* Reworked levels and cosmetic unlocks: You now unlock badges, rank icons, characters and hammers at level 5, 10, 20, 30 etc with the "max" rank being 100; The final unlock is the DLC pickaxe at level 126
+* Default options changed to fleetfoot start, friendly fire enabled and delayed enemy icon visibility
+* Improved host migration removal hopefully by increasing "TS_bad_lag_rtt_ms" & "TS_bad_lag_duration_ms" to 2147483647 which should disable true skill host migration completely in all circumstances
+
+[Sniper Rifle]
+* Reduced spread at max range from 0.55 to 0
+* Increased range in which the target must be for the reticle to appear red to 999 from 300, this will hopefully fix the issue with the reticule not turning red on enemies in the distance
+* Possibly fixed weird limited range issue
+
+[Wrecking Crew] 
+* Restored 10/19 vanilla wrecking crew maps so they will have barrels again, the only changes are essential bug fixes
+
+[Thermobaric Rockets]
+* Increased time until projectile expires to 10000 from 5000 meaning it won't vanish until it explodes from the timer or hits something
+
+[Misslepod]
+* Increased time until projectile expires to 10000 from unknown value meaning it won't vanish until it explodes from the timer or hits something
+
+[Rocket Launcher] 
+* Increased time until projectile expires to 10000 from 5000 meaning it won't vanish until it explodes from the timer or hits something
+
+[Grinder] 
+* Increased time until projectile expires to 10000 from unknown value meaning it won't vanish until it hits something
+
+[Shotgun]
+* Added smoke to muzzle flash
+
 ------------
 |KNOWN BUGS|
 ------------
 
 [Singleplayer]
+* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)"
+* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)"
 * DLC: first transporter is broken due to the vehicle not spawning for some unknown reason, uninstall the patch to complete this mission and then you can safetly reinstall after you've finished it
 * DLC: tank doesn't spawn in Redemption mission
 * DLC: crashes on load
 * Activity: offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles
 * Activity: screenshot "sp_eos_side_mission.png" MIGHT be broken
+* Activity: transporter activity in Badlands MIGHT be broken
 * Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx, dlc01_td_02.scriptx", "misc.vpp_pc\dlc01_activity_timed_delivery.xtbl\dlc01_td_02"
 * Flat beds and other large vehicles can damage safehouses when they spawn (will be fixed when singleplayer map editing is improved)
-* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" when loading DLC
 * "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file
 * "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl
+* Marauders might noe spawn with shotguns? (might be fixed in v1.064.1 due to reverting changes to squad files)
 
 [DLC Weapons]
 * Pickaxe and Impaler have missing textures so they are not implemeneted yet (should be fixed when cpeg/gpeg tools release)

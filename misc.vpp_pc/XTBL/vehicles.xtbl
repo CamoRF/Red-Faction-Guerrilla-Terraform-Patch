@@ -1253,8 +1253,7 @@
 			<EnforcedMaxRSpeed>30</EnforcedMaxRSpeed>
 			<vehicle_family>APC</vehicle_family>
 			<Aerodynamics>
-				<Extra_Gravity>-15</Extra_Gravity>
-				<!--Artificial Gravity Multiplier-->
+				<Extra_Gravity>-15</Extra_Gravity> <!--Artificial Gravity Multiplier-->
 			</Aerodynamics>
 			<Angular_Damping>
 				<Normal_Spin_Damping>1.5</Normal_Spin_Damping>
