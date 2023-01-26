@@ -48,16 +48,16 @@
 <!--END-->
 <!--START NEW DLC Weapons ADDED-->
 		<Inventory_Item>
-			<Name>camo_spiker</Name>
-			<Display_Name>WEAP_SPIKER</Display_Name>
+			<Name>camo_royal_sword</Name>
+			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
+			<Description>Very regal.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>		
 		<Inventory_Item>
 			<Name>camo_pickaxe</Name>
 			<Display_Name>WEAP_PICKAXE</Display_Name>
@@ -65,6 +65,17 @@
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
 			<Description>Swing Swing, Konk &amp; Ouch</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>		
+		<Inventory_Item>
+			<Name>camo_spiker</Name>
+			<Display_Name>WEAP_SPIKER</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -79,18 +90,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>camo_royal_sword</Name>
-			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Very regal.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>		
+		</Inventory_Item>	
 <!--START DLC Weapons Added-->
 		<Inventory_Item>
 			<Name>camo_edf_super_gauss</Name>
@@ -104,6 +104,17 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
+			<Name>camo_edf_subverter</Name>
+			<Display_Name>WEAP_SUBVERTER</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Submachinegun</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>		
+		<Inventory_Item>
 			<Name>camo_missilepod</Name>
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
 			<Cost>100</Cost>
@@ -114,17 +125,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>		
-		<Inventory_Item>
-			<Name>camo_edf_subverter</Name>
-			<Display_Name>WEAP_SUBVERTER</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Submachinegun</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
 <!--END DLC Weapons Added-->
 		<Inventory_Item>
 			<Name>gutter</Name>

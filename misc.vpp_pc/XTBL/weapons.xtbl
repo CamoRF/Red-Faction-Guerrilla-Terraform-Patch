@@ -57,7 +57,6 @@
 			<mp_kill_phrase>HM_KILL_PHRASE_BP_MELEE</mp_kill_phrase> <!--Added-->
 			<small_icon_name>ui_hud_kill_icon_sm_beatdown</small_icon_name> <!--Added-->
 		</Weapon>
-		
 		<Weapon>
 			<Name>camo_grenade</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
@@ -155,7 +154,6 @@
 			<icon_name>ui_badge_icon_skull</icon_name>
 			<reticule_name>ui_hud_reti_mines</reticule_name>
 		</Weapon>
-		
 		<Weapon>
 			<Name>camo_stun</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
@@ -256,7 +254,6 @@
 				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
 			</Visuals>	
 		</Weapon>
-		
 		<Weapon>
 			<Name>camo_nano</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
@@ -426,7 +423,6 @@
 			<Zoom_Magnification>1.45</Zoom_Magnification>
 			<aim_assist>0.75</aim_assist>
 		</Weapon>
-		
 		<Weapon>
 			<Name>pickaxe</Name>
 			<Weapon_Class>melee</Weapon_Class>
@@ -487,7 +483,6 @@
 			<Zoom_Magnification>1.45</Zoom_Magnification>
 			<aim_assist>0.75</aim_assist>
 		</Weapon>
-		
 		<Weapon>
 			<Name>spiker</Name>
 			<Weapon_Class>harpoon</Weapon_Class>
@@ -605,7 +600,6 @@
 			</Damage_Scaling_Min>
 			<Max_Rounds_Upgrade>120</Max_Rounds_Upgrade>
 		</Weapon>
-		
 		<Weapon>
 			<Name>mar_charge_placer</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
@@ -792,7 +786,6 @@
 			<Even_Spread_Accuracy_Angle>0.2</Even_Spread_Accuracy_Angle>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
 		</Weapon>
-		
 		<Weapon>
 			<Name>edf_subverter</Name>
 			<Unique_ID>142</Unique_ID>
@@ -884,8 +877,7 @@
 			</_Editor>
 			<Player_Move_Speed>1.25</Player_Move_Speed>
 			<Bullet_hole_scale>0.8</Bullet_hole_scale>
-		</Weapon>		
-		
+		</Weapon>
 		<Weapon>
 			<Name>missilepod</Name>
 			<icon_name>ui_badge_icon_murry</icon_name> <!--From ui_hud_weapon_icon_pod-->
@@ -983,8 +975,7 @@
 			<Player_Move_Speed>1.25</Player_Move_Speed>
 			<Max_Rounds_Upgrade>63</Max_Rounds_Upgrade>
 		</Weapon>
-
-<!--END DLC Weapons ADDED-->
+<!--END-->
 <!--START MP WEAPONS-->
 		<Weapon>
 			<Name>m16</Name>

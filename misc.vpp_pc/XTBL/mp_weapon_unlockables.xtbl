@@ -120,14 +120,14 @@
 			</_Editor>
 			<image_name>mp_hammer_ostrich</image_name>
 		</unlockable>
-		<!--<unlockable>
-			<Name>dlc pickaxe goes here</Name>
+		<unlockable>
+			<Name>pickaxe</Name>
 			<level_needed>126</level_needed>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<image_name>placeholder</image_name>
-		</unlockable>-->
+		</unlockable>
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
