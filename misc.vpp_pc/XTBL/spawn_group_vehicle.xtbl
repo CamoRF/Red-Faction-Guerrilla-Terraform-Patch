@@ -44,7 +44,6 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Camo_Parker_Dust</Name>
 			<vehicle_list>
@@ -153,7 +152,6 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>		
-		
 		<spawn_group_vehicle>
 			<Name>Camo_All_Walkers</Name>
 			<vehicle_list>
@@ -164,13 +162,12 @@
 				<vehicle_type>Walker_Min</vehicle_type>
 				<vehicle_type>Walker_Min2</vehicle_type>
 				<vehicle_type>Walker_Min3</vehicle_type>
-				<vehicle_type>dlc_Mar_Walker</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_Walker</vehicle_type> <!--DLC-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Special</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-
 		<spawn_group_vehicle>
 			<Name>Camo_All_Fliers</Name>
 			<vehicle_list>
@@ -183,9 +180,8 @@
 				<Category>Entries:Special</Category>
 			</_Editor>
 		</spawn_group_vehicle>			
-		
 		<spawn_group_vehicle>
-			<Name>Vanilla Guerilla</Name>
+			<Name>Vanilla_Guerilla</Name>
 			<vehicle_list>
 				<vehicle_type>Min_LightPickup_1</vehicle_type>
 				<vehicle_type>Min_LightPickup_2</vehicle_type>
@@ -207,9 +203,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
-			<Name>Vanilla EDF</Name>
+			<Name>Vanilla_EDF</Name>
 			<vehicle_list>
 				<vehicle_type>EDF_Scout_1</vehicle_type>
 				<vehicle_type>EDF_Scout_2</vehicle_type>
@@ -220,9 +215,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
-			<Name>Vanilla Marauder</Name>
+			<Name>Vanilla_Marauder</Name>
 			<vehicle_list>
 				<vehicle_type>Mar_Raider_1</vehicle_type>
 				<vehicle_type>Mar_Jetter_1</vehicle_type>
@@ -232,9 +226,7 @@
 			</_Editor>
 		</spawn_group_vehicle>		
 <!--END Added-->		
-
 <!--START Edited-->
-		
 		<spawn_group_vehicle>
 			<Name>Default Guerilla</Name>
 			<vehicle_list>
@@ -259,7 +251,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Default EDF</Name>
 			<vehicle_list>
@@ -312,40 +303,42 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_group_vehicle>		
-		
 		<spawn_group_vehicle>
 			<Name>Default Marauder</Name>
 			<vehicle_list>
 				<vehicle_type>Mar_Raider_1</vehicle_type>
 				<vehicle_type>Mar_Jetter_1</vehicle_type>
 				<vehicle_type>Mar_chomper</vehicle_type> <!--DLC-->
-				<vehicle_type>dlc_Mar_chomper_MG</vehicle_type> <!--DLC-->
-				<vehicle_type>dlc_Mar_chomper_MGWing</vehicle_type> <!--DLC-->
-				<vehicle_type>dlc_Mar_chomper_Harp</vehicle_type> <!--DLC-->
-				<vehicle_type>dlc_Mar_stomper_MG</vehicle_type> <!--DLC-->				
+				<vehicle_type>Mar_chomper_MG</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_MGWing</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_Harp</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_stomper_MG</vehicle_type> <!--DLC-->		
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>gue_walker</Name>
 			<vehicle_list>
 				<vehicle_type>Walker_Civilian</vehicle_type>
 				<vehicle_type>Walker_Civilian2</vehicle_type>
 				<vehicle_type>Walker_Civilian3</vehicle_type>
-				<vehicle_type>dlc_Mar_Walker</vehicle_type>	<!--DLC-->	
+				<vehicle_type>Mar_Walker</vehicle_type>	<!--DLC-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-
 		<spawn_group_vehicle>
 			<Name>Mar_Raider</Name>
 			<vehicle_list>
 				<vehicle_type>Mar_Raider_1</vehicle_type>
+				<vehicle_type>Mar_chomper</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_MG</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_MGWing</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_Harp</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_stomper_MG</vehicle_type> <!--DLC-->				
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Marauder</Category>
@@ -356,6 +349,11 @@
 			<Name>Mar_Jetter_1</Name>
 			<vehicle_list>
 				<vehicle_type>Mar_Jetter_1</vehicle_type>
+				<vehicle_type>Mar_chomper</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_MG</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_MGWing</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_Harp</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_stomper_MG</vehicle_type> <!--DLC-->				
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Marauder</Category>
@@ -401,17 +399,16 @@
 				<vehicle_type>Min_SupplyTruck_2</vehicle_type>
 				<vehicle_type>Min_SupplyTruck_3</vehicle_type>
 				<vehicle_type>Min_Jetter_1</vehicle_type>-->
-				<vehicle_type>dlc_Mar_chomper</vehicle_type> <!--DLC-->
-				<vehicle_type>dlc_Mar_chomper_MG</vehicle_type> <!--DLC-->
-				<vehicle_type>dlc_Mar_chomper_MGWing</vehicle_type> <!--DLC-->
-				<vehicle_type>dlc_Mar_chomper_Harp</vehicle_type> <!--DLC-->
-				<vehicle_type>dlc_Mar_stomper_MG</vehicle_type> <!--DLC-->				
+				<vehicle_type>Mar_chomper</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_MG</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_MGWing</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_Harp</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_stomper_MG</vehicle_type> <!--DLC-->				
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_DustSafehouse</Name>
 			<vehicle_list>
@@ -456,24 +453,21 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_BadlandsSafehouse</Name>
 			<vehicle_list>
 				<vehicle_type>Mar_Raider_1</vehicle_type>
 				<vehicle_type>Mar_Jetter_1</vehicle_type>
-				<vehicle_type>dlc_Mar_chomper</vehicle_type> <!--DLC-->
-				<vehicle_type>dlc_Mar_chomper_MG</vehicle_type> <!--DLC-->
-				<vehicle_type>dlc_Mar_chomper_MGWing</vehicle_type> <!--DLC-->
-				<vehicle_type>dlc_Mar_chomper_Harp</vehicle_type> <!--DLC-->
-				<vehicle_type>dlc_Mar_stomper_MG</vehicle_type> <!--DLC-->
-				<vehicle_type>Min_Jetter_1</vehicle_type>				
+				<vehicle_type>Mar_chomper</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_MG</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_MGWing</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_chomper_Harp</vehicle_type> <!--DLC-->
+				<vehicle_type>Mar_stomper_MG</vehicle_type> <!--DLC-->			
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_EosSafehouse</Name>
 			<vehicle_list>
@@ -582,7 +576,6 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_OasisSafehouse</Name>
 			<vehicle_list>
@@ -691,7 +684,6 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-
 		<spawn_group_vehicle>
 			<Name>Amb_Oasis</Name>
 			<vehicle_list>
@@ -711,7 +703,6 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_Badlands</Name>
 			<vehicle_list>
@@ -731,8 +722,7 @@
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
-		</spawn_group_vehicle>	
-		
+		</spawn_group_vehicle>
 		<spawn_group_vehicle>
 			<Name>Amb_Dust</Name>
 			<vehicle_list>
@@ -756,7 +746,6 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_Dust2</Name>
 			<vehicle_list>
@@ -776,8 +765,7 @@
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
-		</spawn_group_vehicle>		
-		
+		</spawn_group_vehicle>
 		<spawn_group_vehicle>
 			<Name>Amb_Parker</Name>
 			<vehicle_list>
@@ -798,7 +786,6 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_Manufacturing</Name>
 			<vehicle_list>
@@ -817,7 +804,6 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_Eos</Name>
 			<vehicle_list>
@@ -843,7 +829,6 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_EosCommand</Name>
 			<vehicle_list>
@@ -859,7 +844,6 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_End Game</Name>
 			<vehicle_list>
@@ -880,7 +864,6 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_Raids_Eos</Name>
 			<vehicle_list>
@@ -902,7 +885,6 @@
 				<Category>Entries:Activities</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_Raids_Oasis</Name>
 			<vehicle_list>
@@ -918,7 +900,6 @@
 				<Category>Entries:Activities</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Amb_Raids_Dust</Name>
 			<vehicle_list>
@@ -936,7 +917,6 @@
 				<Category>Entries:Activities</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-
 		<spawn_group_vehicle>
 			<Name>Demo</Name>
 			<vehicle_list>
@@ -954,9 +934,7 @@
 				<Category>Entries:Special</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 <!--END Edited-->		
-		
 		<spawn_group_vehicle>
 			<Name>mis_FMC_EDFContAttack</Name>
 			<vehicle_list>
@@ -969,7 +947,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_FMC_EDFRallyScouts</Name>
 			<vehicle_list>
@@ -982,7 +959,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_WKWYA</Name>
 			<vehicle_list>
@@ -994,7 +970,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_WMR</Name>
 			<vehicle_list>
@@ -1006,7 +981,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_WMR_Truck</Name>
 			<vehicle_list>
@@ -1016,7 +990,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_RT</Name>
 			<vehicle_list>
@@ -1026,7 +999,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_RT_turret</Name>
 			<vehicle_list>
@@ -1036,7 +1008,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>act_convoy_sup_truck</Name>
 			<vehicle_list>
@@ -1048,7 +1019,6 @@
 				<Category>Entries:Activities</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>act_courier</Name>
 			<vehicle_list>
@@ -1061,7 +1031,6 @@
 				<Category>Entries:Activities</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>act_riding_shotgun</Name>
 			<vehicle_list>
@@ -1071,7 +1040,6 @@
 				<Category>Entries:Activities</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_APC</Name>
 			<vehicle_list>
@@ -1084,7 +1052,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_bomber</Name>
 			<vehicle_list>
@@ -1094,7 +1061,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_scout</Name>
 			<vehicle_list>
@@ -1107,7 +1073,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_scout_turr</Name>
 			<vehicle_list>
@@ -1120,7 +1085,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_staff_car</Name>
 			<vehicle_list>
@@ -1132,7 +1096,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_tank_heavy</Name>
 			<vehicle_list>
@@ -1145,7 +1108,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>gue_flatbed</Name>
 			<vehicle_list>
@@ -1157,7 +1119,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>gue_pickup</Name>
 			<vehicle_list>
@@ -1169,7 +1130,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>gue_rover</Name>
 			<vehicle_list>
@@ -1181,7 +1141,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>gue_truck_sup</Name>
 			<vehicle_list>
@@ -1193,7 +1152,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_WMR_pursuit_mgun</Name>
 			<vehicle_list>
@@ -1206,7 +1164,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>gue_flatbed_2</Name>
 			<vehicle_list>
@@ -1216,7 +1173,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_flyer</Name>
 			<vehicle_list>
@@ -1228,7 +1184,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_H2H_EDFStaffCar</Name>
 			<vehicle_list>
@@ -1238,7 +1193,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_PT_MarauderConvoy</Name>
 			<vehicle_list>
@@ -1248,7 +1202,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_PT_InitialVehicle</Name>
 			<vehicle_list>
@@ -1260,7 +1213,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_H2H_InitialVehicle</Name>
 			<vehicle_list>
@@ -1272,7 +1224,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_GOT</Name>
 			<vehicle_list>
@@ -1284,7 +1235,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_APC_NoTurret</Name>
 			<vehicle_list>
@@ -1297,7 +1247,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_GOT_Fodder</Name>
 			<vehicle_list>
@@ -1315,7 +1264,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_AVM_Convoy</Name>
 			<vehicle_list>
@@ -1327,7 +1275,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_WMR_pursuit_rocket</Name>
 			<vehicle_list>
@@ -1337,7 +1284,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_gen_ATV</Name>
 			<vehicle_list>
@@ -1349,7 +1295,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_gen_Rover</Name>
 			<vehicle_list>
@@ -1361,7 +1306,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Col_Caravan_1</Name>
 			<vehicle_list>
@@ -1373,7 +1317,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Col_Mini_Hauler_1</Name>
 			<vehicle_list>
@@ -1385,7 +1328,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Col_Taxi_1</Name>
 			<vehicle_list>
@@ -1397,7 +1339,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Col_TrashTruck_1</Name>
 			<vehicle_list>
@@ -1407,7 +1348,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Min_ATV_1</Name>
 			<vehicle_list>
@@ -1419,7 +1359,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Col_FuelTanker_1</Name>
 			<vehicle_list>
@@ -1431,7 +1370,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Min_Bulldozer_1</Name>
 			<vehicle_list>
@@ -1441,7 +1379,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Min_Emergency_1</Name>
 			<vehicle_list>
@@ -1451,7 +1388,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Walker_Min</Name>
 			<vehicle_list>
@@ -1463,7 +1399,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_Intro2_Patrol</Name>
 			<vehicle_list>
@@ -1475,7 +1410,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_AVM_ContAttack</Name>
 			<vehicle_list>
@@ -1488,7 +1422,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_AVM_RoadBlock</Name>
 			<vehicle_list>
@@ -1500,7 +1433,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_tank_medium</Name>
 			<vehicle_list>
@@ -1512,7 +1444,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_tank_artillery</Name>
 			<vehicle_list>
@@ -1522,7 +1453,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>min_DumpTruck_1</Name>
 			<vehicle_list>
@@ -1534,7 +1464,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_flyerRocket</Name>
 			<vehicle_list>
@@ -1544,7 +1473,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_flyerMG</Name>
 			<vehicle_list>
@@ -1554,7 +1482,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_staff_car_NoTurret</Name>
 			<vehicle_list>
@@ -1566,7 +1493,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_Supplytruck_MG</Name>
 			<vehicle_list>
@@ -1578,7 +1504,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_Supplytruck_Gauss</Name>
 			<vehicle_list>
@@ -1590,7 +1515,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_APC_Gauss</Name>
 			<vehicle_list>
@@ -1603,7 +1527,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_scout_Gauss</Name>
 			<vehicle_list>
@@ -1616,7 +1539,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_FMC_Roadblock</Name>
 			<vehicle_list>
@@ -1629,7 +1551,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_FMC_PursuitCar</Name>
 			<vehicle_list>
@@ -1641,7 +1562,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_Supplytruck_NoTurret</Name>
 			<vehicle_list>
@@ -1653,7 +1573,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Tharsis_gun</Name>
 			<vehicle_list>
@@ -1663,7 +1582,6 @@
 				<Category>Entries:Special</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_H2H_APCGauss</Name>
 			<vehicle_list>
@@ -1676,7 +1594,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_H2H_Flyer</Name>
 			<vehicle_list>
@@ -1686,7 +1603,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_H2H_roadblock</Name>
 			<vehicle_list>
@@ -1699,7 +1615,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_H2H_Pursuers</Name>
 			<vehicle_list>
@@ -1712,7 +1627,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>min_jetter</Name>
 			<vehicle_list>
@@ -1722,7 +1636,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_flyerGauss</Name>
 			<vehicle_list>
@@ -1732,7 +1645,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>miss_STGC_Start</Name>
 			<vehicle_list>
@@ -1744,7 +1656,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>gue_pickupMG</Name>
 			<vehicle_list>
@@ -1756,7 +1667,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>gue_roverMG</Name>
 			<vehicle_list>
@@ -1768,7 +1678,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Min_ATVMG</Name>
 			<vehicle_list>
@@ -1780,7 +1689,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>gue_truck_supMG</Name>
 			<vehicle_list>
@@ -1792,7 +1700,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Col_TrashTruckMG</Name>
 			<vehicle_list>
@@ -1802,7 +1709,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_WKWYA_Rover</Name>
 			<vehicle_list>
@@ -1814,7 +1720,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Default EDF NoTurret</Name>
 			<vehicle_list>
@@ -1827,7 +1732,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>civ_resrunner_c</Name>
 			<vehicle_list>
@@ -1837,7 +1741,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_AVM_InitialVehicle</Name>
 			<vehicle_list>
@@ -1847,7 +1750,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Min_ArcWalker</Name>
 			<vehicle_list>
@@ -1857,7 +1759,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Mars_Rover</Name>
 			<vehicle_list>
@@ -1867,7 +1768,6 @@
 				<Category>Entries:Special</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_gen_Crab</Name>
 			<vehicle_list>
@@ -1879,7 +1779,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_staff_car_Gauss</Name>
 			<vehicle_list>
@@ -1891,7 +1790,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>civ_resrunner</Name>
 			<vehicle_list>
@@ -1901,7 +1799,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>gue_roverRocket</Name>
 			<vehicle_list>
@@ -1913,7 +1810,6 @@
 				<Category>Entries:Guerilla</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>EDF_tank_superart</Name>
 			<vehicle_list>
@@ -1923,8 +1819,7 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>	
-		
-		<!--<spawn_group_vehicle>
+		<spawn_group_vehicle>
 			<Name>racetrack</Name>
 			<vehicle_list>
 				<vehicle_type>Civ_ResRunner-C_1</vehicle_type>
@@ -1946,7 +1841,7 @@
 			<_Editor>
 				<Category>Entries:Test</Category>
 			</_Editor>
-		</spawn_group_vehicle>-->
+		</spawn_group_vehicle>
 		
 		<!--ORIGINAL Parker Safehouse-->
 			<!--<vehicle_type>Min_LightPickup_1</vehicle_type>

@@ -2,7 +2,7 @@
 	<Table>
 <!--START Added-->
 		<Behaviors>
-			<Name>Camo Eos Ambient</Name>
+			<Name>Camo_Eos_Ambient</Name>
 			<_Editor>
 				<Category>Entries:Dust</Category>
 			</_Editor>
@@ -227,7 +227,7 @@
 			</Behavior_List>
 		</Behaviors>
 		<Behaviors>
-			<Name>Camo Most Sectors Ambient</Name>
+			<Name>Camo_Most_Sectors_Ambient</Name>
 			<_Editor>
 				<Category>Entries:Dust</Category>
 			</_Editor>

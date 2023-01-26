@@ -2,7 +2,7 @@
 	<Table>
 <!--START Added-->
 		<spawn_group_human>
-			<Name>Vanilla Civilian</Name>
+			<Name>Vanilla_Civilian</Name>
 			<human_list>
 				<human_type>Bev</human_type>
 				<human_type>Torvald</human_type>
@@ -90,9 +90,8 @@
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
-			<Name>Vanilla EDF</Name>
+			<Name>Vanilla_EDF</Name>
 			<human_list>
 				<human_type>EDF_Trooper</human_type>
 				<human_type>EDF_Officer_May</human_type>
@@ -103,9 +102,8 @@
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
-			<Name>Vanilla Guerilla</Name>
+			<Name>Vanilla_Guerilla</Name>
 			<human_list>
 				<human_type>Bev</human_type>
 				<human_type>Torvald</human_type>
@@ -193,9 +191,8 @@
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
-			<Name>Vanilla Marauder</Name>
+			<Name>Vanilla_Marauder</Name>
 			<human_list>
 				<human_type>Eddie</human_type>
 				<human_type>Slade</human_type>
@@ -205,7 +202,6 @@
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Camo_Most_NPCs</Name>
 			<human_list>
@@ -293,7 +289,6 @@
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Camo_Parker_Dust</Name>
 			<human_list>
@@ -354,11 +349,9 @@
 			<_Editor>
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
-		</spawn_group_human>				
-
+		</spawn_group_human>
 <!--END Added-->
 <!--START Edited-->		
-		
 		<spawn_group_human>
 			<Name>Default Civilian</Name>
 			<human_list>
@@ -446,7 +439,6 @@
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Default EDF</Name>
 			<human_list>
@@ -465,7 +457,6 @@
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Default Guerilla</Name>
 			<human_list>
@@ -525,7 +516,6 @@
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Default Marauder</Name>
 			<human_list>
@@ -539,9 +529,7 @@
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-
-<!--ORIGINAL SPAWNS ARE COMMENTED OUT-->		
-		
+<!--ORIGINAL SPAWNS ARE COMMENTED OUT-->
 		<spawn_group_human>
 			<Name>Guerilla Dust</Name>
 			<human_list>
@@ -620,7 +608,6 @@
 				<Category>Entries:Guerilla Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Guerilla Parker</Name>
 			<human_list>
@@ -698,7 +685,6 @@
 				<Category>Entries:Guerilla Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Guerilla Oasis</Name>
 			<human_list>
@@ -811,7 +797,6 @@
 				<Category>Entries:Guerilla Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Guerilla Eos</Name>
 			<human_list>
@@ -922,7 +907,6 @@
 				<Category>Entries:Guerilla Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Guerilla Dust Oasis</Name>
 			<human_list>
@@ -1052,7 +1036,6 @@
 				<Category>Entries:Guerilla Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Guerilla Dust Parker</Name>
 			<human_list>
@@ -1146,7 +1129,6 @@
 				<Category>Entries:Guerilla Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Guerilla Dust Parker Eos</Name>
 			<human_list>
@@ -1289,7 +1271,6 @@
 				<Category>Entries:Guerilla Groups</Category>
 			</_Editor>
 		</spawn_group_human>		
-		
 		<spawn_group_human>
 			<Name>Hostages</Name>
 			<human_list>
@@ -1303,7 +1284,6 @@
 				<Category>Entries:Activity</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Carmen</Name>
 			<human_list>
@@ -1313,7 +1293,6 @@
 				<Category>Entries:Story Characters</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Dan</Name>
 			<human_list>
@@ -1323,7 +1302,6 @@
 				<Category>Entries:Story Characters</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Jorge</Name>
 			<human_list>
@@ -1333,7 +1311,6 @@
 				<Category>Entries:Story Characters</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>EDF Bureaucrat</Name>
 			<human_list>
@@ -1343,7 +1320,6 @@
 				<Category>Entries:Test</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>EDF Officer</Name>
 			<human_list>
@@ -1353,7 +1329,6 @@
 				<Category>Entries:Test</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>EDF_Pilot</Name>
 			<human_list>
@@ -1363,7 +1338,6 @@
 				<Category>Entries:Test</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>EDF_Sniper</Name>
 			<human_list>
@@ -1373,7 +1347,6 @@
 				<Category>Entries:Test</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Guerilla Hammer</Name>
 			<human_list>
@@ -1383,7 +1356,6 @@
 				<Category>Entries:Test</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Marauder_SciTech</Name>
 			<human_list>
@@ -1393,7 +1365,6 @@
 				<Category>Entries:Test</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Mixed Test</Name>
 			<human_list>
@@ -1405,7 +1376,6 @@
 				<Category>Entries:Test</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>rfg_guerilla2</Name>
 			<human_list>
@@ -1415,7 +1385,6 @@
 				<Category>Entries:Test</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>rfg_guerilla3</Name>
 			<human_list>
@@ -1425,7 +1394,6 @@
 				<Category>Entries:Test</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Voice Test EDF</Name>
 			<human_list>
@@ -1435,7 +1403,6 @@
 				<Category>Entries:Test</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_Ambush_Engineer</Name>
 			<human_list>
@@ -1445,7 +1412,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_FMC_ColonelBaker</Name>
 			<human_list>
@@ -1455,7 +1421,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_H2H_hostage</Name>
 			<human_list>
@@ -1465,7 +1430,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-
 		<spawn_group_human>
 			<Name>mis_DBC_VIP_1</Name>
 			<human_list>
@@ -1475,7 +1439,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_DBC_VIP_2</Name>
 			<human_list>
@@ -1485,7 +1448,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_DBC_VIP_3</Name>
 			<human_list>
@@ -1495,7 +1457,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_SH_Snipers</Name>
 			<human_list>
@@ -1505,7 +1466,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_EBS_Sam</Name>
 			<human_list>
@@ -1515,7 +1475,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_H2H_Elites</Name>
 			<human_list>
@@ -1525,7 +1484,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-
 		<spawn_group_human>
 			<Name>Radio Operator</Name>
 			<human_list>
@@ -1538,7 +1496,6 @@
 				<Category>Entries:Guerilla Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Driver</Name>
 			<human_list>
@@ -1548,7 +1505,6 @@
 				<Category>Entries:Story Characters</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>General_Roth</Name>
 			<human_list>
@@ -1558,7 +1514,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_Tutorial_Pilot</Name>
 			<human_list>

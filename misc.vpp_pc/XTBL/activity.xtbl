@@ -4,112 +4,96 @@
 		<container_name>name</container_name>
 		<container_type>GSC_LAYER_SMALL</container_type>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_0</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_1</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_2</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_3</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_4</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_5</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_6</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_7</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_8</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_9</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_10</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_11</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_12</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_13</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_14</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
 			<report_errors>false</report_errors>
 		</container_contents>
 		<container_contents>managed_layer_info
-		
 			<name>layer_file_15</name>
 			<ext>layer</ext>
 			<type>GSP_ZONE</type>
@@ -127,9 +111,9 @@
 			<_Editor>
 				<Category>Offensive Raids</Category>
 			</_Editor>
-			<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_staff_car-->
+			<vehicle_group>Vanilla_EDF</vehicle_group> <!--From EDF_staff_car-->
 			<reservation_info>
-				<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_staff_car-->
+				<vehicle_group>Vanilla_EDF</vehicle_group> <!--From EDF_staff_car-->
 				<reserve_at_start>At Start</reserve_at_start>
 			</reservation_info>
 			<min_alert_cap>Yellow</min_alert_cap>
@@ -145,7 +129,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>		
-		
 		<base_activity>
 			<Name>je_cc_01</Name>
 			<managed_layer_info>
@@ -182,7 +165,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_cc_02</Name>
 			<managed_layer_info>
@@ -219,7 +201,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_cc_03</Name>
 			<managed_layer_info>
@@ -259,7 +240,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_cc_05</Name>
 			<managed_layer_info>
@@ -294,7 +274,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_cd_01</Name>
 			<managed_layer_info>
@@ -331,7 +310,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_cd_02</Name>
 			<managed_layer_info>
@@ -367,7 +345,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_cd_03</Name>
 			<managed_layer_info>
@@ -402,7 +379,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_cd_04</Name>
 			<managed_layer_info>
@@ -442,7 +418,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_rs_01</Name>
 			<disabled>False</disabled>
@@ -482,7 +457,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_rs_02</Name>
 			<disabled>False</disabled>
@@ -525,7 +499,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_rd_02</Name>
 			<disabled>False</disabled>
@@ -553,7 +526,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>0.8</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_rd_03</Name>
 			<disabled>False</disabled>
@@ -582,7 +554,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>0.8</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ro_01</Name>
 			<managed_layer_info>
@@ -611,7 +582,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ro_02</Name>
 			<disabled>False</disabled>
@@ -640,7 +610,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ro_03</Name>
 			<managed_layer_info>
@@ -670,7 +639,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ro_04</Name>
 			<disabled>False</disabled>
@@ -699,7 +667,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ha_01</Name>
 			<managed_layer_info>
@@ -726,7 +693,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ha_02</Name>
 			<managed_layer_info>
@@ -752,7 +718,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ha_03</Name>
 			<managed_layer_info>
@@ -778,7 +743,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ha_04</Name>
 			<managed_layer_info>
@@ -804,7 +768,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ha_05</Name>
 			<managed_layer_info>
@@ -833,7 +796,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ro_05</Name>
 			<disabled>False</disabled>
@@ -862,7 +824,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_rs_03</Name>
 			<disabled>False</disabled>
@@ -904,7 +865,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ro_06</Name>
 			<disabled>False</disabled>
@@ -934,7 +894,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ha_06</Name>
 			<managed_layer_info>
@@ -961,7 +920,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ha_07</Name>
 			<managed_layer_info>
@@ -988,7 +946,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_rd_04</Name>
 			<disabled>False</disabled>
@@ -1017,7 +974,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>0.5</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ha_08</Name>
 			<managed_layer_info>
@@ -1044,7 +1000,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_rs_04</Name>
 			<disabled>False</disabled>
@@ -1086,7 +1041,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ro_08</Name>
 			<disabled>False</disabled>
@@ -1116,7 +1070,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ro_09</Name>
 			<disabled>False</disabled>
@@ -1147,7 +1100,6 @@
 			<guerrilla_reinforcement>False</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ha_09</Name>
 			<managed_layer_info>
@@ -1170,7 +1122,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_cu_01</Name>
 			<disabled>False</disabled>
@@ -1203,7 +1154,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_cu_02</Name>
 			<disabled>False</disabled>
@@ -1238,7 +1188,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ha_10</Name>
 			<managed_layer_info>
@@ -1264,7 +1213,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ha_11</Name>
 			<managed_layer_info>
@@ -1290,7 +1238,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_ha_12</Name>
 			<managed_layer_info>
@@ -1313,7 +1260,6 @@
 			<guerrilla_reinforcement>True</guerrilla_reinforcement>
 			<control_limit>1.0</control_limit>
 		</base_activity>
-		
 		<base_activity>
 			<Name>je_rd_05</Name>
 			<disabled>False</disabled>

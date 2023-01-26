@@ -4,7 +4,7 @@
 		<Item>
 			<Name>royal_sword</Name>
 			<Item_Flags>
-				<Flag>spin</Flag>
+				<!--<Flag>spin</Flag>--> <!--Makes it drop on the ground instead of spinning I think-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<Mesh>

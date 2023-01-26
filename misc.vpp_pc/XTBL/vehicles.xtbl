@@ -1,8 +1,8 @@
 <root>
 	<Table>
-		<!--START DLC Vehicles Added-->
+<!--START DLC Vehicles Added-->
 		<Vehicle>
-			<Name>dlc_Mar_chomper</Name>
+			<Name>Mar_chomper</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -56,7 +56,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>7000</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
@@ -78,7 +77,7 @@
 				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
 			</Foley>
 			<Mesh_Name>
-				<Filename>dlc_mar_chomper.carx</Filename>
+				<Filename>mar_chomper.carx</Filename>
 			</Mesh_Name>
 			<Preload>False</Preload>
 			<Default_Team>Marauder</Default_Team>
@@ -129,7 +128,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>dlc_Mar_chomper</Vehicle_Interaction>
+			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<Effects>
 				<Exhaust>veh_exhaust_generic_a</Exhaust>
@@ -162,7 +161,7 @@
 			<Collision_Mass_Scalar>2.0</Collision_Mass_Scalar>
 		</Vehicle>
 		<Vehicle>
-			<Name>dlc_Mar_chomper_MG</Name>
+			<Name>Mar_chomper_MG</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -216,7 +215,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>7000</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
@@ -238,7 +236,7 @@
 				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
 			</Foley>
 			<Mesh_Name>
-				<Filename>dlc_mar_chomper.carx</Filename>
+				<Filename>mar_chomper.carx</Filename>
 			</Mesh_Name>
 			<Preload>False</Preload>
 			<Default_Team>Marauder</Default_Team>
@@ -289,7 +287,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>dlc_Mar_chomper</Vehicle_Interaction>
+			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<Effects>
 				<Exhaust>veh_exhaust_generic_a</Exhaust>
@@ -338,7 +336,7 @@
 			</Turrets>
 		</Vehicle>
 		<Vehicle>
-			<Name>dlc_Mar_chomper_MGWing</Name>
+			<Name>Mar_chomper_MGWing</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -392,7 +390,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>7000</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
@@ -414,7 +411,7 @@
 				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
 			</Foley>
 			<Mesh_Name>
-				<Filename>dlc_mar_chomper.carx</Filename>
+				<Filename>mar_chomper.carx</Filename>
 			</Mesh_Name>
 			<Preload>False</Preload>
 			<Default_Team>Marauder</Default_Team>
@@ -465,7 +462,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>dlc_Mar_chomper</Vehicle_Interaction>
+			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<Effects>
 				<Exhaust>veh_exhaust_generic_a</Exhaust>
@@ -514,7 +511,7 @@
 			</Turrets>
 		</Vehicle>
 		<Vehicle>
-			<Name>dlc_Mar_chomper_Harp</Name>
+			<Name>Mar_chomper_Harp</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -568,7 +565,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>7000</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
@@ -590,7 +586,7 @@
 				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
 			</Foley>
 			<Mesh_Name>
-				<Filename>dlc_mar_chomper.carx</Filename>
+				<Filename>mar_chomper.carx</Filename>
 			</Mesh_Name>
 			<Preload>False</Preload>
 			<Default_Team>Marauder</Default_Team>
@@ -641,7 +637,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>dlc_Mar_chomper</Vehicle_Interaction>
+			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<Effects>
 				<Exhaust>veh_exhaust_generic_a</Exhaust>
@@ -690,7 +686,7 @@
 			</Turrets>
 		</Vehicle>
 		<Vehicle>
-			<Name>dlc_Mar_stomper_MG</Name>
+			<Name>Mar_stomper_MG</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -746,7 +742,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -769,7 +764,7 @@
 				<Pass_By>VEH_DRIVEBY_CAR</Pass_By>
 			</Foley>
 			<Mesh_Name>
-				<Filename>dlc_mar_stomper.carx</Filename>
+				<Filename>mar_stomper.carx</Filename>
 			</Mesh_Name>
 			<Preload>False</Preload>
 			<Default_Team>Marauder</Default_Team>
@@ -822,7 +817,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.5</Terrain_Damage_Scale>
-			<Vehicle_Interaction>dlc_Mar_stomper</Vehicle_Interaction>
+			<Vehicle_Interaction>Mar_stomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<spawn_offset_info>
 				<spawn_height>1.97</spawn_height>
@@ -859,109 +854,7 @@
 			</Turrets>
 			<Energy_Scale>1.5</Energy_Scale>
 		</Vehicle>
-		<Vehicle>
-			<Name>dlc_Mar_Walker</Name>
-			<_Editor>
-				<Category>Mechs</Category>
-			</_Editor>
-			<Group>Mech</Group>
-			<Value>0.02</Value>
-			<Props>1000</Props>
-			<Display_Name>Mar_Walker</Display_Name>
-			<Max_Hitpoints>60000</Max_Hitpoints>
-			<Viscosity_Friction>0.0</Viscosity_Friction>
-			<Special_Vehicle_Type>Special</Special_Vehicle_Type>
-			<Convertible>false</Convertible>
-			<Mass>10000</Mass>
-			<Rig>
-				<Rig>
-					<Filename>walker_civilian.rigX</Filename>
-				</Rig>
-				<Anim_set>Walker_Civilian</Anim_set>
-				<Footsteps>Walker_Civ_PC</Footsteps>
-				<Filename></Filename>
-			</Rig>
-			<Mesh_Name>
-				<Filename>dlc_walker_mar.carx</Filename>
-			</Mesh_Name>
-			<Preload>False</Preload>
-			<Default_Team>Civilian</Default_Team>
-			<VehicleClass>Walker</VehicleClass>
-			<Center_Of_Mass_Y>0</Center_Of_Mass_Y>
-			<Cameras>
-				<Camera>
-					<Lookat_Offset>
-						<X>0.0</X>
-						<Y>1.7</Y>
-						<Z>-0.5</Z>
-					</Lookat_Offset>
-					<Follow_Distance>8.5</Follow_Distance>
-					<Follow_Height>1.8</Follow_Height>
-					<Y_Axis_Rotation>0.2</Y_Axis_Rotation>
-					<Turret_Camera>False</Turret_Camera>
-					<Lookat_Vehicle_Offset>
-						<X>0.0</X>
-						<Y>3</Y>
-						<Z>0.0</Z>
-					</Lookat_Vehicle_Offset>
-					<Force_T_Cam>False</Force_T_Cam>
-					<Lookat_Enter_Offset>
-						<X>-1.5</X>
-						<Y>3.2</Y>
-						<Z>1.7</Z>
-					</Lookat_Enter_Offset>
-				</Camera>
-				<Camera>
-					<Lookat_Offset>
-						<X>0.0</X>
-						<Y>0</Y>
-						<Z>0.0</Z>
-					</Lookat_Offset>
-					<Follow_Distance>6.0</Follow_Distance>
-					<Follow_Height>0</Follow_Height>
-					<Y_Axis_Rotation>0.2</Y_Axis_Rotation>
-					<Turret_Camera>False</Turret_Camera>
-					<Lookat_Vehicle_Offset>
-						<X>0.0</X>
-						<Y>1.7</Y>
-						<Z>-1.0</Z>
-					</Lookat_Vehicle_Offset>
-					<Force_T_Cam>False</Force_T_Cam>
-				</Camera>
-			</Cameras>
-			<Effects>
-				<Exhaust>veh_exhaust_deisel_a</Exhaust>
-				<ExhaustBurst>veh_exhaust_deisel_b</ExhaustBurst>
-				<Explosion>Vehicle</Explosion>
-			</Effects>
-			<Vehicle_Interaction>Walker_Civilian</Vehicle_Interaction>
-			<CanBlockRoads>False</CanBlockRoads>
-			<spawn_offset_info>
-				<spawn_height>.01</spawn_height>
-				<spawn_box_max>
-					<X>2.61</X>
-					<Y>3.79</Y>
-					<Z>3.73</Z>
-				</spawn_box_max>
-				<X>2.0</X>
-				<Y>2.0</Y>
-				<Z>2.0</Z>
-			</spawn_offset_info>
-			<Force_Break_Links>True</Force_Break_Links>
-			<bullet_damage_scale>1</bullet_damage_scale>
-			<Foley>
-				<Wavebank>veh_civ_walker</Wavebank>
-				<Engine_Start>VEH_CIV_CWALKER_START</Engine_Start>
-				<Engine>CIV_WALKER</Engine>
-				<Engine_Off>VEH_CIV_CWALKER_STOP</Engine_Off>
-			</Foley>
-			<vehicle_family>CivWalker</vehicle_family>
-			<Terrain_Damage_Scale>0.5</Terrain_Damage_Scale>
-			<Collision_Damage_Scale>1</Collision_Damage_Scale>
-			<Vehicle_Damage_Scale>1</Vehicle_Damage_Scale>
-			<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
-		</Vehicle>
-		<!--END DLC Vehicles Added-->
+<!--END-->
 		<Vehicle>
 			<Name>MarsRover1</Name>
 			<_Editor>
