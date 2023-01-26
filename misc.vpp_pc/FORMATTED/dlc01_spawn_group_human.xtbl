@@ -9,7 +9,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Default Marauder DLC</Name>
 			<human_list>
@@ -23,7 +22,6 @@
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Default EDF DLC</Name>
 			<human_list>
@@ -36,7 +34,6 @@
 				<Category>Entries:Default Groups</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_DLC_Assault_EDF_Official</Name>
 			<human_list>
@@ -46,7 +43,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>Hostages_DLC</Name>
 			<human_list>
@@ -60,7 +56,6 @@
 				<Category>Entries:Activity</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_DLC_Dan</Name>
 			<human_list>
@@ -70,7 +65,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_DLC_RFCommander</Name>
 			<human_list>
@@ -80,7 +74,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_DLC_Rescue_Vasha</Name>
 			<human_list>
@@ -90,7 +83,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_DLC_Civ</Name>
 			<human_list>
@@ -103,7 +95,6 @@
 				<Category>Entries:Mission</Category>
 			</_Editor>
 		</spawn_group_human>
-		
 		<spawn_group_human>
 			<Name>mis_DLC_Assault_EDF_Marius</Name>
 			<human_list>

@@ -1,50 +1,5 @@
 <root>
 	<Table>
-<!--START Added-->
-		<spawn_group_vehicle>
-			<Name>Vanilla_Amb_Marauder_DLC</Name>
-			<vehicle_list>
-				<vehicle_type>Mar_chomper_MGWing</vehicle_type>
-				<vehicle_type>Mar_chomper</vehicle_type>
-				<vehicle_type>Mar_chomper_MG</vehicle_type>
-				<vehicle_type>Mar_chomper_Harp</vehicle_type>
-				<vehicle_type>Mar_stomper_MG</vehicle_type>
-			</vehicle_list>
-			<_Editor>
-				<Category>Entries:AmbientGroups</Category>
-			</_Editor>
-		</spawn_group_vehicle>	
-
-		<spawn_group_vehicle>
-			<Name>Vanilla_Marauder_DLC</Name>
-			<vehicle_list>
-				<vehicle_type>Mar_chomper_MGWing</vehicle_type>
-				<vehicle_type>Mar_chomper_MG</vehicle_type>
-				<vehicle_type>Mar_chomper_Harp</vehicle_type>
-				<vehicle_type>Mar_stomper_MG</vehicle_type>
-				<vehicle_type>Mar_stomper_MG</vehicle_type>
-				<vehicle_type>Mar_stomper_MG</vehicle_type>
-			</vehicle_list>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</spawn_group_vehicle>
-		
-		<spawn_group_vehicle>
-			<Name>Vanilla_EDF_DLC</Name>
-			<vehicle_list>
-				<vehicle_type>EDF_Scout_1</vehicle_type>
-				<vehicle_type>EDF_Scout_2</vehicle_type>
-				<vehicle_type>EDF_Scout_3</vehicle_type>
-				<vehicle_type>EDF_Scout_4</vehicle_type>
-			</vehicle_list>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</spawn_group_vehicle>
-
-<!--END Added-->		
-		
 		<spawn_group_vehicle>
 			<Name>DLC_Amb_Marauder_0709</Name>
 			<vehicle_list>
@@ -58,7 +13,18 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
+		<spawn_group_vehicle>
+			<Name>mis_DLC_Rescue_EDF_CA_Scout</Name>
+			<vehicle_list>
+				<vehicle_type>EDF_Scout_1</vehicle_type>
+				<vehicle_type>EDF_Scout_2</vehicle_type>
+				<vehicle_type>EDF_Scout_3</vehicle_type>
+				<vehicle_type>EDF_Scout_4</vehicle_type>
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:Missions</Category>
+			</_Editor>
+		</spawn_group_vehicle>
 		<spawn_group_vehicle>
 			<Name>Default_Marauder_DLC</Name>
 			<vehicle_list>
@@ -73,7 +39,15 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
+		<spawn_group_vehicle>
+			<Name>Mar_Raider DLC</Name>
+			<vehicle_list>
+				<vehicle_type>Mar_Raider_1</vehicle_type>
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:Marauder</Category>
+			</_Editor>
+		</spawn_group_vehicle>
 		<spawn_group_vehicle>
 			<Name>Default_EDF_DLC</Name>
 			<vehicle_list>
@@ -86,30 +60,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
-		<spawn_group_vehicle>
-			<Name>mis_DLC_Rescue_EDF_CA_Scout</Name>
-			<vehicle_list>
-				<vehicle_type>EDF_Scout_1</vehicle_type>
-				<vehicle_type>EDF_Scout_2</vehicle_type>
-				<vehicle_type>EDF_Scout_3</vehicle_type>
-				<vehicle_type>EDF_Scout_4</vehicle_type>
-			</vehicle_list>
-			<_Editor>
-				<Category>Entries:Missions</Category>
-			</_Editor>
-		</spawn_group_vehicle>
-		
-		<spawn_group_vehicle>
-			<Name>Mar_Raider DLC</Name>
-			<vehicle_list>
-				<vehicle_type>Mar_Raider_1</vehicle_type>
-			</vehicle_list>
-			<_Editor>
-				<Category>Entries:Marauder</Category>
-			</_Editor>
-		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Mar_Jetter DLC</Name>
 			<vehicle_list>
@@ -119,7 +69,6 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Rescue_EDF_APC_Gauss</Name>
 			<vehicle_list>
@@ -132,7 +81,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Rescue_EDF_CA_Flyer</Name>
 			<vehicle_list>
@@ -142,7 +90,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Rescue_EDF_APC_MG</Name>
 			<vehicle_list>
@@ -155,7 +102,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Rescue_EDF_Scout_Gauss</Name>
 			<vehicle_list>
@@ -168,7 +114,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Miss2_Flyer_Gauss</Name>
 			<vehicle_list>
@@ -178,7 +123,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Mar_Chomper_MG</Name>
 			<vehicle_list>
@@ -189,7 +133,6 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Mar_Chomper_Harp</Name>
 			<vehicle_list>
@@ -199,7 +142,6 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Mar_Chomper_NoTurret</Name>
 			<vehicle_list>
@@ -209,7 +151,6 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Mar_Chomper_All</Name>
 			<vehicle_list>
@@ -222,7 +163,6 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Miss2_Flyer_Rocket</Name>
 			<vehicle_list>
@@ -232,7 +172,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_Staffcar_MG</Name>
 			<vehicle_list>
@@ -244,7 +183,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_Staffcar_Gauss</Name>
 			<vehicle_list>
@@ -256,7 +194,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>DLC_Civ_Walker</Name>
 			<vehicle_list>
@@ -266,7 +203,6 @@
 				<Category>Entries:Activities</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>DLC_Art_Tank</Name>
 			<vehicle_list>
@@ -277,7 +213,6 @@
 				<Category>Entries:Activities</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>Mar_Stomper_MG</Name>
 			<vehicle_list>
@@ -287,7 +222,6 @@
 				<Category>Entries:Marauder</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Miss3_APC_SuperGauss</Name>
 			<vehicle_list>
@@ -300,7 +234,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_ArtTank</Name>
 			<vehicle_list>
@@ -311,7 +244,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_HeavyTank</Name>
 			<vehicle_list>
@@ -324,7 +256,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_Supply_MG</Name>
 			<vehicle_list>
@@ -336,7 +267,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_Supply_Gauss</Name>
 			<vehicle_list>
@@ -348,7 +278,6 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>mis_DLC_Miss3_Dans_Tank</Name>
 			<vehicle_list>
@@ -358,7 +287,6 @@
 				<Category>Entries:Missions</Category>
 			</_Editor>
 		</spawn_group_vehicle>
-		
 		<spawn_group_vehicle>
 			<Name>DLC_EDF_Scout_Trans</Name>
 			<vehicle_list>

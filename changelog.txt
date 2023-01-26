@@ -505,7 +505,8 @@ v1.0xx ALPHA CHANGES
 * Reduced interface related files from 765mb to 13.8mb
 
 [Characters] 
-* Restored Numah, Jake, Kayla, Selma, Blair, Bev & Jake
+* Restored Numah, Jake, Kayla, Selma, Blair, Bev & Jake in MP
+* Added DLC Hess and Marauder Lab Lady to Marauder spawns in SP
 
 [Misc]
 * Camera_npc_min_fade_pct increased to 11562 from 1.0
@@ -517,6 +518,9 @@ v1.0xx ALPHA CHANGES
 * Re-did lod_properties.xtbl
 * Reduced EDF and Guerilla squad and NPC spawn period to 150 from 300
 * Increased EDF and Guerilla min spawn distance to 350 from 100
+* Added Jenkins riding shotgun vehicle to safehouse spawns in SP
+* Improved ambient vehicle spawns in singleplayer so they make more sense for each sector
+* Reverted changes to singleplayer DLC for now due to possible issues
 
 [Out of scope fixes]
 * Reverted "Ai_heavy_vehicle_always_cower_chance" to vanilla
@@ -543,6 +547,10 @@ v1.0xx ALPHA CHANGES
 * Reworked levels and cosmetic unlocks: You now unlock badges, rank icons, characters and hammers at level 5, 10, 20, 30 etc with the "max" rank being 100; The final unlock is the DLC pickaxe at level 126
 * Default options changed to fleetfoot start, friendly fire enabled and delayed enemy icon visibility
 * Improved host migration removal hopefully by increasing "TS_bad_lag_rtt_ms" & "TS_bad_lag_duration_ms" to 2147483647 which should disable true skill host migration completely in all circumstances
+
+[Weapons] 
+* Added experimental weapons to MP: Grenade, Stun Grenade, Nanorifle and Fists/Unarmed weapon
+* Added DLC Pickaxe and Impaler/Royal Sword
 
 [Sniper Rifle]
 * Reduced spread at max range from 0.55 to 0

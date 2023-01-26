@@ -122,7 +122,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>pickaxe</Name>
-			<level_needed>126</level_needed>
+			<level_needed>0</level_needed> <!--From 126-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

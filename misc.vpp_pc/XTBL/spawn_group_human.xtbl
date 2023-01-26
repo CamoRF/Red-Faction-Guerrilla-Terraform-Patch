@@ -522,8 +522,8 @@
 				<human_type>Eddie</human_type>
 				<human_type>Slade</human_type>
 				<human_type>Muir</human_type>
-				<human_type>Camie</human_type>
-				<human_type>Hess</human_type>				
+				<human_type>Camie</human_type> <!--Added-->
+				<human_type>dlc_hess</human_type> <!--DLC-->				
 			</human_list>
 			<_Editor>
 				<Category>Entries:Default Groups</Category>

@@ -13,7 +13,6 @@
 			<Par_Time>30</Par_Time>
 			<Alert_Level>Yellow</Alert_Level>
 		</Timed_Delivery>
-		
 		<Timed_Delivery>
 			<Name>dlc01_td_02</Name>
 			<Time_To_Complete>90</Time_To_Complete>

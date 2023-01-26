@@ -53,22 +53,12 @@
 * Fix vanilla issue with inconsistent naming on various objects and removed the display_name string from objects that didn't need it
 
 [MISC]
-* Re-do mp_character.xtlb and restore characters I removed
-* Double check items_3d.xtbl and add comments of vanilla values by comparing it to vanilla file
-* Re-do mp_character.xtlb and restore characters I removed
 * Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
 * When modinfo.xml is supported in SyncFaction only use xdeltas for maps
-* Add Hess DLC character to Marauder spawns in SP
 * Change default WC settings to have barrels enabled by default
 * Reduce EDF spawns so they are no longer excessive making some missions impossible to beat
-* Re do the changes to vehicle and NPC spawn changes; vehicle and NPCs now make more sense in each sector type
-* Add Jenkins vehicle to safehouse spawns
  
 [WEAPONS]
-* Transfer Spiker, DLC remote charges, Pickaxe and Impaler (should drop onto the ground instead of floating, leave gutter floating) to base game when peg tool is out
-* When Pickaxe is implemented have it unlock at level 126 (mp_weapon_unlockables.xtbl)
-* Make sure newly transferred DLC weapons have unique names in items_inventory.xtbl
-* New weapons: Nano Grenade, Stun Grenade, Explosion Grenade, Fist/unarmed weapon
 * Add DLC weapons to singleplayer NPC loadouts when RSL2 increases the cap (squad_loadout.xtbl, squad_progression.xtbl)
 * Transfer DLC weapon icons and reticules to base game
 
