@@ -885,9 +885,8 @@
 			<ideal_max_players>16</ideal_max_players>
 			<Load_image>Gauntlet</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>
-<!--WIP: DISABLED-->		
-		<!--<mp_level_list>
+		</mp_level_list>		
+		<mp_level_list>
 			<Name>Gulch</Name>
 			<Filename>wc7</Filename>
 			<_Editor>
@@ -921,7 +920,7 @@
 			<ideal_max_players>16</ideal_max_players>
 			<Load_image>Gulch</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>-->
+		</mp_level_list>
 		<mp_level_list>
 			<Name>Haven</Name>
 			<Filename>mpdlc_islands</Filename>
@@ -1382,9 +1381,8 @@
 			<ideal_max_players>10</ideal_max_players>
 			<Load_image>Rift</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
-		</mp_level_list>
-<!--RESTORE ORIGINAL RUINS, INTERIOR ONLY MAP SHOULD BE AN ADD-ON-->		
-		<!--<mp_level_list>
+		</mp_level_list>	
+		<mp_level_list>
 			<Name>Ruins</Name>
 			<Filename>wcdlc1</Filename>
 			<_Editor>
@@ -1418,7 +1416,7 @@
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>dlc03wc1</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
-		</mp_level_list>-->
+		</mp_level_list>
 		<mp_level_list>
 			<Name>Sand Pit</Name>
 			<Filename>mp_sandpit</Filename>
