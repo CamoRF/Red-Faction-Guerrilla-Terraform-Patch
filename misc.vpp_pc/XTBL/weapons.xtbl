@@ -50,7 +50,7 @@
 			<reticule_name>ui_hud_reti_hammer</reticule_name>
 			<dummy>False</dummy>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
-			<Unique_ID>151</Unique_ID>
+			<Unique_ID>133</Unique_ID>
 			<Default_team>Guerilla</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
 			<aim_assist>0.75</aim_assist>
@@ -147,7 +147,7 @@
 			<Num_Magazines>1</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
-			<Unique_ID>152</Unique_ID>
+			<Unique_ID>134</Unique_ID>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
 			<Default_team>EDF</Default_team>
 			<aim_assist>0.5</aim_assist>
@@ -245,7 +245,7 @@
 			<Num_Magazines>1</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
-			<Unique_ID>153</Unique_ID>
+			<Unique_ID>135</Unique_ID>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
 			<Default_team>EDF</Default_team>
 			<aim_assist>0.5</aim_assist>
@@ -347,7 +347,7 @@
 			<Num_Magazines>1</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
-			<Unique_ID>154</Unique_ID>
+			<Unique_ID>136</Unique_ID>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
 			<Default_team>Marauder</Default_team>
 			<aim_assist>0.5</aim_assist>
@@ -417,10 +417,10 @@
 			<Num_Magazines>2</Num_Magazines>
 			<Player_Move_Speed>1.09</Player_Move_Speed>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<icon_name>ui_hud_weapon_icon_royalsword</icon_name>
-			<reticule_name>ui_hud_reti_royalsword</reticule_name>
+			<icon_name>ui_badge_icon_swords</icon_name> <!--From ui_hud_weapon_icon_royalsword-->
+			<reticule_name>ui_hud_reti_gutter</reticule_name> <!--ui_hud_reti_royalsword-->
 			<dummy>False</dummy>
-			<Unique_ID>98</Unique_ID>
+			<Unique_ID>137</Unique_ID>
 			<Melee_Group>Gutter</Melee_Group>
 			<Default_team>Marauder</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
@@ -477,12 +477,12 @@
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
-			<icon_name>ui_hud_weapon_icon_pickaxe</icon_name>
+			<icon_name>ui_hud_weapon_icon_pickaxe</icon_name> <!--From ui_hud_weapon_icon_pickaxe-->
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<reticule_name>ui_hud_reti_pickaxe</reticule_name>
+			<reticule_name>ui_hud_reti_pickaxe</reticule_name> <!--From ui_hud_reti_pickaxe-->
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
-			<Unique_ID>95</Unique_ID>
+			<Unique_ID>138</Unique_ID>
 			<Default_team>Marauder</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
 			<aim_assist>0.75</aim_assist>
@@ -566,12 +566,12 @@
 			<Ammo_Box_Restock>120</Ammo_Box_Restock>
 			<Num_Magazines>6</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<icon_name>ui_hud_weapon_icon_spiker</icon_name>
-			<reticule_name>ui_hud_reti_spiker2</reticule_name>
+			<icon_name>ui_badge_icon_ultor</icon_name> <!--From ui_hud_weapon_icon_spiker-->
+			<reticule_name>ui_hud_reti_harpoon</reticule_name> <!--From ui_hud_reti_spiker2-->
 			<dummy>False</dummy>
 			<mp_kill_phrase>HM_KILL_PHRASE_RAILED</mp_kill_phrase>
 			<Headshot_Multiplier>4.0</Headshot_Multiplier>
-			<Unique_ID>93</Unique_ID>
+			<Unique_ID>139</Unique_ID>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<Bullet_Group>Harpoon</Bullet_Group>
@@ -679,11 +679,11 @@
 			<Reload_Delay>150</Reload_Delay>
 			<Ammo_Box_Restock>50</Ammo_Box_Restock>
 			<Num_Magazines>50</Num_Magazines>
-			<icon_name>ui_hud_weapon_icon_mcharge</icon_name>
+			<icon_name>ui_hud_weapon_icon_charges</icon_name> <!--From ui_hud_weapon_icon_mcharge-->
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<reticule_name>ui_hud_reti_maraudercharge</reticule_name>
+			<reticule_name>ui_hud_reti_proximitymines</reticule_name> <!--ui_hud_reti_maraudercharge-->
 			<dummy>False</dummy>
-			<Unique_ID>97</Unique_ID>
+			<Unique_ID>140</Unique_ID>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
 			<Max_Rounds_Upgrade>50</Max_Rounds_Upgrade>
 			<Default_team>Marauder</Default_team>
@@ -693,10 +693,10 @@
 <!--START DLC Weapons ADDED-->
 		<Weapon>
 			<Name>EDF_Super_Gauss</Name>
-			<icon_name>ui_hud_weapon_icon_gauss</icon_name>
-			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name>
-			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule>
-			<Unique_ID>130</Unique_ID>
+			<icon_name>ui_hud_weapon_icon_gauss</icon_name> <!--From ui_hud_weapon_icon_supergauss-->
+			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name> <!--From ui_hud_reti_supergauss-->
+			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule> <!--From ui_hud_reti_supergauss0-->
+			<Unique_ID>141</Unique_ID>
 			<Inventory_Item>camo_edf_super_gauss</Inventory_Item>
 			<Item_3d>EDF_Super_Gauss</Item_3d>
 			<Default_team>EDF</Default_team>
@@ -795,13 +795,13 @@
 		
 		<Weapon>
 			<Name>edf_subverter</Name>
-			<Unique_ID>131</Unique_ID>
+			<Unique_ID>142</Unique_ID>
 			<Inventory_Item>camo_edf_subverter</Inventory_Item>
 			<Item_3d>edf_subverter</Item_3d>
 			<Default_team>EDF</Default_team>
-			<icon_name>ui_badge_icon_edf</icon_name>
-			<reticule_name>ui_hud_reti_enforcer</reticule_name>
-			<fine_aim_reticule>ui_hud_reti_enforcer2</fine_aim_reticule>
+			<icon_name>ui_badge_icon_edf</icon_name> <!--From ui_hud_weapon_icon_sub-->
+			<reticule_name>ui_hud_reti_enforcer</reticule_name> <!--From ui_hud_reti_subverter-->
+			<fine_aim_reticule>ui_hud_reti_enforcer2</fine_aim_reticule> <!--From ui_hud_reti_subverter0-->
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
 			<Ammo_Type>bullet</Ammo_Type>
@@ -888,9 +888,9 @@
 		
 		<Weapon>
 			<Name>missilepod</Name>
-			<icon_name>ui_badge_icon_murry</icon_name>
-			<reticule_name>ui_hud_reti_thermobaric</reticule_name>
-			<fine_aim_reticule>ui_hud_reti_thermobaric2</fine_aim_reticule>
+			<icon_name>ui_badge_icon_murry</icon_name> <!--From ui_hud_weapon_icon_pod-->
+			<reticule_name>ui_hud_reti_thermobaric</reticule_name> <!--From ui_hud_reti_missilepod2-->
+			<fine_aim_reticule>ui_hud_reti_thermobaric2</fine_aim_reticule> <!--From ui_hud_reti_missilepod3-->
 			<Weapon_Class>launcher</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>projectile</Ammo_Type>
@@ -959,7 +959,7 @@
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
 			<mp_kill_phrase>HM_KILL_PHRASE_EXPLOSION</mp_kill_phrase> <!--Added-->
-			<Unique_ID>132</Unique_ID>
+			<Unique_ID>143</Unique_ID>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<Default_team>Marauder</Default_team>
 			<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
