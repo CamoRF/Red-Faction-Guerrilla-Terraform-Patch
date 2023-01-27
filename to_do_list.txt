@@ -6,108 +6,47 @@ TO DO LIST
 [MAPS]
 
 * Doublecheck out of bounds exploits on Remnant, Haven, Crescent, Equilbrium, Excavation, Imperial, Warlords, Puncture, Stratosphere, Broadside, Rift, Vista, Fortress, Repurcussion, Overpass, Downfall (rock you can get in still probably still there), Gradient, Crevice, GFWL/Nordic Bonus, Scrapheap, Haven, Garrison, Expansion 
-
 * Doublecheck weapon spawn additions: Misslepod on Settlement, Super Gauss Rifle on Settlement, Thermo on Repurcussion, Misslepod on Repurcussion, Misslepod on walkway on Rift, Misslepod on walkway on Havem, Rocket spawnon rocket on Stratosphere, Rail driver spawn opposite to the existing spawn on Imperial
-
 * Doublecheck thermo, super gauss, misslepod are disabled in objective modes (Damge Control, Demo, Siege on all maps)
-
 * Doublecheck out of bounds player spawn was removed on Repurcussion
-
 * Doublecheck all maps have kaboom backpack at 0,0,0 so they work in random backpack rotation
-
 * Add more than 16 spawns to all wrecking crew maps
-
 * Move rocket spawn on complex so it's not near the rock you can climb
-
-* Add siege to Watchtower and Pipeline 
-
 * New siege maps need team spawns as children of objectives and attackers need to spawn away from objectives, existing map spawns need to be disabled in siege using gamemode flags 
-
 * New siege maps need more reconstructor spawns
-
 * Cascade siege: add siege objectives for the vents under the bridge and add a reconstructor under the bridge
-
 * Remove flag 2 from regular objects 
-
 * Add flag 4 to objects that the majority have (eg. shipping containers)  (rfg_movers: seems to be consistently used most of the time)
-
 * Imperial: Add more weapons to make your way up the large buildings like the nanoforge and reconstructor
-
 * Doublecheck new spawns were added to transmission in the empty area
-
 * Add backpacks, CTF and DCT to all wrecking crew maps 
-
 * Add CTF and DCT to all regular siege maps
-
 * Doublecheck the one time explosion is on Frost for the collapsing buildings 
-
 * Frost: Transfer the crane from deadzone as the cranes with constraints float when destroyed
-
 * Stratosphere: The stack of shipping containers can float when destroyed
-
 * Gauntlet, Garrison, Downfall, Crash Site and Quarantine and maybe some others need more subverter spawns 
-
 * All wrecking crew maps need team spawns (check which ones have them already and make a proper list)
-
-* Doublecheck if map str2 files are compressed and condensed, delete the scriptx file and any asm .xmls i might have forgot to delete 
-
-* Gradually take notes of spawns where you get stuck or float and fix them (WC maps)
-
-* Gradually take notes of duplicate weapon spawns and fix them if any are left (WC maps)
-
-* Gradually improve locations of DLC weapons added to regular MP maps using RSL to get improved co-ords 
-
-* Gradually take notes of messed up up children and fix them 
-
-* Gradually take notes of clipping or floating weapons and fix them
-
 * Stratosphere: Add ladders to buildings (same ones as Factory)
-
 * Half cloud speed on all maps in weather files (gtodx/dtodx)	
-
-* Deadzone: doublecheck there's still a misslepod at the top of the large rock
-
 * Restore vanilla Ruins with fixed building you get stuck on, just add objectives, backpacks, weapon spawns, player spawns etc. Maybe try to fix the higher area that is hard to climb up to (backup the interior only version and add it as an entirely new map later)
-
 * Quarantine: Add another siege target, disable the regular buildings?
-
 * Scrapheap: transfer non edf crate asset and place them in empty areas
-
-* Expansion: the cliff killbox near the hole after you climb the hill needs to be moved closer (has that single cliff warning sign up there)
-
 * Make sure all subverter spawns use the EDF pistol bounding box
-
 * Restore vanilla WC maps with only bug fixes so they have barrels in Wrecking Crew
-
 * Make sure all backpack parents are renamed to the actual backpack name
-
 * Haven: Remove super gauss?
-
-* Reduce/disable glare on GFWL/Nordic Bonus
-
-* Fix issue with Equilibrium Siege smokestacks and re-enable it in mp_levels.xtbl
-
+* Reduce/disable glare on GFWL/Nordic Bonus (wcdlc9.gtodx, wcdlc9_default.dtodx)
 * Make sure children have same flags as parents?
-
 * Make sure to remove persistent flag from regular objects 
-
 * Make sure to remove display_name prop and rename regular objects on non siege maps
-
 * Make sure show all types is on in the inspector and remove cover nodes, nav points etc from maps (ghost children that i saw before, GFWL has a lot)!
-
 * Doublecheck issue with multiple floating fences on Crescent
-
 * Doublecheck issue with mixed up smokestack children on Equilbrium
-
 * Doublecheck all spawn nodes and player starts have the persistent flag
-
 * Doublecheck issue with mixed up building and radio tower children on Fortress
-
 * Doublecheck all gamemode flags are enabled for objects (Vista for example)
-
 * Move the misslepod on Fallfactor to a thin pipe that can be more easily destroyed and made minor changes to DLC weapon spawn locations to balance for teams
-
-* Fix vanilla issue with inconsistent naming on various objects and removed the display_name string from objects that didn't need it
+* Fix vanilla issue with inconsistent naming on various objects and remove the display_name string from objects that didn't need it
 
 [MISC]
 * Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
@@ -134,3 +73,15 @@ LOW PRIORITY
 * Add DLC weapons to singleplayer NPC loadouts when RSL2 increases the cap (squad_loadout.xtbl, squad_progression.xtbl)
 * Transfer DLC weapon icons and reticules to base game
 * Fix missing textures on some of the DLC weapons
+
+[SINGLEPLAYER]
+* Apply changes from base game to DLC 
+* Port base game vehicles to DLC
+
+[Maps]
+* Gradually take notes of spawns where you get stuck or float and fix them (WC maps)
+* Gradually take notes of duplicate weapon spawns and fix them if any are left (WC maps)
+* Gradually improve locations of DLC weapons added to regular MP maps using RSL to get improved co-ords 
+* Gradually take notes of messed up up children and fix them 
+* Gradually take notes of clipping or floating weapons and fix them
+* Doublecheck if map str2 files are compressed and condensed, delete the scriptx file and any asm .xmls i might have forgot to delete 

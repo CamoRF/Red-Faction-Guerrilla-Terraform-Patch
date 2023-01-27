@@ -2002,12 +2002,14 @@
 		<spawn_group_vehicle>
 			<Name>Amb_DustSafehouse</Name>
 			<vehicle_list>				
-				<!--<vehicle_type>Min_ATV_MG1</vehicle_type>
+<!--Vanilla-->				
+			<!--<vehicle_type>Min_ATV_MG1</vehicle_type>
 				<vehicle_type>Min_ATV_MG2</vehicle_type>
 				<vehicle_type>Min_ATV_MG3</vehicle_type>
 				<vehicle_type>Min_Rover-A_DMG1</vehicle_type>
 				<vehicle_type>Min_Rover-A_DMG2</vehicle_type>
 				<vehicle_type>Min_Rover-A_DMG3</vehicle_type>-->
+<!--END-->				
 				<vehicle_type>Civ_ResLuxury-C_1</vehicle_type>
 				<vehicle_type>Civ_ResRunner_1</vehicle_type>
 				<vehicle_type>Col_Caravan_1</vehicle_type>
@@ -2052,7 +2054,8 @@
 		<spawn_group_vehicle>
 			<Name>Amb_BadlandsSafehouse</Name>
 			<vehicle_list>
-				<!--<vehicle_type>Min_ATV_MG1</vehicle_type>
+<!--Vanilla-->				
+			<!--<vehicle_type>Min_ATV_MG1</vehicle_type>
 				<vehicle_type>Min_ATV_MG2</vehicle_type>
 				<vehicle_type>Min_ATV_MG3</vehicle_type>
 				<vehicle_type>Min_LightPickup_MG1</vehicle_type>
@@ -2061,6 +2064,7 @@
 				<vehicle_type>Min_Rover-A_DMG1</vehicle_type>
 				<vehicle_type>Min_Rover-A_DMG2</vehicle_type>
 				<vehicle_type>Min_Rover-A_DMG3</vehicle_type>-->
+<!--END-->				
 				<vehicle_type>Mar_Raider_1</vehicle_type>
 				<vehicle_type>Mar_Jetter_1</vehicle_type>
 				<vehicle_type>Mar_chomper</vehicle_type> <!--DLC-->
@@ -2076,10 +2080,12 @@
 		<spawn_group_vehicle>
 			<Name>Amb_EosSafehouse</Name>
 			<vehicle_list>
-				<!--<vehicle_type>Col_TrashTruck_MG1</vehicle_type>
+<!--Vanilla-->				
+			<!--<vehicle_type>Col_TrashTruck_MG1</vehicle_type>
 				<vehicle_type>Min_LightPickup_MG1</vehicle_type>
 				<vehicle_type>Min_LightPickup_MG2</vehicle_type>
 				<vehicle_type>Min_LightPickup_MG3</vehicle_type>-->
+<!--END-->				
 				<vehicle_type>Civ_ResLuxury-C_1</vehicle_type>
 				<vehicle_type>Civ_ResRunner_1</vehicle_type>
 				<vehicle_type>Col_Caravan_1</vehicle_type>
@@ -2188,10 +2194,12 @@
 		<spawn_group_vehicle>
 			<Name>Amb_OasisSafehouse</Name>
 			<vehicle_list>
-				<!--<vehicle_type>Col_TrashTruck_MG1</vehicle_type>
+<!--Vanilla-->				
+			<!--<vehicle_type>Col_TrashTruck_MG1</vehicle_type>
 				<vehicle_type>Min_Rover-A_DMG1</vehicle_type>
 				<vehicle_type>Min_Rover-A_DMG2</vehicle_type>
 				<vehicle_type>Min_Rover-A_DMG3</vehicle_type>-->
+<!--END-->				
 				<vehicle_type>Civ_ResLuxury-C_1</vehicle_type>
 				<vehicle_type>Civ_ResRunner_1</vehicle_type>
 				<vehicle_type>Civ_ResLuxury-C_1</vehicle_type>
