@@ -610,8 +610,7 @@ v1.07 ALPHA CHANGES
 
 [Singleplayer]
 
-* DLC: tank doesn't spawn in Redemption mission
-* DLC: crashes on load
+* DLC: tank doesn't spawn in Redemption mission (might be fixed after re-doing all spawn related changes)
 * Activity: offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles (might be fixed after re-doing all spawn related changes)
 * Activity: screenshot "sp_eos_side_mission.png" MIGHT be broken (might be fixed after re-doing all spawn related changes)
 * Activity: transporter activity in Badlands MIGHT be broken (might be fixed after re-doing all spawn related changes)
