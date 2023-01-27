@@ -513,6 +513,8 @@ v1.07 ALPHA CHANGES
 [Characters] 
 * Restored Numah, Jake, Kayla, Selma, Blair, Bev & Jake in MP
 * Added DLC Hess and Marauder Lab Lady to Marauder spawns in SP
+* Added EDF heavy white model to team games
+* Restored EDF heavy tan model in team games
 
 [Misc]
 * Camera_npc_min_fade_pct increased to 11562 from 1.0
@@ -587,10 +589,14 @@ v1.07 ALPHA CHANGES
 |KNOWN BUGS|
 ------------
 
-[Singleplayer]
+[Misc]
 * "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
 * "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
+* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file reported in Red Faction Guerrilla Re-Mars-tered.log
+* "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl reported in Red Faction Guerrilla Re-Mars-tered.log
+
+[Singleplayer]
 * DLC: first transporter is broken due to the vehicle not spawning for some unknown reason, uninstall the patch to complete this mission and then you can safetly reinstall after you've finished it
 * DLC: tank doesn't spawn in Redemption mission
 * DLC: crashes on load
@@ -598,30 +604,24 @@ v1.07 ALPHA CHANGES
 * Activity: screenshot "sp_eos_side_mission.png" MIGHT be broken
 * Activity: transporter activity in Badlands MIGHT be broken
 * Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx, dlc01_td_02.scriptx", "misc.vpp_pc\dlc01_activity_timed_delivery.xtbl\dlc01_td_02"
-* Flat beds and other large vehicles can damage safehouses when they spawn (will be fixed when singleplayer map editing is improved)
-* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file
-* "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl
 * Marauders might noe spawn with shotguns? (might be fixed in v1.064.1 due to reverting changes to squad files)
 
 [DLC Weapons]
-* Pickaxe and Impaler have missing textures so they are not implemeneted yet (should be fixed when cpeg/gpeg tools release)
-* Spiker has missing texture when it's dropped on the ground and only the host can see the projectile so it's not implemented yet (should be fixed when cpeg/gpeg tools release)
+* Pickaxe and Impaler have missing textures
+* Spiker has missing texture when it's dropped on the ground and only the host might be able to see the projectile
 * Weapons use placeholder icons and reticules for now
-* Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer (will be fixed when icons and reticules are ported)
-* Misslepod sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon (will be fixed when icons and reticules are ported)
+* Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer
+* Misslepod sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon
 
 [Backpacks]
-* Kaboom backpack has floating objects on the model (can't be fixed until we have tools to export and import models properly)
-* Backpacks MIGHT clip through the characters on some of the new models, this can be fixed by fine tuning the offset axis values but will take time (this will improve with each major patch version)
+* Kaboom backpack has floating objects on the model
+* Backpacks MIGHT clip through the characters on some of the new models, this can be fixed by fine tuning the offset axis values but will take time
 
 [Characters]
-* EDF heavy changed to the white model in team games due to a bug with new characters
-* The following multiplayer characters were cut so their UI textures could be re-used for new characters or other uses, they will be restored when it's possible to add new textures to the game instead of only replacing: Numah, Jake, Kayla, Selma, Blair, Bev & Jake
-* Some of the new characters have placeholder thumbnails for now as I wasn't able to find any in game textures to use and they will need to made from scratch
-* New character names have !! in front of them because I haven't figured out how to add proper menu entry strings yet
+* New characters use a generic placeholder texture for now
+* New character names have !! in front of them for now
 
 [Vanilla]
-* Walkers don't spawn sometimes?
 * Issue with extreme cloud speed on some maps
 * LOD cap for small rocks seems to be hardcoded and cannot be increased further without hacking the .exe
 * Adding walker spawns at safehouses can cause no vehicle to spawn at all occasionally 
@@ -637,18 +637,13 @@ v1.07 ALPHA CHANGES
 * Issue with double text for you won/you lost text at end of game with large text over the top of small text in MP?
 * Profile saving hud element can sometimes get stuck on screen in multiplayer games sometimes
 
-[Wrecking Crew Mode]
-* Maps are currently replaced by the multiplayer versions so they lack barrels and have weapon pickups
-
 [Maps]
 * Some of the Wrecking Crew maps that objectives were added to in v1.064 don't have team spawns yet so the possible fix for the vanilla issue with spawns flipping in CTF won't apply
 * Some maps still have floating objects, weapons, spawns etc
 * Some maps MIGHT still have vanilla crashing issues that I missed
-* The following maps have been temporarily disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch, Ruins & Scrapheap
+* The following maps have been temporarily disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch & Ruins
 * Objectives and Backpack Racks still need to be added to most of the Wrecking Crew maps, they will be slowly added in future updates
 * Backpack Rack and Objective spawns on Wrecking Maps may not be final, they will be slowly polished in future updates
 * Some of the out of bounds exploit fixes MIGHT need to be adjusted and can possibly kill the player when they are still inside in the map, they will be slowly polished in future updates
+* Some maps might still have out of bound exploits
 * Abandoned terrain collision glitch near forcefield (335.016, -0.205, -321.099)
-
-[Loading Screens]
-* Some Wrecking Crew loading screens no longer match the map since they have been adapted for multiplayer, they will be slowly updated in future updates when the maps are final
