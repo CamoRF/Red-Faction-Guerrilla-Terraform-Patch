@@ -479,7 +479,6 @@ v1.064.1 ALPHA CHANGES
 
 [Fixes]
 * Fixed singleplayer DLC crashing when loading
-* Fixed issue with ported DLC weapons using the same items_inventory.xtbl name as the dlc "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:\unit4projects\rfg\root\code\volition\vlib\code\util\varray.h(122)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Found too many animation rigs to preload (max : 299)unable to allocate anim_rig" reported in Red Faction Guerrilla Re-Mars-tered.log
 
@@ -494,6 +493,13 @@ v1.064.1 ALPHA CHANGES
 [Weapons]
 * All weapons now respect the players camera shake setting (motion sickness fix)
 * Fixing "varray.h(122)" required reverting adding DLC weapons to EDF in singleplayer (squad_loadout.xtbl, squad_progression.xtbl)
+
+----------------------
+v1.064.2 ALPHA CHANGES
+----------------------
+
+[Fixes]
+* FIXED critical bug with DLC weapon pickups either not working or causing the player to T-POSE
 
 --------------------
 v1.0xx ALPHA CHANGES
@@ -580,8 +586,9 @@ v1.0xx ALPHA CHANGES
 ------------
 
 [Singleplayer]
-* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)"
-* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)"
+* "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
+* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
+* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * DLC: first transporter is broken due to the vehicle not spawning for some unknown reason, uninstall the patch to complete this mission and then you can safetly reinstall after you've finished it
 * DLC: tank doesn't spawn in Redemption mission
 * DLC: crashes on load
