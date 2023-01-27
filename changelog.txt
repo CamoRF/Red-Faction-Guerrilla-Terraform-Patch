@@ -473,9 +473,9 @@ v1.064 ALPHA CHANGES
 * The following maps have been temporarily disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch, Ruins & Scrapheap
 * Disabled misslepod and super gauss spawn in Siege, Damage Control and Demolition on all maps (excluding Crescent)
 
-----------------------
-v1.064.1 ALPHA CHANGES
-----------------------
+------------------------------
+v1.064.1 ALPHA HOTFIX CHANGES
+------------------------------
 
 [Fixes]
 * Fixed singleplayer DLC crashing when loading
@@ -494,9 +494,9 @@ v1.064.1 ALPHA CHANGES
 * All weapons now respect the players camera shake setting (motion sickness fix)
 * Fixing "varray.h(122)" required reverting adding DLC weapons to EDF in singleplayer (squad_loadout.xtbl, squad_progression.xtbl)
 
-----------------------
-v1.064.2 ALPHA CHANGES
-----------------------
+-----------------------------
+v1.064.2 ALPHA HOTFIX CHANGES
+-----------------------------
 
 [Fixes]
 * FIXED critical bug with DLC weapon pickups either not working or causing the player to T-POSE
@@ -505,12 +505,15 @@ v1.064.2 ALPHA CHANGES
 v1.07 ALPHA CHANGES
 --------------------
 
+[Singleplayer]
+* NPC and vehicle spawns are now more realistic for each sector
+
 [Fixes]
 * Fixed another singleplayer DLC crash 
 * Fixed issue "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
-* Fixed broken transporter side mission singleplayer DLC
+* Fixed broken transporter side mission in singleplayer DLC
 * Re-did all spawn related improvements possibly fixing most broken missions as reported in the known bugs section at the bottom of the changelog
 
 [Interface]

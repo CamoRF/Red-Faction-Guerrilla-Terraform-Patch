@@ -112,18 +112,14 @@ TO DO LIST
 [MISC]
 * Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
 * When modinfo.xml is supported in SyncFaction only use xdeltas for maps
-* Change default WC settings to have barrels enabled by default
-* Reduce EDF spawns so they are no longer excessive making some missions impossible to beat
-* Add armored Alec Mason to multiplayer
+* Change default WC settings to have barrels enabled by default if possible
+* Reduce EDF spawns so they are no longer excessive making some missions impossible to beat (squads.xtbl)
+* Restore vanilla wc maps in an add-on (dlc ones seem to crash for some reason)
+* Gradually format all files for the FORMATTED folder
  
 -------------
 LOW PRIORITY
 -------------
-
-[MISSION/SP FIXES]
-* Fix Badlands transporter mission by adding a custom spawn group. Normally only has the bike type vehicle
-* Walker camera jerk when explosion nearby or swinging a car 
-* Increase mouse sensitivity in walkers
 
 [TEXTURE FIXES]
 * Fix typos (build>built, fo>for) in "ui_blueprint_hammer" texture
@@ -137,3 +133,4 @@ LOW PRIORITY
 [WEAPONS]
 * Add DLC weapons to singleplayer NPC loadouts when RSL2 increases the cap (squad_loadout.xtbl, squad_progression.xtbl)
 * Transfer DLC weapon icons and reticules to base game
+* Fix missing textures on some of the DLC weapons
