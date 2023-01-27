@@ -514,6 +514,8 @@ v1.07 ALPHA CHANGES
 * Restored Numah, Jake, Kayla, Selma, Blair, Bev & Jake in MP
 * Added DLC Hess and Marauder Lab Lady to Marauder spawns in SP
 * Added EDF heavy white model to team games
+* Added EDF heavy tan model to free for all
+* Added Alec Mason with armor
 * Restored EDF heavy tan model in team games
 
 [Misc]
@@ -557,10 +559,11 @@ v1.07 ALPHA CHANGES
 * Improved host migration removal hopefully by increasing "TS_bad_lag_rtt_ms" & "TS_bad_lag_duration_ms" to 2147483647 which should disable true skill host migration completely in all circumstances
 
 [Weapons] 
-* Added Grenade, Stun Grenade & Nano Grenade
+* Added Explosive, Stun & Nano Grenades to multiplayer
 * Added Fist/Unarmed weapon to multiplayer
 * Added Royal Sword to multiplayer
 * Added DLC Pickaxe to multiplayer
+* Added DLC Marauder charges to multiplayer
 
 [Sniper Rifle]
 * Reduced spread at max range from 0.55 to 0
@@ -607,8 +610,10 @@ v1.07 ALPHA CHANGES
 * Marauders might noe spawn with shotguns? (might be fixed in v1.064.1 due to reverting changes to squad files)
 
 [DLC Weapons]
-* Pickaxe and Impaler have missing textures
-* Spiker has missing texture when it's dropped on the ground and only the host might be able to see the projectile
+* Pickaxe: missing textures
+* Impaler: missing textures
+* Spiker: has missing texture when it's dropped on the ground and only the host might be able to see the projectile
+* Marauder Remote Charges: missing textures
 * Weapons use placeholder icons and reticules for now
 * Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer
 * Misslepod sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon
@@ -620,6 +625,7 @@ v1.07 ALPHA CHANGES
 [Characters]
 * New characters use a generic placeholder texture for now
 * New character names have !! in front of them for now
+* Marauder lady is missing some textures
 
 [Vanilla]
 * Issue with extreme cloud speed on some maps

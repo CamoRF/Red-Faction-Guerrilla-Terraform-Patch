@@ -35,7 +35,7 @@
 				<CrouchingSecondary>remote_charge_punch</CrouchingSecondary>
 				<CrouchingTertiary>remote_charge_melee</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>fist</Inventory_Item>
+			<Inventory_Item>turret_machinegun</Inventory_Item>
 			<Item_3d>nothing</Item_3d> <!--charge_placer-->
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
@@ -120,7 +120,7 @@
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>25</Max_Engagement_Distance>
-			<Inventory_Item>gre</Inventory_Item>
+			<Inventory_Item>crowbar</Inventory_Item>
 			<Item_3d>grenade</Item_3d>
 			<MeleeAttacks>
 				<StandingPrimary>remote_charge_melee</StandingPrimary>
@@ -143,7 +143,7 @@
 			</Sounds>
 			<Reload_Delay>0</Reload_Delay> <!--From 150-->
 			<Ammo_Box_Restock>4</Ammo_Box_Restock>
-			<Num_Magazines>1</Num_Magazines>
+			<Num_Magazines>0</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
 			<Unique_ID>134</Unique_ID>
@@ -217,7 +217,7 @@
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>25</Max_Engagement_Distance>
-			<Inventory_Item>stun</Inventory_Item>
+			<Inventory_Item>metal</Inventory_Item>
 			<Item_3d>grenade</Item_3d>
 			<MeleeAttacks>
 				<StandingPrimary>remote_charge_melee</StandingPrimary>
@@ -240,7 +240,7 @@
 			</Sounds>
 			<Reload_Delay>0</Reload_Delay>
 			<Ammo_Box_Restock>4</Ammo_Box_Restock>
-			<Num_Magazines>1</Num_Magazines>
+			<Num_Magazines>0</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
 			<Unique_ID>135</Unique_ID>
@@ -316,7 +316,7 @@
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>25</Max_Engagement_Distance>
-			<Inventory_Item>nano</Inventory_Item>
+			<Inventory_Item>charge_launcher</Inventory_Item>
 			<Item_3d>grenade</Item_3d>
 			<MeleeAttacks>
 				<StandingPrimary>remote_charge_melee</StandingPrimary>
@@ -341,7 +341,7 @@
 			</Sounds>
 			<Reload_Delay>0</Reload_Delay>
 			<Ammo_Box_Restock>4</Ammo_Box_Restock>
-			<Num_Magazines>1</Num_Magazines>
+			<Num_Magazines>0</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
 			<Unique_ID>136</Unique_ID>
@@ -402,7 +402,7 @@
 				<StandingTertiary>sword stand overhead</StandingTertiary>
 				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>sword</Inventory_Item>
+			<Inventory_Item>royal_sword</Inventory_Item>
 			<Item_3d>royal_sword</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
@@ -463,7 +463,7 @@
 				<StandingTertiary>sledgehammer_melee_vert_u1</StandingTertiary>
 				<CrouchingTertiary>sledgehammer_melee_vert_u1</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>pick</Inventory_Item>
+			<Inventory_Item>pickaxe</Inventory_Item>
 			<Item_3d>pickaxe</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
@@ -530,7 +530,7 @@
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>50</Max_Engagement_Distance>
-			<Inventory_Item>spiker1</Inventory_Item>
+			<Inventory_Item>spiker</Inventory_Item>
 			<Item_3d>spiker</Item_3d>
 			<Recoil_Kick>.7</Recoil_Kick>
 			<Acceleration>0.0</Acceleration>
@@ -654,7 +654,7 @@
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>10</Max_Engagement_Distance>
-			<Inventory_Item>dlc_charge</Inventory_Item>
+			<Inventory_Item>mar_charge_placer</Inventory_Item>
 			<Item_3d>mar_charge_placer</Item_3d>
 			<MeleeAttacks>
 				<StandingPrimary>marauder_charge_melee</StandingPrimary>
@@ -691,7 +691,7 @@
 			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name> <!--From ui_hud_reti_supergauss-->
 			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule> <!--From ui_hud_reti_supergauss0-->
 			<Unique_ID>141</Unique_ID>
-			<Inventory_Item>supergauss</Inventory_Item>
+			<Inventory_Item>edf_super_gauss</Inventory_Item>
 			<Item_3d>EDF_Super_Gauss</Item_3d>
 			<Default_team>EDF</Default_team>
 			<Weapon_Class>bullet</Weapon_Class>
@@ -789,7 +789,7 @@
 		<Weapon>
 			<Name>edf_subverter</Name>
 			<Unique_ID>142</Unique_ID>
-			<Inventory_Item>subverter</Inventory_Item>
+			<Inventory_Item>edf_subverter</Inventory_Item>
 			<Item_3d>edf_subverter</Item_3d>
 			<Default_team>EDF</Default_team>
 			<icon_name>ui_badge_icon_edf</icon_name> <!--From ui_hud_weapon_icon_sub-->
@@ -926,7 +926,7 @@
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>30</Max_Engagement_Distance>
-			<Inventory_Item>missilepod1</Inventory_Item>
+			<Inventory_Item>missilepod</Inventory_Item>
 			<Item_3d>missilepod</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Sounds>

@@ -1,9 +1,8 @@
 <root>
 	<Table>
-<!--START Mason Armor Test-->		
 		<Character>
 			<Team>Guerilla</Team>
-			<Name>camo_mason</Name>
+			<Name>mason</Name>
 			<Model>
 				<Filename>Mason.cmeshx</Filename>
 			</Model>
@@ -11,18 +10,17 @@
 			<Rig>
 				<Filename>Mason.rigx</Filename>
 			</Rig>
+			<Team>Guerilla</Team>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<Personas>
-				<!--<Persona>PCM01</Persona>-->
-				<Persona>GMM01</Persona>
-				<Persona>GMM02</Persona>
+				<Persona>PCM01</Persona>
 			</Personas>
 			<Height>1.0</Height>
 			<Variation>0.0</Variation>
 			<FootstepsControl>GUR_PC</FootstepsControl>
-			<!--<Inventory>
+			<Inventory>
 				<Item>
 					<Item_Name>sledgehammer</Item_Name>
 					<Item_Count>1</Item_Count>
@@ -33,24 +31,12 @@
 					<Item_Count>1</Item_Count>
 					<Item_Slot>-1</Item_Slot>
 				</Item>
-			</Inventory>-->
-			<Inventory>
-				<Item>
-					<Item_Name>m16</Item_Name>
-					<Item_Count>4</Item_Count>
-					<Item_Slot>-1</Item_Slot>
-				</Item>
-				<Item>
-					<Item_Name>sledgehammer</Item_Name>
-					<Item_Count>1</Item_Count>
-					<Item_Slot>3</Item_Slot>
-				</Item>
-			</Inventory>			
+			</Inventory>
 			<Sex>male</Sex>
-			<max_hit_points>450</max_hit_points> <!--From 550-->
+			<max_hit_points>550</max_hit_points>
 			<knock_down_hits>30</knock_down_hits>
 			<max_speed>5</max_speed>
-			<Equip_Item_Name>m16</Equip_Item_Name> <!--From sledgehammer-->
+			<Equip_Item_Name>sledgehammer</Equip_Item_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -126,7 +112,7 @@
 				</Prop>
 				<Prop>
 					<Prop_Name>Armor L1</Prop_Name>
-					<Chance>0</Chance> <!--From 0-->
+					<Chance>100</Chance>
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
@@ -137,7 +123,7 @@
 				</Prop>
 				<Prop>
 					<Prop_Name>Armor L2</Prop_Name>
-					<Chance>100</Chance> <!--From 0-->
+					<Chance>100</Chance>
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
@@ -147,7 +133,7 @@
 					</Items>
 				</Prop>
 			</Props>
-			<!--<Last_Equip_Item_Name>charge_placer</Last_Equip_Item_Name>-->
+			<Last_Equip_Item_Name>charge_placer</Last_Equip_Item_Name>
 			<Heads>
 				<Head>
 					<Name>mason_head</Name>
@@ -157,11 +143,9 @@
 			</Heads>
 			<Flags></Flags>
 			<AimErrorPct>100</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 			<origin_district>Special</origin_district>
 		</Character>
-<!--END-->
-<!--START DLC Characters ADDED-->		
+<!--START DLC Characters ADDED-->
 		<Character>
 			<Name>dlc_sam</Name>
 			<Model>

@@ -3,9 +3,9 @@
 		<mp_weapons>
 			<Name>camo_grenade</Name>
 			<Ammo_count>
-				<Magazine_Size>1</Magazine_Size>
-				<Num_Magazines>2</Num_Magazines>
-				<Max_Rounds>2</Max_Rounds>
+				<Magazine_Size>99</Magazine_Size>
+				<Num_Magazines>99</Num_Magazines>
+				<Max_Rounds>99</Max_Rounds>
 			</Ammo_count>
 			<_Editor>
 				<Category>Entries</Category>
@@ -14,9 +14,9 @@
 		<mp_weapons>
 			<Name>camo_stun</Name>
 			<Ammo_count>
-				<Magazine_Size>1</Magazine_Size>
-				<Num_Magazines>2</Num_Magazines>
-				<Max_Rounds>2</Max_Rounds>
+				<Magazine_Size>99</Magazine_Size>
+				<Num_Magazines>99</Num_Magazines>
+				<Max_Rounds>99</Max_Rounds>
 			</Ammo_count>
 			<_Editor>
 				<Category>Entries</Category>
@@ -25,9 +25,9 @@
 		<mp_weapons>
 			<Name>camo_nano</Name>
 			<Ammo_count>
-				<Magazine_Size>1</Magazine_Size>
-				<Num_Magazines>2</Num_Magazines>
-				<Max_Rounds>2</Max_Rounds>
+				<Magazine_Size>99</Magazine_Size>
+				<Num_Magazines>99</Num_Magazines>
+				<Max_Rounds>99</Max_Rounds>
 			</Ammo_count>
 			<_Editor>
 				<Category>Entries</Category>
