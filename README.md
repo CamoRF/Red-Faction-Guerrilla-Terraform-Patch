@@ -1,8 +1,8 @@
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/Logo_Temp.png?raw=true "Logo")
 
-- Version: v1.064.1 ALPHA
-- Date: 23-1-2023
-- Build: 1120
+- Version: v1.064.2 ALPHA
+- Date: 27-1-2023
+- Build: 1255
 - Work-in-progress project that adds content, fixes bugs, and enhances many features.
 
 # Auto Install (Recommended)
@@ -17,6 +17,7 @@
 - [v1.063 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6269)
 - [v1.064 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6340)
 - [v1.064.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6362)
+- [v1.064.2 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6362)
 
 # Changelog
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/changelog.txt)
