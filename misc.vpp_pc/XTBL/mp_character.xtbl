@@ -3,6 +3,105 @@
 		<MP_character>
 			<Name>FFA</Name>
 			<Character_Grid>
+<!--START Mason Armor Test-->
+				<Character_Element>
+					<Character_Name>camo_mason</Character_Name>
+					<Display_Name>MASON TEST</Display_Name>
+					<Bitmap_Name>ui_mp_char_mason</Bitmap_Name>
+					<Unlock_Level>0</Unlock_Level>
+					<Persona_Group>Guerrilla Male</Persona_Group>
+					<backpack_offsets>
+						<backpack>
+							<backpack_name>Commando</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>.01</Y>
+								<Z>-.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Fleetfoot</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>.01</Y>
+								<Z>-.035</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Heal</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>-.05</Y>
+								<Z>.04</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Jetpack</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Kaboom</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.01</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Rhino</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Shockwave</backpack_name>
+							<backpack_offset>
+								<X>.01</X>
+								<Y>-.02</Y>
+								<Z>-.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Stealth</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>0</Y>
+								<Z>.04</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Thrust</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Tremor</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>0.0</Y>
+								<Z>-.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Vision</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>-.04</Y>
+								<Z>-.03</Z>
+							</backpack_offset>
+						</backpack>
+					</backpack_offsets>
+				</Character_Element>
+<!--END-->				
 <!--START DLC Characters ADDED-->
 <!--ui_mp_char_edf_elite_w-->
 				<Character_Element>
