@@ -2,7 +2,7 @@
 	<Table>
 <!--START Experimental Misc-->		
 		<Inventory_Item>
-			<Name>turret_machinegun</Name>
+			<Name>fist</Name>
 			<Display_Name>FISTS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -13,7 +13,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>crowbar</Name>
+			<Name>camo_grenade</Name>
 			<Display_Name>GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -24,7 +24,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>metal</Name>
+			<Name>camo_stun</Name>
 			<Display_Name>STUN GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -35,7 +35,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>charge_launcher</Name>
+			<Name>camo_nano</Name>
 			<Display_Name>NANO GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -46,10 +46,10 @@
 			</_Editor>
 		</Inventory_Item>
 <!--END-->
-<!--START NEW DLC Weapons ADDED-->
+<!--START DLC Weapons Added-->
 		<Inventory_Item>
 			<Name>royal_sword</Name>
-			<Display_Name>IMPALER</Display_Name> <!--FROM WEAP_ROYAL_SWORD-->
+			<Display_Name>ROYAL SWORD</Display_Name> <!--FROM WEAP_ROYAL_SWORD-->
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
@@ -90,8 +90,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>	
-<!--START DLC Weapons Added-->
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>edf_super_gauss</Name>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
@@ -125,7 +124,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>		
-<!--END DLC Weapons Added-->
+<!--END-->
 		<Inventory_Item>
 			<Name>gutter</Name>
 			<Display_Name>WEAP_GUTTER</Display_Name>
@@ -137,7 +136,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<Inventory_Item>
+		<!--<Inventory_Item>
 			<Name>crowbar</Name>
 			<Display_Name>WEAP_CROWBAR</Display_Name>
 			<Cost>100</Cost>
@@ -147,7 +146,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>-->
 		<Inventory_Item>
 			<Name>grinder</Name>
 			<Display_Name>WEAP_GRINDER</Display_Name>
@@ -236,7 +235,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<Inventory_Item>
+		<!--<Inventory_Item>
 			<Name>rock</Name>
 			<Display_Name>WEAP_ROCK</Display_Name>
 			<Cost>100</Cost>
@@ -246,7 +245,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>-->
 		<Inventory_Item>
 			<Name>shotgun</Name>
 			<Display_Name>WEAP_SHOTGUN</Display_Name>
@@ -302,22 +301,22 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<Inventory_Item>
+		<!--<Inventory_Item>
 			<Name>power_item</Name>
 			<Display_Name>WEAP_POWER_ITEM</Display_Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<Max_Inventory>1000</Max_Inventory>
-		</Inventory_Item>
-		<Inventory_Item>
+		</Inventory_Item>-->
+		<!--<Inventory_Item>
 			<Name>metal</Name>
 			<Display_Name>WEAP_METAL</Display_Name>
 			<Max_Inventory>1000</Max_Inventory>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>-->
 		<Inventory_Item>
 			<Name>sledgehammer</Name>
 			<Display_Name>WEAP_SLEDGE</Display_Name>
