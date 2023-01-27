@@ -502,7 +502,7 @@ v1.064.2 ALPHA CHANGES
 * FIXED critical bug with DLC weapon pickups either not working or causing the player to T-POSE
 
 --------------------
-v1.0xx ALPHA CHANGES
+v1.07 ALPHA CHANGES
 --------------------
 
 [Interface]
@@ -527,10 +527,11 @@ v1.0xx ALPHA CHANGES
 * Added Jenkins riding shotgun vehicle to safehouse spawns in SP
 * Improved ambient vehicle spawns in singleplayer so they make more sense for each sector
 * Reverted changes to singleplayer DLC for now due to possible issues
+* Reverted change to "Max_simultaneous_proxies" in case it causes issues/crashes
 
 [Out of scope fixes]
 * Reverted "Ai_heavy_vehicle_always_cower_chance" to vanilla
-* Reverted to "Ai_no_fall_back_chance" to vanilla
+* Reverted "Ai_no_fall_back_chance" to vanilla
 * Reverted "max_npcs_attacking_player_green, max_npcs_attacking_player_yellow, max_npcs_attacking_player_orange & max_npcs_attacking_player_red" to vanilla
 * Reverted "Player_death_salvage_percent_kept" to vanilla
 * Reverted "Edf_notice_player_with_obvious_weapon_dist" to vanilla
@@ -539,7 +540,6 @@ v1.0xx ALPHA CHANGES
 * Reverted "Killing_spree_initial_time_ms" to vanilla
 * Reverted tank hitpoints to vanilla, hopefully will fix the issue with the second to last mission in EOS breaking
 * Reverted alert_levels.xtbl to vanilla
-* Reverted change to "Max_simultaneous_proxies" in case it causes issues/crashes
 * Reverted removal of artificial gravity from vehicles; this should hopefully fix the transporter mission in Parker/FFZ and the second to last mission in EOS
 * Reverted map loading screen and thumbnail texture replacements
 
@@ -555,8 +555,10 @@ v1.0xx ALPHA CHANGES
 * Improved host migration removal hopefully by increasing "TS_bad_lag_rtt_ms" & "TS_bad_lag_duration_ms" to 2147483647 which should disable true skill host migration completely in all circumstances
 
 [Weapons] 
-* Added experimental weapons to MP: Grenade, Stun Grenade, Nanorifle and Fists/Unarmed weapon
-* Added DLC Pickaxe and Impaler/Royal Sword
+* Added Grenade, Stun Grenade & Nano Grenade
+* Added Fist/Unarmed weapon to multiplayer
+* Added Royal Sword to multiplayer
+* Added DLC Pickaxe to multiplayer
 
 [Sniper Rifle]
 * Reduced spread at max range from 0.55 to 0

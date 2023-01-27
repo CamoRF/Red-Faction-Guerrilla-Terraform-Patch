@@ -2,7 +2,7 @@
 	<Table>
 <!--START Experimental Misc-->		
 		<Inventory_Item>
-			<Name>camo_fist</Name>
+			<Name>fist</Name>
 			<Display_Name>FISTS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -13,7 +13,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>camo_grenade</Name>
+			<Name>gre</Name>
 			<Display_Name>GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -24,7 +24,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>camo_stun_grenade</Name>
+			<Name>stun</Name>
 			<Display_Name>STUN GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -35,7 +35,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>camo_nano_grenade</Name>
+			<Name>nano</Name>
 			<Display_Name>NANO GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -48,7 +48,7 @@
 <!--END-->
 <!--START NEW DLC Weapons ADDED-->
 		<Inventory_Item>
-			<Name>camo_royal_sword</Name>
+			<Name>sword</Name>
 			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -59,7 +59,7 @@
 			</_Editor>
 		</Inventory_Item>		
 		<Inventory_Item>
-			<Name>camo_pickaxe</Name>
+			<Name>pick</Name>
 			<Display_Name>WEAP_PICKAXE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -70,7 +70,7 @@
 			</_Editor>
 		</Inventory_Item>		
 		<Inventory_Item>
-			<Name>camo_spiker</Name>
+			<Name>spiker1</Name>
 			<Display_Name>WEAP_SPIKER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -81,7 +81,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>camo_mar_charge_placer</Name>
+			<Name>dlc_charge</Name>
 			<Display_Name>WEAP_CHARGE_PLACER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -93,7 +93,7 @@
 		</Inventory_Item>	
 <!--START DLC Weapons Added-->
 		<Inventory_Item>
-			<Name>camo_edf_super_gauss</Name>
+			<Name>supergauss</Name>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -104,7 +104,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>camo_edf_subverter</Name>
+			<Name>subverter</Name>
 			<Display_Name>WEAP_SUBVERTER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -115,7 +115,7 @@
 			</_Editor>
 		</Inventory_Item>		
 		<Inventory_Item>
-			<Name>camo_missilepod</Name>
+			<Name>missilepod1</Name>
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
