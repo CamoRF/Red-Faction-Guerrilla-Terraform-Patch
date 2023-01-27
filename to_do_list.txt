@@ -86,3 +86,4 @@ LOW PRIORITY
 * Gradually format all files into the FORMATTED folder
 * Doublecheck if map str2 files are compressed and condensed, delete the scriptx file and any asm .xmls i might have forgot to delete 
 * Restore vanilla wc maps to wrecking crew mode in an add-on
+* Make all of wreckage destructable if possible?
