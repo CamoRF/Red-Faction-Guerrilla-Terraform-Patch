@@ -69,7 +69,7 @@
 			<mar_population>0</mar_population>
 			<vehicle_list>
 				<vehicle_info>
-					<vehicle_group>Vanilla_Guerilla</vehicle_group> <!--From Default Guerilla-->
+					<vehicle_group>Default Guerilla</vehicle_group>
 					<reservation_count>2</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
@@ -122,7 +122,7 @@
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>Vanilla_Guerilla</vehicle_group> <!--From Default Guerilla-->
+					<vehicle_group>Default Guerilla</vehicle_group>
 					<reservation_count>2</reservation_count>
 				</vehicle_info>
 			</vehicle_list>
@@ -227,7 +227,7 @@
 			<mar_population>0</mar_population>
 			<npc_list>
 				<npc_info>
-					<npc_group>Vanilla_EDF</npc_group> <!--From Default EDF-->
+					<npc_group>Default EDF</npc_group>
 					<reservation_count>2</reservation_count>
 				</npc_info>
 				<npc_info>
@@ -252,11 +252,11 @@
 			<mar_population>1</mar_population>
 			<vehicle_list>
 				<vehicle_info>
-					<vehicle_group>Vanilla_Marauder</vehicle_group> <!--From Default Marauder-->
+					<vehicle_group>Default Marauder</vehicle_group>
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>Vanilla_EDF</vehicle_group> <!--From Default EDF-->
+					<vehicle_group>Default EDF</vehicle_group>
 					<reservation_count>2</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
@@ -278,15 +278,15 @@
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
-					<npc_group>Vanilla_EDF</npc_group> <!--From Default EDF-->
+					<npc_group>Default EDF</npc_group>
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
-					<npc_group>Vanilla_Marauder</npc_group> <!--From Default Marauder-->
+					<npc_group>Default Marauder</npc_group>
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
-					<npc_group>Vanilla_Guerilla</npc_group> <!--From Default Guerilla-->
+					<npc_group>Default Guerilla</npc_group>
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
@@ -309,7 +309,7 @@
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>Vanilla_Guerilla</vehicle_group> <!--From Default Guerilla-->
+					<vehicle_group>Default Guerilla</vehicle_group>
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
@@ -364,7 +364,7 @@
 			</vehicle_list>
 			<npc_list>
 				<npc_info>
-					<npc_group>Vanilla_EDF</npc_group> <!--From Default EDF-->
+					<npc_group>Default EDF</npc_group>
 					<reservation_count>2</reservation_count>
 				</npc_info>
 			</npc_list>
@@ -389,7 +389,7 @@
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
-					<npc_group>Vanilla_EDF</npc_group> <!--From Default EDF-->
+					<npc_group>Default EDF</npc_group>
 					<reservation_count>2</reservation_count>
 				</npc_info>
 			</npc_list>
@@ -528,7 +528,7 @@
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
-					<npc_group>Vanilla_Marauder</npc_group> <!--From Default Marauder-->
+					<npc_group>Default Marauder</npc_group>
 					<reservation_count>1</reservation_count>
 				</npc_info>
 			</npc_list>
@@ -544,7 +544,7 @@
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>Vanilla_Guerilla</vehicle_group> <!--From Default Guerilla-->
+					<vehicle_group>Default Guerilla</vehicle_group>
 					<reservation_count>3</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
@@ -624,7 +624,7 @@
 					<reservation_count>1</reservation_count>
 				</vehicle_info>
 				<vehicle_info>
-					<vehicle_group>Vanilla_Guerilla</vehicle_group> <!--From Default Guerilla-->
+					<vehicle_group>Default Guerilla</vehicle_group>
 					<reservation_count>2</reservation_count>
 				</vehicle_info>
 			</vehicle_list>
@@ -686,7 +686,7 @@
 			</_Editor>
 			<npc_list>
 				<npc_info>
-					<npc_group>Vanilla_Marauder</npc_group> <!--From Default Marauder-->
+					<npc_group>Default Marauder</npc_group>
 					<reservation_count>1</reservation_count>
 				</npc_info>
 			</npc_list>
@@ -738,7 +738,7 @@
 					<reservation_count>1</reservation_count>
 				</npc_info>
 				<npc_info>
-					<npc_group>Vanilla_Civilian</npc_group> <!--From Default Civilian-->
+					<npc_group>Default Civilian</npc_group>
 					<reservation_count>1</reservation_count>
 				</npc_info>
 			</npc_list>
@@ -769,7 +769,7 @@
 			</_Editor>
 			<npc_list>
 				<npc_info>
-					<npc_group>Vanilla_Marauder</npc_group> <!--From Default Marauder-->
+					<npc_group>Default Marauder</npc_group>
 					<reservation_count>1</reservation_count>
 				</npc_info>
 			</npc_list>

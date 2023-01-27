@@ -505,6 +505,14 @@ v1.064.2 ALPHA CHANGES
 v1.07 ALPHA CHANGES
 --------------------
 
+[Fixes]
+* Fixed another singleplayer DLC crash 
+* Fixed issue "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
+* Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
+* Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
+* Fixed broken transporter side mission singleplayer DLC
+* Re-did all spawn related improvements possibly fixing most broken missions as reported in the known bugs section at the bottom of the changelog
+
 [Interface]
 * Reverted adding higher resolution loading screens and thumbnails
 * Reverted replacing other character textures, all new character textures now use a generic placeholder texture until it's possible to add new texture files
@@ -593,20 +601,18 @@ v1.07 ALPHA CHANGES
 ------------
 
 [Misc]
-* "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
-* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
-* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
+
 * "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file reported in Red Faction Guerrilla Re-Mars-tered.log
 * "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl reported in Red Faction Guerrilla Re-Mars-tered.log
 
 [Singleplayer]
-* DLC: first transporter is broken due to the vehicle not spawning for some unknown reason, uninstall the patch to complete this mission and then you can safetly reinstall after you've finished it
+
 * DLC: tank doesn't spawn in Redemption mission
 * DLC: crashes on load
-* Activity: offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles
-* Activity: screenshot "sp_eos_side_mission.png" MIGHT be broken
-* Activity: transporter activity in Badlands MIGHT be broken
-* Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx, dlc01_td_02.scriptx", "misc.vpp_pc\dlc01_activity_timed_delivery.xtbl\dlc01_td_02"
+* Activity: offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles (might be fixed after re-doing all spawn related changes)
+* Activity: screenshot "sp_eos_side_mission.png" MIGHT be broken (might be fixed after re-doing all spawn related changes)
+* Activity: transporter activity in Badlands MIGHT be broken (might be fixed after re-doing all spawn related changes)
+* Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx (might be fixed after re-doing all spawn related changes)
 * Marauders might noe spawn with shotguns? (might be fixed in v1.064.1 due to reverting changes to squad files)
 
 [DLC Weapons]
