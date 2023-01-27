@@ -581,9 +581,6 @@ v1.07 ALPHA CHANGES
 * Increased range in which the target must be for the reticle to appear red to 999 from 300, this will hopefully fix the issue with the reticule not turning red on enemies in the distance
 * Possibly fixed weird limited range issue
 
-[Wrecking Crew] 
-* Restored 10/19 vanilla wrecking crew maps so they will have barrels again, the only changes are essential bug fixes
-
 [Thermobaric Rockets]
 * Increased time until projectile expires to 10000 from 5000 meaning it won't vanish until it explodes from the timer or hits something
 

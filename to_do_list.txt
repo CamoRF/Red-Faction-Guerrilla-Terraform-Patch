@@ -54,7 +54,6 @@ TO DO LIST
 * Change default WC settings to have barrels enabled by default if possible
 * Reduce EDF spawns so they are no longer excessive making some missions impossible to beat (squads.xtbl)
 * Restore vanilla wc maps in an add-on (dlc ones seem to crash for some reason)
-* Gradually format all files for the FORMATTED folder
  
 -------------
 LOW PRIORITY
@@ -84,4 +83,6 @@ LOW PRIORITY
 * Gradually improve locations of DLC weapons added to regular MP maps using RSL to get improved co-ords 
 * Gradually take notes of messed up up children and fix them 
 * Gradually take notes of clipping or floating weapons and fix them
+* Gradually format all files into the FORMATTED folder
 * Doublecheck if map str2 files are compressed and condensed, delete the scriptx file and any asm .xmls i might have forgot to delete 
+* Restore vanilla wc maps to wrecking crew mode in an add-on
