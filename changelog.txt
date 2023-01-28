@@ -514,7 +514,27 @@ v1.07 ALPHA CHANGES
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed broken transporter side mission in singleplayer DLC
+* Fixed issue with heal backpack being team exclusive on Expansion
+* Fixed issue with spawn facing wrong direction on Complex
 * Re-did all spawn related improvements possibly fixing most broken missions as reported in the known bugs section at the bottom of the changelog
+
+[Maps]
+* Stratosphere: Added ladders and backpacks
+* Fortress: Added backpacks
+* Vista: Added backpacks
+* Transmission: Added backpacks
+* Fortress: Added backpacks
+* Frost: Added backpacks
+* Imperial: Added backpacks
+* Repercussion: Added backpacks
+* Invasion: Added backpacks
+* Pipeline: Added backpacks 
+* Quarantine: Added two more smokestack objectives in siege mode
+* Watchtower: Improved backpack spawn locations
+* Ruins: Restored original map
+* Added more reconstructors to some of the new siege maps
+* Added some well hidden weapons that only spawn once to some wrecking crew maps
+* Fixes and improvements to various multiplayer spawns
 
 [Interface]
 * Reverted adding higher resolution loading screens and thumbnails
@@ -658,3 +678,6 @@ v1.07 ALPHA CHANGES
 * Some of the out of bounds exploit fixes MIGHT need to be adjusted and can possibly kill the player when they are still inside in the map, they will be slowly polished in future updates
 * Some maps might still have out of bound exploits
 * Abandoned terrain collision glitch near forcefield (335.016, -0.205, -321.099)
+* Expansion: crates on top of the bridge float even when the bridge is destroyed
+* Frost: sections of the crane and smokestack can float when they are partially destroyed
+* Frost: gap to void in terrain
