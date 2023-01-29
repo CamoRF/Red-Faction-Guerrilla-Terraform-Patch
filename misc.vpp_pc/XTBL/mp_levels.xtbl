@@ -896,7 +896,7 @@
 				<Element>m16</Element>
 			</player_weapons>
 			<Description>MENU_LEVEL_CORNERED_DESC</Description>
-			<time_of_day>10:30</time_of_day>
+			<time_of_day>18:00</time_of_day> <!--From 10:30-->
 			<distance_multiplier>1.2</distance_multiplier>
 			<level_image_name>mp_thumb_gulch</level_image_name>
 			<dust_enabled>True</dust_enabled>
@@ -1054,7 +1054,7 @@
 				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
 				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
 			</mode_flags>
-			<alternate_time_of_day>0:00</alternate_time_of_day>
+			<alternate_time_of_day>8:30</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier> <!--From 0.0-->
 			<alternate_glow_multiplier>2</alternate_glow_multiplier> <!--From 0.0-->
 			<ideal_min_players>2</ideal_min_players>

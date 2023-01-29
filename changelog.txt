@@ -521,16 +521,17 @@ v1.07 ALPHA CHANGES
 * Re-did all spawn related improvements possibly fixing most broken missions as reported in the known bugs section at the bottom of the changelog
 
 [Maps]
+* All wrecking crew maps now have backpack spawns
 * Stratosphere: Added ladders to some of the buildings & removed all siege objectives except the town hall
 * Added backpack spawns to all Wrecking crew maps
 * Quarantine: Added two more smokestack objectives in siege mode
 * Cascade: Added another siege objective
 * Watchtower: Improved backpack spawn locations
-* Restored Gulch wrecking crew map with backpack spawns and various fixes
-* Restored Ruins wrecking crew map with backpack spawns and various fixes
+* Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects and more
+* Ruins: Re-implemented map with backpack spawns and various fixes 
+* GFWL/Nordic Bonus: Adjusted weather, reduced the sun glare and added heat haze
 * Added more reconstructors to some of the new siege maps
 * Added some well hidden weapons that only spawn once to some wrecking crew maps
-* Adjusted weather on GFWL/Nordic Bonus so the sun isn't as blinding
 * Various improvements/adjustments to player, weapon and backpack spawns
 * Various improvements/adjustments to wrecking crew maps
 
@@ -678,4 +679,7 @@ v1.07 ALPHA CHANGES
 * Abandoned terrain collision glitch near forcefield (335.016, -0.205, -321.099)
 * Expansion: crates on top of the bridge float even when the bridge is destroyed
 * Frost: sections of the crane and smokestack can float when they are partially destroyed
-* Frost: gap to void in terrain
+* Frost: gap to void in terrain near 218.371, -21.350, -298.267
+* Gulch: gap to void in terrain near 324.476, -0.708, -385.927
+* GFWL/Nordic Bonus: out of bounds exploit near 208.225, -8.001, -470.174
+* GFWL/Nordic Bonus: gap in rock terrain near 64.263, -14.967, -368.071
