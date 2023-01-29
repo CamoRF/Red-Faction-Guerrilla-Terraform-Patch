@@ -620,53 +620,18 @@ v1.07 ALPHA CHANGES
 |KNOWN BUGS|
 ------------
 
-[Misc]
-
-* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file reported in Red Faction Guerrilla Re-Mars-tered.log
-* "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl reported in Red Faction Guerrilla Re-Mars-tered.log
-
 [Singleplayer]
-
 * DLC: tank doesn't spawn in Redemption mission (might be fixed after re-doing all spawn related changes)
+* DLC: NPC MIGHT drive off near the cliff near the large bridge during Redemption mission (with uncapped fps or due to bad road path on the map?)
+* DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
 * Activity: offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles (might be fixed after re-doing all spawn related changes)
 * Activity: screenshot "sp_eos_side_mission.png" MIGHT be broken (might be fixed after re-doing all spawn related changes)
 * Activity: transporter activity in Badlands MIGHT be broken (might be fixed after re-doing all spawn related changes)
 * Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx (might be fixed after re-doing all spawn related changes)
 * Marauders might noe spawn with shotguns? (might be fixed in v1.064.1 due to reverting changes to squad files)
-
-[DLC Weapons]
-* Pickaxe: missing textures
-* Impaler: missing textures
-* Spiker: has missing texture when it's dropped on the ground and only the host might be able to see the projectile
-* Marauder Remote Charges: missing textures
-* Weapons use placeholder icons and reticules for now
-* Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer
-* Misslepod sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon
-
-[Backpacks]
-* Kaboom backpack has floating objects on the model
-* Backpacks MIGHT clip through the characters on some of the new models, this can be fixed by fine tuning the offset axis values but will take time
-
-[Characters]
-* New characters use a generic placeholder texture for now
-* New character names have !! in front of them for now
-* Marauder lady is missing some textures
-
-[Vanilla]
-* Issue with extreme cloud speed on some maps
-* LOD cap for small rocks seems to be hardcoded and cannot be increased further without hacking the .exe
 * Adding walker spawns at safehouses can cause no vehicle to spawn at all occasionally 
 * NPCs drive like crazy when obstructed instead of waiting and going around them calmly
-* Game can sometimes crash when loading into a multiplayer match (stability improved in v1.07)
-* Some backpacks clip through Alec Masons model in singleplayer
-* Floating backpacks on players when they first spawn, seems to be related to high ping
-* Siege objectives and weapon pickups can sometimes desync in multiplayer
-* DLC: NPC MIGHT drive off near the cliff near the large bridge during Redemption mission (with uncapped fps or due to bad road path on the map?)
-* DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
 * Setting walkers to spawn at safehouses can cause no vehicles to spawn, this was a bug introduced in the remaster
-* Multiplayer lobbies frequently break, players cannot join the lobby unless they go back to the main menu or restart their game
-* Issue with double text for you won/you lost text at end of game with large text over the top of small text in MP?
-* Profile saving hud element can sometimes get stuck on screen in multiplayer games sometimes
 
 [Maps]
 * Some of the Wrecking Crew maps that objectives were added to in v1.064 don't have team spawns yet so the possible fix for the vanilla issue with spawns flipping in CTF won't apply
@@ -683,3 +648,43 @@ v1.07 ALPHA CHANGES
 * Frost: gap to void in terrain near 218.371, -21.350, -298.267
 * GFWL/Nordic Bonus: out of bounds exploit near 208.225, -8.001, -470.174
 * GFWL/Nordic Bonus: gap in rock terrain near 64.263, -14.967, -368.071
+
+[Textures]
+* Typo (build>built, fo>for) in "ui_blueprint_hammer" texture
+* eos_war_memorial dates are wrong; it should be 2075 and 2077, its 5 years off
+* Marauder lady has some missing textures
+* "cem_base01_wkpp" missing specular texture (test at Parker's shack)
+
+[DLC Weapons]
+* Pickaxe: missing textures
+* Impaler: missing textures
+* Spiker: has missing texture when it's dropped on the ground and only the host might be able to see the projectile
+* Marauder Remote Charges: missing textures
+* Weapons use placeholder icons and reticules for now
+* Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer
+* Misslepod sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon
+
+[Backpacks]
+* Kaboom backpack has floating objects on the model
+* Backpacks MIGHT clip through the characters on some of the new models, this can be fixed by fine tuning the offset axis values but will take time
+* Some backpacks clip through Alec Masons model in singleplayer
+* Floating backpacks on players when they first spawn, seems to be related to high ping
+
+[Characters]
+* New characters use a generic placeholder texture for now
+* New character names have !! in front of them for now
+* Marauder lady is missing some textures
+
+[Misc]
+* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file reported in Red Faction Guerrilla Re-Mars-tered.log
+* "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl reported in Red Faction Guerrilla Re-Mars-tered.log
+* Issue with extreme cloud speed on some maps
+* LOD cap for small rocks seems to be hardcoded and cannot be increased further without hacking the .exe
+* Game can sometimes crash when loading into a multiplayer match
+* Siege objectives and weapon pickups can sometimes desync in multiplayer
+* Multiplayer lobbies frequently break, players cannot join the lobby unless they go back to the main menu or restart their game
+* Issue with double text for you won/you lost text at end of game with large text over the top of small text in MP?
+* Profile saving hud element can sometimes get stuck on screen in multiplayer games sometimes
+
+
+
