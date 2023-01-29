@@ -518,6 +518,7 @@ v1.07 ALPHA CHANGES
 * Fixed issue with spawn facing wrong direction on Complex
 * Fixes and improvements to various multiplayer spawns
 * Fixes and improvements to various weapon spawns
+* Fixed gap to void in terrain on Gulch
 * Re-did all spawn related improvements possibly fixing most broken missions as reported in the known bugs section at the bottom of the changelog
 
 [Maps]
@@ -680,6 +681,5 @@ v1.07 ALPHA CHANGES
 * Expansion: crates on top of the bridge float even when the bridge is destroyed
 * Frost: sections of the crane and smokestack can float when they are partially destroyed
 * Frost: gap to void in terrain near 218.371, -21.350, -298.267
-* Gulch: gap to void in terrain near 324.476, -0.708, -385.927
 * GFWL/Nordic Bonus: out of bounds exploit near 208.225, -8.001, -470.174
 * GFWL/Nordic Bonus: gap in rock terrain near 64.263, -14.967, -368.071
