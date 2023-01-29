@@ -5,12 +5,8 @@ TO DO LIST
 [High Priority]
 * Enable neutral spawns in CTF on wrecking crew maps for now
 * Fix rock collision exploit on Downfall
-* Move rocket spawn on complex so it's not near the rock you can climb (193.315, 0.847, -428.865)
-* Add jetpack spawn to complex (203.078, -0.094, -371.493)
-* Cascade siege: add siege objectives for the vents under the bridge and add a reconstructor under the bridge
 * Remove flag 2 from regular objects? 
 * Add flag 4 to objects that the majority have (eg. shipping containers)  (rfg_movers: seems to be consistently used most of the time)
-* Reduce/disable glare on GFWL/Nordic Bonus (wcdlc9.gtodx, wcdlc9_default.dtodx)
 * Half cloud speed on all maps in weather files (gtodx/dtodx)
 * Finish gulch overhaul
 * Add damage control and CTF to siege maps

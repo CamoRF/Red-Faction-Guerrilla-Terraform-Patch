@@ -516,25 +516,23 @@ v1.07 ALPHA CHANGES
 * Fixed broken transporter side mission in singleplayer DLC
 * Fixed issue with heal backpack being team exclusive on Expansion
 * Fixed issue with spawn facing wrong direction on Complex
+* Fixes and improvements to various multiplayer spawns
+* Fixes and improvements to various weapon spawns
 * Re-did all spawn related improvements possibly fixing most broken missions as reported in the known bugs section at the bottom of the changelog
 
 [Maps]
-* Stratosphere: Added ladders and backpacks
-* Fortress: Added backpacks
-* Vista: Added backpacks
-* Transmission: Added backpacks
-* Fortress: Added backpacks
-* Frost: Added backpacks
-* Imperial: Added backpacks
-* Repercussion: Added backpacks
-* Invasion: Added backpacks
-* Pipeline: Added backpacks 
+* Stratosphere: Added ladders to some of the buildings & removed all siege objectives except the town hall
+* Added backpack spawns to all Wrecking crew maps
 * Quarantine: Added two more smokestack objectives in siege mode
+* Cascade: Added another siege objective
 * Watchtower: Improved backpack spawn locations
-* Ruins: Restored original map
+* Restored Gulch wrecking crew map with backpack spawns and various fixes
+* Restored Ruins wrecking crew map with backpack spawns and various fixes
 * Added more reconstructors to some of the new siege maps
 * Added some well hidden weapons that only spawn once to some wrecking crew maps
-* Fixes and improvements to various multiplayer spawns
+* Adjusted weather on GFWL/Nordic Bonus so the sun isn't as blinding
+* Various improvements/adjustments to player, weapon and backpack spawns
+* Various improvements/adjustments to wrecking crew maps
 
 [Interface]
 * Reverted adding higher resolution loading screens and thumbnails
