@@ -4,51 +4,13 @@ TO DO LIST
 
 [High Priority]
 * Enable neutral spawns in CTF on wrecking crew maps for now
-* Fix rock collision exploit on Downfall
+* Fix rock collision exploit on Downfall and GFWL
+* Cover up terrain seams on GFWL, Frost and Gulch
 * Remove flag 2 from regular objects? 
 * Add flag 4 to objects that the majority have (eg. shipping containers)  (rfg_movers: seems to be consistently used most of the time)
 * Half cloud speed on all maps in weather files (gtodx/dtodx)
 * Add damage control and CTF to siege maps
 * Add damage control and CTF to WC maps
-* Change weather on Gulch
-
-[WRECKING CREW BACKPACKS]
-* Fortress
-* Factory
-* Complex
-* Watchtower
-* Cascade
-* Scrapheap
-* Expansion
-* Vista
-* Transmission
-* Stratosphere
-* Frost
-* Imperial
-* Repurcussion
-* Invasion
-* Pipeline
-* Ruins
-* Abandoned
-* Gulch
-* Nordic Bonus/GFWL
-
-[WRECKING CREW DAMAGE CONTROL]
-
-* Frost 
-* Complex 
-* Watchtower
-* Cascade
-
-[WRECKING CREW CTF]
-
-* Stratosphere
-* Imperial
-* Watchtower
-* Complex
-* Abandoned
-
-[WRECKING CREW TEAM SPAWNS]
 
 
 -------------
@@ -72,43 +34,3 @@ LOW PRIORITY
 [SINGLEPLAYER]
 * Apply changes from base game to DLC 
 * Port base game vehicles to DLC
-
-[Maps]
-* Gradually take notes of spawns where you get stuck or float and fix them (WC maps)
-* Gradually take notes of duplicate weapon spawns and fix them if any are left (WC maps)
-* Gradually improve locations of DLC weapons added to regular MP maps using RSL to get improved co-ords 
-* Gradually take notes of messed up up children and fix them 
-* Gradually take notes of clipping or floating weapons and fix them
-* Gradually format all files into the FORMATTED folder
-* Doublecheck if map str2 files are compressed and condensed, delete the scriptx file and any asm .xmls i might have forgot to delete 
-* Restore vanilla wc maps in an add-on (dlc ones seem to crash for some reason)
-* Make all of wreckage destructable if possible?
-* Make sure children have same flags as parents?
-* Make sure to remove persistent flag from regular objects 
-* Make sure to remove display_name prop and rename regular objects on non siege maps
-* Make sure show all types is on in the inspector and remove cover nodes, nav points etc from maps (ghost children that i saw before, GFWL has a lot)!
-* Doublecheck issue with multiple floating fences on Crescent
-* Doublecheck issue with mixed up smokestack children on Equilbrium
-* Doublecheck all spawn nodes and player starts have the persistent flag
-* Doublecheck issue with mixed up building and radio tower children on Fortress
-* Doublecheck all gamemode flags are enabled for objects (Vista for example)
-* Restore vanilla WC maps with only bug fixes so they have barrels in Wrecking Crew
-* Doublecheck out of bounds exploits on Remnant, Haven, Crescent, Equilbrium, Excavation, Imperial, Warlords, Puncture, Stratosphere, Broadside, Rift, Vista, Fortress, Repurcussion, Overpass, Downfall (rock you can get in still probably still there), Gradient, Crevice, GFWL/Nordic Bonus, Scrapheap, Haven, Garrison, Expansion
-* New siege maps need team spawns as children of objectives and attackers need to spawn away from objectives, existing map spawns need to be disabled in siege using gamemode flags 
-* New siege maps need more reconstructor spawns
-* Doublecheck thermo, super gauss, misslepod are disabled in objective modes (Damge Control, Demo, Siege on all maps)
-* Doublecheck out of bounds player spawn was removed on Repurcussion
-* Doublecheck all maps have kaboom backpack at 0,0,0 so they work in random backpack rotation
-* Add more than 16 spawns to all wrecking crew maps
-* Gauntlet, Garrison, Downfall, Crash Site and Quarantine and maybe some others need more subverter spawns 
-* Move the misslepod on Fallfactor to a thin pipe that can be more easily destroyed and made minor changes to DLC weapon spawn locations to balance for teams
-* Fix vanilla issue with inconsistent naming on various objects and remove the display_name string from objects that didn't need it
-* Stratosphere: Add the rest of the ladders to buildings (same ones as Factory)
-* Make sure all subverter spawns use the EDF pistol bounding box
-* Make sure all files are compressed and/or condensed properly (eg. str2 files, can use .cmd script to check original flags)
-* Change default WC settings to have barrels enabled by default if possible
-* All wrecking crew maps need team spawns (check which ones have them already and make a proper list)
-* Reduce EDF spawns so they are no longer excessive making some missions impossible to beat (squads.xtbl)
-* Make sure all backpack parents are renamed to the actual backpack name
-* Scrapheap: transfer non edf crate asset and place them in empty areas
-* Ruins: transfer non edf crates for that empty area near the wall
