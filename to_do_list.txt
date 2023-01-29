@@ -3,18 +3,18 @@ TO DO LIST
 ----------
 
 [High Priority]
-* Stratosphere: the shipping container floats when you destroy the ones under it 
 * Enable neutral spawns in CTF on wrecking crew maps for now
 * Fix rock collision exploit on Downfall
-* Move rocket spawn on complex so it's not near the rock you can climb
+* Move rocket spawn on complex so it's not near the rock you can climb (193.315, 0.847, -428.865)
+* Add jetpack spawn to complex (203.078, -0.094, -371.493)
 * Cascade siege: add siege objectives for the vents under the bridge and add a reconstructor under the bridge
-* Remove flag 2 from regular objects 
+* Remove flag 2 from regular objects? 
 * Add flag 4 to objects that the majority have (eg. shipping containers)  (rfg_movers: seems to be consistently used most of the time)
 * Reduce/disable glare on GFWL/Nordic Bonus (wcdlc9.gtodx, wcdlc9_default.dtodx)
 * Half cloud speed on all maps in weather files (gtodx/dtodx)
-* Scrapheap: transfer non edf crate asset and place them in empty areas
 * Finish gulch overhaul
 * Add damage control and CTF to siege maps
+* Add damage control and CTF to WC maps
 
 [WRECKING CREW BACKPACKS]
 * Fortress
@@ -32,17 +32,27 @@ TO DO LIST
 * Repurcussion
 * Invasion
 * Pipeline
+* Ruins
+* Abandoned
+* Gulch
+* Nordic Bonus/GFWL
 
 [WRECKING CREW DAMAGE CONTROL]
 
+* Frost 
+* Complex 
+* Watchtower
+* Cascade
+
 [WRECKING CREW CTF]
 
+* Stratosphere
+* Imperial
+* Watchtower
+* Complex
+* Abandoned
+
 [WRECKING CREW TEAM SPAWNS]
-
-
-
-
-
 
 
 -------------
@@ -104,3 +114,5 @@ LOW PRIORITY
 * All wrecking crew maps need team spawns (check which ones have them already and make a proper list)
 * Reduce EDF spawns so they are no longer excessive making some missions impossible to beat (squads.xtbl)
 * Make sure all backpack parents are renamed to the actual backpack name
+* Scrapheap: transfer non edf crate asset and place them in empty areas
+* Ruins: transfer non edf crates for that empty area near the wall
