@@ -589,6 +589,9 @@ v1.07 ALPHA CHANGES
 * Default options changed to fleetfoot start, friendly fire enabled and delayed enemy icon visibility
 * Improved host migration removal hopefully by increasing "TS_bad_lag_rtt_ms" & "TS_bad_lag_duration_ms" to 2147483647 which should disable true skill host migration completely in all circumstances
 
+[Wrecking Crew]
+* Added Garrison, Framework, Excavation, Sandpit, Rift, Quarantine, Deadzone and Crash Site multiplayer maps to wrecking crew
+
 [Weapons] 
 * Added Explosive, Stun & Nano Grenades to multiplayer
 * Added Fist/Unarmed weapon to multiplayer

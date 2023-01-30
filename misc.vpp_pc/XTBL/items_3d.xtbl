@@ -1,51 +1,6 @@
 <root>
 	<Table>
-<!--START AMBIENT ITEM TESTING-->		
-		<Item>
-			<Name>ambient_item_testing</Name>
-			<Touch_Script>give_item</Touch_Script>
-			<Respawn_Delay>30000</Respawn_Delay>
-			<_Editor>
-				<Category>Entries:WeaponEDF</Category>
-			</_Editor>
-			<Spin_Time>5000</Spin_Time>
-			<Item_Flags>
-				<Flag>spin</Flag>
-				<!--<Flag>high_res_map_large</Flag>-->
-			</Item_Flags>
-			<streaming_category>General</streaming_category>
-			<Mesh>
-<!--<Filename>dlc_auto_pistol.smeshx</Filename>-->
-				<!--<Filename>beam_test.SMESHX</Filename>-->	
-				<!--<Filename>beer_bottle_a.smeshx</Filename>-->	<!--Missing texture-->
-				<!--<Filename>bar_glass.smeshx</Filename>--> <!--Missing texture-->				
-				<!--<Filename>amb_toolbox.smeshx</Filename>-->
-				<!--<Filename>amb_cigarette.smeshx</Filename>--> <!--Didn't show model or maybe it was too small-->
-				<!--<Filename>amb_wrench.smeshx</Filename>-->
-				<!--<Filename>amb_clipboard.smeshx</Filename>-->
-				<!--<Filename>amb_binoculars.smeshx</Filename>-->
-				<!--<Filename>amb_file_folder.smeshx</Filename>--> <!--Missing texture-->
-				<!--<Filename>amb_cellphone.smeshx</Filename>-->
-				<!--<Filename>amb_lunchbox.cmeshx</Filename>--> <!--crashed?--> <!--could be the rig thing from original entry-->
-				<!--<Filename>amb_jackhammer.cmeshx</Filename>--> <!--crashed?-->  <!--could be the rig thing from original entry-->
-				<!--<Filename>amb_briefcase.smeshx</Filename>--> <!--crashed-->
-				<!--<Filename>ore_salvage_pickup.smeshx</Filename>-->
-				<!--<Filename>amb_rock.smeshx</Filename>-->		
-				<!--<Filename>amb_bag.smeshx</Filename>-->	
-				<!--<Filename>amb_idcard.SMESHX</Filename>-->
-				<!--<Filename>amb_spraybottle.smeshx</Filename>-->
-				<!--<Filename>amb_small_hammer.smeshx</Filename>-->
-				<!--<Filename>amb_welding_torch.smeshx</Filename>-->
-				<!--<Filename>amb_broom.smeshx</Filename>-->
-				<!--<Filename>amb_data_pad.smeshx</Filename>-->	
-				<!--<Filename>amb_fork.smeshx</Filename>-->
-				<!--<Filename>amb_box.smeshx</Filename>--> <!--Missing texture-->				
-			</Mesh>
-			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
-			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>				
-		</Item>
-<!--END-->
-<!--START DLC Weapons ADDED-->
+<!--START NEW DLC Weapons ADDED-->		
 		<Item>
 			<Name>royal_sword</Name>
 			<Item_Flags>
@@ -116,13 +71,16 @@
 			</Mesh>
 			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
-			<pickup_static_mesh>
-				<Filename>spiker_rifle.smeshx</Filename> <!--From spiker_rifle_pickup.smeshx-->
-			</pickup_static_mesh>
+			<!--<pickup_static_mesh>
+				<Filename>spiker_rifle_pickup.smeshx</Filename>
+			</pickup_static_mesh>-->
 		</Item>
 		<Item>
 			<Name>spiker_projectile</Name>
-			<Mass>1.0</Mass> <!--Added-->			
+			<Mass>1.0</Mass> <!--Added-->
+			<_Editor>
+				<Category>Entries:WeaponMarauder</Category> <!--Added-->
+			</_Editor>			
 			<Item_Flags>
 				<Flag>collide_as_cylinder</Flag>
 				<!--<Flag>collide_as_box</Flag>-->
@@ -135,10 +93,10 @@
 			</Mesh>
 			<Mass>1</Mass>
 			<Respawn_Delay>5000</Respawn_Delay>
-			<streaming_category>General</streaming_category>
-			<_Editor>
+			<streaming_category>Multiplayer</streaming_category> <!--From General-->
+			<!--<_Editor>
 				<Category>Entries:Projectiles</Category>
-			</_Editor>
+			</_Editor>-->
 		</Item>
 		<Item>
 			<Name>mar_charge_placer</Name>
@@ -192,6 +150,8 @@
 				<Anim_set>None</Anim_set>
 			</character_mesh>
 		</Item>
+<!--END-->		
+<!--START DLC Weapons ADDED-->	
 		<Item>
 			<Name>EDF_Super_Gauss</Name>
 			<Item_Flags>
@@ -216,32 +176,6 @@
 				<Filename>super_gauss_rifle.smeshx</Filename>
 			</Mesh>
 			<Touch_Script>give_item</Touch_Script>
-		</Item>
-		<Item>
-			<Name>edf_subverter</Name>
-			<Touch_Script>give_item</Touch_Script>
-			<Respawn_Delay>30000</Respawn_Delay>
-			<_Editor>
-				<Category>Entries:WeaponEDF</Category>
-			</_Editor>
-			<Spin_Time>5000</Spin_Time>
-			<Item_Flags>
-				<Flag>spin</Flag>
-				<Flag>high_res_map_large</Flag>
-			</Item_Flags>
-			<streaming_category>General</streaming_category>
-			<Mesh>
-				<Filename>dlc_auto_pistol.smeshx</Filename>
-			</Mesh>
-			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
-			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
-			<Props>
-				<Prop>
-					<Name>edf_subverter_clip</Name>
-					<Attach_tag>Attach_Clip</Attach_tag>
-					<Type>clip</Type>
-				</Prop>
-			</Props>
 		</Item>
 		<Item>
 			<Name>edf_subverter_clip</Name>
@@ -6598,6 +6532,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
+<!--START Streaming MP-->
 		<Element>
 			<Name>streaming_category</Name>
 			<Type>Selection</Type>
@@ -6612,6 +6547,7 @@
 			<Choice>Character prop mesh only</Choice>
 			<Choice>MP and WC backpack</Choice>
 		</Element>
+<!--END Streaming MP-->
 		<Element>
 			<Name>MaterialEffect</Name>
 			<Type>Reference</Type>

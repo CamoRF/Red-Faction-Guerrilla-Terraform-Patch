@@ -1,6 +1,7 @@
 <root>
 	<Table>
-<!--START Experimental Misc-->
+<!--NOTE: current highest <Unique_ID>143</Unique_ID>-->	
+<!--START Experimental Misc-->		
 		<Weapon>
 			<Name>fist</Name>
 			<Weapon_Class>melee</Weapon_Class>
