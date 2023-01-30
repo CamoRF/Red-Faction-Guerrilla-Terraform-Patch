@@ -1310,7 +1310,7 @@
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.250000</value>
+			<value>0.125000</value> <!--From 0.25-->
 		</key>
 		<key>
 			<time>28</time>
@@ -1318,7 +1318,7 @@
 		</key>
 		<key>
 			<time>36</time>
-			<value>0.250000</value>
+			<value>0.125000</value> <!--From 0.25-->
 		</key>
 	</cloud_layer01_speed>
 	<cloud_layer23_speed>
@@ -1332,7 +1332,7 @@
 		</key>
 		<key>
 			<time>18</time>
-			<value>0.250000</value>
+			<value>0.125000</value> <!--From 0.25-->
 		</key>
 		<key>
 			<time>24</time>

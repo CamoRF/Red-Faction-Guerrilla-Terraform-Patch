@@ -519,6 +519,7 @@ v1.07 ALPHA CHANGES
 * Fixes and improvements to various multiplayer spawns
 * Fixes and improvements to various weapon spawns
 * Fixed gap to void in terrain on Gulch
+* Fixed issue with extreme cloud speeds
 * Re-did all spawn related improvements possibly fixing most broken missions as reported in the known bugs section at the bottom of the changelog
 
 [Maps]
@@ -678,7 +679,6 @@ v1.07 ALPHA CHANGES
 [Misc]
 * "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file reported in Red Faction Guerrilla Re-Mars-tered.log
 * "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl reported in Red Faction Guerrilla Re-Mars-tered.log
-* Issue with extreme cloud speed on some maps
 * LOD cap for small rocks seems to be hardcoded and cannot be increased further without hacking the .exe
 * Game can sometimes crash when loading into a multiplayer match
 * Siege objectives and weapon pickups can sometimes desync in multiplayer

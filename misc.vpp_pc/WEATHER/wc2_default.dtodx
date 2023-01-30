@@ -1726,23 +1726,23 @@
 	<cloud_layer01_speed>
 		<key>
 			<time>0</time>
-			<value>0.200000</value>
+			<value>0.100000</value> <!--From 0.2-->
 		</key>
 		<key>
 			<time>14</time>
-			<value>0.250000</value>
+			<value>0.125000</value> <!--From 0.25-->
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.250000</value>
+			<value>0.125000</value> <!--From 0.25-->
 		</key>
 		<key>
 			<time>39</time>
-			<value>0.250000</value>
+			<value>0.125000</value> <!--From 0.25-->
 		</key>
 		<key>
 			<time>45</time>
-			<value>0.200000</value>
+			<value>0.100000</value> <!--From 0.2-->
 		</key>
 	</cloud_layer01_speed>
 	<cloud_layer23_speed>
@@ -1752,15 +1752,15 @@
 		</key>
 		<key>
 			<time>14</time>
-			<value>0.200000</value>
+			<value>0.100000</value> <!--From 0.2-->
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.200000</value>
+			<value>0.100000</value> <!--From 0.2-->
 		</key>
 		<key>
 			<time>39</time>
-			<value>0.200000</value>
+			<value>0.100000</value> <!--From 0.2-->
 		</key>
 		<key>
 			<time>45</time>
