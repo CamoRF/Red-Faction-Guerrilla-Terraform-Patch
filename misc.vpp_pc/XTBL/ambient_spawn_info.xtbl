@@ -4,7 +4,7 @@
 			<Name>Gov_0503</Name>
 			<npc_spawn_group>Guerilla Eos</npc_spawn_group>
 			<vehicle_spawn_group>Amb_EosCommand</vehicle_spawn_group>
-			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<_Editor>
 				<Category>Eos Gov Corp</Category>
 			</_Editor>
@@ -13,7 +13,7 @@
 			<Name>End_0604</Name>
 			<npc_spawn_group>Default Guerilla</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Eos</vehicle_spawn_group>
-			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<_Editor>
 				<Category>End Game</Category>
 			</_Editor>
@@ -22,7 +22,7 @@
 			<Name>End_0703</Name>
 			<npc_spawn_group>Default Guerilla</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Eos</vehicle_spawn_group>
-			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<_Editor>
 				<Category>End Game</Category>
 			</_Editor>
@@ -31,7 +31,7 @@
 			<Name>Gov_0504</Name>
 			<npc_spawn_group>Guerilla Eos</npc_spawn_group>
 			<vehicle_spawn_group>Amb_EosCommand</vehicle_spawn_group>
-			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<_Editor>
 				<Category>Eos Gov Corp</Category>
 			</_Editor>
@@ -45,7 +45,7 @@
 			<_Editor>
 				<Category>Eos</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
@@ -58,7 +58,7 @@
 			<_Editor>
 				<Category>Eos</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
@@ -71,7 +71,7 @@
 			<_Editor>
 				<Category>Eos</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
@@ -83,7 +83,7 @@
 			<_Editor>
 				<Category>Eos</Category>
 			</_Editor>
-			<default_ambient_behavior>Camo Eos Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
@@ -93,7 +93,7 @@
 			<_Editor>
 				<Category>Freefire</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Free_0409</Name>
@@ -104,7 +104,7 @@
 			<_Editor>
 				<Category>Freefire</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Free_0508</Name>
@@ -113,7 +113,7 @@
 			<_Editor>
 				<Category>Freefire</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Free_0509</Name>
@@ -124,7 +124,7 @@
 			<_Editor>
 				<Category>Freefire</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Parker_0410</Name>
@@ -135,7 +135,7 @@
 			<_Editor>
 				<Category>Parker</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Low-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
@@ -147,7 +147,7 @@
 			<_Editor>
 				<Category>Parker</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 			<ped_spawn_density>High</ped_spawn_density> <!--From Medium-->
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Low-->
@@ -160,7 +160,7 @@
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
@@ -172,7 +172,7 @@
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Low-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
@@ -185,7 +185,7 @@
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Low-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
@@ -197,7 +197,7 @@
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
@@ -209,7 +209,7 @@
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
@@ -222,7 +222,7 @@
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Low-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
@@ -235,7 +235,7 @@
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Low-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
@@ -247,7 +247,7 @@
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
@@ -259,7 +259,7 @@
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
@@ -271,7 +271,7 @@
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
@@ -282,7 +282,7 @@
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
@@ -293,7 +293,7 @@
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
@@ -304,7 +304,7 @@
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
@@ -315,7 +315,7 @@
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_1010</Name>
@@ -325,7 +325,7 @@
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_1108</Name>
@@ -335,7 +335,7 @@
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
@@ -345,7 +345,7 @@
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_1208</Name>
@@ -356,7 +356,7 @@
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Low-->
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Low-->
 		</ambient_spawn_info>
@@ -367,7 +367,7 @@
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Oasis_0806</Name>
@@ -378,7 +378,7 @@
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Low-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
@@ -390,7 +390,7 @@
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
@@ -401,7 +401,7 @@
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
@@ -413,7 +413,7 @@
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
@@ -426,7 +426,7 @@
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
@@ -439,7 +439,7 @@
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<night_ped_spawn_density>High</night_ped_spawn_density> <!--From Medium-->
 			<night_veh_spawn_density>High</night_veh_spawn_density> <!--From Medium-->
 		</ambient_spawn_info>
@@ -447,12 +447,12 @@
 			<Name>Parker_0312</Name>
 			<npc_spawn_group>Guerilla Parker</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Parker</vehicle_spawn_group>
-			<default_ambient_behavior>Most Sectors Ambient</default_ambient_behavior> <!--From Dust Ambient-->
+			<default_ambient_behavior>Dust Ambient</default_ambient_behavior> 
 			<_Editor>
 				<Category>Parker</Category>
 			</_Editor>
 		</ambient_spawn_info>
-		<!--<ambient_spawn_info>
+		<ambient_spawn_info>
 			<Name>Racetrack</Name>
 			<npc_spawn_group>Default Guerilla</npc_spawn_group>
 			<vehicle_spawn_group>racetrack</vehicle_spawn_group>
@@ -464,7 +464,7 @@
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
 			<night_veh_spawn_density>High</night_veh_spawn_density>
-		</ambient_spawn_info>-->
+		</ambient_spawn_info>
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

@@ -1,7 +1,7 @@
 <root>
 	<Table>
 <!--START Experimental Misc-->		
-		<Inventory_Item>
+		<!--<Inventory_Item>
 			<Name>fist</Name>
 			<Display_Name>FISTS</Display_Name>
 			<Cost>100</Cost>
@@ -11,7 +11,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>-->
 		<Inventory_Item>
 			<Name>camo_grenade</Name>
 			<Display_Name>GRENADE</Display_Name>
@@ -23,7 +23,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<Inventory_Item>
+		<!--<Inventory_Item>
 			<Name>camo_stun</Name>
 			<Display_Name>STUN GRENADE</Display_Name>
 			<Cost>100</Cost>
@@ -33,7 +33,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>-->
 		<Inventory_Item>
 			<Name>camo_nano</Name>
 			<Display_Name>NANO GRENADE</Display_Name>

@@ -7,7 +7,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Tech_level>
-		
 		<Tech_level>
 			<Name>edf_pistol</Name>
 			<Tech_level_value>1</Tech_level_value>
@@ -15,7 +14,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Tech_level>
-		
 		<Tech_level> <!--Added-->
 			<Name>edf_subverter</Name>
 			<Tech_level_value>1.5</Tech_level_value>
@@ -23,7 +21,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Tech_level>
-		
 		<Tech_level>
 			<Name>m16</Name>
 			<Tech_level_value>2</Tech_level_value>
@@ -31,7 +28,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Tech_level>
-		
 		<Tech_level>
 			<Name>enforcer</Name>
 			<Tech_level_value>3</Tech_level_value>
@@ -39,7 +35,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Tech_level>
-		
 		<Tech_level>
 			<Name>rail_driver</Name>
 			<Tech_level_value>4</Tech_level_value>

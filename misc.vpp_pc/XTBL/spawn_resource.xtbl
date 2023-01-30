@@ -5,9 +5,9 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<edf_population>3</edf_population> <!--From 2-->
-			<gue_population>8</gue_population> <!--From 3-->
-			<mar_population>3</mar_population> <!--From 0-->
+			<edf_population>2</edf_population> <!--From 2--> <!--Max 3-->
+			<gue_population>3</gue_population> <!--From 3--> <!--Max 8-->
+			<mar_population>0</mar_population> <!--From 0--> <!--Max 3-->
 			<rotate_slots>True</rotate_slots>
 		</spawn_resource_entry>
 		<spawn_resource_entry>
