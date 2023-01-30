@@ -509,16 +509,15 @@ v1.07 ALPHA CHANGES
 * NPC and vehicle spawns are now more realistic for each sector
 
 [Fixes]
-* Fixed another singleplayer DLC crash 
 * Fixed issue "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
-* Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
-* Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed broken transporter side mission in singleplayer DLC
 * Fixed issue with heal backpack being team exclusive on Expansion
 * Fixed issue with spawn facing wrong direction on Complex
 * Fixes and improvements to various multiplayer spawns
 * Fixes and improvements to various weapon spawns
 * Fixed gap to void in terrain on Gulch
+* Fixed gap to void in terrain on GFWL/Nordic Bonus
+* Fixed two additional out of bounds exploits on Downfall
 * Fixed issue with extreme cloud speeds
 * Re-did all spawn related improvements possibly fixing most broken missions as reported in the known bugs section at the bottom of the changelog
 
@@ -531,11 +530,11 @@ v1.07 ALPHA CHANGES
 * Watchtower: Improved backpack spawn locations
 * Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects and more
 * Ruins: Re-implemented map with backpack spawns and various fixes 
-* GFWL/Nordic Bonus: Adjusted weather, reduced the sun glare and added heat haze
+* GFWL/Nordic Bonus: Adjusted weather, reduced the sun glare, added heat haze and more
 * Added more reconstructors to some of the new siege maps
 * Added some well hidden weapons that only spawn once to some wrecking crew maps
-* Various improvements/adjustments to player, weapon and backpack spawns
-* Various improvements/adjustments to wrecking crew maps
+* Various other improvements/adjustments to player, weapon and backpack spawns
+* Various other improvements/adjustments to wrecking crew maps
 
 [Interface]
 * Reverted adding higher resolution loading screens and thumbnails
@@ -622,6 +621,7 @@ v1.07 ALPHA CHANGES
 ------------
 
 [Singleplayer]
+* DLC: crashes when loading
 * DLC: tank doesn't spawn in Redemption mission (might be fixed after re-doing all spawn related changes)
 * DLC: NPC MIGHT drive off near the cliff near the large bridge during Redemption mission (with uncapped fps or due to bad road path on the map?)
 * DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
@@ -636,19 +636,10 @@ v1.07 ALPHA CHANGES
 
 [Maps]
 * Some of the Wrecking Crew maps that objectives were added to in v1.064 don't have team spawns yet so the possible fix for the vanilla issue with spawns flipping in CTF won't apply
-* Some maps still have floating objects, weapons, spawns etc
-* Some maps MIGHT still have vanilla crashing issues that I missed
-* The following maps have been temporarily disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch & Ruins
-* Objectives and Backpack Racks still need to be added to most of the Wrecking Crew maps, they will be slowly added in future updates
-* Backpack Rack and Objective spawns on Wrecking Maps may not be final, they will be slowly polished in future updates
-* Some of the out of bounds exploit fixes MIGHT need to be adjusted and can possibly kill the player when they are still inside in the map, they will be slowly polished in future updates
-* Some maps might still have out of bound exploits
 * Abandoned terrain collision glitch near forcefield (335.016, -0.205, -321.099)
 * Expansion: crates on top of the bridge float even when the bridge is destroyed
 * Frost: sections of the crane and smokestack can float when they are partially destroyed
 * Frost: gap to void in terrain near 218.371, -21.350, -298.267
-* GFWL/Nordic Bonus: out of bounds exploit near 208.225, -8.001, -470.174
-* GFWL/Nordic Bonus: gap in rock terrain near 64.263, -14.967, -368.071
 
 [Textures]
 * Typo (build>built, fo>for) in "ui_blueprint_hammer" texture
@@ -678,6 +669,8 @@ v1.07 ALPHA CHANGES
 
 [Misc]
 * "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file reported in Red Faction Guerrilla Re-Mars-tered.log
+* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
+* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl reported in Red Faction Guerrilla Re-Mars-tered.log
 * LOD cap for small rocks seems to be hardcoded and cannot be increased further without hacking the .exe
 * Game can sometimes crash when loading into a multiplayer match
