@@ -50,8 +50,7 @@
 			</pickup_effects>
 			<Unique_ID>0</Unique_ID>
 			<pickup_tooltip>backpack_jetpack</pickup_tooltip>
-		</mp_backpacks>		
-		
+		</mp_backpacks>
 		<mp_backpacks>
 			<Name>Thrust</Name>
 			<_Editor>
@@ -170,8 +169,7 @@
 			</pickup_effects>
 			<Unique_ID>1</Unique_ID>
 			<pickup_tooltip>backpack_thrust</pickup_tooltip>
-		</mp_backpacks>		
-		
+		</mp_backpacks>
 		<mp_backpacks>
 			<Name>Fleetfoot</Name>
 			<_Editor>
@@ -285,7 +283,6 @@
 			<Unique_ID>2</Unique_ID>
 			<pickup_tooltip>backpack_fleetfoot</pickup_tooltip>
 		</mp_backpacks>
-		
 		<mp_backpacks>
 			<Name>Stealth</Name>
 			<_Editor>
@@ -301,7 +298,7 @@
 			<stealth>
 				<restealth_time_ms>250</restealth_time_ms> <!--From 500-->
 				<stealth_time_ms>1250</stealth_time_ms> <!--From 2500-->
-				<stealth_transparency>1.0</stealth_transparency> <!--From 0.05-->
+				<stealth_transparency>10.0</stealth_transparency> <!--From 0.05-->
 				<local_stealth_transparency>1.0</local_stealth_transparency> <!--From 0.3-->
 			</stealth>
 			<radar>False</radar>
@@ -332,10 +329,10 @@
 					<refire_delay_factor>1</refire_delay_factor>
 					<unlimited_ammo>False</unlimited_ammo>
 					<stealth>
-						<stealth_transparency>1.0</stealth_transparency> <!--From 0.05-->
+						<stealth_transparency>10.0</stealth_transparency> <!--From 0.05-->
 						<local_stealth_transparency>1.0</local_stealth_transparency> <!--From 0.25-->
-						<stealth_time_ms>1000</stealth_time_ms>
-						<restealth_time_ms>1000</restealth_time_ms>
+						<stealth_time_ms>1250</stealth_time_ms> <!--From 1000-->
+						<restealth_time_ms>250</restealth_time_ms> <!--From 1000-->
 					</stealth>
 					<reload_speed_factor>1</reload_speed_factor>
 					<fov_scale>1</fov_scale>
@@ -385,8 +382,7 @@
 			</pickup_effects>
 			<Unique_ID>3</Unique_ID>
 			<pickup_tooltip>backpack_stealth</pickup_tooltip>
-		</mp_backpacks>		
-
+		</mp_backpacks>
 		<mp_backpacks>
 			<Name>Vision</Name>
 			<_Editor>
@@ -486,8 +482,7 @@
 			</pickup_effects>
 			<Unique_ID>4</Unique_ID>
 			<pickup_tooltip>backpack_vision</pickup_tooltip>
-		</mp_backpacks>		
-		
+		</mp_backpacks>
 		<mp_backpacks>
 			<Name>Commando</Name>
 			<_Editor>
@@ -597,7 +592,6 @@
 			<Unique_ID>5</Unique_ID>
 			<pickup_tooltip>backpack_commando</pickup_tooltip>
 		</mp_backpacks>
-		
 		<mp_backpacks>
 			<Name>Shockwave</Name>
 			<_Editor>
@@ -697,8 +691,7 @@
 			<hint_text>HM_BACKPACK_SHOCKWAVE_HINT</hint_text>
 			<Unique_ID>6</Unique_ID>
 			<pickup_tooltip>backpack_shockwave</pickup_tooltip>
-		</mp_backpacks>		
-		
+		</mp_backpacks>
 		<mp_backpacks>
 			<Name>Heal</Name>
 			<_Editor>
@@ -736,7 +729,7 @@
 					<health_regen>
 						<health_regen_per_second>235</health_regen_per_second> <!--from 450--> <!--From 180 in previous patch version-->
 						<health_regen_radius>7.0</health_regen_radius> <!--from 5.8-->
-						<health_regen_heal_enemies>True</health_regen_heal_enemies>
+						<health_regen_heal_enemies>True</health_regen_heal_enemies> <!--From False-->
 					</health_regen>
 					<refire_delay_factor>1</refire_delay_factor>
 					<unlimited_ammo>False</unlimited_ammo>
@@ -772,7 +765,7 @@
 			<health_regen>
 				<health_regen_per_second>235</health_regen_per_second> <!--from 500--> <!--From 180 in previous patch version-->
 				<health_regen_radius>7.0</health_regen_radius>
-				<health_regen_heal_enemies>True</health_regen_heal_enemies> <!--from false-->
+				<health_regen_heal_enemies>True</health_regen_heal_enemies> <!--from False-->
 			</health_regen>
 			<passive_abilities>
 				<movement_speed_factor>1.0</movement_speed_factor>
@@ -804,7 +797,6 @@
 			<Unique_ID>7</Unique_ID>
 			<pickup_tooltip>backpack_heal</pickup_tooltip>
 		</mp_backpacks>
-		
 		<mp_backpacks>
 			<Name>Rhino</Name>
 			<display_name>HM_BACKPACK_RHINO</display_name>
@@ -935,8 +927,7 @@
 			<hint_text>HM_BACKPACK_RHINO_HINT</hint_text>
 			<Unique_ID>8</Unique_ID>
 			<pickup_tooltip>backpack_rhino</pickup_tooltip>
-		</mp_backpacks>		
-		
+		</mp_backpacks>
 		<mp_backpacks>
 			<Name>Tremor</Name>
 			<_Editor>

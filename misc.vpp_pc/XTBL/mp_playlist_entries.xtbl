@@ -395,7 +395,7 @@
 			</_Editor>
 			<ideal_players>6</ideal_players>
 			<default_score>20</default_score>
-			<options_set>Default</options_set></playlist_entries>-->
+			<options_set>Default</options_set></playlist_entries>
 			<playlist_entries>
 				<Name>ta_Complex</Name>
 				<mode>team_deathmatch</mode>
@@ -617,7 +617,7 @@
 				<options_set>Default</options_set>
 			</playlist_entries>
 <!--END WC Playlists Added-->			
-			<playlist_entries>
+<!--			<playlist_entries>
 				<Name>Aa0_Broadside1</Name>
 				<mode>deathmatch</mode>
 				<level>mpdlc_broadside</level>
@@ -2409,7 +2409,7 @@
 					<Category>Entries:Bagman_5-6:NonDLC</Category>
 				</_Editor>
 				<options_set>Default</options_set>
-			</playlist_entries>
+			</playlist_entries>-->
 		</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

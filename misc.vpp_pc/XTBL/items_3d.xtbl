@@ -3,9 +3,9 @@
 <!--START NEW DLC Weapons ADDED-->		
 		<Item>
 			<Name>royal_sword</Name>
-			<Item_Flags>
-				<!--<Flag>spin</Flag>--> <!--Makes it drop on the ground instead of spinning I think-->
-			</Item_Flags>
+			<!--<Item_Flags>
+				<Flag>spin</Flag>
+			</Item_Flags>-->
 			<Spin_Time>5000</Spin_Time>
 			<Mesh>
 				<Filename>dlc_royal_sword.smeshx</Filename>
@@ -79,8 +79,8 @@
 			<Name>spiker_projectile</Name>
 			<Mass>1.0</Mass> <!--Added-->
 			<_Editor>
-				<Category>Entries:WeaponMarauder</Category> <!--Added-->
-			</_Editor>			
+				<Category>Entries:Projectiles</Category>
+			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_cylinder</Flag>
 				<!--<Flag>collide_as_box</Flag>-->
@@ -94,9 +94,6 @@
 			<Mass>1</Mass>
 			<Respawn_Delay>5000</Respawn_Delay>
 			<streaming_category>Multiplayer</streaming_category> <!--From General-->
-			<!--<_Editor>
-				<Category>Entries:Projectiles</Category>
-			</_Editor>-->
 		</Item>
 		<Item>
 			<Name>mar_charge_placer</Name>
@@ -150,7 +147,7 @@
 				<Anim_set>None</Anim_set>
 			</character_mesh>
 		</Item>
-<!--END-->		
+<!--END-->
 <!--START DLC Weapons ADDED-->	
 		<Item>
 			<Name>EDF_Super_Gauss</Name>

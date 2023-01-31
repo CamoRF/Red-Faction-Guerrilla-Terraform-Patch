@@ -2270,7 +2270,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		<Territory>
+<!--		<Territory>
 			<Name>jeffk_territory</Name>
 			<Districts>
 				<District>
@@ -2334,7 +2334,7 @@
 				<HorizMask></HorizMask>
 			</StreamingParams>
 			<territory_index>0</territory_index>
-		</Territory>
+		</Territory>-->
 		<Territory>
 			<Name>Town</Name>
 			<Districts>
@@ -2374,7 +2374,7 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>
-		<Territory>
+<!--		<Territory>
 			<Name>test_ambient_spawn</Name>
 			<Districts>
 				<District>
@@ -2412,7 +2412,7 @@
 				<HorizMask></HorizMask>
 			</StreamingParams>
 			<territory_index>0</territory_index>
-		</Territory>
+		</Territory>-->
 		<!--<Territory>
 			<Name>test_luke_ambient</Name>
 			<Districts>

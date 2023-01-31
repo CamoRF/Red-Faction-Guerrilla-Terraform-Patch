@@ -951,7 +951,7 @@
 			<Num_Magazines>4</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
-			<mp_kill_phrase>HM_KILL_PHRASE_EXPLOSION</mp_kill_phrase> <!--Added-->
+			<!--<mp_kill_phrase>HM_KILL_PHRASE_EXPLOSION</mp_kill_phrase>--> <!--Added-->
 			<Unique_ID>143</Unique_ID>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<Default_team>Marauder</Default_team>
