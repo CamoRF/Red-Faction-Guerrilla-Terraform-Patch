@@ -520,10 +520,11 @@ v1.07 ALPHA CHANGES
 * Fixed gap to void in terrain on GFWL/Nordic Bonus
 * Fixed two additional out of bounds exploits on Downfall
 * Fixed issue with extreme cloud speeds
-* Re-did all spawn related improvements possibly fixing most broken missions as reported in the known bugs section at the bottom of the changelog
+* Possibly fixed some broken missions as reported in the known bugs section at the bottom of the changelog
 
 [Maps]
 * All wrecking crew maps now have backpack spawns
+* Added CTF and damage control to all WC maps except for scrapheap
 * Added CTF and damage control to siege maps
 * Stratosphere: Added ladders to some of the buildings & removed all siege objectives except the town hall
 * Added backpack spawns to all Wrecking crew maps
@@ -548,7 +549,7 @@ v1.07 ALPHA CHANGES
 * Added DLC Hess and Marauder Lab Lady to Marauder spawns in SP
 * Added EDF heavy white model to team games
 * Added EDF heavy tan model to free for all
-* Added Alec Mason with armor
+* Added Alec Mason variation that has armor
 * Restored EDF heavy tan model in team games
 
 [Misc]
@@ -640,11 +641,12 @@ v1.07 ALPHA CHANGES
 * Misc: Setting walkers to spawn at safehouses can cause no vehicles to spawn, this was a bug introduced in the remaster
 
 [Maps]
-* Some of the Wrecking Crew maps that objectives were added to in v1.064 don't have team spawns yet so the possible fix for the vanilla issue with spawns flipping in CTF won't apply
-* Abandoned terrain collision glitch near forcefield (335.016, -0.205, -321.099)
+* Most wrecking crew maps are missing team spawns
+* Most wrecking crew maps still need more spawns and/or fixes to existing spawns
+* Abandoned terrain collision glitch near forcefield near 335.016, -0.205, -321.099
 * Expansion: crates on top of the bridge float even when the bridge is destroyed
 * Frost: sections of the crane and smokestack can float when they are partially destroyed
-* Frost: gap to void in terrain near 218.371, -21.350, -298.267
+* Frost: minor gap to void in terrain near 218.371, -21.350, -298.267
 
 [Textures]
 * Typo (build>built, fo>for) in "ui_blueprint_hammer" texture
