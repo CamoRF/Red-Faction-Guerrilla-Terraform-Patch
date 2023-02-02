@@ -1,7 +1,7 @@
 <root>
 	<Table>
 		<Buildings_Identifier>
-			<Name>TRGT_AMRUKUO_POWER_BARRACKS</Name>
+			<Name>TRGT_AMRUKUO_POWER_BARRACKS</Name> <!--AMRUKUO POWER BARRACKS-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
@@ -367,7 +367,7 @@
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_CRASHSITE_001</Name>
+			<Name>MPDCT_CRASHSITE_001</Name> <!--WRECKAGE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>

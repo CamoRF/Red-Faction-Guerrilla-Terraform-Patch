@@ -1,13 +1,13 @@
 <root>
 	<Table>
 		<Menu_Identifier>
-			<Name>MENU_NEW_GAME</Name>
+			<Name>MENU_NEW_GAME</Name> <!--NEW GAME-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Menu_Identifier>
 		<Menu_Identifier>
-			<Name>MENU_LOAD_GAME</Name>
+			<Name>MENU_LOAD_GAME</Name> <!--LOAD GAME-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
