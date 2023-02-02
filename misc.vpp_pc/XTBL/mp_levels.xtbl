@@ -25,7 +25,7 @@
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>siege</Flag> <!--Added-->
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 8:30-->
@@ -237,8 +237,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>08:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -309,8 +309,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>08:30</alternate_time_of_day>
 			<glow_multiplier>1.2</glow_multiplier>
@@ -345,8 +345,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>13:00</alternate_time_of_day>
 			<glow_multiplier>1.5</glow_multiplier>
@@ -522,8 +522,7 @@
 				<Flag>king_of_the_hill</Flag>
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>
-				<!--<Flag>siege</Flag>--> <!--Added-->				
+				<Flag>demolition</Flag>			
 			</mode_flags>
 			<alternate_time_of_day>10:30</alternate_time_of_day> <!--From 14:00-->
 			<glow_multiplier>6</glow_multiplier>
@@ -627,7 +626,7 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
@@ -697,8 +696,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -733,8 +732,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>02:00</alternate_time_of_day>
 			<glow_multiplier>1.1</glow_multiplier>
@@ -768,7 +767,7 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->			
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 15:30-->
@@ -875,8 +874,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>21:00</alternate_time_of_day>
 			<glow_multiplier>1.6</glow_multiplier>
@@ -982,7 +981,7 @@
 				<Flag>demolition</Flag>
 				<Flag>siege</Flag> <!--Added-->
 				<Flag>capture_the_flag</Flag> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->			
+				<Flag>king_of_the_hill</Flag> <!--Added-->			
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -1017,7 +1016,7 @@
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>capture_the_flag</Flag> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>12:00</alternate_time_of_day> <!--From 8:30-->
 			<glow_multiplier>6</glow_multiplier>
@@ -1051,8 +1050,8 @@
 				<Flag>bagman</Flag> <!--Added--> 
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>8:30</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier> <!--From 0.0-->
@@ -1087,8 +1086,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>02:00</alternate_time_of_day>
 			<glow_multiplier>1.1</glow_multiplier>
@@ -1157,8 +1156,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -1335,8 +1334,8 @@
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>siege</Flag> <!--Added-->	
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->				
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->				
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -1476,7 +1475,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>-->
+				<!--<Flag>capture_the_flag</Flag>--> <!--Assets not implemented-->
 				<!--<Flag>king_of_the_hill</Flag>-->
 			</mode_flags>
 			<alternate_time_of_day>7:30</alternate_time_of_day>
@@ -1582,8 +1581,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -1617,8 +1616,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>19:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -1722,8 +1721,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
+				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>

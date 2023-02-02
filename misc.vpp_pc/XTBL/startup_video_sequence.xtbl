@@ -5,7 +5,7 @@
 			<Video_List>
 				<Video>
 					<Video_File>
-						<Filename>logo_nordic_hd.bik</Filename>
+						<Filename>1logo_nordic_hd.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag>
@@ -13,7 +13,7 @@
 				</Video>
 				<Video>
 					<Video_File>
-						<Filename>logo_kaiko.bik</Filename>
+						<Filename>1logo_kaiko.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag>
@@ -21,7 +21,7 @@
 				</Video>
 				<Video>
 					<Video_File>
-						<Filename>logo_volition_hd.bik</Filename>
+						<Filename>1logo_volition_hd.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag>
@@ -29,7 +29,7 @@
 				</Video>
 				<Video>
 					<Video_File>
-						<Filename>legal_hd.bik</Filename>
+						<Filename>1legal_hd.bik</Filename>
 					</Video_File>
 					<Video_Flags>
 						<Flag>skip_on_user_input</Flag> <!--Added-->					

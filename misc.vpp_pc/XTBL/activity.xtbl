@@ -111,9 +111,9 @@
 			<_Editor>
 				<Category>Offensive Raids</Category>
 			</_Editor>
-			<vehicle_group>Vanilla_EDF</vehicle_group> <!--From EDF_staff_car-->
+			<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_staff_car-->
 			<reservation_info>
-				<vehicle_group>Vanilla_EDF</vehicle_group> <!--From EDF_staff_car-->
+				<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_staff_car-->
 				<reserve_at_start>At Start</reserve_at_start>
 			</reservation_info>
 			<min_alert_cap>Yellow</min_alert_cap>

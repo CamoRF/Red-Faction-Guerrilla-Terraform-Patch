@@ -889,7 +889,7 @@
 			<squad_list>
 				<squad_info>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>Vanilla_EDF</vehicle_group> <!--From EDF_APC-->
+					<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_APC-->
 					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 				<squad_info>
@@ -899,7 +899,7 @@
 				</squad_info>
 				<squad_info>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>Vanilla_EDF</vehicle_group> <!--From EDF_scout_turr-->
+					<vehicle_group>Vanilla EDF</vehicle_group> <!--From EDF_scout_turr-->
 					<stay_in_vehicle>True</stay_in_vehicle>
 				</squad_info>
 			</squad_list>
@@ -935,7 +935,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_02c</Name>
 			<attacker_count>5</attacker_count>
@@ -968,7 +967,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_03a</Name>
 			<attacker_count>4</attacker_count>
@@ -996,7 +994,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_03b</Name>
 			<attacker_count>5</attacker_count>
@@ -1034,7 +1031,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_03c</Name>
 			<attacker_count>6</attacker_count>
@@ -1072,7 +1068,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_04a</Name>
 			<attacker_count>6</attacker_count>
@@ -1107,7 +1102,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_04b</Name>
 			<attacker_count>8</attacker_count>
@@ -1143,7 +1137,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_04c</Name>
 			<attacker_count>10</attacker_count>
@@ -1184,7 +1177,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_05a</Name>
 			<attacker_count>5</attacker_count>
@@ -1221,7 +1213,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_05b</Name>
 			<attacker_count>6</attacker_count>
@@ -1259,7 +1250,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_05c</Name>
 			<attacker_count>7</attacker_count>
@@ -1302,7 +1292,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_06a</Name>
 			<attacker_count>5</attacker_count>
@@ -1330,7 +1319,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_06b</Name>
 			<attacker_count>6</attacker_count>
@@ -1363,7 +1351,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_06c</Name>
 			<attacker_count>6</attacker_count>
@@ -1406,7 +1393,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_07a</Name>
 			<attacker_count>5</attacker_count>
@@ -1449,7 +1435,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_07b</Name>
 			<attacker_count>7</attacker_count>
@@ -1496,7 +1481,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>ls_ad_07c</Name>
 			<attacker_count>8</attacker_count>
@@ -1549,7 +1533,6 @@
 				<Category>Area Defense</Category>
 			</_Editor>
 		</continuous_attack_data>
-		
 		<continuous_attack_data>
 			<Name>je_rs_04</Name>
 			<attacker_count>3</attacker_count>

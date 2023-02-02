@@ -39,7 +39,6 @@
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
 				</Deathmatch>
-				
 				<team_deathmatch>
 					<generic_option_overrides>
 						<point_limit>50</point_limit>
@@ -47,7 +46,6 @@
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
 				</team_deathmatch>
-				
 				<capture_the_flag>
 					<flag_carrier_speed_multiplier>1</flag_carrier_speed_multiplier>
 					<flag_carrier_regen_speed>1</flag_carrier_regen_speed>
@@ -63,7 +61,6 @@
 					</generic_option_overrides>
 					<flag_carrier_icon_always_on>False</flag_carrier_icon_always_on>
 				</capture_the_flag>
-				
 				<siege>
 					<generic_option_overrides>
 						<num_rounds>2</num_rounds>
@@ -78,7 +75,6 @@
 					<defense_third_weapon_wrapper></defense_third_weapon_wrapper>
 					<defense_fourth_weapon_wrapper></defense_fourth_weapon_wrapper>
 				</siege>
-				
 				<king_of_the_hill>
 					<generic_option_overrides>
 						<point_limit>500</point_limit>
@@ -93,7 +89,6 @@
 					<time_per_point_ms>2000</time_per_point_ms>
 					<all_target_multiplier>Normal</all_target_multiplier>
 				</king_of_the_hill>
-				
 				<bagman>
 					<bag_return_time_seconds>15</bag_return_time_seconds>
 					<bagman_kill_bonus>True</bagman_kill_bonus>
@@ -103,7 +98,6 @@
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
 				</bagman>
-				
 				<team_bagman>
 					<bag_return_time_seconds>15</bag_return_time_seconds>
 					<bagman_kill_bonus>True</bagman_kill_bonus>
@@ -113,7 +107,6 @@
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
 				</team_bagman>
-				
 				<demolition>
 					<generic_option_overrides>
 						<respawn_time_seconds>10</respawn_time_seconds>
@@ -131,9 +124,8 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</options_set>
-<!--		
-		<options_set>
+		</options_set>		
+<!--		<options_set>
 			<Name>Beginner_Basic</Name>
 			<generic_option_overrides>
 				<unlimited_ammo>False</unlimited_ammo>
