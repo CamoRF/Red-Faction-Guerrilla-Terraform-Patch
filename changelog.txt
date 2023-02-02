@@ -1,11 +1,11 @@
-|--------------------------------------------------------------|
-|RFG TERRAFORM PATCH (Previously known as Community Patch)	   |
-|--------------------------------------------------------------|
+|-------------------|
+|RFG TERRAFORM PATCH|
+|-------------------|
 
 Author: Camo
-Version: v1.064.2 ALPHA
-Date: 27-1-2023
-Build: 1255
+Version: v1.07 BETA
+Date: XX-X-2023
+Build: X
 
 -----------------------
 INTIAL RELEASE CHANGES
@@ -125,7 +125,7 @@ v1.031 ALPHA CHANGES
 * Increased max possible period NPCs honk their horn to 4 seconds from 2 seconds
 * Increased min possible period NPCs honk their horn to 1 second from 0.5 seconds
 * Increased probability NPCs will honk their horn to 40% from 20%
-* Increased probability Marauders will perform a celebratory taunt/cheer when they kill a target to 75% from 50% 
+* Increased probability Marauders will perform a celebratory taunt/cheer when they kill a target to 75% from 50%  
 * Increased probability a Marauder raid will attempt within a marauder raid route
 * Marauder howl will now always play at night
 
@@ -154,11 +154,11 @@ v1.05 ALPHA CHANGES
 ---------------------
 
 [Multiplayer Additions]
-* Added HD loading screens and thumbnails for every single multiplayer map, screenshots were taken in 8K resolution with reshade, increased shadow resolution and draw distance, thumbnails were remade using these textures with a brand new gritty border added
+* [REVERTED in v1.07] Added HD loading screens and thumbnails for every single multiplayer map, screenshots were taken in 8K resolution with reshade, increased shadow resolution and draw distance, thumbnails were remade using these textures with a brand new gritty border added
 
 [Singleplayer Weapon Additions]
-* Added Subverter to EDF loadout in singleplayer
-* Added Super Gauss Rifle to EDF heavy loadout in singleplayer
+* [REVERTED in v1.07] Added Subverter to EDF loadout in singleplayer
+* [REVERTED in v1.07] Added Super Gauss Rifle to EDF heavy loadout in singleplayer
 
 [New Multiplayer Characters]
 * Carmen
@@ -171,9 +171,9 @@ v1.05 ALPHA CHANGES
 * Admiral Kobel
 * General Roth
 * Voice of Mars
-* Ian's model replaced with an elegant version and he was also added to Guerrila team in addition to free for all
-* Rachel's model replaced with an elegant version and she was also added to the Guerrila team in addition to free for all
-* Most characters now have custom thumbnails
+* [REPLACEMENT CHANGED TO ADDITION in v1.07] Ian's model replaced with an elegant version and he was also added to Guerrila team in addition to free for all
+* [REPLACEMENT CHANGED TO ADDITION in v1.07] Rachel's model replaced with an elegant version and she was also added to the Guerrila team in addition to free for all
+* [REPLACEMENT CHANGED TO ADDITION in v1.07] Most new characters now have custom thumbnails
 
 [Proximity Mine Buff]
 * Time before mines become active after being placed reduced to 1 second from 1.5 seconds
@@ -201,11 +201,11 @@ v1.05 ALPHA CHANGES
 * Delay before you can detonate a thermbaric rocket mid-air reduced to 250ms from 500ms
 
 [Tank Buff]
-* Increased hitpoints of heavy and artillery tanks to 36000 from 18000
-* Increased hitpoints of medium tanks to 20000 from 10000
+* [REVERTED in v1.07] Increased hitpoints of heavy and artillery tanks to 36000 from 18000
+* [REVERTED in v1.07] Increased hitpoints of medium tanks to 20000 from 10000
 
 [Walker Buff]
-* Doubled hitpoints of all walkers
+* [REVERTED in v1.07] Doubled hitpoints of all walkers
 
 [NPC & Player Changes]
 * Ambient friendly marauders will now always follow the player giving them nasty looks
@@ -218,19 +218,19 @@ v1.05 ALPHA CHANGES
 * NPCs now do the same damage to other NPCs as the player in all circumstances to be consistent with the player (add details)
 * NPCs can be converted to the Red Faction from a longer distance (to 24 from 12) to compensate for the increased draw distance
 * Time friendly marauders return to a friendly state after making them hostile increased to 1 minute from 20 seconds
-* Increased max NPCs attacking player to 4 from 2 for green alert, to 6 from 2 for yellow, to 8 from 3 for orange and to 10 from 4 for red
-* Player now keeps 50% of salvage picked up between saving and dying instead of losing it all
+* [REVERTED in v1.07] Increased max NPCs attacking player to 4 from 2 for green alert, to 6 from 2 for yellow, to 8 from 3 for orange and to 10 from 4 for red
+* [REVERTED in v1.07] Player now keeps 50% of salvage picked up between saving and dying instead of losing it all
 * Player now does same damage to friendly NPCs as enemy NPCs
 
 
 [NPC & Vehicle Additions]
-* Increased density and variety of traffic and NPC types and animations
-* Added most vehicles to the Parker and Dust safehouses 
-* EDF vehicles, tanks and the bulldozer can be found at the Oasis and Eos safehouses
-* Marauder vehicles can be found at the Badlands safehouses
-* Fights can now break out between Red Faction and EDF around the map
-* Added DLC Marauder vehicles to the base game
-* Cold NPC animation now plays in Eos and End Game areas
+* [REVERTED in v1.07] Increased density and variety of traffic and NPC types and animations
+* [REVERTED in v1.07] Added most vehicles to the Parker and Dust safehouses 
+* [REVERTED in v1.07] EDF vehicles, tanks and the bulldozer can be found at the Oasis and Eos safehouses
+* [REVERTED in v1.07] Marauder vehicles can be found at the Badlands safehouses
+* [REVERTED in v1.07] Fights can now break out between Red Faction and EDF around the map
+* [REVERTED in v1.07] Added DLC Marauder vehicles to the base game
+* [REVERTED in v1.07] Cold NPC animation now plays in Eos and End Game areas
 
 [General Fixes & Changes]
 * Gun magazines now despawn eventually in multiplayer due to map clutter and lag concerns, it's still an improvement over vanilla and about 5 mags will stack up before old ones start to vanish, singleplayer has a higher limit
@@ -319,16 +319,16 @@ v1.06 ALPHA CHANGES
 * Removed spiker, dlc pickaxe and impaler completely due to various bugs
 
 [Singleplayer Additions & Changes]
-* Added 4K AI upscaled loading screens
+* [REVERTED in v1.07] Added 4K AI upscaled loading screens
 * Added Subverter to Guerrilla loadout at same tech level as the Assault Rifle
-* Changes to the base game tweak_table.xtbl now work in the DLC
-* Increased time it takes for you to go down an alert level in singleplayer 
-* Removed artificial gravity from vehicles
+* [REVERTED in v1.07] Changes to the base game tweak_table.xtbl now work in the DLC
+* [REVERTED in v1.07] Increased time it takes for you to go down an alert level in singleplayer 
+* [REVERTED in v1.07] Removed artificial gravity from vehicles
 
 [Singleplayer Fixes]
-* Fixed some objects missing shadows in DLC
-* Removed Kepler and Carmen from NPC spawn lists
-* Improved NPC spawn lists: Oasis and EOS variants can spawn in both Oasis and EOS, Parker and Dust variants can spawn in both Parker and Dust, All variants can spawn in Oasis and EOS
+* [REVERTED in v1.07] Fixed some objects missing shadows in DLC
+* [REVERTED in v1.07] Removed Kepler and Carmen from NPC spawn lists
+* [REVERTED in v1.07] Improved NPC spawn lists: Oasis and EOS variants can spawn in both Oasis and EOS, Parker and Dust variants can spawn in both Parker and Dust, All variants can spawn in Oasis and EOS
 
 [Grinder Fix]
 * Reduced randomness of the projectile by adjusting collision
@@ -505,11 +505,7 @@ v1.064.2 ALPHA HOTFIX CHANGES
 v1.07 ALPHA CHANGES
 --------------------
 
-[Singleplayer]
-* NPC and vehicle spawns are now more realistic for each sector
-
 [Fixes]
-* Fixed issue "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue with heal backpack being team exclusive on Expansion
@@ -633,6 +629,7 @@ v1.07 ALPHA CHANGES
 * DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
 * DLC: First transporter mission is broken
 * DLC: Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx (might be fixed after re-doing all spawn related changes)
+* DLC: "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Activity: offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles (might be fixed after re-doing all spawn related changes)
 * Activity: screenshot "sp_eos_side_mission.png" MIGHT be broken (might be fixed after re-doing all spawn related changes)
 * Activity: transporter activity in Badlands MIGHT be broken (might be fixed after re-doing all spawn related changes)

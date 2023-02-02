@@ -130,8 +130,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_pct</Name>
-			<Value>11562</Value>
-			<!--From 1.0-->
+			<Value>11562</Value> <!--From 1.0-->
 			<Description>Minimum fade percentage for NPCs near the camera.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -147,8 +146,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Tire_track_decal_fade_multiplier</Name>
-			<Value>0.000001</Value>
-			<!--From 0.5-->
+			<Value>0.000001</Value> <!--From 0.5-->
 			<Description>This determines how much of a difference is made by the index of the track in the list (older tracks fade faster)</Description>
 			<_Editor>
 				<Category>Vehicles:Effects</Category>
@@ -156,8 +154,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Tire_tracks_fade_rate</Name>
-			<Value>0.000001</Value>
-			<!--From 0.0005-->
+			<Value>0.000001</Value> <!--From 0.0005-->
 			<Description>The rate per frame that tire tracks will fade if no new tracks are being laid.</Description>
 			<_Editor>
 				<Category>Vehicles:Effects</Category>
@@ -253,8 +250,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Horn_cooldown_period_max_ms</Name>
-			<Value>7500</Value>
-			<!--From 15000-->
+			<Value>7500</Value> <!--From 15000-->
 			<Description>Max Cooldown period after honking a horn (in msec)</Description>
 			<_Editor>
 				<Category>Vehicles:Audio</Category>
@@ -262,8 +258,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Horn_cooldown_period_min_ms</Name>
-			<Value>5000</Value>
-			<!--From 10000-->
+			<Value>5000</Value> <!--From 10000-->
 			<Description>Min Cooldown period after honking a horn (in msec)</Description>
 			<_Editor>
 				<Category>Vehicles:Audio</Category>
@@ -271,8 +266,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Horn_honk_period_max_ms</Name>
-			<Value>4000</Value>
-			<!--From 2000-->
+			<Value>4000</Value> <!--From 2000-->
 			<Description>Max period of time we want to have someone honk their horn (recorded in msec)</Description>
 			<_Editor>
 				<Category>Vehicles:Audio</Category>
@@ -280,8 +274,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Horn_honk_period_min_ms</Name>
-			<Value>1000</Value>
-			<!--From 500-->
+			<Value>1000</Value> <!--From 500-->
 			<Description>Min period of time we want to have someone honk their horn (recorded in msec)</Description>
 			<_Editor>
 				<Category>Vehicles:Audio</Category>
@@ -289,8 +282,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Horn_honk_prob</Name>
-			<Value>0.4</Value>
-			<!--From 0.2-->
+			<Value>0.4</Value> <!--From 0.2-->
 			<Description>Probability that someone will honk their horn if obstructed</Description>
 			<_Editor>
 				<Category>Vehicles:Audio</Category>
@@ -298,8 +290,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Marauder_kill_taunt_chance</Name>
-			<Value>75</Value>
-			<!--From 50-->
+			<Value>75</Value> <!--From 50-->
 			<Description>Chance a marauder will do a celebratory taunt/cheer when he kills his target.</Description>
 			<_Editor>
 				<Category>AI:Marauders</Category>
@@ -411,8 +402,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Civilian_avoid_player_thrown_weapon_dist</Name>
-			<Value>1.0</Value>
-			<!--From 3.0-->
+			<Value>1.0</Value> <!--From 3.0-->
 			<Description>Distance at which a civilian will panick when the player throws a weapon in his/her vicinity.  Overrides the normal logic, which takes explosion radius into account.</Description>
 			<_Editor>
 				<Category>AI:vs. Player</Category>
@@ -492,8 +482,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Killing_spree_start_period_ms</Name>
-			<Value>14000</Value>
-			<!--From 7000-->
+			<Value>14000</Value> <!--From 7000-->
 			<Description>How long the HUD is up after killing spree starts.</Description>
 			<_Editor>
 				<Category>Activities:Killing Spree</Category>
@@ -501,8 +490,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Killing_spree_additional_period_ms</Name>
-			<Value>14000</Value>
-			<!--From 7000-->
+			<Value>14000</Value> <!--From 7000-->
 			<Description>Player must get kills no more then this amount of time apart to keep it going.</Description>
 			<_Editor>
 				<Category>Activities:Killing Spree</Category>
@@ -510,8 +498,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Mp_leg_damage_multiplier</Name>
-			<Value>0.75</Value>
-			<!--From 0.8-->
+			<Value>0.75</Value> <!--From 0.8-->
 			<_Editor>
 				<Category>Multiplayer</Category>
 			</_Editor>
@@ -519,16 +506,14 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ladder_move_speed</Name>
-			<Value>7.0</Value>
-			<!--From 2.0-->
+			<Value>7.0</Value> <!--From 2.0-->
 			<_Editor>
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ladder_mp_move_speed</Name>
-			<Value>7.0</Value>
-			<!--From 4.0-->
+			<Value>7.0</Value> <!--From 4.0-->
 			<_Editor>
 				<Category>Movement</Category>
 			</_Editor>
@@ -632,8 +617,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Mp_respawn_invulnerable_time_ms</Name>
-			<Value>2000</Value>
-			<!--Default 5000-->
+			<Value>2000</Value> <!--Default 5000-->
 			<Description>How long after a player spawns should he be invulnerable for? This is in milliseconds.</Description>
 			<_Editor>
 				<Category>Multiplayer</Category>
@@ -713,8 +697,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_friendly_fire</Name>
-			<Value>1.0</Value>
-			<!--From 0.4-->
+			<Value>1.0</Value> <!--From 0.4-->
 			<Description>Multiplier used to scale down damage that friendly humans do to eachother. (Single player only)</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -722,8 +705,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_offscreen</Name>
-			<Value>1.0</Value>
-			<!--From 0.15-->
+			<Value>1.0</Value> <!--From 0.15-->
 			<Description>This value is applied to NPC damage when attacking another NPC when one or both are off screen.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -731,8 +713,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_onscreen</Name>
-			<Value>1.0</Value>
-			<!--From 0.4-->
+			<Value>1.0</Value> <!--From 0.4-->
 			<Description>This value is applied to NPC damage when attacking another NPC when one or both are on screen.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -748,8 +729,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_vehicle</Name>
-			<Value>1.0</Value>
-			<!--From 0.2-->
+			<Value>1.0</Value> <!--From 0.2-->
 			<Description>This value is applied to NPC damage when attacking another NPC's vehicle</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -889,8 +869,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Repair_range</Name>
-			<Value>2.8</Value>
-			<!--From 2.5-->
+			<Value>2.8</Value> <!--From 2.5-->
 			<Description>This is how far ahead a player can repair objects using the repair tool.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -898,8 +877,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Repair_radius</Name>
-			<Value>1.9</Value>
-			<!--From 1.6-->
+			<Value>1.9</Value> <!--From 1.6-->
 			<Description>When a player uses the repair tool, objects within a sphere of this radius will be repaired</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -1307,7 +1285,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Rubberbanding_minimum_score</Name>
-			<Value>21474836</Value> <!--From 40-->
+			<Value>21474836.0</Value> <!--From 40-->
 			<_Editor>
 				<Category>Multiplayer</Category>
 			</_Editor>

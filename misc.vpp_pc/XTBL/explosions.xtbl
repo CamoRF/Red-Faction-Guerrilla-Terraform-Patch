@@ -78,7 +78,7 @@
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>		
-<!--END DLC Weapons Added-->
+<!--END-->
 <!--START New Explosions Added-->
 		<Explosion>
 			<Name>mp_kaboom</Name>
@@ -254,7 +254,7 @@
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>-->		
-<!--END New Explosions Added-->	
+<!--END-->	
 		<Explosion>
 			<Name>grenade_exp</Name>
 			<Radius>1.5</Radius>

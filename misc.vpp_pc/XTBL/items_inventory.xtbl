@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START Experimental Misc-->		
+		
 		<!--<Inventory_Item>
 			<Name>fist</Name>
 			<Display_Name>FISTS</Display_Name>
@@ -12,17 +12,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>-->
-		<Inventory_Item>
-			<Name>camo_grenade</Name>
-			<Display_Name>GRENADE</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
 		<!--<Inventory_Item>
 			<Name>camo_stun</Name>
 			<Display_Name>STUN GRENADE</Display_Name>
@@ -45,6 +34,18 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>-->
+<!--START Experimental Misc-->		
+		<Inventory_Item>
+			<Name>camo_grenade</Name>
+			<Display_Name>GRENADE</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Bang bang! Point and shoot.</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>
 <!--END-->
 <!--START DLC Weapons Added-->
 		<Inventory_Item>

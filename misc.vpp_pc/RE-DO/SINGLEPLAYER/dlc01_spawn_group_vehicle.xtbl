@@ -2,7 +2,7 @@
 	<Table>
 <!--START ADDED-->
 		<spawn_group_vehicle>
-			<Name>EDF_APC_Gauss</Name>
+			<Name>EDF_APC_Gauss DLC</Name>
 			<vehicle_list>
 				<vehicle_type>EDF_APC-A_Gauss</vehicle_type>
 				<vehicle_type>EDF_APC-A_Gauss2</vehicle_type>
@@ -14,7 +14,7 @@
 			</_Editor>
 		</spawn_group_vehicle>
 		<spawn_group_vehicle>
-			<Name>EDF_scout_Gauss</Name>
+			<Name>EDF_scout_Gauss DLC</Name>
 			<vehicle_list>
 				<vehicle_type>EDF_Scout_Gauss</vehicle_type>
 				<vehicle_type>EDF_Scout_Gauss2</vehicle_type>
@@ -25,6 +25,53 @@
 				<Category>Entries:EDF</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+		<spawn_group_vehicle>
+			<Name>EDF_APC_NoTurret DLC</Name>
+			<vehicle_list>
+				<vehicle_type>EDF_APC_noturret</vehicle_type>
+				<vehicle_type>EDF_APC_noturret2</vehicle_type>
+				<vehicle_type>EDF_APC_noturret3</vehicle_type>
+				<vehicle_type>EDF_APC_noturret4</vehicle_type>
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:EDF</Category>
+			</_Editor>
+		</spawn_group_vehicle>
+		<spawn_group_vehicle>
+			<Name>EDF_staff_car_Gauss DLC</Name>
+			<vehicle_list>
+				<vehicle_type>EDF_StaffCar_Gauss</vehicle_type>
+				<vehicle_type>EDF_StaffCar_Gauss2</vehicle_type>
+				<vehicle_type>EDF_StaffCar_Gauss3</vehicle_type>
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:EDF</Category>
+			</_Editor>
+		</spawn_group_vehicle>
+		<spawn_group_vehicle>
+			<Name>EDF_APC DLC</Name>
+			<vehicle_list>
+				<vehicle_type>EDF_APC-A_1</vehicle_type>
+				<vehicle_type>EDF_APC-A_2</vehicle_type>
+				<vehicle_type>EDF_APC-A_3</vehicle_type>
+				<vehicle_type>EDF_APC-A_4</vehicle_type>
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:EDF</Category>
+			</_Editor>
+		</spawn_group_vehicle>
+		<spawn_group_vehicle>
+			<Name>EDF_scout_turr DLC</Name>
+			<vehicle_list>
+				<vehicle_type>EDF_Scout_1</vehicle_type>
+				<vehicle_type>EDF_Scout_2</vehicle_type>
+				<vehicle_type>EDF_Scout_3</vehicle_type>
+				<vehicle_type>EDF_Scout_4</vehicle_type>
+			</vehicle_list>
+			<_Editor>
+				<Category>Entries:EDF</Category>
+			</_Editor>
+		</spawn_group_vehicle>		
 		<spawn_group_vehicle>
 			<Name>Vanilla EDF DLC</Name>
 			<vehicle_list>

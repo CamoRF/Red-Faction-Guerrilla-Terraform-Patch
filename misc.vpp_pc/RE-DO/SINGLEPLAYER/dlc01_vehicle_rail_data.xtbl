@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		<!--<VRailData>
+		<VRailData>
 			<Name>dlc_test_vrail</Name>
 			<_Editor>
 				<Category>Entries</Category>
@@ -10,7 +10,7 @@
 			<chase_vehicle_list>
 				<chase_vehicle_data>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<vehicle_group>EDF_scout_Gauss DLC</vehicle_group> <!--From EDF_scout_Gauss-->
 					<respawn_delay>0</respawn_delay>
 				</chase_vehicle_data>
 				<chase_vehicle_data>
@@ -30,19 +30,19 @@
 				</chase_vehicle_data>
 				<chase_vehicle_data>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<vehicle_group>EDF_scout_Gauss DLC</vehicle_group> <!--From EDF_scout_Gauss-->
 					<respawn_delay>0</respawn_delay>
 				</chase_vehicle_data>
 				<chase_vehicle_data>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<vehicle_group>EDF_scout_Gauss DLC</vehicle_group> <!--From EDF_scout_Gauss-->
 					<respawn_delay>0</respawn_delay>
 				</chase_vehicle_data>
 			</chase_vehicle_list>
 			<driver_spawn_group>marauder_squad_1</driver_spawn_group>
 			<spawn_front>True</spawn_front>
 			<spawn_behind>True</spawn_behind>
-		</VRailData>-->
+		</VRailData>
 		<VRailData>
 			<Name>dlc_mission_3_vrail</Name>
 			<player_vehicle>EDF_APC_Gauss</player_vehicle>
@@ -53,22 +53,22 @@
 			<chase_vehicle_list>
 				<chase_vehicle_data>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>EDF_scout_Gauss</vehicle_group>
+					<vehicle_group>EDF_scout_Gauss DLC</vehicle_group> <!--From EDF_scout_Gauss-->
 					<respawn_delay>0</respawn_delay>
 				</chase_vehicle_data>
 				<chase_vehicle_data>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>Vanilla EDF DLC</vehicle_group> <!--From EDF_scout_turr-->
+					<vehicle_group>EDF_scout_turr DLC</vehicle_group> <!--From EDF_scout_turr-->
 					<respawn_delay>0</respawn_delay>
 				</chase_vehicle_data>
 				<chase_vehicle_data>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>EDF_APC</vehicle_group>
+					<vehicle_group>EDF_APC DLC</vehicle_group> <!--From EDF_APC-->
 					<respawn_delay>0</respawn_delay>
 				</chase_vehicle_data>
 				<chase_vehicle_data>
 					<squad_def>basic_squad_2</squad_def>
-					<vehicle_group>EDF_APC_Gauss</vehicle_group>
+					<vehicle_group>EDF_APC_Gauss DLC</vehicle_group> <!--From EDF_APC_Gauss-->
 					<respawn_delay>0</respawn_delay>
 				</chase_vehicle_data>
 			</chase_vehicle_list>

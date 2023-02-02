@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		<!--START DLC WC Loading Screens Added-->
+<!--START DLC WC Loading Screens Added-->
 		<LoadingScreen>
 			<Name>dlc03wc1</Name>
 			<BG_image>
@@ -127,7 +127,7 @@
 				<Category>MP levels:General</Category>
 			</_Editor>
 		</LoadingScreen>
-		<!--END DLC WC Loading Screens Added-->
+<!--END DLC WC Loading Screens Added-->
 		<LoadingScreen>
 			<Name>News_EarthDemand</Name>
 			<BG_image>
