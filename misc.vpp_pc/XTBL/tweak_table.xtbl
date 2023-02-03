@@ -250,7 +250,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Horn_cooldown_period_max_ms</Name>
-			<Value>7500</Value> <!--From 15000-->
+			<Value>15000</Value>
 			<Description>Max Cooldown period after honking a horn (in msec)</Description>
 			<_Editor>
 				<Category>Vehicles:Audio</Category>
@@ -258,7 +258,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Horn_cooldown_period_min_ms</Name>
-			<Value>5000</Value> <!--From 10000-->
+			<Value>10000</Value>
 			<Description>Min Cooldown period after honking a horn (in msec)</Description>
 			<_Editor>
 				<Category>Vehicles:Audio</Category>
@@ -266,7 +266,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Horn_honk_period_max_ms</Name>
-			<Value>4000</Value> <!--From 2000-->
+			<Value>2000</Value>
 			<Description>Max period of time we want to have someone honk their horn (recorded in msec)</Description>
 			<_Editor>
 				<Category>Vehicles:Audio</Category>
@@ -274,7 +274,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Horn_honk_period_min_ms</Name>
-			<Value>1000</Value> <!--From 500-->
+			<Value>500</Value>
 			<Description>Min period of time we want to have someone honk their horn (recorded in msec)</Description>
 			<_Editor>
 				<Category>Vehicles:Audio</Category>
@@ -282,7 +282,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Horn_honk_prob</Name>
-			<Value>0.4</Value> <!--From 0.2-->
+			<Value>0.2</Value>
 			<Description>Probability that someone will honk their horn if obstructed</Description>
 			<_Editor>
 				<Category>Vehicles:Audio</Category>

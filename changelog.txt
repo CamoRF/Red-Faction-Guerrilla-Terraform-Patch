@@ -120,11 +120,11 @@ v1.031 ALPHA CHANGES
 * Improved file structure of patch so it's easier to install
 
 [Singleplayer Additions & Changes]
-* Reduced max cooldown period NPCs honk their horn to 15 seconds from 7.5 seconds
-* Reduced min cooldown period NPCs honk their horn to 5 seconds from 10 seconds
-* Increased max possible period NPCs honk their horn to 4 seconds from 2 seconds
-* Increased min possible period NPCs honk their horn to 1 second from 0.5 seconds
-* Increased probability NPCs will honk their horn to 40% from 20%
+* [REVERTED in v1.07] Reduced max cooldown period NPCs honk their horn to 15 seconds from 7.5 seconds
+* [REVERTED in v1.07] Reduced min cooldown period NPCs honk their horn to 5 seconds from 10 seconds
+* [REVERTED in v1.07] Increased max possible period NPCs honk their horn to 4 seconds from 2 seconds
+* [REVERTED in v1.07] Increased min possible period NPCs honk their horn to 1 second from 0.5 seconds
+* [REVERTED in v1.07] Increased probability NPCs will honk their horn to 40% from 20%
 * Increased probability Marauders will perform a celebratory taunt/cheer when they kill a target to 75% from 50%  
 * Increased probability a Marauder raid will attempt within a marauder raid route
 * Marauder howl will now always play at night
