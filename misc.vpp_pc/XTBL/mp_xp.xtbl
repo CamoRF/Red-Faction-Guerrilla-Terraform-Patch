@@ -14,7 +14,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Finish match</Name>
 			<event_description>HM_XP_FINISH_MATCH_DESC</event_description>
@@ -29,7 +28,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Kill</Name>
 			<value>6</value> <!--From 3-->
@@ -44,7 +42,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Protect Siege target</Name>
 			<event_description>HM_XP_PROTECT_SIEGE_TEAM_DESC</event_description>
@@ -61,7 +58,6 @@
 			<parameter_description>Enemy killed must be within X meters of target to trigger this</parameter_description>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Destroy Siege target team</Name>
 			<event_description>HM_XP_DSTRY_TARGET_TEAM_DESC</event_description>
@@ -76,7 +72,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Destroy Siege target</Name>
 			<event_description>HM_XP_DSTRY_TARGET_DESC</event_description>
@@ -91,7 +86,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Destroy assist Siege target</Name>
 			<event_description>HM_XP_DSTRY_ASSIST_TARGET_DESC</event_description>
@@ -108,7 +102,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Deathmatch kill solo</Name>
 			<event_description>HM_XP_DM_KILL_SOLO_DESC</event_description>
@@ -123,7 +116,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Deathmatch kill</Name>
 			<event_description>HM_XP_DM_KILL_DESC</event_description>
@@ -138,7 +130,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Hold King of the Hill target</Name>
 			<event_description>HM_XP_HOLD_TARGET_DESC</event_description>
@@ -153,7 +144,6 @@
 			<repeat_delay_ms>8000</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Repair assist King of the Hill target</Name>
 			<event_description>HM_XP_REPAIR_ASSIST_TARGET_DESC</event_description>
@@ -170,7 +160,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Repair King of the Hill target</Name>
 			<event_description>HM_XP_REPAIR_TARGET_DESC</event_description>
@@ -185,7 +174,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Destroy assist King of the Hill target</Name>
 			<event_description>HM_XP_DSTRY_ASSIST_TARGET_DESC</event_description>
@@ -202,7 +190,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Destroy King of the Hill target</Name>
 			<event_description>HM_XP_DSTRY_TARGET_DESC</event_description>
@@ -217,7 +204,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Protect King of the Hill target</Name>
 			<display_name>HM_XP_PROTECT_TARGET</display_name>
@@ -234,7 +220,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Protect flag</Name>
 			<event_description>HM_XP_PROTECT_FLAG_DESC</event_description>
@@ -251,7 +236,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Protect flag carrier</Name>
 			<event_description>HM_XP_PROTECT_FLAG_CARRIER_DESC</event_description>
@@ -268,7 +252,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Kill flag carrier</Name>
 			<event_description>HM_XP_KILL_FLAG_CARRIER_DESC</event_description>
@@ -283,7 +266,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Capture flag team</Name>
 			<event_description>HM_XP_CAPTURE_FLAG_TEAM_DESC</event_description>
@@ -298,7 +280,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Capture flag</Name>
 			<event_description>HM_XP_CAPTURE_FLAG_DESC</event_description>
@@ -313,7 +294,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Bagman kill</Name>
 			<event_description>HM_XP_BAGMAN_KILL_DESC</event_description>
@@ -328,7 +308,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>True</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Protect bagman</Name>
 			<event_description>HM_XP_PROTECT_BAGMAN_DESC</event_description>
@@ -345,7 +324,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>True</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Kill bagman</Name>
 			<event_description>HM_XP_KILL_BAGMAN_DESC</event_description>
@@ -360,7 +338,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>True</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Hold bag team</Name>
 			<event_description>HM_XP_HOLD_BAG_TEAM_DESC</event_description>
@@ -375,7 +352,6 @@
 			<repeat_delay_ms>5000</repeat_delay_ms>
 			<bagman_locked>True</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Hold bag</Name>
 			<event_description>HM_XP_HOLD_BAG_DESC</event_description>
@@ -390,7 +366,6 @@
 			<repeat_delay_ms>10000</repeat_delay_ms>
 			<bagman_locked>True</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Pick up bag</Name>
 			<event_description>HM_XP_PICKUP_BAG_DESC</event_description>
@@ -405,7 +380,6 @@
 			<repeat_delay_ms>15000</repeat_delay_ms>
 			<bagman_locked>True</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Hold bag solo</Name>
 			<event_description>HM_XP_HOLD_BAG_DESC</event_description>
@@ -420,7 +394,6 @@
 			<repeat_delay_ms>3000</repeat_delay_ms>
 			<bagman_locked>True</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Back off kill</Name>
 			<event_description>HM_XP_BACK_OFF_KILL_DESC</event_description>
@@ -440,7 +413,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Backfire</Name>
 			<display_name>HM_XP_BACKFIRE</display_name>
@@ -458,7 +430,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Backwhat</Name>
 			<display_name>HM_XP_BACKWHAT</display_name>
@@ -476,7 +447,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Barrel kill</Name>
 			<event_description>HM_XP_BARREL_KILL_DESC</event_description>
@@ -494,7 +464,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Blindside</Name>
 			<display_name>HM_XP_BLINDSIDE</display_name>
@@ -512,7 +481,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>BBQ</Name>
 			<display_name>HM_XP_BBQ</display_name>
@@ -530,7 +498,6 @@
 			<repeat_delay_ms>1000</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Bunny kill</Name>
 			<event_description>HM_XP_BUNNY_KILL_DESC</event_description>
@@ -548,7 +515,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Camper</Name>
 			<display_name>HM_XP_CAMPER</display_name>
@@ -566,7 +532,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Charge kill</Name>
 			<event_description>HM_XP_CHARGE_KILL_DESC</event_description>
@@ -584,7 +549,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Cliff kill</Name>
 			<event_description>HM_XP_CLIFF_KILL_DESC</event_description>
@@ -602,7 +566,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Death from above</Name>
 			<display_name>HM_XP_DEATH_FROM_ABOVE</display_name>
@@ -620,7 +583,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Death from below</Name>
 			<display_name>HM_XP_DEATH_FROM_BELOW</display_name>
@@ -638,7 +600,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Debris kill</Name>
 			<event_description>HM_XP_DEBRIS_KILL_DESC</event_description>
@@ -656,7 +617,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Direct hit kill</Name>
 			<event_description>HM_XP_DIRECT_HIT_KILL_DESC</event_description>
@@ -674,7 +634,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Doing it wrong</Name>
 			<display_name>HM_XP_DOING_IT_WRONG</display_name>
@@ -692,7 +651,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Doubleback</Name>
 			<display_name>HM_XP_DOUBLEBACK</display_name>
@@ -710,7 +668,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Easy kill</Name>
 			<event_description>HM_XP_EASY_KILL_DESC</event_description>
@@ -728,7 +685,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Flagman</Name>
 			<display_name>HM_XP_FLAGMAN</display_name>
@@ -746,7 +702,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Flying kill</Name>
 			<event_description>HM_XP_FLYING_KILL_DESC</event_description>
@@ -766,7 +721,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Full control</Name>
 			<display_name>HM_XP_FULL_CONTROL</display_name>
@@ -784,7 +738,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Ghost kill</Name>
 			<event_description>HM_XP_GHOST_KILL_DESC</event_description>
@@ -802,7 +755,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Good timing</Name>
 			<event_description>HM_XP_GOOD_TIMING_DESC</event_description>
@@ -820,7 +772,6 @@
 			<repeat_delay_ms>10000</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Group knockdown</Name>
 			<event_description>HM_XP_GROUP_KNOCKDOWN_DESC</event_description>
@@ -840,7 +791,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Hail Mary</Name>
 			<display_name>HM_XP_HAIL_MARY</display_name>
@@ -860,7 +810,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Headshot kill</Name>
 			<event_description>HM_XP_HEADSHOT_KILL_DESC</event_description>
@@ -878,7 +827,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Heal teammate</Name>
 			<event_description>HM_XP_HEAL_TEAMMATE_DESC</event_description>
@@ -898,7 +846,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Kill assist</Name>
 			<value>2</value> <!--From 1-->
@@ -918,7 +865,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Kill streak</Name>
 			<event_description>HM_XP_KILL_STREAK_DESC</event_description>
@@ -938,7 +884,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Kung fu kill</Name>
 			<event_description>HM_XP_KUNF_FU_KILL_DESC</event_description>
@@ -956,7 +901,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Lined up</Name>
 			<display_name>HM_XP_LINED_UP</display_name>
@@ -974,7 +918,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Melee kill</Name>
 			<event_description>HM_XP_MELEE_KILL_DESC</event_description>
@@ -992,7 +935,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Multiple kills</Name>
 			<event_description>HM_XP_MULTIPLE_KILLS_DESC</event_description>
@@ -1012,7 +954,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>No problem</Name>
 			<display_name>HM_XP_NO_PROBLEM</display_name>
@@ -1030,7 +971,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Pack hunter</Name>
 			<display_name>HM_XP_PACK_HUNTER</display_name>
@@ -1050,7 +990,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Power overwhelming</Name>
 			<display_name>HM_XP_POWER_OVERWHELMING</display_name>
@@ -1068,7 +1007,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Rescue kill</Name>
 			<display_name>HM_XP_RESCUE_KILL</display_name>
@@ -1088,7 +1026,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Retaliation kill</Name>
 			<event_description>HM_XP_RETALIATION_KILL_DESC</event_description>
@@ -1108,7 +1045,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Revenge kill</Name>
 			<event_description>HM_XP_REVENGE_KILL_DESC</event_description>
@@ -1128,7 +1064,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Shaken not stirred</Name>
 			<display_name>HM_XP_SHAKEN_NOT_STIRRED</display_name>
@@ -1146,7 +1081,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Sharpshooter</Name>
 			<display_name>HM_XP_SHARPSHOOTER</display_name>
@@ -1166,7 +1100,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Sticky kill</Name>
 			<event_description>HM_XP_STICKY_KILL_DESC</event_description>
@@ -1184,7 +1117,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Sticky save</Name>
 			<event_description>HM_XP_STICKY_SAVE_DESC</event_description>
@@ -1202,7 +1134,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Streak stopper</Name>
 			<event_description>HM_XP_STREAK_STOPPER_DESC</event_description>
@@ -1222,7 +1153,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Survivor</Name>
 			<event_description>HM_XP_SURVIVOR_DESC</event_description>
@@ -1242,7 +1172,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Synchronized kill</Name>
 			<display_name>HM_XP_SYNC_KILL</display_name>
@@ -1262,7 +1191,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Taste the rainbow</Name>
 			<display_name>HM_XP_TASTE_THE_RAINBOW</display_name>
@@ -1280,7 +1208,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Vertigo</Name>
 			<display_name>HM_XP_VERTIGO</display_name>
@@ -1300,7 +1227,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Whos number one</Name>
 			<display_name>HM_XP_WHOS_NUMBER_ONE</display_name>
@@ -1318,7 +1244,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>X-ray kill</Name>
 			<event_description>HM_XP_XRAY_DESC</event_description>
@@ -1336,7 +1261,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Zombie kill</Name>
 			<event_description>HM_XP_ZOMBIE_KILL_DESC</event_description>
@@ -1356,7 +1280,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Demolition</Name>
 			<display_name>HM_XP_DEMOLITION</display_name>
@@ -1373,7 +1296,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Demolition team</Name>
 			<display_name>HM_XP_DEMOLITION_TEAM</display_name>
@@ -1390,7 +1312,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Kill engineer</Name>
 			<display_name>HM_XP_KILL_ENGINEER</display_name>
@@ -1405,7 +1326,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Protect engineer</Name>
 			<display_name>HM_XP_PROTECT_ENGINEER</display_name>
@@ -1422,7 +1342,6 @@
 			<repeat_delay_ms>0</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Pick up flag</Name>
 			<display_name>HM_XP_PICK_UP_FLAG</display_name>
@@ -1437,7 +1356,6 @@
 			<repeat_delay_ms>15000</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Return flag</Name>
 			<display_name>HM_XP_RETURN_FLAG</display_name>
@@ -1452,7 +1370,6 @@
 			<repeat_delay_ms>15000</repeat_delay_ms>
 			<bagman_locked>False</bagman_locked>
 		</event>
-		
 		<event>
 			<Name>Defend Siege target</Name>
 			<event_description>HM_XP_DEFEND_SIEGE_TARGET_DESC</event_description>

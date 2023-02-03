@@ -8,7 +8,6 @@
 			<Unlock_Level>5</Unlock_Level>
 			<Type>icon</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_ICON_WEAPONS1</Name>
 			<_Editor>
@@ -17,7 +16,6 @@
 			<Unlock_Level>10</Unlock_Level> <!--From 22-->
 			<Type>icon</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_ICON_ADVANCED</Name>
 			<_Editor>
@@ -26,7 +24,6 @@
 			<Unlock_Level>20</Unlock_Level> <!--From 37-->
 			<Type>icon</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_ICON_STARS</Name>
 			<_Editor>
@@ -35,7 +32,6 @@
 			<Unlock_Level>30</Unlock_Level> <!--From 44-->
 			<Type>icon</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_ICON_EDF</Name>
 			<_Editor>
@@ -44,7 +40,6 @@
 			<Unlock_Level>40</Unlock_Level> <!--From 54-->
 			<Type>icon</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_ICON_WEAPONS2</Name>
 			<_Editor>
@@ -53,7 +48,6 @@
 			<Unlock_Level>50</Unlock_Level> <!--From 67-->
 			<Type>icon</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_ICON_BACKPACKS</Name>
 			<_Editor>
@@ -62,7 +56,6 @@
 			<Unlock_Level>60</Unlock_Level> <!--From 78-->
 			<Type>icon</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_ICON_VOLITION</Name>
 			<_Editor>
@@ -71,7 +64,6 @@
 			<Unlock_Level>70</Unlock_Level> <!--From 102-->
 			<Type>icon</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_ICON_SUMMONER</Name>
 			<_Editor>
@@ -80,7 +72,6 @@
 			<Unlock_Level>80</Unlock_Level> <!--From 107-->
 			<Type>icon</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_ICON_ALTERECHO</Name>
 			<_Editor>
@@ -89,7 +80,6 @@
 			<Unlock_Level>90</Unlock_Level> <!--From 118-->
 			<Type>icon</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_ICON_MARAUDER</Name>
 			<_Editor>
@@ -98,7 +88,6 @@
 			<Unlock_Level>100</Unlock_Level> <!--From 121-->
 			<Type>icon</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_COLOR_AQUA</Name>
 			<_Editor>
@@ -107,7 +96,6 @@
 			<Unlock_Level>10</Unlock_Level> <!--From 18-->
 			<Type>color</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_COLOR_GREEN</Name>
 			<_Editor>
@@ -116,7 +104,6 @@
 			<Unlock_Level>20</Unlock_Level> <!--From 30-->
 			<Type>color</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_COLOR_CRIMSON</Name>
 			<_Editor>
@@ -125,7 +112,6 @@
 			<Unlock_Level>30</Unlock_Level> <!--From 46-->
 			<Type>color</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_COLOR_RED</Name>
 			<_Editor>
@@ -134,7 +120,6 @@
 			<Unlock_Level>40</Unlock_Level> <!--From 62-->
 			<Type>color</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_COLOR_ORANGE</Name>
 			<_Editor>
@@ -143,7 +128,6 @@
 			<Unlock_Level>50</Unlock_Level> <!--From 69-->
 			<Type>color</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_COLOR_TAN</Name>
 			<_Editor>
@@ -152,7 +136,6 @@
 			<Unlock_Level>60</Unlock_Level> <!--From 86-->
 			<Type>color</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_COLOR_YELLOW</Name>
 			<_Editor>
@@ -161,7 +144,6 @@
 			<Unlock_Level>70</Unlock_Level> <!--From 95-->
 			<Type>color</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_COLOR_PURPLE</Name>
 			<_Editor>
@@ -170,7 +152,6 @@
 			<Unlock_Level>80</Unlock_Level> <!--From 110-->
 			<Type>color</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_COLOR_RAINBOW</Name>
 			<_Editor>
@@ -179,7 +160,6 @@
 			<Unlock_Level>90</Unlock_Level> <!--From 116-->
 			<Type>color</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_COLOR_SILVER</Name>
 			<_Editor>
@@ -188,7 +168,6 @@
 			<Unlock_Level>100</Unlock_Level> <!--From 123-->
 			<Type>color</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_RANK_1</Name>
 			<_Editor>
@@ -197,7 +176,6 @@
 			<Unlock_Level>5</Unlock_Level> <!--From 8-->
 			<Type>emblem</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_RANK_2</Name>
 			<_Editor>
@@ -206,7 +184,6 @@
 			<Unlock_Level>10</Unlock_Level> <!--From 15-->
 			<Type>emblem</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_RANK_3</Name>
 			<_Editor>
@@ -215,7 +192,6 @@
 			<Unlock_Level>20</Unlock_Level> <!--From 25-->
 			<Type>emblem</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_RANK_4</Name>
 			<_Editor>
@@ -224,7 +200,6 @@
 			<Unlock_Level>30</Unlock_Level> <!--From 35-->
 			<Type>emblem</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_RANK_5</Name>
 			<_Editor>
@@ -233,7 +208,6 @@
 			<Unlock_Level>40</Unlock_Level> <!--From 50-->
 			<Type>emblem</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_RANK_6</Name>
 			<_Editor>
@@ -242,7 +216,6 @@
 			<Unlock_Level>50</Unlock_Level> <!--From 68-->
 			<Type>emblem</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_RANK_7</Name>
 			<_Editor>
@@ -251,7 +224,6 @@
 			<Unlock_Level>60</Unlock_Level> <!--From 82-->
 			<Type>emblem</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_RANK_8</Name>
 			<_Editor>
@@ -260,7 +232,6 @@
 			<Unlock_Level>70</Unlock_Level> <!--From 97-->
 			<Type>emblem</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_RANK_9</Name>
 			<_Editor>
@@ -269,7 +240,6 @@
 			<Unlock_Level>80</Unlock_Level> <!--From 109-->
 			<Type>emblem</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_RANK_10</Name>
 			<_Editor>
@@ -278,7 +248,6 @@
 			<Unlock_Level>90</Unlock_Level> <!--From 122-->
 			<Type>emblem</Type>
 		</entry>
-		
 		<entry>
 			<Name>MENU_UNLOCK_RANK_11</Name>
 			<_Editor>

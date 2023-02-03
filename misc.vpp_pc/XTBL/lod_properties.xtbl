@@ -9,35 +9,35 @@
 		</LOD>
 		<LOD>
 			<Name>1_clutter_extra_small</Name>
-			<lod_off_distance>11558.0</lod_off_distance> <!--From 25-->
+			<lod_off_distance>50.0</lod_off_distance> <!--From 25-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</LOD>
 		<LOD>
 			<Name>2_clutter_small</Name>
-			<lod_off_distance>11559.0</lod_off_distance> <!--From 50-->
+			<lod_off_distance>100.0</lod_off_distance> <!--From 50-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</LOD>
 		<LOD>
 			<Name>3_clutter_medium</Name>
-			<lod_off_distance>11560.0</lod_off_distance> <!--From 100-->
+			<lod_off_distance>200.0</lod_off_distance> <!--From 100-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</LOD>
 		<LOD>
 			<Name>4_clutter_large</Name>
-			<lod_off_distance>11561.0</lod_off_distance> <!--From 150-->
+			<lod_off_distance>300.0</lod_off_distance> <!--From 150-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</LOD>
 		<LOD>
 			<Name>5_clutter_extra_lrg</Name>
-			<lod_off_distance>11562.0</lod_off_distance> <!--From 200-->
+			<lod_off_distance>400.0</lod_off_distance> <!--From 200-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

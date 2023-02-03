@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		
+<!--START Experimental Misc-->		
 		<!--<Inventory_Item>
 			<Name>fist</Name>
 			<Display_Name>FISTS</Display_Name>
@@ -11,8 +11,8 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>-->
-		<!--<Inventory_Item>
+		</Inventory_Item>
+		<Inventory_Item>
 			<Name>camo_stun</Name>
 			<Display_Name>STUN GRENADE</Display_Name>
 			<Cost>100</Cost>
@@ -23,7 +23,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>-->
-		<!--<Inventory_Item>
+		<Inventory_Item>
 			<Name>camo_nano</Name>
 			<Display_Name>NANO GRENADE</Display_Name>
 			<Cost>100</Cost>
@@ -33,8 +33,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>-->
-<!--START Experimental Misc-->		
+		</Inventory_Item>		
 		<Inventory_Item>
 			<Name>camo_grenade</Name>
 			<Display_Name>GRENADE</Display_Name>
@@ -47,25 +46,14 @@
 			</_Editor>
 		</Inventory_Item>
 <!--END-->
-<!--START DLC Weapons Added-->
-		<Inventory_Item>
-			<Name>royal_sword</Name>
-			<Display_Name>ROYAL SWORD</Display_Name> <!--FROM WEAP_ROYAL_SWORD-->
+<!--START FUTURE DLC Weapons Added-->
+<!--		<Inventory_Item>
+			<Name>mar_charge_placer</Name>
+			<Display_Name>WEAP_CHARGE_PLACER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Very regal.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>		
-		<Inventory_Item>
-			<Name>pickaxe</Name>
-			<Display_Name>WEAP_PICKAXE</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
+			<Description>place explosives and blow them up remotly</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -82,16 +70,29 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>mar_charge_placer</Name>
-			<Display_Name>MARAUDER CHARGES</Display_Name> <!--From WEAP_CHARGE_PLACER-->
+			<Name>royal_sword</Name>
+			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>place explosives and blow them up remotly</Description>
+			<Description>Very regal.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
+		<Inventory_Item>
+			<Name>pickaxe</Name>
+			<Display_Name>WEAP_PICKAXE</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Swing Swing, Konk &amp; Ouch</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>-->		
+<!--END-->		
+<!--START DLC Weapons Added-->
 		<Inventory_Item>
 			<Name>edf_super_gauss</Name>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
@@ -137,7 +138,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<!--<Inventory_Item>
+<!--		<Inventory_Item>
 			<Name>crowbar</Name>
 			<Display_Name>WEAP_CROWBAR</Display_Name>
 			<Cost>100</Cost>
@@ -236,7 +237,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<!--<Inventory_Item>
+		<Inventory_Item>
 			<Name>rock</Name>
 			<Display_Name>WEAP_ROCK</Display_Name>
 			<Cost>100</Cost>
@@ -246,7 +247,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>-->
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>shotgun</Name>
 			<Display_Name>WEAP_SHOTGUN</Display_Name>
@@ -302,22 +303,22 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<!--<Inventory_Item>
+		<Inventory_Item>
 			<Name>power_item</Name>
 			<Display_Name>WEAP_POWER_ITEM</Display_Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<Max_Inventory>1000</Max_Inventory>
-		</Inventory_Item>-->
-		<!--<Inventory_Item>
+		</Inventory_Item>
+		<Inventory_Item>
 			<Name>metal</Name>
 			<Display_Name>WEAP_METAL</Display_Name>
 			<Max_Inventory>1000</Max_Inventory>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>-->
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>sledgehammer</Name>
 			<Display_Name>WEAP_SLEDGE</Display_Name>

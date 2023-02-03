@@ -101,6 +101,28 @@
 		</Inventory_Item>
 	</Table>
 	<TableTemplates>
+		<Inventory_Item>
+			<Name>charge_launcher</Name>
+			<Display_Name>WEAP_CHARGE_LAUNCHER</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Bang bang! Point and shoot.</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>
+		<Inventory_Item>
+			<Name>turret_machinegun</Name>
+			<Display_Name>WEAP_TURRET_MACH_GUN</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Bang bang! Point and shoot.</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>
 	</TableTemplates>
 	<TableDescription>
 		<Name>Inventory_Item</Name>

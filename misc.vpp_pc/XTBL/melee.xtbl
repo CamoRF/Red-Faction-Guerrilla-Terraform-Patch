@@ -255,7 +255,7 @@
 				</AnimSet>
 			</MoveDataList>
 		</MeleeMove>
-<!--END DLC Weapons Added-->
+<!--END-->
 		<MeleeMove>
 			<Name>ar_melee</Name>
 			<AttackAnim>melee</AttackAnim>

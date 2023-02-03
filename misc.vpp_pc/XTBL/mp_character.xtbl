@@ -296,7 +296,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-<!--END DLC Characters ADDED-->	
+<!--END-->	
 <!--START NEW Characters ADDED-->
 				<Character_Element>
 					<Character_Name>mason</Character_Name>
@@ -1657,7 +1657,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-<!--END NEW CHARACTERS ADDED-->
+<!--END-->
 				<Character_Element>
 					<Character_Name>EDF_Grunt_Braun</Character_Name>
 					<Display_Name>MENU_CHAR_GRUNT</Display_Name>
@@ -4578,7 +4578,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>EDF_Elite_Heavy_Tan_MP</Character_Name>
-					<Display_Name>MENU_CHAR_HEAVY</Display_Name> <!--FROM MENU_CHAR_HEAVY-->
+					<Display_Name>MENU_CHAR_HEAVY</Display_Name>
 					<Bitmap_Name>ui_mp_char_edf_heavy</Bitmap_Name>
 					<Unlock_Level>114</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
@@ -5087,7 +5087,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-<!--END NEW Characters ADDED-->				
+<!--END-->				
 				<Character_Element>
 					<Character_Name>MP_Grunt_Braun</Character_Name>
 					<Display_Name>MENU_CHAR_GRUNT</Display_Name>
@@ -5622,7 +5622,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-<!--END DLC Characters ADDED-->	
+<!--END-->	
 <!--START MARAUDERS ON RF TEAM-->
 				<Character_Element>
 					<Character_Name>EddieMP</Character_Name>
@@ -5915,7 +5915,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-<!--END MARAUDERS ON RF TEAM-->
+<!--END-->
 <!--START NEW Characters ADDED-->
 				<Character_Element>
 					<Character_Name>Camie</Character_Name>
@@ -6305,11 +6305,107 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-<!--START Elegant Ian model swap-->
+				<Character_Element>
+					<Character_Name>Ian</Character_Name>
+					<Display_Name>MENU_CHAR_IAN</Display_Name>
+					<Bitmap_Name>ui_mp_char_ian</Bitmap_Name>
+					<Unlock_Level>60</Unlock_Level>
+					<Persona_Group>Guerrilla Male</Persona_Group>
+					<backpack_offsets>
+						<backpack>
+							<backpack_name>Commando</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>-.01</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Fleetfoot</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>.01</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Heal</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>-.04</Y>
+								<Z>.05</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Jetpack</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Kaboom</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.035</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Rhino</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.025</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Shockwave</backpack_name>
+							<backpack_offset>
+								<X>.01</X>
+								<Y>-.02</Y>
+								<Z>-.04</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Stealth</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Thrust</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Tremor</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>0</Y>
+								<Z>.07</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Vision</backpack_name>
+							<backpack_offset>
+								<X>-.01</X>
+								<Y>-.02</Y>
+								<Z>.01</Z>
+							</backpack_offset>
+						</backpack>
+					</backpack_offsets>
+				</Character_Element>				
 				<Character_Element>
 					<Character_Name>Ian_Oasis</Character_Name> <!--From Ian-->
 					<Display_Name>Elegant Ian</Display_Name> <!--From MENU_CHAR_IAN-->
-					<Bitmap_Name>ui_mp_char_ian</Bitmap_Name>
+					<Bitmap_Name>ui_mp_char_edf_elite_w</Bitmap_Name>
 					<Unlock_Level>60</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>

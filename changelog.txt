@@ -501,9 +501,15 @@ v1.064.2 ALPHA HOTFIX CHANGES
 [Fixes]
 * FIXED critical bug with DLC weapon pickups either not working or causing the player to T-POSE
 
---------------------
-v1.07 BETA CHANGES
---------------------
+----------------------
+v1.07 PRE BETA CHANGES
+----------------------
+
+[Singleplayer]
+* Reverted adding DLC vehicles for now
+* Reverted adding DLC weapons for now
+* Reverted improvements to NPC and vehicle spawns for now
+* Reverted misc improvements/changes/additions for now
 
 [Fixes]
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
@@ -516,7 +522,7 @@ v1.07 BETA CHANGES
 * Fixed gap to void in terrain on GFWL/Nordic Bonus
 * Fixed two additional out of bounds exploits on Downfall
 * Fixed issue with extreme cloud speeds
-* Possibly fixed some broken missions as reported in the known bugs section at the bottom of the changelog
+* Fixed some issues with broken missions in singleplayer
 
 [Maps]
 * All wrecking crew maps now have backpack spawns
@@ -541,8 +547,7 @@ v1.07 BETA CHANGES
 * Reduced interface related files from 765mb to 13.8mb
 
 [Characters] 
-* Restored Numah, Jake, Kayla, Selma, Blair, Bev & Jake in MP
-* Added DLC Hess and Marauder Lab Lady to Marauder spawns in SP
+* Restored Ian, Numah, Jake, Kayla, Selma, Blair, Bev & Jake in MP
 * Added EDF heavy white model to team games
 * Added EDF heavy tan model to free for all
 * Added Alec Mason variation that has armor
@@ -555,11 +560,7 @@ v1.07 BETA CHANGES
 * Blood_splatter_decal_max_dist increased to 11562 from 30
 * Bullet_hole_decal_max_dist increased to 11562 from 15
 * Bullet_hole_decal_max_dist_player increased to 11562 from 50
-* Re-did lod_properties.xtbl
-* Reduced EDF and Guerilla squad and NPC spawn period to 150 from 300
-* Increased EDF and Guerilla min spawn distance to 350 from 100
-* Added Jenkins riding shotgun vehicle to safehouse spawns in SP
-* Improved ambient vehicle spawns in singleplayer so they make more sense for each sector
+* Tweaked lod_properties.xtbl
 * Reverted changes to singleplayer DLC for now due to possible issues
 * Reverted change to "Max_simultaneous_proxies" in case it causes issues/crashes
 
@@ -584,19 +585,13 @@ v1.07 BETA CHANGES
 
 [Multiplayer]
 * Doubled XP gained
-* Reworked levels and cosmetic unlocks: You now unlock badges, rank icons, characters and hammers at level 5, 10, 20, 30 etc with the "max" rank being 100; The final unlock is the DLC pickaxe at level 126
 * Default options changed to fleetfoot start, friendly fire enabled and delayed enemy icon visibility
+* Reworked levels and cosmetic unlocks: You now unlock badges, rank icons, characters and most hammers at level 5, 10, 20, 30 etc with the "max" rank being 100
 * Improved host migration removal hopefully by increasing "TS_bad_lag_rtt_ms" & "TS_bad_lag_duration_ms" to 2147483647 which should disable true skill host migration completely in all circumstances
+* Improved stability
 
 [Wrecking Crew]
 * Added Garrison, Framework, Excavation, Sandpit, Rift, Quarantine, Deadzone and Crash Site multiplayer maps to wrecking crew
-
-[Weapons] 
-* Added Explosive, Stun & Nano Grenades to multiplayer
-* Added Fist/Unarmed weapon to multiplayer
-* Added Royal Sword to multiplayer
-* Added DLC Pickaxe to multiplayer
-* Added DLC Marauder charges to multiplayer
 
 [Sniper Rifle]
 * Reduced spread at max range from 0.55 to 0
@@ -623,23 +618,25 @@ v1.07 BETA CHANGES
 ------------
 
 [Singleplayer]
+* Activity: offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* Activity: screenshot "sp_eos_side_mission.png" MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* Activity: transporter activity in Badlands MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* Misc: Marauders might not spawn with shotguns? (might be fixed in v1.064.1 due to reverting changes to squad files) [REVERTED IN v1.07]
+* Misc: NPCs drive like crazy when obstructed instead of waiting and going around them calmly
+* Misc: Setting walkers to spawn at safehouses can cause no vehicles to spawn, this was a bug introduced in the remaster
 * DLC: crashes when loading?
-* DLC: tank doesn't spawn in Redemption mission (might be fixed after re-doing all spawn related changes)
+* DLC: tank doesn't spawn in Redemption mission (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * DLC: NPC MIGHT drive off near the cliff near the large bridge during Redemption mission (with uncapped fps or due to bad road path on the map?)
 * DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
 * DLC: First transporter mission is broken
-* DLC: Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx (might be fixed after re-doing all spawn related changes)
+* DLC: Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * DLC: "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
-* Activity: offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles (might be fixed after re-doing all spawn related changes)
-* Activity: screenshot "sp_eos_side_mission.png" MIGHT be broken (might be fixed after re-doing all spawn related changes)
-* Activity: transporter activity in Badlands MIGHT be broken (might be fixed after re-doing all spawn related changes)
-* Misc: Marauders might not spawn with shotguns? (might be fixed in v1.064.1 due to reverting changes to squad files)
-* Misc: NPCs drive like crazy when obstructed instead of waiting and going around them calmly
-* Misc: Setting walkers to spawn at safehouses can cause no vehicles to spawn, this was a bug introduced in the remaster
+* EDF spawn very close to the player
 
 [Maps]
 * Most wrecking crew maps are missing team spawns
 * Most wrecking crew maps still need more spawns and/or fixes to existing spawns
+* Wrecking crew maps in general are not final
 * Abandoned terrain collision glitch near forcefield near 335.016, -0.205, -321.099
 * Expansion: crates on top of the bridge float even when the bridge is destroyed
 * Frost: sections of the crane and smokestack can float when they are partially destroyed
@@ -652,13 +649,13 @@ v1.07 BETA CHANGES
 * "cem_base01_wkpp" missing specular texture (test at Parker's shack)
 
 [DLC Weapons]
-* Pickaxe: missing textures
-* Impaler: missing textures
-* Spiker: has missing texture when it's dropped on the ground and only the host might be able to see the projectile
+* Pickaxe: missing textures; not implemented yet
+* Impaler: missing textures; not implemented yet
+* Spiker: has missing texture when it's dropped on the ground and only the host might be able to see the projectile; not implemented yet
 * Misslepod: sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon
-* Marauder Remote Charges: missing textures
+* Marauder Remote Charges: missing textures; not implemented yet
 * Weapons use placeholder icons and reticules for now
-* Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer
+* Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer [REVERTED IN v1.07]
 
 [Backpacks]
 * Kaboom backpack has floating objects on the model

@@ -1,1 +1,4 @@
-
+* Revert any out of scope changes to SP in tweak_table.xtbl such as the changes to NPC honking
+* Repack items.vpp_pc
+* Remove rigs from dlcp01_misc.vpp_pc
+* Leave out optimization and formatting changes?

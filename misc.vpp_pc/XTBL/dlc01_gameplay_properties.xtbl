@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		<Gameplay> <!--ADD Comments for added drop shadows?-->
+		<Gameplay>
 			<Name>0102apts_a_rd_03</Name>
 			<chunk_flags>
 				<Flag>casts_shadows</Flag>

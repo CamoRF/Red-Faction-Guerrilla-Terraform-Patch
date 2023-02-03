@@ -82,7 +82,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_10</Name>
-			<level_needed>90</level_needed> <!--From 100-->
+			<level_needed>85</level_needed> <!--From 100-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -90,7 +90,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_11</Name>
-			<level_needed>100</level_needed> <!--From 104-->
+			<level_needed>90</level_needed> <!--From 104-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -98,7 +98,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_12</Name>
-			<level_needed>100</level_needed> <!--From 112-->
+			<level_needed>95</level_needed> <!--From 112-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -114,7 +114,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_14</Name>
-			<level_needed>100</level_needed> <!--From 125-->
+			<level_needed>105</level_needed> <!--From 125-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
