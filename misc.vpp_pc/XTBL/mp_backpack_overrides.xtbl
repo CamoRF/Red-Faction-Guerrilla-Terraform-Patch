@@ -20,6 +20,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</mp_backpacks>
+<!--
 		<mp_backpacks>
 			<Name>Stealth</Name>
 			<uses_fuel>
@@ -29,6 +30,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</mp_backpacks>
+-->		
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
