@@ -1295,8 +1295,8 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>capture_the_flag</Flag>
-				<Flag>king_of_the_hill</Flag>
+				<!--<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>-->
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
