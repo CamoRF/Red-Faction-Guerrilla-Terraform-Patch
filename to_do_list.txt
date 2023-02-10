@@ -1,4 +1,2 @@
-* Re-do optimization and formatting changes or leave them out?
 * Doublecheck all wc and siege map backpacks, ctf flags and damage control targets
-* Expansion: add team spawns, remove spawn near crane
-* Ruins: change weather?, add third damage control target in that empty area near the wall and name it capeks lab
+* Ruins: change weather?, damage control crashes for some reason. Make sure ns_base and map file are compressed+condensed and remake the map with nanoforge rewrite in future. Add CTF flag spawns
