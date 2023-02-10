@@ -3,7 +3,7 @@
 |-------------------|
 
 Author: Camo
-Version: v1.07 BETA
+Version: v1.07 ALPHA
 Date: XX-X-2023
 Build: X
 
@@ -501,9 +501,9 @@ v1.064.2 ALPHA HOTFIX CHANGES
 [Fixes]
 * FIXED critical bug with DLC weapon pickups either not working or causing the player to T-POSE
 
-----------------------
-v1.07 PRE BETA CHANGES
-----------------------
+-------------------
+v1.07 ALPHA CHANGES
+-------------------
 
 [Singleplayer]
 * Reverted adding DLC vehicles for now
