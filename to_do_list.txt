@@ -1,7 +1,6 @@
 * Doublecheck all wc and siege map backpacks, ctf flags and damage control targets
-* Ruins: change weather?
-* Watchtower: fix floating heal backpack (test)
-* Scrapheap: fix 2d spawn (test)
-* Cascade: add stealth backpack spawns at bottom of solar towers
 * Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle?
 * Re-port all DLC weapons, rename them etc? or maybe just re-do the port of the Spiker and edit its balance in weapons.xtbl, maybe the overrides file broke the projectile?
+* KOTH Sandpit in map pack?
+* Ruins has remote charges clipping into cliff, AR and grinder near it need to be moved to better locations also
+* 249.919, 12.747, -285.706 puncture small killbox?
