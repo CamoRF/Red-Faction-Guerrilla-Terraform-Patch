@@ -530,7 +530,7 @@ v1.07 ALPHA CHANGES
 * Added CTF and damage control to siege maps
 * Stratosphere: Added ladders to some of the buildings & removed all siege objectives except the town hall
 * Added backpack spawns to all Wrecking crew maps
-* Quarantine: Added two more smokestack objectives in siege mode
+* Quarantine: Added two more smokestack objectives in siege mode, fixed issue with minefields not working on other gamemodes
 * Cascade: Added another siege objective
 * Watchtower: Improved backpack spawn locations
 * Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects and more

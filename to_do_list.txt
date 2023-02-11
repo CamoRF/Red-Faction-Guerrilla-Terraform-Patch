@@ -9,4 +9,6 @@
 * Improved Loading Screens Add-on (low priority)
 * Upscaled human textures (low priority)
 * Upscaled weapon textures (low priority)
-* Map Pack: Aerial Excavation, KOTH Equilibrium, Interior Only Map, KOTH Sandpit (medium priority)
+* Map Pack: Aerial Excavation, KOTH Equilibrium, Interior Only Map, KOTH Sandpit, Quarantine Siege map for other gamemodes (medium priority)
+* Make sure to include ALL DLC weapons, even ones not enabled in the .xtbls
+* Doublecheck if minefields are enabled in other gamemodes and extra smokestacks have been added to Quarantine siege
