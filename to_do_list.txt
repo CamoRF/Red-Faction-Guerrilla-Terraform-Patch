@@ -1,2 +1,5 @@
 * Doublecheck all wc and siege map backpacks, ctf flags and damage control targets
 * Ruins: change weather?, damage control crashes for some reason. Make sure ns_base and map file are compressed+condensed and remake the map with nanoforge rewrite in future. Add CTF flag spawns
+* Watchtower: fix floating heal backpack
+* Scrapheap: fix 2d spawn
+* Cascade: add stealth backpack spawns at bottom of solar towers
