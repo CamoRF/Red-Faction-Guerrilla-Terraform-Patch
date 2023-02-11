@@ -1,7 +1,7 @@
 * Doublecheck all wc and siege map backpacks, ctf flags and damage control targets
-* Ruins: change weather?, damage control crashes for some reason. Make sure ns_base and map file are compressed+condensed and remake the map with nanoforge rewrite in future. Add CTF flag spawns
-* Watchtower: fix floating heal backpack
-* Scrapheap: fix 2d spawn
+* Ruins: change weather?
+* Watchtower: fix floating heal backpack (test)
+* Scrapheap: fix 2d spawn (test)
 * Cascade: add stealth backpack spawns at bottom of solar towers
 * Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle?
 * Re-port all DLC weapons, rename them etc? or maybe just re-do the port of the Spiker and edit its balance in weapons.xtbl, maybe the overrides file broke the projectile?
