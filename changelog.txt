@@ -624,7 +624,6 @@ v1.07 ALPHA CHANGES
 * Misc: Marauders might not spawn with shotguns? (might be fixed in v1.064.1 due to reverting changes to squad files) [REVERTED IN v1.07]
 * Misc: NPCs drive like crazy when obstructed instead of waiting and going around them calmly
 * Misc: Setting walkers to spawn at safehouses can cause no vehicles to spawn, this was a bug introduced in the remaster
-* DLC: crashes when loading?
 * DLC: tank doesn't spawn in Redemption mission (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * DLC: NPC MIGHT drive off near the cliff near the large bridge during Redemption mission (with uncapped fps or due to bad road path on the map?)
 * DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
@@ -632,6 +631,7 @@ v1.07 ALPHA CHANGES
 * DLC: Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * DLC: "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
 * EDF spawn very close to the player
+* DLC: Weapons that have been ported to the base game have broken icons (due to the DLC loading weapons.xtbl and overriding the dlc01 weapon xtbl, it should be resolved when reticules and icons can be ported to the base game or a work around is found by changing the dlc weapons to be unique from the ported ones)
 
 [Maps]
 * Most wrecking crew maps are missing team spawns

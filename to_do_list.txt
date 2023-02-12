@@ -6,8 +6,6 @@
 * Doublecheck if minefields are enabled in other gamemodes and extra smokestacks have been added to Quarantine siege
 * Doublecheck flags on all maps: flag 4 on rfg_movers, persistent flag on spawn nodes, spectator cameras and spawns, gamemode flags
 * XML validate all files
-* Fix DLC weapon icons in the DLC
-* Remove DLC weapons from the base game SP
 
 [MEDIUM PRIORITY] 
 * Implement Spiker, Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
@@ -22,3 +20,4 @@
 * Re-implement vanilla wc maps with only fixes as an add-on
 * Re-implement singleplayer only changes like the spawns, dlc vehicles etc as an add-on
 * Add more backpack spawns to Siege maps when played in other modes
+* Singleplayer stuff: territories.xtbl has values for EDF in completed sectors, merge in changes from the community pack by formatting his .xtbl files and comparing them to vanilla so changes can be commented in etc
