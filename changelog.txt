@@ -523,6 +523,7 @@ v1.07 ALPHA CHANGES
 * Fixed two additional out of bounds exploits on Downfall
 * Fixed issue with extreme cloud speeds
 * Fixed some issues with broken missions in singleplayer
+* Fixed issue with some of the recent stealth pack rebalance changes not applying
 
 [Maps]
 * All wrecking crew maps now have backpack spawns
@@ -563,6 +564,7 @@ v1.07 ALPHA CHANGES
 * Tweaked lod_properties.xtbl
 * Reverted changes to singleplayer DLC for now due to possible issues
 * Reverted change to "Max_simultaneous_proxies" in case it causes issues/crashes
+* Optimized more files to reduce memory pool load increasing stability
 
 [Out of scope fixes]
 * Reverted "Ai_heavy_vehicle_always_cower_chance" to vanilla

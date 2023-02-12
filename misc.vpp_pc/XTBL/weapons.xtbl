@@ -594,7 +594,7 @@
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<Bullet_Group>Harpoon</Bullet_Group>
 			<Default_team>Marauder</Default_team>
-			<fine_aim_reticule>ui_hud_reti_spiker1</fine_aim_reticule>
+			<fine_aim_reticule>ui_hud_reti_harpoon</fine_aim_reticule> <!--From ui_hud_reti_spiker1-->
 			<Alert_Level_Multiplier>1.0</Alert_Level_Multiplier>
 			<Dropped_ammo_scale>0.7666667</Dropped_ammo_scale>
 			<aim_assist>1</aim_assist>
