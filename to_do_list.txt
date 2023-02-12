@@ -1,8 +1,6 @@
 [HIGH PRIORITY]
 * Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
 * Doublecheck all wc and siege map backpacks, ctf flags and damage control targets
-* Re-port all DLC weapons, rename them etc? or maybe just re-do the port of the Spiker and edit its balance in weapons.xtbl, maybe the overrides file broke the projectile?
-* Make sure to include ALL DLC weapons, even ones not enabled in the .xtbls
 * Doublecheck if minefields are enabled in other gamemodes and extra smokestacks have been added to Quarantine siege
 * Doublecheck flags on all maps: flag 4 on rfg_movers, persistent flag on spawn nodes, spectator cameras and spawns, gamemode flags
 * XML validate all files
@@ -23,3 +21,5 @@
 * Singleplayer stuff: territories.xtbl has values for EDF in completed sectors, merge in changes from the community pack by formatting his .xtbl files and comparing them to vanilla so changes can be commented in etc
 * Add missing vanilla value comments from some files, some of them have a note in the .xtbl already
 * Add formatted versions of optimized files
+* Fix DLC weapon icons and reticules by figuring out how to port them to the base game, something to do with bitmap.xtbl and peg files
+* Re-implement DLC weapons in singleplayer
