@@ -3,6 +3,7 @@
 * Doublecheck if minefields are enabled in other gamemodes and extra smokestacks have been added to Quarantine siege
 * Doublecheck flags on all maps: flag 4 on rfg_movers, persistent flag on spawn nodes, spectator cameras and spawns, gamemode flags
 * XML validate all files
+* Use max compressed zips for final xdelta version since extraction for 7z is slow in SF
 
 [MEDIUM PRIORITY] 
 * Implement Spiker, Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out

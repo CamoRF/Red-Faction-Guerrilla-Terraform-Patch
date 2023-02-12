@@ -524,23 +524,24 @@ v1.07 ALPHA CHANGES
 * Fixed issue with extreme cloud speeds
 * Fixed some issues with broken missions in singleplayer
 * Fixed issue with some of the recent stealth pack rebalance changes not applying
+* Various other improvements, adjustments & fixes to player, weapon and backpack spawns
+* Various other improvements, adjustments & fixes to all multiplayer and wrecking crew maps
 
 [Maps]
 * All wrecking crew maps now have backpack spawns
-* Added CTF and damage control to all WC maps except for scrapheap
+* Added CTF to all WC maps except for Scrapheap
+* Added Damage Control to all WC maps except Scrapheap & Ruins
 * Added CTF and damage control to siege maps
+* Added more reconstructors to some of the new siege maps
+* Added some well hidden weapons that only spawn once to some wrecking crew maps
 * Stratosphere: Added ladders to some of the buildings & removed all siege objectives except the town hall
 * Added backpack spawns to all Wrecking crew maps
 * Quarantine: Added two more smokestack objectives in siege mode, fixed issue with minefields not working on other gamemodes
 * Cascade: Added another siege objective
 * Watchtower: Improved backpack spawn locations
 * Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects and more
-* Ruins: Re-implemented map with backpack spawns and various fixes 
+* Ruins: Re-implemented map with backpack spawns, heat haze effect, propane tank weapon & various fixes 
 * GFWL/Nordic Bonus: Adjusted weather, reduced the sun glare, added heat haze and more
-* Added more reconstructors to some of the new siege maps
-* Added some well hidden weapons that only spawn once to some wrecking crew maps
-* Various other improvements, adjustments & fixes to player, weapon and backpack spawns
-* Various other improvements, adjustments & fixes to all multiplayer and wrecking crew maps
 
 [Interface]
 * Reverted adding higher resolution loading screens and thumbnails
