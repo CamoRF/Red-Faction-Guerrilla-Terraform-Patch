@@ -1,5 +1,4 @@
 [HIGH PRIORITY]
-* Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
 * Doublecheck all wc and siege map backpacks, ctf flags and damage control targets
 * Doublecheck if minefields are enabled in other gamemodes and extra smokestacks have been added to Quarantine siege
 * Doublecheck flags on all maps: flag 4 on rfg_movers, persistent flag on spawn nodes, spectator cameras and spawns, gamemode flags
@@ -23,3 +22,4 @@
 * Add formatted versions of optimized files
 * Fix DLC weapon icons and reticules by figuring out how to port them to the base game, something to do with bitmap.xtbl and peg files
 * Re-implement DLC weapons in singleplayer
+* Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
