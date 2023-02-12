@@ -24,13 +24,13 @@ INTIAL RELEASE CHANGES
 * Headshot damage multiplier reduced to 2.0 from 3.0
 
 [Shotgun Fix]
-* Headshot damage multiplier increased to 2.5 from 1.5 to fix players being left with 1hp at point blank randomly
+* Headshot damage multiplier increased to 2.5 from 1.5 to fix players being left with 1hp at point blank r&omly
 * Bullet spread at max range increased to 0.8 from 0.4
 * Bullet spread at max range increased to 0.4 from 0.2
 
 [Grinder Fix]
-* Spread at max range reduced to 0.0 from 0.2 to reduce the randomness of the projectile
-* Start and max speeds of the projectile increased to 65 from 54.5 for lag compensation and to reduce the randomness of the projectile
+* Spread at max range reduced to 0.0 from 0.2 to reduce the r&omness of the projectile
+* Start & max speeds of the projectile increased to 65 from 54.5 for lag compensation & to reduce the r&omness of the projectile
 
 [Arc Welder Nerf]
 * Player damage reduced to 31.5 from 33
@@ -69,7 +69,7 @@ Multiplayer Additions
 * Imperial
 * Expansion
 * Frost
-* Abandoned
+* Ab&oned
 * Stratosphere
 * Invasion
 * Nordic Special (Games For Windows Live Destruction)
@@ -93,29 +93,29 @@ v1.02 ALPHA CHANGES
 -------------------
 
 [Fixes]
-* Fixed issue with incorrect map thumbnails and loading screens on DLC Wrecking Crew maps
+* Fixed issue with incorrect map thumbnails & loading screens on DLC Wrecking Crew maps
 
 [Additions]
-* Added Spiker, Misslepod and Super Gauss to singleplayer
-* Added collision to some objects in the game so they now react to player movement such as ambient objects NPCs drop or use and small rocks in singleplayer
+* Added Spiker, Misslepod & Super Gauss to singleplayer
+* Added collision to some objects in the game so they now react to player movement such as ambient objects NPCs drop or use & small rocks in singleplayer
 * Added drop shadows to some objects that were missing them
 * Added CTF flags as weapons
 * Added cut kaboom packpack
-* Blood decal size and probability tweaks
-* Draw distance increased for various objects and decals in the game
+* Blood decal size & probability tweaks
+* Draw distance increased for various objects & decals in the game
 * Decals such as bullet holes no longer despawn as quickly
 * Disabled the startup logos
 * Spent gun clips no longer despawn quickly
 * Weapon projectiles don't despawn as quickly
-* Debris in singleplayer no longer despawn quickly and now react to player movement
+* Debris in singleplayer no longer despawn quickly & now react to player movement
 
 ---------------------
 v1.031 ALPHA CHANGES
 ---------------------
 
 [General Fixes & Changes]
-* Vanilla bug with broken fog, weather, bloom, glow multipliers and lighting on various multiplayer maps fixed
-* Vanilla bug with missing sun textures, broken lens flares and sunshafts/godrays on various maps and the singleplayer tutorial mission fixed
+* Vanilla bug with broken fog, weather, bloom, glow multipliers & lighting on various multiplayer maps fixed
+* Vanilla bug with missing sun textures, broken lens flares & sunshafts/godrays on various maps & the singleplayer tutorial mission fixed
 * Added more comments for original values & fixed some of the terrible formatting in the vanilla files. This will be an ongoing project throughout development to make it easier to work on the patch & mod the game in general as the vanilla files are very messy to work with
 * Improved file structure of patch so it's easier to install
 
@@ -145,16 +145,16 @@ v1.031 ALPHA CHANGES
 * Removed barrels on all wrecking crew maps
 
 [Multiplayer Additions & Changes]
-* Added wrecking crew map team anarchy and anarchy playlists and disabled siege, team objective and large mixer playlists in matchmaking
-* Increased player cap for bagman and anarchy matchmaking playlists from 6 to 8
-* Swapped default and alternative time of day settings on some maps so they match the loading screen image
+* Added wrecking crew map team anarchy & anarchy playlists & disabled siege, team objective & large mixer playlists in matchmaking
+* Increased player cap for bagman & anarchy matchmaking playlists from 6 to 8
+* Swapped default & alternative time of day settings on some maps so they match the loading screen image
 
 ---------------------
 v1.05 ALPHA CHANGES
 ---------------------
 
 [Multiplayer Additions]
-* [REVERTED in v1.07] Added HD loading screens and thumbnails for every single multiplayer map, screenshots were taken in 8K resolution with reshade, increased shadow resolution and draw distance, thumbnails were remade using these textures with a brand new gritty border added
+* [REVERTED in v1.07] Added HD loading screens & thumbnails for every single multiplayer map, screenshots were taken in 8K resolution with reshade, increased shadow resolution & draw distance, thumbnails were remade using these textures with a br& new gritty border added
 
 [Singleplayer Weapon Additions]
 * [REVERTED in v1.07] Added Subverter to EDF loadout in singleplayer
@@ -171,8 +171,8 @@ v1.05 ALPHA CHANGES
 * Admiral Kobel
 * General Roth
 * Voice of Mars
-* [REPLACEMENT CHANGED TO ADDITION in v1.07] Ian's model replaced with an elegant version and he was also added to Guerrila team in addition to free for all
-* [REPLACEMENT CHANGED TO ADDITION in v1.07] Rachel's model replaced with an elegant version and she was also added to the Guerrila team in addition to free for all
+* [REPLACEMENT CHANGED TO ADDITION in v1.07] Ian's model replaced with an elegant version & he was also added to Guerrila team in addition to free for all
+* [REPLACEMENT CHANGED TO ADDITION in v1.07] Rachel's model replaced with an elegant version & she was also added to the Guerrila team in addition to free for all
 * [REPLACEMENT CHANGED TO ADDITION in v1.07] Most new characters now have custom thumbnails
 
 [Proximity Mine Buff]
@@ -201,7 +201,7 @@ v1.05 ALPHA CHANGES
 * Delay before you can detonate a thermbaric rocket mid-air reduced to 250ms from 500ms
 
 [Tank Buff]
-* [REVERTED in v1.07] Increased hitpoints of heavy and artillery tanks to 36000 from 18000
+* [REVERTED in v1.07] Increased hitpoints of heavy & artillery tanks to 36000 from 18000
 * [REVERTED in v1.07] Increased hitpoints of medium tanks to 20000 from 10000
 
 [Walker Buff]
@@ -218,35 +218,35 @@ v1.05 ALPHA CHANGES
 * NPCs now do the same damage to other NPCs as the player in all circumstances to be consistent with the player (add details)
 * NPCs can be converted to the Red Faction from a longer distance (to 24 from 12) to compensate for the increased draw distance
 * Time friendly marauders return to a friendly state after making them hostile increased to 1 minute from 20 seconds
-* [REVERTED in v1.07] Increased max NPCs attacking player to 4 from 2 for green alert, to 6 from 2 for yellow, to 8 from 3 for orange and to 10 from 4 for red
-* [REVERTED in v1.07] Player now keeps 50% of salvage picked up between saving and dying instead of losing it all
+* [REVERTED in v1.07] Increased max NPCs attacking player to 4 from 2 for green alert, to 6 from 2 for yellow, to 8 from 3 for orange & to 10 from 4 for red
+* [REVERTED in v1.07] Player now keeps 50% of salvage picked up between saving & dying instead of losing it all
 * Player now does same damage to friendly NPCs as enemy NPCs
 
 
 [NPC & Vehicle Additions]
-* [REVERTED in v1.07] Increased density and variety of traffic and NPC types and animations
-* [REVERTED in v1.07] Added most vehicles to the Parker and Dust safehouses 
-* [REVERTED in v1.07] EDF vehicles, tanks and the bulldozer can be found at the Oasis and Eos safehouses
-* [REVERTED in v1.07] Marauder vehicles can be found at the Badlands safehouses
-* [REVERTED in v1.07] Fights can now break out between Red Faction and EDF around the map
+* [REVERTED in v1.07] Increased density & variety of traffic & NPC types & animations
+* [REVERTED in v1.07] Added most vehicles to the Parker & Dust safehouses 
+* [REVERTED in v1.07] EDF vehicles, tanks & the bulldozer can be found at the Oasis & Eos safehouses
+* [REVERTED in v1.07] Marauder vehicles can be found at the Badl&s safehouses
+* [REVERTED in v1.07] Fights can now break out between Red Faction & EDF around the map
 * [REVERTED in v1.07] Added DLC Marauder vehicles to the base game
-* [REVERTED in v1.07] Cold NPC animation now plays in Eos and End Game areas
+* [REVERTED in v1.07] Cold NPC animation now plays in Eos & End Game areas
 
 [General Fixes & Changes]
-* Gun magazines now despawn eventually in multiplayer due to map clutter and lag concerns, it's still an improvement over vanilla and about 5 mags will stack up before old ones start to vanish, singleplayer has a higher limit
-* Minor tweaks and fixes to object collision in singleplayer such as glass bottles
-* Reverted blood decal lifetime tweak due to bugs with them not syncing properly and being visible when using the stealth patch if you're covered in blood
+* Gun magazines now despawn eventually in multiplayer due to map clutter & lag concerns, it's still an improvement over vanilla & about 5 mags will stack up before old ones start to vanish, singleplayer has a higher limit
+* Minor tweaks & fixes to object collision in singleplayer such as glass bottles
+* Reverted blood decal lifetime tweak due to bugs with them not syncing properly & being visible when using the stealth patch if you're covered in blood
 * Disabled radial blur for competitive & aesthetical reasons
-* Increased LOD distance of vehicles to 11562.0, 11562.0, 11562.0 and 11562.0 from 10.0, 20.0, 40.0 and 80.0
+* Increased LOD distance of vehicles to 11562.0, 11562.0, 11562.0 & 11562.0 from 10.0, 20.0, 40.0 & 80.0
 * Glass crack decal probability increased to 100% from 75%
 * Decal alpha fade distance increased to 1.0 from 0.5
-* Removed some obnoxious glare and bloom effects that blind the player
+* Removed some obnoxious glare & bloom effects that blind the player
 * Removed the character cold breath effect since it plays everywhere even in non snowy regions
 * More XML formatting fixes
 * Vanilla bug with missing moon lighting in singleplayer fixed
 
 [Multiplayer Fixes]
-* Disabled all rubberbanding and trueskill features to reduce lag
+* Disabled all rubberb&ing & trueskill features to reduce lag
 * Reduced leg damage multiplier to 0.75 from 0.8
 * Players now move the same speed when moving sideways
 * Fixed inconsistent player icon distances by changing all multipliers to 1.0
@@ -255,14 +255,14 @@ v1.05 ALPHA CHANGES
 * Added 9 additional spawns to Frost
 * Added 9 additional spawns to Nordic Special (Games For Windows Live Destruction)
 * Increased player icon fade distance on Expansion
-* Reverted Crash Site alternative time of day to 18:00 from 00:00 due to brightness and fog issues, will be re-implemented when the weather and lighting files are more understood
-* Removed fog on Imperial due to extreme fog on some computers, will be re-implemented when the weather and lighting files are more understood
+* Reverted Crash Site alternative time of day to 18:00 from 00:00 due to brightness & fog issues, will be re-implemented when the weather & lighting files are more understood
+* Removed fog on Imperial due to extreme fog on some computers, will be re-implemented when the weather & lighting files are more understood
 * Fixed vanilla bug with extremely small moons on various maps
-* Fixed fog and lighting on Scrap Heap
+* Fixed fog & lighting on Scrap Heap
 * Fixed fog on Cornered
 
 [Healpack Fix]
-* Now heals you to 100% health instead of 50% or less and the recharge time was made much longer to compensate
+* Now heals you to 100% health instead of 50% or less & the recharge time was made much longer to compensate
 * Health regen per second increased to 235 from 180
 * Fuel usage per second reduced to 0.10 from 0.55
 * Fuel regen per second reduced to 0.042 from 0.10
@@ -277,19 +277,19 @@ v1.06 ALPHA CHANGES
 * Added fog to Imperial
 * Added 3 neutral respawns to Framework so the map is more playable in modes other than siege
 * Added various objects to fix line of sight on various WC maps, added 3 radio towers to Transmission to indicate where the invisible wall is, thanks to ATMLVE for his help!
-* Added bagman spawns to all wrecking crew and siege maps
-* Added Large Mixer maps to Team Anarchy and Team Bagman matchmaking playlists
-* Invasions lighting and weather changed to match Broadsides
+* Added bagman spawns to all wrecking crew & siege maps
+* Added Large Mixer maps to Team Anarchy & Team Bagman matchmaking playlists
+* Invasions lighting & weather changed to match Broadsides
 
 [Map Fixes]
-* Fixed some of the vanilla bugs with out of bounds map exploits on Haven, Doubletime, Equilbrium, Downfall, Abandoned & Compound
-* Fixed vanilla bug with missing objects on various maps when played in Demolition and Bagman
+* Fixed some of the vanilla bugs with out of bounds map exploits on Haven, Doubletime, Equilbrium, Downfall, Ab&oned & Compound
+* Fixed vanilla bug with missing objects on various maps when played in Demolition & Bagman
 
 [Multiplayer Fixes]
 * Fixed Marauder Lady character having the wrong footstep sounds
-* Fixed bug with leader and bagman highlighting not working
+* Fixed bug with leader & bagman highlighting not working
 * Fixed various voices for the new characters
-* Fixed player names and icons not working
+* Fixed player names & icons not working
 * Changed "Biker Chick" character name to "Outcast"
 * Changed "Marauder Science Tech" character name to "Marauder Lady"
 * Changed "Female Lab Assistant" character name to "Lab Lady"
@@ -297,26 +297,26 @@ v1.06 ALPHA CHANGES
 * Propane tank weapon disabled for now due to bugs
 * Possibly fixed Kaboom backpack sound getting stuck when you die
 * Reduced backpack clipping for Jenkins
-* Improvements to rubberbanding and trueskill fixes
+* Improvements to rubberb&ing & trueskill fixes
 
 [Multiplayer Additions & Changes]
-* Changed the DLC weapon placeholder icons to badge icons to avoid confusion with standard weapons 
+* Changed the DLC weapon placeholder icons to badge icons to avoid confusion with st&ard weapons 
 * Default enemy icon visibility changed to delayed from normal
 * EDF Voice character can now be played on the EDF team in team games in addition to free for all
-* Increased max player cap for Team Anarchy and Team Bagman matchmaking playlists to 16 from 12
-* Increased transparency of stealth backpack further and removed the shimmer
+* Increased max player cap for Team Anarchy & Team Bagman matchmaking playlists to 16 from 12
+* Increased transparency of stealth backpack further & removed the shimmer
 * Marauder characters can now be played on the Red Faction team in team games in addition to free for all
 * Movement speed is now consistent across all weapons
 * Slightly increased base player movement speed
 
 [General Fixes & Changes]
-* Fixed bug with glass bullet holes with lots of them spawning at once looking weird and causing lag when player zoomed in to the decal
-* Fixed issue with broken loading screens and thumbnails when wrecking crew maps are played in the regular wrecking crew mode, also gave them the same HD textures as the multiplayer versions
+* Fixed bug with glass bullet holes with lots of them spawning at once looking weird & causing lag when player zoomed in to the decal
+* Fixed issue with broken loading screens & thumbnails when wrecking crew maps are played in the regular wrecking crew mode, also gave them the same HD textures as the multiplayer versions
 * Fixed more objects that were missing shadows
 * Increased ladder climbing speed slightly
 * Improved debris collision
 * Reduced size of blood pools slightly to increase realism
-* Removed spiker, dlc pickaxe and impaler completely due to various bugs
+* Removed spiker, dlc pickaxe & impaler completely due to various bugs
 
 [Singleplayer Additions & Changes]
 * [REVERTED in v1.07] Added 4K AI upscaled loading screens
@@ -327,12 +327,12 @@ v1.06 ALPHA CHANGES
 
 [Singleplayer Fixes]
 * [REVERTED in v1.07] Fixed some objects missing shadows in DLC
-* [REVERTED in v1.07] Removed Kepler and Carmen from NPC spawn lists
-* [REVERTED in v1.07] Improved NPC spawn lists: Oasis and EOS variants can spawn in both Oasis and EOS, Parker and Dust variants can spawn in both Parker and Dust, All variants can spawn in Oasis and EOS
+* [REVERTED in v1.07] Removed Kepler & Carmen from NPC spawn lists
+* [REVERTED in v1.07] Improved NPC spawn lists: Oasis & EOS variants can spawn in both Oasis & EOS, Parker & Dust variants can spawn in both Parker & Dust, All variants can spawn in Oasis & EOS
 
 [Grinder Fix]
-* Reduced randomness of the projectile by adjusting collision
-* Start and max speeds of the projectile increased to 70 from 65
+* Reduced r&omness of the projectile by adjusting collision
+* Start & max speeds of the projectile increased to 70 from 65
 
 [Reconstructor Nerf/Fix]
 * Reverted changes in previous update, following changes are compared to vanilla values
@@ -344,7 +344,7 @@ v1.06 ALPHA CHANGES
 * Increased zoom magnification to 5.0 from 4.0
 
 [Misslepod Fix]
-* Changed the projectile from standard rocket to the thermobaric rocket (cosmetic only to fix how the projectile was almost invisible due to the smoke trail)
+* Changed the projectile from st&ard rocket to the thermobaric rocket (cosmetic only to fix how the projectile was almost invisible due to the smoke trail)
 
 ---------------------------
 v1.061 ALPHA HOTFIX CHANGES
@@ -359,9 +359,9 @@ v1.061 ALPHA HOTFIX CHANGES
 * Fixed friendly fire not working in singleplayer
 * Reverted adding armour to Alec Mason in multiplayer due to crashing
 * Reverted other changes to Misslepod to possibly improve stability
-* Removed shadows on Misslepod magazine and projectile to possibly improve stability
-* Misslepod magazine and projectile now despawns to possibly improve stability
-* Misc fixes and testing done to iron out issues with v1.06
+* Removed shadows on Misslepod magazine & projectile to possibly improve stability
+* Misslepod magazine & projectile now despawns to possibly improve stability
+* Misc fixes & testing done to iron out issues with v1.06
 
 ---------------------------
 v1.062 ALPHA HOTFIX CHANGES
@@ -372,7 +372,7 @@ v1.062 ALPHA HOTFIX CHANGES
 
 [Fixes]
 * Disabled Vista in multiplayer level select due to bugs with duplicate weapon pickups
-* Re-exported Complex and Watchtower to possibly fix crashes
+* Re-exported Complex & Watchtower to possibly fix crashes
 
 ---------------------------
 v1.063 ALPHA HOTFIX CHANGES
@@ -382,7 +382,7 @@ v1.063 ALPHA HOTFIX CHANGES
 * Initial loading screen updated
 
 [Fixes]
-* Fixed issue with duplicate weapon pickups on Vista and re-implemented the map
+* Fixed issue with duplicate weapon pickups on Vista & re-implemented the map
 * Fixed two spawns where you got stuck inside the shipping container geometry on the Nordic Bonus/GFWL map
 * Fixed issue where it was almost impossible to get the bag down from the bridge by adding two Nanoforge spawns on Invasion
 
@@ -409,8 +409,8 @@ v1.064 ALPHA CHANGES
 * Renamed the project to TERRAFORM PATCH
 * Re-implemented initial logos due to issue with it spamming Red Faction Guerrilla Re-Mars-tered.log, however they can now all be skipped
 * Initial loading screen updated
-* Added Kaboom pack to random backpack rotation
-* Added some backpacks missing from random backpack rotation on various maps
+* Added Kaboom pack to r&om backpack rotation
+* Added some backpacks missing from r&om backpack rotation on various maps
 * Added stealth/vision to some maps that had one but not the other
 
 [New Characters Added]
@@ -420,16 +420,16 @@ v1.064 ALPHA CHANGES
 
 [Fixes]
 * Fixed Stealth backpack not working 
-* Fixed Nanorifle firing in random directions
-* Fixed Complex, Vista and Watchtower crashing
-* Fixed various issues reported in Red Faction Guerrilla Re-Mars-tered.log including "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/video_player/video_player.cpp(1570)", "casts_shadows" is not a valid flag name!" and "Attribute kaboom_camera_shake contains no text" & more
+* Fixed Nanorifle firing in r&om directions
+* Fixed Complex, Vista & Watchtower crashing
+* Fixed various issues reported in Red Faction Guerrilla Re-Mars-tered.log including "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/video_player/video_player.cpp(1570)", "casts_shadows" is not a valid flag name!" & "Attribute kaboom_camera_shake contains no text" & more
 * Fixed various duplicate weapon spawns on Wrecking Crew maps
 * Fixed various objects outside of maps on Wrecking Crew maps
 * Fixed various crashes related to vanilla bugs with maps
 * Fixed various out of bound exploits
 * Fixed various issues with weapon bounding boxes
 * Fixed some floating spawns 
-* Fixed some floating and/or clipping objects
+* Fixed some floating &/or clipping objects
 * Fixed various missing killboxes under maps, the player will no longer fall for eternity if a clipping bug ever occurs
 * Fixed Kaboom Pack camera shake
 * Possibly fixed vanilla bug with spawns flipping in CTF on most maps
@@ -453,25 +453,25 @@ v1.064 ALPHA CHANGES
 * Reduced time it takes for a player to re-stealth to 250ms from 500ms
 
 [Maps]
-* Preparation for adding objectives and backpacks to all Wrecking Crew & Siege maps
+* Preparation for adding objectives & backpacks to all Wrecking Crew & Siege maps
 * Preparation for easily transferring effects across maps
 * Added more spawns to siege maps so they are more playable in other game modes
-* Added Siege to: Cascade, Stratosphere, Rift, Radial, Quarantine (completely custom map), Garrison, Doubletime, Abandoned, Imperial, Repercussion & Crash Site
-* Added CTF to: Complex, Imperial, Cascade, Stratosphere and Invasion & Abandoned
-* Added Damage Control to: Complex, Cascade, Stratosphere (uses shipping containers) and Frost (uses buildings)
-* Added Backpack Racks to: Complex, Watchtower, Cascade & Abandoned
+* Added Siege to: Cascade, Stratosphere, Rift, Radial, Quarantine (completely custom map), Garrison, Doubletime, Ab&oned, Imperial, Repercussion & Crash Site
+* Added CTF to: Complex, Imperial, Cascade, Stratosphere & Invasion & Ab&oned
+* Added Damage Control to: Complex, Cascade, Stratosphere (uses shipping containers) & Frost (uses buildings)
+* Added Backpack Racks to: Complex, Watchtower, Cascade & Ab&oned
 * Added Kaboom Backpack Rack for attackers on the following Siege maps: Cornered, Crevice & Overpass
-* Factory: Added two placeholder backpack racks, CTF, Damage control and a third catwalk
-* Expansion: Added mine beacons, minefields, cliff warning signs, mine warning signs, marauder crates, EDF crates, two smokestacks and removed duplicated placeholder cloned objects
+* Factory: Added two placeholder backpack racks, CTF, Damage control & a third catwalk
+* Expansion: Added mine beacons, minefields, cliff warning signs, mine warning signs, marauder crates, EDF crates, two smokestacks & removed duplicated placeholder cloned objects
 * Frost: Overhauled layout for improved gameplay in multiplayer, added dynamic destruction, minefields & more
 * Imperial: Added building, monument, spawns & more
 * Repurcussion: Added more weapon spawns & more
-* Transmission: Added minefield & mine beacons before the invisible wall, more spawns and a few more radio towers
+* Transmission: Added minefield & mine beacons before the invisible wall, more spawns & a few more radio towers
 * Cascade: Made the area under the bridge more accessible & more
-* GFWL/Nordic Bonus: Fixed floating shipping containers replacing them with air craft and vehicle debris, added marauder smokestack, marauder statue, added smokestack outside the map, added shipping containers with explosive barrels on top of the cave area, added fire surrounding the map, added cliff warning sign near the GFWL containers & more
-* Abandoned: Added EDF forcefield and buildings to indicate where the invisible wall is, added mine beacons and minefields to fix out of bounds exploits & more
+* GFWL/Nordic Bonus: Fixed floating shipping containers replacing them with air craft & vehicle debris, added marauder smokestack, marauder statue, added smokestack outside the map, added shipping containers with explosive barrels on top of the cave area, added fire surrounding the map, added cliff warning sign near the GFWL containers & more
+* Ab&oned: Added EDF forcefield & buildings to indicate where the invisible wall is, added mine beacons & minefields to fix out of bounds exploits & more
 * The following maps have been temporarily disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch, Ruins & Scrapheap
-* Disabled misslepod and super gauss spawn in Siege, Damage Control and Demolition on all maps (excluding Crescent)
+* Disabled misslepod & super gauss spawn in Siege, Damage Control & Demolition on all maps (excluding Crescent)
 
 ------------------------------
 v1.064.1 ALPHA HOTFIX CHANGES
@@ -483,10 +483,10 @@ v1.064.1 ALPHA HOTFIX CHANGES
 * Fixed issue "Found too many animation rigs to preload (max : 299)unable to allocate anim_rig" reported in Red Faction Guerrilla Re-Mars-tered.log
 
 [Maps]
-* Factory: Added Thrust, Firepower, Heal and Fleetfoot backpack spawns
-* Expansion: Added backpack racks, two additional crates on the bridge, CTF and damage control
+* Factory: Added Thrust, Firepower, Heal & Fleetfoot backpack spawns
+* Expansion: Added backpack racks, two additional crates on the bridge, CTF & damage control
 * Quarantine: Fixed issue with too many shape cutters causing lag in Siege
-* Scrapheap: Re-implemented map with backpack racks, mine beacons, additional spawns, smokestacks and more
+* Scrapheap: Re-implemented map with backpack racks, mine beacons, additional spawns, smokestacks & more
 * Stratosphere: Possibly fixed issue with shipping container physics
 * Watchtower: Fixed floating backpack racks
 
@@ -508,43 +508,44 @@ v1.07 ALPHA CHANGES
 [Singleplayer]
 * Reverted adding DLC vehicles for now
 * Reverted adding DLC weapons for now
-* Reverted improvements to NPC and vehicle spawns for now
+* Reverted improvements to NPC & vehicle spawns for now
 * Reverted misc improvements/changes/additions for now
+* Reverted changes to DLC for now due to possible issues
 
 [Fixes]
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue with heal backpack being team exclusive on Expansion
 * Fixed issue with spawn facing wrong direction on Complex
-* Fixes and improvements to various multiplayer spawns
-* Fixes and improvements to various weapon spawns
+* Fixes & improvements to various multiplayer spawns
+* Fixes & improvements to various weapon spawns
 * Fixed gap to void in terrain on Gulch
 * Fixed gap to void in terrain on GFWL/Nordic Bonus
 * Fixed two additional out of bounds exploits on Downfall
 * Fixed issue with extreme cloud speeds
 * Fixed some issues with broken missions in singleplayer
 * Fixed issue with some of the recent stealth pack rebalance changes not applying
-* Various other improvements, adjustments & fixes to player, weapon and backpack spawns
-* Various other improvements, adjustments & fixes to all multiplayer and wrecking crew maps
+* Various other improvements, adjustments & fixes to player, weapon & backpack spawns
+* Various other improvements, adjustments & fixes to all multiplayer & wrecking crew maps
+* Various fixes & optimizations
 
 [Maps]
-* All wrecking crew maps now have backpack spawns
+* Added backpack spawns to all Wrecking crew maps
 * Added CTF to all WC maps except for Scrapheap
 * Added Damage Control to all WC maps except Scrapheap & Ruins
-* Added CTF and damage control to siege maps
+* Added CTF & damage control to siege maps
 * Added more reconstructors to some of the new siege maps
 * Added some well hidden weapons that only spawn once to some wrecking crew maps
 * Stratosphere: Added ladders to some of the buildings & removed all siege objectives except the town hall
-* Added backpack spawns to all Wrecking crew maps
 * Quarantine: Added two more smokestack objectives in siege mode, fixed issue with minefields not working on other gamemodes
 * Cascade: Added another siege objective
 * Watchtower: Improved backpack spawn locations
-* Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects and more
+* Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects & more
 * Ruins: Re-implemented map with backpack spawns, heat haze effect, propane tank weapon & various fixes 
-* GFWL/Nordic Bonus: Adjusted weather, reduced the sun glare, added heat haze and more
+* GFWL/Nordic Bonus: Adjusted weather, reduced the sun glare, added heat haze & more
 
 [Interface]
-* Reverted adding higher resolution loading screens and thumbnails
+* Reverted adding higher resolution loading screens & thumbnails
 * Reverted replacing other character textures, all new character textures now use a generic placeholder texture until it's possible to add new texture files
 * Reduced interface related files from 765mb to 13.8mb
 
@@ -563,7 +564,7 @@ v1.07 ALPHA CHANGES
 * Bullet_hole_decal_max_dist increased to 11562 from 15
 * Bullet_hole_decal_max_dist_player increased to 11562 from 50
 * Tweaked lod_properties.xtbl
-* Reverted changes to singleplayer DLC for now due to possible issues
+
 * Reverted change to "Max_simultaneous_proxies" in case it causes issues/crashes
 * Optimized more files to reduce memory pool load increasing stability
 
@@ -578,23 +579,23 @@ v1.07 ALPHA CHANGES
 * Reverted "Killing_spree_initial_time_ms" to vanilla
 * Reverted tank hitpoints to vanilla, hopefully will fix the issue with the second to last mission in EOS breaking
 * Reverted alert_levels.xtbl to vanilla
-* Reverted removal of artificial gravity from vehicles; this should hopefully fix the transporter mission in Parker/FFZ and the second to last mission in EOS
-* Reverted map loading screen and thumbnail texture replacements
+* Reverted removal of artificial gravity from vehicles; this should hopefully fix the transporter mission in Parker/FFZ & the second to last mission in EOS
+* Reverted map loading screen & thumbnail texture replacements
 
-[Destruction Optimization]
+[MP Destruction Optimization]
 * Reduced objects stress system processes per frame to 350 from 400
-* Increased min delay before checking stress to 150 from 100 
-* Increased max delay before checking stress to 5050 from 5000ms
+* Increased min delay before checking stress to 150ms from 100ms
+* Increased max delay before checking stress to 5050ms from 5000ms
 
 [Multiplayer]
 * Doubled XP gained
-* Default options changed to fleetfoot start, friendly fire enabled and delayed enemy icon visibility
-* Reworked levels and cosmetic unlocks: You now unlock badges, rank icons, characters and most hammers at level 5, 10, 20, 30 etc with the "max" rank being 100
+* Default options changed to fleetfoot start, friendly fire enabled & delayed enemy icon visibility
+* Reworked levels & cosmetic unlocks: You now unlock badges, rank icons, characters & most hammers at level 5, 10, 20, 30 etc with the "max" rank being 100
 * Improved host migration removal hopefully by increasing "TS_bad_lag_rtt_ms" & "TS_bad_lag_duration_ms" to 2147483647 which should disable true skill host migration completely in all circumstances
 * Improved stability
 
 [Wrecking Crew]
-* Added Garrison, Framework, Excavation, Sandpit, Rift, Quarantine, Deadzone and Crash Site multiplayer maps to wrecking crew
+* Added Garrison, Framework, Excavation, S&pit, Rift, Quarantine, Deadzone & Crash Site multiplayer maps to wrecking crew
 
 [Sniper Rifle]
 * Reduced spread at max range from 0.55 to 0
@@ -623,42 +624,42 @@ v1.07 ALPHA CHANGES
 [Singleplayer]
 * Activity: offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * Activity: screenshot "sp_eos_side_mission.png" MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
-* Activity: transporter activity in Badlands MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* Activity: transporter activity in Badl&s MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * Misc: Marauders might not spawn with shotguns? (might be fixed in v1.064.1 due to reverting changes to squad files) [REVERTED IN v1.07]
-* Misc: NPCs drive like crazy when obstructed instead of waiting and going around them calmly
+* Misc: NPCs drive like crazy when obstructed instead of waiting & going around them calmly
 * Misc: Setting walkers to spawn at safehouses can cause no vehicles to spawn, this was a bug introduced in the remaster
+* Misc: EDF spawn very close to the player
 * DLC: tank doesn't spawn in Redemption mission (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * DLC: NPC MIGHT drive off near the cliff near the large bridge during Redemption mission (with uncapped fps or due to bad road path on the map?)
 * DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
 * DLC: First transporter mission is broken
 * DLC: Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * DLC: "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
-* EDF spawn very close to the player
-* DLC: Weapons that have been ported to the base game have broken icons (due to the DLC loading weapons.xtbl and overriding the dlc01 weapon xtbl, it should be resolved when reticules and icons can be ported to the base game or a work around is found by changing the dlc weapons to be unique from the ported ones)
+* DLC: Weapons that have been ported to the base game have broken icons (due to the DLC loading weapons.xtbl & overriding the dlc01 weapon xtbl, it should be resolved when reticules & icons can be ported to the base game or a work around is found by changing the dlc weapons to be unique from the ported ones)
 
 [Maps]
 * Most wrecking crew maps are missing team spawns
-* Most wrecking crew maps still need more spawns and/or fixes to existing spawns
+* Most wrecking crew maps still need more spawns &/or fixes to existing spawns
 * Wrecking crew maps in general are not final
-* Abandoned terrain collision glitch near forcefield near 335.016, -0.205, -321.099
+* Ab&oned terrain collision glitch near forcefield near 335.016, -0.205, -321.099
 * Expansion: crates on top of the bridge float even when the bridge is destroyed
-* Frost: sections of the crane and smokestack can float when they are partially destroyed
+* Frost: sections of the crane & smokestack can float when they are partially destroyed
 * Frost: minor gap to void in terrain near 218.371, -21.350, -298.267
 * Ruins: Damage Control currently crashes for unknown reason so that mode isn't implemented on this map yet
 
 [Textures]
 * Typo (build>built, fo>for) in "ui_blueprint_hammer" texture
-* eos_war_memorial dates are wrong; it should be 2075 and 2077, its 5 years off
+* eos_war_memorial dates are wrong; it should be 2075 & 2077, its 5 years off
 * Marauder lady has some missing textures
 * "cem_base01_wkpp" missing specular texture (test at Parker's shack)
 
 [DLC Weapons]
 * Pickaxe: missing textures; not implemented yet
 * Impaler: missing textures; not implemented yet
-* Spiker: has missing texture when it's dropped on the ground and only the host might be able to see the projectile; not implemented yet
+* Spiker: has missing texture when it's dropped on the ground & only the host might be able to see the projectile; not implemented yet
 * Misslepod: sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon
 * Marauder Remote Charges: missing textures; not implemented yet
-* Weapons use placeholder icons and reticules for now
+* Weapons use placeholder icons & reticules for now
 * Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer [REVERTED IN v1.07]
 
 [Backpacks]
@@ -675,9 +676,9 @@ v1.07 ALPHA CHANGES
 [Misc]
 * "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file reported in Red Faction Guerrilla Re-Mars-tered.log
 * "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl reported in Red Faction Guerrilla Re-Mars-tered.log
-* LOD cap for small rocks seems to be hardcoded and cannot be increased further without hacking the .exe
+* LOD cap for small rocks seems to be hardcoded & cannot be increased further without hacking the .exe
 * Game can sometimes crash when loading into a multiplayer match
-* Siege objectives and weapon pickups can sometimes desync in multiplayer
+* Siege objectives & weapon pickups can sometimes desync in multiplayer
 * Multiplayer lobbies frequently break, players cannot join the lobby unless they go back to the main menu or restart their game
 * Issue with double text for you won/you lost text at end of game with large text over the top of small text in MP?
 * Profile saving hud element can sometimes get stuck on screen in multiplayer games on rare occasions
