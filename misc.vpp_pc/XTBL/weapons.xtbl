@@ -441,7 +441,7 @@
 			<Default_team>Marauder</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
 			<aim_assist>0.5</aim_assist>
-		</Weapon>
+		</Weapon>-->
 		<Weapon>
 			<Name>spiker</Name>
 			<Weapon_Class>harpoon</Weapon_Class>
@@ -485,6 +485,7 @@
 				<Flag>shatter</Flag>
 				<Flag>is obvious weapon</Flag>
 				<Flag>can fine aim</Flag>
+				<Flag>mp selectable</Flag>
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>50</Max_Engagement_Distance>
@@ -558,6 +559,7 @@
 			</Damage_Scaling_Min>
 			<Max_Rounds_Upgrade>120</Max_Rounds_Upgrade>
 		</Weapon>		
+<!--		
 		<Weapon>
 			<Name>royal_sword</Name>
 			<Weapon_Class>melee_gutter</Weapon_Class>

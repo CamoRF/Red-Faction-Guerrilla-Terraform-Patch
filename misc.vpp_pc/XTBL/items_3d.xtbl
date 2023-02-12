@@ -92,7 +92,7 @@
 			<_Editor>
 				<Category>Entries:WeaponMarauder</Category>
 			</_Editor>
-		</Item>
+		</Item>-->
 		<Item>
 			<Name>spiker</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -142,7 +142,7 @@
 			<_Editor>
 				<Category>Entries:Projectiles</Category>
 			</_Editor>
-		</Item>-->
+		</Item>
 <!--START DLC Weapons ADDED-->
 		<Item>
 			<Name>EDF_Super_Gauss</Name>

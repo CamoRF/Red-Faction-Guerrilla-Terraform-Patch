@@ -22,7 +22,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>-->
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>camo_nano</Name>
 			<Display_Name>NANO GRENADE</Display_Name>
@@ -44,10 +44,10 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>-->
 <!--END-->
 <!--START FUTURE DLC Weapons Added-->
-<!--		<Inventory_Item>
+<!--	<Inventory_Item>
 			<Name>mar_charge_placer</Name>
 			<Display_Name>WEAP_CHARGE_PLACER</Display_Name>
 			<Cost>100</Cost>
@@ -57,7 +57,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>		
+		</Inventory_Item>-->		
 		<Inventory_Item>
 			<Name>spiker</Name>
 			<Display_Name>WEAP_SPIKER</Display_Name>
@@ -69,7 +69,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<Inventory_Item>
+<!--    <Inventory_Item>
 			<Name>royal_sword</Name>
 			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
 			<Cost>100</Cost>

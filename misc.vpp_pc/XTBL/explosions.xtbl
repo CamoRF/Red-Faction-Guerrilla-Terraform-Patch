@@ -41,7 +41,7 @@
 				<Flag>no gibs</Flag>
 			</Flags>
 		</Explosion>
-		<Explosion>
+<!--		<Explosion>
 			<Name>DLC_remote_charge</Name>
 			<Radius>3.0</Radius>
 			<AI_Sound_Radius>75</AI_Sound_Radius>
@@ -77,7 +77,7 @@
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>		
+		</Explosion>-->		
 <!--END-->
 <!--START New Explosions Added-->
 		<Explosion>
@@ -110,7 +110,7 @@
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
-		<Explosion>
+<!--		<Explosion>
 			<Name>grenade_mp</Name>
 			<Radius>6.2</Radius>
 			<AI_Sound_Radius>50</AI_Sound_Radius>
@@ -206,7 +206,7 @@
 			<Human_Damage_Max>20</Human_Damage_Max>
 			<Structural_Damage>10</Structural_Damage>
 			<Unique_ID>124</Unique_ID>
-			<camera_shake_type>npc_nano_rifle</camera_shake_type> <!--Added-->
+			<camera_shake_type>npc_nano_rifle</camera_shake_type>
 			<camera_shake_multiplier>0</camera_shake_multiplier>
 			<player_veh_mult>1</player_veh_mult>
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
@@ -216,44 +216,7 @@
 				<Flag>nano dissolve</Flag>
 				<Flag>no gibs</Flag>
 			</Flags>
-		</Explosion>
-	<!--	<Explosion>
-			<Name>nano_grenade_old</Name>
-			<Radius>1.2</Radius>
-			<AI_Sound_Radius>50</AI_Sound_Radius>
-			<vehicle_damage_max>900</vehicle_damage_max>
-			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>50</Impulse>
-			<Effects>
-				<Element>wep_nanorifle_swarm_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>0.25</CrumbleRadius>
-			<KnockdownRadius>0.25</KnockdownRadius>
-			<FlinchRadius>0.0</FlinchRadius>
-			<Duration>500</Duration>
-			<Delay>250</Delay>
-			<player_mult>1.0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>10</human_damage_min>
-			<Human_Damage_Max>20</Human_Damage_Max>
-			<Structural_Damage>0.25</Structural_Damage>
-			<Unique_ID>125</Unique_ID>
-			<camera_shake_type>npc_nano_rifle</camera_shake_type>
-			<Flags>
-				<Flag>no gibs</Flag>
-				<Flag>nano dissolve</Flag>
-			</Flags>
-			<player_veh_mult>1.0</player_veh_mult>
-			<camera_shake_multiplier>0.5</camera_shake_multiplier>
-			<camera_shake_falloff>40.0</camera_shake_falloff>
-			<player_vehicle_impulse_mult>0.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>-->		
+		</Explosion>-->	
 <!--END-->	
 		<Explosion>
 			<Name>grenade_exp</Name>

@@ -1,14 +1,22 @@
-* Doublecheck all wc and siege map backpacks, ctf flags and damage control targets
+[HIGH PRIORITY]
 * Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
+* Doublecheck all wc and siege map backpacks, ctf flags and damage control targets
 * Re-port all DLC weapons, rename them etc? or maybe just re-do the port of the Spiker and edit its balance in weapons.xtbl, maybe the overrides file broke the projectile?
-* KOTH Sandpit in map pack?
-* Ruins has remote charges clipping into cliff, AR and grinder near it need to be moved to better locations also
-* 249.919, 12.747, -285.706 puncture small killbox?
-* Grenade and fist weapons (low priority)
-* Singularity that explodes in 1 second named Instant Singularity Bomb (low priority)
-* Improved Loading Screens Add-on (low priority)
-* Upscaled human textures (low priority)
-* Upscaled weapon textures (low priority)
-* Map Pack: Aerial Excavation, KOTH Equilibrium, Interior Only Map, KOTH Sandpit, Quarantine Siege map for other gamemodes (medium priority)
 * Make sure to include ALL DLC weapons, even ones not enabled in the .xtbls
 * Doublecheck if minefields are enabled in other gamemodes and extra smokestacks have been added to Quarantine siege
+* Doublecheck flags on all maps: flag 4 on rfg_movers, persistent flag on spawn nodes, spectator cameras and spawns, gamemode flags
+* XML validate all files
+
+[MEDIUM PRIORITY] 
+* Implement Spiker, Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
+
+[LOW PRIORITY]
+* Grenade and fist weapons
+* Singularity that explodes in 1 second named Instant Singularity Bomb
+* Improved Loading Screens Add-on
+* Upscaled human textures
+* Upscaled weapon textures
+* Map Pack: Aerial Excavation, KOTH Equilibrium, Interior Only Map, KOTH Sandpit, Quarantine Siege map for other gamemodes
+* Re-implement vanilla wc maps with only fixes as an add-on
+* Re-implement singleplayer only changes like the spawns, dlc vehicles etc as an add-on
+* Add more backpack spawns to Siege maps when played in other modes

@@ -373,19 +373,19 @@
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_CRASHSITE_002</Name>
+			<Name>MPDCT_CRASHSITE_002</Name> <!--CORNER CLIFF-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_CRASHSITE_003</Name>
+			<Name>MPDCT_CRASHSITE_003</Name> <!--ROCK PILE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_DEADZONE_001</Name>
+			<Name>MPDCT_DEADZONE_001</Name> <!--SMOKESTACK-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
