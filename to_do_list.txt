@@ -21,3 +21,4 @@
 * Re-implement singleplayer only changes like the spawns, dlc vehicles etc as an add-on
 * Add more backpack spawns to Siege maps when played in other modes
 * Singleplayer stuff: territories.xtbl has values for EDF in completed sectors, merge in changes from the community pack by formatting his .xtbl files and comparing them to vanilla so changes can be commented in etc
+* Add missing vanilla value comments from some files, some of them have a note in the .xtbl already
