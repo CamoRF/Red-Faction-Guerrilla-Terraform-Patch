@@ -165,59 +165,59 @@
 			<unlock_behemoth>True</unlock_behemoth>
 			<locked_walker_starts>
 				<locked_start>
-					<map>1</map>
+					<map>wc1</map>
 					<spawn_index>5</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>4</map>
+					<map>wc4</map>
 					<spawn_index>2</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>4</map>
+					<map>wc4</map>
 					<spawn_index>4</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>4</map>
+					<map>wc4</map>
 					<spawn_index>7</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>6</map>
+					<map>wc6</map>
 					<spawn_index>7</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>8</map>
+					<map>wc8</map>
 					<spawn_index>1</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>8</map>
+					<map>wc8</map>
 					<spawn_index>2</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>8</map>
+					<map>wc8</map>
 					<spawn_index>4</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>8</map>
+					<map>wc8</map>
 					<spawn_index>5</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>3</map>
+					<map>wc3</map>
 					<spawn_index>1</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>3</map>
+					<map>wc3</map>
 					<spawn_index>2</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>5</map>
+					<map>wc5</map>
 					<spawn_index>2</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>5</map>
+					<map>wc5</map>
 					<spawn_index>3</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>5</map>
+					<map>wc5</map>
 					<spawn_index>6</spawn_index>
 				</locked_start>
 			</locked_walker_starts>

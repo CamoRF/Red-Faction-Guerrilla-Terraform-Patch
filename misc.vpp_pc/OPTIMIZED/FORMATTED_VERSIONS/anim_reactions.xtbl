@@ -1,0 +1,68 @@
+<root>
+	<Table>
+		<Reaction>
+			<Name>right</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Reaction>
+		<Reaction>
+			<Name>left</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Reaction>
+		<Reaction>
+			<Name>front</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Reaction>
+		<Reaction>
+			<Name>back</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Reaction>
+		<Reaction>
+			<Name>ragdoll right</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Reaction>
+		<Reaction>
+			<Name>ragdoll left</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Reaction>
+		<Reaction>
+			<Name>ragdoll front</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Reaction>
+		<Reaction>
+			<Name>ragdoll back</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Reaction>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Reaction</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Reaction Name</Display_Name>
+			<Unique>true</Unique>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

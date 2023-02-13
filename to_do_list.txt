@@ -1,9 +1,15 @@
 [HIGH PRIORITY]
 * Doublecheck all wc and siege map backpacks, ctf flags and damage control targets
-* Doublecheck if minefields are enabled in other gamemodes and extra smokestacks have been added to Quarantine siege
 * Doublecheck flags on all maps: flag 4 on rfg_movers, persistent flag on spawn nodes, spectator cameras and spawns, gamemode flags
 * XML validate all files
-* Use max compressed zips for final xdelta version since extraction for 7z is slow in SF
+* Use ZIP with store option for final version because SF has slow extraction with 7z
+* Misc and table xdeltas seem to be broken, just use full files for misc and table in final version
+* Test spiker weapon with another player, if host can only see the projectile disable the weapon again 
+* Test propane tank weapons placed on Ruins with another player
+* Doublecheck out of bounds exploits on Downfall
+* Doublecheck if buildings collapse on Frost
+* Move flag stands on Framework, EDF spawn on top of the hill behind the buildings, Guerrillas spawn at the back near the mines
+* Test new minefield location on scrapheap
 
 [MEDIUM PRIORITY] 
 * Implement Spiker, Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
@@ -24,3 +30,17 @@
 * Fix DLC weapon icons and reticules by figuring out how to port them to the base game, something to do with bitmap.xtbl and peg files
 * Re-implement DLC weapons in singleplayer
 * Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
+* Add Garrison, Framework, Excavation, Sandpit, Rift, Quarantine, Deadzone & Crash Site to Wrecking crew with objectives, weapons removed and barrels added around the maps; include it in the add-on that restores vanilla wrecking crew maps
+* Add propane tank weapons to siege maps near attacker spawn
+* Try to fix floating crates on Expansion, floating smokestack and crane on Frost
+* Add DLC weapons to Wrecking Crew
+* Framework has the mp version of the crane?
+* Transfer artillery sign to Frost
+* Add fire near explosion and collapsing buildings on Frost 
+* Garrison time of day on Frost?
+* Add towers with ladders to Gulch
+* Add Damage Control & CTF to Scrapheap and Vista 
+* Add Damage Control to Ruins
+* Does making ladders orphans make them remain usable for longer when buildings are damaged?
+* Add more DLC weapon spawns to all maps
+* Fallfactor and Overpass has barrels, would be good in wrecking crew

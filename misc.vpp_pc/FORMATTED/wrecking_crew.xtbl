@@ -4,7 +4,7 @@
 			<Name>Wrecking Crew values</Name>
 			<maps>
 <!--START MP Maps ADDED-->			
-				<map>
+				<!--<map>
 					<file_name>mp_garrison</file_name>
 					<display_name>MENU_LEVEL_GARRISON</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
@@ -115,8 +115,8 @@
 					<Load_image>Crash Site</Load_image>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 01</games_played_walker_stat>
 					<Challenge_Set>complex</Challenge_Set>
-				</map>
-<!--END-->
+				</map>-->
+<!--END-->				
 				<map>
 					<file_name>wc1</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC1</display_name>
@@ -146,20 +146,6 @@
 					<Challenge_Set>watchtower</Challenge_Set>
 				</map>
 				<map>
-					<file_name>wc3</file_name>
-					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC3</display_name>
-					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 03</games_played_overall_stat>
-					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 03</games_played_fall_guy_stat>
-					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 03</games_played_mayhem_stat>
-					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 03</games_played_rampage_stat>
-					<time_of_day>21:00</time_of_day>
-					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 03</games_played_total_chaos_stat>
-					<image_name>mp_thumb_scrapheap</image_name>
-					<Load_image>Scrap Heap</Load_image>
-					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 07</games_played_walker_stat>
-					<Challenge_Set>scrapheap</Challenge_Set>
-				</map>				
-				<map>
 					<file_name>wc4</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC4</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 04</games_played_overall_stat>
@@ -173,20 +159,6 @@
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 03</games_played_walker_stat>
 					<Challenge_Set>vista</Challenge_Set>
 				</map>
-				<map>
-					<file_name>wc5</file_name>
-					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC5</display_name>
-					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 05</games_played_overall_stat>
-					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 05</games_played_fall_guy_stat>
-					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 05</games_played_mayhem_stat>
-					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 05</games_played_rampage_stat>
-					<time_of_day>06:00</time_of_day>
-					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 05</games_played_total_chaos_stat>
-					<image_name>mp_thumb_fortress</image_name>
-					<Load_image>Fortress</Load_image>
-					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 08</games_played_walker_stat>
-					<Challenge_Set>fortress</Challenge_Set>
-				</map>				
 				<map>
 					<file_name>wc6</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC6</display_name>
@@ -202,20 +174,6 @@
 					<Challenge_Set>factory</Challenge_Set>
 				</map>
 				<map>
-					<file_name>wc7</file_name>
-					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC7</display_name>
-					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 07</games_played_overall_stat>
-					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 07</games_played_fall_guy_stat>
-					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 07</games_played_mayhem_stat>
-					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 07</games_played_rampage_stat>
-					<time_of_day>19:00</time_of_day>
-					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 07</games_played_total_chaos_stat>
-					<image_name>mp_thumb_gulch</image_name>
-					<Load_image>Gulch</Load_image>
-					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 09</games_played_walker_stat>
-					<Challenge_Set>gulch</Challenge_Set>
-				</map>				
-				<map>
 					<file_name>wc8</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC8</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 08</games_played_overall_stat>
@@ -230,20 +188,6 @@
 					<Challenge_Set>cascade</Challenge_Set>
 				</map>
 				<map>
-					<file_name>wc9</file_name>
-					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC9</display_name>
-					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 09</games_played_overall_stat>
-					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 09</games_played_fall_guy_stat>
-					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 09</games_played_mayhem_stat>
-					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 09</games_played_rampage_stat>
-					<time_of_day>18:00</time_of_day>
-					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 09</games_played_total_chaos_stat>
-					<image_name>mp_thumb_transmission</image_name>
-					<Load_image>Transmission</Load_image>
-					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 10</games_played_walker_stat>
-					<Challenge_Set>transmission</Challenge_Set>
-				</map>				
-				<map>
 					<file_name>wc10</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC10</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 10</games_played_overall_stat>
@@ -256,6 +200,62 @@
 					<Load_image>Pipeline</Load_image>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 06</games_played_walker_stat>
 					<Challenge_Set>pipeline</Challenge_Set>
+				</map>
+				<map>
+					<file_name>wc3</file_name>
+					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC3</display_name>
+					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 03</games_played_overall_stat>
+					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 03</games_played_fall_guy_stat>
+					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 03</games_played_mayhem_stat>
+					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 03</games_played_rampage_stat>
+					<time_of_day>21:00</time_of_day>
+					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 03</games_played_total_chaos_stat>
+					<image_name>mp_thumb_scrapheap</image_name>
+					<Load_image>Scrap Heap</Load_image>
+					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 07</games_played_walker_stat>
+					<Challenge_Set>scrapheap</Challenge_Set>
+				</map>
+				<map>
+					<file_name>wc5</file_name>
+					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC5</display_name>
+					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 05</games_played_overall_stat>
+					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 05</games_played_fall_guy_stat>
+					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 05</games_played_mayhem_stat>
+					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 05</games_played_rampage_stat>
+					<time_of_day>06:00</time_of_day>
+					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 05</games_played_total_chaos_stat>
+					<image_name>mp_thumb_fortress</image_name>
+					<Load_image>Fortress</Load_image>
+					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 08</games_played_walker_stat>
+					<Challenge_Set>fortress</Challenge_Set>
+				</map>
+				<map>
+					<file_name>wc7</file_name>
+					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC7</display_name>
+					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 07</games_played_overall_stat>
+					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 07</games_played_fall_guy_stat>
+					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 07</games_played_mayhem_stat>
+					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 07</games_played_rampage_stat>
+					<time_of_day>19:00</time_of_day>
+					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 07</games_played_total_chaos_stat>
+					<image_name>mp_thumb_gulch</image_name>
+					<Load_image>Gulch</Load_image>
+					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 09</games_played_walker_stat>
+					<Challenge_Set>gulch</Challenge_Set>
+				</map>
+				<map>
+					<file_name>wc9</file_name>
+					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC9</display_name>
+					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 09</games_played_overall_stat>
+					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 09</games_played_fall_guy_stat>
+					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 09</games_played_mayhem_stat>
+					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 09</games_played_rampage_stat>
+					<time_of_day>18:00</time_of_day>
+					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 09</games_played_total_chaos_stat>
+					<image_name>mp_thumb_transmission</image_name>
+					<Load_image>Transmission</Load_image>
+					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 10</games_played_walker_stat>
+					<Challenge_Set>transmission</Challenge_Set>
 				</map>
 			</maps>
 			<_Editor>
