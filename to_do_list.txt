@@ -1,6 +1,4 @@
 [HIGH PRIORITY]
-* Doublecheck all wc and siege map backpacks, ctf flags and damage control targets
-* Doublecheck flags on all maps: flag 4 on rfg_movers, persistent flag on spawn nodes, spectator cameras and spawns, gamemode flags
 * XML validate all files
 * Use ZIP with store option for final version because SF has slow extraction with 7z
 * Misc and table xdeltas seem to be broken, just use full files for misc and table in final version
@@ -10,6 +8,7 @@
 * Doublecheck if buildings collapse on Frost
 * Move flag stands on Framework, EDF spawn on top of the hill behind the buildings, Guerrillas spawn at the back near the mines
 * Test new minefield location on scrapheap
+* Remove smoke from smokestack outside the map on GFWL
 
 [MEDIUM PRIORITY] 
 * Implement Spiker, Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
@@ -44,3 +43,5 @@
 * Does making ladders orphans make them remain usable for longer when buildings are damaged?
 * Add more DLC weapon spawns to all maps
 * Fallfactor and Overpass has barrels, would be good in wrecking crew
+* Add team spawn children to siege objectives on the new siege maps
+* Framework doesn't work well in wrecking crew, a lot of the objects don't spawn
