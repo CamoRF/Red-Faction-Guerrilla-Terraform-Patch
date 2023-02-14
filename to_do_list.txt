@@ -1,40 +1,18 @@
-[HIGH PRIORITY]
-* XML validate all files
-* Use ZIP with store option for final version because SF has slow extraction with 7z
-* Misc and table xdeltas seem to be broken, just use full files for misc and table in final version
+v1.07 TESTING
+-------------
 * Test spiker weapon with another player, if host can only see the projectile disable the weapon again 
 * Test propane tank weapons placed on Ruins with another player
 * Doublecheck out of bounds exploits on Downfall
 * Doublecheck if buildings collapse on Frost
-* Move flag stands on Framework, EDF spawn on top of the hill behind the buildings, Guerrillas spawn at the back near the mines
 * Test new minefield location on scrapheap
-* Remove smoke from smokestack outside the map on GFWL due to alpha flicker
+* Test siege on division
 
-[MEDIUM PRIORITY] 
-* Implement Spiker, Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
-* Add new character thumbnails when peg tool is out 
-
-[LOW PRIORITY]
-* Grenade and fist weapons
-* Singularity that explodes in 1 second named Instant Singularity Bomb
-* Improved Loading Screens Add-on
-* Upscaled human textures
-* Upscaled weapon textures
-* Map Pack: Aerial Excavation, KOTH Equilibrium, Interior Only Map, KOTH Sandpit, Quarantine Siege map for other gamemodes
-* Re-implement vanilla wc maps with only fixes as an add-on
-* Re-implement singleplayer only changes like the spawns, dlc vehicles etc as an add-on
+MAPS
+----
 * Add more backpack spawns to Siege maps when played in other modes
-* Singleplayer stuff: territories.xtbl has values for EDF in completed sectors, merge in changes from the community pack by formatting his .xtbl files and comparing them to vanilla so changes can be commented in etc
-* Add missing vanilla value comments from some files, some of them have a note in the .xtbl already
-* Add formatted versions of optimized files
-* Fix DLC weapon icons and reticules by figuring out how to port them to the base game, something to do with bitmap.xtbl and peg files
-* Re-implement DLC weapons in singleplayer
-* Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
-* Add Garrison, Framework, Excavation, Sandpit, Rift, Quarantine, Deadzone & Crash Site to Wrecking crew with objectives, weapons removed and barrels added around the maps; include it in the add-on that restores vanilla wrecking crew maps
+* Framework has the mp version of the crane?
 * Add propane tank weapons to siege maps near attacker spawn
 * Try to fix floating crates on Expansion, floating smokestack and crane on Frost
-* Add DLC weapons to Wrecking Crew
-* Framework has the mp version of the crane?
 * Transfer artillery sign to Frost
 * Add fire near explosion and collapsing buildings on Frost 
 * Garrison time of day on Frost?
@@ -43,6 +21,67 @@
 * Add Damage Control to Ruins
 * Does making ladders orphans make them remain usable for longer when buildings are damaged?
 * Add more DLC weapon spawns to all maps
-* Fallfactor and Overpass have barrels, would be good in wrecking crew
 * Add team spawn children to siege objectives on the new siege maps
+* Add more spectator cameras outside the siege version of Quarantine
+* Remove smoke from smokestack outside the map on GFWL due to alpha flicker
+* Move flag stands on Framework, EDF spawn on top of the hill behind the buildings, Guerrillas spawn at the back near the mines
+
+SINGLEPLAYER 
+------------
+* Re-implement DLC weapons in singleplayer
+* Re-implement vehicle and npc overhaul 
+* Re-implement DLC vehicles
+* Re-implement misc changes (see reverted changes in changelog.txt)
+* Try to make it so EDF withdraw from liberated sectors (see territories.xtbl)
+* I think there were values related to the spawn distance for NPCs in tweak_table.xtbl or other squad files?
+* Implement changes from the Community Pack
+
+WEAPONS
+-------
+* Grenade and fist weapons
+* Singularity that explodes in 1 second named Instant Singularity Bomb
+* Fix DLC weapon icons and reticules by figuring out how to port them to the base game, something to do with bitmap.xtbl and peg files
+* Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
+* Implement Spiker, Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
+
+CHARACTERS
+----------
+* Add new character thumbnails when peg tool is out 
+
+TEXTURE FIXES
+-------------
+* See known bugs in changelog.txt
+
+WRECKING CREW MODE
+------------------
+* Add Garrison, Framework, Excavation, Sandpit, Rift, Quarantine, Deadzone & Crash Site to Wrecking crew with objectives, weapons removed and barrels added around the maps; include it in the add-on that restores vanilla wrecking crew maps
+* Re-implement vanilla wc maps with only fixes as an add-on
+* Add DLC weapons to Wrecking Crew
+* Fallfactor and Overpass have barrels, would be good in wrecking crew
 * Framework doesn't work well in wrecking crew, a lot of the objects don't spawn
+
+MISC
+----
+* Add missing vanilla value comments from some files, some of them have a note in the .xtbl already
+* Add formatted versions of optimized files
+* XML validate all files
+
+OUT OF SCOPE/ADD-ONS
+---------------------
+* Improved Loading Screens
+* Upscaled human textures
+* Upscaled weapon textures
+* Map Pack: Aerial Excavation, KOTH Equilibrium, Interior Only Map, KOTH Sandpit, Quarantine Siege map for other gamemodes
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -460,7 +460,6 @@ v1.064.2 ALPHA HOTFIX CHANGES
 -------------------
 v1.07 ALPHA CHANGES
 -------------------
-The goal with this version was to re-build the majority of the patch from the ground up to reduce the size of the patch significantly, remove out of scope singleplayer changes that were causing issues, fix as many bugs as possible and most importantly 
 
 [Misc]
 * The majority of the patch has been re-built from the ground up to reduce the download size significantly, the total size of the patch is now only 800mb~
