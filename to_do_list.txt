@@ -25,6 +25,11 @@ MAPS
 * Add more spectator cameras outside the siege version of Quarantine
 * Remove smoke from smokestack outside the map on GFWL due to alpha flicker
 * Move flag stands on Framework, EDF spawn on top of the hill behind the buildings, Guerrillas spawn at the back near the mines
+* Double check all spawns have "initial spawn" and "respawn enabled" along with neutral spawn gamemode flags disabled in CTF on all regular mp maps
+* Doublecheck all backpack racks and DCT racks are persistent, along with their children
+* Imperial: 0204monument_anniv_a.cchk_pc only requires flag 4 on Imperial
+* Doublecheck all spawns have initial spawn and respawn bools
+* Enable all objects in inspector in case there's weird cover nodes etc on all maps
 
 SINGLEPLAYER 
 ------------
