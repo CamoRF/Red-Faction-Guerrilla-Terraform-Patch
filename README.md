@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/Logo_Temp.png?raw=true "Logo")
+![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/Logo.png?raw=true "Logo")
 
 - Version: v1.07 ALPHA
 - Date: XX-X-2023
@@ -17,7 +17,7 @@
 - [v1.063 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6269)
 - [v1.064 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6340)
 - [v1.064.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6362)
-- [v1.064.2 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6362)
+- [v1.064.2 ALPHA HOTFIX](https://www.factionfiles.com/ff.php?action=file&id=6388)
 - [v1.07 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6362)
 
 # Changelog

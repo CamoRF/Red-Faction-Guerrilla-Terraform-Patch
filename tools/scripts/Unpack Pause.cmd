@@ -1,2 +1,2 @@
-RfgUtil.exe dlc_auto_pistol_high.str2_pc
+RfgUtil.exe humans.vpp_pc
 pause
