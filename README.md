@@ -36,11 +36,12 @@ See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraf
 - [Notepad++](https://notepad-plus-plus.org/)
 - [RSL](https://github.com/rsl-dev/RSL/releases)
 - [Scripts](https://github.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/tree/main/tools/scripts)
+- [xdelta UI](https://www.factionfiles.com/ff.php?action=file&id=5686)
 
 # Credits
 - moneyl for lots of help & developing all the tools that make this project possible including Nanoforge, AsmTool, RfgUtil & RSL.
 - rast1234 for developing SyncFaction that makes it easy for users to install this mod automatically and stay up to date.
 - Gibbed for his work on other tools used in the development of this mod.
-- ATMLVE for helping with adding weapon spawns and various other fixes to the Wrecking Crew maps.
+- ATMLVE for helping with adding some of the weapon spawns and various other fixes to the Wrecking Crew maps.
 - arrows for his previous work on porting DLC weapons and vehicles to the base game and developing mTool.
 - Goober and the Faction Files Community. [Discord Link](https://discord.com/invite/factionfiles)
