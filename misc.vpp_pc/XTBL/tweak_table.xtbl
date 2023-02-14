@@ -290,7 +290,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Marauder_kill_taunt_chance</Name>
-			<Value>75</Value> <!--From 50-->
+			<Value>50</Value> <!--Maybe 75 in gameplay add-on-->
 			<Description>Chance a marauder will do a celebratory taunt/cheer when he kills his target.</Description>
 			<_Editor>
 				<Category>AI:Marauders</Category>
@@ -402,7 +402,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Civilian_avoid_player_thrown_weapon_dist</Name>
-			<Value>1.0</Value> <!--From 3.0-->
+			<Value>1.0</Value> <!--Maybe 3.0 in gameplay add-on-->
 			<Description>Distance at which a civilian will panick when the player throws a weapon in his/her vicinity.  Overrides the normal logic, which takes explosion radius into account.</Description>
 			<_Editor>
 				<Category>AI:vs. Player</Category>
@@ -482,7 +482,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Killing_spree_start_period_ms</Name>
-			<Value>14000</Value> <!--From 7000-->
+			<Value>7000</Value> <!--Maybe x2 in gameplay add-on-->
 			<Description>How long the HUD is up after killing spree starts.</Description>
 			<_Editor>
 				<Category>Activities:Killing Spree</Category>
@@ -490,7 +490,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Killing_spree_additional_period_ms</Name>
-			<Value>14000</Value> <!--From 7000-->
+			<Value>7000</Value> <!--Maybe x2 in gameplay add-on-->
 			<Description>Player must get kills no more then this amount of time apart to keep it going.</Description>
 			<_Editor>
 				<Category>Activities:Killing Spree</Category>
@@ -2151,7 +2151,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Salvage_touch_delay_ms</Name>
-			<Value>750</Value> <!--From 1000-->
+			<Value>1000</Value> <!--Maybe 750?-->
 			<Description>In ms, the delay between when salvage is spawned, and how soon you can pick it up.  This prevents salvage spawned in your face from using the sledge hammer from being picked up immediately.</Description>
 			<_Editor>
 				<Category>Miscellaneous</Category>
@@ -2551,8 +2551,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_player_damage_friendly</Name>
-			<Value>1.0</Value>
-			<!--From 0.3-->
+			<Value>1.0</Value> <!--From 0.3-->
 			<Description>Multiplier used to scale down damage that the player does to friendly humans. (Single player only)</Description>
 			<_Editor>
 				<Category>Weapons</Category>
