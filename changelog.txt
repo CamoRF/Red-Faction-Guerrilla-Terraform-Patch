@@ -510,6 +510,7 @@ v1.07 ALPHA CHANGES
 * Ruins: Re-implemented map with backpack spawns, heat haze effect, propane tank weapon, various fixes & more
 * GFWL/Nordic Bonus: Adjusted weather, reduced the sun glare, added heat haze, removed the shipping containers + barrels on top of the cliff, various fixes & more
 * Scrapheap: Adjusted the minefield
+* Improvements to weather and lighting on various maps
 
 [Interface]
 * Reverted adding higher resolution loading screens & thumbnails

@@ -296,7 +296,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-<!--END-->	
+<!--END-->
 <!--START NEW Characters ADDED-->
 				<Character_Element>
 					<Character_Name>mason</Character_Name>
@@ -1328,8 +1328,7 @@
 							<backpack_offset>
 								<X>.01</X>
 								<Y>-.02</Y>
-								<Z>.08</Z>
-								<!--From .03-->
+								<Z>.08</Z> <!--From .03-->
 							</backpack_offset>
 						</backpack>
 						<backpack>
