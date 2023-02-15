@@ -7,6 +7,11 @@ v1.07 TESTING
 * Test new minefield location on scrapheap
 * Test siege on division
 
+HIGH PRIORITY
+--------------
+* Optimize files in XTBL folder and remove the table description section first when files are final
+* Frost has asm .xml in the map?
+
 MAPS
 ----
 * Add more backpack spawns to Siege maps when played in other modes
@@ -61,7 +66,8 @@ WRECKING CREW MODE
 ------------------
 * Add Garrison, Framework, Excavation, Sandpit, Rift, Quarantine, Deadzone & Crash Site to Wrecking crew with objectives, weapons removed and barrels added around the maps; include it in the add-on that restores vanilla wrecking crew maps
 * Re-implement vanilla wc maps with only fixes as an add-on
-* Add DLC weapons to Wrecking Crew
+* Add DLC weapons to Wrecking Crew [done]
+* Add Kaboom to Wrecking Crew [done]
 * Fallfactor and Overpass have barrels, would be good in wrecking crew
 * Framework doesn't work well in wrecking crew, a lot of the objects don't spawn
 
