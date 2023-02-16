@@ -14,8 +14,11 @@
 		<mp_weapons>
 			<Name>edf_subverter</Name>
 			<Damage_Scaling_Min>
-				<Player_Damage>43</Player_Damage>
+				<Player_Damage>43</Player_Damage> <!--From 45-->
 			</Damage_Scaling_Min>
+			<Damage_Scaling_Max>
+				<Player_Damage>35</Player_Damage> <!--From 33-->
+			</Damage_Scaling_Max>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

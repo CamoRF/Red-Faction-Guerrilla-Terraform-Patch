@@ -1,8 +1,202 @@
 <root>
 	<Table>
-<!--NOTE: current highest <Unique_ID>144</Unique_ID>-->	
-<!--START FUTURE DLC Weapons ADDED-->
-<!--	<Weapon>
+<!--NOTE: current highest <Unique_ID>149</Unique_ID>-->
+		<Weapon>
+			<Name>camo_grenade</Name>
+			<Weapon_Class>thrown_charge</Weapon_Class>
+			<Trigger_Type>single</Trigger_Type>
+			<Ammo_Type>thrown</Ammo_Type>
+			<Magazine_Size>1</Magazine_Size>
+			<Max_Rounds>18</Max_Rounds>
+			<Range_Max>25</Range_Max>
+			<Range_Red>25</Range_Red>
+			<Default_Refire_Delay>2000</Default_Refire_Delay>
+			<Damage_Scaling_Max>
+				<NPC_Damage>1000</NPC_Damage>
+				<Player_Damage>1000</Player_Damage>
+				<Vehicle_Damage>-1</Vehicle_Damage>
+				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
+			</Damage_Scaling_Max>
+			<Explosion>grenade_mp</Explosion>
+			<Spread_Max>1</Spread_Max>
+			<Spread_Min>1</Spread_Min>
+			<Projectile_Info>
+				<Model>grenade</Model>
+				<Start_Speed>20</Start_Speed>
+				<Max_Speed>25</Max_Speed>
+				<Fuse_Time>3000</Fuse_Time>
+				<Mass>2</Mass>
+				<Linear_Damp>0</Linear_Damp>
+				<Angular_Damp>0</Angular_Damp>
+				<Restitution>1.0</Restitution>
+				<Friction>0.1</Friction>
+				<Angular_Velocity>
+					<X>25</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Angular_Velocity>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+				<Foley_Name></Foley_Name>
+				<Projectile_Flags>
+					<Flag>align orient to flightpath</Flag>
+					<Flag>bounce on impact</Flag>
+					<Flag>tossable</Flag>
+					<Flag>detonate on explosion impact</Flag>
+				</Projectile_Flags>
+				<Time_Until_Propelled>0.0</Time_Until_Propelled>
+				<Time_Until_Prop_Expire>5000.0</Time_Until_Prop_Expire>
+				<Sound>WEP_GRENADE_RELEASE</Sound>
+				<Attached_Effect2>wep_remote_charge_light_a</Attached_Effect2>
+				<Attached_Effect>wep_edf_grenade_trail</Attached_Effect>
+			</Projectile_Info>
+			<_Editor>
+				<Category>Entries:EDF</Category>
+			</_Editor>
+			<Animation_Group>remote charge</Animation_Group>
+			<Flags>
+				<Flag>shatter</Flag>
+				<Flag>disable player cover</Flag>
+				<Flag>draw projectile in opposite hand</Flag>
+				<Flag>mp selectable</Flag>
+			</Flags>
+			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
+			<Max_Engagement_Distance>25</Max_Engagement_Distance>
+			<Inventory_Item>camo_grenade</Inventory_Item>
+			<Item_3d>grenade</Item_3d>
+			<MeleeAttacks>
+				<StandingPrimary>remote_charge_melee</StandingPrimary>
+				<StandingSecondary>remote_charge_punch</StandingSecondary>
+				<StandingTertiary>remote_charge_melee</StandingTertiary>
+				<CrouchingPrimary>remote_charge_melee</CrouchingPrimary>
+				<CrouchingSecondary>remote_charge_punch</CrouchingSecondary>
+				<CrouchingTertiary>remote_charge_melee</CrouchingTertiary>
+			</MeleeAttacks>	
+			<FiringRate>
+				<FarSingleShotInterval>1000</FarSingleShotInterval>
+				<Randomness>150</Randomness>
+			</FiringRate>
+			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
+			<Sounds>
+				<Special_Sound>WEP_GRENADE_EXP_PRE</Special_Sound>
+				<NPC_Fire_Sounds>
+					<NPC_Fire_Sound>WEP_GRENADE_ARM</NPC_Fire_Sound>
+				</NPC_Fire_Sounds>
+			</Sounds>
+			<Reload_Delay>150</Reload_Delay>
+			<Ammo_Box_Restock>18</Ammo_Box_Restock>
+			<Num_Magazines>18</Num_Magazines>
+			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
+			<dummy>False</dummy>
+			<Unique_ID>145</Unique_ID>
+			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
+			<Default_team>EDF</Default_team>
+			<aim_assist>0.5</aim_assist>
+			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<icon_name>ui_badge_icon_skull</icon_name>
+			<reticule_name>ui_hud_reti_mines</reticule_name>
+		</Weapon>
+		<Weapon>
+			<Name>camo_nano</Name>
+			<Weapon_Class>thrown_charge</Weapon_Class>
+			<Trigger_Type>single</Trigger_Type>
+			<Ammo_Type>thrown</Ammo_Type>
+			<Magazine_Size>1</Magazine_Size>
+			<Max_Rounds>18</Max_Rounds>
+			<Range_Max>25</Range_Max>
+			<Range_Red>25</Range_Red>
+			<Default_Refire_Delay>0</Default_Refire_Delay>
+			<Damage_Scaling_Max>
+				<NPC_Damage>25</NPC_Damage>
+				<Player_Damage>25</Player_Damage>
+				<Vehicle_Damage>-1</Vehicle_Damage>
+				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
+			</Damage_Scaling_Max>
+			<Explosion>nano_grenade</Explosion>
+			<Spread_Max>0</Spread_Max>
+			<Spread_Min>0</Spread_Min>
+			<Projectile_Info>
+				<Model>grenade</Model>
+				<Start_Speed>20</Start_Speed>
+				<Max_Speed>25</Max_Speed>
+				<Fuse_Time>1000</Fuse_Time>
+				<Mass>2</Mass>
+				<Linear_Damp>0</Linear_Damp>
+				<Angular_Damp>0</Angular_Damp>
+				<Restitution>1.0</Restitution>
+				<Friction>0.1</Friction>
+				<Angular_Velocity>
+					<X>25</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Angular_Velocity>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>0.0</Z>
+				<Foley_Name></Foley_Name>
+				<Projectile_Flags>
+					<Flag>bounce on impact</Flag>
+					<Flag>detonate on explosion impact</Flag>
+					<Flag>align orient to flightpath</Flag>
+					<Flag>tossable</Flag>
+				</Projectile_Flags>
+				<Time_Until_Propelled>0.0</Time_Until_Propelled>
+				<Time_Until_Prop_Expire>5000.0</Time_Until_Prop_Expire>
+				<Sound>WEP_GRENADE_RELEASE</Sound>
+				<Attached_Effect2>wep_remote_charge_light_a</Attached_Effect2>
+				<Attached_Effect>wep_edf_grenade_trail</Attached_Effect>
+			</Projectile_Info>
+			<_Editor>
+				<Category>Entries:Marauder</Category>
+			</_Editor>
+			<Animation_Group>remote charge</Animation_Group>
+			<Flags>
+				<Flag>held in left hand</Flag>
+				<Flag>disable player cover</Flag>
+				<Flag>draw projectile in opposite hand</Flag>
+				<Flag>mp selectable</Flag>
+			</Flags>
+			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
+			<Max_Engagement_Distance>25</Max_Engagement_Distance>
+			<Inventory_Item>camo_nano</Inventory_Item>
+			<Item_3d>grenade</Item_3d>
+			<MeleeAttacks>
+				<StandingPrimary>remote_charge_melee</StandingPrimary>
+				<StandingSecondary>remote_charge_punch</StandingSecondary>
+				<StandingTertiary>remote_charge_melee</StandingTertiary>
+				<CrouchingPrimary>remote_charge_melee</CrouchingPrimary>
+				<CrouchingSecondary>remote_charge_punch</CrouchingSecondary>
+				<CrouchingTertiary>remote_charge_melee</CrouchingTertiary>
+			</MeleeAttacks>	
+			<FiringRate>
+				<FarSingleShotInterval>1000</FarSingleShotInterval>
+				<Randomness>150</Randomness>
+			</FiringRate>
+			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
+			<Sounds>
+				<Sound_Group>assault rifle</Sound_Group>
+				<Special_Sound>WEP_NANO_RIFLE_CLOUD</Special_Sound>
+				<Secondary_Sound>WEP_NANO_RIFLE_CLOUD_FLESH</Secondary_Sound>
+				<NPC_Fire_Sounds>
+					<NPC_Fire_Sound>WEP_NANO_RIFLE_CLOUD_FLESH</NPC_Fire_Sound>
+				</NPC_Fire_Sounds>
+			</Sounds>
+			<Reload_Delay>150</Reload_Delay>
+			<Ammo_Box_Restock>18</Ammo_Box_Restock>
+			<Num_Magazines>18</Num_Magazines>
+			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
+			<dummy>False</dummy>
+			<Unique_ID>146</Unique_ID>
+			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
+			<Default_team>Marauder</Default_team>
+			<aim_assist>0.5</aim_assist>
+			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<icon_name>ui_badge_icon_ae_circle</icon_name>
+			<reticule_name>ui_hud_reti_mines</reticule_name>
+		</Weapon>		
+<!--START DLC Weapons ADDED-->
+		<Weapon>
 			<Name>mar_charge_placer</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
@@ -79,14 +273,13 @@
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<reticule_name>ui_hud_reti_maraudercharge</reticule_name>
 			<dummy>False</dummy>
-			<Unique_ID>97</Unique_ID>
+			<Unique_ID>147</Unique_ID>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
 			<Max_Rounds_Upgrade>50</Max_Rounds_Upgrade>
 			<Default_team>Marauder</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
 			<aim_assist>0.5</aim_assist>
-		</Weapon>-->
-<!--		
+		</Weapon>		
 		<Weapon>
 			<Name>royal_sword</Name>
 			<Weapon_Class>melee_gutter</Weapon_Class>
@@ -117,6 +310,7 @@
 				<Flag>shatter</Flag>
 				<Flag>held in left hand</Flag>
 				<Flag>disable player cover</Flag>
+				<Flag>mp selectable</Flag>
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
 			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
@@ -149,7 +343,7 @@
 			<icon_name>ui_hud_weapon_icon_royalsword</icon_name>
 			<reticule_name>ui_hud_reti_royalsword</reticule_name>
 			<dummy>False</dummy>
-			<Unique_ID>98</Unique_ID>
+			<Unique_ID>148</Unique_ID>
 			<Melee_Group>Gutter</Melee_Group>
 			<Default_team>Marauder</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
@@ -179,6 +373,7 @@
 				<Flag>shatter</Flag>
 				<Flag>held in left hand</Flag>
 				<Flag>disable player cover</Flag>
+				<Flag>mp selectable</Flag>
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
 			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
@@ -209,13 +404,11 @@
 			<reticule_name>ui_hud_reti_pickaxe</reticule_name>
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
-			<Unique_ID>95</Unique_ID>
+			<Unique_ID>149</Unique_ID>
 			<Default_team>Marauder</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
 			<aim_assist>0.75</aim_assist>
-		</Weapon>-->
-<!--END-->		
-<!--START DLC Weapons ADDED-->
+		</Weapon>		
 		<Weapon>
 			<Name>EDF_Super_Gauss</Name>
 			<icon_name>ui_hud_weapon_icon_gauss</icon_name> <!--From ui_hud_weapon_icon_supergauss-->

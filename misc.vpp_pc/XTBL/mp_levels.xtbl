@@ -16,7 +16,7 @@
 			<dust_enabled>True</dust_enabled> <!--From False-->
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_DLC_WC6</Display_name> <!--FROM MENU_LEVEL_DLC_WC6-->
+			<Display_name>MENU_LEVEL_DLC_WC6</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>

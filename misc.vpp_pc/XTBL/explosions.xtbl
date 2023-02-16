@@ -41,7 +41,7 @@
 				<Flag>no gibs</Flag>
 			</Flags>
 		</Explosion>
-<!--		<Explosion>
+		<Explosion>
 			<Name>DLC_remote_charge</Name>
 			<Radius>3.0</Radius>
 			<AI_Sound_Radius>75</AI_Sound_Radius>
@@ -77,7 +77,7 @@
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>-->		
+		</Explosion>	
 <!--END-->
 <!--START New Explosions Added-->
 		<Explosion>

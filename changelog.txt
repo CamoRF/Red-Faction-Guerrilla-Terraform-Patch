@@ -4,8 +4,8 @@
 
 Author: Camo
 Version: v1.07 ALPHA
-Date: XX-X-2023
-Build: X
+Date: 16-2-2023
+Build: 902
 
 -----------------------
 INTIAL RELEASE CHANGES
@@ -471,6 +471,12 @@ v1.07 ALPHA CHANGES
 * Reverted misc improvements/changes/additions for now
 * Reverted changes to DLC for now due to possible issues
 
+[Wrecking Crew]
+* Restored vanilla versions of the maps with bug fixes only
+* Mode now works again with barrels, no weapon or backpack spawns etc
+* Added misslepod DLC weapon
+* Added super gauss rifle DLC weapon
+
 [Fixes]
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
@@ -481,6 +487,7 @@ v1.07 ALPHA CHANGES
 * Fixed gap to void in terrain on Frost
 * Fixed multiple out of bounds exploits on Frost
 * Fixed two additional out of bounds exploits on Downfall
+* Fixed a hole where you could get stuck on Repercussion
 * Fixed issue with extreme cloud speeds
 * Fixed some issues with broken missions in singleplayer
 * Fixed issue with some of the recent stealth pack rebalance changes not applying
@@ -490,6 +497,12 @@ v1.07 ALPHA CHANGES
 * Various other improvements, adjustments & fixes to player, weapon & backpack spawns
 * Various other improvements, adjustments & fixes to all multiplayer & wrecking crew maps
 * Various fixes, optimizations & stability improvements
+
+[New Maps]
+* Added Aerial Excavation by ATMLVE 
+* Added Equilbrium King of the Hill by ATMLVE
+* Added Quarantine siege version that can be played in other gametypes 
+* Added Sandpit King of the Hill
 
 [Maps]
 * Added backpack spawns to all Wrecking Crew maps
@@ -503,6 +516,7 @@ v1.07 ALPHA CHANGES
 * Quarantine: Added two more smokestack objectives in siege mode, fixed issue with minefields not working on other gamemodes
 * Cascade: Added another siege objective and two stealth backpack spawns near the solar towers
 * Watchtower: Improved backpack spawn locations
+* Watchtower: Added King of the Hill mode in Damage Control
 * Complex: Added two additional damage control targets, moved the rocket launcher spawn to a more hidden location, added an additional hidden kaboom backpack rack
 * Expansion: Added team spawns
 * Transmission: Added forcefield to indicate where the invisible wall is
@@ -584,6 +598,9 @@ v1.07 ALPHA CHANGES
 [Shotgun]
 * Added smoke to muzzle flash
 
+[Subverter] 
+* Player damage at max range increased to 35 from 33
+
 ------------
 |KNOWN BUGS|
 ------------
@@ -611,7 +628,6 @@ v1.07 ALPHA CHANGES
 * Abandoned terrain collision glitch near forcefield near 335.016, -0.205, -321.099
 * Expansion: crates on top of the bridge float even when the bridge is destroyed for an unknown reason
 * Frost: sections of the crane & smokestack can float when they are partially destroyed, could be fixed by transferring a multiplayer version of the crane to the map that doesn't use constraints
-* Frost: minor gap to void in terrain near 218.371, -21.350, -298.267
 * Ruins: Damage Control currently crashes for unknown reason so that mode isn't implemented on this map yet
 
 [Textures]

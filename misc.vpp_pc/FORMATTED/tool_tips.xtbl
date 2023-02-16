@@ -41,7 +41,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Description>TOOLTIP_NEW_ACTIVITY_DESC</Description> <!--HELP RED FACTION MEMBERS BY JOINING...--->
+			<Description>TOOLTIP_NEW_ACTIVITY_DESC</Description> <!--HELP RED FACTION MEMBERS BY JOINING-->
 			<Screen_Loc>South West</Screen_Loc>
 			<Arrow_Loc>South West</Arrow_Loc>
 			<Duration>5000</Duration>

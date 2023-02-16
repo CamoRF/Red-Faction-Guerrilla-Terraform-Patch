@@ -4,19 +4,19 @@
 			<Name>Aerial Excavation</Name>
 			<Filename>mp_air</Filename>
 			<_Editor>
-				<Category>Entries:General</Category>
+				<Category>Entries:DLC_2</Category>
 			</_Editor>
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_ROUND_ABOUT_DESC</Description>
+			<Description>0</Description>
 			<time_of_day>16:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_excavation</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>25</wind_intensity>
 			<wind_direction>190</wind_direction>
-			<Display_name>MENU_CUSTOM_GAME</Display_name> <!--From MENU_LEVEL_EXCAVATION-->
+			<Display_name>NO DISPLAY NAME</Display_name> <!--From MENU_LEVEL_EXCAVATION-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -36,7 +36,7 @@
 			<Name>Equilibrium KOTH</Name>
 			<Filename>mp_koth</Filename>
 			<_Editor>
-				<Category>Entries:General</Category>
+				<Category>Entries:DLC_2</Category>
 			</_Editor>
 			<player_weapons>
 				<Element>m16</Element>
@@ -71,12 +71,12 @@
 			<Name>Sand Pit KOTH</Name>
 			<Filename>mp_koth2</Filename>
 			<_Editor>
-				<Category>Entries:General</Category>
+				<Category>Entries:DLC_2</Category>
 			</_Editor>
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_SAND_PIT_DESC</Description>
+			<Description>0</Description>
 			<time_of_day>15:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_sandpit</level_image_name>
@@ -100,12 +100,12 @@
 			<Name>Crater</Name>
 			<Filename>mp_crater</Filename>
 			<_Editor>
-				<Category>Entries:General</Category>
+				<Category>Entries:DLC_2</Category>
 			</_Editor>
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>2-4 player map, just buildings</Description>
+			<Description>0</Description>
 			<time_of_day>07:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_quarantine</level_image_name>

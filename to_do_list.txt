@@ -64,18 +64,16 @@ TEXTURE FIXES
 
 WRECKING CREW MODE
 ------------------
-* Add Garrison, Framework, Excavation, Sandpit, Rift, Quarantine, Deadzone & Crash Site to Wrecking crew with objectives, weapons removed and barrels added around the maps; include it in the add-on that restores vanilla wrecking crew maps
-* Re-implement vanilla wc maps with only fixes as an add-on
+* Re-implement vanilla wc maps with only fixes as an add-on [files ready]
 * Add DLC weapons to Wrecking Crew [done]
 * Add Kaboom to Wrecking Crew [done]
-* Fallfactor and Overpass have barrels, would be good in wrecking crew
-* Framework doesn't work well in wrecking crew, a lot of the objects don't spawn
+* Fallfactor, overpass, deadzone and crash site wrecking crew versions when NF rewrite is out so I can see general movers and fix floating barrels
 
 MISC
 ----
 * Add missing vanilla value comments from some files, some of them have a note in the .xtbl already
 * Add formatted versions of optimized files
-* XML validate all files
+* XML validate all files [done]
 
 OUT OF SCOPE/ADD-ONS
 ---------------------
