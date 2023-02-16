@@ -4,8 +4,8 @@
 
 Author: Camo
 Version: v1.07 ALPHA
-Date: 16-2-2023
-Build: 902
+Date: 17-2-2023
+Build: 337
 
 -----------------------
 INTIAL RELEASE CHANGES
@@ -622,6 +622,7 @@ v1.07 ALPHA CHANGES
 * DLC: Weapons that have been ported to the base game have broken icons (due to the DLC loading weapons.xtbl & overriding the dlc01 weapon xtbl, it should be resolved when reticules & icons can be ported to the base game or a work around is found by changing the dlc weapons to be unique from the ported ones)
 
 [Maps]
+* New maps have placeholder name "CUSTOM GAME", this will be resolved when adding custom strings is possible
 * Most wrecking crew maps are missing team spawns
 * Most wrecking crew maps still need more spawns &/or fixes to existing spawns
 * Wrecking crew maps in general are not final
