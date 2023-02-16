@@ -14,7 +14,7 @@
 		</Inventory_Item>		
 		<Inventory_Item>
 			<Name>camo_grenade</Name>
-			<Display_Name>GRENADE</Display_Name>
+			<Display_Name>WEAP_GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>

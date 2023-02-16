@@ -110,7 +110,7 @@
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
-<!--		<Explosion>
+		<Explosion>
 			<Name>grenade_mp</Name>
 			<Radius>6.2</Radius>
 			<AI_Sound_Radius>50</AI_Sound_Radius>
@@ -216,7 +216,7 @@
 				<Flag>nano dissolve</Flag>
 				<Flag>no gibs</Flag>
 			</Flags>
-		</Explosion>-->	
+		</Explosion>
 <!--END-->	
 		<Explosion>
 			<Name>grenade_exp</Name>

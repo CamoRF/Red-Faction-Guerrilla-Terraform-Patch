@@ -16,7 +16,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>25</wind_intensity>
 			<wind_direction>190</wind_direction>
-			<Display_name>NO DISPLAY NAME</Display_name> <!--From MENU_LEVEL_EXCAVATION-->
+			<Display_name>MENU_CUSTOM_GAME</Display_name> <!--From MENU_LEVEL_EXCAVATION-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>

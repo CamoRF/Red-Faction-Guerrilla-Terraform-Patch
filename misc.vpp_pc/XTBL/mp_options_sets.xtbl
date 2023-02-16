@@ -6,7 +6,7 @@
 				<point_limit>0</point_limit>
 				<num_rounds>1</num_rounds>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<friendly_fire>True</friendly_fire>
+				<friendly_fire>True</friendly_fire> <!--From False-->
 				<respawn_time_seconds>5</respawn_time_seconds>
 				<health_regen_speed_multiplier>1</health_regen_speed_multiplier>
 				<max_health_multiplier>1</max_health_multiplier>
@@ -15,7 +15,7 @@
 				<unlimited_ammo>False</unlimited_ammo>
 				<starting_backpack_wrapper>
 					<starting_backpack>Specific</starting_backpack> <!--From None-->
-					<starting_backpack_type>Fleetfoot</starting_backpack_type>
+					<starting_backpack_type>Fleetfoot</starting_backpack_type> <!--Added-->
 				</starting_backpack_wrapper>
 				<starting_weapon_wrapper>
 					<replace_starting_weapon>
@@ -24,7 +24,7 @@
 				</starting_weapon_wrapper>
 				<third_weapon_wrapper></third_weapon_wrapper>
 				<fourth_weapon_wrapper></fourth_weapon_wrapper>
-				<enemy_icon_visibility>delayed</enemy_icon_visibility>
+				<enemy_icon_visibility>delayed</enemy_icon_visibility> <!--From default-->
 				<backpack_spawns_wrapper>
 					<backpack_spawns>Default</backpack_spawns>
 				</backpack_spawns_wrapper>
@@ -155,11 +155,7 @@
 				<Name>point_limit</Name>
 				<Type>Int</Type>
 				<Display_Name>Point limit</Display_Name>
-				<Description>Bagman/DC: 25-150 (step: 25)
-  150-500 (step: 50)
-CTF: 1-10
-Anarchy: 5-50 (step: 5)
-  50-100 (step: 10)</Description>
+				<Description>Bagman/DC: 25-150 (step: 25) 150-500 (step: 50) CTF: 1-10 Anarchy: 5-50 (step: 5) 50-100 (step: 10)</Description>
 				<Required>false</Required>
 				<Default>0</Default>
 				<MinValue>0</MinValue>
@@ -179,8 +175,7 @@ Anarchy: 5-50 (step: 5)
 				<Name>round_time_limit_minutes</Name>
 				<Type>Int</Type>
 				<Display_Name>Round time limit (minutes)</Display_Name>
-				<Description>1-15 (step: 1)
-15-60 (step: 5)</Description>
+				<Description>1-15 (step: 1) 15-60 (step: 5)</Description>
 				<Required>false</Required>
 				<Default>10</Default>
 				<MinValue>0</MinValue>
@@ -199,8 +194,7 @@ Anarchy: 5-50 (step: 5)
 				<Name>respawn_time_seconds</Name>
 				<Type>Int</Type>
 				<Display_Name>Respawn time (seconds)</Display_Name>
-				<Description>1-10 (step: 1)
-10-30 (step: 5)</Description>
+				<Description>1-10 (step: 1) 10-30 (step: 5)</Description>
 				<Required>false</Required>
 				<Default>5</Default>
 				<MinValue>0</MinValue>

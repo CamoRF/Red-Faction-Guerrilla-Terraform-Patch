@@ -571,8 +571,9 @@ v1.07 ALPHA CHANGES
 [Multiplayer]
 * Re-implemented Spiker DLC weapon
 * Doubled XP gained due to the XP gain being balanced around the game being active
-* Default options changed to fleetfoot start, friendly fire enabled & delayed enemy icon visibility
+* All bonus XP events are now unlocked by default
 * Reworked levels & cosmetic unlocks: You now unlock badges, rank icons, characters & most hammers at level 5, 10, 20, 30 etc with the "max" rank being 100
+* Default options changed to fleetfoot start, friendly fire enabled & delayed enemy icon visibility
 * Improved host migration removal hopefully by increasing "TS_bad_lag_rtt_ms" & "TS_bad_lag_duration_ms" to 2147483647 which should disable true skill host migration completely in all circumstances
 * XP is now completely server authoritative which should help in combination with the host migration removal to reduce connection lag
 * Removed all playlists in matchmaking except for Wrecking Crew since the community only plays custom games to reduce the memory pool load in multiplayer, might help with stability
@@ -645,6 +646,7 @@ v1.07 ALPHA CHANGES
 * Marauder Remote Charges: missing textures; not implemented yet
 * Weapons use placeholder icons & reticules for now
 * Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer [REVERTED IN v1.07]
+* Weapons will still remain on the map even when all map weapon spawns are disabled in the custom match settings
 
 [Backpacks]
 * Kaboom backpack has floating objects on the model

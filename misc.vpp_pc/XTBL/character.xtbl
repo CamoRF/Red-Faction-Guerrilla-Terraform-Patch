@@ -147,6 +147,7 @@
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Special</origin_district>
 		</Character>
+<!--END-->		
 <!--START DLC Characters ADDED-->
 		<Character>
 			<Name>dlc_sam</Name>
@@ -475,7 +476,6 @@
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Common</origin_district>
 		</Character>
-		
 		<Character>
 			<Name>dlc_vasha</Name>
 			<Model>
@@ -580,7 +580,7 @@
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Special</origin_district>
 		</Character>
-<!--END DLC Characters ADDED-->		
+<!--END-->		
 		<Character>
 			<Name>MP_Selma</Name>
 			<Model>

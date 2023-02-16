@@ -398,9 +398,9 @@
 			<Name>Back off kill</Name>
 			<event_description>HM_XP_BACK_OFF_KILL_DESC</event_description>
 			<value>2</value> <!--From 1-->
-			<!--<bonus>
-				<minimum_level>53</minimum_level>
-			</bonus>-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--From 53-->
+			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
 			<server_authoritative>True</server_authoritative>
@@ -488,7 +488,7 @@
 			<value>2</value> <!--From 1-->
 			<bonus>
 				<minimum_level>0</minimum_level> <!--From 87-->
-			</bonus>-->
+			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
 			<server_authoritative>True</server_authoritative> <!--From False-->
