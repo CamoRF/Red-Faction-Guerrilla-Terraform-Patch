@@ -2,15 +2,16 @@ v1.07 TESTING
 -------------
 * Test spiker weapon with another player, if host can only see the projectile disable the weapon again 
 * Test propane tank weapons placed on Ruins with another player
-* Doublecheck out of bounds exploits on Downfall
-* Doublecheck if buildings collapse on Frost
+* Test out of bounds exploits on Downfall
+* Test if buildings collapse on Frost
 * Test new minefield location on scrapheap
 * Test siege on division
+* Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/weapons/weapons_table_parser.cpp(1285) ?
+* Test grenade and nano grenade 
 
 HIGH PRIORITY
 --------------
 * Optimize files in XTBL folder and remove the table description section first when files are final
-* Frost has asm .xml in the map?
 
 MAPS
 ----
@@ -35,6 +36,8 @@ MAPS
 * Imperial: 0204monument_anniv_a.cchk_pc only requires flag 4 on Imperial
 * Doublecheck all spawns have initial spawn and respawn bools
 * Enable all objects in inspector in case there's weird cover nodes etc on all maps
+* Frost has asm .xml in the map?
+* Siege maps has something with persistent flags used on most objects
 
 SINGLEPLAYER 
 ------------
@@ -64,7 +67,7 @@ TEXTURE FIXES
 
 WRECKING CREW MODE
 ------------------
-* Re-implement vanilla wc maps with only fixes as an add-on [files ready]
+* Re-implement vanilla wc maps with only fixes [done]
 * Add DLC weapons to Wrecking Crew [done]
 * Add Kaboom to Wrecking Crew [done]
 * Fallfactor, overpass, deadzone and crash site wrecking crew versions when NF rewrite is out so I can see general movers and fix floating barrels
@@ -80,7 +83,7 @@ OUT OF SCOPE/ADD-ONS
 * Improved Loading Screens
 * Upscaled human textures
 * Upscaled weapon textures
-* Map Pack: Aerial Excavation, KOTH Equilibrium, Interior Only Map, KOTH Sandpit, Quarantine Siege map for other gamemodes
+* Map Pack: Aerial Excavation, KOTH Equilibrium, Interior Only Map, KOTH Sandpit, Quarantine Siege map for other gamemodes [done]
 
 
 
