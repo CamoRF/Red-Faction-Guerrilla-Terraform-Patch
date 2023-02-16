@@ -462,7 +462,7 @@ v1.07 ALPHA CHANGES
 -------------------
 
 [Misc]
-* The majority of the patch has been re-built from the ground up to reduce the download size significantly, the total size of the patch is now only 800mb~
+* The majority of the patch has been re-built from the ground up to reduce the download size significantly
 
 [Singleplayer]
 * Reverted adding DLC vehicles for now
@@ -598,7 +598,7 @@ v1.07 ALPHA CHANGES
 [Shotgun]
 * Added smoke to muzzle flash
 
-[Subverter] 
+[Subverter Buff] 
 * Player damage at max range increased to 35 from 33
 
 ------------
