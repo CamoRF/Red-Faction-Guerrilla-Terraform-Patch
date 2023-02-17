@@ -119,7 +119,7 @@
 				<StandingTertiary>sword stand overhead</StandingTertiary>
 				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>dlc_royal_sword</Inventory_Item>
+			<Inventory_Item>dlc_royal_sword</Inventory_Item> <!--From royal_sword-->
 			<Item_3d>royal_sword</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
@@ -179,7 +179,7 @@
 				<StandingTertiary>sledgehammer_melee_vert_u1</StandingTertiary>
 				<CrouchingTertiary>sledgehammer_melee_vert_u1</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>dlc_pickaxe</Inventory_Item>
+			<Inventory_Item>dlc_pickaxe</Inventory_Item> <!--From pickaxe-->
 			<Item_3d>pickaxe</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
