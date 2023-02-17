@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--NOTE: current highest <Unique_ID>149</Unique_ID>-->
+<!--NOTE: current highest <Unique_ID>144</Unique_ID>-->
 		<Weapon>
 			<Name>EDF_Super_Gauss</Name>
 			<icon_name>ui_hud_weapon_icon_gauss</icon_name> <!--From ui_hud_weapon_icon_supergauss-->

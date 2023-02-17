@@ -1,4 +1,4 @@
-		<!--<Territory>
+		<Territory>
 			<Name>test_ambient_vehicle</Name>
 			<Districts>
 				<District>
@@ -498,8 +498,8 @@
 				<HorizMask></HorizMask>
 			</StreamingParams>
 			<territory_index>0</territory_index>
-		</Territory>-->
-				<!--<Territory>
+		</Territory>
+		<Territory>
 			<Name>test_mab</Name>
 			<Districts>
 				<District>
@@ -542,9 +542,8 @@
 				<HorizMask></HorizMask>
 			</StreamingParams>
 			<territory_index>0</territory_index>
-		</Territory>-->
-		
-		<!--		<Territory>
+		</Territory>
+		<Territory>
 			<Name>test_ambient_spawn</Name>
 			<Districts>
 				<District>
@@ -582,8 +581,8 @@
 				<HorizMask></HorizMask>
 			</StreamingParams>
 			<territory_index>0</territory_index>
-		</Territory>-->
-		<!--<Territory>
+		</Territory>
+		<Territory>
 			<Name>test_luke_ambient</Name>
 			<Districts>
 				<District>
@@ -621,9 +620,8 @@
 				<HorizMask></HorizMask>
 			</StreamingParams>
 			<territory_index>0</territory_index>
-		</Territory>-->
-		
-		<!--		<Territory>
+		</Territory>
+		<Territory>
 			<Name>jeffk_territory</Name>
 			<Districts>
 				<District>
@@ -687,4 +685,4 @@
 				<HorizMask></HorizMask>
 			</StreamingParams>
 			<territory_index>0</territory_index>
-		</Territory>-->
+		</Territory>

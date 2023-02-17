@@ -1,5 +1,3 @@
-<!--START Experimental Misc-->		
-<!--
 		<Weapon>
 			<Name>fist</Name>
 			<Weapon_Class>melee</Weapon_Class>
@@ -253,7 +251,6 @@
 			</Visuals>
 			<Ragdoll_Chance>100.0</Ragdoll_Chance>			
 		</Weapon>
-	
 		<Weapon>
 			<Name>camo_nano</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
@@ -352,4 +349,3 @@
 			<icon_name>ui_badge_icon_ae_circle</icon_name>
 			<reticule_name>ui_hud_reti_mines</reticule_name>
 		</Weapon>
--->
