@@ -21,5 +21,6 @@ RfgUtil.exe .\mp_test1_map\ -c -e
 RfgUtil.exe .\mp_test2_map\ -c -e
 RfgUtil.exe .\mp_test3_map\ -c -e
 RfgUtil.exe .\mp_air_map\ -c -e
-RfgUtil.exe .\mp_koth1_map\ -c -e
+RfgUtil.exe .\mp_koth_map\ -c -e
 RfgUtil.exe .\mp_koth2_map\ -c -e
+RfgUtil.exe .\mp_crater_map\ -c -e
