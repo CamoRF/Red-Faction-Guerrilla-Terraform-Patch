@@ -478,8 +478,10 @@ v1.07 ALPHA CHANGES
 * Added super gauss rifle DLC weapon
 
 [Fixes]
+* Flxed DLC crashing when starting a new game
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
+* Fixed issue "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue with heal backpack being team exclusive on Expansion
 * Fixed issue with spawn facing wrong direction on Complex
 * Fixed gap to void in terrain on Gulch
@@ -618,8 +620,7 @@ v1.07 ALPHA CHANGES
 * DLC: Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * DLC: NPC MIGHT drive off near the cliff near the large bridge during Redemption mission (with uncapped fps or due to bad road path on the map?)
 * DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
-* DLC: First transporter mission is broken
-* DLC: "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
+* DLC: First transporter mission is broken [REVERTED in v1.07]
 * DLC: Weapons that have been ported to the base game have broken icons (due to the DLC loading weapons.xtbl & overriding the dlc01 weapon xtbl, it should be resolved when reticules & icons can be ported to the base game or a work around is found by changing the dlc weapons to be unique from the ported ones)
 
 [Maps]
@@ -661,7 +662,8 @@ v1.07 ALPHA CHANGES
 
 [Misc]
 * "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file reported in Red Faction Guerrilla Re-Mars-tered.log
-* "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl reported in Red Faction Guerrilla Re-Mars-tered.log
+" "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)" reported in Red Faction Guerrilla Re-Mars-tered.log (probably related to increasing decal lifetimes too much)
+* "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl? reported in Red Faction Guerrilla Re-Mars-tered.log
 * LOD cap for small rocks seems to be hardcoded & cannot be increased further without hacking the .exe
 * Game can sometimes crash when loading into a multiplayer match
 * Siege objectives & weapon pickups can sometimes desync in multiplayer

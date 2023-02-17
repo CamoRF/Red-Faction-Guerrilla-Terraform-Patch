@@ -1,7 +1,7 @@
 <root>
 	<Table>
 		<Inventory_Item>
-			<Name>spiker</Name>
+			<Name>dlc_spiker</Name> <!--From spiker-->
 			<Display_Name>WEAP_SPIKER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -12,7 +12,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>pickaxe</Name>
+			<Name>dlc_pickaxe</Name> <!--From pickaxe-->
 			<Display_Name>WEAP_PICKAXE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -23,7 +23,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>edf_super_gauss</Name>
+			<Name>dlc_edf_super_gauss</Name> <!--From edf_super_gauss-->
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -45,7 +45,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>mar_charge_placer</Name>
+			<Name>dlc_mar_charge_placer</Name> <!--From mar_charge_placer-->
 			<Display_Name>WEAP_CHARGE_PLACER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -56,7 +56,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>royal_sword</Name>
+			<Name>dlc_royal_sword</Name> <!--From royal_sword-->
 			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -67,7 +67,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>edf_subverter</Name>
+			<Name>dlc_edf_subverter</Name> <!--From edf_subverter-->
 			<Display_Name>WEAP_SUBVERTER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -78,7 +78,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>missilepod</Name>
+			<Name>dlc_missilepod</Name> <!--From missilepod-->
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
