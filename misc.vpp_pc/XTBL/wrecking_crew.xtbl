@@ -171,7 +171,7 @@
 					<rampage_time_penalty_ms>1000</rampage_time_penalty_ms>
 					<mayhem_attack_multiplier>12</mayhem_attack_multiplier>
 				</weapon>				
-<!--END-->	
+<!--END-->
 				<weapon>
 					<weapon_name>sledgehammer</weapon_name>
 					<mode_flags>
