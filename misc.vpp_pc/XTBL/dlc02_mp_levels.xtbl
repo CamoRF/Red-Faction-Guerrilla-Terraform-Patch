@@ -67,7 +67,7 @@
 			<Load_image>Equilibrium</Load_image>
 			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
 		</mp_level_list>		
-		<mp_level_list>
+<!--		<mp_level_list>
 			<Name>Sand Pit KOTH</Name>
 			<Filename>mp_koth2</Filename>
 			<_Editor>
@@ -83,7 +83,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_CUSTOM_GAME</Display_name> <!--From MENU_LEVEL_SAND_PIT-->
+			<Display_name>MENU_CUSTOM_GAME</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>king_of_the_hill</Flag>
@@ -95,7 +95,8 @@
 			<ideal_max_players>10</ideal_max_players>
 			<Load_image>Sand Pit</Load_image>
 			<demolition_damage_multiplier>0.45</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>-->
+<!--From MENU_LEVEL_SAND_PIT-->
 		<mp_level_list>
 			<Name>Crater</Name>
 			<Filename>mp_crater</Filename>

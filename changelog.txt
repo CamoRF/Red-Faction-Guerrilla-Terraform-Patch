@@ -4,8 +4,8 @@
 
 Author: Camo
 Version: v1.07 ALPHA
-Date: 17-2-2023
-Build: 337
+Date: 19-2-2023
+Build: 627
 
 -----------------------
 INTIAL RELEASE CHANGES
@@ -72,7 +72,7 @@ INTIAL RELEASE CHANGES
 v1.01 ALPHA CHANGES
 -------------------
 
-[Multiplayer]
+[New Weapons]
 * Added DLC Super Gauss Rifle weapon
 * Added DLC Misslepod weapon
 * Added DLC Subverter weapon
@@ -80,9 +80,6 @@ v1.01 ALPHA CHANGES
 -------------------
 v1.02 ALPHA CHANGES
 -------------------
-
-[Fixes]
-* Fixed issue with incorrect map thumbnails & loading screens on DLC Wrecking Crew maps
 
 [Misc]
 * Added collision to some objects in the game so they now react to player movement such as ambient objects NPCs drop or use & small rocks in singleplayer
@@ -96,9 +93,14 @@ v1.02 ALPHA CHANGES
 [Singleplayer]
 * Debris no longer despawn quickly & now react to player movement
 
-[Multiplayer]
+[New Weapons]
 * Added CTF flags as weapons
+
+[New Backpack]
 * Added cut kaboom packpack
+
+[Fixes]
+* Fixed issue with incorrect map thumbnails & loading screens on DLC Wrecking Crew maps
 
 ---------------------
 v1.031 ALPHA CHANGES
@@ -121,6 +123,8 @@ v1.031 ALPHA CHANGES
 * Added wrecking crew map team anarchy & anarchy playlists & disabled siege, team objective & large mixer playlists in matchmaking
 * Increased player cap for bagman & anarchy matchmaking playlists from 6 to 8
 * Multiplayer respawn/spawn invulnerability time reduced to 2 seconds from 5 seconds
+
+[Kaboom Backpack Buff]
 * Slightly increased the radius of the Kaboom pack explosion to 6.2 from 5.0
 * Slightly increased the crumble radius of the Kaboom pack explosion to 3.2 from 2.0
 * Slightly increased the knockdown radius of the Kaboom pack explosion to 8.2 from 7.0
@@ -137,7 +141,7 @@ v1.031 ALPHA CHANGES
 v1.05 ALPHA CHANGES
 ---------------------
 
-[Characters]
+[New Characters]
 * Added Elegant Ian to multiplayer roster 
 * Added Elegant Rachel to multiplayer roster
 * Added Carmen to multiplayer roster
@@ -197,17 +201,6 @@ v1.05 ALPHA CHANGES
 * Removed some obnoxious glare & bloom effects that blind the player
 * More XML formatting fixes
 
-[Fixes]
-* Disabled all rubberbanding & trueskill features to reduce lag, the host of the server will no longer migrate to another player
-* Fixed inconsistent player icon distances by changing all multipliers to 1.0
-* Fixed vanilla bug with extremely small moons on various maps
-* Fixed fog & lighting on Scrap Heap
-* Fixed fog on Cornered
-* Fixed vanilla bug with missing moon lighting in singleplayer
-* Reverted Crash Site alternative time of day to 18:00 from 00:00 due to brightness & fog issues, will be re-implemented when the weather & lighting files are more understood
-* Removed fog on Imperial due to extreme fog on some computers, will be re-implemented when the weather & lighting files are more understood
-* Reverted blood decal lifetime tweak due to issue with them not syncing properly & being visible when using the stealth patch if you're covered in blood
-
 [Multiplayer]
 * Reduced leg damage multiplier to 0.75 from 0.8
 * Players now move the same speed when moving sideways
@@ -223,6 +216,17 @@ v1.05 ALPHA CHANGES
 * Fuel usage per second reduced to 0.10 from 0.55
 * Fuel regen per second reduced to 0.042 from 0.10
 
+[Fixes]
+* Disabled all rubberbanding & trueskill features to reduce lag, the host of the server will no longer migrate to another player
+* Fixed inconsistent player icon distances by changing all multipliers to 1.0
+* Fixed vanilla bug with extremely small moons on various maps
+* Fixed fog & lighting on Scrap Heap
+* Fixed fog on Cornered
+* Fixed vanilla bug with missing moon lighting in singleplayer
+* Reverted Crash Site alternative time of day to 18:00 from 00:00 due to brightness & fog issues, will be re-implemented when the weather & lighting files are more understood
+* Removed fog on Imperial due to extreme fog on some computers, will be re-implemented when the weather & lighting files are more understood
+* Reverted blood decal lifetime tweak due to issue with them not syncing properly & being visible when using the stealth patch if you're covered in blood
+
 ---------------------
 v1.06 ALPHA CHANGES
 ---------------------
@@ -237,12 +241,13 @@ v1.06 ALPHA CHANGES
 * Added Large Mixer maps to Team Anarchy & Team Bagman matchmaking playlists
 * Invasions lighting & weather changed to match Broadsides
 
-[Multiplayer]
+[Characters]
 * Changed "Biker Chick" character name to "Outcast"
 * Changed "Marauder Science Tech" character name to "Marauder Lady"
 * Changed "Female Lab Assistant" character name to "Lab Lady"
+
+[Maps]
 * Re-implemented GFWL map into matchmaking as it's fixed now
-* Improvements to rubberbanding & trueskill fixes
 
 [Multiplayer Additions & Changes]
 * Changed the DLC weapon placeholder icons to badge icons to avoid confusion with standard weapons 
@@ -253,21 +258,6 @@ v1.06 ALPHA CHANGES
 * Marauder characters can now be played on the Red Faction team in team games in addition to free for all
 * Movement speed is now consistent across all weapons
 * Slightly increased base player movement speed
-
-[Fixes]
-* Fixed bug with glass bullet holes with lots of them spawning at once looking weird & causing lag when player zoomed in to the decal
-* Fixed issue with broken loading screens & thumbnails when wrecking crew maps are played in the regular wrecking crew mode, also gave them the same HD textures as the multiplayer versions
-* Fixed more objects that were missing shadows
-* Fixed some of the vanilla bugs with out of bounds map exploits on Haven, Doubletime, Equilbrium, Downfall, Abandoned & Compound
-* Fixed vanilla bug with missing objects on various maps when played in Demolition & Bagman
-* Fixed Marauder Lady character having the wrong footstep sounds
-* Fixed bug with leader & bagman highlighting not working
-* Fixed various voices for the new characters
-* Fixed player names & icons not working
-* Removed spiker, dlc pickaxe & impaler completely due to various bugs
-* Propane tank weapon disabled for now due to bugs
-* Possibly fixed Kaboom backpack sound getting stuck when you die
-* Reduced backpack clipping for Jenkins
 
 [Misc]
 * Increased ladder climbing speed slightly
@@ -289,6 +279,22 @@ v1.06 ALPHA CHANGES
 
 [Misslepod Fix]
 * Changed the projectile from standard rocket to the thermobaric rocket (cosmetic only to fix how the projectile was almost invisible due to the smoke trail)
+
+[Fixes]
+* Fixed bug with glass bullet holes with lots of them spawning at once looking weird & causing lag when player zoomed in to the decal
+* Fixed issue with broken loading screens & thumbnails when wrecking crew maps are played in the regular wrecking crew mode, also gave them the same HD textures as the multiplayer versions
+* Fixed more objects that were missing shadows
+* Fixed some of the vanilla bugs with out of bounds map exploits on Haven, Doubletime, Equilbrium, Downfall, Abandoned & Compound
+* Fixed vanilla bug with missing objects on various maps when played in Demolition & Bagman
+* Fixed Marauder Lady character having the wrong footstep sounds
+* Fixed bug with leader & bagman highlighting not working
+* Fixed various voices for the new characters
+* Fixed player names & icons not working
+* Removed spiker, dlc pickaxe & impaler completely due to various bugs
+* Propane tank weapon disabled for now due to bugs
+* Possibly fixed Kaboom backpack sound getting stuck when you die
+* Reduced backpack clipping for Jenkins
+* Improvements to rubberbanding & trueskill fixes
 
 ---------------------------
 v1.061 ALPHA HOTFIX CHANGES
@@ -326,11 +332,6 @@ v1.063 ALPHA HOTFIX CHANGES
 [Interface]
 * Initial loading screen updated to current patch version
 
-[Fixes]
-* Fixed issue with duplicate weapon pickups on Vista & re-implemented the map
-* Fixed two spawns where you got stuck inside the shipping container geometry on the Nordic Bonus/GFWL map
-* Fixed issue where it was almost impossible to get the bag down from the bridge by adding two Nanoforge spawns on Invasion
-
 [Reconstructor Nerf/Fix]
 * Repair range reduced to 2.8 from 3.0
 * Repair radius reduced to 1.9 from 2.1
@@ -343,8 +344,13 @@ v1.063 ALPHA HOTFIX CHANGES
 * Reduced recoil slightly (Reduced to 0.8 from 0.9)
 * Increased damage slightly at min range (Increased to 41 from 40)
 
-[Subverter Additions]
+[Subverter]
 * Added bullet tracers
+
+[Fixes]
+* Fixed issue with duplicate weapon pickups on Vista & re-implemented the map
+* Fixed two spawns where you got stuck inside the shipping container geometry on the Nordic Bonus/GFWL map
+* Fixed issue where it was almost impossible to get the bag down from the bridge by adding two Nanoforge spawns on Invasion
 
 --------------------
 v1.064 ALPHA CHANGES
@@ -357,7 +363,7 @@ v1.064 ALPHA CHANGES
 * Re-implemented initial logos due to issue with it spamming Red Faction Guerrilla Re-Mars-tered.log, however they can now all be skipped
 * Initial loading screen updated to current patch version
 
-[Multiplayer]
+[Backpacks]
 * Added Kaboom pack to random backpack rotation
 * Added some backpacks missing from random backpack rotation on various maps
 
@@ -365,23 +371,6 @@ v1.064 ALPHA CHANGES
 * Added DLC Sam to multiplayer roster
 * Added DLC Hess to multiplayer roster
 * Added DLC Vasha to multiplayer roster
-
-[Fixes]
-* Fixed Stealth backpack not working 
-* Fixed Nanorifle firing in random directions
-* Fixed Complex, Vista & Watchtower crashing
-* Fixed various issues reported in Red Faction Guerrilla Re-Mars-tered.log including "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/video_player/video_player.cpp(1570)", "casts_shadows" is not a valid flag name!" & "Attribute kaboom_camera_shake contains no text" & more
-* Fixed various duplicate weapon spawns on Wrecking Crew maps
-* Fixed various objects outside of maps on Wrecking Crew maps
-* Fixed various crashes related to vanilla bugs with maps
-* Fixed various out of bound exploits
-* Fixed various issues with weapon bounding boxes
-* Fixed some floating spawns 
-* Fixed some floating &/or clipping objects
-* Fixed various missing killboxes under maps, the player will no longer fall for eternity if a clipping bug ever occurs
-* Fixed Kaboom Pack camera shake
-* Possibly fixed vanilla bug with spawns flipping in CTF on most maps
-* Possibly fixed sound getting stuck when Kaboom Pack explodes
 
 [Assault Rifle Buff]
 * Increased firerate slightly (reduced refire delay to 94 from 95)
@@ -422,20 +411,29 @@ v1.064 ALPHA CHANGES
 * The following maps have been temporarily disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch, Ruins & Scrapheap
 * Disabled misslepod & super gauss spawn in Siege, Damage Control & Demolition on all maps (excluding Crescent)
 
+[Fixes]
+* Fixed Stealth backpack not working 
+* Fixed Nanorifle firing in random directions
+* Fixed Complex, Vista & Watchtower crashing
+* Fixed various issues reported in Red Faction Guerrilla Re-Mars-tered.log including "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/video_player/video_player.cpp(1570)", "casts_shadows" is not a valid flag name!" & "Attribute kaboom_camera_shake contains no text" & more
+* Fixed various duplicate weapon spawns on Wrecking Crew maps
+* Fixed various objects outside of maps on Wrecking Crew maps
+* Fixed various crashes related to vanilla bugs with maps
+* Fixed various out of bound exploits
+* Fixed various issues with weapon bounding boxes
+* Fixed some floating spawns 
+* Fixed some floating &/or clipping objects
+* Fixed various missing killboxes under maps, the player will no longer fall for eternity if a clipping bug ever occurs
+* Fixed Kaboom Pack camera shake
+* Possibly fixed vanilla bug with spawns flipping in CTF on most maps
+* Possibly fixed sound getting stuck when Kaboom Pack explodes
+
 ------------------------------
 v1.064.1 ALPHA HOTFIX CHANGES
 ------------------------------
 
 [Interface]
 * Initial loading screen updated to current patch version
-
-[Fixes]
-* Fixed singleplayer DLC crashing when loading
-* Fixed issue "Int3 critical function at C:\unit4projects\rfg\root\code\volition\vlib\code\util\varray.h(122)" reported in Red Faction Guerrilla Re-Mars-tered.log
-* Fixed issue "Found too many animation rigs to preload (max : 299)unable to allocate anim_rig" reported in Red Faction Guerrilla Re-Mars-tered.log
-* Fixed most of the floating backpacks on Watchtower
-* Fixed most of the issues with shipping container physics acting strange on Stratosphere
-* Fixed issue with too many shape cutters causing lag in Siege on Quarantine
 
 [Maps]
 * Factory: Added Thrust, Firepower, Heal & Fleetfoot backpack spawns
@@ -445,6 +443,14 @@ v1.064.1 ALPHA HOTFIX CHANGES
 [Weapons]
 * All weapons now respect the players camera shake setting (motion sickness fix)
 * Fixing "varray.h(122)" required reverting adding DLC weapons to EDF in singleplayer (squad_loadout.xtbl, squad_progression.xtbl)
+
+[Fixes]
+* Fixed singleplayer DLC crashing when loading
+* Fixed issue "Int3 critical function at C:\unit4projects\rfg\root\code\volition\vlib\code\util\varray.h(122)" reported in Red Faction Guerrilla Re-Mars-tered.log
+* Fixed issue "Found too many animation rigs to preload (max : 299)unable to allocate anim_rig" reported in Red Faction Guerrilla Re-Mars-tered.log
+* Fixed most of the floating backpacks on Watchtower
+* Fixed most of the issues with shipping container physics acting strange on Stratosphere
+* Fixed issue with too many shape cutters causing lag in Siege on Quarantine
 
 -----------------------------
 v1.064.2 ALPHA HOTFIX CHANGES
@@ -467,43 +473,19 @@ v1.07 ALPHA CHANGES
 * Reverted adding DLC vehicles for now
 * Reverted adding DLC weapons for now
 * Reverted improvements to NPC & vehicle spawns for now
-* Reverted misc improvements/changes/additions for now
-* Reverted changes to DLC for now due to possible issues
+* Reverted misc improvements/changes/additions for now due to various issues
+* Reverted changes to DLC for now due to various issues
 
 [Wrecking Crew]
 * Restored vanilla versions of the maps with bug fixes only
-* Mode now works again with barrels, no weapon or backpack spawns etc
-* Added misslepod DLC weapon
-* Added super gauss rifle DLC weapon
-
-[Fixes]
-* Flxed DLC crashing when starting a new game
-* Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
-* Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
-* Fixed issue "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
-* Fixed issue with heal backpack being team exclusive on Expansion
-* Fixed issue with spawn facing wrong direction on Complex
-* Fixed gap to void in terrain on Gulch
-* Fixed gap to void in terrain on GFWL/Nordic Bonus
-* Fixed gap to void in terrain on Frost
-* Fixed multiple out of bounds exploits on Frost
-* Fixed two additional out of bounds exploits on Downfall
-* Fixed a hole where you could get stuck on Repercussion
-* Fixed issue with extreme cloud speeds
-* Fixed some issues with broken missions in singleplayer
-* Fixed issue with some of the recent stealth pack rebalance changes not applying
-* Fixed some DLC objects missing shadows
-* Reverted change to "Max_simultaneous_proxies" in tweak_table.xtbl in case it causes issues/crashes
-* Optimized more files to reduce memory pool load increasing stability
-* Various other improvements, adjustments & fixes to player, weapon & backpack spawns
-* Various other improvements, adjustments & fixes to all multiplayer & wrecking crew maps
-* Various fixes, optimizations & stability improvements
+* Mode now works again properly with barrels, no weapon and backpack spawns
+* Added DLC Misslepod weapon
+* Added DLC Super Gauss Rifle weapon
 
 [New Maps]
 * Added Aerial Excavation by ATMLVE 
 * Added Equilbrium King of the Hill by ATMLVE
-* Added Quarantine siege version that can be played in other gametypes 
-* Added Sandpit King of the Hill
+* Added Quarantine siege version that can be played in other game modes
 
 [Maps]
 * Added backpack spawns to all Wrecking Crew maps
@@ -602,6 +584,29 @@ v1.07 ALPHA CHANGES
 
 [Subverter Buff] 
 * Player damage at max range increased to 35 from 33
+
+[Fixes]
+* Flxed DLC crashing when starting a new game
+* Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
+* Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
+* Fixed issue "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
+* Fixed issue with heal backpack being team exclusive on Expansion
+* Fixed issue with spawn facing wrong direction on Complex
+* Fixed gap to void in terrain on Gulch
+* Fixed gap to void in terrain on GFWL/Nordic Bonus
+* Fixed gap to void in terrain on Frost
+* Fixed multiple out of bounds exploits on Frost
+* Fixed two additional out of bounds exploits on Downfall
+* Fixed a hole where you could get stuck on Repercussion
+* Fixed issue with extreme cloud speeds
+* Fixed some issues with broken missions in singleplayer
+* Fixed issue with some of the recent stealth pack rebalance changes not applying
+* Fixed some DLC objects missing shadows
+* Reverted change to "Max_simultaneous_proxies" in tweak_table.xtbl in case it causes issues/crashes
+* Optimized more files to reduce memory pool load increasing stability
+* Various other improvements, adjustments & fixes to player, weapon & backpack spawns
+* Various other improvements, adjustments & fixes to all multiplayer & wrecking crew maps
+* Various fixes, optimizations & stability improvements
 
 ------------
 |KNOWN BUGS|

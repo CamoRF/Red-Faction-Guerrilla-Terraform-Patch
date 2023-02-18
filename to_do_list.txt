@@ -2,86 +2,75 @@ v1.07 TESTING
 -------------
 * Test spiker weapon with another player, if host can only see the projectile disable the weapon again 
 * Test propane tank weapons placed on Ruins with another player
-* Test out of bounds exploits on Downfall
-* Test if buildings collapse on Frost
-* Test new minefield location on scrapheap
-* Test siege on division
 
 MAPS
 ----
-* Add more backpack spawns to Siege maps when played in other modes
-* Framework has the mp version of the crane?
-* Add propane tank weapons to siege maps near attacker spawn
-* Try to fix floating crates on Expansion, floating smokestack and crane on Frost
-* Transfer artillery sign to Frost
-* Add fire near explosion and collapsing buildings on Frost 
-* Garrison time of day on Frost?
-* Add towers with ladders to Gulch
-* Add Damage Control & CTF to Scrapheap and Vista 
-* Add Damage Control to Ruins
-* Does making ladders orphans make them remain usable for longer when buildings are damaged?
-* Add more DLC weapon spawns to all maps
-* Add team spawn children to siege objectives on the new siege maps
-* Add more spectator cameras outside the siege version of Quarantine
-* Remove smoke from smokestack outside the map on GFWL due to alpha flicker
-* Move flag stands on Framework, EDF spawn on top of the hill behind the buildings, Guerrillas spawn at the back near the mines
-* Double check all spawns have "initial spawn" and "respawn enabled" along with neutral spawn gamemode flags disabled in CTF on all regular mp maps
-* Doublecheck all backpack racks and DCT racks are persistent, along with their children
-* Imperial: 0204monument_anniv_a.cchk_pc only requires flag 4 on Imperial
-* Doublecheck all spawns have initial spawn and respawn bools
-* Enable all objects in inspector in case there's weird cover nodes etc on all maps
+* Frost: The crane is glitchy, cloned floating smokestack when bottom is destroyed, Transfer artillery sign asset to Frost and place it near the pipes, place barrels up on high cliff where buildings collapse, Garrison time of day as alternative?
+* Gulch: Add towers with ladders
+* Imperial: Transfer mine beacon and artillery sign asset and place it near the out of bounds rock
+* Siege maps: more backpack spawns when played in other modes, add propane tank weapons near attacker spawn
+* Framework: MP version of crane asset?
+* Scrapheap: Add damage control & CTF 
+* Vista: Add damage control & CTF
+* Ruins: Add damage control
+* Expansion: cloned floating crates when bridge is destroyed
+* All maps: more DLC weapon spawns, Double check all spawns have "initial spawn" and "respawn enabled" along with neutral spawn gamemode flags disabled in CTF on all regular mp maps, Doublecheck all backpack racks and DCT racks are persistent, along with their children, Enable all objects in inspector in case there's weird cover nodes etc on all maps
+* Ladders: does making them orphans make them remain usable for longer when buildings are partially damaged?
+* New siege maps: Add team spawn children to siege objectives
+* Quarantine siege and new map file version: Add more spectator cameras outside the map
+* GFWL/Nordic Bonus: Remove smoke from smokestack outside map due to alpha flicker
+* Framework: Move flag stands, EDF spawn on top of the hill behind the buildings, RF spawn at the back near the mines
 * Frost has asm .xml in the map?
 * Siege maps has something with persistent flags used on most objects
+* Expansion: Killbox near cliff warning sign needs refinement
+* Test adding multiple bagman spawns to randomize where it respawns 
+* Test adding more than 2 flag stands
 
-SINGLEPLAYER 
-------------
+RUINS INTERIOR MAP
+------------------
+
+SANDPIT KOTH
+-------------
+* Use puncture weather and time of day
+* Transfer heat haze and fire assets to map 
+* Small smokestack in distance is too high
+* 180 the small shack near the middle of the map
+* Raise the large building added a tiny bit
+* Fence clipping through one of the smokestacks
+* Add more objects outside the maybe
+* Attempt to transfer the solar tower asset from cascade or gauntlet and add it at that empty area at the opposite side of the map as the large building
+* Move the shack next to it closer to the middle, next to the fence/backpacks
+
+SINGLEPLAYER ADD-ON
+--------------------
 * Re-implement DLC weapons in singleplayer
-* Re-implement vehicle and npc overhaul 
+* Re-implement vehicle and npc overhaul
 * Re-implement DLC vehicles
 * Re-implement misc changes (see reverted changes in changelog.txt)
 * Try to make it so EDF withdraw from liberated sectors (see territories.xtbl)
-* I think there were values related to the spawn distance for NPCs in tweak_table.xtbl or other squad files?
-* Implement changes from the Community Pack
-
-WEAPONS
--------
-* Grenade and fist weapons
-* Singularity that explodes in 1 second named Instant Singularity Bomb
-* Fix DLC weapon icons and reticules by figuring out how to port them to the base game, something to do with bitmap.xtbl and peg files
-* Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
-* Implement Spiker, Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
-
-CHARACTERS
-----------
-* Add new character thumbnails when peg tool is out 
-
-TEXTURE FIXES
--------------
-* See known bugs in changelog.txt
-
-WRECKING CREW MODE
-------------------
-* Re-implement vanilla wc maps with only fixes [done]
-* Add DLC weapons to Wrecking Crew [done]
-* Add Kaboom to Wrecking Crew [done]
-* Fallfactor, overpass, deadzone and crash site wrecking crew versions when NF rewrite is out so I can see general movers and fix floating barrels
-
-MISC
-----
-* Add missing vanilla value comments from some files, some of them have a note in the .xtbl already
-* Add formatted versions of optimized files
-* XML validate all files [done]
-
-OUT OF SCOPE/ADD-ONS
----------------------
-* Improved Loading Screens
-* Upscaled human textures
-* Upscaled weapon textures
-* Map Pack: Aerial Excavation, KOTH Equilibrium, Interior Only Map, KOTH Sandpit, Quarantine Siege map for other gamemodes [done]
-* Unlock Insane difficulty by default
+* Fix EDF/NPCs spawning really close to player: tweak_table.xtbl, spawn_parameters.xtbl and other squad files?
+* Implement some of changes from the Community Pack
+* EDF attack on sight if you're holding a gun 
+* Hit and run gameplay on higher difficulties
+* EDF should be hostile if you have weapons on your vehicle
+* Vehicle handling overhaul
+* NPC and vehicle overhaul
+* Makes no sense you can't fast travel in Dust. Or that you have to chase the 1 piece of salvage that decided to fly the fuck away from you.
+* The hammer should be less powerful.
+* Stealth should last 7 sec, it's broken as fuck.
+* The aptly named Rhino "charge" isn't a charge, but a step forward.
+* Reduce the price of Heal, Tremor and Jetpack (300>200/300>200/ 700>600+300 for recharge). 
+* Increase the price of Rhino, Damage boost and Stealth by 25%. The rest of the packs that I haven't mentioned don't need changes. 
+* Improve driving skills of NPCs (reduce AI speed)
+* NPCs have trouble with handling larger vehicles
+* Guerilla Express unlocks in 3-8 Guerrilla Actions
+* Ore deposits drop 1 piece of salvage instead of 2
+* Make it so you can't buy all the backpacks from the start 
+* EOS Edf Assault Command Mission: Ally NPCs need to be more aggressive and fight beside you but get stuck and lag behind the player, would be better if they could push foward better as enemies are cleared out, buff number of friendlies as only 4 guerrillas and marauders spawn at a time. (eos_edf_command_assault.png)
+* Kill unkillable NPCs
 * Increase morale drop for death
-* Quick Save hotkey 
-* First person: Remove Alec Masons head, replace weapon models with ones for first person, reduce clipping, change animations, script to switch back to third person in vehicles
+* You can replace Alec in SP by directly porting DLC sam, rfg_pc_dlc overwrites his file? (player_female.xtbl could maybe be used to fix player model swaps in SP)
+* 290 out of 300 deposits but you have 6000> salvage. 
 * Gameplay changes 
 	- Salvage balancing, too expensive on normal and hard 
 	- Improve vehicle handling 
@@ -96,36 +85,69 @@ OUT OF SCOPE/ADD-ONS
 	- Insane = An ultimate test of your guerrilla skills. You stand no chance against the military might of the EDF without careful planning and tactical knowledge in a realistic guerrilla warfare scenario. Where you are but an average man, standing against the overwhelming force of your oppressive military dictators. 
 	- Encourage hit and run and stealth
 	- https://discord.com/channels/@me/1004543616875778089/1022032142038994944
-* player_female.xtbl could maybe be used to fix player model swaps in SP	
-* Mod to kill unkillable NPCs
+* Unlock Insane difficulty by default
+* Not enough checkpoints for missions
+* Allies are useless, worse they will get in your line of fire and if you are firing a thermobaric rocket and kill yourself.
+* Civilians run around aimlessly while you are trying to finish a mission (sniper mission in EOS especially)
+* Unlimited enemies that keep spawning right behind you (pet peeve of mine in games)
+* Receive no salvage (including morale bonus) from missions. 	
+* Speaking of Badlands, makes little sense that both RF and EDF can spawn in the Irradiated Zone. I think that's also a result of 1.063?
+* More usage for salvage: upgrading vehicles (swapping out vehicles for ones with guns, repairing vehicles, adding armor, adding moab from safehouse)
+* Mission where you destroy the EDF fliers, you can kill everyone and you get a red alert
+* Vehicles driving on roads without traffic like FFZ and EOS end game after the missions are completed
+* Space asshole: player causes as much chaos in a given sector while being attacked by progressively more overwhelming forces. Bonus points if you make the song space asshole play
+* Bug with essential bridge not spawning near the end of the game: non destructible bridge has only half loaded in and means you can't finish the game. One of the last missions you're tasked with destroying enemies and protecting a truck to its destination, issue is you're not following the truck yourself, you're tracking it with a missile launcher and the truck goes to where this bridge should be and drops down and loops back round over and over again.
+  The game itself thinks it's there, in and out of mission the AI just straight drives off it, waypoints (which normally divert around destroyed bridges) just go straight across the gap.
+* More checkpoints
+
+WEAPONS
+-------
+* Grenade and fist weapons
+* Singularity that explodes in 1 second named Instant Singularity Bomb
+* Fix DLC weapon icons and reticules by figuring out how to port them to the base game, something to do with bitmap.xtbl and peg files
+* Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
+* Implement Spiker, Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
+* Weapon ideas: Singularity launcher, Gauss shotgun, Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to 	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
+
+CHARACTERS
+----------
+* Add new character thumbnails when peg tool is out 
+
+TEXTURE FIXES
+-------------
+* See known bugs in changelog.txt
+
+WRECKING CREW MODE
+------------------
+* Fallfactor, overpass, deadzone and crash site wrecking crew versions when NF rewrite is out so I can see general movers and fix floating barrels
+
+MISC
+----
+* Add missing vanilla value comments from some files, some of them have a note in the .xtbl already
+* Add formatted versions of optimized files
+
+GRAPHICS OVERHAUL 
+-----------------
+* Rewrite graphics improvement script for RSL2 , 
+* HD character textures 
+* HD weapons and backpack textures
+* HD rocks 
+* HD clouds
+* HD loading screens
+* Try to fix the skybox with clouds just doing a circular motion
 * Upscale .bik videos with Topez Video Enhance
-* Release gravity control script on FF after some refinements
+
+NEW MISSIONS
+-------------
 * Missions where you fly the EDF fliers or bombers and take out EDF bases on mountains 
 * Stunt jump activities
 * More demo master activities 
+
+OUT OF SCOPE/ADD-ONS
+---------------------
+* Quick Save hotkey 
+* First person: Remove Alec Masons head, replace weapon models with ones for first person, reduce clipping, change animations, script to switch back to third person in vehicles
 * More fleshed out world with more buildings etc
-* Vehicles driving on roads without traffic like FFZ and EOS end game after the missions are completed
-* Space asshole: player causes as much chaos in a given sector while being attacked by progressively more overwhelming forces. Bonus points if you make the song space asshole play
-* Renaming characters to DLC sams default str2 could be used for model swaps
-* Test adding multiple bagman spawns to randomize where it respawns 
-* Tutorial area map
-* Improve driving skills of NPCs (reduce AI speed)
-* NPCs have trouble with handling larger vehicles
-* Guerilla Express unlocks in 3-8 Guerrilla Actions
-* Ore deposits drop 1 piece of salvage instead of 2
-* Make it so you can't buy all the backpacks from the start 
-* EOS Edf Assault Command Mission: Ally NPCs need to be more aggressive and fight beside you but get stuck and lag behind the player, would be better if they could push foward better as enemies are cleared out, buff number of friendlies as only 4 guerrillas and marauders spawn at a time. (eos_edf_command_assault.png)
-* Makes no sense you can't fast travel in Dust. Or that you have to chase the 1 piece of salvage that decided to fly the fuck away from you.
-* The hammer should be less powerful.
-* Stealth should last 7 sec, it's broken as fuck.
-* The aptly named Rhino "charge" isn't a charge, but a step forward.
-* Reduce the price of Heal, Tremor and Jetpack (300>200/300>200/ 700>600+300 for recharge). 
-* Increase the price of Rhino, Damage boost and Stealth by 25%. The rest of the packs that I haven't mentioned don't need changes. 
-* 290 out of 300 deposits but you have 6000> salvage. 
-* Receive no salvage (including morale bonus) from missions. 
-* Speaking of Badlands, makes little sense that both RF and EDF can spawn in the Irradiated Zone. I think that's also a result of 1.063?
-* Graphics improvement: graphics improvement script, , HD character textures, HD weapons and backpack textures, HD rocks, HD clouds, try to fix the skybox with clouds just doing a circular motion
-* Weapon ideas: Singularity launcher, Gauss shotgun, Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to 	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
 
 
 
