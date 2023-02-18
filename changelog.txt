@@ -634,13 +634,15 @@ v1.07 ALPHA CHANGES
 
 [Maps]
 * New maps have placeholder name "CUSTOM GAME", this will be resolved when adding custom strings is possible
-* Most wrecking crew maps are missing team spawns
+* Most wrecking crew maps are missing team spawns and the CTF spawn flipping fix will not apply on these maps
 * Most wrecking crew maps still need more spawns &/or fixes to existing spawns
 * Wrecking crew maps in general are not final
 * Abandoned terrain collision glitch near forcefield near 335.016, -0.205, -321.099
 * Expansion: crates on top of the bridge float even when the bridge is destroyed for an unknown reason
 * Frost: sections of the crane & smokestack can float when they are partially destroyed, could be fixed by transferring a multiplayer version of the crane to the map that doesn't use constraints
 * Ruins: Damage Control currently crashes for unknown reason so that mode isn't implemented on this map yet
+* Nanoforge issue with cloned objects not having gravity not apply to them (see Expansion, Frost, Aerial Excavation)
+* Nanoforge issue with cloned objects that have constaints having strange physics (see Frost)
 
 [Textures]
 * Typo (build>built, fo>for) in "ui_blueprint_hammer" texture
