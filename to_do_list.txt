@@ -2,6 +2,7 @@ v1.07 TESTING
 -------------
 * Test spiker weapon with another player, if host can only see the projectile disable the weapon again 
 * Test propane tank weapons placed on Ruins with another player
+* Test all 3 custom maps in all game modes
 
 MAPS
 ----
@@ -128,7 +129,7 @@ MISC
 
 GRAPHICS OVERHAUL 
 -----------------
-* Rewrite graphics improvement script for RSL2 , 
+* Rewrite graphics improvement script for RSL2
 * HD character textures 
 * HD weapons and backpack textures
 * HD rocks 
