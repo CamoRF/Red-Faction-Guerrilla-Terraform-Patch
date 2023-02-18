@@ -87,7 +87,7 @@ v1.02 ALPHA CHANGES
 * Blood decal size & probability tweaks
 * Draw distance increased for various objects & decals in the game
 * Decals such as bullet holes no longer despawn as quickly
-* Spent gun clips no longer despawn quickly
+* Spent gun mags no longer despawn quickly
 * Weapon projectiles don't despawn as quickly
 
 [Singleplayer]
@@ -245,19 +245,21 @@ v1.06 ALPHA CHANGES
 * Changed "Biker Chick" character name to "Outcast"
 * Changed "Marauder Science Tech" character name to "Marauder Lady"
 * Changed "Female Lab Assistant" character name to "Lab Lady"
+* EDF Voice character can now be played on the EDF team in team games in addition to free for all
+* Marauder characters can now be played on the Red Faction team in team games in addition to free for all
 
 [Maps]
 * Re-implemented GFWL map into matchmaking as it's fixed now
 
-[Multiplayer Additions & Changes]
+[Weapons]
 * Changed the DLC weapon placeholder icons to badge icons to avoid confusion with standard weapons 
-* Default enemy icon visibility changed to delayed from normal
-* EDF Voice character can now be played on the EDF team in team games in addition to free for all
-* Increased max player cap for Team Anarchy & Team Bagman matchmaking playlists to 16 from 12
-* Increased transparency of stealth backpack further & removed the shimmer
-* Marauder characters can now be played on the Red Faction team in team games in addition to free for all
+
+[Multiplayer]
 * Movement speed is now consistent across all weapons
 * Slightly increased base player movement speed
+
+[Stealth Pack Buff]
+* Increased transparency
 
 [Misc]
 * Increased ladder climbing speed slightly
@@ -292,7 +294,6 @@ v1.06 ALPHA CHANGES
 * Fixed player names & icons not working
 * Removed spiker, dlc pickaxe & impaler completely due to various bugs
 * Propane tank weapon disabled for now due to bugs
-* Possibly fixed Kaboom backpack sound getting stuck when you die
 * Reduced backpack clipping for Jenkins
 * Improvements to rubberbanding & trueskill fixes
 
@@ -425,8 +426,8 @@ v1.064 ALPHA CHANGES
 * Fixed some floating &/or clipping objects
 * Fixed various missing killboxes under maps, the player will no longer fall for eternity if a clipping bug ever occurs
 * Fixed Kaboom Pack camera shake
-* Possibly fixed vanilla bug with spawns flipping in CTF on most maps
-* Possibly fixed sound getting stuck when Kaboom Pack explodes
+* Fixed vanilla bug with spawns flipping in CTF on most maps; this fix will apply on all maps that have team spawns
+* Fixed sound getting stuck when Kaboom Pack explodes
 
 ------------------------------
 v1.064.1 ALPHA HOTFIX CHANGES
@@ -473,14 +474,14 @@ v1.07 ALPHA CHANGES
 * Reverted adding DLC vehicles for now
 * Reverted adding DLC weapons for now
 * Reverted improvements to NPC & vehicle spawns for now
-* Reverted misc improvements/changes/additions for now due to various issues
-* Reverted changes to DLC for now due to various issues
+* Reverted misc improvements/changes/additions due to various issues for now
+* Reverted changes to DLC due to various issues for now
 
 [Wrecking Crew]
 * Restored vanilla versions of the maps with bug fixes only
-* Mode now works again properly with barrels, no weapon and backpack spawns
-* Added DLC Misslepod weapon
-* Added DLC Super Gauss Rifle weapon
+* Mode now works again properly with barrels, no weapon or backpack spawns etc
+* Added DLC Misslepod to weapon selection
+* Added DLC Super Gauss Rifle to weapon selection
 
 [New Maps]
 * Added Aerial Excavation by ATMLVE 
@@ -490,17 +491,17 @@ v1.07 ALPHA CHANGES
 [Maps]
 * Added backpack spawns to all Wrecking Crew maps
 * Added CTF to all WC maps except for Scrapheap & Vista
-* Added CTF & damage control to all siege maps
+* Added CTF & Damage Control to all siege maps
 * Added Damage Control to all WC maps except Scrapheap, Ruins & Vista
 * Added more reconstructor spawns to some of the new siege maps
 * Added some well hidden weapons that only spawn once to some wrecking crew maps
 * Division: Added siege
 * Stratosphere: Added ladders to some of the buildings, removed all siege objectives except the town hall & fixed the physics issue with some of the shipping containers
-* Quarantine: Added two more smokestack objectives in siege mode, fixed issue with minefields not working on other gamemodes
-* Cascade: Added another siege objective and two stealth backpack spawns near the solar towers
+* Quarantine: Added two more smokestack objectives in siege mode & fixed issue with minefields not working on other gamemodes
+* Cascade: Added another siege objective & two stealth backpack spawns near the solar towers
 * Watchtower: Improved backpack spawn locations
 * Watchtower: Added King of the Hill mode in Damage Control
-* Complex: Added two additional damage control targets, moved the rocket launcher spawn to a more hidden location, added an additional hidden kaboom backpack rack
+* Complex: Added two additional damage control targets, moved the rocket launcher spawn to a more hidden location & added an additional hidden kaboom backpack rack
 * Expansion: Added team spawns
 * Transmission: Added forcefield to indicate where the invisible wall is
 * Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects, various fixes & more
@@ -510,11 +511,11 @@ v1.07 ALPHA CHANGES
 * Improvements to weather and lighting on various maps
 
 [Interface]
+* Initial loading screen updated to current patch version
 * Reverted adding higher resolution loading screens & thumbnails
 * Reverted replacing other character textures, all new character textures now use a generic placeholder texture until it's possible to add new texture files
-* Reduced interface related files from 765mb to 13.8mb
+* Reduced interface related file size from 765mb to 13.8mb
 * Reverted replacing the initial loading screen in interface.vpp_pc since it only needs to be replaced in misc.vpp_pc
-* Initial loading screen updated to current patch version
 
 [Characters] 
 * Restored Ian, Numah, Jake, Kayla, Selma, Blair, Bev & Jake in MP
@@ -551,8 +552,10 @@ v1.07 ALPHA CHANGES
 * Increased min delay before checking stress to 150ms from 100ms
 * Increased max delay before checking stress to 5050ms from 5000ms
 
-[Multiplayer]
+[New Weapon]
 * Re-implemented Spiker DLC weapon
+
+[Multiplayer]
 * Doubled XP gained due to the XP gain being balanced around the game being active
 * All bonus XP events are now unlocked by default
 * Reworked levels & cosmetic unlocks: You now unlock badges, rank icons, characters & most hammers at level 5, 10, 20, 30 etc with the "max" rank being 100
@@ -598,6 +601,7 @@ v1.07 ALPHA CHANGES
 * Fixed multiple out of bounds exploits on Frost
 * Fixed two additional out of bounds exploits on Downfall
 * Fixed a hole where you could get stuck on Repercussion
+* Fixed floating heal backpack on Watchtower
 * Fixed issue with extreme cloud speeds
 * Fixed some issues with broken missions in singleplayer
 * Fixed issue with some of the recent stealth pack rebalance changes not applying
