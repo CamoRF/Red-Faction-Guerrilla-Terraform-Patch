@@ -275,7 +275,7 @@ v1.06 ALPHA CHANGES
 * Reduced size of blood pools slightly to increase realism
 
 [Grinder Fix]
-* Reduced r&omness of the projectile by adjusting collision
+* Reduced randomness of the projectile by adjusting collision
 * Start & max speeds of the projectile increased to 70 from 65
 
 [Reconstructor Nerf/Fix]
@@ -299,7 +299,6 @@ v1.061 ALPHA HOTFIX CHANGES
 
 [Fixes]
 * Fixed missing server host migration fix
-* Fixed some missing NPC spawn list changes
 * Fixed missing restoration of character breath effect
 * Fixed some missing optimized files to possibly reduce crashing
 * Fixed friendly fire not working in singleplayer
@@ -701,6 +700,7 @@ v1.07 ALPHA CHANGES
 * Added Subverter to Guerrilla loadout at same tech level as the Assault Rifle (tech_level.xtbl)
 * Removed Kepler & Carmen from NPC spawn lists
 * Improved NPC spawn lists: Oasis & EOS variants can spawn in both Oasis & EOS, Parker & Dust variants can spawn in both Parker & Dust, All variants can spawn in Oasis & EOS
+* Fixed some missing NPC spawn list changes
 
 [Tank Buff]
 * Increased hitpoints of heavy & artillery tanks to 36000 from 18000
