@@ -3,7 +3,10 @@ v1.07 TESTING
 * Test spiker weapon with another player, if host can only see the projectile disable the weapon again 
 * Test propane tank weapons placed on Ruins with another player
 * Test all 3 custom maps in all game modes
-* xdeltas for misc and table in final build?
+* xdelta for misc.vpp in final build, table isn't worth it
+* Should the new maps be included? Maybe just the Quarantine one and name it partial recall since I can't xdelta patch them if there's bugs found. Maybe include them in future update after I'm sure I won't need to edit them again
+* Add kaboom pack to KOTH Equil
+* MENU_PLYLST_PATCH_35 = Partial Recall
 
 MAPS
 ----
