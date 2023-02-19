@@ -489,11 +489,12 @@ v1.07 ALPHA CHANGES
 * Added Quarantine siege version that can be played in other game modes
 
 [Maps]
-* Added backpack spawns to all Wrecking Crew maps
+* Added Backpack spawns to all Wrecking Crew maps
 * Added CTF to all WC maps except for Scrapheap & Vista
-* Added CTF & Damage Control to all siege maps
+* Added CTF to all siege maps except for Framework & Overpass
+* Added Damage Control to all siege maps except for Framework
 * Added Damage Control to all WC maps except Scrapheap, Ruins & Vista
-* Added more reconstructor spawns to some of the new siege maps
+* Added more Reconstructor spawns to some of the new siege maps
 * Added some well hidden weapons that only spawn once to some wrecking crew maps
 * Division: Added siege
 * Stratosphere: Added ladders to some of the buildings, removed all siege objectives except the town hall & fixed the physics issue with some of the shipping containers
@@ -505,7 +506,7 @@ v1.07 ALPHA CHANGES
 * Expansion: Added team spawns
 * Transmission: Added forcefield to indicate where the invisible wall is
 * Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects, various fixes & more
-* Ruins: Re-implemented map with backpack spawns, heat haze effect, propane tank weapon, various fixes & more
+* Ruins: Re-implemented map with backpack spawns, heat haze effect, various fixes & more
 * GFWL/Nordic Bonus: Adjusted weather, reduced the sun glare, added heat haze, removed the shipping containers + barrels on top of the cliff, various fixes & more
 * Scrapheap: Adjusted the minefield
 * Frost: Added fire effect at the top of the cliff where the explosion occurs
@@ -600,6 +601,7 @@ v1.07 ALPHA CHANGES
 * Fixed gap to void in terrain on GFWL/Nordic Bonus
 * Fixed gap to void in terrain on Frost
 * Fixed multiple out of bounds exploits on Frost
+* Fixed out of bounds exploit on Watchtower
 * Fixed two additional out of bounds exploits on Downfall
 * Fixed a hole where you could get stuck on Repercussion
 * Fixed floating heal backpack on Watchtower

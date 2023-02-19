@@ -11,24 +11,12 @@
 			<effect_name>env_sun_corona_a</effect_name>
 			<scale>
 				<key>
-					<time>0</time>
-					<value>0.450000</value>
-				</key>
-				<key>
-					<time>15</time>
-					<value>0.450000</value>
-				</key>
-				<key>
-					<time>27</time>
-					<value>0.450000</value>
-				</key>
-				<key>
-					<time>31</time>
-					<value>0.450000</value>
+					<time>21</time>
+					<value>0.200000</value>
 				</key>
 				<key>
 					<time>38</time>
-					<value>0.450000</value>
+					<value>0.200000</value>
 				</key>
 			</scale>
 			<tint>
@@ -42,11 +30,7 @@
 				</key>
 				<key>
 					<time>26</time>
-					<value>1.000000 0.991102 0.434154 32.000000</value>
-				</key>
-				<key>
-					<time>31</time>
-					<value>0.838799 0.637597 0.539480 32.000000</value>
+					<value>1.000000 0.992157 0.164706 32.000000</value>
 				</key>
 				<key>
 					<time>36</time>
@@ -139,7 +123,8 @@
 					<value>1.000000</value>
 				</key>
 			</scale>
-			<tint></tint>
+			<tint>
+			</tint>
 			<opacity>
 				<key>
 					<time>21</time>
@@ -149,5 +134,5 @@
 		</orbital>
 	</orbitals>
 	<horizon_mountain_enabled>true</horizon_mountain_enabled>
-	<fog_camera_follow>false</fog_camera_follow>
+	<fog_camera_follow>true</fog_camera_follow>
 </root>

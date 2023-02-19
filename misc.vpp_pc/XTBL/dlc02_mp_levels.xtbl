@@ -1,8 +1,9 @@
 <root>
 	<Table>		
+<!--MENU_PLYLST_PATCH_35 = Partial Recall-->		
 		<mp_level_list>
-			<Name>Aerial Excavation</Name>
-			<Filename>mp_air</Filename>
+			<Name>mp1</Name> <!--Siege Quarantine-->
+			<Filename>mp_1</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
 			</_Editor>
@@ -10,31 +11,34 @@
 				<Element>m16</Element>
 			</player_weapons>
 			<Description>0</Description>
-			<time_of_day>16:30</time_of_day>
-			<distance_multiplier>1.0</distance_multiplier>
-			<level_image_name>mp_thumb_excavation</level_image_name>
+			<time_of_day>07:00</time_of_day>
+			<distance_multiplier>0.75</distance_multiplier>
+			<level_image_name>mp_thumb_quarantine</level_image_name>
 			<dust_enabled>False</dust_enabled>
-			<wind_intensity>25</wind_intensity>
-			<wind_direction>190</wind_direction>
-			<Display_name>MENU_CUSTOM_GAME</Display_name> <!--From MENU_LEVEL_EXCAVATION-->
+			<wind_intensity>5.0</wind_intensity>
+			<wind_direction>150</wind_direction>
+			<Display_name>MENU_CUSTOM_GAME</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>			
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
-			<glow_multiplier>2.2</glow_multiplier>
+			<glow_multiplier>2.0</glow_multiplier>
 			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
-			<ideal_min_players>6</ideal_min_players>
-			<ideal_max_players>10</ideal_max_players>
-			<Load_image>Excavation</Load_image>
-			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
-		</mp_level_list>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>6</ideal_max_players>
+			<Load_image>Quarantine</Load_image>
+			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
+		</mp_level_list>	
 		<mp_level_list>
-			<Name>Equilibrium KOTH</Name>
-			<Filename>mp_koth</Filename>
+			<Name>mp2</Name> <!--Equilibrium King of the Hill-->
+			<Filename>mp_2</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
 			</_Editor>
@@ -48,7 +52,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_CUSTOM_GAME</Display_name> <!--From MENU_LEVEL_EQUILIBRIUM-->
+			<Display_name>MENU_CUSTOM_GAME</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -66,10 +70,72 @@
 			<ideal_max_players>10</ideal_max_players>
 			<Load_image>Equilibrium</Load_image>
 			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
-		</mp_level_list>		
+		</mp_level_list>
+		<mp_level_list>
+			<Name>mp3</Name> <!--Aerial Excavation-->
+			<Filename>mp_3</Filename>
+			<_Editor>
+				<Category>Entries:DLC_2</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>16:30</time_of_day>
+			<distance_multiplier>1.0</distance_multiplier>
+			<level_image_name>mp_thumb_excavation</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>25</wind_intensity>
+			<wind_direction>190</wind_direction>
+			<Display_name>MENU_CUSTOM_GAME</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+			</mode_flags>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<glow_multiplier>2.2</glow_multiplier>
+			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
+			<ideal_min_players>6</ideal_min_players>
+			<ideal_max_players>10</ideal_max_players>
+			<Load_image>Excavation</Load_image>
+			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
+		</mp_level_list>
+		<mp_level_list>
+			<Name>mp4</Name> <!--Pipeline Pitfalls-->
+			<Filename>mp_4</Filename>
+			<_Editor>
+				<Category>Entries:DLC_2</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>10:30</time_of_day>
+			<distance_multiplier>1.5</distance_multiplier>
+			<level_image_name>mp_thumb_pipeline</level_image_name>
+			<dust_enabled>True</dust_enabled> <!--From False-->
+			<wind_intensity>40</wind_intensity>
+			<wind_direction>270</wind_direction>
+			<Display_name>MENU_CUSTOM_GAME</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>bagman</Flag>
+			</mode_flags>
+			<alternate_time_of_day>0:00</alternate_time_of_day>
+			<glow_multiplier>0.9</glow_multiplier>
+			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
+			<ideal_min_players>10</ideal_min_players>
+			<ideal_max_players>16</ideal_max_players>
+			<Load_image>Pipeline</Load_image>
+			<demolition_damage_multiplier>1</demolition_damage_multiplier>
+		</mp_level_list>
 <!--		<mp_level_list>
-			<Name>Sand Pit KOTH</Name>
-			<Filename>mp_koth2</Filename>
+			<Name>mp5</Name>
+			<Filename>mp_5</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
 			</_Editor>
@@ -96,42 +162,6 @@
 			<Load_image>Sand Pit</Load_image>
 			<demolition_damage_multiplier>0.45</demolition_damage_multiplier>
 		</mp_level_list>-->
-<!--From MENU_LEVEL_SAND_PIT-->
-		<mp_level_list>
-			<Name>Crater</Name>
-			<Filename>mp_crater</Filename>
-			<_Editor>
-				<Category>Entries:DLC_2</Category>
-			</_Editor>
-			<player_weapons>
-				<Element>m16</Element>
-			</player_weapons>
-			<Description>0</Description>
-			<time_of_day>07:00</time_of_day>
-			<distance_multiplier>0.75</distance_multiplier>
-			<level_image_name>mp_thumb_quarantine</level_image_name>
-			<dust_enabled>False</dust_enabled>
-			<wind_intensity>5.0</wind_intensity>
-			<wind_direction>150</wind_direction>
-			<Display_name>MENU_CUSTOM_GAME</Display_name> <!--From MENU_LEVEL_QUARANTINE-->
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>deathmatch</Flag>
-				<Flag>team_deathmatch</Flag>
-				<Flag>capture_the_flag</Flag>
-				<Flag>king_of_the_hill</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>			
-			</mode_flags>
-			<alternate_time_of_day>00:00</alternate_time_of_day>
-			<glow_multiplier>2.0</glow_multiplier>
-			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
-			<ideal_min_players>2</ideal_min_players>
-			<ideal_max_players>6</ideal_max_players>
-			<Load_image>Quarantine</Load_image>
-			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
-		</mp_level_list>
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

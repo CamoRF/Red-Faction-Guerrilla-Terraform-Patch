@@ -17,10 +17,8 @@ RfgUtil.exe .\16_map\ -c -e
 RfgUtil.exe .\17_map\ -c -e
 RfgUtil.exe .\18_map\ -c -e
 RfgUtil.exe .\19_map\ -c -e
-RfgUtil.exe .\mp_test1_map\ -c -e
-RfgUtil.exe .\mp_test2_map\ -c -e
-RfgUtil.exe .\mp_test3_map\ -c -e
-RfgUtil.exe .\mp_air_map\ -c -e
-RfgUtil.exe .\mp_koth_map\ -c -e
-RfgUtil.exe .\mp_koth2_map\ -c -e
-RfgUtil.exe .\mp_crater_map\ -c -e
+RfgUtil.exe .\mp_1_map\ -c -e
+RfgUtil.exe .\mp_2_map\ -c -e
+RfgUtil.exe .\mp_3_map\ -c -e
+RfgUtil.exe .\mp_4_map\ -c -e
+RfgUtil.exe .\mp_5_map\ -c -e

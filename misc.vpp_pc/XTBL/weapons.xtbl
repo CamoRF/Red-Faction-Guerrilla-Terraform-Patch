@@ -1,6 +1,7 @@
 <root>
 	<Table>
 <!--NOTE: current highest <Unique_ID>144</Unique_ID>-->
+<!--START DLC Weapons ADDED-->
 		<Weapon>
 			<Name>EDF_Super_Gauss</Name>
 			<icon_name>ui_hud_weapon_icon_gauss</icon_name> <!--From ui_hud_weapon_icon_supergauss-->
@@ -296,25 +297,25 @@
 			<Weapon_Class>harpoon</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>projectile</Ammo_Type>
-			<Magazine_Size>20</Magazine_Size>
-			<Max_Rounds>120</Max_Rounds>
+			<Magazine_Size>10</Magazine_Size> <!--From 20-->
+			<Max_Rounds>60</Max_Rounds> <!--From 120-->
 			<Range_Max>60</Range_Max>
 			<Range_Red>60</Range_Red>
-			<Default_Refire_Delay>180</Default_Refire_Delay>
+			<Default_Refire_Delay>90</Default_Refire_Delay> <!--From 180-->
 			<Damage_Scaling_Max>
 				<NPC_Damage>185</NPC_Damage>
-				<Player_Damage>45</Player_Damage>
+				<Player_Damage>50</Player_Damage> <!--From 45-->
 				<Threshold>100</Threshold>
 				<Vehicle_Damage>185</Vehicle_Damage>
 				<Player_Vehicle_Damage>45</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Spread_Max>1.5</Spread_Max>
-			<Spread_Min>0.3</Spread_Min>
+			<Spread_Max>0.0</Spread_Max> <!--From 1.5-->
+			<Spread_Min>0.0</Spread_Min> <!--From 0.3-->
 			<NPC_Spread_Max>2.1</NPC_Spread_Max>
 			<NPC_Spread_Min>0.35</NPC_Spread_Min>
-			<To_Spread_Max>3</To_Spread_Max>
-			<To_Spread_Min>800</To_Spread_Min>
-			<Spread_Multiplier_Run>0.8</Spread_Multiplier_Run>
+			<To_Spread_Max>0</To_Spread_Max> <!--From 3-->
+			<To_Spread_Min>0</To_Spread_Min> <!--From 800-->
+			<Spread_Multiplier_Run>0.0</Spread_Multiplier_Run> <!--From 0.8-->
 			<_Editor>
 				<Category>Entries:Marauder</Category>
 			</_Editor>
@@ -333,14 +334,14 @@
 			<Flags>
 				<Flag>shatter</Flag>
 				<Flag>is obvious weapon</Flag>
-				<Flag>can fine aim</Flag>
+				<Flag>can fine aim</Flag> <!--Could be important for LMG weapon?-->
 				<Flag>mp selectable</Flag>
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>50</Max_Engagement_Distance>
 			<Inventory_Item>spiker</Inventory_Item>
 			<Item_3d>spiker</Item_3d>
-			<Recoil_Kick>.7</Recoil_Kick>
+			<Recoil_Kick>.7</Recoil_Kick> <!--From .7-->
 			<Acceleration>0.0</Acceleration>
 			<Sounds>
 				<Sound_Group>rail driver</Sound_Group>
@@ -366,20 +367,22 @@
 			<NPC_Firing_Pattern>Default Spiker</NPC_Firing_Pattern>
 			<Bullet_hole_scale>1.5</Bullet_hole_scale>
 			<Zoom_Magnification>1.65</Zoom_Magnification>
-			<Ammo_Box_Restock>120</Ammo_Box_Restock>
+			<Ammo_Box_Restock>60</Ammo_Box_Restock> <!--From 120-->
 			<Num_Magazines>6</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<icon_name>ui_badge_icon_skull</icon_name> <!--From ui_hud_weapon_icon_spiker-->
-			<reticule_name>ui_hud_reti_harpoon</reticule_name> <!--From ui_hud_reti_spiker2-->
+			<!--<reticule_name>ui_hud_reti_harpoon</reticule_name>--> <!--From ui_hud_reti_spiker2-->
+			<!--<fine_aim_reticule>ui_hud_reti_harpoon</fine_aim_reticule>--> <!--From ui_hud_reti_spiker1-->
+			<reticule_name>ui_hud_reti_assault</reticule_name>
+			<fine_aim_reticule>ui_hud_reti_assault0</fine_aim_reticule>
 			<dummy>False</dummy>
 			<mp_kill_phrase>HM_KILL_PHRASE_RAILED</mp_kill_phrase>
-			<Headshot_Multiplier>4.0</Headshot_Multiplier>
+			<Headshot_Multiplier>5.0</Headshot_Multiplier> <!--From 4.0-->
 			<Unique_ID>144</Unique_ID>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<Bullet_Group>Harpoon</Bullet_Group>
 			<Default_team>Marauder</Default_team>
-			<fine_aim_reticule>ui_hud_reti_harpoon</fine_aim_reticule> <!--From ui_hud_reti_spiker1-->
 			<Alert_Level_Multiplier>1.0</Alert_Level_Multiplier>
 			<Dropped_ammo_scale>0.7666667</Dropped_ammo_scale>
 			<aim_assist>1</aim_assist>
@@ -393,21 +396,23 @@
 					<Flag>align orient to flightpath</Flag>
 					<Flag>damage on impact</Flag>
 					<Flag>immediate effect detach</Flag>
+					<Flag>align orient to flightpath</Flag> <!--Added-->
 				</Projectile_Flags>
 				<Time_Until_Propelled>0.0</Time_Until_Propelled>
+				<Time_Until_Prop_Expire>10000</Time_Until_Prop_Expire> <!--Added-->
 				<Friction>1</Friction>
 				<Restitution>1</Restitution>
 				<Gravity>0</Gravity>
 			</Projectile_Info>
 			<NPC_Aim_Drift>Spiker</NPC_Aim_Drift>
 			<Damage_Scaling_Min>
-				<NPC_Damage>0.0</NPC_Damage>
-				<Player_Damage>0.0</Player_Damage>
+				<NPC_Damage>185</NPC_Damage> <!--From 0.0-->
+				<Player_Damage>50</Player_Damage> <!--From 0.0-->
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
 			<Max_Rounds_Upgrade>120</Max_Rounds_Upgrade>
-		</Weapon>	
+		</Weapon>
 <!--END-->
 <!--START MP WEAPONS-->
 		<Weapon>
