@@ -98,8 +98,8 @@
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>2.2</glow_multiplier>
 			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
-			<ideal_min_players>6</ideal_min_players>
-			<ideal_max_players>10</ideal_max_players>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Excavation</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
 		</mp_level_list>
@@ -128,8 +128,8 @@
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
-			<ideal_min_players>10</ideal_min_players>
-			<ideal_max_players>16</ideal_max_players>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Pipeline</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
