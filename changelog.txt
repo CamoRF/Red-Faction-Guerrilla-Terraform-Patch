@@ -506,11 +506,11 @@ v1.07 ALPHA CHANGES
 * Complex: Added two additional damage control targets, moved the rocket launcher spawn to a more hidden location & added an additional hidden kaboom backpack rack
 * Expansion: Added team spawns
 * Transmission: Added forcefield to indicate where the invisible wall is
-* Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects, various fixes & more
+* Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects, ladder added to one of the towers, various fixes & more
 * Ruins: Re-implemented map with backpack spawns, heat haze effect, various fixes & more
 * GFWL/Nordic Bonus: Adjusted weather, reduced the sun glare, added heat haze, removed the shipping containers + barrels on top of the cliff, various fixes & more
 * Scrapheap: Adjusted the minefield
-* Frost: Added fire effect at the top of the cliff where the explosion occurs
+* Frost: Added fire effect at the top of the cliff where the explosion occurs, added artillery sign asset and adjusted the killbox near the lower pipes
 * Improvements to weather and lighting on various maps
 
 [Interface]
