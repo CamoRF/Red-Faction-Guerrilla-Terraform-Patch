@@ -3,7 +3,6 @@ v1.07 TESTING
 
 HIGH PRIORITY
 -------------
-* xdelta for misc.vpp in final build, table isn't worth it
 * Reconstructor effect not appearing randomly, test if restarting game fixes it
 
 MISC
@@ -13,7 +12,7 @@ MISC
 
 CHARACTERS
 ----------
-* Add new character thumbnails when peg tool is out 
+* Add new character thumbnails when peg tool is out
 
 TEXTURE FIXES
 -------------
@@ -47,14 +46,12 @@ MAPS
 * Ladders: does making them orphans make them remain usable for longer when buildings are partially damaged?
 * New siege maps: Add team spawn children to siege objectives
 * Quarantine siege and new map file version: Add more spectator cameras outside the map
-* GFWL/Nordic Bonus: Remove smoke from smokestack outside map due to alpha flicker
-* Framework: Move flag stands, EDF spawn on top of the hill behind the buildings, RF spawn at the back near the mines
+* Framework: Move flag stands, EDF spawn on top of the hill behind the buildings, RF spawn at the back near the mines and re-enable it in mp_levels.xtbl
 * Frost has asm .xml in the map?
 * Siege maps has something with persistent flags used on most objects
 * Expansion: Killbox near cliff warning sign needs refinement
 * Test adding multiple bagman spawns to randomize where it respawns 
 * Test adding more than 2 flag stands
-* Frost: slightly bring the killbox near the pipes closer to the map
 * Invasion: Add more backpack racks: 289.140, -22.873, -205.479 & 327.849, -24.000, -242.271
 * Invasion: Fix slightly floating jetpack rack at 258.927, -21.505, -242.310
 * Gulch: Add more buildings, fences and smokestacks when nanoforge rewrite is out
