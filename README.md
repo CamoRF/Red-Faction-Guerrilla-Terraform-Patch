@@ -1,8 +1,8 @@
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/Logo.png?raw=true "Logo")
 
 - Version: v1.07 ALPHA
-- Date: 19-2-2023
-- Build: 601
+- Date: 20-2-2023
+- Build: 1115
 - Work-in-progress project that adds content, fixes bugs, and enhances many features.
 
 # Auto Install (Recommended)

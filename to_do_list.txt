@@ -34,50 +34,23 @@ WEAPONS
 
 MAPS
 ----
-* Frost: The crane is glitchy, cloned floating smokestack when bottom is destroyed, place barrels up on high cliff where buildings collapse, Garrison time of day as alternative?
-* Imperial: Transfer mine beacon and artillery sign asset and place it near the out of bounds rock
+* Imperial: Place artillery sign near the out of bounds rock
+* Watchtower: Place artillery sign near the out of bounds rock
 * Siege maps: more backpack spawns when played in other modes, add propane tank weapons near attacker spawn
-* Framework: MP version of crane asset?
-* Scrapheap: Add damage control & CTF 
-* Vista: Add damage control & CTF
-* Ruins: Add damage control
-* Expansion: cloned floating crates when bridge is destroyed
 * All maps: more DLC weapon spawns, Double check all spawns have "initial spawn" and "respawn enabled" along with neutral spawn gamemode flags disabled in CTF on all regular mp maps, Doublecheck all backpack racks and DCT racks are persistent, along with their children, Enable all objects in inspector in case there's weird cover nodes etc on all maps
-* Ladders: does making them orphans make them remain usable for longer when buildings are partially damaged?
 * New siege maps: Add team spawn children to siege objectives
-* Quarantine siege and new map file version: Add more spectator cameras outside the map
-* Framework: Move flag stands, EDF spawn on top of the hill behind the buildings, RF spawn at the back near the mines and re-enable it in mp_levels.xtbl
-* Frost has asm .xml in the map?
-* Siege maps has something with persistent flags used on most objects
 * Expansion: Killbox near cliff warning sign needs refinement
-* Test adding multiple bagman spawns to randomize where it respawns 
-* Test adding more than 2 flag stands
 * Invasion: Add more backpack racks: 289.140, -22.873, -205.479 & 327.849, -24.000, -242.271
 * Invasion: Fix slightly floating jetpack rack at 258.927, -21.505, -242.310
+* Invasion: Transfer asset and add marauder crates from Expansion
 * Gulch: Add more buildings, fences and smokestacks when nanoforge rewrite is out
-* Transmission: Add EDF crates near the forcefield, 2 or 3. Same on opposite side of map
-* Transmission: Add Weapon spawn 143.948, 12.515, -268.604
+* Transmission: Add Weapon spawn: 143.948, 12.515, -268.604
 * Transmission: Add some walls when Nanoforge rewrite is out
 * Vista: Add jetpack spawn
 * Framework: Add CTF & Damage Control
-* Siege maps persistent objects other than the objective don't spawn? or is it just framework?
 * Flag stands and damage control targets don't need to be persistent
 * Make sure neutral spawns are enabled on CTF WC maps
 
-RUINS INTERIOR MAP
-------------------
-
-SANDPIT KOTH
--------------
-* Use puncture weather and time of day
-* Transfer heat haze and fire assets to map 
-* Small smokestack in distance is too high
-* 180 the small shack near the middle of the map
-* Raise the large building added a tiny bit
-* Fence clipping through one of the smokestacks
-* Add more objects outside the maybe
-* Attempt to transfer the solar tower asset from cascade or gauntlet and add it at that empty area at the opposite side of the map as the large building
-* Move the shack next to it closer to the middle, next to the fence/backpacks
 
 NEW MISSIONS
 -------------
@@ -174,11 +147,36 @@ GRAPHICS OVERHAUL
 * Upscale .bik videos with Topez Video Enhance
 
 
+LOW PRIORITY MAP STUFF
+-----------------------
+* Siege maps has something with persistent flags used on most objects
+* Siege maps persistent objects other than the objective don't spawn? or is it just framework?
+* Test adding multiple bagman spawns to randomize where it respawns 
+* Test adding more than 2 flag stands
+* Ladders: does making them orphans make them remain usable for longer when buildings are partially damaged?
+* Frost: The crane is glitchy, cloned floating smokestack when bottom is destroyed, place barrels up on high cliff where buildings collapse, Garrison time of day as alternative?
+* Expansion: cloned floating crates when bridge is destroyed
+* Scrapheap: Add damage control & CTF 
+* Vista: Add damage control & CTF
+* Ruins: Add damage control
+* Framework: Move flag stands, EDF spawn on top of the hill behind the buildings, RF spawn at the back near the mines and re-enable it in mp_levels.xtbl
+* Framework: MP version of crane asset?
+* Quarantine siege and new map file version: Add more spectator cameras outside the map
 
 
+RUINS INTERIOR MAP
+------------------
 
-
-
-
+SANDPIT KOTH
+-------------
+* Use puncture weather and time of day
+* Transfer heat haze and fire assets to map 
+* Small smokestack in distance is too high
+* 180 the small shack near the middle of the map
+* Raise the large building added a tiny bit
+* Fence clipping through one of the smokestacks
+* Add more objects outside the maybe
+* Attempt to transfer the solar tower asset from cascade or gauntlet and add it at that empty area at the opposite side of the map as the large building
+* Move the shack next to it closer to the middle, next to the fence/backpacks
 
 
