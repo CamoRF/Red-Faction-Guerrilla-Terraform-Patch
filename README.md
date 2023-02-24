@@ -37,6 +37,7 @@ See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraf
 - [RSL](https://github.com/rsl-dev/RSL/releases)
 - [Scripts](https://github.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/tree/main/tools/scripts)
 - [xdelta UI](https://www.factionfiles.com/ff.php?action=file&id=5686)
+- [AsmTool](https://github.com/Moneyl/AsmTool)
 
 # Credits
 - moneyl for lots of help & developing all the tools that make this project possible including Nanoforge, AsmTool, RfgUtil & RSL.
