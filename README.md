@@ -7,7 +7,7 @@
 
 # Auto Install (Recommended)
 - First verify your game files
-- Use [SyncFaction](https://www.factionfiles.com/ff.php?action=file&id=6249) 
+- Use [SyncFaction](https://github.com/Rast1234/SyncFaction/releases/download/v8-test-10/SyncFaction.exe)
 
 # Releases
 - [v1.05 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6247)
