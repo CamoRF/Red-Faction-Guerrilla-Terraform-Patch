@@ -468,7 +468,7 @@ v1.07 ALPHA CHANGES
 -------------------
 
 [Misc]
-* The majority of the patch has been re-built from the ground up to reduce the download size significantly
+* The majority of the patch has been re-built from the ground up to reduce the file size significantly
 
 [Singleplayer]
 * Reverted adding DLC vehicles for now
@@ -505,19 +505,19 @@ v1.07 ALPHA CHANGES
 * Watchtower: Added King of the Hill mode in Damage Control
 * Complex: Added two additional damage control targets, moved the rocket launcher spawn to a more hidden location & added an additional hidden kaboom backpack rack
 * Expansion: Added team spawns
-* Transmission: Added forcefield to indicate where the invisible wall is & EDF crates around some of the empty areas
+* Transmission: Added forcefield to indicate where the invisible wall is, added EDF crates around some of the empty areas, various fixes & more
 * Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects, ladder added to one of the towers, various fixes & more
 * Ruins: Re-implemented map with backpack spawns, heat haze effect, various fixes & more
 * GFWL/Nordic Bonus: Adjusted weather, reduced the sun glare, added heat haze, removed the shipping containers + barrels on top of the cliff, various fixes & more
 * Scrapheap: Adjusted the minefield
-* Frost: Added fire effect at the top of the cliff where the explosion occurs, added artillery sign asset and adjusted the killbox near the lower pipes
+* Frost: Added fire effect at the top of the cliff where the explosion occurs, added artillery sign asset, adjusted the killbox near the lower pipes, various fixes & more
 * Improvements to weather and lighting on various maps
 
 [Interface]
 * Initial loading screen updated to current patch version
 * Reverted adding higher resolution loading screens & thumbnails
 * Reverted replacing other character textures, all new character textures now use a generic placeholder texture until it's possible to add new texture files
-* Reduced interface related file size from 765mb to 13.8mb
+* Reduced interface related file sizes significantly
 * Reverted replacing the initial loading screen in interface.vpp_pc since it only needs to be replaced in misc.vpp_pc
 
 [Characters] 
@@ -596,7 +596,7 @@ v1.07 ALPHA CHANGES
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
-* Fixed issue with heal backpack being team exclusive on Expansion
+* Fixed issue with heal backpack set as team exclusive on Expansion
 * Fixed issue with spawn facing wrong direction on Complex
 * Fixed gap to void in terrain on Gulch
 * Fixed gap to void in terrain on GFWL/Nordic Bonus
@@ -612,9 +612,9 @@ v1.07 ALPHA CHANGES
 * Fixed some DLC objects missing shadows
 * Reverted change to "Max_simultaneous_proxies" in tweak_table.xtbl in case it causes issues/crashes
 * Optimized more files to reduce memory pool load increasing stability
-* Various other improvements, adjustments & fixes to player, weapon & backpack spawns
-* Various other improvements, adjustments & fixes to all multiplayer & wrecking crew maps
-* Various fixes, optimizations & stability improvements
+* Various other fixes, improvements & adjustments to player, weapon & backpack spawns on all multiplayer & wrecking crew maps
+* Various other fixes, improvements & adjustments to all multiplayer & wrecking crew maps
+* Various other fixes, optimizations & stability improvements
 
 ------------
 |KNOWN BUGS|
