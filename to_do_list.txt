@@ -4,6 +4,8 @@ v1.07 TESTING
 HIGH PRIORITY
 -------------
 * Reconstructor effect not appearing randomly, test if restarting game fixes it
+* Move bagman location on factory
+* Doublecheck there isn't a backpack rack floating near the bagman location on Vista
 
 MISC
 ----
