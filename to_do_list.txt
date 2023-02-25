@@ -5,6 +5,9 @@ HIGH PRIORITY
 -------------
 * Reconstructor effect not appearing randomly, test if restarting game fixes it
 * Doublecheck there isn't a backpack rack floating near the bagman location on Vista
+* Disable CTF on WC maps without team spawns
+* Disable siege on new maps without proper spawns?
+* Doublecheck if sun texture is broken on assembly/outpost
 
 MISC
 ----
