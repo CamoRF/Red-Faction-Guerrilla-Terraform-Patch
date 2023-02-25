@@ -4,7 +4,6 @@ v1.07 TESTING
 HIGH PRIORITY
 -------------
 * Reconstructor effect not appearing randomly, test if restarting game fixes it
-* Move bagman location on factory
 * Doublecheck there isn't a backpack rack floating near the bagman location on Vista
 
 MISC
@@ -52,7 +51,7 @@ MAPS
 * Framework: Add CTF & Damage Control
 * Flag stands and damage control targets don't need to be persistent
 * Make sure neutral spawns are enabled on CTF WC maps
-
+* Move bagman location on factory
 
 NEW MISSIONS
 -------------
