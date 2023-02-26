@@ -2,12 +2,6 @@
 TO DO LIST
 *---------*
 
-* Fix customization menu crashing when changing characters 
-* Might need to rename some of the dlc character stuff 
-* Use old character.xtbl and mp_character.xtbl file from v1.07
-* Maybe leave out adding Alec Mason with Armor until the issue is resolved 
-* Remove the restoration of characters cut from changelog and add them to do list
-
 MISC
 ----
 * Add missing vanilla value comments from some files, some of them have a note in the .xtbl already
@@ -17,6 +11,7 @@ MISC
 CHARACTERS
 ----------
 * Add new character thumbnails when peg tool is out
+* Restore Torvald, Bev, Chuck, Selma, Kayla, Blair, Numah, & Pierce to multiplayer roster and add ones missing from RF team
 
 TEXTURE FIXES
 -------------
