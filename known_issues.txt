@@ -55,6 +55,7 @@
 * New characters use a generic placeholder texture for now
 * New character names have !! in front of them for now
 * Marauder lady is missing some textures
+* The following characters have been temporarily removed from the multiplayer roster due to a hardcoded limit: Torvald, Bev, Chuck, Selma, Kayla, Blair, Numah, & Pierce
 
 [Misc]
 * "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file reported in Red Faction Guerrilla Re-Mars-tered.log

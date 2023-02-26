@@ -522,7 +522,6 @@ v1.07 ALPHA CHANGES
 * Reverted replacing the initial loading screen in interface.vpp_pc since it only needs to be replaced in misc.vpp_pc
 
 [Characters] 
-* Restored Ian, Numah, Jake, Kayla, Selma, Blair, Bev & Jake in MP
 * Restored EDF heavy tan model in team games
 * Added EDF heavy white model to team games
 * Added EDF heavy tan model to free for all
