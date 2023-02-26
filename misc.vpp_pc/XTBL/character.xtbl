@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START New Character Added-->		
+<!--START New Characters Added-->
 		<Character>
 			<Team>Guerilla</Team>
 			<Name>mason</Name>
@@ -147,8 +147,6 @@
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Special</origin_district>
 		</Character>
-<!--END-->		
-<!--START DLC Characters ADDED-->
 		<Character>
 			<Name>dlc_sam</Name>
 			<Model>
@@ -580,7 +578,7 @@
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Special</origin_district>
 		</Character>
-<!--END-->		
+<!--END-->
 		<Character>
 			<Name>MP_Selma</Name>
 			<Model>
