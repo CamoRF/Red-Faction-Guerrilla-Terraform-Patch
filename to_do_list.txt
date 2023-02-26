@@ -1,18 +1,12 @@
-v1.07 TESTING
--------------
-
-HIGH PRIORITY
--------------
-* Reconstructor effect not appearing randomly, test if restarting game fixes it
-* Doublecheck there isn't a backpack rack floating near the bagman location on Vista
-* Disable CTF on WC maps without team spawns
-* Disable siege on new maps without proper spawns?
-* Doublecheck if sun texture is broken on assembly/outpost
+*---------*
+TO DO LIST
+*---------*
 
 MISC
 ----
 * Add missing vanilla value comments from some files, some of them have a note in the .xtbl already
 * Add formatted versions of optimized files
+* Reconstructor effect not appearing randomly, test if restarting game fixes it
 
 CHARACTERS
 ----------
@@ -54,13 +48,40 @@ MAPS
 * Framework: Add CTF & Damage Control
 * Flag stands and damage control targets don't need to be persistent
 * Make sure neutral spawns are enabled on CTF WC maps
-* Move bagman location on factory
+* Disable CTF on WC maps without team spawns
+* Disable siege on new maps without proper spawns?
+* Doublecheck if sun texture is broken on assembly/outpost
 
-NEW MISSIONS
+LOW PRIORITY MAP STUFF
+-----------------------
+* Siege maps has something with persistent flags used on most objects
+* Siege maps persistent objects other than the objective don't spawn? or is it just framework?
+* Test adding multiple bagman spawns to randomize where it respawns 
+* Test adding more than 2 flag stands
+* Ladders: does making them orphans make them remain usable for longer when buildings are partially damaged?
+* Frost: The crane is glitchy, cloned floating smokestack when bottom is destroyed, place barrels up on high cliff where buildings collapse, Garrison time of day as alternative?
+* Expansion: cloned floating crates when bridge is destroyed
+* Scrapheap: Add damage control & CTF 
+* Vista: Add damage control & CTF
+* Ruins: Add damage control
+* Framework: Move flag stands, EDF spawn on top of the hill behind the buildings, RF spawn at the back near the mines and re-enable it in mp_levels.xtbl
+* Framework: MP version of crane asset?
+* Quarantine siege and new map file version: Add more spectator cameras outside the map
+
+RUINS INTERIOR MAP
+------------------
+
+SANDPIT KOTH
 -------------
-* Missions where you fly the EDF fliers or bombers and take out EDF bases on mountains 
-* Stunt jump activities
-* More demo master activities 
+* Use puncture weather and time of day
+* Transfer heat haze and fire assets to map 
+* Small smokestack in distance is too high
+* 180 the small shack near the middle of the map
+* Raise the large building added a tiny bit
+* Fence clipping through one of the smokestacks
+* Add more objects outside the maybe
+* Attempt to transfer the solar tower asset from cascade or gauntlet and add it at that empty area at the opposite side of the map as the large building
+* Move the shack next to it closer to the middle, next to the fence/backpacks
 
 SINGLEPLAYER ADD-ON
 --------------------
@@ -138,49 +159,21 @@ OUT OF SCOPE/ADD-ONS
 * Is that gritty border I made for thumbnails on one of my backup SSDs?
 * Could extract the old HD loading screens and thumbnails from old version of patch
 
+	NEW MISSIONS
+	-------------
+	* Missions where you fly the EDF fliers or bombers and take out EDF bases on mountains 
+	* Stunt jump activities
+	* More demo master activities 
 
-GRAPHICS OVERHAUL 
------------------
-* Rewrite graphics improvement script for RSL2
-* HD character textures 
-* HD weapons and backpack textures
-* HD rocks 
-* HD clouds
-* HD loading screens
-* Try to fix the skybox with clouds just doing a circular motion
-* Upscale .bik videos with Topez Video Enhance
-
-
-LOW PRIORITY MAP STUFF
------------------------
-* Siege maps has something with persistent flags used on most objects
-* Siege maps persistent objects other than the objective don't spawn? or is it just framework?
-* Test adding multiple bagman spawns to randomize where it respawns 
-* Test adding more than 2 flag stands
-* Ladders: does making them orphans make them remain usable for longer when buildings are partially damaged?
-* Frost: The crane is glitchy, cloned floating smokestack when bottom is destroyed, place barrels up on high cliff where buildings collapse, Garrison time of day as alternative?
-* Expansion: cloned floating crates when bridge is destroyed
-* Scrapheap: Add damage control & CTF 
-* Vista: Add damage control & CTF
-* Ruins: Add damage control
-* Framework: Move flag stands, EDF spawn on top of the hill behind the buildings, RF spawn at the back near the mines and re-enable it in mp_levels.xtbl
-* Framework: MP version of crane asset?
-* Quarantine siege and new map file version: Add more spectator cameras outside the map
-
-
-RUINS INTERIOR MAP
-------------------
-
-SANDPIT KOTH
--------------
-* Use puncture weather and time of day
-* Transfer heat haze and fire assets to map 
-* Small smokestack in distance is too high
-* 180 the small shack near the middle of the map
-* Raise the large building added a tiny bit
-* Fence clipping through one of the smokestacks
-* Add more objects outside the maybe
-* Attempt to transfer the solar tower asset from cascade or gauntlet and add it at that empty area at the opposite side of the map as the large building
-* Move the shack next to it closer to the middle, next to the fence/backpacks
+	GRAPHICS OVERHAUL 
+	-----------------
+	* Rewrite graphics improvement script for RSL2
+	* HD character textures 
+	* HD weapons and backpack textures
+	* HD rocks 
+	* HD clouds
+	* HD loading screens
+	* Try to fix the skybox with clouds just doing a circular motion
+	* Upscale .bik videos with Topez Video Enhance
 
 

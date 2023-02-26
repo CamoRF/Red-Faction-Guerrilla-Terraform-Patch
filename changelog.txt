@@ -4,12 +4,12 @@
 
 Author: Camo
 Version: v1.07 ALPHA
-Date: 25-2-2023
-Build: 420
+Date: 26-2-2023
+Build: 1241
 
------------------------
-INTIAL RELEASE CHANGES
------------------------
+-------------------
+v1.00 ALPHA CHANGES
+-------------------
 
 [Assault Rifle Fix]
 * Player damage reduced to 40 from 44
@@ -137,9 +137,9 @@ v1.031 ALPHA CHANGES
 * Fixed vanilla bug with missing sun textures, broken lens flares & missing sunshafts/godrays on various maps & the singleplayer tutorial mission
 * Spiker is temporarily disabled in multiplayer due to an issue where if you're not the host the projectile is invisible
 
----------------------
+-------------------
 v1.05 ALPHA CHANGES
----------------------
+-------------------
 
 [New Characters]
 * Added Elegant Ian to multiplayer roster 
@@ -227,9 +227,9 @@ v1.05 ALPHA CHANGES
 * Removed fog on Imperial due to extreme fog on some computers, will be re-implemented when the weather & lighting files are more understood
 * Reverted blood decal lifetime tweak due to issue with them not syncing properly & being visible when using the stealth patch if you're covered in blood
 
----------------------
+-------------------
 v1.06 ALPHA CHANGES
----------------------
+-------------------
 
 [Maps]
 * Added weapon spawns to all 19 wrecking crew maps, thanks to ATMLVE for his help!
@@ -429,9 +429,9 @@ v1.064 ALPHA CHANGES
 * Fixed vanilla bug with spawns flipping in CTF on most maps; this fix will apply on all maps that have team spawns
 * Fixed sound getting stuck when Kaboom Pack explodes
 
-------------------------------
+-----------------------------
 v1.064.1 ALPHA HOTFIX CHANGES
-------------------------------
+-----------------------------
 
 [Interface]
 * Initial loading screen updated to current patch version
@@ -503,7 +503,8 @@ v1.07 ALPHA CHANGES
 * Cascade: Added another siege objective & two stealth backpack spawns near the solar towers
 * Watchtower: Improved backpack spawn locations
 * Watchtower: Added King of the Hill mode in Damage Control
-* Complex: Added two additional damage control targets, moved the rocket launcher spawn to a more hidden location & added an additional hidden kaboom backpack rack
+* Complex: Added two additional damage control targets, moved the rocket launcher spawn to a more hidden location & moved the kaboom backpack rack to a more hidden location
+* Factory: Moved the location of the bag to a more balanced position for team bagman
 * Expansion: Added team spawns
 * Transmission: Added forcefield to indicate where the invisible wall is, added EDF crates around some of the empty areas, various fixes & more
 * Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects, ladder added to one of the towers, various fixes & more
