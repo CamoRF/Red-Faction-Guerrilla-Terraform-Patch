@@ -2,12 +2,11 @@
 TO DO LIST
 *---------*
 
-TESTING
-
-* Test complex kaboom removal 
-* Test frost kaboom removal
-* Test location of bag on factory 
-* Test damage control target names on quarantine custom map
+* Fix customization menu crashing when changing characters 
+* Might need to rename some of the dlc character stuff 
+* Use old character.xtbl and mp_character.xtbl file from v1.07
+* Maybe leave out adding Alec Mason with Armor until the issue is resolved 
+* Remove the restoration of characters cut from changelog and add them to do list
 
 MISC
 ----
