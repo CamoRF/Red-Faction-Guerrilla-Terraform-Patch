@@ -3,31 +3,33 @@
 --------------
 
 [Singleplayer]
-* Activity: offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
-* Activity: screenshot "sp_eos_side_mission.png" MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
-* Activity: transporter activity in Badl&s MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* Activity: Offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* Activity: See screenshot "sp_eos_side_mission.png" MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* Activity: Transporter activity in Badl&s MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * Misc: Marauders might not spawn with shotguns? (might be fixed in v1.064.1 due to reverting changes to squad files) [REVERTED IN v1.07]
 * Misc: NPCs drive like crazy when obstructed instead of waiting & going around them calmly
 * Misc: Setting walkers to spawn at safehouses can cause no vehicles to spawn, this was a bug introduced in the remaster
 * Misc: EDF spawn very close to the player
-* DLC: tank doesn't spawn in Redemption mission (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* DLC: Tank doesn't spawn in Redemption mission (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * DLC: Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * DLC: NPC MIGHT drive off near the cliff near the large bridge during Redemption mission (with uncapped fps or due to bad road path on the map?)
 * DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
 * DLC: First transporter mission is broken [REVERTED in v1.07]
-* DLC: Weapons that have been ported to the base game have broken icons (due to the DLC loading weapons.xtbl & overriding the dlc01 weapon xtbl, it should be resolved when reticules & icons can be ported to the base game or a work around is found by changing the dlc weapons to be unique from the ported ones)
 
 [Maps]
 * New maps have placeholder name "CUSTOM GAME", this will be resolved when adding custom strings is possible
+* Abandoned: Terrain collision glitch near forcefield near 335.016, -0.205, -321.099
+* Expansion: Crates on top of the bridge float even when the bridge is destroyed
+* Expansion: Killbox near cliff warning sign needs refinement
+* Frost: Sections of the crane & smokestack can float when they are partially destroyed
+* Ruins: Damage Control currently crashes for unknown reason so that mode isn't implemented on this map yet
+* Invasion: Slightly floating jetpack rack at 258.927, -21.505, -242.310
+* Nanoforge issue: Cloned objects not having gravity not apply to them (see Expansion, Frost, Aerial Excavation)
+* Nanoforge issue: Cloned objects that have constaints having strange physics (see Frost)
 * Most wrecking crew maps are missing team spawns and the CTF spawn flipping fix will not apply on these maps
 * Most wrecking crew maps still need more spawns &/or fixes to existing spawns
 * Wrecking crew maps in general are not final
-* Abandoned terrain collision glitch near forcefield near 335.016, -0.205, -321.099
-* Expansion: crates on top of the bridge float even when the bridge is destroyed for an unknown reason
-* Frost: sections of the crane & smokestack can float when they are partially destroyed, could be fixed by transferring a multiplayer version of the crane to the map that doesn't use constraints
-* Ruins: Damage Control currently crashes for unknown reason so that mode isn't implemented on this map yet
-* Nanoforge issue with cloned objects not having gravity not apply to them (see Expansion, Frost, Aerial Excavation)
-* Nanoforge issue with cloned objects that have constaints having strange physics (see Frost)
+* New Siege Maps: Most of them are lacking proper spawns and might be chaotic
 
 [Textures]
 * Typo (build>built, fo>for) in "ui_blueprint_hammer" texture
@@ -36,14 +38,14 @@
 * "cem_base01_wkpp" missing specular texture (test at Parker's shack)
 
 [DLC Weapons]
-* Pickaxe: missing textures; not implemented yet
-* Impaler: missing textures; not implemented yet
-* Spiker: has missing texture when it's dropped on the ground & only the host might be able to see the projectile; not implemented yet
-* Misslepod: sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon
+* Pickaxe: Missing textures; not implemented yet
+* Impaler: Missing textures; not implemented yet
+* Spiker: Missing textures when it's dropped on the ground and sometimes when another player has it
+* Misslepod: Sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon
 * Marauder Remote Charges: missing textures; not implemented yet
 * Weapons use placeholder icons & reticules for now
-* Weapon icons are broken in singleplayer due to the new placeholder icons only loading in multiplayer [REVERTED IN v1.07]
 * Weapons will still remain on the map even when all map weapon spawns are disabled in the custom match settings
+* Weapons that have been ported to the base game have broken icons (due to the DLC loading weapons.xtbl & overriding the dlc01 weapon xtbl, it should be resolved when reticules & icons can be ported to the base game or a work around is found by changing the dlc weapons to be unique from the ported ones)
 
 [Backpacks]
 * Kaboom backpack has floating objects on the model
