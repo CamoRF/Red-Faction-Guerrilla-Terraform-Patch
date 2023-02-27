@@ -1,13 +1,13 @@
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/Logo.png?raw=true "Logo")
 
 - Version: v1.07 ALPHA
-- Date: 25-2-2023
-- Build: 420
+- Date: 26-2-2023
+- Build: 918
 - Work-in-progress project that adds content, fixes bugs, and enhances many features.
 
 # Auto Install (Recommended)
 - First verify your game files
-- Use [SyncFaction](https://github.com/Rast1234/SyncFaction/releases/download/v8-test-10/SyncFaction.exe)
+- Use [SyncFaction](https://github.com/Rast1234/SyncFaction/releases/download/v8-test-11/SyncFaction.exe)
 
 # Releases
 - [v1.05 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6247)
@@ -18,13 +18,16 @@
 - [v1.064 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6340)
 - [v1.064.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6362)
 - [v1.064.2 ALPHA HOTFIX](https://www.factionfiles.com/ff.php?action=file&id=6388)
-- [v1.07 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6362)
+- [v1.07 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7501)
 
 # Changelog
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/changelog.txt)
 
 # To do list
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/to_do_list.txt)
+
+# Known Issues
+See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/known_issues.txt)
 
 # Tools Used
 
