@@ -7,6 +7,9 @@ MISC
 * Add missing vanilla value comments from some files, some of them have a note in the .xtbl already
 * Add formatted versions of optimized files
 * Reconstructor effect not appearing randomly, test if restarting game fixes it
+* Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)"
+* More heat haze probes on Ruins where it's missing the effect
+* Disable power weapons on maps until we can figure out a way to rebalance them (Super Gauss, Misslepod)
 
 CHARACTERS
 ----------

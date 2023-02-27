@@ -23,8 +23,8 @@
 			<Material>
 				<Filename>vfx_decal_bullet_cem.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.2</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -43,8 +43,8 @@
 			<Material>
 				<Filename>vfx_decal_bullet_glass.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.16</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -58,13 +58,13 @@
 			<Length>.16</Length>
 			<Double_sided>True</Double_sided>
 		</Decal_Info>
-		<Decal_Info>
+		<!--<Decal_Info>
 			<Name>Test_decal</Name>
 			<Material>
 				<Filename>decal_test1.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time>
 			<Width>.12</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -84,8 +84,8 @@
 				<Filename>decal_test2.matx</Filename>
 			</Material>
 			<Preload>True</Preload>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>0</Fade_Time>
 			<Width>0.3</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -97,15 +97,15 @@
 			</_Editor>
 			<Length>0.3</Length>
 			<Double_sided>False</Double_sided>
-		</Decal_Info>
+		</Decal_Info>-->
 		<Decal_Info>
 			<Name>civ_walker_footstep</Name>
 			<Material>
 				<Filename>decal_civ_walker.matx</Filename>
 			</Material>
 			<Preload>True</Preload>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -124,8 +124,8 @@
 				<Filename>decal_tire_track_a.matx</Filename>
 			</Material>
 			<Preload>True</Preload>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -144,8 +144,8 @@
 				<Filename>decal_tire_track_2x_a.matx</Filename>
 			</Material>
 			<Preload>True</Preload>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -164,8 +164,8 @@
 				<Filename>decal_tire_track_3x_a.matx</Filename>
 			</Material>
 			<Preload>True</Preload>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -183,7 +183,7 @@
 			<Material>
 				<Filename>decal_blood_splat.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
+			<Life_Time>-1</Life_Time>
 			<Fade_Time>0</Fade_Time> <!--From 0-->
 			<Width>0.3</Width>
 			<Depth>0.2</Depth>
@@ -203,7 +203,7 @@
 			<Material>
 				<Filename>decal_blood_splat_2.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
+			<Life_Time>-1</Life_Time>
 			<Fade_Time>0</Fade_Time> <!--From 0-->
 			<Width>0.8</Width>
 			<Depth>0.2</Depth>
@@ -223,7 +223,7 @@
 			<Material>
 				<Filename>decal_blood_splat_2.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
+			<Life_Time>-1</Life_Time>
 			<Fade_Time>0</Fade_Time> <!--From 0-->
 			<Width>2.0</Width>
 			<Depth>0.2</Depth>
@@ -244,8 +244,8 @@
 				<Filename>blast_decal.matx</Filename>
 			</Material>
 			<Preload>True</Preload>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -263,8 +263,8 @@
 			<Material>
 				<Filename>vfx_decal_glass_crack.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>1.4</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -283,8 +283,8 @@
 			<Material>
 				<Filename>vfx_decal_glass_crack_2.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>1.6</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -303,8 +303,8 @@
 			<Material>
 				<Filename>vfx_decal_glass_crack_3.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>1.2</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -323,8 +323,8 @@
 			<Material>
 				<Filename>vfx_decal_bullet_comp.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.1</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -343,8 +343,8 @@
 			<Material>
 				<Filename>vfx_decal_bullet_dirt.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.1</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -363,8 +363,8 @@
 			<Material>
 				<Filename>vfx_decal_bullet_metal.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.15</Width>
 			<Depth>.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -384,8 +384,8 @@
 				<Filename>vfx_decal_tire_skid_a.matx</Filename>
 			</Material>
 			<Preload>True</Preload>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -404,8 +404,8 @@
 				<Filename>vfx_decal_tire_edf_a.matx</Filename>
 			</Material>
 			<Preload>True</Preload>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -424,8 +424,8 @@
 				<Filename>vfx_decal_tire_edf_2x_a.matx</Filename>
 			</Material>
 			<Preload>True</Preload>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -444,8 +444,8 @@
 				<Filename>vfx_decal_tire_edf_3x_a.matx</Filename>
 			</Material>
 			<Preload>True</Preload>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>2</Width>
 			<Depth>0.3</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -464,8 +464,8 @@
 				<Filename>blast_decal_cement.matx</Filename>
 			</Material>
 			<Preload>True</Preload>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>1</Width>
 			<Depth>0.02</Depth>
 			<Depth_Fade_Start>0.5133333</Depth_Fade_Start>
@@ -483,8 +483,8 @@
 			<Material>
 				<Filename>vfx_decal_raildriver.matx</Filename>
 			</Material>
-			<Life_Time>60000</Life_Time> <!--From -1-->
-			<Fade_Time>60</Fade_Time> <!--From 0-->
+			<Life_Time>-1</Life_Time>
+			<Fade_Time>21474836</Fade_Time> <!--From 0-->
 			<Width>.15</Width>
 			<Depth>.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
