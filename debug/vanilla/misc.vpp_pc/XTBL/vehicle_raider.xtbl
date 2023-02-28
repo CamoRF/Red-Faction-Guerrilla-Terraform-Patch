@@ -1,0 +1,311 @@
+<root>
+	<Table>
+		<Skeleton_Set>
+			<Name>Vehicle_Raider</Name>
+			<Groups>
+				<Group>
+					<group>Default</group>
+					<States>
+						<State>
+							<ID>driving forward</ID>
+							<Animation>
+								<Filename>raidr_dr_drive.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>vehicle enter stand</ID>
+							<Animation>
+								<Filename>raidr_dr_idle.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>drive ready r</ID>
+							<Animation>
+								<Filename>raidr_dr_exit_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>vehicle enter stand 2</ID>
+							<Animation>
+								<Filename>raidr_dr_enter_ul.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>vehicle enter stand 3</ID>
+							<Animation>
+								<Filename>raidr_dr_enter_ur.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ride r ready back</ID>
+							<Animation>
+								<Filename>raidr_pssngr_b.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ride r ready</ID>
+							<Animation>
+								<Filename>raidr_pssngr_enter_b.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ride l ready back</ID>
+							<Animation>
+								<Filename>raidr_pssngr_c.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>ride l ready</ID>
+							<Animation>
+								<Filename>raidr_pssngr_enter_c.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>turret ready</ID>
+							<Animation>
+								<Filename>trrtmg_rd_std_m.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>driver look back</ID>
+							<Animation>
+								<Filename>raidr_dr_lookarnd_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>vehicle dive exit</ID>
+							<Animation>
+								<Filename>blucrb_dr_dve.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>vehicle enter primary 1</ID>
+							<Animation>
+								<Filename>raidr_dr_entrclmb_bckl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter primary 2</ID>
+							<Animation>
+								<Filename>raidr_dr_entrclmb_bckr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter secondary 1</ID>
+							<Animation>
+								<Filename>raidr_dr_entrclmb_frtl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter secondary 2</ID>
+							<Animation>
+								<Filename>raidr_dr_entrclmb_frtr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter tertiary 1</ID>
+							<Animation>
+								<Filename>raidr_dr_entrclmb_ul.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter tertiary 2</ID>
+							<Animation>
+								<Filename>raidr_dr_entrclmb_ur.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle exit driver</ID>
+							<Animation>
+								<Filename>raidr_dr_exit_idle.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter pass 2</ID>
+							<Animation>
+								<Filename>raidr_pssngr_entrclmb_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter pass 3</ID>
+							<Animation>
+								<Filename>raidr_pssngr_entrclmb_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle exit pass 2</ID>
+							<Animation>
+								<Filename>raidr_pssngr_exit_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle exit pass 3</ID>
+							<Animation>
+								<Filename>raidr_pssngr_exit_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter pass 1</ID>
+							<Animation>
+								<Filename>raidr_pssngr_entrclmb_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle exit pass 1</ID>
+							<Animation>
+								<Filename>raidr_pssngr_exit_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch body</ID>
+							<Animation>
+								<Filename>blucrb_flnch_seat_cab.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle driver to passenger</ID>
+							<Animation>
+								<Filename>raidr_dr_entrclmb_totrrt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle passenger to driver</ID>
+							<Animation>
+								<Filename>raidr_pssngr_entrclmb_tosit.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle exit driver dive</ID>
+							<Animation>
+								<Filename>raidr_dr_dve_exit.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle exit pass 1 dive</ID>
+							<Animation>
+								<Filename>raidr_pssngr_dve_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle exit pass 2 dive</ID>
+							<Animation>
+								<Filename>raidr_pssngr_dve_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle exit pass 3 dive</ID>
+							<Animation>
+								<Filename>raidr_pssngr_dve_c.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+			</Groups>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Skeleton_Set>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Skeleton_Set</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Skeleton Set</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Skeleton Name</Display_Name>
+		</Element>
+		<Element>
+			<Name>Parent_Skeleton</Name>
+			<Type>String</Type>
+			<Display_Name>Parent Skeleton</Display_Name>
+			<Required>false</Required>
+		</Element>
+		<Element>
+			<Name>Variant_Type</Name>
+			<Type>Reference</Type>
+			<Display_Name>Variant Type</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>anim_set_variants.xtbl</File>
+				<Type>Override.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Groups</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>Group</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>group</Name>
+					<Type>Reference</Type>
+					<Display_Name>Group</Display_Name>
+					<Unique>true</Unique>
+					<Reference>
+						<File>anim_groups.xtbl</File>
+						<Type>Anim_Group.Name</Type>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>States</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>State</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_states.xtbl</File>
+								<Type>State.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+				<Element>
+					<Name>Actions</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>Action</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_actions.xtbl</File>
+								<Type>Action.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

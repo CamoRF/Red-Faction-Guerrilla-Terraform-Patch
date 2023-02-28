@@ -1,0 +1,42 @@
+<root>
+	<Table>
+		<Variable>
+			<Name>bw_test_bool</Name>
+			<Type>bool</Type>
+			<Value>false</Value>
+		</Variable>
+		<Variable>
+			<Name>bw_test_number</Name>
+			<Var_Type>number</Var_Type>
+			<Value>1000</Value>
+			<Type>number</Type>
+		</Variable>
+	</Table>
+	<TableDescription>
+		<Name>Variable</Name>
+		<Type>Element</Type>
+		<Description>A global variable for the game.</Description>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Variable Name</Display_Name>
+			<Description>The name for the variable.</Description>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>Type</Name>
+			<Type>Selection</Type>
+			<Display_Name>Variable Type</Display_Name>
+			<Description>The type of the variable.</Description>
+			<Default>bool</Default>
+			<Choice>bool</Choice>
+			<Choice>number</Choice>
+		</Element>
+		<Element>
+			<Name>Value</Name>
+			<Type>String</Type>
+			<Display_Name>Variable Value</Display_Name>
+			<Description>The value for the variable (the editor provides no error-checking on these values, so be careful!)</Description>
+		</Element>
+	</TableDescription>
+</root>

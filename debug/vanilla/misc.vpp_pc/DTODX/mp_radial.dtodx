@@ -1,0 +1,582 @@
+<root>
+	<east0>
+		<key>
+			<time>12</time>
+			<value>1.000000 0.401978 0.033105 2.320000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.072272 0.152926 0.171441 2.530000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.366253 0.439657 0.539480 2.100000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.423268 0.462077 0.479320 1.680000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.693872 0.502887 0.283149 2.100000</value>
+		</key>
+	</east0>
+	<east1>
+		<key>
+			<time>12</time>
+			<value>0.768151 0.637597 0.658375 1.300000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.783538 0.955974 1.000000 1.260000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.752942 0.921582 0.955974 4.420000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>1.000000 1.000000 1.000000 2.100000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.407240 0.337164 0.351533 1.260000</value>
+		</key>
+	</east1>
+	<east2>
+		<key>
+			<time>12</time>
+			<value>0.177888 0.187821 0.234551 1.260000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>1.000000 0.887923 0.672443 6.110000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.955974 0.973445 1.000000 2.740000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.177888 0.187821 0.234551 1.260000</value>
+		</key>
+	</east2>
+	<east3>
+		<key>
+			<time>12</time>
+			<value>0.026241 0.024158 0.059511 2.320000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.520996 0.775822 1.000000 3.370000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.871367 0.799103 0.686685 8.210000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.026241 0.024158 0.059511 2.320000</value>
+		</key>
+	</east3>
+	<west0>
+		<key>
+			<time>12</time>
+			<value>0.693872 0.502887 0.283149 2.100000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.072272 0.152926 0.171441 2.530000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.014444 0.024158 0.027321 2.530000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.291771 0.434154 0.508881 2.530000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>1.000000 0.401978 0.033105 2.320000</value>
+		</key>
+	</west0>
+	<west1>
+		<key>
+			<time>12</time>
+			<value>0.407240 0.337164 0.351533 1.260000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.715694 0.871367 0.913099 1.260000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.930111 0.964686 1.000000 1.470000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.768151 0.637597 0.658375 1.300000</value>
+		</key>
+	</west1>
+	<west2>
+		<key>
+			<time>12</time>
+			<value>0.177888 0.187821 0.234551 1.260000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.341914 0.701102 1.000000 1.040000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.623960 0.783538 1.000000 2.740000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.177888 0.187821 0.234551 1.260000</value>
+		</key>
+	</west2>
+	<west3>
+		<key>
+			<time>12</time>
+			<value>0.026241 0.024158 0.059511 2.320000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.104616 0.439657 0.871367 1.040000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.558340 0.686685 0.806952 1.936250</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>1.000000 0.913099 0.768151 8.210000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.026241 0.024158 0.059511 2.320000</value>
+		</key>
+	</west3>
+	<zenith>
+		<key>
+			<time>12</time>
+			<value>0.076185 0.104616 0.155926 0.840000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.462077 0.745404 1.000000 1.470000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.610496 0.783538 0.930111 1.780556</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>1.000000 0.913099 0.768151 3.954445</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.076185 0.104616 0.155926 0.840000</value>
+		</key>
+	</zenith>
+	<fog_start>
+		<key>
+			<time>12</time>
+			<value>10.000000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>120.000000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>40.000000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>40.000000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>10.000000</value>
+		</key>
+	</fog_start>
+	<fog_end>
+		<key>
+			<time>20</time>
+			<value>500.000000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>200.000000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>180.000000</value>
+		</key>
+	</fog_end>
+	<fog_density>
+		<key>
+			<time>20</time>
+			<value>0.900000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.900000</value>
+		</key>
+	</fog_density>
+	<fog_color>
+		<key>
+			<time>12</time>
+			<value>0.467784 0.539480 0.658375 1.470000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.491021 0.623960 0.623960 2.530000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.287441 0.332452 0.356400 2.530000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.283149 0.356400 0.356400 2.530000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.467784 0.539480 0.658375 1.470000</value>
+		</key>
+	</fog_color>
+	<ambient_color>
+		<key>
+			<time>12</time>
+			<value>0.417885 0.456411 0.730461 2.100000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.234551 0.327778 0.571125 5.890000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.278894 0.381326 0.658375 1.040000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.323143 0.445201 0.768151 6.530000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.417885 0.456411 0.730461 2.100000</value>
+		</key>
+	</ambient_color>
+	<back_ambient_color>
+		<key>
+			<time>12</time>
+			<value>0.130136 0.111932 0.141263 1.680000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.234551 0.545725 0.730461 1.470000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.152926 0.337164 0.445201 1.470000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.088656 0.177888 0.234551 4.000000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.130136 0.111932 0.141263 1.680000</value>
+		</key>
+	</back_ambient_color>
+	<tod_light_color>
+		<key>
+			<time>12</time>
+			<value>0.407240 0.361307 0.230740 9.890000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.672443 0.854993 1.000000 28.000000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.672443 0.854993 1.000000 18.320000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.672443 0.854993 1.000000 29.469999</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.407240 0.361307 0.230740 9.890000</value>
+		</key>
+	</tod_light_color>
+	<ldr_min>
+	</ldr_min>
+	<ldr_max>
+	</ldr_max>
+	<bloom_exposure>
+		<key>
+			<time>20</time>
+			<value>0.600000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.400000</value>
+		</key>
+	</bloom_exposure>
+	<iris_rate>
+	</iris_rate>
+	<luminance_max>
+		<key>
+			<time>20</time>
+			<value>1.000000</value>
+		</key>
+	</luminance_max>
+	<luminance_min>
+		<key>
+			<time>20</time>
+			<value>0.001000</value>
+		</key>
+	</luminance_min>
+	<luminance_mask_max>
+		<key>
+			<time>20</time>
+			<value>4.000000</value>
+		</key>
+	</luminance_mask_max>
+	<eye_adaption_base>
+		<key>
+			<time>20</time>
+			<value>0.250000</value>
+		</key>
+	</eye_adaption_base>
+	<eye_adaption_amount>
+	</eye_adaption_amount>
+	<eye_fade_min>
+	</eye_fade_min>
+	<eye_fade_max>
+	</eye_fade_max>
+	<brightpass_threshold>
+	</brightpass_threshold>
+	<brightpass_offset>
+	</brightpass_offset>
+	<bloom_amount>
+		<key>
+			<time>20</time>
+			<value>0.070000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>1.000000</value>
+		</key>
+	</bloom_amount>
+	<bloom_theta>
+		<key>
+			<time>20</time>
+			<value>2.000000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>3.500000</value>
+		</key>
+	</bloom_theta>
+	<bloom_slope_A>
+		<key>
+			<time>20</time>
+			<value>0.007000</value>
+		</key>
+	</bloom_slope_A>
+	<bloom_slope_B>
+		<key>
+			<time>20</time>
+			<value>0.200000</value>
+		</key>
+	</bloom_slope_B>
+	<color_correct_saturation>
+		<key>
+			<time>12</time>
+			<value>0.600000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.600000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.850000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.850000</value>
+		</key>
+	</color_correct_saturation>
+	<color_correct_tint>
+		<key>
+			<time>12</time>
+			<value>0.545725 0.533276 0.730461 0.000000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.715694 0.693872 0.955974 0.000000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.752942 0.730461 1.000000 0.000000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.715694 0.693872 0.955974 0.000000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.545725 0.533276 0.730461 0.000000</value>
+		</key>
+	</color_correct_tint>
+	<clouds_front_light_color>
+		<key>
+			<time>12</time>
+			<value>0.212231 0.212231 0.212231 2.530000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>1.000000 1.000000 1.000000 11.580000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.830770 0.854993 0.913099 0.000000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.830770 0.854993 0.913099 0.000000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.479320 0.479320 0.479320 4.840000</value>
+		</key>
+	</clouds_front_light_color>
+	<clouds_rear_light_color>
+		<key>
+			<time>12</time>
+			<value>0.254152 0.254152 0.254152 4.840000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>1.000000 1.000000 1.000000 12.630000</value>
+		</key>
+		<key>
+			<time>21</time>
+			<value>0.830770 0.854993 0.913099 0.000000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.830770 0.854993 0.913099 0.000000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.479320 0.479320 0.479320 2.530000</value>
+		</key>
+	</clouds_rear_light_color>
+	<clouds_horizon_front_light_color>
+		<key>
+			<time>12</time>
+			<value>0.000000 0.000000 0.000000 0.000000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>1.000000 0.768151 0.814847 13.890000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.246201 0.417885 0.947307 0.000000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.000000 0.000000 0.000000 0.000000</value>
+		</key>
+	</clouds_horizon_front_light_color>
+	<clouds_horizon_rear_light_color>
+		<key>
+			<time>12</time>
+			<value>0.000000 0.000000 0.000000 0.000000</value>
+		</key>
+		<key>
+			<time>20</time>
+			<value>0.262251 0.439657 1.000000 0.000000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.246201 0.417885 0.947307 0.000000</value>
+		</key>
+		<key>
+			<time>38</time>
+			<value>0.000000 0.000000 0.000000 0.000000</value>
+		</key>
+	</clouds_horizon_rear_light_color>
+	<horizon_mountain_color>
+	</horizon_mountain_color>
+	<horizon_mountain_color_back>
+	</horizon_mountain_color_back>
+	<horizon_mountain_fog_color>
+	</horizon_mountain_fog_color>
+	<horizon_mountain_fog_density>
+	</horizon_mountain_fog_density>
+	<horizon_cirrus_multiplyer>
+		<key>
+			<time>21</time>
+			<value>0.000000</value>
+		</key>
+	</horizon_cirrus_multiplyer>
+	<horizon_cumulus_multiplyer>
+		<key>
+			<time>21</time>
+			<value>0.650000</value>
+		</key>
+		<key>
+			<time>28</time>
+			<value>0.300000</value>
+		</key>
+	</horizon_cumulus_multiplyer>
+	<overhead_cirrus_multiplyer>
+		<key>
+			<time>21</time>
+			<value>0.000000</value>
+		</key>
+	</overhead_cirrus_multiplyer>
+	<overhead_cumulus_multiplyer>
+		<key>
+			<time>28</time>
+			<value>0.800000</value>
+		</key>
+	</overhead_cumulus_multiplyer>
+	<horizon_mountain_enabled>false</horizon_mountain_enabled>
+	<orbitals>
+		<orbital>
+			<plane_rot_x>242.000000</plane_rot_x>
+			<plane_rot_y>0.000000</plane_rot_y>
+			<distance_off_plane>0.000000</distance_off_plane>
+			<orbit_time_offset>16.000000</orbit_time_offset>
+			<alpha_blend>false</alpha_blend>
+			<map_name>vfx_sun_01.cvbm_pc</map_name>
+			<name>sun</name>
+			<scale>
+				<key>
+					<time>20</time>
+					<value>10.000000</value>
+				</key>
+			</scale>
+			<tint>
+				<key>
+					<time>20</time>
+					<value>0.723055 0.730461 0.846873 32.000000</value>
+				</key>
+			</tint>
+			<opacity>
+			</opacity>
+		</orbital>
+	</orbitals>
+</root>

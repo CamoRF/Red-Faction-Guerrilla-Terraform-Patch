@@ -1,0 +1,319 @@
+<root>
+	<Table>
+		<PA_Defaults>
+			<Name>ADDRESS</Name>
+			<Voice_Lines>
+				<EDF_General_Ambient>pas_edf_gen_amb</EDF_General_Ambient>
+				<Civilian_Alert_All_Clear>pas_civ_gen_alert_all_clear</Civilian_Alert_All_Clear>
+				<EDF_Alert_All_Clear>pas_edf_gen_alert_all_clear</EDF_Alert_All_Clear>
+				<Civilian_Alert_Reinforcements>pas_civ_gen_alert_reinforcements</Civilian_Alert_Reinforcements>
+				<EDF_Alert_Reinforcements>pas_edf_gen_alert_reinforcements</EDF_Alert_Reinforcements>
+				<Kiosk_Station_ID>kio_amb_gen_station_id</Kiosk_Station_ID>
+			</Voice_Lines>
+			<Foleys>
+				<Siren_Loop>AMB_SIREN_LOOP</Siren_Loop>
+				<Siren_Death>OBJ_PA_SPEAKER_DTH_NEAR</Siren_Death>
+				<Prefix>OBJ_EDF_PA</Prefix>
+				<Kiosk_Music_Stinger>AMB_EDF_KIOSK_INTRO</Kiosk_Music_Stinger>
+				<Kiosk_Music_Loop>AMB_EDF_KIOSK_LOOP</Kiosk_Music_Loop>
+				<Kiosk_Music_Out>AMB_EDF_KIOSK_OUTRO</Kiosk_Music_Out>
+				<Kiosk_music_loop_delay>0</Kiosk_music_loop_delay>
+			</Foleys>
+			<Other_Settings>
+				<Siren_Loop_Count>3</Siren_Loop_Count>
+				<Siren_Delay>6000</Siren_Delay>
+				<Siren_overlap>200</Siren_overlap>
+				<Kiosk_inactive_delay>15000</Kiosk_inactive_delay>
+				<Kiosk_inactive_delay_long>120000</Kiosk_inactive_delay_long>
+				<Kiosk_session_max_lines>5</Kiosk_session_max_lines>
+				<Kiosk_music_loop_delay>2360</Kiosk_music_loop_delay>
+				<Kiosk_Line_Delay>1500</Kiosk_Line_Delay>
+				<Kiosk_Session_Min_Lines>3</Kiosk_Session_Min_Lines>
+			</Other_Settings>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Kiosk_persona>KIOSK</Kiosk_persona>
+			<Kiosk_Screens>
+				<Idle_Screen>idle</Idle_Screen>
+				<Active_Screen>active</Active_Screen>
+				<Alert_Screen>alert</Alert_Screen>
+				<RF_Idle_Screen>idle_end</RF_Idle_Screen>
+			</Kiosk_Screens>
+		</PA_Defaults>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>PA_Defaults</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>PA Defaults</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>Reference</Type>
+			<Display_Name>PA Persona</Display_Name>
+			<Reference>
+				<File>rfg_voice_personas.xtbl</File>
+				<Type>Persona.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Kiosk_persona</Name>
+			<Type>Reference</Type>
+			<Display_Name>Kiosk Persona</Display_Name>
+			<Reference>
+				<File>rfg_voice_personas.xtbl</File>
+				<Type>Persona.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Voice_Lines</Name>
+			<Type>Element</Type>
+			<Display_Name>Voice Lines</Display_Name>
+			<Element>
+				<Name>EDF_General_Ambient</Name>
+				<Type>Reference</Type>
+				<Display_Name>EDF General Ambient</Display_Name>
+				<Reference>
+					<File>rfg_voice_lines.xtbl</File>
+					<Type>Voice_Line.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Civilian_Alert_All_Clear</Name>
+				<Type>Reference</Type>
+				<Display_Name>Civilian Alert All Clear</Display_Name>
+				<Reference>
+					<File>rfg_voice_lines.xtbl</File>
+					<Type>Voice_Line.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>EDF_Alert_All_Clear</Name>
+				<Type>Reference</Type>
+				<Display_Name>EDF Alert All Clear</Display_Name>
+				<Reference>
+					<File>rfg_voice_lines.xtbl</File>
+					<Type>Voice_Line.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Civilian_Alert_Reinforcements</Name>
+				<Type>Reference</Type>
+				<Display_Name>Civilian Alert Reinforcements</Display_Name>
+				<Reference>
+					<File>rfg_voice_lines.xtbl</File>
+					<Type>Voice_Line.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>EDF_Alert_Reinforcements</Name>
+				<Type>Reference</Type>
+				<Display_Name>EDF Alert Reinforcements</Display_Name>
+				<Reference>
+					<File>rfg_voice_lines.xtbl</File>
+					<Type>Voice_Line.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Kiosk_Station_ID</Name>
+				<Type>Reference</Type>
+				<Display_Name>Kiosk Station ID</Display_Name>
+				<Reference>
+					<File>rfg_voice_lines.xtbl</File>
+					<Type>Voice_Line.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Foleys</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Siren_Loop</Name>
+				<Type>Reference</Type>
+				<Display_Name>Siren Loop</Display_Name>
+				<Reference>
+					<File>foley.xtbl</File>
+					<Type>Foley.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Siren_Death</Name>
+				<Type>Reference</Type>
+				<Display_Name>Siren Death</Display_Name>
+				<Reference>
+					<File>foley.xtbl</File>
+					<Type>Foley.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Prefix</Name>
+				<Type>Reference</Type>
+				<Description>Played before a voice line plays over the PA.</Description>
+				<Reference>
+					<File>foley.xtbl</File>
+					<Type>Foley.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Kiosk_Music_Stinger</Name>
+				<Type>Reference</Type>
+				<Display_Name>Kiosk Music Stinger</Display_Name>
+				<Description>The music foley that plays before any sounds play on the kiosk.</Description>
+				<Reference>
+					<File>foley.xtbl</File>
+					<Type>Foley.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Kiosk_Music_Loop</Name>
+				<Type>Reference</Type>
+				<Display_Name>Kiosk Music Loop</Display_Name>
+				<Description>Loop for Kiosk Music.</Description>
+				<Reference>
+					<File>foley.xtbl</File>
+					<Type>Foley.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Kiosk_Music_Out</Name>
+				<Type>Reference</Type>
+				<Display_Name>Kiosk Music Out</Display_Name>
+				<Reference>
+					<File>foley.xtbl</File>
+					<Type>Foley.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Kiosk_Screens</Name>
+			<Type>Element</Type>
+			<Display_Name>Kiosk Screens</Display_Name>
+			<Element>
+				<Name>Idle_Screen</Name>
+				<Type>Reference</Type>
+				<Display_Name>Idle Screen</Display_Name>
+				<Reference>
+					<File>kiosk_screens.xtbl</File>
+					<Type>Kiosk_Screen.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Active_Screen</Name>
+				<Type>Reference</Type>
+				<Display_Name>Active Screen</Display_Name>
+				<Reference>
+					<File>kiosk_screens.xtbl</File>
+					<Type>Kiosk_Screen.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Alert_Screen</Name>
+				<Type>Reference</Type>
+				<Display_Name>Alert Screen</Display_Name>
+				<Reference>
+					<File>kiosk_screens.xtbl</File>
+					<Type>Kiosk_Screen.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>RF_Idle_Screen</Name>
+				<Type>Reference</Type>
+				<Display_Name>RF Idle Screen</Display_Name>
+				<Reference>
+					<File>kiosk_screens.xtbl</File>
+					<Type>Kiosk_Screen.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Other_Settings</Name>
+			<Type>Element</Type>
+			<Display_Name>Other Settings</Display_Name>
+			<Element>
+				<Name>Siren_Loop_Count</Name>
+				<Type>Int</Type>
+				<Display_Name>Siren Loop Count</Display_Name>
+				<Default>0</Default>
+				<MinValue>1</MinValue>
+				<MaxValue>8</MaxValue>
+			</Element>
+			<Element>
+				<Name>Siren_Delay</Name>
+				<Type>Int</Type>
+				<Display_Name>Siren Delay</Display_Name>
+				<Description>The delay between sets of loops of the siren, in ms.</Description>
+				<Default>6000</Default>
+			</Element>
+			<Element>
+				<Name>Siren_overlap</Name>
+				<Type>Int</Type>
+				<Display_Name>Siren Overlap</Display_Name>
+				<Description>Overlap between instance of the siren foley playing (during loops) in ms</Description>
+				<Default>200</Default>
+			</Element>
+			<Element>
+				<Name>Kiosk_Line_Delay</Name>
+				<Type>String</Type>
+				<Display_Name>Kiosk Line Delay</Display_Name>
+				<Description>The amount of time between kiosk lines.</Description>
+			</Element>
+			<Element>
+				<Name>Kiosk_inactive_delay</Name>
+				<Type>Int</Type>
+				<Display_Name>Kiosk Inactive Delay</Display_Name>
+				<Description>Time to use between checking if there is a valid kiosk that should start playing in ms.</Description>
+				<Default>15000</Default>
+			</Element>
+			<Element>
+				<Name>Kiosk_inactive_delay_long</Name>
+				<Type>Int</Type>
+				<Display_Name>Kiosk Inactive Delay Long</Display_Name>
+				<Description>When a longer delay is required (for example, if the player sits in front of a kiosk without leaving) before starting a kiosk, use this.  In ms.</Description>
+				<Default>120000</Default>
+			</Element>
+			<Element>
+				<Name>Kiosk_Session_Min_Lines</Name>
+				<Type>Int</Type>
+				<Display_Name>Kiosk Session Min Lines</Display_Name>
+				<Default>3</Default>
+			</Element>
+			<Element>
+				<Name>Kiosk_session_max_lines</Name>
+				<Type>Int</Type>
+				<Display_Name>Kiosk Session Max Lines</Display_Name>
+				<Description>The maximum number of lines that will play in a kiosk session before turning off.</Description>
+				<Default>5</Default>
+			</Element>
+			<Element>
+				<Name>Kiosk_music_loop_delay</Name>
+				<Type>Int</Type>
+				<Display_Name>Kiosk Music Loop Delay</Display_Name>
+				<Description>Use this as the delay after the start of the intro music before the loop starts.  In ms.</Description>
+				<Default>0</Default>
+			</Element>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

@@ -1,0 +1,205 @@
+<root>
+	<Table>
+		<stat_tracked_levels>
+			<Name>Level 01 - Cornered</Name>
+			<level>MENU_LEVEL_CORNERED</level>
+			<games_played_stat>mp - games - total level 01</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 02 - Crash Site</Name>
+			<level>MENU_LEVEL_CRASH_SITE</level>
+			<games_played_stat>mp - games - total level 02</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 03 - Crescent</Name>
+			<level>MENU_LEVEL_CRESCENT</level>
+			<games_played_stat>mp - games - total level 03</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 04 - Crevice</Name>
+			<level>MENU_LEVEL_CREVICE</level>
+			<games_played_stat>mp - games - total level 04</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 05 - Dead Zone</Name>
+			<level>MENU_LEVEL_DEADZONE</level>
+			<games_played_stat>mp - games - total level 05</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 06 - Downfall</Name>
+			<level>MENU_LEVEL_DOWNFALL</level>
+			<games_played_stat>mp - games - total level 06</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 07 - Excavation</Name>
+			<level>MENU_LEVEL_EXCAVATION</level>
+			<games_played_stat>mp - games - total level 07</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 08 - Fall Factor</Name>
+			<level>MENU_LEVEL_FALL_FACTOR</level>
+			<games_played_stat>mp - games - total level 08</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 09 - Framework</Name>
+			<level>MENU_LEVEL_FRAMEWORK</level>
+			<games_played_stat>mp - games - total level 09</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 10 - Garrison</Name>
+			<level>MENU_LEVEL_GARRISON</level>
+			<games_played_stat>mp - games - total level 10</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 11 - Gauntlet</Name>
+			<level>MENU_LEVEL_GAUNTLET</level>
+			<games_played_stat>mp - games - total level 11</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 12 - Overpass</Name>
+			<level>MENU_LEVEL_OVERPASS</level>
+			<games_played_stat>mp - games - total level 12</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 13 - Pinnacle</Name>
+			<level>MENU_LEVEL_PINNACLE</level>
+			<games_played_stat>mp - games - total level 13</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 14 - Quarantine</Name>
+			<level>MENU_LEVEL_QUARANTINE</level>
+			<games_played_stat>mp - games - total level 14</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 15 - Radial</Name>
+			<level>MENU_LEVEL_RADIAL</level>
+			<games_played_stat>mp - games - total level 15</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 16 - Level Rift</Name>
+			<level>MENU_LEVEL_RIFT</level>
+			<games_played_stat>mp - games - total level 16</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 17 - Sand Pit</Name>
+			<level>MENU_LEVEL_SAND_PIT</level>
+			<games_played_stat>mp - games - total level 17</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 18 - Settlement</Name>
+			<level>MENU_LEVEL_SETTLEMENT</level>
+			<games_played_stat>mp - games - total level 18</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 19 - Warlords</Name>
+			<level>MENU_LEVEL_WARLORDS</level>
+			<games_played_stat>mp - games - total level 19</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 20 - Wasteland</Name>
+			<level>MENU_LEVEL_WASTELAND</level>
+			<games_played_stat>mp - games - total level 20</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+		<stat_tracked_levels>
+			<Name>Level 21 - Wreckage</Name>
+			<level>MENU_LEVEL_WRECKAGE</level>
+			<games_played_stat>mp - games - total level 21</games_played_stat>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stat_tracked_levels>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>stat_tracked_levels</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>The required name field. This data isn't used by the game, so use it for whatever you want.</Description>
+		</Element>
+		<Element>
+			<Name>level</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>mp_levels.xtbl</File>
+				<Type>mp_level_list.Display_name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>games_played_stat</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>stats.xtbl</File>
+				<Type>Stat.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

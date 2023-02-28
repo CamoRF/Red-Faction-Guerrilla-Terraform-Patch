@@ -1,0 +1,188 @@
+<root>
+	<Table>
+		<Trigger>
+			<Name>start combo</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>no interrupt</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>left-foot</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>right-foot</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>critical end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>combo window start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>combo window end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>impact start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>ragdoll start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>ragdoll stop</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>tag start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>tag end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>left-foot release</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>right-foot release</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>enable spinebend</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>warning shot</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>impact end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>release movement</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>door start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>door end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>camera</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>relative space</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>unlock ai</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>secondary impact</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>door close start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>door close end</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>reload give ammo</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+		<Trigger>
+			<Name>gravity start</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Trigger>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Trigger</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Trigger Name</Display_Name>
+			<Unique>true</Unique>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>
