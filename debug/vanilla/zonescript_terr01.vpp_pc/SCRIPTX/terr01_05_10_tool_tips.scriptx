@@ -1,0 +1,16 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<script>Free_Fire_Tooltip
+		<condition>
+			<function>player_in_trigger_region
+				<object>59000013
+					<object_number>5248</object_number>
+				</object>
+			</function>
+		</condition>
+		<action>tool_tip_add
+			<tool_tip>Free_Fire_Zone</tool_tip>
+		</action>
+	</script>
+</root>

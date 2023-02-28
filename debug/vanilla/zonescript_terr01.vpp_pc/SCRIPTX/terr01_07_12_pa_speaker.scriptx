@@ -1,0 +1,23 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<script>0712_pa_chem_depot
+		<condition>
+			<flag>true</flag>
+		</condition>
+		<action>public_address_add_speakers
+			<pa_group>PAS_Dust_Chem_Depot</pa_group>
+			<object_list>list
+				<object>7C000125
+					<object_number>22186</object_number>
+				</object>
+				<object>7C00019D
+					<object_number>22189</object_number>
+				</object>
+				<object>7C000240
+					<object_number>22192</object_number>
+				</object>
+			</object_list>
+		</action>
+	</script>
+</root>

@@ -1,0 +1,35 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<script>1008_pa_speakers
+		<condition>
+			<flag>true</flag>
+		</condition>
+		<action>public_address_add_speakers
+			<pa_group>PAS_Generic_EDF_Outposts_Or_Barracks</pa_group>
+			<object_list>list
+				<object>A800062B
+					<object_number>34900</object_number>
+				</object>
+				<object>A8000627
+					<object_number>34891</object_number>
+				</object>
+				<object>A80005D5
+					<object_number>34888</object_number>
+				</object>
+				<object>A8000645
+					<object_number>34894</object_number>
+				</object>
+				<object>A800064C
+					<object_number>34897</object_number>
+				</object>
+				<object>A8000765
+					<object_number>31873</object_number>
+				</object>
+				<object>A8000720
+					<object_number>31870</object_number>
+				</object>
+			</object_list>
+		</action>
+	</script>
+</root>

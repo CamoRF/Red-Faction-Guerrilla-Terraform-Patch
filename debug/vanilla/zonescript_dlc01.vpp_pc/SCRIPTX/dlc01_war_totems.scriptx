@@ -1,0 +1,76 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<script>War Totem 1 Destroyed
+		<condition>
+			<event>building_destroyed
+				<object>790C05B5
+					<object_number>9455</object_number>
+				</object>
+			</event>
+		</condition>
+		<delay>
+			<min>1.2</min>
+			<max>1.2</max>
+			<action>play_voice_line_on_persona
+				<voice_line>zzz_war_totem_destroyed</voice_line>
+				<voice_persona>D01OFFCAM</voice_persona>
+				<number>3</number>
+			</action>
+		</delay>
+	</script>
+	<script>War Totem 2 Destroyed
+		<condition>
+			<event>building_destroyed
+				<object>78090002
+					<object_number>0</object_number>
+				</object>
+			</event>
+		</condition>
+		<delay>
+			<min>1.2</min>
+			<max>1.2</max>
+			<action>play_voice_line_on_persona
+				<voice_line>zzz_war_totem_destroyed</voice_line>
+				<voice_persona>D01OFFCAM</voice_persona>
+				<number>3</number>
+			</action>
+		</delay>
+	</script>
+	<script>War Totem 3 Destroyed
+		<condition>
+			<event>building_destroyed
+				<object>8809076F
+					<object_number>6002</object_number>
+				</object>
+			</event>
+		</condition>
+		<delay>
+			<min>1.2</min>
+			<max>1.2</max>
+			<action>play_voice_line_on_persona
+				<voice_line>zzz_war_totem_destroyed</voice_line>
+				<voice_persona>D01OFFCAM</voice_persona>
+				<number>3</number>
+			</action>
+		</delay>
+	</script>
+	<script>War Totem 4 Destroyed
+		<condition>
+			<event>building_destroyed
+				<object>980800F7
+					<object_number>4696</object_number>
+				</object>
+			</event>
+		</condition>
+		<delay>
+			<min>1.2</min>
+			<max>1.2</max>
+			<action>play_voice_line_on_persona
+				<voice_line>zzz_war_totem_destroyed</voice_line>
+				<voice_persona>D01OFFCAM</voice_persona>
+				<number>3</number>
+			</action>
+		</delay>
+	</script>
+</root>

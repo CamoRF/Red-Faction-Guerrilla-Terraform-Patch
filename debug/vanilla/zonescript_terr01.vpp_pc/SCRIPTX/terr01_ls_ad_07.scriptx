@@ -1,0 +1,43 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<managed>ls_ad_07
+		<script>Hitpoint Boost
+			<condition>
+				<event>player_enters_vehicle
+					<function>get_vehicle_from_spawn_object
+						<object>99880002
+							<object_number>0</object_number>
+						</object>
+					</function>
+				</event>
+			</condition>
+			<action>set_vehicle_hitpoints
+				<function>get_vehicle_from_spawn_object
+					<object>99880002
+						<object_number>0</object_number>
+					</object>
+				</function>
+				<number>70000</number>
+			</action>
+		</script>
+	</managed>
+	<script>Restore Structures
+		<condition>
+			<flag>true</flag>
+		</condition>
+		<action>activity_restore_object
+			<object>99050003
+				<object_number>1</object_number>
+			</object>
+			<object_list>list
+				<object>990003D5
+					<object_number>4367</object_number>
+				</object>
+				<object>99000138
+					<object_number>5144</object_number>
+				</object>
+			</object_list>
+		</action>
+	</script>
+</root>

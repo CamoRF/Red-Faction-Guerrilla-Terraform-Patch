@@ -1,0 +1,23 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<script>Dust_Tooltip
+		<condition>
+			<function>and
+				<function>player_in_trigger_region
+					<object>5A000039
+						<object_number>4526</object_number>
+					</object>
+				</function>
+				<function>less
+					<function>num_missions_complete
+					</function>
+					<number>4</number>
+				</function>
+			</function>
+		</condition>
+		<action>tool_tip_add
+			<tool_tip>Sectors</tool_tip>
+		</action>
+	</script>
+</root>

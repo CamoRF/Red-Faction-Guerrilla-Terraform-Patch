@@ -1,0 +1,17 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<script>0609_pa_speaker
+		<condition>
+			<flag>true</flag>
+		</condition>
+		<action>public_address_add_speakers
+			<pa_group>PAS_Dust_Refinery</pa_group>
+			<object_list>list
+				<object>69000004
+					<object_number>4300</object_number>
+				</object>
+			</object_list>
+		</action>
+	</script>
+</root>

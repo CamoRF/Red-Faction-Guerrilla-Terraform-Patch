@@ -1,0 +1,13 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<script>dlc01_dm_reward_script
+		<condition>
+			<event>building_destroyed
+				<object>98050006
+					<object_number>22</object_number>
+				</object>
+			</event>
+		</condition>
+	</script>
+</root>

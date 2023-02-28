@@ -1,0 +1,37 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<script>assign_buildings
+		<condition>
+			<flag>true</flag>
+		</condition>
+		<action>activity_restore_object
+			<object>7803000A
+				<object_number>1</object_number>
+			</object>
+			<object_list>list
+				<object>78000226
+					<object_number>3060</object_number>
+				</object>
+			</object_list>
+		</action>
+	</script>
+	<managed>je_ha_04
+		<script>Spawn_Roadblocks
+			<condition>
+				<event>activity_status_change
+					<object>7803000A
+						<object_number>1</object_number>
+					</object>
+					<activity_state>Running</activity_state>
+				</event>
+			</condition>
+			<action>spawn_roadblock
+				<object>78820010
+					<object_number>11</object_number>
+				</object>
+			</action>
+			<repeatable>-1</repeatable>
+		</script>
+	</managed>
+</root>

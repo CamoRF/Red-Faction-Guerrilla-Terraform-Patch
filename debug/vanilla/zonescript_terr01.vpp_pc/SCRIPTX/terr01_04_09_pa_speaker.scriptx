@@ -1,0 +1,17 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<script>0409_pa_speakers
+		<condition>
+			<flag>true</flag>
+		</condition>
+		<action>public_address_add_speakers
+			<pa_group>PAS_Manufacture_Freefire</pa_group>
+			<object_list>list
+				<object>49000229
+					<object_number>6309</object_number>
+				</object>
+			</object_list>
+		</action>
+	</script>
+</root>

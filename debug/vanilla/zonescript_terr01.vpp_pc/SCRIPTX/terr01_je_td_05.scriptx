@@ -1,0 +1,68 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<managed>je_td_05
+		<script>Alert Level Change
+			<condition>
+				<event>player_enter_trigger_region
+					<object>98870005
+						<object_number>3</object_number>
+					</object>
+				</event>
+			</condition>
+			<action>raise_alert_level
+				<number>1</number>
+			</action>
+		</script>
+		<script>Alert Level Change 2
+			<condition>
+				<event>player_enter_trigger_region
+					<object>A8880007
+						<object_number>5</object_number>
+					</object>
+				</event>
+			</condition>
+			<action>raise_alert_level
+				<number>2</number>
+			</action>
+		</script>
+		<script>Check Mar Team and Start Attack
+			<condition>
+				<function>and
+					<event>player_enter_trigger_region
+						<object>98870002
+							<object_number>0</object_number>
+						</object>
+					</event>
+					<function>less
+						<function>get_team_dispositions
+							<number>0</number>
+							<number>3</number>
+						</function>
+						<number>3</number>
+					</function>
+				</function>
+			</condition>
+			<action>continuous_attack_start
+				<function>get_vehicle_from_spawn_object
+					<object>86030003
+						<object_number>1</object_number>
+					</object>
+				</function>
+				<cont_atttack_type>je_td_05</cont_atttack_type>
+			</action>
+		</script>
+	</managed>
+	<script>Continuous Attack End
+		<condition>
+			<event>activity_status_change
+				<object>86030002
+					<object_number>0</object_number>
+				</object>
+				<activity_state>Shutdown</activity_state>
+			</event>
+		</condition>
+		<action>continuous_attack_end
+		</action>
+	</script>
+</root>

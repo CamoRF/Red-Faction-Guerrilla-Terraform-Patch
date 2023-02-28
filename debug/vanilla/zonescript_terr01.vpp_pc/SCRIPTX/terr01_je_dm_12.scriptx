@@ -1,0 +1,19 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<script>restore_buildings
+		<condition>
+			<flag>true</flag>
+		</condition>
+		<action>activity_restore_object
+			<object>56060002
+				<object_number>3132</object_number>
+			</object>
+			<object_list>list
+				<object>5606003C
+					<object_number>7697</object_number>
+				</object>
+			</object_list>
+		</action>
+	</script>
+</root>

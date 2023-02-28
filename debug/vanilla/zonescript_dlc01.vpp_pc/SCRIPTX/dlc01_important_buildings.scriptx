@@ -1,0 +1,22 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<group>Important_Buildings
+		<script>Important_Buildings
+			<condition>
+				<flag>true</flag>
+			</condition>
+			<action>fog_of_war_show_important_buildings
+				<district>Mariner Valley</district>
+			</action>
+		</script>
+		<script>Activity_Disable
+			<condition>
+				<flag>true</flag>
+			</condition>
+			<action>activity_disable_diversions
+				<flag>true</flag>
+			</action>
+		</script>
+	</group>
+</root>

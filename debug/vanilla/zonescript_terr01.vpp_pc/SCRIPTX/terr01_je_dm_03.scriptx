@@ -1,0 +1,19 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<script>Building_Restoration
+		<condition>
+			<flag>true</flag>
+		</condition>
+		<action>activity_restore_object
+			<object>7C070005
+				<object_number>45</object_number>
+			</object>
+			<object_list>list
+				<object>7C070002
+					<object_number>0</object_number>
+				</object>
+			</object_list>
+		</action>
+	</script>
+</root>

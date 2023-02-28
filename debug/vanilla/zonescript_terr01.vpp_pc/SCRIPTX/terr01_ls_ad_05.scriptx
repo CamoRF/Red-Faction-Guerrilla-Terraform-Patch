@@ -1,0 +1,47 @@
+<root>
+	<version>1</version>
+	<modified>false</modified>
+	<managed>ls_ad_05
+		<script>Hitpoint Boost
+			<condition>
+				<event>player_enters_vehicle
+					<function>get_vehicle_from_spawn_object
+						<object>47870002
+							<object_number>0</object_number>
+						</object>
+					</function>
+				</event>
+			</condition>
+			<action>set_vehicle_hitpoints
+				<function>get_vehicle_from_spawn_object
+					<object>47870002
+						<object_number>0</object_number>
+					</object>
+				</function>
+				<number>35000</number>
+			</action>
+		</script>
+		<script>Ambient Traffic OFF
+			<condition>
+				<flag>true</flag>
+			</condition>
+			<action>npc_set_ambient_vehicles_disabled
+				<flag>true</flag>
+			</action>
+		</script>
+	</managed>
+	<script>Ambient Traffic ON
+		<condition>
+			<event>activity_status_change
+				<object>47090003
+					<object_number>1</object_number>
+				</object>
+				<activity_state>Shutdown</activity_state>
+			</event>
+		</condition>
+		<action>npc_set_ambient_vehicles_disabled
+			<flag>false</flag>
+		</action>
+		<repeatable>-1</repeatable>
+	</script>
+</root>
