@@ -6,19 +6,17 @@ MISC
 ----
 * Add missing vanilla value comments from some files, some of them have a note in the .xtbl already
 * Add formatted versions of optimized files
-* Reconstructor effect not appearing randomly, test if restarting game fixes it
 * Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)"
-* More heat haze probes on Ruins where it's missing the effect
-* Disable power weapons on maps until we can figure out a way to rebalance them (Super Gauss, Misslepod)
-* Spiker: still too weak, takes a lot of shots to kill, maybe increase clip size slightly and increase damage, increase headshot multiplier
-* Re-port DLC vehicles to base game 
-* Port base game vehicles to DLC
 
 CHARACTERS
 ----------
 * Add new character thumbnails when peg tool is out
 * Restore Torvald, Bev, Chuck, Selma, Kayla, Blair, Numah, & Pierce to multiplayer roster and add ones missing from RF team when hardcoded limit for character grid is bumped
 * Add Alec Mason (Armor) to RF team when hardcoded limit for character grid is bumped
+
+BACKPACKS
+----------
+* Stealth pack casts player shadow for other players
 
 TEXTURE FIXES
 -------------
@@ -28,18 +26,26 @@ WRECKING CREW MODE
 ------------------
 * Fallfactor, overpass, deadzone and crash site wrecking crew versions when NF rewrite is out so I can see general movers and fix floating barrels
 
+VEHICLES
+---------
+* Re-port DLC vehicles to base game 
+* Port base game vehicles to DLC
+
 WEAPONS
 -------
 * Grenade and fist weapons
 * Singularity that explodes in 1 second named Instant Singularity Bomb
 * Fix DLC weapon icons and reticules by figuring out how to port them to the base game, something to do with bitmap.xtbl and peg files
 * Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
-* Implement Spiker, Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
+* Implement Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
 * Weapon ideas: Singularity launcher, Gauss shotgun, Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to 	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
 * Misslepod: too much smoke and particles for such small damage
+* Spiker: still too weak, takes a lot of shots to kill, maybe increase clip size slightly and increase damage, increase headshot multiplier
+* Reconstructor effect not appearing randomly, test if restarting game fixes it
 
 MAPS
 ----
+* Disable power weapons on maps until we can figure out a way to rebalance them? (Super Gauss, Misslepod)
 * Imperial: Place artillery sign near the out of bounds rock
 * Watchtower: Place artillery sign near the out of bounds rock
 * Siege maps: more backpack spawns when played in other modes, add propane tank weapons near attacker spawn
@@ -59,6 +65,7 @@ MAPS
 * Disable CTF on WC maps without team spawns
 * Disable siege on new maps without proper spawns?
 * Doublecheck if sun texture is broken on assembly/outpost
+* Ruins: More heat haze probes on Ruins where it's missing the effect
 
 LOW PRIORITY MAP STUFF
 -----------------------
@@ -78,6 +85,7 @@ LOW PRIORITY MAP STUFF
 
 RUINS INTERIOR MAP
 ------------------
+* 
 
 SANDPIT KOTH
 -------------
@@ -167,22 +175,22 @@ OUT OF SCOPE/ADD-ONS
 * Is that gritty border I made for thumbnails on one of my backup SSDs?
 * Could extract the old HD loading screens and thumbnails from old version of patch
 
-	NEW MISSIONS
-	-------------
-	* Missions where you fly the EDF fliers or bombers and take out EDF bases on mountains 
-	* Stunt jump activities
-	* More demo master activities 
+NEW MISSIONS
+-------------
+* Missions where you fly the EDF fliers or bombers and take out EDF bases on mountains 
+* Stunt jump activities
+* More demo master activities 
 
-	GRAPHICS OVERHAUL 
-	-----------------
-	* Rewrite graphics improvement script for RSL2
-	* HD character textures 
-	* HD weapons and backpack textures
-	* HD rocks 
-	* HD clouds
-	* HD loading screens
-	* Try to fix the skybox with clouds just doing a circular motion
-	* Upscale .bik videos with Topez Video Enhance
-	* Make all sectors look like EOS
+GRAPHICS OVERHAUL 
+-----------------
+* Rewrite graphics improvement script for RSL2
+* HD character textures 
+* HD weapons and backpack textures
+* HD rocks 
+* HD clouds
+* HD loading screens
+* Try to fix the skybox with clouds just doing a circular motion
+* Upscale .bik videos with Topez Video Enhance
+* Make all sectors look like EOS
 
 
