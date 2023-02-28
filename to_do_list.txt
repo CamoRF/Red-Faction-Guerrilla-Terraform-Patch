@@ -11,6 +11,8 @@ MISC
 * More heat haze probes on Ruins where it's missing the effect
 * Disable power weapons on maps until we can figure out a way to rebalance them (Super Gauss, Misslepod)
 * Spiker: still too weak, takes a lot of shots to kill, maybe increase clip size slightly and increase damage, increase headshot multiplier
+* Re-port DLC vehicles to base game 
+* Port base game vehicles to DLC
 
 CHARACTERS
 ----------
@@ -181,5 +183,6 @@ OUT OF SCOPE/ADD-ONS
 	* HD loading screens
 	* Try to fix the skybox with clouds just doing a circular motion
 	* Upscale .bik videos with Topez Video Enhance
+	* Make all sectors look like EOS
 
 
