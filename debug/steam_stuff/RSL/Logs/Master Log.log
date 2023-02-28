@@ -1,0 +1,92 @@
+[6:39 PM, 2/28/2023][Info] Start of Master Log.log
+[Info] RSL started. Activating.
+[Info] Getting PID.
+[Info] Getting module base address.
+[Info] Building IoC container.
+[Info] Found "RSL_No_Launcher.txt". Starting RSL main thread without displaying launcher.
+[Info] Entered RSL main thread.
+[Info] Started loading "Settings.json".
+[Info] Parsing "Settings.json"
+[Info] No parse exceptions detected.
+[Info] No read exceptions detected.
+[Info] Done loading "Settings.json".
+[Info] Initializing function pointers.
+[Info] Initializing hooking system.
+[Info] Creating and enabling hooks.
+[Info] Waiting for rfg startup to finish.
+[Info] Current RFGR State: GS_NONE
+[Info] Current RFGR State: GS_NONE
+[Info] Current RFGR State: GS_NONE
+[Warning] Globals::KeenGraphicsSystemPtr changed!
+[Info] Dumping system_lib.lua
+[Info] Dumping vint_lib.lua
+[Info] Dumping _UGGlobals = getfenv()
+[Info] Dumping setmetatable(_UGGlobals, {__index = _GetDynamicGlobal, __newindex = _CatchNilAssignment})
+[Info] Dumping setfenv(1, _UGGlobals)
+[Info] Dumping rfg_ui_globals.lua
+[Info] Dumping rfg_ui_utility.lua
+[Info] Dumping rfg_ui_hud_help.lua
+[Info] Current RFGR State: GS_NONE
+[Info] Current RFGR State: GS_NONE
+[Info] Dumping rfg_ui_init_load.lua
+[Info] Current RFGR State: GS_BOOT
+[Info] Rfg startup finished, continuing RSL setup.
+[Info] Initializing camera wrapper.
+[Info] Initializing lua scripting system.
+[Info] Custom WndProc set.
+[Info] Waiting for ImGui initialization.
+[Info] ImGui Initialized.
+[Info] ImGui init complete.
+[Info] Initializing overlays.
+[Info] Started loading "LanguageConfig.json".
+[Info] Parsing "LanguageConfig.json".
+[Info] No parse exceptions detected for "LanguageConfig.json".
+[Info] No read exceptions detected for "LanguageConfig.json".
+[Info] Done loading "LanguageConfig.json".
+[Info] Generated file browser nodes for the first time.
+[Info] Started loading "Teleport Locations.json".
+[Info] Parsing "Teleport Locations.json"...
+[Info] No parse exceptions detected.
+[Info] Done loading "Teleport Locations.json".
+[Info] Initializing gui system.
+[Info] Setting memory locations. ModuleBase value: 0x9d0000
+[Warning] Trying to set memory locations...
+[Info] Setting memory locations. ModuleBase value: 0x9d0000
+[Info] NumExplosionInfos = 74
+[Info] Num material effect infos = 10
+[Info] Num effect infos = 856
+[Warning] Still not set... waiting 0.5 seconds
+[Warning] Trying to set memory locations...
+[Info] Setting memory locations. ModuleBase value: 0x9d0000
+[Info] NumExplosionInfos = 74
+[Info] Num material effect infos = 10
+[Info] Num effect infos = 856
+[Warning] Still not set... waiting 0.5 seconds
+[Warning] Trying to set memory locations...
+[Info] Setting memory locations. ModuleBase value: 0x9d0000
+[Warning] Successfully set memory locations!
+[Warning] Successfully set memory locations! NumExplosionInfos: 74, Exp list initialized, NumWeaponInfos: 100, WeaponInfosLength: 100, ItemInfosLength: 334
+[Info] Running lua startup scripts.
+[Lua] Done running startup scripts. 0 startup scripts encountered an error.
+[Info] RSL successfully activated.
+[Info] 
+[Info] IPC thread started.
+[Info] Creating RSLMainPipe
+[Info] Waiting for a client to connect to RSLMainPipe.
+[Info] Dumping rfg_ui_main_menu.lua
+[Info] Dumping rfg_ui_mp_shell.lua
+[Info] Dumping rfg_ui_mp_options.lua
+[Info] Dumping rfg_ui_loading.lua
+[Warning] Globals::RfgWorldPtr changed!
+[Warning] GlobalhkpWorldPtr address changed!
+[Info] Dumping rfg_ui_hud_health.lua
+[Info] Dumping rfg_ui_messages.lua
+[Info] Dumping rfg_ui_mp_hint_bar.lua
+[Info] Dumping rfg_ui_multiplayer_hud.lua
+[Info] Dumping rfg_ui_mp_hud_xp.lua
+[Info] Dumping rfg_ui_mp_scoreboard.lua
+[Info] Dumping rfg_ui_mp_wc_splash.lua
+[Info] Dumping rfg_ui_hud_weapon_sel.lua
+[Info] Dumping rfg_ui_hud_reticles.lua
+[Info] Graphics Improvement v1.00 24-2-2023 Build 547 Loaded
+[Info] Ultimate Gravity Control v1.00 23-10-2022 Build 336 Loaded

@@ -1,0 +1,452 @@
+[
+    {
+        "Name": "Parker - Tutorial Area",
+        "Position": [
+            -2328.2900390625,
+            30.0,
+            -2317.89990234375
+        ],
+        "TooltipDescription": "Tutorial area at the start of the game."
+    },
+    {
+        "Name": "Parker - Safehouse",
+        "Position": [
+            -1877.77001953125,
+            23.0,
+            -1452.0
+        ],
+        "TooltipDescription": "Game starting safehouse. Near ore processing plant."
+    },
+    {
+        "Name": "Parker - Abandoned Safehouse",
+        "Position": [
+            -1813.300048828125,
+            22.0,
+            -1159.4000244140625
+        ],
+        "TooltipDescription": "Abandoned red faction safehouse in Parker."
+    },
+    {
+        "Name": "Parker - Sand Sifter Factory",
+        "Position": [
+            -1833.5,
+            21.0,
+            -1250.0999755859375
+        ],
+        "TooltipDescription": "Next to an ore collecting funnel and across the road from several large gas tanks."
+    },
+    {
+        "Name": "Parker - Ore Processing Plant",
+        "Position": [
+            -1625.0999755859375,
+            38.0,
+            -1178.300048828125
+        ],
+        "TooltipDescription": "A restricted EDF target with two smokestacks and a building. EDF vehicles are usually parked here."
+    },
+    {
+        "Name": "Parker - Mountain",
+        "Position": [
+            -1736.5999755859375,
+            90.0,
+            -1323.5999755859375
+        ],
+        "TooltipDescription": "On top of a mountain in Dust overlooking the small town of Red Rock."
+    },
+    {
+        "Name": "Dust - Safehouse (North)",
+        "Position": [
+            -387.0,
+            38.0,
+            -820.0
+        ],
+        "TooltipDescription": "Near tharsis point wind farm and Dust town hall."
+    },
+    {
+        "Name": "Dust - Safehouse (South)",
+        "Position": [
+            -113.58999633789063,
+            30.0,
+            -2449.580078125
+        ],
+        "TooltipDescription": "Near chemical plant."
+    },
+    {
+        "Name": "Dust - Quarry",
+        "Position": [
+            -887.0999755859375,
+            -20.0,
+            -1249.199951171875
+        ],
+        "TooltipDescription": "Inside the quarry. Includes several storage buildings with explosions and a large mining excavator."
+    },
+    {
+        "Name": "Dust - Town of Dust",
+        "Position": [
+            211.5,
+            33.0,
+            -1428.800048828125
+        ],
+        "TooltipDescription": "On a hill overlooking the town of Dust. Has several stores, a bar, a prison, and medical clinic."
+    },
+    {
+        "Name": "Dust - Windfarm",
+        "Position": [
+            -244.5,
+            74.0,
+            -224.5
+        ],
+        "TooltipDescription": "The center of the Windfarm in northern Dust. Several windmills and EDF guard towers."
+    },
+    {
+        "Name": "Dust - Town Hall",
+        "Position": [
+            206.1999969482422,
+            55.0,
+            -695.4000244140625
+        ],
+        "TooltipDescription": "Outside of the EDF controlled Dust Town Hall."
+    },
+    {
+        "Name": "Dust - EDF Executive Housing",
+        "Position": [
+            0.7699999809265137,
+            70.0,
+            -1196.6099853515625
+        ],
+        "TooltipDescription": "On a hill overlooking a housing complex used by EDF officers. The area below is restricted."
+    },
+    {
+        "Name": "Dust - Chemical Depot",
+        "Position": [
+            -208.60000610351563,
+            3.0,
+            -2298.300048828125
+        ],
+        "TooltipDescription": "Entrance of the chemical depot in Dust. Has several offices, a workers apartment, and many gas tanks."
+    },
+    {
+        "Name": "Dust - Mohole",
+        "Position": [
+            -801.7000122070313,
+            71.0,
+            -589.5999755859375
+        ],
+        "TooltipDescription": "Next to the small mohole in dust. In a restricted area."
+    },
+    {
+        "Name": "Dust - Mountain",
+        "Position": [
+            -125.30000305175781,
+            135.0,
+            -1147.4000244140625
+        ],
+        "TooltipDescription": "Top of a large mountain/ridge in Dust."
+    },
+    {
+        "Name": "Badlands - Safehouse (RF HQ)",
+        "Position": [
+            2411.89990234375,
+            58.0,
+            -239.77000427246094
+        ],
+        "TooltipDescription": "Main safehouse in Badlands. Also the HQ of the Red Faction."
+    },
+    {
+        "Name": "Badlands - Safehouse (Marauder)",
+        "Position": [
+            2458.469970703125,
+            58.0,
+            -1210.1700439453125
+        ],
+        "TooltipDescription": "Safehouse in marauder territory. Unless you want hostile marauders, wait until you've completed certain missions to go here."
+    },
+    {
+        "Name": "Badlands - EDF Outpost",
+        "Position": [
+            1133.300048828125,
+            -3.0,
+            -313.6000061035156
+        ],
+        "TooltipDescription": "The big one."
+    },
+    {
+        "Name": "Badlands - Mohole",
+        "Position": [
+            1420.27001953125,
+            -32.0,
+            -734.280029296875
+        ],
+        "TooltipDescription": "Big 'ol hole in the ground used to pull heat from Mars' core for terraforming purposes. There's a smaller one in Dust."
+    },
+    {
+        "Name": "Badlands - Harrington Memorial Bridge",
+        "Position": [
+            948.1400146484375,
+            -5.0,
+            -417.67999267578125
+        ],
+        "TooltipDescription": "The big one."
+    },
+    {
+        "Name": "Badlands - EDF Barracks",
+        "Position": [
+            899.9099731445313,
+            2.0,
+            -885.6400146484375
+        ],
+        "TooltipDescription": "EDF Barracks sitting in a hilly area south of the EDF airbase in Badlands."
+    },
+    {
+        "Name": "Badlands - Marauder Territory",
+        "Position": [
+            1072.0,
+            3.0,
+            -1366.0
+        ],
+        "TooltipDescription": "Entrance to a Marauder base."
+    },
+    {
+        "Name": "Badlands - Ultor Ruins",
+        "Position": [
+            1279.9000244140625,
+            20.0,
+            -1448.5999755859375
+        ],
+        "TooltipDescription": "Large abandoned Ultor ruins in Marauder territory."
+    },
+    {
+        "Name": "Badlands - Irradiated Zone",
+        "Position": [
+            1685.5,
+            28.0,
+            -1093.9000244140625
+        ],
+        "TooltipDescription": "In the middle of the irradiated zone."
+    },
+    {
+        "Name": "Badlands - Old Coot",
+        "Position": [
+            1496.9000244140625,
+            -12.0,
+            -766.7000122070313
+        ],
+        "TooltipDescription": "Old coots shack next to the Mohole."
+    },
+    {
+        "Name": "Badlands - Mars Rover",
+        "Position": [
+            2100.800048828125,
+            29.0,
+            -484.79998779296875
+        ],
+        "TooltipDescription": "The mars rover easter egg."
+    },
+    {
+        "Name": "Oasis - Safehouse",
+        "Position": [
+            1434.2900390625,
+            18.0,
+            691.6500244140625
+        ],
+        "TooltipDescription": "Near EDF vehicle depot."
+    },
+    {
+        "Name": "Oasis - Residential District",
+        "Position": [
+            1728.199951171875,
+            17.0,
+            211.3800048828125
+        ],
+        "TooltipDescription": "Residential area of Oasis. Has several apartment buildings and gas stations."
+    },
+    {
+        "Name": "Oasis - Industrial District",
+        "Position": [
+            176.5,
+            33.0,
+            777.0
+        ],
+        "TooltipDescription": "In the middle of the Industrial District of Oasis. Has several smokestacks and factories."
+    },
+    {
+        "Name": "Oasis - EDF Barracks",
+        "Position": [
+            916.2000122070313,
+            23.0,
+            240.6999969482422
+        ],
+        "TooltipDescription": "Outside of an EDF Barracks in Oasis, near the Arc Reactor."
+    },
+    {
+        "Name": "Oasis - Reactor Core",
+        "Position": [
+            640.4000244140625,
+            50.0,
+            384.70001220703125
+        ],
+        "TooltipDescription": "On a hillside overlooking the Arc Reactor."
+    },
+    {
+        "Name": "Free Fire Zone - Minor Safehouse",
+        "Position": [
+            -1908.5,
+            25.0,
+            -779.2000122070313
+        ],
+        "TooltipDescription": "Abandoned EDF base in the free fire zone. Manned by guerrilla fighters."
+    },
+    {
+        "Name": "Free Fire Zone - Artillery Border (South)",
+        "Position": [
+            -1606.5999755859375,
+            0.0,
+            -785.9000244140625
+        ],
+        "TooltipDescription": "Southern border of the artillery kill zone. Next to the EDF border checkpoint."
+    },
+    {
+        "Name": "Free Fire Zone - Artillery Border (North)",
+        "Position": [
+            -1813.5,
+            5.0,
+            -250.1999969482422
+        ],
+        "TooltipDescription": "Northern border of the artillery kill zone. Next to the bridge."
+    },
+    {
+        "Name": "Free Fire Zone - Artillery Base",
+        "Position": [
+            -1752.030029296875,
+            9.0,
+            -132.58999633789063
+        ],
+        "TooltipDescription": "Base which runs and protects the EDF Artillery Gun. Deadly to be here until the FFZ has been liberated."
+    },
+    {
+        "Name": "Free Fire Zone - Artillery Gun",
+        "Position": [
+            -1944.9200439453125,
+            38.0,
+            -65.48999786376953
+        ],
+        "TooltipDescription": "Bottom of the EDF Artillery Gun. Deadly to be here until the FFZ has been liberated."
+    },
+    {
+        "Name": "EOS - Safehouse (West)",
+        "Position": [
+            -1726.0,
+            44.0,
+            438.0
+        ],
+        "TooltipDescription": "Near FFZ entrance/exit and Eos Memorial Bridge."
+    },
+    {
+        "Name": "EOS - Safehouse (East)",
+        "Position": [
+            -1390.949951171875,
+            30.0,
+            561.0800170898438
+        ],
+        "TooltipDescription": "Near construction site."
+    },
+    {
+        "Name": "EOS - South Border",
+        "Position": [
+            -1714.9000244140625,
+            18.0,
+            22.799999237060547
+        ],
+        "TooltipDescription": "Border of EOS and the Free Fire Zone"
+    },
+    {
+        "Name": "EOS - Residential District",
+        "Position": [
+            -1753.4000244140625,
+            -2.0,
+            764.0
+        ],
+        "TooltipDescription": "Residential area north of the western EOS safehouse. Has two apartment buildings, two bridges, and a EDF monument."
+    },
+    {
+        "Name": "EOS - Martian Council",
+        "Position": [
+            -1174.699951171875,
+            17.0,
+            1386.5
+        ],
+        "TooltipDescription": "Martian Council building in northern EOS. The EDF are hostile here."
+    },
+    {
+        "Name": "EOS - Outside EDF Central Command",
+        "Position": [
+            -1428.6099853515625,
+            5.0,
+            2013.5
+        ],
+        "TooltipDescription": "Right outside the defense shield."
+    },
+    {
+        "Name": "EOS - Inside EDF Central Command",
+        "Position": [
+            -1458.75,
+            5.0,
+            2050.159912109375
+        ],
+        "TooltipDescription": "Right inside past the defense shield."
+    },
+    {
+        "Name": "EOS - EDF Central Command Main Building",
+        "Position": [
+            -1474.530029296875,
+            27.0,
+            2397.489990234375
+        ],
+        "TooltipDescription": "The final building at the peak of the inner valley / cliffsides."
+    },
+    {
+        "Name": "Mount Vogel - Border",
+        "Position": [
+            -1017.0999755859375,
+            6.0,
+            2474.300048828125
+        ],
+        "TooltipDescription": "Border of Mount Vogel and EOS"
+    },
+    {
+        "Name": "Mount Vogel - Base",
+        "Position": [
+            -670.3699951171875,
+            47.0,
+            2423.75
+        ],
+        "TooltipDescription": "Bottom of Mount Vogel and mass accelerator. Several old buildings."
+    },
+    {
+        "Name": "Mount Vogel - Peak",
+        "Position": [
+            -285.7699890136719,
+            183.0,
+            2423.39990234375
+        ],
+        "TooltipDescription": "Peak of Mount Vogel with mass accelerator exit."
+    },
+    {
+        "Name": "Map Center (OUT OF BOUNDS)",
+        "Position": [
+            -1.718999981880188,
+            117.0,
+            -1.3480000495910645
+        ],
+        "TooltipDescription": "Center of the game map. Out of bounds, so make sure that you have infinite jetpack on so you don't fall through the map."
+    },
+    {
+        "Name": "Dust - Crater Grounds (OUT OF BOUNDS)",
+        "Position": [
+            -1.6770000457763672,
+            60.0,
+            -2386.89990234375
+        ],
+        "TooltipDescription": "Area south of dust overlooking the crater grounds. Be careful not to fall out of the map."
+    }
+]
