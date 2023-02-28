@@ -10,6 +10,7 @@ MISC
 * Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)"
 * More heat haze probes on Ruins where it's missing the effect
 * Disable power weapons on maps until we can figure out a way to rebalance them (Super Gauss, Misslepod)
+* Spiker: still too weak, takes a lot of shots to kill, maybe increase clip size slightly and increase damage, increase headshot multiplier
 
 CHARACTERS
 ----------
