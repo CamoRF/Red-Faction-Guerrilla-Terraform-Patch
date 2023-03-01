@@ -17,6 +17,7 @@ CHARACTERS
 BACKPACKS
 ----------
 * Stealth pack casts player shadow for other players
+* Buffed versions of backpacks: Concussion with stronger push, jetpack with more fuel, stronger firepower etc
 
 TEXTURE FIXES
 -------------
@@ -42,6 +43,9 @@ WEAPONS
 * Misslepod: too much smoke and particles for such small damage
 * Spiker: still too weak, takes a lot of shots to kill, maybe increase clip size slightly and increase damage, increase headshot multiplier
 * Reconstructor effect not appearing randomly, test if restarting game fixes it
+* Make sure sniper and rail driver have hitscan, they both use bullet for ammo_type which is described as hit detection occurs immediately on trigger pull. Maybe the trail effect is delayed or the projectile isn't fast enough?
+* Reduce or remove sledge hammer aim assist: there's a variable for it set to 0.75 in weapons.xtbl
+* Pistol: too finnicky to use?
 
 MAPS
 ----
