@@ -66,6 +66,7 @@ MAPS
 * Disable siege on new maps without proper spawns?
 * Doublecheck if sun texture is broken on assembly/outpost
 * Ruins: More heat haze probes on Ruins where it's missing the effect
+* King of the Hill targets, Flag capture zones, Spawn nodes, Spectator cameras have values related to backpack racks which are possibly redundant, test if removing these doesn't break objectives.
 
 LOW PRIORITY MAP STUFF
 -----------------------
