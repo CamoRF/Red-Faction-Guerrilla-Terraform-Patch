@@ -3424,7 +3424,7 @@
 			<Unique_ID>69</Unique_ID>
 			<Default_team>Guerilla</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.75</aim_assist> <!--Slegehammer aim assist?-->
 		</Weapon>
 		<Weapon>
 			<Name>mine_placer</Name>

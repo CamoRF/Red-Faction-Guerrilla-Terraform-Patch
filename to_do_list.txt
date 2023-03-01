@@ -2,8 +2,8 @@
 TO DO LIST
 *---------*
 
-
-* rf1 filename = rfgcommunityupdate1
+NOTES
+-----
 * rfgcommunitypatch
 * rfgcommunityupdateX
 
@@ -36,6 +36,7 @@ VEHICLES
 ---------
 * Re-port DLC vehicles to base game 
 * Port base game vehicles to DLC
+* Increase LOD distances in vehicles.xtbl and DLC vehicles commented out
 
 WEAPONS
 -------
