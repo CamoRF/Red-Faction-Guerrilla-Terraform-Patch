@@ -402,12 +402,12 @@ v1.064 ALPHA CHANGES
 * Added stealth/vision to some maps that had one but not the other where it made sense for balance
 * Factory: Added two placeholder backpack racks, CTF, Damage control & a third catwalk
 * Expansion: Added mine beacons, minefields, cliff warning signs, mine warning signs, marauder crates, EDF crates, two smokestacks & removed duplicated placeholder cloned objects
-* Frost: Overhauled layout for improved gameplay in multiplayer, added dynamic destruction, minefields & more
-* Imperial: Added building, monument, spawns & more
-* Repurcussion: Added more weapon spawns & more
+* Frost: Overhauled layout for improved gameplay in multiplayer, added dynamic destruction, minefields, various fixes & more
+* Imperial: Added building, monument, spawns, various fixes & more
+* Repurcussion: Added more weapon spawns, various fixes & more
 * Transmission: Added minefield & mine beacons before the invisible wall, more spawns & a few more radio towers
-* Cascade: Made the area under the bridge more accessible & more
-* GFWL/Nordic Bonus: Fixed floating shipping containers replacing them with air craft & vehicle debris, added marauder smokestack, marauder statue, added smokestack outside the map, added shipping containers with explosive barrels on top of the cave area, added fire surrounding the map, added cliff warning sign near the GFWL containers & more
+* Cascade: Made the area under the bridge more accessible, various fixes & more
+* GFWL/Nordic Bonus: Fixed floating shipping containers replacing them with air craft & vehicle debris, added marauder smokestack, marauder statue, added smokestack outside the map, added shipping containers with explosive barrels on top of the cave area, added fire surrounding the map, added cliff warning sign near the GFWL containers, various fixes & more
 * Abandoned: Added EDF forcefield & buildings to indicate where the invisible wall is, added mine beacons & minefields to fix out of bounds exploits & more
 * The following maps have been temporarily disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch, Ruins & Scrapheap
 * Disabled misslepod & super gauss spawn in Siege, Damage Control & Demolition on all maps (excluding Crescent)
@@ -426,7 +426,7 @@ v1.064 ALPHA CHANGES
 * Fixed some floating &/or clipping objects
 * Fixed various missing killboxes under maps, the player will no longer fall for eternity if a clipping bug ever occurs
 * Fixed Kaboom Pack camera shake
-* Fixed vanilla bug with spawns flipping in CTF on most maps; this fix will apply on all maps that have team spawns
+* Fixed vanilla bug with spawns flipping in CTF on most maps; this fix will only apply on maps that have team spawns
 * Fixed sound getting stuck when Kaboom Pack explodes
 
 -----------------------------
@@ -494,12 +494,12 @@ v1.07 ALPHA CHANGES
 * Added CTF to all WC maps except for Scrapheap & Vista
 * Added CTF to all siege maps except for Framework & Overpass
 * Added Damage Control to all siege maps except for Framework
-* Added Damage Control to all WC maps except Scrapheap, Ruins & Vista
+* Added Damage Control to all WC maps except for Scrapheap, Ruins & Vista
 * Added more Reconstructor spawns to some of the new siege maps
 * Added some well hidden weapons that only spawn once to some wrecking crew maps
 * Division: Added siege
 * Stratosphere: Added ladders to some of the buildings, removed all siege objectives except the town hall & fixed the physics issue with some of the shipping containers
-* Quarantine: Added two more smokestack objectives in siege mode & fixed issue with minefields not working on other gamemodes
+* Quarantine: Added two more smokestack objectives in siege mode & fixed issue with minefields not working in other gamemodes
 * Cascade: Added another siege objective & two stealth backpack spawns near the solar towers
 * Watchtower: Improved backpack spawn locations
 * Watchtower: Added King of the Hill mode in Damage Control
@@ -507,11 +507,11 @@ v1.07 ALPHA CHANGES
 * Factory: Moved the location of the bag to a more balanced position for team bagman
 * Expansion: Added team spawns
 * Transmission: Added forcefield to indicate where the invisible wall is, added EDF crates around some of the empty areas, various fixes & more
-* Gulch: Re-implemented map with backpack racks, smokestacks, a crane, crates, fire effects, ladder added to one of the towers, various fixes & more
-* Ruins: Re-implemented map with backpack spawns, heat haze effect, various fixes & more
-* GFWL/Nordic Bonus: Adjusted weather, reduced the sun glare, added heat haze, removed the shipping containers + barrels on top of the cliff, various fixes & more
-* Scrapheap: Adjusted the minefield
+* Gulch: Re-implemented map with backpack spawns, smokestacks, a crane, crates, fire effects, a ladder added to one of the towers, various fixes & more
+* Ruins: Re-implemented map with backpack spawns, heat haze effects, various fixes & more
+* GFWL/Nordic Bonus: Adjusted weather, reduced the sun glare, added heat haze effect, removed the shipping containers + barrels on top of the cliff, various fixes & more
 * Frost: Added fire effect at the top of the cliff where the explosion occurs, added artillery sign asset, adjusted the killbox near the lower pipes, various fixes & more
+* Scrapheap: Adjusted the minefield
 * Improvements to weather and lighting on various maps
 
 [Interface]
@@ -556,7 +556,7 @@ v1.07 ALPHA CHANGES
 * Increased max delay before checking stress to 5050ms from 5000ms
 
 [New Weapon]
-* Re-implemented Spiker DLC weapon
+* Re-implemented Spiker DLC weapon in multiplayer
 
 [Multiplayer]
 * Doubled XP gained due to the XP gain being balanced around the game being active
@@ -596,7 +596,7 @@ v1.07 ALPHA CHANGES
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log
-* Fixed issue with heal backpack set as team exclusive on Expansion
+* Fixed issue with heal backpack incorrectly set as team exclusive on Expansion
 * Fixed issue with spawn facing wrong direction on Complex
 * Fixed gap to void in terrain on Gulch
 * Fixed gap to void in terrain on GFWL/Nordic Bonus
@@ -606,7 +606,7 @@ v1.07 ALPHA CHANGES
 * Fixed two additional out of bounds exploits on Downfall
 * Fixed a hole where you could get stuck on Repercussion
 * Fixed floating heal backpack on Watchtower
-* Fixed issue with extreme cloud speeds
+* Fixed issue with extreme cloud speeds on multiplayer maps
 * Fixed some issues with broken missions in singleplayer
 * Fixed issue with some of the recent stealth pack rebalance changes not applying
 * Fixed some DLC objects missing shadows
@@ -616,16 +616,16 @@ v1.07 ALPHA CHANGES
 * Various other fixes, improvements & adjustments to all multiplayer & wrecking crew maps
 * Various other fixes, optimizations & stability improvements
 
----------------------
-v1.07.1 ALPHA CHANGES
----------------------
+----------------------------------------
+v1.07.1 PRE ALPHA CHANGES (NOT RELEASED)
+----------------------------------------
 
 [Misc]
-* Added some missing comments from various files so it's easier to see exactly what the patch modifies in each .xtbl file
+* Added some missing comments to various files so it's easier to see exactly what the patch modifies in each .xtbl file
 
 [New Backpacks]
-* Added overpowered versions of the following backpacks that can only be selected in custom matches and don't replace the originals: Jetpack, Thrust, Concussion & Rhino
+* Added overpowered versions of the following backpacks that can only be selected in custom matches and don't replace the originals: OP Jetpack, OP Thrust, OP Concussion & OP Rhino
 * Added an experimental Repair backback that can only be selected in custom matches, it repairs structures around the player when used
 
 [Fixes]
-* Fixed wrecking crew map names in territories.xtbl, forgot to rename them after restoring them as new files
+* Fixed incorrect wrecking crew map names in territories.xtbl, forgot to rename them after restoring them as new files
