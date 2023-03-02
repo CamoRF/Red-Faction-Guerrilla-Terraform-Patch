@@ -7,47 +7,6 @@ NOTES
 * rfgcommunitypatch
 * rfgcommunityupdateX
 
-MISC
-----
-* Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)"
-
-CHARACTERS
-----------
-* Add new character thumbnails when peg tool is out
-* Restore Torvald, Bev, Chuck, Selma, Kayla, Blair, Numah, & Pierce to multiplayer roster and add ones missing from RF team when hardcoded limit for character grid is bumped
-* Add Alec Mason (Armor) to RF team when hardcoded limit for character_grid is bumped in RSL2
-
-BACKPACKS
-----------
-* Try to fix how stealth pack casts a player shadow that other players can see
-
-TEXTURE FIXES
--------------
-* See known bugs in changelog.txt
-
-WRECKING CREW MODE
-------------------
-* Fallfactor, overpass, deadzone and crash site wrecking crew versions when NF rewrite is out so I can see general movers and fix floating barrels
-
-VEHICLES
----------
-* Re-port DLC vehicles to base game when modinfo.xml is added to SF
-
-WEAPONS
--------
-* Grenade and fist weapons
-* Singularity that explodes in 1 second named Instant Singularity Bomb
-* Fix DLC weapon icons and reticules by figuring out how to port them to the base game, something to do with bitmap.xtbl and peg files
-* Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
-* Implement Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
-* Weapon ideas: Singularity launcher, Gauss shotgun, Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to 	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
-* Misslepod: too much smoke and particles for such small damage
-* Spiker: still too weak, takes a lot of shots to kill, maybe increase clip size slightly and increase damage, increase headshot multiplier
-* Reconstructor effect not appearing randomly, test if restarting game fixes it
-* Make sure sniper and rail driver have hitscan, they both use bullet for ammo_type which is described as hit detection occurs immediately on trigger pull. Maybe the trail effect is delayed or the projectile isn't fast enough?
-* Reduce or remove sledge hammer aim assist: there's a variable for it set to 0.75 in weapons.xtbl
-* Pistol: too finnicky to use?
-
 MAPS
 ----
 * Disable power weapons on maps until we can figure out a way to rebalance them? (Super Gauss, Misslepod)
@@ -88,6 +47,47 @@ LOW PRIORITY MAP STUFF
 * Framework: Move flag stands, EDF spawn on top of the hill behind the buildings, RF spawn at the back near the mines and re-enable it in mp_levels.xtbl
 * Framework: MP version of crane asset?
 * Quarantine siege and new map file version: Add more spectator cameras outside the map
+
+MISC
+----
+* Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)"
+
+CHARACTERS
+----------
+* Add new character thumbnails when peg tool is out
+* Restore Torvald, Bev, Chuck, Selma, Kayla, Blair, Numah, & Pierce to multiplayer roster and add ones missing from RF team when hardcoded limit for character grid is bumped
+* Add Alec Mason (Armor) to RF team when hardcoded limit for character_grid is bumped in RSL2
+
+BACKPACKS
+----------
+* Try to fix how stealth pack casts a player shadow that other players can see
+
+TEXTURE FIXES
+-------------
+* See known bugs in changelog.txt
+
+WRECKING CREW MODE
+------------------
+* Fallfactor, overpass, deadzone and crash site wrecking crew versions when NF rewrite is out so I can see general movers and fix floating barrels
+
+VEHICLES
+---------
+* Re-port DLC vehicles to base game when modinfo.xml is added to SF
+
+WEAPONS
+-------
+* Grenade and fist weapons
+* Singularity that explodes in 1 second named Instant Singularity Bomb
+* Fix DLC weapon icons and reticules by figuring out how to port them to the base game, something to do with bitmap.xtbl and peg files
+* Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
+* Implement Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
+* Weapon ideas: Singularity launcher, Gauss shotgun, Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to 	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
+* Misslepod: too much smoke and particles for such small damage
+* Spiker: still too weak, takes a lot of shots to kill, maybe increase clip size slightly and increase damage, increase headshot multiplier
+* Reconstructor effect not appearing randomly, test if restarting game fixes it
+* Make sure sniper and rail driver have hitscan, they both use bullet for ammo_type which is described as hit detection occurs immediately on trigger pull. Maybe the trail effect is delayed or the projectile isn't fast enough?
+* Reduce or remove sledge hammer aim assist: there's a variable for it set to 0.75 in weapons.xtbl
+* Pistol: too finnicky to use?
 
 RUINS INTERIOR MAP
 ------------------
@@ -164,8 +164,8 @@ SINGLEPLAYER ADD-ON
   The game itself thinks it's there, in and out of mission the AI just straight drives off it, waypoints (which normally divert around destroyed bridges) just go straight across the gap.
 * More checkpoints
 
-OUT OF SCOPE/ADD-ONS
----------------------
+MISC OUT OF SCOPE/ADD-ONS
+--------------------------
 * Quick Save hotkey 
 * First person: Remove Alec Masons head, replace weapon models with ones for first person, reduce clipping, change animations, script to switch back to third person in vehicles
 * More fleshed out world with more buildings etc
@@ -181,14 +181,15 @@ OUT OF SCOPE/ADD-ONS
 * Is that gritty border I made for thumbnails on one of my backup SSDs?
 * Could extract the old HD loading screens and thumbnails from old version of patch
 
-NEW MISSIONS
--------------
+NEW MISSIONS (OUT OF SCOPE/ADD-ON)
+-----------------------------------
 * Missions where you fly the EDF fliers or bombers and take out EDF bases on mountains 
 * Stunt jump activities
 * More demo master activities 
+* EDF counter attack set after main story (based on Sams post game dialogue)
 
-GRAPHICS OVERHAUL 
------------------
+GRAPHICS OVERHAUL (OUT OF SCOPE/ADD-ON)
+----------------------------------------
 * Rewrite graphics improvement script for RSL2
 * HD character textures 
 * HD weapons and backpack textures
