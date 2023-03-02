@@ -3,7 +3,8 @@
   <Endian>Little</Endian>
   <Version>5</Version>
   <Containers>
-    <ContainerEntry>
+<!--START New Characters ADDED-->    
+	<ContainerEntry>
       <Name>mason</Name>
       <Type>21</Type>
       <Flags>128</Flags>
@@ -352,6 +353,7 @@
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
+<!--END-->	
     <ContainerEntry>
       <Name>MP_Selma</Name>
       <Type>20</Type>
