@@ -3,7 +3,8 @@
   <Endian>Little</Endian>
   <Version>5</Version>
   <Containers>
-    <ContainerEntry>
+<!--START DLC Vehicles ADDED-->    
+	<ContainerEntry>
       <Name>mar_chomper.ccar_pc</Name>
       <Type>29</Type>
       <Flags>128</Flags>
@@ -538,7 +539,7 @@
           <DataSize>0</DataSize>
         </PrimitiveEntry>
       </Primitives>
-    </ContainerEntry>
+    </ContainerEntry>	
     <ContainerEntry>
       <Name>walker_mar.ccar_pc</Name>
       <Type>29</Type>
@@ -872,6 +873,7 @@
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
+<!--END-->	
     <ContainerEntry>
       <Name>mar_raider1.ccar_pc</Name>
       <Type>29</Type>
