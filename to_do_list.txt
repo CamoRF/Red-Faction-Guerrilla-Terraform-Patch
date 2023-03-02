@@ -9,7 +9,7 @@ NOTES
 
 MISC
 ----
-* Add missing vanilla value comments from some files, some of them have a note in the .xtbl already
+* Add missing vanilla value comments from some files (time_of_day.xtbl & territories.xtbl left)
 * Add formatted versions of optimized files
 * Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)"
 
@@ -17,12 +17,12 @@ CHARACTERS
 ----------
 * Add new character thumbnails when peg tool is out
 * Restore Torvald, Bev, Chuck, Selma, Kayla, Blair, Numah, & Pierce to multiplayer roster and add ones missing from RF team when hardcoded limit for character grid is bumped
-* Add Alec Mason (Armor) to RF team when hardcoded limit for character grid is bumped
+* Add Alec Mason (Armor) to RF team when hardcoded limit for character_grid is bumped in RSL2
 
 BACKPACKS
 ----------
 * Stealth pack casts player shadow for other players
-* Buffed versions of backpacks: Concussion with stronger push, jetpack with more fuel, stronger firepower etc
+* Buffed versions of backpacks: Concussion with stronger push, jetpack with more fuel, stronger firepower etc (wip)
 
 TEXTURE FIXES
 -------------
@@ -34,9 +34,9 @@ WRECKING CREW MODE
 
 VEHICLES
 ---------
-* Re-port DLC vehicles to base game 
+* Re-port DLC vehicles to base game
 * Port base game vehicles to DLC
-* Increase LOD distances in vehicles.xtbl and DLC vehicles commented out
+* Increase LOD distances in vehicles.xtbl and add DLC vehicles commented out
 
 WEAPONS
 -------

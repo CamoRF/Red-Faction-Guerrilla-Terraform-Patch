@@ -1,0 +1,557 @@
+<!-- 	This file instructs the Mod Manager how to display the mod and its configuration options, and which changes to make when applied. -->
+
+<Mod Name="- 2021 Community Pack -"> 	<!-- Basic information, shown in the Mod Manager. 	-->
+	<Author>Gessie, EthicalLune, Sturm-Falke101, Jakkar, Moneyl</Author>
+	<Description>Configurable best-of mods package. Check out the readme for more information.</Description>
+	<WebLink Name="Nexusmods">https://www.nexusmods.com/redfactionguerrillaremarstered/mods/21</WebLink>
+	<UserInput>
+		<ListBox Name="StressSettings" DisplayName="Building stress settings"> 	<!-- A text line and dropdown box shown in the mod manager, 	-->
+																				<!-- "StressSettings" is referenced later. 						-->
+			<Option Name="Realistic - Gessie's settings"> 	<!-- One Option on the dropdown list. 	-->
+				<Objects_Per_Frame>5000</Objects_Per_Frame> 			<!-- Set this field to "5000" when applying this Option to the game files.	 		-->
+				<Repeat_Delay_Min>30</Repeat_Delay_Min>					<!-- Set this field to "30" when applying this Option to the game files.			-->
+				<Repeat_Delay_Max>800</Repeat_Delay_Max>
+				<Force_Scalar>0.19</Force_Scalar>
+				<Parent_Yield_Scalar>3.6</Parent_Yield_Scalar>
+			</Option>
+
+			<Option Name="Crumbling - Jakkar's settings">
+				<Objects_Per_Frame>2000</Objects_Per_Frame>
+				<Repeat_Delay_Min>1</Repeat_Delay_Min>
+				<Repeat_Delay_Max>2</Repeat_Delay_Max>
+				<Force_Scalar>0.18</Force_Scalar>
+				<Parent_Yield_Scalar>20</Parent_Yield_Scalar>
+			</Option>
+
+			<Option Name="Resilient - EthicalLune's settings">
+				<Objects_Per_Frame>1200</Objects_Per_Frame>
+				<Repeat_Delay_Min>50</Repeat_Delay_Min>
+				<Repeat_Delay_Max>500</Repeat_Delay_Max>
+				<Force_Scalar>0.12</Force_Scalar>
+				<Parent_Yield_Scalar>-1000.0</Parent_Yield_Scalar>
+			</Option>
+
+			<Option Name="Wrecking Crew High (visual drama)">
+				<Objects_Per_Frame>10</Objects_Per_Frame>
+				<Repeat_Delay_Min>120</Repeat_Delay_Min>
+				<Repeat_Delay_Max>500</Repeat_Delay_Max>
+				<Force_Scalar>50000000</Force_Scalar>
+				<Parent_Yield_Scalar>1000</Parent_Yield_Scalar>
+			</Option>
+
+			<Option Name="Diamond buildings">
+				<Objects_Per_Frame>5000</Objects_Per_Frame>
+				<Repeat_Delay_Min>800</Repeat_Delay_Min>
+				<Repeat_Delay_Max>1500</Repeat_Delay_Max>
+				<Force_Scalar>0.01</Force_Scalar>
+				<Parent_Yield_Scalar>-8000</Parent_Yield_Scalar>
+			</Option>
+	   	</ListBox>
+     	<ListBox Name="AlertDecay" DisplayName="Alert Level decay rate">
+		
+			<Option Name="Hit-and-run decay">
+				<DecayRateYellow>25</DecayRateYellow>
+				<DecayRateGreen>20</DecayRateGreen>
+				<DecayRateOrange>30</DecayRateOrange>
+				<DecayRateRed>35</DecayRateRed>
+				<MaxDecayMultiplier>5</MaxDecayMultiplier>
+				<LHA_Min_Decay_Distance>40</LHA_Min_Decay_Distance>
+				<LHA_Max_Decay_Distance>220</LHA_Max_Decay_Distance>
+				<LHA_Minimum_Decay>5</LHA_Minimum_Decay>
+				<LHA_Maximum_Decay>145</LHA_Maximum_Decay>
+			</Option>
+			
+			<Option Name="Slow decay - EthicalLune's settings">
+				<DecayRateYellow>15</DecayRateYellow>
+				<DecayRateGreen>25</DecayRateGreen>
+				<DecayRateOrange>10</DecayRateOrange>
+				<DecayRateRed>5</DecayRateRed>
+				<MaxDecayMultiplier>1</MaxDecayMultiplier>
+				<LHA_Min_Decay_Distance>400</LHA_Min_Decay_Distance>
+				<LHA_Max_Decay_Distance>1200</LHA_Max_Decay_Distance>
+				<LHA_Minimum_Decay>1</LHA_Minimum_Decay>
+				<LHA_Maximum_Decay>1</LHA_Maximum_Decay>
+			</Option>
+		</ListBox>
+		
+		<ListBox Name="IMWorkaround" DisplayName="Insane unlock workaround">
+			<Option Name="Hard is Hard">
+				<Difficulty_Items>			<!-- A crappy giant list, because I don't understand how to selectively modify each field at once. -->
+			<Item>
+				<Name>MENU_ENEMY_DAMAGE_TAKEN</Name>
+				<Easy>2.0</Easy>
+				<Medium>2.0</Medium>
+				<Hard>2.0</Hard>
+				<Insane>2.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENEMY_VEHICLE_DAMAGE</Name>
+				<Easy>1.2</Easy>
+				<Medium>1.0</Medium>
+				<Hard>0.9</Hard>
+				<Insane>0.9</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENEMY_WEAPON_SPREAD</Name>
+				<Easy>0.5</Easy>
+				<Medium>0.5</Medium>
+				<Hard>0.5</Hard>
+				<Insane>0.5</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENEMY_AIM_DRIFT</Name>
+				<Easy>0.8</Easy>
+				<Medium>0.8</Medium>
+				<Hard>0.8</Hard>
+				<Insane>0.8</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENEMY_BURST_SIZE</Name>
+				<Easy>40.0</Easy>
+				<Medium>40.0</Medium>
+				<Hard>40.0</Hard>
+				<Insane>40.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENEMY_REINFORCEMENTS</Name>
+				<Easy>1.1</Easy>
+				<Medium>1.1</Medium>
+				<Hard>1.1</Hard>
+				<Insane>1.1</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENEMY_ALERT_LEVEL_EVENTS</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_DAMAGE_TAKEN</Name>
+				<Easy>0.6</Easy>
+				<Medium>1.1</Medium>
+				<Hard>2.2</Hard>
+				<Insane>3.3</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_REGEN_DELAY</Name>
+				<Easy>0.5</Easy>
+				<Medium>0.5</Medium>
+				<Hard>0.5</Hard>
+				<Insane>0.5</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_REGEN_RATE</Name>
+				<Easy>1.0</Easy>
+				<Medium>0.6</Medium>
+				<Hard>0.45</Hard>
+				<Insane>0.35</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_AMMO_PICKUP</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_AMMO_CRATES</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_VEHICLE_DAMAGE</Name>
+				<Easy>0.4</Easy>
+				<Medium>0.8</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_VEHICLE_MASS</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_DEATH_BUFFER</Name>
+				<Easy>1.0</Easy>
+				<Medium>0.8</Medium>
+				<Hard>0.45</Hard>
+				<Insane>0.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENV_EXPLOSION_DAMAGE</Name>
+				<Easy>0.6</Easy>
+				<Medium>0.8</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENV_PHYSICS_COLLISIONS</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_FALLING_DAMAGE</Name>
+				<Easy>5</Easy>
+				<Medium>3</Medium>
+				<Hard>1.45</Hard>
+				<Insane>1.1</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_UPGRADE_COST_MULTIPLIER</Name>
+				<Easy>2.0</Easy>
+				<Medium>2.0</Medium>
+				<Hard>2.0</Hard>
+				<Insane>2.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_MORALE_BOOSTS</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_MORALE_PENALITIES</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_MORALE_PLAYER_DEATH</Name>
+				<Easy>-15.0</Easy>
+				<Medium>-15.0</Medium>
+				<Hard>-15.0</Hard>
+				<Insane>-15.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_CONTROL_PARKER</Name>
+				<Easy>1</Easy>
+				<Medium>1</Medium>
+				<Hard>1</Hard>
+				<Insane>1</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_CONTROL_DUST</Name>
+				<Easy>350</Easy>
+				<Medium>350</Medium>
+				<Hard>350</Hard>
+				<Insane>350</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_CONTROL_BADLANDS</Name>
+				<Easy>240</Easy>
+				<Medium>240</Medium>
+				<Hard>240</Hard>
+				<Insane>240</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_CONTROL_OASIS</Name>
+				<Easy>300</Easy>
+				<Medium>300</Medium>
+				<Hard>300</Hard>
+				<Insane>300</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_CONTROL_EOS</Name>
+				<Easy>410</Easy>
+				<Medium>410</Medium>
+				<Hard>410</Hard>
+				<Insane>410</Insane>
+				</Item>
+				</Difficulty_Items>
+			<_Editor>
+				<Category>Entries</Category>
+				</_Editor>
+			</Option>
+			
+			<Option Name="Hard is Insane">
+				<Difficulty_Items>
+			<Item>
+				<Name>MENU_ENEMY_DAMAGE_TAKEN</Name>
+				<Easy>2.0</Easy>
+				<Medium>2.0</Medium>
+				<Hard>2.0</Hard>
+				<Insane>2.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENEMY_VEHICLE_DAMAGE</Name>
+				<Easy>1.2</Easy>
+				<Medium>1.0</Medium>
+				<Hard>0.9</Hard>
+				<Insane>0.9</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENEMY_WEAPON_SPREAD</Name>
+				<Easy>0.5</Easy>
+				<Medium>0.5</Medium>
+				<Hard>0.5</Hard>
+				<Insane>0.5</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENEMY_AIM_DRIFT</Name>
+				<Easy>0.8</Easy>
+				<Medium>0.8</Medium>
+				<Hard>0.8</Hard>
+				<Insane>0.8</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENEMY_BURST_SIZE</Name>
+				<Easy>40.0</Easy>
+				<Medium>40.0</Medium>
+				<Hard>40.0</Hard>
+				<Insane>40.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENEMY_REINFORCEMENTS</Name>
+				<Easy>1.1</Easy>
+				<Medium>1.1</Medium>
+				<Hard>1.1</Hard>
+				<Insane>1.1</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENEMY_ALERT_LEVEL_EVENTS</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_DAMAGE_TAKEN</Name>
+				<Easy>0.6</Easy>
+				<Medium>1.1</Medium>
+				<Hard>3.3</Hard>
+				<Insane>3.3</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_REGEN_DELAY</Name>
+				<Easy>0.5</Easy>
+				<Medium>0.5</Medium>
+				<Hard>0.5</Hard>
+				<Insane>0.5</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_REGEN_RATE</Name>
+				<Easy>1.0</Easy>
+				<Medium>0.6</Medium>
+				<Hard>0.35</Hard>
+				<Insane>0.35</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_AMMO_PICKUP</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_AMMO_CRATES</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_VEHICLE_DAMAGE</Name>
+				<Easy>0.4</Easy>
+				<Medium>0.8</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_VEHICLE_MASS</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_DEATH_BUFFER</Name>
+				<Easy>1.0</Easy>
+				<Medium>0.8</Medium>
+				<Hard>0.0</Hard>
+				<Insane>0.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENV_EXPLOSION_DAMAGE</Name>
+				<Easy>0.6</Easy>
+				<Medium>0.8</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_ENV_PHYSICS_COLLISIONS</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_PLAYER_FALLING_DAMAGE</Name>
+				<Easy>5</Easy>
+				<Medium>3</Medium>
+				<Hard>1.1</Hard>
+				<Insane>1.1</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_UPGRADE_COST_MULTIPLIER</Name>
+				<Easy>2.0</Easy>
+				<Medium>2.0</Medium>
+				<Hard>2.0</Hard>
+				<Insane>2.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_MORALE_BOOSTS</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_MORALE_PENALITIES</Name>
+				<Easy>1.0</Easy>
+				<Medium>1.0</Medium>
+				<Hard>1.0</Hard>
+				<Insane>1.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_MORALE_PLAYER_DEATH</Name>
+				<Easy>-15.0</Easy>
+				<Medium>-15.0</Medium>
+				<Hard>-15.0</Hard>
+				<Insane>-15.0</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_CONTROL_PARKER</Name>
+				<Easy>1</Easy>
+				<Medium>1</Medium>
+				<Hard>1</Hard>
+				<Insane>1</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_CONTROL_DUST</Name>
+				<Easy>350</Easy>
+				<Medium>350</Medium>
+				<Hard>350</Hard>
+				<Insane>350</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_CONTROL_BADLANDS</Name>
+				<Easy>240</Easy>
+				<Medium>240</Medium>
+				<Hard>240</Hard>
+				<Insane>240</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_CONTROL_OASIS</Name>
+				<Easy>300</Easy>
+				<Medium>300</Medium>
+				<Hard>300</Hard>
+				<Insane>300</Insane>
+				</Item>
+			<Item>
+				<Name>MENU_CONTROL_EOS</Name>
+				<Easy>410</Easy>
+				<Medium>410</Medium>
+				<Hard>410</Hard>
+				<Insane>410</Insane>
+				</Item>
+				</Difficulty_Items>
+			<_Editor>
+				<Category>Entries</Category>
+				</_Editor>
+			</Option>
+		</ListBox>
+		
+    	<ListBox Name="MemberCount" DisplayName="Squad member count">
+			<Option Name="Disable: For House Arrest activities">0</Option>
+			<Option Name="2 Units: Recommended for Dust">1</Option>
+			<Option Name="4 Units: Recommended for Oasis">2</Option>
+			<Option Name="6 Units: Recommended for Eos">3</Option>
+			<Option Name="8 Units">4</Option>
+		</ListBox>
+	</UserInput>
+	
+	<Changes> 			<!-- The actions performed by the mod manager on game files.	-->
+		<Replace File="data\misc.vpp\activity_area_defense.xtbl" NewFile="replacements\activity_area_defense.xtbl" />
+		<Replace File="data\misc.vpp\activity_continuous_attack.xtbl" NewFile="replacements\activity_continuous_attack.xtbl" />
+		<Replace File="data\misc.vpp\activity_courier_chase.xtbl" NewFile="replacements\activity_courier_chase.xtbl" />		
+		<Replace File="data\misc.vpp\activity_demolitions_master.xtbl" NewFile="replacements\activity_demolitions_master.xtbl" />
+		<Replace File="data\misc.vpp\activity_mayhem.xtbl" NewFile="replacements\activity_mayhem.xtbl" />
+		<Replace File="data\misc.vpp\activity_riding_shotgun.xtbl" NewFile="replacements\activity_riding_shotgun.xtbl" />
+		<Replace File="data\misc.vpp\activity_timed_delivery.xtbl" NewFile="replacements\activity_timed_delivery.xtbl" />
+		<Replace File="data\misc.vpp\alert_level.xtbl" NewFile="replacements\alert_level.xtbl" />
+		<Replace File="data\misc.vpp\camera.xtbl" NewFile="replacements\camera.xtbl" />
+		<Replace File="data\misc.vpp\character.xtbl" NewFile="replacements\character.xtbl" />
+		<Replace File="data\misc.vpp\decal_info.xtbl" NewFile="replacements\decal_info.xtbl" />
+		<Replace File="data\misc.vpp\dlc01_activity_demolitions_master.xtbl" NewFile="replacements\dlc01_activity_demolitions_master.xtbl" />
+		<Replace File="data\misc.vpp\dlc01_activity_timed_delivery.xtbl" NewFile="replacements\dlc01_activity_timed_delivery.xtbl" />
+		<Replace File="data\misc.vpp\dlc01_explosions.xtbl" NewFile="replacements\dlc01_explosions.xtbl" />
+		<Replace File="data\misc.vpp\dlc01_melee.xtbl" NewFile="replacements\dlc01_melee.xtbl" />
+		<Replace File="data\misc.vpp\dlc01_tweak_table.xtbl" NewFile="replacements\dlc01_tweak_table.xtbl" />
+		<Replace File="data\misc.vpp\dlc01_upgrades.xtbl" NewFile="replacements\dlc01_upgrades.xtbl" />
+		<Replace File="data\misc.vpp\dlc01_vehicles.xtbl" NewFile="replacements\dlc01_vehicles.xtbl" />
+		<Replace File="data\misc.vpp\dlc01_weapons.xtbl" NewFile="replacements\dlc01_weapons.xtbl" />
+		<Replace File="data\misc.vpp\explosions.xtbl" NewFile="replacements\explosions.xtbl" />
+		<Replace File="data\misc.vpp\guerrilla_reinforcement.xtbl" NewFile="replacements\guerrilla_reinforcement.xtbl" />
+		<Replace File="data\misc.vpp\male.xtbl" NewFile="replacements\male.xtbl" />
+		<Replace File="data\misc.vpp\melee.xtbl" NewFile="replacements\melee.xtbl" />
+		<Replace File="data\misc.vpp\missions.xtbl" NewFile="replacements\missions.xtbl" />
+		<Replace File="data\misc.vpp\mp_backpacks.xtbl" NewFile="replacements\mp_backpacks.xtbl" />
+		<Replace File="data\misc.vpp\player.xtbl" NewFile="replacements\player.xtbl" />
+		<Replace File="data\misc.vpp\raid_data.xtbl" NewFile="replacements\raid_data.xtbl" />
+		<Replace File="data\misc.vpp\reinforcement_profile.xtbl" NewFile="replacements\reinforcement_profile.xtbl" />
+		<Replace File="data\misc.vpp\rfg_stress_controls.xtbl" NewFile="replacements\rfg_stress_controls.xtbl" />
+		<Replace File="data\misc.vpp\salvage.xtbl" NewFile="replacements\salvage.xtbl" />
+		<Replace File="data\misc.vpp\spawn_group_vehicle.xtbl" NewFile="replacements\spawn_group_vehicle.xtbl" />
+		<Replace File="data\misc.vpp\squads.xtbl" NewFile="replacements\squads.xtbl" />
+		<Replace File="data\misc.vpp\territories.xtbl" NewFile="replacements\territories.xtbl" />
+		<Replace File="data\misc.vpp\turrets.xtbl" NewFile="replacements\turrets.xtbl" />
+		<Replace File="data\misc.vpp\tweak_table.xtbl" NewFile="replacements\tweak_table.xtbl" />
+		<Replace File="data\misc.vpp\upgrades.xtbl" NewFile="replacements\upgrades.xtbl" />
+		<Replace File="data\misc.vpp\vehicles.xtbl" NewFile="replacements\vehicles.xtbl" />
+		<Replace File="data\misc.vpp\weapon_firing_patterns.xtbl" NewFile="replacements\weapon_firing_patterns.xtbl" />
+		<Replace File="data\misc.vpp\weapons.xtbl" NewFile="replacements\weapons.xtbl" />
+		
+		
+		<Edit File="data\misc.vpp\squads.xtbl" LIST_ACTION="COMBINE_BY_FIELD:Name,_Editor\Category">
+			<Squads>
+				<Name>player_ally_squad</Name>
+				<_Editor>
+					<Category>Other</Category>
+				</_Editor>
+				<team_name>Guerilla</team_name>
+				<member_count><USER_INPUT>MemberCount</USER_INPUT></member_count>
+			</Squads>
+		</Edit>
+		
+		<Edit File="data\misc.vpp\rfg_stress_controls.xtbl" LIST_ACTION="COMBINE_BY_FIELD:Name">	<!-- Opens "rfg_stress_controls.xtbl" and searches for		-->
+			<Stress_Control>																		<!--	the field Name,	using the variables written 		-->
+				<Name>Default</Name>																<!--	on the left.										-->
+		        <USER_INPUT>StressSettings</USER_INPUT>								<!-- USER_INPUT: Insert the user's selected variables from the ListBox  -->
+			</Stress_Control>														<!-- "StressSettings", at this location within this exact combination 	-->
+		</Edit>																		<!-- of fields/variables.												-->
+		
+		<Edit File="data\misc.vpp\alert_level.xtbl" LIST_ACTION="COMBINE_BY_FIELD:Name">
+				<GameStateData>
+					<Name>EDFStateData</Name>
+		          	<USER_INPUT>AlertDecay</USER_INPUT>
+				</GameStateData>
+		</Edit>
+		
+		<Edit File="data\misc.vpp\difficulty.xtbl" LIST_ACTION="REPLACE">
+			<Difficulty>
+				<Name>Difficulty</Name>
+				<USER_INPUT>IMWorkaround</USER_INPUT>
+			</Difficulty>
+		</Edit>
+		
+  </Changes>	<!-- 		That's it! The Mod Manager will repackage the chosen changes into the "misc.vpp" game file,		-->  
+</Mod>			<!-- 		after backing it up, when the "ACTIVATE MODS" button is clicked.								-->
