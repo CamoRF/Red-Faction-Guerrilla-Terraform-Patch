@@ -3,7 +3,8 @@
   <Endian>Little</Endian>
   <Version>5</Version>
   <Containers>
-    <ContainerEntry>
+<!--START DLC WC Loading Screens ADDED-->    
+	<ContainerEntry>
       <Name>ui_loading_wcdlc1_0</Name>
       <Type>33</Type>
       <Flags>128</Flags>
@@ -399,6 +400,7 @@
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
+<!--END-->	
     <ContainerEntry>
       <Name>ui_blueprint_3arcs_arcwelder</Name>
       <Type>33</Type>
