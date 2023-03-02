@@ -1,1 +1,1617 @@
-<root><Table><stats_page><Name>Page 2 - Games</Name><display_name>STATS_MP_GAMES_TITLE_MAIN</display_name><stat_column_name>STATS_MP_GAMES_HEADER_MODE</stat_column_name><column1_name>STATS_MP_GAMES_HEADER_TOTAL</column1_name><column2_name>STATS_MP_GAMES_HEADER_WINS</column2_name><column3_name>STATS_MP_GAMES_HEADER_LOSSES</column3_name><column4_name>STATS_MP_GAMES_HEADER_TIES</column4_name><rows><row><sort_name>AA</sort_name><display_name>STATS_MP_GAMES_OVERALL</display_name><column1>Games - total overall</column1><column2>Games - wins overall1</column2><column3>Games - losses overall2</column3><column4>Games - ties overall3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AB</sort_name><display_name>STATS_MP_GAMES_DM</display_name><column1>Games - total anarchy</column1><column2>Games - wins anarchy1</column2><column3>Games - losses anarchy2</column3><column4>Games - ties anarchy3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AC</sort_name><display_name>STATS_MP_GAMES_TEAM_DM</display_name><column1>Games - total team anarchy</column1><column2>Games - wins team anarchy1</column2><column3>Games - losses team anarchy2</column3><column4>Games - ties team anarchy3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AD</sort_name><display_name>STATS_MP_GAMES_BAGMAN</display_name><column1>Games - total bagman</column1><column2>Games - wins bagman1</column2><column3>Games - losses bagman2</column3><column4>Games - ties bagman3</column4><bagman_locked>True</bagman_locked></row><row><sort_name>AE</sort_name><display_name>STATS_MP_GAMES_TEAM_BAGMAN</display_name><column1>Games - total team bagman</column1><column2>Games - wins team bagman1</column2><column3>Games - losses team bagman2</column3><column4>Games - ties team bagman3</column4><bagman_locked>True</bagman_locked></row><row><sort_name>AF</sort_name><display_name>STATS_MP_GAMES_CTF</display_name><column1>Games - total ctf</column1><column2>Games - wins ctf1</column2><column3>Games - losses ctf2</column3><column4>Games - ties ctf3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AG</sort_name><display_name>STATS_MP_GAMES_DC</display_name><column1>Games - total damage control</column1><column2>Games - wins damage control1</column2><column3>Games - losses damage control2</column3><column4>Games - ties damage control3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AH</sort_name><display_name>STATS_MP_GAMES_DEMOLITION</display_name><column1>Games - total demolition</column1><column2>Games - wins demolition1</column2><column3>Games - losses demolition2</column3><column4>Games - ties demolition3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AI</sort_name><display_name>STATS_MP_GAMES_SIEGE</display_name><column1>Games - total siege</column1><column2>Games - wins siege1</column2><column3>Games - losses siege2</column3><column4>Games - ties siege3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AJ</sort_name><display_name>STATS_MP_GAMES_RANKED</display_name><column1>Games - total ranked</column1><column2>Games - wins ranked1</column2><column3>Games - losses ranked2</column3><column4>Games - ties ranked3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AL</sort_name><display_name>STATS_MP_GAMES_PRIVATE</display_name><column1>Games - total private</column1><column2>Games - wins private1</column2><column3>Games - losses private2</column3><column4>Games - ties private3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AM</sort_name><display_name>NETWORK_LOCAL_NAME</display_name><column1>Games - total syslink</column1><column2>Games - wins syslink1</column2><column3>Games - losses syslink2</column3><column4>Games - ties syslink3</column4><bagman_locked>False</bagman_locked></row></rows><_Editor><Category>Entries</Category></_Editor></stats_page><stats_page><Name>Page 3 - Core XP Events</Name><display_name>STATS_MP_EVENTS_TITLE_MAIN</display_name><column1_name>STATS_MP_EVENTS_HEADER_TOTAL</column1_name><column2_name>STATS_BLANK</column2_name><column3_name>STATS_MP_EVENTS_HEADER_MATCH_HIGH</column3_name><column4_name>STATS_BLANK</column4_name><rows><row><sort_name>AA</sort_name><display_name>HM_XP_WIN_MATCH</display_name><column1>Events - total win match</column1><column2>Empty Slot</column2><column3>Events - high win match</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_FINISH_MATCH</display_name><column1>Events - total finish match</column1><column2>Empty Slot</column2><column3>Events - high finish match</column3><column4>Empty Slot</column4><sort_name>AB</sort_name><bagman_locked>False</bagman_locked></row><row><sort_name>AC</sort_name><display_name>HM_XP_KILL</display_name><column1>Events - total kills</column1><column2>Empty Slot</column2><column3>Events - high kills</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_DM_KILL</display_name><column1>Events - total team dm kill</column1><column2>Empty Slot</column2><column3>Events - high team dm kill</column3><column4>Empty Slot</column4><sort_name>AD</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_DM_KILL_SOLO</display_name><column1>Events - total dm kill</column1><column2>Empty Slot</column2><column3>Events - high dm kill</column3><column4>Empty Slot</column4><sort_name>AE</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_CAPTURE_FLAG_TEAM</display_name><column1>Events - total capture flag team</column1><column2>Empty Slot</column2><column3>Events - high capture flag team</column3><column4>Empty Slot</column4><sort_name>AF</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_CAPTURE_FLAG</display_name><column1>Events - total capture flag</column1><column2>Empty Slot</column2><column3>Events - high capture flag</column3><column4>Empty Slot</column4><sort_name>AG</sort_name><bagman_locked>False</bagman_locked></row><row><sort_name>AH</sort_name><display_name>HM_XP_PICK_UP_FLAG</display_name><column1>Events - total pickup flag</column1><column2>Empty Slot</column2><column3>Events - high pickup flag</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AI</sort_name><display_name>HM_XP_PROTECT_FLAG_CARRIER</display_name><column1>Events - total protect flag carrier</column1><column2>Empty Slot</column2><column3>Events - high protect flag carrier</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AJ</sort_name><display_name>HM_XP_KILL_FLAG_CARRIER</display_name><column1>Events - total kill flag carrier</column1><column2>Empty Slot</column2><column3>Events - high kill flag carrier</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AK</sort_name><display_name>HM_XP_RETURN_FLAG</display_name><column1>Events - total return flag</column1><column2>Empty Slot</column2><column3>Events - high return flag</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AL</sort_name><display_name>HM_XP_PROTECT_FLAG</display_name><column1>Events - total protect flag</column1><column2>Empty Slot</column2><column3>Events - high protect flag</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AM</sort_name><display_name>HM_XP_DEMOLITION_TEAM</display_name><column1>Events - total demolition team1</column1><column2>Empty Slot</column2><column3>Events - high demolition team</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AN</sort_name><display_name>HM_XP_DEMOLITION</display_name><column1>Events - total demolition1</column1><column2>Empty Slot</column2><column3>Events - high demolition</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AO</sort_name><display_name>HM_XP_PROTECT_ENGINEER</display_name><column1>Events - total protect engineer1</column1><column2>Empty Slot</column2><column3>Events - high protect engineer</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AP</sort_name><display_name>HM_XP_KILL_ENGINEER</display_name><column1>Events - total kill engineer1</column1><column2>Empty Slot</column2><column3>Events - high kill engineer</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AQ</sort_name><display_name>HM_XP_HOLD_TARGET</display_name><column1>Events - total hold dc target</column1><column2>Empty Slot</column2><column3>Events - high hold dc target</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AR</sort_name><display_name>HM_XP_PROTECT_TARGET</display_name><column1>Events - total protect dc target</column1><column2>Empty Slot</column2><column3>Events - high protect dc target</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_DSTRY_DC_TARGET</display_name><column1>Events - total destroy dc target</column1><column2>Empty Slot</column2><column3>Events - high destroy dc target</column3><column4>Empty Slot</column4><sort_name>AS</sort_name><bagman_locked>False</bagman_locked></row><row><sort_name>AT</sort_name><display_name>HM_XP_DSTRY_ASSIST_DC_TARGET</display_name><column1>Events - total destroy assist dc target</column1><column2>Empty Slot</column2><column3>Events - high destroy assist dc target</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AU</sort_name><display_name>HM_XP_REPAIR_TARGET</display_name><column1>Events - total repair dc target</column1><column2>Empty Slot</column2><column3>Events - high repair dc target</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AV</sort_name><display_name>HM_XP_REPAIR_ASSIST_TARGET</display_name><column1>Events - total repair assist dc target</column1><column2>Empty Slot</column2><column3>Events - high repair assist dc target</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AW</sort_name><display_name>HM_XP_HOLD_BAG_TEAM</display_name><column1>Events - total hold bag team</column1><column2>Empty Slot</column2><column3>Events - high hold bag team</column3><column4>Empty Slot</column4><bagman_locked>True</bagman_locked></row><row><sort_name>AX</sort_name><display_name>HM_XP_HOLD_BAG_SOLO</display_name><column1>Events - total hold bag solo</column1><column2>Empty Slot</column2><column3>Events - high hold bag solo</column3><column4>Empty Slot</column4><bagman_locked>True</bagman_locked></row><row><sort_name>AY</sort_name><display_name>HM_XP_HOLD_BAG</display_name><column1>Events - total hold bag</column1><column2>Empty Slot</column2><column3>Events - high hold bag</column3><column4>Empty Slot</column4><bagman_locked>True</bagman_locked></row><row><sort_name>AZ</sort_name><display_name>HM_XP_KILL_BAGMAN</display_name><column1>Events - total kill bagman</column1><column2>Empty Slot</column2><column3>Events - high kill bagman</column3><column4>Empty Slot</column4><bagman_locked>True</bagman_locked></row><row><sort_name>BA</sort_name><display_name>HM_XP_PICKUP_BAG</display_name><column1>Events - total pickup bag</column1><column2>Empty Slot</column2><column3>Events - high pickup bag</column3><column4>Empty Slot</column4><bagman_locked>True</bagman_locked></row><row><sort_name>BB</sort_name><display_name>HM_XP_PROTECT_BAGMAN</display_name><column1>Events - total protect bagman</column1><column2>Empty Slot</column2><column3>Events - high protect bagman1</column3><column4>Empty Slot</column4><bagman_locked>True</bagman_locked></row><row><sort_name>BC</sort_name><display_name>HM_XP_BAGMAN_KILL</display_name><column1>Events - total bagman kill</column1><column2>Empty Slot</column2><column3>Events - high bagman kill</column3><column4>Empty Slot</column4><bagman_locked>True</bagman_locked></row><row><display_name>HM_XP_DSTRY_TARGET_TEAM</display_name><column1>Events - total destroy siege team</column1><column2>Empty Slot</column2><column3>Events - high destroy siege team</column3><column4>Empty Slot</column4><sort_name>BD</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_DSTRY_TARGET</display_name><column1>Events - total destroy siege</column1><column2>Empty Slot</column2><column3>Events - high destroy siege</column3><column4>Empty Slot</column4><sort_name>BE</sort_name><bagman_locked>False</bagman_locked></row><row><sort_name>BF</sort_name><display_name>HM_XP_DSTRY_ASSIST_TARGET</display_name><column1>Events - total destroy assist siege</column1><column2>Empty Slot</column2><column3>Events - high destroy assist siege</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>BG</sort_name><display_name>HM_XP_PROTECT_SIEGE_TEAM</display_name><column1>Events - total protect siege</column1><column2>Empty Slot</column2><column3>Events - high protect siege</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>BH</sort_name><display_name>HM_XP_DEFEND_SIEGE_TARGET</display_name><column1>Events - total defend siege</column1><column2>Empty Slot</column2><column3>Events - high defend siege</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row></rows><_Editor><Category>Entries</Category></_Editor><stat_column_name>STATS_MP_EVENTS_HEADER_EVENT_NAME</stat_column_name></stats_page><stats_page><Name>Page 4 - Bonus XP Events</Name><display_name>STATS_MP_BONUS_TITLE</display_name><column1_name>STATS_MP_BONUS_HEADER_TOTAL</column1_name><column2_name>STATS_BLANK</column2_name><column3_name>STATS_MP_BONUS_HEADER_MATCH_HIGH</column3_name><column4_name>STATS_BLANK</column4_name><rows><row><display_name>STATS_MP_BONUS_OVERALL_TOTAL</display_name><column1>bonus xp - total</column1><column2>Empty Slot</column2><column3>bonus xp match high - total1</column3><column4>Empty Slot</column4><sort_name>AA0</sort_name><bagman_locked>False</bagman_locked></row><row><sort_name>AB4</sort_name><display_name>HM_XP_ASSIST</display_name><column1>bonus xp - kill assist</column1><column2>Empty Slot</column2><column3>bonus xp match high - kill assist1</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_HEAL_TEAMMATE</display_name><column1>bonus xp - heal teammate</column1><column2>Empty Slot</column2><column3>bonus xp match high - heal teammate1</column3><column4>Empty Slot</column4><sort_name>AC7</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_PACK_HUNTER</display_name><column1>bonus xp - pack hunter</column1><column2>Empty Slot</column2><column3>bonus xp match high - pack hunter1</column3><column4>Empty Slot</column4><sort_name>AD10</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_RESCUE_KILL</display_name><column1>bonus xp - rescue kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - rescue kill1</column3><column4>Empty Slot</column4><sort_name>AE12</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_SYNC_KILL</display_name><column1>bonus xp - synchronized kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - synchronized kill1</column3><column4>Empty Slot</column4><sort_name>AF14</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_RETALIATION_KILL</display_name><column1>bonus xp - retaliation kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - retaliation kill1</column3><column4>Empty Slot</column4><sort_name>AG17</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_DEBRIS_KILL</display_name><column1>bonus xp - debris kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - debris kill1</column3><column4>Empty Slot</column4><sort_name>AH20</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_MELEE_KILL</display_name><column1>bonus xp - melee kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - melee kill1</column3><column4>Empty Slot</column4><sort_name>AI21</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_STREAK_STOPPER</display_name><column1>bonus xp - streak stopper</column1><column2>Empty Slot</column2><column3>bonus xp match high - streak stopper1</column3><column4>Empty Slot</column4><sort_name>AJ23</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_DEATH_FROM_ABOVE</display_name><column1>bonus xp - death from above</column1><column2>Empty Slot</column2><column3>bonus xp match high - death from above1</column3><column4>Empty Slot</column4><sort_name>AK26</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_STICKY_SAVE</display_name><column1>bonus xp - sticky save</column1><column2>Empty Slot</column2><column3>bonus xp match high - sticky save1</column3><column4>Empty Slot</column4><sort_name>AL27</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_SURVIVOR</display_name><column1>bonus xp - survivor</column1><column2>Empty Slot</column2><column3>bonus xp match high - survivor1</column3><column4>Empty Slot</column4><sort_name>AM29</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_KILL_STREAK</display_name><column1>bonus xp - kill streak</column1><column2>Empty Slot</column2><column3>bonus xp match high - kill streak1</column3><column4>Empty Slot</column4><sort_name>AN32</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_BACKWHAT</display_name><column1>bonus xp - backwhat</column1><column2>Empty Slot</column2><column3>bonus xp match high - backwhat1</column3><column4>Empty Slot</column4><sort_name>AO33</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_GROUP_KNOCKDOWN</display_name><column1>bonus xp - group knockdown</column1><column2>Empty Slot</column2><column3>bonus xp match high - group knockdown1</column3><column4>Empty Slot</column4><sort_name>AP36</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_CLIFF_KILL</display_name><column1>bonus xp - cliff kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - cliff kill1</column3><column4>Empty Slot</column4><sort_name>AQ39</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_STICKY_KILL</display_name><column1>bonus xp - sticky kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - sticky kill1</column3><column4>Empty Slot</column4><sort_name>AR41</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_HEADSHOT_KILL</display_name><column1>bonus xp - headshot kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - headshot kill1</column3><column4>Empty Slot</column4><sort_name>AS42</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_WHOS_NUMBER_ONE</display_name><column1>bonus xp - whos number one</column1><column2>Empty Slot</column2><column3>bonus xp match high - whos number one1</column3><column4>Empty Slot</column4><sort_name>AT45</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_FULL_CONTROL</display_name><column1>bonus xp - full control</column1><column2>Empty Slot</column2><column3>bonus xp match high - full control1</column3><column4>Empty Slot</column4><sort_name>AU47</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_MULTIPLE_KILLS</display_name><column1>bonus xp - multiple kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - multiple kill1</column3><column4>Empty Slot</column4><sort_name>AV49</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_BACK_OFF_KILL</display_name><column1>bonus xp - back off kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - back off kill1</column3><column4>Empty Slot</column4><sort_name>AW53</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_GHOST_KILL</display_name><column1>bonus xp - ghost kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - ghost kill1</column3><column4>Empty Slot</column4><sort_name>AX55</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_DIRECT_HIT_KILL</display_name><column1>bonus xp - direct hit kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - direct hit kill1</column3><column4>Empty Slot</column4><sort_name>AY56</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_BACKFIRE</display_name><column1>bonus xp - backfire</column1><column2>Empty Slot</column2><column3>bonus xp match high - backfire1</column3><column4>Empty Slot</column4><sort_name>AZ59</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_DOING_IT_WRONG</display_name><column1>bonus xp - doing it wrong</column1><column2>Empty Slot</column2><column3>bonus xp match high - doing it wrong1</column3><column4>Empty Slot</column4><sort_name>BA61</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_CHARGE_KILL</display_name><column1>bonus xp - charge kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - charge kill1</column3><column4>Empty Slot</column4><sort_name>BB63</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_POWER_OVERWHELMING</display_name><column1>bonus xp - power overwhelming</column1><column2>Empty Slot</column2><column3>bonus xp match high - power overwhelming1</column3><column4>Empty Slot</column4><sort_name>BC66</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_KUNF_FU_KILL</display_name><column1>bonus xp - kung fu kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - kung fu kill1</column3><column4>Empty Slot</column4><sort_name>BD70</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_HAIL_MARY</display_name><column1>bonus xp - hail mary</column1><column2>Empty Slot</column2><column3>bonus xp match high - hail mary1</column3><column4>Empty Slot</column4><sort_name>BE71</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_BARREL_KILL</display_name><column1>bonus xp - barrel kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - barrel kill1</column3><column4>Empty Slot</column4><sort_name>BF73</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_FLAGMAN</display_name><column1>bonus xp - flagman</column1><column2>Empty Slot</column2><column3>bonus xp match high - flagman1</column3><column4>Empty Slot</column4><sort_name>BG75</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_FLYING_KILL</display_name><column1>bonus xp - flying kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - flying kill1</column3><column4>Empty Slot</column4><sort_name>BH77</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_SHAKEN_NOT_STIRRED</display_name><column1>bonus xp - shaken not stirred</column1><column2>Empty Slot</column2><column3>bonus xp match high - shaken not stirred1</column3><column4>Empty Slot</column4><sort_name>BI80</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_BUNNY_KILL</display_name><column1>bonus xp - bunny kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - bunny kill1</column3><column4>Empty Slot</column4><sort_name>BJ83</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_GOOD_TIMING</display_name><column1>bonus xp - good timing</column1><column2>Empty Slot</column2><column3>bonus xp match high - good timing1</column3><column4>Empty Slot</column4><sort_name>BK85</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_BBQ</display_name><column1>bonus xp - bbq</column1><column2>Empty Slot</column2><column3>bonus xp match high - bbq1</column3><column4>Empty Slot</column4><sort_name>BL87</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_BLINDSIDE</display_name><column1>bonus xp - blindside</column1><column2>Empty Slot</column2><column3>bonus xp match high - blindside1</column3><column4>Empty Slot</column4><sort_name>BM89</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_REVENGE_KILL</display_name><column1>bonus xp - revenge kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - revenge kill1</column3><column4>Empty Slot</column4><sort_name>BN91</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_XRAY</display_name><column1>bonus xp - x-ray kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - x-ray kill1</column3><column4>Empty Slot</column4><sort_name>BO94</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_SHARPSHOOTER</display_name><column1>bonus xp - sharpshooter</column1><column2>Empty Slot</column2><column3>bonus xp match high - sharpshooter1</column3><column4>Empty Slot</column4><sort_name>BP96</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_EASY_KILL</display_name><column1>bonus xp - easy kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - easy kill1</column3><column4>Empty Slot</column4><sort_name>BQ99</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_DEATH_FROM_BELOW</display_name><column1>bonus xp - death from below</column1><column2>Empty Slot</column2><column3>bonus xp match high - death from below1</column3><column4>Empty Slot</column4><sort_name>BR101</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_TASTE_THE_RAINBOW</display_name><column1>bonus xp - taste the rainbow</column1><column2>Empty Slot</column2><column3>bonus xp match high - taste the rainbow1</column3><column4>Empty Slot</column4><sort_name>BS103</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_LINED_UP</display_name><column1>bonus xp - lined up</column1><column2>Empty Slot</column2><column3>bonus xp match high - lined up1</column3><column4>Empty Slot</column4><sort_name>BT105</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_DOUBLEBACK</display_name><column1>bonus xp - doubleback</column1><column2>Empty Slot</column2><column3>bonus xp match high - doubleback1</column3><column4>Empty Slot</column4><sort_name>BU108</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_ZOMBIE_KILL</display_name><column1>bonus xp - zombie kill</column1><column2>Empty Slot</column2><column3>bonus xp match high - zombie kill1</column3><column4>Empty Slot</column4><sort_name>BV111</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_VERTIGO</display_name><column1>bonus xp - vertigo</column1><column2>Empty Slot</column2><column3>bonus xp match high - vertigo1</column3><column4>Empty Slot</column4><sort_name>BW113</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_CAMPER</display_name><column1>bonus xp - camper</column1><column2>Empty Slot</column2><column3>bonus xp match high - camper1</column3><column4>Empty Slot</column4><sort_name>BX115</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>HM_XP_NO_PROBLEM</display_name><column1>bonus xp - no problem</column1><column2>Empty Slot</column2><column3>bonus xp match high - no problem1</column3><column4>Empty Slot</column4><sort_name>BY117</sort_name><bagman_locked>False</bagman_locked></row></rows><_Editor><Category>Entries</Category></_Editor><stat_column_name>STATS_MP_BONUS_HEADER_BONUS</stat_column_name></stats_page><stats_page><Name>Page 5 - Kills and Deaths</Name><display_name>STATS_MP_MODES_TITLE_MAIN</display_name><stat_column_name>STATS_MP_MODES_HEADER_MODE</stat_column_name><column1_name>STATS_MP_MODES_HEADER_KILLS</column1_name><column2_name>STATS_MP_MODES_HEADER_DEATHS</column2_name><column3_name>STATS_MP_MODES_HEADER_HIGH_KILLS</column3_name><column4_name>STATS_MP_MODES_HEADER_HIGH_DEATHS</column4_name><rows><row><sort_name>AA</sort_name><display_name>STATS_MP_GAMES_OVERALL</display_name><column1>mode - kills overall1</column1><column2>mode - deaths overall</column2><column3>mode - kills overall1 high</column3><column4>mode - deaths overall high</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AB</sort_name><display_name>MENU_MP_MODE_ANARCHY</display_name><column1>mode - kills anarchy1</column1><column2>mode - deaths anarchy</column2><column3>mode - kills anarchy1 high</column3><column4>mode - deaths anarchy high</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AC</sort_name><display_name>MENU_MP_MODE_TEAM_ANARCHY</display_name><column1>mode - kills team anarchy1</column1><column2>mode - deaths team anarchy</column2><column3>mode - kills team anarchy1 high</column3><column4>mode - deaths team anarchy high</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AD</sort_name><display_name>MENU_MP_MODE_CAPTURE_FLAG</display_name><column1>mode - kills ctf1</column1><column2>mode - deaths ctf</column2><column3>mode - kills ctf1 high</column3><column4>mode - deaths ctf high</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AE</sort_name><display_name>MENU_MP_MODE_DEMOLITION</display_name><column1>mode - kills demolition1</column1><column2>mode - deaths demolition</column2><column3>mode - kills demolition1 high</column3><column4>mode - deaths demolition high</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AF</sort_name><display_name>MENU_MP_MODE_DMG_CNTRL</display_name><column1>mode - kills damage control1</column1><column2>mode - deaths damage control</column2><column3>mode - kills damage control1 high</column3><column4>mode - deaths damage control high</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AG</sort_name><display_name>MENU_MP_MODE_BAGMAN</display_name><column1>mode - kills bagman1</column1><column2>mode - deaths bagman</column2><column3>mode - kills bagman1 high</column3><column4>mode - deaths bagman high</column4><bagman_locked>True</bagman_locked></row><row><sort_name>AH</sort_name><display_name>MENU_MP_MODE_TM_BAGMAN</display_name><column1>mode - kills team bagman1</column1><column2>mode - deaths team bagman</column2><column3>mode - kills team bagman1 high</column3><column4>mode - deaths team bagman high</column4><bagman_locked>True</bagman_locked></row><row><sort_name>AI</sort_name><display_name>MENU_MP_MODE_SIEGE</display_name><column1>mode - kills siege1</column1><column2>mode - deaths siege</column2><column3>mode - kills siege1 high</column3><column4>mode - deaths siege high</column4><bagman_locked>False</bagman_locked></row></rows><_Editor><Category>Entries</Category></_Editor></stats_page><stats_page><Name>Page 6 - Weapons</Name><display_name>STATS_MP_WEAPONS_TITLE</display_name><stat_column_name>STATS_MP_WEAPONS_HEADER_WEAPON</stat_column_name><column1_name>STATS_MP_WEAPONS_HEADER_KILLS</column1_name><column2_name>STATS_MP_WEAPONS_HEADER_DEATHS</column2_name><column3_name>STATS_MP_WEAPONS_HEADER_XP</column3_name><column4_name>STATS_MP_WEAPONS_HEADER_PER_MINUTE</column4_name><rows><row><sort_name>AA</sort_name><display_name>STATS_MP_WEAPONS_OVERALL</display_name><column1>weapon - kills overall1</column1><column2>weapon - deaths overall</column2><column3>weapon - xp overall2</column3><column4>weapon - xp-minute overall3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AB</sort_name><display_name>STATS_MP_WEAPONS_ARC_WELDER</display_name><column1>weapon - kills arc welder1</column1><column2>weapon - deaths arc welder</column2><column3>weapon - xp arc welder2</column3><column4>weapon - xp-minute arc welder3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AC</sort_name><display_name>STATS_MP_WEAPONS_ASSAULT_RIFLE</display_name><column1>weapon - kills assault rifle1</column1><column2>weapon - deaths assault rifle</column2><column3>weapon - xp assault rifle2</column3><column4>weapon - xp-minute assault rifle3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AD</sort_name><display_name>STATS_MP_WEAPONS_ENFORCER</display_name><column1>weapon - kills enforcer1</column1><column2>weapon - deaths enforcer</column2><column3>weapon - xp enforcer2</column3><column4>weapon - xp-minute enforcer3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AE</sort_name><display_name>STATS_MP_WEAPONS_GAUSS_RIFLE</display_name><column1>weapon - kills gauss rifle1</column1><column2>weapon - deaths gauss rifle</column2><column3>weapon - xp gauss rifle2</column3><column4>weapon - xp-minute guass rifle3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AF</sort_name><display_name>STATS_MP_WEAPONS_GRINDER</display_name><column1>weapon - kills grinder1</column1><column2>weapon - deaths grinder</column2><column3>weapon - xp grinder2</column3><column4>weapon - xp-minute grinder3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AH</sort_name><display_name>STATS_MP_WEAPONS_NANO_RIFLE</display_name><column1>weapon - kills nano rifle1</column1><column2>weapon - deaths nano rifle</column2><column3>weapon - xp nano rifle2</column3><column4>weapon - xp-minute nano rifle3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AI</sort_name><display_name>STATS_MP_WEAPONS_PEACEKEEPER</display_name><column1>weapon - kills peacekeeper1</column1><column2>weapon - deaths peacekeeper</column2><column3>weapon - xp peacekeeper2</column3><column4>weapon - xp-minute peacekeeper3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AJ</sort_name><display_name>STATS_MP_WEAPONS_PISTOL</display_name><column1>weapon - kills pistol1</column1><column2>weapon - deaths pistol</column2><column3>weapon - xp pistol2</column3><column4>weapon - xp-minute pistol3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AK</sort_name><display_name>STATS_MP_WEAPONS_PROX_MINE</display_name><column1>weapon - kills proxmine1</column1><column2>weapon - deaths proxmine</column2><column3>weapon - xp proxmine2</column3><column4>weapon - xp-minute proxmine3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AL</sort_name><display_name>STATS_MP_WEAPONS_RAIL_DRIVER</display_name><column1>weapon - kills rail driver1</column1><column2>weapon - deaths rail driver</column2><column3>weapon - xp rail driver2</column3><column4>weapon - xp-minute rail driver3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AM</sort_name><display_name>STATS_MP_WEAPONS_RECONSTRUCTOR</display_name><column1>weapon - kills reconstructor1</column1><column2>weapon - deaths reconstructor</column2><column3>weapon - xp reconstructor2</column3><column4>weapon - xp-minute reconstructor3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AN</sort_name><display_name>STATS_MP_WEAPONS_REMOTE_CHARGES</display_name><column1>weapon - kills remote charges1</column1><column2>weapon - deaths remote charges</column2><column3>weapon - xp remote charges2</column3><column4>weapon - xp-minute remote charges3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AO</sort_name><display_name>STATS_MP_WEAPONS_ROCKET_LAUNCHER</display_name><column1>weapon - kills rockets1</column1><column2>weapon - deaths rockets</column2><column3>weapon - xp rockets2</column3><column4>weapon - xp-minute rockets3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AP</sort_name><display_name>STATS_MP_WEAPONS_SHOTGUN</display_name><column1>weapon - kills shotgun1</column1><column2>weapon - deaths shotgun</column2><column3>weapon - xp shotgun2</column3><column4>weapon - xp-minute shotgun3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AQ</sort_name><display_name>STATS_MP_WEAPONS_SINGULARITY_BOMB</display_name><column1>weapon - kills sing bomb1</column1><column2>weapon - deaths sing bomb</column2><column3>weapon - xp sing bomb2</column3><column4>weapon - xp-minute sing bomb3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AR</sort_name><display_name>STATS_MP_WEAPONS_SLEDGEHAMMER</display_name><column1>weapon - kills sledge1</column1><column2>weapon - deaths sledge</column2><column3>weapon - xp sledge2</column3><column4>weapon - xp-minute sledge3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AS</sort_name><display_name>STATS_MP_WEAPONS_SNIPER_RIFLE</display_name><column1>weapon - kills sniper1</column1><column2>weapon - deaths sniper</column2><column3>weapon - xp sniper2</column3><column4>weapon - xp-minute sniper3</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AT</sort_name><display_name>STATS_MP_WEAPONS_THERMOBARIC_ROCKETS</display_name><column1>weapon - kills thermobaric1</column1><column2>weapon - deaths thermobaric</column2><column3>weapon - xp thermobaric2</column3><column4>weapon - xp-minute thermobaric3</column4><bagman_locked>False</bagman_locked></row></rows><_Editor><Category>Entries</Category></_Editor></stats_page><stats_page><Name>Page 7 - Backpacks</Name><display_name>STATS_MP_BACKPACKS_TITLE</display_name><stat_column_name>STATS_MP_BACKPACKS_HEADER_BACKPACK</stat_column_name><column1_name>STATS_MP_BACKPACKS_HEADER_KILLS</column1_name><column2_name>STATS_MP_BACKPACKS_HEADER_DEATHS</column2_name><column3_name>STATS_MP_BACKPACKS_HEADER_XP</column3_name><column4_name>STATS_MP_BACKPACKS_HEADER_PER_MINUTE</column4_name><rows><row><sort_name>AA</sort_name><display_name>STATS_MP_BACKPACKS_OVERALL</display_name><column1>backpack - kills overall1</column1><column2>backpack - deaths overall</column2><column3>backpack - xp overall2</column3><column4>backpack - xp-minute overall</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AB</sort_name><display_name>STATS_MP_BACKPACKS_CONCUSSION</display_name><column1>backpack - kills concussion1</column1><column2>backpack - deaths concussion</column2><column3>backpack - xp concussion2</column3><column4>backpack - xp-minute concussion</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AC</sort_name><display_name>STATS_MP_BACKPACKS_FIREPOWER</display_name><column1>backpack - kills firepower1</column1><column2>backpack - deaths firepower</column2><column3>backpack - xp firepower2</column3><column4>backpack - xp-minute firepower</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AD</sort_name><display_name>STATS_MP_BACKPACKS_FLEETFOOT</display_name><column1>backpack - kills fleetfoot1</column1><column2>backpack - deaths fleetfoot</column2><column3>backpack - xp fleetfoot2</column3><column4>backpack - xp-minute fleetfoot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AE</sort_name><display_name>STATS_MP_BACKPACKS_HEAL</display_name><column1>backpack - kills heal1</column1><column2>backpack - deaths heal</column2><column3>backpack - xp heal2</column3><column4>backpack - xp-minute heal</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AF</sort_name><display_name>STATS_MP_BACKPACKS_JETPACK</display_name><column1>backpack - kills jetpack1</column1><column2>backpack - deaths jetpack</column2><column3>backpack - xp jetpack2</column3><column4>backpack - xp-minute jetpack</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AH</sort_name><display_name>STATS_MP_BACKPACKS_RHINO</display_name><column1>backpack - kills rhino1</column1><column2>backpack - deaths rhino</column2><column3>backpack - xp rhino2</column3><column4>backpack - xp-minute rhino</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AI</sort_name><display_name>STATS_MP_BACKPACKS_STEALTH</display_name><column1>backpack - kills stealth1</column1><column2>backpack - deaths stealth</column2><column3>backpack - xp stealth2</column3><column4>backpack - xp-minute stealth</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AJ</sort_name><display_name>STATS_MP_BACKPACKS_THRUST</display_name><column1>backpack - kills thrust1</column1><column2>backpack - deaths thrust</column2><column3>backpack - xp thrust2</column3><column4>backpack - xp-minute thrust</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AK</sort_name><display_name>STATS_MP_BACKPACKS_TREMOR</display_name><column1>backpack - kills tremor1</column1><column2>backpack - deaths tremor</column2><column3>backpack - xp tremor2</column3><column4>backpack - xp-minute tremor</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AL</sort_name><display_name>STATS_MP_BACKPACKS_VISION</display_name><column1>backpack - kills vision1</column1><column2>backpack - deaths vision</column2><column3>backpack - xp vision2</column3><column4>backpack - xp-minute vision</column4><bagman_locked>False</bagman_locked></row></rows><_Editor><Category>Entries</Category></_Editor></stats_page><stats_page><Name>Page 8 - Hidden Challenges</Name><display_name>STATS_MP_HC_TITLE_MAIN</display_name><column1_name>STATS_MP_HC_HEADER_PROGRESS</column1_name><column2_name>STATS_BLANK</column2_name><column3_name>STATS_MP_HC_HEADER_REQUIREMENT</column3_name><column4_name>STATS_BLANK</column4_name><rows><row><display_name>STATS_MP_HC_10_KILLS_EVERY_WEAPON</display_name><column1>HC - 10 kills with every weapon Progress</column1><column2>Empty Slot</column2><column3>HC - 10 kills with every weapon Requirement</column3><column4>Empty Slot</column4><sort_name>AA</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>STATS_MP_HC_10_WINS_EVERY_MODE</display_name><column1>HC - 10 wins in each mode Progress</column1><column2>Empty Slot</column2><column3>HC - 10 wins in each mode Requirement</column3><column4>Empty Slot</column4><sort_name>AB</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>STATS_MP_HC_100_WINS</display_name><column1>HC - 100 wins total Progress</column1><column2>Empty Slot</column2><column3>HC - 100 wins total Requirement</column3><column4>Empty Slot</column4><sort_name>AC</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>STATS_MP_HC_100_XP_EVERY_BACKPACK</display_name><column1>HC - 100 XP with every backpack Progress</column1><column2>Empty Slot</column2><column3>HC - 100 XP with every backpack Requirement</column3><column4>Empty Slot</column4><sort_name>AD</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>STATS_MP_HC_100_XP_EVERY_WEAPON</display_name><column1>HC - 100 XP with every weapon Progress</column1><column2>Empty Slot</column2><column3>HC - 100 XP with every weapon Requirement</column3><column4>Empty Slot</column4><sort_name>AE</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>STATS_MP_HC_1000_KILLS_ANY_WEAPON</display_name><column1>HC - 1000 kills with any weapon Progress</column1><column2>Empty Slot</column2><column3>HC - 1000 kills with any weapon Requirement</column3><column4>Empty Slot</column4><sort_name>AF</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>STATS_MP_HC_5000_XP_ANY_BACKPACK</display_name><column1>HC - 5000 XP with any backpack Progress</column1><column2>Empty Slot</column2><column3>HC - 5000 XP with any backpack Requirement</column3><column4>Empty Slot</column4><sort_name>AG</sort_name><bagman_locked>False</bagman_locked></row><row><display_name>STATS_MP_HC_5000_XP_ANY_WEAPON</display_name><column1>HC - 5000 XP with any weapon Progress</column1><column2>Empty Slot</column2><column3>HC - 5000 XP with any weapon Requirement</column3><column4>Empty Slot</column4><sort_name>AH</sort_name><bagman_locked>False</bagman_locked></row><row><sort_name>AI</sort_name><display_name>STATS_MP_HC_500_ANY_BONUS</display_name><column1>HC - 500 any type of bonus Progress</column1><column2>Empty Slot</column2><column3>HC - 500 any type of bonus Requirement</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AJ</sort_name><display_name>STATS_MP_HC_5_EVERY_BONUS</display_name><column1>HC - 5 of every bonus type Progress</column1><column2>Empty Slot</column2><column3>HC - 5 of every bonus type Requirement</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AK</sort_name><display_name>STATS_MP_HC_1LIFE_10_KILLS_ROW_1_WEAPON</display_name><column1>HC - one life - 10 kills in a row with the same weapon Progress</column1><column2>Empty Slot</column2><column3>HC - one life - 10 kills in a row with the same weapon Requirement</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AL</sort_name><display_name>STATS_MP_HC_1LIFE_25_BONUS</display_name><column1>HC - one life - 25 Bonuses total Progress</column1><column2>Empty Slot</column2><column3>HC - one life - 25 Bonuses total Requirement</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AM</sort_name><display_name>STATS_MP_HC_1LIFE_5_XP_5_BACKPACK_TYPES</display_name><column1>HC - one life - 5 or more XP with 5 different backpacks Progress</column1><column2>Empty Slot</column2><column3>HC - one life - 5 or more XP with 5 different backpacks Requirement</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AN</sort_name><display_name>STATS_MP_HC_1LIFE_50_XP</display_name><column1>HC - one life - 50 XP total Progress</column1><column2>Empty Slot</column2><column3>HC - one life - 50 XP total Requirement</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AO</sort_name><display_name>STATS_MP_HC_1LIFE_KILL_5_WEAPON_TYPES</display_name><column1>HC - one life - kills with 5 different weapons Progress</column1><column2>Empty Slot</column2><column3>HC - one life - kills with 5 different weapons Requirement</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row><row><sort_name>AP</sort_name><display_name>STATS_MP_HC_1LIFE_15_BONUS_TYPES</display_name><column1>HC - one life - 15 different Bonuses Progress</column1><column2>Empty Slot</column2><column3>HC - one life - 15 different Bonuses Requirement</column3><column4>Empty Slot</column4><bagman_locked>False</bagman_locked></row></rows><_Editor><Category>Entries</Category></_Editor><stat_column_name>STATS_MP_HC_HEADER_CHALLENGE</stat_column_name></stats_page></Table><TableTemplates></TableTemplates><TableDescription><Name>stats_page</Name><Type>TableDescription</Type><Element><Name>Name</Name><Type>String</Type><Description>Internal name. Not presented or displayed anywhere in game.</Description></Element><Element><Name>display_name</Name><Type>Reference</Type><Description>Reference to the localized string to display as the page's name.</Description><Reference><File>localized_exports\Stats_text.xtbl</File><Type>Stats_Identifier.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element><Element><Name>stat_column_name</Name><Type>Reference</Type><Reference><File>localized_exports\Stats_text.xtbl</File><Type>Stats_Identifier.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element><Element><Name>column1_name</Name><Type>Reference</Type><Description>Localized string for the column's name.</Description><Reference><File>localized_exports\Stats_text.xtbl</File><Type>Stats_Identifier.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element><Element><Name>column2_name</Name><Type>Reference</Type><Description>Localized string for the column's name.</Description><Reference><File>localized_exports\Stats_text.xtbl</File><Type>Stats_Identifier.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element><Element><Name>column3_name</Name><Type>Reference</Type><Description>Localized string for the column's name.</Description><Reference><File>localized_exports\Stats_text.xtbl</File><Type>Stats_Identifier.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element><Element><Name>column4_name</Name><Type>Reference</Type><Description>Localized string for the column's name.</Description><Reference><File>localized_exports\Stats_text.xtbl</File><Type>Stats_Identifier.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element><Element><Name>rows</Name><Type>Grid</Type><Element><Name>row</Name><Type>Element</Type><Element><Name>sort_name</Name><Type>String</Type><Description>Name used for sorting rows.</Description></Element><Element><Name>display_name</Name><Type>Reference</Type><Description>Localized string for the row's name.</Description><Reference><File>localized_exports\Stats_text.xtbl</File><Type>Stats_Identifier.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element><Element><Name>bagman_locked</Name><Type>Selection</Type><Display_Name>Bagman Locked</Display_Name><Default>False</Default><Choice>True</Choice><Choice>False</Choice></Element><Element><Name>column1</Name><Type>Reference</Type><Description>Element to place at this column for this row.</Description><Reference><File>mp_stats_page_elements.xtbl</File><Type>element.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element><Element><Name>column2</Name><Type>Reference</Type><Description>Element to place at this column for this row.</Description><Reference><File>mp_stats_page_elements.xtbl</File><Type>element.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element><Element><Name>column3</Name><Type>Reference</Type><Description>Element to place at this column for this row.</Description><Reference><File>mp_stats_page_elements.xtbl</File><Type>element.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element><Element><Name>column4</Name><Type>Reference</Type><Description>Element to place at this column for this row.</Description><Reference><File>mp_stats_page_elements.xtbl</File><Type>element.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element></Element><Min_Children>1</Min_Children><Num_Display_Rows>30</Num_Display_Rows></Element></TableDescription><EntryCategories><Category><Name>Entries</Name></Category></EntryCategories></root>
+<root>
+	<Table>
+		<stats_page>
+			<Name>Page 2 - Games</Name>
+			<display_name>STATS_MP_GAMES_TITLE_MAIN</display_name>
+			<stat_column_name>STATS_MP_GAMES_HEADER_MODE</stat_column_name>
+			<column1_name>STATS_MP_GAMES_HEADER_TOTAL</column1_name>
+			<column2_name>STATS_MP_GAMES_HEADER_WINS</column2_name>
+			<column3_name>STATS_MP_GAMES_HEADER_LOSSES</column3_name>
+			<column4_name>STATS_MP_GAMES_HEADER_TIES</column4_name>
+			<rows>
+				<row>
+					<sort_name>AA</sort_name>
+					<display_name>STATS_MP_GAMES_OVERALL</display_name>
+					<column1>Games - total overall</column1>
+					<column2>Games - wins overall1</column2>
+					<column3>Games - losses overall2</column3>
+					<column4>Games - ties overall3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AB</sort_name>
+					<display_name>STATS_MP_GAMES_DM</display_name>
+					<column1>Games - total anarchy</column1>
+					<column2>Games - wins anarchy1</column2>
+					<column3>Games - losses anarchy2</column3>
+					<column4>Games - ties anarchy3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AC</sort_name>
+					<display_name>STATS_MP_GAMES_TEAM_DM</display_name>
+					<column1>Games - total team anarchy</column1>
+					<column2>Games - wins team anarchy1</column2>
+					<column3>Games - losses team anarchy2</column3>
+					<column4>Games - ties team anarchy3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AD</sort_name>
+					<display_name>STATS_MP_GAMES_BAGMAN</display_name>
+					<column1>Games - total bagman</column1>
+					<column2>Games - wins bagman1</column2>
+					<column3>Games - losses bagman2</column3>
+					<column4>Games - ties bagman3</column4>
+					<bagman_locked>True</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AE</sort_name>
+					<display_name>STATS_MP_GAMES_TEAM_BAGMAN</display_name>
+					<column1>Games - total team bagman</column1>
+					<column2>Games - wins team bagman1</column2>
+					<column3>Games - losses team bagman2</column3>
+					<column4>Games - ties team bagman3</column4>
+					<bagman_locked>True</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AF</sort_name>
+					<display_name>STATS_MP_GAMES_CTF</display_name>
+					<column1>Games - total ctf</column1>
+					<column2>Games - wins ctf1</column2>
+					<column3>Games - losses ctf2</column3>
+					<column4>Games - ties ctf3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AG</sort_name>
+					<display_name>STATS_MP_GAMES_DC</display_name>
+					<column1>Games - total damage control</column1>
+					<column2>Games - wins damage control1</column2>
+					<column3>Games - losses damage control2</column3>
+					<column4>Games - ties damage control3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AH</sort_name>
+					<display_name>STATS_MP_GAMES_DEMOLITION</display_name>
+					<column1>Games - total demolition</column1>
+					<column2>Games - wins demolition1</column2>
+					<column3>Games - losses demolition2</column3>
+					<column4>Games - ties demolition3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AI</sort_name>
+					<display_name>STATS_MP_GAMES_SIEGE</display_name>
+					<column1>Games - total siege</column1>
+					<column2>Games - wins siege1</column2>
+					<column3>Games - losses siege2</column3>
+					<column4>Games - ties siege3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AJ</sort_name>
+					<display_name>STATS_MP_GAMES_RANKED</display_name>
+					<column1>Games - total ranked</column1>
+					<column2>Games - wins ranked1</column2>
+					<column3>Games - losses ranked2</column3>
+					<column4>Games - ties ranked3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AL</sort_name>
+					<display_name>STATS_MP_GAMES_PRIVATE</display_name>
+					<column1>Games - total private</column1>
+					<column2>Games - wins private1</column2>
+					<column3>Games - losses private2</column3>
+					<column4>Games - ties private3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AM</sort_name>
+					<display_name>NETWORK_LOCAL_NAME</display_name>
+					<column1>Games - total syslink</column1>
+					<column2>Games - wins syslink1</column2>
+					<column3>Games - losses syslink2</column3>
+					<column4>Games - ties syslink3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+			</rows>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stats_page>
+		<stats_page>
+			<Name>Page 3 - Core XP Events</Name>
+			<display_name>STATS_MP_EVENTS_TITLE_MAIN</display_name>
+			<column1_name>STATS_MP_EVENTS_HEADER_TOTAL</column1_name>
+			<column2_name>STATS_BLANK</column2_name>
+			<column3_name>STATS_MP_EVENTS_HEADER_MATCH_HIGH</column3_name>
+			<column4_name>STATS_BLANK</column4_name>
+			<rows>
+				<row>
+					<sort_name>AA</sort_name>
+					<display_name>HM_XP_WIN_MATCH</display_name>
+					<column1>Events - total win match</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high win match</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_FINISH_MATCH</display_name>
+					<column1>Events - total finish match</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high finish match</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AB</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AC</sort_name>
+					<display_name>HM_XP_KILL</display_name>
+					<column1>Events - total kills</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high kills</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_DM_KILL</display_name>
+					<column1>Events - total team dm kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high team dm kill</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AD</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_DM_KILL_SOLO</display_name>
+					<column1>Events - total dm kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high dm kill</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AE</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_CAPTURE_FLAG_TEAM</display_name>
+					<column1>Events - total capture flag team</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high capture flag team</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AF</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_CAPTURE_FLAG</display_name>
+					<column1>Events - total capture flag</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high capture flag</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AG</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AH</sort_name>
+					<display_name>HM_XP_PICK_UP_FLAG</display_name>
+					<column1>Events - total pickup flag</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high pickup flag</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AI</sort_name>
+					<display_name>HM_XP_PROTECT_FLAG_CARRIER</display_name>
+					<column1>Events - total protect flag carrier</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high protect flag carrier</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AJ</sort_name>
+					<display_name>HM_XP_KILL_FLAG_CARRIER</display_name>
+					<column1>Events - total kill flag carrier</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high kill flag carrier</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AK</sort_name>
+					<display_name>HM_XP_RETURN_FLAG</display_name>
+					<column1>Events - total return flag</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high return flag</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AL</sort_name>
+					<display_name>HM_XP_PROTECT_FLAG</display_name>
+					<column1>Events - total protect flag</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high protect flag</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AM</sort_name>
+					<display_name>HM_XP_DEMOLITION_TEAM</display_name>
+					<column1>Events - total demolition team1</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high demolition team</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AN</sort_name>
+					<display_name>HM_XP_DEMOLITION</display_name>
+					<column1>Events - total demolition1</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high demolition</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AO</sort_name>
+					<display_name>HM_XP_PROTECT_ENGINEER</display_name>
+					<column1>Events - total protect engineer1</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high protect engineer</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AP</sort_name>
+					<display_name>HM_XP_KILL_ENGINEER</display_name>
+					<column1>Events - total kill engineer1</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high kill engineer</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AQ</sort_name>
+					<display_name>HM_XP_HOLD_TARGET</display_name>
+					<column1>Events - total hold dc target</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high hold dc target</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AR</sort_name>
+					<display_name>HM_XP_PROTECT_TARGET</display_name>
+					<column1>Events - total protect dc target</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high protect dc target</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_DSTRY_DC_TARGET</display_name>
+					<column1>Events - total destroy dc target</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high destroy dc target</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AS</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AT</sort_name>
+					<display_name>HM_XP_DSTRY_ASSIST_DC_TARGET</display_name>
+					<column1>Events - total destroy assist dc target</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high destroy assist dc target</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AU</sort_name>
+					<display_name>HM_XP_REPAIR_TARGET</display_name>
+					<column1>Events - total repair dc target</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high repair dc target</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AV</sort_name>
+					<display_name>HM_XP_REPAIR_ASSIST_TARGET</display_name>
+					<column1>Events - total repair assist dc target</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high repair assist dc target</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AW</sort_name>
+					<display_name>HM_XP_HOLD_BAG_TEAM</display_name>
+					<column1>Events - total hold bag team</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high hold bag team</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>True</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AX</sort_name>
+					<display_name>HM_XP_HOLD_BAG_SOLO</display_name>
+					<column1>Events - total hold bag solo</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high hold bag solo</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>True</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AY</sort_name>
+					<display_name>HM_XP_HOLD_BAG</display_name>
+					<column1>Events - total hold bag</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high hold bag</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>True</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AZ</sort_name>
+					<display_name>HM_XP_KILL_BAGMAN</display_name>
+					<column1>Events - total kill bagman</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high kill bagman</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>True</bagman_locked>
+				</row>
+				<row>
+					<sort_name>BA</sort_name>
+					<display_name>HM_XP_PICKUP_BAG</display_name>
+					<column1>Events - total pickup bag</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high pickup bag</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>True</bagman_locked>
+				</row>
+				<row>
+					<sort_name>BB</sort_name>
+					<display_name>HM_XP_PROTECT_BAGMAN</display_name>
+					<column1>Events - total protect bagman</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high protect bagman1</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>True</bagman_locked>
+				</row>
+				<row>
+					<sort_name>BC</sort_name>
+					<display_name>HM_XP_BAGMAN_KILL</display_name>
+					<column1>Events - total bagman kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high bagman kill</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>True</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_DSTRY_TARGET_TEAM</display_name>
+					<column1>Events - total destroy siege team</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high destroy siege team</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BD</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_DSTRY_TARGET</display_name>
+					<column1>Events - total destroy siege</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high destroy siege</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BE</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>BF</sort_name>
+					<display_name>HM_XP_DSTRY_ASSIST_TARGET</display_name>
+					<column1>Events - total destroy assist siege</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high destroy assist siege</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>BG</sort_name>
+					<display_name>HM_XP_PROTECT_SIEGE_TEAM</display_name>
+					<column1>Events - total protect siege</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high protect siege</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>BH</sort_name>
+					<display_name>HM_XP_DEFEND_SIEGE_TARGET</display_name>
+					<column1>Events - total defend siege</column1>
+					<column2>Empty Slot</column2>
+					<column3>Events - high defend siege</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+			</rows>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<stat_column_name>STATS_MP_EVENTS_HEADER_EVENT_NAME</stat_column_name>
+		</stats_page>
+		<stats_page>
+			<Name>Page 4 - Bonus XP Events</Name>
+			<display_name>STATS_MP_BONUS_TITLE</display_name>
+			<column1_name>STATS_MP_BONUS_HEADER_TOTAL</column1_name>
+			<column2_name>STATS_BLANK</column2_name>
+			<column3_name>STATS_MP_BONUS_HEADER_MATCH_HIGH</column3_name>
+			<column4_name>STATS_BLANK</column4_name>
+			<rows>
+				<row>
+					<display_name>STATS_MP_BONUS_OVERALL_TOTAL</display_name>
+					<column1>bonus xp - total</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - total1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AA0</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AB4</sort_name>
+					<display_name>HM_XP_ASSIST</display_name>
+					<column1>bonus xp - kill assist</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - kill assist1</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_HEAL_TEAMMATE</display_name>
+					<column1>bonus xp - heal teammate</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - heal teammate1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AC7</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_PACK_HUNTER</display_name>
+					<column1>bonus xp - pack hunter</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - pack hunter1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AD10</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_RESCUE_KILL</display_name>
+					<column1>bonus xp - rescue kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - rescue kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AE12</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_SYNC_KILL</display_name>
+					<column1>bonus xp - synchronized kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - synchronized kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AF14</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_RETALIATION_KILL</display_name>
+					<column1>bonus xp - retaliation kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - retaliation kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AG17</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_DEBRIS_KILL</display_name>
+					<column1>bonus xp - debris kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - debris kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AH20</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_MELEE_KILL</display_name>
+					<column1>bonus xp - melee kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - melee kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AI21</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_STREAK_STOPPER</display_name>
+					<column1>bonus xp - streak stopper</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - streak stopper1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AJ23</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_DEATH_FROM_ABOVE</display_name>
+					<column1>bonus xp - death from above</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - death from above1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AK26</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_STICKY_SAVE</display_name>
+					<column1>bonus xp - sticky save</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - sticky save1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AL27</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_SURVIVOR</display_name>
+					<column1>bonus xp - survivor</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - survivor1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AM29</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_KILL_STREAK</display_name>
+					<column1>bonus xp - kill streak</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - kill streak1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AN32</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_BACKWHAT</display_name>
+					<column1>bonus xp - backwhat</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - backwhat1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AO33</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_GROUP_KNOCKDOWN</display_name>
+					<column1>bonus xp - group knockdown</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - group knockdown1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AP36</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_CLIFF_KILL</display_name>
+					<column1>bonus xp - cliff kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - cliff kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AQ39</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_STICKY_KILL</display_name>
+					<column1>bonus xp - sticky kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - sticky kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AR41</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_HEADSHOT_KILL</display_name>
+					<column1>bonus xp - headshot kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - headshot kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AS42</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_WHOS_NUMBER_ONE</display_name>
+					<column1>bonus xp - whos number one</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - whos number one1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AT45</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_FULL_CONTROL</display_name>
+					<column1>bonus xp - full control</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - full control1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AU47</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_MULTIPLE_KILLS</display_name>
+					<column1>bonus xp - multiple kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - multiple kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AV49</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_BACK_OFF_KILL</display_name>
+					<column1>bonus xp - back off kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - back off kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AW53</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_GHOST_KILL</display_name>
+					<column1>bonus xp - ghost kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - ghost kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AX55</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_DIRECT_HIT_KILL</display_name>
+					<column1>bonus xp - direct hit kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - direct hit kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AY56</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_BACKFIRE</display_name>
+					<column1>bonus xp - backfire</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - backfire1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AZ59</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_DOING_IT_WRONG</display_name>
+					<column1>bonus xp - doing it wrong</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - doing it wrong1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BA61</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_CHARGE_KILL</display_name>
+					<column1>bonus xp - charge kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - charge kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BB63</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_POWER_OVERWHELMING</display_name>
+					<column1>bonus xp - power overwhelming</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - power overwhelming1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BC66</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_KUNF_FU_KILL</display_name>
+					<column1>bonus xp - kung fu kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - kung fu kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BD70</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_HAIL_MARY</display_name>
+					<column1>bonus xp - hail mary</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - hail mary1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BE71</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_BARREL_KILL</display_name>
+					<column1>bonus xp - barrel kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - barrel kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BF73</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_FLAGMAN</display_name>
+					<column1>bonus xp - flagman</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - flagman1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BG75</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_FLYING_KILL</display_name>
+					<column1>bonus xp - flying kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - flying kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BH77</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_SHAKEN_NOT_STIRRED</display_name>
+					<column1>bonus xp - shaken not stirred</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - shaken not stirred1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BI80</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_BUNNY_KILL</display_name>
+					<column1>bonus xp - bunny kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - bunny kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BJ83</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_GOOD_TIMING</display_name>
+					<column1>bonus xp - good timing</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - good timing1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BK85</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_BBQ</display_name>
+					<column1>bonus xp - bbq</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - bbq1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BL87</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_BLINDSIDE</display_name>
+					<column1>bonus xp - blindside</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - blindside1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BM89</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_REVENGE_KILL</display_name>
+					<column1>bonus xp - revenge kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - revenge kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BN91</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_XRAY</display_name>
+					<column1>bonus xp - x-ray kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - x-ray kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BO94</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_SHARPSHOOTER</display_name>
+					<column1>bonus xp - sharpshooter</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - sharpshooter1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BP96</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_EASY_KILL</display_name>
+					<column1>bonus xp - easy kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - easy kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BQ99</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_DEATH_FROM_BELOW</display_name>
+					<column1>bonus xp - death from below</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - death from below1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BR101</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_TASTE_THE_RAINBOW</display_name>
+					<column1>bonus xp - taste the rainbow</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - taste the rainbow1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BS103</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_LINED_UP</display_name>
+					<column1>bonus xp - lined up</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - lined up1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BT105</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_DOUBLEBACK</display_name>
+					<column1>bonus xp - doubleback</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - doubleback1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BU108</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_ZOMBIE_KILL</display_name>
+					<column1>bonus xp - zombie kill</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - zombie kill1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BV111</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_VERTIGO</display_name>
+					<column1>bonus xp - vertigo</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - vertigo1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BW113</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_CAMPER</display_name>
+					<column1>bonus xp - camper</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - camper1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BX115</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>HM_XP_NO_PROBLEM</display_name>
+					<column1>bonus xp - no problem</column1>
+					<column2>Empty Slot</column2>
+					<column3>bonus xp match high - no problem1</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>BY117</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+			</rows>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<stat_column_name>STATS_MP_BONUS_HEADER_BONUS</stat_column_name>
+		</stats_page>
+		<stats_page>
+			<Name>Page 5 - Kills and Deaths</Name>
+			<display_name>STATS_MP_MODES_TITLE_MAIN</display_name>
+			<stat_column_name>STATS_MP_MODES_HEADER_MODE</stat_column_name>
+			<column1_name>STATS_MP_MODES_HEADER_KILLS</column1_name>
+			<column2_name>STATS_MP_MODES_HEADER_DEATHS</column2_name>
+			<column3_name>STATS_MP_MODES_HEADER_HIGH_KILLS</column3_name>
+			<column4_name>STATS_MP_MODES_HEADER_HIGH_DEATHS</column4_name>
+			<rows>
+				<row>
+					<sort_name>AA</sort_name>
+					<display_name>STATS_MP_GAMES_OVERALL</display_name>
+					<column1>mode - kills overall1</column1>
+					<column2>mode - deaths overall</column2>
+					<column3>mode - kills overall1 high</column3>
+					<column4>mode - deaths overall high</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AB</sort_name>
+					<display_name>MENU_MP_MODE_ANARCHY</display_name>
+					<column1>mode - kills anarchy1</column1>
+					<column2>mode - deaths anarchy</column2>
+					<column3>mode - kills anarchy1 high</column3>
+					<column4>mode - deaths anarchy high</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AC</sort_name>
+					<display_name>MENU_MP_MODE_TEAM_ANARCHY</display_name>
+					<column1>mode - kills team anarchy1</column1>
+					<column2>mode - deaths team anarchy</column2>
+					<column3>mode - kills team anarchy1 high</column3>
+					<column4>mode - deaths team anarchy high</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AD</sort_name>
+					<display_name>MENU_MP_MODE_CAPTURE_FLAG</display_name>
+					<column1>mode - kills ctf1</column1>
+					<column2>mode - deaths ctf</column2>
+					<column3>mode - kills ctf1 high</column3>
+					<column4>mode - deaths ctf high</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AE</sort_name>
+					<display_name>MENU_MP_MODE_DEMOLITION</display_name>
+					<column1>mode - kills demolition1</column1>
+					<column2>mode - deaths demolition</column2>
+					<column3>mode - kills demolition1 high</column3>
+					<column4>mode - deaths demolition high</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AF</sort_name>
+					<display_name>MENU_MP_MODE_DMG_CNTRL</display_name>
+					<column1>mode - kills damage control1</column1>
+					<column2>mode - deaths damage control</column2>
+					<column3>mode - kills damage control1 high</column3>
+					<column4>mode - deaths damage control high</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AG</sort_name>
+					<display_name>MENU_MP_MODE_BAGMAN</display_name>
+					<column1>mode - kills bagman1</column1>
+					<column2>mode - deaths bagman</column2>
+					<column3>mode - kills bagman1 high</column3>
+					<column4>mode - deaths bagman high</column4>
+					<bagman_locked>True</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AH</sort_name>
+					<display_name>MENU_MP_MODE_TM_BAGMAN</display_name>
+					<column1>mode - kills team bagman1</column1>
+					<column2>mode - deaths team bagman</column2>
+					<column3>mode - kills team bagman1 high</column3>
+					<column4>mode - deaths team bagman high</column4>
+					<bagman_locked>True</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AI</sort_name>
+					<display_name>MENU_MP_MODE_SIEGE</display_name>
+					<column1>mode - kills siege1</column1>
+					<column2>mode - deaths siege</column2>
+					<column3>mode - kills siege1 high</column3>
+					<column4>mode - deaths siege high</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+			</rows>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stats_page>
+		<stats_page>
+			<Name>Page 6 - Weapons</Name>
+			<display_name>STATS_MP_WEAPONS_TITLE</display_name>
+			<stat_column_name>STATS_MP_WEAPONS_HEADER_WEAPON</stat_column_name>
+			<column1_name>STATS_MP_WEAPONS_HEADER_KILLS</column1_name>
+			<column2_name>STATS_MP_WEAPONS_HEADER_DEATHS</column2_name>
+			<column3_name>STATS_MP_WEAPONS_HEADER_XP</column3_name>
+			<column4_name>STATS_MP_WEAPONS_HEADER_PER_MINUTE</column4_name>
+			<rows>
+				<row>
+					<sort_name>AA</sort_name>
+					<display_name>STATS_MP_WEAPONS_OVERALL</display_name>
+					<column1>weapon - kills overall1</column1>
+					<column2>weapon - deaths overall</column2>
+					<column3>weapon - xp overall2</column3>
+					<column4>weapon - xp-minute overall3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AB</sort_name>
+					<display_name>STATS_MP_WEAPONS_ARC_WELDER</display_name>
+					<column1>weapon - kills arc welder1</column1>
+					<column2>weapon - deaths arc welder</column2>
+					<column3>weapon - xp arc welder2</column3>
+					<column4>weapon - xp-minute arc welder3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AC</sort_name>
+					<display_name>STATS_MP_WEAPONS_ASSAULT_RIFLE</display_name>
+					<column1>weapon - kills assault rifle1</column1>
+					<column2>weapon - deaths assault rifle</column2>
+					<column3>weapon - xp assault rifle2</column3>
+					<column4>weapon - xp-minute assault rifle3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AD</sort_name>
+					<display_name>STATS_MP_WEAPONS_ENFORCER</display_name>
+					<column1>weapon - kills enforcer1</column1>
+					<column2>weapon - deaths enforcer</column2>
+					<column3>weapon - xp enforcer2</column3>
+					<column4>weapon - xp-minute enforcer3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AE</sort_name>
+					<display_name>STATS_MP_WEAPONS_GAUSS_RIFLE</display_name>
+					<column1>weapon - kills gauss rifle1</column1>
+					<column2>weapon - deaths gauss rifle</column2>
+					<column3>weapon - xp gauss rifle2</column3>
+					<column4>weapon - xp-minute guass rifle3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AF</sort_name>
+					<display_name>STATS_MP_WEAPONS_GRINDER</display_name>
+					<column1>weapon - kills grinder1</column1>
+					<column2>weapon - deaths grinder</column2>
+					<column3>weapon - xp grinder2</column3>
+					<column4>weapon - xp-minute grinder3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AH</sort_name>
+					<display_name>STATS_MP_WEAPONS_NANO_RIFLE</display_name>
+					<column1>weapon - kills nano rifle1</column1>
+					<column2>weapon - deaths nano rifle</column2>
+					<column3>weapon - xp nano rifle2</column3>
+					<column4>weapon - xp-minute nano rifle3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AI</sort_name>
+					<display_name>STATS_MP_WEAPONS_PEACEKEEPER</display_name>
+					<column1>weapon - kills peacekeeper1</column1>
+					<column2>weapon - deaths peacekeeper</column2>
+					<column3>weapon - xp peacekeeper2</column3>
+					<column4>weapon - xp-minute peacekeeper3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AJ</sort_name>
+					<display_name>STATS_MP_WEAPONS_PISTOL</display_name>
+					<column1>weapon - kills pistol1</column1>
+					<column2>weapon - deaths pistol</column2>
+					<column3>weapon - xp pistol2</column3>
+					<column4>weapon - xp-minute pistol3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AK</sort_name>
+					<display_name>STATS_MP_WEAPONS_PROX_MINE</display_name>
+					<column1>weapon - kills proxmine1</column1>
+					<column2>weapon - deaths proxmine</column2>
+					<column3>weapon - xp proxmine2</column3>
+					<column4>weapon - xp-minute proxmine3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AL</sort_name>
+					<display_name>STATS_MP_WEAPONS_RAIL_DRIVER</display_name>
+					<column1>weapon - kills rail driver1</column1>
+					<column2>weapon - deaths rail driver</column2>
+					<column3>weapon - xp rail driver2</column3>
+					<column4>weapon - xp-minute rail driver3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AM</sort_name>
+					<display_name>STATS_MP_WEAPONS_RECONSTRUCTOR</display_name>
+					<column1>weapon - kills reconstructor1</column1>
+					<column2>weapon - deaths reconstructor</column2>
+					<column3>weapon - xp reconstructor2</column3>
+					<column4>weapon - xp-minute reconstructor3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AN</sort_name>
+					<display_name>STATS_MP_WEAPONS_REMOTE_CHARGES</display_name>
+					<column1>weapon - kills remote charges1</column1>
+					<column2>weapon - deaths remote charges</column2>
+					<column3>weapon - xp remote charges2</column3>
+					<column4>weapon - xp-minute remote charges3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AO</sort_name>
+					<display_name>STATS_MP_WEAPONS_ROCKET_LAUNCHER</display_name>
+					<column1>weapon - kills rockets1</column1>
+					<column2>weapon - deaths rockets</column2>
+					<column3>weapon - xp rockets2</column3>
+					<column4>weapon - xp-minute rockets3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AP</sort_name>
+					<display_name>STATS_MP_WEAPONS_SHOTGUN</display_name>
+					<column1>weapon - kills shotgun1</column1>
+					<column2>weapon - deaths shotgun</column2>
+					<column3>weapon - xp shotgun2</column3>
+					<column4>weapon - xp-minute shotgun3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AQ</sort_name>
+					<display_name>STATS_MP_WEAPONS_SINGULARITY_BOMB</display_name>
+					<column1>weapon - kills sing bomb1</column1>
+					<column2>weapon - deaths sing bomb</column2>
+					<column3>weapon - xp sing bomb2</column3>
+					<column4>weapon - xp-minute sing bomb3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AR</sort_name>
+					<display_name>STATS_MP_WEAPONS_SLEDGEHAMMER</display_name>
+					<column1>weapon - kills sledge1</column1>
+					<column2>weapon - deaths sledge</column2>
+					<column3>weapon - xp sledge2</column3>
+					<column4>weapon - xp-minute sledge3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AS</sort_name>
+					<display_name>STATS_MP_WEAPONS_SNIPER_RIFLE</display_name>
+					<column1>weapon - kills sniper1</column1>
+					<column2>weapon - deaths sniper</column2>
+					<column3>weapon - xp sniper2</column3>
+					<column4>weapon - xp-minute sniper3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AT</sort_name>
+					<display_name>STATS_MP_WEAPONS_THERMOBARIC_ROCKETS</display_name>
+					<column1>weapon - kills thermobaric1</column1>
+					<column2>weapon - deaths thermobaric</column2>
+					<column3>weapon - xp thermobaric2</column3>
+					<column4>weapon - xp-minute thermobaric3</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+			</rows>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stats_page>
+		<stats_page>
+			<Name>Page 7 - Backpacks</Name>
+			<display_name>STATS_MP_BACKPACKS_TITLE</display_name>
+			<stat_column_name>STATS_MP_BACKPACKS_HEADER_BACKPACK</stat_column_name>
+			<column1_name>STATS_MP_BACKPACKS_HEADER_KILLS</column1_name>
+			<column2_name>STATS_MP_BACKPACKS_HEADER_DEATHS</column2_name>
+			<column3_name>STATS_MP_BACKPACKS_HEADER_XP</column3_name>
+			<column4_name>STATS_MP_BACKPACKS_HEADER_PER_MINUTE</column4_name>
+			<rows>
+				<row>
+					<sort_name>AA</sort_name>
+					<display_name>STATS_MP_BACKPACKS_OVERALL</display_name>
+					<column1>backpack - kills overall1</column1>
+					<column2>backpack - deaths overall</column2>
+					<column3>backpack - xp overall2</column3>
+					<column4>backpack - xp-minute overall</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AB</sort_name>
+					<display_name>STATS_MP_BACKPACKS_CONCUSSION</display_name>
+					<column1>backpack - kills concussion1</column1>
+					<column2>backpack - deaths concussion</column2>
+					<column3>backpack - xp concussion2</column3>
+					<column4>backpack - xp-minute concussion</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AC</sort_name>
+					<display_name>STATS_MP_BACKPACKS_FIREPOWER</display_name>
+					<column1>backpack - kills firepower1</column1>
+					<column2>backpack - deaths firepower</column2>
+					<column3>backpack - xp firepower2</column3>
+					<column4>backpack - xp-minute firepower</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AD</sort_name>
+					<display_name>STATS_MP_BACKPACKS_FLEETFOOT</display_name>
+					<column1>backpack - kills fleetfoot1</column1>
+					<column2>backpack - deaths fleetfoot</column2>
+					<column3>backpack - xp fleetfoot2</column3>
+					<column4>backpack - xp-minute fleetfoot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AE</sort_name>
+					<display_name>STATS_MP_BACKPACKS_HEAL</display_name>
+					<column1>backpack - kills heal1</column1>
+					<column2>backpack - deaths heal</column2>
+					<column3>backpack - xp heal2</column3>
+					<column4>backpack - xp-minute heal</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AF</sort_name>
+					<display_name>STATS_MP_BACKPACKS_JETPACK</display_name>
+					<column1>backpack - kills jetpack1</column1>
+					<column2>backpack - deaths jetpack</column2>
+					<column3>backpack - xp jetpack2</column3>
+					<column4>backpack - xp-minute jetpack</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AH</sort_name>
+					<display_name>STATS_MP_BACKPACKS_RHINO</display_name>
+					<column1>backpack - kills rhino1</column1>
+					<column2>backpack - deaths rhino</column2>
+					<column3>backpack - xp rhino2</column3>
+					<column4>backpack - xp-minute rhino</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AI</sort_name>
+					<display_name>STATS_MP_BACKPACKS_STEALTH</display_name>
+					<column1>backpack - kills stealth1</column1>
+					<column2>backpack - deaths stealth</column2>
+					<column3>backpack - xp stealth2</column3>
+					<column4>backpack - xp-minute stealth</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AJ</sort_name>
+					<display_name>STATS_MP_BACKPACKS_THRUST</display_name>
+					<column1>backpack - kills thrust1</column1>
+					<column2>backpack - deaths thrust</column2>
+					<column3>backpack - xp thrust2</column3>
+					<column4>backpack - xp-minute thrust</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AK</sort_name>
+					<display_name>STATS_MP_BACKPACKS_TREMOR</display_name>
+					<column1>backpack - kills tremor1</column1>
+					<column2>backpack - deaths tremor</column2>
+					<column3>backpack - xp tremor2</column3>
+					<column4>backpack - xp-minute tremor</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AL</sort_name>
+					<display_name>STATS_MP_BACKPACKS_VISION</display_name>
+					<column1>backpack - kills vision1</column1>
+					<column2>backpack - deaths vision</column2>
+					<column3>backpack - xp vision2</column3>
+					<column4>backpack - xp-minute vision</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+			</rows>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</stats_page>
+		<stats_page>
+			<Name>Page 8 - Hidden Challenges</Name>
+			<display_name>STATS_MP_HC_TITLE_MAIN</display_name>
+			<column1_name>STATS_MP_HC_HEADER_PROGRESS</column1_name>
+			<column2_name>STATS_BLANK</column2_name>
+			<column3_name>STATS_MP_HC_HEADER_REQUIREMENT</column3_name>
+			<column4_name>STATS_BLANK</column4_name>
+			<rows>
+				<row>
+					<display_name>STATS_MP_HC_10_KILLS_EVERY_WEAPON</display_name>
+					<column1>HC - 10 kills with every weapon Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - 10 kills with every weapon Requirement</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AA</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>STATS_MP_HC_10_WINS_EVERY_MODE</display_name>
+					<column1>HC - 10 wins in each mode Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - 10 wins in each mode Requirement</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AB</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>STATS_MP_HC_100_WINS</display_name>
+					<column1>HC - 100 wins total Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - 100 wins total Requirement</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AC</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>STATS_MP_HC_100_XP_EVERY_BACKPACK</display_name>
+					<column1>HC - 100 XP with every backpack Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - 100 XP with every backpack Requirement</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AD</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>STATS_MP_HC_100_XP_EVERY_WEAPON</display_name>
+					<column1>HC - 100 XP with every weapon Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - 100 XP with every weapon Requirement</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AE</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>STATS_MP_HC_1000_KILLS_ANY_WEAPON</display_name>
+					<column1>HC - 1000 kills with any weapon Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - 1000 kills with any weapon Requirement</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AF</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>STATS_MP_HC_5000_XP_ANY_BACKPACK</display_name>
+					<column1>HC - 5000 XP with any backpack Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - 5000 XP with any backpack Requirement</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AG</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<display_name>STATS_MP_HC_5000_XP_ANY_WEAPON</display_name>
+					<column1>HC - 5000 XP with any weapon Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - 5000 XP with any weapon Requirement</column3>
+					<column4>Empty Slot</column4>
+					<sort_name>AH</sort_name>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AI</sort_name>
+					<display_name>STATS_MP_HC_500_ANY_BONUS</display_name>
+					<column1>HC - 500 any type of bonus Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - 500 any type of bonus Requirement</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AJ</sort_name>
+					<display_name>STATS_MP_HC_5_EVERY_BONUS</display_name>
+					<column1>HC - 5 of every bonus type Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - 5 of every bonus type Requirement</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AK</sort_name>
+					<display_name>STATS_MP_HC_1LIFE_10_KILLS_ROW_1_WEAPON</display_name>
+					<column1>HC - one life - 10 kills in a row with the same weapon Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - one life - 10 kills in a row with the same weapon Requirement</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AL</sort_name>
+					<display_name>STATS_MP_HC_1LIFE_25_BONUS</display_name>
+					<column1>HC - one life - 25 Bonuses total Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - one life - 25 Bonuses total Requirement</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AM</sort_name>
+					<display_name>STATS_MP_HC_1LIFE_5_XP_5_BACKPACK_TYPES</display_name>
+					<column1>HC - one life - 5 or more XP with 5 different backpacks Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - one life - 5 or more XP with 5 different backpacks Requirement</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AN</sort_name>
+					<display_name>STATS_MP_HC_1LIFE_50_XP</display_name>
+					<column1>HC - one life - 50 XP total Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - one life - 50 XP total Requirement</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AO</sort_name>
+					<display_name>STATS_MP_HC_1LIFE_KILL_5_WEAPON_TYPES</display_name>
+					<column1>HC - one life - kills with 5 different weapons Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - one life - kills with 5 different weapons Requirement</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+				<row>
+					<sort_name>AP</sort_name>
+					<display_name>STATS_MP_HC_1LIFE_15_BONUS_TYPES</display_name>
+					<column1>HC - one life - 15 different Bonuses Progress</column1>
+					<column2>Empty Slot</column2>
+					<column3>HC - one life - 15 different Bonuses Requirement</column3>
+					<column4>Empty Slot</column4>
+					<bagman_locked>False</bagman_locked>
+				</row>
+			</rows>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<stat_column_name>STATS_MP_HC_HEADER_CHALLENGE</stat_column_name>
+		</stats_page>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>stats_page</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Internal name. Not presented or displayed anywhere in game.</Description>
+		</Element>
+		<Element>
+			<Name>display_name</Name>
+			<Type>Reference</Type>
+			<Description>Reference to the localized string to display as the page's name.</Description>
+			<Reference>
+				<File>localized_exports\Stats_text.xtbl</File>
+				<Type>Stats_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>stat_column_name</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>localized_exports\Stats_text.xtbl</File>
+				<Type>Stats_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>column1_name</Name>
+			<Type>Reference</Type>
+			<Description>Localized string for the column's name.</Description>
+			<Reference>
+				<File>localized_exports\Stats_text.xtbl</File>
+				<Type>Stats_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>column2_name</Name>
+			<Type>Reference</Type>
+			<Description>Localized string for the column's name.</Description>
+			<Reference>
+				<File>localized_exports\Stats_text.xtbl</File>
+				<Type>Stats_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>column3_name</Name>
+			<Type>Reference</Type>
+			<Description>Localized string for the column's name.</Description>
+			<Reference>
+				<File>localized_exports\Stats_text.xtbl</File>
+				<Type>Stats_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>column4_name</Name>
+			<Type>Reference</Type>
+			<Description>Localized string for the column's name.</Description>
+			<Reference>
+				<File>localized_exports\Stats_text.xtbl</File>
+				<Type>Stats_Identifier.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>rows</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>row</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>sort_name</Name>
+					<Type>String</Type>
+					<Description>Name used for sorting rows.</Description>
+				</Element>
+				<Element>
+					<Name>display_name</Name>
+					<Type>Reference</Type>
+					<Description>Localized string for the row's name.</Description>
+					<Reference>
+						<File>localized_exports\Stats_text.xtbl</File>
+						<Type>Stats_Identifier.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>bagman_locked</Name>
+					<Type>Selection</Type>
+					<Display_Name>Bagman Locked</Display_Name>
+					<Default>False</Default>
+					<Choice>True</Choice>
+					<Choice>False</Choice>
+				</Element>
+				<Element>
+					<Name>column1</Name>
+					<Type>Reference</Type>
+					<Description>Element to place at this column for this row.</Description>
+					<Reference>
+						<File>mp_stats_page_elements.xtbl</File>
+						<Type>element.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>column2</Name>
+					<Type>Reference</Type>
+					<Description>Element to place at this column for this row.</Description>
+					<Reference>
+						<File>mp_stats_page_elements.xtbl</File>
+						<Type>element.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>column3</Name>
+					<Type>Reference</Type>
+					<Description>Element to place at this column for this row.</Description>
+					<Reference>
+						<File>mp_stats_page_elements.xtbl</File>
+						<Type>element.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>column4</Name>
+					<Type>Reference</Type>
+					<Description>Element to place at this column for this row.</Description>
+					<Reference>
+						<File>mp_stats_page_elements.xtbl</File>
+						<Type>element.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+			<Min_Children>1</Min_Children>
+			<Num_Display_Rows>30</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

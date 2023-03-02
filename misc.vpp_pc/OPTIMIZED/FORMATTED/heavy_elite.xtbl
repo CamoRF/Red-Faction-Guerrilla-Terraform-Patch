@@ -1,1 +1,1627 @@
-<root><Table><Skeleton_Set><Name>Heavy_Elite</Name><Parent_Skeleton>Male</Parent_Skeleton><Groups><Group><group>Default</group><States></States><Actions></Actions></Group><Group><group>Rifle</group><States><State><ID>crouch</ID><Animation><Filename>elite_h_rfl_crchrd.animx</Filename></Animation></State><State><ID>cover crouch left leaning idle</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnout_l.animx</Filename></Animation></State><State><ID>cover crouch right leaning idle</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnout_r.animx</Filename></Animation></State><State><ID>cover crouch left leanup idle</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupidle_l.animx</Filename></Animation></State><State><ID>cover stand left leaning idle</ID><Animation><Filename>elite_h_rfl_cvrstd_lnout_idle_l.animx</Filename></Animation></State><State><ID>cover stand right leaning idle</ID><Animation><Filename>elite_h_rfl_cvrstd_lnout_idle_r.animx</Filename></Animation></State><State><ID>down ready run</ID><Animation><Filename>elite_h_rfl_dwnrd_run.animx</Filename></Animation></State><State><ID>down ready</ID><Animation><Filename>elite_h_rfl_dwnrd_std.animx</Filename></Animation></State><State><ID>down ready walk</ID><Animation><Filename>elite_h_rfl_dwnrd_wlk</Filename></Animation></State><State><ID>run ready</ID><Animation><Filename>elite_h_rfl_rd_run.animx</Filename></Animation></State><State><ID>run ready back</ID><Animation><Filename>elite_h_rfl_rd_run_bck.animx</Filename></Animation></State><State><ID>run ready left</ID><Animation><Filename>elite_h_rfl_rd_run_l.animx</Filename></Animation></State><State><ID>run ready right</ID><Animation><Filename>elite_h_rfl_rd_run_r.animx</Filename></Animation></State><State><ID>stand ready</ID><Animation><Filename>elite_h_rfl_rd_std.animx</Filename></Animation></State><State><ID>walk ready</ID><Animation><Filename>elite_h_rfl_rd_wlk</Filename></Animation></State><State><ID>walk ready back</ID><Animation><Filename>elite_h_rfl_rd_wlk_bck</Filename></Animation></State><State><ID>walk ready left</ID><Animation><Filename>elite_h_rfl_rd_wlk_l</Filename></Animation></State><State><ID>walk ready right</ID><Animation><Filename>elite_h_rfl_rd_wlk_r</Filename></Animation></State><State><ID>stand</ID><Animation><Filename>elite_h_rfl_std.animx</Filename></Animation></State><State><ID>walk</ID><Animation><Filename>elite_h_rfl_wlk</Filename></Animation></State><State><ID>cover crouch right leanup idle</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupidle_r.animx</Filename></Animation></State><State><ID>down ready walk dwn 35</ID><Animation><Filename>elite_h_rfl_dwnrd_wlk_dwn.animx</Filename></Animation></State><State><ID>walk ready back dwn 35</ID><Animation><Filename>elite_h_rfl_rdywlk_dwn_bck.animx</Filename></Animation></State><State><ID>walk ready left dwn 35</ID><Animation><Filename>elite_h_rfl_rdywlk_dwn_l.animx</Filename></Animation></State><State><ID>walk ready right dwn 35</ID><Animation><Filename>elite_h_rfl_rdywlk_dwn_r.animx</Filename></Animation></State><State><ID>walk ready 35</ID><Animation><Filename>elite_h_rfl_rdywlk_up.animx</Filename></Animation></State><State><ID>walk ready back 35</ID><Animation><Filename>elite_h_rfl_rdywlk_up_bck.animx</Filename></Animation></State><State><ID>walk ready right 35</ID><Animation><Filename>elite_h_rfl_rdywlk_up_r.animx</Filename></Animation></State><State><ID>walk ready dwn 35</ID><Animation><Filename>elite_h_rfl_rd_wlk_dwn.animx</Filename></Animation></State><State><ID>walk dwn 35</ID><Animation><Filename>elite_h_rfl_wlk_dwn.animx</Filename></Animation></State><State><ID>walk 35</ID><Animation><Filename>elite_h_rfl_wlk_up.animx</Filename></Animation></State><State><ID>walk ready left 35</ID><Animation><Filename>elite_h_rfl_rdywlk_up_l.animx</Filename></Animation></State><State><ID>down ready walk 35</ID><Animation><Filename>elite_h_rfl_dwnrd_wlk_up.animx</Filename></Animation></State><State><ID>run ready backpedal</ID><Animation><Filename>elite_h_rfl_rd_run_bck.animx</Filename></Animation></State><State><ID>crouch ready</ID><Animation><Filename>elite_h_rfl_crchrd.animx</Filename></Animation></State><State><ID>crouch wlk rdy fwd</ID><Animation><Filename>elite_h_rfl_rd_wlk</Filename></Animation></State><State><ID>cover stand left</ID><Animation><Filename>elite_h_rfl_cvrstd_l.animx</Filename></Animation></State><State><ID>cover stand right</ID><Animation><Filename>elite_h_rfl_cvrstd_r.animx</Filename></Animation></State><State><ID>cover crouch left</ID><Animation><Filename>elite_h_rfl_cvrcrch_l.animx</Filename></Animation></State><State><ID>cover crouch right</ID><Animation><Filename>elite_h_rfl_cvrcrch_r.animx</Filename></Animation></State><State><ID>sprint</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State><State><ID>run</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State><State><ID>walk anim</ID><Animation><Filename>elite_h_rfl_wlk.animx</Filename></Animation></State><State><ID>walk ready back anim</ID><Animation><Filename>elite_h_rfl_rd_wlk_bck.animx</Filename></Animation></State><State><ID>walk ready left anim</ID><Animation><Filename>elite_h_rfl_rd_wlk_l.animx</Filename></Animation></State><State><ID>walk ready right anim</ID><Animation><Filename>elite_h_rfl_rd_wlk_r.animx</Filename></Animation></State><State><ID>walk ready anim</ID><Animation><Filename>elite_h_rfl_rd_wlk.animx</Filename></Animation></State><State><ID>down ready walk anim</ID><Animation><Filename>elite_h_rfl_dwnrd_wlk.animx</Filename></Animation></State></States><Actions><Action><ID>crouch fire</ID><Animation><Filename>elite_h_rfl_crchrd_fire.animx</Filename></Animation></Action><Action><ID>crouch reload</ID><Animation><Filename>elite_h_rfl_crch_rld.animx</Filename></Animation></Action><Action><ID>cover crouch left into</ID><Animation><Filename>elite_h_rfl_cvrcrch_into_l.animx</Filename></Animation></Action><Action><ID>cover crouch right into</ID><Animation><Filename>elite_h_rfl_cvrcrch_into_r.animx</Filename></Animation></Action><Action><ID>cover crouch left lean shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnout_sht_l.animx</Filename></Animation></Action><Action><ID>cover crouch right lean shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnout_sht_r.animx</Filename></Animation></Action><Action><ID>cover crouch left leanup shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename></Animation></Action><Action><ID>reload</ID><Animation><Filename>elite_h_rfl_rd_rld.animx</Filename></Animation></Action><Action><ID>stand fire</ID><Animation><Filename>elite_h_rfl_rd_std_fire.animx</Filename></Animation></Action><Action><ID>grenade throw</ID><Animation><Filename>elite_h_rfl_rd_toss_gnde.animx</Filename></Animation></Action><Action><ID>run fire</ID><Animation><Filename>elite_h_rfl_runrd_fire.animx</Filename></Animation></Action><Action><ID>run fire back</ID><Animation><Filename>elite_h_rfl_runrd_fire_bck.animx</Filename></Animation></Action><Action><ID>run fire left</ID><Animation><Filename>elite_h_rfl_runrd_fire_l.animx</Filename></Animation></Action><Action><ID>run fire right</ID><Animation><Filename>elite_h_rfl_runrd_fire_r.animx</Filename></Animation></Action><Action><ID>walk fire</ID><Animation><Filename>elite_h_rfl_wlk_fire.animx</Filename></Animation></Action><Action><ID>walk fire back</ID><Animation><Filename>elite_h_rfl_wlk_fire_bck.animx</Filename></Animation></Action><Action><ID>walk fire left</ID><Animation><Filename>elite_h_rfl_wlk_fire_l.animx</Filename></Animation></Action><Action><ID>walk fire right</ID><Animation><Filename>elite_h_rfl_wlk_fire_r.animx</Filename></Animation></Action><Action><ID>cover crouch right leanup shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename></Animation></Action><Action><ID>cover stand left lean shoot</ID><Animation><Filename>elite_h_rfl_cvrstd_lnout_sht_l.animx</Filename></Animation></Action><Action><ID>cover stand right lean shoot</ID><Animation><Filename>elite_h_rfl_cvrstd_lnout_sht_r.animx</Filename></Animation></Action><Action><ID>stand dodge left</ID><Animation><Filename>elite_h_rfl_std_taunt_c.animx</Filename></Animation></Action><Action><ID>stand dodge right</ID><Animation><Filename>elite_h_rfl_std_taunt.animx</Filename></Animation></Action><Action><ID>melee</ID><Animation><Filename>elite_h_rfl_rd_mele.animx</Filename></Animation></Action><Action><ID>melee2</ID><Animation><Filename>elite_h_rfl_rd_mele.animx</Filename></Animation></Action><Action><ID>combat roll left</ID><Animation><Filename>elite_h_rfl_std_taunt_b.animx</Filename></Animation></Action><Action><ID>combat roll right</ID><Animation><Filename>elite_h_rfl_std_taunt.animx</Filename></Animation></Action><Action><ID>crouch to stand</ID><Animation><Filename>elite_h_rfl_crch-std.animx</Filename></Animation></Action><Action><ID>cover stand reload left</ID><Animation><Filename>elite_h_rfl_cvrstd_rld_l.animx</Filename></Animation></Action><Action><ID>cover stand reload right</ID><Animation><Filename>elite_h_rfl_cvrstd_rld_r.animx</Filename></Animation></Action><Action><ID>cover crouch ready right shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename></Animation></Action><Action><ID>cover crouch right ready shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename></Animation></Action><Action><ID>cover crouch left ready shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename></Animation></Action><Action><ID>cover crouch ready left shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename></Animation></Action></Actions></Group><Group><group>Railgun</group><States><State><ID>crouch</ID><Animation><Filename>hvelite_snpr_crchrd.animx</Filename></Animation></State><State><ID>cover crouch left leaning idle</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnout_l.animx</Filename></Animation></State><State><ID>cover crouch right leaning idle</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnout_r.animx</Filename></Animation></State><State><ID>cover crouch left leanup idle</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupidle_l.animx</Filename></Animation></State><State><ID>cover stand left leaning idle</ID><Animation><Filename>elite_h_rfl_cvrstd_lnout_idle_l.animx</Filename></Animation></State><State><ID>cover stand right leaning idle</ID><Animation><Filename>elite_h_rfl_cvrstd_lnout_idle_r.animx</Filename></Animation></State><State><ID>down ready run</ID><Animation><Filename>hvelite_snpr_dwnrd_run.animx</Filename></Animation></State><State><ID>down ready</ID><Animation><Filename>hvelite_snpr_dwnrd_std.animx</Filename></Animation></State><State><ID>down ready walk</ID><Animation><Filename>elite_h_snpr_dwnrd_wlk</Filename></Animation></State><State><ID>run ready</ID><Animation><Filename>hvelite_snpr_rd_run.animx</Filename></Animation></State><State><ID>run ready back</ID><Animation><Filename>hvelite_snpr_rd_run_bck.animx</Filename></Animation></State><State><ID>run ready left</ID><Animation><Filename>hvelite_snpr_rd_run_l.animx</Filename></Animation></State><State><ID>run ready right</ID><Animation><Filename>hvelite_snpr_rd_run_r.animx</Filename></Animation></State><State><ID>stand ready</ID><Animation><Filename>hvelite_snpr_rd_std.animx</Filename></Animation></State><State><ID>walk ready</ID><Animation><Filename>elite_h_snpr_rd_wlk</Filename></Animation></State><State><ID>walk ready back</ID><Animation><Filename>elite_h_snpr_rd_wlk_bck</Filename></Animation></State><State><ID>walk ready left</ID><Animation><Filename>elite_h_snpr_rd_wlk_l</Filename></Animation></State><State><ID>walk ready right</ID><Animation><Filename>elite_h_snpr_rd_wlk_r</Filename></Animation></State><State><ID>stand</ID><Animation><Filename>hvelite_snpr_std.animx</Filename></Animation></State><State><ID>walk</ID><Animation><Filename>elite_h_snpr_wlk</Filename></Animation></State><State><ID>cover crouch right leanup idle</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupidle_r.animx</Filename></Animation></State><State><ID>down ready walk dwn 35</ID><Animation><Filename>hvelite_snpr_dwnrd_wlk_dwn.animx</Filename></Animation></State><State><ID>walk ready back dwn 35</ID><Animation><Filename>hvelite_snpr_rdywlk_dwn_bck.animx</Filename></Animation></State><State><ID>walk ready left dwn 35</ID><Animation><Filename>hvelite_snpr_rdywlk_dwn_l.animx</Filename></Animation></State><State><ID>walk ready right dwn 35</ID><Animation><Filename>hvelite_snpr_rdywlk_dwn_r.animx</Filename></Animation></State><State><ID>walk ready 35</ID><Animation><Filename>hvelite_snpr_rd_wlk_up.animx</Filename></Animation></State><State><ID>walk ready back 35</ID><Animation><Filename>hvelite_snpr_rdywlk_up_bck.animx</Filename></Animation></State><State><ID>walk ready right 35</ID><Animation><Filename>hvelite_snpr_rdywlk_up_r.animx</Filename></Animation></State><State><ID>walk ready dwn 35</ID><Animation><Filename>hvelite_snpr_rd_wlk_dwn.animx</Filename></Animation></State><State><ID>walk dwn 35</ID><Animation><Filename>hvelite_snpr_wlk_dwn.animx</Filename></Animation></State><State><ID>walk 35</ID><Animation><Filename>hvelite_snpr_wlk_up.animx</Filename></Animation></State><State><ID>walk ready left 35</ID><Animation><Filename>hvelite_snpr_rdywlk_up_l.animx</Filename></Animation></State><State><ID>down ready walk 35</ID><Animation><Filename>hvelite_snpr_dwnrd_wlk_up.animx</Filename></Animation></State><State><ID>run ready backpedal</ID><Animation><Filename>hvelite_snpr_rd_run_bck.animx</Filename></Animation></State><State><ID>crouch ready</ID><Animation><Filename>hvelite_snpr_crchrd.animx</Filename></Animation></State><State><ID>crouch wlk rdy fwd</ID><Animation><Filename>elite_h_snpr_wlk</Filename></Animation></State><State><ID>cover stand left</ID><Animation><Filename>elite_h_rfl_cvrstd_l.animx</Filename></Animation></State><State><ID>cover stand right</ID><Animation><Filename>elite_h_rfl_cvrstd_r.animx</Filename></Animation></State><State><ID>cover crouch left</ID><Animation><Filename>elite_h_rfl_cvrcrch_l.animx</Filename></Animation></State><State><ID>cover crouch right</ID><Animation><Filename>elite_h_rfl_cvrcrch_r.animx</Filename></Animation></State><State><ID>sprint</ID><Animation><Filename>hvelite_snpr_sprint.animx</Filename></Animation></State><State><ID>run</ID><Animation><Filename>hvelite_snpr_sprint.animx</Filename></Animation></State><State><ID>walk anim</ID><Animation><Filename>hvelite_snpr_wlk.animx</Filename></Animation></State><State><ID>walk ready back anim</ID><Animation><Filename>hvelite_snpr_rd_wlk_bck.animx</Filename></Animation></State><State><ID>walk ready left anim</ID><Animation><Filename>hvelite_snpr_rdywlk_l.animx</Filename></Animation></State><State><ID>walk ready right anim</ID><Animation><Filename>hvelite_snpr_rdywlk_r.animx</Filename></Animation></State><State><ID>walk ready anim</ID><Animation><Filename>hvelite_snpr_rd_wlk.animx</Filename></Animation></State><State><ID>down ready walk anim</ID><Animation><Filename>hvelite_snpr_dwnrd_wlk.animx</Filename></Animation></State><State><ID>low control stand</ID><Animation><Filename>hvelite_snpr_low_cntrl_std.animx</Filename></Animation></State></States><Actions><Action><ID>crouch fire</ID><Animation><Filename>elite_h_rfl_crchrd_fire.animx</Filename></Animation></Action><Action><ID>crouch reload</ID><Animation><Filename>elite_h_rfl_crch_rld.animx</Filename></Animation></Action><Action><ID>cover crouch left into</ID><Animation><Filename>elite_h_rfl_cvrcrch_into_l.animx</Filename></Animation></Action><Action><ID>cover crouch right into</ID><Animation><Filename>elite_h_rfl_cvrcrch_into_r.animx</Filename></Animation></Action><Action><ID>cover crouch left lean shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnout_sht_l.animx</Filename></Animation></Action><Action><ID>cover crouch right lean shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnout_sht_r.animx</Filename></Animation></Action><Action><ID>cover crouch left leanup shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename></Animation></Action><Action><ID>reload</ID><Animation><Filename>elite_h_rfl_rd_rld.animx</Filename></Animation></Action><Action><ID>stand fire</ID><Animation><Filename>elite_h_rfl_rd_std_fire.animx</Filename></Animation></Action><Action><ID>grenade throw</ID><Animation><Filename>elite_h_rfl_rd_toss_gnde.animx</Filename></Animation></Action><Action><ID>run fire</ID><Animation><Filename>elite_h_rfl_runrd_fire.animx</Filename></Animation></Action><Action><ID>run fire back</ID><Animation><Filename>elite_h_rfl_runrd_fire_bck.animx</Filename></Animation></Action><Action><ID>run fire left</ID><Animation><Filename>elite_h_rfl_runrd_fire_l.animx</Filename></Animation></Action><Action><ID>run fire right</ID><Animation><Filename>elite_h_rfl_runrd_fire_r.animx</Filename></Animation></Action><Action><ID>walk fire</ID><Animation><Filename>elite_h_rfl_wlk_fire.animx</Filename></Animation></Action><Action><ID>walk fire back</ID><Animation><Filename>elite_h_rfl_wlk_fire_bck.animx</Filename></Animation></Action><Action><ID>walk fire left</ID><Animation><Filename>elite_h_rfl_wlk_fire_l.animx</Filename></Animation></Action><Action><ID>walk fire right</ID><Animation><Filename>elite_h_rfl_wlk_fire_r.animx</Filename></Animation></Action><Action><ID>cover crouch right leanup shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename></Animation></Action><Action><ID>cover stand left lean shoot</ID><Animation><Filename>elite_h_rfl_cvrstd_lnout_sht_l.animx</Filename></Animation></Action><Action><ID>cover stand right lean shoot</ID><Animation><Filename>elite_h_rfl_cvrstd_lnout_sht_r.animx</Filename></Animation></Action><Action><ID>stand dodge left</ID><Animation><Filename>elite_h_rfl_std_taunt_c.animx</Filename></Animation></Action><Action><ID>stand dodge right</ID><Animation><Filename>elite_h_rfl_std_taunt.animx</Filename></Animation></Action><Action><ID>melee</ID><Animation><Filename>elite_h_rfl_rd_mele.animx</Filename></Animation></Action><Action><ID>melee2</ID><Animation><Filename>elite_h_rfl_rd_mele.animx</Filename></Animation></Action><Action><ID>combat roll left</ID><Animation><Filename>elite_h_rfl_std_taunt_b.animx</Filename></Animation></Action><Action><ID>combat roll right</ID><Animation><Filename>elite_h_rfl_std_taunt.animx</Filename></Animation></Action><Action><ID>crouch to stand</ID><Animation><Filename>elite_h_rfl_crch-std.animx</Filename></Animation></Action><Action><ID>cover stand reload left</ID><Animation><Filename>elite_h_rfl_cvrstd_rld_l.animx</Filename></Animation></Action><Action><ID>cover stand reload right</ID><Animation><Filename>elite_h_rfl_cvrstd_rld_r.animx</Filename></Animation></Action><Action><ID>cover crouch ready right shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename></Animation></Action><Action><ID>cover crouch right ready shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename></Animation></Action><Action><ID>cover crouch left ready shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename></Animation></Action><Action><ID>cover crouch ready left shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename></Animation></Action></Actions></Group><Group><group>Sniper</group><States><State><ID>crouch</ID><Animation><Filename>hvelite_snpr_crchrd.animx</Filename></Animation></State><State><ID>cover crouch left leaning idle</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnout_l.animx</Filename></Animation></State><State><ID>cover crouch right leaning idle</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnout_r.animx</Filename></Animation></State><State><ID>cover crouch left leanup idle</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupidle_l.animx</Filename></Animation></State><State><ID>cover stand left leaning idle</ID><Animation><Filename>elite_h_rfl_cvrstd_lnout_idle_l.animx</Filename></Animation></State><State><ID>cover stand right leaning idle</ID><Animation><Filename>elite_h_rfl_cvrstd_lnout_idle_r.animx</Filename></Animation></State><State><ID>down ready run</ID><Animation><Filename>hvelite_snpr_dwnrd_run.animx</Filename></Animation></State><State><ID>down ready</ID><Animation><Filename>hvelite_snpr_dwnrd_std.animx</Filename></Animation></State><State><ID>down ready walk</ID><Animation><Filename>elite_h_snpr_dwnrd_wlk</Filename></Animation></State><State><ID>run ready</ID><Animation><Filename>hvelite_snpr_rd_run.animx</Filename></Animation></State><State><ID>run ready back</ID><Animation><Filename>hvelite_snpr_rd_run_bck.animx</Filename></Animation></State><State><ID>run ready left</ID><Animation><Filename>hvelite_snpr_rd_run_l.animx</Filename></Animation></State><State><ID>run ready right</ID><Animation><Filename>hvelite_snpr_rd_run_r.animx</Filename></Animation></State><State><ID>stand ready</ID><Animation><Filename>hvelite_snpr_rd_std.animx</Filename></Animation></State><State><ID>walk ready</ID><Animation><Filename>elite_h_snpr_rd_wlk</Filename></Animation></State><State><ID>walk ready back</ID><Animation><Filename>elite_h_snpr_rd_wlk_bck</Filename></Animation></State><State><ID>walk ready left</ID><Animation><Filename>elite_h_snpr_rd_wlk_l</Filename></Animation></State><State><ID>walk ready right</ID><Animation><Filename>elite_h_snpr_rd_wlk_r</Filename></Animation></State><State><ID>stand</ID><Animation><Filename>hvelite_snpr_std.animx</Filename></Animation></State><State><ID>walk</ID><Animation><Filename>elite_h_snpr_wlk</Filename></Animation></State><State><ID>cover crouch right leanup idle</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupidle_r.animx</Filename></Animation></State><State><ID>down ready walk dwn 35</ID><Animation><Filename>hvelite_snpr_dwnrd_wlk_dwn.animx</Filename></Animation></State><State><ID>walk ready back dwn 35</ID><Animation><Filename>hvelite_snpr_rdywlk_dwn_bck.animx</Filename></Animation></State><State><ID>walk ready left dwn 35</ID><Animation><Filename>hvelite_snpr_rdywlk_dwn_l.animx</Filename></Animation></State><State><ID>walk ready right dwn 35</ID><Animation><Filename>hvelite_snpr_rdywlk_dwn_r.animx</Filename></Animation></State><State><ID>walk ready 35</ID><Animation><Filename>hvelite_snpr_rd_wlk_up.animx</Filename></Animation></State><State><ID>walk ready back 35</ID><Animation><Filename>hvelite_snpr_rdywlk_up_bck.animx</Filename></Animation></State><State><ID>walk ready right 35</ID><Animation><Filename>hvelite_snpr_rdywlk_up_r.animx</Filename></Animation></State><State><ID>walk ready dwn 35</ID><Animation><Filename>hvelite_snpr_rd_wlk_dwn.animx</Filename></Animation></State><State><ID>walk dwn 35</ID><Animation><Filename>hvelite_snpr_wlk_dwn.animx</Filename></Animation></State><State><ID>walk 35</ID><Animation><Filename>hvelite_snpr_wlk_up.animx</Filename></Animation></State><State><ID>walk ready left 35</ID><Animation><Filename>hvelite_snpr_rdywlk_up_l.animx</Filename></Animation></State><State><ID>down ready walk 35</ID><Animation><Filename>hvelite_snpr_dwnrd_wlk_up.animx</Filename></Animation></State><State><ID>run ready backpedal</ID><Animation><Filename>hvelite_snpr_rd_run_bck.animx</Filename></Animation></State><State><ID>crouch ready</ID><Animation><Filename>hvelite_snpr_crchrd.animx</Filename></Animation></State><State><ID>crouch wlk rdy fwd</ID><Animation><Filename>elite_h_snpr_wlk</Filename></Animation></State><State><ID>cover stand left</ID><Animation><Filename>elite_h_rfl_cvrstd_l.animx</Filename></Animation></State><State><ID>cover stand right</ID><Animation><Filename>elite_h_rfl_cvrstd_r.animx</Filename></Animation></State><State><ID>cover crouch left</ID><Animation><Filename>elite_h_rfl_cvrcrch_l.animx</Filename></Animation></State><State><ID>cover crouch right</ID><Animation><Filename>elite_h_rfl_cvrcrch_r.animx</Filename></Animation></State><State><ID>sprint</ID><Animation><Filename>hvelite_snpr_sprint.animx</Filename></Animation></State><State><ID>run</ID><Animation><Filename>hvelite_snpr_sprint.animx</Filename></Animation></State><State><ID>walk anim</ID><Animation><Filename>hvelite_snpr_wlk.animx</Filename></Animation></State><State><ID>walk ready back anim</ID><Animation><Filename>hvelite_snpr_rd_wlk_bck.animx</Filename></Animation></State><State><ID>walk ready left anim</ID><Animation><Filename>hvelite_snpr_rdywlk_l.animx</Filename></Animation></State><State><ID>walk ready right anim</ID><Animation><Filename>hvelite_snpr_rdywlk_r.animx</Filename></Animation></State><State><ID>walk ready anim</ID><Animation><Filename>hvelite_snpr_rd_wlk.animx</Filename></Animation></State><State><ID>down ready walk anim</ID><Animation><Filename>hvelite_snpr_dwnrd_wlk.animx</Filename></Animation></State><State><ID>low control stand</ID><Animation><Filename>hvelite_snpr_low_cntrl_std.animx</Filename></Animation></State></States><Actions><Action><ID>crouch fire</ID><Animation><Filename>hvelite_snpr_crchrd_fire.animx</Filename></Animation></Action><Action><ID>crouch reload</ID><Animation><Filename>elite_h_rfl_crch_rld.animx</Filename></Animation></Action><Action><ID>cover crouch left into</ID><Animation><Filename>elite_h_rfl_cvrcrch_into_l.animx</Filename></Animation></Action><Action><ID>cover crouch right into</ID><Animation><Filename>elite_h_rfl_cvrcrch_into_r.animx</Filename></Animation></Action><Action><ID>cover crouch left lean shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnout_sht_l.animx</Filename></Animation></Action><Action><ID>cover crouch right lean shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnout_sht_r.animx</Filename></Animation></Action><Action><ID>cover crouch left leanup shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename></Animation></Action><Action><ID>reload</ID><Animation><Filename>elite_h_rfl_rd_rld.animx</Filename></Animation></Action><Action><ID>stand fire</ID><Animation><Filename>hvelite_snpr_std_fire.animx</Filename></Animation></Action><Action><ID>grenade throw</ID><Animation><Filename>elite_h_rfl_rd_toss_gnde.animx</Filename></Animation></Action><Action><ID>run fire</ID><Animation><Filename>hvelite_snpr_run_fire.animx</Filename></Animation></Action><Action><ID>run fire back</ID><Animation><Filename>hvelite_snpr_run_fire_bck.animx</Filename></Animation></Action><Action><ID>run fire left</ID><Animation><Filename>hvelite_snpr_run_fire_l.animx</Filename></Animation></Action><Action><ID>run fire right</ID><Animation><Filename>hvelite_snpr_run_fire_r.animx</Filename></Animation></Action><Action><ID>walk fire</ID><Animation><Filename>hvelite_snpr_wlk_fire.animx</Filename></Animation></Action><Action><ID>walk fire back</ID><Animation><Filename>hvelite_snpr_wlk_fire.animx</Filename></Animation></Action><Action><ID>walk fire left</ID><Animation><Filename>hvelite_snpr_wlk_fire_l.animx</Filename></Animation></Action><Action><ID>walk fire right</ID><Animation><Filename>hvelite_snpr_wlk_fire_r.animx</Filename></Animation></Action><Action><ID>cover crouch right leanup shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename></Animation></Action><Action><ID>cover stand left lean shoot</ID><Animation><Filename>elite_h_rfl_cvrstd_lnout_sht_l.animx</Filename></Animation></Action><Action><ID>cover stand right lean shoot</ID><Animation><Filename>elite_h_rfl_cvrstd_lnout_sht_r.animx</Filename></Animation></Action><Action><ID>stand dodge left</ID><Animation><Filename>elite_h_rfl_std_taunt_c.animx</Filename></Animation></Action><Action><ID>stand dodge right</ID><Animation><Filename>elite_h_rfl_std_taunt.animx</Filename></Animation></Action><Action><ID>melee</ID><Animation><Filename>elite_h_rfl_rd_mele.animx</Filename></Animation></Action><Action><ID>melee2</ID><Animation><Filename>elite_h_rfl_rd_mele.animx</Filename></Animation></Action><Action><ID>combat roll left</ID><Animation><Filename>elite_h_rfl_std_taunt_b.animx</Filename></Animation></Action><Action><ID>combat roll right</ID><Animation><Filename>elite_h_rfl_std_taunt.animx</Filename></Animation></Action><Action><ID>crouch to stand</ID><Animation><Filename>elite_h_rfl_crch-std.animx</Filename></Animation></Action><Action><ID>cover stand reload left</ID><Animation><Filename>elite_h_rfl_cvrstd_rld_l.animx</Filename></Animation></Action><Action><ID>cover stand reload right</ID><Animation><Filename>elite_h_rfl_cvrstd_rld_r.animx</Filename></Animation></Action><Action><ID>cover crouch ready right shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename></Animation></Action><Action><ID>cover crouch right ready shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename></Animation></Action><Action><ID>cover crouch left ready shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename></Animation></Action><Action><ID>cover crouch ready left shoot</ID><Animation><Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename></Animation></Action></Actions></Group></Groups><_Editor><Category>Entries</Category></_Editor></Skeleton_Set></Table><TableTemplates></TableTemplates><TableDescription><Name>Skeleton_Set</Name><Type>TableDescription</Type><Display_Name>Skeleton Set</Display_Name><Element><Name>Name</Name><Type>String</Type><Display_Name>Skeleton Name</Display_Name></Element><Element><Name>Parent_Skeleton</Name><Type>String</Type><Display_Name>Parent Skeleton</Display_Name><Required>false</Required></Element><Element><Name>Variant_Type</Name><Type>Reference</Type><Display_Name>Variant Type</Display_Name><Required>false</Required><Reference><File>anim_set_variants.xtbl</File><Type>Override.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element><Element><Name>Groups</Name><Type>Grid</Type><Element><Name>Group</Name><Type>Element</Type><Element><Name>group</Name><Type>Reference</Type><Display_Name>Group</Display_Name><Unique>true</Unique><Reference><File>anim_groups.xtbl</File><Type>Anim_Group.Name</Type></Reference></Element><Element><Name>States</Name><Type>Grid</Type><Element><Name>State</Name><Type>Element</Type><Element><Name>ID</Name><Type>Reference</Type><Reference><File>anim_states.xtbl</File><Type>State.Name</Type></Reference></Element><Element><Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element></Element><Num_Display_Rows>30</Num_Display_Rows></Element><Element><Name>Actions</Name><Type>Grid</Type><Element><Name>Action</Name><Type>Element</Type><Element><Name>ID</Name><Type>Reference</Type><Reference><File>anim_actions.xtbl</File><Type>Action.Name</Type></Reference></Element><Element><Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element></Element><Num_Display_Rows>30</Num_Display_Rows></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element></TableDescription><EntryCategories><Category><Name>Entries</Name></Category></EntryCategories></root>
+<root>
+	<Table>
+		<Skeleton_Set>
+			<Name>Heavy_Elite</Name>
+			<Parent_Skeleton>Male</Parent_Skeleton>
+			<Groups>
+				<Group>
+					<group>Default</group>
+					<States></States>
+					<Actions></Actions>
+				</Group>
+				<Group>
+					<group>Rifle</group>
+					<States>
+						<State>
+							<ID>crouch</ID>
+							<Animation>
+								<Filename>elite_h_rfl_crchrd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left leaning idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnout_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch right leaning idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnout_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left leanup idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupidle_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover stand left leaning idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_lnout_idle_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover stand right leaning idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_lnout_idle_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready run</ID>
+							<Animation>
+								<Filename>elite_h_rfl_dwnrd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready</ID>
+							<Animation>
+								<Filename>elite_h_rfl_dwnrd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk</ID>
+							<Animation>
+								<Filename>elite_h_rfl_dwnrd_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready back</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_run_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_run_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand ready</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_wlk_bck</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_wlk_l</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_wlk_r</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk</ID>
+							<Animation>
+								<Filename>elite_h_rfl_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch right leanup idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupidle_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk dwn 35</ID>
+							<Animation>
+								<Filename>elite_h_rfl_dwnrd_wlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back dwn 35</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rdywlk_dwn_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left dwn 35</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rdywlk_dwn_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right dwn 35</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rdywlk_dwn_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready 35</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rdywlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back 35</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rdywlk_up_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right 35</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rdywlk_up_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready dwn 35</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_wlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk dwn 35</ID>
+							<Animation>
+								<Filename>elite_h_rfl_wlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk 35</ID>
+							<Animation>
+								<Filename>elite_h_rfl_wlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left 35</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rdywlk_up_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk 35</ID>
+							<Animation>
+								<Filename>elite_h_rfl_dwnrd_wlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready backpedal</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch ready</ID>
+							<Animation>
+								<Filename>elite_h_rfl_crchrd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch wlk rdy fwd</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover stand left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover stand right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sprint</ID>
+							<Animation>
+								<Filename>hvelite_rfl_sprint.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run</ID>
+							<Animation>
+								<Filename>hvelite_rfl_sprint.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk anim</ID>
+							<Animation>
+								<Filename>elite_h_rfl_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back anim</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left anim</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_wlk_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right anim</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready anim</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk anim</ID>
+							<Animation>
+								<Filename>elite_h_rfl_dwnrd_wlk.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>crouch fire</ID>
+							<Animation>
+								<Filename>elite_h_rfl_crchrd_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch reload</ID>
+							<Animation>
+								<Filename>elite_h_rfl_crch_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left into</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_into_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right into</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_into_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left lean shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnout_sht_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right lean shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnout_sht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left leanup shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>reload</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand fire</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_std_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>grenade throw</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_toss_gnde.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire</ID>
+							<Animation>
+								<Filename>elite_h_rfl_runrd_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire back</ID>
+							<Animation>
+								<Filename>elite_h_rfl_runrd_fire_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_runrd_fire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_runrd_fire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire</ID>
+							<Animation>
+								<Filename>elite_h_rfl_wlk_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire back</ID>
+							<Animation>
+								<Filename>elite_h_rfl_wlk_fire_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_wlk_fire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_wlk_fire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right leanup shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand left lean shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_lnout_sht_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand right lean shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_lnout_sht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand dodge left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std_taunt_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand dodge right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std_taunt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_mele.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee2</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_mele.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>combat roll left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std_taunt_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>combat roll right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std_taunt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch to stand</ID>
+							<Animation>
+								<Filename>elite_h_rfl_crch-std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand reload left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_rld_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand reload right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_rld_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch ready right shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right ready shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left ready shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch ready left shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+				<Group>
+					<group>Railgun</group>
+					<States>
+						<State>
+							<ID>crouch</ID>
+							<Animation>
+								<Filename>hvelite_snpr_crchrd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left leaning idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnout_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch right leaning idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnout_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left leanup idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupidle_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover stand left leaning idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_lnout_idle_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover stand right leaning idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_lnout_idle_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready run</ID>
+							<Animation>
+								<Filename>hvelite_snpr_dwnrd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready</ID>
+							<Animation>
+								<Filename>hvelite_snpr_dwnrd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk</ID>
+							<Animation>
+								<Filename>elite_h_snpr_dwnrd_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready back</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready left</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_run_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready right</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_run_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand ready</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready</ID>
+							<Animation>
+								<Filename>elite_h_snpr_rd_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back</ID>
+							<Animation>
+								<Filename>elite_h_snpr_rd_wlk_bck</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left</ID>
+							<Animation>
+								<Filename>elite_h_snpr_rd_wlk_l</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right</ID>
+							<Animation>
+								<Filename>elite_h_snpr_rd_wlk_r</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand</ID>
+							<Animation>
+								<Filename>hvelite_snpr_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk</ID>
+							<Animation>
+								<Filename>elite_h_snpr_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch right leanup idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupidle_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk dwn 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_dwnrd_wlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back dwn 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_dwn_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left dwn 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_dwn_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right dwn 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_dwn_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_wlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_up_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_up_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready dwn 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_wlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk dwn 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_wlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_wlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_up_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_dwnrd_wlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready backpedal</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch ready</ID>
+							<Animation>
+								<Filename>hvelite_snpr_crchrd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch wlk rdy fwd</ID>
+							<Animation>
+								<Filename>elite_h_snpr_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover stand left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover stand right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sprint</ID>
+							<Animation>
+								<Filename>hvelite_snpr_sprint.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run</ID>
+							<Animation>
+								<Filename>hvelite_snpr_sprint.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk anim</ID>
+							<Animation>
+								<Filename>hvelite_snpr_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back anim</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left anim</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right anim</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready anim</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk anim</ID>
+							<Animation>
+								<Filename>hvelite_snpr_dwnrd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>low control stand</ID>
+							<Animation>
+								<Filename>hvelite_snpr_low_cntrl_std.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>crouch fire</ID>
+							<Animation>
+								<Filename>elite_h_rfl_crchrd_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch reload</ID>
+							<Animation>
+								<Filename>elite_h_rfl_crch_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left into</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_into_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right into</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_into_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left lean shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnout_sht_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right lean shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnout_sht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left leanup shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>reload</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand fire</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_std_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>grenade throw</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_toss_gnde.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire</ID>
+							<Animation>
+								<Filename>elite_h_rfl_runrd_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire back</ID>
+							<Animation>
+								<Filename>elite_h_rfl_runrd_fire_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_runrd_fire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_runrd_fire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire</ID>
+							<Animation>
+								<Filename>elite_h_rfl_wlk_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire back</ID>
+							<Animation>
+								<Filename>elite_h_rfl_wlk_fire_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_wlk_fire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_wlk_fire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right leanup shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand left lean shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_lnout_sht_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand right lean shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_lnout_sht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand dodge left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std_taunt_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand dodge right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std_taunt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_mele.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee2</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_mele.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>combat roll left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std_taunt_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>combat roll right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std_taunt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch to stand</ID>
+							<Animation>
+								<Filename>elite_h_rfl_crch-std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand reload left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_rld_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand reload right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_rld_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch ready right shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right ready shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left ready shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch ready left shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+				<Group>
+					<group>Sniper</group>
+					<States>
+						<State>
+							<ID>crouch</ID>
+							<Animation>
+								<Filename>hvelite_snpr_crchrd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left leaning idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnout_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch right leaning idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnout_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left leanup idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupidle_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover stand left leaning idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_lnout_idle_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover stand right leaning idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_lnout_idle_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready run</ID>
+							<Animation>
+								<Filename>hvelite_snpr_dwnrd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready</ID>
+							<Animation>
+								<Filename>hvelite_snpr_dwnrd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk</ID>
+							<Animation>
+								<Filename>elite_h_snpr_dwnrd_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready back</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready left</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_run_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready right</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_run_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand ready</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready</ID>
+							<Animation>
+								<Filename>elite_h_snpr_rd_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back</ID>
+							<Animation>
+								<Filename>elite_h_snpr_rd_wlk_bck</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left</ID>
+							<Animation>
+								<Filename>elite_h_snpr_rd_wlk_l</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right</ID>
+							<Animation>
+								<Filename>elite_h_snpr_rd_wlk_r</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand</ID>
+							<Animation>
+								<Filename>hvelite_snpr_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk</ID>
+							<Animation>
+								<Filename>elite_h_snpr_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch right leanup idle</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupidle_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk dwn 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_dwnrd_wlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back dwn 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_dwn_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left dwn 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_dwn_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right dwn 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_dwn_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_wlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_up_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_up_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready dwn 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_wlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk dwn 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_wlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_wlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_up_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk 35</ID>
+							<Animation>
+								<Filename>hvelite_snpr_dwnrd_wlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready backpedal</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch ready</ID>
+							<Animation>
+								<Filename>hvelite_snpr_crchrd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch wlk rdy fwd</ID>
+							<Animation>
+								<Filename>elite_h_snpr_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover stand left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover stand right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>cover crouch right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>sprint</ID>
+							<Animation>
+								<Filename>hvelite_snpr_sprint.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run</ID>
+							<Animation>
+								<Filename>hvelite_snpr_sprint.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk anim</ID>
+							<Animation>
+								<Filename>hvelite_snpr_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back anim</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left anim</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right anim</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rdywlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready anim</ID>
+							<Animation>
+								<Filename>hvelite_snpr_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk anim</ID>
+							<Animation>
+								<Filename>hvelite_snpr_dwnrd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>low control stand</ID>
+							<Animation>
+								<Filename>hvelite_snpr_low_cntrl_std.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>crouch fire</ID>
+							<Animation>
+								<Filename>hvelite_snpr_crchrd_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch reload</ID>
+							<Animation>
+								<Filename>elite_h_rfl_crch_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left into</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_into_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right into</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_into_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left lean shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnout_sht_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right lean shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnout_sht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left leanup shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>reload</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand fire</ID>
+							<Animation>
+								<Filename>hvelite_snpr_std_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>grenade throw</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_toss_gnde.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire</ID>
+							<Animation>
+								<Filename>hvelite_snpr_run_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire back</ID>
+							<Animation>
+								<Filename>hvelite_snpr_run_fire_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire left</ID>
+							<Animation>
+								<Filename>hvelite_snpr_run_fire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire right</ID>
+							<Animation>
+								<Filename>hvelite_snpr_run_fire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire</ID>
+							<Animation>
+								<Filename>hvelite_snpr_wlk_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire back</ID>
+							<Animation>
+								<Filename>hvelite_snpr_wlk_fire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire left</ID>
+							<Animation>
+								<Filename>hvelite_snpr_wlk_fire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk fire right</ID>
+							<Animation>
+								<Filename>hvelite_snpr_wlk_fire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right leanup shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand left lean shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_lnout_sht_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand right lean shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_lnout_sht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand dodge left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std_taunt_c.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand dodge right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std_taunt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_mele.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee2</ID>
+							<Animation>
+								<Filename>elite_h_rfl_rd_mele.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>combat roll left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std_taunt_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>combat roll right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_std_taunt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch to stand</ID>
+							<Animation>
+								<Filename>elite_h_rfl_crch-std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand reload left</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_rld_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover stand reload right</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrstd_rld_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch ready right shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch right ready shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch left ready shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>cover crouch ready left shoot</ID>
+							<Animation>
+								<Filename>elite_h_rfl_cvrcrch_lnupsht_l.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+			</Groups>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Skeleton_Set>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Skeleton_Set</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Skeleton Set</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Skeleton Name</Display_Name>
+		</Element>
+		<Element>
+			<Name>Parent_Skeleton</Name>
+			<Type>String</Type>
+			<Display_Name>Parent Skeleton</Display_Name>
+			<Required>false</Required>
+		</Element>
+		<Element>
+			<Name>Variant_Type</Name>
+			<Type>Reference</Type>
+			<Display_Name>Variant Type</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>anim_set_variants.xtbl</File>
+				<Type>Override.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Groups</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>Group</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>group</Name>
+					<Type>Reference</Type>
+					<Display_Name>Group</Display_Name>
+					<Unique>true</Unique>
+					<Reference>
+						<File>anim_groups.xtbl</File>
+						<Type>Anim_Group.Name</Type>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>States</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>State</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_states.xtbl</File>
+								<Type>State.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+				<Element>
+					<Name>Actions</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>Action</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_actions.xtbl</File>
+								<Type>Action.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

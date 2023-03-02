@@ -9,8 +9,6 @@ NOTES
 
 MISC
 ----
-* Add missing vanilla value comments from some files (time_of_day.xtbl & territories.xtbl left)
-* Add formatted versions of optimized files
 * Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)"
 
 CHARACTERS
@@ -21,8 +19,7 @@ CHARACTERS
 
 BACKPACKS
 ----------
-* Stealth pack casts player shadow for other players
-* Buffed versions of backpacks: Concussion with stronger push, jetpack with more fuel, stronger firepower etc (wip)
+* Try to fix how stealth pack casts a player shadow that other players can see
 
 TEXTURE FIXES
 -------------
@@ -34,9 +31,7 @@ WRECKING CREW MODE
 
 VEHICLES
 ---------
-* Re-port DLC vehicles to base game
-* Port base game vehicles to DLC
-* Increase LOD distances in vehicles.xtbl and add DLC vehicles commented out
+* Re-port DLC vehicles to base game when modinfo.xml is added to SF
 
 WEAPONS
 -------

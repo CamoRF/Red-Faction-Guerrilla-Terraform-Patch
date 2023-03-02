@@ -1,4 +1,4 @@
-<root> <!--Needs comments for vanilla values-->
+<root>
 	<Table>
 		<Territory>
 			<Name>terr01</Name>
@@ -18,13 +18,13 @@
 						<Grid_item>
 							<Index>0312</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0212</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 					</Grid_index>
@@ -53,7 +53,7 @@
 					<District_Flags>
 						<Flag>disable_morale_change</Flag>
 						<Flag>disable_control_change</Flag>
-						<Flag>allow_ambient_cough</Flag>
+						<Flag>allow_ambient_cough</Flag> <!--Added-->
 					</District_Flags>
 				</District>
 				<District>
@@ -66,67 +66,67 @@
 						<Grid_item>
 							<Index>0410</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0510</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0310</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0211</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0311</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0411</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0511</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0412</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0213</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0313</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0413</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 					</Grid_index>
@@ -160,7 +160,7 @@
 						<Flag>allow_amb_edf_civilian_dump</Flag>
 						<Flag>play_capstone_unlocked_lines</Flag>
 						<Flag>is_parker</Flag>
-						<Flag>allow_ambient_cough</Flag>
+						<Flag>allow_ambient_cough</Flag> <!--Added-->
 					</District_Flags>
 				</District>
 				<District>
@@ -173,109 +173,109 @@
 						<Grid_item>
 							<Index>0609</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0610</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0708</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0709</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0710</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0711</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0712</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0809</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0810</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0608</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0611</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0612</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0613</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0713</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0808</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0811</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0812</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0813</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 					</Grid_index>
@@ -382,67 +382,67 @@
 						<Grid_item>
 							<Index>1307</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1308</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1109</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1209</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1309</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1310</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0911</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1011</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1111</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1211</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1311</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 					</Grid_index>
@@ -475,7 +475,7 @@
 					<District_Flags>
 						<Flag>play_capstone_unlocked_lines</Flag>
 						<Flag>is_badlands</Flag>
-						<Flag>allow_ambient_cough</Flag>
+						<Flag>allow_ambient_cough</Flag> <!--Added-->
 					</District_Flags>
 				</District>
 				<District>
@@ -488,109 +488,109 @@
 						<Grid_item>
 							<Index>0806</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0906</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0907</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1006</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1106</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1107</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0705</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0805</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0905</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1005</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1105</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1205</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0706</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1206</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0707</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0807</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1007</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>1207</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 					</Grid_index>
@@ -625,7 +625,7 @@
 						<Flag>allow_amb_edf_civilian_dump</Flag>
 						<Flag>play_capstone_unlocked_lines</Flag>
 						<Flag>is_oasis</Flag>
-						<Flag>allow_ambient_cough</Flag>
+						<Flag>allow_ambient_cough</Flag> <!--Added-->
 					</District_Flags>
 				</District>
 				<District>
@@ -638,7 +638,7 @@
 						<Grid_item>
 							<Index>0408</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
@@ -650,7 +650,7 @@
 						<Grid_item>
 							<Index>0508</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
@@ -662,13 +662,13 @@
 						<Grid_item>
 							<Index>0308</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0309</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 					</Grid_index>
@@ -700,7 +700,7 @@
 						<load_image>FreeFire_4</load_image>
 					</load_images>
 					<District_Flags>
-						<Flag>allow_ambient_cough</Flag>
+						<Flag>allow_ambient_cough</Flag> <!--Added-->
 					</District_Flags>
 				</District>
 				<District>
@@ -713,115 +713,115 @@
 						<Grid_item>
 							<Index>0406</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0407</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0503</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0504</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0505</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0506</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0402</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0502</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0403</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0404</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0604</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0305</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0405</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0605</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0306</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0606</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0307</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0507</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0607</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 					</Grid_index>
@@ -855,7 +855,7 @@
 					<District_Flags>
 						<Flag>play_capstone_unlocked_lines</Flag>
 						<Flag>is_eos</Flag>
-						<Flag>allow_ambient_cough</Flag>
+						<Flag>allow_ambient_cough</Flag> <!--Added-->
 					</District_Flags>
 				</District>
 				<District>
@@ -868,49 +868,49 @@
 						<Grid_item>
 							<Index>0603</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0703</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0602</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0702</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0802</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0803</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0704</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 						<Grid_item>
 							<Index>0804</Index>
 							<Grid_flags>
-								<Flag>play_marauder_howl</Flag>
+								<Flag>play_marauder_howl</Flag> <!--Added-->
 							</Grid_flags>
 						</Grid_item>
 					</Grid_index>
@@ -941,7 +941,7 @@
 						<load_image>EndGame_3</load_image>
 					</load_images>
 					<District_Flags>
-						<Flag>allow_ambient_cough</Flag>
+						<Flag>allow_ambient_cough</Flag> <!--Added-->
 					</District_Flags>
 				</District>
 			</Districts>
@@ -1919,7 +1919,7 @@
 			</_Editor>
 		</Territory>
 		<Territory>
-			<Name>vwc1</Name>
+			<Name>1</Name> <!--From wc1-->
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -1963,7 +1963,7 @@
 			</_Editor>
 		</Territory>
 		<Territory>
-			<Name>vwc2</Name>
+			<Name>2</Name> <!--From wc2-->
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2007,7 +2007,7 @@
 			</_Editor>
 		</Territory>
 		<Territory>
-			<Name>vwc3</Name>
+			<Name>3</Name> <!--From wc3-->
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2051,7 +2051,7 @@
 			</_Editor>
 		</Territory>
 		<Territory>
-			<Name>vwc4</Name>
+			<Name>4</Name> <!--From wc4-->
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2095,7 +2095,7 @@
 			</_Editor>
 		</Territory>
 		<Territory>
-			<Name>vwc5</Name>
+			<Name>5</Name> <!--From wc5-->
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2139,7 +2139,7 @@
 			</_Editor>
 		</Territory>
 		<Territory>
-			<Name>vwc6</Name>
+			<Name>6</Name> <!--From wc6-->
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2183,7 +2183,7 @@
 			</_Editor>
 		</Territory>
 		<Territory>
-			<Name>vwc7</Name>
+			<Name>7</Name> <!--From wc7-->
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2227,7 +2227,7 @@
 			</_Editor>
 		</Territory>
 		<Territory>
-			<Name>vwc8</Name>
+			<Name>8</Name> <!--From wc8-->
 			<Districts>
 				<District>
 					<Name>default</Name>
@@ -2270,7 +2270,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-		<Territory>
+<!--Commented out unused test territories-->
+<!--		<Territory>
 			<Name>Town</Name>
 			<Districts>
 				<District>
@@ -3007,6 +3008,694 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
+		<Territory>
+			<Name>test_ambient_vehicle</Name>
+			<Districts>
+				<District>
+					<Name>ped_spawn_test</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_raid</Name>
+			<Districts>
+				<District>
+					<Name>ped_spawn_test</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_house_arrest</Name>
+			<Districts>
+				<District>
+					<Name>ped_spawn_test</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_luke_ow</Name>
+			<Districts>
+				<District>
+					<Name>Wastelands</Name>
+					<Control>500</Control>
+					<Control_max>500</Control_max>
+					<Morale>30</Morale>
+					<Morale_max>500</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_house_arrest</Name>
+			<Districts>
+				<District>
+					<Name>ped_spawn_test</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_assassin</Name>
+			<Districts>
+				<District>
+					<Name>ped_spawn_test</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_dfried_ambient</Name>
+			<Districts>
+				<District>
+					<Name>test_dfried_ambient</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_rob_tech_level</Name>
+			<Districts>
+				<District>
+					<Name>test_rob_tech_level</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<Tech_level>1.5</Tech_level>
+			<Tech_level_max>3.0</Tech_level_max>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_activity_spawn</Name>
+			<Districts>
+				<District>
+					<Name>test_activity_spawn</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>128</G>
+						<B>0</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_safehouse</Name>
+			<Districts>
+				<District>
+					<Name>test1</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+				<District>
+					<Name>test2</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_mg_rs</Name>
+			<Districts>
+				<District>
+					<Name>ride_shot</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index>
+						<Grid_item>
+							<Index>0101</Index>
+							<Grid_flags></Grid_flags>
+						</Grid_item>
+					</Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_dummy</Name>
+			<Districts>
+				<District>
+					<Name>test_dummy</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_mab</Name>
+			<Districts>
+				<District>
+					<Name>dust</Name>
+					<Display_name>TERR_DUST</Display_name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<Grid_index>
+						<Grid_item>
+							<Index>0808</Index>
+							<Grid_flags></Grid_flags>
+						</Grid_item>
+					</Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>1</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_ambient_spawn</Name>
+			<Districts>
+				<District>
+					<Name>ped_spawn_test</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>test_luke_ambient</Name>
+			<Districts>
+				<District>
+					<Name>spawning_test</Name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>
+		<Territory>
+			<Name>jeffk_territory</Name>
+			<Districts>
+				<District>
+					<Name>test_jeffk_Origin</Name>
+					<Control>1000</Control>
+					<Control_max>1000</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+				<District>
+					<Name>test_jeffk_Excess</Name>
+					<Control>100</Control>
+					<Control_max>1000</Control_max>
+					<Morale>50</Morale>
+					<Morale_max>1000</Morale_max>
+					<Grid_index></Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<Display_name></Display_name>
+					<liberated_tech>0.0</liberated_tech>
+					<liberated_marauder>0.0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>0</district_index>
+					<min_progression_edf>0</min_progression_edf>
+					<VFX_tint>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+		</Territory>-->
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
@@ -3129,7 +3818,7 @@
 							<Name>Grid_flags</Name>
 							<Type>Flags</Type>
 							<Display_Name>Grid flags</Display_Name>
-							<Flag>play_marauder_howl</Flag>
+							<Flag>play_marauder_howl</Flag> <!--Added-->
 						</Element>
 					</Element>
 					<Max_Children>21</Max_Children>

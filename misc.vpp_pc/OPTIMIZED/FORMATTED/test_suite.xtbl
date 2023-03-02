@@ -1,1 +1,48 @@
-<root><level>terr01_08_10</level><fps_hotspot><vec>-2307 38 -2281</vec><pitch>28.28</pitch><heading>108.55</heading></fps_hotspot><fps_hotspot><vec>-2283 14 -2337</vec><pitch>15.73</pitch><heading>36.89</heading></fps_hotspot><fps_hotspot><vec>-1792 10 -1319</vec><pitch>3.54</pitch><heading>-144.77</heading></fps_hotspot><fps_hotspot><vec>-1422 42 -1434</vec><pitch>4.94</pitch><heading>-160.87</heading></fps_hotspot><fps_hotspot><vec>-905 -19 -1247</vec><pitch>4.17</pitch><heading>17.26</heading></fps_hotspot><fps_hotspot><vec>-214 -1 -2317</vec><pitch>3.56</pitch><heading>7.39</heading></fps_hotspot><fps_hotspot><vec>-595 63 -1078</vec><pitch>20.51</pitch><heading>-121.59</heading></fps_hotspot><fps_hotspot><vec>1688 22 438</vec><pitch>6.52</pitch><heading>138.28</heading></fps_hotspot><fps_hotspot><vec>-1298 3 659</vec><pitch>1.72</pitch><heading>-25.71</heading></fps_hotspot></root>
+<root>
+	<level>terr01_08_10</level>
+	<fps_hotspot>
+		<vec>-2307 38 -2281</vec>
+		<pitch>28.28</pitch>
+		<heading>108.55</heading>
+	</fps_hotspot>
+	<fps_hotspot>
+		<vec>-2283 14 -2337</vec>
+		<pitch>15.73</pitch>
+		<heading>36.89</heading>
+	</fps_hotspot>
+	<fps_hotspot>
+		<vec>-1792 10 -1319</vec>
+		<pitch>3.54</pitch>
+		<heading>-144.77</heading>
+	</fps_hotspot>
+	<fps_hotspot>
+		<vec>-1422 42 -1434</vec>
+		<pitch>4.94</pitch>
+		<heading>-160.87</heading>
+	</fps_hotspot>
+	<fps_hotspot>
+		<vec>-905 -19 -1247</vec>
+		<pitch>4.17</pitch>
+		<heading>17.26</heading>
+	</fps_hotspot>
+	<fps_hotspot>
+		<vec>-214 -1 -2317</vec>
+		<pitch>3.56</pitch>
+		<heading>7.39</heading>
+	</fps_hotspot>
+	<fps_hotspot>
+		<vec>-595 63 -1078</vec>
+		<pitch>20.51</pitch>
+		<heading>-121.59</heading>
+	</fps_hotspot>
+	<fps_hotspot>
+		<vec>1688 22 438</vec>
+		<pitch>6.52</pitch>
+		<heading>138.28</heading>
+	</fps_hotspot>
+	<fps_hotspot>
+		<vec>-1298 3 659</vec>
+		<pitch>1.72</pitch>
+		<heading>-25.71</heading>
+	</fps_hotspot>
+</root>

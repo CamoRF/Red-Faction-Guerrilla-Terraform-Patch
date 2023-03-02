@@ -1,1 +1,365 @@
-<root><Table><Skeleton_Set><Name>Female</Name><Groups><Group><group>Default</group><States></States><Actions></Actions></Group></Groups><_Editor><Category>Entries</Category></_Editor><Parent_Skeleton>Male</Parent_Skeleton></Skeleton_Set></Table><TableTemplates></TableTemplates><TableDescription><Name>Skeleton_Set</Name><Type>TableDescription</Type><Display_Name>Skeleton Set</Display_Name><Element><Name>Name</Name><Type>String</Type><Display_Name>Skeleton Name</Display_Name><Description>The unique name for the skeleton.</Description><Unique>true</Unique></Element><Element><Name>Parent_Skeleton</Name><Type>String</Type><Display_Name>Parent Skeleton</Display_Name><Description>The parent skeleton for this skeleton.</Description><Required>false</Required></Element><Element><Name>Groups</Name><Type>Grid</Type><Element><Name>Group</Name><Type>Element</Type><Element><Name>group</Name><Type>Reference</Type><Display_Name>Group</Display_Name><Reference><File>anim_groups.xtbl</File><Type>Anim_Group.Name</Type></Reference></Element><Element><Name>States</Name><Type>Grid</Type><Description>The list of animation states for this skeleton.</Description><Element><Name>State</Name><Type>Element</Type><Description>An animation state for the skeleton.</Description><Element><Name>ID</Name><Type>Reference</Type><Description>The unique ID for this animation state.</Description><Reference><File>anim_states.xtbl</File><Type>State.Name</Type></Reference></Element><Element><Name>Animation</Name><Type>Filename</Type><Description>The animation filename for this animation state.</Description><Extension>animx</Extension><StartingPath>data\anim</StartingPath></Element><Element><Name>morph_set</Name><Type>Reference</Type><Display_Name>Morph Set</Display_Name><Required>false</Required><Reference><File>morphs.xtbl</File><Type>morph_set.Name</Type></Reference></Element><Element><Name>Triggers</Name><Type>Grid</Type><Description>The triggers for this animation state.</Description><Element><Name>Trigger</Name><Type>Element</Type><Description>A single trigger.</Description><Element><Name>Name</Name><Type>Reference</Type><Description>The name for this trigger.</Description><Reference><File>anim_triggers.xtbl</File><Type>Trigger.Name</Type></Reference></Element><Element><Name>Frame</Name><Type>Int</Type><Description>The frame number for the trigger.</Description><Default>0</Default></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element><Element><Name>IKs</Name><Type>Grid</Type><Element><Name>IK</Name><Type>Element</Type><Element><Name>Enable</Name><Type>Selection</Type><Display_Name>Enable IK</Display_Name><Default>True</Default><Choice>True</Choice><Choice>False</Choice></Element><Element><Name>Location</Name><Type>Selection</Type><Default>Left Hand</Default><Choice>Left Hand</Choice></Element><Element><Name>Frame</Name><Type>Int</Type><Default>0</Default></Element><Element><Name>Blend</Name><Type>Int</Type><Default>3</Default></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element><Element><Name>Sound</Name><Type>Element</Type><Description>The sound for this state.</Description><Required>false</Required><Element><Name>ID</Name><Type>Reference</Type><Description>The ID for the sound for this state (from foley.xtbl).</Description><Reference><File>anim_foley.xtbl</File><Type>AnimFoley.Name</Type></Reference></Element></Element></Element><Num_Display_Rows>20</Num_Display_Rows></Element><Element><Name>Actions</Name><Type>Grid</Type><Description>The list of animation actions for this skeleton.</Description><Element><Name>Action</Name><Type>Element</Type><Description>An animation state for the skeleton.</Description><Element><Name>ID</Name><Type>Reference</Type><Description>The unique ID for this animation state.</Description><Reference><File>anim_actions.xtbl</File><Type>Action.Name</Type></Reference></Element><Element><Name>Animation</Name><Type>Filename</Type><Description>The animation filename for this animation state.</Description><Extension>animx</Extension><StartingPath>data\anim</StartingPath></Element><Element><Name>morph_set</Name><Type>Reference</Type><Display_Name>Morph Set</Display_Name><Required>false</Required><Reference><File>morphs.xtbl</File><Type>morph_set.Name</Type></Reference></Element><Element><Name>Triggers</Name><Type>Grid</Type><Description>The triggers for this animation state.</Description><Element><Name>Trigger</Name><Type>Element</Type><Description>A single trigger.</Description><Element><Name>Name</Name><Type>Reference</Type><Description>The name for this trigger.</Description><Reference><File>anim_triggers.xtbl</File><Type>Trigger.Name</Type></Reference></Element><Element><Name>Frame</Name><Type>Int</Type><Description>The frame number for the trigger.</Description><Default>0</Default></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element><Element><Name>Props</Name><Type>Grid</Type><Description>Prop controls on this animation.</Description><Required>false</Required><Element><Name>Prop</Name><Type>Element</Type><Element><Name>Owner</Name><Type>Selection</Type><Choice>Self</Choice><Choice>Item</Choice><Choice>Offhand-Item</Choice><Choice>Parent</Choice></Element><Element><Name>Owner_Child</Name><Type>Reference</Type><Required>false</Required><Reference><File>Prop_system_type.xtbl</File><Type>NewEntity.Name</Type></Reference></Element><Element><Name>Type</Name><Type>Reference</Type><Reference><File>Prop_system_type.xtbl</File><Type>NewEntity.Name</Type></Reference></Element><Element><Name>Action</Name><Type>Reference</Type><Reference><File>Prop_system_actions.xtbl</File><Type>NewEntry.Name</Type></Reference></Element><Element><Name>Frame</Name><Type>Int</Type><Default>0</Default></Element><Element><Name>Dest_Owner</Name><Type>Selection</Type><Required>false</Required><Choice>Self</Choice><Choice>Item</Choice><Choice>Offhand-Item</Choice><Choice>Parent</Choice><Choice>World</Choice></Element><Element><Name>Dest_Owner_Child</Name><Type>Reference</Type><Required>false</Required><Reference><File>Prop_system_type.xtbl</File><Type>NewEntity.Name</Type></Reference></Element><Element><Name>Dest_Tag</Name><Type>Selection</Type><Required>false</Required><Choice>Mainhand</Choice><Choice>Offhand</Choice><Choice>(Named)</Choice></Element><Element><Name>Dest_Tag_Name</Name><Type>String</Type><Required>false</Required></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element><Element><Name>IKs</Name><Type>Grid</Type><Element><Name>IK</Name><Type>Element</Type><Element><Name>Enable</Name><Type>Selection</Type><Display_Name>Enable IK</Display_Name><Default>True</Default><Choice>True</Choice><Choice>False</Choice></Element><Element><Name>Location</Name><Type>Selection</Type><Default>Left Hand</Default><Choice>Left Hand</Choice><Choice>Right Hand</Choice></Element><Element><Name>Frame</Name><Type>Int</Type><Default>0</Default></Element><Element><Name>Blend</Name><Type>Int</Type><Default>3</Default></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element><Element><Name>Sound</Name><Type>Element</Type><Description>The sound for this state.</Description><Required>false</Required><Element><Name>ID</Name><Type>Reference</Type><Description>The ID for the sound for this state (from foley.xtbl).</Description><Reference><File>anim_foley.xtbl</File><Type>AnimFoley.Name</Type></Reference></Element></Element></Element><Num_Display_Rows>20</Num_Display_Rows></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element></TableDescription><EntryCategories><Category><Name>Entries</Name></Category></EntryCategories></root>
+<root>
+	<Table>
+		<Skeleton_Set>
+			<Name>Female</Name>
+			<Groups>
+				<Group>
+					<group>Default</group>
+					<States></States>
+					<Actions></Actions>
+				</Group>
+			</Groups>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Parent_Skeleton>Male</Parent_Skeleton>
+		</Skeleton_Set>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Skeleton_Set</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Skeleton Set</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Skeleton Name</Display_Name>
+			<Description>The unique name for the skeleton.</Description>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>Parent_Skeleton</Name>
+			<Type>String</Type>
+			<Display_Name>Parent Skeleton</Display_Name>
+			<Description>The parent skeleton for this skeleton.</Description>
+			<Required>false</Required>
+		</Element>
+		<Element>
+			<Name>Groups</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>Group</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>group</Name>
+					<Type>Reference</Type>
+					<Display_Name>Group</Display_Name>
+					<Reference>
+						<File>anim_groups.xtbl</File>
+						<Type>Anim_Group.Name</Type>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>States</Name>
+					<Type>Grid</Type>
+					<Description>The list of animation states for this skeleton.</Description>
+					<Element>
+						<Name>State</Name>
+						<Type>Element</Type>
+						<Description>An animation state for the skeleton.</Description>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Description>The unique ID for this animation state.</Description>
+							<Reference>
+								<File>anim_states.xtbl</File>
+								<Type>State.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Description>The animation filename for this animation state.</Description>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+						</Element>
+						<Element>
+							<Name>morph_set</Name>
+							<Type>Reference</Type>
+							<Display_Name>Morph Set</Display_Name>
+							<Required>false</Required>
+							<Reference>
+								<File>morphs.xtbl</File>
+								<Type>morph_set.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Triggers</Name>
+							<Type>Grid</Type>
+							<Description>The triggers for this animation state.</Description>
+							<Element>
+								<Name>Trigger</Name>
+								<Type>Element</Type>
+								<Description>A single trigger.</Description>
+								<Element>
+									<Name>Name</Name>
+									<Type>Reference</Type>
+									<Description>The name for this trigger.</Description>
+									<Reference>
+										<File>anim_triggers.xtbl</File>
+										<Type>Trigger.Name</Type>
+									</Reference>
+								</Element>
+								<Element>
+									<Name>Frame</Name>
+									<Type>Int</Type>
+									<Description>The frame number for the trigger.</Description>
+									<Default>0</Default>
+								</Element>
+							</Element>
+							<Num_Display_Rows>8</Num_Display_Rows>
+						</Element>
+						<Element>
+							<Name>IKs</Name>
+							<Type>Grid</Type>
+							<Element>
+								<Name>IK</Name>
+								<Type>Element</Type>
+								<Element>
+									<Name>Enable</Name>
+									<Type>Selection</Type>
+									<Display_Name>Enable IK</Display_Name>
+									<Default>True</Default>
+									<Choice>True</Choice>
+									<Choice>False</Choice>
+								</Element>
+								<Element>
+									<Name>Location</Name>
+									<Type>Selection</Type>
+									<Default>Left Hand</Default>
+									<Choice>Left Hand</Choice>
+								</Element>
+								<Element>
+									<Name>Frame</Name>
+									<Type>Int</Type>
+									<Default>0</Default>
+								</Element>
+								<Element>
+									<Name>Blend</Name>
+									<Type>Int</Type>
+									<Default>3</Default>
+								</Element>
+							</Element>
+							<Num_Display_Rows>8</Num_Display_Rows>
+						</Element>
+						<Element>
+							<Name>Sound</Name>
+							<Type>Element</Type>
+							<Description>The sound for this state.</Description>
+							<Required>false</Required>
+							<Element>
+								<Name>ID</Name>
+								<Type>Reference</Type>
+								<Description>The ID for the sound for this state (from foley.xtbl).</Description>
+								<Reference>
+									<File>anim_foley.xtbl</File>
+									<Type>AnimFoley.Name</Type>
+								</Reference>
+							</Element>
+						</Element>
+					</Element>
+					<Num_Display_Rows>20</Num_Display_Rows>
+				</Element>
+				<Element>
+					<Name>Actions</Name>
+					<Type>Grid</Type>
+					<Description>The list of animation actions for this skeleton.</Description>
+					<Element>
+						<Name>Action</Name>
+						<Type>Element</Type>
+						<Description>An animation state for the skeleton.</Description>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Description>The unique ID for this animation state.</Description>
+							<Reference>
+								<File>anim_actions.xtbl</File>
+								<Type>Action.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Description>The animation filename for this animation state.</Description>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+						</Element>
+						<Element>
+							<Name>morph_set</Name>
+							<Type>Reference</Type>
+							<Display_Name>Morph Set</Display_Name>
+							<Required>false</Required>
+							<Reference>
+								<File>morphs.xtbl</File>
+								<Type>morph_set.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Triggers</Name>
+							<Type>Grid</Type>
+							<Description>The triggers for this animation state.</Description>
+							<Element>
+								<Name>Trigger</Name>
+								<Type>Element</Type>
+								<Description>A single trigger.</Description>
+								<Element>
+									<Name>Name</Name>
+									<Type>Reference</Type>
+									<Description>The name for this trigger.</Description>
+									<Reference>
+										<File>anim_triggers.xtbl</File>
+										<Type>Trigger.Name</Type>
+									</Reference>
+								</Element>
+								<Element>
+									<Name>Frame</Name>
+									<Type>Int</Type>
+									<Description>The frame number for the trigger.</Description>
+									<Default>0</Default>
+								</Element>
+							</Element>
+							<Num_Display_Rows>8</Num_Display_Rows>
+						</Element>
+						<Element>
+							<Name>Props</Name>
+							<Type>Grid</Type>
+							<Description>Prop controls on this animation.</Description>
+							<Required>false</Required>
+							<Element>
+								<Name>Prop</Name>
+								<Type>Element</Type>
+								<Element>
+									<Name>Owner</Name>
+									<Type>Selection</Type>
+									<Choice>Self</Choice>
+									<Choice>Item</Choice>
+									<Choice>Offhand-Item</Choice>
+									<Choice>Parent</Choice>
+								</Element>
+								<Element>
+									<Name>Owner_Child</Name>
+									<Type>Reference</Type>
+									<Required>false</Required>
+									<Reference>
+										<File>Prop_system_type.xtbl</File>
+										<Type>NewEntity.Name</Type>
+									</Reference>
+								</Element>
+								<Element>
+									<Name>Type</Name>
+									<Type>Reference</Type>
+									<Reference>
+										<File>Prop_system_type.xtbl</File>
+										<Type>NewEntity.Name</Type>
+									</Reference>
+								</Element>
+								<Element>
+									<Name>Action</Name>
+									<Type>Reference</Type>
+									<Reference>
+										<File>Prop_system_actions.xtbl</File>
+										<Type>NewEntry.Name</Type>
+									</Reference>
+								</Element>
+								<Element>
+									<Name>Frame</Name>
+									<Type>Int</Type>
+									<Default>0</Default>
+								</Element>
+								<Element>
+									<Name>Dest_Owner</Name>
+									<Type>Selection</Type>
+									<Required>false</Required>
+									<Choice>Self</Choice>
+									<Choice>Item</Choice>
+									<Choice>Offhand-Item</Choice>
+									<Choice>Parent</Choice>
+									<Choice>World</Choice>
+								</Element>
+								<Element>
+									<Name>Dest_Owner_Child</Name>
+									<Type>Reference</Type>
+									<Required>false</Required>
+									<Reference>
+										<File>Prop_system_type.xtbl</File>
+										<Type>NewEntity.Name</Type>
+									</Reference>
+								</Element>
+								<Element>
+									<Name>Dest_Tag</Name>
+									<Type>Selection</Type>
+									<Required>false</Required>
+									<Choice>Mainhand</Choice>
+									<Choice>Offhand</Choice>
+									<Choice>(Named)</Choice>
+								</Element>
+								<Element>
+									<Name>Dest_Tag_Name</Name>
+									<Type>String</Type>
+									<Required>false</Required>
+								</Element>
+							</Element>
+							<Num_Display_Rows>8</Num_Display_Rows>
+						</Element>
+						<Element>
+							<Name>IKs</Name>
+							<Type>Grid</Type>
+							<Element>
+								<Name>IK</Name>
+								<Type>Element</Type>
+								<Element>
+									<Name>Enable</Name>
+									<Type>Selection</Type>
+									<Display_Name>Enable IK</Display_Name>
+									<Default>True</Default>
+									<Choice>True</Choice>
+									<Choice>False</Choice>
+								</Element>
+								<Element>
+									<Name>Location</Name>
+									<Type>Selection</Type>
+									<Default>Left Hand</Default>
+									<Choice>Left Hand</Choice>
+									<Choice>Right Hand</Choice>
+								</Element>
+								<Element>
+									<Name>Frame</Name>
+									<Type>Int</Type>
+									<Default>0</Default>
+								</Element>
+								<Element>
+									<Name>Blend</Name>
+									<Type>Int</Type>
+									<Default>3</Default>
+								</Element>
+							</Element>
+							<Num_Display_Rows>8</Num_Display_Rows>
+						</Element>
+						<Element>
+							<Name>Sound</Name>
+							<Type>Element</Type>
+							<Description>The sound for this state.</Description>
+							<Required>false</Required>
+							<Element>
+								<Name>ID</Name>
+								<Type>Reference</Type>
+								<Description>The ID for the sound for this state (from foley.xtbl).</Description>
+								<Reference>
+									<File>anim_foley.xtbl</File>
+									<Type>AnimFoley.Name</Type>
+								</Reference>
+							</Element>
+						</Element>
+					</Element>
+					<Num_Display_Rows>20</Num_Display_Rows>
+				</Element>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

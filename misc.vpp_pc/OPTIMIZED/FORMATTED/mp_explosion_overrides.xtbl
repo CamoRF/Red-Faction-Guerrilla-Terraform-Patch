@@ -1,1 +1,52 @@
-<root><Table></Table><TableTemplates></TableTemplates><TableDescription><Name>mp_explosions</Name><Type>TableDescription</Type><Element><Name>Name</Name><Type>Reference</Type><Reference><File>explosions.xtbl</File><Type>Explosion.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element><Element><Name>KnockdownRadius</Name><Type>Float</Type><Display_Name>Human Damage Radius</Display_Name><Description>The distance at which the damage to humans falls off to 0.</Description><Required>false</Required><Default>0.0</Default></Element><Element><Name>Human_Damage_Max</Name><Type>Int</Type><Display_Name>Maximum Human Damage</Display_Name><Description>Amount of hitpoints to do at the exact center of the explosion to humans.</Description><Required>false</Required><Default>0</Default></Element><Element><Name>human_damage_min</Name><Type>Int</Type><Display_Name>Blast Radius Human Damage</Display_Name><Description>Amount of hitpoints to do at the Blast Radius of the explosion to humans.  Fades off to 0 automatically at Human Damage Radius.</Description><Required>false</Required><Default>0</Default></Element><Element><Name>Impulse</Name><Type>Float</Type><Required>false</Required><Default>0</Default></Element></TableDescription><EntryCategories><Category><Name>Entries</Name></Category></EntryCategories></root>
+<root>
+	<Table></Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>mp_explosions</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>explosions.xtbl</File>
+				<Type>Explosion.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>KnockdownRadius</Name>
+			<Type>Float</Type>
+			<Display_Name>Human Damage Radius</Display_Name>
+			<Description>The distance at which the damage to humans falls off to 0.</Description>
+			<Required>false</Required>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>Human_Damage_Max</Name>
+			<Type>Int</Type>
+			<Display_Name>Maximum Human Damage</Display_Name>
+			<Description>Amount of hitpoints to do at the exact center of the explosion to humans.</Description>
+			<Required>false</Required>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>human_damage_min</Name>
+			<Type>Int</Type>
+			<Display_Name>Blast Radius Human Damage</Display_Name>
+			<Description>Amount of hitpoints to do at the Blast Radius of the explosion to humans.  Fades off to 0 automatically at Human Damage Radius.</Description>
+			<Required>false</Required>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>Impulse</Name>
+			<Type>Float</Type>
+			<Required>false</Required>
+			<Default>0</Default>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

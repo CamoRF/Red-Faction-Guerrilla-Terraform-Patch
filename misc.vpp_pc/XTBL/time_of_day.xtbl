@@ -1,4 +1,4 @@
-<root> <!--Needs comments for vanilla values-->
+<root>
 	<Table>
 		<TimeOfDay>
 			<Name>Sunrise</Name>
@@ -30,14 +30,14 @@
 						</Pos4>
 					</Skybox>
 					<AmbientLight>
-						<X>255</X>
-						<Y>255</Y>
-						<Z>255</Z>
+						<X>128</X> <!--From 0-->
+						<Y>128</Y> <!--From 0-->
+						<Z>128</Z> <!--From 0-->
 					</AmbientLight>
 					<SunLight>
-						<X>255</X>
-						<Y>255</Y>
-						<Z>255</Z>
+						<X>128</X> <!--From 0-->
+						<Y>128</Y> <!--From 0-->
+						<Z>128</Z> <!--From 0-->
 					</SunLight>
 					<MoonLight>
 						<X>0</X>
@@ -45,9 +45,9 @@
 						<Z>0</Z>
 					</MoonLight>
 					<FillLight>
-						<X>255</X>
-						<Y>255</Y>
-						<Z>255</Z>
+						<X>128</X> <!--From 0-->
+						<Y>128</Y> <!--From 0-->
+						<Z>128</Z> <!--From 0-->
 					</FillLight>
 				</Colors>
 			</Parameters>
@@ -84,14 +84,14 @@
 						</Pos4>
 					</Skybox>
 					<AmbientLight>
-						<X>255</X>
-						<Y>255</Y>
-						<Z>255</Z>
+						<X>255</X> <!--From 0-->
+						<Y>255</Y> <!--From 0-->
+						<Z>255</Z> <!--From 0-->
 					</AmbientLight>
 					<SunLight>
-						<X>255</X>
-						<Y>255</Y>
-						<Z>255</Z>
+						<X>255</X> <!--From 0-->
+						<Y>255</Y> <!--From 0-->
+						<Z>255</Z> <!--From 0-->
 					</SunLight>
 					<MoonLight>
 						<X>0</X>
@@ -99,9 +99,9 @@
 						<Z>0</Z>
 					</MoonLight>
 					<FillLight>
-						<X>255</X>
-						<Y>255</Y>
-						<Z>255</Z>
+						<X>255</X> <!--From 0-->
+						<Y>255</Y> <!--From 0-->
+						<Z>255</Z> <!--From 0-->
 					</FillLight>
 				</Colors>
 			</Parameters>
@@ -138,14 +138,14 @@
 						</Pos4>
 					</Skybox>
 					<AmbientLight>
-						<X>255</X>
-						<Y>255</Y>
-						<Z>255</Z>
+						<X>128</X> <!--From 0-->
+						<Y>128</Y> <!--From 0-->
+						<Z>128</Z> <!--From 0-->
 					</AmbientLight>
 					<SunLight>
-						<X>255</X>
-						<Y>255</Y>
-						<Z>255</Z>
+						<X>128</X> <!--From 0-->
+						<Y>128</Y> <!--From 0-->
+						<Z>128</Z> <!--From 0-->
 					</SunLight>
 					<MoonLight>
 						<X>0</X>
@@ -153,9 +153,9 @@
 						<Z>0</Z>
 					</MoonLight>
 					<FillLight>
-						<X>255</X>
-						<Y>255</Y>
-						<Z>255</Z>
+						<X>128</X> <!--From 0-->
+						<Y>128</Y> <!--From 0-->
+						<Z>128</Z> <!--From 0-->
 					</FillLight>
 				</Colors>
 			</Parameters>
@@ -202,9 +202,9 @@
 						<Z>0</Z>
 					</SunLight>
 					<MoonLight>
-						<X>255</X>
-						<Y>255</Y>
-						<Z>255</Z>
+						<X>255</X> <!--From 0-->
+						<Y>255</Y> <!--From 0-->
+						<Z>255</Z> <!--From 0-->
 					</MoonLight>
 					<FillLight>
 						<X>0</X>

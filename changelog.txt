@@ -615,3 +615,17 @@ v1.07 ALPHA CHANGES
 * Various other fixes, improvements & adjustments to player, weapon & backpack spawns on all multiplayer & wrecking crew maps
 * Various other fixes, improvements & adjustments to all multiplayer & wrecking crew maps
 * Various other fixes, optimizations & stability improvements
+
+---------------------
+v1.07.1 ALPHA CHANGES
+---------------------
+
+[Misc]
+* Added some missing comments from various files so it's easier to see exactly what the patch modifies in each .xtbl file
+
+[New Backpacks]
+* Added overpowered versions of the following backpacks that can only be selected in custom matches and don't replace the originals: Jetpack, Thrust, Concussion & Rhino
+* Added an experimental Repair backback that can only be selected in custom matches, it repairs structures around the player when used
+
+[Fixes]
+* Fixed wrecking crew map names in territories.xtbl, forgot to rename them after restoring them as new files
