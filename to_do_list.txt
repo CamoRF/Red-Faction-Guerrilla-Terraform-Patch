@@ -31,6 +31,8 @@ MAPS
 * Doublecheck if sun texture is broken on assembly/outpost
 * Ruins: More heat haze probes on Ruins where it's missing the effect
 * King of the Hill targets, Flag capture zones, Spawn nodes, Spectator cameras have values related to backpack racks which are possibly redundant, test if removing these doesn't break objectives.
+* Aerial Excavation: Move bag spawn location
+* KOTH Equil: Fix ladders for towers on islands and backpack that clips through one of them
 
 LOW PRIORITY MAP STUFF
 -----------------------
@@ -86,8 +88,9 @@ WEAPONS
 * Spiker: still too weak, takes a lot of shots to kill, maybe increase clip size slightly and increase damage, increase headshot multiplier
 * Reconstructor effect not appearing randomly, test if restarting game fixes it
 * Make sure sniper and rail driver have hitscan, they both use bullet for ammo_type which is described as hit detection occurs immediately on trigger pull. Maybe the trail effect is delayed or the projectile isn't fast enough?
-* Reduce or remove sledge hammer aim assist: there's a variable for it set to 0.75 in weapons.xtbl
+* Reduce or remove sledge hammer aim assist?: there's a variable for it set to 0.75 in weapons.xtbl
 * Pistol: too finnicky to use?
+* Rail driver: maybe it should turn red at a longer distance, maybe the start and max speed for the projectile should be the same?
 
 RUINS INTERIOR MAP
 ------------------
