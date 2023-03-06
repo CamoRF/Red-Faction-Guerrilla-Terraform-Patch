@@ -620,6 +620,11 @@ v1.07 ALPHA CHANGES
 v1.07.1 PRE ALPHA CHANGES (NOT RELEASED)
 ----------------------------------------
 
+[Rail Driver]
+* Reduced spread at max range to 0.0 from 1.3
+* Reduced spread at min range to 0.0 from 0.3
+* Reduced spread when aiming at max range to 0.0 from 0.6
+
 [Misc]
 * Added some missing comments to various files so it's easier to see exactly what the patch modifies in each .xtbl file
 
@@ -629,3 +634,5 @@ v1.07.1 PRE ALPHA CHANGES (NOT RELEASED)
 
 [Fixes]
 * Fixed incorrect wrecking crew map names in territories.xtbl, forgot to rename them after restoring them as new files
+* Fixed issue with missing ladders on Equilbrium King of the Hill
+* Fixed issue with bag location on Aerial Excavation causing it to clip through the map making it impossible to obtain

@@ -31,8 +31,8 @@ MAPS
 * Doublecheck if sun texture is broken on assembly/outpost
 * Ruins: More heat haze probes on Ruins where it's missing the effect
 * King of the Hill targets, Flag capture zones, Spawn nodes, Spectator cameras have values related to backpack racks which are possibly redundant, test if removing these doesn't break objectives.
-* Aerial Excavation: Move bag spawn location
-* KOTH Equil: Fix ladders for towers on islands and backpack that clips through one of them
+* Aerial Excavation: Move bag spawn location (done, just need to convert the map into a new map file (mp_3) and wait for the SF update to support updating new map files with .xdeltas
+* KOTH Equil: Fix ladders for towers on islands and backpack that clips through one of them (done, just need to convert the map into a new map file (mp_2) and wait for SF update to support updating new map files with .xdeltas
 
 LOW PRIORITY MAP STUFF
 -----------------------
