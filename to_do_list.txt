@@ -5,7 +5,7 @@ TO DO LIST
 NOTES
 -----
 * rfgcommunitypatch
-* rfgcommunityupdateX
+* rfgcommunityupdate2
 
 MAPS
 ----
@@ -35,7 +35,6 @@ LOW PRIORITY MAP STUFF
 SIEGE MAPS
 -----------
 * Siege maps: more backpack spawns when played in other modes
-
 * New siege maps: Add team spawn children to siege objectives
 * Quarantine siege and new map file version: Add more spectator cameras outside the map
 
@@ -51,7 +50,6 @@ EXPERIMENTS/NOTES
 
 MISC
 ----
-
 * Fix broken sun texture on Assembly/Outpost
 * Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)" probably related to increasing decal lifetimes too much
 

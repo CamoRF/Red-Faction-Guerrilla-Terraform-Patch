@@ -633,7 +633,7 @@ v1.07.1 ALPHA CHANGES
 [Maps]
 * Added CTF & Damage Control to Framework
 * Added CTF & Damage Control to Vista
-* Disabled custom maps temporarily as it's not possible to .xdelta patch them the new bug fixes until SyncFaction supports it
+* Disabled custom maps temporarily as it's not possible to .xdelta patch them with the new bug fixes until SyncFaction supports it
 * Slightly adjusted minefields on Scrapheap
 
 [Weapons]
@@ -646,12 +646,12 @@ v1.07.1 ALPHA CHANGES
 * Reduced spread when aiming at max range to 0.0 from 0.6
 
 [Fixes]
-* Fixed incorrect wrecking crew map names in territories.xtbl, forgot to rename them after restoring them as new files
-* Fixed Damage Control available to select in custom games for Ruins when the mode isn't implemented yet
+* Fixed incorrect Wrecking Crew map names in territories.xtbl, forgot to rename them after restoring them as new files
+* Fixed Damage Control being available to select for Ruins when the mode isn't implemented yet
 * Fixed CTF not working on Watchtower
 * Fixed CTF not working on Fortress
 * Fixed Damage Control not working on Repercussion
-* Fixed missing "initial_spawn" & "respawn booleans" for player spawns on various maps in case it was causing issues with certain players not being able to spawn in FFA modes
+* Fixed missing "initial_spawn" & "respawn" booleans for player spawns on various maps in case it was causing issues with certain players not being able to spawn in FFA modes
 * Fixed duplicate bagman spawn on Pipeline
 * Fixed duplicate flag stands on Transmission
 * Fixed some spawns on various maps

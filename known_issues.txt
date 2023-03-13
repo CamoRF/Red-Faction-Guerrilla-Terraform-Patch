@@ -23,6 +23,7 @@
 * Expansion: Killbox near cliff warning sign needs refinement
 * Frost: Sections of the crane & smokestack can float when they are partially destroyed
 * Ruins: Damage Control currently crashes for unknown reason so that mode isn't implemented on this map yet
+* Outpost: Broken sun texture
 * Invasion: Slightly floating jetpack rack at 258.927, -21.505, -242.310
 * Nanoforge issue: Cloned objects not having gravity not apply to them (see Expansion, Frost, Aerial Excavation)
 * Nanoforge issue: Cloned objects that have constaints having strange physics (see Frost)
