@@ -1,8 +1,9 @@
 <root>
 	<Table>		
 <!--MENU_PLYLST_PATCH_35 = Partial Recall-->		
-		<mp_level_list>
-			<Name>mp1</Name> <!--Siege Quarantine-->
+		<!--Siege Quarantine-->
+<!--		<mp_level_list>
+			<Name>mp1</Name>
 			<Filename>mp_1</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
@@ -35,9 +36,10 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Quarantine</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
-		</mp_level_list>	
-		<mp_level_list>
-			<Name>mp2</Name> <!--Equilibrium King of the Hill-->
+		</mp_level_list>-->	
+<!--Equilibrium King of the Hill-->		
+		<!--<mp_level_list>
+			<Name>mp2</Name> 
 			<Filename>mp_2</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
@@ -70,9 +72,10 @@
 			<ideal_max_players>10</ideal_max_players>
 			<Load_image>Equilibrium</Load_image>
 			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
-		</mp_level_list>
-		<mp_level_list>
-			<Name>mp3</Name> <!--Aerial Excavation-->
+		</mp_level_list>-->
+<!--Aerial Excavation-->		
+		<!--<mp_level_list>
+			<Name>mp3</Name> 
 			<Filename>mp_3</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
@@ -102,9 +105,10 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Excavation</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
-		</mp_level_list>
-		<mp_level_list>
-			<Name>mp4</Name> <!--Pipeline Pitfalls-->
+		</mp_level_list>-->
+<!--Pipeline Pitfalls-->		
+		<!--<mp_level_list>
+			<Name>mp4</Name>
 			<Filename>mp_4</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
@@ -116,7 +120,7 @@
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_pipeline</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>True</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
 			<Display_name>MENU_CUSTOM_GAME</Display_name>
@@ -132,7 +136,7 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Pipeline</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>-->
 <!--		<mp_level_list>
 			<Name>mp5</Name>
 			<Filename>mp_5</Filename>

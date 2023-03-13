@@ -9,50 +9,51 @@ NOTES
 
 MAPS
 ----
-* Disable power weapons on maps until we can figure out a way to rebalance them? (Super Gauss, Misslepod)
-* Imperial: Place artillery sign near the out of bounds rock
-* Watchtower: Place artillery sign near the out of bounds rock
-* Siege maps: more backpack spawns when played in other modes, add propane tank weapons near attacker spawn
-* All maps: more DLC weapon spawns, Double check all spawns have "initial spawn" and "respawn enabled" along with neutral spawn gamemode flags disabled in CTF on all regular mp maps, Doublecheck all backpack racks and DCT racks are persistent, along with their children, Enable all objects in inspector in case there's weird cover nodes etc on all maps
-* New siege maps: Add team spawn children to siege objectives
+* Overpass: Add CTF
+* Ruins: Add Damage Control
+* Scrapheap: Add CTF & Damage Control
+
+LOW PRIORITY MAP STUFF
+-----------------------
+
 * Expansion: Killbox near cliff warning sign needs refinement
 * Invasion: Add more backpack racks: 289.140, -22.873, -205.479 & 327.849, -24.000, -242.271
 * Invasion: Fix slightly floating jetpack rack at 258.927, -21.505, -242.310
 * Invasion: Transfer asset and add marauder crates from Expansion
-* Gulch: Add more buildings, fences and smokestacks when nanoforge rewrite is out
 * Transmission: Add Weapon spawn: 143.948, 12.515, -268.604
 * Transmission: Add some walls when Nanoforge rewrite is out
+* Imperial: Place artillery sign near the out of bounds rock
+* Watchtower: Place artillery sign near the out of bounds rock
+* Gulch: Add more buildings, fences and smokestacks when nanoforge rewrite is out
 * Vista: Add jetpack spawn
-* Framework: Add CTF & Damage Control
-* Flag stands and damage control targets don't need to be persistent
-* Make sure neutral spawns are enabled on CTF WC maps
-* Disable CTF on WC maps without team spawns
-* Disable siege on new maps without proper spawns?
-* Doublecheck if sun texture is broken on assembly/outpost
-* Ruins: More heat haze probes on Ruins where it's missing the effect
-* King of the Hill targets, Flag capture zones, Spawn nodes, Spectator cameras have values related to backpack racks which are possibly redundant, test if removing these doesn't break objectives.
-* Aerial Excavation: Move bag spawn location (done, just need to convert the map into a new map file (mp_3) and wait for the SF update to support updating new map files with .xdeltas
-* KOTH Equil: Fix ladders for towers on islands and backpack that clips through one of them (done, just need to convert the map into a new map file (mp_2) and wait for SF update to support updating new map files with .xdeltas
-
-LOW PRIORITY MAP STUFF
------------------------
-* Siege maps has something with persistent flags used on most objects
-* Siege maps persistent objects other than the objective don't spawn? or is it just framework?
-* Test adding multiple bagman spawns to randomize where it respawns 
-* Test adding more than 2 flag stands
-* Ladders: does making them orphans make them remain usable for longer when buildings are partially damaged?
 * Frost: The crane is glitchy, cloned floating smokestack when bottom is destroyed, place barrels up on high cliff where buildings collapse, Garrison time of day as alternative?
 * Expansion: cloned floating crates when bridge is destroyed
-* Scrapheap: Add damage control & CTF 
-* Vista: Add damage control & CTF
-* Ruins: Add damage control
-* Framework: Move flag stands, EDF spawn on top of the hill behind the buildings, RF spawn at the back near the mines and re-enable it in mp_levels.xtbl
-* Framework: MP version of crane asset?
+* Aerial Excavation: Move bag spawn location (done, just need to convert the map into a new map file (mp_3) and wait for the SF update to support updating new map files with .xdeltas
+* KOTH Equil: Fix ladders for towers on islands and backpack that clips through one of them (done, just need to convert the map into a new map file (mp_2) and wait for SF update to support updating new map files with .xdeltas
+* Custom version of Quarantine siege: Apply spawn fixes "initial and respawn booleans"
+
+SIEGE MAPS
+-----------
+* Siege maps: more backpack spawns when played in other modes
+
+* New siege maps: Add team spawn children to siege objectives
 * Quarantine siege and new map file version: Add more spectator cameras outside the map
+
+EXPERIMENTS/NOTES
+------------------
+* Test adding multiple bagman spawns to randomize where it respawns 
+* Test adding more than 2 flag stands
+* Siege maps has something with persistent flags used on most objects
+* Siege maps persistent objects other than the objective don't spawn? or is it just framework?
+* Ladders: does making them orphans make them remain usable for longer when buildings are partially damaged?
+* King of the Hill targets, Flag capture zones, Spawn nodes, Spectator cameras have values related to backpack racks which are possibly redundant, test if removing these doesn't break objectives.
+* Framework: MP version of crane asset?
 
 MISC
 ----
-* Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)"
+
+* Fix broken sun texture on Assembly/Outpost
+* Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)" probably related to increasing decal lifetimes too much
 
 CHARACTERS
 ----------
