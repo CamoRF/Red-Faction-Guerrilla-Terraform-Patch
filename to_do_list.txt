@@ -38,16 +38,6 @@ SIEGE MAPS
 * New siege maps: Add team spawn children to siege objectives
 * Quarantine siege and new map file version: Add more spectator cameras outside the map
 
-EXPERIMENTS/NOTES
-------------------
-* Test adding multiple bagman spawns to randomize where it respawns 
-* Test adding more than 2 flag stands
-* Siege maps has something with persistent flags used on most objects
-* Siege maps persistent objects other than the objective don't spawn? or is it just framework?
-* Ladders: does making them orphans make them remain usable for longer when buildings are partially damaged?
-* King of the Hill targets, Flag capture zones, Spawn nodes, Spectator cameras have values related to backpack racks which are possibly redundant, test if removing these doesn't break objectives.
-* Framework: MP version of crane asset?
-
 MISC
 ----
 * Fix broken sun texture on Assembly/Outpost
@@ -71,10 +61,6 @@ WRECKING CREW MODE
 ------------------
 * Fallfactor, overpass, deadzone and crash site wrecking crew versions when NF rewrite is out so I can see general movers and fix floating barrels
 
-VEHICLES
----------
-* Re-port DLC vehicles to base game when modinfo.xml is added to SF
-
 WEAPONS
 -------
 * Grenade and fist weapons
@@ -91,52 +77,34 @@ WEAPONS
 * Pistol: too finnicky to use?
 * Rail driver: maybe it should turn red at a longer distance, maybe the start and max speed for the projectile should be the same?
 
-RUINS INTERIOR MAP
-------------------
-* 
-
-SANDPIT KOTH
--------------
-* Use puncture weather and time of day
-* Transfer heat haze and fire assets to map 
-* Small smokestack in distance is too high
-* 180 the small shack near the middle of the map
-* Raise the large building added a tiny bit
-* Fence clipping through one of the smokestacks
-* Add more objects outside the maybe
-* Attempt to transfer the solar tower asset from cascade or gauntlet and add it at that empty area at the opposite side of the map as the large building
-* Move the shack next to it closer to the middle, next to the fence/backpacks
-
-SINGLEPLAYER ADD-ON
+SINGLEPLAYER CHANGES
 --------------------
-* Re-implement DLC weapons in singleplayer
-* Re-implement vehicle and npc overhaul
-* Re-implement DLC vehicles
+* NPC and vehicle overhaul
+* Re-port DLC vehicles to base game when modinfo.xml is supported in SF
+* Try to make NPCs respond to player from longer distances 
+* Increase squad sizes (x8 for workers/rf, x4 for EDF)
+* Overhaul vehicle handling
+* Re-implement DLC weapons
 * Re-implement misc changes (see reverted changes in changelog.txt)
 * Try to make it so EDF withdraw from liberated sectors (see territories.xtbl)
-* Fix EDF/NPCs spawning really close to player: tweak_table.xtbl, spawn_parameters.xtbl and other squad files?
-* Implement some of changes from the Community Pack
+* Fix EDF/NPCs spawning really close to player: (tweak_table.xtbl, spawn_parameters.xtbl) and other squad files?
 * EDF attack on sight if you're holding a gun 
 * Hit and run gameplay on higher difficulties
 * EDF should be hostile if you have weapons on your vehicle
-* Vehicle handling overhaul
-* NPC and vehicle overhaul
-* Makes no sense you can't fast travel in Dust. Or that you have to chase the 1 piece of salvage that decided to fly the fuck away from you.
-* The hammer should be less powerful.
-* Stealth should last 7 sec, it's broken as fuck.
+* Try to fix not being able to fast travel in Dust
+* Add vehicles driving on roads without traffic like FFZ and EOS end game after the missions are completed
+* Ore deposits drop 1 piece of salvage instead of 2
+* Make it so you can't buy all the backpacks from the start 
+* EOS Edf Assault Command Mission: Ally NPCs need to be more aggressive and fight beside you but get stuck and lag behind the player, would be better if they could push foward better as enemies are cleared out, buff number of friendlies as only 4 guerrillas and marauders spawn at a time. (eos_edf_command_assault.png)
+* The hammer should be less powerful
+* Stealth should last 7 sec
 * The aptly named Rhino "charge" isn't a charge, but a step forward.
 * Reduce the price of Heal, Tremor and Jetpack (300>200/300>200/ 700>600+300 for recharge). 
 * Increase the price of Rhino, Damage boost and Stealth by 25%. The rest of the packs that I haven't mentioned don't need changes. 
 * Improve driving skills of NPCs (reduce AI speed)
-* NPCs have trouble with handling larger vehicles
 * Guerilla Express unlocks in 3-8 Guerrilla Actions
-* Ore deposits drop 1 piece of salvage instead of 2
-* Make it so you can't buy all the backpacks from the start 
-* EOS Edf Assault Command Mission: Ally NPCs need to be more aggressive and fight beside you but get stuck and lag behind the player, would be better if they could push foward better as enemies are cleared out, buff number of friendlies as only 4 guerrillas and marauders spawn at a time. (eos_edf_command_assault.png)
-* Kill unkillable NPCs
-* Increase morale drop for death
-* You can replace Alec in SP by directly porting DLC sam, rfg_pc_dlc overwrites his file? (player_female.xtbl could maybe be used to fix player model swaps in SP)
 * 290 out of 300 deposits but you have 6000> salvage. 
+* Increase morale drop for death
 * Gameplay changes 
 	- Salvage balancing, too expensive on normal and hard 
 	- Improve vehicle handling 
@@ -156,15 +124,28 @@ SINGLEPLAYER ADD-ON
 * Allies are useless, worse they will get in your line of fire and if you are firing a thermobaric rocket and kill yourself.
 * Civilians run around aimlessly while you are trying to finish a mission (sniper mission in EOS especially)
 * Unlimited enemies that keep spawning right behind you (pet peeve of mine in games)
-* Receive no salvage (including morale bonus) from missions. 	
+* Receive no salvage (including morale bonus) from missions.
+* More checkpoints 	
 * Speaking of Badlands, makes little sense that both RF and EDF can spawn in the Irradiated Zone. I think that's also a result of 1.063?
 * More usage for salvage: upgrading vehicles (swapping out vehicles for ones with guns, repairing vehicles, adding armor, adding moab from safehouse)
-* Mission where you destroy the EDF fliers, you can kill everyone and you get a red alert
-* Vehicles driving on roads without traffic like FFZ and EOS end game after the missions are completed
-* Space asshole: player causes as much chaos in a given sector while being attacked by progressively more overwhelming forces. Bonus points if you make the song space asshole play
 * Bug with essential bridge not spawning near the end of the game: non destructible bridge has only half loaded in and means you can't finish the game. One of the last missions you're tasked with destroying enemies and protecting a truck to its destination, issue is you're not following the truck yourself, you're tracking it with a missile launcher and the truck goes to where this bridge should be and drops down and loops back round over and over again.
   The game itself thinks it's there, in and out of mission the AI just straight drives off it, waypoints (which normally divert around destroyed bridges) just go straight across the gap.
-* More checkpoints
+
+RUINS INTERIOR MAP
+------------------
+
+
+SANDPIT KOTH
+-------------
+* Use puncture weather and time of day
+* Transfer heat haze and fire assets to map 
+* Small smokestack in distance is too high
+* 180 the small shack near the middle of the map
+* Raise the large building added a tiny bit
+* Fence clipping through one of the smokestacks
+* Add more objects outside the maybe
+* Attempt to transfer the solar tower asset from cascade or gauntlet and add it at that empty area at the opposite side of the map as the large building
+* Move the shack next to it closer to the middle, next to the fence/backpacks
 
 MISC OUT OF SCOPE/ADD-ONS
 --------------------------
@@ -183,6 +164,8 @@ MISC OUT OF SCOPE/ADD-ONS
 * Is that gritty border I made for thumbnails on one of my backup SSDs?
 * Could extract the old HD loading screens and thumbnails from old version of patch
 * WC versions of Quarantine, Excavation, Rift, Fallfactor, Crashsite and Deadzone
+* Kill unkillable NPCs
+* You can replace Alec in SP by directly porting DLC sam, rfg_pc_dlc overwrites his file? (player_female.xtbl could maybe be used to fix player model swaps in SP)
 
 NEW MISSIONS (OUT OF SCOPE/ADD-ON)
 -----------------------------------
@@ -190,6 +173,8 @@ NEW MISSIONS (OUT OF SCOPE/ADD-ON)
 * Stunt jump activities
 * More demo master activities 
 * EDF counter attack set after main story (based on Sams post game dialogue)
+* Mission where you destroy the EDF fliers, you can kill everyone and you get a red alert
+* Space asshole: player causes as much chaos in a given sector while being attacked by progressively more overwhelming forces. Bonus points if you make the song space asshole play
 
 GRAPHICS OVERHAUL (OUT OF SCOPE/ADD-ON)
 ----------------------------------------
@@ -202,5 +187,14 @@ GRAPHICS OVERHAUL (OUT OF SCOPE/ADD-ON)
 * Try to fix the skybox with clouds just doing a circular motion
 * Upscale .bik videos with Topez Video Enhance
 * Make all sectors look like EOS
+* Reshade
 
-
+EXPERIMENTS/NOTES
+------------------
+* Test adding multiple bagman spawns to randomize where it respawns 
+* Test adding more than 2 flag stands
+* Siege maps has something with persistent flags used on most objects
+* Siege maps persistent objects other than the objective don't spawn? or is it just framework?
+* Ladders: does making them orphans make them remain usable for longer when buildings are partially damaged?
+* King of the Hill targets, Flag capture zones, Spawn nodes, Spectator cameras have values related to backpack racks which are possibly redundant, test if removing these doesn't break objectives.
+* Framework: MP version of crane asset?
