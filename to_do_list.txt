@@ -13,9 +13,14 @@ MAPS
 * Ruins: Add Damage Control
 * Scrapheap: Add CTF & Damage Control
 
-LOW PRIORITY MAP STUFF
------------------------
+MAPS (SIEGE)
+------------
+* Siege maps: more backpack spawns when played in other modes
+* New siege maps: Add team spawn children to siege objectives
+* Quarantine siege and new map file version: Add more spectator cameras outside the map
 
+MAPS (LOW PRIORITY)
+-------------------
 * Expansion: Killbox near cliff warning sign needs refinement
 * Invasion: Add more backpack racks: 289.140, -22.873, -205.479 & 327.849, -24.000, -242.271
 * Invasion: Fix slightly floating jetpack rack at 258.927, -21.505, -242.310
@@ -31,12 +36,6 @@ LOW PRIORITY MAP STUFF
 * Aerial Excavation: Move bag spawn location (done, just need to convert the map into a new map file (mp_3) and wait for the SF update to support updating new map files with .xdeltas
 * KOTH Equil: Fix ladders for towers on islands and backpack that clips through one of them (done, just need to convert the map into a new map file (mp_2) and wait for SF update to support updating new map files with .xdeltas
 * Custom version of Quarantine siege: Apply spawn fixes "initial and respawn booleans"
-
-SIEGE MAPS
------------
-* Siege maps: more backpack spawns when played in other modes
-* New siege maps: Add team spawn children to siege objectives
-* Quarantine siege and new map file version: Add more spectator cameras outside the map
 
 MISC
 ----
@@ -77,8 +76,8 @@ WEAPONS
 * Pistol: too finnicky to use?
 * Rail driver: maybe it should turn red at a longer distance, maybe the start and max speed for the projectile should be the same?
 
-SINGLEPLAYER CHANGES
---------------------
+SINGLEPLAYER
+------------
 * NPC and vehicle overhaul
 * Re-port DLC vehicles to base game when modinfo.xml is supported in SF
 * Try to make NPCs respond to player from longer distances 
@@ -134,7 +133,6 @@ SINGLEPLAYER CHANGES
 RUINS INTERIOR MAP
 ------------------
 
-
 SANDPIT KOTH
 -------------
 * Use puncture weather and time of day
@@ -147,8 +145,8 @@ SANDPIT KOTH
 * Attempt to transfer the solar tower asset from cascade or gauntlet and add it at that empty area at the opposite side of the map as the large building
 * Move the shack next to it closer to the middle, next to the fence/backpacks
 
-MISC OUT OF SCOPE/ADD-ONS
---------------------------
+MISC (OUT OF SCOPE/ADD-ONS)
+---------------------------
 * Quick Save hotkey 
 * First person: Remove Alec Masons head, replace weapon models with ones for first person, reduce clipping, change animations, script to switch back to third person in vehicles
 * More fleshed out world with more buildings etc
@@ -167,7 +165,7 @@ MISC OUT OF SCOPE/ADD-ONS
 * Kill unkillable NPCs
 * You can replace Alec in SP by directly porting DLC sam, rfg_pc_dlc overwrites his file? (player_female.xtbl could maybe be used to fix player model swaps in SP)
 
-NEW MISSIONS (OUT OF SCOPE/ADD-ON)
+NEW MISSIONS (OUT OF SCOPE/ADD-ONS)
 -----------------------------------
 * Missions where you fly the EDF fliers or bombers and take out EDF bases on mountains 
 * Stunt jump activities
@@ -176,7 +174,7 @@ NEW MISSIONS (OUT OF SCOPE/ADD-ON)
 * Mission where you destroy the EDF fliers, you can kill everyone and you get a red alert
 * Space asshole: player causes as much chaos in a given sector while being attacked by progressively more overwhelming forces. Bonus points if you make the song space asshole play
 
-GRAPHICS OVERHAUL (OUT OF SCOPE/ADD-ON)
+GRAPHICS OVERHAUL (OUT OF SCOPE/ADD-ONS)
 ----------------------------------------
 * Rewrite graphics improvement script for RSL2
 * HD character textures 
