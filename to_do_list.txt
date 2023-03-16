@@ -41,6 +41,7 @@ MISC
 ----
 * Fix broken sun texture on Assembly/Outpost
 * Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)" probably related to increasing decal lifetimes too much
+* Add comments for string names in .xtbl files
 
 CHARACTERS
 ----------
