@@ -1,1 +1,0 @@
-setmetatable(_UGGlobals, {__index = _GetDynamicGlobal, __newindex = _CatchNilAssignment})
