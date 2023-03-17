@@ -6,8 +6,9 @@
 - Work-in-progress project that adds content, fixes bugs, and enhances many features.
 
 # Auto Install (Recommended)
-- First verify your game files
-- Use [SyncFaction](https://github.com/Rast1234/SyncFaction/releases/download/v8-test-11/SyncFaction.exe)
+- First verify your game files.
+- Use [SyncFaction](https://github.com/Rast1234/SyncFaction/releases/download/v9/SyncFaction.exe)
+- See [RF:G Game Night News](https://www.redfactionwiki.com/wiki/RF:G_Game_Night_News) for more detailed instructions and troubleshooting.
 
 # Releases
 - [v1.05 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6247)
@@ -17,7 +18,7 @@
 - [v1.063 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6269)
 - [v1.064 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6340)
 - [v1.064.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6362)
-- [v1.064.2 ALPHA HOTFIX](https://www.factionfiles.com/ff.php?action=file&id=6388)
+- [v1.064.2 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6388)
 - [v1.07 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7501)
 - [v1.07.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7516)
 
@@ -31,7 +32,6 @@ See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraf
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/known_issues.txt)
 
 # Tools Used
-
 - [RfgUtil](https://github.com/Moneyl/RfgUtil/releases)
 - [Nanoforge](https://github.com/Moneyl/Nanoforge/releases)
 - [mTools](https://github.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/blob/main/tools/mTools.zip)
