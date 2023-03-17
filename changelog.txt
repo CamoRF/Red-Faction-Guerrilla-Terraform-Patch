@@ -655,3 +655,10 @@ v1.07.1 ALPHA CHANGES
 * Fixed duplicate bagman spawn on Pipeline
 * Fixed duplicate flag stands on Transmission
 * Fixed some spawns on various maps
+
+---------------------
+v1.07.2 ALPHA CHANGES
+---------------------
+
+[Misc]
+* Added a new entry "Invulnerable" to gameplay_properties.xtbl, this will allow map makers to disable destruction for objects by changing gameplay_props in Nanoforge to Invulnerable

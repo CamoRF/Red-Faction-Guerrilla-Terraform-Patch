@@ -1,5 +1,34 @@
 <root>
 	<Table>
+<!--NOTES: 
+	<Flag>force_dynamic</Flag> 
+	<Flag>disable_collapse_effect</Flag> 			
+	<Flag>child_gives_control</Flag>
+-->	
+<!--Start ADDED-->
+		<Gameplay>
+			<Name>Invulnerable</Name>
+			<chunk_flags>
+				<Flag>invulnerable</Flag>
+				<Flag>casts_shadows</Flag>
+				<Flag>casts_drop_shadows</Flag>
+				<Flag>show_on_map</Flag>
+				<Flag>regrow_on_stream</Flag>
+				<Flag>plume_on_death</Flag>
+				<Flag>building</Flag>				
+			</chunk_flags>
+			<importance>NONE</importance>
+			<team>Neutral</team>
+			<salvage_material>metal</salvage_material>
+			<salvage_num_pieces>0</salvage_num_pieces>
+			<control>0</control>
+			<game_destroyed_pct>-1</game_destroyed_pct>
+			<fully_destroyed_pct>-1</fully_destroyed_pct>
+			<_Editor>
+				<Category>Entries:Multiplayer</Category>
+			</_Editor>
+		</Gameplay>
+<!--END-->	
 		<Gameplay>
 			<Name>0102apts_a_rd_03</Name>
 			<chunk_flags>
