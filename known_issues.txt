@@ -23,6 +23,7 @@
 * Expansion: Killbox near cliff warning sign needs refinement
 * Frost: Sections of the crane & smokestack can float when they are partially destroyed
 * Ruins: Damage Control currently crashes for unknown reason so that mode isn't implemented on this map yet
+* Factory: The killbox for the canyon/cliff in the middle of the map is too high and you can die near the edge in a spot that doesn't make sense
 * Outpost: Broken sun texture
 * Invasion: Slightly floating jetpack rack at 258.927, -21.505, -242.310
 * Nanoforge issue: Cloned objects not having gravity not apply to them (see Expansion, Frost, Aerial Excavation)
@@ -63,7 +64,7 @@
 [Misc]
 * "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file reported in Red Faction Guerrilla Re-Mars-tered.log
 " "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)" reported in Red Faction Guerrilla Re-Mars-tered.log (probably related to increasing decal lifetimes too much)
-* "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl? reported in Red Faction Guerrilla Re-Mars-tered.log
+* "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl or going over character_grid limit in characters.xtbl? reported in Red Faction Guerrilla Re-Mars-tered.log
 * LOD cap for small rocks seems to be hardcoded & cannot be increased further without hacking the .exe
 * Game can sometimes crash when loading into a multiplayer match
 * Siege objectives & weapon pickups can sometimes desync in multiplayer
