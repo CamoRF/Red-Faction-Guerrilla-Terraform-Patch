@@ -80,6 +80,7 @@ WEAPONS
 
 SINGLEPLAYER
 ------------
+* Make it so you don't lose alert level when going to a safehouse
 * NPC and vehicle overhaul
 * Re-port DLC vehicles to base game when modinfo.xml is supported in SF
 * Try to make NPCs respond to player from longer distances 
