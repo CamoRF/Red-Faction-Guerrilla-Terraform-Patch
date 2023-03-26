@@ -80,7 +80,7 @@
 				<Muzzle_Flash>wep_gauss_rifle_muzzle</Muzzle_Flash>
 				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke>
 				<Fire_Camera_Shake>weapon_fire_gauss_r</Fire_Camera_Shake>
-				<Fire_Camera_Shake_Ignore_Disabled>false</Fire_Camera_Shake_Ignore_Disabled> <!--From true-->
+				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
 				<Player_Hit_Camera_Shake>npc_shockwave</Player_Hit_Camera_Shake>
 				<Tracer_Frequency>1</Tracer_Frequency>
 				<Tracer_Effect>wep_gauss_rifle_tracer</Tracer_Effect>
@@ -304,7 +304,7 @@
 			<Default_Refire_Delay>90</Default_Refire_Delay> <!--From 180-->
 			<Damage_Scaling_Max>
 				<NPC_Damage>185</NPC_Damage>
-				<Player_Damage>50</Player_Damage> <!--From 45-->
+				<Player_Damage>55</Player_Damage> <!--From 50 in v1.07.1--> <!--From 45-->
 				<Threshold>100</Threshold>
 				<Vehicle_Damage>185</Vehicle_Damage>
 				<Player_Vehicle_Damage>45</Player_Vehicle_Damage>
@@ -407,7 +407,7 @@
 			<NPC_Aim_Drift>Spiker</NPC_Aim_Drift>
 			<Damage_Scaling_Min>
 				<NPC_Damage>185</NPC_Damage> <!--From 0.0-->
-				<Player_Damage>50</Player_Damage> <!--From 0.0-->
+				<Player_Damage>55</Player_Damage> <!--From 50 in v1.07.1--> <!--From 0.0-->
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
@@ -4257,7 +4257,7 @@
 				<Muzzle_Flash>wep_gauss_rifle_muzzle</Muzzle_Flash>
 				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke>
 				<Fire_Camera_Shake>weapon_fire_gauss_r</Fire_Camera_Shake>
-				<Fire_Camera_Shake_Ignore_Disabled>false</Fire_Camera_Shake_Ignore_Disabled> <!--From true-->
+				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
 				<Tracer_Frequency>1</Tracer_Frequency>
 				<Tracer_Effect>wep_gauss_rifle_tracer</Tracer_Effect>
 				<Player_Hit_Camera_Shake>npc_gauss_rifle</Player_Hit_Camera_Shake>
@@ -4359,7 +4359,7 @@
 				<Muzzle_Flash>wep_edf_sniper_flash_a</Muzzle_Flash>
 				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke>
 				<Fire_Camera_Shake>weapon_fire_sniper</Fire_Camera_Shake>
-				<Fire_Camera_Shake_Ignore_Disabled>false</Fire_Camera_Shake_Ignore_Disabled> <!--From true-->
+				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
 				<Tracer_Frequency>1</Tracer_Frequency>
 				<Tracer_Effect>wep_edf_sniper_trail_a</Tracer_Effect>
 				<Player_Hit_Camera_Shake>npc_sniper_rifle</Player_Hit_Camera_Shake>
@@ -4728,7 +4728,7 @@
 			<Visuals>
 				<Muzzle_Flash>wep_nanorifle_flash_a</Muzzle_Flash>
 				<Fire_Camera_Shake>weapon_fire_nano</Fire_Camera_Shake>
-				<Fire_Camera_Shake_Ignore_Disabled>false</Fire_Camera_Shake_Ignore_Disabled> <!--From true-->
+				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
 				<Tracer_Frequency>1</Tracer_Frequency>
 				<Tracer_Effect>wep_nanorifle_trail_a</Tracer_Effect>
 				<Player_Hit_Camera_Shake>npc_nano_rifle</Player_Hit_Camera_Shake>
@@ -5068,7 +5068,7 @@
 				<Special_Effect>wep_reconstructor_swarm_a</Special_Effect>
 				<Muzzle_Flash>wep_reconstructor_muzzle_a</Muzzle_Flash>
 				<Fire_Camera_Shake>weapon_fire_repair</Fire_Camera_Shake>
-				<Fire_Camera_Shake_Ignore_Disabled>false</Fire_Camera_Shake_Ignore_Disabled> <!--From true-->
+				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
 				<Secondary_Camera_Shake>npc_reconstructor</Secondary_Camera_Shake>
 				<Overheated_effect>wep_reconstructor_overheat_a</Overheated_effect>
 			</Visuals>

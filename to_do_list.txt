@@ -12,7 +12,6 @@ MAPS
 * Overpass: Add CTF
 * Ruins: Add Damage Control
 * Scrapheap: Add CTF & Damage Control
-* Factory: killbox is too high and you die near edge of cliff/canyon in middle
 
 MAPS (SIEGE)
 ------------
@@ -37,15 +36,13 @@ MAPS (LOW PRIORITY)
 * Aerial Excavation: Move bag spawn location (done, just need to convert the map into a new map file (mp_3) and wait for the SF update to support updating new map files with .xdeltas
 * KOTH Equil: Fix ladders for towers on islands and backpack that clips through one of them (done, just need to convert the map into a new map file (mp_2) and wait for SF update to support updating new map files with .xdeltas
 * Custom version of Quarantine siege: Apply spawn fixes "initial and respawn booleans"
-* Downfall out of bound exploit fixes might kill you randomly
+* Downfall out of bound exploit fixes might kill you randomly, in middle of map near slope
 
 MISC
 ----
 * Fix broken sun texture on Assembly/Outpost
 * Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)" probably related to increasing decal lifetimes too much
 * Add comments for string names in .xtbl files
-* Revert camera shake removal for sniper, gauss, reconstructor etc because it removes recoil on certain weapons
-* XP changes are acting strange
 * Doublecheck host migration removal fix
 
 CHARACTERS
@@ -77,7 +74,6 @@ WEAPONS
 * Misslepod: too much smoke and particles for such small damage
 * Spiker: still too weak, takes a lot of shots to kill, maybe increase clip size slightly and increase damage, increase headshot multiplier
 * Reconstructor effect not appearing randomly, test if restarting game fixes it
-* Make sure sniper and rail driver have hitscan, they both use bullet for ammo_type which is described as hit detection occurs immediately on trigger pull. Maybe the trail effect is delayed or the projectile isn't fast enough?
 * Reduce or remove sledge hammer aim assist?: there's a variable for it set to 0.75 in weapons.xtbl
 * Pistol: too finnicky to use?
 * Rail driver: maybe it should turn red at a longer distance, maybe the start and max speed for the projectile should be the same?
