@@ -2,7 +2,7 @@
 	<Table>		
 <!--MENU_PLYLST_PATCH_35 = Partial Recall-->	
 <!--Siege Quarantine-->
-		<mp_level_list>
+<!--	<mp_level_list>
 			<Name>mp1</Name>
 			<Filename>mp_1</Filename>
 			<_Editor>
@@ -36,7 +36,7 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Quarantine</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>-->
 <!--Equilibrium King of the Hill-->
 		<!--<mp_level_list>
 			<Name>mp2</Name> 
@@ -74,7 +74,7 @@
 			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
 		</mp_level_list>
 <!--Aerial Excavation-->	
-		<mp_level_list>
+<!--	<mp_level_list>
 			<Name>mp3</Name> 
 			<Filename>mp_3</Filename>
 			<_Editor>
@@ -105,9 +105,9 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Excavation</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>-->
 <!--Pipeline Pitfalls-->	
-		<mp_level_list>
+	<!--<mp_level_list>
 			<Name>mp4</Name>
 			<Filename>mp_4</Filename>
 			<_Editor>
@@ -136,7 +136,7 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Pipeline</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>-->
 <!--Sandpit KOTH-->
 <!--	<mp_level_list>
 			<Name>mp5</Name>

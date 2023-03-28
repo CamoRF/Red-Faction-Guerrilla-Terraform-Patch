@@ -183,8 +183,8 @@
 			<Material>
 				<Filename>decal_blood_splat.matx</Filename>
 			</Material>
-			<Life_Time>-1</Life_Time>
-			<Fade_Time>0</Fade_Time>
+			<Life_Time>30000</Life_Time> <!--From -1-->
+			<Fade_Time>30000</Fade_Time> <!--From 0-->
 			<Width>0.3</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -203,8 +203,8 @@
 			<Material>
 				<Filename>decal_blood_splat_2.matx</Filename>
 			</Material>
-			<Life_Time>-1</Life_Time>
-			<Fade_Time>0</Fade_Time>
+			<Life_Time>30000</Life_Time> <!--From -1-->
+			<Fade_Time>30000</Fade_Time> <!--From 0-->
 			<Width>0.8</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>
@@ -223,8 +223,8 @@
 			<Material>
 				<Filename>decal_blood_splat_2.matx</Filename>
 			</Material>
-			<Life_Time>-1</Life_Time>
-			<Fade_Time>0</Fade_Time>
+			<Life_Time>30000</Life_Time> <!--From -1-->
+			<Fade_Time>30000</Fade_Time> <!--From 0-->
 			<Width>2.0</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>

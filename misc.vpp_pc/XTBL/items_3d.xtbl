@@ -1861,7 +1861,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<Flag>fast_cleanup</Flag>
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -1961,7 +1963,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<Flag>fast_cleanup</Flag>
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2099,7 +2103,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<Flag>fast_cleanup</Flag>
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2188,7 +2194,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<Flag>fast_cleanup</Flag>
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2498,7 +2506,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<Flag>fast_cleanup</Flag>
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2559,7 +2569,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<Flag>fast_cleanup</Flag>
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2730,7 +2742,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<Flag>fast_cleanup</Flag>
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2948,7 +2962,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<Flag>fast_cleanup</Flag>
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -3279,7 +3295,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<Flag>fast_cleanup</Flag>
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -4153,7 +4171,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<Flag>fast_cleanup</Flag>
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -4169,7 +4189,9 @@
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
-				<Flag>fast_cleanup</Flag>
+				<!--<Flag>fast_cleanup</Flag>-->
+				<!--<Flag>no_auto_delete</Flag>-->
+				<Flag>no_pickup_delete</Flag> <!--Added-->
 			</Item_Flags>
 		</Item>
 		<Item>

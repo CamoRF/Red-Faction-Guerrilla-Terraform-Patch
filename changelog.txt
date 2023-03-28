@@ -659,8 +659,10 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 * Added a new entry "Invulnerable" to gameplay_properties.xtbl, this will allow map makers to disable destruction for objects by changing gameplay_props in Nanoforge to Invulnerable
 
 [Multiplayer]
-* Reverted XP to vanilla due to it causing issues
-* All characters, badges and hammers are now unlocked by default excluding the rank next to your badge (the bars)
+* All XP bonus events are now unlocked by default
+* All characters, and hammers are now unlocked by default
+* Badge icons & colours are unlocked at levels through 0-20 from 0-123
+* Improvements to host migration fix
 
 [Weapons]
 * Reverted Gauss Rifle, Super Gauss Rifle, Reconstructor, Sniper Rifle & Nano Rifle respecting the players camera shake setting as the recoil behavior of these weapons required camera shake, causing a competitive advantage if one player had camera shake disabled and the other player had it enabled
@@ -671,3 +673,4 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 [Fixes]
 * Fixed the cliff kill barrier on Factory killing you even when you didn't fall in the hole in the middle of the map
 * Fixed "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)" reported in Red Faction Guerrilla Re-Mars-tered.log
+* Fixed some missing spent gun mags that still despawned quickly

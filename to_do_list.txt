@@ -10,23 +10,13 @@ NOTES
 HIGH PRIORITY
 --------------
 * Fix broken sun texture on Assembly/Outpost
-* Fix "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)" probably related to increasing decal lifetimes too much
-* Doublecheck host migration removal fix
 * Overpass: Add CTF
-* Expansion: Killbox near cliff warning sign needs refinement
-* Invasion: Add more backpack racks: 289.140, -22.873, -205.479 & 327.849, -24.000, -242.271
 * Invasion: Fix slightly floating jetpack rack at 258.927, -21.505, -242.310
-* Invasion: Transfer asset and add marauder crates from Expansion
-* Transmission: Add Weapon spawn: 143.948, 12.515, -268.604
-* Imperial: Place artillery sign near the out of bounds rock
-* Watchtower: Place artillery sign near the out of bounds rock
 * Downfall out of bound exploit fixes might kill you randomly, in middle of map near slope
-* Spiker might need more buffing
+* Expansion: Killbox near cliff warning sign needs refinement
 
 MAPS
 ----
-* Ruins: Add Damage Control
-* Scrapheap: Add CTF & Damage Control
 
 MAPS (SIEGE)
 ------------
@@ -44,7 +34,13 @@ MAPS (LOW PRIORITY)
 * Aerial Excavation: Move bag spawn location (done, just need to convert the map into a new map file (mp_3) and wait for the SF update to support updating new map files with .xdeltas
 * KOTH Equil: Fix ladders for towers on islands and backpack that clips through one of them (done, just need to convert the map into a new map file (mp_2) and wait for SF update to support updating new map files with .xdeltas
 * Custom version of Quarantine siege: Apply spawn fixes "initial and respawn booleans"
-
+* Invasion: Transfer asset and add marauder crates from Expansion
+* Transmission: Add Weapon spawn: 143.948, 12.515, -268.604
+* Imperial: Place artillery sign near the out of bounds rock
+* Watchtower: Place artillery sign near the out of bounds rock
+* Ruins: Add Damage Control
+* Scrapheap: Add CTF & Damage Control
+* Invasion: Add more backpack racks: 289.140, -22.873, -205.479 & 327.849, -24.000, -242.271
 
 MISC
 ----
