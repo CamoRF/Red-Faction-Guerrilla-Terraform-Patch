@@ -1285,7 +1285,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Rubberbanding_minimum_score</Name>
-			<Value>21474836.0</Value> <!--From 40-->
+			<Value>2147483.0</Value> <!--From 40-->
 			<_Editor>
 				<Category>Multiplayer</Category>
 			</_Editor>

@@ -9,38 +9,28 @@ NOTES
 
 HIGH PRIORITY
 --------------
-* Fix broken sun texture on Assembly/Outpost
-* Overpass: Add CTF
-* Invasion: Fix slightly floating jetpack rack at 258.927, -21.505, -242.310
 * Downfall out of bound exploit fixes might kill you randomly, in middle of map near slope
-* Expansion: Killbox near cliff warning sign needs refinement
 
 MAPS
 ----
 
-MAPS (SIEGE)
-------------
-* Siege maps: more backpack spawns when played in other modes
-* New siege maps: Add team spawn children to siege objectives
-* Quarantine siege and new map file version: Add more spectator cameras outside the map
-
 MAPS (LOW PRIORITY)
 -------------------
-* Transmission: Add some walls when Nanoforge rewrite is out
-* Gulch: Add more buildings, fences and smokestacks when nanoforge rewrite is out
-* Vista: Add jetpack spawn
-* Frost: The crane is glitchy, cloned floating smokestack when bottom is destroyed, place barrels up on high cliff where buildings collapse, Garrison time of day as alternative?
-* Expansion: cloned floating crates when bridge is destroyed
+* Ruins: Add Damage Control
+* Scrapheap: Add CTF & Damage Control
+* New siege maps: Add team spawn children to siege objectives
+* Siege maps: More backpack spawns when played in other modes?
+
+MAPS (When SF supports patching new map/files)
+-----------------------------------------------
 * Aerial Excavation: Move bag spawn location (done, just need to convert the map into a new map file (mp_3) and wait for the SF update to support updating new map files with .xdeltas
 * KOTH Equil: Fix ladders for towers on islands and backpack that clips through one of them (done, just need to convert the map into a new map file (mp_2) and wait for SF update to support updating new map files with .xdeltas
 * Custom version of Quarantine siege: Apply spawn fixes "initial and respawn booleans"
-* Invasion: Transfer asset and add marauder crates from Expansion
-* Transmission: Add Weapon spawn: 143.948, 12.515, -268.604
-* Imperial: Place artillery sign near the out of bounds rock
-* Watchtower: Place artillery sign near the out of bounds rock
-* Ruins: Add Damage Control
-* Scrapheap: Add CTF & Damage Control
-* Invasion: Add more backpack racks: 289.140, -22.873, -205.479 & 327.849, -24.000, -242.271
+
+NANOFORGE BUGS (Possibly with world_anchors)
+---------------------------------------------
+* Frost: The crane is glitchy, cloned floating smokestack when bottom is destroyed, place barrels up on high cliff where buildings collapse, Garrison time of day as alternative?
+* Expansion: cloned floating crates when bridge is destroyed
 
 MISC
 ----
@@ -73,7 +63,6 @@ WEAPONS
 * Implement Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
 * Weapon ideas: Singularity launcher, Gauss shotgun, Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to 	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
 * Misslepod: too much smoke and particles for such small damage
-* Spiker: still too weak, takes a lot of shots to kill, maybe increase clip size slightly and increase damage, increase headshot multiplier
 * Reconstructor effect not appearing randomly, test if restarting game fixes it
 * Reduce or remove sledge hammer aim assist?: there's a variable for it set to 0.75 in weapons.xtbl
 * Pistol: too finnicky to use?

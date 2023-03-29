@@ -656,11 +656,14 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 ------------------------------------
 
 [Misc]
-* Added a new entry "Invulnerable" to gameplay_properties.xtbl, this will allow map makers to disable destruction for objects by changing gameplay_props in Nanoforge to Invulnerable
+* Added a new entry "Invulnerable" to gameplay_properties.xtbl, this will allow map makers to easily disable destruction for objects by changing "gameplay_props" in Nanoforge to "Invulnerable"
+* Added two EDF crates to Invasion
+* Added CTF to Overpass
+* Added a Jetpack spawn to Vista
 
 [Multiplayer]
 * All XP bonus events are now unlocked by default
-* All characters, and hammers are now unlocked by default
+* All characters and hammers are now unlocked by default
 * Badge icons & colours are unlocked at levels through 0-20 from 0-123
 * Improvements to host migration fix
 
@@ -674,3 +677,5 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 * Fixed the cliff kill barrier on Factory killing you even when you didn't fall in the hole in the middle of the map
 * Fixed "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed some missing spent gun mags that still despawned quickly
+* Fixed additional out of bounds exploits on Expansion
+* Fixed floating Jetpack on Invasion
