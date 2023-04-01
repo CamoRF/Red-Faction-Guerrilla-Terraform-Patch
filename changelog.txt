@@ -672,6 +672,7 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 
 [Spiker Buff]
 * Increased damage at both min and max range from 50 to 55
+* Increased headshot damage multiplayer from 5.0 to 5.0
 
 [Fixes]
 * Fixed the cliff kill barrier on Factory killing you even when you didn't fall in the hole in the middle of the map
@@ -679,3 +680,4 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 * Fixed some missing spent gun mags that still despawned quickly
 * Fixed additional out of bounds exploits on Expansion
 * Fixed floating Jetpack on Invasion
+* Fixed issue with XP spam when matches end

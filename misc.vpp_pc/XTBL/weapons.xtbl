@@ -377,7 +377,7 @@
 			<fine_aim_reticule>ui_hud_reti_assault0</fine_aim_reticule>
 			<dummy>False</dummy>
 			<mp_kill_phrase>HM_KILL_PHRASE_RAILED</mp_kill_phrase>
-			<Headshot_Multiplier>5.0</Headshot_Multiplier> <!--From 4.0-->
+			<Headshot_Multiplier>5.5</Headshot_Multiplier> <!--From 5.0 in v1.07.1--> <!--From 4.0-->
 			<Unique_ID>144</Unique_ID>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
