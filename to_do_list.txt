@@ -9,8 +9,12 @@ NOTES
 
 HIGH PRIORITY
 --------------
-* Downfall out of bound exploit fixes might kill you randomly, in middle of map near slope
-* Watchtower: add weapon on tower
+* TEST Downfall out of bound exploit fixes might kill you randomly, in middle of map near slope
+* TEST Grenade weapon
+* TEST XP and unlocks
+* TEST Host migration fix
+* TEST Spiker balance
+* TEST if rl_decal error spam in log is fixed
 
 MAPS
 ----

@@ -657,18 +657,28 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 
 [Misc]
 * Added a new entry "Invulnerable" to gameplay_properties.xtbl, this will allow map makers to easily disable destruction for objects by changing "gameplay_props" in Nanoforge to "Invulnerable"
+
+[Interface]
+* Initial loading screen updated to current patch version
+
+[New Weapon]
+* Added experimental Grenade weapon
+
+[Maps]
 * Added two EDF crates to Invasion
 * Added CTF to Overpass
 * Added a Jetpack spawn to Vista
+* Added Pistol and Assault Rifle spawn at the top of the large tower on Watchtower
 
 [Multiplayer]
 * All XP bonus events are now unlocked by default
 * All characters and hammers are now unlocked by default
-* Badge icons & colours are unlocked at levels through 0-20 from 0-123
+* Badge icons & colours are now unlocked at levels through 0-20 from 0-123
 * Improvements to host migration fix
 
 [Weapons]
-* Reverted Gauss Rifle, Super Gauss Rifle, Reconstructor, Sniper Rifle & Nano Rifle respecting the players camera shake setting as the recoil behavior of these weapons required camera shake, causing a competitive advantage if one player had camera shake disabled and the other player had it enabled
+* Reverted Gauss Rifle, Super Gauss Rifle, Reconstructor & Nano Rifle respecting the players camera shake setting as the recoil behavior of these weapons required camera shake, causing a competitive advantage if one player had camera shake disabled and the other player had it enabled
+* Reduced camera shake for Reconstructor
 
 [Spiker Buff]
 * Increased damage at both min and max range from 50 to 55
@@ -678,6 +688,6 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 * Fixed the cliff kill barrier on Factory killing you even when you didn't fall in the hole in the middle of the map
 * Fixed "Int3 critical function at C:/unit4projects/rfg/root/code/volition/render_lib/code/rl_decal.cpp(236)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed some missing spent gun mags that still despawned quickly
-* Fixed additional out of bounds exploits on Expansion
+* Fixed additional out of bounds exploits on Expansion & refined some previous fixes
 * Fixed floating Jetpack on Invasion
-* Fixed issue with XP spam when matches end
+* Fixed issue with XP message spam when matches end

@@ -1,5 +1,18 @@
 <root>
 	<Table>
+<!--START Grenade TEST-->	
+		<Inventory_Item>
+			<Name>camo_grenade</Name>
+			<Display_Name>WEAP_GRENADE</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description></Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>
+<!--END-->
 <!--START DLC Weapons Added-->
 		<Inventory_Item>
 			<Name>edf_super_gauss</Name>
@@ -549,7 +562,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<Inventory_Item>
+<!--	<Inventory_Item>
 			<Name>crowbar</Name>
 			<Display_Name>WEAP_CROWBAR</Display_Name>
 			<Cost>100</Cost>
@@ -559,7 +572,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>		
+		</Inventory_Item>-->	
 		<Inventory_Item>
 			<Name>power_item</Name>
 			<Display_Name>WEAP_POWER_ITEM</Display_Name>
