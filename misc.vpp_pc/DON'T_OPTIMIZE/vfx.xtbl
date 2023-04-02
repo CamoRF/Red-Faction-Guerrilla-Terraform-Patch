@@ -7,13 +7,20 @@
 		</container_name>
 		<container_preload_category>preload</container_preload_category>
 		<container_other_category>cutscene</container_other_category>
+
+		<!-- This is used to filter out at different stages. The name is the xml element needed
+		to make the decision. Callbacks will occur with this variable at container creation
+		and adding primitives. -->
 		<container_filter>streaming_category</container_filter>
+
 		<container_multiplayer_filter>multiplayer</container_multiplayer_filter>
 		<container_singleplayer_filter>singleplayer</container_singleplayer_filter>
+
 		<container_type>GSC_EFFECTS</container_type>
 		<container_preload_type>GSC_EFFECTS_PRELOAD</container_preload_type>
 		<container_other_type>GSC_CUTSCENE_EFFECTS</container_other_type>
 		<container_multiplayer_type>GSC_MP_EFFECTS</container_multiplayer_type>
+
 		<container_contents>vfx
 			<name>filename</name>
 			<ext>effect</ext>
@@ -23,6 +30,7 @@
 			<report_errors>false</report_errors>
 		</container_contents>
 	</stream2_container_description>
+
 	<Table>
 		<Effect>
 			<Name>mp_backpack_heal_a</Name>
@@ -2564,7 +2572,8 @@
 				</Distance>
 				<Minimum_time>0.0</Minimum_time>
 			</LOD>
-			<Radial_blur></Radial_blur>
+			<Radial_blur>
+			</Radial_blur>
 		</Effect>
 		<Effect>
 			<Name>wep_sing_grenade_exp_a</Name>
@@ -7306,7 +7315,8 @@
 			<Radius>2.0</Radius>
 			<Singleplayer>True</Singleplayer>
 			<Multiplayer>True</Multiplayer>
-			<Radial_blur></Radial_blur>
+			<Radial_blur>
+			</Radial_blur>
 			<LOD>
 				<Distance>
 					<Fading_start>50</Fading_start>
@@ -7435,7 +7445,10 @@
 			<Multiplayer>False</Multiplayer>
 		</Effect>
 	</Table>
-	<TableTemplates></TableTemplates>
+
+	<TableTemplates>
+	</TableTemplates>
+
 	<TableDescription>
 		<Name>Effect</Name>
 		<Type>TableDescription</Type>
@@ -7555,7 +7568,8 @@
 			<Element>
 				<Name>Distance</Name>
 				<Type>Element</Type>
-				<Description>controls distance based LODfor things like fading out over distance, or disabling emission after a certain distance.</Description>
+				<Description>controls distance based LOD
+				for things like fading out over distance, or disabling emission after a certain distance.</Description>
 				<Required>false</Required>
 				<Element>
 					<Name>Fading_start</Name>
@@ -7581,7 +7595,8 @@
 			<Element>
 				<Name>Update</Name>
 				<Type>Element</Type>
-				<Description>Updating based on visibility.Works well on looping effects as long as the minimum time is enough. Works on other effects too but should be careful that it doesn't look weird.</Description>
+				<Description>Updating based on visibility.
+				Works well on looping effects as long as the minimum time is enough. Works on other effects too but should be careful that it doesn't look weird.</Description>
 				<Required>false</Required>
 				<Element>
 					<Name>Minimum_time</Name>
@@ -7592,6 +7607,7 @@
 			</Element>
 		</Element>
 	</TableDescription>
+
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

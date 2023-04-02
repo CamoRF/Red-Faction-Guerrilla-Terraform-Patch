@@ -100,7 +100,7 @@
 				<Start_Speed>20</Start_Speed>
 				<Max_Speed>25</Max_Speed>
 				<Fuse_Time>3000</Fuse_Time>
-				<Mass>2</Mass>
+				<Mass>4</Mass> <!--From 2-->
 				<Linear_Damp>0</Linear_Damp>
 				<Angular_Damp>0</Angular_Damp>
 				<Restitution>1.0</Restitution>
@@ -121,7 +121,7 @@
 					<Flag>detonate on explosion impact</Flag>
 				</Projectile_Flags>
 				<Time_Until_Propelled>0.0</Time_Until_Propelled>
-				<Time_Until_Prop_Expire>5000.0</Time_Until_Prop_Expire>
+				<Time_Until_Prop_Expire>10000</Time_Until_Prop_Expire> <!--From 5000.0-->
 				<Sound>WEP_GRENADE_RELEASE</Sound>
 				<Attached_Effect2>wep_remote_charge_light_a</Attached_Effect2>
 				<Attached_Effect>wep_edf_grenade_trail</Attached_Effect>
@@ -169,7 +169,7 @@
 			<Default_team>EDF</Default_team>
 			<aim_assist>0.5</aim_assist>
 			<Player_Move_Speed>1.25</Player_Move_Speed>
-			<icon_name>ui_badge_icon_skull</icon_name>
+			<icon_name>ui_badge_icon_ae_circle</icon_name>
 			<reticule_name>ui_hud_reti_mines</reticule_name>
 		</Weapon>
 <!--END-->

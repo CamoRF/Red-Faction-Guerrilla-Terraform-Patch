@@ -5,22 +5,16 @@ TO DO LIST
 NOTES
 -----
 * rfgcommunitypatch
-* rfgcommunityupdate2
+* rfgcommunityupdate3
 
 HIGH PRIORITY
 --------------
-* TEST Downfall out of bound exploit fixes might kill you randomly, in middle of map near slope
-* TEST Grenade weapon
-* TEST XP and unlocks
-* TEST Host migration fix
-* TEST Spiker balance
-* TEST if rl_decal error spam in log is fixed
-* TEST bagman on Aerial Excavation
 * Re-do misc and table for final release
 
 MAPS
 ----
 * Add team spawns to Cascade, Factory, Fortress, Frost, Nordic Special, Pipeline, Repercussion, Ruins, Scrapheap, Transmission, Vista
+* Add Arc Welder spawn to Scrapheap
 
 MAPS (LOW PRIORITY)
 -------------------
@@ -28,12 +22,6 @@ MAPS (LOW PRIORITY)
 * Scrapheap: Add CTF & Damage Control
 * New siege maps: Add team spawn children to siege objectives
 * Siege maps: More backpack spawns when played in other modes?
-
-MAPS (When SF supports patching new map/files)
------------------------------------------------
-* Aerial Excavation: Move bag spawn location (done, just need to convert the map into a new map file (mp_3) and wait for the SF update to support updating new map files with .xdeltas
-* KOTH Equil: Fix ladders for towers on islands and backpack that clips through one of them (done, just need to convert the map into a new map file (mp_2) and wait for SF update to support updating new map files with .xdeltas
-* Custom version of Quarantine siege: Apply spawn fixes "initial and respawn booleans"
 
 NANOFORGE BUGS (Possibly with world_anchors)
 ---------------------------------------------
@@ -64,7 +52,7 @@ WRECKING CREW MODE
 
 WEAPONS
 -------
-* Grenade and fist weapons
+* Nano grenade weapon when regular grenade is more refined any items_inventory.xtbl limit is bumped
 * Singularity that explodes in 1 second named Instant Singularity Bomb
 * Fix DLC weapon icons and reticules by figuring out how to port them to the base game, something to do with bitmap.xtbl and peg files
 * Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)

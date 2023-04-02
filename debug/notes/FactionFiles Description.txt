@@ -1,14 +1,16 @@
-[b]RF:GR Terraform Patch v1.07.1[/b]
+[b]RF:GR Terraform Patch v1.07.2[/b]
 -------------------------------------
 Author: Camo
-Version: v1.07.1 ALPHA
-Date: 13-3-2023
-Build: 1027
+Version: v1.07.2 ALPHA
+Date: 2-4-2023
+Build: 1024
 
 [b]Description[/b]
 ---------------------
 * Work-in-progress project that adds content, fixes bugs, and enhances many features.
-* Install with SyncFaction
+* Install with SyncFaction.
+* See [url=https://www.redfactionwiki.com/wiki/RF:G_Game_Night_News]RF:G Game Night News for more detailed instructions and troubleshooting[/url]
 * [url=https://github.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch]Github[/url] 
 * [url=https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/changelog.txt]Changelog[/url]
 * [url=https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/known_issues.txt]Known Issues[/url]
+

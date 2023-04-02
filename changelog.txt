@@ -3,9 +3,9 @@
 *-------------------*
 
 Author: Camo
-Version: v1.07.1 ALPHA
-Date: 13-3-2023
-Build: 1022
+Version: v1.07.2 ALPHA
+Date: 2-4-2023
+Build: 1024
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -486,7 +486,7 @@ v1.07 ALPHA CHANGES
 * Added remastered version of Aerial Excavation by ATMLVE 
 * Added remastered version of Equilbrium King of the Hill by ATMLVE
 * Added remastered version of Pipeline Pitfall by ATMLVE
-* Custom Quarantine siege map can now be played in other game modes
+* Custom Quarantine siege map that can now be played in other game modes
 
 [Maps]
 * Added Backpack spawns to all Wrecking Crew maps
@@ -651,9 +651,9 @@ v1.07.1 ALPHA CHANGES
 * Fixed duplicate flag stands on Transmission
 * Fixed some spawns on various maps
 
-------------------------------------
-v1.07.2 ALPHA CHANGES (NOT RELEASED)
-------------------------------------
+---------------------
+v1.07.2 ALPHA CHANGES
+---------------------
 
 [Misc]
 * Added a new entry "Invulnerable" to gameplay_properties.xtbl, this will allow map makers to easily disable destruction for objects by changing "gameplay_props" in Nanoforge to "Invulnerable"
@@ -665,13 +665,13 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 * Initial loading screen updated to current patch version
 
 [New Weapon]
-* Added experimental Grenade weapon
+* Added experimental Grenade
 
 [New Maps]
 * Restored remastered version of Aerial Excavation by ATMLVE with additional bug fixes
 * Restored remastered version of Equilbrium King of the Hill by ATMLVE with additional bug fixes
 * Restored remastered version of Pipeline Pitfall by ATMLVE with additional bug fixes
-* Restored Custom Quarantine siege map can now be played in other game modes with additional bug fixes
+* Restored Custom Quarantine siege map that can now be played in other game modes with additional bug fixes
 
 [Maps]
 * Added CTF to Overpass
@@ -683,9 +683,11 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 
 [Multiplayer]
 * All XP bonus events are now unlocked by default
+* Doubled XP
 * All characters and hammers are now unlocked by default
 * Badge icons & colours are now unlocked at levels through 0-20 from 0-123
 * Improvements to host migration fix
+* Changed default bag return time to 0 seconds for Bagman and Team Bagman as a work around to get around the default minimum of 5 seconds, you can still change it to a normal value
 
 [Weapons]
 * Reverted Gauss Rifle, Super Gauss Rifle, Reconstructor & Nano Rifle respecting the players camera shake setting as the recoil behavior of these weapons required camera shake, causing a competitive advantage if one player had camera shake disabled and the other player had it enabled
@@ -707,4 +709,5 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 * Fixed missing names for Damage Control Targets on Imperial
 * Fixed location of one of the Damage Control Targets on Abandoned
 * Fixed some files that shouldn't be optimized and caused bugs with the Kiosk screens in Singleplayer for example
+* Temporarily disabled one of the out of bounds exploit fixes on Downfall that killed you while you were still in the map
 * Optimized more files to reduce memory pool load increasing stability

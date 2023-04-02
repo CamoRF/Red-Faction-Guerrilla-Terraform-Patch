@@ -71,3 +71,5 @@
 * Multiplayer lobbies frequently break, players cannot join the lobby unless they go back to the main menu or restart their game; unknown why this happens but possibly related to THQN Servers
 * Issue with double text for you won/you lost text at end of game with large text over the top of small text in MP; not really a major issue
 * Profile saving hud element can sometimes get stuck on screen in multiplayer games on rare occasions; not really a major issue
+* "[gamelink] m_voiceOutPutSampleRate = 0. m_voiceOutPutSampleRate is not correctly set" reported in Red Faction Guerrilla Re-Mars-tered.log
+* "[gamelink] failed to create Voice Context" Red Faction Guerrilla Re-Mars-tered.log
