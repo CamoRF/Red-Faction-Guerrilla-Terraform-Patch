@@ -674,8 +674,8 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 * Restored Custom Quarantine siege map can now be played in other game modes with additional bug fixes
 
 [Maps]
-* Added two EDF crates to Invasion
 * Added CTF to Overpass
+* Added two EDF crates to Invasion
 * Added a Jetpack spawn to Vista
 * Added Pistol and Assault Rifle spawn at the top of the large tower on Watchtower
 * Temporarily disabled Demolition on Crescent & Stratosphere due to the maps not being balanced for the game mode
@@ -692,8 +692,8 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 * Reduced camera shake for Reconstructor
 
 [Spiker Buff]
-* Increased damage at both min and max range from 50 to 55
-* Increased headshot damage multiplayer from 5.0 to 5.0
+* Increased damage at both min and max range to 55 from 50
+* Increased headshot damage multiplayer to 5.5 from 5.0
 
 [Fixes]
 * Fixed the cliff kill barrier on Factory killing you even when you didn't fall in the hole in the middle of the map
@@ -703,3 +703,8 @@ v1.07.2 ALPHA CHANGES (NOT RELEASED)
 * Fixed floating Jetpack on Invasion
 * Fixed issue with XP message spam when matches end
 * Fixed accidently disabling CTF & Damage Control on Remnant
+* Fixed issue with Reconstructor effects not working occasionally
+* Fixed missing names for Damage Control Targets on Imperial
+* Fixed location of one of the Damage Control Targets on Abandoned
+* Fixed some files that shouldn't be optimized and caused bugs with the Kiosk screens in Singleplayer for example
+* Optimized more files to reduce memory pool load increasing stability

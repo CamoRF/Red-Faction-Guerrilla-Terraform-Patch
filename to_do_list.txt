@@ -15,6 +15,8 @@ HIGH PRIORITY
 * TEST Host migration fix
 * TEST Spiker balance
 * TEST if rl_decal error spam in log is fixed
+* TEST bagman on Aerial Excavation
+* Re-do misc and table for final release
 
 MAPS
 ----
@@ -40,7 +42,7 @@ NANOFORGE BUGS (Possibly with world_anchors)
 
 MISC
 ----
-* Add comments for string names in .xtbl files
+* Add comments for string names in .xtbl files 
 
 CHARACTERS
 ----------
