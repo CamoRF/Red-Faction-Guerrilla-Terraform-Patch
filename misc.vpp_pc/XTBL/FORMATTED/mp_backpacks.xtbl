@@ -1131,7 +1131,7 @@
 			<Unique_ID>10</Unique_ID>
 		</mp_backpacks>
 <!--END-->
-<!--START Experimental-->
+<!--START OP Backpacks ADDED-->
 		<mp_backpacks>
 			<Name>Jetpack OP</Name>
 			<jetpack>
@@ -1533,6 +1533,8 @@
 			<Unique_ID>14</Unique_ID>
 			<pickup_tooltip>backpack_rhino</pickup_tooltip>
 		</mp_backpacks>
+<!--END-->
+<!--Start Repair Backpack ADDED-->		
 		<mp_backpacks>
 			<Name>Repair</Name>
 			<_Editor>
@@ -1629,7 +1631,7 @@
 			</pickup_effects>
 			<Unique_ID>15</Unique_ID>
 			<pickup_tooltip>backpack_tremor</pickup_tooltip>
-		</mp_backpacks>		
+		</mp_backpacks>
 <!--END-->
 	</Table>
 	<TableTemplates></TableTemplates>

@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--NOTE: current highest <Unique_ID>122</Unique_ID>-->
 <!--START Grenade TEST-->		
 		<Explosion>
 			<Name>grenade_mp</Name>

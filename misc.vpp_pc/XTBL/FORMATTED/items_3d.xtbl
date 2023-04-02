@@ -1,5 +1,45 @@
 <root>
+<!--beer_bottle_a.smeshx
+bar_glass.smeshx
+beer_bottle_a.smeshx
+amb_toolbox.smeshx
+amb_cigarette.smeshx
+amb_wrench.smeshx
+amb_clipboard.smeshx
+amb_binoculars.smeshx
+amb_file_folder.smeshx
+amb_cellphone.smeshx
+amb_lunchbox.cmeshx
+amb_jackhammer.cmeshx
+amb_briefcase.smeshx
+ore_salvage_pickup.smeshx
+amb_rock.smeshx
+amb_bag.smeshx
+amb_idcard.SMESHX
+amb_spraybottle.smeshx
+amb_small_hammer.smeshx
+amb_welding_torch.smeshx
+amb_broom.smeshx
+amb_data_pad.smeshx
+amb_fork.smeshx
+amb_box.smeshx-->	
 	<Table>
+		<Item>
+			<Name>first_aid_box</Name>
+			<Mesh>
+				<Filename>firstaidbox.smeshx</Filename>
+			</Mesh>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Touch_Script>give_full_health</Touch_Script>
+			<Respawn_Delay>15000</Respawn_Delay>
+			<Spin_Time>5000</Spin_Time>
+			<Item_Flags>
+				<Flag>spin</Flag>
+			</Item_Flags>
+			<streaming_category>General</streaming_category>
+		</Item>	
 <!--START DLC Weapons ADDED-->
 		<Item>
 			<Name>EDF_Super_Gauss</Name>
@@ -6148,22 +6188,6 @@
 				<Category>Entries:Turrets</Category>
 			</_Editor>
 			<Mass>100</Mass>
-			<streaming_category>General</streaming_category>
-		</Item>
-		<Item>
-			<Name>first_aid_box</Name>
-			<Mesh>
-				<Filename>firstaidbox.smeshx</Filename>
-			</Mesh>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<Touch_Script>give_full_health</Touch_Script>
-			<Respawn_Delay>15000</Respawn_Delay>
-			<Spin_Time>5000</Spin_Time>
-			<Item_Flags>
-				<Flag>spin</Flag>
-			</Item_Flags>
 			<streaming_category>General</streaming_category>
 		</Item>
 	</TableTemplates>

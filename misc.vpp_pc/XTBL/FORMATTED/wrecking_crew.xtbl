@@ -148,6 +148,19 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<weapons>
+<!--START Grenade TEST-->
+				<weapon>
+					<weapon_name>camo_grenade</weapon_name>
+					<mode_flags>
+						<Flag>mayhem</Flag>
+						<Flag>fall_guy</Flag>
+						<Flag>rampage</Flag>
+						<Flag>total_chaos</Flag>
+					</mode_flags>
+					<rampage_time_penalty_ms>1000</rampage_time_penalty_ms>
+					<mayhem_attack_multiplier>12</mayhem_attack_multiplier>
+				</weapon>
+<!--END-->			
 <!--START DLC Weapons Added-->
 				<weapon>
 					<weapon_name>missilepod</weapon_name>

@@ -1,6 +1,80 @@
 <root>
 	<Table>
 <!--NOTE: current highest <Unique_ID>145</Unique_ID>-->
+<!--START Health Pickup TEST-->
+		<!--<Weapon>
+			<Name>health_pickup</Name>
+			<Weapon_Class>bullet</Weapon_Class>
+			<Trigger_Type>automatic</Trigger_Type>
+			<Ammo_Type>bullet</Ammo_Type>
+			<Magazine_Size>40</Magazine_Size>
+			<Max_Rounds>200</Max_Rounds>
+			<Range_Max>35</Range_Max>
+			<Range_Red>50</Range_Red>
+			<Default_Refire_Delay>94</Default_Refire_Delay>
+			<Damage_Scaling_Max>
+				<NPC_Damage>40</NPC_Damage>
+				<Player_Damage>34</Player_Damage>
+				<Threshold>80</Threshold>
+				<Vehicle_Damage>-1</Vehicle_Damage>
+				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
+			</Damage_Scaling_Max>
+			<Spread_Max>1.85</Spread_Max>
+			<Spread_Min>0.85</Spread_Min>
+			<NPC_Spread_Max>3.6</NPC_Spread_Max>
+			<NPC_Spread_Min>1.2</NPC_Spread_Min>
+			<To_Spread_Max>5</To_Spread_Max>
+			<To_Spread_Min>800</To_Spread_Min>
+			<Spread_Multiplier_Run>0.8</Spread_Multiplier_Run>
+			<_Editor>
+				<Category>Entries:MP Overrides</Category>
+			</_Editor>
+			<Ragdoll_Force_Shoot>2.2</Ragdoll_Force_Shoot>
+			<Animation_Group>AK</Animation_Group>
+			<Flags>
+				<Flag>shatter</Flag>
+				<Flag>can fine aim</Flag>
+				<Flag>mp selectable</Flag>
+				<Flag>is obvious weapon</Flag>
+				<Flag>looping effects</Flag>
+				<Flag>dont drop on death</Flag>
+				<Flag>non-inventory</Flag>
+			</Flags>
+			<Damage_Scaling_Min>
+				<Threshold>30</Threshold>
+				<NPC_Damage>60</NPC_Damage>
+				<Player_Damage>42</Player_Damage>
+				<Vehicle_Damage>-1</Vehicle_Damage>
+				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
+			</Damage_Scaling_Min>
+			<Min_Engagement_Distance>8</Min_Engagement_Distance>
+			<Max_Engagement_Distance>18</Max_Engagement_Distance>
+			<Inventory_Item>generic_inventory_item</Inventory_Item>
+			<Item_3d>first_aid_box</Item_3d>
+			<Recoil_Kick>0.75</Recoil_Kick>
+			<Acceleration>0.0</Acceleration>
+			<Spread_Fine_Aim_Min>0.62</Spread_Fine_Aim_Min>
+			<Spread_Fine_Aim_Max>1.15</Spread_Fine_Aim_Max>
+			<NPC_Firing_Pattern>Default m16</NPC_Firing_Pattern>
+			<Reload_Delay>200</Reload_Delay>
+			<Dropped_ammo_scale>0.5</Dropped_ammo_scale>
+			<Ammo_Box_Restock>200</Ammo_Box_Restock>
+			<Num_Magazines>5</Num_Magazines>
+			<icon_name>ui_hud_weapon_icon_assault</icon_name>
+			<Zoom_Magnification>1.65</Zoom_Magnification>
+			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
+			<reticule_name>ui_hud_reti_assault3</reticule_name>
+			<dummy>False</dummy>
+			<NPC_Aim_Drift>Default</NPC_Aim_Drift>
+			<Headshot_Multiplier>2.1</Headshot_Multiplier>
+			<Bullet_Group>Standard</Bullet_Group>
+			<Unique_ID>146</Unique_ID>
+			<Default_team>EDF</Default_team>
+			<fine_aim_reticule>ui_hud_reti_assault</fine_aim_reticule>
+			<aim_assist>1.0</aim_assist>
+			<Player_Move_Speed>1.25</Player_Move_Speed>
+		</Weapon>-->
+<!--END-->		
 <!--START Grenade TEST-->	
 		<Weapon>
 			<Name>camo_grenade</Name>

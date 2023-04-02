@@ -38,6 +38,9 @@
 * Marauder lady has some missing textures
 * "cem_base01_wkpp" missing specular texture (test at Parker's shack)
 
+[Weapons]
+* Grenade weapon has strange ammo count
+
 [DLC Weapons]
 * Pickaxe: Missing textures; not implemented yet
 * Impaler: Missing textures; not implemented yet
