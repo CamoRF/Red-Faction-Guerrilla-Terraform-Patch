@@ -7,6 +7,13 @@ NOTES
 * rfgcommunitypatch
 * rfgcommunityupdate3
 
+GRENADE
+-------
+* Less time until it explodes?
+* More mass?
+* Make it so you can throw it further
+* Try to fix the weird thing with ammo
+
 HIGH PRIORITY
 --------------
 
@@ -20,7 +27,8 @@ MAPS (LOW PRIORITY)
 * Ruins: Add Damage Control
 * Scrapheap: Add CTF & Damage Control
 * New siege maps: Add team spawn children to siege objectives
-* Siege maps: More backpack spawns when played in other modes?
+* Siege maps: More backpack spawns when played in other modes
+* Downfall: Fix the out of bounds exploit near the middle hill and re-enable it
 
 NANOFORGE BUGS (Possibly with world_anchors)
 ---------------------------------------------
@@ -51,17 +59,13 @@ WRECKING CREW MODE
 
 WEAPONS
 -------
-* Nano grenade weapon when regular grenade is more refined any items_inventory.xtbl limit is bumped
+* Nano grenade weapon when regular grenade is more refined and items_inventory.xtbl limit is bumped
 * Singularity that explodes in 1 second named Instant Singularity Bomb
 * Fix DLC weapon icons and reticules by figuring out how to port them to the base game, something to do with bitmap.xtbl and peg files
-* Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?)
+* Retexture super gauss rifle to make it easier to tell apart from regular gauss rifle? (white?) (they seem to share the same texture however)
 * Implement Royal Sword, Pickaxe, Marauder Remote Charges when the peg tool is out
-* Weapon ideas: Singularity launcher, Gauss shotgun, Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to 	the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
-* Misslepod: too much smoke and particles for such small damage
-* Reconstructor effect not appearing randomly, test if restarting game fixes it
-* Reduce or remove sledge hammer aim assist?: there's a variable for it set to 0.75 in weapons.xtbl
-* Pistol: too finnicky to use?
-* Rail driver: maybe it should turn red at a longer distance, maybe the start and max speed for the projectile should be the same?
+* Weapon ideas: Singularity launcher, Gauss shotgun, Flamethrower using Arc Welder as a base; Flame thrower weapon using reconstructor with Nano Rifle stream, kind of worked with using reconstructor and changing some values to the cut turret flamethrower weapon, issues were it either didn't have any ammo or it got stuck firing. Maybe arc_welder could work better
+* Misslepod: too much smoke and particles for such small damage, maybe change it to a smaller explosion effect.
 * Overpowered version of weapons: Grinder etc
 
 SINGLEPLAYER
@@ -118,6 +122,9 @@ SINGLEPLAYER
 * More usage for salvage: upgrading vehicles (swapping out vehicles for ones with guns, repairing vehicles, adding armor, adding moab from safehouse)
 * Bug with essential bridge not spawning near the end of the game: non destructible bridge has only half loaded in and means you can't finish the game. One of the last missions you're tasked with destroying enemies and protecting a truck to its destination, issue is you're not following the truck yourself, you're tracking it with a missile launcher and the truck goes to where this bridge should be and drops down and loops back round over and over again.
   The game itself thinks it's there, in and out of mission the AI just straight drives off it, waypoints (which normally divert around destroyed bridges) just go straight across the gap.
+
+CRASH SITE INTERIOR MAP
+-----------------------
 
 RUINS INTERIOR MAP
 ------------------
