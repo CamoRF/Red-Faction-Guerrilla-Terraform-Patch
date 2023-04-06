@@ -73,9 +73,9 @@ v1.01 ALPHA CHANGES
 -------------------
 
 [New Weapons]
-* Added DLC Super Gauss Rifle weapon
-* Added DLC Misslepod weapon
-* Added DLC Subverter weapon
+* Added DLC Super Gauss Rifle weapon to multiplayer
+* Added DLC Misslepod weapon to multiplayer
+* Added DLC Subverter weapon to multiplayer
 
 -------------------
 v1.02 ALPHA CHANGES
@@ -94,10 +94,10 @@ v1.02 ALPHA CHANGES
 * Debris no longer despawn quickly & now react to player movement
 
 [New Weapons]
-* Added CTF flags as weapons
+* Added CTF flags as weapons in multiplayer
 
 [New Backpack]
-* Added cut kaboom packpack
+* Added cut kaboom packpack to multiplayer
 
 [Fixes]
 * Fixed issue with incorrect map thumbnails & loading screens on DLC Wrecking Crew maps
@@ -252,7 +252,7 @@ v1.06 ALPHA CHANGES
 * Re-implemented GFWL map into matchmaking as it's fixed now
 
 [Weapons]
-* Changed the DLC weapon placeholder icons to badge icons to avoid confusion with standard weapons 
+* Changed the DLC weapon placeholder icons to badge icons to avoid confusion with other weapons 
 
 [Multiplayer]
 * Movement speed is now consistent across all weapons
@@ -665,7 +665,7 @@ v1.07.2 ALPHA CHANGES
 * Initial loading screen updated to current patch version
 
 [New Weapon]
-* Added experimental Grenade
+* Added experimental Grenade to multiplayer
 
 [New Maps]
 * Restored remastered version of Aerial Excavation by ATMLVE with additional bug fixes
