@@ -4,7 +4,7 @@
 - Date: 2-4-2023
 - Build: 1024
 - Work-in-progress project that adds content, fixes bugs, and enhances many features.
-- Note: Currently the majority of the patch focuses on multiplayer, there are few SP changes included but comprehensive changes will come later.
+- Note: Currently the majority of the patch focuses on multiplayer, there are a few SP changes included but comprehensive changes will come later.
 
 # Auto Install (Recommended)
 - First verify your game files.
