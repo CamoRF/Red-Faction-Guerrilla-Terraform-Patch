@@ -21,6 +21,15 @@ MAPS
 ----
 * Add team spawns to Cascade, Factory, Fortress, Frost, Nordic Special, Pipeline, Repercussion, Ruins, Scrapheap, Transmission, Vista
 * Add Arc Welder spawn to Scrapheap
+* 		<Element>
+			<Name>demolition_damage_multiplier</Name>
+			<Type>Float</Type>
+			<Display_Name>Demolition damage multiplier</Display_Name>
+			<Description>Higher numbers mean more damage will be required per point in Demolition</Description>
+			<Default>1</Default>
+			<MinValue>0</MinValue>
+		</Element>
+* Re-enable demolition for Stratosphere and Crescent but increase demolition_damage_multiplier in mp_levels.xtbl?
 
 MAPS (LOW PRIORITY)
 -------------------
