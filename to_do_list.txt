@@ -9,9 +9,8 @@ NOTES
 
 GRENADE
 -------
-* Less time until it explodes?
-* More mass?
-* Make it so you can throw it further
+* Shorter fuse time
+* Larger explosion radius
 * Try to fix the weird thing with ammo
 
 HIGH PRIORITY
@@ -30,6 +29,8 @@ MAPS
 			<MinValue>0</MinValue>
 		</Element>
 * Re-enable demolition for Stratosphere and Crescent but increase demolition_damage_multiplier in mp_levels.xtbl?
+* Gulch: Move flag stands to near team spawns
+* Radial: needs a large siege target
 
 MAPS (LOW PRIORITY)
 -------------------
