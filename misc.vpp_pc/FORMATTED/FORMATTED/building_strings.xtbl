@@ -19,13 +19,13 @@
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_ARK_REFINERY_SMOKESTACK</Name>
+			<Name>TRGT_ARK_REFINERY_SMOKESTACK</Name> <!--ARK REFINERY SMOKESTACK-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_ARTILLERY_BASE_BARRACKS</Name>
+			<Name>TRGT_ARTILLERY_BASE_BARRACKS</Name> <!--ARTILLERY BASE BARRACKS-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
@@ -391,253 +391,253 @@
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_DEADZONE_002</Name>
+			<Name>MPDCT_DEADZONE_002</Name> <!--JUNKYARD-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_DEADZONE_003</Name>
+			<Name>MPDCT_DEADZONE_003</Name> <!--PIT-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_DOWNFALL_001</Name>
+			<Name>MPDCT_DOWNFALL_001</Name> <!--CAVE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_DOWNFALL_002</Name>
+			<Name>MPDCT_DOWNFALL_002</Name> <!--ROCKTOP-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_DOWNFALL_003</Name>
+			<Name>MPDCT_DOWNFALL_003</Name> <!--SPIRE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_EXCAVATION_001</Name>
+			<Name>MPDCT_EXCAVATION_001</Name> <!--SMOKESTACK-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_EXCAVATION_002</Name>
+			<Name>MPDCT_EXCAVATION_002</Name> <!--DROPOFF-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_EXCAVATION_003</Name>
+			<Name>MPDCT_EXCAVATION_003</Name> <!--HIGH CORNER-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_FALLFACTOR_001</Name>
+			<Name>MPDCT_FALLFACTOR_001</Name> <!--WAREHOUSE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_FALLFACTOR_002</Name>
+			<Name>MPDCT_FALLFACTOR_002</Name> <!--RADIO TOWER-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_FALLFACTOR_003</Name>
+			<Name>MPDCT_FALLFACTOR_003</Name> <!--BRIDGE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_GARRISON_001</Name>
+			<Name>MPDCT_GARRISON_001</Name> <!--TOWER-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_GARRISON_002</Name>
+			<Name>MPDCT_GARRISON_002</Name> <!--LANDING PAD-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_GARRISON_003</Name>
+			<Name>MPDCT_GARRISON_003</Name> <!--GARAGE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_PINNACLE_001</Name>
+			<Name>MPDCT_PINNACLE_001</Name> <!--HALF DOME-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_PINNACLE_002</Name>
+			<Name>MPDCT_PINNACLE_002</Name> <!--CENTRAL-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_PINNACLE_003</Name>
+			<Name>MPDCT_PINNACLE_003</Name> <!--FAR-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_QUARANTINE_001</Name>
+			<Name>MPDCT_QUARANTINE_001</Name> <!--SMOKESTACK-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_QUARANTINE_002</Name>
+			<Name>MPDCT_QUARANTINE_002</Name> <!--BORDER 1-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_QUARANTINE_003</Name>
+			<Name>MPDCT_QUARANTINE_003</Name> <!--BORDER 2-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_RADIAL_001</Name>
+			<Name>MPDCT_RADIAL_001</Name> <!--COMM TOWER-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_RADIAL_002</Name>
+			<Name>MPDCT_RADIAL_002</Name> <!--PLAINS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_RADIAL_003</Name>
+			<Name>MPDCT_RADIAL_003</Name> <!--SPIRE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_RIFT_001</Name>
+			<Name>MPDCT_RIFT_001</Name> <!--WAREHOUSE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_RIFT_002</Name>
+			<Name>MPDCT_RIFT_002</Name> <!--CLIFFSIDE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_RIFT_003</Name>
+			<Name>MPDCT_RIFT_003</Name> <!--HIGH-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_SANDPIT_001</Name>
+			<Name>MPDCT_SANDPIT_001</Name> <!--RADIO TOWER-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_SANDPIT_002</Name>
+			<Name>MPDCT_SANDPIT_002</Name> <!--PIT--->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_SANDPIT_003</Name>
+			<Name>MPDCT_SANDPIT_003</Name> <!--RAISED-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_SETTLEMENT_001</Name>
+			<Name>MPDCT_SETTLEMENT_001</Name> <!--RESIDENTIAL-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_SETTLEMENT_002</Name>
+			<Name>MPDCT_SETTLEMENT_002</Name> <!--HIGH MOHOLE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_SETTLEMENT_003</Name>
+			<Name>MPDCT_SETTLEMENT_003</Name> <!--LOW MOHOLE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_WARLORDS_001</Name>
+			<Name>MPDCT_WARLORDS_001</Name> <!--FORTRESS 1-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_WARLORDS_002</Name>
+			<Name>MPDCT_WARLORDS_002</Name> <!--FORTRESS 2-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_WARLORDS_003</Name>
+			<Name>MPDCT_WARLORDS_003</Name> <!--TOWNHALL-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_WASTELAND_001</Name>
+			<Name>MPDCT_WASTELAND_001</Name> <!--GUARD TOWER-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_WASTELAND_002</Name>
+			<Name>MPDCT_WASTELAND_002</Name> <!--0UTPOST-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_WASTELAND_003</Name>
+			<Name>MPDCT_WASTELAND_003</Name> <!--RADIO TOWER-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_WRECKAGE_001</Name>
+			<Name>MPDCT_WRECKAGE_001</Name> <!--THRUSTER-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_WRECKAGE_002</Name>
+			<Name>MPDCT_WRECKAGE_002</Name> <!--FUSELAGE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPDCT_WRECKAGE_003</Name>
+			<Name>MPDCT_WRECKAGE_003</Name> <!--BRIDGE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CORNERED_001</Name>
+			<Name>MPST_CORNERED_001</Name> <!--COMM TOWER 1-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
@@ -817,169 +817,169 @@
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_EOS_MEMORIAL_BRIDGE</Name>
+			<Name>TRGT_EOS_MEMORIAL_BRIDGE</Name> <!--EOS MEMORIAL BRIDGE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SMOKESTACKS_01</Name>
+			<Name>TRGT_SMOKESTACKS_01</Name> <!--1 OF 12 SMOKESTACKS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SMOKESTACKS_02</Name>
+			<Name>TRGT_SMOKESTACKS_02</Name> <!--2 OF 12 SMOKESTACKS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SMOKESTACKS_03</Name>
+			<Name>TRGT_SMOKESTACKS_03</Name> <!--3 OF 12 SMOKESTACKS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SMOKESTACKS_04</Name>
+			<Name>TRGT_SMOKESTACKS_04</Name> <!--4 OF 12 SMOKESTACKS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SMOKESTACKS_05</Name>
+			<Name>TRGT_SMOKESTACKS_05</Name> <!--5 OF 12 SMOKESTACKS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SMOKESTACKS_06</Name>
+			<Name>TRGT_SMOKESTACKS_06</Name> <!--6 OF 12 SMOKESTACKS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SMOKESTACKS_07</Name>
+			<Name>TRGT_SMOKESTACKS_07</Name> <!--7 OF 12 SMOKESTACKS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SMOKESTACKS_08</Name>
+			<Name>TRGT_SMOKESTACKS_08</Name> <!--8 OF 12 SMOKESTACKS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SMOKESTACKS_09</Name>
+			<Name>TRGT_SMOKESTACKS_09</Name> <!--9 OF 12 SMOKESTACKS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SMOKESTACKS_10</Name>
+			<Name>TRGT_SMOKESTACKS_10</Name> <!--10 OF 12 SMOKESTACKS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SMOKESTACKS_11</Name>
+			<Name>TRGT_SMOKESTACKS_11</Name> <!--11 OF 12 SMOKESTACKS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SMOKESTACKS_12</Name>
+			<Name>TRGT_SMOKESTACKS_12</Name> <!--12 OF 12 SMOKESTACKS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TURBINES_01</Name>
+			<Name>TRGT_TURBINES_01</Name> <!--1 OF 12 TURBINES-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TURBINES_02</Name>
+			<Name>TRGT_TURBINES_02</Name> <!--2 OF 12 TURBINES-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TURBINES_03</Name>
+			<Name>TRGT_TURBINES_03</Name> <!--3 OF 12 TURBINES-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TURBINES_04</Name>
+			<Name>TRGT_TURBINES_04</Name> <!--4 OF 12 TURBINES-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TURBINES_05</Name>
+			<Name>TRGT_TURBINES_05</Name> <!--5 OF 12 TURBINES-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TURBINES_06</Name>
+			<Name>TRGT_TURBINES_06</Name> <!--6 OF 12 TURBINES-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TURBINES_07</Name>
+			<Name>TRGT_TURBINES_07</Name> <!--7 OF 12 TURBINES-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TURBINES_08</Name>
+			<Name>TRGT_TURBINES_08</Name> <!--8 OF 12 TURBINES-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TURBINES_09</Name>
+			<Name>TRGT_TURBINES_09</Name> <!--9 OF 12 TURBINES-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TURBINES_10</Name>
+			<Name>TRGT_TURBINES_10</Name> <!--10 OF 12 TURBINES-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TURBINES_11</Name>
+			<Name>TRGT_TURBINES_11</Name> <!--11 OF 12 TURBINES-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TURBINES_12</Name>
+			<Name>TRGT_TURBINES_12</Name> <!--12 OF 12 TURBINES-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_MONUMENT_01</Name>
+			<Name>TRGT_MONUMENT_01</Name> <!--1 OF 3 MONUMENTS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_MONUMENT_02</Name>
+			<Name>TRGT_MONUMENT_02</Name> <!--2 OF 3 MONUMENTS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_MONUMENT_03</Name>
+			<Name>TRGT_MONUMENT_03</Name> <!--3 OF 3 MONUMENTS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
