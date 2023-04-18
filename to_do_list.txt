@@ -20,7 +20,8 @@ MAPS
 ----
 * Add team spawns to Cascade, Factory, Fortress, Frost, Nordic Special, Pipeline, Repercussion, Ruins, Scrapheap, Transmission, Vista
 * Add Arc Welder spawn to Scrapheap
-* 		<Element>
+* Re-enable demolition for Stratosphere and Crescent but increase demolition_damage_multiplier in mp_levels.xtbl?
+	 	<Element>
 			<Name>demolition_damage_multiplier</Name>
 			<Type>Float</Type>
 			<Display_Name>Demolition damage multiplier</Display_Name>
@@ -28,12 +29,10 @@ MAPS
 			<Default>1</Default>
 			<MinValue>0</MinValue>
 		</Element>
-* Re-enable demolition for Stratosphere and Crescent but increase demolition_damage_multiplier in mp_levels.xtbl?
 * Gulch: Move flag stands to near team spawns
 * Radial: needs a large siege target
-* Aerial Excation: Missing ported smokestack asset, probably needs asm_pc to be updated with RfgUtil
-* Pipeline Pitfall: Add forcefield that lines up with the invisible wall
-* 
+* Aerial Excation: Missing ported smokestack asset, remake remaster when NF rewrite is out and supports asset transfer. Also SF to support xdelta patching newly added files.
+* Pipeline Pitfall: Add forcefield that lines up with the invisible wall (low priority) and need SF to support xdelta patching newly added files.
 
 MAPS (LOW PRIORITY)
 -------------------
@@ -155,10 +154,13 @@ SINGLEPLAYER
 
 RUINS INTERIOR MAP
 ------------------
-* One of the ported buildings isn't showing up, probably needs asm_pc updated with RfgUtil 
 * Add more fire on ground 
 * Remove buildings that have floors that can be destroyed
 * Test if setting buildings to indestructable means they can work with shape cutters still
+
+CRASHSITE INTERIOR MAP
+-----------------------
+* None of the buildings are positioned correctly yet, wait until NF rewrite
 
 MISC (OUT OF SCOPE/ADD-ONS)
 ---------------------------
