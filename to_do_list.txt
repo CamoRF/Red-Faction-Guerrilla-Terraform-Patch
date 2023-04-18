@@ -31,6 +31,9 @@ MAPS
 * Re-enable demolition for Stratosphere and Crescent but increase demolition_damage_multiplier in mp_levels.xtbl?
 * Gulch: Move flag stands to near team spawns
 * Radial: needs a large siege target
+* Aerial Excation: Missing ported smokestack asset, probably needs asm_pc to be updated with RfgUtil
+* Pipeline Pitfall: Add forcefield that lines up with the invisible wall
+* 
 
 MAPS (LOW PRIORITY)
 -------------------
@@ -144,29 +147,18 @@ SINGLEPLAYER
 * Make it so you can shoot the wings off EDF flyers
 * Safehouses that save your vehicle if you drive them there like GTA
 * What I personally feel would be an interesting dynamic is if the EDF could actually gain back control.
-[10:25 AM]HeyItsDuke: Maybe not once a sector is fully liberated, but during the storyline in that sector.
-[10:25 AM]HeyItsDuke: If you fail a Guerrilla action or morale takes too big of a hit, the EDF gains control while you lose morale.
-[10:27 AM]HeyItsDuke: And as a consequence, leveled EDF structures might be repaired.
-[10:27 AM]HeyItsDuke: Turning it into a constant struggle for the edge in the power dynamic.
-* air traffic control mission where stealth is heavily implied but it just doesn’t matter
-
-CRASH SITE INTERIOR MAP
------------------------
+	- Maybe not once a sector is fully liberated, but during the storyline in that sector.
+	- If you fail a Guerrilla action or morale takes too big of a hit, the EDF gains control while you lose morale.
+	- And as a consequence, leveled EDF structures might be repaired.
+	- Turning it into a constant struggle for the edge in the power dynamic.
+* Air traffic control mission where stealth is heavily implied but it just doesn’t matter
 
 RUINS INTERIOR MAP
 ------------------
-
-SANDPIT KOTH
--------------
-* Use puncture weather and time of day
-* Transfer heat haze and fire assets to map 
-* Small smokestack in distance is too high
-* 180 the small shack near the middle of the map
-* Raise the large building added a tiny bit
-* Fence clipping through one of the smokestacks
-* Add more objects outside the maybe
-* Attempt to transfer the solar tower asset from cascade or gauntlet and add it at that empty area at the opposite side of the map as the large building
-* Move the shack next to it closer to the middle, next to the fence/backpacks
+* One of the ported buildings isn't showing up, probably needs asm_pc updated with RfgUtil 
+* Add more fire on ground 
+* Remove buildings that have floors that can be destroyed
+* Test if setting buildings to indestructable means they can work with shape cutters still
 
 MISC (OUT OF SCOPE/ADD-ONS)
 ---------------------------
