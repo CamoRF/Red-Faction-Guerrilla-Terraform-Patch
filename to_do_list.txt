@@ -43,6 +43,7 @@ MAPS (LOW PRIORITY)
 * Aerial Excation: Missing ported smokestack asset, remake remaster when NF rewrite is out and supports asset transfer. Also SF to support xdelta patching newly added files.
 * Pipeline Pitfall: Add forcefield that lines up with the invisible wall (low priority) and need SF to support xdelta patching newly added files.
 * Pipeline Pitfall: Needs better killboxes
+* Quarantine: Some of the object names are wrong like the radio tower
 
 NANOFORGE BUGS (Possibly with world_anchors)
 ---------------------------------------------
