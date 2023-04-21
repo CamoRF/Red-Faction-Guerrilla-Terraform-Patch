@@ -31,6 +31,7 @@ MAPS
 		</Element>
 * Gulch: Move flag stands to near team spawns
 * Radial: needs a large siege target
+* Disable Pipeline pitfalls in bagman
 
 MAPS (LOW PRIORITY)
 -------------------
@@ -166,7 +167,7 @@ CRASHSITE INTERIOR MAP
 
 SHIPMENT REMAKE
 ----------------
-* Test if making barrels invulernable means they can't be destroyed
+* Test if making barrels invulernable means they can't be destroyed, there's also a blue barrel in the SP map somewhere
 * Transfer crates from Expansion, destroyed vehicle debris and shipping container assets from GFWL
 * Quarantine map as base?
 
