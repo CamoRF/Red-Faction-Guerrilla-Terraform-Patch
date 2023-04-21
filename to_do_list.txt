@@ -42,6 +42,7 @@ MAPS (LOW PRIORITY)
 * Downfall: Fix the out of bounds exploit near the middle hill and re-enable it
 * Aerial Excation: Missing ported smokestack asset, remake remaster when NF rewrite is out and supports asset transfer. Also SF to support xdelta patching newly added files.
 * Pipeline Pitfall: Add forcefield that lines up with the invisible wall (low priority) and need SF to support xdelta patching newly added files.
+* Pipeline Pitfall: Needs better killboxes
 
 NANOFORGE BUGS (Possibly with world_anchors)
 ---------------------------------------------
@@ -169,7 +170,6 @@ SHIPMENT REMAKE
 ----------------
 * Test if making barrels invulernable means they can't be destroyed, there's also a blue barrel in the SP map somewhere
 * Transfer crates from Expansion, destroyed vehicle debris and shipping container assets from GFWL
-* Quarantine map as base?
 
 MISC (OUT OF SCOPE/ADD-ONS)
 ---------------------------

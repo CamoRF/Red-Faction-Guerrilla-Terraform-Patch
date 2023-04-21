@@ -31,6 +31,14 @@
 * Most wrecking crew maps still need more spawns &/or fixes to existing spawns
 * Wrecking crew maps in general are not final
 * New Siege Maps: Most of them are lacking proper spawns and might be chaotic
+* Pipeline Pitfalls: Killbox needs refinement & bagman doesn't play well
+* Aerial Excavation: The smokestack is invisible
+* Downfall: Out of bounds exploit near the middle hill needs to be refined so it doesn't kill players still in the map and re-enabled
+* Radial: Needs a large siege target to be more playable in Siege, currently the rounds end quickly
+* Gulch: Flags need to be moved from the middle of the map to near the team spawns in the outskirts
+* Stratosphere: Demolition currently disabled, changing demolition_damage_multiplier in mp_levels.xtbl might make it more playable
+* Crescent: Demolition currently disabled, changing demolition_damage_multiplier in mp_levels.xtbl might make it more playable
+* Cascade, Factory, Fortress, Frost, Nordic Special, Pipeline, Repercussion, Ruins, Scrapheap, Transmission, Vista: Need team spawns, re-enable CTF when they are added
 
 [Textures]
 * Typo (build>built, fo>for) in "ui_blueprint_hammer" texture
@@ -73,3 +81,6 @@
 * Profile saving hud element can sometimes get stuck on screen in multiplayer games on rare occasions; not really a major issue
 * "[gamelink] m_voiceOutPutSampleRate = 0. m_voiceOutPutSampleRate is not correctly set" reported in Red Faction Guerrilla Re-Mars-tered.log
 * "[gamelink] failed to create Voice Context" Red Faction Guerrilla Re-Mars-tered.log
+
+[Sounds]
+* Looping sounds can sometimes stop playing, might be related to a hardcoded limit that could be increased with RSL2 eventually
