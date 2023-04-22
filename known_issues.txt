@@ -84,3 +84,6 @@
 
 [Sounds]
 * Looping sounds can sometimes stop playing, might be related to a hardcoded limit that could be increased with RSL2 eventually
+
+[Effects]
+* Gun effects can stop working, hardcoded limit? check log next time it happens
