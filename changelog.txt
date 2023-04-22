@@ -711,3 +711,28 @@ v1.07.2 ALPHA CHANGES
 * Fixed some files that shouldn't be optimized and caused bugs with the Kiosk screens in Singleplayer for example
 * Temporarily disabled one of the out of bounds exploit fixes on Downfall that killed you while you were still in the map
 * Optimized more files to reduce memory pool load increasing stability
+
+--------------------------
+v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
+--------------------------
+
+[Grenade Buff]
+* Decreased fuse time to 1500ms from 3000
+* Increased explosion radius to 7.75 from 6.2
+* Increased explosion impulse to 25000 from 20000
+* Increased explosion crumble radius to 4.375 from 3.5
+* Increased explosion knockdown radius to 5.0 from 4.0
+* Increased explosion flinch radius to 6.25 from 5.0
+
+[Concussion Nerf]
+* Decreased fuel regen per second to 0.11 from 0.22
+
+[Misc]
+* Increased ladder climbing speed to 14.0 from 7.0
+
+[Maps]
+* Temporarily disabled Bagman on Pipeline Pitfalls due to it being very playable
+* Re-enabled Demolition on Stratosphere & Crescent with balance fixes
+
+[Fixes]
+* Fixed holding grenades in both hands

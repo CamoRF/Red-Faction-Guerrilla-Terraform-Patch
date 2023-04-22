@@ -656,7 +656,7 @@
 				</active_abilities>
 				<uses_fuel>
 					<fuel_use_per_second>0</fuel_use_per_second>
-					<fuel_regen_per_second>0.22</fuel_regen_per_second>
+					<fuel_regen_per_second>0.11</fuel_regen_per_second> <!--From 0.22 in v1.07.2-->
 					<fuel_activation_cost>1</fuel_activation_cost>
 					<minimum_fuel_to_activate>1</minimum_fuel_to_activate>
 					<fuel_refill_foley>MP_BACKPACK_SHOCK_REFUELED</fuel_refill_foley>

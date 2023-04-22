@@ -28,7 +28,7 @@
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/changelog.txt)
 
 # To do list
-See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/to_do_list.txt)
+See [Here](https://github.com/users/CamoRF/projects/3/views/1)
 
 # Known Issues
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/known_issues.txt)

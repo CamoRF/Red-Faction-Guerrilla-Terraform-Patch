@@ -127,7 +127,7 @@
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
-				<Flag>bagman</Flag>
+				<!--<Flag>bagman</Flag>-->
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>

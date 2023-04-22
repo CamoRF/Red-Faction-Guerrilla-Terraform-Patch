@@ -4,20 +4,20 @@
 <!--START Grenade TEST-->		
 		<Explosion>
 			<Name>grenade_mp</Name>
-			<Radius>6.2</Radius>
+			<Radius>7.75</Radius> <!--From 6.2 in 1.07.2-->
 			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>900</vehicle_damage_max>
 			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>20000</Impulse>
+			<Impulse>25000</Impulse> <!--From 20000 in v1.07.2-->
 			<Effects>
 				<Element>wep_edf_grenade_exp_a</Element>
 			</Effects>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<CrumbleRadius>3.5</CrumbleRadius>
-			<KnockdownRadius>4.0</KnockdownRadius>
-			<FlinchRadius>5.0</FlinchRadius>
+			<CrumbleRadius>4.375</CrumbleRadius> <!--From 3.5 in v1.07.2-->
+			<KnockdownRadius>5.0</KnockdownRadius> <!--From 4.0 in v1.07.2-->
+			<FlinchRadius>6.25</FlinchRadius> <!--From 5.0 in v1.07.2-->
 			<player_mult>0.8</player_mult>
 			<MaxSalvagePieces>0</MaxSalvagePieces>
 			<SalvageProbability>0</SalvageProbability>

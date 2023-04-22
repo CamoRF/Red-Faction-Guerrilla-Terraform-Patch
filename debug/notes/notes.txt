@@ -1,0 +1,16 @@
+*----*
+NOTES
+*----*
+
+* rfgcommunitypatch
+* rfgcommunityupdate3
+* Test adding multiple bagman spawns to randomize where it respawns 
+* Test adding more than 2 flag stands
+* Siege maps has something with persistent flags used on most objects
+* Siege maps persistent objects other than the objective don't spawn? or is it just framework?
+* Ladders: does making them orphans make them remain usable for longer when buildings are partially damaged?
+* King of the Hill targets, Flag capture zones, Spawn nodes, Spectator cameras have values related to backpack racks which are possibly redundant, test if removing these doesn't break objectives.
+* Framework: MP version of crane asset?
+* Health pickups
+* Updated weather files in dlc3 misc file or removing them there since misc seems to override it?
+* Can dlc02_text and dlc03_text be merged into misc.vpp_pc?

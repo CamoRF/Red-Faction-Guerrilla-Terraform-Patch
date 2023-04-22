@@ -99,7 +99,7 @@
 				<Model>grenade</Model>
 				<Start_Speed>20</Start_Speed>
 				<Max_Speed>25</Max_Speed>
-				<Fuse_Time>3000</Fuse_Time>
+				<Fuse_Time>1500</Fuse_Time> <!--From 3000 in v1.07.2-->
 				<Mass>4</Mass> <!--From 2-->
 				<Linear_Damp>0</Linear_Damp>
 				<Angular_Damp>0</Angular_Damp>
@@ -135,6 +135,7 @@
 				<Flag>disable player cover</Flag>
 				<Flag>draw projectile in opposite hand</Flag>
 				<Flag>mp selectable</Flag>
+				<Flag>held in left hand</Flag> <!--Added in v1.07.3-->
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>25</Max_Engagement_Distance>
