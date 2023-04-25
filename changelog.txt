@@ -733,6 +733,8 @@ v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
 [Maps]
 * Temporarily disabled Bagman on Pipeline Pitfalls due to it not being very playable
 * Re-enabled Demolition on Stratosphere & Crescent with balance fixes
+* Changed Smokestack siege targets on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
 
 [Fixes]
 * Fixed holding grenades in both hands
+* Fixed object names on Quarantine

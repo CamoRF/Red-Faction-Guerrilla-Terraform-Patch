@@ -75,7 +75,7 @@
 			<Player_Move_Speed>1.25</Player_Move_Speed>
 		</Weapon>-->
 <!--END-->		
-<!--START Grenade TEST-->	
+<!--START Grenade ADDED-->	
 		<Weapon>
 			<Name>camo_grenade</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
@@ -133,7 +133,7 @@
 			<Flags>
 				<Flag>shatter</Flag>
 				<Flag>disable player cover</Flag>
-				<Flag>draw projectile in opposite hand</Flag>
+				<!--<Flag>draw projectile in opposite hand</Flag>-->
 				<Flag>mp selectable</Flag>
 				<Flag>held in left hand</Flag> <!--Added in v1.07.3-->
 			</Flags>

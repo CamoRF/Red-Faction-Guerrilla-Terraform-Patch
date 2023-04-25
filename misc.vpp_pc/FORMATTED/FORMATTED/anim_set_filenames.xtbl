@@ -301,6 +301,7 @@
 			<Default_model>dan</Default_model>
 			<Default_rig>dan</Default_rig>
 		</Anim_Set_Filename>
+<!--START DLC Vehicles-->		
 		<Anim_Set_Filename>
 			<Name>Vehicle_MarChomper.xtbl</Name>
 			<Path>\Vehicles\MarChomp</Path>
@@ -309,6 +310,7 @@
 			<Name>Vehicle_MarStomp.xtbl</Name>
 			<Path>\Vehicles\MarStomp</Path>
 		</Anim_Set_Filename>
+<!--END-->		
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
