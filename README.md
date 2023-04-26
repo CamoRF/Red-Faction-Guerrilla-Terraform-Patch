@@ -6,7 +6,7 @@
 - Work-in-progress project that adds content, fixes bugs, and enhances many features; made for the 2018 remaster of Red Faction Guerrilla.
 - Note: Currently the majority of the patch focuses on multiplayer, there are a few SP changes included but comprehensive changes will come later.
 
-# Auto Install (Recommended)
+# Installation
 - First verify your game files.
 - Use [SyncFaction](https://github.com/Rast1234/SyncFaction/releases/download/v9/SyncFaction.exe)
 - See [RF:G Game Night News](https://www.redfactionwiki.com/wiki/RF:G_Game_Night_News) for more detailed instructions and troubleshooting.
