@@ -50,13 +50,13 @@
 * Grenade weapon has strange ammo count
 
 [DLC Weapons]
-* Pickaxe: Missing textures; not implemented yet
-* Impaler: Missing textures; not implemented yet
-* Spiker: Missing textures when it's dropped on the ground and sometimes when another player has it, sometimes only the host can see the projectile
+* Pickaxe: Missing textures; not implemented yet (Requires RfgUtil peg file support)
+* Impaler: Missing textures; not implemented yet (Requires RfgUtil peg file support)
+* Spiker: Missing textures when it's dropped on the ground and sometimes when another player has it, sometimes only the host can see the projectile (Requires RfgUtil peg file support)
 * Misslepod: Sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon
 * Marauder Remote Charges: missing textures; not implemented yet
 * Weapons use placeholder icons & reticules for now
-* Weapons will still remain on the map even when all map weapon spawns are disabled in the custom match settings
+* Weapons will still remain on the map even when all map weapon spawns are disabled in the custom match settings (RSL2)
 
 [Backpacks]
 * Kaboom backpack has floating objects on the model
@@ -66,15 +66,15 @@
 
 [Characters]
 * New characters use a generic placeholder texture for now
-* New character names have !! in front of them for now
+* New character names have !! in front of them for now (RSL2)
 * Marauder lady is missing some textures
-* The following characters have been temporarily removed from the multiplayer roster due to a hardcoded limit: Torvald, Bev, Chuck, Selma, Kayla, Blair, Numah, & Pierce; they will be restored with RSL2
+* The following characters have been temporarily removed from the multiplayer roster due to a hardcoded limit: Torvald, Bev, Chuck, Selma, Kayla, Blair, Numah, & Pierce (RSL2)
 
 [Misc]
-* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file reported in Red Faction Guerrilla Re-Mars-tered.log
-* "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl or going over character_grid limit in characters.xtbl reported in Red Faction Guerrilla Re-Mars-tered.log; should be fixed with RSL2
-* LOD cap for small rocks seems to be hardcoded & cannot be increased further without hacking the .exe
-* Game can sometimes crash when loading into a multiplayer match; possibly related to low memory pools and should be fixed with RSL2
+* "Int3 critical function at C:/unit4projects/rfg/root/code/volition/interface_lib/code/vint_string_processing.cpp(1465)" when using [format][color:#1a71ac][/format] in kaiko ini file reported in Red Faction Guerrilla Re-Mars-tered.log (RSL2)
+* "Length of string pool exceeded" when adding too many level name characters to mp_levels.xtbl or going over character_grid limit in characters.xtbl reported in Red Faction Guerrilla Re-Mars-tered.log (RSL2)
+* LOD cap for small rocks seems to be hardcoded & cannot be increased further without hacking the .exe (RSL2)
+* Game can sometimes crash when loading into a multiplayer match (RSL2)
 * Siege objectives & weapon pickups can sometimes desync in multiplayer; probably caused by high ping
 * Multiplayer lobbies frequently break, players cannot join the lobby unless they go back to the main menu or restart their game; unknown why this happens but possibly related to THQN Servers
 * Issue with double text for you won/you lost text at end of game with large text over the top of small text in MP; not really a major issue
@@ -83,7 +83,7 @@
 * "[gamelink] failed to create Voice Context" Red Faction Guerrilla Re-Mars-tered.log
 
 [Sounds]
-* Looping sounds can sometimes stop playing, might be related to a hardcoded limit that could be increased with RSL2 eventually
+* Looping sounds can sometimes stop playing (RSL2)
 
 [Effects]
-* Gun effects can stop working, hardcoded limit? check log next time it happens
+* Gun effects can stop working (RSL2)
