@@ -107,7 +107,7 @@
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
 		</mp_level_list>
 <!--Pipeline Pitfalls-->
-	    <mp_level_list>
+<!--	<mp_level_list>
 			<Name>mp4</Name>
 			<Filename>mp_4</Filename>
 			<_Editor>
@@ -127,7 +127,7 @@
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
-				<!--<Flag>bagman</Flag>-->
+				<Flag>bagman</Flag>
 			</mode_flags>
 			<alternate_time_of_day>0:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -136,7 +136,7 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Pipeline</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>-->
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

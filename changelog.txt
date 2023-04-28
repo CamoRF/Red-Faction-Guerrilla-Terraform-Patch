@@ -731,10 +731,14 @@ v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
 * Increased ladder climbing speed to 14.0 from 7.0
 
 [Maps]
-* Temporarily disabled Bagman on Pipeline Pitfalls due to it not being very playable
-* Re-enabled Demolition on Stratosphere & Crescent with balance fixes
+* Removed Pipeline Pitfalls
+* Re-enabled Demolition on Stratosphere & Crescent with balance fixes so you can no longer win the match by destroying a single town hall
 * Changed Smokestack siege targets on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
+* Added Damage Control to Ruins
+* Added more spawns to Aerial Excavation
 
 [Fixes]
 * Fixed holding grenades in both hands
 * Fixed object names on Quarantine
+* Fixed some incorrect object flags on various maps
+* Fixed smokestack missing on Aerial Excavation
