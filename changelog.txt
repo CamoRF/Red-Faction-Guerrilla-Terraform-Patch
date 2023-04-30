@@ -716,6 +716,10 @@ v1.07.2 ALPHA CHANGES
 v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
 --------------------------
 
+[Interface]
+* Added custom thumbnails for new multiplayer characters 
+* Added custom thumbnails and loading screens for custom maps
+
 [Grenade Buff]
 * Decreased fuse time to 1500ms from 3000
 * Increased explosion radius to 7.75 from 6.2
@@ -736,6 +740,10 @@ v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
 * Changed Smokestack siege targets on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
 * Added Damage Control to Ruins
 * Added more spawns to Aerial Excavation
+
+[Spiker Buff]
+* Increased damage at both min and max range to 60 from 55
+* Increased headshot damage multiplayer to 6.0 from 5.5
 
 [Fixes]
 * Fixed holding grenades in both hands

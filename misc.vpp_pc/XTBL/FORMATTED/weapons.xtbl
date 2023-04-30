@@ -403,7 +403,7 @@
 			<Default_Refire_Delay>90</Default_Refire_Delay> <!--From 180-->
 			<Damage_Scaling_Max>
 				<NPC_Damage>185</NPC_Damage>
-				<Player_Damage>55</Player_Damage> <!--From 50 in v1.07.1--> <!--From 45-->
+				<Player_Damage>60</Player_Damage> <!--From 55 in v1.07.2--> <!--From 50 in v1.07.1--> <!--From 45-->
 				<Threshold>100</Threshold>
 				<Vehicle_Damage>185</Vehicle_Damage>
 				<Player_Vehicle_Damage>45</Player_Vehicle_Damage>
@@ -476,7 +476,7 @@
 			<fine_aim_reticule>ui_hud_reti_assault0</fine_aim_reticule>
 			<dummy>False</dummy>
 			<mp_kill_phrase>HM_KILL_PHRASE_RAILED</mp_kill_phrase>
-			<Headshot_Multiplier>5.5</Headshot_Multiplier> <!--From 5.0 in v1.07.1--> <!--From 4.0-->
+			<Headshot_Multiplier>6.0</Headshot_Multiplier> <!--From 5.5 in v1.07.2--> <!--From 5.0 in v1.07.1--> <!--From 4.0--> 
 			<Unique_ID>144</Unique_ID>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
@@ -506,7 +506,7 @@
 			<NPC_Aim_Drift>Spiker</NPC_Aim_Drift>
 			<Damage_Scaling_Min>
 				<NPC_Damage>185</NPC_Damage> <!--From 0.0-->
-				<Player_Damage>55</Player_Damage> <!--From 50 in v1.07.1--> <!--From 0.0-->
+				<Player_Damage>60</Player_Damage> <!--From 55 in v1.07.2--> <!--From 50 in v1.07.1--> <!--From 0.0-->
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
