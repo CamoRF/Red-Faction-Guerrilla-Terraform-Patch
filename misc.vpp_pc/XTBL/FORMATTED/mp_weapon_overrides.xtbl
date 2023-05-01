@@ -1,6 +1,17 @@
 <root>
 	<Table>
 		<mp_weapons>
+			<Name>camo_grenade</Name>
+			<Ammo_count>
+				<Magazine_Size>2</Magazine_Size>
+				<Num_Magazines>2</Num_Magazines>
+				<Max_Rounds>4</Max_Rounds>
+			</Ammo_count>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</mp_weapons>				
+		<mp_weapons>
 			<Name>mine_placer</Name>
 			<Ammo_count>
 				<Magazine_Size>1</Magazine_Size>
@@ -13,6 +24,11 @@
 		</mp_weapons>		
 		<mp_weapons>
 			<Name>edf_subverter</Name>
+			<Ammo_count>
+				<Magazine_Size>30</Magazine_Size> <!--From 24-->
+				<Num_Magazines>6</Num_Magazines>
+				<Max_Rounds>180</Max_Rounds>
+			</Ammo_count>
 			<Damage_Scaling_Min>
 				<Player_Damage>43</Player_Damage> <!--From 45-->
 			</Damage_Scaling_Min>

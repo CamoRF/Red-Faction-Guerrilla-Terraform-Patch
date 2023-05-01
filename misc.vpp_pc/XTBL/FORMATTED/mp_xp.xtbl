@@ -8,7 +8,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<team_event>True</team_event>
-			<server_authoritative>True</server_authoritative> <!--From False-->
+			<server_authoritative>False</server_authoritative>
 			<player_event>True</player_event>
 			<display_name>HM_XP_WIN_MATCH</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -22,7 +22,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<team_event>True</team_event>
-			<server_authoritative>True</server_authoritative> <!--From False-->
+			<server_authoritative>False</server_authoritative>
 			<player_event>True</player_event>
 			<display_name>HM_XP_FINISH_MATCH</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>

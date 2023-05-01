@@ -340,8 +340,8 @@
 					<fall_speed_safety_factor>1.0</fall_speed_safety_factor>
 				</active_abilities>
 				<uses_fuel>
-					<fuel_use_per_second>0.05625</fuel_use_per_second> <!--From 0.075-->
-					<fuel_regen_per_second>0.1575</fuel_regen_per_second> <!--From 0.09-->
+					<fuel_use_per_second>0.075</fuel_use_per_second>
+					<fuel_regen_per_second>0.09</fuel_regen_per_second>
 					<fuel_activation_cost>0.1</fuel_activation_cost>
 					<minimum_fuel_to_activate>0.25</minimum_fuel_to_activate>
 					<fuel_refill_foley>MP_BACKPACK_STEALTH_REFUELED</fuel_refill_foley>
@@ -656,7 +656,7 @@
 				</active_abilities>
 				<uses_fuel>
 					<fuel_use_per_second>0</fuel_use_per_second>
-					<fuel_regen_per_second>0.11</fuel_regen_per_second> <!--From 0.22 in v1.07.2-->
+					<fuel_regen_per_second>0.22</fuel_regen_per_second>
 					<fuel_activation_cost>1</fuel_activation_cost>
 					<minimum_fuel_to_activate>1</minimum_fuel_to_activate>
 					<fuel_refill_foley>MP_BACKPACK_SHOCK_REFUELED</fuel_refill_foley>
@@ -706,15 +706,15 @@
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
 			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<radar>False</radar>
-			<fuel_use_per_second>0.10</fuel_use_per_second> <!--from 0.1--> <!--From 0.55 in previous patch version-->
+			<fuel_use_per_second>0.1</fuel_use_per_second>
 			<jump_boost_horizontal>0.0</jump_boost_horizontal>
 			<jump_boost_vertical>0.0</jump_boost_vertical>
 			<activatable>
-				<fuel_use_per_second>0.10</fuel_use_per_second> <!--from 0.91--> <!--From 0.55 in previous patch version-->
-				<fuel_regen_per_second>0.042</fuel_regen_per_second> <!--from 0.1--> <!--From 0.066 in previous patch version-->
+				<fuel_use_per_second>0.91</fuel_use_per_second>
+				<fuel_regen_per_second>0.1</fuel_regen_per_second>
 				<uses_fuel>
-					<fuel_use_per_second>0.50</fuel_use_per_second> <!--From 0.91-->
-					<fuel_regen_per_second>0.042</fuel_regen_per_second> <!--From 0.10-->
+					<fuel_use_per_second>0.91</fuel_use_per_second>
+					<fuel_regen_per_second>0.10</fuel_regen_per_second>
 					<fuel_activation_cost>0.05</fuel_activation_cost>
 					<minimum_fuel_to_activate>1.0</minimum_fuel_to_activate>
 					<fuel_refill_foley>MP_BACKPACK_HEAL_REFUELED</fuel_refill_foley>

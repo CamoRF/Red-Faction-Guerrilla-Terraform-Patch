@@ -720,13 +720,23 @@ v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
 * Added custom thumbnails for new multiplayer characters 
 * Added custom thumbnails and loading screens for custom maps
 
-[Grenade Buff]
+[Grenade Changes]
 * Decreased fuse time to 1500ms from 3000
 * Increased explosion radius to 7.75 from 6.2
 * Increased explosion impulse to 25000 from 20000
 * Increased explosion crumble radius to 4.375 from 3.5
 * Increased explosion knockdown radius to 5.0 from 4.0
 * Increased explosion flinch radius to 6.25 from 5.0
+* Reduced ammo to 4 from 18
+
+[Subverter Changes]
+* Reduced refire delay to 100 from 110 increasing firerate
+* Reduced recoil to 0.92 from 1.0
+* Increased magazine size to 30 from 24
+* Increased max ammo to 180 from 144
+
+[Backpacks]
+* Move balance changes to fuel usage and recharge rates to mp_backpack_overrides.xtbl so the changes don't change singleplayer balance
 
 [Concussion Nerf]
 * Decreased fuel regen per second to 0.11 from 0.22
@@ -740,6 +750,12 @@ v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
 * Changed Smokestack siege targets on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
 * Added Damage Control to Ruins
 * Added more spawns to Aerial Excavation
+* Added Shipment
+* Added Townhall, the first interior only map made for RF:G
+* Changed alternative time of day on Frost
+
+[Multiplayer]
+* Changed default bag return time again to 2 seconds for Bagman and Team Bagman as a work around to get around the default minimum of 5 seconds, you can still change it to a normal value. Having it at 0 was annoying if you forgot to change the custom game settings.
 
 [Spiker Buff]
 * Increased damage at both min and max range to 60 from 55
@@ -747,6 +763,10 @@ v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
 
 [Fixes]
 * Fixed holding grenades in both hands
+* Fixed issue with grenade ammo acting like a weapon you could reload
 * Fixed object names on Quarantine
 * Fixed some incorrect object flags on various maps
 * Fixed smokestack missing on Aerial Excavation
+* Fixed the issue with XP spam messages at the end of matches (hopefully this time!)
+* Fixed more backpack clipping issues with new characters including Jenkins, Admiral Kobel & Carmen
+* Fixed some object names on Quarantine

@@ -1381,7 +1381,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-.01</Z>
+								<Z>0</Z> <!--From -.01-->
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -2294,7 +2294,7 @@
 							<backpack_offset>
 								<X>-.02</X>
 								<Y>-.08</Y>
-								<Z>.08</Z>
+								<Z>.16</Z> <!--From .08-->
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -2334,7 +2334,7 @@
 							<backpack_offset>
 								<X>-.01</X>
 								<Y>0</Y>
-								<Z>.04</Z>
+								<Z>.08</Z> <!--From .04-->
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>

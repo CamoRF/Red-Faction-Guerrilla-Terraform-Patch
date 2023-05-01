@@ -1,9 +1,7 @@
 <root>
-	<Table>		
-<!--MENU_PLYLST_PATCH_35 = Partial Recall-->	
-<!--Siege Quarantine-->
+	<Table>
 	    <mp_level_list>
-			<Name>mp1</Name>
+			<Name>Quarantine Expanded</Name>
 			<Filename>mp_1</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
@@ -37,9 +35,8 @@
 			<Load_image>Quarantine</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
 		</mp_level_list>
-<!--Equilibrium King of the Hill-->
 		<mp_level_list>
-			<Name>mp2</Name> 
+			<Name>Equilibrium King of the Hill</Name> 
 			<Filename>mp_2</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
@@ -72,10 +69,9 @@
 			<ideal_max_players>10</ideal_max_players>
 			<Load_image>Equilibrium</Load_image>
 			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
-		</mp_level_list>
-<!--Aerial Excavation-->	
+		</mp_level_list>	
 	    <mp_level_list>
-			<Name>mp3</Name> 
+			<Name>Aerial Excavation</Name> 
 			<Filename>mp_3</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
@@ -106,9 +102,8 @@
 			<Load_image>Excavation</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
 		</mp_level_list>
-<!--Pipeline Pitfalls-->
 <!--	<mp_level_list>
-			<Name>mp4</Name>
+			<Name>Pipeline Pitfalls</Name>
 			<Filename>mp_4</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
@@ -136,8 +131,7 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Pipeline</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>-->
-<!--Stratosphere Interior Only-->	    
+		</mp_level_list>-->    
 		<mp_level_list>
 			<Name>Townhall</Name>
 			<Filename>mp_5</Filename>
@@ -154,7 +148,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MPDCT_WARLORDS_003</Display_name>
+			<Display_name>MPDCT_WARLORDS_003</Display_name> <!--TOWNHALL-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -171,10 +165,9 @@
 			<ideal_max_players>12</ideal_max_players>
 			<Load_image>dlc03wc7</Load_image>
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
-		</mp_level_list>
-<!--Shipment-->		
+		</mp_level_list>	
 		<mp_level_list>
-			<Name>Shipment</Name>
+			<Name>Storage</Name>
 			<Filename>mp_6</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
@@ -186,10 +179,10 @@
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_quarantine</level_image_name>
-			<dust_enabled>False</dust_enabled>
+			<dust_enabled>True</dust_enabled>
 			<wind_intensity>5.0</wind_intensity>
 			<wind_direction>150</wind_direction>
-			<Display_name>MENU_LEVEL_QUARANTINE</Display_name>
+			<Display_name>MPST_CRESCENT_002</Display_name> <!--STORAGE-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -207,7 +200,7 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Quarantine</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
-		</mp_level_list>		
+		</mp_level_list>
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
