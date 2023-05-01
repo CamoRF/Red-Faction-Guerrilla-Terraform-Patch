@@ -16,7 +16,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>5.0</wind_intensity>
 			<wind_direction>150</wind_direction>
-			<Display_name>MENU_CUSTOM_GAME</Display_name>
+			<Display_name>MISS_DLC_ASSAULT_MISS2_NAME</Display_name> <!--RETRIBUTION-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -35,7 +35,7 @@
 			<Load_image>Quarantine</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
 		</mp_level_list>
-		<mp_level_list>
+<!--		<mp_level_list>
 			<Name>Equilibrium King of the Hill</Name> 
 			<Filename>mp_2</Filename>
 			<_Editor>
@@ -51,7 +51,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_CUSTOM_GAME</Display_name>
+			<Display_name>MPDCT_RIFT_002</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -69,7 +69,7 @@
 			<ideal_max_players>10</ideal_max_players>
 			<Load_image>Equilibrium</Load_image>
 			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
-		</mp_level_list>	
+		</mp_level_list>-->	
 	    <mp_level_list>
 			<Name>Aerial Excavation</Name> 
 			<Filename>mp_3</Filename>
@@ -86,7 +86,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>25</wind_intensity>
 			<wind_direction>190</wind_direction>
-			<Display_name>MENU_CUSTOM_GAME</Display_name>
+			<Display_name>MENU_PLYLST_PATCH_35</Display_name> <!--PARTIAL RECALL-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -131,7 +131,7 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Pipeline</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>-->    
+		</mp_level_list>-->   
 		<mp_level_list>
 			<Name>Townhall</Name>
 			<Filename>mp_5</Filename>
@@ -161,8 +161,8 @@
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
-			<ideal_min_players>6</ideal_min_players>
-			<ideal_max_players>12</ideal_max_players>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>6</ideal_max_players>
 			<Load_image>dlc03wc7</Load_image>
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
 		</mp_level_list>	
@@ -190,8 +190,7 @@
 				<Flag>capture_the_flag</Flag>
 				<Flag>king_of_the_hill</Flag>
 				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>			
+				<Flag>team_bagman</Flag>		
 			</mode_flags>
 			<alternate_time_of_day>08:30</alternate_time_of_day>
 			<glow_multiplier>2.0</glow_multiplier>

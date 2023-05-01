@@ -3,9 +3,9 @@
 *-------------------*
 
 Author: Camo
-Version: v1.07.2 ALPHA
-Date: 2-4-2023
-Build: 1024
+Version: v1.07.3 ALPHA
+Date: 1-5-2023
+Build: 521
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -712,13 +712,12 @@ v1.07.2 ALPHA CHANGES
 * Temporarily disabled one of the out of bounds exploit fixes on Downfall that killed you while you were still in the map
 * Optimized more files to reduce memory pool load increasing stability
 
---------------------------
+---------------------------------------
 v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
---------------------------
+---------------------------------------
 
 [Interface]
-* Added custom thumbnails for new multiplayer characters 
-* Added custom thumbnails and loading screens for custom maps
+* Initial loading screen updated to current patch version
 
 [Grenade Changes]
 * Decreased fuse time to 1500ms from 3000
@@ -743,15 +742,10 @@ v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
 
 [Misc]
 * Increased ladder climbing speed to 14.0 from 7.0
-
-[Maps]
-* Removed Pipeline Pitfalls
 * Re-enabled Demolition on Stratosphere & Crescent with balance fixes so you can no longer win the match by destroying a single town hall
 * Changed Smokestack siege targets on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
 * Added Damage Control to Ruins
 * Added more spawns to Aerial Excavation
-* Added Shipment
-* Added Townhall, the first interior only map made for RF:G
 * Changed alternative time of day on Frost
 
 [Multiplayer]
@@ -770,3 +764,13 @@ v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
 * Fixed the issue with XP spam messages at the end of matches (hopefully this time!)
 * Fixed more backpack clipping issues with new characters including Jenkins, Admiral Kobel & Carmen
 * Fixed some object names on Quarantine
+
+[New Maps]
+* Added a remake of Shipment from COD4 known as "STORAGE" in the map selection menu
+* Added the first interior only map made for RF:G known as "TOWNHALL" in the map selection menu
+
+[Maps]
+* Removed Pipeline Pitfalls due to it not being very unpolished, might return in the future
+* Renamed Quarantine Expanded to "RETRIBUTION" in the map selection menu from "CUSTOM MATCH"
+* Renamed Equilibrium King of the Hill to "CLIFFSIDE" in the map selection menu from "CUSTOM MATCH"
+* Renamed Aerial Excavation to "PARTIAL RECALL" in the map selection menu from "CUSTOM MATCH"
