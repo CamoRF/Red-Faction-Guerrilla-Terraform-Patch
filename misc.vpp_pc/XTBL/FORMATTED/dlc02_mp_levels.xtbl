@@ -137,6 +137,77 @@
 			<Load_image>Pipeline</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>-->
+<!--Stratosphere Interior Only-->	    
+		<mp_level_list>
+			<Name>Townhall</Name>
+			<Filename>mp_5</Filename>
+			<_Editor>
+				<Category>Entries:DLC_2</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>14:00</time_of_day>
+			<distance_multiplier>1.0</distance_multiplier>
+			<level_image_name>mp_thumb_wcdlc7</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>60.0</wind_intensity>
+			<wind_direction>315.0</wind_direction>
+			<Display_name>MPDCT_WARLORDS_003</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>capture_the_flag</Flag>				
+			</mode_flags>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<glow_multiplier>6</glow_multiplier>
+			<alternate_glow_multiplier>2</alternate_glow_multiplier>
+			<ideal_min_players>6</ideal_min_players>
+			<ideal_max_players>12</ideal_max_players>
+			<Load_image>dlc03wc7</Load_image>
+			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
+		</mp_level_list>
+<!--Shipment-->		
+		<mp_level_list>
+			<Name>Shipment</Name>
+			<Filename>mp_6</Filename>
+			<_Editor>
+				<Category>Entries:DLC_2</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>17:30</time_of_day>
+			<distance_multiplier>0.75</distance_multiplier>
+			<level_image_name>mp_thumb_quarantine</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>5.0</wind_intensity>
+			<wind_direction>150</wind_direction>
+			<Display_name>MENU_LEVEL_QUARANTINE</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>			
+			</mode_flags>
+			<alternate_time_of_day>08:30</alternate_time_of_day>
+			<glow_multiplier>2.0</glow_multiplier>
+			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>6</ideal_max_players>
+			<Load_image>Quarantine</Load_image>
+			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
+		</mp_level_list>		
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

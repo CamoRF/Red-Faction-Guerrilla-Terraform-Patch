@@ -3,19 +3,12 @@
 --------------
 
 [Singleplayer]
-* Activity: Offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
-* Activity: See screenshot "sp_eos_side_mission.png" MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
-* Activity: Transporter activity in Badl&s MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
-* Misc: Marauders might not spawn with shotguns? (might be fixed in v1.064.1 due to reverting changes to squad files) [REVERTED IN v1.07]
+
 * Misc: NPCs drive like crazy when obstructed instead of waiting & going around them calmly
 * Misc: Setting walkers to spawn at safehouses can cause no vehicles to spawn, this was a bug introduced in the remaster
 * Misc: EDF spawn very close to the player
-* DLC: Tank doesn't spawn in Redemption mission (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
-* DLC: Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
 * DLC: NPC MIGHT drive off near the cliff near the large bridge during Redemption mission (with uncapped fps or due to bad road path on the map?)
 * DLC: Lack of checkpoints in Redemption mission; eg: after you rescue the prisoners
-* DLC: First transporter mission is broken [REVERTED in v1.07]
-* Weapons that have been ported to the base game have broken icons (due to the DLC loading weapons.xtbl & overriding the dlc01 weapon xtbl, it should be resolved when reticules & icons can be ported to the base game or a work around is found by changing the dlc weapons to be unique from the ported ones)
 
 [Maps]
 * New maps have placeholder name "CUSTOM GAME", this will be resolved when adding custom strings is possible
@@ -56,6 +49,7 @@
 * Misslepod: Sometimes shows up as the rocket in killfeed, other times it shows up as the Marauder icon
 * Marauder Remote Charges: missing textures; not implemented yet
 * Weapons use placeholder icons & reticules for now
+* Weapons that have been ported to the base game have broken icons in singleplayer (due to the DLC loading weapons.xtbl & overriding the dlc01 weapon xtbl, it should be resolved when reticules & icons can be ported to the base game or a work around is found by changing the dlc weapons to be unique from the ported ones)
 * Weapons will still remain on the map even when all map weapon spawns are disabled in the custom match settings (RSL2)
 
 [Backpacks]
@@ -87,3 +81,12 @@
 
 [Effects]
 * Gun effects can stop working (RSL2)
+
+[Possibly Resolved]
+* Activity: Offensive raid at top right of Oasis MIGHT not be beatable due to EDF spawns stopping before you destroy enough vehicles (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* Activity: See screenshot "sp_eos_side_mission.png" MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* Activity: Transporter activity in Badl&s MIGHT be broken (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* Misc: Marauders might not spawn with shotguns? (might be fixed in v1.064.1 due to reverting changes to squad files) [REVERTED IN v1.07]
+* DLC: Tank doesn't spawn in Redemption mission (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* DLC: Related broken mission files: "zonescript_dlc01.vpp_pc\dlc01_finale_mission3.scriptx (might be fixed after re-doing all spawn related changes) [REVERTED IN v1.07]
+* DLC: First transporter mission is broken [REVERTED in v1.07]

@@ -1,3 +1,4 @@
+<!--MENU_PLYLST_PATCH_35 = Partial Recall-->
 <root>
 	<Table>
 		<Buildings_Identifier>
@@ -31,337 +32,337 @@
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_ARTILLERY_SYSTEM_POWER_CORE</Name>
+			<Name>TRGT_ARTILLERY_SYSTEM_POWER_CORE</Name> <!--ARTILLERY SYSTEM POWER CORE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_BADLANDS_BARRACKS</Name>
+			<Name>TRGT_BADLANDS_BARRACKS</Name> <!--BADLANDS BARRACKS-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_BADLANDS_RADIO_TOWER</Name>
+			<Name>TRGT_BADLANDS_RADIO_TOWER</Name> <!--BADLANDS RADIO TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_BADLANDS_SECURITY_STATION</Name>
+			<Name>TRGT_BADLANDS_SECURITY_STATION</Name> <!--BADLANDS SECURITY STATION-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_CENTRAL_COMMAND_BARRACKS</Name>
+			<Name>TRGT_CENTRAL_COMMAND_BARRACKS</Name> <!--CENTCOM BARRACKS-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_CENTRAL_COMMAND_POWER_CORE</Name>
+			<Name>TRGT_CENTRAL_COMMAND_POWER_CORE</Name> <!--CENTCOM POWER CORE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_CENTRAL_COMMAND_RADIO_TOWER</Name>
+			<Name>TRGT_CENTRAL_COMMAND_RADIO_TOWER</Name> <!--CENTCOM RADIO TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_CENTRAL_COMMAND_SECURITY_STATION</Name>
+			<Name>TRGT_CENTRAL_COMMAND_SECURITY_STATION</Name> <!--CENTCOM SECURITY STATION-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_CHEMICAL_DEPOT_SUPPLY_OFFICE</Name>
+			<Name>TRGT_CHEMICAL_DEPOT_SUPPLY_OFFICE</Name> <!--CHEMICAL DEPOT SUPPLY OFFICE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_COUNCIL_SQUARE_EDF_MONUMENT</Name>
+			<Name>TRGT_COUNCIL_SQUARE_EDF_MONUMENT</Name> <!--COUNCIL SQUARE EDF MONUMENT-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_CTA_DISPOSAL_SMOKESTACK</Name>
+			<Name>TRGT_CTA_DISPOSAL_SMOKESTACK</Name> <!--CTA DISPOSAL SMOKESTACK-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_DUST_BARRACKS</Name>
+			<Name>TRGT_DUST_BARRACKS</Name> <!--DUST BARRACKS-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_EDF_ARMORY</Name>
+			<Name>TRGT_EDF_ARMORY</Name> <!--EDF ARMORY-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_EDF_GARAGE</Name>
+			<Name>TRGT_EDF_GARAGE</Name> <!--EDF GARAGE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_EDF_LANDING_PAD</Name>
+			<Name>TRGT_EDF_LANDING_PAD</Name> <!--EDF LANDING PAD-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_EDF_PILLBOX</Name>
+			<Name>TRGT_EDF_PILLBOX</Name> <!--EDF PILLBOX-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_EOS_SECURITY_STATION</Name>
+			<Name>TRGT_EOS_SECURITY_STATION</Name> <!--EDF ADMINISTRATIVE FACILITY-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_FLIGHT_CONTROL_TOWER</Name>
+			<Name>TRGT_FLIGHT_CONTROL_TOWER</Name> <!--FLIGHT CONTROL TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_GOVERNMENT_OFFICE</Name>
+			<Name>TRGT_GOVERNMENT_OFFICE</Name> <!--GOVERNMENT OFFICE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_HEAVY_MACHINERY_HANGER</Name>
+			<Name>TRGT_HEAVY_MACHINERY_HANGER</Name> <!--HEAVY MACHINERY HANGER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_HEAVY_MACHINERY_SERVICE_GARAGE</Name>
+			<Name>TRGT_HEAVY_MACHINERY_SERVICE_GARAGE</Name> <!--HEAVY MACHINERY SERVICE GARAGE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_JMI_SMOKESTACK</Name>
+			<Name>TRGT_JMI_SMOKESTACK</Name> <!--JMI SMOKESTACK-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_KUROARI_CORP._COMM_TOWER</Name>
+			<Name>TRGT_KUROARI_CORP._COMM_TOWER</Name> <!--KUROARI CORP. COMM TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_KUROARI_INDUSTRIES_SMOKESTACK</Name>
+			<Name>TRGT_KUROARI_INDUSTRIES_SMOKESTACK</Name> <!--KUOARI INDUSTRIES SMOKESTACK-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_LARGE_EQUIPMENT_STORAGE</Name>
+			<Name>TRGT_LARGE_EQUIPMENT_STORAGE</Name> <!--lARGE EQUIPMENT STORAGE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_MAINTENANCE_OFFICE</Name>
+			<Name>TRGT_MAINTENANCE_OFFICE</Name> <!--MAINTENANCE OFFICE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_NORTHEAST_GUARD_TOWER</Name>
+			<Name>TRGT_NORTHEAST_GUARD_TOWER</Name> <!--NORTHEAST GUARD TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_OASIS_BASE_BARRACKS</Name>
+			<Name>TRGT_OASIS_BASE_BARRACKS</Name> <!--OASIS CHECKPOINT GARAGE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_OASIS_CHECKPOINT_GARAGE</Name>
+			<Name>TRGT_OASIS_CHECKPOINT_GARAGE</Name> <!--OASIS CHECKPOINT GARAGE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_OASIS_CHECKPOINT_GUARD_TOWER</Name>
+			<Name>TRGT_OASIS_CHECKPOINT_GUARD_TOWER</Name> <!--OASIS CHECKPOINT GUARD TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_PROCESSING_PLANT_SMOKESTACK</Name>
+			<Name>TRGT_PROCESSING_PLANT_SMOKESTACK</Name> <!--PROCESSING PLANT SMOKESTACK-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SATELLITE_CONTROL_TOWER</Name>
+			<Name>TRGT_SATELLITE_CONTROL_TOWER</Name> <!--SATELLITE CONTROL TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SOLAR_COLLECTION_POWER_CORE</Name>
+			<Name>TRGT_SOLAR_COLLECTION_POWER_CORE</Name> <!--SOLAR POWER CORE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SOLAR_POWER_TOWER</Name>
+			<Name>TRGT_SOLAR_POWER_TOWER</Name> <!--SOLAR POWER TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SOUTHEAST_GUARD_TOWER</Name>
+			<Name>TRGT_SOUTHEAST_GUARD_TOWER</Name> <!--SOUTHEAST GUARD TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_SOUTHWEST_GUARD_TOWER</Name>
+			<Name>TRGT_SOUTHWEST_GUARD_TOWER</Name> <!--SOUTHWEST GUARD TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_THARSIS_POINT_BASE_GARAGE</Name>
+			<Name>TRGT_THARSIS_POINT_BASE_GARAGE</Name> <!--THARSIS POINT BASE GARAGE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_THARSIS_POINT_WIND_TURBINE</Name>
+			<Name>TRGT_THARSIS_POINT_WIND_TURBINE</Name> <!--THARSIS POINT WIND TURBINE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_UTOPIA_PLANITIA_EDF_MONUMENT</Name>
+			<Name>TRGT_UTOPIA_PLANITIA_EDF_MONUMENT</Name> <!--UTOPIA PLANITIA EDF MONUMENT-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_WASTE_DISPOSAL_PIPE</Name>
+			<Name>TRGT_WASTE_DISPOSAL_PIPE</Name> <!--WASTE DISPOSAL PIPE-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_WEST_GUARD_TOWER</Name>
+			<Name>TRGT_WEST_GUARD_TOWER</Name> <!--WEST GUARD TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_XEROS_GARDENS_EDF_MONUMENT</Name>
+			<Name>TRGT_XEROS_GARDENS_EDF_MONUMENT</Name> <!--XEROS GARDENS EDF MONUMENT-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_EAST_REACTOR_COOLING_TOWER</Name>
+			<Name>TRGT_EAST_REACTOR_COOLING_TOWER</Name> <!--EAST REACTOR COOLING TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_WEST_REACTOR_COOLING_TOWER</Name>
+			<Name>TRGT_WEST_REACTOR_COOLING_TOWER</Name> <!--WEST REACTOR COOLING TOWER-->
 			<_Editor>
 				<Category>Entries:Medium Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_EDF_EXECUTIVE_HOUSING</Name>
+			<Name>TRGT_EDF_EXECUTIVE_HOUSING</Name> <!--EDF EXECUTIVE HOUSING-->
 			<_Editor>
 				<Category>Entries:High Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_HARRINGTON_MEMORIAL_BRIDGE</Name>
+			<Name>TRGT_HARRINGTON_MEMORIAL_BRIDGE</Name> <!--HARRINGTON MEMORIAL BRIDGE-->
 			<_Editor>
 				<Category>Entries:High Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_EDF_BADLANDS_OUTPOST</Name>
+			<Name>TRGT_EDF_BADLANDS_OUTPOST</Name> <!--EDF BADLANDS OUTPOST-->
 			<_Editor>
 				<Category>Entries:High Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_ARK_MINING_EXCAVATOR</Name>
+			<Name>TRGT_ARK_MINING_EXCAVATOR</Name> <!--ARK MINING EXCAVATOR-->
 			<_Editor>
 				<Category>Entries:High Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_DUST_TOWN_HALL</Name>
+			<Name>TRGT_DUST_TOWN_HALL</Name> <!--DUST TOWN HALL-->
 			<_Editor>
 				<Category>Entries:High Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_HENDRIX_HALL</Name>
+			<Name>TRGT_HENDRIX_HALL</Name> <!--HENDRIX HALL-->
 			<_Editor>
 				<Category>Entries:High Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_EDF_CENTRAL_COMMAND</Name>
+			<Name>TRGT_EDF_CENTRAL_COMMAND</Name> <!--EDF CENTRAL COMMAND-->
 			<_Editor>
 				<Category>Entries:High Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_ARK_POWER_REACTOR_CORE</Name>
+			<Name>TRGT_ARK_POWER_REACTOR_CORE</Name> <!--ARK POWER REACTOR CORE-->
 			<_Editor>
 				<Category>Entries:High Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_EDF_CONVOY_STATION</Name>
+			<Name>TRGT_EDF_CONVOY_STATION</Name> <!--EDF CONVOY STATION-->
 			<_Editor>
 				<Category>Entries:High Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_EDF_ORE_PROCESSING_PLANT</Name>
+			<Name>TRGT_EDF_ORE_PROCESSING_PLANT</Name> <!--EDF ORE PROCESSING PLANT-->
 			<_Editor>
 				<Category>Entries:High Priority</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TUTORIAL_BUILDING</Name>
+			<Name>TRGT_TUTORIAL_BUILDING</Name> <!--ULTOR RESEARCH LABORATORY-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>TRGT_TUTORIAL_TOWER</Name>
+			<Name>TRGT_TUTORIAL_TOWER</Name> <!--ULTOR BROADCAST TOWER-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
@@ -643,175 +644,175 @@
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CORNERED_002</Name>
+			<Name>MPST_CORNERED_002</Name> <!--GUARD TOWER 1-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CORNERED_003</Name>
+			<Name>MPST_CORNERED_003</Name> <!--COMM TOWER 2-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CORNERED_004</Name>
+			<Name>MPST_CORNERED_004</Name> <!--GUARD TOWER 2-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CORNERED_005</Name>
+			<Name>MPST_CORNERED_005</Name> <!--GARAGE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CORNERED_006</Name>
+			<Name>MPST_CORNERED_006</Name> <!--HEADQUARTERS-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CRESCENT_001</Name>
+			<Name>MPST_CRESCENT_001</Name> <!--OFFICE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CRESCENT_002</Name>
+			<Name>MPST_CRESCENT_002</Name> <!--STORAGE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CRESCENT_003</Name>
+			<Name>MPST_CRESCENT_003</Name> <!--GARAGE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CRESCENT_004</Name>
+			<Name>MPST_CRESCENT_004</Name> <!--TOWNHALL-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CREVICE_001</Name>
+			<Name>MPST_CREVICE_001</Name> <!--SMOKESTACK 1-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CREVICE_002</Name>
+			<Name>MPST_CREVICE_002</Name> <!--BUILDING 1-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CREVICE_003</Name>
+			<Name>MPST_CREVICE_003</Name> <!--BUILDING 2-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CREVICE_004</Name>
+			<Name>MPST_CREVICE_004</Name> <!--SMOKESTACK 2-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_CREVICE_005</Name>
+			<Name>MPST_CREVICE_005</Name> <!--lARGE BUILDING-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_FRAMEWORK_001</Name>
+			<Name>MPST_FRAMEWORK_001</Name> <!--BUILDING 1-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_FRAMEWORK_002</Name>
+			<Name>MPST_FRAMEWORK_002</Name> <!--BUILDING 2-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_GAUNTLET_001</Name>
+			<Name>MPST_GAUNTLET_001</Name> <!--SMALL VENT-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_GAUNTLET_002</Name>
+			<Name>MPST_GAUNTLET_002</Name> <!--LARGE VENT-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_GAUNTLET_003</Name>
+			<Name>MPST_GAUNTLET_003</Name> <!--SMOKESTACK 1-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_GAUNTLET_004</Name>
+			<Name>MPST_GAUNTLET_004</Name> <!--SMOKESTACK 2-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_GAUNTLET_005</Name>
+			<Name>MPST_GAUNTLET_005</Name> <!--LARGE VENT 2-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_GAUNTLET_006</Name>
+			<Name>MPST_GAUNTLET_006</Name> <!--SOLAR TOWER-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_GAUNTLET_007</Name>
+			<Name>MPST_GAUNTLET_007</Name> <!--BROADCAST-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_OVERPASS_001</Name>
+			<Name>MPST_OVERPASS_001</Name> <!--TOWER 1-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_OVERPASS_002</Name>
+			<Name>MPST_OVERPASS_002</Name> <!--SHED 1-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_OVERPASS_003</Name>
+			<Name>MPST_OVERPASS_003</Name> <!--SHED 2-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_OVERPASS_004</Name>
+			<Name>MPST_OVERPASS_004</Name> <!--TOWER 2-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_OVERPASS_005</Name>
+			<Name>MPST_OVERPASS_005</Name> <!--LOW BRIDGE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>
 		</Buildings_Identifier>
 		<Buildings_Identifier>
-			<Name>MPST_OVERPASS_006</Name>
+			<Name>MPST_OVERPASS_006</Name> <!--HIGH BRIDGE-->
 			<_Editor>
 				<Category>Entries:</Category>
 			</_Editor>

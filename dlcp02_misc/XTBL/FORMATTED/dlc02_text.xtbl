@@ -1,49 +1,49 @@
 <root>
 	<Table>
 		<Dlc02_Identifier>
-			<Name>MENU_LEVEL_GRADIENT</Name>
+			<Name>MENU_LEVEL_GRADIENT</Name> <!--GRADIENT-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MENU_LEVEL_HAVEN</Name>
+			<Name>MENU_LEVEL_HAVEN</Name> <!--HAVEN-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MENU_LEVEL_REMNANT</Name>
+			<Name>MENU_LEVEL_REMNANT</Name> <!--REMNANT-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MENU_LEVEL_EQUILIBRIUM</Name>
+			<Name>MENU_LEVEL_EQUILIBRIUM</Name> <!--EQUILIBRIUM-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MENU_LEVEL_COMPOUND</Name>
+			<Name>MENU_LEVEL_COMPOUND</Name> <!--COMPOUND-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MENU_LEVEL_DIVISION</Name>
+			<Name>MENU_LEVEL_DIVISION</Name> <!--DIVISION-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MENU_LEVEL_PUNCTURE</Name>
+			<Name>MENU_LEVEL_PUNCTURE</Name> <!--PUNCTURE-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MENU_LEVEL_BROADSIDE</Name>
+			<Name>MENU_LEVEL_BROADSIDE</Name> <!--BROADSIDE-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -175,49 +175,49 @@
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MPST_BROADSIDE_001</Name>
+			<Name>MPST_BROADSIDE_001</Name> <!--BUNKER 1-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MPST_BROADSIDE_002</Name>
+			<Name>MPST_BROADSIDE_002</Name> <!--BUNKER 2-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MPST_BROADSIDE_003</Name>
+			<Name>MPST_BROADSIDE_003</Name> <!--BUNKER 3-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MPST_BROADSIDE_004</Name>
+			<Name>MPST_BROADSIDE_004</Name> <!--BUNKER 4-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MPST_BROADSIDE_005</Name>
+			<Name>MPST_BROADSIDE_005</Name> <!--COMM 1-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MPST_BROADSIDE_006</Name>
+			<Name>MPST_BROADSIDE_006</Name> <!--COMM 2-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MPST_BROADSIDE_007</Name>
+			<Name>MPST_BROADSIDE_007</Name> <!--COMM 3-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Dlc02_Identifier>
 		<Dlc02_Identifier>
-			<Name>MPST_BROADSIDE_008</Name>
+			<Name>MPST_BROADSIDE_008</Name> <!--CONTROL 1-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
