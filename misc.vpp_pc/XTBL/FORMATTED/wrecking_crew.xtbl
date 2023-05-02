@@ -24,7 +24,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 02</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 02</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 02</games_played_rampage_stat>
-					<time_of_day>08:30</time_of_day>
+					<time_of_day>10:30</time_of_day> <!--From 08:30-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 02</games_played_total_chaos_stat>
 					<image_name>mp_thumb_watchtower</image_name>
 					<Load_image>Watchtower</Load_image>
@@ -52,7 +52,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 04</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 04</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 04</games_played_rampage_stat>
-					<time_of_day>06:30</time_of_day>
+					<time_of_day>19:00</time_of_day> <!--From 06:30-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 04</games_played_total_chaos_stat>
 					<image_name>mp_thumb_vista</image_name>
 					<Load_image>Vista</Load_image>
@@ -66,7 +66,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 05</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 05</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 05</games_played_rampage_stat>
-					<time_of_day>06:00</time_of_day>
+					<time_of_day>10:30</time_of_day> <!--From 06:00-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 05</games_played_total_chaos_stat>
 					<image_name>mp_thumb_fortress</image_name>
 					<Load_image>Fortress</Load_image>
@@ -80,7 +80,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 06</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 06</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 06</games_played_rampage_stat>
-					<time_of_day>13:00</time_of_day>
+					<time_of_day>10:30</time_of_day> <!--From 13:00-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 06</games_played_total_chaos_stat>
 					<image_name>mp_thumb_factory</image_name>
 					<Load_image>Factory</Load_image>
@@ -108,7 +108,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 08</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 08</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 08</games_played_rampage_stat>
-					<time_of_day>08:00</time_of_day>
+					<time_of_day>10:30</time_of_day> <!--From 08:00-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 08</games_played_total_chaos_stat>
 					<image_name>mp_thumb_cascade</image_name>
 					<Load_image>Cascade</Load_image>
@@ -122,7 +122,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 09</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 09</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 09</games_played_rampage_stat>
-					<time_of_day>18:00</time_of_day>
+					<time_of_day>10:30</time_of_day> <!--From 18:00-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 09</games_played_total_chaos_stat>
 					<image_name>mp_thumb_transmission</image_name>
 					<Load_image>Transmission</Load_image>
@@ -136,7 +136,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 10</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 10</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 10</games_played_rampage_stat>
-					<time_of_day>06:30</time_of_day>
+					<time_of_day>10:30</time_of_day> <!--From 06:30-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 10</games_played_total_chaos_stat>
 					<image_name>mp_thumb_pipeline</image_name>
 					<Load_image>Pipeline</Load_image>

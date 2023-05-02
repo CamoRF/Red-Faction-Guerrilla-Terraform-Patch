@@ -90,7 +90,7 @@
 					<all_target_multiplier>Normal</all_target_multiplier>
 				</king_of_the_hill>
 				<bagman>
-					<bag_return_time_seconds>2</bag_return_time_seconds> <!--From 0 in v1.07.2--> <!--From 15-->
+					<bag_return_time_seconds>5</bag_return_time_seconds> <!--From 0 in v1.07.2--> <!--From 15-->
 					<bagman_kill_bonus>True</bagman_kill_bonus>
 					<generic_option_overrides>
 						<point_limit>150</point_limit>
@@ -99,7 +99,7 @@
 					</generic_option_overrides>
 				</bagman>
 				<team_bagman>
-					<bag_return_time_seconds>2</bag_return_time_seconds> <!--From 0 in v1.07.2--> <!--From 15-->
+					<bag_return_time_seconds>5</bag_return_time_seconds> <!--From 0 in v1.07.2--> <!--From 15-->
 					<bagman_kill_bonus>True</bagman_kill_bonus>
 					<generic_option_overrides>
 						<point_limit>250</point_limit>

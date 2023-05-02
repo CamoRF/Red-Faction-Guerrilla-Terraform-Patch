@@ -4,8 +4,8 @@
 
 Author: Camo
 Version: v1.07.3 ALPHA
-Date: 1-5-2023
-Build: 521
+Date: XX-XX-2023
+Build: XXXX
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -712,12 +712,25 @@ v1.07.2 ALPHA CHANGES
 * Temporarily disabled one of the out of bounds exploit fixes on Downfall that killed you while you were still in the map
 * Optimized more files to reduce memory pool load increasing stability
 
----------------------------------------
-v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
----------------------------------------
+---------------------
+v1.07.3 ALPHA CHANGES
+---------------------
+
+[Misc]
+* Increased ladder climbing speed to 14.0 from 7.0
+* Re-enabled Demolition on Stratosphere & Crescent with balance fixes so you can no longer win the match by destroying a single town hall
+* Changed Smokestack siege targets on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
+
+[Wrecking Crew]
+* Removed weather files from dlcp03_misc.vpp_pc since they were ported to misc.vpp_pc when the DLC Wrecking Crew maps were added
+* Changed time of day on various maps to match multiplayer changes/fixes
 
 [Interface]
 * Initial loading screen updated to current patch version
+
+[New Maps]
+* Added a remake of Shipment from COD4 known as "STORAGE" in the map selection menu
+* Added the first interior only map made for RF:G known as "TOWNHALL" in the map selection menu
 
 [Grenade Changes]
 * Decreased fuse time to 1500ms from 3000
@@ -734,26 +747,28 @@ v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
 * Increased magazine size to 30 from 24
 * Increased max ammo to 180 from 144
 
-[Backpacks]
-* Move balance changes to fuel usage and recharge rates to mp_backpack_overrides.xtbl so the changes don't change singleplayer balance
+[Multiplayer]
+* Moved previous backpack balance changes for fuel usage and recharge rates to mp_backpack_overrides.xtbl so the changes don't change singleplayer balance anymore
 
 [Concussion Nerf]
 * Decreased fuel regen per second to 0.11 from 0.22
 
-[Misc]
-* Increased ladder climbing speed to 14.0 from 7.0
-* Re-enabled Demolition on Stratosphere & Crescent with balance fixes so you can no longer win the match by destroying a single town hall
-* Changed Smokestack siege targets on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
-* Added Damage Control to Ruins
-* Added more spawns to Aerial Excavation
-* Changed alternative time of day on Frost
-
 [Multiplayer]
-* Changed default bag return time again to 2 seconds for Bagman and Team Bagman as a work around to get around the default minimum of 5 seconds, you can still change it to a normal value. Having it at 0 was annoying if you forgot to change the custom game settings.
+* Changed default bag return time to 5 seconds for Bagman and Team Bagman, having it at 0 was annoying if you forgot to change the custom game settings
 
 [Spiker Buff]
 * Increased damage at both min and max range to 60 from 55
 * Increased headshot damage multiplayer to 6.0 from 5.5
+
+[Maps]
+* Added Damage Control to Ruins
+* Added more spawns to Aerial Excavation
+* Removed Pipeline Pitfalls due to it not being very unpolished
+* Renamed Quarantine Expanded to "RETRIBUTION" in the map selection menu from "CUSTOM MATCH"
+* Renamed Equilibrium King of the Hill to "CLIFFSIDE" in the map selection menu from "CUSTOM MATCH"
+* Renamed Aerial Excavation to "PARTIAL RECALL" in the map selection menu from "CUSTOM MATCH"
+* Changed alternative time of day on Frost
+* Siege targets now unlock one by one on Quarantine
 
 [Fixes]
 * Fixed holding grenades in both hands
@@ -763,14 +778,4 @@ v1.07.3 PRE ALPHA CHANGES (NOT RELEASED)
 * Fixed smokestack missing on Aerial Excavation
 * Fixed the issue with XP spam messages at the end of matches (hopefully this time!)
 * Fixed more backpack clipping issues with new characters including Jenkins, Admiral Kobel & Carmen
-* Fixed some object names on Quarantine
-
-[New Maps]
-* Added a remake of Shipment from COD4 known as "STORAGE" in the map selection menu
-* Added the first interior only map made for RF:G known as "TOWNHALL" in the map selection menu
-
-[Maps]
-* Removed Pipeline Pitfalls due to it not being very unpolished, might return in the future
-* Renamed Quarantine Expanded to "RETRIBUTION" in the map selection menu from "CUSTOM MATCH"
-* Renamed Equilibrium King of the Hill to "CLIFFSIDE" in the map selection menu from "CUSTOM MATCH"
-* Renamed Aerial Excavation to "PARTIAL RECALL" in the map selection menu from "CUSTOM MATCH"
+* Fixed various issues with maps

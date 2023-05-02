@@ -1,17 +1,3 @@
-Maps with similar terrain
-
-**MP**                **WC**
-
-Crash Site   - Complex - Nordic Bonus
-Remnant     - Ruins
-Rift               - Factory
-Broadside   - Invasion
-Radial          - Transmission
-Wasteland - Gulch
-Assembly/Outpost - Framework (Siege)
-Pinnacle - Fortress
-Sand pit - Division - Watchtower
-
 ------------------------
 OBJECT CHILDREN OFFSETS
 ------------------------
@@ -284,48 +270,6 @@ X: 9.532 lower
 Y: 0.094 higher
 Z: Same
 
-Object Property Flags
-------------------------------
-
-Flag 0 (Persistent): Unknown, any objects with this flag have a separate copy stored in a second rfgzone_pc file with its name prefixed with p__. So, for example, crescent has two rfgzone_pc files. mp_crescent.rfgzone_pc and p_mp_crescent.rfgzone_pc. The objects with the persistent flag are stored in both zone files, while objects without that flag are only stored in mp_crescent.rfgzone_pc. Maybe it's a cache? it seems to be randomly used on some large structures and light posts and most spawn nodes, spectator cameras and player starts seem to have it. Test if it makes it so picking up weapons doesn't despawn them.
-Flag 1: Unknown
-Flag 2: Unknown 
-Flag 3: Unknown
-Flag 4: Unknown, might have something to do with buildings or respawning a structure between rounds?. Consistently used on objective structures and backpack racks but seems random on other objects
-Flag 5: Unknown
-Flag 6: Unknown
-Flag 7: Unknown
-Flag 8: Spawns in Anarchy
-Flag 9: Spawns in Team Anarchy
-Flag 10: Spawns in CTF
-Flag 11: Spawns in Siege
-Flag 12: Spawns in Damage Control
-Flag 13: Spawns in Bagman
-Flag 14: Spawns in Team Bagman
-Flag 15: Spawns in Demolition
-
-Object Names
----------------------
-
-MPST = Multiplayer siege target
-MPDCT = Multiplayer damage control target
-
-Misc
-----------
-
-* King of the Hill targets, Flag capture zones, Spawn nodes, Spectator cameras have values related to backpack racks which are possibly redundant, test if removing these doesn't break objectives.
-* You probably shouldn't open terr01 (SP map) or dlc01. It just loads all the assets when you open a map, so terr01 will probably use a ton of memory and make your GPU cry. Eventually will add some kind of asset streaming when I do SP mapping. Edit: (high end pcs can handle this, tested by Camo)
-* Shape cutters: used to cause an object to start off with initial damage, used on damage control targets or maps like ruins and remnant where they put a hole in the wall
-
-
-Adding more than 3 Damage Control Points
--------------------------------------------------------
-
-1. Deep clone MPDCT_MAPNAME_003
-2. Move MPDCT_MAPNAME_003 and it's children: shape_cutter and King of the Hill target to the same new co-ordinates. 
-3. In object properties for the parent change display_name to what you want the objective to be called
-4. The new damage control target will currently show up as whatever you called it on the way point 
-
 
 RE Research
 
@@ -377,102 +321,6 @@ Important note: Types also have all the variables of the types they inherit. E.g
 There's also the info types like VehicleInfo, WeaponsInfo, and ExplosionInfo. These contain the definitions from vehicles.xtbl, weapons.xtbl, and explosions.xtbl IIRC. They each can be accessed through lists that are named in their documentation pages. If you edit one it'll affect every weapon/vehicle that uses that definition. IIRC there's some examples for weapons and explosions included with RSL1 + here (https://rsl.readthedocs.io/en/latest/Scripting/Examples.html). Don't remember if I did an example with vehicles. If not you can base that on the weapons and explosions. 
 This part might be confusing because I really have two meanings by "object". In programming a type instance is usually called an object. But then RFG also has a type called "object" which is used as a base for a bunch of things in the game world (everything in the NF filter panel). So while rfg.ActiveWorld is an object, it doesn't inherit Object (https://rsl.readthedocs.io/en/latest/Scripting/API/rfg/Types/Object.html)
 Also, there's a bunch of object types and xtbls that haven't been bound to lua. So while you can check their types with lua you can't access most of their internals.
-
-
-RSL FUNCTION TESTING
---------------------------------------
-Thread will now be used to document functions in the Red Faction Guerrilla Script Loader to find what functions are useful or break the game.
-
-[Shadows]
-
-rfg.SetShadowResolutions (xxxx, xxxx, xxxx, xxxx) Shadow resolution for cascades from right to left with the 4th value being the cascade closest to the camera/player 
-rfg.Shadows.ShadowPercent Good for changing the opacity/transparency/strength of shadows but you can't go too low or it disables shadows completely. Works well in conjunction with rfg.Shadows.ShadowMapFadePercent at 0.1 
-rfg.Shadows.CloudShadowScale Changes the size of cloud shadows, higher values make the cloud shadows really small and unrealistic
-rfg.Shadows.CloudShadowIntensityScale  Works like rfg.Shadows.ShadowMapFadePercent and rfg.Shadows.ShadowPercent  and changes the opacity/transparency/strength of cloud shadows
-rfg.ShadowMapMaxDist  Increases shadow distance but requires increasing shadow resolution in tandem or you will have very blocky shadows up close
-rfg.Shadows.TerrainShadowMaxDist  Increases shadow distance but requires increasing shadow resolution in tandem or you will have very blocky shadows up close
-rfg.Shadows.ShadowMapFadePercent Effects the opacity/transparency/strength of shadows. I found a good value so they don't look completely black.
-rfg.Shadows.DropShadowPercent Same as rfg.Shadows.ShadowPercent but for DropShadows which the community patch applies to all objects that were missing them
-rfg.HumanFlags.CastsDropShadows = true  Broken but might be able to be bound to the player
-
-[SSAO]
-
-rfg.Ssao.Falloff - Editing this value from the default of 0.0 to even -0.1 or 0.1 results in a crash when you load a save, I'm wondering if it can be used to increase the draw distance of SSAO if the crashes can be resolved as the draw distance for SSAO is very low 
-rfg.Ssao.ImagePlanePixelsPerMeterFactor  From what it means in the camera scene; Many manufacturers use the pixels per meter measure as a metric of video surveillance image quality. For instance, you need around 130 ppm to have enough detail to accurately recognize facial detail and indentify license plates. I think it's increased the resolution of SSAO and reduced noise but needs more 
-testing 
-rfg.Ssao.DepthFadeRange  Behaviour unknown, it broke AO completely at a value of 100 and -100 
-
-[Lighting]
-
-rfg.Lighting.IndirectLightScale  These values change how much indirect light appears to bounce off the sky and surrounding terrain like a faked global illumination or specular effect . Setting these values to extreme values results in a overly specular washed out game
-rfg.Lighting.IndirectLightAmount  These values change how much indirect light appears to bounce off the sky and surrounding terrain like a faked global illumination or specular effect. Setting these values to extreme values results in a overly specular washed out game 
-
-[Vehicles]
-
-rfg.Vehicle.StreamLoadDistanceSqr Causes error in lua console, might need to be bound to vehicle
-rfg.Vehicle.StreamUnloadDistanceSqr Causes error in lua console, might need to be bound to vehicle
-
-[LOD]
-
-rfg.LodInfo.Dist  Doesn't seem to cause any errors or crashes
-rfg.ObjectRenderDistance.ApparentDistance Doesn't seem to cause any errors or crashes 
-
-[WorldStateBuf]
-
-rfg.WorldStateBuf.MaxSize
-. 
-
-Working bools
------------------------
-
-rfg.Shadows.ShadowsEnabled = true/false
-rfg.Shadows.CloudShadowEnabled = true/false
-rfg.Hdr.Enable = true/false
-rfg.Hdr.BloomNew = true/false
-rfg.Hdr.BloomSuperSoft = true/false 
-rfg.Hdr.BloomSoft = true/false
-rfg.Hdr.BloomAlternate = true/false
-rfg.Misc.AlphaDistEnabled = true/false
-rfg.Terrain.DetailMapEnable = true/false
-rfg.Terrain.SpecularEnable = true/false
-rfg.Terrain.MedLod = true/false
-rfg.Terrain.UseNewRenderer = true/false
-rfg.Lighting.SubstanceDiffuseScaleEnabled = true (might break game when false)
-rfg.Lighting.GlassDirtEnabled = true/false
-rfg.Lighting.GlassReflectionEnabled = true/false
-rfg.Lighting.IndirectLightEnabled = true/false
-rfg.Lighting.AmbientSpecularEnabled = true/false
- 
-Terrain
--------------------
-
-rfg.Terrain.DetailMapTiling = 1.3 Graphical artifacts when increased?
-rfg.Terrain.DetailMapScale = 4.8  Graphical artifacts when increased?
-rfg.Terrain.DetailMapBlend = 0.72 Graphical artifacts when increased?
-. 
-Biases, clamps, rhos, threshold and epsilon values
------------------------
-
-rfg.Shadows.CloudShadowIntensityBias = -0.5
-rfg.Ssao.Bias = 0.02
-rfg.Ssao.Clamp = 0.83
-rfg.Ssao.Epsilon = 0.4    
-rfg.Misc.DecalDepthBias = -0.0002
-rfg.Misc.DistortionDepthBias = -0.0002
-rfg.Terrain.DetailMapBias = -0.035
-rfg.Ssao.DepthThreshold = 18.0
- 
-Sun Shafts/Godrays
------------------------
-
-rfg.SunShafts.ColorCurveBase = -4.0
-rfg.SunShafts.ColorCurveExp = 1.60
-rfg.SunShafts.ColorCurveShift = -0.02
-rfg.SunShafts.CoronaAdaption = true/false
-rfg.SunShafts.SunMask = true/false
-rfg.SunShafts.Enabled = true/false
-rfg.SunShafts.BlurRho = 0.75
-rfg.SunShafts.SunSize = 30​0.0
 
 
 Converting SP zone to MP
@@ -536,19 +384,6 @@ Note 3: Haven't got weather working yet, might need to add both gtodx, dtodx fil
 mine beacon
 
 2.6 or 5 offset to snap them properly 
-
-[b]RF:GR Terraform Patch v1.064.1 UPDATE[/b]
----------------------------------
-Author: Camo
-Version: v1.064.1 ALPHA
-Date: 23-1-2023
-Build: 1120
-
-[b]Description[/b]
----------------------
-* Work-in-progress project that adds content, fixes bugs, and enhances many features. Install with SyncFaction
-* See the [url=https://github.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/tree/main]Github[/url] for more information. 
-* Latest [url=https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/current/changelog.txt]changelog[/url]
 
 <!--START Experimental Misc ADDED-->
 		<Weapon>
@@ -808,7 +643,7 @@ Build: 1120
 		
 		
 		
-		turret_head_1
+turret_head_1
 
 rocket_turret_head
 

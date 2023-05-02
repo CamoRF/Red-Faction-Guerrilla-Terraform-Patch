@@ -35,7 +35,7 @@
 			<Load_image>Quarantine</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
 		</mp_level_list>
-<!--		<mp_level_list>
+		<mp_level_list>
 			<Name>Equilibrium King of the Hill</Name> 
 			<Filename>mp_2</Filename>
 			<_Editor>
@@ -51,7 +51,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MPDCT_RIFT_002</Display_name>
+			<Display_name>MPDCT_RIFT_002</Display_name> <!--CLIFFSIDE-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -69,7 +69,7 @@
 			<ideal_max_players>10</ideal_max_players>
 			<Load_image>Equilibrium</Load_image>
 			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
-		</mp_level_list>-->	
+		</mp_level_list>
 	    <mp_level_list>
 			<Name>Aerial Excavation</Name> 
 			<Filename>mp_3</Filename>
@@ -101,37 +101,7 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Excavation</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
-		</mp_level_list>
-<!--	<mp_level_list>
-			<Name>Pipeline Pitfalls</Name>
-			<Filename>mp_4</Filename>
-			<_Editor>
-				<Category>Entries:DLC_2</Category>
-			</_Editor>
-			<player_weapons>
-				<Element>m16</Element>
-			</player_weapons>
-			<Description>0</Description>
-			<time_of_day>10:30</time_of_day>
-			<distance_multiplier>1.5</distance_multiplier>
-			<level_image_name>mp_thumb_pipeline</level_image_name>
-			<dust_enabled>True</dust_enabled>
-			<wind_intensity>40</wind_intensity>
-			<wind_direction>270</wind_direction>
-			<Display_name>MENU_CUSTOM_GAME</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>deathmatch</Flag>
-				<Flag>bagman</Flag>
-			</mode_flags>
-			<alternate_time_of_day>0:00</alternate_time_of_day>
-			<glow_multiplier>0.9</glow_multiplier>
-			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
-			<ideal_min_players>2</ideal_min_players>
-			<ideal_max_players>6</ideal_max_players>
-			<Load_image>Pipeline</Load_image>
-			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>-->   
+		</mp_level_list>  
 		<mp_level_list>
 			<Name>Townhall</Name>
 			<Filename>mp_5</Filename>
@@ -176,7 +146,7 @@
 				<Element>m16</Element>
 			</player_weapons>
 			<Description>0</Description>
-			<time_of_day>17:30</time_of_day>
+			<time_of_day>08:30</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_quarantine</level_image_name>
 			<dust_enabled>True</dust_enabled>

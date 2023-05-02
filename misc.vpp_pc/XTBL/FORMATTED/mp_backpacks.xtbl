@@ -485,7 +485,7 @@
 			<pickup_tooltip>backpack_vision</pickup_tooltip>
 		</mp_backpacks>
 		<mp_backpacks>
-			<Name>Commando</Name>
+			<Name>Commando</Name> <!--Firepower-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -594,7 +594,7 @@
 			<pickup_tooltip>backpack_commando</pickup_tooltip>
 		</mp_backpacks>
 		<mp_backpacks>
-			<Name>Shockwave</Name>
+			<Name>Shockwave</Name> <!--Concussion-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

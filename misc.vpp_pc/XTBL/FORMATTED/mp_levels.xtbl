@@ -152,7 +152,7 @@
 				<Element>m16</Element>
 			</player_weapons>
 			<Description>MENU_LEVEL_CORNERED_DESC</Description>
-			<time_of_day>0:00</time_of_day>
+			<time_of_day>00:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_complex</level_image_name>
 			<dust_enabled>True</dust_enabled> <!--From False-->
@@ -419,7 +419,7 @@
 				<Flag>demolition</Flag>
 				<Flag>siege</Flag> <!--Added-->
 			</mode_flags>
-			<alternate_time_of_day>0:00</alternate_time_of_day>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
 			<ideal_min_players>4</ideal_min_players>
@@ -700,7 +700,7 @@
 				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
-			<alternate_time_of_day>0:00</alternate_time_of_day>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
 			<ideal_min_players>4</ideal_min_players>
@@ -913,7 +913,7 @@
 				<Flag>capture_the_flag</Flag>
 				<Flag>king_of_the_hill</Flag>
 			</mode_flags>
-			<alternate_time_of_day>0:00</alternate_time_of_day>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
 			<ideal_min_players>8</ideal_min_players>
@@ -1160,7 +1160,7 @@
 				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
-			<alternate_time_of_day>0:00</alternate_time_of_day>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
 			<ideal_min_players>10</ideal_min_players>
@@ -1338,7 +1338,7 @@
 				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->				
 			</mode_flags>
-			<alternate_time_of_day>0:00</alternate_time_of_day>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
@@ -1585,7 +1585,7 @@
 				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
-			<alternate_time_of_day>0:00</alternate_time_of_day>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
 			<ideal_min_players>8</ideal_min_players>
@@ -1620,7 +1620,7 @@
 				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
-			<alternate_time_of_day>19:00</alternate_time_of_day>
+			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 19:00-->
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>0.7</alternate_glow_multiplier>
 			<ideal_min_players>6</ideal_min_players>
@@ -1725,7 +1725,7 @@
 				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
-			<alternate_time_of_day>0:00</alternate_time_of_day>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
 			<ideal_min_players>4</ideal_min_players>

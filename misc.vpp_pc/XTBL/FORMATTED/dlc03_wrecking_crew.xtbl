@@ -10,7 +10,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 01</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 01</games_played_rampage_stat>
-					<time_of_day>13:00</time_of_day>
+					<time_of_day>17:30</time_of_day> <!--From 13:00-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 01</games_played_total_chaos_stat>
 					<image_name>mp_thumb_wcdlc1</image_name>
 					<Load_image>dlc03wc1</Load_image>
@@ -36,7 +36,7 @@
 					<display_name>MENU_LEVEL_DLC_WC3</display_name>
 					<image_name>mp_thumb_wcdlc3</image_name>
 					<Load_image>dlc03wc3</Load_image>
-					<time_of_day>09:00</time_of_day>
+					<time_of_day>12:00</time_of_day> <!--From 09:00-->
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 01</games_played_mayhem_stat>
@@ -64,7 +64,7 @@
 					<display_name>MENU_LEVEL_DLC_WC5</display_name>
 					<image_name>mp_thumb_wcdlc5</image_name>
 					<Load_image>dlc03wc5</Load_image>
-					<time_of_day>11:30</time_of_day>
+					<time_of_day>11:00</time_of_day> <!--From 11:30-->
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 01</games_played_mayhem_stat>
@@ -92,7 +92,7 @@
 					<display_name>MENU_LEVEL_STRATOSPHERE</display_name>
 					<image_name>mp_thumb_wcdlc7</image_name>
 					<Load_image>dlc03wc7</Load_image>
-					<time_of_day>10:30</time_of_day>
+					<time_of_day>14:00</time_of_day> <!--From 10:30-->
 					<Challenge_Set>wcdlc7_stratosphere</Challenge_Set>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
@@ -106,7 +106,7 @@
 					<display_name>MENU_LEVEL_INVASION</display_name>
 					<image_name>mp_thumb_wcdlc8</image_name>
 					<Load_image>dlc03wc8</Load_image>
-					<time_of_day>23:30</time_of_day>
+					<time_of_day>00:00</time_of_day> <!--From 23:30-->
 					<Challenge_Set>wcdlc8_invasion</Challenge_Set>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
