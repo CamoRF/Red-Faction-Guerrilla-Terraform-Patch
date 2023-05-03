@@ -763,6 +763,7 @@ v1.07.3 ALPHA CHANGES
 [Maps]
 * Added Damage Control to Ruins
 * Added more spawns to Aerial Excavation
+* Added more Siege targets to Stratosphere
 * Removed Pipeline Pitfalls due to it not being very unpolished
 * Renamed Quarantine Expanded to "RETRIBUTION" in the map selection menu from "CUSTOM MATCH"
 * Renamed Equilibrium King of the Hill to "CLIFFSIDE" in the map selection menu from "CUSTOM MATCH"
@@ -775,7 +776,6 @@ v1.07.3 ALPHA CHANGES
 * Fixed issue with grenade ammo acting like a weapon you could reload
 * Fixed object names on Quarantine
 * Fixed some incorrect object flags on various maps
-* Fixed smokestack missing on Aerial Excavation
 * Fixed the issue with XP spam messages at the end of matches (hopefully this time!)
 * Fixed more backpack clipping issues with new characters including Jenkins, Admiral Kobel & Carmen
 * Fixed various issues with maps
