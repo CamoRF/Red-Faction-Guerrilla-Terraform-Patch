@@ -404,7 +404,7 @@ v1.064 ALPHA CHANGES
 * Expansion: Added mine beacons, minefields, cliff warning signs, mine warning signs, marauder crates, EDF crates, two smokestacks & removed duplicated placeholder cloned objects
 * Frost: Overhauled layout for improved gameplay in multiplayer, added dynamic destruction, minefields, various fixes & more
 * Imperial: Added building, monument, spawns, various fixes & more
-* Repurcussion: Added more weapon spawns, various fixes & more
+* Repercussion: Added more weapon spawns, various fixes & more
 * Transmission: Added minefield & mine beacons before the invisible wall, more spawns & a few more radio towers
 * Cascade: Made the area under the bridge more accessible, various fixes & more
 * GFWL/Nordic Bonus: Fixed floating shipping containers replacing them with air craft & vehicle debris, added marauder smokestack, marauder statue, added smokestack outside the map, added shipping containers with explosive barrels on top of the cave area, added fire surrounding the map, added cliff warning sign near the GFWL containers, various fixes & more
@@ -770,6 +770,7 @@ v1.07.3 ALPHA CHANGES
 * Renamed Aerial Excavation to "PARTIAL RECALL" in the map selection menu from "CUSTOM MATCH"
 * Changed alternative time of day on Frost
 * Siege targets now unlock one by one on Quarantine
+* Disabled some of the new Siege maps temporarily until they have proper spawns or require other improvements: Cascade, Crash Site, Division, Doubletime, Radial, Imperial, Repercussion, Rift & Stratosphere
 
 [Fixes]
 * Fixed holding grenades in both hands
