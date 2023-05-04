@@ -549,11 +549,6 @@ v1.07 ALPHA CHANGES
 * Reverted removal of artificial gravity from vehicles; this should hopefully fix the transporter mission in Parker/FFZ & the second to last mission in EOS
 * Reverted map loading screen & thumbnail texture replacements
 
-[MP Destruction Optimization]
-* Reduced objects stress system processes per frame to 350 from 400
-* Increased min delay before checking stress to 150ms from 100ms
-* Increased max delay before checking stress to 5050ms from 5000ms
-
 [New Weapon]
 * Re-implemented Spiker DLC weapon in multiplayer
 
@@ -718,8 +713,7 @@ v1.07.3 ALPHA CHANGES
 
 [Misc]
 * Increased ladder climbing speed to 14.0 from 7.0
-* Re-enabled Demolition on Stratosphere & Crescent with balance fixes so you can no longer win the match by destroying a single town hall
-* Changed Smokestack siege targets on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
+* Reverted changes to rfg_stress_controls.xtbl
 
 [Wrecking Crew]
 * Removed weather files from dlcp03_misc.vpp_pc since they were ported to misc.vpp_pc when the DLC Wrecking Crew maps were added
@@ -732,7 +726,7 @@ v1.07.3 ALPHA CHANGES
 * Added a remake of Shipment from COD4 known as "STORAGE" in the map selection menu
 * Added the first interior only map made for RF:G known as "TOWNHALL" in the map selection menu
 
-[Grenade Changes]
+[Grenade Balance Changes]
 * Decreased fuse time to 1500ms from 3000
 * Increased explosion radius to 7.75 from 6.2
 * Increased explosion impulse to 25000 from 20000
@@ -741,20 +735,18 @@ v1.07.3 ALPHA CHANGES
 * Increased explosion flinch radius to 6.25 from 5.0
 * Reduced ammo to 4 from 18
 
-[Subverter Changes]
+[Subverter Balance Changes]
 * Reduced refire delay to 100 from 110 increasing firerate
 * Reduced recoil to 0.92 from 1.0
 * Increased magazine size to 30 from 24
 * Increased max ammo to 180 from 144
-
-[Multiplayer]
-* Moved previous backpack balance changes for fuel usage and recharge rates to mp_backpack_overrides.xtbl so the changes don't change singleplayer balance anymore
 
 [Concussion Nerf]
 * Decreased fuel regen per second to 0.11 from 0.22
 
 [Multiplayer]
 * Changed default bag return time to 5 seconds for Bagman and Team Bagman, having it at 0 was annoying if you forgot to change the custom game settings
+* Moved previous backpack balance changes for fuel usage and recharge rates to mp_backpack_overrides.xtbl so the changes don't change singleplayer balance anymore
 
 [Spiker Buff]
 * Increased damage at both min and max range to 60 from 55
@@ -770,11 +762,13 @@ v1.07.3 ALPHA CHANGES
 * Renamed Aerial Excavation to "PARTIAL RECALL" in the map selection menu from "CUSTOM MATCH"
 * Changed alternative time of day on Frost
 * Siege targets now unlock one by one on Quarantine
-* Disabled some of the new Siege maps temporarily until they have proper spawns or require other improvements: Cascade, Crash Site, Division, Doubletime, Radial, Imperial, Repercussion, Rift & Stratosphere
+* Temporarily disabled some of the new Siege maps until they have proper spawns: Cascade, Crash Site, Division, Doubletime, Radial, Imperial, Repercussion, Rift & Stratosphere
+* Re-enabled Demolition on Stratosphere & Crescent with balance fixes so you can no longer win the match by destroying a single town hall
+* Changed Smokestack siege targets on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
 
 [Fixes]
-* Fixed holding grenades in both hands
-* Fixed issue with grenade ammo acting like a weapon you could reload
+* Fixed issue with players holding grenades in both hands
+* Fixed issue with grenade ammo acting as a weapon you could reload
 * Fixed object names on Quarantine
 * Fixed some incorrect object flags on various maps
 * Fixed the issue with XP spam messages at the end of matches (hopefully this time!)
