@@ -762,15 +762,16 @@ v1.07.3 ALPHA CHANGES
 * Renamed Aerial Excavation to "PARTIAL RECALL" in the map selection menu from "CUSTOM MATCH"
 * Changed alternative time of day on Frost
 * Siege targets now unlock one by one on Quarantine
-* Temporarily disabled some of the new Siege maps until they have proper spawns: Cascade, Crash Site, Division, Doubletime, Radial, Imperial, Repercussion, Rift & Stratosphere
+* Temporarily disabled some of the new Siege maps until they have proper spawns: Cascade, Division, Doubletime, Radial, Imperial, Repercussion, Rift & Stratosphere
 * Re-enabled Demolition on Stratosphere & Crescent with balance fixes so you can no longer win the match by destroying a single town hall
-* Changed Smokestack siege targets on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
+* Changed Smokestack siege target names on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
 
 [Fixes]
 * Fixed issue with players holding grenades in both hands
-* Fixed issue with grenade ammo acting as a weapon you could reload
+* Fixed issue with grenade ammo incorrectly behaving as a weapon you could reload
 * Fixed object names on Quarantine
 * Fixed some incorrect object flags on various maps
 * Fixed the issue with XP spam messages at the end of matches (hopefully this time!)
 * Fixed more backpack clipping issues with new characters including Jenkins, Admiral Kobel & Carmen
 * Fixed various issues with maps
+* Fixed another out of bounds exploit on Downfall
