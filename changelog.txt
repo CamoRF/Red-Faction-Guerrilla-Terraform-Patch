@@ -714,6 +714,14 @@ v1.07.3 ALPHA CHANGES
 [Misc]
 * Increased ladder climbing speed to 14.0 from 7.0
 * Reverted changes to rfg_stress_controls.xtbl
+* Reverted more optimized files that might have been causing possible issues
+* Decreased time until bullet mags despawn due to possible connection lag issues, will restore them not despawning as fast in SP only when RSL2 bumps some limits required
+* Optimized effects.xtbl so it kills sounds and effects faster, hopefully helping with the hardcoded limit on how many sounds and effects can play at once
+* Temporarily disabled dust effects on all maps, hopefully helping with the hardcoded limit with how many effects can play at once
+* Tweaked lod_properties.xtbl again
+
+[Singleplayer]
+* Added collision physics to some objects like small rocks & bottles (still needs some refinement)
 
 [Wrecking Crew]
 * Removed weather files from dlcp03_misc.vpp_pc since they were ported to misc.vpp_pc when the DLC Wrecking Crew maps were added
@@ -747,31 +755,40 @@ v1.07.3 ALPHA CHANGES
 [Multiplayer]
 * Changed default bag return time to 5 seconds for Bagman and Team Bagman, having it at 0 was annoying if you forgot to change the custom game settings
 * Moved previous backpack balance changes for fuel usage and recharge rates to mp_backpack_overrides.xtbl so the changes don't change singleplayer balance anymore
+* Flag & Gutter weapons no longer drop on death due to possible clutter and connection lag issues
 
 [Spiker Buff]
 * Increased damage at both min and max range to 60 from 55
 * Increased headshot damage multiplayer to 6.0 from 5.5
 
 [Maps]
+* Aerial Excavation renamed to PARTIAL RECALL
+* Quarantine Expanded renamed to RETRIBUTION
+* Added more spawns to Aerial Excavation (PARTIAL RECALL)
+* Added more Siege targets to Stratosphere for the future (Siege is still disabled for now)
 * Added Damage Control to Ruins
-* Added more spawns to Aerial Excavation
-* Added more Siege targets to Stratosphere
-* Removed Pipeline Pitfalls due to it not being very unpolished
-* Renamed Quarantine Expanded to "RETRIBUTION" in the map selection menu from "CUSTOM MATCH"
-* Renamed Equilibrium King of the Hill to "CLIFFSIDE" in the map selection menu from "CUSTOM MATCH"
-* Renamed Aerial Excavation to "PARTIAL RECALL" in the map selection menu from "CUSTOM MATCH"
+* Added Damage Control Target under the bridge on Cascade
+* Added Arc Welder spawn to Scrapheap
+* Moved the CTF flags on Gulch to be closer to the team spawns
 * Changed alternative time of day on Frost
 * Siege targets now unlock one by one on Quarantine
+* Siege targets now unlock in a different order on Garrison
 * Temporarily disabled some of the new Siege maps until they have proper spawns: Cascade, Division, Doubletime, Radial, Imperial, Repercussion, Rift & Stratosphere
+* Temporarily disabled Quarantine Expanded due to hardcoded limit
+* Removed Equilbrium KOTH
+* Removed Pipeline Pitfalls due to it not being very unpolished
 * Re-enabled Demolition on Stratosphere & Crescent with balance fixes so you can no longer win the match by destroying a single town hall
 * Changed Smokestack siege target names on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
+* Disabled Singularity Bomb, Mine & player spawn near the King of the Hill objective on Watchtower
 
 [Fixes]
 * Fixed issue with players holding grenades in both hands
 * Fixed issue with grenade ammo incorrectly behaving as a weapon you could reload
+* Fixed issue with invisible smokestack on Aerial Excavation
 * Fixed object names on Quarantine
 * Fixed some incorrect object flags on various maps
 * Fixed the issue with XP spam messages at the end of matches (hopefully this time!)
-* Fixed more backpack clipping issues with new characters including Jenkins, Admiral Kobel & Carmen
-* Fixed various issues with maps
+* Fixed issue with Firepower backpack completely floating on Carmen's back
 * Fixed another out of bounds exploit on Downfall
+* Fixed issues with physics and names of Siege targets on new Siege maps
+* Fixed various issues with all maps

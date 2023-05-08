@@ -1,7 +1,7 @@
 <root>
 	<Table>
 <!--NOTE: current highest <Unique_ID>122</Unique_ID>-->
-<!--START Grenade TEST-->		
+<!--START Grenade ADDED-->		
 		<Explosion>
 			<Name>grenade_mp</Name>
 			<Radius>7.75</Radius> <!--From 6.2 in 1.07.2-->

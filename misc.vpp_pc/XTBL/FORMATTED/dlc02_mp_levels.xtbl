@@ -1,7 +1,7 @@
 <root>
 	<Table>
-	    <mp_level_list>
-			<Name>Quarantine Expanded</Name>
+		<mp_level_list>
+			<Name>Retribution</Name>
 			<Filename>mp_1</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
@@ -34,44 +34,9 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Quarantine</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>	
 		<mp_level_list>
-			<Name>Equilibrium King of the Hill</Name> 
-			<Filename>mp_2</Filename>
-			<_Editor>
-				<Category>Entries:DLC_2</Category>
-			</_Editor>
-			<player_weapons>
-				<Element>m16</Element>
-			</player_weapons>
-			<Description>0</Description>
-			<time_of_day>15:00</time_of_day>
-			<distance_multiplier>1.25</distance_multiplier>
-			<level_image_name>mp_thumb_equilibrium</level_image_name>
-			<dust_enabled>False</dust_enabled>
-			<wind_intensity>60.0</wind_intensity>
-			<wind_direction>315.0</wind_direction>
-			<Display_name>MPDCT_RIFT_002</Display_name> <!--CLIFFSIDE-->
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>deathmatch</Flag>
-				<Flag>team_deathmatch</Flag>
-				<Flag>capture_the_flag</Flag>
-				<Flag>king_of_the_hill</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>			
-			</mode_flags>
-			<alternate_time_of_day>10:30</alternate_time_of_day>
-			<glow_multiplier>6</glow_multiplier>
-			<alternate_glow_multiplier>7</alternate_glow_multiplier>
-			<ideal_min_players>6</ideal_min_players>
-			<ideal_max_players>10</ideal_max_players>
-			<Load_image>Equilibrium</Load_image>
-			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
-		</mp_level_list>
-	    <mp_level_list>
-			<Name>Aerial Excavation</Name> 
+			<Name>Partial Recall</Name> 
 			<Filename>mp_3</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
@@ -101,7 +66,7 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Excavation</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
-		</mp_level_list>  
+		</mp_level_list>
 		<mp_level_list>
 			<Name>Townhall</Name>
 			<Filename>mp_5</Filename>
@@ -137,7 +102,7 @@
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
 		</mp_level_list>	
 		<mp_level_list>
-			<Name>Storage</Name>
+			<Name>Shipment</Name>
 			<Filename>mp_6</Filename>
 			<_Editor>
 				<Category>Entries:DLC_2</Category>
@@ -149,7 +114,7 @@
 			<time_of_day>08:30</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_quarantine</level_image_name>
-			<dust_enabled>True</dust_enabled>
+			<dust_enabled>False</dust_enabled> <!--From True-->
 			<wind_intensity>5.0</wind_intensity>
 			<wind_direction>150</wind_direction>
 			<Display_name>MPST_CRESCENT_002</Display_name> <!--STORAGE-->

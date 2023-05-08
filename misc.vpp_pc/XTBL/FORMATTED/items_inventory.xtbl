@@ -1,6 +1,41 @@
 <root>
 	<Table>
-<!--START Grenade TEST-->	
+<!--START MP Selectable Flags & Gutter ADDED-->
+		<Inventory_Item>
+			<Name>camo_gutter</Name>
+			<Display_Name>WEAP_GUTTER</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Swing Swing, Konk &amp; Ouch</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>
+		<Inventory_Item>
+			<Name>camo_flag_guerrilla</Name>
+			<Display_Name>WEAP_FLAG_GUER</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Swing Swing, Konk &amp; Ouch</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>
+		<Inventory_Item>
+			<Name>camo_flag_edf</Name>
+			<Display_Name>WEAP_FLAG_EDF</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Swing Swing, Konk &amp; Ouch</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>		
+<!--END-->		
+<!--START Grenade ADDED-->
 		<Inventory_Item>
 			<Name>camo_grenade</Name>
 			<Display_Name>WEAP_GRENADE</Display_Name>
@@ -551,7 +586,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<Inventory_Item>
+<!--START Unused? Weapons DISABLED-->
+<!--	<Inventory_Item>
 			<Name>rock</Name>
 			<Display_Name>WEAP_ROCK</Display_Name>
 			<Cost>100</Cost>
@@ -561,7 +597,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>-->
 <!--	<Inventory_Item>
 			<Name>crowbar</Name>
 			<Display_Name>WEAP_CROWBAR</Display_Name>
@@ -573,22 +609,23 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>-->	
-		<Inventory_Item>
+<!--	<Inventory_Item>
 			<Name>power_item</Name>
 			<Display_Name>WEAP_POWER_ITEM</Display_Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<Max_Inventory>1000</Max_Inventory>
-		</Inventory_Item>
-		<Inventory_Item>
+		</Inventory_Item>-->
+<!--	<Inventory_Item>
 			<Name>metal</Name>
 			<Display_Name>WEAP_METAL</Display_Name>
 			<Max_Inventory>1000</Max_Inventory>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>-->
+<!--END-->		
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

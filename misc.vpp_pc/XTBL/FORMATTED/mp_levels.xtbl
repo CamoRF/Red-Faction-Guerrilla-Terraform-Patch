@@ -13,7 +13,7 @@
 			<time_of_day>18:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc6</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
 			<Display_name>MENU_LEVEL_DLC_WC6</Display_name>
@@ -119,7 +119,7 @@
 			<time_of_day>10:30</time_of_day> <!--From 00:00-->
 			<distance_multiplier>1.2</distance_multiplier>
 			<level_image_name>mp_thumb_cascade</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
 			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC8</Display_name>
@@ -155,7 +155,7 @@
 			<time_of_day>00:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_complex</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
 			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC1</Display_name>
@@ -261,7 +261,7 @@
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crashsite</level_image_name>
-			<dust_enabled>True</dust_enabled>
+			<dust_enabled>False</dust_enabled> <!--From True-->
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
 			<Display_name>MENU_LEVEL_CRASH_SITE</Display_name>
@@ -297,7 +297,7 @@
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crescent</level_image_name>
-			<dust_enabled>True</dust_enabled>
+			<dust_enabled>False</dust_enabled> <!--From True-->
 			<wind_intensity>50</wind_intensity>
 			<wind_direction>215</wind_direction>
 			<Display_name>MENU_LEVEL_CRESCENT</Display_name>
@@ -581,7 +581,7 @@
 			<time_of_day>09:00</time_of_day>
 			<distance_multiplier>3.0</distance_multiplier> <!--From 1.0--> <!--From 1.5 in v1.031-->
 			<level_image_name>mp_thumb_wcdlc4</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
 			<Display_name>MENU_LEVEL_DLC_WC4</Display_name>
@@ -616,7 +616,7 @@
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.2</distance_multiplier>
 			<level_image_name>mp_thumb_factory</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
 			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC6</Display_name>
@@ -651,7 +651,7 @@
 			<time_of_day>19:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_fallfactor</level_image_name>
-			<dust_enabled>True</dust_enabled>
+			<dust_enabled>False</dust_enabled> <!--From True-->
 			<wind_intensity>80.0</wind_intensity>
 			<wind_direction>25.0</wind_direction>
 			<Display_name>MENU_LEVEL_FALL_FACTOR</Display_name>
@@ -721,7 +721,7 @@
 			<time_of_day>18:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_framework</level_image_name>
-			<dust_enabled>True</dust_enabled>
+			<dust_enabled>False</dust_enabled> <!--From True-->
 			<wind_intensity>65</wind_intensity>
 			<wind_direction>20</wind_direction>
 			<Display_name>MENU_LEVEL_FRAMEWORK</Display_name>
@@ -899,7 +899,7 @@
 			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.2</distance_multiplier>
 			<level_image_name>mp_thumb_gulch</level_image_name>
-			<dust_enabled>True</dust_enabled>
+			<dust_enabled>False</dust_enabled> <!--From True-->
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
 			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC7</Display_name>
@@ -1005,7 +1005,7 @@
 			<time_of_day>00:00</time_of_day> <!--From 23:30-->
 			<distance_multiplier>1.3</distance_multiplier> <!--From 1.0-->
 			<level_image_name>mp_thumb_wcdlc8</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
 			<Display_name>MENU_LEVEL_INVASION</Display_name>
@@ -1040,7 +1040,7 @@
 			<time_of_day>8:30</time_of_day>
 			<distance_multiplier>1.1</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc9</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
 			<Display_name>MENU_LEVEL_NORDICSPECIAL</Display_name>
@@ -1146,7 +1146,7 @@
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_pipeline</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
 			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC10</Display_name>
@@ -1323,7 +1323,7 @@
 			<time_of_day>18:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc2</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
 			<Display_name>MENU_LEVEL_DLC_WC2</Display_name>
@@ -1407,7 +1407,7 @@
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
 				<!--<Flag>capture_the_flag</Flag>-->
-				<!--<Flag>king_of_the_hill</Flag>-->
+				<Flag>king_of_the_hill</Flag>
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -1430,7 +1430,7 @@
 			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_sandpit</level_image_name>
-			<dust_enabled>True</dust_enabled>
+			<dust_enabled>False</dust_enabled> <!--From True-->
 			<wind_intensity>70.0</wind_intensity>
 			<wind_direction>200.0</wind_direction>
 			<Display_name>MENU_LEVEL_SAND_PIT</Display_name>
@@ -1500,7 +1500,7 @@
 			<time_of_day>09:00</time_of_day>
 			<distance_multiplier>1.6</distance_multiplier>
 			<level_image_name>mp_thumb_settlement</level_image_name>
-			<dust_enabled>True</dust_enabled>
+			<dust_enabled>False</dust_enabled> <!--From True-->
 			<wind_intensity>50</wind_intensity>
 			<wind_direction>315</wind_direction>
 			<Display_name>MENU_LEVEL_SETTLEMENT</Display_name>
@@ -1535,7 +1535,7 @@
 			<time_of_day>14:00</time_of_day> <!--From 10:30--> <!--From 00:00 in old patch version-->
 			<distance_multiplier>1.25</distance_multiplier> <!--From 1.0-->
 			<level_image_name>mp_thumb_wcdlc7</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
 			<Display_name>MENU_LEVEL_STRATOSPHERE</Display_name>
@@ -1571,7 +1571,7 @@
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_transmission</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
 			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC9</Display_name>
@@ -1606,7 +1606,7 @@
 			<time_of_day>19:00</time_of_day> <!--From 12:00-->
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_vista</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
 			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC4</Display_name>
@@ -1676,7 +1676,7 @@
 			<time_of_day>21:00</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier>
 			<level_image_name>mp_thumb_wasteland</level_image_name>
-			<dust_enabled>True</dust_enabled>
+			<dust_enabled>False</dust_enabled> <!--From True-->
 			<wind_intensity>70</wind_intensity>
 			<wind_direction>15</wind_direction>
 			<Display_name>MENU_LEVEL_WASTELAND</Display_name>
@@ -1711,7 +1711,7 @@
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_watchtower</level_image_name>
-			<dust_enabled>True</dust_enabled> <!--From False-->
+			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
 			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC2</Display_name>
