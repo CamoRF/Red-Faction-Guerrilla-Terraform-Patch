@@ -23,7 +23,7 @@
 - [v1.07 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7501)
 - [v1.07.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7516)
 - [v1.07.2 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7626)
-- [v1.07.3 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7626)
+- [v1.07.3 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7634)
 
 # Changelog
 See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/changelog.txt)

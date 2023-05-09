@@ -775,7 +775,6 @@ v1.07.3 ALPHA CHANGES
 * Siege targets now unlock in a different order on Quarantine
 * Siege targets now unlock in a different order on Garrison
 * Temporarily disabled some of the new Siege maps until they have proper spawns: Cascade, Division, Doubletime, Radial, Imperial, Repercussion, Rift & Stratosphere
-* Temporarily disabled Quarantine Expanded due to hardcoded limit
 * Removed Equilbrium KOTH
 * Removed Pipeline Pitfalls due to it not being very unpolished
 * Re-enabled Demolition on Stratosphere & Crescent with balance fixes so you can no longer win the match by destroying a single town hall
