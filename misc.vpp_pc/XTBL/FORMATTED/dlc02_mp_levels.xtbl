@@ -111,7 +111,7 @@
 				<Element>m16</Element>
 			</player_weapons>
 			<Description>0</Description>
-			<time_of_day>08:30</time_of_day>
+			<time_of_day>15:30</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_quarantine</level_image_name>
 			<dust_enabled>False</dust_enabled> <!--From True-->
@@ -127,7 +127,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>		
 			</mode_flags>
-			<alternate_time_of_day>08:30</alternate_time_of_day>
+			<alternate_time_of_day>15:30</alternate_time_of_day>
 			<glow_multiplier>2.0</glow_multiplier>
 			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>

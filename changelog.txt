@@ -3,9 +3,9 @@
 *-------------------*
 
 Author: Camo
-Version: v1.07.3 ALPHA
+Version: v1.07.3.1 ALPHA
 Date: 9-5-2023
-Build: 1239
+Build: 502
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -783,7 +783,7 @@ v1.07.3 ALPHA CHANGES
 
 [Fixes]
 * Fixed issue with players holding grenades in both hands
-* Fixed issue with invisible smokestack on Aerial Excavation
+* Fixed issue with invisible smokestack on Aerial Excavation (PARTIAL RECALL)
 * Fixed object names on Quarantine
 * Fixed some incorrect object flags on various maps
 * Fixed the issue with XP spam messages at the end of matches (hopefully this time!)
@@ -791,3 +791,11 @@ v1.07.3 ALPHA CHANGES
 * Fixed another out of bounds exploit on Downfall
 * Fixed issues with physics and names of Siege targets on new Siege maps
 * Fixed various issues with all maps
+
+-----------------------
+v1.07.3.1 ALPHA CHANGES
+-----------------------
+
+[Fixes]
+* Fixed issue with grenade behaving like a weapon you could reload (hopefully!)
+* Fixed weather on Shipment (STORAGE)
