@@ -4,8 +4,8 @@
 
 Author: Camo
 Version: v1.07.3 ALPHA
-Date: XX-XX-2023
-Build: XXXX
+Date: 9-5-2023
+Build: 1239
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -719,6 +719,7 @@ v1.07.3 ALPHA CHANGES
 * Optimized effects.xtbl so it kills sounds and effects faster, hopefully helping with the hardcoded limit on how many sounds and effects can play at once
 * Temporarily disabled dust effects on all maps, hopefully helping with the hardcoded limit with how many effects can play at once
 * Tweaked lod_properties.xtbl again
+* Removed some obsolete weather files to get around a hardcoded limit
 
 [Singleplayer]
 * Added collision physics to some objects like small rocks & bottles (still needs some refinement)
@@ -771,7 +772,7 @@ v1.07.3 ALPHA CHANGES
 * Added Arc Welder spawn to Scrapheap
 * Moved the CTF flags on Gulch to be closer to the team spawns
 * Changed alternative time of day on Frost
-* Siege targets now unlock one by one on Quarantine
+* Siege targets now unlock in a different order on Quarantine
 * Siege targets now unlock in a different order on Garrison
 * Temporarily disabled some of the new Siege maps until they have proper spawns: Cascade, Division, Doubletime, Radial, Imperial, Repercussion, Rift & Stratosphere
 * Temporarily disabled Quarantine Expanded due to hardcoded limit
@@ -783,7 +784,6 @@ v1.07.3 ALPHA CHANGES
 
 [Fixes]
 * Fixed issue with players holding grenades in both hands
-* Fixed issue with grenade ammo incorrectly behaving as a weapon you could reload
 * Fixed issue with invisible smokestack on Aerial Excavation
 * Fixed object names on Quarantine
 * Fixed some incorrect object flags on various maps
