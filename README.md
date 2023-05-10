@@ -27,13 +27,14 @@
 - [v1.07.3.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7635)
 
 # Changelog
-See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/changelog.txt)
+- [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/changelog.txt)
 
 # To do list
-See [Here](https://github.com/users/CamoRF/projects/3/views/1)
+- [Here](https://github.com/users/CamoRF/projects/3/views/1)
 
 # Known Issues
-See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/known_issues.txt)
+- [Terraform Patch](https://github.com/users/CamoRF/projects/3/views/1)
+- [Requires RSL2](https://github.com/orgs/rfg-modding/projects/1)
 
 # Tools Used
 - [RfgUtil](https://github.com/Moneyl/RfgUtil/releases)
@@ -48,9 +49,9 @@ See [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraf
 - [AsmTool](https://github.com/Moneyl/AsmTool)
 
 # Credits
-- moneyl for lots of help & developing all the tools that make this project possible including Nanoforge, AsmTool, RfgUtil & RSL.
-- rast1234 for developing SyncFaction that makes it easy for users to install this mod automatically and stay up to date.
-- Gibbed for his work on other tools used in the development of this mod.
-- ATMLVE for helping with adding some of the weapon spawns and various other fixes to the Wrecking Crew maps.
-- arrows for developing mTool.
-- Goober and the Faction Files Community. [Discord Link](https://discord.com/invite/factionfiles)
+- **moneyl** for lots of help & developing all the tools that make this project possible including Nanoforge, AsmTool, RfgUtil & RSL.
+- **rast1234** for developing SyncFaction that makes it easy for users to install this mod automatically and stay up to date.
+- **Gibbed** for his work on other tools used in the development of this mod.
+- **ATMLVE** for helping with adding some of the weapon spawns and various other fixes to the Wrecking Crew maps.
+- **arrows** for developing mTool.
+- **Goober** and the Faction Files Community. [Discord Link](https://discord.com/invite/factionfiles)
