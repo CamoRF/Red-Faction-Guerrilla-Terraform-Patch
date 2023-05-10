@@ -719,13 +719,12 @@ v1.07.3 ALPHA CHANGES
 * Optimized effects.xtbl so it kills sounds and effects faster, hopefully helping with the hardcoded limit on how many sounds and effects can play at once
 * Temporarily disabled dust effects on all maps, hopefully helping with the hardcoded limit with how many effects can play at once
 * Tweaked lod_properties.xtbl again
-* Removed some obsolete weather files to get around a hardcoded limit
 
 [Singleplayer]
 * Added collision physics to some objects like small rocks & bottles (still needs some refinement)
 
 [Wrecking Crew]
-* Removed weather files from dlcp03_misc.vpp_pc since they were ported to misc.vpp_pc when the DLC Wrecking Crew maps were added
+* Removed obsolete weather files to get around a hardcoded limit from dlcp03_misc.vpp_pc since they were ported to misc.vpp_pc when the DLC Wrecking Crew maps were added
 * Changed time of day on various maps to match multiplayer changes/fixes
 
 [Interface]
@@ -779,7 +778,7 @@ v1.07.3 ALPHA CHANGES
 * Removed Pipeline Pitfalls due to it not being very unpolished
 * Re-enabled Demolition on Stratosphere & Crescent with balance fixes so you can no longer win the match by destroying a single town hall
 * Changed Smokestack siege target names on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
-* Disabled Singularity Bomb, Mine & player spawn near the King of the Hill objective on Watchtower
+* Disabled Singularity Bomb, Mine & player spawn near the King of the Hill objective on Watchtower when the map is played in Damage Control
 
 [Fixes]
 * Fixed issue with players holding grenades in both hands
