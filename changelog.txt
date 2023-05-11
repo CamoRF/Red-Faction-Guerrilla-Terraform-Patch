@@ -773,8 +773,8 @@ v1.07.3 ALPHA CHANGES
 * Changed alternative time of day on Frost
 * Siege targets now unlock in a different order on Quarantine
 * Siege targets now unlock in a different order on Garrison
-* Temporarily disabled some of the new Siege maps until they have proper spawns: Cascade, Division, Doubletime, Radial, Imperial, Repercussion, Rift & Stratosphere
-* Removed Equilbrium KOTH
+* Temporarily removed Equilbrium KOTH
+* Temporarily removed Pipeline Pitfalls
 * Removed Pipeline Pitfalls due to it not being very unpolished
 * Re-enabled Demolition on Stratosphere & Crescent with balance fixes so you can no longer win the match by destroying a single town hall
 * Changed Smokestack siege target names on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
