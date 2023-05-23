@@ -1849,7 +1849,7 @@
 			</_Editor>
 		</HUD_Identifier>
 		<HUD_Identifier>
-			<Name>HM_XP_REPAIR_BACKPACK_DESC</Name>
+			<Name>HM_XP_REPAIR_BACKPACK_DESC</Name> <!--REPAIR A BACKPACK RACK-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -2323,7 +2323,7 @@
 			</_Editor>
 		</HUD_Identifier>
 		<HUD_Identifier>
-			<Name>HM_REPAIRED</Name>
+			<Name>HM_REPAIRED</Name> <!--REPAIRED-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

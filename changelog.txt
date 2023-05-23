@@ -800,11 +800,12 @@ v1.07.3.1 ALPHA CHANGES
 * Fixed weather on Shipment (STORAGE)
 
 -----------------------
-v1.08 ALPHA CHANGES
+v1.07.5 ALPHA CHANGES
 -----------------------
 
 [Misc]
 * Optimized effects.xtbl & vfx.xtbl more to hopefully help with hardcoded limits with sounds and effects
+* Disabled sound on various object_effects on maps to hopefully help with the hardcoded limit with sounds
 * Disabled character breath effect in multiplayer to hopefully help with hardcoded limits with sounds and effects
 * Reverted adding missing drop shadows to various objects just in case it was causing issues with the VRAM memory pool limit, the effect was barely noticable anyway
 
@@ -819,9 +820,21 @@ v1.08 ALPHA CHANGES
 [Maps]
 * Rebuilt Shipment with various fixes and improvements 
 * Rebuilt Partial Recall with various fixes and improvements
-* Rebuilt Retribution with various fixes and improvements
+* Rebuilt and restored Cliffside with various fixes and improvements
 * Changed weather on Partial Recall
 * Changed weather on Retribution
+* Disabled most of the fire on Nordic Bonus
+* Disabled heathaze on Nordic Bonus
+* Disabled heathaze on Ruins
+* Made the Kaboom backpack rack destructable on Complex and Nordic Bonus
+
+[Repair Backpack Changes]
+* Changed name to "REPAIRED" so it can be placed on maps with a name that shows up
+* Changed effect to reconstructor 
+* Increased repair radius to 10 from 2
+* Reduced repair offset to 0 from 3
+* Changed fuel use per second to 0.10
+* Changed fuel regen per second to 0.12
 
 [Multiplayer]
 * Changed default respawn time to 0 seconds for Anarchy & Bagman
