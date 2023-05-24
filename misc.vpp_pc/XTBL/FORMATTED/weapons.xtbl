@@ -1049,7 +1049,7 @@
 			<Max_Rounds>8</Max_Rounds>
 			<Range_Max>80</Range_Max>
 			<Range_Red>80</Range_Red>
-			<Default_Refire_Delay>1050</Default_Refire_Delay>
+			<Default_Refire_Delay>1000</Default_Refire_Delay> <!--From 1050-->
 			<Damage_Scaling_Max>
 				<NPC_Damage>240</NPC_Damage>
 				<Player_Damage>220</Player_Damage>
@@ -1063,7 +1063,7 @@
 			<NPC_Spread_Min>0.35</NPC_Spread_Min>
 			<To_Spread_Max>2</To_Spread_Max>
 			<To_Spread_Min>1900</To_Spread_Min>
-			<Spread_Multiplier_Run>0.75</Spread_Multiplier_Run>
+			<Spread_Multiplier_Run>0.0</Spread_Multiplier_Run> <!--From 0.75-->
 			<_Editor>
 				<Category>Entries:MP Overrides</Category>
 			</_Editor>
@@ -3730,7 +3730,7 @@
 			<Unique_ID>69</Unique_ID>
 			<Default_team>Guerilla</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
-			<aim_assist>0.75</aim_assist> <!--Slegehammer aim assist?-->
+			<aim_assist>0.75</aim_assist>
 		</Weapon>
 		<Weapon>
 			<Name>mine_placer</Name>
@@ -7088,7 +7088,7 @@
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>70</Unique_ID>
 			<Default_team>Guerilla</Default_team>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_2</Name>
@@ -7146,7 +7146,7 @@
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>71</Unique_ID>
 			<Default_team>Guerilla</Default_team>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_3</Name>
@@ -7203,7 +7203,7 @@
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>77</Unique_ID>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_4</Name>
@@ -7260,7 +7260,7 @@
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>78</Unique_ID>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_5</Name>
@@ -7317,7 +7317,7 @@
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>79</Unique_ID>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_6</Name>
@@ -7374,7 +7374,7 @@
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>80</Unique_ID>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_7</Name>
@@ -7431,7 +7431,7 @@
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>81</Unique_ID>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_8</Name>
@@ -7488,7 +7488,7 @@
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>82</Unique_ID>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_9</Name>
@@ -7545,7 +7545,7 @@
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>83</Unique_ID>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_10</Name>
@@ -7602,7 +7602,7 @@
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>84</Unique_ID>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_11</Name>
@@ -7659,7 +7659,7 @@
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>85</Unique_ID>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_12</Name>
@@ -7716,7 +7716,7 @@
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>86</Unique_ID>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_13</Name>
@@ -7773,7 +7773,7 @@
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>87</Unique_ID>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>sledge_upgrade_14</Name>
@@ -7830,7 +7830,7 @@
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>88</Unique_ID>
-			<aim_assist>0.75</aim_assist>
+			<aim_assist>0.0</aim_assist> <!--From 0.75-->
 		</Weapon>
 		<Weapon>
 			<Name>turret_missilepod</Name>

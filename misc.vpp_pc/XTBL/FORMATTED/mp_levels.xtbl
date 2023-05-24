@@ -769,7 +769,7 @@
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->			
+				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->			
 			</mode_flags>
 			<alternate_time_of_day>20:30</alternate_time_of_day> <!--From 15:30--> <!--From 00:00 in v1.07.2-->
 			<glow_multiplier>6</glow_multiplier>

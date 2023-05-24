@@ -15,7 +15,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<CrumbleRadius>3.5</CrumbleRadius> <!--From 4.375 in v1.07.3.1--> <!--From 3.5 in v1.07.2-->
+			<CrumbleRadius>2.5</CrumbleRadius> <!--From 4.375 in v1.07.3.1--> <!--From 3.5 in v1.07.2-->
 			<KnockdownRadius>5.0</KnockdownRadius> <!--From 4.0 in v1.07.2-->
 			<FlinchRadius>6.25</FlinchRadius> <!--From 5.0 in v1.07.2-->
 			<player_mult>0.8</player_mult>

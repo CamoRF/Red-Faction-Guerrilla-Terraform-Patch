@@ -10,9 +10,9 @@
 				<Element>m16</Element>
 			</player_weapons>
 			<Description>0</Description>
-			<time_of_day>07:00</time_of_day>
+			<time_of_day>12:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
-			<level_image_name>mp_thumb_quarantine</level_image_name>
+			<level_image_name>mp_thumb_0mp1</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>5.0</wind_intensity>
 			<wind_direction>150</wind_direction>
@@ -32,9 +32,44 @@
 			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
 			<ideal_max_players>6</ideal_max_players>
-			<Load_image>Quarantine</Load_image>
+			<Load_image>Retribution</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
-		</mp_level_list>	
+		</mp_level_list>
+		<mp_level_list>
+			<Name>Cliffside</Name>
+			<Filename>mp_2</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>15:00</time_of_day>
+			<distance_multiplier>1.25</distance_multiplier>
+			<level_image_name>mp_thumb_0mp2</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>60.0</wind_intensity>
+			<wind_direction>315.0</wind_direction>
+			<Display_name>MPDCT_RIFT_002</Display_name> <!--CLIFFSIDE-->
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>			
+			</mode_flags>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<glow_multiplier>6</glow_multiplier>
+			<alternate_glow_multiplier>7</alternate_glow_multiplier>
+			<ideal_min_players>6</ideal_min_players>
+			<ideal_max_players>10</ideal_max_players>
+			<Load_image>Cliffside</Load_image>
+			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
+		</mp_level_list>		
 		<mp_level_list>
 			<Name>Partial Recall</Name> 
 			<Filename>mp_3</Filename>
@@ -45,9 +80,9 @@
 				<Element>m16</Element>
 			</player_weapons>
 			<Description>0</Description>
-			<time_of_day>16:30</time_of_day>
+			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
-			<level_image_name>mp_thumb_excavation</level_image_name>
+			<level_image_name>mp_thumb_0mp3</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>25</wind_intensity>
 			<wind_direction>190</wind_direction>
@@ -64,7 +99,7 @@
 			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
 			<ideal_max_players>6</ideal_max_players>
-			<Load_image>Excavation</Load_image>
+			<Load_image>Partial Recall</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
@@ -79,7 +114,7 @@
 			<Description>0</Description>
 			<time_of_day>14:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
-			<level_image_name>mp_thumb_wcdlc7</level_image_name>
+			<level_image_name>mp_thumb_0mp5</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
@@ -98,7 +133,7 @@
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
 			<ideal_max_players>6</ideal_max_players>
-			<Load_image>dlc03wc7</Load_image>
+			<Load_image>Townhall</Load_image>
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
 		</mp_level_list>	
 		<mp_level_list>
@@ -113,7 +148,7 @@
 			<Description>0</Description>
 			<time_of_day>15:30</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
-			<level_image_name>mp_thumb_quarantine</level_image_name>
+			<level_image_name>mp_thumb_0mp6</level_image_name>
 			<dust_enabled>False</dust_enabled> <!--From True-->
 			<wind_intensity>5.0</wind_intensity>
 			<wind_direction>150</wind_direction>
@@ -127,12 +162,12 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>		
 			</mode_flags>
-			<alternate_time_of_day>15:30</alternate_time_of_day>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>2.0</glow_multiplier>
 			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
 			<ideal_max_players>6</ideal_max_players>
-			<Load_image>Quarantine</Load_image>
+			<Load_image>Shipment</Load_image>
 			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
 		</mp_level_list>
 	</Table>

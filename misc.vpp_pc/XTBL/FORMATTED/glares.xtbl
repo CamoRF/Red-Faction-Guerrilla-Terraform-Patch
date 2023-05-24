@@ -13,16 +13,16 @@
 					<Filename>SunGlare01.tga</Filename>
 				</Bitmap_File>
 				<Rear_View>true</Rear_View>
-				<Intensity>5000</Intensity> <!--From 9999-->
+				<Intensity>0</Intensity> <!--From 9999-->
 				<Radius>
-					<Fixed_Radius>10</Fixed_Radius> <!--From 20-->
+					<Fixed_Radius>0</Fixed_Radius> <!--From 20-->
 				</Radius>
 			</Corona_Bitmap>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Glare>
-		<Glare>
+<!--	<Glare>
 			<Name>TestGlare01</Name>
 			<Light_Color>
 				<R>255</R>
@@ -56,7 +56,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Glare>
+		</Glare>-->
 		<Glare>
 			<Name>WhiteGlare01</Name>
 			<Light_Color>
@@ -162,7 +162,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Glare>
-		<Glare>
+<!--	<Glare>
 			<Name>TestGlow01</Name>
 			<Light_Color>
 				<R>255</R>
@@ -188,7 +188,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Glare>
+		</Glare>-->
 		<Glare>
 			<Name>SoftWhiteLight01</Name>
 			<Light_Color>

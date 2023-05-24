@@ -1,8 +1,8 @@
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/Logo.png?raw=true "Logo")
 
-- Version: v1.07.3.1 ALPHA
-- Date: 9-5-2023
-- Build: 502
+- Version: v1.07.4 ALPHA
+- Date: 25-5-2023
+- Build: 121
 - Work-in-progress project that adds content, fixes bugs, and enhances many features; made for the 2018 remaster of Red Faction Guerrilla.
 - Note: Currently the majority of the patch focuses on multiplayer, there are a few SP changes included but comprehensive changes will come later.
 
@@ -10,6 +10,23 @@
 - First verify your game files.
 - Use [SyncFaction](https://github.com/Rast1234/SyncFaction/releases/download/v9/SyncFaction.exe)
 - See [RF:G Game Night News](https://www.redfactionwiki.com/wiki/RF:G_Game_Night_News) for more detailed instructions and troubleshooting.
+
+# Key Features
+- Adds lots of new maps including DLC Wrecking Crew, custom maps like Shipment from COD4 & also adapts all 19 Wrecking Crew maps for a proper multiplayer experience with added objectives, weapons & backpacks, removes explosive barrels.
+- Adds new characters to multiplayer.
+- Adds DLC weapons, grenade and kaboom backpack to multiplayer.
+- Rebalances multiplayer:  no more aim bot Enforcer, no more godmode heal backpack, no more unstoppable rocket launcher killing sprees.
+- Fixes countless bugs including out of bounds exploits on all maps, reduced crashing, errors, weather and god rays.
+
+# Changelog
+- [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/changelog.txt)
+
+# Future Plans
+- [To do list](https://github.com/users/CamoRF/projects/3/views/1)
+
+# Known Issues
+- [Terraform Patch](https://github.com/users/CamoRF/projects/3/views/1)
+- [Requires RSL2](https://github.com/orgs/rfg-modding/projects/1)
 
 # Releases
 - [v1.05 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6247)
@@ -25,16 +42,7 @@
 - [v1.07.2 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7626)
 - [v1.07.3 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7634)
 - [v1.07.3.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7635)
-
-# Changelog
-- [Here](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/changelog.txt)
-
-# To do list
-- [Here](https://github.com/users/CamoRF/projects/3/views/1)
-
-# Known Issues
-- [Terraform Patch](https://github.com/users/CamoRF/projects/3/views/1)
-- [Requires RSL2](https://github.com/orgs/rfg-modding/projects/1)
+- [v1.07.4 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7635)
 
 # Tools Used
 - [RfgUtil](https://github.com/Moneyl/RfgUtil/releases)

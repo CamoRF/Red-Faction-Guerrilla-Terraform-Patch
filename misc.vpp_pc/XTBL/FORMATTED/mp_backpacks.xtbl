@@ -1543,7 +1543,7 @@
 			<item_name>multi_object_backpack_tremor</item_name>
 			<movement_speed_factor>1</movement_speed_factor>
 			<damage_taken_factor>1</damage_taken_factor>
-			<display_name>REPAIR</display_name>
+			<display_name>HM_REPAIRED</display_name>
 			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
 			<kaboom_explosion_name>True</kaboom_explosion_name>
@@ -1558,8 +1558,8 @@
 					<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 					<area_damage_dealt_factor>1</area_damage_dealt_factor>
 					<repair>
-						<repair_radius>4</repair_radius> <!--From 2-->
-						<repair_offset>5</repair_offset> <!--From 3-->
+						<repair_radius>10</repair_radius> <!--From 2-->
+						<repair_offset>0</repair_offset> <!--From 3-->
 					</repair>
 					<refire_delay_factor>1</refire_delay_factor>
 					<unlimited_ammo>False</unlimited_ammo>
@@ -1577,7 +1577,7 @@
 					<failed_activation_foley>MP_BACKPACK_TREMOR_NO_FUEL</failed_activation_foley>
 					<player_effects>
 						<effect>
-							<loop_effect>mp_backpack_tremor_a</loop_effect>
+							<loop_effect>wep_reconstructor_swarm_a</loop_effect>
 						</effect>
 					</player_effects>
 					<sfx_alr>WEP_RECONSTRUCTOR_PC_ATTACK</sfx_alr> <!--From MP_BACKPACK_TREMOR_PC-->
@@ -1589,8 +1589,8 @@
 					<player_deactivatable>False</player_deactivatable>
 				</deactivatable>
 				<uses_fuel>
-					<fuel_use_per_second>0.125</fuel_use_per_second> <!--From 0.25-->
-					<fuel_regen_per_second>0.24</fuel_regen_per_second> <!--From 0.12-->
+					<fuel_use_per_second>0.10</fuel_use_per_second>
+					<fuel_regen_per_second>0.12</fuel_regen_per_second>
 					<fuel_activation_cost>0</fuel_activation_cost>
 					<minimum_fuel_to_activate>1.0</minimum_fuel_to_activate>
 					<fuel_refill_foley>MP_BACKPACK_TREMOR_REFUELED</fuel_refill_foley>

@@ -73,7 +73,7 @@
 			<aim_assist>0.5</aim_assist>
 		</Weapon>
 		<Weapon>
-			<Name>royal_sword</Name>
+			<Name>dlc_royal_sword</Name>
 			<Weapon_Class>melee_gutter</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -141,7 +141,7 @@
 			<aim_assist>0.75</aim_assist>
 		</Weapon>
 		<Weapon>
-			<Name>pickaxe</Name>
+			<Name>dlc_pickaxe</Name>
 			<Weapon_Class>melee</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -341,7 +341,7 @@
 			<aim_assist>1.0</aim_assist>
 		</Weapon>
 		<Weapon>
-			<Name>spiker</Name>
+			<Name>dlc_spiker</Name> <!--From spiker-->
 			<Weapon_Class>harpoon</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>projectile</Ammo_Type>
@@ -708,7 +708,7 @@
 			</Sounds>
 		</Weapon>
 		<Weapon>
-			<Name>mar_charge_placer</Name>
+			<Name>dlc_mar_charge_placer</Name> <!--From mar_charge_placer-->
 			<Weapon_Class>thrown_charge</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>thrown</Ammo_Type>
