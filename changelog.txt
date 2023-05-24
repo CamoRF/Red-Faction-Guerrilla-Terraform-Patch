@@ -821,7 +821,7 @@ v1.07.4 ALPHA CHANGES
 * Reduced spread multiplier when running to 0 from 0.75
 
 [Maps]
-* Rebuilt Shipment with various fixes and improvements 
+* Rebuilt Shipment with various fixes and improvements including a new dumpster asset, King of the Hill in Damage Control and much more
 * Rebuilt Partial Recall with various fixes and improvements
 * Rebuilt and restored Cliffside with various fixes and improvements
 * Changed weather & time of day on Partial Recall
@@ -831,6 +831,7 @@ v1.07.4 ALPHA CHANGES
 * Disabled heathaze on Ruins
 * Made the Kaboom backpack rack destructable on Complex and Nordic Bonus
 * Improved Nordic Bonus/GFWL
+* Changed Damage Control on Nordic Bonus/GFWL to King of the Hill with a single target
 * Temporarily disabled Damage Control on Frost due to an issue with shape cutters
 * Adjusted kill trigger on Partial Recall
 
