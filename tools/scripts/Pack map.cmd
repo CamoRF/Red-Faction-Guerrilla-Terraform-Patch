@@ -22,3 +22,4 @@ RfgUtil.exe .\mp_2_map\ -c -e
 RfgUtil.exe .\mp_3_map\ -c -e
 RfgUtil.exe .\mp_4_map\ -c -e
 RfgUtil.exe .\mp_5_map\ -c -e
+RfgUtil.exe .\mp_6_map\ -c -e

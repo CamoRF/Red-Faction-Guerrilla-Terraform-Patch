@@ -1,0 +1,1 @@
+RfgUtil.exe .\edfwall_hi_a\ -c -e
