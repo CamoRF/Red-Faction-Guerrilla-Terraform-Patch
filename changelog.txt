@@ -811,7 +811,7 @@ v1.07.4 ALPHA CHANGES
 
 [Fixes]
 * Fixed DLC weapon icons and reticules not working in DLC SP
-* Fixed DLC SP squad progression
+* Fixed issue with squads in SP
 * Fixed missing Tremor backpack effect in multiplayer
 * Fixed missing specular textures on Excavation, Framework & Partial Recall
 * Fixed various issues with Partial Recall
@@ -826,6 +826,7 @@ v1.07.4 ALPHA CHANGES
 * Rebuilt and restored Cliffside with various fixes and improvements including destructable backpack racks and much more
 * Changed weather & time of day on Partial Recall
 * Changed weather & time of day on Retribution
+* Changed alternative time of day on Shipment to night
 * Disabled most of the fire on Nordic Bonus/GFWL
 * Disabled heathaze on Nordic Bonus/GFWL
 * Disabled heathaze on Ruins
@@ -837,7 +838,7 @@ v1.07.4 ALPHA CHANGES
 
 [Repair Backpack Changes]
 * Changed name to "REPAIRED" so it can be placed on maps with a name that shows up
-* Changed effect to reconstructor 
+* Changed active effect to reconstructor swirl
 * Increased repair radius to 10 from 2
 * Reduced repair offset to 0 from 3
 * Changed fuel use per second to 0.10
@@ -849,12 +850,13 @@ v1.07.4 ALPHA CHANGES
 
 [Grenade Balance Changes]
 * Reduced explosion radius to 6.75 from 7.75
-* Reduced explosion crumble radius to 3.5 from 4.375
+* Reduced explosion crumble radius to 2.5 from 4.375
 * Reduced explosion impulse to 16250 from 25000
 * Reduced damage to buildings
 
 [Interface]
 * Initial loading screen updated to current patch version
+* Removed startup logos without it causing an error in the log this time
 * Added thumbnails & loading screens for custom maps
 * Added thumbnails for new characters
 

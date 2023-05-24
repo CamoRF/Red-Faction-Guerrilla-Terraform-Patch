@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START Custom Map Loading Screens Added-->
+<!--START Custom Map Loading Screens ADDED-->
 		<LoadingScreen>
 			<Name>Retribution</Name>
 			<BG_image>
@@ -75,7 +75,8 @@
 			</Level_layout>
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
-		</LoadingScreen>		
+		</LoadingScreen>
+<!--END-->		
 <!--START DLC WC Loading Screens Added-->
 		<LoadingScreen>
 			<Name>dlc03wc1</Name>

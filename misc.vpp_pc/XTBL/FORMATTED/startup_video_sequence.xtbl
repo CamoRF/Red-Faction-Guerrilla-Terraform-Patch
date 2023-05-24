@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		<Startup_Video>
+<!--		<Startup_Video>
 			<Name>Default</Name>
 			<Video_List>
 				<Video>
@@ -32,14 +32,14 @@
 						<Filename>legal_hd1.bik</Filename>
 					</Video_File>
 					<Video_Flags>
-						<Flag>skip_on_user_input</Flag> <!--Added-->					
+						<Flag>skip_on_user_input</Flag>					
 					</Video_Flags>
 				</Video>
 			</Video_List>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Startup_Video>
+		</Startup_Video>-->
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
