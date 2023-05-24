@@ -810,25 +810,29 @@ v1.07.4 ALPHA CHANGES
 * Reverted adding missing drop shadows to various objects just in case it was causing issues with the VRAM memory pool limit, the effect was barely noticable anyway
 
 [Fixes]
-* Fixed DLC weapon icons and reticules in DLC SP
+* Fixed DLC weapon icons and reticules not working in DLC SP
 * Fixed DLC SP squad progression
 * Fixed missing Tremor backpack effect in multiplayer
 * Fixed missing specular textures on Excavation, Framework & Partial Recall
+* Fixed various issues with Partial Recall
 
 [Rail Driver Changes]
 * Reduced refire delay to 1000ms from 1050ms
+* Reduced spread multiplier when running to 0 from 0.75
 
 [Maps]
 * Rebuilt Shipment with various fixes and improvements 
 * Rebuilt Partial Recall with various fixes and improvements
 * Rebuilt and restored Cliffside with various fixes and improvements
-* Changed weather on Partial Recall
-* Changed weather on Retribution
+* Changed weather & time of day on Partial Recall
+* Changed weather & time of day on Retribution
 * Disabled most of the fire on Nordic Bonus/GFWL
 * Disabled heathaze on Nordic Bonus/GFWL
 * Disabled heathaze on Ruins
 * Made the Kaboom backpack rack destructable on Complex and Nordic Bonus
 * Improved Nordic Bonus/GFWL
+* Temporarily disabled Damage Control on Frost due to an issue with shape cutters
+* Adjusted kill trigger on Partial Recall
 
 [Repair Backpack Changes]
 * Changed name to "REPAIRED" so it can be placed on maps with a name that shows up
@@ -839,15 +843,17 @@ v1.07.4 ALPHA CHANGES
 * Changed fuel regen per second to 0.12
 
 [Multiplayer]
-* Changed default respawn time to 0 seconds for Anarchy & Bagman
-* Changed default respawn time to 3 seconds for Team Anarchy & Team Bagman
-* Set flag touch return to on for CTF
+* Changed default respawn time to 0 seconds for all modes except Siege, Damage Control & Demolition in custom game settings to get around the default min limit of 3 seconds, you can still set it to normal values
+* Set flag touch return to on for CTF by default
 
 [Grenade Balance Changes]
-* Reduced explosion radius to 7.1 from 7.75
-* Reduced crumble radius to 4.0 from 4.375
+* Reduced explosion radius to 6.75 from 7.75
+* Reduced explosion crumble radius to 3.5 from 4.375
+* Reduced explosion impulse to 16250 from 25000
 * Reduced damage to buildings
 
 [Interface]
 * Initial loading screen updated to current patch version
+* Added thumbnails & loading screens for custom maps
+* Added thumbnails for new characters
 
