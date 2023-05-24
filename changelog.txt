@@ -785,7 +785,7 @@ v1.07.3 ALPHA CHANGES
 * Fixed issue with invisible smokestack on Aerial Excavation (PARTIAL RECALL)
 * Fixed object names on Quarantine
 * Fixed some incorrect object flags on various maps
-* Fixed the issue with XP spam messages at the end of matches (hopefully this time!)
+* Fixed the issue with XP spam messages at the end of matches
 * Fixed issue with Firepower backpack completely floating on Carmen's back
 * Fixed another out of bounds exploit on Downfall
 * Fixed issues with physics and names of Siege targets on new Siege maps
@@ -796,11 +796,11 @@ v1.07.3.1 ALPHA CHANGES
 -----------------------
 
 [Fixes]
-* Fixed issue with grenade behaving like a weapon you could reload (hopefully!)
+* Fixed issue with grenade behaving like a weapon you could reload
 * Fixed weather on Shipment (STORAGE)
 
 -----------------------
-v1.07.5 ALPHA CHANGES
+v1.07.4 ALPHA CHANGES
 -----------------------
 
 [Misc]
@@ -810,9 +810,10 @@ v1.07.5 ALPHA CHANGES
 * Reverted adding missing drop shadows to various objects just in case it was causing issues with the VRAM memory pool limit, the effect was barely noticable anyway
 
 [Fixes]
-* Fixed DLC weapon icons and reticules in SP DLC
+* Fixed DLC weapon icons and reticules in DLC SP
 * Fixed DLC SP squad progression
 * Fixed missing Tremor backpack effect in multiplayer
+* Fixed missing specular textures on Excavation, Framework & Partial Recall
 
 [Rail Driver Changes]
 * Reduced refire delay to 1000ms from 1050ms
@@ -823,10 +824,11 @@ v1.07.5 ALPHA CHANGES
 * Rebuilt and restored Cliffside with various fixes and improvements
 * Changed weather on Partial Recall
 * Changed weather on Retribution
-* Disabled most of the fire on Nordic Bonus
-* Disabled heathaze on Nordic Bonus
+* Disabled most of the fire on Nordic Bonus/GFWL
+* Disabled heathaze on Nordic Bonus/GFWL
 * Disabled heathaze on Ruins
 * Made the Kaboom backpack rack destructable on Complex and Nordic Bonus
+* Improved Nordic Bonus/GFWL
 
 [Repair Backpack Changes]
 * Changed name to "REPAIRED" so it can be placed on maps with a name that shows up
@@ -845,9 +847,6 @@ v1.07.5 ALPHA CHANGES
 * Reduced explosion radius to 7.1 from 7.75
 * Reduced crumble radius to 4.0 from 4.375
 * Reduced damage to buildings
-
-[Wrecking Crew]
-* Fixed various issues with the restored vanilla maps
 
 [Interface]
 * Initial loading screen updated to current patch version
