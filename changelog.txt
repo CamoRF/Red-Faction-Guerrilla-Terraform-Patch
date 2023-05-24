@@ -5,7 +5,7 @@
 Author: Camo
 Version: v1.07.3.1 ALPHA
 Date: 9-5-2023
-Build: 502
+Build: 741
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -764,7 +764,7 @@ v1.07.3 ALPHA CHANGES
 [Maps]
 * Aerial Excavation renamed to "PARTIAL RECALL"
 * Quarantine Expanded renamed to "RETRIBUTION"
-* Added more spawns to Aerial Excavation (PARTIAL RECALL)
+* Added more spawns to Partial Recall
 * Added more Siege targets to Stratosphere for the future (Siege is still disabled for now)
 * Added Damage Control to Ruins
 * Added Damage Control Target under the bridge on Cascade
@@ -782,7 +782,7 @@ v1.07.3 ALPHA CHANGES
 
 [Fixes]
 * Fixed issue with players holding grenades in both hands
-* Fixed issue with invisible smokestack on Aerial Excavation (PARTIAL RECALL)
+* Fixed issue with invisible smokestack on Partial Recall
 * Fixed object names on Quarantine
 * Fixed some incorrect object flags on various maps
 * Fixed the issue with XP spam messages at the end of matches
@@ -797,17 +797,18 @@ v1.07.3.1 ALPHA CHANGES
 
 [Fixes]
 * Fixed issue with grenade behaving like a weapon you could reload
-* Fixed weather on Shipment (STORAGE)
+* Fixed weather on Shipment
 
------------------------
+---------------------
 v1.07.4 ALPHA CHANGES
------------------------
+---------------------
 
 [Misc]
 * Optimized effects.xtbl & vfx.xtbl more to hopefully help with hardcoded limits with sounds and effects
 * Disabled sound on various object_effects on maps to hopefully help with the hardcoded limit with sounds
 * Disabled character breath effect in multiplayer to hopefully help with hardcoded limits with sounds and effects
 * Reverted adding missing drop shadows to various objects just in case it was causing issues with the VRAM memory pool limit, the effect was barely noticable anyway
+* Optimized various .xtbl files
 
 [Fixes]
 * Fixed DLC weapon icons and reticules not working in DLC SP
@@ -815,6 +816,7 @@ v1.07.4 ALPHA CHANGES
 * Fixed missing Tremor backpack effect in multiplayer
 * Fixed missing specular textures on Excavation, Framework & Partial Recall
 * Fixed various issues with Partial Recall
+* Fixed various misc issues
 
 [Rail Driver Changes]
 * Reduced refire delay to 1000ms from 1050ms
@@ -824,25 +826,26 @@ v1.07.4 ALPHA CHANGES
 * Rebuilt Shipment with various fixes and improvements including a new dumpster asset, King of the Hill in Damage Control, team spawns and much more
 * Rebuilt Partial Recall with various fixes and improvements
 * Rebuilt and restored Cliffside with various fixes and improvements including destructable backpack racks and much more
+* Equilbrium KOTH renamed  to "CLIFFSIDE"
 * Changed weather & time of day on Partial Recall
 * Changed weather & time of day on Retribution
 * Changed alternative time of day on Shipment to night
+* Changed Damage Control on Nordic Bonus/GFWL to King of the Hill with a single target
 * Disabled most of the fire on Nordic Bonus/GFWL
 * Disabled heathaze on Nordic Bonus/GFWL
 * Disabled heathaze on Ruins
 * Made the Kaboom backpack rack destructable on Complex, Cornered, Crevice, Nordic Bonus, Overpass
 * Improved Nordic Bonus/GFWL
-* Changed Damage Control on Nordic Bonus/GFWL to King of the Hill with a single target
 * Temporarily disabled Damage Control on Frost due to an issue with shape cutters
 * Adjusted kill trigger on Partial Recall
 
 [Repair Backpack Changes]
 * Changed name to "REPAIRED" so it can be placed on maps with a name that shows up
 * Changed active effect to reconstructor swirl
-* Increased repair radius to 10 from 2
-* Reduced repair offset to 0 from 3
 * Changed fuel use per second to 0.10
 * Changed fuel regen per second to 0.12
+* Increased repair radius to 10 from 2
+* Reduced repair offset to 0 from 3
 
 [Multiplayer]
 * Changed default respawn time to 0 seconds for all modes except Siege, Damage Control & Demolition in custom game settings to get around the default min limit of 3 seconds, you can still set it to normal values
