@@ -2,7 +2,7 @@
 
 - Version: v1.07.4 ALPHA
 - Date: 25-5-2023
-- Build: 741
+- Build: 909
 - Work-in-progress project that adds content, fixes bugs, and enhances many features; made for the 2018 remaster of Red Faction Guerrilla.
 - Note: Currently the majority of the patch focuses on multiplayer, there are a few SP changes included but comprehensive changes will come later.
 

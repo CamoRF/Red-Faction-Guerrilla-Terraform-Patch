@@ -3,13 +3,24 @@
 *-------------------*
 
 Author: Camo
-Version: v1.07.3.1 ALPHA
-Date: 9-5-2023
-Build: 741
+Version: v1.07.4 ALPHA
+Date: 25-5-2023
+Build: 909
 
 -------------------
 v1.00 ALPHA CHANGES
 -------------------
+
+[New Maps]
+* Added Ruins WC map to multiplayer
+* Added Repercussion WC map to multiplayer
+* Added Imperial WC map to multiplayer
+* Added Expansion WC map to multiplayer
+* Added Frost WC map to multiplayer
+* Added Abandoned WC map to multiplayer
+* Added Stratosphere WC map to multiplayer
+* Added Invasion WC map to multiplayer
+* Added Nordic Special/GFWL WC map to multiplayer
 
 [Assault Rifle Fix]
 * Player damage reduced to 40 from 44
@@ -53,17 +64,6 @@ v1.00 ALPHA CHANGES
 * Health pack can now heal nearby enemy players
 * Fuel use per second increased to 0.55 from 0.1
 * Fuel regen per second reduced to 0.066 from 0.1
-
-[New Maps]
-* Added Ruins WC map to multiplayer
-* Added Repercussion WC map to multiplayer
-* Added Imperial WC map to multiplayer
-* Added Expansion WC map to multiplayer
-* Added Frost WC map to multiplayer
-* Added Abandoned WC map to multiplayer
-* Added Stratosphere WC map to multiplayer
-* Added Invasion WC map to multiplayer
-* Added Nordic Special/GFWL WC map to multiplayer
 
 [Fixes]
 * Fixed vanilla bug where you sometimes cannot reobtain the Jetpack after changing to another backpack
@@ -135,7 +135,7 @@ v1.031 ALPHA CHANGES
 * Fixed Kaboom pack explosion effect (changed from placeholder to thermo explosion effect)
 * Fixed vanilla bug with broken fog, weather, bloom, glow multipliers & lighting on various multiplayer maps
 * Fixed vanilla bug with missing sun textures, broken lens flares & missing sunshafts/godrays on various maps & the singleplayer tutorial mission
-* Spiker is temporarily disabled in multiplayer due to an issue where if you're not the host the projectile is invisible
+* (FIXED) Spiker is temporarily disabled in multiplayer due to an issue where if you're not the host the projectile is invisible
 
 -------------------
 v1.05 ALPHA CHANGES
@@ -154,6 +154,36 @@ v1.05 ALPHA CHANGES
 * Added Admiral Kobel to multiplayer roster
 * Added General Roth to multiplayer roster
 * Added Voice of Mars to multiplayer roster
+
+[Singleplayer]
+* Ambient friendly marauders will now always follow the player giving them nasty looks
+* Attached projectiles now remain on NPCs for 30 minutes
+* Damage you can do to a friendly marauder to cause him to become hostile reduced to 50% from 75%
+* NPCs now have the same fatal fall speed as the player
+* NPCs now do the same amount of damage to other NPCs vehicles to be consistent with the player (to 1.0 from 0.2)
+* NPCs now do the same damage to other NPCs as the player in all circumstances to be consistent with the player (add details)
+* NPCs can be converted to the Red Faction from a longer distance (to 24 from 12) to compensate for the increased draw distance
+* Time friendly marauders return to a friendly state after making them hostile increased to 1 minute from 20 seconds
+* Player now does same damage to friendly NPCs as enemy NPCs
+
+[Misc]
+* Gun magazines now despawn eventually in multiplayer due to map clutter & lag concerns, it's still an improvement over vanilla & about 5 mags will stack up before old ones start to vanish, singleplayer has a higher limit
+* Minor tweaks & fixes to object collision in singleplayer such as glass bottles
+* Disabled radial blur for competitive & aesthetical reasons
+* Increased LOD distance of vehicles to 11562.0, 11562.0, 11562.0 & 11562.0 from 10.0, 20.0, 40.0 & 80.0
+* Glass crack decal probability increased to 100% from 75%
+* Decal alpha fade distance increased to 1.0 from 0.5
+* Removed some obnoxious glare & bloom effects that blind the player
+* More XML formatting fixes
+
+[Maps]
+* Added 9 additional spawns to Frost
+* Added 9 additional spawns to Nordic Special (Games For Windows Live Destruction)
+* Increased player icon fade distance on Expansion
+
+[Multiplayer]
+* Reduced leg damage multiplier to 0.75 from 0.8
+* Players now move the same speed when moving sideways
 
 [Proximity Mine Buff]
 * Time before mines become active after being placed reduced to 1 second from 1.5 seconds
@@ -180,36 +210,6 @@ v1.05 ALPHA CHANGES
 [Thermobaric Launcher Tweak]
 * Delay before you can detonate a thermbaric rocket mid-air reduced to 250ms from 500ms
 
-[Singleplayer]
-* Ambient friendly marauders will now always follow the player giving them nasty looks
-* Attached projectiles now remain on NPCs for 30 minutes
-* Damage you can do to a friendly marauder to cause him to become hostile reduced to 50% from 75%
-* NPCs now have the same fatal fall speed as the player
-* NPCs now do the same amount of damage to other NPCs vehicles to be consistent with the player (to 1.0 from 0.2)
-* NPCs now do the same damage to other NPCs as the player in all circumstances to be consistent with the player (add details)
-* NPCs can be converted to the Red Faction from a longer distance (to 24 from 12) to compensate for the increased draw distance
-* Time friendly marauders return to a friendly state after making them hostile increased to 1 minute from 20 seconds
-* Player now does same damage to friendly NPCs as enemy NPCs
-
-[Misc]
-* Gun magazines now despawn eventually in multiplayer due to map clutter & lag concerns, it's still an improvement over vanilla & about 5 mags will stack up before old ones start to vanish, singleplayer has a higher limit
-* Minor tweaks & fixes to object collision in singleplayer such as glass bottles
-* Disabled radial blur for competitive & aesthetical reasons
-* Increased LOD distance of vehicles to 11562.0, 11562.0, 11562.0 & 11562.0 from 10.0, 20.0, 40.0 & 80.0
-* Glass crack decal probability increased to 100% from 75%
-* Decal alpha fade distance increased to 1.0 from 0.5
-* Removed some obnoxious glare & bloom effects that blind the player
-* More XML formatting fixes
-
-[Multiplayer]
-* Reduced leg damage multiplier to 0.75 from 0.8
-* Players now move the same speed when moving sideways
-
-[Maps]
-* Added 9 additional spawns to Frost
-* Added 9 additional spawns to Nordic Special (Games For Windows Live Destruction)
-* Increased player icon fade distance on Expansion
-
 [Healpack Fix]
 * Now heals you to 100% health instead of 50% or less & the recharge time was made much longer to compensate
 * Health regen per second increased to 235 from 180
@@ -231,6 +231,11 @@ v1.05 ALPHA CHANGES
 v1.06 ALPHA CHANGES
 -------------------
 
+[Misc]
+* Increased ladder climbing speed slightly
+* Improved debris collision
+* Reduced size of blood pools slightly to increase realism
+
 [Maps]
 * Added weapon spawns to all 19 wrecking crew maps, thanks to ATMLVE for his help!
 * Added DLC weapon spawns to every regular multiplayer map (Subverter on all maps, Super Gauss on some maps that have a walkway that can be destroyed to stop the spawn or added as a spawn in a hidden location, Misslepod on maps that have the thermobaric rocket launcher)
@@ -251,20 +256,15 @@ v1.06 ALPHA CHANGES
 [Maps]
 * Re-implemented GFWL map into matchmaking as it's fixed now
 
-[Weapons]
-* Changed the DLC weapon placeholder icons to badge icons to avoid confusion with other weapons 
-
 [Multiplayer]
 * Movement speed is now consistent across all weapons
 * Slightly increased base player movement speed
 
+[Weapons]
+* Changed the DLC weapon placeholder icons to badge icons to avoid confusion with other weapons 
+
 [Stealth Pack Buff]
 * Increased transparency
-
-[Misc]
-* Increased ladder climbing speed slightly
-* Improved debris collision
-* Reduced size of blood pools slightly to increase realism
 
 [Grinder Fix]
 * Reduced randomness of the projectile by adjusting collision
@@ -323,7 +323,7 @@ v1.062 ALPHA HOTFIX CHANGES
 * Initial loading screen updated to current patch version
 
 [Fixes]
-* Disabled Vista in multiplayer level select due to bugs with duplicate weapon pickups
+* (FIXED) Disabled Vista in multiplayer level select due to bugs with duplicate weapon pickups
 * Re-exported Complex & Watchtower to possibly fix crashes
 
 ---------------------------
@@ -361,7 +361,7 @@ v1.064 ALPHA CHANGES
 * Renamed the project from "COMMUNITY PATCH" to "TERRAFORM PATCH"
 
 [Interface]
-* Re-implemented initial logos due to issue with it spamming Red Faction Guerrilla Re-Mars-tered.log, however they can now all be skipped
+* (REVERTED) Re-implemented initial logos due to issue with it spamming Red Faction Guerrilla Re-Mars-tered.log, however they can now all be skipped
 * Initial loading screen updated to current patch version
 
 [Backpacks]
@@ -469,6 +469,13 @@ v1.07 ALPHA CHANGES
 [Misc]
 * The majority of the patch has been re-built from the ground up to reduce the file size significantly
 
+[Interface]
+* Initial loading screen updated to current patch version
+* Reverted adding higher resolution loading screens & thumbnails
+* Reverted replacing other character textures, all new character textures now use a generic placeholder texture until it's possible to add new texture files
+* Reduced interface related file sizes significantly
+* Reverted replacing the initial loading screen in interface.vpp_pc since it only needs to be replaced in misc.vpp_pc
+
 [Singleplayer]
 * Reverted adding DLC vehicles for now
 * Reverted adding DLC weapons for now
@@ -485,7 +492,7 @@ v1.07 ALPHA CHANGES
 [New Maps]
 * Added remastered version of Aerial Excavation by ATMLVE 
 * Added remastered version of Equilbrium King of the Hill by ATMLVE
-* Added remastered version of Pipeline Pitfall by ATMLVE
+* (REVERTED) Added remastered version of Pipeline Pitfall by ATMLVE
 * Custom Quarantine siege map that can now be played in other game modes
 
 [Maps]
@@ -512,13 +519,6 @@ v1.07 ALPHA CHANGES
 * Frost: Added fire effect at the top of the cliff where the explosion occurs, added artillery sign asset, adjusted the killbox near the lower pipes, various fixes & more
 * Scrapheap: Adjusted the minefield
 * Improvements to weather and lighting on various maps
-
-[Interface]
-* Initial loading screen updated to current patch version
-* Reverted adding higher resolution loading screens & thumbnails
-* Reverted replacing other character textures, all new character textures now use a generic placeholder texture until it's possible to add new texture files
-* Reduced interface related file sizes significantly
-* Reverted replacing the initial loading screen in interface.vpp_pc since it only needs to be replaced in misc.vpp_pc
 
 [Characters] 
 * Restored EDF heavy tan model in team games
@@ -704,7 +704,7 @@ v1.07.2 ALPHA CHANGES
 * Fixed missing names for Damage Control Targets on Imperial
 * Fixed location of one of the Damage Control Targets on Abandoned
 * Fixed some files that shouldn't be optimized and caused bugs with the Kiosk screens in Singleplayer for example
-* Temporarily disabled one of the out of bounds exploit fixes on Downfall that killed you while you were still in the map
+* (FIXED) Temporarily disabled one of the out of bounds exploit fixes on Downfall that killed you while you were still in the map
 * Optimized more files to reduce memory pool load increasing stability
 
 ---------------------
@@ -734,6 +734,18 @@ v1.07.3 ALPHA CHANGES
 * Added a remake of Shipment from COD4 known as "STORAGE" in the map selection menu
 * Added the first interior only map made for RF:G known as "TOWNHALL" in the map selection menu
 
+[Multiplayer]
+* Changed default bag return time to 5 seconds for Bagman and Team Bagman, having it at 0 was annoying if you forgot to change the custom game settings
+* Moved previous backpack balance changes for fuel usage and recharge rates to mp_backpack_overrides.xtbl so the changes don't change singleplayer balance anymore
+* Flag & Gutter weapons no longer drop on death due to possible clutter and connection lag issues
+
+[Concussion Nerf]
+* Decreased fuel regen per second to 0.11 from 0.22
+
+[Spiker Buff]
+* Increased damage at both min and max range to 60 from 55
+* Increased headshot damage multiplayer to 6.0 from 5.5
+
 [Grenade Balance Changes]
 * Decreased fuse time to 1500ms from 3000
 * Increased explosion radius to 7.75 from 6.2
@@ -748,18 +760,6 @@ v1.07.3 ALPHA CHANGES
 * Reduced recoil to 0.92 from 1.0
 * Increased magazine size to 30 from 24
 * Increased max ammo to 180 from 144
-
-[Concussion Nerf]
-* Decreased fuel regen per second to 0.11 from 0.22
-
-[Multiplayer]
-* Changed default bag return time to 5 seconds for Bagman and Team Bagman, having it at 0 was annoying if you forgot to change the custom game settings
-* Moved previous backpack balance changes for fuel usage and recharge rates to mp_backpack_overrides.xtbl so the changes don't change singleplayer balance anymore
-* Flag & Gutter weapons no longer drop on death due to possible clutter and connection lag issues
-
-[Spiker Buff]
-* Increased damage at both min and max range to 60 from 55
-* Increased headshot damage multiplayer to 6.0 from 5.5
 
 [Maps]
 * Aerial Excavation renamed to "PARTIAL RECALL"
@@ -804,28 +804,45 @@ v1.07.4 ALPHA CHANGES
 ---------------------
 
 [Misc]
-* Optimized effects.xtbl & vfx.xtbl more to hopefully help with hardcoded limits with sounds and effects
+* Optimized effects.xtbl & vfx.xtbl even more to hopefully help as much as possible with hardcoded limits for sounds and effects before RSL2 fixes it completely
 * Disabled sound on various object_effects on maps to hopefully help with the hardcoded limit with sounds
 * Disabled character breath effect in multiplayer to hopefully help with hardcoded limits with sounds and effects
 * Reverted adding missing drop shadows to various objects just in case it was causing issues with the VRAM memory pool limit, the effect was barely noticable anyway
-* Optimized various .xtbl files
 
-[Fixes]
-* Fixed DLC weapon icons and reticules not working in DLC SP
-* Fixed issue with squads in SP
-* Fixed missing Tremor backpack effect in multiplayer
-* Fixed missing specular textures on Excavation, Framework & Partial Recall
-* Fixed various issues with Partial Recall
-* Fixed various misc issues
+[Interface]
+* Initial loading screen updated to current patch version
+* Removed startup logos without it causing an error in the log this time
+* Added thumbnails & loading screens for custom maps
+* Added thumbnails for new characters
+
+[New Maps]
+* Rebuilt and restored Cliffside with various fixes and improvements including destructable backpack racks and much more
+
+[Multiplayer]
+* Changed default respawn time to 0 seconds for all modes except Siege, Damage Control & Demolition in custom game settings to get around the default min limit of 3 seconds, you can still set it to normal values
+* Set flag touch return to on for CTF by default
 
 [Rail Driver Changes]
 * Reduced refire delay to 1000ms from 1050ms
 * Reduced spread multiplier when running to 0 from 0.75
 
+[Repair Backpack Changes]
+* Changed name to "REPAIRED" so it can be placed on maps with a name that shows up
+* Changed active effect to reconstructor swirl
+* Changed fuel use per second to 0.10
+* Changed fuel regen per second to 0.12
+* Increased repair radius to 10 from 2
+* Reduced repair offset to 0 from 3
+
+[Grenade Balance Changes]
+* Reduced explosion radius to 6.75 from 7.75
+* Reduced explosion crumble radius to 2.5 from 4.375
+* Reduced explosion impulse to 16250 from 25000
+* Reduced damage to buildings
+
 [Maps]
 * Rebuilt Shipment with various fixes and improvements including a new dumpster asset, King of the Hill in Damage Control, team spawns and much more
-* Rebuilt Partial Recall with various fixes and improvements
-* Rebuilt and restored Cliffside with various fixes and improvements including destructable backpack racks and much more
+* Rebuilt Partial Recall with various fixes and improvements including thrust backpack spawns and much more
 * Equilbrium KOTH renamed  to "CLIFFSIDE"
 * Changed weather & time of day on Partial Recall
 * Changed weather & time of day on Retribution
@@ -837,29 +854,14 @@ v1.07.4 ALPHA CHANGES
 * Made the Kaboom backpack rack destructable on Complex, Cornered, Crevice, Nordic Bonus, Overpass
 * Improved Nordic Bonus/GFWL
 * Temporarily disabled Damage Control on Frost due to an issue with shape cutters
-* Adjusted kill trigger on Partial Recall
+* Tweaked kill trigger on Partial Recall so you can thrust back into the map if you're quick enough
+* Added a thrust backpack to Abandoned in a location where you could get stuck below
 
-[Repair Backpack Changes]
-* Changed name to "REPAIRED" so it can be placed on maps with a name that shows up
-* Changed active effect to reconstructor swirl
-* Changed fuel use per second to 0.10
-* Changed fuel regen per second to 0.12
-* Increased repair radius to 10 from 2
-* Reduced repair offset to 0 from 3
-
-[Multiplayer]
-* Changed default respawn time to 0 seconds for all modes except Siege, Damage Control & Demolition in custom game settings to get around the default min limit of 3 seconds, you can still set it to normal values
-* Set flag touch return to on for CTF by default
-
-[Grenade Balance Changes]
-* Reduced explosion radius to 6.75 from 7.75
-* Reduced explosion crumble radius to 2.5 from 4.375
-* Reduced explosion impulse to 16250 from 25000
-* Reduced damage to buildings
-
-[Interface]
-* Initial loading screen updated to current patch version
-* Removed startup logos without it causing an error in the log this time
-* Added thumbnails & loading screens for custom maps
-* Added thumbnails for new characters
-
+[Fixes]
+* Fixed DLC weapon icons and reticules not working in DLC SP
+* Fixed issue with squads in SP
+* Fixed missing Tremor backpack effect in multiplayer
+* Fixed missing specular textures on Excavation, Framework & Partial Recall
+* Fixed various issues with Partial Recall
+* Fixed various misc issues
+* Optimized more files to reduce memory pool load increasing stability
