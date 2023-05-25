@@ -4,6 +4,7 @@
 - Date: 25-5-2023
 - Build: 909
 - Work-in-progress project that adds content, fixes bugs, and enhances many features; made for the 2018 remaster of Red Faction Guerrilla.
+- Rebalanced multiplayer, DLC weapons, new maps, new characters, new backpacks and much more!
 - Note: Currently the majority of the patch focuses on multiplayer, there are a few SP changes included but comprehensive changes will come later.
 
 # Installation
@@ -35,7 +36,7 @@
 - [v1.07.2 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7626)
 - [v1.07.3 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7634)
 - [v1.07.3.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7635)
-- [v1.07.4 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7635)
+- [v1.07.4 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7639)
 
 # Tools Used
 - [RfgUtil](https://github.com/Moneyl/RfgUtil/releases)
