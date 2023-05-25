@@ -560,7 +560,7 @@ v1.07 ALPHA CHANGES
 
 [Sniper Rifle]
 * Reduced spread at max range from 0.55 to 0
-* Increased range in which the target must be for the reticle to appear red to 999 from 300, this will hopefully fix the issue with the reticule not turning red on enemies in the distance
+* Increased range in which the target must be for the reticle to appear red to 999 from 300, this will hopefully fix the issue with the reticle not turning red on enemies in the distance
 * Possibly fixed weird limited range issue
 
 [Thermobaric Rockets]
@@ -858,7 +858,7 @@ v1.07.4 ALPHA CHANGES
 * Added a thrust backpack to Abandoned in a location where you could get stuck below
 
 [Fixes]
-* Fixed DLC weapon icons and reticules not working in DLC SP
+* Fixed DLC weapon icons and reticles not working in DLC SP
 * Fixed issue with squads in SP
 * Fixed missing Tremor backpack effect in multiplayer
 * Fixed missing specular textures on Excavation, Framework & Partial Recall
