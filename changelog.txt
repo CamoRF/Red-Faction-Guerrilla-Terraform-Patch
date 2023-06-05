@@ -859,9 +859,29 @@ v1.07.4 ALPHA CHANGES
 
 [Fixes]
 * Fixed DLC weapon icons and reticles not working in DLC SP
-* Fixed issue with squads in SP
-* Fixed missing Tremor backpack effect in multiplayer
+* Fixed vanilla issue with squads in SP
+* Fixed vanilla issue with missing Tremor backpack effect in multiplayer
 * Fixed missing specular textures on Excavation, Framework & Partial Recall
 * Fixed various issues with Partial Recall
 * Fixed various misc issues
 * Optimized more files to reduce memory pool load increasing stability
+
+-----------------------
+v1.07.4.1 ALPHA CHANGES
+-----------------------
+
+[Interface]
+* Initial loading screen updated to current patch version
+
+[Weapons]
+* Increased damage of Sniper by 1 at min and max range for instagib custom match settings
+* Increased damage of Rail Drivery by 1 at min and max range for instagib custom match settings
+
+[Maps]
+* Temporarily disabled Damage Control on Townhall due to crashing
+* Changed Asssembly name in mp_levels.xtbl to Outpost to match in game name when map is loaded in Nanoforge
+* Changed Cross Over name in mp_levels.xtbl to Doubletime to match in game name when map is loaded in Nanoforge
+
+[Fixes]
+* Fixed missing movement speed increase when using the Spiker and Super Gauss
+* Fixed issue with rail driver effects vanishing too quickly

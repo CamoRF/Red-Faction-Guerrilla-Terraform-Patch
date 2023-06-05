@@ -125,7 +125,7 @@
 				<Flag>team_deathmatch</Flag>
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
-				<Flag>king_of_the_hill</Flag>
+				<!--<Flag>king_of_the_hill</Flag>-->
 				<Flag>capture_the_flag</Flag>				
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>

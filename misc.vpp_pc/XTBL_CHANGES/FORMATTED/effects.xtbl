@@ -219,10 +219,10 @@
 			<_Editor>
 				<Category>Entries:Weapons:Rail Driver</Category>
 			</_Editor>
-			<kill_sound_when_done>True</kill_sound_when_done> <!--From False-->
+			<kill_sound_when_done>False</kill_sound_when_done>
 			<sound_follows_effect>True</sound_follows_effect>
-			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
-			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
+			<vfx_kill_particles>False</vfx_kill_particles>
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
 			<!--<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time>--> <!--Added-->
 		</Effect>
 		<Effect>
@@ -4386,10 +4386,10 @@
 			<_Editor>
 				<Category>Entries:Weapons:EDF Sniper Rifle</Category>
 			</_Editor>
-			<kill_sound_when_done>True</kill_sound_when_done> <!--From False-->
+			<kill_sound_when_done>False</kill_sound_when_done>
 			<sound_follows_effect>True</sound_follows_effect>
-			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
-			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
+			<vfx_kill_particles>False</vfx_kill_particles>
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
 			<!--<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time>--> <!--Added-->
 		</Effect>
 		<Effect>
@@ -6485,13 +6485,13 @@
 		<Effect>
 			<Name>wep_rail_driver_trail_a</Name>
 			<visual>wep_rail_driver_trail_a</visual>
-			<kill_sound_when_done>True</kill_sound_when_done> <!--From False-->
+			<kill_sound_when_done>False</kill_sound_when_done>
 			<sound_follows_effect>True</sound_follows_effect>
-			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
+			<vfx_kill_particles>False</vfx_kill_particles>
 			<_Editor>
 				<Category>Entries:Weapons:Rail Driver</Category>
 			</_Editor>
-			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
 			<!--<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time>--> <!--Added-->
 		</Effect>
 		<Effect>
@@ -7496,10 +7496,10 @@
 		<Effect>
 			<Name>wep_rail_driver_hit</Name>
 			<visual>wep_rail_driver_hit</visual>
-			<kill_sound_when_done>True</kill_sound_when_done> <!--From False-->
+			<kill_sound_when_done>False</kill_sound_when_done>
 			<sound_follows_effect>True</sound_follows_effect>
-			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
-			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
+			<vfx_kill_particles>False</vfx_kill_particles>
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
 			<_Editor>
 				<Category>Entries:Weapons:Rail Driver</Category>
 			</_Editor>
@@ -8996,10 +8996,10 @@
 			<_Editor>
 				<Category>Entries:Weapons:EDF Sniper Rifle</Category>
 			</_Editor>
-			<kill_sound_when_done>True</kill_sound_when_done> <!--From False-->
+			<kill_sound_when_done>False</kill_sound_when_done>
 			<sound_follows_effect>True</sound_follows_effect>
-			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
-			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
+			<vfx_kill_particles>False</vfx_kill_particles>
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
 			<!--<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time>--> <!--Added-->			
 		</Effect>
 		<Effect>
@@ -9312,13 +9312,13 @@
 		<Effect>
 			<Name>wep_rail_driver_trail_b</Name>
 			<visual>wep_rail_driver_trail_b</visual>
-			<kill_sound_when_done>True</kill_sound_when_done> <!--From False-->
+			<kill_sound_when_done>False</kill_sound_when_done>
 			<sound_follows_effect>True</sound_follows_effect>
-			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
+			<vfx_kill_particles>False</vfx_kill_particles>
 			<_Editor>
 				<Category>Entries:Weapons:Rail Driver</Category>
 			</_Editor>
-			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
+			<stop_when_host_destroyed>False</stop_when_host_destroyed>
 			<!--<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time>--> <!--Added-->			
 		</Effect>
 		<Effect>

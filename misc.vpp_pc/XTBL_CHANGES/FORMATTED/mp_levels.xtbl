@@ -37,7 +37,7 @@
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
-			<Name>Assembly</Name>
+			<Name>Outpost</Name> <!--From Assembly-->
 			<Filename>mp_pcx_assembly</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
@@ -428,7 +428,7 @@
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
-			<Name>Cross Over</Name>
+			<Name>Doubletime</Name> <!--From Cross Over-->
 			<Filename>mp_pcx_crossover</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
@@ -769,7 +769,7 @@
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Added-->			
+				<Flag>king_of_the_hill</Flag> <!--Added-->			
 			</mode_flags>
 			<alternate_time_of_day>20:30</alternate_time_of_day> <!--From 15:30--> <!--From 00:00 in v1.07.2-->
 			<glow_multiplier>6</glow_multiplier>
