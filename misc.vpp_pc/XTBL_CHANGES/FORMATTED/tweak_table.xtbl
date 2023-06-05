@@ -506,14 +506,14 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ladder_move_speed</Name>
-			<Value>16.0</Value> <!--From 2.0--> <!--From 7.0 in v1.07.2-->
+			<Value>18.0</Value> <!--From 14.0 in v1.07.4--> <!--From 7.0 in v1.07.2--> <!--From 2.0-->
 			<_Editor>
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ladder_mp_move_speed</Name>
-			<Value>16.0</Value> <!--From 4.0--> <!--From 7.0 in v1.07.2-->
+			<Value>18.0</Value> <!--From 14.0 in v1.07.4--> <!--From 7.0 in v1.07.2--> <!--From 4.0-->
 			<_Editor>
 				<Category>Movement</Category>
 			</_Editor>
@@ -2279,7 +2279,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_detonation_delay_ms</Name>
-			<Value>300</Value> <!--From 600-->
+			<Value>650</Value> <!--From 300 in v1.07.4--> <!--From 600-->
 			<Description>Once triggered, proxy mines will detonate after this period of time.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2287,7 +2287,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_radius</Name>
-			<Value>3.5</Value> <!--From 3-->
+			<Value>2.5</Value> <!--From 3.5 in v1.07.4--> <!--From 3-->
 			<Description>Radius within which a proxy mine will detonate on a person.</Description>
 			<_Editor>
 				<Category>Weapons</Category>

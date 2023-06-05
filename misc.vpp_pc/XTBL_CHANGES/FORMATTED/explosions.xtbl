@@ -1,9 +1,9 @@
 <root>
 	<Table>
 <!--NOTE: current highest <Unique_ID>122</Unique_ID>-->
-<!--START Grenade ADDED-->		
+<!--START Grenade ADDED-->	
 		<Explosion>
-			<Name>grenade_mp</Name>
+			<Name>mp_grenade</Name>
 			<Radius>6.75</Radius> <!--From 7.75 in v1.07.3.1--> <!--From 6.2 in 1.07.2-->
 			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>900</vehicle_damage_max>
@@ -26,9 +26,9 @@
 			<Structural_Damage>-1</Structural_Damage>
 			<Unique_ID>122</Unique_ID>
 			<camera_shake_type>explosion_small</camera_shake_type>
-			<!--<Flags>
+			<Flags>
 				<Flag>no gibs</Flag>
-			</Flags>-->
+			</Flags>
 			<player_veh_mult>0.8</player_veh_mult>
 			<camera_shake_multiplier>1.0</camera_shake_multiplier>
 			<camera_shake_falloff>40.0</camera_shake_falloff>
@@ -79,7 +79,7 @@
 			</Flags>
 		</Explosion>	
 <!--END-->
-<!--START New Explosions Added-->
+<!--START New Explosions Added-->		
 		<Explosion>
 			<Name>mp_kaboom</Name>
 			<Radius>7.2</Radius> <!--From 5-->

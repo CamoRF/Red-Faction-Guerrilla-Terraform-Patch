@@ -2,42 +2,42 @@
 	<Table>
 		<LOD>
 			<Name>Default</Name>
-			<lod_off_distance>11562.0</lod_off_distance> <!--From 0.0-->
+			<lod_off_distance>5776.0</lod_off_distance> <!--From 11562.0 in v1.07.4--> <!--From 0.0-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</LOD>
 		<LOD>
 			<Name>1_clutter_extra_small</Name>
-			<lod_off_distance>11562.0</lod_off_distance> <!--From 25-->
+			<lod_off_distance>5777</lod_off_distance> <!--From 11562.0 in v1.07.4--> <!--From 25-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</LOD>
 		<LOD>
 			<Name>2_clutter_small</Name>
-			<lod_off_distance>11562.0</lod_off_distance> <!--From 50-->
+			<lod_off_distance>5778</lod_off_distance> <!--From 11562.0 in v1.07.4--> <!--From 50-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</LOD>
 		<LOD>
 			<Name>3_clutter_medium</Name>
-			<lod_off_distance>11562.0</lod_off_distance> <!--From 100-->
+			<lod_off_distance>5779</lod_off_distance> <!--From 11562.0 in v1.07.4--> <!--From 100-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</LOD>
 		<LOD>
 			<Name>4_clutter_large</Name>
-			<lod_off_distance>11562.0</lod_off_distance> <!--From 150-->
+			<lod_off_distance>5780</lod_off_distance> <!--From 11562.0 in v1.07.4--> <!--From 150-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</LOD>
 		<LOD>
 			<Name>5_clutter_extra_lrg</Name>
-			<lod_off_distance>11562.0</lod_off_distance> <!--From 200-->
+			<lod_off_distance>5781</lod_off_distance> <!--From 11562.0 in v1.07.4--> <!--From 200-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

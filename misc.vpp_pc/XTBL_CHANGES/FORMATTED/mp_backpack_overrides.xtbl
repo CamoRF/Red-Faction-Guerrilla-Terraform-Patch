@@ -1,9 +1,10 @@
 <root>
 	<Table>
 		<mp_backpacks>
-			<Name>Commando</Name> <!--Firepower-->
+			<Name>Stealth</Name>
 			<uses_fuel>
-				<fuel_regen_per_second>0.1</fuel_regen_per_second>
+				<fuel_use_per_second>0.05625</fuel_use_per_second> <!--From 0.075-->
+				<fuel_regen_per_second>0.1575</fuel_regen_per_second> <!--From 0.09-->
 			</uses_fuel>
 			<_Editor>
 				<Category>Entries</Category>
@@ -19,12 +20,11 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</mp_backpacks>
+		</mp_backpacks>		
 		<mp_backpacks>
-			<Name>Stealth</Name>
+			<Name>Commando</Name> <!--Firepower-->
 			<uses_fuel>
-				<fuel_use_per_second>0.05625</fuel_use_per_second> <!--From 0.075-->
-				<fuel_regen_per_second>0.1575</fuel_regen_per_second> <!--From 0.09-->
+				<fuel_regen_per_second>0.1</fuel_regen_per_second>
 			</uses_fuel>
 			<_Editor>
 				<Category>Entries</Category>
@@ -48,7 +48,16 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</mp_backpacks>			
+		</mp_backpacks>		
+		<mp_backpacks>
+			<Name>Rhino</Name>
+			<uses_fuel>
+				<fuel_regen_per_second>0.11</fuel_regen_per_second> <!--From 0.2-->
+			</uses_fuel>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</mp_backpacks>					
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

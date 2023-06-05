@@ -796,7 +796,6 @@ v1.07.3.1 ALPHA CHANGES
 -----------------------
 
 [Fixes]
-* Fixed issue with grenade behaving like a weapon you could reload
 * Fixed weather on Shipment
 
 ---------------------
@@ -851,7 +850,7 @@ v1.07.4 ALPHA CHANGES
 * Disabled most of the fire on Nordic Bonus/GFWL
 * Disabled heathaze on Nordic Bonus/GFWL
 * Disabled heathaze on Ruins
-* Made the Kaboom backpack rack destructable on Complex, Cornered, Crevice, Nordic Bonus, Overpass
+* Made the Kaboom backpack rack destructable on Complex, Cornered, Crevice, Nordic Bonus & Overpass
 * Improved Nordic Bonus/GFWL
 * Temporarily disabled Damage Control on Frost due to an issue with shape cutters
 * Tweaked kill trigger on Partial Recall so you can thrust back into the map if you're quick enough
@@ -870,18 +869,45 @@ v1.07.4 ALPHA CHANGES
 v1.07.4.1 ALPHA CHANGES
 -----------------------
 
+[Misc]
+* Increased ladder climbing speed to 18.0 from 14.0
+* Sorted maps in alphabetical order in mp_levels.xtbl & dlc02_mp_levels.xtbl
+* Changed "Asssembly" map name in mp_levels.xtbl to "Outpost" to match the in game name when map is loaded in Nanoforge
+* Changed "Cross Over" name in mp_levels.xtbl to "Doubletime" to match the in game name when map is loaded in Nanoforge
+* Tweaked lod_properties.xtbl again
+
+[Singleplayer]
+* Possibly increased draw distance for vehicles in vehicle_defaults.xtbl
+
 [Interface]
 * Initial loading screen updated to current patch version
 
 [Weapons]
 * Increased damage of Sniper by 1 at min and max range for instagib custom match settings
 * Increased damage of Rail Drivery by 1 at min and max range for instagib custom match settings
+* Reverted accidently removing aim assist for hammers in multiplayer, the change didn't do anything anyway
+
+[Proximity Mine Nerf]
+* Reduced detonation radius to 2.5 from 3.5
+* Increased detonation delay to 650ms from 300ms
+
+[Rhino Nerf] 
+* Decreased fuel regen per second to 0.11 from 0.20, it now matches the previous Concussion Nerf from v1.07.3
 
 [Maps]
-* Temporarily disabled Damage Control on Townhall due to crashing
-* Changed Asssembly name in mp_levels.xtbl to Outpost to match in game name when map is loaded in Nanoforge
-* Changed Cross Over name in mp_levels.xtbl to Doubletime to match in game name when map is loaded in Nanoforge
+* Added some hidden weapon spawns to GFWL/Nordic Bonus
+* Temporarily disabled Damage Control on Townhall due to crashing issue
+* Temporarily made the Bridge on Expansion invulnerable due to physics issues
+* Re-implemented Damage Control on Frost using the standard DCT structure
+* Refined some of the recommended player counts for various maps
+* Refined some of the player name distances for various maps
 
 [Fixes]
-* Fixed missing movement speed increase when using the Spiker and Super Gauss
+* Fixed missing player movement speed increase when using the DLC Spiker and Super Gauss
 * Fixed issue with rail driver effects vanishing too quickly
+* Fixed issue with sniper rifle effects vanishing too quickly
+* Fixed floating Damage Control Target on Nordic Bonus/GFWL
+* Fixed floating Firepower Backpack Rack on Imperial
+* Fixed clipping Vision Backpack Rack on Broadside
+* Fixed physics issues with crane and smokestack on Frost
+* Fixed out of bounds exploit on Deadzone

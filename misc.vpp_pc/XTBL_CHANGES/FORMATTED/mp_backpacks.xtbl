@@ -813,7 +813,7 @@
 				</deactivatable>
 				<uses_fuel>
 					<fuel_use_per_second>1.3</fuel_use_per_second>
-					<fuel_regen_per_second>.2</fuel_regen_per_second>
+					<fuel_regen_per_second>0.2</fuel_regen_per_second>
 					<fuel_activation_cost>0.0</fuel_activation_cost>
 					<minimum_fuel_to_activate>1.0</minimum_fuel_to_activate>
 					<fuel_refill_foley>MP_BACKPACK_RHINO_REFUELED</fuel_refill_foley>

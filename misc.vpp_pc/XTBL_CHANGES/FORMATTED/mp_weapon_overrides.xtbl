@@ -10,18 +10,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</mp_weapons>				
-		<mp_weapons>
-			<Name>mine_placer</Name>
-			<Ammo_count>
-				<Magazine_Size>1</Magazine_Size>
-				<Num_Magazines>2</Num_Magazines>
-				<Max_Rounds>2</Max_Rounds>
-			</Ammo_count>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</mp_weapons>		
+		</mp_weapons>
 		<mp_weapons>
 			<Name>edf_subverter</Name>
 			<Ammo_count>
@@ -42,6 +31,17 @@
 		<mp_weapons>
 			<Name>missilepod</Name>
 			<Default_Refire_Delay>0</Default_Refire_Delay>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</mp_weapons>		
+		<mp_weapons>
+			<Name>mine_placer</Name>
+			<Ammo_count>
+				<Magazine_Size>1</Magazine_Size>
+				<Num_Magazines>2</Num_Magazines>
+				<Max_Rounds>2</Max_Rounds>
+			</Ammo_count>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

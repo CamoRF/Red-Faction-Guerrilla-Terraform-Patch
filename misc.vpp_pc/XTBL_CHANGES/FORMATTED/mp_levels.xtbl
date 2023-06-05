@@ -37,41 +37,6 @@
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
-			<Name>Outpost</Name> <!--From Assembly-->
-			<Filename>mp_pcx_assembly</Filename>
-			<_Editor>
-				<Category>Entries:General</Category>
-			</_Editor>
-			<player_weapons>
-				<Element>m16</Element>
-			</player_weapons>
-			<Description>MENU_LEVEL_CRASH_SITE_DESC</Description>
-			<time_of_day>00:00</time_of_day>
-			<distance_multiplier>1.0</distance_multiplier>
-			<level_image_name>mp_thumb_assembly</level_image_name>
-			<dust_enabled>False</dust_enabled>
-			<wind_intensity>60.0</wind_intensity>
-			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_OUTPOST</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>deathmatch</Flag>
-				<Flag>team_deathmatch</Flag>
-				<Flag>capture_the_flag</Flag>
-				<Flag>king_of_the_hill</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>
-			</mode_flags>
-			<alternate_time_of_day>12:00</alternate_time_of_day>
-			<glow_multiplier>5.0</glow_multiplier>
-			<alternate_glow_multiplier>4.0</alternate_glow_multiplier>
-			<ideal_min_players>6</ideal_min_players>
-			<ideal_max_players>10</ideal_max_players>
-			<Load_image>Assembly</Load_image>
-			<demolition_damage_multiplier>1.4</demolition_damage_multiplier>
-		</mp_level_list>
-		<mp_level_list>
 			<Name>Broadside</Name>
 			<Filename>mpdlc_broadside</Filename>
 			<_Editor>
@@ -117,7 +82,7 @@
 			</player_weapons>
 			<Description>MENU_LEVEL_CORNERED_DESC</Description>
 			<time_of_day>10:30</time_of_day> <!--From 00:00-->
-			<distance_multiplier>1.2</distance_multiplier>
+			<distance_multiplier>0.75</distance_multiplier> <!--From 1.2-->
 			<level_image_name>mp_thumb_cascade</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
@@ -137,8 +102,8 @@
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 10:30-->
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
-			<ideal_min_players>6</ideal_min_players>
-			<ideal_max_players>12</ideal_max_players>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Cascade</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
@@ -172,8 +137,8 @@
 			<alternate_time_of_day>10:30</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
-			<ideal_min_players>4</ideal_min_players>
-			<ideal_max_players>10</ideal_max_players>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Complex</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
@@ -207,7 +172,7 @@
 			<alternate_time_of_day>10:30</alternate_time_of_day> <!--From 10:30-->
 			<glow_multiplier>5</glow_multiplier>
 			<alternate_glow_multiplier>7</alternate_glow_multiplier>
-			<ideal_min_players>4</ideal_min_players>
+			<ideal_min_players>2</ideal_min_players> <!--From 4-->
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Compound</Load_image>
 			<demolition_damage_multiplier>0.8</demolition_damage_multiplier>
@@ -279,7 +244,7 @@
 			<alternate_time_of_day>18:00</alternate_time_of_day> <!--From 18:00-->
 			<glow_multiplier>6.0</glow_multiplier>
 			<alternate_glow_multiplier>3.8</alternate_glow_multiplier>
-			<ideal_min_players>4</ideal_min_players>
+			<ideal_min_players>2</ideal_min_players> <!--From 4-->
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Crash Site</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
@@ -614,7 +579,7 @@
 			</player_weapons>
 			<Description>MENU_LEVEL_CORNERED_DESC</Description>
 			<time_of_day>10:30</time_of_day>
-			<distance_multiplier>1.2</distance_multiplier>
+			<distance_multiplier>0.75</distance_multiplier> <!--From 1.2-->
 			<level_image_name>mp_thumb_factory</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
@@ -633,7 +598,7 @@
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
-			<ideal_min_players>4</ideal_min_players>
+			<ideal_min_players>2</ideal_min_players>
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Factory</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
@@ -703,7 +668,7 @@
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
-			<ideal_min_players>4</ideal_min_players>
+			<ideal_min_players>2</ideal_min_players>
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Fortress</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
@@ -755,7 +720,7 @@
 			</player_weapons>
 			<Description>0</Description>
 			<time_of_day>11:00</time_of_day> <!--From 11:30-->
-			<distance_multiplier>1.5</distance_multiplier> <!--From 1.0-->
+			<distance_multiplier>1.3</distance_multiplier> <!--From 1.5 in v1.07.4--> <!--From 1.0-->
 			<level_image_name>mp_thumb_wcdlc5</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
@@ -774,8 +739,8 @@
 			<alternate_time_of_day>20:30</alternate_time_of_day> <!--From 15:30--> <!--From 00:00 in v1.07.2-->
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
-			<ideal_min_players>2</ideal_min_players>
-			<ideal_max_players>6</ideal_max_players>
+			<ideal_min_players>4</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
 			<Load_image>dlc03wc5</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
@@ -897,7 +862,7 @@
 			</player_weapons>
 			<Description>MENU_LEVEL_CORNERED_DESC</Description>
 			<time_of_day>19:00</time_of_day>
-			<distance_multiplier>1.2</distance_multiplier>
+			<distance_multiplier>1.75</distance_multiplier> <!--From 1.2-->
 			<level_image_name>mp_thumb_gulch</level_image_name>
 			<dust_enabled>False</dust_enabled> <!--From True-->
 			<wind_intensity>40</wind_intensity>
@@ -967,7 +932,7 @@
 			</player_weapons>
 			<Description>0</Description>
 			<time_of_day>12:00</time_of_day> <!--From 09:00-->
-			<distance_multiplier>1.2</distance_multiplier> <!--From 1.0-->
+			<distance_multiplier>1.3</distance_multiplier> <!--From 1.2 in v1.07.4--> <!--From 1.0-->
 			<level_image_name>mp_thumb_wcdlc3</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
@@ -987,8 +952,8 @@
 			<alternate_time_of_day>09:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
-			<ideal_min_players>4</ideal_min_players>
-			<ideal_max_players>8</ideal_max_players>
+			<ideal_min_players>6</ideal_min_players>
+			<ideal_max_players>12</ideal_max_players>
 			<Load_image>dlc03wc3</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
@@ -1003,7 +968,7 @@
 			</player_weapons>
 			<Description>0</Description>
 			<time_of_day>00:00</time_of_day> <!--From 23:30-->
-			<distance_multiplier>1.3</distance_multiplier> <!--From 1.0-->
+			<distance_multiplier>1.5</distance_multiplier> <!--From 1.3 in v1.07.4--> <!--From 1.0-->
 			<level_image_name>mp_thumb_wcdlc8</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
@@ -1022,8 +987,8 @@
 			<alternate_time_of_day>12:00</alternate_time_of_day> <!--From 8:30-->
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
-			<ideal_min_players>4</ideal_min_players>
-			<ideal_max_players>8</ideal_max_players>
+			<ideal_min_players>6</ideal_min_players>
+			<ideal_max_players>12</ideal_max_players>
 			<Load_image>dlc03wc8</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
@@ -1057,11 +1022,46 @@
 			<alternate_time_of_day>8:30</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier> <!--From 0.0-->
 			<alternate_glow_multiplier>2</alternate_glow_multiplier> <!--From 0.0-->
-			<ideal_min_players>2</ideal_min_players>
-			<ideal_max_players>6</ideal_max_players>
+			<ideal_min_players>4</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
 			<Load_image>dlc03wc9</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
+		<mp_level_list>
+			<Name>Outpost</Name> <!--From Assembly-->
+			<Filename>mp_pcx_assembly</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>MENU_LEVEL_CRASH_SITE_DESC</Description>
+			<time_of_day>00:00</time_of_day>
+			<distance_multiplier>1.0</distance_multiplier>
+			<level_image_name>mp_thumb_assembly</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>60.0</wind_intensity>
+			<wind_direction>315.0</wind_direction>
+			<Display_name>MENU_LEVEL_OUTPOST</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>12:00</alternate_time_of_day>
+			<glow_multiplier>5.0</glow_multiplier>
+			<alternate_glow_multiplier>4.0</alternate_glow_multiplier>
+			<ideal_min_players>6</ideal_min_players>
+			<ideal_max_players>10</ideal_max_players>
+			<Load_image>Assembly</Load_image>
+			<demolition_damage_multiplier>1.4</demolition_damage_multiplier>
+		</mp_level_list>		
 		<mp_level_list>
 			<Name>Overpass</Name>
 			<Filename>mp_overpass</Filename>
@@ -1144,7 +1144,7 @@
 			</player_weapons>
 			<Description>MENU_LEVEL_CORNERED_DESC</Description>
 			<time_of_day>10:30</time_of_day>
-			<distance_multiplier>1.5</distance_multiplier>
+			<distance_multiplier>1.75</distance_multiplier> <!--From 1.5-->
 			<level_image_name>mp_thumb_pipeline</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
@@ -1163,7 +1163,7 @@
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
-			<ideal_min_players>10</ideal_min_players>
+			<ideal_min_players>8</ideal_min_players>
 			<ideal_max_players>16</ideal_max_players>
 			<Load_image>Pipeline</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
@@ -1321,7 +1321,7 @@
 			</player_weapons>
 			<Description>0</Description>
 			<time_of_day>18:00</time_of_day>
-			<distance_multiplier>1.0</distance_multiplier>
+			<distance_multiplier>1.75</distance_multiplier> <!--From 1.0-->
 			<level_image_name>mp_thumb_wcdlc2</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
@@ -1341,8 +1341,8 @@
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
-			<ideal_min_players>2</ideal_min_players>
-			<ideal_max_players>6</ideal_max_players>
+			<ideal_min_players>6</ideal_min_players>
+			<ideal_max_players>12</ideal_max_players>
 			<Load_image>dlc03wc2</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
@@ -1482,7 +1482,7 @@
 			<alternate_time_of_day>7:30</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
-			<ideal_min_players>4</ideal_min_players>
+			<ideal_min_players>2</ideal_min_players>
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Scrap Heap</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
@@ -1533,7 +1533,7 @@
 			</player_weapons>
 			<Description>0</Description>
 			<time_of_day>14:00</time_of_day> <!--From 10:30--> <!--From 00:00 in old patch version-->
-			<distance_multiplier>1.25</distance_multiplier> <!--From 1.0-->
+			<distance_multiplier>1.75</distance_multiplier> <!--From 1.25 in v1.07.4--> <!--From 1.0-->
 			<level_image_name>mp_thumb_wcdlc7</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
@@ -1569,7 +1569,7 @@
 			</player_weapons>
 			<Description>MENU_LEVEL_CORNERED_DESC</Description>
 			<time_of_day>10:30</time_of_day>
-			<distance_multiplier>1.5</distance_multiplier>
+			<distance_multiplier>1.75</distance_multiplier> <!--From 1.5-->
 			<level_image_name>mp_thumb_transmission</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
@@ -1588,8 +1588,8 @@
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
-			<ideal_min_players>8</ideal_min_players>
-			<ideal_max_players>16</ideal_max_players>
+			<ideal_min_players>6</ideal_min_players>
+			<ideal_max_players>12</ideal_max_players>
 			<Load_image>Transmission</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
@@ -1623,8 +1623,8 @@
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 19:00-->
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>0.7</alternate_glow_multiplier>
-			<ideal_min_players>6</ideal_min_players>
-			<ideal_max_players>10</ideal_max_players>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Vista</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
@@ -1728,7 +1728,7 @@
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
-			<ideal_min_players>4</ideal_min_players>
+			<ideal_min_players>2</ideal_min_players>
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Watchtower</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
