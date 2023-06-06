@@ -2803,10 +2803,11 @@
 			<Singleplayer>False</Singleplayer>
 			<Multiplayer>True</Multiplayer>
 		</Effect>
+<!--START Team Backpack Fix-->		
 		<Effect>
 			<Name>mp_rack_light_red</Name>
 			<VFX>
-				<Filename>mp_rack_light_red.effectx</Filename>
+				<Filename>mp_flag_aura_red_a.effectx</Filename> <!--From mp_rack_light_red.effectx-->
 			</VFX>
 			<Radius>.5</Radius>
 			<_Editor>
@@ -2816,6 +2817,7 @@
 			<Singleplayer>False</Singleplayer>
 			<Multiplayer>True</Multiplayer>
 		</Effect>
+<!--END-->		
 		<Effect>
 			<Name>mp_rack_light_blue</Name>
 			<VFX>

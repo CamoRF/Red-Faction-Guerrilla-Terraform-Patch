@@ -13,10 +13,10 @@
 			<Pitch_Unit_Inertia>1.0</Pitch_Unit_Inertia>
 			<Yaw_Unit_Inertia>1.0</Yaw_Unit_Inertia>
 			<LODs>
-				<LOD_Distance>5778.0</LOD_Distance> <!--From 10.0-->
-				<LOD_Distance>5779.0</LOD_Distance> <!--From 20.0-->
-				<LOD_Distance>5780.0</LOD_Distance> <!--From 40.0-->
-				<LOD_Distance>5781.0</LOD_Distance> <!--From 80.0-->
+				<LOD_Distance>20.0</LOD_Distance> <!--From 10.0-->
+				<LOD_Distance>40.0</LOD_Distance> <!--From 20.0-->
+				<LOD_Distance>80.0</LOD_Distance> <!--From 40.0-->
+				<LOD_Distance>160.0</LOD_Distance> <!--From 80.0-->
 			</LODs>
 			<Engine>
 				<Min_RPM>1000</Min_RPM>

@@ -700,7 +700,6 @@ v1.07.2 ALPHA CHANGES
 * Fixed floating Jetpack on Invasion
 * Fixed issue with XP message spam when matches end
 * Fixed accidently disabling CTF & Damage Control on Remnant
-* Fixed issue with Reconstructor effects not working occasionally
 * Fixed missing names for Damage Control Targets on Imperial
 * Fixed location of one of the Damage Control Targets on Abandoned
 * Fixed some files that shouldn't be optimized and caused bugs with the Kiosk screens in Singleplayer for example
@@ -804,8 +803,8 @@ v1.07.4 ALPHA CHANGES
 
 [Misc]
 * Optimized effects.xtbl & vfx.xtbl even more to hopefully help as much as possible with hardcoded limits for sounds and effects before RSL2 fixes it completely
-* Disabled sound on various object_effects on maps to hopefully help with the hardcoded limit with sounds
-* Disabled character breath effect in multiplayer to hopefully help with hardcoded limits with sounds and effects
+* Disabled sound on various object_effects on maps to help with the hardcoded limit with sounds
+* Disabled character breath effect in multiplayer to help with hardcoded limits with sounds and effects
 * Reverted adding missing drop shadows to various objects just in case it was causing issues with the VRAM memory pool limit, the effect was barely noticable anyway
 
 [Interface]
@@ -863,6 +862,7 @@ v1.07.4 ALPHA CHANGES
 * Fixed missing specular textures on Excavation, Framework & Partial Recall
 * Fixed various issues with Partial Recall
 * Fixed various misc issues
+* Fixed issue with Reconstructor effects not working occasionally
 * Optimized more files to reduce memory pool load increasing stability
 
 -----------------------
@@ -891,16 +891,27 @@ v1.07.4.1 ALPHA CHANGES
 * Reduced detonation radius to 2.5 from 3.5
 * Increased detonation delay to 650ms from 300ms
 
+[Grenade Nerf]
+* Reduced explosion crumble radius to 2.0 from 2.5
+* Reduced explosion impulse to 15000 from 16250
+* Reduced explosion structural damage to 23000 from infinity
+
 [Rhino Nerf] 
 * Decreased fuel regen per second to 0.11 from 0.20, it now matches the previous Concussion Nerf from v1.07.3
 
 [Maps]
 * Added some hidden weapon spawns to GFWL/Nordic Bonus
+* Added a radio tower, smokestack and solar tower outside the map out on Outpost since I previously transferred the assets to the map anyway
 * Temporarily disabled Damage Control on Townhall due to crashing issue
 * Temporarily made the Bridge on Expansion invulnerable due to physics issues
+* Temporarily disabled Anarchy & Bagman on Cornered, Crescent, Gauntlet & Overpass Siege maps until they have improved spawns for those modes, team modes still remain.
 * Re-implemented Damage Control on Frost using the standard DCT structure
+* Re-implemented Siege on Crash Site with various balance improvements and fixes
+* Re-implemented Siege on Rift with various balance improvements and fixes
 * Refined some of the recommended player counts for various maps
 * Refined some of the player name distances for various maps
+* Pipeline now has a different bagman spawn location in Bagman and Team Bagman
+* Improved locations of Damage Control Targets on Invasion
 
 [Fixes]
 * Fixed missing player movement speed increase when using the DLC Spiker and Super Gauss
@@ -911,3 +922,6 @@ v1.07.4.1 ALPHA CHANGES
 * Fixed clipping Vision Backpack Rack on Broadside
 * Fixed physics issues with crane and smokestack on Frost
 * Fixed out of bounds exploit on Deadzone
+* Fixed vanilla issue with backpacks your team can't use not glowing red
+* Fixed vanilla issue with various objects not spawning in certain gamemodes
+* Fixed various issues with all maps
