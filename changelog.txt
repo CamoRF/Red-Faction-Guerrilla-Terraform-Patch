@@ -3,9 +3,9 @@
 *-------------------*
 
 Author: Camo
-Version: v1.07.4 ALPHA
-Date: 25-5-2023
-Build: 909
+Version: v1.07.4.1 ALPHA
+Date: 6-6-2023
+Build: 245
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -875,6 +875,7 @@ v1.07.4.1 ALPHA CHANGES
 * Changed "Asssembly" map name in mp_levels.xtbl to "Outpost" to match the in game name when map is loaded in Nanoforge
 * Changed "Cross Over" name in mp_levels.xtbl to "Doubletime" to match the in game name when map is loaded in Nanoforge
 * Tweaked lod_properties.xtbl again
+* All maps have been re-imported and re-exported in Nanoforge to just in case there were any issues
 
 [Singleplayer]
 * Possibly increased draw distance for vehicles in vehicle_defaults.xtbl
@@ -914,9 +915,9 @@ v1.07.4.1 ALPHA CHANGES
 * Improved locations of Damage Control Targets on Invasion
 
 [Fixes]
-* Fixed missing player movement speed increase when using the DLC Spiker and Super Gauss
-* Fixed issue with rail driver effects vanishing too quickly
-* Fixed issue with sniper rifle effects vanishing too quickly
+* Fixed missing player movement speed increase when using the DLC Spiker and Super Gauss Rifle
+* Fixed issue with Rail Driver effects vanishing too quickly
+* Fixed issue with Sniper Rifle effects vanishing too quickly
 * Fixed floating Damage Control Target on Nordic Bonus/GFWL
 * Fixed floating Firepower Backpack Rack on Imperial
 * Fixed clipping Vision Backpack Rack on Broadside
@@ -925,3 +926,5 @@ v1.07.4.1 ALPHA CHANGES
 * Fixed vanilla issue with backpacks your team can't use not glowing red
 * Fixed vanilla issue with various objects not spawning in certain gamemodes
 * Fixed various issues with all maps
+* Fixed various misc issues
+* Optimized more files to reduce memory pool load increasing stability
