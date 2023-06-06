@@ -862,7 +862,6 @@ v1.07.4 ALPHA CHANGES
 * Fixed missing specular textures on Excavation, Framework & Partial Recall
 * Fixed various issues with Partial Recall
 * Fixed various misc issues
-* Fixed issue with Reconstructor effects not working occasionally
 * Optimized more files to reduce memory pool load increasing stability
 
 -----------------------
