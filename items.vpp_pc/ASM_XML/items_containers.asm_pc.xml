@@ -3,7 +3,7 @@
   <Endian>Little</Endian>
   <Version>5</Version>
   <Containers>
-<!--START DLC Weapons ADDED-->    
+<!--START DLC Weapons ADDED-->
 	<ContainerEntry>
       <Name>mar_charge_placer</Name>
       <Type>23</Type>
@@ -396,7 +396,7 @@
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
-<!--END-->    
+<!--END-->
 	<ContainerEntry>
       <Name>Eos_Edf</Name>
       <Type>23</Type>

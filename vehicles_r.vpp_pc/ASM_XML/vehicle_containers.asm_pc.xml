@@ -3,7 +3,7 @@
   <Endian>Little</Endian>
   <Version>5</Version>
   <Containers>
-<!--START DLC Vehicles ADDED-->    
+<!--START DLC Vehicles ADDED-->
 	<ContainerEntry>
       <Name>mar_chomper.ccar_pc</Name>
       <Type>29</Type>
@@ -873,7 +873,7 @@
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
-<!--END-->	
+<!--END-->
     <ContainerEntry>
       <Name>mar_raider1.ccar_pc</Name>
       <Type>29</Type>
