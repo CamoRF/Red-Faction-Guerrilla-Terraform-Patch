@@ -873,8 +873,8 @@ v1.07.4.1 ALPHA CHANGES
 * Sorted maps in alphabetical order in mp_levels.xtbl & dlc02_mp_levels.xtbl
 * Changed "Asssembly" map name in mp_levels.xtbl to "Outpost" to match the in game name when map is loaded in Nanoforge
 * Changed "Cross Over" name in mp_levels.xtbl to "Doubletime" to match the in game name when map is loaded in Nanoforge
+* All maps have been re-imported and re-exported in Nanoforge just in case there were any issues
 * Tweaked lod_properties.xtbl again
-* All maps have been re-imported and re-exported in Nanoforge to just in case there were any issues
 
 [Singleplayer]
 * Possibly increased draw distance for vehicles in vehicle_defaults.xtbl
@@ -901,10 +901,10 @@ v1.07.4.1 ALPHA CHANGES
 
 [Maps]
 * Added some hidden weapon spawns to GFWL/Nordic Bonus
-* Added a radio tower, smokestack and solar tower outside the map out on Outpost since I previously transferred the assets to the map anyway
+* Added a radio tower, smokestack and solar tower outside the map on Outpost for decoration since I previously transferred the assets to the map anyway
 * Temporarily disabled Damage Control on Townhall due to crashing issue
 * Temporarily made the Bridge on Expansion invulnerable due to physics issues
-* Temporarily disabled Anarchy & Bagman on Cornered, Crescent, Gauntlet & Overpass Siege maps until they have improved spawns for those modes, team modes still remain.
+* Temporarily disabled Anarchy & Bagman on Cornered, Crescent, Gauntlet & Overpass Siege maps until they have improved spawns for those modes, team modes still remain
 * Re-implemented Damage Control on Frost using the standard DCT structure
 * Re-implemented Siege on Crash Site with various balance improvements and fixes
 * Re-implemented Siege on Rift with various balance improvements and fixes
@@ -920,10 +920,10 @@ v1.07.4.1 ALPHA CHANGES
 * Fixed floating Damage Control Target on Nordic Bonus/GFWL
 * Fixed floating Firepower Backpack Rack on Imperial
 * Fixed clipping Vision Backpack Rack on Broadside
-* Fixed physics issues with crane and smokestack on Frost
+* Fixed physics issues with the crane and smokestack on Frost
 * Fixed out of bounds exploit on Deadzone
 * Fixed vanilla issue with backpacks your team can't use not glowing red
 * Fixed vanilla issue with various objects not spawning in certain gamemodes
-* Fixed various issues with all maps
+* Fixed various vanilla issues with all maps
 * Fixed various misc issues
 * Optimized more files to reduce memory pool load increasing stability
