@@ -38,7 +38,7 @@
 - [v1.07.3 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7634)
 - [v1.07.3.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7635)
 - [v1.07.4 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7639)
-- [v1.07.4.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7639)
+- [v1.07.4.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7649)
 
 # Tools Used
 - [RfgUtil](https://github.com/Moneyl/RfgUtil/releases)
