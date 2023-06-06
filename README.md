@@ -53,9 +53,11 @@
 - [AsmTool](https://github.com/Moneyl/AsmTool)
 
 # Credits
-- **moneyl** for lots of help & developing all the tools that make this project possible including Nanoforge, AsmTool, RfgUtil & RSL.
-- **rast1234** for developing SyncFaction that makes it easy for users to install this mod automatically and stay up to date.
-- **Gibbed** for his work on other tools used in the development of this mod.
+- [moneyl](https://github.com/Moneyl) for lots of help & developing all the tools that make this project possible including Nanoforge, AsmTool, RfgUtil & RSL.
+- [rast1234](https://github.com/Rast1234) for developing SyncFaction that makes it easy for users to install this mod automatically and stay up to date.
+- [Rick Gibbed](https://github.com/gibbed) for his work on other tools used in the development of this mod.
 - **ATMLVE** for helping with adding some of the weapon spawns and various other fixes to the Wrecking Crew maps.
 - **arrows** for developing mTool.
 - **Goober** and the Faction Files Community.
+
+
