@@ -870,9 +870,9 @@ v1.07.4.1 ALPHA CHANGES
 
 [Misc]
 * Increased ladder climbing speed to 18.0 from 14.0
-* Sorted maps in alphabetical order in mp_levels.xtbl & dlc02_mp_levels.xtbl
-* Changed "Asssembly" map name in mp_levels.xtbl to "Outpost" to match the in game name when map is loaded in Nanoforge
-* Changed "Cross Over" name in mp_levels.xtbl to "Doubletime" to match the in game name when map is loaded in Nanoforge
+* Sorted maps by alphabetical order in mp_levels.xtbl & dlc02_mp_levels.xtbl
+* Changed "Asssembly" map name in mp_levels.xtbl to "Outpost" to match in game name when map is loaded in Nanoforge
+* Changed "Cross Over" name in mp_levels.xtbl to "Doubletime" to match in game name when map is loaded in Nanoforge
 * All maps have been re-imported and re-exported in Nanoforge just in case there were any issues
 * Tweaked lod_properties.xtbl again
 
@@ -884,7 +884,7 @@ v1.07.4.1 ALPHA CHANGES
 
 [Weapons]
 * Increased damage of Sniper by 1 at min and max range for instagib custom match settings
-* Increased damage of Rail Drivery by 1 at min and max range for instagib custom match settings
+* Increased damage of Rail Driver by 1 at min and max range for instagib custom match settings
 * Reverted accidently removing aim assist for hammers in multiplayer, the change didn't do anything anyway
 
 [Proximity Mine Nerf]
