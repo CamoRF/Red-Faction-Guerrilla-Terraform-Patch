@@ -3,7 +3,7 @@
   <Endian>Little</Endian>
   <Version>5</Version>
   <Containers>
-<!--START New Character Thumbnails ADDED-->    
+<!--START New Character Thumbnails ADDED-->
 	<ContainerEntry>
       <Name>ui_mp_char_camo1</Name>
       <Type>33</Type>
@@ -159,7 +159,7 @@
       </Primitives>
     </ContainerEntry>
 <!--END-->
-<!--START New Map Images ADDED-->	
+<!--START New Map Images ADDED-->
     <ContainerEntry>
       <Name>ui_loading_mp_0mp1_0</Name>
       <Type>33</Type>
@@ -381,7 +381,7 @@
       </Primitives>
     </ContainerEntry>
 <!--END-->
-<!--START DLC Wrecking Crew Images ADDED-->	
+<!--START DLC Wrecking Crew Images ADDED-->
     <ContainerEntry>
       <Name>ui_loading_wcdlc1_0</Name>
       <Type>33</Type>
@@ -778,7 +778,7 @@
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
-<!--END-->	
+<!--END-->
     <ContainerEntry>
       <Name>ui_blueprint_3arcs_arcwelder</Name>
       <Type>33</Type>
