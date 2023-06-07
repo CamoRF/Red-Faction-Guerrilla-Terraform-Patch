@@ -1,6 +1,41 @@
 <root>
 	<Table>
 		<mp_level_list>
+			<Name>Junkyard</Name>
+			<Filename>mp_junkyard</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>12:00</time_of_day>
+			<distance_multiplier>1.1</distance_multiplier>
+			<level_image_name>mp_thumb_0mp7</level_image_name>
+			<dust_enabled>True</dust_enabled>
+			<wind_intensity>60.0</wind_intensity>
+			<wind_direction>315.0</wind_direction>
+			<Display_name>MPDCT_DEADZONE_002</Display_name> <!--JUNKYARD-->
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<!--<Flag>capture_the_flag</Flag>-->
+				<Flag>king_of_the_hill</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>12:00</alternate_time_of_day>
+			<glow_multiplier>5</glow_multiplier>
+			<alternate_glow_multiplier>2</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
+			<Load_image>Junkyard</Load_image>
+			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
+		</mp_level_list>	
+		<mp_level_list>
 			<Name>Cliffside</Name>
 			<Filename>mp_2</Filename>
 			<_Editor>
@@ -39,7 +74,7 @@
 			<Name>Partial Recall</Name> 
 			<Filename>mp_3</Filename>
 			<_Editor>
-				<Category>Entries:DLC_2</Category>
+				<Category>Entries:General</Category>
 			</_Editor>
 			<player_weapons>
 				<Element>m16</Element>
@@ -71,7 +106,7 @@
 			<Name>Retribution</Name>
 			<Filename>mp_1</Filename>
 			<_Editor>
-				<Category>Entries:DLC_2</Category>
+				<Category>Entries:General</Category>
 			</_Editor>
 			<player_weapons>
 				<Element>m16</Element>
@@ -106,7 +141,7 @@
 			<Name>Shipment</Name>
 			<Filename>mp_6</Filename>
 			<_Editor>
-				<Category>Entries:DLC_2</Category>
+				<Category>Entries:General</Category>
 			</_Editor>
 			<player_weapons>
 				<Element>m16</Element>
@@ -140,7 +175,7 @@
 			<Name>Townhall</Name>
 			<Filename>mp_5</Filename>
 			<_Editor>
-				<Category>Entries:DLC_2</Category>
+				<Category>Entries:General</Category>
 			</_Editor>
 			<player_weapons>
 				<Element>m16</Element>

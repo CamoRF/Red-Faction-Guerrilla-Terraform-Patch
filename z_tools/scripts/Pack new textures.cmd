@@ -20,3 +20,6 @@ RfgUtil.exe .\ui_loading_mp_0mp5_0\ -c -e
 
 RfgUtil.exe .\mp_thumb_0mp6\ -c -e
 RfgUtil.exe .\ui_loading_mp_0mp6_0\ -c -e
+
+RfgUtil.exe .\mp_thumb_0mp7\ -c -e
+RfgUtil.exe .\ui_loading_mp_0mp7_0\ -c -e

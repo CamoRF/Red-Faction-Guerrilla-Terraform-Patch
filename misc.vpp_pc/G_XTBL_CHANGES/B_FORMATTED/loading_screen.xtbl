@@ -76,6 +76,21 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
+		<LoadingScreen>
+			<Name>Junkyard</Name>
+			<BG_image>
+				<Filename>ui_loading_mp_0mp7_0.tga</Filename>
+			</BG_image>
+			<_Editor>
+				<Category>MP levels:General</Category>
+			</_Editor>
+			<Level_layout>
+				<String1>MENU_LOADING</String1>
+				<Overlay_prob>0</Overlay_prob>
+			</Level_layout>
+			<Overlay_prob>0</Overlay_prob>
+			<Image_rot>0.0</Image_rot>
+		</LoadingScreen>		
 <!--END-->		
 <!--START DLC WC Loading Screens Added-->
 		<LoadingScreen>

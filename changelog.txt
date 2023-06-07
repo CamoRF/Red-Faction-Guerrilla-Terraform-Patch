@@ -3,9 +3,9 @@
 *-------------------*
 
 Author: Camo
-Version: v1.07.4.1 ALPHA
-Date: 6-6-2023
-Build: 245
+Version: v1.07.5 ALPHA
+Date: 8-6-2023
+Build: 1201
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -927,3 +927,13 @@ v1.07.4.1 ALPHA CHANGES
 * Fixed various vanilla issues with all maps
 * Fixed various misc issues
 * Optimized more files to reduce memory pool load increasing stability
+
+---------------------
+v1.07.5 ALPHA CHANGES
+---------------------
+
+[Interface]
+* Initial loading screen updated to current patch version
+
+[New Map]
+* Added custom Junkyard map
