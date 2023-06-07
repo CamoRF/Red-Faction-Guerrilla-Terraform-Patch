@@ -46,6 +46,23 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>		
+<!--START FUTURE-->	
+	<!--<LoadingScreen>
+			<Name>PLACEHOLDER</Name>
+			<BG_image>
+				<Filename>ui_loading_mp_0mp4_0.tga</Filename>
+			</BG_image>
+			<_Editor>
+				<Category>MP levels:General</Category>
+			</_Editor>
+			<Level_layout>
+				<String1>MENU_LOADING</String1>
+				<Overlay_prob>0</Overlay_prob>
+			</Level_layout>
+			<Overlay_prob>0</Overlay_prob>
+			<Image_rot>0.0</Image_rot>
+		</LoadingScreen>-->
+<!--END-->	
 		<LoadingScreen>
 			<Name>Townhall</Name>
 			<BG_image>

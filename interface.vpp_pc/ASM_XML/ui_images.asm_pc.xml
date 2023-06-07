@@ -292,7 +292,53 @@
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
+<!--START FUTURE-->
     <ContainerEntry>
+      <Name>ui_loading_mp_0mp4_0</Name>
+      <Type>33</Type>
+      <Flags>128</Flags>
+      <DataOffset>6144</DataOffset>
+      <CompressedSize>853697</CompressedSize>
+      <Sizes>
+        <int>97</int>
+        <int>2073600</int>
+      </Sizes>
+      <Primitives>
+        <PrimitiveEntry>
+          <Name>ui_loading_mp_0mp4_0.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>23</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>97</HeaderSize>
+          <DataSize>2073600</DataSize>
+        </PrimitiveEntry>
+      </Primitives>
+    </ContainerEntry>
+    <ContainerEntry>
+      <Name>mp_thumb_0mp4</Name>
+      <Type>33</Type>
+      <Flags>128</Flags>
+      <DataOffset>6144</DataOffset>
+      <CompressedSize>63541</CompressedSize>
+      <Sizes>
+        <int>90</int>
+        <int>90112</int>
+      </Sizes>
+      <Primitives>
+        <PrimitiveEntry>
+          <Name>mp_thumb_0mp4.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>26</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>90</HeaderSize>
+          <DataSize>90112</DataSize>
+        </PrimitiveEntry>
+      </Primitives>
+    </ContainerEntry>
+<!--END-->    
+	<ContainerEntry>
       <Name>ui_loading_mp_0mp5_0</Name>
       <Type>33</Type>
       <Flags>128</Flags>
@@ -371,6 +417,50 @@
       <Primitives>
         <PrimitiveEntry>
           <Name>mp_thumb_0mp6.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>26</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>90</HeaderSize>
+          <DataSize>90112</DataSize>
+        </PrimitiveEntry>
+      </Primitives>
+    </ContainerEntry>
+    <ContainerEntry>
+      <Name>ui_loading_mp_0mp7_0</Name>
+      <Type>33</Type>
+      <Flags>128</Flags>
+      <DataOffset>6144</DataOffset>
+      <CompressedSize>821288</CompressedSize>
+      <Sizes>
+        <int>97</int>
+        <int>1036800</int>
+      </Sizes>
+      <Primitives>
+        <PrimitiveEntry>
+          <Name>ui_loading_mp_0mp7_0.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>23</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>97</HeaderSize>
+          <DataSize>1036800</DataSize>
+        </PrimitiveEntry>
+      </Primitives>
+    </ContainerEntry>
+    <ContainerEntry>
+      <Name>mp_thumb_0mp7</Name>
+      <Type>33</Type>
+      <Flags>128</Flags>
+      <DataOffset>6144</DataOffset>
+      <CompressedSize>62663</CompressedSize>
+      <Sizes>
+        <int>90</int>
+        <int>90112</int>
+      </Sizes>
+      <Primitives>
+        <PrimitiveEntry>
+          <Name>mp_thumb_0mp7.cvbm_pc</Name>
           <Type>1</Type>
           <Allocator>26</Allocator>
           <Unknown3>6</Unknown3>

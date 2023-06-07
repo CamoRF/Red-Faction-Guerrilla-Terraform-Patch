@@ -1,1 +1,162 @@
-<root><Table><GameStateData><Name>EDFStateData</Name><SolidYellowMin>250</SolidYellowMin><SolidOrangeMax>1100</SolidOrangeMax><SolidRedMin>3000</SolidRedMin><_Editor><Category>Entries</Category></_Editor><DecayRateYellow>40</DecayRateYellow><DecayRateGreen>40</DecayRateGreen><DecayRateOrange>45</DecayRateOrange><DecayRateRed>50</DecayRateRed><MaxDecayMultiplier>5</MaxDecayMultiplier><SolidYellowMax>300</SolidYellowMax><SolidRedMax>3100</SolidRedMax><SolidOrangeMin>1000</SolidOrangeMin><ContactGrowRate>75</ContactGrowRate><structure_damage_threshold>0.05</structure_damage_threshold><decay_ramp_period>25</decay_ramp_period><decay_start_period>20</decay_start_period><LHA_Min_Decay_Distance>40</LHA_Min_Decay_Distance><LHA_Max_Decay_Distance>120</LHA_Max_Decay_Distance><LHA_Minimum_Decay>10</LHA_Minimum_Decay><LHA_Maximum_Decay>50</LHA_Maximum_Decay></GameStateData></Table><TableTemplates></TableTemplates><TableDescription><Name>GameStateData</Name><Type>TableDescription</Type><Display_Name>Game State Data</Display_Name><Element><Name>Name</Name><Type>String</Type></Element><Element><Name>ContactGrowRate</Name><Type>Float</Type><Display_Name>Contact Growth Rate (per second)</Display_Name><Default>5.0</Default></Element><Element><Name>decay_start_period</Name><Type>Int</Type><Display_Name>Alert Decay Delay</Display_Name><Default>20</Default></Element><Element><Name>MaxDecayMultiplier</Name><Type>Float</Type><Display_Name>Max Decay Multiplier</Display_Name><Default>3.0</Default></Element><Element><Name>decay_ramp_period</Name><Type>Float</Type><Display_Name>Decay Ramp-up Period (sec)</Display_Name><Default>30.0</Default></Element><Element><Name>DecayRateGreen</Name><Type>Float</Type><Display_Name>Decay Rate Green</Display_Name><Default>1.0</Default></Element><Element><Name>DecayRateYellow</Name><Type>Float</Type><Display_Name>Decay Rate Yellow</Display_Name><Default>1.0</Default></Element><Element><Name>DecayRateOrange</Name><Type>Float</Type><Display_Name>Decay Rate Orange</Display_Name><Default>1.0</Default></Element><Element><Name>DecayRateRed</Name><Type>Float</Type><Display_Name>Decay Rate Red</Display_Name><Default>1.0</Default></Element><Element><Name>SolidYellowMin</Name><Type>Int</Type><Display_Name>Solid Yellow Min</Display_Name><Default>100</Default></Element><Element><Name>SolidYellowMax</Name><Type>Int</Type><Display_Name>Solid Yellow Max</Display_Name><Default>100</Default></Element><Element><Name>SolidOrangeMin</Name><Type>Int</Type><Display_Name>Solid Orange Min</Display_Name><Default>1000</Default></Element><Element><Name>SolidOrangeMax</Name><Type>Int</Type><Display_Name>Solid Orange Max</Display_Name><Default>100</Default></Element><Element><Name>SolidRedMin</Name><Type>Int</Type><Display_Name>Solid Red Min</Display_Name><Default>10000</Default></Element><Element><Name>SolidRedMax</Name><Type>Int</Type><Display_Name>Solid Red Max</Display_Name><Default>1000</Default></Element><Element><Name>structure_damage_threshold</Name><Type>Float</Type><Display_Name>Building Damage Threshold</Display_Name><Default>0.0</Default></Element><Element><Name>LHA_Min_Decay_Distance</Name><Type>Float</Type><Display_Name>LHA Min Decay Distance</Display_Name><Description>Minimum distance from Last Hostile Act at which decay happens</Description><Default>30</Default></Element><Element><Name>LHA_Max_Decay_Distance</Name><Type>Float</Type><Display_Name>LHA Max Decay Distance</Display_Name><Description>Maximum distance from Last Hostile Act at which higher decay happens</Description><Default>150</Default></Element><Element><Name>LHA_Minimum_Decay</Name><Type>Float</Type><Display_Name>LHA Minimum Decay</Display_Name><Description>Amount of decay that occurs beyond LHA Min Decay Distnace</Description><Default>10</Default></Element><Element><Name>LHA_Maximum_Decay</Name><Type>Float</Type><Display_Name>LHA Maximum Decay</Display_Name><Description>Amount of decay that happens beyond LHA Max Decay Distance</Description><Default>50</Default></Element></TableDescription><EntryCategories><Category><Name>Entries</Name></Category></EntryCategories></root>
+<root>
+	<Table>
+		<GameStateData>
+			<Name>EDFStateData</Name>
+			<SolidYellowMin>250</SolidYellowMin>
+			<SolidOrangeMax>1100</SolidOrangeMax>
+			<SolidRedMin>3000</SolidRedMin>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<DecayRateYellow>40</DecayRateYellow>
+			<DecayRateGreen>40</DecayRateGreen>
+			<DecayRateOrange>45</DecayRateOrange>
+			<DecayRateRed>50</DecayRateRed>
+			<MaxDecayMultiplier>5</MaxDecayMultiplier>
+			<SolidYellowMax>300</SolidYellowMax>
+			<SolidRedMax>3100</SolidRedMax>
+			<SolidOrangeMin>1000</SolidOrangeMin>
+			<ContactGrowRate>75</ContactGrowRate>
+			<structure_damage_threshold>0.05</structure_damage_threshold>
+			<decay_ramp_period>25</decay_ramp_period>
+			<decay_start_period>20</decay_start_period>
+			<LHA_Min_Decay_Distance>40</LHA_Min_Decay_Distance>
+			<LHA_Max_Decay_Distance>120</LHA_Max_Decay_Distance>
+			<LHA_Minimum_Decay>10</LHA_Minimum_Decay>
+			<LHA_Maximum_Decay>50</LHA_Maximum_Decay>
+		</GameStateData>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>GameStateData</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Game State Data</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>ContactGrowRate</Name>
+			<Type>Float</Type>
+			<Display_Name>Contact Growth Rate (per second)</Display_Name>
+			<Default>5.0</Default>
+		</Element>
+		<Element>
+			<Name>decay_start_period</Name>
+			<Type>Int</Type>
+			<Display_Name>Alert Decay Delay</Display_Name>
+			<Default>20</Default>
+		</Element>
+		<Element>
+			<Name>MaxDecayMultiplier</Name>
+			<Type>Float</Type>
+			<Display_Name>Max Decay Multiplier</Display_Name>
+			<Default>3.0</Default>
+		</Element>
+		<Element>
+			<Name>decay_ramp_period</Name>
+			<Type>Float</Type>
+			<Display_Name>Decay Ramp-up Period (sec)</Display_Name>
+			<Default>30.0</Default>
+		</Element>
+		<Element>
+			<Name>DecayRateGreen</Name>
+			<Type>Float</Type>
+			<Display_Name>Decay Rate Green</Display_Name>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>DecayRateYellow</Name>
+			<Type>Float</Type>
+			<Display_Name>Decay Rate Yellow</Display_Name>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>DecayRateOrange</Name>
+			<Type>Float</Type>
+			<Display_Name>Decay Rate Orange</Display_Name>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>DecayRateRed</Name>
+			<Type>Float</Type>
+			<Display_Name>Decay Rate Red</Display_Name>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>SolidYellowMin</Name>
+			<Type>Int</Type>
+			<Display_Name>Solid Yellow Min</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>SolidYellowMax</Name>
+			<Type>Int</Type>
+			<Display_Name>Solid Yellow Max</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>SolidOrangeMin</Name>
+			<Type>Int</Type>
+			<Display_Name>Solid Orange Min</Display_Name>
+			<Default>1000</Default>
+		</Element>
+		<Element>
+			<Name>SolidOrangeMax</Name>
+			<Type>Int</Type>
+			<Display_Name>Solid Orange Max</Display_Name>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>SolidRedMin</Name>
+			<Type>Int</Type>
+			<Display_Name>Solid Red Min</Display_Name>
+			<Default>10000</Default>
+		</Element>
+		<Element>
+			<Name>SolidRedMax</Name>
+			<Type>Int</Type>
+			<Display_Name>Solid Red Max</Display_Name>
+			<Default>1000</Default>
+		</Element>
+		<Element>
+			<Name>structure_damage_threshold</Name>
+			<Type>Float</Type>
+			<Display_Name>Building Damage Threshold</Display_Name>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>LHA_Min_Decay_Distance</Name>
+			<Type>Float</Type>
+			<Display_Name>LHA Min Decay Distance</Display_Name>
+			<Description>Minimum distance from Last Hostile Act at which decay happens</Description>
+			<Default>30</Default>
+		</Element>
+		<Element>
+			<Name>LHA_Max_Decay_Distance</Name>
+			<Type>Float</Type>
+			<Display_Name>LHA Max Decay Distance</Display_Name>
+			<Description>Maximum distance from Last Hostile Act at which higher decay happens</Description>
+			<Default>150</Default>
+		</Element>
+		<Element>
+			<Name>LHA_Minimum_Decay</Name>
+			<Type>Float</Type>
+			<Display_Name>LHA Minimum Decay</Display_Name>
+			<Description>Amount of decay that occurs beyond LHA Min Decay Distnace</Description>
+			<Default>10</Default>
+		</Element>
+		<Element>
+			<Name>LHA_Maximum_Decay</Name>
+			<Type>Float</Type>
+			<Display_Name>LHA Maximum Decay</Display_Name>
+			<Description>Amount of decay that happens beyond LHA Max Decay Distance</Description>
+			<Default>50</Default>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>
