@@ -15,6 +15,9 @@ RfgUtil.exe .\ui_loading_mp_0mp2_0\ -c -e
 RfgUtil.exe .\mp_thumb_0mp3\ -c -e
 RfgUtil.exe .\ui_loading_mp_0mp3_0\ -c -e
 
+RfgUtil.exe .\mp_thumb_0mp4\ -c -e
+RfgUtil.exe .\ui_loading_mp_0mp4_0\ -c -e
+
 RfgUtil.exe .\mp_thumb_0mp5\ -c -e
 RfgUtil.exe .\ui_loading_mp_0mp5_0\ -c -e
 
