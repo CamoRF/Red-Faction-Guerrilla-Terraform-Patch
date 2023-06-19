@@ -3,9 +3,9 @@
 *-------------------*
 
 Author: Camo
-Version: v1.07.5 ALPHA
-Date: 8-6-2023
-Build: 1201
+Version: v1.07.5.1 ALPHA
+Date: X-X-2023
+Build: XXX
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -937,3 +937,38 @@ v1.07.5 ALPHA CHANGES
 
 [New Map]
 * Added custom Junkyard map
+
+-----------------------
+v1.07.5.1 ALPHA CHANGES
+-----------------------
+
+[Misc]
+* Patch rebuild placeholder
+
+[Singleplayer]
+* Increased population density
+
+[Misc]
+* Temporarily restored lod_properties.xtbl to default just in case it was causing issues
+* Reverted changes to glares.xtbl since it didn't seem to do anything
+
+[Maps]
+* Added more weapons spawns to Shipment
+* Added more weapon spawns to Junkyard
+* Added some line of sight fixes to Junkyard
+* Added a hidden area on Junkyard
+* Added team spawns to Junkyard
+* Added CTF to Junkyard
+* Adjusted some existing weapon spawns on Junkyard 
+* Renamed filename for Shipment to "mp_shipment"
+* Renamed filename for Cliffside to "mp_clifside"
+* Renamed filename for Partial Recall to "mp_partial_recall"
+* Temporarily disabled Retribution & Townhall until I can fix them properly with the Nanoforge rewrite
+
+[Wrecking Crew]
+* Renamed map filenames to "vanilla_wc1" etc
+
+[Fixes]
+* Fixed spectator cameras that were outside of the map on Shipment
+* Fixed a spawn on Transmission
+* Fixed a duplicate weapon spawn on Shipment
