@@ -3,9 +3,9 @@
 		<mp_weapons>
 			<Name>camo_grenade</Name>
 			<Ammo_count>
-				<Magazine_Size>4</Magazine_Size>
-				<Num_Magazines>1</Num_Magazines>
-				<Max_Rounds>4</Max_Rounds>
+				<Magazine_Size>2</Magazine_Size> <!--From 4-->
+				<Num_Magazines>0</Num_Magazines> <!--From 1-->
+				<Max_Rounds>2</Max_Rounds> <!--From 4-->
 			</Ammo_count>
 			<_Editor>
 				<Category>Entries</Category>

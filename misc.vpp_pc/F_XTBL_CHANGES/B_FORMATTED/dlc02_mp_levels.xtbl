@@ -139,7 +139,7 @@
 		</mp_level_list>		
 <!--	<mp_level_list>
 			<Name>Townhall</Name>
-			<Filename>mp_5</Filename>
+			<Filename>mp_townhall</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -173,7 +173,7 @@
 		</mp_level_list>-->
 <!--	<mp_level_list>
 			<Name>Retribution</Name>
-			<Filename>mp_1</Filename>
+			<Filename>mp_retribution</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>

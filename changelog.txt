@@ -972,3 +972,4 @@ v1.07.5.1 ALPHA CHANGES
 * Fixed spectator cameras that were outside of the map on Shipment
 * Fixed a spawn on Transmission
 * Fixed a duplicate weapon spawn on Shipment
+* Fixed SP DLC crashes
