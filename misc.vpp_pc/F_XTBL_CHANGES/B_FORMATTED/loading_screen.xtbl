@@ -2,7 +2,7 @@
 	<Table>
 <!--START Custom Map Loading Screens ADDED-->
 		<LoadingScreen>
-			<Name>Retribution</Name>
+			<Name>Spire</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp1_0.tga</Filename>
 			</BG_image>
@@ -17,7 +17,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>Cliffside</Name>
+			<Name>Townhall</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp2_0.tga</Filename>
 			</BG_image>
@@ -30,58 +30,11 @@
 			</Level_layout>
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
-		</LoadingScreen>
+		</LoadingScreen>		
 		<LoadingScreen>
-			<Name>Partial Recall</Name>
+			<Name>Warehouse</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp3_0.tga</Filename>
-			</BG_image>
-			<_Editor>
-				<Category>MP levels:General</Category>
-			</_Editor>
-			<Level_layout>
-				<String1>MENU_LOADING</String1>
-				<Overlay_prob>0</Overlay_prob>
-			</Level_layout>
-			<Overlay_prob>0</Overlay_prob>
-			<Image_rot>0.0</Image_rot>
-		</LoadingScreen>		
-<!--START FUTURE-->	
-	<!--<LoadingScreen>
-			<Name>PLACEHOLDER</Name>
-			<BG_image>
-				<Filename>ui_loading_mp_0mp4_0.tga</Filename>
-			</BG_image>
-			<_Editor>
-				<Category>MP levels:General</Category>
-			</_Editor>
-			<Level_layout>
-				<String1>MENU_LOADING</String1>
-				<Overlay_prob>0</Overlay_prob>
-			</Level_layout>
-			<Overlay_prob>0</Overlay_prob>
-			<Image_rot>0.0</Image_rot>
-		</LoadingScreen>-->
-<!--END-->	
-		<LoadingScreen>
-			<Name>Townhall</Name>
-			<BG_image>
-				<Filename>ui_loading_mp_0mp5_0.tga</Filename>
-			</BG_image>
-			<_Editor>
-				<Category>MP levels:General</Category>
-			</_Editor>
-			<Level_layout>
-				<String1>MENU_LOADING</String1>
-				<Overlay_prob>0</Overlay_prob>
-			</Level_layout>
-			<Overlay_prob>0</Overlay_prob>
-			<Image_rot>0.0</Image_rot>
-		</LoadingScreen>
-		<LoadingScreen>
-			<Name>Shipment</Name>
-			<BG_image>
-				<Filename>ui_loading_mp_0mp6_0.tga</Filename>
 			</BG_image>
 			<_Editor>
 				<Category>MP levels:General</Category>
@@ -96,7 +49,7 @@
 		<LoadingScreen>
 			<Name>Junkyard</Name>
 			<BG_image>
-				<Filename>ui_loading_mp_0mp7_0.tga</Filename>
+				<Filename>ui_loading_mp_0mp4_0.tga</Filename>
 			</BG_image>
 			<_Editor>
 				<Category>MP levels:General</Category>
@@ -108,7 +61,97 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>		
-<!--END-->		
+		<LoadingScreen>
+			<Name>Shipment</Name>
+			<BG_image>
+				<Filename>ui_loading_mp_0mp5_0.tga</Filename>
+			</BG_image>
+			<_Editor>
+				<Category>MP levels:General</Category>
+			</_Editor>
+			<Level_layout>
+				<String1>MENU_LOADING</String1>
+				<Overlay_prob>0</Overlay_prob>
+			</Level_layout>
+			<Overlay_prob>0</Overlay_prob>
+			<Image_rot>0.0</Image_rot>
+		</LoadingScreen>
+		<LoadingScreen>
+			<Name>Cliffside</Name>
+			<BG_image>
+				<Filename>ui_loading_mp_0mp6_0.tga</Filename>
+			</BG_image>
+			<_Editor>
+				<Category>MP levels:General</Category>
+			</_Editor>
+			<Level_layout>
+				<String1>MENU_LOADING</String1>
+				<Overlay_prob>0</Overlay_prob>
+			</Level_layout>
+			<Overlay_prob>0</Overlay_prob>
+			<Image_rot>0.0</Image_rot>
+		</LoadingScreen>		
+		<LoadingScreen>
+			<Name>Partial Recall</Name>
+			<BG_image>
+				<Filename>ui_loading_mp_0mp7_0.tga</Filename>
+			</BG_image>
+			<_Editor>
+				<Category>MP levels:General</Category>
+			</_Editor>
+			<Level_layout>
+				<String1>MENU_LOADING</String1>
+				<Overlay_prob>0</Overlay_prob>
+			</Level_layout>
+			<Overlay_prob>0</Overlay_prob>
+			<Image_rot>0.0</Image_rot>
+		</LoadingScreen>
+<!--	<LoadingScreen>
+			<Name>PLACEHOLDER2</Name>
+			<BG_image>
+				<Filename>ui_loading_mp_0mp8_0.tga</Filename>
+			</BG_image>
+			<_Editor>
+				<Category>MP levels:General</Category>
+			</_Editor>
+			<Level_layout>
+				<String1>MENU_LOADING</String1>
+				<Overlay_prob>0</Overlay_prob>
+			</Level_layout>
+			<Overlay_prob>0</Overlay_prob>
+			<Image_rot>0.0</Image_rot>
+		</LoadingScreen>
+		<LoadingScreen>
+			<Name>PLACEHOLDER3</Name>
+			<BG_image>
+				<Filename>ui_loading_mp_0mp9_0.tga</Filename>
+			</BG_image>
+			<_Editor>
+				<Category>MP levels:General</Category>
+			</_Editor>
+			<Level_layout>
+				<String1>MENU_LOADING</String1>
+				<Overlay_prob>0</Overlay_prob>
+			</Level_layout>
+			<Overlay_prob>0</Overlay_prob>
+			<Image_rot>0.0</Image_rot>
+		</LoadingScreen>
+		<LoadingScreen>
+			<Name>PLACEHOLDER4</Name>
+			<BG_image>
+				<Filename>ui_loading_mp_mp10_0.tga</Filename>
+			</BG_image>
+			<_Editor>
+				<Category>MP levels:General</Category>
+			</_Editor>
+			<Level_layout>
+				<String1>MENU_LOADING</String1>
+				<Overlay_prob>0</Overlay_prob>
+			</Level_layout>
+			<Overlay_prob>0</Overlay_prob>
+			<Image_rot>0.0</Image_rot>
+		</LoadingScreen>-->	
+<!--END-->	
 <!--START DLC WC Loading Screens Added-->
 		<LoadingScreen>
 			<Name>dlc03wc1</Name>
