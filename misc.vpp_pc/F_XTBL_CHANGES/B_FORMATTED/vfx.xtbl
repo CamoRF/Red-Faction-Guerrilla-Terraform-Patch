@@ -59,7 +59,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -87,7 +87,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -115,7 +115,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -143,7 +143,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -171,7 +171,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -199,7 +199,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -227,7 +227,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -255,7 +255,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -283,7 +283,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -311,7 +311,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -339,7 +339,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -367,7 +367,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -395,7 +395,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -423,7 +423,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -451,7 +451,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -479,7 +479,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -1243,7 +1243,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
 			<LOD>
 				<Spawning>
 					<Distance>10</Distance>
@@ -1756,7 +1756,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
 		</Effect>
 		<Effect>
 			<Name>env_dust_gust_a</Name>
@@ -1769,7 +1769,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
 		</Effect>
 		<Effect>
 			<Name>env_red_light_pulse_a</Name>
@@ -1982,7 +1982,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>50</Fading_start>
@@ -2045,7 +2045,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>40</Fading_start>
@@ -2068,7 +2068,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<Radial_blur>
 				<Radial_blur_entry>very large</Radial_blur_entry>
 			</Radial_blur>
@@ -2084,7 +2084,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>50</Fading_start>
@@ -2281,7 +2281,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>50</Fading_start>
@@ -2436,7 +2436,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
 		</Effect>
 		<Effect>
 			<Name>dth_transformer_a_pre</Name>
@@ -2449,7 +2449,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 		<Effect>
 			<Name>dth_transformer_a</Name>
@@ -2462,7 +2462,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<Radial_blur>
 				<Radial_blur_entry>small</Radial_blur_entry>
 			</Radial_blur>
@@ -2478,7 +2478,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 		<Effect>
 			<Name>veh_terrain_braking_a</Name>
@@ -2914,7 +2914,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 		<Effect>
 			<Name>veh_collision_sparks_a</Name>
@@ -3034,7 +3034,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 		<Effect>
 			<Name>env_dfa_computer_a</Name>
@@ -3284,7 +3284,7 @@
 			</_Editor>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 		<Effect>
 			<Name>env_smoke_misc_f</Name>
@@ -3323,7 +3323,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
 		</Effect>
 		<Effect>
 			<Name>env_dust_blowing_small_a</Name>
@@ -3336,7 +3336,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
 		</Effect>
 		<Effect>
 			<Name>env_dust_blowing_b</Name>
@@ -3349,7 +3349,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
 		</Effect>
 		<Effect>
 			<Name>env_dust_blowing_c</Name>
@@ -3362,7 +3362,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
 		</Effect>
 		<Effect>
 			<Name>gp_dredger_exp_a</Name>
@@ -3375,7 +3375,7 @@
 			</_Editor>
 			<Radius>5</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 		<Effect>
 			<Name>wep_grinder_trail_a</Name>
@@ -3465,7 +3465,7 @@
 			<Radius>2</Radius>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Spawning>
 					<Distance>80</Distance>
@@ -3497,7 +3497,7 @@
 			<Radius>2</Radius>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 		<Effect>
 			<Name>dth_generic_md_a</Name>
@@ -3510,7 +3510,7 @@
 			<Radius>2</Radius>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Spawning>
 					<Distance>80</Distance>
@@ -3529,7 +3529,7 @@
 			<Radius>2</Radius>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 		<Effect>
 			<Name>dth_cardboard_box_a</Name>
@@ -3542,7 +3542,7 @@
 			<Radius>2</Radius>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Spawning>
 					<Distance>80</Distance>
@@ -3561,7 +3561,7 @@
 			<Radius>2</Radius>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Spawning>
 					<Distance>80</Distance>
@@ -3580,7 +3580,7 @@
 			<Radius>2</Radius>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Spawning>
 					<Distance>80</Distance>
@@ -3599,7 +3599,7 @@
 			<Radius>2</Radius>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Spawning>
 					<Distance>30</Distance>
@@ -3635,7 +3635,7 @@
 				<Category>Entries:Gameplay</Category>
 			</_Editor>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 		<Effect>
 			<Name>test_chad</Name>
@@ -3757,7 +3757,7 @@
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 		<Effect>
 			<Name>wep_edf_pistol_muzzle_smoke_a</Name>
@@ -3920,7 +3920,7 @@
 			<Radius>2</Radius>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Spawning>
 					<Distance>80</Distance>
@@ -3993,7 +3993,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>5</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -4057,7 +4057,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Vehicles:Shared</Category>
 			</_Editor>
@@ -4092,7 +4092,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Vehicles:Shared</Category>
 			</_Editor>
@@ -4200,7 +4200,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Weapons:Bullet Impacts</Category>
 			</_Editor>
@@ -4305,7 +4305,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Weapons:Bullet Impacts</Category>
 			</_Editor>
@@ -4456,7 +4456,7 @@
 			<Radius>3</Radius>
 			<Update_distance>1000000.0</Update_distance>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Weapons:Bullet Impacts</Category>
 			</_Editor>
@@ -4524,7 +4524,7 @@
 			<Radius>3</Radius>
 			<Update_distance>1000000.0</Update_distance>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Weapons:Bullet Impacts</Category>
 			</_Editor>
@@ -4538,7 +4538,7 @@
 			<Radius>3</Radius>
 			<Update_distance>1000000.0</Update_distance>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Weapons:Bullet Impacts</Category>
 			</_Editor>
@@ -4552,7 +4552,7 @@
 			<Radius>3</Radius>
 			<Update_distance>1000000.0</Update_distance>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Weapons:Bullet Impacts</Category>
 			</_Editor>
@@ -4568,7 +4568,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<Update_distance>1000000.0</Update_distance>
 			<LOD>
 				<Distance>
@@ -4604,7 +4604,7 @@
 			<Radius>5</Radius>
 			<Update_distance>1000000.0</Update_distance>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Interior</Category>
 			</_Editor>
@@ -4654,7 +4654,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>20</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -4680,7 +4680,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>10</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Vehicles:Aircraft</Category>
 			</_Editor>
@@ -4803,7 +4803,7 @@
 			<Streaming_Category>General</Streaming_Category> <!--From Preload-->
 			<Radius>50</Radius>
 			<Singleplayer>False</Singleplayer>
-			<Multiplayer>False</Multiplayer> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
 			<Radial_blur>
 				<Radial_blur_entry>very large</Radial_blur_entry>
 			</Radial_blur>
@@ -4883,7 +4883,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -4902,7 +4902,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Vehicles:Walkers</Category>
 			</_Editor>
@@ -4915,7 +4915,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>10</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Vehicles:Walkers</Category>
 			</_Editor>
@@ -4928,7 +4928,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -4947,7 +4947,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -4966,7 +4966,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -4985,7 +4985,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -5004,7 +5004,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -5023,7 +5023,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -5042,7 +5042,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -5061,7 +5061,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>5</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<Radial_blur>
 				<Radial_blur_entry>small</Radial_blur_entry>
 			</Radial_blur>
@@ -5080,7 +5080,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Spawning>
 					<Distance>100</Distance>
@@ -5096,7 +5096,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>5</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<Radial_blur>
 				<Radial_blur_entry>smaller</Radial_blur_entry>
 			</Radial_blur>
@@ -5111,7 +5111,7 @@
 			</VFX>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Vehicles:Artillery Tank</Category>
 			</_Editor>
@@ -5124,7 +5124,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Weapons:Jetter MG Turret</Category>
 			</_Editor>
@@ -5136,7 +5136,7 @@
 			</VFX>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Weapons:Jetter RPG Turret</Category>
 			</_Editor>
@@ -5149,7 +5149,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects</Category>
 			</_Editor>
@@ -5251,7 +5251,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>5</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -5264,7 +5264,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>5</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -5286,7 +5286,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>100</Fading_start>
@@ -5304,7 +5304,7 @@
 			<Radius>3</Radius>
 			<Update_distance>1000000.0</Update_distance>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Weapons:Bullet Impacts</Category>
 			</_Editor>
@@ -5419,7 +5419,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>15</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<Radial_blur>
 				<Radial_blur_entry>large</Radial_blur_entry>
 			</Radial_blur>
@@ -5468,7 +5468,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>50</Fading_start>
@@ -5488,7 +5488,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>6</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>50</Fading_start>
@@ -5508,7 +5508,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>6</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>50</Fading_start>
@@ -5528,7 +5528,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>90</Fading_start>
@@ -5594,7 +5594,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>20</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<Radial_blur>
 				<Radial_blur_entry>very large</Radial_blur_entry>
 			</Radial_blur>
@@ -5619,7 +5619,7 @@
 			<Radius>2</Radius>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Spawning>
 					<Distance>80</Distance>
@@ -5635,7 +5635,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -5663,7 +5663,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -5691,7 +5691,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -5719,7 +5719,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -5747,7 +5747,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -5775,7 +5775,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -5803,7 +5803,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -5831,7 +5831,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -5859,7 +5859,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -5887,7 +5887,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -5915,7 +5915,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>20</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Gameplay</Category>
 			</_Editor>
@@ -6179,7 +6179,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>90</Fading_start>
@@ -6202,7 +6202,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>50</Fading_start>
@@ -6225,7 +6225,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Vehicles:Shared</Category>
 			</_Editor>
@@ -6386,7 +6386,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Spawning>
 					<Distance>20</Distance>
@@ -6409,7 +6409,7 @@
 			</VFX>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Gameplay</Category>
 			</_Editor>
@@ -6425,7 +6425,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>150</Fading_start>
@@ -6445,7 +6445,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>50</Fading_start>
@@ -6497,7 +6497,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>10</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Dust</Category>
 			</_Editor>
@@ -6510,7 +6510,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -6538,7 +6538,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>1.0</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects:News Kiosk</Category>
 			</_Editor>
@@ -6566,7 +6566,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>30</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Objects</Category>
 			</_Editor>
@@ -6579,7 +6579,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>60</Fading_start>
@@ -6602,7 +6602,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>20</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<Radial_blur>
 				<Radial_blur_entry>Quick large</Radial_blur_entry>
 			</Radial_blur>
@@ -6621,7 +6621,7 @@
 			<Radius>2</Radius>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Spawning>
 					<Distance>80</Distance>
@@ -6702,7 +6702,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>3</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>60</Fading_start>
@@ -6812,7 +6812,7 @@
 			</VFX>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Gameplay</Category>
 			</_Editor>
@@ -6840,7 +6840,7 @@
 			<Radius>2</Radius>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 		<Effect>
 			<Name>dth_0101_sewage_tank_a</Name>
@@ -6850,7 +6850,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>5</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -6863,7 +6863,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>20</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -6877,7 +6877,7 @@
 			<Radius>5</Radius>
 			<Update_distance>1000000.0</Update_distance>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Environment:Interior</Category>
 			</_Editor>
@@ -6962,7 +6962,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>2</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Gameplay</Category>
 			</_Editor>
@@ -6975,7 +6975,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>5</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -7036,7 +7036,7 @@
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Radius>5</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Objects:Death Effects</Category>
 			</_Editor>
@@ -7198,7 +7198,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<LOD>
 				<Distance>
 					<Fading_start>50</Fading_start>
@@ -7218,7 +7218,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>5</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<Radial_blur>
 				<Radial_blur_entry>small</Radial_blur_entry>
 			</Radial_blur>
@@ -7384,7 +7384,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>10</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Dust</Category>
 			</_Editor>
@@ -7422,7 +7422,7 @@
 			</VFX>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 			<_Editor>
 				<Category>Entries:Gameplay</Category>
 			</_Editor>
@@ -7437,7 +7437,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>False</Multiplayer>
+			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 	</Table>
 	<TableTemplates></TableTemplates>

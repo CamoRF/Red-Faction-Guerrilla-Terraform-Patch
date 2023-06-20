@@ -938,19 +938,27 @@ v1.07.5 ALPHA CHANGES
 [New Map]
 * Added custom Junkyard map
 
------------------------
-v1.07.5.1 ALPHA CHANGES
------------------------
+---------------------
+v1.07.6 ALPHA CHANGES
+---------------------
 
 [Misc]
 * Patch rebuild placeholder
 
+[Interface]
+* Initial loading screen updated to current patch version
+
 [Singleplayer]
 * Increased population density
+* Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can find them at the Badlands safehouse
 
 [Misc]
 * Temporarily restored lod_properties.xtbl to default just in case it was causing issues
 * Reverted changes to glares.xtbl since it didn't seem to do anything
+* Reverted changes to mp_playlists.xtbl and mp_playlist_entries.xtbl in case it was causing issues
+* Merged animations from the DLC to the base game anims.vpp_pc as it might be useful with future mods and it's a small .xdelta
+* Enabled SP only effects in MP, will be useful for mapping in future when working with object_effects
+* Reverted optimizing MP & Backpack related files in case it causes issues
 
 [Maps]
 * Added more weapons spawns to Shipment
@@ -973,3 +981,6 @@ v1.07.5.1 ALPHA CHANGES
 * Fixed a spawn on Transmission
 * Fixed a duplicate weapon spawn on Shipment
 * Fixed SP DLC crashes
+* Fixed vanilla issue with missing specular textures in SP
+* Fixed vanilla issue with memorial texture in SP
+* Fixed Fallfactor and Junkyard not having the same specular texture fix as Excavation and Partial Recall
