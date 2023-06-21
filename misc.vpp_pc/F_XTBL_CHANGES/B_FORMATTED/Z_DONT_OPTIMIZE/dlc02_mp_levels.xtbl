@@ -203,7 +203,7 @@
 			<ideal_min_players>2</ideal_min_players>
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Partial Recall</Load_image>
-			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
+			<demolition_damage_multiplier>2.0</demolition_damage_multiplier> <!--From 0.9-->
 		</mp_level_list>
 <!--	<mp_level_list>
 			<Name>Dropoff</Name>

@@ -3,9 +3,9 @@
 *-------------------*
 
 Author: Camo
-Version: v1.08 ALPHA
-Date: X-X-2023
-Build: XXX
+Version: v1.08 ALPHA PRE RELEASE A
+Date: 22-6-2023
+Build: XXXX
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -938,32 +938,39 @@ v1.07.5 ALPHA CHANGES
 [New Map]
 * Added custom Junkyard map
 
--------------------
-v1.08 ALPHA CHANGES
--------------------
+---------------------------------
+v1.08 ALPHA PRE A RELEASE CHANGES
+---------------------------------
 
 [Interface]
 * Initial loading screen updated to current patch version
-* Added several new placeholder textures for future map loading screens, thumbnails and character thumbnails
+* Added several new placeholder textures for future map loading screens, thumbnails and character thumbnails to make it easier to add new textures in future without tedious hex editing
 
 [Singleplayer]
 * Increased population density
-* Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can find them at the Badlands safehouse
+* Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can find them at the Badlands safehouse [NOT IN PRE RELEASE]
 
 [Misc]
-* Patch rebuilt from scratch to reduce file size significantly thanks to the new SyncFaction update
+* Patch rebuilt from scratch to reduce file size significantly thanks to the new SyncFaction update [NOT IN PRE RELEASE]
 * Added missing drop shadows to various objects
 * lod_properties.xtbl optimizations
 * Reverted changes to glares.xtbl since it didn't seem to do anything
-* Merged animations from the DLC to the base game anims.vpp_pc as it might be useful with future mods and it's a small .xdelta
+* Merged animations from the DLC to the base game anims.vpp_pc as it might be useful with future mods and it's a small .xdelta [NOT IN PRE RELEASE]
 * Enabled SP only effects in MP, will be useful for mapping in future when working with object_effects
 * Changed ideal players for Gradient to 4-8 from 6-10
+
+[New Maps]
+* Added Warehouse, an expansive interior only map designed for 2-8 players
 
 [Maps]
 * Renamed filename for Shipment to "mp_shipment"
 * Renamed filename for Cliffside to "mp_clifside"
 * Renamed filename for Partial Recall to "mp_partial_recall"
-* Removed Pipeline Pitfalls file
+* Removed Pipeline Pitfalls file [NOT IN PRE RELEASE]
+* Disabled Townhall [OVERHAULED FROM SCRATCH IN FULL RELEASE]
+* Added Demolition to Partial Recall
+* Added Demolition to Shipment
+* Added team spawns & CTF to various WC maps [NOT IN PRE RELEASE]
 
 [Junkyard Map Updates]
 * Added some line of sight fixes to Junkyard
@@ -979,15 +986,15 @@ v1.08 ALPHA CHANGES
 * Fixed a duplicate weapon spawn on Shipment
 
 [Wrecking Crew]
-* Renamed map filenames to "vanilla_wc1" etc
-* Updated maps with various fixes
+* Renamed map filenames to "vanilla_wc1" etc [NOT IN PRE RELEASE]
+* Updated maps with various fixes [NOT IN PRE RELEASE]
 
 [Misc Fixes]
-* Fixed a spawn with incorrect math on Transmission
-* Fixed SP DLC crashes
-* Fixed vanilla issue with missing specular textures in SP
-* Fixed vanilla issue with memorial texture in SP
+* Fixed a spawn with incorrect math on Transmission [NOT IN PRE RELEASE]
+* Fixed SP DLC crashes [NOT IN PRE RELEASE]
+* Fixed vanilla issue with missing specular textures in SP [NOT IN PRE RELEASE]
+* Fixed vanilla issue with memorial texture in SP [NOT IN PRE RELEASE]
 * Fixed Fallfactor and Junkyard not having the same specular texture fix as Excavation and Partial Recall
-* Fixed various issues with vanilla WC maps
 * Reverted changes to mp_playlists.xtbl and mp_playlist_entries.xtbl in case it was causes issues
 * Reverted optimizing MP & Backpack related files in case it causes issues
+* Doublechecked all maps for fixes [NOT IN PRE RELEASE]
