@@ -810,8 +810,8 @@
 			<alternate_time_of_day>11:00</alternate_time_of_day> <!--From 15:30-->
 			<glow_multiplier>2</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
-			<ideal_min_players>6</ideal_min_players>
-			<ideal_max_players>10</ideal_max_players>
+			<ideal_min_players>4</ideal_min_players> <!--From 6-->
+			<ideal_max_players>8</ideal_max_players> <!--From 10-->
 			<Load_image>Gradient</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>

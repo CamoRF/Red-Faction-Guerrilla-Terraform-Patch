@@ -3,7 +3,7 @@
 *-------------------*
 
 Author: Camo
-Version: v1.07.6 ALPHA
+Version: v1.08 ALPHA
 Date: X-X-2023
 Build: XXX
 
@@ -938,50 +938,56 @@ v1.07.5 ALPHA CHANGES
 [New Map]
 * Added custom Junkyard map
 
----------------------
-v1.07.6 ALPHA CHANGES
----------------------
-
-[Misc]
-* Patch rebuild placeholder
+-------------------
+v1.08 ALPHA CHANGES
+-------------------
 
 [Interface]
 * Initial loading screen updated to current patch version
+* Added several new placeholder textures for future map loading screens, thumbnails and character thumbnails
 
 [Singleplayer]
 * Increased population density
 * Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can find them at the Badlands safehouse
 
 [Misc]
-* Temporarily restored lod_properties.xtbl to default just in case it was causing issues
+* Patch rebuilt from scratch to reduce file size significantly thanks to the new SyncFaction update
+* Added missing drop shadows to various objects
+* lod_properties.xtbl optimizations
 * Reverted changes to glares.xtbl since it didn't seem to do anything
-* Reverted changes to mp_playlists.xtbl and mp_playlist_entries.xtbl in case it was causing issues
 * Merged animations from the DLC to the base game anims.vpp_pc as it might be useful with future mods and it's a small .xdelta
 * Enabled SP only effects in MP, will be useful for mapping in future when working with object_effects
-* Reverted optimizing MP & Backpack related files in case it causes issues
+* Changed ideal players for Gradient to 4-8 from 6-10
 
 [Maps]
-* Added more weapon spawns to Shipment
-* Added more weapon spawns to Junkyard
-* Added some line of sight fixes to Junkyard
-* Added a secret area to Junkyard
-* Added team spawns to Junkyard
-* Added CTF to Junkyard
-* Adjusted some existing weapon spawns on Junkyard 
 * Renamed filename for Shipment to "mp_shipment"
 * Renamed filename for Cliffside to "mp_clifside"
 * Renamed filename for Partial Recall to "mp_partial_recall"
-* Temporarily disabled Retribution & Townhall until I can fix them properly with the Nanoforge rewrite
+* Removed Pipeline Pitfalls file
+
+[Junkyard Map Updates]
+* Added some line of sight fixes to Junkyard
+* Added more weapon spawns to Junkyard
+* Added a secret area to Junkyard
+* Added team spawns to Junkyard
+* Added CTF to Junkyard
+* Adjusted some existing weapon spawns on Junkyard
+
+[Shipment Map Updates]
+* Added more weapon spawns to Shipment
+* Fixed spectator cameras that were outside of the map on Shipment 
+* Fixed a duplicate weapon spawn on Shipment
 
 [Wrecking Crew]
 * Renamed map filenames to "vanilla_wc1" etc
+* Updated maps with various fixes
 
-[Fixes]
-* Fixed spectator cameras that were outside of the map on Shipment
-* Fixed a spawn on Transmission
-* Fixed a duplicate weapon spawn on Shipment
+[Misc Fixes]
+* Fixed a spawn with incorrect math on Transmission
 * Fixed SP DLC crashes
 * Fixed vanilla issue with missing specular textures in SP
 * Fixed vanilla issue with memorial texture in SP
 * Fixed Fallfactor and Junkyard not having the same specular texture fix as Excavation and Partial Recall
 * Fixed various issues with vanilla WC maps
+* Reverted changes to mp_playlists.xtbl and mp_playlist_entries.xtbl in case it was causes issues
+* Reverted optimizing MP & Backpack related files in case it causes issues
