@@ -1,41 +1,6 @@
 <root>
-	<Table>
-<!--	<mp_level_list>
-			<Name>Spire</Name>
-			<Filename>mp_spire</Filename>
-			<_Editor>
-				<Category>Entries:General</Category>
-			</_Editor>
-			<player_weapons>
-				<Element>m16</Element>
-			</player_weapons>
-			<Description>0</Description>
-			<time_of_day>07:00</time_of_day>
-			<distance_multiplier>0.75</distance_multiplier>
-			<level_image_name>mp_thumb_0mp1</level_image_name>
-			<dust_enabled>True</dust_enabled>
-			<wind_intensity>5.0</wind_intensity>
-			<wind_direction>150</wind_direction>
-			<Display_name>MPDCT_DOWNFALL_003</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>deathmatch</Flag>
-				<Flag>team_deathmatch</Flag>
-				<Flag>capture_the_flag</Flag>
-				<Flag>king_of_the_hill</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>			
-			</mode_flags>
-			<alternate_time_of_day>00:00</alternate_time_of_day>
-			<glow_multiplier>2.0</glow_multiplier>
-			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
-			<ideal_min_players>2</ideal_min_players>
-			<ideal_max_players>6</ideal_max_players>
-			<Load_image>Spire</Load_image>
-			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
-		</mp_level_list>-->
-<!--	<mp_level_list>
+	<Table>		
+		<mp_level_list>
 			<Name>Townhall</Name>
 			<Filename>mp_townhall</Filename>
 			<_Editor>
@@ -47,7 +12,7 @@
 			<Description>0</Description>
 			<time_of_day>14:00</time_of_day>
 			<distance_multiplier>0.5</distance_multiplier>
-			<level_image_name>mp_thumb_0mp2</level_image_name>
+			<level_image_name>mp_thumb_0mp1</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
@@ -68,7 +33,7 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Townhall</Load_image>
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
-		</mp_level_list>-->		
+		</mp_level_list>		
 		<mp_level_list>
 			<Name>Warehouse</Name>
 			<Filename>mp_warehouse</Filename>
@@ -81,7 +46,7 @@
 			<Description>0</Description>
 			<time_of_day>07:00</time_of_day>
 			<distance_multiplier>0.5</distance_multiplier>
-			<level_image_name>mp_thumb_0mp3</level_image_name>
+			<level_image_name>mp_thumb_0mp2</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>10.0</wind_intensity>
 			<wind_direction>345.0</wind_direction>
@@ -92,7 +57,7 @@
 				<Flag>team_deathmatch</Flag>
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag>				
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>3.2</glow_multiplier>
@@ -114,7 +79,7 @@
 			<Description>0</Description>
 			<time_of_day>12:00</time_of_day>
 			<distance_multiplier>1.1</distance_multiplier>
-			<level_image_name>mp_thumb_0mp4</level_image_name>
+			<level_image_name>mp_thumb_0mp3</level_image_name>
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
@@ -149,7 +114,7 @@
 			<Description>0</Description>
 			<time_of_day>15:30</time_of_day>
 			<distance_multiplier>0.5</distance_multiplier>
-			<level_image_name>mp_thumb_0mp5</level_image_name>
+			<level_image_name>mp_thumb_0mp4</level_image_name>
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>5.0</wind_intensity>
 			<wind_direction>150</wind_direction>
@@ -184,7 +149,7 @@
 			<Description>0</Description>
 			<time_of_day>15:00</time_of_day>
 			<distance_multiplier>1.25</distance_multiplier>
-			<level_image_name>mp_thumb_0mp6</level_image_name>
+			<level_image_name>mp_thumb_0mp5</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
@@ -219,7 +184,7 @@
 			<Description>0</Description>
 			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
-			<level_image_name>mp_thumb_0mp7</level_image_name>
+			<level_image_name>mp_thumb_0mp6</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>25</wind_intensity>
 			<wind_direction>190</wind_direction>
@@ -239,6 +204,75 @@
 			<Load_image>Partial Recall</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
 		</mp_level_list>
+		<mp_level_list>
+			<Name>Dropoff</Name>
+			<Filename>mp_dropoff</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>17:30</time_of_day>
+			<distance_multiplier>0.5</distance_multiplier>
+			<level_image_name>mp_thumb_0mp7</level_image_name>
+			<dust_enabled>True</dust_enabled>
+			<wind_intensity>50</wind_intensity>
+			<wind_direction>215</wind_direction>
+			<Display_name>MPDCT_EXCAVATION_002</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+			</mode_flags>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<glow_multiplier>1.2</glow_multiplier>
+			<alternate_glow_multiplier>2.0</alternate_glow_multiplier>
+			<ideal_min_players>10</ideal_min_players>
+			<ideal_max_players>16</ideal_max_players>
+			<Load_image>Dropoff</Load_image>
+			<demolition_damage_multiplier>1.75</demolition_damage_multiplier>
+		</mp_level_list>
+<!--	<mp_level_list>
+			<Name>Spire</Name>
+			<Filename>mp_spire</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>07:00</time_of_day>
+			<distance_multiplier>0.75</distance_multiplier>
+			<level_image_name>mp_thumb_0mp8</level_image_name>
+			<dust_enabled>True</dust_enabled>
+			<wind_intensity>5.0</wind_intensity>
+			<wind_direction>150</wind_direction>
+			<Display_name>MPDCT_DOWNFALL_003</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>			
+			</mode_flags>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<glow_multiplier>2.0</glow_multiplier>
+			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>6</ideal_max_players>
+			<Load_image>Spire</Load_image>
+			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
+		</mp_level_list>-->	
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

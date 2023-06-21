@@ -5,24 +5,56 @@ RfgUtil.exe .\ui_mp_char_camo4\ -c -e
 RfgUtil.exe .\ui_mp_char_camo5\ -c -e
 RfgUtil.exe .\ui_mp_char_camo6\ -c -e
 RfgUtil.exe .\ui_mp_char_camo7\ -c -e
-
+RfgUtil.exe .\ui_mp_char_camo8\ -c -e
+RfgUtil.exe .\ui_mp_char_camo9\ -c -e
+RfgUtil.exe .\ui_mp_char_cam10\ -c -e
+RfgUtil.exe .\ui_mp_char_cam11\ -c -e
+RfgUtil.exe .\ui_mp_char_cam12\ -c -e
+RfgUtil.exe .\ui_mp_char_cam13\ -c -e
+RfgUtil.exe .\ui_mp_char_cam14\ -c -e
+RfgUtil.exe .\ui_mp_char_cam15\ -c -e
+RfgUtil.exe .\ui_mp_char_cam16\ -c -e
+RfgUtil.exe .\ui_mp_char_cam17\ -c -e
+RfgUtil.exe .\ui_mp_char_cam18\ -c -e
+RfgUtil.exe .\ui_mp_char_cam19\ -c -e
+RfgUtil.exe .\ui_mp_char_cam20\ -c -e
 RfgUtil.exe .\mp_thumb_0mp1\ -c -e
 RfgUtil.exe .\ui_loading_mp_0mp1_0\ -c -e
-
 RfgUtil.exe .\mp_thumb_0mp2\ -c -e
 RfgUtil.exe .\ui_loading_mp_0mp2_0\ -c -e
-
 RfgUtil.exe .\mp_thumb_0mp3\ -c -e
 RfgUtil.exe .\ui_loading_mp_0mp3_0\ -c -e
-
 RfgUtil.exe .\mp_thumb_0mp4\ -c -e
 RfgUtil.exe .\ui_loading_mp_0mp4_0\ -c -e
-
 RfgUtil.exe .\mp_thumb_0mp5\ -c -e
 RfgUtil.exe .\ui_loading_mp_0mp5_0\ -c -e
-
 RfgUtil.exe .\mp_thumb_0mp6\ -c -e
 RfgUtil.exe .\ui_loading_mp_0mp6_0\ -c -e
-
 RfgUtil.exe .\mp_thumb_0mp7\ -c -e
 RfgUtil.exe .\ui_loading_mp_0mp7_0\ -c -e
+RfgUtil.exe .\mp_thumb_0mp8\ -c -e
+RfgUtil.exe .\ui_loading_mp_0mp8_0\ -c -e
+RfgUtil.exe .\mp_thumb_0mp9\ -c -e
+RfgUtil.exe .\ui_loading_mp_0mp9_0\ -c -e
+RfgUtil.exe .\mp_thumb_mp10\ -c -e
+RfgUtil.exe .\ui_loading_mp_mp10_0\ -c -e
+RfgUtil.exe .\mp_thumb_mp11\ -c -e
+RfgUtil.exe .\ui_loading_mp_mp11_0\ -c -e
+RfgUtil.exe .\mp_thumb_mp12\ -c -e
+RfgUtil.exe .\ui_loading_mp_mp12_0\ -c -e
+RfgUtil.exe .\mp_thumb_mp13\ -c -e
+RfgUtil.exe .\ui_loading_mp_mp13_0\ -c -e
+RfgUtil.exe .\mp_thumb_mp14\ -c -e
+RfgUtil.exe .\ui_loading_mp_mp14_0\ -c -e
+RfgUtil.exe .\mp_thumb_mp15\ -c -e
+RfgUtil.exe .\ui_loading_mp_mp15_0\ -c -e
+RfgUtil.exe .\mp_thumb_mp16\ -c -e
+RfgUtil.exe .\ui_loading_mp_mp16_0\ -c -e
+RfgUtil.exe .\mp_thumb_mp17\ -c -e
+RfgUtil.exe .\ui_loading_mp_mp17_0\ -c -e
+RfgUtil.exe .\mp_thumb_mp18\ -c -e
+RfgUtil.exe .\ui_loading_mp_mp18_0\ -c -e
+RfgUtil.exe .\mp_thumb_mp19\ -c -e
+RfgUtil.exe .\ui_loading_mp_mp19_0\ -c -e
+RfgUtil.exe .\mp_thumb_mp20\ -c -e
+RfgUtil.exe .\ui_loading_mp_mp20_0\ -c -e
