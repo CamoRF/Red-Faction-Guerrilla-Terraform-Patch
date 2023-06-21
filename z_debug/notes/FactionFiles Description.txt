@@ -1,12 +1,13 @@
-[b]RF:GR Terraform Patch v1.07.5[/b]
+[b]RF:GR Terraform Patch v1.08[/b]
 -------------------------------------
 Author: Camo
-Version: v1.07.5 ALPHA
-Date: 8-6-2023
-Build: 1201
+Version: v1.08 ALPHA PRE RELEASE
+Date: X-X-2023
+Build: XXXX
 
 [b]Description[/b]
 ---------------------
+* IMPORTANT NOTE: This is a pre release for the upcoming rebuild when the large SyncFaction update releases in 1-2 months; expect more bugs than usual and please provide feedback as it will be very helpful! :)
 * Work-in-progress project that adds content, fixes bugs, and enhances many features.
 * Rebalanced multiplayer, DLC weapons, new maps, new characters, new backpacks and much more!
 * Install with [url=https://github.com/Rast1234/SyncFaction/releases/download/v9/SyncFaction.exe]SyncFaction[/url]
