@@ -1,7 +1,7 @@
 <root>
 	<Table>
 <!--START Custom Map Loading Screens ADDED-->
-		<!--<LoadingScreen>
+		<LoadingScreen>
 			<Name>Townhall</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp1_0.tga</Filename>
@@ -15,7 +15,7 @@
 			</Level_layout>
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
-		</LoadingScreen>-->		
+		</LoadingScreen>		
 		<LoadingScreen>
 			<Name>Warehouse</Name>
 			<BG_image>
@@ -91,7 +91,7 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-<!--	<LoadingScreen>
+		<LoadingScreen>
 			<Name>Dropoff</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp7_0.tga</Filename>
@@ -120,8 +120,8 @@
 			</Level_layout>
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
-		</LoadingScreen>-->
-<!--		<LoadingScreen>
+		</LoadingScreen>
+		<LoadingScreen>
 			<Name>PLACEHOLDER1</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp9_0.tga</Filename>
@@ -300,7 +300,7 @@
 			</Level_layout>
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
-		</LoadingScreen>-->		
+		</LoadingScreen>		
 <!--END-->	
 <!--START DLC WC Loading Screens Added-->
 		<LoadingScreen>

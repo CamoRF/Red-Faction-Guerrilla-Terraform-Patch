@@ -133,6 +133,6 @@
 			</opacity>
 		</orbital>
 	</orbitals>
-	<horizon_mountain_enabled>true</horizon_mountain_enabled>
-	<fog_camera_follow>false</fog_camera_follow>
+	<horizon_mountain_enabled>false</horizon_mountain_enabled> <!--From true-->
+	<fog_camera_follow>true</fog_camera_follow> <!--From false-->
 </root>
