@@ -204,7 +204,7 @@
 			<Load_image>Partial Recall</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
 		</mp_level_list>
-		<mp_level_list>
+<!--	<mp_level_list>
 			<Name>Dropoff</Name>
 			<Filename>mp_dropoff</Filename>
 			<_Editor>
@@ -237,7 +237,7 @@
 			<ideal_max_players>16</ideal_max_players>
 			<Load_image>Dropoff</Load_image>
 			<demolition_damage_multiplier>1.75</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>-->
 <!--	<mp_level_list>
 			<Name>Spire</Name>
 			<Filename>mp_spire</Filename>
