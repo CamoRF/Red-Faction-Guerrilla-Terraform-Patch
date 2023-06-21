@@ -106,7 +106,7 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-<!--	<LoadingScreen>
+		<LoadingScreen>
 			<Name>PLACEHOLDER2</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp8_0.tga</Filename>
@@ -150,7 +150,7 @@
 			</Level_layout>
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
-		</LoadingScreen>-->	
+		</LoadingScreen>	
 <!--END-->	
 <!--START DLC WC Loading Screens Added-->
 		<LoadingScreen>
