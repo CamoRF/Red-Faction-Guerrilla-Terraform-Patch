@@ -955,7 +955,6 @@ v1.08 BETA CHANGES
 * Added missing drop shadows to various objects
 * lod_properties.xtbl optimizations
 * Reverted changes to glares.xtbl since it didn't seem to do anything
-* Merged animations from the DLC to the base game anims.vpp_pc as it might be useful with future mods and it's a small .xdelta
 * Enabled SP only effects in MP, will be useful for mapping in future when working with object_effects
 * Changed ideal players for Gradient to 4-8 from 6-10
 
