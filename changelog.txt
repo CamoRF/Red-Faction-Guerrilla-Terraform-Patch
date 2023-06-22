@@ -3,8 +3,8 @@
 *-------------------*
 
 Author: Camo
-Version: v1.08 ALPHA PRE RELEASE A
-Date: 22-6-2023
+Version: v1.08 BETA
+Date: X-X-2023
 Build: XXXX
 
 -------------------
@@ -938,9 +938,9 @@ v1.07.5 ALPHA CHANGES
 [New Map]
 * Added custom Junkyard map
 
----------------------------------
-v1.08 ALPHA PRE A RELEASE CHANGES
----------------------------------
+------------------
+v1.08 BETA CHANGES
+------------------
 
 [Interface]
 * Initial loading screen updated to current patch version
@@ -948,14 +948,14 @@ v1.08 ALPHA PRE A RELEASE CHANGES
 
 [Singleplayer]
 * Increased population density
-* Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can find them at the Badlands safehouse [NOT IN PRE RELEASE]
+* Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can find them at the Badlands safehouse
 
 [Misc]
-* Patch rebuilt from scratch to reduce file size significantly thanks to the new SyncFaction update [NOT IN PRE RELEASE]
+* Patch rebuilt from scratch to reduce file size significantly thanks to the new SyncFaction update
 * Added missing drop shadows to various objects
 * lod_properties.xtbl optimizations
 * Reverted changes to glares.xtbl since it didn't seem to do anything
-* Merged animations from the DLC to the base game anims.vpp_pc as it might be useful with future mods and it's a small .xdelta [NOT IN PRE RELEASE]
+* Merged animations from the DLC to the base game anims.vpp_pc as it might be useful with future mods and it's a small .xdelta
 * Enabled SP only effects in MP, will be useful for mapping in future when working with object_effects
 * Changed ideal players for Gradient to 4-8 from 6-10
 
@@ -966,11 +966,10 @@ v1.08 ALPHA PRE A RELEASE CHANGES
 * Renamed filename for Shipment to "mp_shipment"
 * Renamed filename for Cliffside to "mp_clifside"
 * Renamed filename for Partial Recall to "mp_partial_recall"
-* Removed Pipeline Pitfalls file [NOT IN PRE RELEASE]
-* Disabled Townhall [OVERHAULED FROM SCRATCH IN FULL RELEASE]
+* Removed Pipeline Pitfalls file
 * Added Demolition to Partial Recall
 * Added Demolition to Shipment
-* Added team spawns & CTF to various WC maps [NOT IN PRE RELEASE]
+* Added team spawns & CTF to various WC maps
 
 [Junkyard Map Updates]
 * Added some line of sight fixes to Junkyard
@@ -985,16 +984,18 @@ v1.08 ALPHA PRE A RELEASE CHANGES
 * Fixed spectator cameras that were outside of the map on Shipment 
 * Fixed a duplicate weapon spawn on Shipment
 
+[Retribution Map Updates]
+
 [Wrecking Crew]
-* Renamed map filenames to "vanilla_wc1" etc [NOT IN PRE RELEASE]
-* Updated maps with various fixes [NOT IN PRE RELEASE]
+* Renamed map filenames to "vanilla_wc1" etc
+* Updated maps with various fixes
 
 [Misc Fixes]
-* Fixed a spawn with incorrect math on Transmission [NOT IN PRE RELEASE]
-* Fixed SP DLC crashes [NOT IN PRE RELEASE]
-* Fixed vanilla issue with missing specular textures in SP [NOT IN PRE RELEASE]
-* Fixed vanilla issue with memorial texture in SP [NOT IN PRE RELEASE]
+* Fixed a spawn with incorrect math on Transmission
+* Fixed SP DLC crash when starting a new game or loading a save
+* Fixed vanilla issue with missing specular textures in SP
+* Fixed vanilla issue with memorial texture in SP
+* Fixed various issues with all maps
 * Fixed Fallfactor and Junkyard not having the same specular texture fix as Excavation and Partial Recall
 * Reverted changes to mp_playlists.xtbl and mp_playlist_entries.xtbl in case it was causes issues
 * Reverted optimizing MP & Backpack related files in case it causes issues
-* Doublechecked all maps for fixes [NOT IN PRE RELEASE]

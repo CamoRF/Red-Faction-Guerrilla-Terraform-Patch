@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--Disables startup videos without causing error in log-->
 <!--		<Startup_Video>
 			<Name>Default</Name>
 			<Video_List>

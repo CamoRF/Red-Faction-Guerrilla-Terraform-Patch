@@ -1,6 +1,6 @@
 <root>
 	<Table>		
-<!--	<mp_level_list>
+		<mp_level_list>
 			<Name>Townhall</Name>
 			<Filename>mp_townhall</Filename>
 			<_Editor>
@@ -24,7 +24,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>king_of_the_hill</Flag>
-				<Flag>capture_the_flag</Flag>				
+				<Flag>capture_the_flag</Flag>			
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -33,7 +33,7 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Townhall</Load_image>
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
-		</mp_level_list>-->		
+		</mp_level_list>	
 		<mp_level_list>
 			<Name>Warehouse</Name>
 			<Filename>mp_warehouse</Filename>
@@ -56,7 +56,7 @@
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
 				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>			
+				<Flag>team_bagman</Flag>		
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>3.2</glow_multiplier>
@@ -127,7 +127,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>capture_the_flag</Flag>
-				<Flag>demolition</Flag> <!--ADDED-->		
+				<Flag>demolition</Flag>
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>2.0</glow_multiplier>
@@ -162,7 +162,7 @@
 				<Flag>king_of_the_hill</Flag>
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>			
+				<Flag>demolition</Flag>	
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -195,7 +195,7 @@
 				<Flag>team_deathmatch</Flag>
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>	<!--ADDED-->
+				<Flag>demolition</Flag>
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>2.2</glow_multiplier>

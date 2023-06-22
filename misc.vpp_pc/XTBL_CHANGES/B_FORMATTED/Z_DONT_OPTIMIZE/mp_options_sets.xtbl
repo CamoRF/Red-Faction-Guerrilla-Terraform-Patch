@@ -35,7 +35,7 @@
 					<leader_highlighting>False</leader_highlighting>
 					<generic_option_overrides>
 						<point_limit>20</point_limit>
-					<!--<respawn_time_seconds>3</respawn_time_seconds>--> <!--Added-->						
+						<respawn_time_seconds>0</respawn_time_seconds> <!--Added-->						
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
@@ -43,7 +43,7 @@
 				<team_deathmatch>
 					<generic_option_overrides>
 						<point_limit>50</point_limit>
-					<!--<respawn_time_seconds>3</respawn_time_seconds>--> <!--Added-->
+						<respawn_time_seconds>0</respawn_time_seconds> <!--Added-->
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
@@ -56,7 +56,7 @@
 					<flag_touch_return>True</flag_touch_return> <!--From False-->
 					<flag_as_backpack>False</flag_as_backpack>
 					<generic_option_overrides>
-						<respawn_time_seconds>10</respawn_time_seconds>
+						<respawn_time_seconds>0</respawn_time_seconds> <!--From 10-->
 						<point_limit>3</point_limit>
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
@@ -67,7 +67,7 @@
 					<generic_option_overrides>
 						<num_rounds>2</num_rounds>
 						<round_time_limit_minutes>8</round_time_limit_minutes>
-						<respawn_time_seconds>10</respawn_time_seconds>
+						<respawn_time_seconds>0</respawn_time_seconds> <!--From 10-->
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
@@ -81,7 +81,7 @@
 					<generic_option_overrides>
 						<point_limit>500</point_limit>
 						<round_time_limit_minutes>10</round_time_limit_minutes>
-						<respawn_time_seconds>10</respawn_time_seconds>
+						<respawn_time_seconds>0</respawn_time_seconds> <!--From 10-->
 						<third_weapon_wrapper>
 							<third_weapon>repair_tool</third_weapon>
 						</third_weapon_wrapper>
@@ -96,7 +96,7 @@
 					<bagman_kill_bonus>True</bagman_kill_bonus>
 					<generic_option_overrides>
 						<point_limit>150</point_limit>
-					<!--<respawn_time_seconds>3</respawn_time_seconds>--> <!--Added-->
+						<respawn_time_seconds>0</respawn_time_seconds> <!--Added-->
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
@@ -106,14 +106,14 @@
 					<bagman_kill_bonus>True</bagman_kill_bonus>
 					<generic_option_overrides>
 						<point_limit>250</point_limit>
-					<!--<respawn_time_seconds>3</respawn_time_seconds>--> <!--Added-->						
+						<respawn_time_seconds>0</respawn_time_seconds> <!--Added-->						
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
 				</team_bagman>
 				<demolition>
 					<generic_option_overrides>
-						<respawn_time_seconds>10</respawn_time_seconds>
+						<respawn_time_seconds>0</respawn_time_seconds> <!--From 10-->
 						<point_limit>800</point_limit>
 						<third_weapon_wrapper>
 							<third_weapon>repair_tool</third_weapon>

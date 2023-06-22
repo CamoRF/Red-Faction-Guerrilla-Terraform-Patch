@@ -1,7 +1,7 @@
 <root>
 	<Table>
 <!--NOTE: current highest <Unique_ID>122</Unique_ID>-->
-<!--START Grenade ADDED-->	
+<!--START Grenade ADDED-->
 		<Explosion>
 			<Name>mp_grenade</Name>
 			<Radius>6.75</Radius> <!--From 7.75 in v1.07.3.1--> <!--From 6.2 in 1.07.2-->
@@ -79,7 +79,7 @@
 			</Flags>
 		</Explosion>	
 <!--END-->
-<!--START New Explosions Added-->		
+<!--START New Explosions Added-->	
 		<Explosion>
 			<Name>mp_kaboom</Name>
 			<Radius>7.2</Radius> <!--From 5-->

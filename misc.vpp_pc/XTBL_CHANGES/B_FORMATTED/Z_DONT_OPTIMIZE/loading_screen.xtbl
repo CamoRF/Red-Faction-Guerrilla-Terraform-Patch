@@ -122,7 +122,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>PLACEHOLDER1</Name>
+			<Name>Retribution</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp9_0.tga</Filename>
 			</BG_image>
@@ -137,7 +137,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>PLACEHOLDER2</Name>
+			<Name>mp10</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp10_0.tga</Filename>
 			</BG_image>
@@ -152,7 +152,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>PLACEHOLDER3</Name>
+			<Name>mp11</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp11_0.tga</Filename>
 			</BG_image>
@@ -167,7 +167,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>PLACEHOLDER4</Name>
+			<Name>mp12</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp12_0.tga</Filename>
 			</BG_image>
@@ -182,7 +182,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>PLACEHOLDER5</Name>
+			<Name>mp13</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp13_0.tga</Filename>
 			</BG_image>
@@ -197,7 +197,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>PLACEHOLDER6</Name>
+			<Name>mp14</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp14_0.tga</Filename>
 			</BG_image>
@@ -212,7 +212,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>PLACEHOLDER7</Name>
+			<Name>mp15</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp15_0.tga</Filename>
 			</BG_image>
@@ -227,7 +227,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>PLACEHOLDER8</Name>
+			<Name>mp16</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp16_0.tga</Filename>
 			</BG_image>
@@ -242,7 +242,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>PLACEHOLDER9</Name>
+			<Name>mp17</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp17_0.tga</Filename>
 			</BG_image>
@@ -257,7 +257,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>PLACEHOLDER10</Name>
+			<Name>mp18</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp18_0.tga</Filename>
 			</BG_image>
@@ -272,7 +272,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>PLACEHOLDER11</Name>
+			<Name>mp19</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp19_0.tga</Filename>
 			</BG_image>
@@ -287,7 +287,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>PLACEHOLDER12</Name>
+			<Name>mp20</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp20_0.tga</Filename>
 			</BG_image>
@@ -301,7 +301,7 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>		
-<!--END-->	
+<!--END-->
 <!--START DLC WC Loading Screens Added-->
 		<LoadingScreen>
 			<Name>dlc03wc1</Name>

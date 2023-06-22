@@ -80,7 +80,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CORNERED_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CORNERED_DESC-->
 			<time_of_day>10:30</time_of_day> <!--From 00:00-->
 			<distance_multiplier>0.75</distance_multiplier> <!--From 1.2-->
 			<level_image_name>mp_thumb_cascade</level_image_name>
@@ -116,7 +116,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CORNERED_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CORNERED_DESC-->
 			<time_of_day>00:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_complex</level_image_name>
@@ -186,7 +186,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CORNERED_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CORNERED_DESC-->
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.2</distance_multiplier>
 			<level_image_name>mp_thumb_cornered</level_image_name>
@@ -222,7 +222,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CRASH_SITE_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CRASH_SITE_DESC-->
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crashsite</level_image_name>
@@ -258,7 +258,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>Oasis Ring</Description>
+			<Description>0</Description> <!--From Oasis Ring-->
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crescent</level_image_name>
@@ -294,7 +294,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_OUTPOST_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_OUTPOST_DESC-->
 			<time_of_day>00:00</time_of_day>
 			<distance_multiplier>1.35</distance_multiplier>
 			<level_image_name>mp_thumb_crevice</level_image_name>
@@ -330,7 +330,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_DEADZONE_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_DEADZONE_DESC-->
 			<time_of_day>08:30</time_of_day> <!--From 17:30-->
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_deadzone</level_image_name>
@@ -401,7 +401,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CRASH_SITE_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CRASH_SITE_DESC-->
 			<time_of_day>14:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crossover</level_image_name>
@@ -437,7 +437,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_DOWNFALL_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_DOWNFALL_DESC-->
 			<time_of_day>07:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_downfall</level_image_name>
@@ -507,7 +507,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_ROUND_ABOUT_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_ROUND_ABOUT_DESC-->
 			<time_of_day>16:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_excavation</level_image_name>
@@ -577,7 +577,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CORNERED_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CORNERED_DESC-->
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier> <!--From 1.2-->
 			<level_image_name>mp_thumb_factory</level_image_name>
@@ -612,7 +612,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>Plateaus</Description>
+			<Description>0</Description> <!--From Plateaus-->
 			<time_of_day>19:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_fallfactor</level_image_name>
@@ -647,7 +647,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CORNERED_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CORNERED_DESC-->
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_fortress</level_image_name>
@@ -682,7 +682,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>Eos Construction</Description>
+			<Description>0</Description> <!--From Eos Construction-->
 			<time_of_day>18:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_framework</level_image_name>
@@ -753,7 +753,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_BEACON_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_BEACON_DESC-->
 			<time_of_day>20:30</time_of_day>
 			<distance_multiplier>1.25</distance_multiplier>
 			<level_image_name>mp_thumb_garrison</level_image_name>
@@ -824,7 +824,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>Mixed Slope</Description>
+			<Description>0</Description> <!--From Mixed Slope-->
 			<time_of_day>10:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_gauntlet</level_image_name>
@@ -860,7 +860,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CORNERED_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CORNERED_DESC-->
 			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier> <!--From 1.2-->
 			<level_image_name>mp_thumb_gulch</level_image_name>
@@ -1036,7 +1036,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CRASH_SITE_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CRASH_SITE_DESC-->
 			<time_of_day>00:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_assembly</level_image_name>
@@ -1071,7 +1071,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_OVERPASS_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_OVERPASS_DESC-->
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_overpass</level_image_name>
@@ -1107,7 +1107,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>Eos Top of the World</Description>
+			<Description>0</Description> <!--From Eos Top of the World-->
 			<time_of_day>18:30</time_of_day> <!--From 07:00-->
 			<distance_multiplier>1.25</distance_multiplier>
 			<level_image_name>mp_thumb_pinnacle</level_image_name>
@@ -1142,7 +1142,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CORNERED_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CORNERED_DESC-->
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier> <!--From 1.5-->
 			<level_image_name>mp_thumb_pipeline</level_image_name>
@@ -1212,7 +1212,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>2-4 player map, just buildings</Description>
+			<Description>0</Description> <!--From 2-4 player map, just buildings-->
 			<time_of_day>07:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_quarantine</level_image_name>
@@ -1248,7 +1248,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_RADIAL_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_RADIAL_DESC-->
 			<time_of_day>15:00</time_of_day> <!--From 08:30-->
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_radial</level_image_name>
@@ -1355,7 +1355,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>Oasis Rift</Description>
+			<Description>0</Description> <!--From Oasis Rift-->
 			<time_of_day>14:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_rift</level_image_name>
@@ -1426,7 +1426,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_SAND_PIT_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_SAND_PIT_DESC-->
 			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_sandpit</level_image_name>
@@ -1461,7 +1461,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CORNERED_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CORNERED_DESC-->
 			<time_of_day>21:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_scrapheap</level_image_name>
@@ -1477,7 +1477,7 @@
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
 				<!--<Flag>capture_the_flag</Flag>--> <!--Assets not implemented-->
-				<!--<Flag>king_of_the_hill</Flag>-->
+				<!--<Flag>king_of_the_hill</Flag>--> <!--Assets not implemented-->
 			</mode_flags>
 			<alternate_time_of_day>7:30</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -1496,7 +1496,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>Early Crater Settlement</Description>
+			<Description>0</Description> <!--From Early Crater Settlement-->
 			<time_of_day>09:00</time_of_day>
 			<distance_multiplier>1.6</distance_multiplier>
 			<level_image_name>mp_thumb_settlement</level_image_name>
@@ -1567,7 +1567,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CORNERED_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CORNERED_DESC-->
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier> <!--From 1.5-->
 			<level_image_name>mp_thumb_transmission</level_image_name>
@@ -1602,7 +1602,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CORNERED_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CORNERED_DESC-->
 			<time_of_day>19:00</time_of_day> <!--From 12:00-->
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_vista</level_image_name>
@@ -1637,7 +1637,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>Warlords-inspired</Description>
+			<Description>0</Description> <!--From Warlords-inspired-->
 			<time_of_day>18:00</time_of_day>
 			<distance_multiplier>1.25</distance_multiplier>
 			<level_image_name>mp_thumb_warlords</level_image_name>
@@ -1672,7 +1672,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>Marauder Rolling Hills</Description>
+			<Description>0</Description> <!--From Marauder Rolling Hills-->
 			<time_of_day>21:00</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier>
 			<level_image_name>mp_thumb_wasteland</level_image_name>
@@ -1707,7 +1707,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>MENU_LEVEL_CORNERED_DESC</Description>
+			<Description>0</Description> <!--From MENU_LEVEL_CORNERED_DESC-->
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_watchtower</level_image_name>
@@ -1742,7 +1742,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>Crashed Ship Wreckage</Description>
+			<Description>0</Description> <!--From Crashed Ship Wreckage-->
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_wreckage</level_image_name>
