@@ -26,7 +26,7 @@
 				<Flag>king_of_the_hill</Flag>
 				<Flag>capture_the_flag</Flag>			
 			</mode_flags>
-			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<alternate_time_of_day>14:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
@@ -58,7 +58,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>		
 			</mode_flags>
-			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<alternate_time_of_day>07:00</alternate_time_of_day>
 			<glow_multiplier>3.2</glow_multiplier>
 			<alternate_glow_multiplier>1.6</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
@@ -129,7 +129,7 @@
 				<Flag>capture_the_flag</Flag>
 				<Flag>demolition</Flag>
 			</mode_flags>
-			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<alternate_time_of_day>15:30</alternate_time_of_day>
 			<glow_multiplier>2.0</glow_multiplier>
 			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
@@ -164,7 +164,7 @@
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>	
 			</mode_flags>
-			<alternate_time_of_day>15:30</alternate_time_of_day>
+			<alternate_time_of_day>15:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>7</alternate_glow_multiplier>
 			<ideal_min_players>6</ideal_min_players>
@@ -197,7 +197,7 @@
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
 			</mode_flags>
-			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<alternate_time_of_day>19:00</alternate_time_of_day>
 			<glow_multiplier>2.2</glow_multiplier>
 			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
