@@ -83,7 +83,6 @@ v1.02 ALPHA CHANGES
 
 [Misc]
 * Added collision to some objects in the game so they now react to player movement such as ambient objects NPCs drop or use & small rocks in singleplayer
-* Added drop shadows to some objects that were missing them
 * Blood decal size & probability tweaks
 * Draw distance increased for various objects & decals in the game
 * Decals such as bullet holes no longer despawn as quickly
@@ -285,7 +284,6 @@ v1.06 ALPHA CHANGES
 [Fixes]
 * Fixed bug with glass bullet holes with lots of them spawning at once looking weird & causing lag when player zoomed in to the decal
 * Fixed issue with broken loading screens & thumbnails when wrecking crew maps are played in the regular wrecking crew mode, also gave them the same HD textures as the multiplayer versions
-* Fixed more objects that were missing shadows
 * Fixed some of the vanilla bugs with out of bounds map exploits on Haven, Doubletime, Equilbrium, Downfall, Abandoned & Compound
 * Fixed vanilla bug with missing objects on various maps when played in Demolition & Bagman
 * Fixed Marauder Lady character having the wrong footstep sounds
@@ -599,7 +597,6 @@ v1.07 ALPHA CHANGES
 * Fixed issue with extreme cloud speeds on multiplayer maps
 * Fixed some issues with broken missions in singleplayer
 * Fixed issue with some of the recent stealth pack rebalance changes not applying
-* Fixed some DLC objects missing shadows
 * Reverted change to "Max_simultaneous_proxies" in tweak_table.xtbl in case it causes issues/crashes
 * Optimized more files to reduce memory pool load increasing stability
 * Various other fixes, improvements & adjustments to player, weapon & backpack spawns on all multiplayer & wrecking crew maps
@@ -952,11 +949,14 @@ v1.08 BETA CHANGES
 
 [Misc]
 * Patch rebuilt from scratch to reduce file size significantly thanks to the new SyncFaction update
-* Added missing drop shadows to various objects
-* lod_properties.xtbl optimizations
+* Optimized lod_properties.xtbl
 * Reverted changes to glares.xtbl since it didn't seem to do anything
 * Enabled SP only effects in MP, will be useful for mapping in future when working with object_effects
 * Changed ideal players for Gradient to 4-8 from 6-10
+* Renamed Lab Lady to Scientist
+* Renamed Outcast to Marie (her actual name in the files)
+* Renamed Marauder Lady to Camie (her actual name in the files)
+* Added colored names to new MP characters
 
 [New Maps]
 * Added Warehouse, an expansive interior only map designed for 2-8 players
@@ -986,12 +986,15 @@ v1.08 BETA CHANGES
 
 [Retribution Map Updates]
 
+[Townhall Map Updates]
+
 [Wrecking Crew]
 * Renamed map filenames to "vanilla_wc1" etc
 * Updated maps with various fixes
 
 [Misc Fixes]
-* Fixed a spawn with incorrect math on Transmission
+* Fixed some spawns on Transmission
+* Fixed some spawns on Partial Recall
 * Fixed SP DLC crash when starting a new game or loading a save
 * Fixed vanilla issue with missing specular textures in SP
 * Fixed vanilla issue with memorial texture in SP
