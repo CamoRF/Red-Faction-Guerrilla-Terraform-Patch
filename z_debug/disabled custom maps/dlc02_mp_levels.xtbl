@@ -1,6 +1,6 @@
 <root>
 	<Table>		
-		<mp_level_list>
+<!--	<mp_level_list>
 			<Name>Townhall</Name>
 			<Filename>mp_townhall</Filename>
 			<_Editor>
@@ -164,7 +164,7 @@
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>	
 			</mode_flags>
-			<alternate_time_of_day>15:30</alternate_time_of_day>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>7</alternate_glow_multiplier>
 			<ideal_min_players>6</ideal_min_players>
@@ -203,9 +203,9 @@
 			<ideal_min_players>2</ideal_min_players>
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Partial Recall</Load_image>
-			<demolition_damage_multiplier>2.0</demolition_damage_multiplier> <!--From 0.9-->
+			<demolition_damage_multiplier>2.0</demolition_damage_multiplier>
 		</mp_level_list>
-<!--	<mp_level_list>
+		<mp_level_list>
 			<Name>Dropoff</Name>
 			<Filename>mp_dropoff</Filename>
 			<_Editor>
@@ -238,8 +238,8 @@
 			<ideal_max_players>16</ideal_max_players>
 			<Load_image>Dropoff</Load_image>
 			<demolition_damage_multiplier>1.75</demolition_damage_multiplier>
-		</mp_level_list>-->
-<!--	<mp_level_list>
+		</mp_level_list>
+		<mp_level_list>
 			<Name>Spire</Name>
 			<Filename>mp_spire</Filename>
 			<_Editor>

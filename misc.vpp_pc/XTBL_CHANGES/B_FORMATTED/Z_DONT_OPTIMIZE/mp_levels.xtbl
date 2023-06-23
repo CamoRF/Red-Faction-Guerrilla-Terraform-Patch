@@ -226,7 +226,7 @@
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crashsite</level_image_name>
-			<dust_enabled>False</dust_enabled> <!--From True-->
+			<dust_enabled>True</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
 			<Display_name>MENU_LEVEL_CRASH_SITE</Display_name>
@@ -262,7 +262,7 @@
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crescent</level_image_name>
-			<dust_enabled>False</dust_enabled> <!--From True-->
+			<dust_enabled>True</dust_enabled>
 			<wind_intensity>50</wind_intensity>
 			<wind_direction>215</wind_direction>
 			<Display_name>MENU_LEVEL_CRESCENT</Display_name>
@@ -616,7 +616,7 @@
 			<time_of_day>19:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_fallfactor</level_image_name>
-			<dust_enabled>False</dust_enabled> <!--From True-->
+			<dust_enabled>True</dust_enabled>
 			<wind_intensity>80.0</wind_intensity>
 			<wind_direction>25.0</wind_direction>
 			<Display_name>MENU_LEVEL_FALL_FACTOR</Display_name>
@@ -686,7 +686,7 @@
 			<time_of_day>18:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_framework</level_image_name>
-			<dust_enabled>False</dust_enabled> <!--From True-->
+			<dust_enabled>True</dust_enabled>
 			<wind_intensity>65</wind_intensity>
 			<wind_direction>20</wind_direction>
 			<Display_name>MENU_LEVEL_FRAMEWORK</Display_name>
@@ -864,7 +864,7 @@
 			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier> <!--From 1.2-->
 			<level_image_name>mp_thumb_gulch</level_image_name>
-			<dust_enabled>False</dust_enabled> <!--From True-->
+			<dust_enabled>True</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
 			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC7</Display_name>
@@ -1430,7 +1430,7 @@
 			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_sandpit</level_image_name>
-			<dust_enabled>False</dust_enabled> <!--From True-->
+			<dust_enabled>True</dust_enabled>
 			<wind_intensity>70.0</wind_intensity>
 			<wind_direction>200.0</wind_direction>
 			<Display_name>MENU_LEVEL_SAND_PIT</Display_name>
@@ -1500,7 +1500,7 @@
 			<time_of_day>09:00</time_of_day>
 			<distance_multiplier>1.6</distance_multiplier>
 			<level_image_name>mp_thumb_settlement</level_image_name>
-			<dust_enabled>False</dust_enabled> <!--From True-->
+			<dust_enabled>True</dust_enabled>
 			<wind_intensity>50</wind_intensity>
 			<wind_direction>315</wind_direction>
 			<Display_name>MENU_LEVEL_SETTLEMENT</Display_name>
@@ -1676,7 +1676,7 @@
 			<time_of_day>21:00</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier>
 			<level_image_name>mp_thumb_wasteland</level_image_name>
-			<dust_enabled>False</dust_enabled> <!--From True-->
+			<dust_enabled>True</dust_enabled>
 			<wind_intensity>70</wind_intensity>
 			<wind_direction>15</wind_direction>
 			<Display_name>MENU_LEVEL_WASTELAND</Display_name>
