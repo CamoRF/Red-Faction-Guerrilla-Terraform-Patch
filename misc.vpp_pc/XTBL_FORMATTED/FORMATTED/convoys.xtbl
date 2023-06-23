@@ -1,0 +1,997 @@
+<root>
+	<Table>
+		<Convoy>
+			<Name>je_cd_02</Name>
+			<difficulty>1</difficulty>
+			<NormalSpeed>8</NormalSpeed>
+			<EvadeSpeed>8</EvadeSpeed>
+			<Type>Destroy</Type>
+			<MemberSquads>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_1</Squad>
+					<VehicleGroup>Col_FuelTanker_1</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_1</Squad>
+					<VehicleGroup>Col_FuelTanker_1</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_1</Squad>
+					<VehicleGroup>Col_FuelTanker_1</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+			</MemberSquads>
+			<_Editor>
+				<Category>Entries:Tharsis</Category>
+			</_Editor>
+			<base_activity_data>je_cd_02</base_activity_data>
+			<Standard_Rewards>
+				<EDF_Control_Reduction>35</EDF_Control_Reduction>
+				<Morale_Increase>10</Morale_Increase>
+			</Standard_Rewards>
+			<tod_info>
+				<spawn_start_time>6</spawn_start_time>
+				<spawn_end_time>12</spawn_end_time>
+			</tod_info>
+			<Radio_Lines>
+				<Start_F>act_cd_02A_fem01_start</Start_F>
+				<Start_M>act_cd_02A_mal01_start</Start_M>
+				<Destroyed_Vehicle>act_cd_00A_veh_destroyed</Destroyed_Vehicle>
+				<Destroyed_Vehicle_Res_F>act_cd_00A_fem01_veh_destroyed_res</Destroyed_Vehicle_Res_F>
+				<Destroyed_Vehicle_Res_M>act_cd_00A_mal01_veh_destroyed_res</Destroyed_Vehicle_Res_M>
+				<Fail_F>act_cd_02A_fem01_fail</Fail_F>
+				<Fail_M>act_cd_02A_mal01_fail</Fail_M>
+				<Distance_50_F>act_cn_00A_fem01_distance_50</Distance_50_F>
+				<Distance_50_M>act_cn_00A_mal01_distance_50</Distance_50_M>
+			</Radio_Lines>
+		</Convoy>
+		<Convoy>
+			<Name>je_cc_01</Name>
+			<difficulty>2</difficulty>
+			<NormalSpeed>10</NormalSpeed>
+			<EvadeSpeed>10</EvadeSpeed>
+			<Type>Capture</Type>
+			<MemberSquads>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Defender</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_1</Squad>
+					<VehicleGroup>EDF_APC</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Defender</Role>
+				</SquadInfo>
+			</MemberSquads>
+			<_Editor>
+				<Category>Entries:Tharsis</Category>
+			</_Editor>
+			<base_activity_data>je_cc_01</base_activity_data>
+			<Standard_Rewards>
+				<EDF_Control_Reduction>40</EDF_Control_Reduction>
+				<Morale_Increase>10</Morale_Increase>
+			</Standard_Rewards>
+			<Radio_Lines>
+				<Start_F>act_cc_01A_fem01_start</Start_F>
+				<Start_M>act_cc_01A_mal01_start</Start_M>
+				<Captured_Vehicle>act_cc_00A_veh_captured</Captured_Vehicle>
+				<Captured_Vehicle_Res_F>act_cc_00A_fem01_veh_captured_res</Captured_Vehicle_Res_F>
+				<Captured_Vehicle_Res_M>act_cc_00A_mal01_veh_captured_res</Captured_Vehicle_Res_M>
+				<Destroyed_Vehicle>act_cc_00A_veh_destroyed</Destroyed_Vehicle>
+				<Destroyed_Vehicle_Res_F>act_cc_00A_fem01_veh_destroyed_res</Destroyed_Vehicle_Res_F>
+				<Destroyed_Vehicle_Res_M>act_cc_00A_mal01_veh_destroyed_res</Destroyed_Vehicle_Res_M>
+				<Delivered_Vehicle_F>act_cc_00A_fem01_veh_delivered</Delivered_Vehicle_F>
+				<Delivered_Vehicle_M>act_cc_00A_mal01_veh_delivered</Delivered_Vehicle_M>
+				<Escaping_Vehicle_F>act_cc_00A_fem01_veh_escape</Escaping_Vehicle_F>
+				<Escaping_Vehicle_M>act_cc_00A_mal01_veh_escape</Escaping_Vehicle_M>
+				<Fail_F>act_cc_01A_fem01_fail</Fail_F>
+				<Fail_M>act_cc_01A_mal01_fail</Fail_M>
+				<Distance_50_F>act_cn_00A_fem01_distance_50</Distance_50_F>
+				<Distance_50_M>act_cn_00A_mal01_distance_50</Distance_50_M>
+			</Radio_Lines>
+			<tod_info>
+				<spawn_start_time>12</spawn_start_time>
+				<spawn_end_time>18</spawn_end_time>
+			</tod_info>
+		</Convoy>
+		<Convoy>
+			<Name>je_cd_01</Name>
+			<difficulty>3</difficulty>
+			<NormalSpeed>8</NormalSpeed>
+			<EvadeSpeed>8</EvadeSpeed>
+			<Type>Destroy</Type>
+			<MemberSquads>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>EDF_Supplytruck_NoTurret</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+			</MemberSquads>
+			<_Editor>
+				<Category>Entries:Tharsis</Category>
+			</_Editor>
+			<base_activity_data>je_cd_01</base_activity_data>
+			<Standard_Rewards>
+				<EDF_Control_Reduction>35</EDF_Control_Reduction>
+				<Morale_Increase>10</Morale_Increase>
+			</Standard_Rewards>
+			<tod_info>
+				<spawn_start_time>18</spawn_start_time>
+				<spawn_end_time>24</spawn_end_time>
+			</tod_info>
+			<Radio_Lines>
+				<Start_F>act_cd_01A_fem01_start</Start_F>
+				<Start_M>act_cd_01A_mal01_start</Start_M>
+				<Destroyed_Vehicle>act_cd_00A_veh_destroyed</Destroyed_Vehicle>
+				<Destroyed_Vehicle_Res_F>act_cd_00A_fem01_veh_destroyed_res</Destroyed_Vehicle_Res_F>
+				<Destroyed_Vehicle_Res_M>act_cd_00A_mal01_veh_destroyed_res</Destroyed_Vehicle_Res_M>
+				<Fail_F>act_cd_01A_fem01_fail</Fail_F>
+				<Fail_M>act_cd_01A_mal01_fail</Fail_M>
+				<Distance_50_F>act_cn_00A_fem01_distance_50</Distance_50_F>
+				<Distance_50_M>act_cn_00A_mal01_distance_50</Distance_50_M>
+			</Radio_Lines>
+		</Convoy>
+		<Convoy>
+			<Name>je_cd_04</Name>
+			<difficulty>4</difficulty>
+			<NormalSpeed>8</NormalSpeed>
+			<EvadeSpeed>8</EvadeSpeed>
+			<Type>Destroy</Type>
+			<MemberSquads>
+				<SquadInfo>
+					<Squad>basic_squad_7</Squad>
+					<VehicleGroup>EDF_APC_Gauss</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_4</Squad>
+					<VehicleGroup>EDF_APC_NoTurret</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_4</Squad>
+					<VehicleGroup>EDF_APC_NoTurret</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_7</Squad>
+					<VehicleGroup>EDF_APC_NoTurret</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+			</MemberSquads>
+			<_Editor>
+				<Category>Entries:Tharsis</Category>
+			</_Editor>
+			<base_activity_data>je_cd_04</base_activity_data>
+			<Standard_Rewards>
+				<EDF_Control_Reduction>35</EDF_Control_Reduction>
+				<Morale_Increase>10</Morale_Increase>
+			</Standard_Rewards>
+			<tod_info>
+				<spawn_start_time>24</spawn_start_time>
+				<spawn_end_time>6</spawn_end_time>
+			</tod_info>
+			<Radio_Lines>
+				<Start_F>act_cd_04A_fem01_start</Start_F>
+				<Start_M>act_cd_04A_mal01_start</Start_M>
+				<Destroyed_Vehicle>act_cd_00A_veh_destroyed</Destroyed_Vehicle>
+				<Destroyed_Vehicle_Res_F>act_cd_00A_fem01_veh_destroyed_res</Destroyed_Vehicle_Res_F>
+				<Destroyed_Vehicle_Res_M>act_cd_00A_mal01_veh_destroyed_res</Destroyed_Vehicle_Res_M>
+				<Fail_F>act_cd_04A_fem01_fail</Fail_F>
+				<Fail_M>act_cd_04A_mal01_fail</Fail_M>
+				<Distance_50_F>act_cn_00A_fem01_distance_50</Distance_50_F>
+				<Distance_50_M>act_cn_00A_mal01_distance_50</Distance_50_M>
+			</Radio_Lines>
+		</Convoy>
+		<Convoy>
+			<Name>je_cc_02</Name>
+			<difficulty>5</difficulty>
+			<NormalSpeed>10</NormalSpeed>
+			<EvadeSpeed>10</EvadeSpeed>
+			<Type>Capture</Type>
+			<MemberSquads>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Defender</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>EDF_APC</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Defender</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+			</MemberSquads>
+			<_Editor>
+				<Category>Entries:Tharsis</Category>
+			</_Editor>
+			<base_activity_data>je_cc_02</base_activity_data>
+			<Standard_Rewards>
+				<EDF_Control_Reduction>40</EDF_Control_Reduction>
+				<Morale_Increase>10</Morale_Increase>
+			</Standard_Rewards>
+			<tod_info>
+				<spawn_start_time>6</spawn_start_time>
+				<spawn_end_time>12</spawn_end_time>
+			</tod_info>
+			<Radio_Lines>
+				<Start_F>act_cc_02A_fem01_start</Start_F>
+				<Start_M>act_cc_02A_mal01_start</Start_M>
+				<Captured_Vehicle>act_cc_00A_veh_captured</Captured_Vehicle>
+				<Captured_Vehicle_Res_F>act_cc_00A_fem01_veh_captured_res</Captured_Vehicle_Res_F>
+				<Captured_Vehicle_Res_M>act_cc_00A_mal01_veh_captured_res</Captured_Vehicle_Res_M>
+				<Destroyed_Vehicle>act_cc_00A_veh_destroyed</Destroyed_Vehicle>
+				<Destroyed_Vehicle_Res_F>act_cc_00A_fem01_veh_destroyed_res</Destroyed_Vehicle_Res_F>
+				<Destroyed_Vehicle_Res_M>act_cc_00A_mal01_veh_destroyed_res</Destroyed_Vehicle_Res_M>
+				<Delivered_Vehicle_F>act_cc_00A_fem01_veh_delivered</Delivered_Vehicle_F>
+				<Delivered_Vehicle_M>act_cc_00A_mal01_veh_delivered</Delivered_Vehicle_M>
+				<Escaping_Vehicle_F>act_cc_00A_fem01_veh_escape</Escaping_Vehicle_F>
+				<Escaping_Vehicle_M>act_cc_00A_mal01_veh_escape</Escaping_Vehicle_M>
+				<Fail_F>act_cc_02A_fem01_fail</Fail_F>
+				<Fail_M>act_cc_02A_mal01_fail</Fail_M>
+				<Distance_50_F>act_cn_00A_fem01_distance_50</Distance_50_F>
+				<Distance_50_M>act_cn_00A_mal01_distance_50</Distance_50_M>
+			</Radio_Lines>
+		</Convoy>
+		<Convoy>
+			<Name>je_cc_03</Name>
+			<difficulty>6</difficulty>
+			<NormalSpeed>10</NormalSpeed>
+			<EvadeSpeed>10</EvadeSpeed>
+			<Type>Capture</Type>
+			<MemberSquads>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Defender</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Col_FuelTanker_1</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Defender</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+			</MemberSquads>
+			<_Editor>
+				<Category>Entries:Tharsis</Category>
+			</_Editor>
+			<base_activity_data>je_cc_03</base_activity_data>
+			<Standard_Rewards>
+				<EDF_Control_Reduction>40</EDF_Control_Reduction>
+				<Morale_Increase>10</Morale_Increase>
+			</Standard_Rewards>
+			<tod_info>
+				<spawn_start_time>12</spawn_start_time>
+				<spawn_end_time>18</spawn_end_time>
+			</tod_info>
+			<Radio_Lines>
+				<Start_F>act_cc_03A_fem01_start</Start_F>
+				<Start_M>act_cc_03A_mal01_start</Start_M>
+				<Captured_Vehicle>act_cc_00A_veh_captured</Captured_Vehicle>
+				<Captured_Vehicle_Res_F>act_cc_00A_fem01_veh_captured_res</Captured_Vehicle_Res_F>
+				<Captured_Vehicle_Res_M>act_cc_00A_mal01_veh_captured_res</Captured_Vehicle_Res_M>
+				<Destroyed_Vehicle>act_cc_00A_veh_destroyed</Destroyed_Vehicle>
+				<Destroyed_Vehicle_Res_F>act_cc_00A_fem01_veh_destroyed_res</Destroyed_Vehicle_Res_F>
+				<Destroyed_Vehicle_Res_M>act_cc_00A_mal01_veh_destroyed_res</Destroyed_Vehicle_Res_M>
+				<Delivered_Vehicle_F>act_cc_00A_fem01_veh_delivered</Delivered_Vehicle_F>
+				<Delivered_Vehicle_M>act_cc_00A_mal01_veh_delivered</Delivered_Vehicle_M>
+				<Escaping_Vehicle_F>act_cc_00A_fem01_veh_escape</Escaping_Vehicle_F>
+				<Escaping_Vehicle_M>act_cc_00A_mal01_veh_escape</Escaping_Vehicle_M>
+				<Fail_F>act_cc_03A_fem01_fail</Fail_F>
+				<Fail_M>act_cc_03A_mal01_fail</Fail_M>
+				<Distance_50_F>act_cn_00A_fem01_distance_50</Distance_50_F>
+				<Distance_50_M>act_cn_00A_mal01_distance_50</Distance_50_M>
+			</Radio_Lines>
+		</Convoy>
+		<Convoy>
+			<Name>je_cd_03</Name>
+			<difficulty>7</difficulty>
+			<NormalSpeed>10</NormalSpeed>
+			<EvadeSpeed>10</EvadeSpeed>
+			<Type>Destroy</Type>
+			<MemberSquads>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_1</Squad>
+					<VehicleGroup>EDF_tank_heavy</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_1</Squad>
+					<VehicleGroup>EDF_tank_heavy</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+			</MemberSquads>
+			<_Editor>
+				<Category>Entries:Tharsis</Category>
+			</_Editor>
+			<base_activity_data>je_cd_03</base_activity_data>
+			<Standard_Rewards>
+				<EDF_Control_Reduction>35</EDF_Control_Reduction>
+				<Morale_Increase>10</Morale_Increase>
+			</Standard_Rewards>
+			<tod_info>
+				<spawn_start_time>18</spawn_start_time>
+				<spawn_end_time>24</spawn_end_time>
+			</tod_info>
+			<Radio_Lines>
+				<Start_F>act_cd_03A_fem01_start</Start_F>
+				<Start_M>act_cd_03A_mal01_start</Start_M>
+				<Destroyed_Vehicle>act_cd_00A_veh_destroyed</Destroyed_Vehicle>
+				<Destroyed_Vehicle_Res_F>act_cd_00A_fem01_veh_destroyed_res</Destroyed_Vehicle_Res_F>
+				<Destroyed_Vehicle_Res_M>act_cd_00A_mal01_veh_destroyed_res</Destroyed_Vehicle_Res_M>
+				<Fail_F>act_cd_03A_fem01_fail</Fail_F>
+				<Fail_M>act_cd_03A_mal01_fail</Fail_M>
+				<Distance_50_F>act_cn_00A_fem01_distance_50</Distance_50_F>
+				<Distance_50_M>act_cn_00A_mal01_distance_50</Distance_50_M>
+			</Radio_Lines>
+		</Convoy>
+		<Convoy>
+			<Name>je_test_01</Name>
+			<difficulty>1</difficulty>
+			<NormalSpeed>4.0</NormalSpeed>
+			<EvadeSpeed>6.0</EvadeSpeed>
+			<Type>Destroy</Type>
+			<MemberSquads>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>gue_pickup</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>gue_pickup</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>gue_pickup</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+			</MemberSquads>
+			<Standard_Rewards></Standard_Rewards>
+			<_Editor>
+				<Category>Entries:Test</Category>
+			</_Editor>
+			<base_activity_data>je_test_01</base_activity_data>
+		</Convoy>
+		<Convoy>
+			<Name>mission_ants</Name>
+			<difficulty>1</difficulty>
+			<NormalSpeed>4.0</NormalSpeed>
+			<EvadeSpeed>4.0</EvadeSpeed>
+			<Type>Mission</Type>
+			<MemberSquads>
+				<SquadInfo>
+					<Squad>marauder_squad_1</Squad>
+					<VehicleGroup>gue_truck_sup</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>marauder_squad_1</Squad>
+					<VehicleGroup>gue_truck_sup</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>marauder_squad_1</Squad>
+					<VehicleGroup>gue_truck_sup</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+			</MemberSquads>
+			<Standard_Rewards></Standard_Rewards>
+			<_Editor>
+				<Category>Entries:Missions</Category>
+			</_Editor>
+		</Convoy>
+		<Convoy>
+			<Name>je_cc_05</Name>
+			<difficulty>8</difficulty>
+			<NormalSpeed>10</NormalSpeed>
+			<EvadeSpeed>10</EvadeSpeed>
+			<Type>Capture</Type>
+			<MemberSquads>
+				<SquadInfo>
+					<Squad>basic_squad_4</Squad>
+					<VehicleGroup>EDF_staff_car</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_7</Squad>
+					<VehicleGroup>EDF_staff_car</VehicleGroup>
+					<Role>Defender</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_1</Squad>
+					<VehicleGroup>EDF_staff_car</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_7</Squad>
+					<VehicleGroup>EDF_staff_car</VehicleGroup>
+					<Role>Defender</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_4</Squad>
+					<VehicleGroup>EDF_staff_car</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+			</MemberSquads>
+			<_Editor>
+				<Category>Entries:Tharsis</Category>
+			</_Editor>
+			<base_activity_data>je_cc_05</base_activity_data>
+			<Standard_Rewards>
+				<EDF_Control_Reduction>40</EDF_Control_Reduction>
+				<Morale_Increase>10</Morale_Increase>
+			</Standard_Rewards>
+			<tod_info>
+				<spawn_start_time>20</spawn_start_time>
+				<spawn_end_time>4</spawn_end_time>
+			</tod_info>
+			<Radio_Lines>
+				<Start_F>act_cc_05A_fem01_start</Start_F>
+				<Start_M>act_cc_05A_mal01_start</Start_M>
+				<Captured_Vehicle>act_cc_00A_veh_captured</Captured_Vehicle>
+				<Captured_Vehicle_Res_F>act_cc_00A_fem01_veh_captured_res</Captured_Vehicle_Res_F>
+				<Captured_Vehicle_Res_M>act_cc_00A_mal01_veh_captured_res</Captured_Vehicle_Res_M>
+				<Destroyed_Vehicle>act_cc_00A_veh_destroyed</Destroyed_Vehicle>
+				<Destroyed_Vehicle_Res_F>act_cc_00A_fem01_veh_destroyed_res</Destroyed_Vehicle_Res_F>
+				<Destroyed_Vehicle_Res_M>act_cc_00A_mal01_veh_destroyed_res</Destroyed_Vehicle_Res_M>
+				<Delivered_Vehicle_F>act_cc_00A_fem01_veh_delivered</Delivered_Vehicle_F>
+				<Delivered_Vehicle_M>act_cc_00A_mal01_veh_delivered</Delivered_Vehicle_M>
+				<Escaping_Vehicle_F>act_cc_00A_fem01_veh_escape</Escaping_Vehicle_F>
+				<Escaping_Vehicle_M>act_cc_00A_mal01_veh_escape</Escaping_Vehicle_M>
+				<Fail_F>act_cc_05A_fem01_fail</Fail_F>
+				<Fail_M>act_cc_05A_mal01_fail</Fail_M>
+				<Distance_50_F>act_cn_00A_fem01_distance_50</Distance_50_F>
+				<Distance_50_M>act_cn_00A_mal01_distance_50</Distance_50_M>
+			</Radio_Lines>
+		</Convoy>
+		<Convoy>
+			<Name>je_cd_05</Name>
+			<difficulty>9</difficulty>
+			<NormalSpeed>9</NormalSpeed>
+			<EvadeSpeed>8</EvadeSpeed>
+			<Type>Destroy</Type>
+			<MemberSquads>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_1</Squad>
+					<VehicleGroup>EDF_tank_artillery</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Defender</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_1</Squad>
+					<VehicleGroup>EDF_tank_artillery</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Defender</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_1</Squad>
+					<VehicleGroup>EDF_tank_artillery</VehicleGroup>
+					<Role>Target</Role>
+				</SquadInfo>
+				<SquadInfo>
+					<Squad>basic_squad_2</Squad>
+					<VehicleGroup>Default EDF</VehicleGroup>
+					<Role>Break and Attack</Role>
+				</SquadInfo>
+			</MemberSquads>
+			<_Editor>
+				<Category>Entries:Tharsis</Category>
+			</_Editor>
+			<base_activity_data>je_cd_05</base_activity_data>
+			<Standard_Rewards>
+				<EDF_Control_Reduction>35</EDF_Control_Reduction>
+				<Morale_Increase>10</Morale_Increase>
+			</Standard_Rewards>
+			<tod_info>
+				<spawn_start_time>12</spawn_start_time>
+				<spawn_end_time>18</spawn_end_time>
+			</tod_info>
+			<Radio_Lines>
+				<Start_F>act_cd_05A_fem01_start</Start_F>
+				<Destroyed_Vehicle>act_cd_00A_veh_destroyed</Destroyed_Vehicle>
+				<Destroyed_Vehicle_Res_F>act_cd_00A_fem01_veh_destroyed_res</Destroyed_Vehicle_Res_F>
+				<Destroyed_Vehicle_Res_M>act_cd_00A_mal01_veh_destroyed_res</Destroyed_Vehicle_Res_M>
+				<Fail_F>act_cd_05A_fem01_fail</Fail_F>
+				<Distance_50_F>act_cn_00A_fem01_distance_50</Distance_50_F>
+				<Distance_50_M>act_cn_00A_mal01_distance_50</Distance_50_M>
+				<Fail_M>act_cd_05A_mal01_fail</Fail_M>
+				<Start_M>act_cd_05A_mal01_start</Start_M>
+			</Radio_Lines>
+		</Convoy>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<!--<TableDescription>
+		<Name>Convoy</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
+			<MaxLength>24</MaxLength>
+		</Element>
+		<Element>
+			<Name>base_activity_data</Name>
+			<Type>Reference</Type>
+			<Display_Name>Layers / Scripts</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>activity.xtbl</File>
+				<Type>base_activity.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>difficulty</Name>
+			<Type>Int</Type>
+			<Display_Name>Difficulty Level</Display_Name>
+			<Description>How difficult is the convoy, also determines the order in which it will show up.</Description>
+			<Default>1</Default>
+			<MinValue>1</MinValue>
+			<MaxValue>16</MaxValue>
+		</Element>
+		<Element>
+			<Name>NormalSpeed</Name>
+			<Type>Float</Type>
+			<Display_Name>Normal Speed</Display_Name>
+			<Default>4.0</Default>
+			<MinValue>1</MinValue>
+		</Element>
+		<Element>
+			<Name>EvadeSpeed</Name>
+			<Type>Float</Type>
+			<Display_Name>Evade Speed</Display_Name>
+			<Default>6.0</Default>
+			<MinValue>1</MinValue>
+		</Element>
+		<Element>
+			<Name>Tech_Reward</Name>
+			<Type>Int</Type>
+			<Display_Name>Tech Level Reward</Display_Name>
+			<Description>Tech level increase used for capturing vehicles.</Description>
+			<Required>false</Required>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>Type</Name>
+			<Type>Selection</Type>
+			<Description>What type of convoy is this?</Description>
+			<Choice>Capture</Choice>
+			<Choice>Destroy</Choice>
+			<Choice>Mission</Choice>
+		</Element>
+		<Element>
+			<Name>tod_info</Name>
+			<Type>Element</Type>
+			<Display_Name>Time of Day Spawn Info</Display_Name>
+			<Required>false</Required>
+			<Element>
+				<Name>spawn_start_time</Name>
+				<Type>Int</Type>
+				<Display_Name>Earliest Spawn Time (Hour)</Display_Name>
+				<Description>The earliest time of day this convoy is allowed to start up.</Description>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>24</MaxValue>
+			</Element>
+			<Element>
+				<Name>spawn_end_time</Name>
+				<Type>Int</Type>
+				<Display_Name>Latest Spawn Time (Hour)</Display_Name>
+				<Description>This is the latest we are allowed to spawn this convoy</Description>
+				<Default>0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>24</MaxValue>
+			</Element>
+		</Element>
+		<Element>
+			<Name>MemberSquads</Name>
+			<Type>Grid</Type>
+			<Display_Name>Member Squads</Display_Name>
+			<Element>
+				<Name>SquadInfo</Name>
+				<Type>Element</Type>
+				<Display_Name>Squad Info</Display_Name>
+				<Element>
+					<Name>Squad</Name>
+					<Type>Reference</Type>
+					<Reference>
+						<File>squads.xtbl</File>
+						<Type>Squads.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>VehicleGroup</Name>
+					<Type>Reference</Type>
+					<Display_Name>Vehicle Group</Display_Name>
+					<Required>false</Required>
+					<Reference>
+						<File>spawn_group_vehicle.xtbl</File>
+						<Type>spawn_group_vehicle.Name</Type>
+						<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>Role</Name>
+					<Type>Selection</Type>
+					<Default>Target</Default>
+					<Choice>Target</Choice>
+					<Choice>Defender</Choice>
+					<Choice>Break and Attack</Choice>
+					<Choice>On-Foot Escort</Choice>
+				</Element>
+			</Element>
+			<Max_Children>12</Max_Children>
+			<Min_Children>1</Min_Children>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+		<Element>
+			<Name>Radio_Lines</Name>
+			<Type>Element</Type>
+			<Display_Name>Radio Lines</Display_Name>
+			<Description>Various lines that are played throughout the activity.</Description>
+			<Required>false</Required>
+			<Element>
+				<Name>Start_F</Name>
+				<Type>Reference</Type>
+				<Display_Name>Start - F</Display_Name>
+				<Description>Guerrilla radio initiates convoy activity.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Start_M</Name>
+				<Type>Reference</Type>
+				<Display_Name>Start - M</Display_Name>
+				<Description>Guerrilla radio initiates convoy activity.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Captured_Vehicle</Name>
+				<Type>Reference</Type>
+				<Display_Name>Captured Vehicle</Display_Name>
+				<Description>The player radios his base and tells them he captured an EDF convoy vehicle.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Captured_Vehicle_Res_F</Name>
+				<Type>Reference</Type>
+				<Display_Name>Captured Vehicle Res - F</Display_Name>
+				<Description>Guerrilla radio responds to PC "captured" message, act_cc_00A_veh_captured.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Captured_Vehicle_Res_M</Name>
+				<Type>Reference</Type>
+				<Display_Name>Captured Vehicle Res - M</Display_Name>
+				<Description>Guerrilla radio responds to PC "captured" message, act_cc_00A_veh_captured.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Destroyed_Vehicle</Name>
+				<Type>Reference</Type>
+				<Display_Name>Destroyed Vehicle</Display_Name>
+				<Description>PC tells his base he accidentally destroyed the convoy.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Destroyed_Vehicle_Res_F</Name>
+				<Type>Reference</Type>
+				<Display_Name>Destroyed Vehicle Res - F</Display_Name>
+				<Description>Guerrilla radio responds to the PC's message that the vehicle was destroyed.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Destroyed_Vehicle_Res_M</Name>
+				<Type>Reference</Type>
+				<Display_Name>Destroyed Vehicle Res - M</Display_Name>
+				<Description>Guerrilla radio responds to the PC's message that the vehicle was destroyed.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Delivered_Vehicle_F</Name>
+				<Type>Reference</Type>
+				<Display_Name>Delivered Vehicle - F</Display_Name>
+				<Description>Guerrilla radio thanks player for delivering captured convoy vehicle.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Delivered_Vehicle_M</Name>
+				<Type>Reference</Type>
+				<Display_Name>Delivered Vehicle - M</Display_Name>
+				<Description>Guerrilla radio thanks player for delivering captured convoy vehicle.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Escaping_Vehicle_F</Name>
+				<Type>Reference</Type>
+				<Display_Name>Escaping Vehicle - F</Display_Name>
+				<Description>Guerrilla radio informs PC that target vehicle is attempting to escape.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Escaping_Vehicle_M</Name>
+				<Type>Reference</Type>
+				<Display_Name>Escaping Vehicle - M</Display_Name>
+				<Description>Guerrilla radio informs PC that target vehicle is attempting to escape.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Fail_F</Name>
+				<Type>Reference</Type>
+				<Display_Name>Fail - F</Display_Name>
+				<Description>Guerrilla radio informs convoy has reached its destination (fail).</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Fail_M</Name>
+				<Type>Reference</Type>
+				<Display_Name>Fail - M</Display_Name>
+				<Description>Guerrilla radio informs convoy has reached its destination (fail).</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Distance_25_F</Name>
+				<Type>Reference</Type>
+				<Display_Name>Distance 25% - F</Display_Name>
+				<Description>Convoy 25% along route warning - female.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Distance_25_M</Name>
+				<Type>Reference</Type>
+				<Display_Name>Distance 25% - M</Display_Name>
+				<Description>Convoy 25% along route warning - male.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Distance_50_F</Name>
+				<Type>Reference</Type>
+				<Display_Name>Distance 50% - F</Display_Name>
+				<Description>Convoy 50% along route warning - female.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Distance_50_M</Name>
+				<Type>Reference</Type>
+				<Display_Name>Distance 50% - M</Display_Name>
+				<Description>Convoy 50% along route warning - male.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Distance_75_F</Name>
+				<Type>Reference</Type>
+				<Display_Name>Distance 75% - F</Display_Name>
+				<Description>Convoy 75% along route warning - female.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Element>
+				<Name>Distance_75_M</Name>
+				<Type>Reference</Type>
+				<Display_Name>Distance 75% - M</Display_Name>
+				<Description>Convoy 75% along route warning - male.</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		</Element>
+		<Element>
+			<Name>Standard_Rewards</Name>
+			<Type>Element</Type>
+			<Display_Name>Standard Rewards</Display_Name>
+			<Element>
+				<Name>EDF_Control_Reduction</Name>
+				<Type>Float</Type>
+				<Display_Name>EDF Control Reduction</Display_Name>
+				<Required>false</Required>
+				<Default>0.0</Default>
+			</Element>
+			<Element>
+				<Name>Morale_Increase</Name>
+				<Type>Float</Type>
+				<Display_Name>Morale Increase</Display_Name>
+				<Required>false</Required>
+				<Default>0.0</Default>
+			</Element>
+			<Element>
+				<Name>Salvage_Reward</Name>
+				<Type>Int</Type>
+				<Display_Name>Salvage Reward</Display_Name>
+				<Required>false</Required>
+				<Default>0</Default>
+			</Element>
+		</Element>
+	</TableDescription>-->
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+			<Category>
+				<Name>Missions</Name>
+			</Category>
+			<Category>
+				<Name>Test</Name>
+			</Category>
+			<Category>
+				<Name>Tharsis</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

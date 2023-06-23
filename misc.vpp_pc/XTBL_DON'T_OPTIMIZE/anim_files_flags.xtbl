@@ -1,0 +1,95 @@
+<root>
+	<Table>
+		<Anim_files_flags>
+			<Name>Block Rotation</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<XML_Name>Block_Rotation</XML_Name>
+		</Anim_files_flags>
+		<Anim_files_flags>
+			<Name>Block Movement</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<XML_Name>Block_Movement</XML_Name>
+		</Anim_files_flags>
+		<Anim_files_flags>
+			<Name>Transition Action</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<XML_Name>Transition_Action</XML_Name>
+		</Anim_files_flags>
+		<Anim_files_flags>
+			<Name>Zero Input</Name>
+			<XML_Name>Zero_Input</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Anim_files_flags>
+		<Anim_files_flags>
+			<Name>Female Root Offset</Name>
+			<XML_Name>Female_Root_Offset</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Anim_files_flags>
+		<Anim_files_flags>
+			<Name>No Interpolation</Name>
+			<XML_Name>No_Interpolation</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Anim_files_flags>
+		<Anim_files_flags>
+			<Name>No Spinebending</Name>
+			<XML_Name>No_Spinebending</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Anim_files_flags>
+		<Anim_files_flags>
+			<Name>Animation Driven Movement</Name>
+			<XML_Name>Anim_Movement</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Anim_files_flags>
+		<Anim_files_flags>
+			<Name>Disable state audio</Name>
+			<XML_Name>Disable_state_audio</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Anim_files_flags>
+		<Anim_files_flags>
+			<Name>Use Shortest Rotation</Name>
+			<XML_Name>Use_Shortest_Rotation</XML_Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Anim_files_flags>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<!--<TableDescription>
+		<Name>Anim_files_flags</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Display name shown in animation editor</Description>
+		</Element>
+		<Element>
+			<Name>XML_Name</Name>
+			<Type>String</Type>
+			<Display_Name>XML Name</Display_Name>
+			<Description>Flag name saved to xml file</Description>
+		</Element>
+	</TableDescription>-->
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

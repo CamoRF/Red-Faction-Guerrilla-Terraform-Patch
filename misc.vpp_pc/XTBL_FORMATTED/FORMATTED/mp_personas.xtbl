@@ -1,0 +1,90 @@
+<root>
+	<Table>
+		<MP_Persona>
+			<Name>EDF Male</Name>
+			<Persona_List>
+				<Persona>MPE01</Persona>
+				<Persona>MPE02</Persona>
+				<Persona>MPE03</Persona>
+				<Persona>MPE04</Persona>
+			</Persona_List>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</MP_Persona>
+		<MP_Persona>
+			<Name>Guerrilla Male</Name>
+			<Persona_List>
+				<Persona>MPM01</Persona>
+				<Persona>MPM02</Persona>
+				<Persona>MPM03</Persona>
+				<Persona>MPM04</Persona>
+			</Persona_List>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</MP_Persona>
+		<MP_Persona>
+			<Name>Guerrilla Female</Name>
+			<Persona_List>
+				<Persona>MPF01</Persona>
+				<Persona>MPF02</Persona>
+				<Persona>MPF03</Persona>
+				<Persona>MPF04</Persona>
+			</Persona_List>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</MP_Persona>
+		<MP_Persona>
+			<Name>Marauder Male</Name>
+			<Persona_List>
+				<Persona>MSM01</Persona>
+				<Persona>MSM02</Persona>
+				<Persona>MSM03</Persona>
+				<Persona>MSM04</Persona>
+				<Persona>MSM05</Persona>
+				<Persona>MSM06</Persona>
+			</Persona_List>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</MP_Persona>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<!--<TableDescription>
+		<Name>MP_Persona</Name>
+		<Type>TableDescription</Type>
+		<Description>The set of possible personas the character can take on.</Description>
+		<Element>
+			<Name>Name</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>mp_persona_groups.xtbl</File>
+				<Type>MP_Personna_Groups.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Persona_List</Name>
+			<Type>Grid</Type>
+			<Display_Name>Voice Personas</Display_Name>
+			<Description>The set of possible personas the character can take on.</Description>
+			<Element>
+				<Name>Persona</Name>
+				<Type>Reference</Type>
+				<Reference>
+					<File>rfg_voice_personas.xtbl</File>
+					<Type>Persona.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>-->
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

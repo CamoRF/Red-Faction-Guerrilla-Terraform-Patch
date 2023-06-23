@@ -1000,5 +1000,4 @@ v1.08 BETA CHANGES
 * Fixed vanilla issue with memorial texture in SP
 * Fixed various issues with all maps
 * Fixed Fallfactor and Junkyard not having the same specular texture fix as Excavation and Partial Recall
-* Reverted changes to mp_playlists.xtbl and mp_playlist_entries.xtbl in case it was causes issues
-* Reverted optimizing MP & Backpack related files in case it causes issues
+* Reverted changes to mp_playlists.xtbl and mp_playlist_entries.xtbl in case it causes issues

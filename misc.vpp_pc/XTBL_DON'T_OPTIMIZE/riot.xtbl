@@ -1,0 +1,811 @@
+<root>
+	<Table>
+		<Skeleton_Set>
+			<Name>Riot</Name>
+			<Parent_Skeleton>elite</Parent_Skeleton>
+			<Variant_Type>personal shield</Variant_Type>
+			<Groups>
+				<Group>
+					<group>Default</group>
+					<States></States>
+					<Actions>
+						<Action>
+							<ID>crouch death head back</ID>
+							<Animation>
+								<Filename>elite_shld_dth_hd_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death head front</ID>
+							<Animation>
+								<Filename>elite_shld_dth_hd_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death head left</ID>
+							<Animation>
+								<Filename>elite_shld_dth_hd_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death head right</ID>
+							<Animation>
+								<Filename>elite_shld_dth_hd_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death pelvis right</ID>
+							<Animation>
+								<Filename>elite_shld_dth_pelvis_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death torso back</ID>
+							<Animation>
+								<Filename>elite_shld_dth_torso_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death torso front</ID>
+							<Animation>
+								<Filename>elite_shld_dth_torso_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death torso left</ID>
+							<Animation>
+								<Filename>elite_shld_dth_torso_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch death torso right</ID>
+							<Animation>
+								<Filename>elite_shld_dth_torso_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>radio</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stomp civilian</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>kick civilian</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand motion move away</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+				<Group>
+					<group>Rifle</group>
+					<States>
+						<State>
+							<ID>crouch</ID>
+							<Animation>
+								<Filename>elite_shld_crch.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready run</ID>
+							<Animation>
+								<Filename>elite_shld_dwnrd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready</ID>
+							<Animation>
+								<Filename>elite_shld_dwnrd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk</ID>
+							<Animation>
+								<Filename>elite_shld_dwnrd_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready</ID>
+							<Animation>
+								<Filename>elite_shld_rd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready left</ID>
+							<Animation>
+								<Filename>elite_shld_rd_run_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready right</ID>
+							<Animation>
+								<Filename>elite_shld_rd_run_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk_bck</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk_r</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand ready</ID>
+							<Animation>
+								<Filename>elite_shld_rd_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready back</ID>
+							<Animation>
+								<Filename>elite_shld_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk 35</ID>
+							<Animation>
+								<Filename>elite_shld_dwnrd_wlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk dn 35</ID>
+							<Animation>
+								<Filename>elite_shld_dwnrd_wlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready walk anim</ID>
+							<Animation>
+								<Filename>elite_shld_dwnrd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready anim</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready 35</ID>
+							<Animation>
+								<Filename>elite_shld_rdywlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready dn 35</ID>
+							<Animation>
+								<Filename>elite_shld_rdywlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back anim</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back 35</ID>
+							<Animation>
+								<Filename>elite_rdywlk_up_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready back dn 35</ID>
+							<Animation>
+								<Filename>elite_shld_rdywlk_dwn_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right anim</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right 35</ID>
+							<Animation>
+								<Filename>elite_shld_rdywlk_up_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready right dn 35</ID>
+							<Animation>
+								<Filename>elite_shld_rdywlk_dwn_r.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left anim</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left 35</ID>
+							<Animation>
+								<Filename>elite_shld_rdywlk_up_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left dn 35</ID>
+							<Animation>
+								<Filename>elite_shld_rdywlk_dwn_l.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready left</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk_l</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>stand</ID>
+							<Animation>
+								<Filename>elite_shld_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk</ID>
+							<Animation>
+								<Filename>elite_shld_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run</ID>
+							<Animation>
+								<Filename>elite_shld_dwnrd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch ready</ID>
+							<Animation>
+								<Filename>elite_shld_crch.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready crouch</ID>
+							<Animation>
+								<Filename>elite_shld_crch.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready crouch walk</ID>
+							<Animation>
+								<Filename>elite_shld_dwnrd_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>down ready crouch run</ID>
+							<Animation>
+								<Filename>elite_shld_dwnrd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch walk</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch run</ID>
+							<Animation>
+								<Filename>elite_shld_dwnrd_run.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch wlk rdy fwd</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch wlk rdy back</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk_bck</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch wlk rdy left</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk_l</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch wlk rdy right</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk_r</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run panicked</ID>
+							<Animation>
+								<Filename>elite_shld_run_pnckd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>crouch downready</ID>
+							<Animation>
+								<Filename>elite_shld_crch_dwnrd.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk ready backpedal</ID>
+							<Animation>
+								<Filename>elite_shld_rd_wlk_bck</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk anim</ID>
+							<Animation>
+								<Filename>elite_shld_wlk.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk down anim</ID>
+							<Animation>
+								<Filename>elite_shld_wlk_dwn.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>walk up anim</ID>
+							<Animation>
+								<Filename>elite_shld_wlk_up.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>run ready backpedal</ID>
+							<Animation>
+								<Filename>elite_shld_rd_run_bck.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>guard aim</ID>
+							<Animation>
+								<Filename>elite_shld_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>guard shout</ID>
+							<Animation>
+								<Filename>elite_shld_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>low control stand</ID>
+							<Animation>
+								<Filename>elite_shld_low_cntrl_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>low control stand 2</ID>
+							<Animation>
+								<Filename>elite_shld_low_cntrl_std.animx</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>crouch reload</ID>
+							<Animation>
+								<Filename>elite_shld_crch_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch fire</ID>
+							<Animation>
+								<Filename>elite_shld_crch_sht.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch ready shuffle left</ID>
+							<Animation>
+								<Filename>elite_shld_crch_trnsttlel.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch ready shuffle right</ID>
+							<Animation>
+								<Filename>elite_shld_crch_trnsttler.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee</ID>
+							<Animation>
+								<Filename>elite_shld_rd_mele_a.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>melee2</ID>
+							<Animation>
+								<Filename>elite_shld_rd_mele_b.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>reload</ID>
+							<Animation>
+								<Filename>elite_shld_rd_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire</ID>
+							<Animation>
+								<Filename>elite_shld_rd_runfire.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire left</ID>
+							<Animation>
+								<Filename>elite_shld_rd_runfire_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run fire right</ID>
+							<Animation>
+								<Filename>elite_shld_rd_runfire_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand fire</ID>
+							<Animation>
+								<Filename>elite_shld_sht.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>equip</ID>
+							<Animation>
+								<Filename>elite_shld_std_drw.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso backward</ID>
+							<Animation>
+								<Filename>elite_shld_std_flnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight pelvis forward</ID>
+							<Animation>
+								<Filename>elite_shld_std_flnch_fwd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso left</ID>
+							<Animation>
+								<Filename>elite_shld_std_flnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch torso right</ID>
+							<Animation>
+								<Filename>elite_shld_std_flnch_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand ready shuffle left</ID>
+							<Animation>
+								<Filename>elite_shld_std_trnsttlel.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand ready shuffle right</ID>
+							<Animation>
+								<Filename>elite_shld_std_trnsttler.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown left</ID>
+							<Animation>
+								<Filename>elite_shld_explsnknck_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown right</ID>
+							<Animation>
+								<Filename>elite_shld_explsnknck_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown forwards</ID>
+							<Animation>
+								<Filename>elite_shld_std_explsnflnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion knockdown backwards</ID>
+							<Animation>
+								<Filename>elite_shld_explsn_knckdwn_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch slight crouch forward</ID>
+							<Animation>
+								<Filename>elite_shld_crch_flnch_fwd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch explosion flich forward</ID>
+							<Animation>
+								<Filename>elite_shld_crch_explsnflnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>run reload</ID>
+							<Animation>
+								<Filename>elite_shld_runrd_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>flinch head forward</ID>
+							<Animation>
+								<Filename>elite_shld_ram_ul.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>fwd getup</ID>
+							<Animation>
+								<Filename>elite_shld_getup_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>back getup</ID>
+							<Animation>
+								<Filename>elite_shld_getup_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch flinch forwards</ID>
+							<Animation>
+								<Filename>elite_shld_crch_flnch_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>ready flinch mid</ID>
+							<Animation>
+								<Filename>elite_shld_std_flnch.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>crouch walk reload</ID>
+							<Animation>
+								<Filename>elite_shld_crch_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>walk reload</ID>
+							<Animation>
+								<Filename>elite_shld_runrd_rld.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>radio</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stomp civilian</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>kick civilian</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand motion move away</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard threaten</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard warning shot</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard weapon motion</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>shove civilian</ID>
+							<Animation>
+								<Filename>elite_shld_std_thrt_shove.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard look around</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand weapon idle</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>stand weapon idle a</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard shade eyes</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>guard check weapon</ID>
+							<Animation>
+								<Filename>male_null.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch backwards</ID>
+							<Animation>
+								<Filename>elite_shld_std_flnch_bck.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch forwards</ID>
+							<Animation>
+								<Filename>elite_shld_std_flnch_fwd.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch left</ID>
+							<Animation>
+								<Filename>elite_shld_std_flnch_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>explosion flinch right</ID>
+							<Animation>
+								<Filename>elite_shld_std_flnch_r.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+			</Groups>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Skeleton_Set>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<!--<TableDescription>
+		<Name>Skeleton_Set</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Skeleton Set</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Skeleton Name</Display_Name>
+		</Element>
+		<Element>
+			<Name>Parent_Skeleton</Name>
+			<Type>String</Type>
+			<Display_Name>Parent Skeleton</Display_Name>
+			<Required>false</Required>
+		</Element>
+		<Element>
+			<Name>Variant_Type</Name>
+			<Type>Reference</Type>
+			<Display_Name>Variant Type</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>anim_set_variants.xtbl</File>
+				<Type>Override.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Groups</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>Group</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>group</Name>
+					<Type>Reference</Type>
+					<Display_Name>Group</Display_Name>
+					<Unique>true</Unique>
+					<Reference>
+						<File>anim_groups.xtbl</File>
+						<Type>Anim_Group.Name</Type>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>States</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>State</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_states.xtbl</File>
+								<Type>State.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+				<Element>
+					<Name>Actions</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>Action</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_actions.xtbl</File>
+								<Type>Action.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>-->
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>
