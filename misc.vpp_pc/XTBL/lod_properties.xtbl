@@ -1,0 +1,69 @@
+<root>
+	<Table>
+		<LOD>
+			<Name>Default</Name>
+			<lod_off_distance>50</lod_off_distance> <!--From 0.0-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</LOD>
+		<LOD>
+			<Name>1_clutter_extra_small</Name>
+			<lod_off_distance>100</lod_off_distance> <!--From 25-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</LOD>
+		<LOD>
+			<Name>2_clutter_small</Name>
+			<lod_off_distance>200</lod_off_distance> <!--From 50-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</LOD>
+		<LOD>
+			<Name>3_clutter_medium</Name>
+			<lod_off_distance>400</lod_off_distance> <!--From 100-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</LOD>
+		<LOD>
+			<Name>4_clutter_large</Name>
+			<lod_off_distance>600</lod_off_distance> <!--From 150-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</LOD>
+		<LOD>
+			<Name>5_clutter_extra_lrg</Name>
+			<lod_off_distance>800</lod_off_distance> <!--From 200-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</LOD>
+	</Table>
+	<!--<TableTemplates></TableTemplates>-->
+<!--	<TableDescription>
+		<Name>LOD</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Name for this category</Description>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>lod_off_distance</Name>
+			<Type>Float</Type>
+			<Display_Name>LOD Off Distance</Display_Name>
+			<Description>Distance at which the object will stop drawing.</Description>
+			<Default>0.0</Default>
+		</Element>
+	</TableDescription>-->
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

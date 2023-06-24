@@ -1,0 +1,64 @@
+<root>
+	<Table>
+		<activity_stuntman>
+			<Name>Default</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<levels>
+				<level>
+					<min_points>1000</min_points>
+					<message>Nice Jump!</message>
+				</level>
+				<level>
+					<min_points>3000</min_points>
+					<message>Great Jump!</message>
+				</level>
+				<level>
+					<min_points>5000</min_points>
+					<message>Awesome Jump!!</message>
+				</level>
+				<level>
+					<min_points>10000</min_points>
+					<message>HOLY SHIT!!!</message>
+				</level>
+			</levels>
+		</activity_stuntman>
+	</Table>
+	<TableTemplates></TableTemplates>
+<!--	<TableDescription>
+		<Name>activity_stuntman</Name>
+		<Type>TableDescription</Type>
+		<Required>false</Required>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>levels</Name>
+			<Type>List</Type>
+			<Element>
+				<Name>level</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>min_points</Name>
+					<Type>Int</Type>
+					<Default>0</Default>
+				</Element>
+				<Element>
+					<Name>message</Name>
+					<Type>String</Type>
+				</Element>
+			</Element>
+			<Max_Children>10</Max_Children>
+			<Min_Children>1</Min_Children>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>-->
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

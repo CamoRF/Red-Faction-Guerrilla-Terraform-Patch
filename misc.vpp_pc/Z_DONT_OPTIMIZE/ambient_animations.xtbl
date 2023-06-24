@@ -1,0 +1,400 @@
+<root>
+	<Table>
+		<Ambient_Behaviors>
+			<Name>Sit in Chair</Name>
+			<allow_edf>True</allow_edf>
+			<allow_guerrilla>True</allow_guerrilla>
+			<allow_marauder>False</allow_marauder>
+			<allow_player>True</allow_player>
+			<cooldown_period>0</cooldown_period>
+			<Ambient_List>
+				<Ambient_Anims>
+					<Entry_Name>Sit in Chair</Entry_Name>
+					<Function>Object Interaction</Function>
+					<Ambient_Info>
+						<snap_to_parent>True</snap_to_parent>
+						<Object_Interaction>
+							<Object_Name>chair01</Object_Name>
+							<Anim_Offset>
+								<X>2.0</X>
+								<Y>2.0</Y>
+								<Z>0.0</Z>
+							</Anim_Offset>
+							<Anim_Heading>10.0</Anim_Heading>
+						</Object_Interaction>
+						<states>
+							<state_element>
+								<State_Name>Sit in Chair</State_Name>
+								<min_time_in_node>100</min_time_in_node>
+								<max_time_in_node>1000</max_time_in_node>
+								<entry_anim>Stand to Chair</entry_anim>
+								<exit_anim>Chair to Stand</exit_anim>
+								<Actions>
+									<Action_Element>
+										<Action_Name>Look Around</Action_Name>
+									</Action_Element>
+								</Actions>
+							</state_element>
+						</states>
+					</Ambient_Info>
+				</Ambient_Anims>
+			</Ambient_List>
+			<_Editor>
+				<Category>Entries:Object Interactions</Category>
+			</_Editor>
+			<player_prompt>to sit in the Chair</player_prompt>
+			<disable_by_destruction>False</disable_by_destruction>
+			<reusable>True</reusable>
+		</Ambient_Behaviors>
+		<Ambient_Behaviors>
+			<Name>Move Box</Name>
+			<allow_edf>False</allow_edf>
+			<allow_guerrilla>True</allow_guerrilla>
+			<allow_marauder>False</allow_marauder>
+			<allow_player>False</allow_player>
+			<cooldown_period>120</cooldown_period>
+			<Ambient_List>
+				<Ambient_Anims>
+					<Entry_Name>Pick Up Box</Entry_Name>
+					<Function>Pickup Object</Function>
+					<Ambient_Info>
+						<snap_to_parent>False</snap_to_parent>
+						<Object_Interaction>
+							<Object_Name>box01</Object_Name>
+							<Anim_Offset>
+								<X>1</X>
+								<Y>1</Y>
+								<Z>0.0</Z>
+							</Anim_Offset>
+							<Anim_Heading>1.0</Anim_Heading>
+						</Object_Interaction>
+						<states>
+							<state_element>
+								<State_Name>Stand With Box</State_Name>
+								<min_time_in_node>0</min_time_in_node>
+								<max_time_in_node>0</max_time_in_node>
+								<entry_anim>Stand to Pickup Box</entry_anim>
+								<exit_anim>Pickup Box to Stand</exit_anim>
+							</state_element>
+						</states>
+					</Ambient_Info>
+				</Ambient_Anims>
+				<Ambient_Anims>
+					<Entry_Name>Drop Box</Entry_Name>
+					<Function>Drop Object</Function>
+					<Ambient_Info>
+						<snap_to_parent>False</snap_to_parent>
+						<Object_Interaction>
+							<Object_Name>node01</Object_Name>
+							<Anim_Offset>
+								<X>2.0</X>
+								<Y>1.0</Y>
+								<Z>0.0</Z>
+							</Anim_Offset>
+							<Anim_Heading>30.0</Anim_Heading>
+						</Object_Interaction>
+						<states>
+							<state_element>
+								<State_Name>Stand</State_Name>
+								<min_time_in_node>0</min_time_in_node>
+								<max_time_in_node>0</max_time_in_node>
+								<entry_anim>Pick Up Box to Stand</entry_anim>
+								<exit_anim>none</exit_anim>
+							</state_element>
+						</states>
+					</Ambient_Info>
+				</Ambient_Anims>
+			</Ambient_List>
+			<_Editor>
+				<Category>Entries:Object Interactions</Category>
+			</_Editor>
+			<disable_by_destruction>False</disable_by_destruction>
+			<reusable>True</reusable>
+		</Ambient_Behaviors>
+		<Ambient_Behaviors>
+			<Name>Look at Kiosk</Name>
+			<allow_edf>False</allow_edf>
+			<allow_guerrilla>True</allow_guerrilla>
+			<allow_marauder>False</allow_marauder>
+			<allow_player>False</allow_player>
+			<cooldown_period>10</cooldown_period>
+			<Ambient_List>
+				<Ambient_Anims>
+					<Entry_Name>Look at Monitor</Entry_Name>
+					<Function>None</Function>
+					<Ambient_Info>
+						<snap_to_parent>False</snap_to_parent>
+						<states>
+							<state_element>
+								<State_Name>Stand</State_Name>
+								<min_time_in_node>10</min_time_in_node>
+								<max_time_in_node>30</max_time_in_node>
+								<entry_anim>none</entry_anim>
+								<exit_anim>none</exit_anim>
+								<Actions>
+									<Action_Element>
+										<Action_Name>Look Nervous</Action_Name>
+									</Action_Element>
+								</Actions>
+							</state_element>
+						</states>
+					</Ambient_Info>
+				</Ambient_Anims>
+			</Ambient_List>
+			<_Editor>
+				<Category>Entries:Free Interactions</Category>
+			</_Editor>
+			<disable_by_destruction>False</disable_by_destruction>
+			<reusable>True</reusable>
+		</Ambient_Behaviors>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<!--<TableDescription>
+		<Name>Ambient_Behaviors</Name>
+		<Type>TableDescription</Type>
+		<Description>Ambient behavior entries.</Description>
+		<MaxCount>100</MaxCount>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Name of the behavior.</Description>
+			<Unique>true</Unique>
+			<Default>Behavior</Default>
+			<MaxLength>32</MaxLength>
+		</Element>
+		<Element>
+			<Name>allow_edf</Name>
+			<Type>Selection</Type>
+			<Display_Name>Allow EDF</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>allow_guerrilla</Name>
+			<Type>Selection</Type>
+			<Display_Name>Allow Guerrilla</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>allow_marauder</Name>
+			<Type>Selection</Type>
+			<Display_Name>Allow Marauder</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>allow_player</Name>
+			<Type>Selection</Type>
+			<Display_Name>Allow Player</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>disable_by_destruction</Name>
+			<Type>Selection</Type>
+			<Display_Name>Disabled by Destruction</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>reusable</Name>
+			<Type>Selection</Type>
+			<Display_Name>Reusable</Display_Name>
+			<Default>True</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>cooldown_period</Name>
+			<Type>Int</Type>
+			<Display_Name>Cooldown Period (sec)</Display_Name>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>player_prompt</Name>
+			<Type>String</Type>
+			<Display_Name>Player Prompt</Display_Name>
+			<Required>false</Required>
+		</Element>
+		<Element>
+			<Name>Ambient_List</Name>
+			<Type>Grid</Type>
+			<Display_Name>Ambient List</Display_Name>
+			<Element>
+				<Name>Ambient_Anims</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>Entry_Name</Name>
+					<Type>String</Type>
+					<Display_Name>Entry Name</Display_Name>
+				</Element>
+				<Element>
+					<Name>Function</Name>
+					<Type>Selection</Type>
+					<Choice>Drop Object</Choice>
+					<Choice>Pickup Object</Choice>
+					<Choice>None</Choice>
+					<Choice>Object Interaction</Choice>
+				</Element>
+				<Element>
+					<Name>Ambient_Info</Name>
+					<Type>Element</Type>
+					<Display_Name>Ambient Info</Display_Name>
+					<Element>
+						<Name>snap_to_parent</Name>
+						<Type>Selection</Type>
+						<Display_Name>Snap to Parent</Display_Name>
+						<Default>False</Default>
+						<Choice>True</Choice>
+						<Choice>False</Choice>
+					</Element>
+					<Element>
+						<Name>Object_Interaction</Name>
+						<Type>Element</Type>
+						<Display_Name>Object Interaction</Display_Name>
+						<Required>false</Required>
+						<Element>
+							<Name>Object_Name</Name>
+							<Type>String</Type>
+							<Display_Name>Object Name</Display_Name>
+							<Required>false</Required>
+						</Element>
+						<Element>
+							<Name>Anim_Offset</Name>
+							<Type>Vector</Type>
+							<Display_Name>Anim Offset</Display_Name>
+							<Required>false</Required>
+							<X>
+								<Name>X</Name>
+								<Type>Float</Type>
+								<Default>0.0</Default>
+							</X>
+							<Y>
+								<Name>Y</Name>
+								<Type>Float</Type>
+								<Default>0.0</Default>
+							</Y>
+							<Z>
+								<Name>Z</Name>
+								<Type>Float</Type>
+								<Default>0.0</Default>
+							</Z>
+						</Element>
+						<Element>
+							<Name>Anim_Heading</Name>
+							<Type>Float</Type>
+							<Display_Name>Anim Heading</Display_Name>
+							<Required>false</Required>
+							<Default>0.0</Default>
+						</Element>
+					</Element>
+					<Element>
+						<Name>states</Name>
+						<Type>Grid</Type>
+						<Display_Name>States</Display_Name>
+						<Element>
+							<Name>state_element</Name>
+							<Type>Element</Type>
+							<Display_Name>State</Display_Name>
+							<Element>
+								<Name>State_Name</Name>
+								<Type>String</Type>
+							</Element>
+							<Element>
+								<Name>min_time_in_node</Name>
+								<Type>Int</Type>
+								<Display_Name>Min Time</Display_Name>
+								<Description>Duration of the time the game may play this state.</Description>
+								<Default>0</Default>
+							</Element>
+							<Element>
+								<Name>max_time_in_node</Name>
+								<Type>Int</Type>
+								<Display_Name>Max Time</Display_Name>
+								<Default>0</Default>
+							</Element>
+							<Element>
+								<Name>entry_anim</Name>
+								<Type>String</Type>
+								<Display_Name>Entry Animation</Display_Name>
+							</Element>
+							<Element>
+								<Name>exit_anim</Name>
+								<Type>String</Type>
+								<Display_Name>Exit Animation</Display_Name>
+							</Element>
+							<Element>
+								<Name>Actions</Name>
+								<Type>Grid</Type>
+								<Required>false</Required>
+								<Element>
+									<Name>Action_Element</Name>
+									<Type>Element</Type>
+									<Display_Name>Action</Display_Name>
+									<Required>false</Required>
+									<Element>
+										<Name>Action_Name</Name>
+										<Type>String</Type>
+										<Required>false</Required>
+									</Element>
+								</Element>
+								<Num_Display_Rows>8</Num_Display_Rows>
+							</Element>
+						</Element>
+						<Num_Display_Rows>8</Num_Display_Rows>
+					</Element>
+					<Element>
+						<Name>Pathfind_State</Name>
+						<Type>Element</Type>
+						<Display_Name>Pathfind State</Display_Name>
+						<Required>false</Required>
+						<Element>
+							<Name>path_state_name</Name>
+							<Type>String</Type>
+						</Element>
+					</Element>
+					<Element>
+						<Name>Pathfind_Destination</Name>
+						<Type>Element</Type>
+						<Display_Name>Pathfind Destination</Display_Name>
+						<Required>false</Required>
+						<Element>
+							<Name>Item</Name>
+							<Type>String</Type>
+							<Required>false</Required>
+						</Element>
+						<Element>
+							<Name>Human</Name>
+							<Type>String</Type>
+							<Required>false</Required>
+						</Element>
+					</Element>
+				</Element>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>-->
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+			<Category>
+				<Name>Free Interactions</Name>
+			</Category>
+			<Category>
+				<Name>Character Interactions</Name>
+			</Category>
+			<Category>
+				<Name>Object Interactions</Name>
+			</Category>
+			<Category>
+				<Name>Conversations</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

@@ -1,0 +1,275 @@
+<root>
+	<Table>
+		<Skeleton_Set>
+			<Name>Vehicle_HeavyTank</Name>
+			<Groups>
+				<Group>
+					<group>Default</group>
+					<States>
+						<State>
+							<ID>driving forward</ID>
+							<Animation>
+								<Filename>hvytnk_dr_drive_htch.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>vehicle enter stand</ID>
+							<Animation>
+								<Filename>hvytnk_dr_enter_frt.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>vehicle enter stand 2</ID>
+							<Animation>
+								<Filename>hvytnk_dr_enter_bckr.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>vehicle enter stand 3</ID>
+							<Animation>
+								<Filename>hvytnk_dr_enter_bckl.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>vehicle enter stand 4</ID>
+							<Animation>
+								<Filename>hvytnk_dr_enter_rearup.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>vehicle enter stand 5</ID>
+							<Animation>
+								<Filename>hvytnk_dr_enter_htch.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>vehicle enter stand 6</ID>
+							<Animation>
+								<Filename>hvytnk_dr_std.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>vehicle pass stand 1</ID>
+							<Animation>
+								<Filename>hvytnk_dr_enter_frtl.animx</Filename>
+							</Animation>
+						</State>
+						<State>
+							<ID>turret middle</ID>
+							<Animation>
+								<Filename>turret_middle</Filename>
+							</Animation>
+						</State>
+					</States>
+					<Actions>
+						<Action>
+							<ID>vehicle enter primary 1</ID>
+							<Animation>
+								<Filename>hvytnk_dr_clmblw_frt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle open door outside 1</ID>
+							<Animation>
+								<Filename>hvytnk_dr_opn_htch.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter primary 2</ID>
+							<Animation>
+								<Filename>hvytnk_dr_clmblw_bckr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter primary 3</ID>
+							<Animation>
+								<Filename>hvytnk_dr_clmblw_bckl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter secondary 1</ID>
+							<Animation>
+								<Filename>hvytnk_dr_entrclmb_frtl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter secondary 2</ID>
+							<Animation>
+								<Filename>hvytnk_dr_entrclmb_frtr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter secondary 3</ID>
+							<Animation>
+								<Filename>hvytnk_dr_entrclmb_bckl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter pass 1</ID>
+							<Animation>
+								<Filename>hvytnk_dr_entrclmb_bckr.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter tertiary 1</ID>
+							<Animation>
+								<Filename>hvytnk_dr_entrclmb_trt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter tertiary 2</ID>
+							<Animation>
+								<Filename>hvytnk_dr_entrclmb_htch.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle exit driver</ID>
+							<Animation>
+								<Filename>hvytnk_dr_exit_std.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter tertiary 3</ID>
+							<Animation>
+								<Filename>hvytnk_dr_clmblw_frtl.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter pass 2</ID>
+							<Animation>
+								<Filename>hvytnk_pssngr_entrclmb_trt.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle exit pass 1</ID>
+							<Animation>
+								<Filename>hvytnk_pssngr_ext.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter pass 3</ID>
+							<Animation>
+								<Filename>hvytnk_dr_entrclmb_l.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter pass 4</ID>
+							<Animation>
+								<Filename>hvytnk_dr_entrclmb_r.animx</Filename>
+							</Animation>
+						</Action>
+						<Action>
+							<ID>vehicle enter pass 5</ID>
+							<Animation>
+								<Filename>hvytnk_dr_entrclmb_rearup.animx</Filename>
+							</Animation>
+						</Action>
+					</Actions>
+				</Group>
+			</Groups>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Skeleton_Set>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<!--<TableDescription>
+		<Name>Skeleton_Set</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Skeleton Set</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Display_Name>Skeleton Name</Display_Name>
+		</Element>
+		<Element>
+			<Name>Parent_Skeleton</Name>
+			<Type>String</Type>
+			<Display_Name>Parent Skeleton</Display_Name>
+			<Required>false</Required>
+		</Element>
+		<Element>
+			<Name>Variant_Type</Name>
+			<Type>Reference</Type>
+			<Display_Name>Variant Type</Display_Name>
+			<Required>false</Required>
+			<Reference>
+				<File>anim_set_variants.xtbl</File>
+				<Type>Override.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+		<Element>
+			<Name>Groups</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>Group</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>group</Name>
+					<Type>Reference</Type>
+					<Display_Name>Group</Display_Name>
+					<Unique>true</Unique>
+					<Reference>
+						<File>anim_groups.xtbl</File>
+						<Type>Anim_Group.Name</Type>
+					</Reference>
+				</Element>
+				<Element>
+					<Name>States</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>State</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_states.xtbl</File>
+								<Type>State.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+				<Element>
+					<Name>Actions</Name>
+					<Type>Grid</Type>
+					<Element>
+						<Name>Action</Name>
+						<Type>Element</Type>
+						<Element>
+							<Name>ID</Name>
+							<Type>Reference</Type>
+							<Reference>
+								<File>anim_actions.xtbl</File>
+								<Type>Action.Name</Type>
+							</Reference>
+						</Element>
+						<Element>
+							<Name>Animation</Name>
+							<Type>Filename</Type>
+							<Extension>animx</Extension>
+							<StartingPath>data\anim</StartingPath>
+							<ShowPreload>False</ShowPreload>
+						</Element>
+					</Element>
+					<Num_Display_Rows>30</Num_Display_Rows>
+				</Element>
+			</Element>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>-->
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>
