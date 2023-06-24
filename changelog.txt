@@ -957,6 +957,7 @@ v1.08 BETA CHANGES
 * Renamed Outcast to Marie (her actual name in the files)
 * Renamed Marauder Lady to Camie (her actual name in the files)
 * Added colored names to new MP characters
+* Added SP DLC assets to mp_common.vpp_pc, will be needed for transferring SP DLC assets to MP maps in the future
 * Loading times are faster
 
 [Peacekeeper Buff]
