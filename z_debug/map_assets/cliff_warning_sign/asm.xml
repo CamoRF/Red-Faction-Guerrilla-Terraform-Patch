@@ -1,0 +1,132 @@
+		<int>16384</int>
+        <int>20480</int>		
+		
+		<int>100</int>
+        <int>2796192</int>		
+		
+		<int>100</int>
+        <int>2796192</int>		
+		
+		<int>97</int>
+        <int>699056</int>		
+		
+		<int>97</int>
+        <int>5592384</int>			
+		
+		<int>97</int>
+        <int>699056</int>			
+		
+		<int>102</int>
+        <int>699056</int>	        
+		
+		<int>102</int>
+        <int>699056</int>		
+		
+		<int>97</int>
+        <int>699056</int>		
+		
+		<int>100</int>
+        <int>2796192</int>
+	
+	
+	
+	<ContainerEntry>
+      <Name>gen_rsign_warning_cliff.rfgchunkx</Name>
+      <Type>15</Type>
+      <Flags>768</Flags>
+      <DataOffset>0</DataOffset>
+      <CompressedSize>0</CompressedSize>
+      <Sizes />
+      <Primitives>
+        <PrimitiveEntry>
+          <Name>gen_rsign_warning_cliff.cchk_pc</Name>
+          <Type>2</Type>
+          <Allocator>1</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>0</Unknown4>
+          <HeaderSize>16384</HeaderSize>
+          <DataSize>20480</DataSize>
+        </PrimitiveEntry>
+        <PrimitiveEntry>
+          <Name>Generic_road_signs_WA_D.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>1</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>100</HeaderSize>
+          <DataSize>2796192</DataSize>
+        </PrimitiveEntry>
+        <PrimitiveEntry>
+          <Name>Generic_road_signs_WA_S.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>1</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>100</HeaderSize>
+          <DataSize>2796192</DataSize>
+        </PrimitiveEntry>
+        <PrimitiveEntry>
+          <Name>cem_eg_extwalltile_d.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>1</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>97</HeaderSize>
+          <DataSize>699056</DataSize>
+        </PrimitiveEntry>
+        <PrimitiveEntry>
+          <Name>decals_grunge03_EG_d.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>1</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>97</HeaderSize>
+          <DataSize>5592384</DataSize>
+        </PrimitiveEntry>
+        <PrimitiveEntry>
+          <Name>cem_eg_extwalltile_n.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>1</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>97</HeaderSize>
+          <DataSize>699056</DataSize>
+        </PrimitiveEntry>
+        <PrimitiveEntry>
+          <Name>cem_eg_DustfConcFagment_D.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>1</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>102</HeaderSize>
+          <DataSize>699056</DataSize>
+        </PrimitiveEntry>
+        <PrimitiveEntry>
+          <Name>cem_eg_DustfConcFagment_N.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>1</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>102</HeaderSize>
+          <DataSize>699056</DataSize>
+        </PrimitiveEntry>
+        <PrimitiveEntry>
+          <Name>warning_cliff_sign_d.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>1</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>97</HeaderSize>
+          <DataSize>699056</DataSize>
+        </PrimitiveEntry>
+        <PrimitiveEntry>
+          <Name>generic_road_signs_wa_n.cvbm_pc</Name>
+          <Type>1</Type>
+          <Allocator>1</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>1</Unknown4>
+          <HeaderSize>100</HeaderSize>
+          <DataSize>2796192</DataSize>
+        </PrimitiveEntry>
+      </Primitives>
+    </ContainerEntry>
