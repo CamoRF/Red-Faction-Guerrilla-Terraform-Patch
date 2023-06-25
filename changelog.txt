@@ -981,17 +981,17 @@ v1.08 BETA CHANGES
 * Temporarily removed Retribution custom map
 
 [Junkyard Map Updates]
-* Added some line of sight fixes to Junkyard
-* Added more weapon spawns to Junkyard
-* Added a secret area to Junkyard
-* Added team spawns to Junkyard
-* Added CTF to Junkyard
-* Adjusted some existing weapon spawns on Junkyard
+* Added some line of sight fixes/improvements
+* Added more weapon spawns
+* Added team spawns
+* Added CTF
+* Adjusted some existing weapon spawns
+* Aesthetic improvements
 
 [Shipment Map Updates]
-* Added more weapon spawns to Shipment
-* Fixed spectator cameras that were outside of the map on Shipment 
-* Fixed a duplicate weapon spawn on Shipment
+* Added more weapon spawns
+* Fixed spectator cameras that were outside of the map
+* Fixed duplicate shotgun weapon spawn
 
 [Townhall Map Updates]
 * Made from scratch with various improvements including a new building that connects the two wings
