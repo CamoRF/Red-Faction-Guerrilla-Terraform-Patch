@@ -979,6 +979,7 @@ v1.08 BETA CHANGES
 * Remade Scrapheap with various improvements & fixes
 * Optimized file sizes for custom maps
 * Temporarily removed Retribution custom map
+* Temporarily removed Townhall custom map
 
 [Junkyard Map Updates]
 * Added some line of sight fixes/improvements
@@ -993,8 +994,7 @@ v1.08 BETA CHANGES
 * Fixed spectator cameras that were outside of the map
 * Fixed duplicate shotgun weapon spawn
 
-[Townhall Map Updates]
-* Made from scratch with various improvements including a new building that connects the two wings
+[Warehouse Map Updates]
 
 [Wrecking Crew]
 * Renamed map filenames to "vanilla_wc1" etc
