@@ -3,9 +3,8 @@
 *-------------------*
 
 Author: Camo
-Version: v1.08 BETA
-Date: X-X-2023
-Build: XXXX
+Version: v1.075.1 BETA
+Date: 19-8-2023
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -935,6 +934,20 @@ v1.07.5 ALPHA CHANGES
 [New Map]
 * Added custom Junkyard map
 
+--------------------------------
+WAREHOUSE CUSTOM MAP ALPHA TEST
+--------------------------------
+
+[New Map]
+* Added custom Warehouse map
+
+---------------------
+v1.07.5.1 ALPHA CHANGES
+---------------------
+
+* Unification feature: converts Steam version to GOG
+* Repacked to reduce file size
+
 ------------------
 v1.08 BETA CHANGES
 ------------------
@@ -946,6 +959,7 @@ v1.08 BETA CHANGES
 [Singleplayer]
 * Increased population density
 * Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can find them at the Badlands safehouse
+* Added KILLDOZER vehicle spawn to safehouses
 
 [Misc]
 * Patch rebuilt from scratch to reduce file size significantly thanks to the new SyncFaction update
@@ -965,7 +979,6 @@ v1.08 BETA CHANGES
 
 [New Maps]
 * Added Warehouse, an expansive interior only map designed for 2-8 players
-* Added Drop off, a map exclusively for CTF
 
 [Maps]
 * Renamed filename for Shipment to "mp_shipment"
@@ -993,8 +1006,6 @@ v1.08 BETA CHANGES
 * Added more weapon spawns
 * Fixed spectator cameras that were outside of the map
 * Fixed duplicate shotgun weapon spawn
-
-[Warehouse Map Updates]
 
 [Wrecking Crew]
 * Renamed map filenames to "vanilla_wc1" etc
