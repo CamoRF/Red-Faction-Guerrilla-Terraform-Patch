@@ -1,8 +1,8 @@
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/Logo.png?raw=true "Logo")
 
-- Version: v1.07.5 ALPHA
-- Date: 8-6-2023
-- Build: 1201
+- Version: v1.07.5.1 ALPHA
+- Date: 19-8-2023
+- Build: XXXX
 - Work-in-progress project that adds content, fixes bugs, and enhances many features; made for the 2018 remaster of Red Faction Guerrilla.
 - Rebalanced multiplayer, DLC weapons, new maps, new characters, new backpacks and much more!
 - Note: Currently the majority of the patch focuses on multiplayer, there are a few SP changes included but comprehensive changes will come later.
@@ -10,7 +10,7 @@
 
 # Installation
 - First verify your game files.
-- Use [SyncFaction](https://github.com/Rast1234/SyncFaction/releases/download/v9/SyncFaction.exe)
+- Use [SyncFaction](https://www.factionfiles.com/ff.php?action=file&id=7698)
 - See [RF:G Game Night News](https://www.redfactionwiki.com/wiki/RF:G_Game_Night_News) for more detailed instructions and troubleshooting.
 
 # Changelog
@@ -40,6 +40,7 @@
 - [v1.07.4 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7639)
 - [v1.07.4.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7649)
 - [v1.07.5 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7653)
+- [v1.07.5.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7696)
 
 # Tools Used
 - [RfgUtil](https://github.com/Moneyl/RfgUtil/releases)
