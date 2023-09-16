@@ -1,0 +1,74 @@
+------------------
+v1.08 BETA CHANGES
+------------------
+
+[Interface]
+* Initial loading screen updated to current patch version
+* Added several new placeholder textures for future map loading screens, thumbnails and character thumbnails to make it easier to add new textures in future without tedious hex editing
+
+[Singleplayer]
+* Increased population density
+* Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can find them at the Badlands safehouse
+* Added KILLDOZER vehicle spawn to safehouses
+
+[Misc]
+* Patch rebuilt from scratch to reduce file size significantly thanks to the new SyncFaction update
+* Optimized lod_properties.xtbl
+* Reverted changes to glares.xtbl since it didn't seem to do anything
+* Enabled SP only effects in MP, will be useful for mapping in future when working with object_effects
+* Changed ideal players for Gradient to 4-8 from 6-10
+* Renamed Lab Lady to Scientist
+* Renamed Outcast to Marie (her actual name in the files)
+* Renamed Marauder Lady to Camie (her actual name in the files)
+* Added colored names to new MP characters
+* Added SP DLC assets to mp_common.vpp_pc, will be needed for transferring SP DLC assets to MP maps in the future
+* Loading times are faster
+
+[Peacekeeper Buff]
+* Increased firerate (Default refire delay reduced to 263 from 292)
+
+[New Maps]
+* Added Warehouse, an expansive interior only map designed for 2-8 players
+
+[Maps]
+* Renamed filename for Shipment to "mp_shipment"
+* Renamed filename for Cliffside to "mp_clifside"
+* Renamed filename for Partial Recall to "mp_partial_recall"
+* Removed Pipeline Pitfalls file
+* Added Demolition to Partial Recall
+* Added Demolition to Shipment
+* Added team spawns & CTF to various WC maps
+* Restored dust effects on various maps
+* Remade Scrapheap with various improvements & fixes
+* Optimized file sizes for custom maps
+* Temporarily removed Retribution custom map
+* Temporarily removed Townhall custom map
+
+[Junkyard Map Updates]
+* Added some line of sight fixes/improvements
+* Added more weapon spawns
+* Added team spawns
+* Added CTF
+* Adjusted some existing weapon spawns
+* Aesthetic improvements
+
+[Shipment Map Updates]
+* Added more weapon spawns
+* Fixed spectator cameras that were outside of the map
+* Fixed duplicate shotgun weapon spawn
+
+[Wrecking Crew]
+* Renamed map filenames to "vanilla_wc1" etc
+* Updated maps with various fixes
+
+[Misc Fixes]
+* Fixed some spawns on Transmission
+* Fixed some spawns on Partial Recall
+* Fixed some spawns on Quarantine Siege
+* Fixed SP DLC crash when starting a new game or loading a save
+* Fixed vanilla issue with missing specular textures in SP
+* Fixed vanilla issue with memorial texture in SP
+* Fixed various issues with all maps
+* Fixed Fallfactor and Junkyard not having the same specular texture fix as Excavation and Partial Recall
+* Fixed issue where players would sometimes spawn with a floating backpack?
+* Reverted changes to mp_playlists.xtbl and mp_playlist_entries.xtbl in case it causes issues
