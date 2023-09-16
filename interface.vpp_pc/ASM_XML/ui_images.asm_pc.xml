@@ -3,8 +3,7 @@
   <Endian>Little</Endian>
   <Version>5</Version>
   <Containers>
-<!--START New Character Thumbnails ADDED-->    
-	<ContainerEntry>
+    <ContainerEntry>
       <Name>ui_mp_char_camo1</Name>
       <Type>33</Type>
       <Flags>128</Flags>
@@ -444,14 +443,12 @@
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
-<!--END-->
-<!--START Custom Map Images ADDED-->
     <ContainerEntry>
       <Name>ui_loading_mp_0mp1_0</Name>
       <Type>33</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
-      <CompressedSize>853697</CompressedSize>
+      <CompressedSize>797716</CompressedSize>
       <Sizes>
         <int>97</int>
         <int>2073600</int>
@@ -473,7 +470,7 @@
       <Type>33</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
-      <CompressedSize>63541</CompressedSize>
+      <CompressedSize>51972</CompressedSize>
       <Sizes>
         <int>90</int>
         <int>90112</int>
@@ -495,10 +492,10 @@
       <Type>33</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
-      <CompressedSize>899719</CompressedSize>
+      <CompressedSize>821288</CompressedSize>
       <Sizes>
         <int>97</int>
-        <int>2073600</int>
+        <int>1036800</int>
       </Sizes>
       <Primitives>
         <PrimitiveEntry>
@@ -508,7 +505,7 @@
           <Unknown3>6</Unknown3>
           <Unknown4>1</Unknown4>
           <HeaderSize>97</HeaderSize>
-          <DataSize>2073600</DataSize>
+          <DataSize>1036800</DataSize>
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
@@ -517,7 +514,7 @@
       <Type>33</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
-      <CompressedSize>65346</CompressedSize>
+      <CompressedSize>62663</CompressedSize>
       <Sizes>
         <int>90</int>
         <int>90112</int>
@@ -539,10 +536,10 @@
       <Type>33</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
-      <CompressedSize>821288</CompressedSize>
+      <CompressedSize>642998</CompressedSize>
       <Sizes>
         <int>97</int>
-        <int>1036800</int>
+        <int>2073600</int>
       </Sizes>
       <Primitives>
         <PrimitiveEntry>
@@ -552,7 +549,7 @@
           <Unknown3>6</Unknown3>
           <Unknown4>1</Unknown4>
           <HeaderSize>97</HeaderSize>
-          <DataSize>1036800</DataSize>
+          <DataSize>2073600</DataSize>
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
@@ -561,7 +558,7 @@
       <Type>33</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
-      <CompressedSize>62663</CompressedSize>
+      <CompressedSize>62969</CompressedSize>
       <Sizes>
         <int>90</int>
         <int>90112</int>
@@ -583,7 +580,7 @@
       <Type>33</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
-      <CompressedSize>642998</CompressedSize>
+      <CompressedSize>899719</CompressedSize>
       <Sizes>
         <int>97</int>
         <int>2073600</int>
@@ -605,7 +602,7 @@
       <Type>33</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
-      <CompressedSize>62969</CompressedSize>
+      <CompressedSize>65346</CompressedSize>
       <Sizes>
         <int>90</int>
         <int>90112</int>
@@ -627,7 +624,7 @@
       <Type>33</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
-      <CompressedSize>899719</CompressedSize>
+      <CompressedSize>508282</CompressedSize>
       <Sizes>
         <int>97</int>
         <int>2073600</int>
@@ -649,7 +646,7 @@
       <Type>33</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
-      <CompressedSize>65346</CompressedSize>
+      <CompressedSize>47952</CompressedSize>
       <Sizes>
         <int>90</int>
         <int>90112</int>
@@ -1326,8 +1323,6 @@
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
-<!--END-->
-<!--START DLC Wrecking Crew Images ADDED-->	
     <ContainerEntry>
       <Name>ui_loading_wcdlc1_0</Name>
       <Type>33</Type>
@@ -1724,7 +1719,6 @@
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
-<!--END-->	
     <ContainerEntry>
       <Name>ui_blueprint_3arcs_arcwelder</Name>
       <Type>33</Type>
