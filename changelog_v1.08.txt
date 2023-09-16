@@ -8,8 +8,8 @@ v1.08 BETA CHANGES
 
 [Singleplayer]
 * Increased population density
-* Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can find them at the Badlands safehouse
-* Added KILLDOZER vehicle spawn to safehouses
+* Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can also find them at the Badlands safehouse
+* Added Bulldozer vehicle spawn to all safehouses
 
 [Misc]
 * Patch rebuilt from scratch to reduce file size significantly thanks to the new SyncFaction update
@@ -26,9 +26,6 @@ v1.08 BETA CHANGES
 
 [Peacekeeper Buff]
 * Increased firerate (Default refire delay reduced to 263 from 292)
-
-[New Maps]
-* Added Warehouse, an expansive interior only map designed for 2-8 players
 
 [Maps]
 * Renamed filename for Shipment to "mp_shipment"
