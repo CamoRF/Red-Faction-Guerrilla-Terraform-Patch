@@ -15,7 +15,7 @@ v1.08 BETA CHANGES
 * Patch rebuilt from scratch to reduce file size significantly thanks to the new SyncFaction update
 * Optimized lod_properties.xtbl
 * Reverted changes to glares.xtbl since it didn't seem to do anything
-* Enabled SP only effects in MP, will be useful for mapping in future when working with object_effects
+* Enabled SP only effects in MP, which will be useful for mappers in the future when working with object_effects
 * Changed ideal players for Gradient to 4-8 from 6-10
 * Renamed Lab Lady to Scientist
 * Renamed Outcast to Marie (her actual name in the files)
