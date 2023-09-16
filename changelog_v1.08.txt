@@ -35,6 +35,7 @@ v1.08 BETA CHANGES
 * Added Demolition to Partial Recall
 * Added Demolition to Shipment
 * Added team spawns & CTF to various WC maps
+* Added EDF crates on Complex to fix some line of sight issues with spawns
 * Restored dust effects on various maps
 * Remade Scrapheap with various improvements & fixes
 * Optimized file sizes for custom maps
