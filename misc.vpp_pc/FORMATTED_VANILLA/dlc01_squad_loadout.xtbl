@@ -143,7 +143,7 @@
 		</squad_loadout>
 		<squad_loadout>
 			<Name>Spiker and Shockade</Name>
-			<weapon_type>dlc_spiker</weapon_type> <!--From spiker-->
+			<weapon_type>spiker</weapon_type>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -154,14 +154,14 @@
 		</squad_loadout>
 		<squad_loadout>
 			<Name>Subverter</Name>
-			<weapon_type>dlc_edf_subverter</weapon_type> <!--From edf_subverter-->
+			<weapon_type>edf_subverter</weapon_type>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</squad_loadout>
 		<squad_loadout>
 			<Name>Subverter and Grenade</Name>
-			<weapon_type>dlc_edf_subverter</weapon_type> <!--From edf_subverter-->
+			<weapon_type>edf_subverter</weapon_type>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -172,7 +172,7 @@
 		</squad_loadout>
 		<squad_loadout>
 			<Name>Pickaxe</Name>
-			<weapon_type>dlc_pickaxe</weapon_type> <!--From pickaxe-->
+			<weapon_type>pickaxe</weapon_type>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -183,7 +183,7 @@
 		</squad_loadout>
 		<squad_loadout>
 			<Name>Royal Sword</Name>
-			<weapon_type>dlc_royal_sword</weapon_type> <!--From royal_sword-->
+			<weapon_type>royal_sword</weapon_type>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

@@ -39,7 +39,7 @@
 <!--END-->
 <!--START DLC Explosions Added-->
 		<Explosion>
-			<Name>DLC_missilepod</Name>
+			<Name>camo_DLC_missilepod</Name>
 			<Radius>2.0</Radius>
 			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>1500</vehicle_damage_max>

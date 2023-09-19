@@ -984,7 +984,7 @@
 				<Category>Normal</Category>
 			</_Editor>
 			<Display_Name>UPG_RADIATION_NAME</Display_Name>
-			<Weapon>dlc_spiker</Weapon> <!--From spiker-->
+			<Weapon>spiker</Weapon>
 		</Upgrade>
 		<Upgrade>
 			<Name>gauss_rifle</Name>
@@ -1128,7 +1128,7 @@
 			<_Editor>
 				<Category>Normal</Category>
 			</_Editor>
-			<Weapon>dlc_mar_charge_placer</Weapon> <!--From mar_charge_placer-->
+			<Weapon>mar_charge_placer</Weapon>
 			<Display_Name>WEAP_CHARGE_PLACER</Display_Name>
 			<Icon_Image>ui_hud_weapon_icon_charges</Icon_Image>
 			<Blueprint>ui_blueprint_carry_remotemines</Blueprint>
@@ -1235,7 +1235,7 @@
 			<_Editor>
 				<Category>Normal</Category>
 			</_Editor>
-			<Weapon>dlc_missilepod</Weapon> <!--From missilepod-->
+			<Weapon>missilepod</Weapon>
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
 			<Icon_Image>ui_hud_weapon_icon_pod</Icon_Image>
 			<Blueprint>ui_blueprint_misslepod</Blueprint>
@@ -1270,7 +1270,7 @@
 			<_Editor>
 				<Category>Normal</Category>
 			</_Editor>
-			<Weapon>dlc_EDF_Super_Gauss</Weapon> <!--From EDF_Super_Gauss-->
+			<Weapon>EDF_Super_Gauss</Weapon>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
 			<Icon_Image>ui_hud_weapon_icon_supergauss</Icon_Image>
 			<Blueprint>ui_blueprint_guass_rifle</Blueprint>

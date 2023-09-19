@@ -20,7 +20,7 @@
 			<Variation>0.0</Variation>
 			<Inventory>
 				<Item>
-					<Item_Name>dlc_mar_charge_placer</Item_Name> <!--From mar_charge_placer-->
+					<Item_Name>mar_charge_placer</Item_Name>
 					<Item_Count>1</Item_Count>
 					<Item_Slot>-1</Item_Slot>
 				</Item>
@@ -30,7 +30,7 @@
 					<Item_Slot>3</Item_Slot>
 				</Item>
 				<Item>
-					<Item_Name>dlc_spiker</Item_Name> <!--From spiker-->
+					<Item_Name>spiker</Item_Name>
 					<Item_Count>1</Item_Count>
 					<Item_Slot>1</Item_Slot>
 				</Item>
@@ -116,7 +116,7 @@
 			<Variation>0.0</Variation>
 			<Inventory>
 				<Item>
-					<Item_Name>dlc_spiker</Item_Name> <!--From spiker-->
+					<Item_Name>spiker</Item_Name>
 					<Item_Count>1</Item_Count>
 					<Item_Slot>1</Item_Slot>
 				</Item>
@@ -288,7 +288,7 @@
 			<Variation>0.0</Variation>
 			<Inventory>
 				<Item>
-					<Item_Name>dlc_spiker</Item_Name> <!--From spiker-->
+					<Item_Name>spiker</Item_Name>
 					<Item_Count>1</Item_Count>
 					<Item_Slot>1</Item_Slot>
 				</Item>
@@ -675,7 +675,7 @@
 			</Personas>
 			<Inventory>
 				<Item>
-					<Item_Name>dlc_edf_super_gauss</Item_Name> <!--From edf_super_gauss-->
+					<Item_Name>edf_super_gauss</Item_Name>
 					<Item_Count>1</Item_Count>
 					<Item_Slot>-1</Item_Slot>
 				</Item>
@@ -685,7 +685,7 @@
 					<Item_Slot>-1</Item_Slot>
 				</Item>
 			</Inventory>
-			<Equip_Item_Name>dlc_edf_super_gauss</Equip_Item_Name> <!--From edf_super_gauss-->
+			<Equip_Item_Name>edf_super_gauss</Equip_Item_Name>
 			<FootstepsControl>GUR_NPC</FootstepsControl>
 			<_Editor>
 				<Category>Entries:Mission</Category>
@@ -716,7 +716,7 @@
 			<Variation>0.0</Variation>
 			<Inventory>
 				<Item>
-					<Item_Name>dlc_spiker</Item_Name> <!--From spiker-->
+					<Item_Name>spiker</Item_Name>
 					<Item_Count>1</Item_Count>
 					<Item_Slot>1</Item_Slot>
 				</Item>
@@ -903,7 +903,7 @@
 			<Variation>0.0</Variation>
 			<Inventory>
 				<Item>
-					<Item_Name>dlc_spiker</Item_Name> <!--From spiker-->
+					<Item_Name>spiker</Item_Name>
 					<Item_Count>1</Item_Count>
 					<Item_Slot>1</Item_Slot>
 				</Item>
@@ -1090,7 +1090,7 @@
 			<Variation>0.0</Variation>
 			<Inventory>
 				<Item>
-					<Item_Name>dlc_spiker</Item_Name> <!--From spiker-->
+					<Item_Name>spiker</Item_Name>
 					<Item_Count>1</Item_Count>
 					<Item_Slot>1</Item_Slot>
 				</Item>
@@ -1272,7 +1272,7 @@
 			<Variation>0.0</Variation>
 			<Inventory>
 				<Item>
-					<Item_Name>dlc_spiker</Item_Name> <!--From spiker-->
+					<Item_Name>spiker</Item_Name>
 					<Item_Count>1</Item_Count>
 					<Item_Slot>1</Item_Slot>
 				</Item>

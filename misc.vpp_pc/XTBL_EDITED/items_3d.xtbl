@@ -2,7 +2,7 @@
 	<Table>
 <!--START DLC Weapons ADDED-->
 		<Item>
-			<Name>EDF_Super_Gauss</Name>
+			<Name>camo_EDF_Super_Gauss</Name>
 			<Item_Flags>
 				<Flag>spin</Flag>
 			</Item_Flags>
@@ -27,7 +27,7 @@
 			<Touch_Script>give_item</Touch_Script>
 		</Item>
 		<Item>
-			<Name>edf_subverter</Name>
+			<Name>camo_edf_subverter</Name>
 			<Touch_Script>give_item</Touch_Script>
 			<Respawn_Delay>30000</Respawn_Delay>
 			<_Editor>
@@ -53,7 +53,7 @@
 			</Props>
 		</Item>
 		<Item>
-			<Name>edf_subverter_clip</Name>
+			<Name>camo_edf_subverter_clip</Name>
 			<_Editor>
 				<Category>Entries:WeaponEDF</Category>
 			</_Editor>
@@ -71,7 +71,7 @@
 			</Item_Flags>
 		</Item>
 		<Item>
-			<Name>missilepod</Name>
+			<Name>camo_missilepod</Name>
 			<Touch_Script>give_item</Touch_Script>
 			<Respawn_Delay>60000</Respawn_Delay>
 			<_Editor>
@@ -97,7 +97,7 @@
 			</Props>
 		</Item>
 		<Item>
-			<Name>missilepod_clip</Name>
+			<Name>camo_missilepod_clip</Name>
 			<_Editor>
 				<Category>Entries:WeaponMarauder</Category>
 			</_Editor>
@@ -113,7 +113,7 @@
 			</Item_Flags>
 		</Item>
 		<Item>
-			<Name>spiker</Name>
+			<Name>camo_spiker</Name>
 			<Touch_Script>give_item</Touch_Script>
 			<Respawn_Delay>60000</Respawn_Delay>
 			<_Editor>
@@ -147,7 +147,7 @@
 			</pickup_static_mesh>
 		</Item>
 		<Item>
-			<Name>spiker_projectile</Name>
+			<Name>camo_spiker_projectile</Name>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
 			</Item_Flags>

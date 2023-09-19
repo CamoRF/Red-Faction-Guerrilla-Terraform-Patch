@@ -4,63 +4,8 @@
   <Version>5</Version>
   <Containers>
 <!--START DLC Weapons ADDED-->
-	<ContainerEntry>
-      <Name>mar_charge_placer</Name>
-      <Type>23</Type>
-      <Flags>128</Flags>
-      <DataOffset>6144</DataOffset>
-      <CompressedSize>41962</CompressedSize>
-      <Sizes>
-        <int>892</int>
-        <int>19492</int>
-        <int>840</int>
-        <int>59204</int>
-      </Sizes>
-      <Primitives>
-        <PrimitiveEntry>
-          <Name>dlc_mdr_detonator.csmesh_pc</Name>
-          <Type>5</Type>
-          <Allocator>0</Allocator>
-          <Unknown3>6</Unknown3>
-          <Unknown4>0</Unknown4>
-          <HeaderSize>892</HeaderSize>
-          <DataSize>19492</DataSize>
-        </PrimitiveEntry>
-        <PrimitiveEntry>
-          <Name>dlc_marauder_charge_pickup.csmesh_pc</Name>
-          <Type>5</Type>
-          <Allocator>0</Allocator>
-          <Unknown3>6</Unknown3>
-          <Unknown4>0</Unknown4>
-          <HeaderSize>840</HeaderSize>
-          <DataSize>59204</DataSize>
-        </PrimitiveEntry>
-      </Primitives>
-    </ContainerEntry>    
-	<ContainerEntry>
-      <Name>mar_remote_charge</Name>
-      <Type>23</Type>
-      <Flags>128</Flags>
-      <DataOffset>6144</DataOffset>
-      <CompressedSize>36657</CompressedSize>
-      <Sizes>
-        <int>992</int>
-        <int>96132</int>
-      </Sizes>
-      <Primitives>
-        <PrimitiveEntry>
-          <Name>dlc_marauder_charge.ccmesh_pc</Name>
-          <Type>6</Type>
-          <Allocator>0</Allocator>
-          <Unknown3>6</Unknown3>
-          <Unknown4>0</Unknown4>
-          <HeaderSize>992</HeaderSize>
-          <DataSize>96132</DataSize>
-        </PrimitiveEntry>
-      </Primitives>
-    </ContainerEntry>
     <ContainerEntry>
-      <Name>spiker</Name>
+      <Name>camo_spiker</Name>
       <Type>23</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
@@ -125,7 +70,7 @@
       </Primitives>
     </ContainerEntry>
     <ContainerEntry>
-      <Name>spiker_projectile</Name>
+      <Name>camo_spiker_projectile</Name>
       <Type>23</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
@@ -147,83 +92,7 @@
       </Primitives>
     </ContainerEntry>
     <ContainerEntry>
-      <Name>royal_sword</Name>
-      <Type>23</Type>
-      <Flags>128</Flags>
-      <DataOffset>6144</DataOffset>
-      <CompressedSize>30864</CompressedSize>
-      <Sizes>
-        <int>1000</int>
-        <int>50308</int>
-      </Sizes>
-      <Primitives>
-        <PrimitiveEntry>
-          <Name>dlc_royal_sword.csmesh_pc</Name>
-          <Type>5</Type>
-          <Allocator>0</Allocator>
-          <Unknown3>6</Unknown3>
-          <Unknown4>0</Unknown4>
-          <HeaderSize>1000</HeaderSize>
-          <DataSize>50308</DataSize>
-        </PrimitiveEntry>
-      </Primitives>
-    </ContainerEntry>
-    <ContainerEntry>
-      <Name>pickaxe</Name>
-      <Type>23</Type>
-      <Flags>128</Flags>
-      <DataOffset>6144</DataOffset>
-      <CompressedSize>31353</CompressedSize>
-      <Sizes>
-        <int>2494</int>
-        <int>45732</int>
-      </Sizes>
-      <Primitives>
-        <PrimitiveEntry>
-          <Name>dlc_pickaxe.csmesh_pc</Name>
-          <Type>5</Type>
-          <Allocator>0</Allocator>
-          <Unknown3>6</Unknown3>
-          <Unknown4>0</Unknown4>
-          <HeaderSize>2494</HeaderSize>
-          <DataSize>45732</DataSize>
-        </PrimitiveEntry>
-      </Primitives>
-    </ContainerEntry>
-    <ContainerEntry>
-      <Name>dlc_pickaxe_high</Name>
-      <Type>26</Type>
-      <Flags>128</Flags>
-      <DataOffset>6144</DataOffset>
-      <CompressedSize>3928948</CompressedSize>
-      <Sizes>
-        <int>237</int>
-        <int>8388576</int>
-        <int>624</int>
-      </Sizes>
-      <Primitives>
-        <PrimitiveEntry>
-          <Name>dlc_pickaxe_high.cpeg_pc</Name>
-          <Type>1</Type>
-          <Allocator>0</Allocator>
-          <Unknown3>4</Unknown3>
-          <Unknown4>0</Unknown4>
-          <HeaderSize>237</HeaderSize>
-          <DataSize>8388576</DataSize>
-        </PrimitiveEntry>
-        <PrimitiveEntry>
-          <Name>dlc_pickaxe_high.mat_pc</Name>
-          <Type>8</Type>
-          <Allocator>0</Allocator>
-          <Unknown3>0</Unknown3>
-          <Unknown4>0</Unknown4>
-          <HeaderSize>624</HeaderSize>
-          <DataSize>0</DataSize>
-        </PrimitiveEntry>
-      </Primitives>
-    </ContainerEntry>	
-    <ContainerEntry>
-      <Name>EDF_Super_Gauss</Name>
+      <Name>camo_EDF_Super_Gauss</Name>
       <Type>23</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
@@ -245,7 +114,7 @@
       </Primitives>
     </ContainerEntry>
     <ContainerEntry>
-      <Name>edf_subverter</Name>
+      <Name>camo_edf_subverter</Name>
       <Type>23</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
@@ -299,7 +168,7 @@
       </Primitives>
     </ContainerEntry>
     <ContainerEntry>
-      <Name>edf_subverter_clip</Name>
+      <Name>camo_edf_subverter_clip</Name>
       <Type>23</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
@@ -321,7 +190,7 @@
       </Primitives>
     </ContainerEntry>
     <ContainerEntry>
-      <Name>missilepod</Name>
+      <Name>camo_missilepod</Name>
       <Type>23</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
@@ -375,7 +244,7 @@
       </Primitives>
     </ContainerEntry>
     <ContainerEntry>
-      <Name>missilepod_clip</Name>
+      <Name>camo_missilepod_clip</Name>
       <Type>23</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>

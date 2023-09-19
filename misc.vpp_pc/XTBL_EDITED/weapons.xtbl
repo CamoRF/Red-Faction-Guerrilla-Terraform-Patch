@@ -309,13 +309,13 @@
 		</Weapon>
 <!--START DLC Weapons ADDED-->
 		<Weapon>
-			<Name>EDF_Super_Gauss</Name>
+			<Name>camo_EDF_Super_Gauss</Name>
 			<icon_name>ui_hud_weapon_icon_gauss</icon_name> <!--From ui_hud_weapon_icon_supergauss-->
 			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name> <!--From ui_hud_reti_supergauss-->
 			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule> <!--From ui_hud_reti_supergauss0-->
 			<Unique_ID>141</Unique_ID>
-			<Inventory_Item>edf_super_gauss</Inventory_Item>
-			<Item_3d>EDF_Super_Gauss</Item_3d>
+			<Inventory_Item>camo_edf_super_gauss</Inventory_Item>
+			<Item_3d>camo_EDF_Super_Gauss</Item_3d>
 			<Default_team>EDF</Default_team>
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
@@ -411,10 +411,10 @@
 			<Player_Move_Speed>1.25</Player_Move_Speed> <!--ADDED-->
 		</Weapon>
 		<Weapon>
-			<Name>edf_subverter</Name>
+			<Name>camo_edf_subverter</Name>
 			<Unique_ID>142</Unique_ID>
-			<Inventory_Item>edf_subverter</Inventory_Item>
-			<Item_3d>edf_subverter</Item_3d>
+			<Inventory_Item>camo_edf_subverter</Inventory_Item>
+			<Item_3d>camo_edf_subverter</Item_3d>
 			<Default_team>EDF</Default_team>
 			<icon_name>ui_badge_icon_edf</icon_name> <!--From ui_hud_weapon_icon_sub-->
 			<reticule_name>ui_hud_reti_enforcer</reticule_name> <!--From ui_hud_reti_subverter-->
@@ -503,7 +503,7 @@
 			<Bullet_hole_scale>0.8</Bullet_hole_scale>
 		</Weapon>
 		<Weapon>
-			<Name>missilepod</Name>
+			<Name>camo_missilepod</Name>
 			<icon_name>ui_badge_icon_murry</icon_name> <!--From ui_hud_weapon_icon_pod-->
 			<reticule_name>ui_hud_reti_thermobaric</reticule_name> <!--From ui_hud_reti_missilepod2-->
 			<fine_aim_reticule>ui_hud_reti_thermobaric2</fine_aim_reticule> <!--From ui_hud_reti_missilepod3-->
@@ -550,8 +550,8 @@
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>30</Max_Engagement_Distance>
-			<Inventory_Item>missilepod</Inventory_Item>
-			<Item_3d>missilepod</Item_3d>
+			<Inventory_Item>camo_missilepod</Inventory_Item>
+			<Item_3d>camo_missilepod</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Sounds>
 				<Fire_Sound>WEP_TUR_ROCKET_PC_ATTACK</Fire_Sound>
@@ -595,12 +595,12 @@
 				<Acceleration>10</Acceleration>
 				<Inaccurate_flight>0.12</Inaccurate_flight>
 			</Projectile_Info>
-			<Explosion>DLC_missilepod</Explosion>
+			<Explosion>camo_DLC_missilepod</Explosion>
 			<Player_Move_Speed>1.25</Player_Move_Speed>
 			<Max_Rounds_Upgrade>63</Max_Rounds_Upgrade>
 		</Weapon>
 		<Weapon>
-			<Name>spiker</Name>
+			<Name>camo_spiker</Name>
 			<Weapon_Class>harpoon</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>projectile</Ammo_Type>
@@ -646,8 +646,8 @@
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>50</Max_Engagement_Distance>
-			<Inventory_Item>spiker</Inventory_Item>
-			<Item_3d>spiker</Item_3d>
+			<Inventory_Item>camo_spiker</Inventory_Item>
+			<Item_3d>camo_spiker</Item_3d>
 			<Recoil_Kick>.7</Recoil_Kick> <!--From .7-->
 			<Acceleration>0.0</Acceleration>
 			<Sounds>
@@ -694,7 +694,7 @@
 			<Dropped_ammo_scale>0.7666667</Dropped_ammo_scale>
 			<aim_assist>1</aim_assist>
 			<Projectile_Info>
-				<Model>spiker_projectile</Model>
+				<Model>camo_spiker_projectile</Model>
 				<Start_Speed>125</Start_Speed>
 				<Max_Speed>125</Max_Speed>
 				<Attached_Effect>wep_turret_harpoon_trail_a</Attached_Effect>
@@ -711,7 +711,7 @@
 				<Restitution>1</Restitution>
 				<Gravity>0</Gravity>
 			</Projectile_Info>
-			<NPC_Aim_Drift>Spiker</NPC_Aim_Drift>
+			<NPC_Aim_Drift>camo_Spiker</NPC_Aim_Drift>
 			<Damage_Scaling_Min>
 				<NPC_Damage>185</NPC_Damage> <!--From 0.0-->
 				<Player_Damage>60</Player_Damage> <!--From 55 in v1.07.2--> <!--From 50 in v1.07.1--> <!--From 0.0-->

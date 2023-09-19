@@ -12,7 +12,7 @@
 				</Weapon_Data>
 				<Weapon_Data>sledgehammer
 					<Ammo>-2</Ammo>
-					<Weapon>dlc_mar_charge_placer</Weapon> <!--From mar_charge_placer-->
+					<Weapon>mar_charge_placer</Weapon>
 				</Weapon_Data>
 			</Weapon_List>
 			<Time_Limit>60</Time_Limit>
@@ -43,7 +43,7 @@
 			<Weapon_List>
 				<Weapon_Data>sledgehammer
 					<Ammo>63</Ammo>
-					<Weapon>dlc_missilepod</Weapon> <!--From missilepod-->
+					<Weapon>missilepod</Weapon>
 				</Weapon_Data>
 			</Weapon_List>
 			<Time_Limit>30</Time_Limit>
@@ -74,7 +74,7 @@
 			<Weapon_List>
 				<Weapon_Data>sledgehammer
 					<Ammo>1</Ammo>
-					<Weapon>dlc_mar_charge_placer</Weapon> <!--From mar_charge_placer-->
+					<Weapon>mar_charge_placer</Weapon>
 				</Weapon_Data>
 				<Weapon_Data>sledgehammer
 					<Non_Weapon_Icon_Name>ui_hud_icon_car</Non_Weapon_Icon_Name>

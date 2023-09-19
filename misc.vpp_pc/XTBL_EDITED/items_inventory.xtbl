@@ -50,7 +50,7 @@
 <!--END-->
 <!--START DLC Weapons Added-->
 		<Inventory_Item>
-			<Name>edf_super_gauss</Name>
+			<Name>camo_edf_super_gauss</Name>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -61,7 +61,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>edf_subverter</Name>
+			<Name>camo_edf_subverter</Name>
 			<Display_Name>WEAP_SUBVERTER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -72,7 +72,7 @@
 			</_Editor>
 		</Inventory_Item>		
 		<Inventory_Item>
-			<Name>missilepod</Name>
+			<Name>camo_missilepod</Name>
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -83,7 +83,7 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>spiker</Name>
+			<Name>camo_spiker</Name>
 			<Display_Name>WEAP_SPIKER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
