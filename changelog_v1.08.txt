@@ -23,6 +23,7 @@ v1.08 BETA CHANGES
 * Added colored names to new MP characters
 * Added SP DLC assets to mp_common.vpp_pc, will be needed for transferring SP DLC assets to MP maps in the future
 * Loading times are faster
+* Possibly improved fix for removing host migration
 
 [Peacekeeper Buff]
 * Increased firerate (Default refire delay reduced to 263 from 292)
