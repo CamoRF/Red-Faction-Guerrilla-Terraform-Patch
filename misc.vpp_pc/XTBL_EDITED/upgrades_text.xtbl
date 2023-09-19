@@ -1,5 +1,25 @@
 <root>
 	<Table>
+<!--START DLC Weapons ADDED SP-->
+<!--	<Upgrades_Identifier>
+			<Name>UPG_SUPER_GAUSS</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Upgrades_Identifier>
+		<Upgrades_Identifier>
+			<Name>UPG_MISSILEPOD</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Upgrades_Identifier>
+		<Upgrades_Identifier>
+			<Name>UPG_MISSILEPOD_AMMO</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Upgrades_Identifier>-->		
+<!--END-->	
 		<Upgrades_Identifier>
 			<Name>UPG_JETPACK</Name>
 			<_Editor>
