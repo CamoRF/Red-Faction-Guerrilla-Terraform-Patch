@@ -1219,11 +1219,11 @@
 		<spawn_group_vehicle>
 			<Name>Amb_0410Safehouse</Name>
 			<vehicle_list>
-				<vehicle_type>Min_LightPickup_1</vehicle_type>
+				<!--<vehicle_type>Min_LightPickup_1</vehicle_type>
 				<vehicle_type>Min_LightPickup_2</vehicle_type>
-				<vehicle_type>Min_LightPickup_3</vehicle_type>
+				<vehicle_type>Min_LightPickup_3</vehicle_type>-->
 <!--START Bulldozer ADDED-->
-				<vehicle_type>Min_Bulldozer_1</vehicle_type>
+				<!--<vehicle_type>Min_Bulldozer_1</vehicle_type>-->
 <!--END-->
 <!--START DLC Vehicles ADDED-->
 				<vehicle_type>Mar_chomper</vehicle_type>

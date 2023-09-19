@@ -2,7 +2,7 @@
 	<Table>
 <!--START Custom Map Loading Screens ADDED-->
 		<LoadingScreen>
-			<Name>Townhall</Name>
+			<Name>Warehouse</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp1_0.tga</Filename>
 			</BG_image>
@@ -17,7 +17,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>Warehouse</Name>
+			<Name>Junkyard</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp2_0.tga</Filename>
 			</BG_image>
@@ -32,7 +32,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>Junkyard</Name>
+			<Name>Shipment</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp3_0.tga</Filename>
 			</BG_image>
@@ -47,7 +47,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>Shipment</Name>
+			<Name>Cliffside</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp4_0.tga</Filename>
 			</BG_image>
@@ -62,7 +62,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>Cliffside</Name>
+			<Name>Partial Recall</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp5_0.tga</Filename>
 			</BG_image>
@@ -76,8 +76,8 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-		<LoadingScreen>
-			<Name>Partial Recall</Name>
+<!--	<LoadingScreen>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp6_0.tga</Filename>
 			</BG_image>
@@ -92,7 +92,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>Dropoff</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp7_0.tga</Filename>
 			</BG_image>
@@ -107,9 +107,9 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>Spire</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
-				<Filename>ui_loading_mp_0mp8_0.tga</Filename>
+				<Filename>ui_loading_mp_mp8_0.tga</Filename>
 			</BG_image>
 			<_Editor>
 				<Category>MP levels:General</Category>
@@ -122,7 +122,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>Retribution</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp9_0.tga</Filename>
 			</BG_image>
@@ -137,7 +137,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>mp10</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp10_0.tga</Filename>
 			</BG_image>
@@ -152,7 +152,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>mp11</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp11_0.tga</Filename>
 			</BG_image>
@@ -167,7 +167,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>mp12</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp12_0.tga</Filename>
 			</BG_image>
@@ -182,7 +182,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>mp13</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp13_0.tga</Filename>
 			</BG_image>
@@ -197,7 +197,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>mp14</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp14_0.tga</Filename>
 			</BG_image>
@@ -212,7 +212,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>mp15</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp15_0.tga</Filename>
 			</BG_image>
@@ -227,7 +227,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>mp16</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp16_0.tga</Filename>
 			</BG_image>
@@ -242,7 +242,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>mp17</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp17_0.tga</Filename>
 			</BG_image>
@@ -257,7 +257,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>mp18</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp18_0.tga</Filename>
 			</BG_image>
@@ -272,7 +272,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>mp19</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp19_0.tga</Filename>
 			</BG_image>
@@ -287,7 +287,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>mp20</Name>
+			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp20_0.tga</Filename>
 			</BG_image>
@@ -300,7 +300,7 @@
 			</Level_layout>
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
-		</LoadingScreen>		
+		</LoadingScreen>-->		
 <!--END-->
 <!--START DLC WC Loading Screens Added-->
 		<LoadingScreen>
