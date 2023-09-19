@@ -35,7 +35,7 @@
 					<leader_highlighting>False</leader_highlighting>
 					<generic_option_overrides>
 						<point_limit>20</point_limit>
-						<respawn_time_seconds>0</respawn_time_seconds> <!--Added-->						
+						<respawn_time_seconds>0</respawn_time_seconds> <!--Added-->				
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
@@ -106,7 +106,7 @@
 					<bagman_kill_bonus>True</bagman_kill_bonus>
 					<generic_option_overrides>
 						<point_limit>250</point_limit>
-						<respawn_time_seconds>0</respawn_time_seconds> <!--Added-->						
+						<respawn_time_seconds>0</respawn_time_seconds> <!--Added-->					
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>

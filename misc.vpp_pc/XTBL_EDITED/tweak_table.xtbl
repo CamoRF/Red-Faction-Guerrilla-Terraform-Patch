@@ -130,7 +130,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_pct</Name>
-			<Value>11562</Value> <!--From 1.0-->
+			<Value>11562.0</Value> <!--From 1.0-->
 			<Description>Minimum fade percentage for NPCs near the camera.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -506,14 +506,14 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ladder_move_speed</Name>
-			<Value>18.0</Value> <!--From 14.0 in v1.07.4--> <!--From 7.0 in v1.07.2--> <!--From 2.0-->
+			<Value>18.0</Value> <!--From 2.0-->
 			<_Editor>
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ladder_mp_move_speed</Name>
-			<Value>18.0</Value> <!--From 14.0 in v1.07.4--> <!--From 7.0 in v1.07.2--> <!--From 4.0-->
+			<Value>18.0</Value> <!--From 4.0-->
 			<_Editor>
 				<Category>Movement</Category>
 			</_Editor>
@@ -617,7 +617,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Mp_respawn_invulnerable_time_ms</Name>
-			<Value>2000</Value> <!--Default 5000-->
+			<Value>2000</Value> <!--From 5000-->
 			<Description>How long after a player spawns should he be invulnerable for? This is in milliseconds.</Description>
 			<_Editor>
 				<Category>Multiplayer</Category>
@@ -1503,7 +1503,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_dist</Name>
-			<Value>11562</Value> <!--From 0.0-->
+			<Value>11562.0</Value> <!--From 0.0-->
 			<Description>Distance from the camera at which NPCs reach the minimum fade percent.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -1511,7 +1511,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_max_fade_dist</Name>
-			<Value>11562</Value> <!--From 0.6-->
+			<Value>11562.0</Value> <!--From 0.6-->
 			<Description>Distance from the camera at which friendly NPCs are fully faded-in.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -2231,7 +2231,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Salvage_spawn_dead_prob</Name>
-			<Value>0.25</Value> <!--Maybe 0.50 in rebalance add-on-->
+			<Value>0.25</Value> <!--Maybe 0.50 in gameplay add-on-->
 			<Description>This is the probability used for salvage spawns</Description>
 			<_Editor>
 				<Category>Miscellaneous</Category>
@@ -2279,7 +2279,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_detonation_delay_ms</Name>
-			<Value>650</Value> <!--From 300 in v1.07.4--> <!--From 600-->
+			<Value>650</Value> <!--From 600-->
 			<Description>Once triggered, proxy mines will detonate after this period of time.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2287,7 +2287,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_radius</Name>
-			<Value>2.5</Value> <!--From 3.5 in v1.07.4--> <!--From 3-->
+			<Value>2.5</Value> <!--From 3-->
 			<Description>Radius within which a proxy mine will detonate on a person.</Description>
 			<_Editor>
 				<Category>Weapons</Category>

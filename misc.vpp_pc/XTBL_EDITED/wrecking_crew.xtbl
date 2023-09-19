@@ -319,7 +319,7 @@
 				</weapon>
 			</weapons>
 			<backpacks>
-<!--START Kaboom Added-->			
+<!--START Kaboom Added-->		
 				<backpack>
 					<backpack_name>Kaboom</backpack_name>
 					<rampage_time_penalty_ms>12000</rampage_time_penalty_ms>

@@ -79,7 +79,7 @@
 			</Flags>
 		</Explosion>	
 <!--END-->
-<!--START New Explosions Added-->	
+<!--START New Explosions Added-->
 		<Explosion>
 			<Name>mp_kaboom</Name>
 			<Radius>7.2</Radius> <!--From 5-->

@@ -956,7 +956,7 @@
 			<Vehicle_Damage_Scale>1</Vehicle_Damage_Scale>
 			<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
 		</Vehicle>		
-<!--END-->		
+<!--END-->
 		<Vehicle>
 			<Name>MarsRover1</Name>
 			<_Editor>

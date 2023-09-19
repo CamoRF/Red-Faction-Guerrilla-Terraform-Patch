@@ -2,56 +2,56 @@
 	<Table>
 		<Tweak_Table_Entry>
 			<Name>TS_anarchy_draw_chance</Name>
-			<Value>0</Value> <!--From .01-->
+			<Value>-1</Value> <!--From .01-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_team_anarchy_draw_chance</Name>
-			<Value>0</Value> <!--From .01-->
+			<Value>-1</Value> <!--From .01-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_bagman_draw_chance</Name>
-			<Value>0</Value> <!--From .01-->
+			<Value>-1</Value> <!--From .01-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_team_bagman_draw_chance</Name>
-			<Value>0</Value> <!--From .01-->
+			<Value>-1</Value> <!--From .01-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_ctf_draw_chance</Name>
-			<Value>0</Value> <!--From .1-->
+			<Value>-1</Value> <!--From .1-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_siege_draw_chance</Name>
-			<Value>0</Value> <!--From .2-->
+			<Value>-1</Value> <!--From .2-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_damage_control_draw_chance</Name>
-			<Value>0</Value> <!--From .01-->
+			<Value>-1</Value> <!--From .01-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_skill_mismatch</Name>
-			<Value>0</Value> <!--From .75-->
+			<Value>-1</Value> <!--From .75-->
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -59,7 +59,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_undesired_playlist</Name>
-			<Value>0</Value> <!--From .9-->
+			<Value>-1</Value> <!--From .9-->
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -67,7 +67,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_bad_lag</Name>
-			<Value>0</Value> <!--From .5-->
+			<Value>-1</Value> <!--From .5-->
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -75,7 +75,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_server_migration</Name>
-			<Value>0</Value> <!--From .9-->
+			<Value>-1</Value> <!--From .9-->
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -83,7 +83,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_bad_lag_rtt_ms</Name>
-			<Value>2147483647</Value> <!--From 250-->
+			<Value>2147483647.0</Value> <!--From 250-->
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -91,7 +91,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_bad_lag_duration_ms</Name>
-			<Value>2147483647</Value> <!--From 15000-->
+			<Value>2147483647.0</Value> <!--From 15000-->
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -106,7 +106,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_demolition_draw_chance</Name>
-			<Value>0</Value> <!--From .01-->
+			<Value>-1</Value> <!--From .01-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>

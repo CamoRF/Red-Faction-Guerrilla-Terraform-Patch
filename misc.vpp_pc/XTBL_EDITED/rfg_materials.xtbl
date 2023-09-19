@@ -102,7 +102,7 @@
 				<Flag>collide_as_mover</Flag> <!--Added-->
 				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->				 
+				<Flag>use_pickup</Flag> <!--Added-->		 
 			</Flags>
 			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
@@ -359,7 +359,7 @@
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>				
 				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added--> 
+				<Flag>collide_as_mover</Flag> <!--Added-->
 				<Flag>no_auto_delete</Flag> <!--Added-->
 				<Flag>no_pickup_delete</Flag> <!--Added-->
 				<Flag>use_pickup</Flag> <!--Added-->

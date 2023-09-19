@@ -1243,7 +1243,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True?-->
 			<LOD>
 				<Spawning>
 					<Distance>10</Distance>
@@ -1756,7 +1756,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True?-->
 		</Effect>
 		<Effect>
 			<Name>env_dust_gust_a</Name>
@@ -1769,7 +1769,7 @@
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True?-->
 		</Effect>
 		<Effect>
 			<Name>env_red_light_pulse_a</Name>
@@ -2436,7 +2436,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True?-->
 		</Effect>
 		<Effect>
 			<Name>dth_transformer_a_pre</Name>
@@ -2803,7 +2803,7 @@
 			<Singleplayer>False</Singleplayer>
 			<Multiplayer>True</Multiplayer>
 		</Effect>
-<!--START Team Backpack Fix-->		
+<!--START Team Backpack Fix-->	
 		<Effect>
 			<Name>mp_rack_light_red</Name>
 			<VFX>
@@ -2817,7 +2817,7 @@
 			<Singleplayer>False</Singleplayer>
 			<Multiplayer>True</Multiplayer>
 		</Effect>
-<!--END-->		
+<!--END-->	
 		<Effect>
 			<Name>mp_rack_light_blue</Name>
 			<VFX>
@@ -3323,7 +3323,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True?-->
 		</Effect>
 		<Effect>
 			<Name>env_dust_blowing_small_a</Name>
@@ -3336,7 +3336,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True?-->
 		</Effect>
 		<Effect>
 			<Name>env_dust_blowing_b</Name>
@@ -3349,7 +3349,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True?-->
 		</Effect>
 		<Effect>
 			<Name>env_dust_blowing_c</Name>
@@ -3362,7 +3362,7 @@
 			</_Editor>
 			<Streaming_Category>Environmental</Streaming_Category>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True?-->
 		</Effect>
 		<Effect>
 			<Name>gp_dredger_exp_a</Name>
@@ -4803,7 +4803,7 @@
 			<Streaming_Category>General</Streaming_Category> <!--From Preload-->
 			<Radius>50</Radius>
 			<Singleplayer>False</Singleplayer>
-			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True?-->
 			<Radial_blur>
 				<Radial_blur_entry>very large</Radial_blur_entry>
 			</Radial_blur>
@@ -6497,7 +6497,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>10</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True?-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Dust</Category>
 			</_Editor>
@@ -7384,7 +7384,7 @@
 			<Streaming_Category>Preload</Streaming_Category>
 			<Radius>10</Radius>
 			<Singleplayer>True</Singleplayer>
-			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True-->
+			<Multiplayer>True</Multiplayer> <!--From False--> <!--From True?-->
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Dust</Category>
 			</_Editor>

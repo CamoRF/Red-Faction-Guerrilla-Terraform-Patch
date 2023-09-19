@@ -295,8 +295,7 @@
 				<vehicle_type>Walker_Civilian3</vehicle_type>
 <!--START DLC Vehicles ADDED-->
 				<vehicle_type>Mar_Walker</vehicle_type>
-<!--END-->				
-				
+<!--END-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Guerilla</Category>
@@ -312,7 +311,7 @@
 				<vehicle_type>Mar_chomper_MGWing</vehicle_type>
 				<vehicle_type>Mar_chomper_Harp</vehicle_type>
 				<vehicle_type>Mar_stomper_MG</vehicle_type>	
-<!--END-->	
+<!--END-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Marauder</Category>
@@ -364,7 +363,7 @@
 				<vehicle_type>Mar_chomper_MGWing</vehicle_type>
 				<vehicle_type>Mar_chomper_Harp</vehicle_type>
 				<vehicle_type>Mar_stomper_MG</vehicle_type>	
-<!--END-->		
+<!--END-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries</Category>
@@ -776,7 +775,7 @@
 				<vehicle_type>Mar_chomper_MGWing</vehicle_type>
 				<vehicle_type>Mar_chomper_Harp</vehicle_type>
 				<vehicle_type>Mar_stomper_MG</vehicle_type>	
-<!--END-->				
+<!--END-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Marauder</Category>
@@ -1231,7 +1230,7 @@
 				<vehicle_type>Mar_chomper_MGWing</vehicle_type>
 				<vehicle_type>Mar_chomper_Harp</vehicle_type>
 				<vehicle_type>Mar_stomper_MG</vehicle_type>	
-<!--END-->	
+<!--END-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
@@ -1248,7 +1247,7 @@
 				<vehicle_type>Min_Rover-A_DMG3</vehicle_type>
 <!--START Bulldozer ADDED-->
 				<vehicle_type>Min_Bulldozer_1</vehicle_type>
-<!--END-->			
+<!--END-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
@@ -1271,14 +1270,14 @@
 				<vehicle_type>Mar_Jetter_1</vehicle_type>				
 <!--START Bulldozer ADDED-->
 				<vehicle_type>Min_Bulldozer_1</vehicle_type>
-<!--END-->				
+<!--END-->
 <!--START DLC Vehicles ADDED-->
 				<vehicle_type>Mar_chomper</vehicle_type>
 				<vehicle_type>Mar_chomper_MG</vehicle_type>
 				<vehicle_type>Mar_chomper_MGWing</vehicle_type>
 				<vehicle_type>Mar_chomper_Harp</vehicle_type>
 				<vehicle_type>Mar_stomper_MG</vehicle_type>	
-<!--END-->		
+<!--END-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
@@ -1293,7 +1292,7 @@
 				<vehicle_type>Min_LightPickup_MG3</vehicle_type>
 <!--START Bulldozer ADDED-->
 				<vehicle_type>Min_Bulldozer_1</vehicle_type>
-<!--END-->				
+<!--END-->
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
@@ -1308,7 +1307,7 @@
 				<vehicle_type>Min_Rover-A_DMG3</vehicle_type>
 <!--START Bulldozer ADDED-->
 				<vehicle_type>Min_Bulldozer_1</vehicle_type>
-<!--END-->				
+<!--END-->		
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>

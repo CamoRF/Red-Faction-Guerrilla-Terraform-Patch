@@ -169,7 +169,7 @@
 			<Unlock_Level>20</Unlock_Level> <!--From 123-->
 			<Type>color</Type>
 		</entry>
-<!--END-->		
+<!--END-->	
 <!--START Rank Unlocks-->		
 		<entry>
 			<Name>MENU_UNLOCK_RANK_1</Name>
@@ -259,7 +259,7 @@
 			<Unlock_Level>126</Unlock_Level>
 			<Type>emblem</Type>
 		</entry>
-<!--END-->		
+<!--END-->
 	</Table>
 	<!--<TableTemplates></TableTemplates>-->
 <!--	<TableDescription>

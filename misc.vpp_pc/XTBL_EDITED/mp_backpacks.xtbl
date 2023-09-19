@@ -1534,7 +1534,7 @@
 			<pickup_tooltip>backpack_rhino</pickup_tooltip>
 		</mp_backpacks>
 <!--END-->
-<!--Start Repair Backpack ADDED-->		
+<!--Start Repair Backpack ADDED-->
 		<mp_backpacks>
 			<Name>Repair</Name>
 			<_Editor>
