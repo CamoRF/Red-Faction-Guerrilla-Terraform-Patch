@@ -34,7 +34,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>		
-<!--END-->		
+<!--END-->
 <!--START Grenade ADDED-->
 		<Inventory_Item>
 			<Name>camo_grenade</Name>
@@ -625,7 +625,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>-->
-<!--END-->		
+<!--END-->	
 	</Table>
 	<!--<TableTemplates></TableTemplates>-->
 <!--	<TableDescription>

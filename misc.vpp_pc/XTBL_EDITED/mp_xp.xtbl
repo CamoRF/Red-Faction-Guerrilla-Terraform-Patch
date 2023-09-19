@@ -8,7 +8,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<team_event>True</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<display_name>HM_XP_WIN_MATCH</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -22,7 +22,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<team_event>True</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<display_name>HM_XP_FINISH_MATCH</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -36,7 +36,7 @@
 			</_Editor>
 			<event_description>HM_XP_KILL_DESC</event_description>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<display_name>HM_XP_KILL</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -50,7 +50,7 @@
 				<Category>Entries:Siege</Category>
 			</_Editor>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<display_name>HM_XP_PROTECT_SIEGE_TEAM</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -66,7 +66,7 @@
 				<Category>Entries:Siege</Category>
 			</_Editor>
 			<team_event>True</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>False</player_event>
 			<display_name>HM_XP_DSTRY_TARGET_TEAM</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -110,7 +110,7 @@
 				<Category>Entries:Deathmatch</Category>
 			</_Editor>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<display_name>HM_XP_DM_KILL_SOLO</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -124,7 +124,7 @@
 				<Category>Entries:Deathmatch</Category>
 			</_Editor>
 			<team_event>True</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>False</player_event>
 			<display_name>HM_XP_DM_KILL</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -138,7 +138,7 @@
 				<Category>Entries:Damage Control</Category>
 			</_Editor>
 			<team_event>True</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>False</player_event>
 			<display_name>HM_XP_HOLD_TARGET</display_name>
 			<repeat_delay_ms>8000</repeat_delay_ms>
@@ -211,7 +211,7 @@
 			<value>6</value> <!--From 3-->
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>10</parameter>
 			<parameter_description>Enemy killed must be within X meters of target to trigger this</parameter_description>
 			<_Editor>
@@ -228,7 +228,7 @@
 				<Category>Entries:Capture the Flag</Category>
 			</_Editor>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<parameter>10</parameter>
 			<parameter_description>The enemy must be within (parameter) meters of the flag.</parameter_description>
@@ -244,7 +244,7 @@
 				<Category>Entries:Capture the Flag</Category>
 			</_Editor>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<parameter>10</parameter>
 			<parameter_description>The enemy must be within (parameter) meters of the flag carrier.</parameter_description>
@@ -260,7 +260,7 @@
 				<Category>Entries:Capture the Flag</Category>
 			</_Editor>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<display_name>HM_XP_KILL_FLAG_CARRIER</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -274,7 +274,7 @@
 				<Category>Entries:Capture the Flag</Category>
 			</_Editor>
 			<team_event>True</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>False</player_event>
 			<display_name>HM_XP_CAPTURE_FLAG_TEAM</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -288,7 +288,7 @@
 				<Category>Entries:Capture the Flag</Category>
 			</_Editor>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<display_name>HM_XP_CAPTURE_FLAG</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -302,7 +302,7 @@
 				<Category>Entries:Bagman</Category>
 			</_Editor>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<display_name>HM_XP_BAGMAN_KILL</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -316,7 +316,7 @@
 				<Category>Entries:Bagman</Category>
 			</_Editor>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<parameter>10</parameter>
 			<parameter_description>The enemy must be within (parameter) meters of the bagman.</parameter_description>
@@ -332,7 +332,7 @@
 				<Category>Entries:Bagman</Category>
 			</_Editor>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<display_name>HM_XP_KILL_BAGMAN</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
@@ -346,7 +346,7 @@
 				<Category>Entries:Bagman</Category>
 			</_Editor>
 			<team_event>True</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>False</player_event>
 			<display_name>HM_XP_HOLD_BAG_TEAM</display_name>
 			<repeat_delay_ms>5000</repeat_delay_ms>
@@ -360,7 +360,7 @@
 				<Category>Entries:Bagman</Category>
 			</_Editor>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<display_name>HM_XP_HOLD_BAG</display_name>
 			<repeat_delay_ms>10000</repeat_delay_ms>
@@ -374,7 +374,7 @@
 				<Category>Entries:Bagman</Category>
 			</_Editor>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<display_name>HM_XP_PICKUP_BAG</display_name>
 			<repeat_delay_ms>15000</repeat_delay_ms>
@@ -388,7 +388,7 @@
 				<Category>Entries:Bagman</Category>
 			</_Editor>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>True</player_event>
 			<display_name>HM_XP_HOLD_BAG_SOLO</display_name>
 			<repeat_delay_ms>3000</repeat_delay_ms>
@@ -440,7 +440,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -456,7 +456,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -474,7 +474,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -491,7 +491,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -525,7 +525,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -558,7 +558,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -576,7 +576,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -593,7 +593,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -609,7 +609,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -626,7 +626,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -644,7 +644,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -661,7 +661,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -695,7 +695,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -747,7 +747,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -781,7 +781,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>2</parameter>
 			<parameter_description>Minimum number of enemies knocked down</parameter_description>
 			<_Editor>
@@ -801,7 +801,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>40</parameter>
 			<parameter_description>Enemy distance from player</parameter_description>
 			<_Editor>
@@ -874,7 +874,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>5</parameter>
 			<parameter_description>Kills in a row</parameter_description>
 			<_Editor>
@@ -911,7 +911,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -927,7 +927,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -944,7 +944,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -964,7 +964,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -981,7 +981,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>5</parameter>
 			<parameter_description>Distance to teammate</parameter_description>
 			<_Editor>
@@ -1000,7 +1000,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -1017,7 +1017,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>5</parameter>
 			<parameter_description>You or the enemy has to be within X meters of a downed teammate.</parameter_description>
 			<_Editor>
@@ -1035,7 +1035,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>5</parameter>
 			<parameter_description>Maximum seconds since teammate killed</parameter_description>
 			<_Editor>
@@ -1054,7 +1054,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>15</parameter>
 			<parameter_description>Maximum seconds since respawn</parameter_description>
 			<_Editor>
@@ -1074,7 +1074,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -1091,7 +1091,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>60</parameter>
 			<parameter_description>Distance from player to enemy</parameter_description>
 			<_Editor>
@@ -1109,7 +1109,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -1126,7 +1126,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -1143,7 +1143,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>5</parameter>
 			<parameter_description>Kill streak enemy must be on</parameter_description>
 			<_Editor>
@@ -1182,7 +1182,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>10</parameter>
 			<parameter_description>You have to be within X meters of the teammate.</parameter_description>
 			<_Editor>
@@ -1201,7 +1201,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -1218,7 +1218,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>0.7</parameter>
 			<parameter_description>Maximum dot product required. Range is 0 to 1, the lower it is, the further above/below the enemy needs to be.</parameter_description>
 			<_Editor>
@@ -1237,7 +1237,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Bonuses</Category>
 			</_Editor>
@@ -1270,7 +1270,7 @@
 			</bonus>
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>0.1</parameter>
 			<parameter_description>How many seconds after you die until eligible</parameter_description>
 			<_Editor>
@@ -1287,7 +1287,7 @@
 			<value>2</value> <!--From 1-->
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>8</parameter>
 			<parameter_description>How many points until this event is triggered?</parameter_description>
 			<_Editor>
@@ -1303,7 +1303,7 @@
 			<value>2</value> <!--From 1-->
 			<player_event>False</player_event>
 			<team_event>True</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>8</parameter>
 			<parameter_description>How many points until this event is triggered?</parameter_description>
 			<_Editor>
@@ -1319,7 +1319,7 @@
 			<value>10</value> <!--From 5-->
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Demolition</Category>
 			</_Editor>
@@ -1333,7 +1333,7 @@
 			<value>6</value> <!--From 3-->
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<parameter>10</parameter>
 			<parameter_description>How close does the player have to be to the engineer to earn this?</parameter_description>
 			<_Editor>
@@ -1349,7 +1349,7 @@
 			<value>4</value> <!--From 2-->
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Capture the Flag</Category>
 			</_Editor>
@@ -1363,7 +1363,7 @@
 			<value>4</value> <!--From 2-->
 			<player_event>True</player_event>
 			<team_event>False</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<_Editor>
 				<Category>Entries:Capture the Flag</Category>
 			</_Editor>
@@ -1378,7 +1378,7 @@
 				<Category>Entries:Siege</Category>
 			</_Editor>
 			<team_event>True</team_event>
-			<server_authoritative>False</server_authoritative>
+			<server_authoritative>True</server_authoritative> <!--From False-->
 			<player_event>False</player_event>
 			<display_name>HM_XP_DEFEND_SIEGE_TARGET</display_name>
 			<repeat_delay_ms>0</repeat_delay_ms>
