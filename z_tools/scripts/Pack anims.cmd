@@ -1,1 +1,0 @@
-RfgUtil.exe .\anims\ -c -e

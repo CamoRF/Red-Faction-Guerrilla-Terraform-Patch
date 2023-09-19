@@ -1,1 +1,2 @@
-RfgUtil.exe .\mp_test2_map\ -c -e
+RfgUtil.exe .\mp_dc_controlpoint.rfgchunkx\ -c -e
+RfgUtil.exe .\anims\ -c -e

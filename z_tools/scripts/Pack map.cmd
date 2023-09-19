@@ -1,3 +1,4 @@
+RfgUtil.exe .\mp_test_map\ -c -e
 RfgUtil.exe .\mp_junkyard_map\ -c -e
 RfgUtil.exe .\mp_cliffside_map\ -c -e
 RfgUtil.exe .\mp_partial_recall_map\ -c -e
@@ -5,6 +6,7 @@ RfgUtil.exe .\mp_shipment_map\ -c -e
 RfgUtil.exe .\mp_townhall_map\ -c -e
 RfgUtil.exe .\mp_warehouse_map\ -c -e
 RfgUtil.exe .\mp_spire_map\ -c -e
+RfgUtil.exe .\mp_dropoff_map\ -c -e
 RfgUtil.exe .\vanilla_wc1_map\ -c -e
 RfgUtil.exe .\vanilla_wc2_map\ -c -e
 RfgUtil.exe .\vanilla_wc3_map\ -c -e
@@ -24,3 +26,4 @@ RfgUtil.exe .\vanilla_wcdlc6_map\ -c -e
 RfgUtil.exe .\vanilla_wcdlc7_map\ -c -e
 RfgUtil.exe .\vanilla_wcdlc8_map\ -c -e
 RfgUtil.exe .\vanilla_wcdlc9_map\ -c -e
+RfgUtil.exe .\mp_armory_map\ -c -e
