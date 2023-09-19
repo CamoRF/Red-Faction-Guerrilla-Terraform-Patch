@@ -353,11 +353,11 @@
 			<Name>Default Marauder</Name>
 			<human_list>
 <!--START DLC Characters ADDED-->
-				<human_type>dlc_hess</human_type>
-				<human_type>dlc_vasha</human_type>
+<!--			<human_type>dlc_hess</human_type>
+				<human_type>dlc_vasha</human_type>-->
 <!--END-->
 <!--START New Character Added-->
-				<human_type>Camie</human_type>
+<!--			<human_type>Camie</human_type>-->
 <!--END-->
 				<human_type>Eddie</human_type>
 				<human_type>Slade</human_type>
