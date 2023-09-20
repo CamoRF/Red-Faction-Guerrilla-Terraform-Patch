@@ -45,7 +45,7 @@ v1.08 BETA CHANGES
 * Removed Pipeline Pitfalls "vpp_pc" file since the map has been disabled for a while increasing file size of patch for no reason
 * Remade Scrapheap with various improvements & fixes
 * Temporarily removed Retribution custom map, will be restored when the Nanoforge rewrite has the features required to ease development
-* Temporarily removed Townhall custom map, will be restored when the Nanoforge rewrite has the features required to ease development
+* Removed Townhall custom map
 * Optimized file sizes
 
 [Junkyard Map Updates]
