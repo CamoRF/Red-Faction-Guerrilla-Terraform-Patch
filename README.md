@@ -1,6 +1,6 @@
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/Logo.png?raw=true "Logo")
 
-- Version: v1.07.5.1 ALPHA
+- Version: v1.07.5.1 BETA
 - Date: 19-8-2023
 - Build: XXXX
 - Work-in-progress project that adds content, fixes bugs, and enhances many features; made for the 2018 remaster of Red Faction Guerrilla.
@@ -10,7 +10,8 @@
 
 # Installation
 - First verify your game files.
-- Use [SyncFaction](https://www.factionfiles.com/ff.php?action=file&id=7698)
+- Use [SyncFaction](https://github.com/rfg-modding/SyncFaction/releases)
+- See [RF:G Intro](https://www.redfactionwiki.com/wiki/RF:G_Intro) for TLDR on how to get started.
 - See [RF:G Game Night News](https://www.redfactionwiki.com/wiki/RF:G_Game_Night_News) for more detailed instructions and troubleshooting.
 
 # Changelog

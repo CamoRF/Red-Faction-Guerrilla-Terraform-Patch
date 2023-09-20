@@ -65,7 +65,7 @@ v1.00 ALPHA CHANGES
 * Fuel regen per second reduced to 0.066 from 0.1
 
 [Fixes]
-* Fixed vanilla bug where you sometimes cannot reobtain the Jetpack after changing to another backpack
+* Fixed vanilla bug in singleplayer where you sometimes cannot reobtain the Jetpack after changing to another backpack
 
 -------------------
 v1.01 ALPHA CHANGES
@@ -95,7 +95,7 @@ v1.02 ALPHA CHANGES
 * Added CTF flags as weapons in multiplayer
 
 [New Backpack]
-* Added cut kaboom packpack to multiplayer
+* Added cut kaboom backpack to multiplayer
 
 [Fixes]
 * Fixed issue with incorrect map thumbnails & loading screens on DLC Wrecking Crew maps
@@ -934,9 +934,9 @@ v1.07.5 ALPHA CHANGES
 [New Map]
 * Added custom Junkyard map
 
---------------------------------
-WAREHOUSE CUSTOM MAP ALPHA TEST
---------------------------------
+-----------------------------------
+v1.07.5 ALPHA WAREHOUSE CUSTOM MAP
+-----------------------------------
 
 [New Map]
 * Added custom Warehouse map
@@ -947,7 +947,3 @@ v1.07.5.1 BETA CHANGES
 
 * Unification feature: converts Steam version to GOG
 * Repacked to reduce file size
-
-------------------
-v1.08 BETA CHANGES
-------------------
