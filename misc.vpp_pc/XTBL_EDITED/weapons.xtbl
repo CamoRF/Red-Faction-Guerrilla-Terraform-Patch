@@ -581,7 +581,7 @@
 			<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
 			<aim_assist>0.5</aim_assist>
 			<Projectile_Info>
-				<Model>thermobaric_rocket_projectile</Model> <!--Needs comment for vanilla value-->
+				<Model>thermobaric_rocket_projectile</Model> <!--From rpg_projectile-->
 				<Start_Speed>50</Start_Speed>
 				<Max_Speed>70</Max_Speed>
 				<Attached_Effect>wep_miner_rpg_trail_s3</Attached_Effect>

@@ -3890,5 +3890,5 @@
 <Anim_file><Animation><Filename>wpnlkr_clsd_opn.animx</Filename><Preload>True</Preload></Animation><Triggers></Triggers><IKs></IKs><Sounds></Sounds><Voice_Lines></Voice_Lines><Props></Props><OldProps></OldProps></Anim_file>
 <Anim_file><Animation><Filename>wpnlkr_opnd.animx</Filename><Preload>True</Preload></Animation><Triggers></Triggers><IKs></IKs><Sounds></Sounds><Voice_Lines></Voice_Lines><Props></Props><OldProps></OldProps></Anim_file>
 <Anim_file><Animation><Filename>wpnlkr_opnd_shtdwn.animx</Filename><Preload>True</Preload></Animation><Triggers></Triggers><IKs></IKs><Sounds></Sounds><Voice_Lines></Voice_Lines><Props></Props><OldProps></OldProps></Anim_file>
-</Anim_files><_Editor><Category>Entries</Category></_Editor></Files></Table><!--<TableTemplates></TableTemplates>-->
+</Anim_files><_Editor><Category>Entries</Category></_Editor></Files></Table><TableTemplates></TableTemplates>
 </root>
