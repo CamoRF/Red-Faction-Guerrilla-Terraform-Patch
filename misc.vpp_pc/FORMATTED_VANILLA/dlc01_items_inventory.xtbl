@@ -100,7 +100,7 @@
 			</_Editor>
 		</Inventory_Item>
 	</Table>
-<!--	<TableTemplates>
+	<TableTemplates>
 		<Inventory_Item>
 			<Name>charge_launcher</Name>
 			<Display_Name>WEAP_CHARGE_LAUNCHER</Display_Name>
@@ -123,8 +123,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-	</TableTemplates>-->
-	<!--<TableDescription>
+	</TableTemplates>
+	<TableDescription>
 		<Name>Inventory_Item</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Inventory Item</Display_Name>
@@ -184,7 +184,7 @@
 			<Description>Item description.</Description>
 			<Required>false</Required>
 		</Element>
-	<!--<TableDescription>
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -1278,7 +1278,7 @@
 			<always_show_upgrade>True</always_show_upgrade>
 		</Upgrade>
 	</Table>
-<!--	<TableTemplates>
+	<TableTemplates>
 		<Upgrade>
 			<Name>jetpack</Name>
 			<Type>General</Type>
@@ -1400,8 +1400,8 @@
 			<Icon_Image>ui_hud_weapon_icon_tip</Icon_Image>
 			<Blueprint>ui_blueprint_collect_salvage</Blueprint>
 		</Upgrade>
-	</TableTemplates>-->
-<!--	<TableDescription>
+	</TableTemplates>
+	<TableDescription>
 		<Name>Upgrade</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -1591,7 +1591,7 @@
 			<Choice>True</Choice>
 			<Choice>False</Choice>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Normal</Name>

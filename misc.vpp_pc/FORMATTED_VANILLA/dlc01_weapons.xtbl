@@ -73,7 +73,7 @@
 			<aim_assist>0.5</aim_assist>
 		</Weapon>
 		<Weapon>
-			<Name>dlc_royal_sword</Name>
+			<Name>royal_sword</Name>
 			<Weapon_Class>melee_gutter</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -141,7 +141,7 @@
 			<aim_assist>0.75</aim_assist>
 		</Weapon>
 		<Weapon>
-			<Name>dlc_pickaxe</Name>
+			<Name>pickaxe</Name>
 			<Weapon_Class>melee</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -976,8 +976,8 @@
 			<Bullet_hole_scale>0.8</Bullet_hole_scale>
 		</Weapon>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Weapon</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -2364,7 +2364,7 @@ typically, this is the momentum value at which the weapon does the *maximum* dam
 			<Required>false</Required>
 			<Default>1.0</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

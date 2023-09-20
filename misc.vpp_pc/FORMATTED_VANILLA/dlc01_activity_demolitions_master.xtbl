@@ -203,8 +203,8 @@
 			<base_activity_data>dlc01_dm_06</base_activity_data>
 		</Demolitions_Master>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Demolitions_Master</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Demolitions Master</Display_Name>
@@ -481,7 +481,7 @@
 				<Default>0</Default>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>DLC01</Name>

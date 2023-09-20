@@ -722,7 +722,7 @@
 		</spawn_group_human>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>spawn_group_human</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -748,7 +748,7 @@
 			<Num_Display_Rows>8</Num_Display_Rows>
 			<Element_Name>human_type</Element_Name>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>
