@@ -9,47 +9,52 @@ v1.08 BETA CHANGES
 [Singleplayer]
 * Increased population density
 * Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can also find them at the Badlands safehouse
+* Added Base SP Marauder Vehicles to DLC SP
 * Added Bulldozer vehicle spawn to all safehouses
 
 [Misc]
-* Patch rebuilt from scratch to reduce file size significantly thanks to the new SyncFaction update
-* Optimized lod_properties.xtbl
-* Reverted changes to glares.xtbl since it didn't seem to do anything
-* Enabled SP only effects in MP, which will be useful for mappers in the future when working with object_effects
-* Changed ideal players for Gradient to 4-8 from 6-10
-* Renamed Lab Lady to Scientist
-* Renamed Outcast to Marie (her actual name in the files)
-* Renamed Marauder Lady to Camie (her actual name in the files)
 * Added colored names to new MP characters
-* Added SP DLC assets to mp_common.vpp_pc, will be needed for transferring SP DLC assets to MP maps in the future
-* Loading times are faster
-* Possibly improved fix for removing host migration
+* Added SP DLC assets to "mp_common.vpp_pc", will be useful for transferring SP DLC assets to MP maps in the future
+* Changed minimized versions of ".xtbls" to pretty versions to ease mod development
+* Patch rebuilt "hopefully" for the last time to reduce file size using the new loose file feature in SyncFaction 
+* Reverted changes to "glares.xtbl" since it didn't seem to do anything
+* Enabled SP only effects in MP, will be useful for mappers in the future when working with "object_effects" in Nanoforge
+* Renamed Lab Lady character to Scientist
+* Renamed Outcast character to Marie (her actual name in the files)
+* Renamed Marauder Lady character to Camie (her actual name in the files)
+* Reduced loading times in multiplayer
+* Reverted disabling various effects in multiplayer since it wasn't helping with the hardcoded limit for effects not playing sometimes "vfx.xtbl"
+* Possibly improved fix for removing host migration 
+* Possibly improved connection quality in multiplayer "mp_xp.xtbl" is all now handled server side
+* Optimized "lod_properties.xtbl"
+* Improved & fixed various comments in ".xtbls"
 
 [Peacekeeper Buff]
 * Increased firerate (Default refire delay reduced to 263 from 292)
 
 [Maps]
-* Renamed filename for Shipment to "mp_shipment"
-* Renamed filename for Cliffside to "mp_clifside"
-* Renamed filename for Partial Recall to "mp_partial_recall"
-* Removed Pipeline Pitfalls file
 * Added Demolition to Partial Recall
 * Added Demolition to Shipment
 * Added team spawns & CTF to various WC maps
 * Added EDF crates on Complex to fix some line of sight issues with spawns
-* Restored dust effects on various maps
+* Changed ideal players for Gradient to 4-8 from 6-10
+* Renamed filename for Shipment to "mp_shipment.vpp_pc"
+* Renamed filename for Cliffside to "mp_clifside.vpp_pc"
+* Renamed filename for Partial Recall to "mp_partial_recall.vpp_pc"
+* Renamed various maps that didn't reflect their in game name via ".xtbls" to ease map development using Nanoforge
+* Removed Pipeline Pitfalls "vpp_pc" file since the map has been disabled for a while increasing file size of patch for no reason
 * Remade Scrapheap with various improvements & fixes
-* Optimized file sizes for custom maps
-* Temporarily removed Retribution custom map
-* Temporarily removed Townhall custom map
+* Temporarily removed Retribution custom map, will be restored when the Nanoforge rewrite has the features required to ease development
+* Temporarily removed Townhall custom map, will be restored when the Nanoforge rewrite has the features required to ease development
+* Optimized file sizes
 
 [Junkyard Map Updates]
 * Added some line of sight fixes/improvements
+* Adjusted some existing weapon spawns
 * Added more weapon spawns
+* Aesthetic improvements
 * Added team spawns
 * Added CTF
-* Adjusted some existing weapon spawns
-* Aesthetic improvements
 
 [Shipment Map Updates]
 * Added more weapon spawns
@@ -57,7 +62,7 @@ v1.08 BETA CHANGES
 * Fixed duplicate shotgun weapon spawn
 
 [Wrecking Crew]
-* Renamed map filenames to "vanilla_wc1" etc
+* Renamed map filenames to "vanilla_wc1.vpp_pc" etc
 * Updated maps with various fixes
 
 [Misc Fixes]
@@ -65,9 +70,10 @@ v1.08 BETA CHANGES
 * Fixed some spawns on Partial Recall
 * Fixed some spawns on Quarantine Siege
 * Fixed SP DLC crash when starting a new game or loading a save
+* Fixed DLC weapon reticules & icons in SP DLC
 * Fixed vanilla issue with missing specular textures in SP
 * Fixed vanilla issue with memorial texture in SP
 * Fixed various issues with all maps
 * Fixed Fallfactor and Junkyard not having the same specular texture fix as Excavation and Partial Recall
-* Fixed issue where players would sometimes spawn with a floating backpack?
-* Reverted changes to mp_playlists.xtbl and mp_playlist_entries.xtbl in case it causes issues
+* Possibly fixed issue where players would sometimes spawn with a floating backpack until they died
+* Reverted changes to "mp_playlists.xtbl" and "mp_playlist_entries.xtbl" in case it causes issues since the community only plays custom matches anyway
