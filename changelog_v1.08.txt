@@ -4,7 +4,7 @@ v1.08 BETA CHANGES
 
 [Interface]
 * Initial loading screen updated to current patch version
-* Added several new placeholder textures for future map loading screens, thumbnails and character thumbnails to make it easier to add new textures in future without tedious hex editing
+* Added several new placeholder textures for future map loading screens, thumbnails and character thumbnails to make it easier to add new textures in the future without tedious hex editing
 
 [Singleplayer]
 * Increased population density
@@ -13,8 +13,8 @@ v1.08 BETA CHANGES
 * Added Bulldozer vehicle spawn to all safehouses
 
 [Misc]
-* Added colored names to new MP characters
-* Added SP DLC assets to "mp_common.vpp_pc", will be useful for transferring SP DLC assets to MP maps in the future
+* Added colored names to new MP characters in menu
+* Added SP DLC precache assets to "mp_common.vpp_pc", will be useful for transferring SP DLC map assets to MP maps in the future
 * Changed minimized versions of ".xtbls" to pretty versions to ease mod development
 * Patch rebuilt "hopefully" for the last time to reduce file size using the new loose file feature in SyncFaction 
 * Reverted changes to "glares.xtbl" since it didn't seem to do anything
@@ -24,9 +24,9 @@ v1.08 BETA CHANGES
 * Renamed Marauder Lady character to Camie (her actual name in the files)
 * Reduced loading times in multiplayer
 * Reverted disabling various effects in multiplayer since it wasn't helping with the hardcoded limit for effects not playing sometimes "vfx.xtbl"
-* Possibly improved fix for removing host migration 
-* Possibly improved connection quality in multiplayer "mp_xp.xtbl" is all now handled server side
-* Optimized "lod_properties.xtbl"
+* Improved fix for removing host migration 
+* Improved connection quality in multiplayer; "mp_xp.xtbl" is all now handled server side
+* Optimized "lod_properties.xtbl" to improve performance while still improving draw distance
 * Improved & fixed various comments in ".xtbls"
 
 [Peacekeeper Buff]
@@ -73,7 +73,7 @@ v1.08 BETA CHANGES
 * Fixed DLC weapon reticules & icons in SP DLC
 * Fixed vanilla issue with missing specular textures in SP
 * Fixed vanilla issue with memorial texture in SP
+* Fixed missing specular texture on Fallfactor and Junkyard maps
 * Fixed various issues with all maps
-* Fixed Fallfactor and Junkyard not having the same specular texture fix as Excavation and Partial Recall
-* Possibly fixed issue where players would sometimes spawn with a floating backpack until they died
+* Hopefully fixed issue where players would sometimes spawn with a floating backpack until they died
 * Reverted changes to "mp_playlists.xtbl" and "mp_playlist_entries.xtbl" in case it causes issues since the community only plays custom matches anyway
