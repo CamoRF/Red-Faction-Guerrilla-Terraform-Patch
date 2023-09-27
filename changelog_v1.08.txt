@@ -15,16 +15,15 @@ v1.08 BETA CHANGES
 [Misc]
 * Added colored names to new MP characters in menu
 * Added SP DLC precache assets to "mp_common.vpp_pc", will be useful for transferring SP DLC map assets to MP maps in the future
-* Changed minimized versions of ".xtbls" to pretty versions to ease mod development
+* Changed minimized versions of ".xtbls" to pretty versions to ease mod development, minimizing them isn't needed anymore with Reconstructor
 * Patch rebuilt "hopefully" for the last time to reduce file size using the new loose file feature in SyncFaction 
 * Reverted changes to "glares.xtbl" since it didn't seem to do anything
 * Enabled SP only effects in MP, will be useful for mappers in the future when working with "object_effects" in Nanoforge
 * Renamed Lab Lady character to Scientist
 * Renamed Outcast character to Marie (her actual name in the files)
 * Renamed Marauder Lady character to Camie (her actual name in the files)
-* Reduced loading times in multiplayer
+* Reduced loading times in multiplayer (misc, table, mp_common and INSERT files here are now uncompressed + uncondensed)
 * Reverted disabling various effects in multiplayer since it wasn't helping with the hardcoded limit for effects not playing sometimes "vfx.xtbl"
-* Improved fix for removing host migration 
 * Improved connection quality in multiplayer; "mp_xp.xtbl" is all now handled server side
 * Optimized "lod_properties.xtbl" to improve performance while still improving draw distance
 * Improved & fixed various comments in ".xtbls"
