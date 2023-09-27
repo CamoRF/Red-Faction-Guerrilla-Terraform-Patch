@@ -72,7 +72,6 @@ v1.08 BETA CHANGES
 * Fixed DLC weapon reticules & icons in SP DLC
 * Fixed vanilla issue with missing specular textures in SP
 * Fixed vanilla issue with memorial texture in SP
-* Fixed missing specular texture on Fallfactor and Junkyard maps
-* Fixed various issues with all maps
-* Hopefully fixed issue where players would sometimes spawn with a floating backpack until they died
-* Reverted changes to "mp_playlists.xtbl" and "mp_playlist_entries.xtbl" in case it causes issues since the community only plays custom matches anyway
+* Fixed vanilla issue with missing specular texture on Fallfactor and Junkyard maps
+* Fixed various issues on all maps
+* Fixed issue where players would sometimes spawn with a floating backpack until they died
