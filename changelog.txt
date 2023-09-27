@@ -3,8 +3,8 @@
 *-------------------*
 
 Author: Camo
-Version: v1.075.1 BETA
-Date: 19-8-2023
+Version: v1.075.2 BETA
+Date: 27-9-2023
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -947,3 +947,11 @@ v1.07.5.1 BETA CHANGES
 
 * Unification feature: converts Steam version to GOG
 * Repacked to reduce file size
+
+-----------------------
+v1.07.5.2 BETA CHANGES
+-----------------------
+
+* Reverted various multiplayer files to pretty format in case it was causing issues 
+* Reverted multiplayer playlist files to vanilla in case it was causing issues
+* Experimental improvement for removing host migration (online_tweak_table.xtbl)
