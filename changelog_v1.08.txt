@@ -16,6 +16,7 @@ v1.08 BETA CHANGES
 * Added colored names to new MP characters in menu
 * Added SP DLC precache assets to "mp_common.vpp_pc", will be useful for transferring SP DLC map assets to MP maps in the future
 * Changed minimized versions of ".xtbls" to pretty versions to ease mod development, minimizing them isn't needed anymore with Reconstructor
+* Changed default respawn time to 0 seconds for Siege, Damage Control & Demolition in custom game settings to get around the default min limit of 3 seconds, you can still set it to normal values
 * Patch rebuilt "hopefully" for the last time to reduce file size using the new loose file feature in SyncFaction 
 * Reverted changes to "glares.xtbl" since it didn't seem to do anything
 * Enabled SP only effects in MP, will be useful for mappers in the future when working with "object_effects" in Nanoforge
