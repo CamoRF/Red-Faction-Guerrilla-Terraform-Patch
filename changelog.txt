@@ -44,7 +44,8 @@ v1.00 ALPHA CHANGES
 [Rocket Launcher Nerf]
 * Magazine size reduced to 1 from 2, total ammo remains at 4.
 * Reload time slightly increased (delay increased to 262 from 250)
-* Enforcer Nerf
+
+[Enforcer Nerf]
 * Player damage at max range reduced to 23 from 24
 * Player damage at min range reduced to 32 from 33
 * Homing projectile strength reduced to 1.03425 from 1.05
@@ -115,12 +116,10 @@ v1.031 ALPHA CHANGES
 * Marauder howl will now always play at night
 
 [Maps]
-* Removed barrels on all wrecking crew maps
+* Removed barrels on all wrecking crew maps in multiplayer
 * Swapped default & alternative time of day settings on some maps so they match the loading screen image
 
 [Multiplayer]
-* Added wrecking crew map team anarchy & anarchy playlists & disabled siege, team objective & large mixer playlists in matchmaking
-* Increased player cap for bagman & anarchy matchmaking playlists from 6 to 8
 * Multiplayer respawn/spawn invulnerability time reduced to 2 seconds from 5 seconds
 
 [Kaboom Backpack Buff]
@@ -134,7 +133,6 @@ v1.031 ALPHA CHANGES
 * Fixed Kaboom pack explosion effect (changed from placeholder to thermo explosion effect)
 * Fixed vanilla bug with broken fog, weather, bloom, glow multipliers & lighting on various multiplayer maps
 * Fixed vanilla bug with missing sun textures, broken lens flares & missing sunshafts/godrays on various maps & the singleplayer tutorial mission
-* (FIXED) Spiker is temporarily disabled in multiplayer due to an issue where if you're not the host the projectile is invisible
 
 -------------------
 v1.05 ALPHA CHANGES
@@ -237,13 +235,12 @@ v1.06 ALPHA CHANGES
 
 [Maps]
 * Added weapon spawns to all 19 wrecking crew maps, thanks to ATMLVE for his help!
-* Added DLC weapon spawns to every regular multiplayer map (Subverter on all maps, Super Gauss on some maps that have a walkway that can be destroyed to stop the spawn or added as a spawn in a hidden location, Misslepod on maps that have the thermobaric rocket launcher)
+* Added DLC weapon spawns to every regular multiplayer map (Subverter on all maps)
 * Added fog to Imperial
 * Added 3 neutral respawns to Framework so the map is more playable in modes other than siege
 * Added various objects to fix line of sight on various WC maps, added 3 radio towers to Transmission to indicate where the invisible wall is, thanks to ATMLVE for his help!
 * Added bagman spawns to all wrecking crew & siege maps
-* Added Large Mixer maps to Team Anarchy & Team Bagman matchmaking playlists
-* Invasions lighting & weather changed to match Broadsides
+* Invasion WC map lighting & weather changed to match Broadsides
 
 [Characters]
 * Changed "Biker Chick" character name to "Outcast"
@@ -300,29 +297,17 @@ v1.061 ALPHA HOTFIX CHANGES
 ---------------------------
 
 [Interface]
-* Added the current community patch version to the initial loading screen
+* Added the current Terraform Patch version to the initial loading screen
 
 [Fixes]
 * Fixed missing server host migration fix
 * Fixed missing restoration of character breath effect
-* Fixed some missing optimized files to possibly reduce crashing
 * Fixed friendly fire not working in singleplayer
 * Reverted adding armour to Alec Mason in multiplayer due to crashing
 * Reverted other changes to Misslepod to possibly improve stability
 * Removed shadows on Misslepod magazine & projectile to possibly improve stability
 * Misslepod magazine & projectile now despawns quickly to possibly improve stability
 * Misc fixes & testing done to iron out issues with v1.06
-
----------------------------
-v1.062 ALPHA HOTFIX CHANGES
----------------------------
-
-[Interface]
-* Initial loading screen updated to current patch version
-
-[Fixes]
-* (FIXED) Disabled Vista in multiplayer level select due to bugs with duplicate weapon pickups
-* Re-exported Complex & Watchtower to possibly fix crashes
 
 ---------------------------
 v1.063 ALPHA HOTFIX CHANGES
@@ -359,7 +344,6 @@ v1.064 ALPHA CHANGES
 * Renamed the project from "COMMUNITY PATCH" to "TERRAFORM PATCH"
 
 [Interface]
-* (REVERTED) Re-implemented initial logos due to issue with it spamming Red Faction Guerrilla Re-Mars-tered.log, however they can now all be skipped
 * Initial loading screen updated to current patch version
 
 [Backpacks]
@@ -408,7 +392,7 @@ v1.064 ALPHA CHANGES
 * GFWL/Nordic Bonus: Fixed floating shipping containers replacing them with air craft & vehicle debris, added marauder smokestack, marauder statue, added smokestack outside the map, added shipping containers with explosive barrels on top of the cave area, added fire surrounding the map, added cliff warning sign near the GFWL containers, various fixes & more
 * Abandoned: Added EDF forcefield & buildings to indicate where the invisible wall is, added mine beacons & minefields to fix out of bounds exploits & more
 * The following maps have been temporarily disabled due to being heavily work in progress, they will be re-implemented in a future update: Gulch, Ruins & Scrapheap
-* Disabled misslepod & super gauss spawn in Siege, Damage Control & Demolition on all maps (excluding Crescent)
+* Disabled misslepod & super gauss spawns in Siege, Damage Control & Demolition on all maps (excluding Crescent)
 
 [Fixes]
 * Fixed Stealth backpack not working 
@@ -490,7 +474,6 @@ v1.07 ALPHA CHANGES
 [New Maps]
 * Added remastered version of Aerial Excavation by ATMLVE 
 * Added remastered version of Equilbrium King of the Hill by ATMLVE
-* (REVERTED) Added remastered version of Pipeline Pitfall by ATMLVE
 * Custom Quarantine siege map that can now be played in other game modes
 
 [Maps]
@@ -598,7 +581,6 @@ v1.07 ALPHA CHANGES
 * Fixed some issues with broken missions in singleplayer
 * Fixed issue with some of the recent stealth pack rebalance changes not applying
 * Reverted change to "Max_simultaneous_proxies" in tweak_table.xtbl in case it causes issues/crashes
-* Optimized more files to reduce memory pool load increasing stability
 * Various other fixes, improvements & adjustments to player, weapon & backpack spawns on all multiplayer & wrecking crew maps
 * Various other fixes, improvements & adjustments to all multiplayer & wrecking crew maps
 * Various other fixes, optimizations & stability improvements
@@ -608,7 +590,7 @@ v1.07.1 ALPHA CHANGES
 ---------------------
 
 [Misc]
-* Added some missing comments to various files so it's easier to see exactly what the patch modifies in each .xtbl file on the github page
+* Added some missing comments to various files so it's easier to see exactly what the patch modifies
 
 [Interface]
 * Initial loading screen updated to current patch version
@@ -620,7 +602,6 @@ v1.07.1 ALPHA CHANGES
 [Maps]
 * Added CTF & Damage Control to Framework
 * Added CTF & Damage Control to Vista
-* Disabled custom maps temporarily as it's not possible to .xdelta patch them with the new bug fixes until SyncFaction supports it
 * Slightly adjusted minefields on Scrapheap
 
 [Weapons]
@@ -677,9 +658,8 @@ v1.07.2 ALPHA CHANGES
 * All XP bonus events are now unlocked by default
 * Doubled XP
 * All characters and hammers are now unlocked by default
-* Badge icons & colours are now unlocked at levels through 0-20 from 0-123
+* Badge icons & colours are now unlocked at levels through 0-20 instead of 0-123
 * Improvements to host migration fix
-* Changed default bag return time to 0 seconds for Bagman and Team Bagman as a work around to get around the default minimum of 5 seconds, you can still change it to a normal value
 
 [Weapons]
 * Reverted Gauss Rifle, Super Gauss Rifle, Reconstructor & Nano Rifle respecting the players camera shake setting as the recoil behavior of these weapons required camera shake, causing a competitive advantage if one player had camera shake disabled and the other player had it enabled
@@ -699,9 +679,7 @@ v1.07.2 ALPHA CHANGES
 * Fixed accidently disabling CTF & Damage Control on Remnant
 * Fixed missing names for Damage Control Targets on Imperial
 * Fixed location of one of the Damage Control Targets on Abandoned
-* Fixed some files that shouldn't be optimized and caused bugs with the Kiosk screens in Singleplayer for example
-* (FIXED) Temporarily disabled one of the out of bounds exploit fixes on Downfall that killed you while you were still in the map
-* Optimized more files to reduce memory pool load increasing stability
+* Fixed some files that shouldn't be changed from vanilla formatting and caused bugs with the Kiosk screens in Singleplayer for example
 
 ---------------------
 v1.07.3 ALPHA CHANGES
@@ -733,7 +711,7 @@ v1.07.3 ALPHA CHANGES
 [Multiplayer]
 * Changed default bag return time to 5 seconds for Bagman and Team Bagman, having it at 0 was annoying if you forgot to change the custom game settings
 * Moved previous backpack balance changes for fuel usage and recharge rates to mp_backpack_overrides.xtbl so the changes don't change singleplayer balance anymore
-* Flag & Gutter weapons no longer drop on death due to possible clutter and connection lag issues
+* Flag & Gutter weapons no longer drop on death due to possible clutter and connection lag issues since they never despawned or could be picked up
 
 [Concussion Nerf]
 * Decreased fuel regen per second to 0.11 from 0.22
@@ -769,12 +747,10 @@ v1.07.3 ALPHA CHANGES
 * Changed alternative time of day on Frost
 * Siege targets now unlock in a different order on Quarantine
 * Siege targets now unlock in a different order on Garrison
-* Temporarily removed Equilbrium KOTH
-* Temporarily removed Pipeline Pitfalls
 * Removed Pipeline Pitfalls due to it not being very unpolished
 * Re-enabled Demolition on Stratosphere & Crescent with balance fixes so you can no longer win the match by destroying a single town hall
 * Changed Smokestack siege target names on Quarantine to "SMOKESTACK" from "SMOKESTACK 1" since there's four of them now
-* Disabled Singularity Bomb, Mine & player spawn near the King of the Hill objective on Watchtower when the map is played in Damage Control
+* Disabled Singularity Bomb, Mine & a player spawn near the King of the Hill objective on Watchtower when the map is played in Damage Control
 
 [Fixes]
 * Fixed issue with players holding grenades in both hands
@@ -850,16 +826,14 @@ v1.07.4 ALPHA CHANGES
 * Improved Nordic Bonus/GFWL
 * Temporarily disabled Damage Control on Frost due to an issue with shape cutters
 * Tweaked kill trigger on Partial Recall so you can thrust back into the map if you're quick enough
-* Added a thrust backpack to Abandoned in a location where you could get stuck below
+* Added a thrust backpack to Abandoned in a location where you could get stuck out of the map
 
 [Fixes]
-* Fixed DLC weapon icons and reticles not working in DLC SP
 * Fixed vanilla issue with squads in SP
 * Fixed vanilla issue with missing Tremor backpack effect in multiplayer
 * Fixed missing specular textures on Excavation, Framework & Partial Recall
 * Fixed various issues with Partial Recall
 * Fixed various misc issues
-* Optimized more files to reduce memory pool load increasing stability
 
 -----------------------
 v1.07.4.1 ALPHA CHANGES
@@ -923,7 +897,6 @@ v1.07.4.1 ALPHA CHANGES
 * Fixed vanilla issue with various objects not spawning in certain gamemodes
 * Fixed various vanilla issues with all maps
 * Fixed various misc issues
-* Optimized more files to reduce memory pool load increasing stability
 
 ---------------------
 v1.07.5 ALPHA CHANGES
