@@ -221,7 +221,6 @@ v1.05 ALPHA CHANGES
 * Fixed fog on Cornered
 * Fixed vanilla bug with missing moon lighting in singleplayer
 * Reverted Crash Site alternative time of day to 18:00 from 00:00 due to brightness & fog issues, will be re-implemented when the weather & lighting files are more understood
-* Removed fog on Imperial due to extreme fog on some computers, will be re-implemented when the weather & lighting files are more understood
 * Reverted blood decal lifetime tweak due to issue with them not syncing properly & being visible when using the stealth patch if you're covered in blood
 
 -------------------
@@ -303,8 +302,7 @@ v1.061 ALPHA HOTFIX CHANGES
 * Fixed missing server host migration fix
 * Fixed missing restoration of character breath effect
 * Fixed friendly fire not working in singleplayer
-* Reverted adding armour to Alec Mason in multiplayer due to crashing
-* Reverted other changes to Misslepod to possibly improve stability
+* Reverted other misc changes to Misslepod to possibly improve stability
 * Removed shadows on Misslepod magazine & projectile to possibly improve stability
 * Misslepod magazine & projectile now despawns quickly to possibly improve stability
 * Misc fixes & testing done to iron out issues with v1.06
