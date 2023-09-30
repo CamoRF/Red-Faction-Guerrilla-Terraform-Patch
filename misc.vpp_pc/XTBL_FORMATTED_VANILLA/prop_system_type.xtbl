@@ -116,14 +116,14 @@
 		</NewEntity>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>NewEntity</Name>
 		<Type>TableDescription</Type>
 		<Element>
 			<Name>Name</Name>
 			<Type>String</Type>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

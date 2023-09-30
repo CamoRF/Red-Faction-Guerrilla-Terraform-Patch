@@ -26,14 +26,14 @@
 		</activity_states>
 	</Table>
 	<TableTemplates></TableTemplates>
-<!--	<TableDescription>
+	<TableDescription>
 		<Name>activity_states</Name>
 		<Type>TableDescription</Type>
 		<Element>
 			<Name>Name</Name>
 			<Type>String</Type>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

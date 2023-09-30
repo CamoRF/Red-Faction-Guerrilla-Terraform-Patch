@@ -162,12 +162,12 @@
 			</_Editor>
 			<Personas>
 				<Persona>SAFE</Persona>
-				<!--<Persona>D01SAM_PCM01</Persona>-->
+				<Persona>D01SAM_PCM01</Persona>
 			</Personas>
 			<Height>1.0</Height>
 			<Variation>0.0</Variation>
 			<Inventory>
-				<!--<Item>
+				<Item>
 					<Item_Name>mar_charge_placer</Item_Name>
 					<Item_Count>1</Item_Count>
 					<Item_Slot>-1</Item_Slot>
@@ -181,14 +181,14 @@
 					<Item_Name>camo_spiker</Item_Name>
 					<Item_Count>1</Item_Count>
 					<Item_Slot>1</Item_Slot>
-				</Item>-->
+				</Item>
 				<Item>
 					<Item_Name>shotgun</Item_Name>
 					<Item_Count>1</Item_Count>
 					<Item_Slot>-1</Item_Slot>
 				</Item>
 			</Inventory>
-			<Sex>female</Sex> <!--From male-->
+			<Sex>female</Sex> From male
 			<max_hit_points>550</max_hit_points>
 			<knock_down_hits>30</knock_down_hits>
 			<max_speed>5</max_speed>
@@ -309,12 +309,12 @@
 				<Category>Entries:Marauder:Scavenger</Category>
 			</_Editor>
 			<Personas>
-				<!--<Persona>D01MSM01</Persona>
+				<Persona>D01MSM01</Persona>
 				<Persona>D01MSM02</Persona>
 				<Persona>D01MSM03</Persona>
 				<Persona>D01MSM04</Persona>
 				<Persona>D01MSM05</Persona>
-				<Persona>D01MSM06</Persona>-->
+				<Persona>D01MSM06</Persona>
 				<Persona>MSM01</Persona>
 				<Persona>MSM02</Persona>
 				<Persona>MSM03</Persona>
@@ -488,7 +488,7 @@
 				<Category>Entries:Marauder:Scavenger</Category>
 			</_Editor>
 			<Personas>
-				<!--<Persona>D01VASHA_SAFE</Persona>-->
+				<Persona>D01VASHA_SAFE</Persona>
 				<Persona>SAFE</Persona>
 			</Personas>
 			<Height>1.0</Height>
@@ -18863,8 +18863,8 @@
 			<Light_Effect>char_heavy_edf_lights</Light_Effect>
 		</Character>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Character</Name>
 		<Type>TableDescription</Type>
 		<Description>A game character.</Description>
@@ -19315,7 +19315,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

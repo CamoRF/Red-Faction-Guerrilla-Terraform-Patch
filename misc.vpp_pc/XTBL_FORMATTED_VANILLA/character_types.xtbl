@@ -68,7 +68,7 @@
 		</char_type_list>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>char_type_list</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -77,7 +77,7 @@
 			<Unique>true</Unique>
 			<Default>none</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

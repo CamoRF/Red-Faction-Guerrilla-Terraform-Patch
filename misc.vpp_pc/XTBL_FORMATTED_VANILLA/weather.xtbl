@@ -87,7 +87,7 @@
 		</Weather>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Weather</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -268,7 +268,7 @@
 				<UseSlider>True</UseSlider>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

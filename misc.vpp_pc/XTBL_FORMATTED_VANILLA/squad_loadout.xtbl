@@ -190,7 +190,7 @@
 		</squad_loadout>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>squad_loadout</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -229,7 +229,7 @@
 				<MinValue>1</MinValue>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

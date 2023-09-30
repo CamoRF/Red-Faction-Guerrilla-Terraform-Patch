@@ -132,7 +132,7 @@
 		</road_material>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>road_material</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Road Material</Display_Name>
@@ -162,7 +162,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

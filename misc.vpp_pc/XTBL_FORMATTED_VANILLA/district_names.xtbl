@@ -44,7 +44,7 @@
 		</district_name_info>
 	</Table>
 	<TableTemplates></TableTemplates>
-<!--	<TableDescription>
+	<TableDescription>
 		<Name>district_name_info</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -52,7 +52,7 @@
 			<Type>String</Type>
 			<Unique>true</Unique>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

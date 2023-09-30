@@ -311,7 +311,7 @@
 		</Footsteps>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Footsteps</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -490,7 +490,7 @@
 			</Element>
 			<Num_Display_Rows>12</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

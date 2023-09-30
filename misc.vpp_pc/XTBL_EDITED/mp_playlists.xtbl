@@ -1,0 +1,187 @@
+<root>
+	<Table>
+		<!--TEMP SOLUTION TO ENSURE PEOPLE USE FIND GAME INSTEAD OF MATCHMAKING-->
+		<playlists>
+			<Name>Ranked Quickmatch</Name>
+			<Online_ID>15</Online_ID>
+			<Display_Name>BACKOUT AND USE FIND GAME INSTEAD</Display_Name> <!--FROM MENU_QUICK_MATCH-->
+			<Description>Ranked quickmatch playlist</Description>
+			<Required_XP_Level>0</Required_XP_Level>
+			<Game_Type>Ranked</Game_Type>
+			<Matchmaking_Type>Any Available Match</Matchmaking_Type>
+			<min_players>5</min_players>
+			<max_players>16</max_players>
+			<Playlist_Entries></Playlist_Entries>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<max_party_size>8</max_party_size>
+			<xp_scalar>1</xp_scalar>
+		</playlists>
+<!--TO DO: Add commented out vanilla playlists-->		
+	</Table>
+	<TableTemplates>
+		<playlists>
+			<Name>Beginner_6</Name>
+			<Online_ID>11</Online_ID>
+			<Display_Name>MENU_PLYLST_PATCH_4</Display_Name>
+			<Description>Anarchy matches on smaller maps</Description>
+			<Required_XP_Level>1</Required_XP_Level>
+			<Game_Type>Ranked</Game_Type>
+			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
+			<min_players>6</min_players>
+			<max_players>6</max_players>
+			<Playlist_Entries>
+				<Entries>BeA_Deadzone</Entries>
+				<Entries>BeA_FallFactor</Entries>
+				<Entries>BeA_Radial</Entries>
+				<Entries>BeA_Warlords</Entries>
+				<Entries>BeA_Wreckage</Entries>
+				<Entries>BeCTF_CrashSite</Entries>
+				<Entries>BeCTF_Sandpit</Entries>
+				<Entries>BeDC_CrashSite</Entries>
+				<Entries>BeDC_Quarantine</Entries>
+				<Entries>BeTA_Downfall</Entries>
+				<Entries>BeTA_Excavation</Entries>
+				<Entries>BeTA_Pinnacle</Entries>
+				<Entries>BeTA_Quarantine</Entries>
+				<Entries>BeTA_Rift</Entries>
+			</Playlist_Entries>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<max_party_size>1</max_party_size>
+			<xp_scalar>1</xp_scalar>
+		</playlists>
+		<playlists>
+			<Name>NewMixer_6-8</Name>
+			<Online_ID>12</Online_ID>
+			<Display_Name>MENU_PLYLST_PATCH_35</Display_Name>
+			<Description>DLC maps</Description>
+			<Required_XP_Level>1</Required_XP_Level>
+			<Game_Type>Ranked</Game_Type>
+			<Matchmaking_Type>This Playlist Only</Matchmaking_Type>
+			<min_players>3</min_players>
+			<max_players>8</max_players>
+			<max_party_size>4</max_party_size>
+			<Playlist_Entries>
+				<Entries>NM_DC_Broadside2</Entries>
+				<Entries>NM_DC_Compound2</Entries>
+				<Entries>NM_DC_Division2</Entries>
+				<Entries>NM_DC_Equillibrium2</Entries>
+				<Entries>NM_DC_Gradient2</Entries>
+				<Entries>NM_DC_Haven2</Entries>
+				<Entries>NM_DC_Puncture2</Entries>
+				<Entries>NM_DC_Remnant2</Entries>
+				<Entries>NM_TA_Broadside1</Entries>
+				<Entries>NM_TA_Compound1</Entries>
+				<Entries>NM_TA_Division1</Entries>
+				<Entries>NM_TA_Equillibrium1</Entries>
+				<Entries>NM_TA_Gradient1</Entries>
+				<Entries>NM_TA_Haven1</Entries>
+				<Entries>NM_TA_Puncture1</Entries>
+				<Entries>NM_TA_Remnant1</Entries>
+			</Playlist_Entries>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<xp_scalar>1</xp_scalar>
+		</playlists>
+	</TableTemplates>
+	<TableDescription>
+		<Name>playlists</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Online_ID</Name>
+			<Type>Int</Type>
+			<Display_Name>Online ID</Display_Name>
+			<Unique>true</Unique>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+			<MaxValue>15</MaxValue>
+		</Element>
+		<Element>
+			<Name>Display_Name</Name>
+			<Type>String</Type>
+			<Display_Name>Display Name</Display_Name>
+		</Element>
+		<Element>
+			<Name>Description</Name>
+			<Type>String</Type>
+			<MultiLine>true</MultiLine>
+		</Element>
+		<Element>
+			<Name>Required_XP_Level</Name>
+			<Type>Int</Type>
+			<Display_Name>Required XP Level</Display_Name>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>Game_Type</Name>
+			<Type>Selection</Type>
+			<Display_Name>Game Type</Display_Name>
+			<Default>Ranked</Default>
+			<Choice>Ranked</Choice>
+			<Choice>Public</Choice>
+		</Element>
+		<Element>
+			<Name>Matchmaking_Type</Name>
+			<Type>Selection</Type>
+			<Display_Name>Matchmaking Type</Display_Name>
+			<Choice>Any Available Match</Choice>
+			<Choice>This Playlist Only</Choice>
+		</Element>
+		<Element>
+			<Name>min_players</Name>
+			<Type>Int</Type>
+			<Default>2</Default>
+			<MinValue>2</MinValue>
+			<MaxValue>16</MaxValue>
+		</Element>
+		<Element>
+			<Name>max_players</Name>
+			<Type>Int</Type>
+			<Default>16</Default>
+			<MinValue>2</MinValue>
+			<MaxValue>16</MaxValue>
+		</Element>
+		<Element>
+			<Name>max_party_size</Name>
+			<Type>Int</Type>
+			<Default>1</Default>
+			<MinValue>1</MinValue>
+			<MaxValue>16</MaxValue>
+		</Element>
+		<Element>
+			<Name>xp_scalar</Name>
+			<Type>String</Type>
+			<Display_Name>XP scalar</Display_Name>
+			<Default>1</Default>
+		</Element>
+		<Element>
+			<Name>Playlist_Entries</Name>
+			<Type>Grid</Type>
+			<Display_Name>Playlist Entries</Display_Name>
+			<Element>
+				<Name>Entries</Name>
+				<Type>Reference</Type>
+				<Unique>true</Unique>
+				<Reference>
+					<File>mp_playlist_entries.xtbl</File>
+					<Type>playlist_entries.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+			<Num_Display_Rows>32</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

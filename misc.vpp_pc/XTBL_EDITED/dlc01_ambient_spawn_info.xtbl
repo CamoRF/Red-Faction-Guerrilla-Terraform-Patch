@@ -59,8 +59,8 @@
 			</_Editor>
 		</ambient_spawn_info>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>ambient_spawn_info</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -138,7 +138,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Mariner_Valley</Name>

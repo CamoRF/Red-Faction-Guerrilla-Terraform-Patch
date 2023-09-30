@@ -27,7 +27,7 @@
 		</GameStateData>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>GameStateData</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Game State Data</Display_Name>
@@ -153,7 +153,7 @@
 			<Description>Amount of decay that happens beyond LHA Max Decay Distance</Description>
 			<Default>50</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

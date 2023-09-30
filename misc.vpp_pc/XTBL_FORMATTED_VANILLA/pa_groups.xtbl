@@ -556,7 +556,7 @@
 		</PA_Group>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>PA_Group</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>PA Group</Display_Name>
@@ -683,7 +683,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

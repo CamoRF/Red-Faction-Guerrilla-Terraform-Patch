@@ -16,7 +16,7 @@
 		</FS_Map_Settings>
 	</Table>
 	<TableTemplates></TableTemplates>
-<!--	<TableDescription>
+	<TableDescription>
 		<Name>FS_Map_Settings</Name>
 		<Type>TableDescription</Type>
 		<Description>Container for the settings.</Description>
@@ -97,7 +97,7 @@
 			<MaxValue>1</MaxValue>
 			<UseSlider>True</UseSlider>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

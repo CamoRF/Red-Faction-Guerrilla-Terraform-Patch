@@ -3700,8 +3700,8 @@
 			</walker_info_text>
 		</entry>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>entry</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Entry</Display_Name>
@@ -4112,7 +4112,7 @@
 			<Min_Children>1</Min_Children>
 			<Num_Display_Rows>35</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

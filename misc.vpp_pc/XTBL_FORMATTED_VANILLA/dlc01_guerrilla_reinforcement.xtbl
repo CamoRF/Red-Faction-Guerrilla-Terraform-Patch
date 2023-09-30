@@ -34,7 +34,7 @@
 		</guerrilla_reinforcement_info>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>guerrilla_reinforcement_info</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Guerrilla Reinforcement Info</Display_Name>
@@ -65,7 +65,7 @@
 			<Default>0</Default>
 			<MinValue>0</MinValue>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

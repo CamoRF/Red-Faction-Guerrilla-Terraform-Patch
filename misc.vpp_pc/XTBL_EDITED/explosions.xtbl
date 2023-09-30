@@ -4,18 +4,18 @@
 <!--START Grenade ADDED-->
 		<Explosion>
 			<Name>mp_grenade</Name>
-			<Radius>6.75</Radius> <!--From 7.75 in v1.07.3.1--> <!--From 6.2 in 1.07.2-->
+			<Radius>6.75</Radius> <!--From 7.75 in v1.07.3.1 From 6.2 in 1.07.2-->
 			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>900</vehicle_damage_max>
 			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>15000</Impulse> <!--From 16250 in v1.07.4--> <!--From 25000 in v1.07.3.1--> <!--From 20000 in v1.07.2-->
+			<Impulse>15000</Impulse> <!--From 16250 in v1.07.4 From 25000 in v1.07.3.1 From 20000 in v1.07.2-->
 			<Effects>
 				<Element>wep_edf_grenade_exp_a</Element>
 			</Effects>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<CrumbleRadius>2.0</CrumbleRadius> <!--From 2.5 in v1.07.4--> <!--From 4.375 in v1.07.3.1--> <!--From 3.5 in v1.07.2-->
+			<CrumbleRadius>2.0</CrumbleRadius> <!--From 2.5 in v1.07.4 From 4.375 in v1.07.3.1 From 3.5 in v1.07.2-->
 			<KnockdownRadius>5.0</KnockdownRadius> <!--From 4.0 in v1.07.2-->
 			<FlinchRadius>6.25</FlinchRadius> <!--From 5.0 in v1.07.2-->
 			<player_mult>0.8</player_mult>
@@ -82,19 +82,19 @@
 <!--START New Explosions Added-->
 		<Explosion>
 			<Name>mp_kaboom</Name>
-			<Radius>7.2</Radius> <!--From 5-->
-			<CrumbleRadius>4.2</CrumbleRadius> <!--From 2-->
+			<Radius>7.2</Radius> From 5
+			<CrumbleRadius>4.2</CrumbleRadius> From 2
 			<AI_Sound_Radius>200</AI_Sound_Radius>
 			<vehicle_damage_max>700</vehicle_damage_max>
 			<vehicle_damage_min>300</vehicle_damage_min>
 			<Impulse>22000</Impulse>
 			<Effects>
-				<Element>wep_thermo_rpg_exp</Element> <!--From mp_kaboom_pack_exp_a-->
+				<Element>wep_thermo_rpg_exp</Element> From mp_kaboom_pack_exp_a
 			</Effects>
 			<_Editor>
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
-			<KnockdownRadius>9.2</KnockdownRadius> <!--From 7-->
+			<KnockdownRadius>9.2</KnockdownRadius> From 7
 			<FlinchRadius>22</FlinchRadius>
 			<Duration>250</Duration>
 			<Delay>0</Delay>
@@ -1534,7 +1534,7 @@
 			<CrumbleRadius>8.0</CrumbleRadius>
 			<KnockdownRadius>8</KnockdownRadius>
 			<FlinchRadius>0</FlinchRadius>
-			<!--From 15-->
+			From 15
 			<Duration>200</Duration>
 			<Delay>200</Delay>
 			<player_mult>0.8</player_mult>
@@ -2521,7 +2521,7 @@
 			<CrumbleRadius>3.5</CrumbleRadius>
 			<KnockdownRadius>4.0</KnockdownRadius>
 			<FlinchRadius>5.0</FlinchRadius>
-			<player_mult>0.8</player_mult> <!--From 0.8-->
+			<player_mult>0.8</player_mult> From 0.8
 			<MaxSalvagePieces>0</MaxSalvagePieces>
 			<SalvageProbability>0</SalvageProbability>
 			<human_damage_min>300</human_damage_min>
@@ -2542,8 +2542,8 @@
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>		
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Explosion</Name>
 		<Type>TableDescription</Type>
 		<Description>An explosion.  Wooooo.</Description>
@@ -2847,7 +2847,7 @@
 			<Default>50.0</Default>
 			<MinValue>0</MinValue>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

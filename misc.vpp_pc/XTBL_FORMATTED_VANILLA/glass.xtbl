@@ -74,7 +74,7 @@
 		</Glass>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Glass</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -104,7 +104,7 @@
 				<Default>255</Default>
 			</B>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -2,8 +2,8 @@
 	<Table>		
 		<Tool_Tips>
 			<Name>Weapon_Swapping</Name>
-			<Title>TOOLTIP_WEAPON_SWAPPING</Title> <!--SWAP WEAPONS-->
-			<Description>TOOLTIP_WEAPON_SWAPPING_DESC</Description> <!--HOLD-->
+			<Title>TOOLTIP_WEAPON_SWAPPING</Title> SWAP WEAPONS
+			<Description>TOOLTIP_WEAPON_SWAPPING_DESC</Description> HOLD
 			<Screen_Loc>South East</Screen_Loc>
 			<Arrow_Loc>None</Arrow_Loc>
 			<Play_Times>1</Play_Times>
@@ -23,11 +23,11 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Description>TOOLTIP_RC_DETONATE_DESC</Description> <!--PRESS-->
+			<Description>TOOLTIP_RC_DETONATE_DESC</Description> PRESS
 			<Screen_Loc>South East</Screen_Loc>
 			<Arrow_Loc>None</Arrow_Loc>
 			<Duration>5000</Duration>
-			<Title>TOOLTIP_RC_DETONATE</Title> <!--DETONATE REMOTE CHARGE-->
+			<Title>TOOLTIP_RC_DETONATE</Title> DETONATE REMOTE CHARGE
 			<Play_Times>1</Play_Times>
 			<Icon>ui_hud_tip_icon</Icon>
 			<Pause>False</Pause>
@@ -41,11 +41,11 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Description>TOOLTIP_NEW_ACTIVITY_DESC</Description> <!--HELP RED FACTION MEMBERS BY JOINING-->
+			<Description>TOOLTIP_NEW_ACTIVITY_DESC</Description> HELP RED FACTION MEMBERS BY JOINING
 			<Screen_Loc>South West</Screen_Loc>
 			<Arrow_Loc>South West</Arrow_Loc>
 			<Duration>5000</Duration>
-			<Title>TOOLTIP_NEW_ACTIVITY</Title> <!--GUERRILLA ACTION AVAILABLE-->
+			<Title>TOOLTIP_NEW_ACTIVITY</Title> GUERRILLA ACTION AVAILABLE
 			<Play_Times>1</Play_Times>
 			<Pause>True</Pause>
 			<Run_Paused>False</Run_Paused>
@@ -56,7 +56,7 @@
 		</Tool_Tips>
 		<Tool_Tips>
 			<Name>Jumping</Name>
-			<Title>TOOLTIP_JUMPING</Title> <!--JUMPING-->
+			<Title>TOOLTIP_JUMPING</Title> JUMPING
 			<Description>TOOLTIP_JUMPING_DESC</Description>
 			<Screen_Loc>South East</Screen_Loc>
 			<Arrow_Loc>None</Arrow_Loc>
@@ -1641,7 +1641,7 @@
 			<Always_Show>False</Always_Show>
 		</Tool_Tips>
 	</TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Tool_Tips</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -1777,7 +1777,7 @@
 			<Choice>True</Choice>
 			<Choice>False</Choice>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -6674,7 +6674,7 @@
 		</BitmapSheets>
 	</Table>
 	<TableTemplates></TableTemplates>
-<!--	<TableDescription>
+	<TableDescription>
 		<Name>BitmapSheets</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Bitmap Sheets</Display_Name>
@@ -6734,7 +6734,7 @@
 			</Element>
 			<Num_Display_Rows>28</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

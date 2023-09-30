@@ -25,7 +25,7 @@
 		</mp_classes_list>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>mp_classes_list</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -177,7 +177,7 @@
 			<Display_Name>Headshot damage multiplier</Display_Name>
 			<Default>1</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

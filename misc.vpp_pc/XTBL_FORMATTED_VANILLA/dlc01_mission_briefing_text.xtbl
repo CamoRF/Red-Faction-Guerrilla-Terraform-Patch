@@ -294,7 +294,7 @@
 		</MissionBriefingLines>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>MissionBriefingLines</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Mission Briefing Lines</Display_Name>
@@ -418,7 +418,7 @@
 			<Description>The number of video frames that should loop at the once the video reaches the end.</Description>
 			<Default>15</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

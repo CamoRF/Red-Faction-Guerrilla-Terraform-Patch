@@ -1560,7 +1560,7 @@
 		</continuous_attack_data>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>continuous_attack_data</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -1654,7 +1654,7 @@
 			<Min_Children>1</Min_Children>
 			<Num_Display_Rows>8</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Area Defense</Name>

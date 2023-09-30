@@ -1,6 +1,6 @@
 <root>
 	<Table>
-		<!--<Air_Bomb>
+		<Air_Bomb>
 			<Name>test</Name>
 			<Projectile>ab_rpg</Projectile>
 			<Height>50</Height>
@@ -49,7 +49,7 @@
 			<Angle_min>90</Angle_min>
 			<Angle_max>90</Angle_max>
 			<Num_Projectiles>1</Num_Projectiles>
-		</Air_Bomb>-->
+		</Air_Bomb>
 		<Air_Bomb>
 			<Name>DFA Personal</Name>
 			<Projectile>ab_rpg_dfa</Projectile>
@@ -325,7 +325,7 @@
 		</Air_Bomb>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Air_Bomb</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -451,7 +451,7 @@
 			<MinValue>-1</MinValue>
 			<MaxValue>1</MaxValue>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

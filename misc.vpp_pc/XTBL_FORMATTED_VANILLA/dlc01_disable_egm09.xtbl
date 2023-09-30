@@ -170,7 +170,7 @@
 		</Line>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Line</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -187,7 +187,7 @@
 			<Type>Int</Type>
 			<Default>0</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

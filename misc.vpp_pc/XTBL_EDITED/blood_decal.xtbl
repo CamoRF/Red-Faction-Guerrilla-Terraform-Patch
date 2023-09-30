@@ -26,8 +26,8 @@
 			<Death_size_multiplier>3.25</Death_size_multiplier> <!--From 2.0-->
 		</Blood_decal_info>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Blood_decal_info</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Blood Decal Info</Display_Name>
@@ -147,7 +147,7 @@
 			<Type>Float</Type>
 			<Description>Multiply the size of the decal by this when the player was killed by the attack.</Description>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

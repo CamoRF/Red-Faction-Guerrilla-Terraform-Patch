@@ -7,9 +7,9 @@
 		</container_name>
 		<container_preload_category>preload</container_preload_category>
 		<container_other_category>cutscene</container_other_category>
-		<!-- This is used to filter out at different stages. The name is the xml element needed
+		 This is used to filter out at different stages. The name is the xml element needed
 		to make the decision. Callbacks will occur with this variable at container creation
-		and adding primitives. -->
+		and adding primitives. 
 		<container_filter>streaming_category</container_filter>
 		<container_multiplayer_filter>multiplayer</container_multiplayer_filter>
 		<container_singleplayer_filter>singleplayer</container_singleplayer_filter>
@@ -7440,8 +7440,8 @@
 			<Multiplayer>True</Multiplayer> <!--From False-->
 		</Effect>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Effect</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -7598,7 +7598,7 @@
 				</Element>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

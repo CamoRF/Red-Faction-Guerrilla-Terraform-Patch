@@ -68,7 +68,7 @@
 <Anim_Set_Filename><Name>Vehicle_MarChomper.xtbl</Name><Path>\Vehicles\MarChomp</Path></Anim_Set_Filename>
 <Anim_Set_Filename><Name>Vehicle_MarStomp.xtbl</Name><Path>\Vehicles\MarStomp</Path></Anim_Set_Filename>
 <!--END-->
-</Table><!--<TableTemplates></TableTemplates>--><TableDescription><Name>Anim_Set_Filename</Name><Type>TableDescription</Type><Display_Name>Anim Set Filename</Display_Name>
+</Table><TableTemplates></TableTemplates><TableDescription><Name>Anim_Set_Filename</Name><Type>TableDescription</Type><Display_Name>Anim Set Filename</Display_Name>
 <Element><Name>Name</Name><Type>String</Type></Element><Element><Name>Path</Name><Type>String</Type></Element><Element>	<Name>Default_model</Name>
 <Type>String</Type><Description>default rig opened when this animation set is opened in the Animation Editor</Description><Required>false</Required>
 </Element><Element><Name>Default_rig</Name><Type>String</Type><Display_Name>Default Rig</Display_Name><Description>default rig opened when this animation set is opened in the Animation Editor</Description>

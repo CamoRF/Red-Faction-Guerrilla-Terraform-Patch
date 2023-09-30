@@ -1,13 +1,13 @@
 <root>
 	<Table>
 		<Menu_Identifier>
-			<Name>MENU_NEW_GAME</Name> <!--NEW GAME-->
+			<Name>MENU_NEW_GAME</Name> NEW GAME
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Menu_Identifier>
 		<Menu_Identifier>
-			<Name>MENU_LOAD_GAME</Name> <!--LOAD GAME-->
+			<Name>MENU_LOAD_GAME</Name> LOAD GAME
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -8318,7 +8318,7 @@
 		</Menu_Identifier>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Menu_Identifier</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -8326,7 +8326,7 @@
 			<Type>String</Type>
 			<Unique>true</Unique>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

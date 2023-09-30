@@ -102,7 +102,7 @@
 		</ShotOptionRoot>
 	</Table>
 	<TableTemplates></TableTemplates>
-<!--	<TableDescription>
+	<TableDescription>
 		<Name>ShotOptionRoot</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -150,7 +150,7 @@
 			</Element>
 			<Num_Display_Rows>8</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

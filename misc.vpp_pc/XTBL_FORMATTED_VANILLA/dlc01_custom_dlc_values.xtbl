@@ -96,7 +96,7 @@
 		</custom_data>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>custom_data</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -115,7 +115,7 @@
 			<Required>false</Required>
 			<MultiLine>true</MultiLine>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

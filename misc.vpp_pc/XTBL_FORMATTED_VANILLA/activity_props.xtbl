@@ -62,7 +62,7 @@
 		</activity_props>
 	</Table>
 	<TableTemplates></TableTemplates>
-<!--	<TableDescription>
+	<TableDescription>
 		<Name>activity_props</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -71,7 +71,7 @@
 			<Unique>true</Unique>
 			<Default>activity</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

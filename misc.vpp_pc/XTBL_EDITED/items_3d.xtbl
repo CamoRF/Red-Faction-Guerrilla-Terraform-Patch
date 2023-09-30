@@ -66,8 +66,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<!--<Flag>no_pickup_delete</Flag>--> <!--Added-->
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -652,12 +652,12 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--<Flag>collide_as_cylinder</Flag>--> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->				
+				<Flag>fast_cleanup</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added				
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -1883,8 +1883,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<!--<Flag>no_pickup_delete</Flag>--> <!--Added-->
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -1985,8 +1985,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<!--<Flag>no_pickup_delete</Flag>--> <!--Added-->
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2125,8 +2125,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<!--<Flag>no_pickup_delete</Flag>--> <!--Added-->
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2216,8 +2216,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<!--<Flag>no_pickup_delete</Flag>--> <!--Added-->
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2528,8 +2528,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<!--<Flag>no_pickup_delete</Flag>--> <!--Added-->
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2591,8 +2591,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<!--<Flag>no_pickup_delete</Flag>--> <!--Added-->
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2764,8 +2764,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<!--<Flag>no_pickup_delete</Flag>--> <!--Added-->
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -2984,8 +2984,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<!--<Flag>no_pickup_delete</Flag>--> <!--Added-->
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -3317,8 +3317,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<!--<Flag>no_pickup_delete</Flag>--> <!--Added-->
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -3737,13 +3737,13 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--<Flag>fast_cleanup</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>fast_cleanup</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>Head mesh</streaming_category>
@@ -3757,13 +3757,13 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--<Flag>fast_cleanup</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>fast_cleanup</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>Head mesh</streaming_category>
@@ -3777,13 +3777,13 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--<Flag>fast_cleanup</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>fast_cleanup</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>Head mesh</streaming_category>
@@ -3830,11 +3830,11 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<!--<Flag>collide_as_cylinder</Flag>--> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -3848,13 +3848,13 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--<Flag>fast_cleanup</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>fast_cleanup</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -3868,12 +3868,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -3887,12 +3887,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -3906,12 +3906,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -3925,12 +3925,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>Head mesh</streaming_category>
@@ -3944,12 +3944,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -3964,11 +3964,11 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<!--<Flag>collide_as_cylinder</Flag>--> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -3988,12 +3988,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -4081,13 +4081,13 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--<Flag>fast_cleanup</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>fast_cleanup</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -4185,12 +4185,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -4204,13 +4204,13 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<!--<Flag>fast_cleanup</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>fast_cleanup</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>Head mesh</streaming_category>
@@ -4268,8 +4268,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<!--<Flag>no_pickup_delete</Flag>--> <!--Added-->
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -4286,8 +4286,8 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<Item_Flags>
 				<Flag>fast_cleanup</Flag>
-				<!--<Flag>no_auto_delete</Flag>--> <!--Added-->
-				<!--<Flag>no_pickup_delete</Flag>--> <!--Added-->
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
 			</Item_Flags>
 		</Item>
 		<Item>
@@ -4447,12 +4447,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -5083,12 +5083,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -5102,12 +5102,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -5121,12 +5121,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -5140,12 +5140,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -5159,12 +5159,12 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<!--<Flag>collide_as_box</Flag>-->
-				<Flag>collide_as_cylinder</Flag> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>collide_as_box</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>
@@ -5423,12 +5423,12 @@
 			</_Editor>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
-				<!--<Flag>fast_cleanup</Flag>-->
-				<!--<Flag>collide_as_cylinder</Flag>--> <!--Added-->
-				<Flag>collide_as_mover</Flag> <!--Added-->
-				<Flag>no_auto_delete</Flag> <!--Added-->
-				<Flag>no_pickup_delete</Flag> <!--Added-->
-				<Flag>use_pickup</Flag> <!--Added-->
+				<Flag>fast_cleanup</Flag>
+				<Flag>collide_as_cylinder</Flag> Added
+				<Flag>collide_as_mover</Flag> Added
+				<Flag>no_auto_delete</Flag> Added
+				<Flag>no_pickup_delete</Flag> Added
+				<Flag>use_pickup</Flag> Added
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>Head mesh</streaming_category>
@@ -6172,7 +6172,7 @@
 			<streaming_category>General</streaming_category>
 		</Item>
 	</Table>
-<!--	<TableTemplates>
+	<TableTemplates>
 		<Item>
 			<Name>Marie_Goggle_1</Name>
 			<Item_Flags></Item_Flags>
@@ -6281,8 +6281,8 @@
 			<Mass>100</Mass>
 			<streaming_category>General</streaming_category>
 		</Item>
-	</TableTemplates>-->
-<!--	<TableDescription>
+	</TableTemplates>
+	<TableDescription>
 		<Name>Item</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>3D Item</Display_Name>
@@ -6563,7 +6563,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Ambient Props</Name>

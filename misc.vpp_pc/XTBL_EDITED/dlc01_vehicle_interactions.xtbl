@@ -1971,7 +1971,7 @@
 		</Vehicle>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Vehicle</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -2135,7 +2135,7 @@ Turret Seat = Eject on Explosion + Seat</Description>
 			</Element>
 			<Num_Display_Rows>20</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

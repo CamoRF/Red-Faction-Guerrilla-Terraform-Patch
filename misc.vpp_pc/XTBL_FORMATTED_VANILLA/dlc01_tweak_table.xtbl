@@ -2668,7 +2668,7 @@ full height (top to bottom)</Description>
 			</_Editor>
 		</Tweak_Table_Entry>
 	</TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Tweak_Table_Entry</Name>
 		<Type>TableDescription</Type>
 		<Description>A simple way to add and modify tweakable values within a single table file.</Description>
@@ -2692,7 +2692,7 @@ full height (top to bottom)</Description>
 			<Required>false</Required>
 			<MultiLine>true</MultiLine>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Activities</Name>

@@ -179,7 +179,7 @@
 		</Squads>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Squads</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Squad Definition</Display_Name>
@@ -220,7 +220,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Civilians</Name>

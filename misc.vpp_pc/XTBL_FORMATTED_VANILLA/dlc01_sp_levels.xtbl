@@ -15,7 +15,7 @@
 		</sp_level_list>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>sp_level_list</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -48,7 +48,7 @@
 			<StartingPath></StartingPath>
 			<ShowPreload>False</ShowPreload>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

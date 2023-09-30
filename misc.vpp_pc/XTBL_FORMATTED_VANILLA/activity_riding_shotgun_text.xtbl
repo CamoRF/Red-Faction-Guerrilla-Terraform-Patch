@@ -122,7 +122,7 @@
 		</Riding_Shotgun_Identifier>
 	</Table>
 	<TableTemplates></TableTemplates>
-<!--	<TableDescription>
+	<TableDescription>
 		<Name>Riding_Shotgun_Identifier</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -130,7 +130,7 @@
 			<Type>String</Type>
 			<Unique>true</Unique>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

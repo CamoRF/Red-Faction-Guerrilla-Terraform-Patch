@@ -171,7 +171,7 @@
 			<Load_image>Partial Recall</Load_image>
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
 		</mp_level_list>
-		<mp_level_list>
+<!--	<mp_level_list>
 			<Name>Townhall</Name>
 			<Filename>mp_5</Filename>
 			<_Editor>
@@ -203,10 +203,10 @@
 			<ideal_max_players>6</ideal_max_players>
 			<Load_image>Townhall</Load_image>
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
-		</mp_level_list>		
+		</mp_level_list>-->		
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>mp_level_list</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -380,7 +380,7 @@
 			<MinValue>2</MinValue>
 			<MaxValue>16</MaxValue>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -8409,7 +8409,7 @@
 		</Stat>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Stat</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -8533,7 +8533,7 @@
 				<Required>false</Required>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

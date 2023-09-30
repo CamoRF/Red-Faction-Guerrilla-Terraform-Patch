@@ -160,7 +160,7 @@
 		</camera_view>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>camera_view</Name>
 		<Type>TableDescription</Type>
 		<MaxCount>10</MaxCount>
@@ -339,7 +339,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

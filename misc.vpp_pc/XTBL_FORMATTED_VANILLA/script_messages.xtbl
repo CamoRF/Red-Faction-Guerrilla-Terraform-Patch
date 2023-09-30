@@ -1,13 +1,13 @@
 <root>
 	<Table>
 		<Script_Message_Identifier>
-			<Name>MISSION_DFA_CIVILIAN</Name> <!--COLONIST RESCUED-->
+			<Name>MISSION_DFA_CIVILIAN</Name> COLONIST RESCUED
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Script_Message_Identifier>
 		<Script_Message_Identifier>
-			<Name>MISSION_WMF_BACK_IN_WALKER</Name> <!--GET BACK IN THE WALKER-->
+			<Name>MISSION_WMF_BACK_IN_WALKER</Name> GET BACK IN THE WALKER
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -1370,7 +1370,7 @@
 		</Script_Message_Identifier>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Script_Message_Identifier</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -1378,7 +1378,7 @@
 			<Type>String</Type>
 			<Unique>true</Unique>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -38,7 +38,7 @@
 		</angel_of_mercy>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>angel_of_mercy</Name>
 		<Type>TableDescription</Type>
 		<Required>false</Required>
@@ -91,7 +91,7 @@
 			<Min_Children>1</Min_Children>
 			<Num_Display_Rows>8</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

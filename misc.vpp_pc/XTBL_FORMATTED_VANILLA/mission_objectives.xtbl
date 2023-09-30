@@ -1298,7 +1298,7 @@
 		</Mission_Objective>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Mission_Objective</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Mission Objective</Display_Name>
@@ -1328,7 +1328,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Mission_Objective</Name>

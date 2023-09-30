@@ -1,6 +1,6 @@
 <root>
 	<Table></Table>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Level</Name>
 		<Type>TableDescription</Type>
 		<Required>false</Required>
@@ -12,7 +12,7 @@
 			<Name>StartPosition</Name>
 			<Type>String</Type>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

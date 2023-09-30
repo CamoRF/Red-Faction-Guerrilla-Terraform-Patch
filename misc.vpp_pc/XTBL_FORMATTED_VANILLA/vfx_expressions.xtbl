@@ -23,7 +23,7 @@
 		</VFXExpression>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>VFXExpression</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -35,7 +35,7 @@
 			<Type>Int</Type>
 			<Default>4</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -136,7 +136,7 @@
 		</RaidData>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>RaidData</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Raid Data</Display_Name>
@@ -381,7 +381,7 @@
 				<Required>false</Required>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>OffensiveRaids</Name>

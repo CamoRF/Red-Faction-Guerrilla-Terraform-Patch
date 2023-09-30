@@ -16,7 +16,7 @@
 		</Vehicle_wheel_surface_effect>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Vehicle_wheel_surface_effect</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Vehicle Wheel Surface Effect</Display_Name>
@@ -139,7 +139,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

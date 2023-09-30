@@ -298,7 +298,7 @@
 			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<stealth>
 				<restealth_time_ms>250</restealth_time_ms> <!--From 500-->
-				<stealth_time_ms>1250</stealth_time_ms> <!--From 2500-->
+				<stealth_time_ms>1250</stealth_time_ms> From <!--2500-->
 				<stealth_transparency>10.0</stealth_transparency> <!--From 0.05-->
 				<local_stealth_transparency>1.0</local_stealth_transparency> <!--From 0.3-->
 			</stealth>
@@ -485,7 +485,7 @@
 			<pickup_tooltip>backpack_vision</pickup_tooltip>
 		</mp_backpacks>
 		<mp_backpacks>
-			<Name>Commando</Name> <!--Firepower-->
+			<Name>Commando</Name> Firepower
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -594,7 +594,7 @@
 			<pickup_tooltip>backpack_commando</pickup_tooltip>
 		</mp_backpacks>
 		<mp_backpacks>
-			<Name>Shockwave</Name> <!--Concussion-->
+			<Name>Shockwave</Name> Concussion
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -728,8 +728,8 @@
 					<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 					<area_damage_dealt_factor>1</area_damage_dealt_factor>
 					<health_regen>
-						<health_regen_per_second>235</health_regen_per_second> <!--from 450--> <!--From 180 in previous patch version-->
-						<health_regen_radius>7.0</health_regen_radius> <!--from 5.8-->
+						<health_regen_per_second>235</health_regen_per_second> <!--From 450 vanilla, From 180 previous patch version-->
+						<health_regen_radius>7.0</health_regen_radius> <!--From 5.8-->
 						<health_regen_heal_enemies>True</health_regen_heal_enemies> <!--From False-->
 					</health_regen>
 					<refire_delay_factor>1</refire_delay_factor>
@@ -764,9 +764,9 @@
 			</activatable>
 			<health_regen_per_second>0.0</health_regen_per_second>
 			<health_regen>
-				<health_regen_per_second>235</health_regen_per_second> <!--from 500--> <!--From 180 in previous patch version-->
+				<health_regen_per_second>235</health_regen_per_second> <!--From 500 vanilla, From 180 previous patch version-->
 				<health_regen_radius>7.0</health_regen_radius>
-				<health_regen_heal_enemies>True</health_regen_heal_enemies> <!--from False-->
+				<health_regen_heal_enemies>True</health_regen_heal_enemies> <!--From False-->
 			</health_regen>
 			<passive_abilities>
 				<movement_speed_factor>1.0</movement_speed_factor>
@@ -1035,7 +1035,7 @@
 			<Unique_ID>9</Unique_ID>
 			<pickup_tooltip>backpack_tremor</pickup_tooltip>
 		</mp_backpacks>
-<!--START Kaboom Pack Added-->
+<!--START Kaboom Pack ADDED-->
 		<mp_backpacks>
 			<Name>Kaboom</Name>
 			<_Editor>
@@ -1083,7 +1083,7 @@
 						<camera_shake>backpack_kaboom_ramp</camera_shake>
 						<player_effects>mp_kaboom_charge_sound</player_effects>
 					</ramp_up_effects>
-					<failed_activation_foley>VEH_MED_HONK_1</failed_activation_foley> <!--MP_BACKPACK_KABOOM_NO_FUEL-->
+					<failed_activation_foley>VEH_MED_HONK_1</failed_activation_foley> <!--From MP_BACKPACK_KABOOM_NO_FUEL-->
 					<sfx_alr>VEH_GENERIC_EXPLOSION_NEAR</sfx_alr> <!--From MP_BACKPACK_KABOOM_PC-->
 					<sfx_npc_alr>VEH_GENERIC_EXPLOSION_NEAR</sfx_npc_alr> <!--From MP_BACKPACK_KABOOM_NPC-->
 					<backpack_effects></backpack_effects>
@@ -1303,7 +1303,7 @@
 			<pickup_tooltip>backpack_thrust</pickup_tooltip>
 		</mp_backpacks>
 		<mp_backpacks>
-			<Name>Shockwave OP</Name> <!--Concussion OP-->
+			<Name>Shockwave OP</Name> Concussion OP
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -1534,7 +1534,7 @@
 			<pickup_tooltip>backpack_rhino</pickup_tooltip>
 		</mp_backpacks>
 <!--END-->
-<!--Start Repair Backpack ADDED-->
+<!--START Repair Backpack ADDED-->
 		<mp_backpacks>
 			<Name>Repair</Name>
 			<_Editor>
@@ -1634,8 +1634,8 @@
 		</mp_backpacks>
 <!--END-->
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>mp_backpacks</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -3480,7 +3480,7 @@ Note: This is not a modifier, but a pure amount.</Description>
 				<Choice>False</Choice>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

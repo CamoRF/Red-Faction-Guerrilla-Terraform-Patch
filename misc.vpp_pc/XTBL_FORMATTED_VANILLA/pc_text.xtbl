@@ -1,19 +1,19 @@
 <root>
 	<Table>
 		<PC_Identifier>
-			<Name>NETWORK_PLATFORM_NAME</Name> <!--MULTIPLAYER-->
+			<Name>NETWORK_PLATFORM_NAME</Name> MULTIPLAYER
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</PC_Identifier>
 		<PC_Identifier>
-			<Name>NETWORK_LOCAL_NAME</Name> <!--LAN GAME-->
+			<Name>NETWORK_LOCAL_NAME</Name> LAN GAME
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</PC_Identifier>
 		<PC_Identifier>
-			<Name>PLT_GAMERTAG</Name> <!--PROFILE-->
+			<Name>PLT_GAMERTAG</Name> PROFILE
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -674,7 +674,7 @@
 		</PC_Identifier>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>PC_Identifier</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -682,7 +682,7 @@
 			<Type>String</Type>
 			<Unique>true</Unique>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

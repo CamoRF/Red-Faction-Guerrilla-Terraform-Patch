@@ -1849,7 +1849,7 @@
 			</_Editor>
 		</HUD_Identifier>
 		<HUD_Identifier>
-			<Name>HM_XP_REPAIR_BACKPACK_DESC</Name> <!--REPAIR A BACKPACK RACK-->
+			<Name>HM_XP_REPAIR_BACKPACK_DESC</Name> REPAIR A BACKPACK RACK
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -2323,7 +2323,7 @@
 			</_Editor>
 		</HUD_Identifier>
 		<HUD_Identifier>
-			<Name>HM_REPAIRED</Name> <!--REPAIRED-->
+			<Name>HM_REPAIRED</Name> REPAIRED
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -2564,7 +2564,7 @@
 		</HUD_Identifier>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>HUD_Identifier</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -2572,7 +2572,7 @@
 			<Type>String</Type>
 			<Unique>true</Unique>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

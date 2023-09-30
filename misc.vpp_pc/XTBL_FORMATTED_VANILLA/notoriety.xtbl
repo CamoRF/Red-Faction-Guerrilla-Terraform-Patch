@@ -414,7 +414,7 @@
 		</Entry>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Entry</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -623,7 +623,7 @@
 				</Element>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Activities</Name>

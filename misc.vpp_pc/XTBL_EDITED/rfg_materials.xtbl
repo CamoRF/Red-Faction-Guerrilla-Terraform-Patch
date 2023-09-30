@@ -625,8 +625,8 @@
 			<LevelObjectProperties>RFG_Glass</LevelObjectProperties>
 		</Material>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Material</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -735,7 +735,7 @@
 			<Choice>True</Choice>
 			<Choice>False</Choice>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

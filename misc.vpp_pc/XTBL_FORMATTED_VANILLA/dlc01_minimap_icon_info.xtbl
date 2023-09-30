@@ -823,7 +823,7 @@
 		</Description>
 	</Table>
 	<TableTemplates>
-<!--	<Description>
+	<Description>
 			<Name>MAP_ELEMENT_STRUCTURE_GENERIC</Name>
 			<IconName>ui_map_generic_building</IconName>
 			<VisibleOnFSMap>True</VisibleOnFSMap>
@@ -848,9 +848,9 @@
 			<VisibleOnFSMap>True</VisibleOnFSMap>
 			<IsTargetIcon>False</IsTargetIcon>
 			<VisibleWhenZoomed>False</VisibleWhenZoomed>
-		</Description>-->
+		</Description>
 	</TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Description</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -927,7 +927,7 @@
 			<Choice>True</Choice>
 			<Choice>False</Choice>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -223,8 +223,8 @@
 			</locked_walker_starts>
 		</entry>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>entry</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Entry</Display_Name>
@@ -672,7 +672,7 @@
 			<Choice>True</Choice>
 			<Choice>False</Choice>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

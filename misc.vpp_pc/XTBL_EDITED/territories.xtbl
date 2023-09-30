@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START Custom Maps ADDED-->	
+<!--START Custom Maps-->	
 		<Territory>
 			<Name>mp_warehouse</Name>
 			<Districts>
@@ -2492,7 +2492,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
-<!--Commented out unused test territories-->
+<!--START Commented out unused test territories-->
 <!--		<Territory>
 			<Name>Town</Name>
 			<Districts>
@@ -3918,9 +3918,10 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>-->
+<!--END-->		
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Territory</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -4193,7 +4194,7 @@
 			<MaxValue>99</MaxValue>
 		</Element>
 		<Single_Line_XML>False</Single_Line_XML>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

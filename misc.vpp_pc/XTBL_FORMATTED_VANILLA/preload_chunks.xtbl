@@ -28,8 +28,8 @@
 			</_Editor>
 		</preload_chunks>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-	<!--<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>preload_chunks</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -43,7 +43,7 @@
 			<StartingPath>data</StartingPath>
 			<ShowPreload>False</ShowPreload>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

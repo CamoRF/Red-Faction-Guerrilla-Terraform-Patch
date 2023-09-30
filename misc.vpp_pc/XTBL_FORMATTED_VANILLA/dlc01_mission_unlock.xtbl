@@ -37,7 +37,7 @@
 		</mission_unlock>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>mission_unlock</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Mission Unlock</Display_Name>
@@ -87,7 +87,7 @@
 			<Max_Children>4</Max_Children>
 			<Num_Display_Rows>4</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

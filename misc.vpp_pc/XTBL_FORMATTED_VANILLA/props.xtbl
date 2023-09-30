@@ -289,7 +289,7 @@
 		</Activity>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Activity</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -313,7 +313,7 @@
 			<Description>The category of the activity.  (Editor use only - not used in game).</Description>
 			<Required>false</Required>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Taunts</Name>

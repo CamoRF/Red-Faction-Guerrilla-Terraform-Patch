@@ -116,7 +116,7 @@
 		</vehicle_family>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>vehicle_family</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -124,7 +124,7 @@
 			<Type>String</Type>
 			<Unique>true</Unique>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

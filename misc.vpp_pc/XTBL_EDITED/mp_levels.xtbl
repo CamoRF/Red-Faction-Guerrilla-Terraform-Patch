@@ -95,8 +95,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>siege</Flag>--> <!--Added-->
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>siege</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->	
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 10:30-->
@@ -186,7 +186,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From MENU_LEVEL_CORNERED_DESC-->
+			<Description>MENU_LEVEL_CORNERED_DESC</Description>
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.2</distance_multiplier>
 			<level_image_name>mp_thumb_cornered</level_image_name>
@@ -197,9 +197,9 @@
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>siege</Flag>
-				<!--<Flag>deathmatch</Flag>-->
+				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<!--<Flag>bagman</Flag>--> <!--Added-->
+				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>capture_the_flag</Flag> <!--Added-->
@@ -222,7 +222,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From MENU_LEVEL_CRASH_SITE_DESC-->
+			<Description>MENU_LEVEL_CRASH_SITE_DESC</Description>
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crashsite</level_image_name>
@@ -258,7 +258,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From Oasis Ring-->
+			<Description>Oasis Ring</Description>
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crescent</level_image_name>
@@ -269,9 +269,9 @@
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>siege</Flag>
-				<!--<Flag>deathmatch</Flag>-->
+				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<!--<Flag>bagman</Flag>--> <!--Added-->
+				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>capture_the_flag</Flag> <!--Added-->
@@ -294,7 +294,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From MENU_LEVEL_OUTPOST_DESC-->
+			<Description>MENU_LEVEL_OUTPOST_DESC</Description>
 			<time_of_day>00:00</time_of_day>
 			<distance_multiplier>1.35</distance_multiplier>
 			<level_image_name>mp_thumb_crevice</level_image_name>
@@ -330,7 +330,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From MENU_LEVEL_DEADZONE_DESC-->
+			<Description>MENU_LEVEL_DEADZONE_DESC</Description>
 			<time_of_day>08:30</time_of_day> <!--From 17:30-->
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_deadzone</level_image_name>
@@ -382,7 +382,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<!--<Flag>siege</Flag>--> <!--Added-->
+				<Flag>siege</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -401,7 +401,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From MENU_LEVEL_CRASH_SITE_DESC-->
+			<Description>MENU_LEVEL_CRASH_SITE_DESC</Description>
 			<time_of_day>14:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crossover</level_image_name>
@@ -418,7 +418,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<!--<Flag>siege</Flag>--> <!--Added-->
+				<Flag>siege</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6.0</glow_multiplier>
@@ -437,7 +437,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From MENU_LEVEL_DOWNFALL_DESC-->
+			<Description>MENU_LEVEL_DOWNFALL_DESC</Description>
 			<time_of_day>07:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_downfall</level_image_name>
@@ -507,7 +507,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From MENU_LEVEL_ROUND_ABOUT_DESC-->
+			<Description>MENU_LEVEL_ROUND_ABOUT_DESC</Description>
 			<time_of_day>16:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_excavation</level_image_name>
@@ -544,7 +544,7 @@
 			</player_weapons>
 			<Description>0</Description>
 			<time_of_day>09:00</time_of_day>
-			<distance_multiplier>3.0</distance_multiplier> <!--From 1.0--> <!--From 1.5 in v1.031-->
+			<distance_multiplier>3.0</distance_multiplier> <!--From 1.0 vanilla, From 1.5 in v1.031-->
 			<level_image_name>mp_thumb_wcdlc4</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
@@ -592,7 +592,7 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
@@ -612,7 +612,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From Plateaus-->
+			<Description>Plateaus</Description>
 			<time_of_day>19:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_fallfactor</level_image_name>
@@ -662,7 +662,7 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
@@ -682,7 +682,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From Eos Construction-->
+			<Description>Eos Construction</Description>
 			<time_of_day>18:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_framework</level_image_name>
@@ -720,7 +720,7 @@
 			</player_weapons>
 			<Description>0</Description>
 			<time_of_day>11:00</time_of_day> <!--From 11:30-->
-			<distance_multiplier>1.3</distance_multiplier> <!--From 1.5 in v1.07.4--> <!--From 1.0-->
+			<distance_multiplier>1.3</distance_multiplier> <!--From 1.0 vanilla, From 1.5 in v1.07.4--> 
 			<level_image_name>mp_thumb_wcdlc5</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
@@ -733,10 +733,10 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->	
 			</mode_flags>
-			<alternate_time_of_day>20:30</alternate_time_of_day> <!--From 15:30--> <!--From 00:00 in v1.07.2-->
+			<alternate_time_of_day>20:30</alternate_time_of_day> <!--From 15:30 vanilla, From 00:00 in v1.07.2-->
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
 			<ideal_min_players>4</ideal_min_players>
@@ -753,7 +753,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From MENU_LEVEL_BEACON_DESC-->
+			<Description>MENU_LEVEL_BEACON_DESC</Description>
 			<time_of_day>20:30</time_of_day>
 			<distance_multiplier>1.25</distance_multiplier>
 			<level_image_name>mp_thumb_garrison</level_image_name>
@@ -824,7 +824,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From Mixed Slope-->
+			<Description>Mixed Slope</Description>
 			<time_of_day>10:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_gauntlet</level_image_name>
@@ -835,9 +835,9 @@
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>siege</Flag>
-				<!--<Flag>deathmatch</Flag>-->
+				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<!--<Flag>bagman</Flag>--> <!--Added-->
+				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>capture_the_flag</Flag> <!--Added-->
@@ -932,7 +932,7 @@
 			</player_weapons>
 			<Description>0</Description>
 			<time_of_day>12:00</time_of_day> <!--From 09:00-->
-			<distance_multiplier>1.3</distance_multiplier> <!--From 1.2 in v1.07.4--> <!--From 1.0-->
+			<distance_multiplier>1.3</distance_multiplier> <!--From 1.0 vanilla, From 1.2 in v1.07.4--> 
 			<level_image_name>mp_thumb_wcdlc3</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
@@ -945,7 +945,7 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>siege</Flag>--> <!--Added-->
+				<Flag>siege</Flag> <!--Added-->
 				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->		
 			</mode_flags>
@@ -968,7 +968,7 @@
 			</player_weapons>
 			<Description>0</Description>
 			<time_of_day>00:00</time_of_day> <!--From 23:30-->
-			<distance_multiplier>1.5</distance_multiplier> <!--From 1.3 in v1.07.4--> <!--From 1.0-->
+			<distance_multiplier>1.5</distance_multiplier> <!--From 1.3 in v1.07.4 From 1.0-->
 			<level_image_name>mp_thumb_wcdlc8</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
@@ -1016,7 +1016,7 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>8:30</alternate_time_of_day>
@@ -1036,7 +1036,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From MENU_LEVEL_CRASH_SITE_DESC-->
+			<Description>MENU_LEVEL_CRASH_SITE_DESC</Description>
 			<time_of_day>00:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_assembly</level_image_name>
@@ -1071,7 +1071,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From MENU_LEVEL_OVERPASS_DESC-->
+			<Description>MENU_LEVEL_OVERPASS_DESC</Description> 
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_overpass</level_image_name>
@@ -1082,9 +1082,9 @@
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>siege</Flag>
-				<!--<Flag>deathmatch</Flag>-->
+				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<!--<Flag>bagman</Flag>--> <!--Added-->
+				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
 				<Flag>capture_the_flag</Flag> <!--Added-->
@@ -1107,7 +1107,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From Eos Top of the World-->
+			<Description>Eos Top of the World</Description>
 			<time_of_day>18:30</time_of_day> <!--From 07:00-->
 			<distance_multiplier>1.25</distance_multiplier>
 			<level_image_name>mp_thumb_pinnacle</level_image_name>
@@ -1157,7 +1157,7 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
@@ -1212,7 +1212,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From 2-4 player map, just buildings-->
+			<Description>2-4 player map, just buildings</Description>
 			<time_of_day>07:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_quarantine</level_image_name>
@@ -1248,7 +1248,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From MENU_LEVEL_RADIAL_DESC-->
+			<Description>MENU_LEVEL_RADIAL_DESC</Description>
 			<time_of_day>15:00</time_of_day> <!--From 08:30-->
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_radial</level_image_name>
@@ -1265,7 +1265,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<!--<Flag>siege</Flag>--> <!--Added-->			
+				<Flag>siege</Flag> <!--Added-->			
 			</mode_flags>
 			<alternate_time_of_day>10:30</alternate_time_of_day> <!--From 18:00-->
 			<glow_multiplier>5.0</glow_multiplier>
@@ -1334,8 +1334,8 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>siege</Flag>--> <!--Added-->
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>siege</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->		
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
@@ -1355,7 +1355,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From Oasis Rift-->
+			<Description>Oasis Rift</Description>
 			<time_of_day>14:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_rift</level_image_name>
@@ -1406,7 +1406,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>-->
+				<Flag>capture_the_flag</Flag>
 				<Flag>king_of_the_hill</Flag>
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
@@ -1426,7 +1426,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From MENU_LEVEL_SAND_PIT_DESC-->
+			<Description>MENU_LEVEL_SAND_PIT_DESC</Description>
 			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_sandpit</level_image_name>
@@ -1476,8 +1476,8 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Assets not implemented-->
-				<!--<Flag>king_of_the_hill</Flag>--> <!--Assets not implemented-->
+				<Flag>capture_the_flag</Flag> Assets not implemented
+				<Flag>king_of_the_hill</Flag> Assets not implemented
 			</mode_flags>
 			<alternate_time_of_day>7:30</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -1496,7 +1496,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From Early Crater Settlement-->
+			<Description>Early Crater Settlement</Description>
 			<time_of_day>09:00</time_of_day>
 			<distance_multiplier>1.6</distance_multiplier>
 			<level_image_name>mp_thumb_settlement</level_image_name>
@@ -1532,8 +1532,8 @@
 				<Element>m16</Element>
 			</player_weapons>
 			<Description>0</Description>
-			<time_of_day>14:00</time_of_day> <!--From 10:30--> <!--From 00:00 in old patch version-->
-			<distance_multiplier>1.75</distance_multiplier> <!--From 1.25 in v1.07.4--> <!--From 1.0-->
+			<time_of_day>14:00</time_of_day> <!--From 10:30 vanilla, From 00:00 in old patch version-->
+			<distance_multiplier>1.75</distance_multiplier> <!--From 1.0 vanilla, From 1.25 in v1.07.4--> 
 			<level_image_name>mp_thumb_wcdlc7</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
@@ -1546,11 +1546,11 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>siege</Flag>--> <!--Added-->
+				<Flag>siege</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 				<Flag>capture_the_flag</Flag> <!--Added-->				
 			</mode_flags>
-			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 00:00--> <!--From 14:00 in old patch version-->
+			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 00:00 vanilla, From 14:00 in old patch version-->
 			<glow_multiplier>6</glow_multiplier>
 			<alternate_glow_multiplier>2</alternate_glow_multiplier>
 			<ideal_min_players>6</ideal_min_players>
@@ -1582,7 +1582,7 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
@@ -1617,7 +1617,7 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 19:00-->
@@ -1637,7 +1637,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From Warlords-inspired-->
+			<Description>Warlords-inspired</Description>
 			<time_of_day>18:00</time_of_day>
 			<distance_multiplier>1.25</distance_multiplier>
 			<level_image_name>mp_thumb_warlords</level_image_name>
@@ -1672,7 +1672,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From Marauder Rolling Hills-->
+			<Description>Marauder Rolling Hills</Description>
 			<time_of_day>21:00</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier>
 			<level_image_name>mp_thumb_wasteland</level_image_name>
@@ -1722,7 +1722,7 @@
 				<Flag>bagman</Flag> <!--Added-->
 				<Flag>team_bagman</Flag> <!--Added-->
 				<Flag>demolition</Flag>
-				<!--<Flag>capture_the_flag</Flag>--> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--Added-->
 				<Flag>king_of_the_hill</Flag> <!--Added-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
@@ -1742,7 +1742,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description> <!--From Crashed Ship Wreckage-->
+			<Description>Crashed Ship Wreckage</Description>
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_wreckage</level_image_name>
@@ -1769,8 +1769,8 @@
 			<demolition_damage_multiplier>1.5</demolition_damage_multiplier>
 		</mp_level_list>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>mp_level_list</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -1945,7 +1945,7 @@
 			<MinValue>2</MinValue>
 			<MaxValue>16</MaxValue>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

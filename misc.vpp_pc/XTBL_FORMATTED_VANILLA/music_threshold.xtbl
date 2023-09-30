@@ -32,7 +32,7 @@
 		</Music_Threshold>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Music_Threshold</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -40,7 +40,7 @@
 			<Type>String</Type>
 			<Description>The name for the music thresholds.  READ THIS:  You must add the "_" at the beginning of the name or it won't work in code.</Description>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -15,7 +15,7 @@
 		</HumanTeamNames>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>HumanTeamNames</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -35,7 +35,7 @@
 			<Num_Display_Rows>8</Num_Display_Rows>
 			<Element_Name>TeamName</Element_Name>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

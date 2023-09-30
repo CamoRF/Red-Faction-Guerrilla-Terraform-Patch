@@ -25,9 +25,10 @@ v1.08 BETA CHANGES
 * Renamed Marauder Lady character to Camie (her actual name in the files)
 * Reduced loading times in multiplayer (misc, table, mp_common and INSERT files here are now uncompressed + uncondensed)
 * Reverted disabling various effects in multiplayer since it wasn't helping with the hardcoded limit for effects not playing sometimes "vfx.xtbl"
+* Reverted various out of scope changes in "tweak_table.xtbl"
 * Improved connection quality in multiplayer; "mp_xp.xtbl" is all now handled server side
 * Optimized "lod_properties.xtbl" to improve performance while still improving draw distance
-* Improved & fixed various comments in ".xtbls"
+* Improved & fixed various comments in all ".xtbls"
 
 [Peacekeeper Buff]
 * Increased firerate (Default refire delay reduced to 263 from 292)
@@ -76,3 +77,4 @@ v1.08 BETA CHANGES
 * Fixed vanilla issue with missing specular texture on Fallfactor and Junkyard maps
 * Fixed various issues on all maps
 * Fixed issue where players would sometimes spawn with a floating backpack until they died
+* Fixed various crashes introduced by the patch

@@ -1,7 +1,7 @@
 <root>
 	<Table></Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>mp_explosions</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -43,7 +43,7 @@
 			<Required>false</Required>
 			<Default>0</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

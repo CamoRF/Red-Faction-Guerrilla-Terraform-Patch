@@ -3,8 +3,8 @@
 		<container>decal_info</container>
 		<container_name>name</container_name>
 		<container_preload_category>true</container_preload_category>
-		<!-- This is used to filter out at different stages. The name is the xml element needed
-			to make the decision. -->
+		 This is used to filter out at different stages. The name is the xml element needed
+			to make the decision. 
 		<container_filter>preload</container_filter>
 		<container_type>GSC_DECALS</container_type>
 		<container_preload_type>GSC_DECALS_PRELOAD</container_preload_type>
@@ -499,8 +499,8 @@
 			<Double_sided>False</Double_sided>
 		</Decal_Info>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Decal_Info</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -588,7 +588,7 @@
 			<Choice>True</Choice>
 			<Choice>False</Choice>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

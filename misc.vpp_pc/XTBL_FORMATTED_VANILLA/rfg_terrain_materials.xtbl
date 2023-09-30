@@ -1841,7 +1841,7 @@
 		</Terrain_Material>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Terrain_Material</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -2334,7 +2334,7 @@
 				<Default>True</Default>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Oasis</Name>

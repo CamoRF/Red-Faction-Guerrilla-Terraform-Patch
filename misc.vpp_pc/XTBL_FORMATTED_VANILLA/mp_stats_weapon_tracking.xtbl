@@ -230,7 +230,7 @@
 		</stat_tracked_weapons>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>stat_tracked_weapons</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -292,7 +292,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

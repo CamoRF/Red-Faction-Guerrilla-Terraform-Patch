@@ -343,7 +343,7 @@
 		</courier_chase>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>courier_chase</Name>
 		<Type>TableDescription</Type>
 		<Required>false</Required>
@@ -648,7 +648,7 @@
 				</Reference>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

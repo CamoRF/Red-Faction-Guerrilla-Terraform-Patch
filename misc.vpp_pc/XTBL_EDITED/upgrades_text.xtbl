@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START DLC Weapons ADDED SP-->
+<!--START DLC Weapons ADDED-->
 <!--	<Upgrades_Identifier>
 			<Name>UPG_SUPER_GAUSS</Name>
 			<_Editor>
@@ -502,7 +502,7 @@
 		</Upgrades_Identifier>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Upgrades_Identifier</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -510,7 +510,7 @@
 			<Type>String</Type>
 			<Unique>true</Unique>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

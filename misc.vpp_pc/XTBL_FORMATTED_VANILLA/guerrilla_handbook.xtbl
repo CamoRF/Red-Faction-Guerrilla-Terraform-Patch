@@ -1108,7 +1108,7 @@
 		</Handbook_Entry>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Handbook_Entry</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -1172,7 +1172,7 @@
 			<Choice>True</Choice>
 			<Choice>False</Choice>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>MENU_BACKGROUND</Name>

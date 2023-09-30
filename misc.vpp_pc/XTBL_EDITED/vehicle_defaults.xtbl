@@ -253,8 +253,8 @@
 			<Powerslide_Power>1.0</Powerslide_Power>
 		</Defaults>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Defaults</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -1747,7 +1747,7 @@
 				<Default>0.0</Default>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

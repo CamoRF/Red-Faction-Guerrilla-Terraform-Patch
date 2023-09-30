@@ -1746,7 +1746,7 @@
 		</Music>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Music</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Music Variables</Display_Name>
@@ -2068,7 +2068,7 @@
 				</Element>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

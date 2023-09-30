@@ -1,8 +1,8 @@
 <root>
 	<Table>
 		<Loading_screen_tips>
-			<Name>MENU_TIP_BADGES</Name> <!--BADGES-->
-			<Text>MENU_TIP_BADGES_DESC</Text> <!--BADGES BOTH ALLOW YOU TO SHOW OFF YOUR CREATIVITY-->
+			<Name>MENU_TIP_BADGES</Name> BADGES
+			<Text>MENU_TIP_BADGES_DESC</Text> BADGES BOTH ALLOW YOU TO SHOW OFF YOUR CREATIVITY
 			<Icon>ui_hud_weapon_icon_tip</Icon>
 			<Type>Multiplayer</Type>
 			<_Editor>
@@ -10,7 +10,7 @@
 			</_Editor>
 		</Loading_screen_tips>
 		<Loading_screen_tips>
-			<Name>MENU_TIP_CUSTOMIZATION</Name> <!--CUSTOMIZATION-->
+			<Name>MENU_TIP_CUSTOMIZATION</Name> CUSTOMIZATION
 			<Text>MENU_TIP_CUSTOMIZATION_DESC</Text>
 			<Icon>ui_hud_weapon_icon_tip</Icon>
 			<Type>Multiplayer</Type>
@@ -19,7 +19,7 @@
 			</_Editor>
 		</Loading_screen_tips>
 		<Loading_screen_tips>
-			<Name>MENU_TIP_GAME_OPTIONS</Name> <!--GAME OPTIONS-->
+			<Name>MENU_TIP_GAME_OPTIONS</Name> GAME OPTIONS
 			<Text>PLT_TIP_GAME_OPTIONS_DESC</Text>
 			<Icon>ui_hud_weapon_icon_tip</Icon>
 			<Type>Multiplayer</Type>
@@ -425,7 +425,7 @@
 		</Loading_screen_tips>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Loading_screen_tips</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Loading screen tips</Display_Name>
@@ -457,7 +457,7 @@
 			<Choice>Multiplayer</Choice>
 			<Choice>Both</Choice>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

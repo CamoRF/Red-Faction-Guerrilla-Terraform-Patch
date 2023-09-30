@@ -20,7 +20,7 @@
 		</Subtitle>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Subtitle</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -45,7 +45,7 @@
 			<Description>The duration the subtitle should be displayed (ms).</Description>
 			<Default>0</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -171,7 +171,7 @@
 		</Activity_riding_shotgun>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Activity_riding_shotgun</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Activity: Riding Shotgun</Display_Name>
@@ -306,7 +306,7 @@
 				<Default>0</Default>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>In_Game</Name>

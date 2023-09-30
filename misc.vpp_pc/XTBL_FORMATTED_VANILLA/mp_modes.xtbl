@@ -104,7 +104,7 @@
 		</mp_modes_list>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>mp_modes_list</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -147,7 +147,7 @@
 			<Num_Display_Rows>8</Num_Display_Rows>
 			<Element_Name>entry</Element_Name>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

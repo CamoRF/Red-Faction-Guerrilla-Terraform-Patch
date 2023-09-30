@@ -2544,7 +2544,7 @@
 					<Filename>vasha_skirt.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_vasha_skirt.rigx</Filename> <!--From vasha_skirt-->
+					<Filename>dlc_vasha_skirt.rigx</Filename> <!--From vasha_skirt.rigx-->
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -2605,7 +2605,7 @@
 					<Filename>hess_helmet.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_hess_helmet.rigx</Filename> <!--From hess_helmet-->
+					<Filename>dlc_hess_helmet.rigx</Filename> <!--From hess_helmet.rigx-->
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -2628,7 +2628,7 @@
 					<Filename>hess_props.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_hess_props.rigx</Filename> <!--From hess_props-->
+					<Filename>dlc_hess_props.rigx</Filename> <!--From hess_props.rigx-->
 				</rig>
 				<Anim_set>none</Anim_set>
 				<Filename></Filename>
@@ -2665,7 +2665,7 @@
 					<Filename>sam_dlc_cape.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_sam_cape.rigx</Filename> <!--From sam_dlc_cape-->
+					<Filename>dlc_sam_cape.rigx</Filename> <!--From sam_dlc_cape.rigx-->
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -2685,7 +2685,7 @@
 					<Filename>sam_dlc_skirt.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_sam_skirt.rigx</Filename> <!--From sam_dlc_skirt-->
+					<Filename>dlc_sam_skirt.rigx</Filename> <!--From sam_dlc_skirt.rigx-->
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -2705,7 +2705,7 @@
 					<Filename>sam_dlc_hair.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_sam_hair.rigx</Filename> <!--From sam_dlc_hair-->
+					<Filename>dlc_sam_hair.rigx</Filename> <!--From sam_dlc_hair.rigx-->
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -3758,7 +3758,7 @@
 			</character_mesh>
 		</Item>
 	</Table>
-<!--	<TableTemplates>
+	<TableTemplates>
 		<Item>
 			<Name>Miner_Earpiece</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -6418,8 +6418,8 @@
 			</Item_Flags>
 			<streaming_category>General</streaming_category>
 		</Item>
-	</TableTemplates>-->
-	<!--<TableDescription>
+	</TableTemplates>
+	<TableDescription>
 		<Name>Item</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>3D Item</Display_Name>
@@ -6701,7 +6701,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Ambient Props</Name>

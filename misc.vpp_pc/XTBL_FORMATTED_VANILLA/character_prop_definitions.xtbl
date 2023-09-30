@@ -136,7 +136,7 @@
 		</Prop_Definitions>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Prop_Definitions</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Prop Definitions</Display_Name>
@@ -260,7 +260,7 @@
 			</Element>
 			<Num_Display_Rows>25</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

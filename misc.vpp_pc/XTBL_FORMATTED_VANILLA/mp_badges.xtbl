@@ -1878,7 +1878,7 @@
 		</entry>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>entry</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -2152,7 +2152,7 @@ Total size of all fields must be 31 or less</Description>
 				</Element>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -30,7 +30,7 @@
 		</Player_Rank>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Player_Rank</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Player Rank</Display_Name>
@@ -49,7 +49,7 @@
 			<Description>The number of "props" required to advance to this rank.</Description>
 			<Default>0</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

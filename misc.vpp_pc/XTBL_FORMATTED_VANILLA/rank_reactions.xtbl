@@ -210,7 +210,7 @@
 		</NPCGroup>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>NPCGroup</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>NPC Group</Display_Name>
@@ -311,7 +311,7 @@
 			</Element>
 			<Max_Children>4</Max_Children>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

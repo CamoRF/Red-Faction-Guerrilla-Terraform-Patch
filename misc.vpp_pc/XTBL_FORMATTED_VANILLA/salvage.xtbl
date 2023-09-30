@@ -39,7 +39,7 @@
 		</Material>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Material</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -72,7 +72,7 @@
 			<Num_Display_Rows>8</Num_Display_Rows>
 			<Element_Name>Item_3d</Element_Name>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

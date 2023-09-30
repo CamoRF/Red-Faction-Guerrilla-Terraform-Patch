@@ -298,7 +298,7 @@
 		</Timed_Delivery>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Timed_Delivery</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Timed Delivery</Display_Name>
@@ -422,7 +422,7 @@
 				<Default>0</Default>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Dust</Name>

@@ -332,7 +332,7 @@
 		</wc_challenges>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>wc_challenges</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -408,7 +408,7 @@
 			<Min_Children>3</Min_Children>
 			<Num_Display_Rows>3</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

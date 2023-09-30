@@ -261,8 +261,8 @@
 		</entry>
 <!--END-->
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>entry</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -283,7 +283,7 @@
 			<Choice>emblem</Choice>
 			<Choice>color</Choice>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

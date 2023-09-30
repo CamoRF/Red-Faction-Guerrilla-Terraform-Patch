@@ -5,7 +5,7 @@
 			<Districts>
 				<District>
 					<Name>Mariner Valley</Name>
-					<Display_name>TERR_MARINER_VALLEY</Display_name> <!--MARINER VALLEY-->
+					<Display_name>TERR_MARINER_VALLEY</Display_name> MARINER VALLEY
 					<Control>250</Control>
 					<Control_max>250</Control_max>
 					<Morale>0</Morale>
@@ -88,7 +88,7 @@
 		</Territory>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Territory</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -367,7 +367,7 @@
 			<MinValue>0</MinValue>
 			<MaxValue>99</MaxValue>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

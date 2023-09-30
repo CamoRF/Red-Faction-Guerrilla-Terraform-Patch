@@ -1,5 +1,4 @@
-<root>	
-<!--TO DO: Doublecheck against vanilla-->	
+<root>
 	<Table>
 		<ambient_spawn_info>
 			<Name>Gov_0503</Name>
@@ -9,12 +8,6 @@
 			<_Editor>
 				<Category>Eos Gov Corp</Category>
 			</_Editor>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-<!--START ADDED-->
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-<!--END-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>End_0604</Name>
@@ -24,12 +17,6 @@
 			<_Editor>
 				<Category>End Game</Category>
 			</_Editor>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-<!--START ADDED-->
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-<!--END-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>End_0703</Name>
@@ -39,12 +26,6 @@
 			<_Editor>
 				<Category>End Game</Category>
 			</_Editor>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-<!--START ADDED-->
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-<!--END-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Gov_0504</Name>
@@ -54,12 +35,6 @@
 			<_Editor>
 				<Category>Eos Gov Corp</Category>
 			</_Editor>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-<!--START ADDED-->
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-<!--END-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Eos_0505</Name>
@@ -71,8 +46,8 @@
 				<Category>Eos</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Medium
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Medium
+			<night_ped_spawn_density>Medium</night_ped_spawn_density>
+			<night_veh_spawn_density>Medium</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Eos_0406</Name>
@@ -84,8 +59,8 @@
 				<Category>Eos</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Medium
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Medium
+			<night_ped_spawn_density>Medium</night_ped_spawn_density>
+			<night_veh_spawn_density>Medium</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Eos_0506</Name>
@@ -97,21 +72,19 @@
 				<Category>Eos</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Medium
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Medium
+			<night_ped_spawn_density>Medium</night_ped_spawn_density>
+			<night_veh_spawn_density>Medium</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Eos_0407</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Medium
+			<veh_spawn_density>Medium</veh_spawn_density>
 			<npc_spawn_group>Guerilla Eos</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Eos</vehicle_spawn_group>
 			<_Editor>
 				<Category>Eos</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Medium
+			<night_veh_spawn_density>Medium</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Free_0408</Name>
@@ -121,25 +94,17 @@
 				<Category>Freefire</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-<!--START ADDED-->
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-<!--END-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Free_0409</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
-			<veh_spawn_density>High</veh_spawn_density> From Low
+			<ped_spawn_density>Low</ped_spawn_density>
+			<veh_spawn_density>Low</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust Parker</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Manufacturing</vehicle_spawn_group>
 			<_Editor>
 				<Category>Freefire</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Free_0508</Name>
@@ -149,259 +114,229 @@
 				<Category>Freefire</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-<!--START ADDED-->
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-<!--END-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Free_0509</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
-			<veh_spawn_density>High</veh_spawn_density> From Low
+			<ped_spawn_density>Low</ped_spawn_density>
+			<veh_spawn_density>Low</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust Parker</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Manufacturing</vehicle_spawn_group>
 			<_Editor>
 				<Category>Freefire</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Parker_0410</Name>
 			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density> From Low
+			<veh_spawn_density>Low</veh_spawn_density>
 			<npc_spawn_group>Guerilla Parker</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Parker</vehicle_spawn_group>
 			<_Editor>
 				<Category>Parker</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_ped_spawn_density>Low</night_ped_spawn_density>
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Parker_0510</Name>
-			<veh_spawn_density>High</veh_spawn_density> From Low
+			<veh_spawn_density>Low</veh_spawn_density>
 			<npc_spawn_group>Guerilla Parker</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Parker</vehicle_spawn_group>
 			<_Editor>
 				<Category>Parker</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
-			<ped_spawn_density>High</ped_spawn_density> From Medium
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
+			<ped_spawn_density>Medium</ped_spawn_density>
+			<night_ped_spawn_density>Low</night_ped_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Dust_0609</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Medium
+			<veh_spawn_density>Medium</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust Parker</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Dust</vehicle_spawn_group>
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Dust_0610</Name>
-			<ped_spawn_density>High</ped_spawn_density> From Medium
-			<veh_spawn_density>High</veh_spawn_density> From Medium
+			<ped_spawn_density>Medium</ped_spawn_density>
+			<veh_spawn_density>Medium</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust Parker</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Dust</vehicle_spawn_group>
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_ped_spawn_density>Low</night_ped_spawn_density>
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Dust_0708</Name>
-			<ped_spawn_density>High</ped_spawn_density> From Medium
-			<veh_spawn_density>High</veh_spawn_density> From Medium
+			<ped_spawn_density>Medium</ped_spawn_density>
+			<veh_spawn_density>Medium</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Dust2</vehicle_spawn_group>
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_ped_spawn_density>Low</night_ped_spawn_density>
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Dust_0709</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density> From Medium
+			<veh_spawn_density>Medium</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Dust</vehicle_spawn_group>
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
+			<night_ped_spawn_density>Low</night_ped_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Dust_0710</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density> From Medium
+			<veh_spawn_density>Medium</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Dust</vehicle_spawn_group>
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
+			<night_ped_spawn_density>Low</night_ped_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Dust_0711</Name>
-			<ped_spawn_density>High</ped_spawn_density> From Low
-			<veh_spawn_density>High</veh_spawn_density> From Medium
+			<ped_spawn_density>Low</ped_spawn_density>
+			<veh_spawn_density>Medium</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Dust2</vehicle_spawn_group>
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_ped_spawn_density>Low</night_ped_spawn_density>
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Dust_0712</Name>
-			<ped_spawn_density>High</ped_spawn_density> From Low
-			<veh_spawn_density>High</veh_spawn_density> From Low
+			<ped_spawn_density>Low</ped_spawn_density>
+			<veh_spawn_density>Low</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Dust2</vehicle_spawn_group>
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_ped_spawn_density>Low</night_ped_spawn_density>
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Dust_0809</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Medium
+			<veh_spawn_density>Medium</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Dust</vehicle_spawn_group>
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Dust_0810</Name>
 			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density> From Low
+			<veh_spawn_density>Low</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Dust</vehicle_spawn_group>
 			<_Editor>
 				<Category>Dust</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Medium
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_ped_spawn_density>Medium</night_ped_spawn_density>
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_0908</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
+			<veh_spawn_density>Low</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust Oasis</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Badlands</vehicle_spawn_group>
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_0909</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
+			<veh_spawn_density>Low</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust Oasis</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Badlands</vehicle_spawn_group>
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_0910</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
+			<veh_spawn_density>Low</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust Oasis</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Badlands</vehicle_spawn_group>
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_1008</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
+			<veh_spawn_density>Low</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust Oasis</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Badlands</vehicle_spawn_group>
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_1009</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
+			<veh_spawn_density>Low</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust Oasis</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Badlands</vehicle_spawn_group>
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_1010</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
+			<veh_spawn_density>Low</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust Oasis</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Badlands</vehicle_spawn_group>
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_1108</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Medium
+			<veh_spawn_density>Medium</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust Oasis</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Badlands</vehicle_spawn_group>
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_1110</Name>
@@ -411,25 +346,19 @@
 				<Category>Badlands</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-<!--START ADDED-->
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-<!--END-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_1208</Name>
-			<ped_spawn_density>High</ped_spawn_density> From Medium
-			<veh_spawn_density>High</veh_spawn_density> From Medium
+			<ped_spawn_density>Medium</ped_spawn_density>
+			<veh_spawn_density>Medium</veh_spawn_density>
 			<npc_spawn_group>Guerilla Dust Oasis</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Badlands</vehicle_spawn_group>
 			<_Editor>
 				<Category>Badlands</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Low
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
+			<night_veh_spawn_density>Low</night_veh_spawn_density>
+			<night_ped_spawn_density>Low</night_ped_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Bad_1210</Name>
@@ -439,12 +368,6 @@
 				<Category>Badlands</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-<!--START ADDED-->
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-<!--END-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Oasis_0806</Name>
@@ -456,12 +379,11 @@
 				<Category>Oasis</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Low
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Medium
+			<night_ped_spawn_density>Low</night_ped_spawn_density>
+			<night_veh_spawn_density>Medium</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Oasis_0906</Name>
-			<ped_spawn_density>High</ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
 			<npc_spawn_group>Guerilla Oasis</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Oasis</vehicle_spawn_group>
@@ -469,21 +391,18 @@
 				<Category>Oasis</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Medium
+			<night_veh_spawn_density>Medium</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Oasis_0907</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Medium
+			<veh_spawn_density>Medium</veh_spawn_density>
 			<npc_spawn_group>Guerilla Oasis</npc_spawn_group>
 			<vehicle_spawn_group>Amb_Oasis</vehicle_spawn_group>
 			<_Editor>
 				<Category>Oasis</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Medium
+			<night_veh_spawn_density>Medium</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Oasis_1006</Name>
@@ -495,8 +414,8 @@
 				<Category>Oasis</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Medium
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Medium
+			<night_ped_spawn_density>Medium</night_ped_spawn_density>
+			<night_veh_spawn_density>Medium</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Oasis_1106</Name>
@@ -508,8 +427,8 @@
 				<Category>Oasis</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Medium
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Medium
+			<night_ped_spawn_density>Medium</night_ped_spawn_density>
+			<night_veh_spawn_density>Medium</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Oasis_1107</Name>
@@ -521,8 +440,8 @@
 				<Category>Oasis</Category>
 			</_Editor>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<night_ped_spawn_density>High</night_ped_spawn_density> From Medium
-			<night_veh_spawn_density>High</night_veh_spawn_density> From Medium
+			<night_ped_spawn_density>Medium</night_ped_spawn_density>
+			<night_veh_spawn_density>Medium</night_veh_spawn_density>
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Parker_0312</Name>
@@ -532,12 +451,6 @@
 			<_Editor>
 				<Category>Parker</Category>
 			</_Editor>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-<!--START ADDED-->
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-<!--END-->
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>Racetrack</Name>
@@ -550,9 +463,7 @@
 			<ped_spawn_density>High</ped_spawn_density>
 			<night_ped_spawn_density>High</night_ped_spawn_density>
 			<veh_spawn_density>High</veh_spawn_density>
-<!--START ADDED-->
 			<night_veh_spawn_density>High</night_veh_spawn_density>
-<!--END-->
 		</ambient_spawn_info>
 	</Table>
 	<TableTemplates></TableTemplates>
@@ -643,7 +554,7 @@
 			<Name>Dust</Name>
 		</Category>
 		<Category>
-			<Name><!--END--> Game</Name>
+			<Name>End Game</Name>
 		</Category>
 		<Category>
 			<Name>Eos</Name>

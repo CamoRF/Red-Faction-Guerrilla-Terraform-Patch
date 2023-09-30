@@ -25,7 +25,7 @@
 		</house_arrest>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>house_arrest</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -148,7 +148,7 @@
 				<Description>Animation to play while delivering the intro line</Description>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>DLC</Name>

@@ -14,7 +14,7 @@
 		</Cutscene>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Cutscene</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Cut Scene</Display_Name>
@@ -25,7 +25,7 @@
 			<Description>The name of the cutscene.</Description>
 			<Unique>true</Unique>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

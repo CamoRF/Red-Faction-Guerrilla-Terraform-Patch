@@ -21560,8 +21560,8 @@
 			<vehicle_family>ArtTank</vehicle_family>
 		</Vehicle>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Vehicle</Name>
 		<Type>TableDescription</Type>
 		<MaxCount>160</MaxCount>
@@ -23547,7 +23547,7 @@ Note: This will be scaled in game so that the total of all the wheels is 1.0.</D
 				<Default>0.0</Default>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Civilian</Name>

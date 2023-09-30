@@ -35,7 +35,7 @@
 		</alert_values>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>alert_values</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Values</Display_Name>
@@ -74,7 +74,7 @@
 			<Display_Name>Default Death Value</Display_Name>
 			<Default>1.0</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

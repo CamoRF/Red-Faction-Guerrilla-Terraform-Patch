@@ -436,7 +436,7 @@
 		</Profile>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Profile</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -612,7 +612,7 @@
 				<MinValue>0</MinValue>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -20342,8 +20342,8 @@
 			</_Editor>
 		</Gameplay>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Gameplay</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -20449,7 +20449,7 @@
 			<Default>0.0</Default>
 			<MinValue>0</MinValue>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

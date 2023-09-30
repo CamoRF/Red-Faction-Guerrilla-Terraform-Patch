@@ -396,7 +396,7 @@
 		</Bullet_Group>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Bullet_Group</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Bullet Group</Display_Name>
@@ -467,7 +467,7 @@
 			<Min_Children>1</Min_Children>
 			<Num_Display_Rows>20</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

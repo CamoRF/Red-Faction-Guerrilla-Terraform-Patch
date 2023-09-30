@@ -114,7 +114,7 @@
 		</LoadingScreen>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>LoadingScreen</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -302,7 +302,7 @@
 				<Required>false</Required>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Multiplayer</Name>

@@ -260,7 +260,7 @@
 		</Explosion>
 	</Table>
 	<TableTemplates>
-<!--		<Explosion>
+		<Explosion>
 			<Name>DLC_test_splosion</Name>
 			<Radius>3.5</Radius>
 			<AI_Sound_Radius>75</AI_Sound_Radius>
@@ -308,9 +308,9 @@
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>-->
+		</Explosion>
 	</TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Explosion</Name>
 		<Type>TableDescription</Type>
 		<Description>An explosion.  Wooooo.</Description>
@@ -616,7 +616,7 @@ If this is not set, an average of the Blast Radius and Secondary Damage Radius w
 			<Default>50.0</Default>
 			<MinValue>0</MinValue>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

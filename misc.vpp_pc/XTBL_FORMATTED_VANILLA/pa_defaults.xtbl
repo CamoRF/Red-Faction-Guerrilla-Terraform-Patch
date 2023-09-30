@@ -43,7 +43,7 @@
 		</PA_Defaults>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>PA_Defaults</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>PA Defaults</Display_Name>
@@ -310,7 +310,7 @@
 				<Default>0</Default>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

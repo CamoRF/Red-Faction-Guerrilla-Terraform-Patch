@@ -284,7 +284,7 @@
 		</Weapons_Identifier>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Weapons_Identifier</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -292,7 +292,7 @@
 			<Type>String</Type>
 			<Unique>true</Unique>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

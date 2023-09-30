@@ -1914,7 +1914,7 @@
 			<TurretBase></TurretBase>
 		</Turret>
 	</Table>
-<!--	<TableTemplates>
+	<TableTemplates>
 		<Turret>
 			<Name>turret_mass_driver</Name>
 			<TurretMiddle>
@@ -2137,8 +2137,8 @@
 				<Item>turret_base_1</Item>
 			</TurretBase>
 		</Turret>
-	</TableTemplates>-->
-<!--	<TableDescription>
+	</TableTemplates>
+	<TableDescription>
 		<Name>Turret</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -2602,7 +2602,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Normal Turrets</Name>

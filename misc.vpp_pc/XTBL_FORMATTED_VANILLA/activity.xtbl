@@ -3208,7 +3208,7 @@
 			<control_limit>1.0</control_limit>
 		</base_activity>
 	</TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>base_activity</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -3510,7 +3510,7 @@
 				<Required>false</Required>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Area Defense</Name>

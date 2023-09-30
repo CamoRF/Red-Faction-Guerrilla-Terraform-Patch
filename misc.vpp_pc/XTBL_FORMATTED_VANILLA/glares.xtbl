@@ -448,7 +448,7 @@
 		</Glare>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Glare</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -613,7 +613,7 @@
 				<Default>0.0</Default>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -1468,7 +1468,7 @@
 		</stats_page>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>stats_page</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -1608,7 +1608,7 @@
 			<Min_Children>1</Min_Children>
 			<Num_Display_Rows>30</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

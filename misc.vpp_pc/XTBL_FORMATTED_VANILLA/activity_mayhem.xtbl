@@ -32,7 +32,7 @@
 		</Activity_Mayhem>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Activity_Mayhem</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Activity Mayhem</Display_Name>
@@ -79,7 +79,7 @@
 			<Default>0.5</Default>
 			<MinValue>0</MinValue>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

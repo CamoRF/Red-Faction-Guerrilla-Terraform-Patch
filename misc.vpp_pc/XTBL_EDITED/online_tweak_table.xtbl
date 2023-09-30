@@ -112,9 +112,9 @@
 			</_Editor>
 		</Tweak_Table_Entry>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
-	</TableDescription>-->
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Others</Name>

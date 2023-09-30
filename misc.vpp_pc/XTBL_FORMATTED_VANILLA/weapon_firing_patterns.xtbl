@@ -1031,7 +1031,7 @@
 		</Firing_Pattern>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Firing_Pattern</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Firing Pattern</Display_Name>
@@ -1234,7 +1234,7 @@
 				<MaxValue>2</MaxValue>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

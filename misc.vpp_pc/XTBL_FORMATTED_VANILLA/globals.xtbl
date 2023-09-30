@@ -12,7 +12,7 @@
 			<Type>number</Type>
 		</Variable>
 	</Table>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Variable</Name>
 		<Type>Element</Type>
 		<Description>A global variable for the game.</Description>
@@ -38,5 +38,5 @@
 			<Display_Name>Variable Value</Display_Name>
 			<Description>The value for the variable (the editor provides no error-checking on these values, so be careful!)</Description>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 </root>

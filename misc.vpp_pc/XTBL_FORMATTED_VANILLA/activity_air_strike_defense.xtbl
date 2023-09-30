@@ -28,7 +28,7 @@
 			<Num_bombers_to_kill>10</Num_bombers_to_kill>
 		</Activity_air_strike_defense>
 	</TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Activity_air_strike_defense</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Activity: Air Strike Defense</Display_Name>
@@ -194,7 +194,7 @@
 			<Type>Float</Type>
 			<Default>-1.0</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

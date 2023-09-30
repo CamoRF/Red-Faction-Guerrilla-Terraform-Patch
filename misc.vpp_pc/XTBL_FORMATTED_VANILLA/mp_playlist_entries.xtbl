@@ -3775,7 +3775,7 @@
 		</playlist_entries>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>playlist_entries</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -3831,7 +3831,7 @@ Increase the default score to make a playlist entry appear more often.
 Decrease the default score to make a playlist entry appear less often.</Description>
 			<Default>50</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

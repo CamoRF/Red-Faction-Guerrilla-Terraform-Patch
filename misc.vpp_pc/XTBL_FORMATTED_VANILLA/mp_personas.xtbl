@@ -52,7 +52,7 @@
 		</MP_Persona>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>MP_Persona</Name>
 		<Type>TableDescription</Type>
 		<Description>The set of possible personas the character can take on.</Description>
@@ -81,7 +81,7 @@
 			</Element>
 			<Num_Display_Rows>8</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

@@ -20,7 +20,7 @@
 		</Tire_track_decal>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Tire_track_decal</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Tire Track Decal</Display_Name>
@@ -33,7 +33,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

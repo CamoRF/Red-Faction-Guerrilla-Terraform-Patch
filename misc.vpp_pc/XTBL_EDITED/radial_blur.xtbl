@@ -78,8 +78,8 @@
 			<Priority>0</Priority>
 		</Radial_blur>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Radial_blur</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -113,7 +113,7 @@
 			<Description>Only the radial blur with the highest priority in the scene will play</Description>
 			<Default>0</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

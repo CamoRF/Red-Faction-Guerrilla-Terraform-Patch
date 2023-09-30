@@ -42,8 +42,8 @@
 			</_Editor>
 		</Startup_Video>-->
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Startup_Video</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Startup Video</Display_Name>
@@ -82,7 +82,7 @@
 			<Min_Children>0</Min_Children>
 			<Num_Display_Rows>8</Num_Display_Rows>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

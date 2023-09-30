@@ -1,7 +1,7 @@
 <root>
 	<Table></Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Hidden_Challenge</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -69,7 +69,7 @@
 			<Name>icon_name</Name>
 			<Type>String</Type>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

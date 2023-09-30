@@ -217,8 +217,8 @@
 			<EndTime>0499</EndTime>
 		</TimeOfDay>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>TimeOfDay</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Time Of Day</Display_Name>
@@ -459,7 +459,7 @@
 				</Element>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Time of Day</Name>

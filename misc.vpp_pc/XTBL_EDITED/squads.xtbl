@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--Only changes were fixing order-->			
 		<Squads>
 			<Name>player_ally_squad</Name>
 			<_Editor>
@@ -374,8 +375,8 @@
 			</_Editor>
 		</Squads>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Squads</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Squad Definition</Display_Name>
@@ -416,7 +417,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Civilians</Name>

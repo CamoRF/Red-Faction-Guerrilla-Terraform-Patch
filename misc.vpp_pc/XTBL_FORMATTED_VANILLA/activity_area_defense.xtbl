@@ -306,7 +306,7 @@
 		</Activity_area_defense>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Activity_area_defense</Name>
 		<Type>TableDescription</Type>
 		<Display_Name>Activity: Area Defense</Display_Name>
@@ -414,7 +414,7 @@
 				<Default>0</Default>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>In_Game</Name>

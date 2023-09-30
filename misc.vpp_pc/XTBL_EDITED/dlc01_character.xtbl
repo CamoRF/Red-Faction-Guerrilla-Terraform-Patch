@@ -1437,8 +1437,8 @@
 			</Heads>
 		</Character>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Character</Name>
 		<Type>TableDescription</Type>
 		<Description>A game character.</Description>
@@ -1889,7 +1889,7 @@
 				<OpenSeparate>False</OpenSeparate>
 			</Reference>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

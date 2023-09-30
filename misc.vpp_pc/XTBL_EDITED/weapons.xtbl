@@ -1,6 +1,6 @@
 <root>
-	<Table>
-<!--NOTE: current highest <Unique_ID>148</Unique_ID>-->
+	<Table>	
+<!--Current highest <Unique_ID>148</Unique_ID>-->
 <!--START Grenade ADDED-->
 		<Weapon>
 			<Name>camo_grenade</Name>
@@ -59,7 +59,7 @@
 			<Flags>
 				<Flag>shatter</Flag>
 				<Flag>disable player cover</Flag>
-				<!--<Flag>draw projectile in opposite hand</Flag>-->
+				<Flag>draw projectile in opposite hand</Flag>
 				<Flag>mp selectable</Flag>
 				<Flag>held in left hand</Flag> <!--Added in v1.07.3-->
 			</Flags>
@@ -408,7 +408,7 @@
 			<Fire_Cone_Angle>1.7</Fire_Cone_Angle>
 			<Even_Spread_Accuracy_Angle>0.2</Even_Spread_Accuracy_Angle>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
-			<Player_Move_Speed>1.25</Player_Move_Speed> <!--ADDED-->
+			<Player_Move_Speed>1.25</Player_Move_Speed> ADDED
 		</Weapon>
 		<Weapon>
 			<Name>camo_edf_subverter</Name>
@@ -484,7 +484,7 @@
 				<Muzzle_Flash>wep_edf_sniper_flash_a</Muzzle_Flash>
 				<Fire_Camera_Shake>weapon_fire_enforcer</Fire_Camera_Shake>
 				<Tracer_Frequency>1</Tracer_Frequency>
-				<Tracer_Effect>wep_bullet_tracer_a</Tracer_Effect> <!--Added-->
+				<Tracer_Effect>wep_bullet_tracer_a</Tracer_Effect> Added
 			</Visuals>
 			<Sounds>
 				<Fire_Sound>WEP_ASSAULT_B_NEAR_LOOP</Fire_Sound>
@@ -574,7 +574,7 @@
 			<Num_Magazines>4</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
-			<!--<mp_kill_phrase>HM_KILL_PHRASE_EXPLOSION</mp_kill_phrase>--> <!--Added-->
+			<mp_kill_phrase>HM_KILL_PHRASE_EXPLOSION</mp_kill_phrase> <!--ADDED-->
 			<Unique_ID>143</Unique_ID>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<Default_team>Marauder</Default_team>
@@ -590,7 +590,7 @@
 					<Flag>detonate on impact</Flag>
 				</Projectile_Flags>
 				<Time_Until_Propelled>0.0</Time_Until_Propelled>
-				<Time_Until_Prop_Expire>10000</Time_Until_Prop_Expire> <!--Added-->
+				<Time_Until_Prop_Expire>10000</Time_Until_Prop_Expire> <!--ADDED-->
 				<Gravity>0</Gravity>
 				<Acceleration>10</Acceleration>
 				<Inaccurate_flight>0.12</Inaccurate_flight>
@@ -611,7 +611,7 @@
 			<Default_Refire_Delay>90</Default_Refire_Delay> <!--From 180-->
 			<Damage_Scaling_Max>
 				<NPC_Damage>185</NPC_Damage>
-				<Player_Damage>60</Player_Damage> <!--From 55 in v1.07.2--> <!--From 50 in v1.07.1--> <!--From 45-->
+				<Player_Damage>60</Player_Damage> <!--From 45 vanilla, From 55 in v1.07.2 From 50 in v1.07.1 -->
 				<Threshold>100</Threshold>
 				<Vehicle_Damage>185</Vehicle_Damage>
 				<Player_Vehicle_Damage>45</Player_Vehicle_Damage>
@@ -641,7 +641,7 @@
 			<Flags>
 				<Flag>shatter</Flag>
 				<Flag>is obvious weapon</Flag>
-				<Flag>can fine aim</Flag> <!--Could be important for LMG weapon?-->
+				<Flag>can fine aim</Flag> Could be important for LMG weapon?
 				<Flag>mp selectable</Flag>
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
@@ -678,13 +678,13 @@
 			<Num_Magazines>6</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<icon_name>ui_badge_icon_skull</icon_name> <!--From ui_hud_weapon_icon_spiker-->
-			<!--<reticule_name>ui_hud_reti_harpoon</reticule_name>--> <!--From ui_hud_reti_spiker2-->
-			<!--<fine_aim_reticule>ui_hud_reti_harpoon</fine_aim_reticule>--> <!--From ui_hud_reti_spiker1-->
+			<reticule_name>ui_hud_reti_harpoon</reticule_name> <!--From ui_hud_reti_spiker2-->
+			<fine_aim_reticule>ui_hud_reti_harpoon</fine_aim_reticule> <!--From ui_hud_reti_spiker1-->
 			<reticule_name>ui_hud_reti_assault</reticule_name>
 			<fine_aim_reticule>ui_hud_reti_assault0</fine_aim_reticule>
 			<dummy>False</dummy>
 			<mp_kill_phrase>HM_KILL_PHRASE_RAILED</mp_kill_phrase>
-			<Headshot_Multiplier>6.0</Headshot_Multiplier> <!--From 5.5 in v1.07.2--> <!--From 5.0 in v1.07.1--> <!--From 4.0-->
+			<Headshot_Multiplier>6.0</Headshot_Multiplier> <!--From 4.0 vanilla, From 5.5 in v1.07.2 From 5.0 in v1.07.1--> 
 			<Unique_ID>144</Unique_ID>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
@@ -703,10 +703,10 @@
 					<Flag>align orient to flightpath</Flag>
 					<Flag>damage on impact</Flag>
 					<Flag>immediate effect detach</Flag>
-					<Flag>align orient to flightpath</Flag> <!--Added-->
+					<Flag>align orient to flightpath</Flag> <!--ADDED-->
 				</Projectile_Flags>
 				<Time_Until_Propelled>0.0</Time_Until_Propelled>
-				<Time_Until_Prop_Expire>10000</Time_Until_Prop_Expire> <!--Added-->
+				<Time_Until_Prop_Expire>10000</Time_Until_Prop_Expire> <!--ADDED-->
 				<Friction>1</Friction>
 				<Restitution>1</Restitution>
 				<Gravity>0</Gravity>
@@ -714,7 +714,7 @@
 			<NPC_Aim_Drift>camo_Spiker</NPC_Aim_Drift>
 			<Damage_Scaling_Min>
 				<NPC_Damage>185</NPC_Damage> <!--From 0.0-->
-				<Player_Damage>60</Player_Damage> <!--From 55 in v1.07.2--> <!--From 50 in v1.07.1--> <!--From 0.0-->
+				<Player_Damage>60</Player_Damage> <!--From 0.0 vanilla, From 55 in v1.07.2 From 50 in v1.07.1--> 
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
@@ -729,10 +729,10 @@
 			<Trigger_Type>automatic</Trigger_Type>
 			<Ammo_Type>bullet</Ammo_Type>
 			<Magazine_Size>40</Magazine_Size>
-			<Max_Rounds>200</Max_Rounds> <!--from 160-->
+			<Max_Rounds>200</Max_Rounds> <!--From 160-->
 			<Range_Max>35</Range_Max>
 			<Range_Red>50</Range_Red>
-			<Default_Refire_Delay>94</Default_Refire_Delay> <!--From 95 in v1.063--> <!--From 100-->
+			<Default_Refire_Delay>94</Default_Refire_Delay> <!--From 100 vanilla, From 95 in v1.063-->
 			<Damage_Scaling_Max>
 				<NPC_Damage>40</NPC_Damage>
 				<Player_Damage>34</Player_Damage> <!--From 32 in v1.063-->
@@ -740,8 +740,8 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Spread_Max>1.85</Spread_Max> <!--From 2.0 in v1.062--> <!--from 2.5-->
-			<Spread_Min>0.85</Spread_Min> <!--From 0.95 in v1.062--> <!--from 1.0-->
+			<Spread_Max>1.85</Spread_Max> <!--From 2.5 vanilla, From 2.0 in v1.062--> 
+			<Spread_Min>0.85</Spread_Min> <!--From 1.0 vanilla,From 0.95 in v1.062-->
 			<NPC_Spread_Max>3.6</NPC_Spread_Max>
 			<NPC_Spread_Min>1.2</NPC_Spread_Min>
 			<To_Spread_Max>5</To_Spread_Max>
@@ -762,7 +762,7 @@
 			<Damage_Scaling_Min>
 				<Threshold>30</Threshold>
 				<NPC_Damage>60</NPC_Damage>
-				<Player_Damage>42</Player_Damage> <!--From 41 in v1.063--> <!--From 40 in v1.062--> <!--from 44-->
+				<Player_Damage>42</Player_Damage> <!--From 44 vanilla, From 41 in v1.063 From 40 in v1.062--> 
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
@@ -770,22 +770,22 @@
 			<Max_Engagement_Distance>18</Max_Engagement_Distance>
 			<Inventory_Item>m16</Inventory_Item>
 			<Item_3d>m16</Item_3d>
-			<Recoil_Kick>0.75</Recoil_Kick> <!--From 0.8 in v1.063--> <!--From 0.9-->
+			<Recoil_Kick>0.75</Recoil_Kick> <!--From 0.9 vanilla, From 0.8 in v1.063--> 
 			<Acceleration>0.0</Acceleration>
 			<Spread_Fine_Aim_Min>0.62</Spread_Fine_Aim_Min> <!--From 0.67 in v1.063-->
 			<Spread_Fine_Aim_Max>1.15</Spread_Fine_Aim_Max> <!--From 1.2 in v1.063-->
 			<NPC_Firing_Pattern>Default m16</NPC_Firing_Pattern>
 			<Reload_Delay>200</Reload_Delay>
 			<Dropped_ammo_scale>0.5</Dropped_ammo_scale>
-			<Ammo_Box_Restock>200</Ammo_Box_Restock> <!--from 160-->
-			<Num_Magazines>5</Num_Magazines> <!--from 4-->
+			<Ammo_Box_Restock>200</Ammo_Box_Restock> <!--From 160-->
+			<Num_Magazines>5</Num_Magazines> <!--From 4-->
 			<icon_name>ui_hud_weapon_icon_assault</icon_name>
 			<Zoom_Magnification>1.65</Zoom_Magnification>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<reticule_name>ui_hud_reti_assault3</reticule_name>
 			<dummy>False</dummy>
 			<NPC_Aim_Drift>Default</NPC_Aim_Drift>
-			<Headshot_Multiplier>2.1</Headshot_Multiplier> <!--From 2.0 in v1.063--> <!--from 3.0-->
+			<Headshot_Multiplier>2.1</Headshot_Multiplier> <!--From 3.0 vanilla, From 2.0 in v1.063--> 
 			<Bullet_Group>Standard</Bullet_Group>
 			<Unique_ID>100</Unique_ID>
 			<Default_team>EDF</Default_team>
@@ -805,7 +805,7 @@
 			<Default_Refire_Delay>167</Default_Refire_Delay>
 			<Damage_Scaling_Max>
 				<NPC_Damage>24</NPC_Damage>
-				<Player_Damage>23</Player_Damage> <!--from 24-->
+				<Player_Damage>23</Player_Damage> <!--From 24-->
 				<Threshold>80</Threshold>
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
@@ -843,7 +843,7 @@
 			<Damage_Scaling_Min>
 				<Threshold>15</Threshold>
 				<NPC_Damage>40</NPC_Damage>
-				<Player_Damage>32</Player_Damage> <!--from 33-->
+				<Player_Damage>32</Player_Damage> <!--From 33-->
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
@@ -856,7 +856,7 @@
 			<dummy>False</dummy>
 			<Headshot_Multiplier>2.5</Headshot_Multiplier>
 			<Zoom_Magnification>1.65</Zoom_Magnification>
-			<Autoaim_override>1.03425</Autoaim_override> <!--from 1.05-->
+			<Autoaim_override>1.03425</Autoaim_override> <!--From 1.05-->
 			<Dropped_ammo_scale>0.5</Dropped_ammo_scale>
 			<Unique_ID>99</Unique_ID>
 			<NPC_Autoaim>2.5</NPC_Autoaim>
@@ -950,23 +950,23 @@
 			<Ammo_Type>bullet</Ammo_Type>
 			<Magazine_Size>12</Magazine_Size>
 			<Max_Rounds>72</Max_Rounds>
-			<Range_Max>40</Range_Max> <!--from 30-->
+			<Range_Max>40</Range_Max> <!--From 30-->
 			<Range_Red>20</Range_Red>
 			<Default_Refire_Delay>263</Default_Refire_Delay> <!--From 292-->
 			<Damage_Scaling_Max>
 				<NPC_Damage>12</NPC_Damage>
-				<Player_Damage>18</Player_Damage> <!--from 16-->
+				<Player_Damage>18</Player_Damage> <!--From 16-->
 				<Threshold>60</Threshold>
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Spread_Max>0.70</Spread_Max> <!--from 1.05-->
-			<Spread_Min>0.05</Spread_Min> <!--from 0.2-->
+			<Spread_Max>0.70</Spread_Max> <!--From 1.05-->
+			<Spread_Min>0.05</Spread_Min> <!--From 0.2-->
 			<NPC_Spread_Max>2.5</NPC_Spread_Max>
 			<NPC_Spread_Min>0.5</NPC_Spread_Min>
-			<To_Spread_Max>2.5</To_Spread_Max> <!--from 3-->
-			<To_Spread_Min>1250</To_Spread_Min> <!--from 1500-->
-			<Spread_Multiplier_Run>0.7</Spread_Multiplier_Run> <!--from 0.8-->
+			<To_Spread_Max>2.5</To_Spread_Max> <!--From 3-->
+			<To_Spread_Min>1250</To_Spread_Min> <!--From 1500-->
+			<Spread_Multiplier_Run>0.7</Spread_Multiplier_Run> <!--From 0.8-->
 			<_Editor>
 				<Category>Entries:MP Overrides</Category>
 			</_Editor>
@@ -991,7 +991,7 @@
 			<Damage_Scaling_Min>
 				<Threshold>11</Threshold>
 				<NPC_Damage>42</NPC_Damage>
-				<Player_Damage>38</Player_Damage> <!--from 36-->
+				<Player_Damage>38</Player_Damage> <!--From 36-->
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
@@ -1059,8 +1059,8 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Spread_Max>0.0</Spread_Max> <!--From 1.3-->
-			<Spread_Min>0.0</Spread_Min> <!--From 0.3-->
+			<Spread_Max>0.0</Spread_Max> From 1.3
+			<Spread_Min>0.0</Spread_Min> From 0.3
 			<NPC_Spread_Max>2.1</NPC_Spread_Max>
 			<NPC_Spread_Min>0.35</NPC_Spread_Min>
 			<To_Spread_Max>2</To_Spread_Max>
@@ -1242,8 +1242,8 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Spread_Max>0.8</Spread_Max> <!--from 0.4-->
-			<Spread_Min>0.4</Spread_Min> <!--from 0.2-->
+			<Spread_Max>0.8</Spread_Max> from 0.4
+			<Spread_Min>0.4</Spread_Min> from 0.2
 			<NPC_Spread_Max>4</NPC_Spread_Max>
 			<NPC_Spread_Min>0.25</NPC_Spread_Min>
 			<To_Spread_Max>2</To_Spread_Max>
@@ -1284,7 +1284,7 @@
 			<Ammo_Box_Restock>24</Ammo_Box_Restock>
 			<Num_Magazines>3</Num_Magazines>
 			<icon_name>ui_hud_weapon_icon_shotgun</icon_name>
-			<Headshot_Multiplier>2.5</Headshot_Multiplier> <!--from 1.4-->
+			<Headshot_Multiplier>2.5</Headshot_Multiplier> <!--From 1.4-->
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<reticule_name>ui_hud_reti_shotgun</reticule_name>
 			<dummy>False</dummy>
@@ -1295,7 +1295,7 @@
 			<fine_aim_reticule>ui_hud_reti_shotgun2</fine_aim_reticule>
 			<Visuals>
 				<Muzzle_Flash>wep_shotgun_muzzle_flash_a</Muzzle_Flash>
-				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke> <!--Added-->
+				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke> <!--ADDED-->
 				<Fire_Camera_Shake>weapon_fire_shotgun</Fire_Camera_Shake>
 				<Tracer_Frequency>0</Tracer_Frequency>
 			</Visuals>
@@ -1419,7 +1419,7 @@
 			<Default_Refire_Delay>100</Default_Refire_Delay>
 			<Damage_Scaling_Max>
 				<NPC_Damage>25</NPC_Damage>
-				<Player_Damage>31.5</Player_Damage> <!--from 33-->
+				<Player_Damage>31.5</Player_Damage> <!--From 33-->
 				<Threshold>10</Threshold>
 				<Vehicle_Damage>25</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
@@ -1559,7 +1559,7 @@
 			<Weapon_Class>launcher</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>projectile</Ammo_Type>
-			<Magazine_Size>1</Magazine_Size> <!--from 2-->
+			<Magazine_Size>1</Magazine_Size> <!--From 2-->
 			<Max_Rounds>4</Max_Rounds>
 			<Range_Max>200</Range_Max>
 			<Range_Red>200</Range_Red>
@@ -1604,14 +1604,14 @@
 			<Item_3d>rpg_launcher</Item_3d>
 			<NPC_Firing_Pattern>Default Launcher</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>4</Ammo_Box_Restock>
-			<Num_Magazines>4</Num_Magazines> <!--from 2-->
+			<Num_Magazines>4</Num_Magazines> <!--From 2-->
 			<Flags>
 				<Flag>disable player cover</Flag>
 			</Flags>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
 			<Unique_ID>32</Unique_ID>
-			<Reload_Delay>262</Reload_Delay> <!--from 250-->
+			<Reload_Delay>262</Reload_Delay> <!--From 250-->
 			<aim_assist>0.5</aim_assist>
 			<Player_Move_Speed>1.25</Player_Move_Speed>
 		</Weapon>
@@ -1725,16 +1725,16 @@
 				<Vehicle_Damage>350</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Spread_Max>0.0</Spread_Max> <!--from .2-->
+			<Spread_Max>0.0</Spread_Max> <!--From .2-->
 			<Spread_Min>0.0</Spread_Min>
 			<Projectile_Info>
 				<Model>grinder_projectile</Model>
-				<Max_Speed>70</Max_Speed> <!--from 54.5-->
+				<Max_Speed>70</Max_Speed> <!--From 54.5-->
 				<Projectile_Flags>
 					<Flag>bounce on impact</Flag>
-					<Flag>align orient to flightpath</Flag> <!--Added-->
+					<Flag>align orient to flightpath</Flag> <!--ADDED-->
 				</Projectile_Flags>
-				<Start_Speed>70</Start_Speed> <!--from 54.5-->
+				<Start_Speed>70</Start_Speed> <!--From 54.5-->
 				<Angular_Damp>.01</Angular_Damp>
 				<Angular_Velocity>
 					<X>0.0</X>
@@ -1750,7 +1750,7 @@
 				<Attached_Effect2_Description>grinder ricochet effect</Attached_Effect2_Description>
 				<Foley_Name></Foley_Name>
 				<Time_Until_Propelled>0.0</Time_Until_Propelled>
-				<Time_Until_Prop_Expire>10000</Time_Until_Prop_Expire> <!--Added-->
+				<Time_Until_Prop_Expire>10000</Time_Until_Prop_Expire> <!--ADDED-->
 				<Attached_Effect>wep_grinder_trail_a</Attached_Effect>
 				<Attached_Effect_Description>grinder trail</Attached_Effect_Description>
 				<Gravity>-1</Gravity>
@@ -1858,7 +1858,7 @@
 				<Flag>shatter</Flag>
 				<Flag>held in left hand</Flag>
 				<Flag>disable player cover</Flag>
-				<!--<Flag>mp selectable</Flag>-->
+				<Flag>mp selectable</Flag>
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
 			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
@@ -1927,7 +1927,7 @@
 				<Flag>shatter</Flag>
 				<Flag>held in left hand</Flag>
 				<Flag>disable player cover</Flag>
-				<!--<Flag>mp selectable</Flag>-->
+				<Flag>mp selectable</Flag>
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
 			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
@@ -1994,7 +1994,7 @@
 				<Flag>shatter</Flag>
 				<Flag>held in left hand</Flag>
 				<Flag>disable player cover</Flag>
-				<!--<Flag>mp selectable</Flag>-->
+				<Flag>mp selectable</Flag>
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
 			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
@@ -3576,7 +3576,7 @@
 				<Muzzle_Flash>wep_edf_rifle_flash_a</Muzzle_Flash>
 				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke>
 				<Fire_Camera_Shake>weapon_fire_ar</Fire_Camera_Shake>
-				<Tracer_Effect>wep_bullet_tracer_a</Tracer_Effect> <!--Added-->
+				<Tracer_Effect>wep_bullet_tracer_a</Tracer_Effect> <!--ADDED-->
 				<Tracer_Frequency>1</Tracer_Frequency>
 			</Visuals>
 			<Spread_Fine_Aim_Min>0.7</Spread_Fine_Aim_Min>
@@ -5375,9 +5375,9 @@
 			<Visuals>
 				<Special_Effect>wep_reconstructor_swarm_a</Special_Effect>
 				<Muzzle_Flash>wep_reconstructor_muzzle_a</Muzzle_Flash>
-				<Fire_Camera_Shake>camo_weapon_fire_repair</Fire_Camera_Shake> <!--From weapon_fire_repair-->
+				<Fire_Camera_Shake>camo_weapon_fire_repair</Fire_Camera_Shake> From weapon_fire_repair
 				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
-				<Secondary_Camera_Shake>camo_npc_reconstructor</Secondary_Camera_Shake> <!--From npc_reconstructor-->
+				<Secondary_Camera_Shake>camo_npc_reconstructor</Secondary_Camera_Shake> From npc_reconstructor
 				<Overheated_effect>wep_reconstructor_overheat_a</Overheated_effect>
 			</Visuals>
 			<Flags>
@@ -8595,8 +8595,8 @@
 			<aim_assist>0.75</aim_assist>
 		</Weapon>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>Weapon</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -9991,7 +9991,7 @@
 			<Required>false</Required>
 			<Default>1.0</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

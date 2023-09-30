@@ -76,7 +76,7 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
-<!--	<LoadingScreen>
+	<LoadingScreen>
 			<Name>Placeholder</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp6_0.tga</Filename>
@@ -300,9 +300,9 @@
 			</Level_layout>
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
-		</LoadingScreen>-->		
+		</LoadingScreen>		
 <!--END-->
-<!--START DLC WC Loading Screens Added-->
+<!--START DLC WC Loading Screens ADDED-->
 		<LoadingScreen>
 			<Name>dlc03wc1</Name>
 			<BG_image>
@@ -2038,8 +2038,8 @@
 			<Image_rot>8</Image_rot>
 		</LoadingScreen>
 	</Table>
-	<!--<TableTemplates></TableTemplates>-->
-<!--	<TableDescription>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
 		<Name>LoadingScreen</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -2227,7 +2227,7 @@
 				<Required>false</Required>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Single Player</Name>

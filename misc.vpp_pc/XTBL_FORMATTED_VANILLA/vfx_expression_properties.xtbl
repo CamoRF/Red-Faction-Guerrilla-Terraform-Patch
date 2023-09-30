@@ -170,7 +170,7 @@
 		</VFXExpressionProperties>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>VFXExpressionProperties</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -178,7 +178,7 @@
 			<Type>String</Type>
 			<Default>SomePropertyName</Default>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

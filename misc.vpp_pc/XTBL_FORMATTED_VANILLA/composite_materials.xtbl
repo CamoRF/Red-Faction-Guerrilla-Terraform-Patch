@@ -72,7 +72,7 @@
 		</Material>
 	</Table>
 	<TableTemplates></TableTemplates>
-<!--	<TableDescription>
+	<TableDescription>
 		<Name>Material</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -86,7 +86,7 @@
 			<Type>String</Type>
 			<Display_Name>composite Material</Display_Name>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>

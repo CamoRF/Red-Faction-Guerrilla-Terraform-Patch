@@ -1438,7 +1438,7 @@
 		</Material>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<!--<TableDescription>
+	<TableDescription>
 		<Name>Material</Name>
 		<Type>TableDescription</Type>
 		<Element>
@@ -2816,7 +2816,7 @@
 				</Reference>
 			</Element>
 		</Element>
-	</TableDescription>-->
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Entries</Name>
