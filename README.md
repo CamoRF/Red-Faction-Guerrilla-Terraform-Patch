@@ -22,7 +22,7 @@
 
 # Known Issues
 - [Terraform Patch](https://github.com/users/CamoRF/projects/3/views/1)
-- [Requires RSL2](https://github.com/orgs/rfg-modding/projects/1)
+- [Requires Reconstructor Patches](https://github.com/orgs/rfg-modding/projects/1)
 
 # Releases
 - [v1.05 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6247)
