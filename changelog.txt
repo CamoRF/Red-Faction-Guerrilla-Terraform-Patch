@@ -425,7 +425,6 @@ v1.064.1 ALPHA HOTFIX CHANGES
 * Fixing "varray.h(122)" required reverting adding DLC weapons to EDF in singleplayer (squad_loadout.xtbl, squad_progression.xtbl)
 
 [Fixes]
-* Fixed singleplayer DLC crashing when loading
 * Fixed issue "Int3 critical function at C:\unit4projects\rfg\root\code\volition\vlib\code\util\varray.h(122)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Found too many animation rigs to preload (max : 299)unable to allocate anim_rig" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed most of the floating backpacks on Watchtower
@@ -561,7 +560,6 @@ v1.07 ALPHA CHANGES
 * Player damage at max range increased to 35 from 33
 
 [Fixes]
-* Flxed DLC crashing when starting a new game
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/spawn/spawn_resource_data.cpp(315)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Int3 critical function at C:/unit4projects/rfg/root/code/volition/rfg/code/gameplay/activities/vrail_data.cpp(293)" reported in Red Faction Guerrilla Re-Mars-tered.log
 * Fixed issue "Weapon with name "missilepod" is trying to use inventory item info "missilepod", but that is already being used by weapon "missilepod"! etc" reported in Red Faction Guerrilla Re-Mars-tered.log

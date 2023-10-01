@@ -308,7 +308,7 @@
 			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name>
 			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule>
 			<Unique_ID>141</Unique_ID>
-			<Inventory_Item>edf_super_gauss</Inventory_Item>
+			<Inventory_Item>camo_edf_super_gauss</Inventory_Item>
 			<Item_3d>EDF_Super_Gauss</Item_3d>
 			<Default_team>EDF</Default_team>
 			<Weapon_Class>bullet</Weapon_Class>
@@ -407,7 +407,7 @@
 		<Weapon>
 			<Name>edf_subverter</Name>
 			<Unique_ID>142</Unique_ID>
-			<Inventory_Item>edf_subverter</Inventory_Item>
+			<Inventory_Item>camo_edf_subverter</Inventory_Item>
 			<Item_3d>edf_subverter</Item_3d>
 			<Default_team>EDF</Default_team>
 			<icon_name>ui_badge_icon_edf</icon_name>
@@ -544,7 +544,7 @@
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>30</Max_Engagement_Distance>
-			<Inventory_Item>missilepod</Inventory_Item>
+			<Inventory_Item>camo_missilepod</Inventory_Item>
 			<Item_3d>missilepod</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Sounds>
@@ -639,7 +639,7 @@
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>50</Max_Engagement_Distance>
-			<Inventory_Item>spiker</Inventory_Item>
+			<Inventory_Item>camo_spiker</Inventory_Item>
 			<Item_3d>spiker</Item_3d>
 			<Recoil_Kick>.7</Recoil_Kick>
 			<Acceleration>0.0</Acceleration>

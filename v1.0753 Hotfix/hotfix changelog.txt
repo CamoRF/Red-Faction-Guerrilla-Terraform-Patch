@@ -1,12 +1,18 @@
 HOTFIX CHANGELOG
 
-- Changed matchmaking playlist name to instruct players to use "find game" instead
+- Fixed crash when entering matchmaking
 - Fixed duplicate assets in Junkyard custom map
 - Fixed duplicate assets in Shipment custom map
-- Fixed crashing issue when entering matchmaking
-- Reverted changes to "lod_properties.xtbl"
-- Reverted changes to "decal_info.xtbl"
-- Reverted changes to "vehicle_defaults.xtbl"
+- Reverted draw distance changes in "lod_properties.xtbl"
+- Reverted decal lifetime changes in "decal_info.xtbl"
+- Reverted draw distance changes in "vehicle_defaults.xtbl"
 - Reverted adding drop shadows in "gameplay_properties.xtbl"
 - Reverted adding drop shadows in "dlc01_gameplay_properties.xtbl"
-- Reverted some graphical changes in "tweak_table.xtbl"
+- Reverted some graphical improvement changes in "tweak_table.xtbl"
+- Reverted changes to "effects.xtbl"
+- Reverted changes to "time_of_day.xtbl"
+- Reverted minimizing ".gtodx" & ".dtodx" (weather/skybox files) in case it was causing issues
+- Reverted various other files to vanilla, including simple formating improvements and minimizing in case it was causing issues
+- Reverted adding comments to ".xtbls" in case it was causing issues
+- Compressed "misc.vpp_pc" in case leaving it uncompressed was causing issues
+- Compressed & condensed "table.vpp_pc" in case leaving it uncompressed was causing issues
