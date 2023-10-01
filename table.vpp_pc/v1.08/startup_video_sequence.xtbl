@@ -1,0 +1,50 @@
+<root>
+	<Table>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Startup_Video</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Startup Video</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>Name of the video sequence</Description>
+		</Element>
+		<Element>
+			<Name>Video_List</Name>
+			<Type>List</Type>
+			<Display_Name>Video List</Display_Name>
+			<Description>List of each video to be played in this startup sequence.</Description>
+			<Element>
+				<Name>Video</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>Video_File</Name>
+					<Type>Filename</Type>
+					<Display_Name>Video File</Display_Name>
+					<Description>The filename for the bink video</Description>
+					<MaxLength>64</MaxLength>
+					<Extension>bik</Extension>
+					<StartingPath>data\videos</StartingPath>
+					<ShowPreload>False</ShowPreload>
+				</Element>
+				<Element>
+					<Name>Video_Flags</Name>
+					<Type>Flags</Type>
+					<Display_Name>Video Flags</Display_Name>
+					<Description>Additional settings for video playback</Description>
+					<Flag>skip_on_user_input</Flag>
+				</Element>
+			</Element>
+			<Max_Children>4</Max_Children>
+			<Min_Children>0</Min_Children>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>
