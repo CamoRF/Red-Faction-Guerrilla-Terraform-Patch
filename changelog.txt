@@ -925,3 +925,100 @@ v1.07.5.2 BETA CHANGES
 * Reverted various multiplayer files to pretty format in case it was causing issues 
 * Reverted multiplayer playlist files to vanilla in case it was causing issues
 * Experimental improvement for removing host migration (online_tweak_table.xtbl)
+
+------------------------
+v1.07.5.3 HOTFIX CHANGES (Unreleased)
+------------------------
+
+[Misc]
+* Renamed various maps that didn't reflect their in game name in "mp_levels.xtbl" to ease map development using Nanoforge
+* Reverted changes to "glares.xtbl" since it didn't seem to do anything
+
+[Maps]
+* Added Demolition to Partial Recall & Shipment custom maps
+* Changed ideal players for Gradient to 4-8 from 6-10
+
+[Characters]
+* Added colored names to new MP characters in menu
+* Renamed Lab Lady character to Scientist
+* Renamed Outcast character to Marie (her actual name in the files)
+* Renamed Marauder Lady character to Camie (her actual name in the files)
+
+[Multiplayer]
+* All XP events are now handled by the server host (mp_xp.xtbl)
+* Changed default respawn time to 0 seconds for Siege, Damage Control & Demolition in custom game settings to get around the default min limit of 3 seconds, you can still set it to normal values
+* Changed default respawn time to 3 seconds for Bagman and Team Bagman in case it was causing issues
+
+[Fixes]
+* Fixed crash when entering matchmaking
+* Fixed crash when loading SP DLC
+* Fixed duplicate assets in Junkyard custom map
+* Fixed duplicate assets in Shipment custom map
+* Reverted draw distance changes in "lod_properties.xtbl" in case it was causing issues
+* Reverted decal lifetime changes in "decal_info.xtbl" in case it was causing issues
+* Reverted draw distance changes in "vehicle_defaults.xtbl" in case it was causing issues
+* Reverted adding drop shadows in "gameplay_properties.xtbl" in case it was causing issues 
+* Reverted adding drop shadows in "dlc01_gameplay_properties.xtbl" in case it was causing issues
+* Reverted some graphical improvement changes in "tweak_table.xtbl" in case it was causing issues
+* Reverted changes to "effects.xtbl" in case it was causing issues
+* Reverted changes to "time_of_day.xtbl" in case it was causing issues
+* Reverted minimizing ".gtodx" & ".dtodx" (weather/skybox files) in case it was causing issues
+* Reverted various other files to vanilla, including simple formating improvements and minimizing in case it was causing issues
+* Reverted adding comments to ".xtbls" in case it was causing issues
+* Compressed "misc.vpp_pc" in case leaving it uncompressed was causing issues
+* Compressed & condensed "table.vpp_pc" in case leaving it uncompressed was causing issues
+
+------------------
+v1.08 BETA CHANGES (Unreleased)
+------------------
+
+[Interface]
+* Initial loading screen updated to current patch version
+* Added several new placeholder textures for future map loading screens, thumbnails and character thumbnails to make it easier to add new textures in the future without tedious hex editing
+
+[Singleplayer]
+* Increased population density
+* Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can also find them at the Badlands safehouse
+* Added Base SP Marauder Vehicles to DLC SP
+* Added Bulldozer vehicle spawn to all safehouses
+
+[Misc]
+* Added SP DLC precache assets to "mp_common.vpp_pc", will be useful for transferring SP DLC map assets to MP maps in the future
+* Patch rebuilt "hopefully" for the last time to reduce file size using the new loose file feature in SyncFaction 
+* Reduced loading times in multiplayer (misc, table, mp_common and INSERT files here are now uncompressed + uncondensed)
+
+[Maps]
+* Added team spawns & CTF to various WC maps
+* Added EDF crates on Complex to fix some line of sight issues with spawns
+* Renamed filename for Shipment to "mp_shipment.vpp_pc"
+* Renamed filename for Cliffside to "mp_clifside.vpp_pc"
+* Renamed filename for Partial Recall to "mp_partial_recall.vpp_pc"
+* Removed Pipeline Pitfalls "vpp_pc" file since the map has been disabled for a while increasing file size of patch for no reason
+* Remade Scrapheap with various improvements & fixes
+
+[Junkyard Map Updates]
+* Added some line of sight fixes/improvements
+* Adjusted some existing weapon spawns
+* Added more weapon spawns
+* Aesthetic improvements
+* Added team spawns
+* Added CTF
+
+[Shipment Map Updates]
+* Added more weapon spawns
+* Fixed spectator cameras that were outside of the map
+* Fixed duplicate shotgun weapon spawn
+
+[Wrecking Crew]
+* Renamed map filenames to "vanilla_wc1.vpp_pc" etc
+* Updated maps with various fixes
+
+[Fixes]
+* Fixed some spawns on Transmission
+* Fixed some spawns on Partial Recall
+* Fixed some spawns on Quarantine Siege
+* Fixed DLC weapon reticules & icons in SP DLC
+* Fixed vanilla issue with missing specular textures in SP
+* Fixed vanilla issue with memorial texture in SP
+* Fixed vanilla issue with missing specular texture on Fallfactor and Junkyard maps
+* Fixed various issues on all maps
