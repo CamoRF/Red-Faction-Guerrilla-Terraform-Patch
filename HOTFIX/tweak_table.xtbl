@@ -130,7 +130,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_pct</Name>
-			<Value>1.0</Value>
+			<Value>1.0</Value> <!--Reverted From 11562.0-->
 			<Description>Minimum fade percentage for NPCs near the camera.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -146,7 +146,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Tire_track_decal_fade_multiplier</Name>
-			<Value>0.5</Value>
+			<Value>0.5</Value> <!--Reverted From 0.000001-->
 			<Description>This determines how much of a difference is made by the index of the track in the list (older tracks fade faster)</Description>
 			<_Editor>
 				<Category>Vehicles:Effects</Category>
@@ -154,7 +154,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Tire_tracks_fade_rate</Name>
-			<Value>0.0005</Value>
+			<Value>0.0005</Value> <!--Reverted From 0.000001-->
 			<Description>The rate per frame that tire tracks will fade if no new tracks are being laid.</Description>
 			<_Editor>
 				<Category>Vehicles:Effects</Category>
@@ -697,7 +697,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_friendly_fire</Name>
-			<Value>0.4</Value>
+			<Value>1.0</Value> <!--From 0.4-->
 			<Description>Multiplier used to scale down damage that friendly humans do to eachother. (Single player only)</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -705,7 +705,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_offscreen</Name>
-			<Value>0.15</Value>
+			<Value>1.0</Value> <!--From 0.15-->
 			<Description>This value is applied to NPC damage when attacking another NPC when one or both are off screen.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -713,7 +713,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_onscreen</Name>
-			<Value>0.4</Value>
+			<Value>1.0</Value> <!--From 0.4-->
 			<Description>This value is applied to NPC damage when attacking another NPC when one or both are on screen.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -729,7 +729,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_vehicle</Name>
-			<Value>0.2</Value>
+			<Value>1.0</Value> <!--From 0.2-->
 			<Description>This value is applied to NPC damage when attacking another NPC's vehicle</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -1125,7 +1125,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blast_decal_min_radius</Name>
-			<Value>0.5</Value>
+			<Value>0.0</Value> <!--From 0.5-->
 			<Description>The minimum radius a blast decal must have to be drawn.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1133,7 +1133,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blood_splatter_decal_max_dist</Name>
-			<Value>30</Value>
+			<Value>30</Value> <!--Reverted From 11562.0-->
 			<Description>The maximum distance from the camera allowed to draw a blood splatter. (blood splatter is always drawn if the player is doing the shooting)</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1141,7 +1141,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_max_dist</Name>
-			<Value>15</Value>
+			<Value>15</Value> <!--Reverted From 11562.0-->
 			<Description>The maximum distance from the camera allowed to draw a bullet impact for anyone other than the local player.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1149,7 +1149,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_max_dist_player</Name>
-			<Value>50</Value>
+			<Value>50</Value> <!--Reverted From 11562.0-->
 			<Description>The maximum distance from the camera allowed to draw a bullet impact for the player.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1157,7 +1157,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_size_variation</Name>
-			<Value>0.1</Value>
+			<Value>0.1</Value> <!--Reverted From 0.125-->
 			<Description>The amount of potential variation in either direction of a bullet hole.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1388,7 +1388,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ai_removes_attached_projectile_time</Name>
-			<Value>10</Value>
+			<Value>3600</Value> <!--30 Minutes, From 10-->
 			<Description>Time, in seconds, for an NPC to remove projectiles that are attached.</Description>
 			<_Editor>
 				<Category>AI:Weapons</Category>
@@ -1487,7 +1487,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Marauder_follow_player_chance</Name>
-			<Value>50</Value>
+			<Value>100</Value> <!--From 50-->
 			<Description>Chance ambient, friendly marauders will follow the player and give him nasty looks</Description>
 			<_Editor>
 				<Category>AI:Behavioral Persona</Category>
@@ -1503,7 +1503,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_dist</Name>
-			<Value>0.0</Value>
+			<Value>0.0</Value> <!--Reverted From 11562.0-->
 			<Description>Distance from the camera at which NPCs reach the minimum fade percent.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -1511,7 +1511,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_max_fade_dist</Name>
-			<Value>0.6</Value>
+			<Value>0.6</Value> <!--Reverted From 11562.0-->
 			<Description>Distance from the camera at which friendly NPCs are fully faded-in.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -1623,7 +1623,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Max_guerrilla_conversion_dist</Name>
-			<Value>12</Value>
+			<Value>24</Value> <!--From 12-->
 			<Description>Max distance away we will consider converting someone to a guerrilla</Description>
 			<_Editor>
 				<Category>AI</Category>
@@ -1631,7 +1631,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Marauder_raid_prob</Name>
-			<Value>0.5</Value>
+			<Value>2.0</Value> <!--From 0.5-->
 			<Description>This is the probability that a Marauder raid will attempt to spawn. This is evaluated every so many “hours” at night. Raids will only spawn if the player is near a patrol flagged as a marauder raid route.</Description>
 			<_Editor>
 				<Category>AI</Category>
@@ -1759,7 +1759,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Player_friendly_fire_threshold</Name>
-			<Value>75</Value>
+			<Value>50</Value> <!--From 75-->
 			<Description>Damage you can do to a "friendly" marauder before he goes hostile on you.</Description>
 			<_Editor>
 				<Category>AI:Marauders</Category>
@@ -1767,7 +1767,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Player_friendly_fire_expire_time</Name>
-			<Value>20</Value>
+			<Value>60</Value> <!--From 20-->
 			<Description>Seconds after damaging a "friendly" marauder that he forgets you did it, returning him to a friendly state.</Description>
 			<_Editor>
 				<Category>AI:Marauders</Category>
@@ -2007,7 +2007,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blast_decal_min_alpha</Name>
-			<Value>0.5</Value>
+			<Value>0.5</Value> <!--Reverted From 1.0-->
 			<Description>The minimum alpha value decals will get based on distance.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -2551,7 +2551,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_player_damage_friendly</Name>
-			<Value>0.3</Value>
+			<Value>1.0</Value> <!--From 0.3-->
 			<Description>Multiplier used to scale down damage that the player does to friendly humans. (Single player only)</Description>
 			<_Editor>
 				<Category>Weapons</Category>

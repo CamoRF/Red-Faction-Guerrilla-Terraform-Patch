@@ -23,7 +23,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_backpack_tremor_a</Name>
@@ -35,7 +35,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_news_kiosk_sm_c</Name>
@@ -223,7 +223,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>False</vfx_kill_particles>
 			<stop_when_host_destroyed>False</stop_when_host_destroyed>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_cushion</Name>
@@ -235,7 +235,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_MELEE_SLEDGE_DIRT</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_sand</Name>
@@ -248,7 +248,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_MELEE_SLEDGE_DIRT</sound>
 			<visual>wep_hammer_impact_dirt</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_glass</Name>
@@ -261,7 +261,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_composite</Name>
@@ -274,7 +274,7 @@
 			<sound>WEP_MELEE_SLEDGE_WOOD</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_plastic</Name>
@@ -287,7 +287,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_MELEE_SLEDGE_DIRT</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_carbon</Name>
@@ -300,7 +300,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_concrete</Name>
@@ -313,7 +313,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_dirt</Name>
@@ -326,7 +326,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_flesh</Name>
@@ -339,7 +339,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_steelfence</Name>
@@ -352,7 +352,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_steelbeam</Name>
@@ -365,7 +365,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_steelthin</Name>
@@ -378,7 +378,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_steelsolid</Name>
@@ -391,7 +391,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_stone</Name>
@@ -404,7 +404,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_turret_harpoon_trail_a</Name>
@@ -439,7 +439,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>dth_electric_sm_a</Name>
@@ -510,7 +510,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_dust_camera_a</Name>
@@ -545,7 +545,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steel_shift_sm</Name>
@@ -558,7 +558,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steel_shift_lg</Name>
@@ -571,7 +571,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>False</vfx_kill_particles>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steel_shift_md</Name>
@@ -584,7 +584,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>False</vfx_kill_particles>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mov_gur_land_concrete_npc</Name>
@@ -1388,7 +1388,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_slide_md</Name>
@@ -1400,7 +1400,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_slide_lg</Name>
@@ -1412,7 +1412,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_slide_md</Name>
@@ -1424,7 +1424,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_slide_lg</Name>
@@ -1436,7 +1436,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_slide_sm</Name>
@@ -1448,7 +1448,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_slide_concrete_sm</Name>
@@ -1461,7 +1461,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_slide_concrete_md</Name>
@@ -1474,7 +1474,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_slide_concrete_lg</Name>
@@ -1487,7 +1487,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_glass_slide_a</Name>
@@ -1498,7 +1498,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_slide_sm</Name>
@@ -1511,7 +1511,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_slide_md</Name>
@@ -1524,7 +1524,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_slide_lg</Name>
@@ -1537,7 +1537,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_slide_sm</Name>
@@ -1549,7 +1549,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_slide_md</Name>
@@ -1561,7 +1561,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_slide_lg</Name>
@@ -1573,7 +1573,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_terrain_slide_a</Name>
@@ -1585,7 +1585,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_slide_sm</Name>
@@ -1597,7 +1597,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_slide_md</Name>
@@ -1609,7 +1609,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_slide_lg</Name>
@@ -1621,7 +1621,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_composite_slide_sm</Name>
@@ -1633,7 +1633,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_composite_slide_md</Name>
@@ -1645,7 +1645,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_composite_slide_lg</Name>
@@ -1657,7 +1657,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_slide_dirt_sm</Name>
@@ -1670,7 +1670,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_slide_dirt_md</Name>
@@ -1683,7 +1683,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_slide_dirt_lg</Name>
@@ -1696,7 +1696,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_slide_dirt_md</Name>
@@ -1709,7 +1709,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_slide_dirt_sm</Name>
@@ -1722,7 +1722,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_slide_dirt_md</Name>
@@ -1735,7 +1735,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_slide_dirt_sm</Name>
@@ -1748,7 +1748,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_glass_shatter_lg</Name>
@@ -1761,7 +1761,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_glass_shatter_md</Name>
@@ -1774,7 +1774,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_glass_shatter_sm</Name>
@@ -1787,7 +1787,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_detach_lg</Name>
@@ -1800,7 +1800,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_detach_md</Name>
@@ -1813,7 +1813,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_detach_sm</Name>
@@ -1826,7 +1826,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_detach_lg</Name>
@@ -1838,7 +1838,7 @@
 			<sound>DES_STEEL_BEAM_DETACH_LG</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_detach_md</Name>
@@ -1850,7 +1850,7 @@
 			<sound>DES_STEEL_BEAM_DETACH_MD</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_detach_sm</Name>
@@ -1862,7 +1862,7 @@
 			<sound>DES_STEEL_BEAM_DETACH_SM</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_detach_lg</Name>
@@ -1874,7 +1874,7 @@
 			<sound>DES_STEEL_BEAM_DETACH_LG</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_detach_md</Name>
@@ -1886,7 +1886,7 @@
 			<sound>DES_STEEL_BEAM_DETACH_MD</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_detach_sm</Name>
@@ -1898,7 +1898,7 @@
 			<sound>DES_STEEL_BEAM_DETACH_SM</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_detach_lg</Name>
@@ -1910,7 +1910,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_detach_md</Name>
@@ -1922,7 +1922,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_tracer_a</Name>
@@ -1934,7 +1934,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_miner_rpg_trail_s3</Name>
@@ -1946,7 +1946,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_edf_tank_trail</Name>
@@ -1992,7 +1992,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_miner_rpg_exp_a</Name>
@@ -2005,7 +2005,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>False</vfx_kill_particles>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_edf_pistol_flash_a</Name>
@@ -2017,7 +2017,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_edf_rifle_flash_a</Name>
@@ -2029,7 +2029,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gauss_turret_muzzle_a</Name>
@@ -2064,7 +2064,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_miner_rpg_shell_ignition</Name>
@@ -2077,7 +2077,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_miner_rpg_trail_s1</Name>
@@ -2089,7 +2089,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_miner_rpg_trail_s2</Name>
@@ -2102,7 +2102,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_RPG_PC_TRAIL</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_load_lg</Name>
@@ -2114,7 +2114,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_load_md</Name>
@@ -2126,7 +2126,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_load_sm</Name>
@@ -2138,7 +2138,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>test_chad</Name>
@@ -2208,7 +2208,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_impact_steelthin</Name>
@@ -2221,7 +2221,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_impact_steelfence</Name>
@@ -2234,7 +2234,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_impact_concrete</Name>
@@ -2247,7 +2247,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_impact_dirt</Name>
@@ -2260,7 +2260,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_impact_stone</Name>
@@ -2273,7 +2273,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_impact_wood</Name>
@@ -2284,7 +2284,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_impact_flesh</Name>
@@ -2297,7 +2297,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_impact_carbon</Name>
@@ -2310,7 +2310,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_impact_plastic</Name>
@@ -2322,7 +2322,7 @@
 			<visual>wep_melee_generic_a</visual>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_ice</Name>
@@ -2335,7 +2335,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_ROUND_IMP_DIRT</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_concrete</Name>
@@ -2348,7 +2348,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_stuffing_a</Name>
@@ -2361,7 +2361,7 @@
 			<visual>wep_bullet_impact_stuffing_a</visual>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_ROUND_IMP_CUSHION</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_steelthin</Name>
@@ -2374,7 +2374,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_steelfence</Name>
@@ -2387,7 +2387,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_steelsolid</Name>
@@ -2400,7 +2400,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_flesh_a</Name>
@@ -2413,7 +2413,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_stone</Name>
@@ -2426,7 +2426,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_gravel</Name>
@@ -2439,7 +2439,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_dirt</Name>
@@ -2452,7 +2452,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_plastic</Name>
@@ -2464,7 +2464,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_ROUND_IMP_CARBON</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_electric</Name>
@@ -2477,7 +2477,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_impact_terrain_sm</Name>
@@ -2490,7 +2490,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_impact_terrain_md</Name>
@@ -2503,7 +2503,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_impact_terrain_lg</Name>
@@ -2516,7 +2516,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_glass_impact_sm</Name>
@@ -2528,7 +2528,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steel_collapse_lg</Name>
@@ -2539,7 +2539,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steel_collapse_md</Name>
@@ -2550,7 +2550,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steel_collapse_sm</Name>
@@ -2561,7 +2561,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steel_stress_lg</Name>
@@ -2573,7 +2573,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steel_stress_md</Name>
@@ -2585,7 +2585,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steel_stress_sm</Name>
@@ -2597,7 +2597,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_collapse_sm</Name>
@@ -2609,7 +2609,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_collapse_md</Name>
@@ -2621,7 +2621,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_collapse_lg</Name>
@@ -2633,7 +2633,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_stress_lg</Name>
@@ -2646,7 +2646,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_stress_md</Name>
@@ -2659,7 +2659,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_stress_sm</Name>
@@ -2672,7 +2672,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_stress_sm</Name>
@@ -2685,7 +2685,7 @@
 			<sound>DES_CARBON_STRESS_SM</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_stress_md</Name>
@@ -2698,7 +2698,7 @@
 			<sound>DES_CARBON_STRESS_MD</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_stress_lg</Name>
@@ -2711,7 +2711,7 @@
 			<sound>DES_CARBON_STRESS_LG</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_collapse_sm</Name>
@@ -2722,7 +2722,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_collapse_md</Name>
@@ -2733,7 +2733,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_collapse_lg</Name>
@@ -2744,7 +2744,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_impact_sm</Name>
@@ -2757,7 +2757,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_impact_md</Name>
@@ -2770,7 +2770,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_impact_lg</Name>
@@ -2783,7 +2783,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_roll_sm</Name>
@@ -2795,7 +2795,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_roll_md</Name>
@@ -2807,7 +2807,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_roll_lg</Name>
@@ -2819,7 +2819,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_impact_sm</Name>
@@ -2832,7 +2832,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_impact_md</Name>
@@ -2845,7 +2845,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_impact_lg</Name>
@@ -2858,7 +2858,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_plasticthin_impact_sm</Name>
@@ -2870,7 +2870,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_fire_trail_a</Name>
@@ -2882,7 +2882,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_generic_trail_a</Name>
@@ -2894,7 +2894,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_trail_a</Name>
@@ -2906,7 +2906,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_impact_sm</Name>
@@ -2919,7 +2919,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_impact_md</Name>
@@ -2932,7 +2932,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_impact_lg</Name>
@@ -2945,7 +2945,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_roll_sm</Name>
@@ -2957,7 +2957,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_roll_md</Name>
@@ -2969,7 +2969,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_roll_lg</Name>
@@ -2981,7 +2981,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_impact_sm</Name>
@@ -2994,7 +2994,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_impact_md</Name>
@@ -3007,7 +3007,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_impact_lg</Name>
@@ -3020,7 +3020,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_roll_sm</Name>
@@ -3033,7 +3033,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_roll_md</Name>
@@ -3046,7 +3046,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_roll_lg</Name>
@@ -3059,7 +3059,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_sm</Name>
@@ -3072,7 +3072,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_md</Name>
@@ -3085,7 +3085,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_lg</Name>
@@ -3098,7 +3098,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_roll_sm</Name>
@@ -3110,7 +3110,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_roll_md</Name>
@@ -3122,7 +3122,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_roll_lg</Name>
@@ -3134,7 +3134,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_plasticthin_impact_md</Name>
@@ -3146,7 +3146,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_plasticthin_impact_lg</Name>
@@ -3158,7 +3158,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_impact_terrain_sm</Name>
@@ -3171,7 +3171,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_impact_terrain_md</Name>
@@ -3184,7 +3184,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_carbon_impact_terrain_lg</Name>
@@ -3197,7 +3197,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_impact_terrain_sm</Name>
@@ -3210,7 +3210,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_impact_terrain_md</Name>
@@ -3223,7 +3223,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_impact_terrain_lg</Name>
@@ -3236,7 +3236,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_plasticthin_impact_terrain_sm</Name>
@@ -3248,7 +3248,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_plasticthin_impact_terrain_md</Name>
@@ -3260,7 +3260,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_plasticthin_impact_terrain_lg</Name>
@@ -3272,7 +3272,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_woodthin_impact_terrain_sm</Name>
@@ -3284,7 +3284,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_woodthin_impact_terrain_md</Name>
@@ -3296,7 +3296,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_woodthin_impact_terrain_lg</Name>
@@ -3308,7 +3308,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_impact_terrain_sm</Name>
@@ -3321,7 +3321,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_impact_terrain_md</Name>
@@ -3334,7 +3334,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelbeam_impact_terrain_lg</Name>
@@ -3347,7 +3347,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_impact_terrain_sm</Name>
@@ -3360,7 +3360,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_impact_terrain_md</Name>
@@ -3373,7 +3373,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelthin_impact_terrain_lg</Name>
@@ -3386,7 +3386,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_steelsolid_sm</Name>
@@ -3399,7 +3399,7 @@
 			<sound>DES_STEEL_SOLID_IMPACT_SM</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_steelsolid_md</Name>
@@ -3412,7 +3412,7 @@
 			<sound>DES_STEEL_SOLID_IMPACT_MD</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_steelsolid_lg</Name>
@@ -3425,7 +3425,7 @@
 			<sound>DES_STEEL_SOLID_IMPACT_LG</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_steelbeam_sm</Name>
@@ -3438,7 +3438,7 @@
 			<sound>DES_STEEL_BEAM_IMPACT_SM</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_steelbeam_md</Name>
@@ -3451,7 +3451,7 @@
 			<sound>DES_STEEL_BEAM_IMPACT_MD</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_steelbeam_lg</Name>
@@ -3464,7 +3464,7 @@
 			<sound>DES_STEEL_BEAM_IMPACT_LG</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_steelthin_md</Name>
@@ -3477,7 +3477,7 @@
 			<sound>DES_STEEL_BEAM_IMPACT_MD</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_steelthin_sm</Name>
@@ -3490,7 +3490,7 @@
 			<sound>DES_STEEL_BEAM_IMPACT_SM</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_steelthin_lg</Name>
@@ -3503,7 +3503,7 @@
 			<sound>DES_STEEL_BEAM_IMPACT_LG</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_terrain_sm</Name>
@@ -3516,7 +3516,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_terrain_md</Name>
@@ -3529,7 +3529,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steelsolid_impact_terrain_lg</Name>
@@ -3542,7 +3542,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_glass_impact_md</Name>
@@ -3554,7 +3554,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_glass_impact_lg</Name>
@@ -3566,7 +3566,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_roll_lg</Name>
@@ -3577,7 +3577,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_roll_md</Name>
@@ -3588,7 +3588,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_roll_sm</Name>
@@ -3599,7 +3599,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_impact_lg</Name>
@@ -3610,7 +3610,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_impact_md</Name>
@@ -3621,7 +3621,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_impact_sm</Name>
@@ -3632,7 +3632,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_impact_steel_sm</Name>
@@ -3643,7 +3643,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_impact_steel_md</Name>
@@ -3654,7 +3654,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_stone_impact_steel_lg</Name>
@@ -3665,7 +3665,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_exit_steelsolid</Name>
@@ -3678,7 +3678,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_ROUND_IMP_STEEL_SOLID</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_load_lg</Name>
@@ -3690,7 +3690,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_load_md</Name>
@@ -3702,7 +3702,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_load_sm</Name>
@@ -3714,7 +3714,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_vehicle_steel</Name>
@@ -3727,7 +3727,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>audio_test_amb_walla_industrial_01</Name>
@@ -3789,7 +3789,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_grinder_muzzle_flash_a</Name>
@@ -3801,7 +3801,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_remote_charge_exp_a</Name>
@@ -3814,7 +3814,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_remote_charge_light_a</Name>
@@ -3826,7 +3826,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_arc_welder_lightning_a</Name>
@@ -3838,7 +3838,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_arc_welder_muzzle_a</Name>
@@ -3850,7 +3850,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_dust_rolling_a</Name>
@@ -4031,7 +4031,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>veh_walker_civ_run_dirt_l_npc</Name>
@@ -4067,7 +4067,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>veh_walker_elec_fire_a</Name>
@@ -4327,7 +4327,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_composite_impact_sm</Name>
@@ -4340,7 +4340,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_composite_impact_md</Name>
@@ -4353,7 +4353,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_composite_impact_lg</Name>
@@ -4366,7 +4366,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>jetpack</Name>
@@ -4378,7 +4378,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_edf_sniper_flash_a</Name>
@@ -4390,7 +4390,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>False</vfx_kill_particles>
 			<stop_when_host_destroyed>False</stop_when_host_destroyed>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_arc_welder_hit_a</Name>
@@ -4402,7 +4402,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_flag_aura_red_a</Name>
@@ -4414,7 +4414,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_flag_aura_blue_a</Name>
@@ -4426,7 +4426,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_composite_load_a</Name>
@@ -4438,7 +4438,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_steel_load_a</Name>
@@ -4450,7 +4450,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_wood_impact_sm</Name>
@@ -4462,7 +4462,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_wood_impact_md</Name>
@@ -4474,7 +4474,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_wood_impact_lg</Name>
@@ -4486,7 +4486,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_terrain_roll_a</Name>
@@ -4498,7 +4498,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_glass_roll_a</Name>
@@ -4510,7 +4510,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>veh_aax_rear_thruster_a</Name>
@@ -4534,7 +4534,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_building_collapse_sm</Name>
@@ -4547,7 +4547,7 @@
 			<sound>DES_CONCRETE_DETACH_SM</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_building_collapse_md</Name>
@@ -4560,7 +4560,7 @@
 			<sound>DES_CONCRETE_DETACH_MD</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_building_collapse_lg</Name>
@@ -4573,7 +4573,7 @@
 			<sound>DES_CARBON_DETACH_LG</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>dth_propane_tank_lg_a</Name>
@@ -4688,7 +4688,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_shift_lg</Name>
@@ -4701,7 +4701,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_concrete_shift_md</Name>
@@ -4714,7 +4714,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>dth_propane_tank_sm_shards_a</Name>
@@ -4794,7 +4794,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_backpacks_fuel_r</Name>
@@ -4806,7 +4806,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_backpacks_fuel_g</Name>
@@ -4818,7 +4818,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_shockwave_passive_a</Name>
@@ -4831,7 +4831,7 @@
 			<sound>MP_BACKPACK_SHOCK_PASSIVE</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_composite</Name>
@@ -4844,7 +4844,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_ROUND_IMP_CARBON</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_shockwave_active_a</Name>
@@ -4857,7 +4857,7 @@
 			<sound>MP_BACKPACK_SHOCK_ACTIVE</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_glass_a</Name>
@@ -4870,7 +4870,7 @@
 			<sound>WEP_ROUND_IMP_GLASS</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_commando_tracer_a</Name>
@@ -4882,7 +4882,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_sing_grenade_exp_b</Name>
@@ -4917,7 +4917,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>dth_computer</Name>
@@ -4941,7 +4941,7 @@
 			<sound>MP_BACKPACK_FLEET_EQUIP</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_fleetfoot_player_contrail</Name>
@@ -4953,7 +4953,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_shockwave_equip_sound</Name>
@@ -4965,7 +4965,7 @@
 			<sound>MP_BACKPACK_SHOCK_EQUIP</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_commando_equip_sound</Name>
@@ -4977,7 +4977,7 @@
 			<sound>MP_BACKPACK_COMMANDO_EQUIP</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_rhino_active_sound</Name>
@@ -4989,7 +4989,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_rhino_equip_sound</Name>
@@ -5001,7 +5001,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_shockwave_charge_sound</Name>
@@ -5013,7 +5013,7 @@
 			<sound>MP_BACKPACK_SHOCK_CHARGE</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>dth_tank_chem_frags_a</Name>
@@ -5048,7 +5048,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_rack_light_red</Name>
@@ -5060,7 +5060,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_rack_light_blue</Name>
@@ -5072,7 +5072,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_heat_vent_roof_a</Name>
@@ -5109,7 +5109,7 @@
 			<sound>WEP_MELEE_SLEDGE_WOOD</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_rhino_engine_blast</Name>
@@ -5121,7 +5121,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_rhino_shield</Name>
@@ -5133,7 +5133,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>dth_heat_vent_md_a</Name>
@@ -5168,7 +5168,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>mp_rhino_ramp_up</Name>
@@ -5181,7 +5181,7 @@
 			<sound>MP_BACKPACK_RHINO_CHARGE</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>gp_marker_flare_blue_a</Name>
@@ -5285,7 +5285,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_smoke_misc_a</Name>
@@ -5537,7 +5537,7 @@
 			<vfx_kill_particles>False</vfx_kill_particles>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GRINDER_DISC_TRAIL</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_flesh_impact_terrain_sm</Name>
@@ -5550,7 +5550,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_flesh_impact_terrain_md</Name>
@@ -5563,7 +5563,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>des_flesh_impact_terrain_lg</Name>
@@ -5576,7 +5576,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_grinder_charge_up_a</Name>
@@ -5588,7 +5588,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_grinder_charge_down_a</Name>
@@ -5600,7 +5600,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_prox_mine_exp_a</Name>
@@ -5624,7 +5624,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_nanorifle_swarm_a</Name>
@@ -5636,7 +5636,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>dth_generic_sm_a</Name>
@@ -5659,7 +5659,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>dth_generic_sm_exp_a</Name>
@@ -5788,7 +5788,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_building_smoke_a</Name>
@@ -5836,7 +5836,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_edf_screen_f</Name>
@@ -5956,7 +5956,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<visual>wep_bullet_impact_dirt</visual>
 			<sound>WEP_ROUND_IMP_DIRT</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>obj_bottle_impact</Name>
@@ -6376,7 +6376,7 @@
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_pipe_screen_a</Name>
@@ -6410,7 +6410,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_edf_screen_e</Name>
@@ -6468,7 +6468,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<visual>wep_melee_generic_a</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_xray_flicker_a</Name>
@@ -6492,7 +6492,7 @@
 				<Category>Entries:Weapons:Rail Driver</Category>
 			</_Editor>
 			<stop_when_host_destroyed>False</stop_when_host_destroyed>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_sewage_a</Name>
@@ -6504,7 +6504,7 @@
 				<Category>Entries:Weapons:Impacts - Bullets</Category>
 			</_Editor>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_prayer_tower_fire_a</Name>
@@ -6540,7 +6540,7 @@
 			</_Editor>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed>
 			<sound>WEP_ROUND_IMP_CHEM</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>dth_rel_fire_propane_a</Name>
@@ -6565,7 +6565,7 @@
 			</_Editor>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_ROUND_IMP_DIRT</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_propane_tank_a</Name>
@@ -6578,7 +6578,7 @@
 			</_Editor>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed>
 			<sound>WEP_ROUND_IMP_FUEL</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_spray_bottle_a</Name>
@@ -6613,7 +6613,7 @@
 				<Category>Entries:Weapons:Impacts - Bullets</Category>
 			</_Editor>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_flesh</Name>
@@ -6626,7 +6626,7 @@
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
 			<sound>WEP_GRINDER_DISC_IMPACT_FLESH</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_electric</Name>
@@ -6639,7 +6639,7 @@
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
 			<sound>WEP_GRINDER_DISC_IMPACT_STEEL</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_carbon</Name>
@@ -6652,7 +6652,7 @@
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
 			<sound>WEP_GRINDER_DISC_IMPACT_CONCRETE</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_plastic</Name>
@@ -6663,7 +6663,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_composite</Name>
@@ -6676,7 +6676,7 @@
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
 			<sound>WEP_GRINDER_DISC_IMPACT_CONCRETE</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_steelthin</Name>
@@ -6689,7 +6689,7 @@
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
 			<sound>WEP_GRINDER_DISC_IMPACT_STEEL</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_sand</Name>
@@ -6702,7 +6702,7 @@
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
 			<sound>WEP_GRINDER_DISC_IMPACT_DIRT</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_gravel</Name>
@@ -6715,7 +6715,7 @@
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
 			<sound>WEP_GRINDER_DISC_IMPACT_DIRT</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_stone</Name>
@@ -6727,7 +6727,7 @@
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
 			<sound>WEP_GRINDER_DISC_IMPACT_CONCRETE</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_steelsolid</Name>
@@ -6740,7 +6740,7 @@
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
 			<sound>WEP_GRINDER_DISC_IMPACT_STEEL</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_terrain</Name>
@@ -6753,7 +6753,7 @@
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
 			<sound>WEP_GRINDER_DISC_IMPACT_DIRT</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_steelfence</Name>
@@ -6766,7 +6766,7 @@
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
 			<sound>WEP_GRINDER_DISC_IMPACT_STEEL</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_grinder_impact_concrete</Name>
@@ -6779,7 +6779,7 @@
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
 			<sound>WEP_GRINDER_DISC_IMPACT_CONCRETE</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_lg_impact_wood</Name>
@@ -6791,7 +6791,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<visual>wep_melee_generic_a</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_lg_impact_stone</Name>
@@ -6804,7 +6804,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_lg_impact_steelthin</Name>
@@ -6817,7 +6817,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_lg_impact_steelsolid</Name>
@@ -6830,7 +6830,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_lg_impact_steelfence</Name>
@@ -6843,7 +6843,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_lg_impact_plastic</Name>
@@ -6855,7 +6855,7 @@
 			<visual>wep_melee_generic_a</visual>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_lg_impact_flesh</Name>
@@ -6868,7 +6868,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_lg_impact_dirt</Name>
@@ -6881,7 +6881,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_lg_impact_concrete</Name>
@@ -6894,7 +6894,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_lg_impact_composite</Name>
@@ -6907,7 +6907,7 @@
 			<sound>WEP_MELEE_SLEDGE_WOOD</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_lg_impact_cloth</Name>
@@ -6919,7 +6919,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<visual>wep_melee_generic_a</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_lg_impact_carbon</Name>
@@ -6932,7 +6932,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_sm_impact_wood</Name>
@@ -6944,7 +6944,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<visual>wep_melee_generic_a</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_sm_impact_stone</Name>
@@ -6957,7 +6957,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_sm_impact_steelthin</Name>
@@ -6970,7 +6970,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_sm_impact_steelsolid</Name>
@@ -6983,7 +6983,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_sm_impact_steelfence</Name>
@@ -6996,7 +6996,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_sm_impact_plastic</Name>
@@ -7008,7 +7008,7 @@
 			<visual>wep_melee_generic_a</visual>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_sm_impact_flesh</Name>
@@ -7021,7 +7021,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_sm_impact_dirt</Name>
@@ -7034,7 +7034,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_sm_impact_concrete</Name>
@@ -7047,7 +7047,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_sm_impact_composite</Name>
@@ -7060,7 +7060,7 @@
 			<sound>WEP_MELEE_SLEDGE_WOOD</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_sm_impact_cloth</Name>
@@ -7072,7 +7072,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<visual>wep_melee_generic_a</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_sm_impact_carbon</Name>
@@ -7085,7 +7085,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_md_impact_cloth</Name>
@@ -7097,7 +7097,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<visual>wep_melee_generic_a</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_md_impact_composite</Name>
@@ -7110,7 +7110,7 @@
 			<sound>WEP_MELEE_SLEDGE_WOOD</sound>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_md_impact_concrete</Name>
@@ -7123,7 +7123,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_md_impact_dirt</Name>
@@ -7136,7 +7136,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_md_impact_flesh</Name>
@@ -7149,7 +7149,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_md_impact_plastic</Name>
@@ -7161,7 +7161,7 @@
 			<visual>wep_melee_generic_a</visual>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_md_impact_steelfence</Name>
@@ -7174,7 +7174,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_md_impact_steelsolid</Name>
@@ -7187,7 +7187,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_md_impact_steelthin</Name>
@@ -7200,7 +7200,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_md_impact_stone</Name>
@@ -7213,7 +7213,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_md_impact_wood</Name>
@@ -7225,7 +7225,7 @@
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<visual>wep_melee_generic_a</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_melee_md_impact_carbon</Name>
@@ -7238,7 +7238,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_stone</Name>
@@ -7251,7 +7251,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMP_CONCRETE</sound>
 			<visual>wep_hammer_impact_stone</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_steelthin</Name>
@@ -7264,7 +7264,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMPACT_STEEL</sound>
 			<visual>wep_hammer_impact_steelthin</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_steelsolid</Name>
@@ -7277,7 +7277,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMPACT_STEEL</sound>
 			<visual>wep_hammer_impact_steelsolid</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_steelfence</Name>
@@ -7290,7 +7290,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMPACT_STEEL</sound>
 			<visual>wep_hammer_impact_steelfence</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_steelbeam</Name>
@@ -7303,7 +7303,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMPACT_STEEL</sound>
 			<visual>wep_hammer_impact_steelbeam</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_sand</Name>
@@ -7316,7 +7316,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMPACT_CARBON</sound>
 			<visual>wep_hammer_impact_dirt</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_plastic</Name>
@@ -7329,7 +7329,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMPACT_COMPOSITE</sound>
 			<visual>wep_hammer_impact_plastic</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_glass</Name>
@@ -7342,7 +7342,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_MELEE_SLEDGE_GLASS</sound>
 			<visual>wep_hammer_impact_glass</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_flesh</Name>
@@ -7355,7 +7355,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMP_FLESH</sound>
 			<visual>wep_gutter_trail</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_dirt</Name>
@@ -7368,7 +7368,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMPACT_COMPOSITE</sound>
 			<visual>wep_hammer_impact_dirt</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_cushion</Name>
@@ -7381,7 +7381,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMPACT_COMPOSITE</sound>
 			<visual>wep_bullet_impact_stuffing_a</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_concrete</Name>
@@ -7394,7 +7394,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMP_CONCRETE</sound>
 			<visual>wep_hammer_impact_stone</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_composite</Name>
@@ -7407,7 +7407,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMPACT_COMPOSITE</sound>
 			<visual>wep_hammer_impact_carbon</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_gutter_impact_carbon</Name>
@@ -7420,7 +7420,7 @@
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
 			<sound>WEP_GUTTER_IMPACT_CARBON</sound>
 			<visual>wep_hammer_impact_carbon</visual>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_reconstructor_muzzle_a</Name>
@@ -7432,7 +7432,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_power_core_a</Name>
@@ -7456,7 +7456,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_antenna_lights_a</Name>
@@ -7491,7 +7491,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Jetpack</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_rail_driver_hit</Name>
@@ -7503,7 +7503,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Rail Driver</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>veh_aax_air_exp_b</Name>
@@ -7560,7 +7560,7 @@
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>wep_reconstructor_overheat_a</Name>
@@ -7572,7 +7572,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Reconstructor</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>char_cigarette_smoke_exhale_a</Name>
@@ -7595,7 +7595,7 @@
 			<_Editor>
 				<Category>Entries:Character:General</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>env_barrel_fire_a</Name>
@@ -7619,7 +7619,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_mass_driver_muzzle_a</Name>
@@ -7906,7 +7906,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:EDF Grenade</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>obj_amb_artillery_gun</Name>
@@ -8216,7 +8216,7 @@
 				<Category>Entries:Weapons:Thermobaric Rockets</Category>
 			</_Editor>
 			<sound>WEP_THERMOBARIC_EXPLODE_NEAR</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_thermo_rpg_trail</Name>
@@ -8229,7 +8229,7 @@
 				<Category>Entries:Weapons:Thermobaric Rockets</Category>
 			</_Editor>
 			<sound>WEP_THERMOBARIC_TRAIL_LOOP</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>char_blood_gibs_a</Name>
@@ -8242,7 +8242,7 @@
 				<Category>Entries:Character:Blood</Category>
 			</_Editor>
 			<sound>MOV_FOLEY_NPC_EXPLODE</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->
 		</Effect>
 		<Effect>
 			<Name>dth_com_keg_a</Name>
@@ -8290,7 +8290,7 @@
 			</_Editor>
 			<stop_when_host_destroyed>True</stop_when_host_destroyed>
 			<sound>WEP_ROUND_IMP_LARGE_TANK</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_thermo_rpg_muzzle</Name>
@@ -8303,7 +8303,7 @@
 				<Category>Entries:Weapons:Thermobaric Rockets</Category>
 			</_Editor>
 			<sound>WEP_RPG_PC_IGNITE</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>env_edf_security_a</Name>
@@ -8453,7 +8453,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Bullets</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_concrete</Name>
@@ -8466,7 +8466,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_dirt</Name>
@@ -8479,7 +8479,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_flesh</Name>
@@ -8492,7 +8492,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_steel</Name>
@@ -8505,7 +8505,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_riotshield_impact_dirt</Name>
@@ -8562,7 +8562,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_carbon</Name>
@@ -8575,7 +8575,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_composite</Name>
@@ -8588,7 +8588,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_steelthin</Name>
@@ -8601,7 +8601,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_steelsolid</Name>
@@ -8614,7 +8614,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_steelfence</Name>
@@ -8627,7 +8627,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_sand</Name>
@@ -8640,7 +8640,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_gravel</Name>
@@ -8653,7 +8653,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_stone</Name>
@@ -8666,7 +8666,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_projectile_harpoon_impact_terrain</Name>
@@ -8679,7 +8679,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Projectile</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_riotshield_impact_stone</Name>
@@ -9000,7 +9000,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>False</vfx_kill_particles>
 			<stop_when_host_destroyed>False</stop_when_host_destroyed>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>obj_amb_computer_console1</Name>
@@ -9056,7 +9056,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_bullet_impact_rubber</Name>
@@ -9068,7 +9068,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Impacts - Bullets</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>dth_rel_smoke_md_a</Name>
@@ -9091,7 +9091,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:EDF Autoblaster</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>env_computer_console_a_b</Name>
@@ -9169,7 +9169,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:EDF Gauss Rifle</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_gauss_rifle_muzzle</Name>
@@ -9181,7 +9181,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:EDF Gauss Rifle</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_gauss_rifle_tracer</Name>
@@ -9193,7 +9193,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:EDF Gauss Rifle</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_thrust_activate</Name>
@@ -9206,7 +9206,7 @@
 				<Category>Entries:Multiplayer:Backpacks:Thrust</Category>
 			</_Editor>
 			<sound>MP_BACKPACK_THRUST_CHARGE</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_nanorifle_trail_a</Name>
@@ -9218,7 +9218,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>veh_headlight_a</Name>
@@ -9296,7 +9296,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Thrust</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_sing_grenade_lgt_a</Name>
@@ -9319,7 +9319,7 @@
 				<Category>Entries:Weapons:Rail Driver</Category>
 			</_Editor>
 			<stop_when_host_destroyed>False</stop_when_host_destroyed>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_thrust_equip_sound</Name>
@@ -9331,7 +9331,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Thrust</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_tremor_equip_sound</Name>
@@ -9343,7 +9343,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Tremor</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_backpack_heal_a</Name>
@@ -9355,7 +9355,7 @@
 			</_Editor>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_backpack_heal_sound</Name>
@@ -9367,7 +9367,7 @@
 				<Category>Entries:Multiplayer:Backpacks:Heal</Category>
 			</_Editor>
 			<sound>MP_BACKPACK_HEAL_EQUIP</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_stealth_equip_sound</Name>
@@ -9379,7 +9379,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Stealth</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_kaboom_equip_sound</Name>
@@ -9391,7 +9391,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Kaboom</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_thrust_charge_sound</Name>
@@ -9403,7 +9403,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Thrust</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_kaboom_charge_sound</Name>
@@ -9415,7 +9415,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Kaboom</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_stealth_charge_sound</Name>
@@ -9427,7 +9427,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Stealth</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_tremor_charge_sound</Name>
@@ -9439,7 +9439,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Tremor</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_thrust_attack</Name>
@@ -9451,7 +9451,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Thrust</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>env_mnt_beacon_lights_a</Name>
@@ -9596,7 +9596,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Vision</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_heal_charge_sound</Name>
@@ -9608,7 +9608,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Heal</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_vision_charge_sound</Name>
@@ -9620,7 +9620,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Vision</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_commando_melee_exp</Name>
@@ -9632,7 +9632,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Commando</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>amb_walla_parker_01</Name>
@@ -10012,7 +10012,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>dth_power_core_b</Name>
@@ -10152,7 +10152,7 @@
 			<sound_follows_effect>True</sound_follows_effect>
 			<vfx_kill_particles>True</vfx_kill_particles> <!--From False-->
 			<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--From False-->
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>dth_filing_cabinet_a</Name>
@@ -10210,7 +10210,7 @@
 			<_Editor>
 				<Category>Entries:Multiplayer:Backpacks:Thrust</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_thrust_down</Name>
@@ -10223,7 +10223,7 @@
 				<Category>Entries:Multiplayer:Backpacks:Thrust</Category>
 			</_Editor>
 			<sound>MP_BACKPACK_THRUST_ATTACK</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>mp_thrust_down_activate</Name>
@@ -10236,7 +10236,7 @@
 				<Category>Entries:Multiplayer:Backpacks:Thrust</Category>
 			</_Editor>
 			<sound>MP_BACKPACK_THRUST_CHARGE</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_hammer_impact_ice</Name>
@@ -10249,7 +10249,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect> Main menu hammer sound?
 			<Name>mm_hammer_hit_a</Name>
@@ -10305,7 +10305,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Miner RPG</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_edf_sniper_optics</Name>
@@ -10329,7 +10329,7 @@
 				<Category>Entries:Weapons:Impacts - Bullets</Category>
 			</_Editor>
 			<sound>WEP_GENERIC_IMP_FORCEFIELD</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_gauss_turret_overheat_audio_only</Name>
@@ -10386,7 +10386,7 @@
 				<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
 			<sound>WEP_GENERIC_IMP_FORCEFIELD</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_grinder_disc_exp</Name>
@@ -10399,7 +10399,7 @@
 				<Category>Entries:Weapons:Grinder</Category>
 			</_Editor>
 			<sound>WEP_EXP_NEAR_LG</sound>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>wep_rpg_exp_dirt_a</Name>
@@ -10411,7 +10411,7 @@
 			<_Editor>
 				<Category>Entries:Weapons:Miner RPG</Category>
 			</_Editor>
-			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> Added			
+			<vfx_kill_particles_fade_time>5</vfx_kill_particles_fade_time> <!--Added-->			
 		</Effect>
 		<Effect>
 			<Name>env_gust_devil_a</Name>

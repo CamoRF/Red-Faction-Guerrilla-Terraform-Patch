@@ -3,8 +3,8 @@
 		<container>decal_info</container>
 		<container_name>name</container_name>
 		<container_preload_category>true</container_preload_category>
-		<!-- This is used to filter out at different stages. The name is the xml element needed
-		to make the decision. -->
+		 This is used to filter out at different stages. The name is the xml element needed
+			to make the decision. 
 		<container_filter>preload</container_filter>
 		<container_type>GSC_DECALS</container_type>
 		<container_preload_type>GSC_DECALS_PRELOAD</container_preload_type>
@@ -23,8 +23,8 @@
 			<Material>
 				<Filename>vfx_decal_bullet_cem.matx</Filename>
 			</Material>
-			<Life_Time>-1</Life_Time>
-			<Fade_Time>0</Fade_Time>
+			<Life_Time>-1</Life_Time> <!--Reverted From 30000 for all decals-->
+			<Fade_Time>0</Fade_Time> <!--Reverted From 30000 for all decals-->
 			<Width>.2</Width>
 			<Depth>0.2</Depth>
 			<Depth_Fade_Start>0.75</Depth_Fade_Start>

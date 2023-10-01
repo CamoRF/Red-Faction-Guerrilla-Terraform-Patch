@@ -1,0 +1,12 @@
+HOTFIX CHANGELOG
+
+- Changed matchmaking playlist name to instruct players to use "find game" instead
+- Fixed duplicate assets in Junkyard custom map
+- Fixed duplicate assets in Shipment custom map
+- Fixed crashing issue when entering matchmaking
+- Reverted changes to "lod_properties.xtbl"
+- Reverted changes to "decal_info.xtbl"
+- Reverted changes to "vehicle_defaults.xtbl"
+- Reverted adding drop shadows in "gameplay_properties.xtbl"
+- Reverted adding drop shadows in "dlc01_gameplay_properties.xtbl"
+- Reverted some graphical changes in "tweak_table.xtbl"

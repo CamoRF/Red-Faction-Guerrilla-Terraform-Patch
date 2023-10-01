@@ -130,7 +130,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_pct</Name>
-			<Value>11562.0</Value> <!--From 1.0-->
+			<Value>1.0</Value> <!--Reverted From 11562.0-->
 			<Description>Minimum fade percentage for NPCs near the camera.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -146,7 +146,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Tire_track_decal_fade_multiplier</Name>
-			<Value>0.000001</Value> <!--From 0.5-->
+			<Value>0.5</Value> <!--Reverted From 0.000001-->
 			<Description>This determines how much of a difference is made by the index of the track in the list (older tracks fade faster)</Description>
 			<_Editor>
 				<Category>Vehicles:Effects</Category>
@@ -154,7 +154,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Tire_tracks_fade_rate</Name>
-			<Value>0.000001</Value> <!--From 0.0005-->
+			<Value>0.0005</Value> <!--Reverted From 0.000001-->
 			<Description>The rate per frame that tire tracks will fade if no new tracks are being laid.</Description>
 			<_Editor>
 				<Category>Vehicles:Effects</Category>
@@ -1133,7 +1133,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blood_splatter_decal_max_dist</Name>
-			<Value>11562</Value> <!--From 30-->
+			<Value>30</Value> <!--Reverted From 11562.0-->
 			<Description>The maximum distance from the camera allowed to draw a blood splatter. (blood splatter is always drawn if the player is doing the shooting)</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1141,7 +1141,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_max_dist</Name>
-			<Value>11562.0</Value> <!--From 15-->
+			<Value>15</Value> <!--Reverted From 11562.0-->
 			<Description>The maximum distance from the camera allowed to draw a bullet impact for anyone other than the local player.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1149,7 +1149,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_max_dist_player</Name>
-			<Value>11562</Value> <!--From 50-->
+			<Value>50</Value> <!--Reverted From 11562.0-->
 			<Description>The maximum distance from the camera allowed to draw a bullet impact for the player.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1157,7 +1157,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_size_variation</Name>
-			<Value>0.125</Value> <!--From 0.1-->
+			<Value>0.1</Value> <!--Reverted From 0.125-->
 			<Description>The amount of potential variation in either direction of a bullet hole.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1503,7 +1503,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_dist</Name>
-			<Value>11562.0</Value> <!--From 0.0-->
+			<Value>0.0</Value> <!--Reverted From 11562.0-->
 			<Description>Distance from the camera at which NPCs reach the minimum fade percent.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -1511,7 +1511,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_max_fade_dist</Name>
-			<Value>11562.0</Value> <!--From 0.6-->
+			<Value>0.6</Value> <!--Reverted From 11562.0-->
 			<Description>Distance from the camera at which friendly NPCs are fully faded-in.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -2007,7 +2007,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blast_decal_min_alpha</Name>
-			<Value>1.0</Value> <!--From 0.5-->
+			<Value>0.5</Value> <!--Reverted From 1.0-->
 			<Description>The minimum alpha value decals will get based on distance.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
