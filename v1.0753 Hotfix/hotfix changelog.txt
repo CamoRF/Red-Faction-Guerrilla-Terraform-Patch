@@ -1,6 +1,7 @@
 HOTFIX CHANGELOG
 
 - Fixed crash when entering matchmaking
+- Fixed crash when loading SP DLC
 - Fixed duplicate assets in Junkyard custom map
 - Fixed duplicate assets in Shipment custom map
 - Reverted draw distance changes in "lod_properties.xtbl"
