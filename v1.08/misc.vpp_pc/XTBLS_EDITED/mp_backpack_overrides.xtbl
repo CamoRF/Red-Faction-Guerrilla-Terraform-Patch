@@ -22,7 +22,7 @@
 			</_Editor>
 		</mp_backpacks>		
 		<mp_backpacks>
-			<Name>Commando</Name> Firepower
+			<Name>Commando</Name>
 			<uses_fuel>
 				<fuel_regen_per_second>0.1</fuel_regen_per_second>
 			</uses_fuel>
@@ -31,7 +31,7 @@
 			</_Editor>
 		</mp_backpacks>
 		<mp_backpacks>
-			<Name>Shockwave</Name> Concussion
+			<Name>Shockwave</Name>
 			<uses_fuel>
 				<fuel_regen_per_second>0.11</fuel_regen_per_second> <!--From 0.22-->
 			</uses_fuel>

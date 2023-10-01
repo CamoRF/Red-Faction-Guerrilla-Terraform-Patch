@@ -1,6 +1,5 @@
 <root>
-	<Table>
-<!--START Added-->		
+	<Table>	
 		<mp_weapons>
 			<Name>camo_grenade</Name>
 			<Ammo_count>
@@ -12,31 +11,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</mp_weapons>
-		<mp_weapons>
-			<Name>camo_edf_subverter</Name>
-			<Ammo_count>
-				<Magazine_Size>30</Magazine_Size> <!--From 24-->
-				<Num_Magazines>6</Num_Magazines>
-				<Max_Rounds>180</Max_Rounds>
-			</Ammo_count>
-			<Damage_Scaling_Min>
-				<Player_Damage>43</Player_Damage> <!--From 45-->
-			</Damage_Scaling_Min>
-			<Damage_Scaling_Max>
-				<Player_Damage>35</Player_Damage> <!--From 33-->
-			</Damage_Scaling_Max>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</mp_weapons>
-		<mp_weapons>
-			<Name>camo_missilepod</Name>
-			<Default_Refire_Delay>0</Default_Refire_Delay>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</mp_weapons>
-<!--END-->		
 		<mp_weapons>
 			<Name>mine_placer</Name>
 			<Ammo_count>

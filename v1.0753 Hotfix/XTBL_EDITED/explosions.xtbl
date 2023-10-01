@@ -76,23 +76,19 @@
 		</Explosion>
 		<Explosion>
 			<Name>mp_kaboom</Name>
-			<Radius>7.2</Radius> From 5
-			
-			<CrumbleRadius>4.2</CrumbleRadius> From 2
-			
+			<Radius>7.2</Radius>
+			<CrumbleRadius>4.2</CrumbleRadius>
 			<AI_Sound_Radius>200</AI_Sound_Radius>
 			<vehicle_damage_max>700</vehicle_damage_max>
 			<vehicle_damage_min>300</vehicle_damage_min>
 			<Impulse>22000</Impulse>
 			<Effects>
-				<Element>wep_thermo_rpg_exp</Element> From mp_kaboom_pack_exp_a
-			
+				<Element>wep_thermo_rpg_exp</Element>
 			</Effects>
 			<_Editor>
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
-			<KnockdownRadius>9.2</KnockdownRadius> From 7
-			
+			<KnockdownRadius>9.2</KnockdownRadius>
 			<FlinchRadius>22</FlinchRadius>
 			<Duration>250</Duration>
 			<Delay>0</Delay>
@@ -1530,9 +1526,7 @@
 			</_Editor>
 			<CrumbleRadius>8.0</CrumbleRadius>
 			<KnockdownRadius>8</KnockdownRadius>
-			<FlinchRadius>0</FlinchRadius>
-			From 15
-			
+			<FlinchRadius>15</FlinchRadius>
 			<Duration>200</Duration>
 			<Delay>200</Delay>
 			<player_mult>0.8</player_mult>
@@ -2519,8 +2513,7 @@
 			<CrumbleRadius>3.5</CrumbleRadius>
 			<KnockdownRadius>4.0</KnockdownRadius>
 			<FlinchRadius>5.0</FlinchRadius>
-			<player_mult>0.8</player_mult> From 0.8
-			
+			<player_mult>0.8</player_mult>
 			<MaxSalvagePieces>0</MaxSalvagePieces>
 			<SalvageProbability>0</SalvageProbability>
 			<human_damage_min>300</human_damage_min>

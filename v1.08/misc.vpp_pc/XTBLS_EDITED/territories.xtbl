@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START Custom Maps-->	
+<!--START Custom Maps-->
 		<Territory>
 			<Name>mp_warehouse</Name>
 			<Districts>
@@ -3918,7 +3918,7 @@
 			</StreamingParams>
 			<territory_index>0</territory_index>
 		</Territory>-->
-<!--END-->		
+<!--END-->	
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

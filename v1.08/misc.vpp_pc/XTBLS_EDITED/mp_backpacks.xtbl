@@ -1989,7 +1989,6 @@
 					<Type>Float</Type>
 					<Display_Name>Health regen (per second)</Display_Name>
 					<Description>The amount of health the carrier should regenerate per second
-
 Note: This is not a modifier, but a pure amount.</Description>
 					<Default>0.0</Default>
 				</Element>

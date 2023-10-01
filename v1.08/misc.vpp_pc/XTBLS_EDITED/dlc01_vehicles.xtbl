@@ -3692,8 +3692,7 @@
 					<Name>Wheel_Engine_Torque</Name>
 					<Type>Float</Type>
 					<Display_Name>Wheel Engine Torque</Display_Name>
-					<Description>Amount of torque the wheel gets from the engine (0.0 - 1.0).  
-Note: This will be scaled in game so that the total of all the wheels is 1.0.</Description>
+					<Description>Amount of torque the wheel gets from the engine (0.0 - 1.0).  Note: This will be scaled in game so that the total of all the wheels is 1.0.</Description>
 					<Required>false</Required>
 					<Default>0.5</Default>
 					<MinValue>0</MinValue>

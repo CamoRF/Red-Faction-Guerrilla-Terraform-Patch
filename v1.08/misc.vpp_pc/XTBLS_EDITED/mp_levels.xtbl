@@ -21,12 +21,12 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
-				<Flag>siege</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
+				<Flag>siege</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 8:30-->
 			<glow_multiplier>2.0</glow_multiplier>
@@ -92,12 +92,12 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->	
+				<Flag>siege</Flag> <!--ADDED-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->	
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 10:30-->
 			<glow_multiplier>0.9</glow_multiplier>
@@ -128,11 +128,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>10:30</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -199,11 +199,11 @@
 				<Flag>siege</Flag>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>08:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -239,7 +239,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->	
+				<Flag>siege</Flag> <!--ADDED-->	
 			</mode_flags>
 			<alternate_time_of_day>18:00</alternate_time_of_day> <!--From 18:00-->
 			<glow_multiplier>6.0</glow_multiplier>
@@ -271,11 +271,11 @@
 				<Flag>siege</Flag>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>08:30</alternate_time_of_day>
 			<glow_multiplier>1.2</glow_multiplier>
@@ -307,11 +307,11 @@
 				<Flag>siege</Flag>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>13:00</alternate_time_of_day>
 			<glow_multiplier>1.5</glow_multiplier>
@@ -382,7 +382,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->
+				<Flag>siege</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -418,7 +418,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->
+				<Flag>siege</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6.0</glow_multiplier>
@@ -554,11 +554,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>12:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -589,11 +589,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -659,11 +659,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -695,11 +695,11 @@
 				<Flag>siege</Flag>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>02:00</alternate_time_of_day>
 			<glow_multiplier>1.1</glow_multiplier>
@@ -730,11 +730,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->	
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->	
 			</mode_flags>
 			<alternate_time_of_day>20:30</alternate_time_of_day> <!--From 15:30 vanilla, From 00:00 in v1.07.2-->
 			<glow_multiplier>6</glow_multiplier>
@@ -770,7 +770,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->
+				<Flag>siege</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 08:00-->
 			<glow_multiplier>4.5</glow_multiplier>
@@ -837,11 +837,11 @@
 				<Flag>siege</Flag>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>21:00</alternate_time_of_day>
 			<glow_multiplier>1.6</glow_multiplier>
@@ -942,12 +942,12 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->		
+				<Flag>siege</Flag> <!--ADDED-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->		
 			</mode_flags>
 			<alternate_time_of_day>09:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -978,11 +978,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>12:00</alternate_time_of_day> <!--From 8:30-->
 			<glow_multiplier>6</glow_multiplier>
@@ -1013,11 +1013,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag> 
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>8:30</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier> <!--From 0.0-->
@@ -1084,11 +1084,11 @@
 				<Flag>siege</Flag>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>02:00</alternate_time_of_day>
 			<glow_multiplier>1.1</glow_multiplier>
@@ -1154,11 +1154,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -1229,7 +1229,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->		
+				<Flag>siege</Flag> <!--ADDED-->		
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 20:00-->
 			<glow_multiplier>2.0</glow_multiplier>
@@ -1265,7 +1265,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->			
+				<Flag>siege</Flag> <!--ADDED-->			
 			</mode_flags>
 			<alternate_time_of_day>10:30</alternate_time_of_day> <!--From 18:00-->
 			<glow_multiplier>5.0</glow_multiplier>
@@ -1331,12 +1331,12 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->		
+				<Flag>siege</Flag> <!--ADDED-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->		
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -1372,7 +1372,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->
+				<Flag>siege</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>22:30</alternate_time_of_day>
 			<glow_multiplier>2.5</glow_multiplier>
@@ -1543,12 +1543,12 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
-				<Flag>capture_the_flag</Flag> <!--Added-->				
+				<Flag>siege</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->				
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 00:00 vanilla, From 14:00 in old patch version-->
 			<glow_multiplier>6</glow_multiplier>
@@ -1579,11 +1579,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
@@ -1614,11 +1614,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day> <!--From 19:00-->
 			<glow_multiplier>0.9</glow_multiplier>
@@ -1719,11 +1719,11 @@
 			<mode_flags>
 				<Flag>deathmatch</Flag>
 				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag> <!--Added-->
-				<Flag>team_bagman</Flag> <!--Added-->
+				<Flag>bagman</Flag> <!--ADDED-->
+				<Flag>team_bagman</Flag> <!--ADDED-->
 				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag> <!--Added-->
-				<Flag>king_of_the_hill</Flag> <!--Added-->
+				<Flag>capture_the_flag</Flag> <!--ADDED-->
+				<Flag>king_of_the_hill</Flag> <!--ADDED-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>0.9</glow_multiplier>
