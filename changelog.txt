@@ -948,6 +948,7 @@ v1.07.5.3 HOTFIX CHANGES (Unreleased)
 * All XP events are now handled by the server host (mp_xp.xtbl)
 * Changed default respawn time to 0 seconds for Siege, Damage Control & Demolition in custom game settings to get around the default min limit of 3 seconds, you can still set it to normal values
 * Changed default respawn time to 3 seconds for Bagman and Team Bagman in case it was causing issues
+* Changed default bag return time to 15 seconds for Bagman and Team Bagman in case it was causing issues
 
 [Fixes]
 * Fixed crash when entering matchmaking
