@@ -7,7 +7,7 @@
 			</Model>
 			<Anim_Set>Samanya.xtbl</Anim_Set>
 			<Rig>
-				<Filename>dlc_sam.rigx</Filename> <!--From sam_dlc.rigx-->
+				<Filename>dlc_sam.rigx</Filename>
 			</Rig>
 			<Team>Marauder</Team>
 			<_Editor>
@@ -98,7 +98,7 @@
 			</Model>
 			<Anim_Set>Scavenger.xtbl</Anim_Set>
 			<Rig>
-				<Filename>dlc_hess.rigx</Filename> <!--From hess.rigx-->
+				<Filename>dlc_hess.rigx</Filename>
 			</Rig>
 			<Team>Marauder</Team>
 			<_Editor>
@@ -270,7 +270,7 @@
 			</Model>
 			<Anim_Set>Scavenger.xtbl</Anim_Set>
 			<Rig>
-				<Filename>dlc_hess.rigx</Filename> <!--From hess.rigx-->
+				<Filename>dlc_hess.rigx</Filename>
 			</Rig>
 			<Team>Marauder</Team>
 			<_Editor>
@@ -1259,7 +1259,7 @@
 			</Model>
 			<Anim_Set>Civilian_Female.xtbl</Anim_Set>
 			<Rig>
-				<Filename>dlc_vasha.rigx</Filename> <!--From vasha.rigx-->
+				<Filename>dlc_vasha.rigx</Filename>
 			</Rig>
 			<Team>Marauder</Team>
 			<_Editor>
