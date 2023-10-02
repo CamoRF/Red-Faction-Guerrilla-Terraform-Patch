@@ -102,7 +102,7 @@
 					</generic_option_overrides>
 				</bagman>
 				<team_bagman>
-					<bag_return_time_seconds>5</bag_return_time_seconds>
+					<bag_return_time_seconds>15</bag_return_time_seconds>
 					<bagman_kill_bonus>True</bagman_kill_bonus>
 					<generic_option_overrides>
 						<point_limit>250</point_limit>

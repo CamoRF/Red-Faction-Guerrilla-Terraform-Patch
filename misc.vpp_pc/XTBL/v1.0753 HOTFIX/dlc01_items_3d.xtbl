@@ -2544,7 +2544,7 @@
 					<Filename>vasha_skirt.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_vasha_skirt.rigx</Filename> <!--From vasha_skirt.rigx-->
+					<Filename>dlc_vasha_skirt.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -2605,7 +2605,7 @@
 					<Filename>hess_helmet.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_hess_helmet.rigx</Filename> <!--From hess_helmet.rigx-->
+					<Filename>dlc_hess_helmet.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -2628,7 +2628,7 @@
 					<Filename>hess_props.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_hess_props.rigx</Filename> <!--From hess_props.rigx-->
+					<Filename>dlc_hess_props.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 				<Filename></Filename>
@@ -2665,7 +2665,7 @@
 					<Filename>sam_dlc_cape.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_sam_cape.rigx</Filename> <!--From sam_dlc_cape.rigx-->
+					<Filename>dlc_sam_cape.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -2685,7 +2685,7 @@
 					<Filename>sam_dlc_skirt.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_sam_skirt.rigx</Filename> <!--From sam_dlc_skirt.rigx-->
+					<Filename>dlc_sam_skirt.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -2705,7 +2705,7 @@
 					<Filename>sam_dlc_hair.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_sam_hair.rigx</Filename> <!--From sam_dlc_hair.rigx-->
+					<Filename>dlc_sam_hair.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>

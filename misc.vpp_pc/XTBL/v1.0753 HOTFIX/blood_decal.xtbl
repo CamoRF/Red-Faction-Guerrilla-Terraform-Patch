@@ -14,16 +14,16 @@
 			<Close_distance>1.0</Close_distance>
 			<Medium_distance>2.0</Medium_distance>
 			<Far_distance>4.0</Far_distance>
-			<Close_random_size_multiplier>0.25</Close_random_size_multiplier> <!--From 0.2-->
-			<Medium_random_size_multiplier>0.65</Medium_random_size_multiplier> <!--From 0.5-->
-			<Far_random_size_multiplier>1.0</Far_random_size_multiplier> <!--From 0.8-->
-			<Melee_size_multiplier>1.70</Melee_size_multiplier> <!--From 1.5-->
+			<Close_random_size_multiplier>0.25</Close_random_size_multiplier>
+			<Medium_random_size_multiplier>0.65</Medium_random_size_multiplier>
+			<Far_random_size_multiplier>1.0</Far_random_size_multiplier>
+			<Melee_size_multiplier>1.70</Melee_size_multiplier>
 			<Melee_distance_multiplier>2.0</Melee_distance_multiplier>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Decal_probability>1</Decal_probability> <!--From 0.5066667-->
-			<Death_size_multiplier>3.25</Death_size_multiplier> <!--From 2.0-->
+			<Decal_probability>1</Decal_probability>
+			<Death_size_multiplier>3.25</Death_size_multiplier>
 		</Blood_decal_info>
 	</Table>
 	<TableTemplates></TableTemplates>

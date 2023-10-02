@@ -2,6 +2,7 @@
 	<stream2_container_description>
 		<container>effect</container>
 		<container_name>vfx
+			
 			<name>filename</name>
 			<ext>effect</ext>
 		</container_name>
@@ -18,6 +19,7 @@
 		<container_other_type>GSC_CUTSCENE_EFFECTS</container_other_type>
 		<container_multiplayer_type>GSC_MP_EFFECTS</container_multiplayer_type>
 		<container_contents>vfx
+			
 			<name>filename</name>
 			<ext>effect</ext>
 			<bitmap_file_preload_ext>slw3</bitmap_file_preload_ext>
