@@ -3,9 +3,9 @@
 *-------------------*
 
 Author: Camo
-Version: v1.075.2 BETA
-Date: 27-9-2023
-Build: 1031
+Version: v1.0753 HOTFIX
+Date: 6-10-2023
+Build: 1135
 
 -------------------
 v1.00 ALPHA CHANGES
@@ -927,7 +927,7 @@ v1.07.5.2 BETA CHANGES
 * Experimental improvement for removing host migration (online_tweak_table.xtbl)
 
 ------------------------
-v1.07.5.3 HOTFIX CHANGES (Unreleased)
+v1.07.5.3 HOTFIX CHANGES
 ------------------------
 
 [Misc]

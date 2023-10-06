@@ -1,8 +1,8 @@
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/Logo.png?raw=true "Logo")
 
-- Version: v1.07.5.2 BETA
-- Date: 27-9-2023
-- Build: 1031
+- Version: v1.0753 HOTFIX
+- Date: 6-10-2023
+- Build: 1135
 - Work-in-progress project that adds content, fixes bugs, and enhances many features; made for the 2018 remaster of Red Faction Guerrilla.
 - Rebalanced multiplayer, DLC weapons, new maps, new characters, new backpacks and much more!
 - Note: Currently the majority of the patch focuses on multiplayer, there are a few SP changes included but comprehensive changes will come later.
@@ -43,6 +43,7 @@
 - [v1.07.5 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7653)
 - [v1.07.5.1 BETA](https://www.factionfiles.com/ff.php?action=file&id=7696)
 - [v1.07.5.2 BETA](https://www.factionfiles.com/ff.php?action=file&id=7736)
+- [v1.07.5.3 HOTFIX](https://www.factionfiles.com/ff.php?action=file&id=7744)
 
 # Tools Used
 - [RfgUtil](https://github.com/Moneyl/RfgUtil/releases)

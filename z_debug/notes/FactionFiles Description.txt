@@ -1,18 +1,59 @@
-[b]RF:GR Terraform Patch v1.08[/b]
+[b]RF:GR Terraform Patch v1.0753[/b]
 -------------------------------------
 Author: Camo
-Version: v1.08 ALPHA
-Date: X-X-2023
-Build: XXXX
+Version: v1.0753 HOTFIX
+Date: 6-10-2023
+Build: 1135
 
 [b]Description[/b]
 ---------------------
 * Work-in-progress project that adds content, fixes bugs, and enhances many features.
 * Rebalanced multiplayer, DLC weapons, new maps, new characters, new backpacks and much more!
-* Install with [url=https://github.com/Rast1234/SyncFaction/releases/download/v9/SyncFaction.exe]SyncFaction[/url]
+* Install with [url=https://github.com/rfg-modding/SyncFaction/releases]SyncFaction[/url]
 * See [url=https://www.redfactionwiki.com/wiki/RF:G_Game_Night_News]RF:G Game Night News for more detailed instructions and troubleshooting[/url]
 * [url=https://github.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch]Github[/url] 
 * [url=https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/changelog.txt]Changelog[/url]
 * [url=https://github.com/users/CamoRF/projects/3/views/1]Known Issues[/url]
 
-rfgterraform1, 2, 3 etc
+[b]Changelog[/b]
+---------------------
+[Misc]
+* Renamed various maps that didn't reflect their in game name in "mp_levels.xtbl" to ease map development using Nanoforge
+* Reverted changes to "glares.xtbl" since it didn't seem to do anything
+
+[Maps]
+* Added Demolition to Partial Recall & Shipment custom maps
+* Changed ideal players for Gradient to 4-8 from 6-10
+
+[Characters]
+* Added colored names to new MP characters in menu
+* Renamed Lab Lady character to Scientist
+* Renamed Outcast character to Marie (her actual name in the files)
+* Renamed Marauder Lady character to Camie (her actual name in the files)
+
+[Multiplayer]
+* All XP events are now handled by the server host (mp_xp.xtbl)
+* Changed default respawn time to 0 seconds for Siege, Damage Control & Demolition in custom game settings to get around the default min limit of 3 seconds, you can still set it to normal values
+* Changed default respawn time to 3 seconds for Bagman and Team Bagman in case it was causing issues
+* Changed default bag return time to 15 seconds for Bagman and Team Bagman in case it was causing issues
+
+[Fixes]
+* Fixed crash when entering matchmaking
+* Fixed crash when loading SP DLC
+* Fixed duplicate assets in Junkyard custom map
+* Fixed duplicate assets in Shipment custom map
+* Reverted draw distance changes in "lod_properties.xtbl" in case it was causing issues
+* Reverted decal lifetime changes in "decal_info.xtbl" in case it was causing issues
+* Reverted draw distance changes in "vehicle_defaults.xtbl" in case it was causing issues
+* Reverted adding drop shadows in "gameplay_properties.xtbl" in case it was causing issues 
+* Reverted adding drop shadows in "dlc01_gameplay_properties.xtbl" in case it was causing issues
+* Reverted some graphical improvement changes in "tweak_table.xtbl" in case it was causing issues
+* Reverted changes to "effects.xtbl" in case it was causing issues
+* Reverted changes to "time_of_day.xtbl" in case it was causing issues
+* Reverted minimizing ".gtodx" & ".dtodx" (weather/skybox files) in case it was causing issues
+* Reverted various other files to vanilla, including simple formating improvements and minimizing in case it was causing issues
+* Reverted adding comments to ".xtbls" in case it was causing issues
+* Compressed "misc.vpp_pc" in case leaving it uncompressed was causing issues
+* Compressed & condensed "table.vpp_pc" in case leaving it uncompressed was causing issues
+
+rfgterraform4, 2, 3 etc
