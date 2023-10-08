@@ -1,8 +1,7 @@
 <root>
 	<Table>
-<!--START DLC Weapons ADDED-->
 		<MeleeMove>
-			<Name>missilepod_melee</Name>
+			<Name>camo_missilepod_melee</Name>
 			<AttackAnim>melee</AttackAnim>
 			<HitRange>0.5</HitRange>
 			<HitRadius>0.25</HitRadius>
@@ -255,7 +254,6 @@
 				</AnimSet>
 			</MoveDataList>
 		</MeleeMove>
-<!--END-->
 		<MeleeMove>
 			<Name>ar_melee</Name>
 			<AttackAnim>melee</AttackAnim>

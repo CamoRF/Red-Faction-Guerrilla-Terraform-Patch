@@ -1,6 +1,5 @@
 <root>
 	<Table>
-<!--START DLC Vehicles ADDED-->
 		<Chassis>
 			<Name>Mar_stomper</Name>
 			<Mesh_Name>civ_truck1.carx</Mesh_Name>
@@ -9,6 +8,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.8</X>
 						<Y>-2.00</Y>
@@ -27,6 +27,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.8</X>
 						<Y>-2.00</Y>
@@ -45,6 +46,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -81,6 +83,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -99,6 +102,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -117,6 +121,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.8</X>
 						<Y>-2.00</Y>
@@ -135,6 +140,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.8</X>
 						<Y>-2.00</Y>
@@ -162,6 +168,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.5</X>
 						<Y>-1.38</Y>
@@ -180,6 +187,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.5</X>
 						<Y>-1.38</Y>
@@ -198,6 +206,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -234,6 +243,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -252,6 +262,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -270,6 +281,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.5</X>
 						<Y>-1.34</Y>
@@ -288,6 +300,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.5</X>
 						<Y>-1.34</Y>
@@ -307,7 +320,6 @@
 				</Cover_Node>
 			</Cover_Nodes>
 		</Chassis>
-<!--END-->	
 		<Chassis>
 			<Name>EDF_Staffcar_1</Name>
 			<Mesh_Name>edf_staffcar1.carx</Mesh_Name>
@@ -316,6 +328,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.8</X>
 						<Y>-1.38</Y>
@@ -334,6 +347,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.8</X>
 						<Y>-1.38</Y>
@@ -352,6 +366,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -388,6 +403,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -406,6 +422,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -424,6 +441,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.8</X>
 						<Y>-1.34</Y>
@@ -442,6 +460,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.8</X>
 						<Y>-1.34</Y>
@@ -469,6 +488,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.5</X>
 						<Y>-1.38</Y>
@@ -487,6 +507,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.5</X>
 						<Y>-1.38</Y>
@@ -505,6 +526,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -541,6 +563,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -559,6 +582,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -577,6 +601,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.5</X>
 						<Y>-1.34</Y>
@@ -595,6 +620,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.5</X>
 						<Y>-1.34</Y>
@@ -622,6 +648,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.8</X>
 						<Y>-2.00</Y>
@@ -640,6 +667,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.8</X>
 						<Y>-2.00</Y>
@@ -658,6 +686,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -694,6 +723,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -712,6 +742,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -730,6 +761,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.8</X>
 						<Y>-2.00</Y>
@@ -748,6 +780,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.8</X>
 						<Y>-2.00</Y>
@@ -775,6 +808,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.65</X>
 						<Y>-1.38</Y>
@@ -793,6 +827,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.65</X>
 						<Y>-1.38</Y>
@@ -811,6 +846,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -847,6 +883,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -865,6 +902,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -883,6 +921,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.70</X>
 						<Y>-1.34</Y>
@@ -901,6 +940,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.70</X>
 						<Y>-1.34</Y>
@@ -928,6 +968,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-1.4</X>
 						<Y>-2.5</Y>
@@ -946,6 +987,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>1.4</X>
 						<Y>-2.5</Y>
@@ -964,6 +1006,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -1000,6 +1043,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>0</Off_Left>
@@ -1018,6 +1062,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -1036,6 +1081,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-1.4</X>
 						<Y>-2.5</Y>
@@ -1054,6 +1100,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>1.4</X>
 						<Y>-2.5</Y>
@@ -1081,6 +1128,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.8</X>
 						<Y>-1.5</Y>
@@ -1099,6 +1147,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.8</X>
 						<Y>-1.5</Y>
@@ -1117,6 +1166,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -1153,6 +1203,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -1171,6 +1222,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -1189,6 +1241,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.8</X>
 						<Y>-2.00</Y>
@@ -1207,6 +1260,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.8</X>
 						<Y>-2.00</Y>
@@ -1234,6 +1288,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.75</X>
 						<Y>-1.38</Y>
@@ -1252,6 +1307,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.75</X>
 						<Y>-1.38</Y>
@@ -1270,6 +1326,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -1306,6 +1363,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -1324,6 +1382,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -1342,6 +1401,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-.80</X>
 						<Y>-1.34</Y>
@@ -1360,6 +1420,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.80</X>
 						<Y>-1.34</Y>
@@ -1387,6 +1448,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.8</X>
 						<Y>-1.5</Y>
@@ -1405,6 +1467,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.8</X>
 						<Y>-1.5</Y>
@@ -1423,6 +1486,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -1459,6 +1523,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -1477,6 +1542,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -1495,6 +1561,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.8</X>
 						<Y>-1.5</Y>
@@ -1513,6 +1580,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.8</X>
 						<Y>-1.5</Y>
@@ -1540,6 +1608,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-1.4</X>
 						<Y>-2.5</Y>
@@ -1558,6 +1627,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>1.4</X>
 						<Y>-2.5</Y>
@@ -1576,6 +1646,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -1612,6 +1683,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>0</Off_Left>
@@ -1630,6 +1702,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -1648,6 +1721,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-1.1</X>
 						<Y>-2.5</Y>
@@ -1666,6 +1740,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>1.4</X>
 						<Y>-2.5</Y>
@@ -1693,6 +1768,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.4</X>
 						<Y>-1.38</Y>
@@ -1711,6 +1787,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.4</X>
 						<Y>-1.38</Y>
@@ -1729,6 +1806,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -1765,6 +1843,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -1783,6 +1862,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -1801,6 +1881,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.3</X>
 						<Y>-1.34</Y>
@@ -1819,6 +1900,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.3</X>
 						<Y>-1.34</Y>
@@ -1846,6 +1928,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-.6</X>
 						<Y>-1.38</Y>
@@ -1864,6 +1947,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>.6</X>
 						<Y>-1.38</Y>
@@ -1882,6 +1966,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>50</Off_Left>
@@ -1918,6 +2003,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -1936,6 +2022,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>50</Off_Left>
@@ -1954,6 +2041,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.5</X>
 						<Y>-1.34</Y>
@@ -1972,6 +2060,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.5</X>
 						<Y>-1.34</Y>
@@ -1999,6 +2088,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.5</X>
 						<Y>-1.38</Y>
@@ -2017,6 +2107,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.5</X>
 						<Y>-1.38</Y>
@@ -2035,6 +2126,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -2071,6 +2163,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -2089,6 +2182,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -2107,6 +2201,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.5</X>
 						<Y>-1.34</Y>
@@ -2125,6 +2220,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.5</X>
 						<Y>-1.34</Y>
@@ -2152,6 +2248,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>0</Off_Left>
@@ -2170,6 +2267,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -2197,6 +2295,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.65</X>
 						<Y>-1.38</Y>
@@ -2215,6 +2314,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.65</X>
 						<Y>-1.38</Y>
@@ -2233,6 +2333,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -2269,6 +2370,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -2287,6 +2389,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -2305,6 +2408,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-.6</X>
 						<Y>-1.34</Y>
@@ -2323,6 +2427,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>.6</X>
 						<Y>-1.34</Y>
@@ -2350,6 +2455,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -2386,6 +2492,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>0</Off_Left>
@@ -2404,6 +2511,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -2422,6 +2530,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-1.6</X>
 						<Y>-1.38</Y>
@@ -2440,6 +2549,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>1.6</X>
 						<Y>-1.38</Y>
@@ -2467,6 +2577,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -2503,6 +2614,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>0</Off_Left>
@@ -2521,6 +2633,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -2539,6 +2652,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>1.6</X>
 						<Y>-1.74</Y>
@@ -2557,6 +2671,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-1.6</X>
 						<Y>-1.74</Y>
@@ -2575,6 +2690,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-1.6</X>
 						<Y>-1.74</Y>
@@ -2593,6 +2709,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>1.6</X>
 						<Y>-1.74</Y>
@@ -2620,6 +2737,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-1.4</X>
 						<Y>-.97</Y>
@@ -2638,6 +2756,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>1.4</X>
 						<Y>-.97</Y>
@@ -2656,6 +2775,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -2692,6 +2812,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>0</Off_Left>
@@ -2710,6 +2831,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -2728,6 +2850,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-1.4</X>
 						<Y>-1</Y>
@@ -2746,6 +2869,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>1.4</X>
 						<Y>-1</Y>
@@ -2773,6 +2897,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.8</X>
 						<Y>-2.00</Y>
@@ -2791,6 +2916,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.8</X>
 						<Y>-2.00</Y>
@@ -2809,6 +2935,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -2845,6 +2972,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -2863,6 +2991,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -2881,6 +3010,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.9</X>
 						<Y>-2.00</Y>
@@ -2899,6 +3029,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.9</X>
 						<Y>-2.00</Y>
@@ -2926,6 +3057,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>.75</X>
 						<Y>-2</Y>
@@ -2944,6 +3076,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>0</Off_Left>
@@ -2962,6 +3095,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -2980,6 +3114,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-1</X>
 						<Y>-2</Y>
@@ -2998,6 +3133,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>1</X>
 						<Y>-2</Y>
@@ -3025,6 +3161,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-.75</X>
 						<Y>-2.25</Y>
@@ -3043,6 +3180,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>.75</X>
 						<Y>-2.25</Y>
@@ -3061,6 +3199,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -3097,6 +3236,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>0</Off_Left>
@@ -3115,6 +3255,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>45</Off_Left>
@@ -3133,6 +3274,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-.75</X>
 						<Y>-2.25</Y>
@@ -3151,6 +3293,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>.75</X>
 						<Y>-2.25</Y>
@@ -3178,6 +3321,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.5</X>
 						<Y>-1</Y>
@@ -3196,6 +3340,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.5</X>
 						<Y>-1</Y>
@@ -3214,6 +3359,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -3250,6 +3396,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -3268,6 +3415,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -3286,6 +3434,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-.35</X>
 						<Y>-1</Y>
@@ -3304,6 +3453,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>.35</X>
 						<Y>-1</Y>
@@ -3331,6 +3481,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.5</X>
 						<Y>-.5</Y>
@@ -3349,6 +3500,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.5</X>
 						<Y>-.5</Y>
@@ -3367,6 +3519,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -3403,6 +3556,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -3421,6 +3575,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -3439,6 +3594,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-0.5</X>
 						<Y>-.5</Y>
@@ -3457,6 +3613,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>0.5</X>
 						<Y>-.5</Y>
@@ -3484,6 +3641,7 @@
 			</_Editor>
 			<Cover_Nodes>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-.3</X>
 						<Y>-.75</Y>
@@ -3502,6 +3660,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>.3</X>
 						<Y>-.75</Y>
@@ -3520,6 +3679,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -3556,6 +3716,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the right</Orientation>
 					<Node_Info>
 						<Off_Left>10</Off_Left>
@@ -3574,6 +3735,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Orientation>to the left</Orientation>
 					<Node_Info>
 						<Off_Left>60</Off_Left>
@@ -3592,6 +3754,7 @@
 					</Offset>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>-.3</X>
 						<Y>-.75</Y>
@@ -3610,6 +3773,7 @@
 					</Node_Info>
 				</Cover_Node>
 				<Cover_Node>0.0
+					
 					<Offset>
 						<X>.3</X>
 						<Y>-.75</Y>

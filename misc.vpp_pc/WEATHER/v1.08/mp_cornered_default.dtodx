@@ -343,7 +343,7 @@
 	</zenith>
 	<fog_ground>
 		<key>
-			<time>0</time> <!--Added-->
+			<time>0</time>
 			<value>-30.000000</value>
 		</key>
 		<key>
@@ -365,7 +365,7 @@
 	</fog_ground>
 	<fog_atmosphere_scale>
 		<key>
-			<time>0</time> <!--Added-->
+			<time>0</time>
 			<value>0.100000</value>
 		</key>
 		<key>
@@ -387,7 +387,7 @@
 	</fog_atmosphere_scale>
 	<fog_density_new>
 		<key>
-			<time>0</time> <!--Added-->
+			<time>0</time>
 			<value>15.000000</value>
 		</key>
 		<key>
@@ -409,7 +409,7 @@
 	</fog_density_new>
 	<fog_density_offset>
 		<key>
-			<time>0</time> <!--Added-->
+			<time>0</time>
 			<value>0.0</value>
 		</key>
 		<key>
@@ -633,14 +633,12 @@
 			<value>0.539480 0.313989 0.095307 1.000000</value>
 		</key>
 	</particle_tod_light_color>
-	<ldr_min>
-	</ldr_min>
-	<ldr_max>
-	</ldr_max>
+	<ldr_min></ldr_min>
+	<ldr_max></ldr_max>
 	<bloom_exposure>
 		<key>
 			<time>42</time>
-			<value>0.0</value> <!--From 0.760000-->
+			<value>0.0</value>
 		</key>
 	</bloom_exposure>
 	<iris_rate>
@@ -743,62 +741,58 @@
 			<value>1.000000</value>
 		</key>
 	</eye_fade_max>
-	<brightpass_threshold_new>
-	</brightpass_threshold_new>
-	<brightpass_offset_new>
-	</brightpass_offset_new>
+	<brightpass_threshold_new></brightpass_threshold_new>
+	<brightpass_offset_new></brightpass_offset_new>
 	<bloom_amount>
 		<key>
 			<time>0</time>
-			<value>0.0</value> <!--From 0.500000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>4</time>
-			<value>0.0</value> <!--From 0.500000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>45</time>
-			<value>0.0</value> <!--From 0.500000-->
+			<value>0.0</value>
 		</key>
 	</bloom_amount>
 	<bloom_theta>
 		<key>
 			<time>42</time>
-			<value>0.0</value> <!--From 3.000000-->
+			<value>0.0</value>
 		</key>
 	</bloom_theta>
 	<bloom_slope_A>
 		<key>
 			<time>0</time>
-			<value>0.0</value> <!--From 0.007000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>18</time>
-			<value>0.0</value> <!--From 0.007000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.0</value> <!--From 0.007000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>42</time>
-			<value>0.0</value> <!--From 0.010000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>45</time>
-			<value>0.0</value> <!--From 0.007000-->
+			<value>0.0</value>
 		</key>
 	</bloom_slope_A>
 	<bloom_slope_B>
 		<key>
 			<time>42</time>
-			<value>0.0</value> <!--From 0.500000-->
+			<value>0.0</value>
 		</key>
 	</bloom_slope_B>
-	<tonemap_lum_range>
-	</tonemap_lum_range>
-	<tonemap_lum_offset>
-	</tonemap_lum_offset>
+	<tonemap_lum_range></tonemap_lum_range>
+	<tonemap_lum_offset></tonemap_lum_offset>
 	<fog_camera_min>
 		<key>
 			<time>5</time>
@@ -815,14 +809,10 @@
 			<value>3.000000</value>
 		</key>
 	</fog_camera_max>
-	<fog_skybox_offset>
-	</fog_skybox_offset>
-	<fog_skybox_scale>
-	</fog_skybox_scale>
-	<fog_clouds_offset>
-	</fog_clouds_offset>
-	<fog_clouds_scale>
-	</fog_clouds_scale>
+	<fog_skybox_offset></fog_skybox_offset>
+	<fog_skybox_scale></fog_skybox_scale>
+	<fog_clouds_offset></fog_clouds_offset>
+	<fog_clouds_scale></fog_clouds_scale>
 	<fog_matte_offset>
 		<key>
 			<time>16</time>
@@ -837,8 +827,7 @@
 			<value>-50.000000</value>
 		</key>
 	</fog_matte_offset>
-	<fog_matte_scale>
-	</fog_matte_scale>
+	<fog_matte_scale></fog_matte_scale>
 	<color_correct_saturation>
 		<key>
 			<time>24</time>
@@ -1498,27 +1487,27 @@
 	<cloud_layer01_speed>
 		<key>
 			<time>0</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>4</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>16</time>
-			<value>0.125000</value> <!--From 0.25-->
+			<value>0.125000</value>
 		</key>
 		<key>
 			<time>17</time>
-			<value>0.125000</value> <!--From 0.25-->
+			<value>0.125000</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.125000</value> <!--From 0.25-->
+			<value>0.125000</value>
 		</key>
 		<key>
 			<time>45</time>
-			<value>0.200000</value> <!--From 0.2-->
+			<value>0.200000</value>
 		</key>
 	</cloud_layer01_speed>
 	<cloud_layer23_speed>
@@ -1532,15 +1521,15 @@
 		</key>
 		<key>
 			<time>16</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>17</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>45</time>

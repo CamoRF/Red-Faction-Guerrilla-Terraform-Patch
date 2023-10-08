@@ -1,6 +1,5 @@
 <root>
 	<Table>
-<!--START Added-->
 		<Camera_Shake>
 			<Name>camo_weapon_fire_repair</Name>
 			<Wobble>
@@ -78,7 +77,7 @@
 					<Oscillation2>0.0</Oscillation2>
 				</Strength_Element>
 				<Strength_Element>
-					<Time>0.175</Time> From 0.35
+					<Time>0.175</Time>
 					<Wobble>0.0</Wobble>
 					<Destable>0.0</Destable>
 					<Direct>0.0</Direct>
@@ -214,8 +213,7 @@
 				<Roll>0.0</Roll>
 				<Frequency>0.05</Frequency>
 			</Oscillation2>
-		</Camera_Shake>	
-<!--END-->
+		</Camera_Shake>
 		<Camera_Shake>
 			<Name>backpack_kaboom_ramp</Name>
 			<Wobble>

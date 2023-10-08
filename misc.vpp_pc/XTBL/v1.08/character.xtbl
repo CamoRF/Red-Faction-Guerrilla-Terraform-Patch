@@ -1,6 +1,5 @@
 <root>
 	<Table>
-<!--START New Characters Added-->
 		<Character>
 			<Team>Guerilla</Team>
 			<Name>mason</Name>
@@ -188,7 +187,7 @@
 					<Item_Slot>-1</Item_Slot>
 				</Item>
 			</Inventory>
-			<Sex>female</Sex> From male
+			<Sex>female</Sex>
 			<max_hit_points>550</max_hit_points>
 			<knock_down_hits>30</knock_down_hits>
 			<max_speed>5</max_speed>
@@ -281,7 +280,7 @@
 							<Chance>0</Chance>
 						</Item>
 					</Items>
-				</Prop>				
+				</Prop>
 			</Props>
 			<Flags></Flags>
 			<AimErrorPct>100</AimErrorPct>
@@ -320,7 +319,7 @@
 				<Persona>MSM03</Persona>
 				<Persona>MSM04</Persona>
 				<Persona>MSM05</Persona>
-				<Persona>MSM06</Persona>				
+				<Persona>MSM06</Persona>
 			</Personas>
 			<Height>1.0</Height>
 			<Variation>0.0</Variation>
@@ -571,14 +570,13 @@
 							<Chance>0</Chance>
 						</Item>
 					</Items>
-				</Prop>				
+				</Prop>
 			</Props>
 			<Flags></Flags>
 			<AimErrorPct>100</AimErrorPct>
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Special</origin_district>
 		</Character>
-<!--END-->
 		<Character>
 			<Name>MP_Selma</Name>
 			<Model>

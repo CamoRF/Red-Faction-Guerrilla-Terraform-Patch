@@ -1,6 +1,5 @@
 <root>
 	<Table>
-<!--START DLC Vehicles ADDED-->
 		<Vehicle>
 			<Name>Mar_chomper</Name>
 			<_Editor>
@@ -56,6 +55,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>7000</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
@@ -215,6 +215,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>7000</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
@@ -390,6 +391,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>7000</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
@@ -565,6 +567,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>7000</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>10</Diff_Gear_Ratio>
@@ -742,6 +745,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -955,8 +959,7 @@
 			<Collision_Damage_Scale>1</Collision_Damage_Scale>
 			<Vehicle_Damage_Scale>1</Vehicle_Damage_Scale>
 			<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
-		</Vehicle>		
-<!--END-->
+		</Vehicle>
 		<Vehicle>
 			<Name>MarsRover1</Name>
 			<_Editor>
@@ -1112,6 +1115,7 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -1282,6 +1286,7 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -1451,6 +1456,7 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -1620,6 +1626,7 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -1790,6 +1797,7 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -1959,6 +1967,7 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -2128,6 +2137,7 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -2297,6 +2307,7 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -2466,6 +2477,7 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -2635,6 +2647,7 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -2804,6 +2817,7 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -2973,6 +2987,7 @@
 					<Element>1.5</Element>
 				</Gear_Ratios>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 				</Upshift_RPMs>
 				<Reverse_Gear_Ratio>3.0</Reverse_Gear_Ratio>
@@ -3218,6 +3233,7 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -3388,6 +3404,7 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -3558,6 +3575,7 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -3728,6 +3746,7 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -3898,6 +3917,7 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -4068,6 +4088,7 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -4238,6 +4259,7 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -4408,6 +4430,7 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -4578,6 +4601,7 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -4748,6 +4772,7 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -4918,6 +4943,7 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -5358,6 +5384,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -5488,6 +5515,7 @@
 					<Element>2000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -5708,6 +5736,7 @@
 					<Element>1800</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 					<Element>3000</Element>
@@ -6040,6 +6069,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -6200,6 +6230,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>6</Diff_Gear_Ratio>
@@ -6359,6 +6390,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>4500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -6511,6 +6543,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>4500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -6664,6 +6697,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>4500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -6817,6 +6851,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>4500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -6972,6 +7007,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>4000</Element>
 					<Element>4000</Element>
 				</Upshift_RPMs>
@@ -7128,6 +7164,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>4000</Element>
 					<Element>4000</Element>
 				</Upshift_RPMs>
@@ -7284,6 +7321,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>4000</Element>
 					<Element>4000</Element>
 				</Upshift_RPMs>
@@ -7440,6 +7478,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>4000</Element>
 					<Element>4000</Element>
 				</Upshift_RPMs>
@@ -7598,6 +7637,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>4000</Element>
 					<Element>4000</Element>
 				</Upshift_RPMs>
@@ -7756,6 +7796,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>4000</Element>
 					<Element>4000</Element>
 				</Upshift_RPMs>
@@ -7951,6 +7992,7 @@
 					<Element>3000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -8049,6 +8091,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -8258,6 +8301,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>7000</Element>
 					<Element>7000</Element>
 				</Upshift_RPMs>
@@ -8419,6 +8463,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>7000</Element>
 					<Element>7000</Element>
 				</Upshift_RPMs>
@@ -8580,6 +8625,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>7000</Element>
 					<Element>7000</Element>
 				</Upshift_RPMs>
@@ -8741,6 +8787,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>7000</Element>
 					<Element>7000</Element>
 				</Upshift_RPMs>
@@ -8910,6 +8957,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>7000</Element>
 					<Element>7000</Element>
 				</Upshift_RPMs>
@@ -9079,6 +9127,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>7000</Element>
 					<Element>7000</Element>
 				</Upshift_RPMs>
@@ -9248,6 +9297,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -9406,6 +9456,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -9564,6 +9615,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -9722,6 +9774,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -9895,6 +9948,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -10068,6 +10122,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5500</Element>
 					<Element>5500</Element>
 				</Upshift_RPMs>
@@ -10241,6 +10296,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -10399,6 +10455,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -10557,6 +10614,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -10715,6 +10773,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -10888,6 +10947,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -11061,6 +11121,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -11234,6 +11295,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -11407,6 +11469,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -11580,6 +11643,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -11753,6 +11817,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -11926,6 +11991,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -12099,6 +12165,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -12272,6 +12339,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -12428,6 +12496,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Diff_Gear_Ratio>7</Diff_Gear_Ratio>
@@ -12589,6 +12658,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -12791,6 +12861,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -12965,6 +13036,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -13146,6 +13218,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -13320,6 +13393,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -13494,6 +13568,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -13668,6 +13743,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -13879,6 +13955,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 					<Element>3000</Element>
@@ -14781,6 +14858,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -14955,6 +15033,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 				</Upshift_RPMs>
 				<Clutch_Delay>.25</Clutch_Delay>
@@ -15162,6 +15241,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -15503,6 +15583,7 @@
 					<Element>3700</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>7500</Element>
 					<Element>7500</Element>
 				</Upshift_RPMs>
@@ -15797,6 +15878,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -15946,6 +16028,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -16867,6 +16950,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -17033,6 +17117,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -17199,6 +17284,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -17365,6 +17451,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -17531,6 +17618,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -17697,6 +17785,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -17863,6 +17952,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18029,6 +18119,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18197,6 +18288,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18355,6 +18447,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18513,6 +18606,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18671,6 +18765,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>500</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18829,6 +18924,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>500</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -18978,6 +19074,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -19141,6 +19238,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -19304,6 +19402,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -19636,6 +19735,7 @@
 					<Element>1300</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -19812,6 +19912,7 @@
 					<Element>1300</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -19988,6 +20089,7 @@
 					<Element>1300</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -20158,6 +20260,7 @@
 					<Element>1300</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -20318,6 +20421,7 @@
 					<Element>1300</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -20474,6 +20578,7 @@
 					<Element>1300</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>3000</Element>
 					<Element>3000</Element>
 				</Upshift_RPMs>
@@ -20614,6 +20719,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -20778,6 +20884,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -20942,6 +21049,7 @@
 					<Element>2500</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -21075,6 +21183,7 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>1001</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
+					
 					<Element>5000</Element>
 					<Element>5000</Element>
 					<Element>5000</Element>

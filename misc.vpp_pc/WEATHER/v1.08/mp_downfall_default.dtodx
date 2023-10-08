@@ -332,73 +332,73 @@
 	<fog_ground>
 		<key>
 			<time>18</time>
-			<value>-282.2699965</value> <!--From -132.539993-->
+			<value>-282.2699965</value>
 		</key>
 		<key>
 			<time>23</time>
-			<value>-282.2699965</value> <!--From -125.xx-->
+			<value>-282.2699965</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>-282.2699965</value> <!--From -131.xx-->
+			<value>-282.2699965</value>
 		</key>
 		<key>
 			<time>32</time>
-			<value>-282.2699965</value> <!--From -141.xx-->
+			<value>-282.2699965</value>
 		</key>
 	</fog_ground>
 	<fog_atmosphere_scale>
 		<key>
 			<time>18</time>
-			<value>0.0100000</value> <!--From 0.022000-->
+			<value>0.0100000</value>
 		</key>
 		<key>
 			<time>23</time>
-			<value>0.0100000</value> <!--From 0.022000-->
+			<value>0.0100000</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.0185000</value> <!--From 0.057000-->
+			<value>0.0185000</value>
 		</key>
 	</fog_atmosphere_scale>
 	<fog_density_new>
 		<key>
 			<time>18</time>
-			<value>0.1000000</value> <!--From 0.250000-->
+			<value>0.1000000</value>
 		</key>
 		<key>
 			<time>23</time>
-			<value>0.0500000</value> <!--From 0.120000-->
+			<value>0.0500000</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>5.5000000</value> <!--From 15.0xx-->
+			<value>5.5000000</value>
 		</key>
 	</fog_density_new>
 	<fog_density_offset>
 		<key>
 			<time>4</time>
-			<value>0.015000</value> <!--From 0.050xx-->
+			<value>0.015000</value>
 		</key>
 		<key>
 			<time>12</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>18</time>
-			<value>0.040000</value> <!--From 0.1-->
+			<value>0.040000</value>
 		</key>
 		<key>
 			<time>23</time>
-			<value>0.040000</value> <!--From 0.1-->
+			<value>0.040000</value>
 		</key>
 		<key>
 			<time>42</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>45</time>
-			<value>0.015000</value> <!--From 0.05-->
+			<value>0.015000</value>
 		</key>
 	</fog_density_offset>
 	<fog_color>
@@ -608,27 +608,27 @@
 	<bloom_exposure>
 		<key>
 			<time>0</time>
-			<value>0.000000</value> <!--From 0.760000-->
+			<value>0.000000</value>
 		</key>
 		<key>
 			<time>4</time>
-			<value>0.000000</value> <!--From 0.760000-->
+			<value>0.000000</value>
 		</key>
 		<key>
 			<time>15</time>
-			<value>0.000000</value> <!--From 0.6xx-->
+			<value>0.000000</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.000000</value> <!--From 0.6xx-->
+			<value>0.000000</value>
 		</key>
 		<key>
 			<time>36</time>
-			<value>0.000000</value> <!--From 0.6xx-->
+			<value>0.000000</value>
 		</key>
 		<key>
 			<time>45</time>
-			<value>0.000000</value> <!--From 0.76xx-->
+			<value>0.000000</value>
 		</key>
 	</bloom_exposure>
 	<iris_rate>
@@ -751,34 +751,32 @@
 			<value>1.000000</value>
 		</key>
 	</eye_fade_max>
-	<brightpass_threshold_new>
-	</brightpass_threshold_new>
-	<brightpass_offset_new>
-	</brightpass_offset_new>
+	<brightpass_threshold_new></brightpass_threshold_new>
+	<brightpass_offset_new></brightpass_offset_new>
 	<bloom_amount>
 		<key>
 			<time>0</time>
-			<value>0.000000</value> <!--From 0.500000-->
+			<value>0.000000</value>
 		</key>
 		<key>
 			<time>4</time>
-			<value>0.000000</value> <!--From 0.500000-->
+			<value>0.000000</value>
 		</key>
 		<key>
 			<time>15</time>
-			<value>0.000000</value> <!--From 1.500000-->
+			<value>0.000000</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.000000</value> <!--From 1.500000-->
+			<value>0.000000</value>
 		</key>
 		<key>
 			<time>36</time>
-			<value>0.000000</value> <!--From 1.500000-->
+			<value>0.000000</value>
 		</key>
 		<key>
 			<time>45</time>
-			<value>0.000000</value> <!--From 0.500000-->
+			<value>0.000000</value>
 		</key>
 	</bloom_amount>
 	<bloom_theta>
@@ -855,16 +853,11 @@
 			<value>0.500000</value>
 		</key>
 	</bloom_slope_B>
-	<tonemap_lum_range>
-	</tonemap_lum_range>
-	<tonemap_lum_offset>
-	</tonemap_lum_offset>
-	<fog_camera_min>
-	</fog_camera_min>
-	<fog_camera_max>
-	</fog_camera_max>
-	<fog_skybox_offset>
-	</fog_skybox_offset>
+	<tonemap_lum_range></tonemap_lum_range>
+	<tonemap_lum_offset></tonemap_lum_offset>
+	<fog_camera_min></fog_camera_min>
+	<fog_camera_max></fog_camera_max>
+	<fog_skybox_offset></fog_skybox_offset>
 	<fog_skybox_scale>
 		<key>
 			<time>8</time>
@@ -887,8 +880,7 @@
 			<value>200.000000</value>
 		</key>
 	</fog_clouds_scale>
-	<fog_matte_offset>
-	</fog_matte_offset>
+	<fog_matte_offset></fog_matte_offset>
 	<fog_matte_scale>
 		<key>
 			<time>24</time>
@@ -1382,27 +1374,27 @@
 	<cloud_layer01_speed>
 		<key>
 			<time>0</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>4</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>15</time>
-			<value>0.125000</value> <!--From 0.25-->
+			<value>0.125000</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.125000</value> <!--From 0.25-->
+			<value>0.125000</value>
 		</key>
 		<key>
 			<time>36</time>
-			<value>0.125000</value> <!--From 0.25-->
+			<value>0.125000</value>
 		</key>
 		<key>
 			<time>45</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 	</cloud_layer01_speed>
 	<cloud_layer23_speed>
@@ -1416,15 +1408,15 @@
 		</key>
 		<key>
 			<time>15</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>36</time>
-			<value>0.100000</value> <!--From 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>45</time>

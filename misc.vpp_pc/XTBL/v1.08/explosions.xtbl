@@ -1,29 +1,27 @@
 <root>
 	<Table>
-<!--NOTE: current highest <Unique_ID>122</Unique_ID>-->
-<!--START Grenade ADDED-->
 		<Explosion>
 			<Name>mp_grenade</Name>
-			<Radius>6.75</Radius> <!--From 7.75 in v1.07.3.1 From 6.2 in 1.07.2-->
+			<Radius>6.75</Radius>
 			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>900</vehicle_damage_max>
 			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>15000</Impulse> <!--From 16250 in v1.07.4 From 25000 in v1.07.3.1 From 20000 in v1.07.2-->
+			<Impulse>15000</Impulse>
 			<Effects>
 				<Element>wep_edf_grenade_exp_a</Element>
 			</Effects>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<CrumbleRadius>2.0</CrumbleRadius> <!--From 2.5 in v1.07.4 From 4.375 in v1.07.3.1 From 3.5 in v1.07.2-->
-			<KnockdownRadius>5.0</KnockdownRadius> <!--From 4.0 in v1.07.2-->
-			<FlinchRadius>6.25</FlinchRadius> <!--From 5.0 in v1.07.2-->
+			<CrumbleRadius>2.0</CrumbleRadius>
+			<KnockdownRadius>5.0</KnockdownRadius>
+			<FlinchRadius>6.25</FlinchRadius>
 			<player_mult>0.8</player_mult>
 			<MaxSalvagePieces>0</MaxSalvagePieces>
 			<SalvageProbability>0</SalvageProbability>
 			<human_damage_min>300</human_damage_min>
 			<Human_Damage_Max>750</Human_Damage_Max>
-			<Structural_Damage>23000</Structural_Damage> <!--From -1-->
+			<Structural_Damage>23000</Structural_Damage>
 			<Unique_ID>122</Unique_ID>
 			<camera_shake_type>explosion_small</camera_shake_type>
 			<Flags>
@@ -36,8 +34,6 @@
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
-<!--END-->
-<!--START DLC Explosions Added-->
 		<Explosion>
 			<Name>camo_DLC_missilepod</Name>
 			<Radius>2.0</Radius>
@@ -77,24 +73,22 @@
 			<Flags>
 				<Flag>no gibs</Flag>
 			</Flags>
-		</Explosion>	
-<!--END-->
-<!--START New Explosions Added-->
+		</Explosion>
 		<Explosion>
 			<Name>mp_kaboom</Name>
-			<Radius>7.2</Radius> From 5
-			<CrumbleRadius>4.2</CrumbleRadius> From 2
+			<Radius>7.2</Radius>
+			<CrumbleRadius>4.2</CrumbleRadius>
 			<AI_Sound_Radius>200</AI_Sound_Radius>
 			<vehicle_damage_max>700</vehicle_damage_max>
 			<vehicle_damage_min>300</vehicle_damage_min>
 			<Impulse>22000</Impulse>
 			<Effects>
-				<Element>wep_thermo_rpg_exp</Element> From mp_kaboom_pack_exp_a
+				<Element>wep_thermo_rpg_exp</Element>
 			</Effects>
 			<_Editor>
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
-			<KnockdownRadius>9.2</KnockdownRadius> From 7
+			<KnockdownRadius>9.2</KnockdownRadius>
 			<FlinchRadius>22</FlinchRadius>
 			<Duration>250</Duration>
 			<Delay>0</Delay>
@@ -110,7 +104,6 @@
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
-<!--END-->
 		<Explosion>
 			<Name>grenade_exp</Name>
 			<Radius>1.5</Radius>
@@ -144,7 +137,7 @@
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>		
+		</Explosion>
 		<Explosion>
 			<Name>mp_shockwave_blast</Name>
 			<Radius>2.5</Radius>
@@ -248,7 +241,7 @@
 			<Flags>
 				<Flag>nano dissolve</Flag>
 			</Flags>
-		</Explosion>		
+		</Explosion>
 		<Explosion>
 			<Name>rocket</Name>
 			<Radius>3.65</Radius>
@@ -2539,7 +2532,7 @@
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>		
+		</Explosion>
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
@@ -2567,7 +2560,7 @@
 			<Name>Flags</Name>
 			<Type>Flags</Type>
 			<Required>false</Required>
-			<Flag>incendiary</Flag> 			
+			<Flag>incendiary</Flag>
 			<Flag>weaken</Flag>
 			<Flag>no gibs</Flag>
 			<Flag>ignore projectiles</Flag>

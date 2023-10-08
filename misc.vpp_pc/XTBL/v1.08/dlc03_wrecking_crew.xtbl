@@ -4,13 +4,13 @@
 			<Name>Wrecking Crew values</Name>
 			<maps>
 				<map>
-					<file_name>vanilla_wcdlc1</file_name> <!--From wcdlc1-->
+					<file_name>vanilla_wcdlc1</file_name>
 					<display_name>MENU_LEVEL_DLC_WC1</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 01</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 01</games_played_rampage_stat>
-					<time_of_day>17:30</time_of_day> <!--From 13:00-->
+					<time_of_day>17:30</time_of_day>
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 01</games_played_total_chaos_stat>
 					<image_name>mp_thumb_wcdlc1</image_name>
 					<Load_image>dlc03wc1</Load_image>
@@ -18,7 +18,7 @@
 					<Challenge_Set>wcdlc1_ruins</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc2</file_name> <!--From wcdlc2-->
+					<file_name>vanilla_wcdlc2</file_name>
 					<display_name>MENU_LEVEL_DLC_WC2</display_name>
 					<image_name>mp_thumb_wcdlc2</image_name>
 					<Load_image>dlc03wc2</Load_image>
@@ -32,11 +32,11 @@
 					<Challenge_Set>wcdlc2_repercussion</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc3</file_name> <!--From wcdlc3-->
+					<file_name>vanilla_wcdlc3</file_name>
 					<display_name>MENU_LEVEL_DLC_WC3</display_name>
 					<image_name>mp_thumb_wcdlc3</image_name>
 					<Load_image>dlc03wc3</Load_image>
-					<time_of_day>12:00</time_of_day> <!--From 09:00-->
+					<time_of_day>12:00</time_of_day>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 01</games_played_mayhem_stat>
@@ -46,7 +46,7 @@
 					<Challenge_Set>wcdlc3_imperial</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc4</file_name> <!--From wcdlc4-->
+					<file_name>vanilla_wcdlc4</file_name>
 					<display_name>MENU_LEVEL_DLC_WC4</display_name>
 					<image_name>mp_thumb_wcdlc4</image_name>
 					<Load_image>dlc03wc4</Load_image>
@@ -60,11 +60,11 @@
 					<Challenge_Set>wcdlc4_expansion</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc5</file_name> <!--From wcdlc5-->
+					<file_name>vanilla_wcdlc5</file_name>
 					<display_name>MENU_LEVEL_DLC_WC5</display_name>
 					<image_name>mp_thumb_wcdlc5</image_name>
 					<Load_image>dlc03wc5</Load_image>
-					<time_of_day>11:00</time_of_day> <!--From 11:30-->
+					<time_of_day>11:00</time_of_day>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 01</games_played_mayhem_stat>
@@ -74,7 +74,7 @@
 					<Challenge_Set>wcdlc5_frost</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc6</file_name> <!--From wcdlc6-->
+					<file_name>vanilla_wcdlc6</file_name>
 					<display_name>MENU_LEVEL_DLC_WC6</display_name>
 					<image_name>mp_thumb_wcdlc6</image_name>
 					<Load_image>dlc03wc6</Load_image>
@@ -88,11 +88,11 @@
 					<Challenge_Set>wcdlc6_abandoned</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc7</file_name> <!--From wcdlc7-->
+					<file_name>vanilla_wcdlc7</file_name>
 					<display_name>MENU_LEVEL_STRATOSPHERE</display_name>
 					<image_name>mp_thumb_wcdlc7</image_name>
 					<Load_image>dlc03wc7</Load_image>
-					<time_of_day>14:00</time_of_day> <!--From 10:30-->
+					<time_of_day>14:00</time_of_day>
 					<Challenge_Set>wcdlc7_stratosphere</Challenge_Set>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
@@ -102,11 +102,11 @@
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 01</games_played_walker_stat>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc8</file_name> <!--From wcdlc8-->
+					<file_name>vanilla_wcdlc8</file_name>
 					<display_name>MENU_LEVEL_INVASION</display_name>
 					<image_name>mp_thumb_wcdlc8</image_name>
 					<Load_image>dlc03wc8</Load_image>
-					<time_of_day>00:00</time_of_day> <!--From 23:30-->
+					<time_of_day>00:00</time_of_day>
 					<Challenge_Set>wcdlc8_invasion</Challenge_Set>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
@@ -116,7 +116,7 @@
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 01</games_played_walker_stat>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc9</file_name> <!--From wcdlc9-->
+					<file_name>vanilla_wcdlc9</file_name>
 					<display_name>MENU_LEVEL_NORDICSPECIAL</display_name>
 					<image_name>mp_thumb_wcdlc9</image_name>
 					<Load_image>dlc03wc9</Load_image>
@@ -165,59 +165,59 @@
 			<unlock_behemoth>True</unlock_behemoth>
 			<locked_walker_starts>
 				<locked_start>
-					<map>vanilla_wc1</map> <!--From wc1-->
+					<map>vanilla_wc1</map>
 					<spawn_index>5</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc4</map> <!--From wc4-->
+					<map>vanilla_wc4</map>
 					<spawn_index>2</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc4</map> <!--From wc4-->
+					<map>vanilla_wc4</map>
 					<spawn_index>4</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc4</map> <!--From wc4-->
+					<map>vanilla_wc4</map>
 					<spawn_index>7</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc6</map> <!--From wc6-->
+					<map>vanilla_wc6</map>
 					<spawn_index>7</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc8</map> <!--From wc8-->
+					<map>vanilla_wc8</map>
 					<spawn_index>1</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc8</map> <!--From wc8-->
+					<map>vanilla_wc8</map>
 					<spawn_index>2</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc8</map> <!--From wc8-->
+					<map>vanilla_wc8</map>
 					<spawn_index>4</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc8</map> <!--From wc8-->
+					<map>vanilla_wc8</map>
 					<spawn_index>5</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc3</map> <!--From wc3-->
+					<map>vanilla_wc3</map>
 					<spawn_index>1</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc3</map> <!--From wc3-->
+					<map>vanilla_wc3</map>
 					<spawn_index>2</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc5</map> <!--From wc5-->
+					<map>vanilla_wc5</map>
 					<spawn_index>2</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc5</map> <!--From wc5-->
+					<map>vanilla_wc5</map>
 					<spawn_index>3</spawn_index>
 				</locked_start>
 				<locked_start>
-					<map>vanilla_wc5</map> <!--From wc5-->
+					<map>vanilla_wc5</map>
 					<spawn_index>6</spawn_index>
 				</locked_start>
 			</locked_walker_starts>

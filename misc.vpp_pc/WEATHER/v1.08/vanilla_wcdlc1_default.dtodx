@@ -673,10 +673,8 @@
 			<value>0.201556 0.208637 0.274677 1.000000</value>
 		</key>
 	</particle_tod_light_color>
-	<ldr_min>
-	</ldr_min>
-	<ldr_max>
-	</ldr_max>
+	<ldr_min></ldr_min>
+	<ldr_max></ldr_max>
 	<bloom_exposure>
 		<key>
 			<time>16</time>
@@ -687,8 +685,7 @@
 			<value>0.600000</value>
 		</key>
 	</bloom_exposure>
-	<iris_rate>
-	</iris_rate>
+	<iris_rate></iris_rate>
 	<luminance_max>
 		<key>
 			<time>20</time>
@@ -727,14 +724,10 @@
 			<value>0.500000</value>
 		</key>
 	</eye_adaption_amount>
-	<eye_fade_min>
-	</eye_fade_min>
-	<eye_fade_max>
-	</eye_fade_max>
-	<brightpass_threshold_new>
-	</brightpass_threshold_new>
-	<brightpass_offset_new>
-	</brightpass_offset_new>
+	<eye_fade_min></eye_fade_min>
+	<eye_fade_max></eye_fade_max>
+	<brightpass_threshold_new></brightpass_threshold_new>
+	<brightpass_offset_new></brightpass_offset_new>
 	<bloom_amount>
 		<key>
 			<time>0</time>
@@ -799,22 +792,14 @@
 			<value>0.500000</value>
 		</key>
 	</bloom_slope_B>
-	<tonemap_lum_range>
-	</tonemap_lum_range>
-	<tonemap_lum_offset>
-	</tonemap_lum_offset>
-	<fog_camera_min>
-	</fog_camera_min>
-	<fog_camera_max>
-	</fog_camera_max>
-	<fog_skybox_offset>
-	</fog_skybox_offset>
-	<fog_skybox_scale>
-	</fog_skybox_scale>
-	<fog_clouds_offset>
-	</fog_clouds_offset>
-	<fog_clouds_scale>
-	</fog_clouds_scale>
+	<tonemap_lum_range></tonemap_lum_range>
+	<tonemap_lum_offset></tonemap_lum_offset>
+	<fog_camera_min></fog_camera_min>
+	<fog_camera_max></fog_camera_max>
+	<fog_skybox_offset></fog_skybox_offset>
+	<fog_skybox_scale></fog_skybox_scale>
+	<fog_clouds_offset></fog_clouds_offset>
+	<fog_clouds_scale></fog_clouds_scale>
 	<fog_matte_offset>
 		<key>
 			<time>16</time>
@@ -827,8 +812,7 @@
 			<value>160.000000</value>
 		</key>
 	</fog_matte_scale>
-	<color_correct_saturation>
-	</color_correct_saturation>
+	<color_correct_saturation></color_correct_saturation>
 	<color_correct_tint>
 		<key>
 			<time>19</time>

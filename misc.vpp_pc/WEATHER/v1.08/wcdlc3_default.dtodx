@@ -461,14 +461,10 @@
 			<value>0.201556 0.208637 0.274677 1.000000</value>
 		</key>
 	</particle_tod_light_color>
-	<ldr_min>
-	</ldr_min>
-	<ldr_max>
-	</ldr_max>
-	<bloom_exposure>
-	</bloom_exposure>
-	<iris_rate>
-	</iris_rate>
+	<ldr_min></ldr_min>
+	<ldr_max></ldr_max>
+	<bloom_exposure></bloom_exposure>
+	<iris_rate></iris_rate>
 	<luminance_max>
 		<key>
 			<time>20</time>
@@ -547,14 +543,10 @@
 			<value>1.000000</value>
 		</key>
 	</eye_adaption_amount>
-	<eye_fade_min>
-	</eye_fade_min>
-	<eye_fade_max>
-	</eye_fade_max>
-	<brightpass_threshold_new>
-	</brightpass_threshold_new>
-	<brightpass_offset_new>
-	</brightpass_offset_new>
+	<eye_fade_min></eye_fade_min>
+	<eye_fade_max></eye_fade_max>
+	<brightpass_threshold_new></brightpass_threshold_new>
+	<brightpass_offset_new></brightpass_offset_new>
 	<bloom_amount>
 		<key>
 			<time>0</time>
@@ -569,10 +561,8 @@
 			<value>0.000000</value>
 		</key>
 	</bloom_amount>
-	<bloom_theta>
-	</bloom_theta>
-	<bloom_slope_A>
-	</bloom_slope_A>
+	<bloom_theta></bloom_theta>
+	<bloom_slope_A></bloom_slope_A>
 	<bloom_slope_B>
 		<key>
 			<time>0</time>
@@ -587,14 +577,10 @@
 			<value>0.000000</value>
 		</key>
 	</bloom_slope_B>
-	<tonemap_lum_range>
-	</tonemap_lum_range>
-	<tonemap_lum_offset>
-	</tonemap_lum_offset>
-	<fog_camera_min>
-	</fog_camera_min>
-	<fog_camera_max>
-	</fog_camera_max>
+	<tonemap_lum_range></tonemap_lum_range>
+	<tonemap_lum_offset></tonemap_lum_offset>
+	<fog_camera_min></fog_camera_min>
+	<fog_camera_max></fog_camera_max>
 	<fog_skybox_offset>
 		<key>
 			<time>39</time>
@@ -635,8 +621,7 @@
 			<value>50.000000</value>
 		</key>
 	</fog_matte_scale>
-	<color_correct_saturation>
-	</color_correct_saturation>
+	<color_correct_saturation></color_correct_saturation>
 	<color_correct_tint>
 		<key>
 			<time>17</time>
@@ -1098,27 +1083,27 @@
 	<cloud_layer01_speed>
 		<key>
 			<time>0</time>
-			<value>0.100000</value> <!-- Default 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>4</time>
-			<value>0.100000</value> <!-- Default 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>16</time>
-			<value>0.125000</value> <!-- Default 0.25-->
+			<value>0.125000</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.125000</value> <!-- Default 0.25-->
+			<value>0.125000</value>
 		</key>
 		<key>
 			<time>38</time>
-			<value>0.125000</value> <!-- Default 0.25-->
+			<value>0.125000</value>
 		</key>
 		<key>
 			<time>45</time>
-			<value>0.100000</value>  <!-- Default 0.2-->
+			<value>0.100000</value>
 		</key>
 	</cloud_layer01_speed>
 	<cloud_layer23_speed>
@@ -1136,11 +1121,11 @@
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.100000</value>  <!-- Default 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>38</time>
-			<value>0.100000</value>  <!-- Default 0.2-->
+			<value>0.100000</value>
 		</key>
 		<key>
 			<time>45</time>

@@ -12,11 +12,11 @@
 			<Friction>0.8</Friction>
 			<Flags>
 				<Flag>structural</Flag>
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<EffectMaterial>Terrain</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -34,11 +34,11 @@
 			<Brittleness>2.0</Brittleness>
 			<Flags>
 				<Flag>structural</Flag>
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<EffectMaterial>Carbon</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
@@ -57,11 +57,11 @@
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>flammable</Flag>
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<EffectMaterial>Carbon</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -98,11 +98,11 @@
 				<Flag>flammable</Flag>
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->		 
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
@@ -121,12 +121,12 @@
 				<Flag>flammable</Flag>
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
-				<Flag>allow_regrow</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>allow_regrow</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
@@ -145,12 +145,12 @@
 				<Flag>no_material_pickup</Flag>
 				<Flag>flammable</Flag>
 				<Flag>structural</Flag>
-				<Flag>allow_regrow</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>allow_regrow</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
@@ -169,12 +169,12 @@
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
 				<Flag>allow_jitter</Flag>
-				<Flag>allow_regrow</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>allow_regrow</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Density>2000</Density>
 			<Friction>.9</Friction>
@@ -193,12 +193,12 @@
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
 				<Flag>allow_jitter</Flag>
-				<Flag>allow_regrow</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>allow_regrow</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Density>2250</Density>
 			<Friction>0.9</Friction>
@@ -218,12 +218,12 @@
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
 				<Flag>allow_jitter</Flag>
-				<Flag>allow_regrow</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>allow_regrow</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Density>2500</Density>
 			<Friction>0.9</Friction>
@@ -245,12 +245,12 @@
 				<Flag>melee_damage</Flag>
 				<Flag>flammable</Flag>
 				<Flag>electrifiable</Flag>
-				<Flag>crushable</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>crushable</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Brittleness>3.0</Brittleness>
 			<EffectMaterial>Electronics</EffectMaterial>
@@ -269,12 +269,12 @@
 				<Flag>no_material_pickup</Flag>
 				<Flag>bullet_damage</Flag>
 				<Flag>melee_damage</Flag>
-				<Flag>flammable</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>flammable</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Friction>1.0</Friction>
 			<EffectMaterial>Flesh</EffectMaterial>
@@ -295,12 +295,12 @@
 				<Flag>melee_damage</Flag>
 				<Flag>bullet_damage</Flag>
 				<Flag>transparent</Flag>
-				<Flag>crushable</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>crushable</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<LinkStrength>25</LinkStrength>
 			<LevelObjectProperties>RFG_Glass</LevelObjectProperties>
@@ -318,11 +318,11 @@
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Density>1000</Density>
 			<Friction>0.2</Friction>
@@ -357,12 +357,12 @@
 				<Flag>no_material_pickup</Flag>
 				<Flag>flammable</Flag>
 				<Flag>structural</Flag>
-				<Flag>crushable</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>crushable</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<LevelObjectProperties>Default</LevelObjectProperties>
 			<Brittleness>0.25</Brittleness>
@@ -383,12 +383,12 @@
 				<Flag>flammable</Flag>
 				<Flag>bullet_damage</Flag>
 				<Flag>structural</Flag>
-				<Flag>crushable</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>crushable</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<LevelObjectProperties>Default</LevelObjectProperties>
 			<Brittleness>0.5</Brittleness>
@@ -406,10 +406,10 @@
 			<LinkStrength>50</LinkStrength>
 			<Flags>
 				<Flag>bullet_damage</Flag>
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
 			</Flags>
 			<Density>400</Density>
 			<Friction>1</Friction>
@@ -431,12 +431,12 @@
 				<Flag>bullet_damage</Flag>
 				<Flag>structural</Flag>
 				<Flag>electrifiable</Flag>
-				<Flag>allow_regrow</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>allow_regrow</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Brittleness>0.75</Brittleness>
 			<EffectMaterial>Steel</EffectMaterial>
@@ -454,12 +454,12 @@
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>electrifiable</Flag>
-				<Flag>allow_regrow</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>allow_regrow</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Brittleness>0.5</Brittleness>
 			<EffectMaterial>Steel</EffectMaterial>
@@ -477,12 +477,12 @@
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>electrifiable</Flag>
-				<Flag>allow_regrow</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>allow_regrow</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -500,12 +500,12 @@
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>electrifiable</Flag>
-				<Flag>allow_regrow</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>allow_regrow</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -523,12 +523,12 @@
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>electrifiable</Flag>
-				<Flag>allow_regrow</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>allow_regrow</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -545,12 +545,12 @@
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
-				<Flag>allow_regrow</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>allow_regrow</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Density>2500</Density>
 			<Friction>0.8</Friction>
@@ -569,12 +569,12 @@
 			<Flags>
 				<Flag>structural</Flag>
 				<Flag>crushable</Flag>
-				<Flag>allow_regrow</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>allow_regrow</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Density>1750</Density>
 			<Friction>0.8</Friction>
@@ -612,12 +612,12 @@
 				<Flag>crushable</Flag>
 				<Flag>bullet_damage</Flag>
 				<Flag>melee_damage</Flag>
-				<Flag>transparent</Flag>				
-				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
-				<Flag>collide_as_mover</Flag> <!--ADDED-->
-				<Flag>no_auto_delete</Flag> <!--ADDED-->
-				<Flag>no_pickup_delete</Flag> <!--ADDED-->
-				<Flag>use_pickup</Flag> <!--ADDED-->
+				<Flag>transparent</Flag>
+				<Flag>collide_as_cylinder</Flag>
+				<Flag>collide_as_mover</Flag>
+				<Flag>no_auto_delete</Flag>
+				<Flag>no_pickup_delete</Flag>
+				<Flag>use_pickup</Flag>
 			</Flags>
 			<Friction>0.2</Friction>
 			<EffectMaterial>Glass</EffectMaterial>

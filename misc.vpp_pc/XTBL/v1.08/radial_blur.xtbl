@@ -2,43 +2,43 @@
 	<Table>
 		<Radial_blur>
 			<Name>very large</Name>
-			<Strength>0</Strength> <!--From 3.78-->
-			<Duration>0</Duration> <!--From .26-->
-			<Radius>0</Radius> <!--From 2-->
+			<Strength>0</Strength>
+			<Duration>0</Duration>
+			<Radius>0</Radius>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Distance_fade>0</Distance_fade> <!--From 80-->
+			<Distance_fade>0</Distance_fade>
 			<Priority>0</Priority>
 		</Radial_blur>
 		<Radial_blur>
 			<Name>large</Name>
-			<Strength>0</Strength> <!--From 5.6-->
-			<Duration>0</Duration> <!--From .45-->
-			<Radius>0</Radius> <!--From 1-->
+			<Strength>0</Strength>
+			<Duration>0</Duration>
+			<Radius>0</Radius>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Distance_fade>0</Distance_fade> <!--From 36-->
+			<Distance_fade>0</Distance_fade>
 			<Priority>0</Priority>
 		</Radial_blur>
 		<Radial_blur>
 			<Name>small</Name>
-			<Strength>0</Strength> <!--From 5-->
-			<Duration>0</Duration> <!--From .37-->
-			<Radius>0</Radius> <!--From 1.0-->
+			<Strength>0</Strength>
+			<Duration>0</Duration>
+			<Radius>0</Radius>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Distance_fade>0</Distance_fade> <!--From 36-->
+			<Distance_fade>0</Distance_fade>
 			<Priority>0</Priority>
 		</Radial_blur>
 		<Radial_blur>
 			<Name>Quick large</Name>
-			<Strength>0</Strength> <!--From 3.6-->
-			<Duration>0</Duration> <!--From .33-->
-			<Radius>0</Radius> <!--From 1-->
-			<Distance_fade>0</Distance_fade> <!--From 40-->
+			<Strength>0</Strength>
+			<Duration>0</Duration>
+			<Radius>0</Radius>
+			<Distance_fade>0</Distance_fade>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -46,35 +46,35 @@
 		</Radial_blur>
 		<Radial_blur>
 			<Name>EDF_Artillery_Gun</Name>
-			<Strength>0</Strength> <!--From 5-->
-			<Duration>0</Duration> <!--From .18-->
-			<Radius>0</Radius> <!--From 2-->
+			<Strength>0</Strength>
+			<Duration>0</Duration>
+			<Radius>0</Radius>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Distance_fade>0</Distance_fade> <!--From 120-->
+			<Distance_fade>0</Distance_fade>
 			<Priority>0</Priority>
 		</Radial_blur>
 		<Radial_blur>
 			<Name>smaller</Name>
-			<Strength>0</Strength> <!--From 3.5-->
-			<Duration>0</Duration> <!--From .25-->
-			<Radius>0</Radius> <!--From 1.0-->
+			<Strength>0</Strength>
+			<Duration>0</Duration>
+			<Radius>0</Radius>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Distance_fade>0</Distance_fade> <!--From 28-->
+			<Distance_fade>0</Distance_fade>
 			<Priority>0</Priority>
 		</Radial_blur>
 		<Radial_blur>
 			<Name>very large slow</Name>
-			<Strength>0</Strength> <!--From 4.2-->
-			<Duration>0</Duration> <!--From .45-->
-			<Radius>0</Radius> <!--From 2-->
+			<Strength>0</Strength>
+			<Duration>0</Duration>
+			<Radius>0</Radius>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Distance_fade>0</Distance_fade> <!--From 80-->
+			<Distance_fade>0</Distance_fade>
 			<Priority>0</Priority>
 		</Radial_blur>
 	</Table>

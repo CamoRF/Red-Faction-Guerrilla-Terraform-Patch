@@ -1,6 +1,5 @@
 <root>
 	<Table>
-<!--START MP Selectable Flags & Gutter ADDED-->
 		<Inventory_Item>
 			<Name>camo_gutter</Name>
 			<Display_Name>WEAP_GUTTER</Display_Name>
@@ -33,9 +32,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>		
-<!--END-->
-<!--START Grenade ADDED-->
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>camo_grenade</Name>
 			<Display_Name>WEAP_GRENADE</Display_Name>
@@ -47,8 +44,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-<!--END-->
-<!--START DLC Weapons ADDED-->
 		<Inventory_Item>
 			<Name>camo_edf_super_gauss</Name>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
@@ -70,7 +65,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>		
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>camo_missilepod</Name>
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
@@ -92,8 +87,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>		
-<!--END-->
+		</Inventory_Item>
 		<Inventory_Item>
 			<Name>gutter</Name>
 			<Display_Name>WEAP_GUTTER</Display_Name>
@@ -586,46 +580,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-<!--START Unused? Weapons DISABLED-->
-<!--	<Inventory_Item>
-			<Name>rock</Name>
-			<Display_Name>WEAP_ROCK</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>place explosives and blow them up remotly</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-	<Inventory_Item>
-			<Name>crowbar</Name>
-			<Display_Name>WEAP_CROWBAR</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>	
-	<Inventory_Item>
-			<Name>power_item</Name>
-			<Display_Name>WEAP_POWER_ITEM</Display_Name>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<Max_Inventory>1000</Max_Inventory>
-		</Inventory_Item>
-	<Inventory_Item>
-			<Name>metal</Name>
-			<Display_Name>WEAP_METAL</Display_Name>
-			<Max_Inventory>1000</Max_Inventory>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>-->
-<!--END-->	
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

@@ -604,11 +604,11 @@
 	<bloom_exposure>
 		<key>
 			<time>0</time>
-			<value>0.0</value> <!--From 0.760000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>13</time>
-			<value>0.0</value> <!--From 0.600000 for the last 3-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>24</time>
@@ -747,134 +747,122 @@
 			<value>1.000000</value>
 		</key>
 	</eye_fade_max>
-	<brightpass_threshold_new>
-	</brightpass_threshold_new>
-	<brightpass_offset_new>
-	</brightpass_offset_new>
+	<brightpass_threshold_new></brightpass_threshold_new>
+	<brightpass_offset_new></brightpass_offset_new>
 	<bloom_amount>
 		<key>
 			<time>0</time>
-			<value>0.0</value> <!--From 0.500000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>13</time>
-			<value>0.0</value>  <!--From 1.760000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>17</time>
-			<value>0.0</value>  <!--From 2.000000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.0</value>  <!--From 0.500000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>37</time>
-			<value>0.0</value>  <!--From 2.500000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>42</time>
-			<value>0.0</value>  <!--From 1.750000-->
+			<value>0.0</value>
 		</key>
 	</bloom_amount>
 	<bloom_theta>
 		<key>
 			<time>0</time>
-			<value>0.0</value> <!--From 3.000000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>13</time>
-			<value>0.0</value> <!--From 1.859000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>17</time>
-			<value>0.0</value> <!--From 1.200000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.0</value> <!--From 4.000000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>37</time>
-			<value>0.0</value> <!--From 3.000000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>38</time>
-			<value>0.0</value> <!--From 1.200000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>42</time>
-			<value>0.0</value> <!--From 2.444000-->
+			<value>0.0</value>
 		</key>
 	</bloom_theta>
 	<bloom_slope_A>
 		<key>
 			<time>0</time>
-			<value>0.0</value> <!--From 0.007000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>13</time>
-			<value>0.0</value> <!--From 0.019000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>14</time>
-			<value>0.0</value> <!--From 0.020000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.0</value> <!--From -0.010000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>41</time>
-			<value>0.0</value> <!--From 0.020000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>42</time>
-			<value>0.0</value> <!--From 0.018000-->
+			<value>0.0</value>
 		</key>
 	</bloom_slope_A>
 	<bloom_slope_B>
 		<key>
 			<time>0</time>
-			<value>0.0</value> <!--From 0.500000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>13</time>
-			<value>0.0</value> <!--From 0.500000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.0</value> <!--From 0.500000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>37</time>
-			<value>0.0</value> <!--From 0.800000-->
+			<value>0.0</value>
 		</key>
 		<key>
 			<time>42</time>
-			<value>0.0</value>  <!--From 0.650000-->
+			<value>0.0</value>
 		</key>
 	</bloom_slope_B>
-	<tonemap_lum_range>
-	</tonemap_lum_range>
-	<tonemap_lum_offset>
-	</tonemap_lum_offset>
-	<fog_camera_min>
-	</fog_camera_min>
-	<fog_camera_max>
-	</fog_camera_max>
-	<fog_skybox_offset>
-	</fog_skybox_offset>
-	<fog_skybox_scale>
-	</fog_skybox_scale>
-	<fog_clouds_offset>
-	</fog_clouds_offset>
-	<fog_clouds_scale>
-	</fog_clouds_scale>
-	<fog_matte_offset>
-	</fog_matte_offset>
-	<fog_matte_scale>
-	</fog_matte_scale>
+	<tonemap_lum_range></tonemap_lum_range>
+	<tonemap_lum_offset></tonemap_lum_offset>
+	<fog_camera_min></fog_camera_min>
+	<fog_camera_max></fog_camera_max>
+	<fog_skybox_offset></fog_skybox_offset>
+	<fog_skybox_scale></fog_skybox_scale>
+	<fog_clouds_offset></fog_clouds_offset>
+	<fog_clouds_scale></fog_clouds_scale>
+	<fog_matte_offset></fog_matte_offset>
+	<fog_matte_scale></fog_matte_scale>
 	<color_correct_saturation>
 		<key>
 			<time>0</time>

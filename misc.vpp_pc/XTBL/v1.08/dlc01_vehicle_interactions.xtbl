@@ -1,6 +1,5 @@
 <root>
-	<Table>		
-<!--START Base Game Marauder Vehicles ADDED-->
+	<Table>
 		<Vehicle>
 			<Name>Mar_Raider_1</Name>
 			<_Editor>
@@ -523,7 +522,7 @@
 			</Waypoint_transitions>
 			<Anim_Set>Vehicle_Raider</Anim_Set>
 			<Vehicle_Interaction_Flags></Vehicle_Interaction_Flags>
-		</Vehicle>	
+		</Vehicle>
 		<Vehicle>
 			<Name>Mar_Jetter_1</Name>
 			<_Editor>
@@ -699,7 +698,6 @@
 			<Anim_Set>Vehicle_MarJetter</Anim_Set>
 			<Vehicle_Interaction_Flags></Vehicle_Interaction_Flags>
 		</Vehicle>
-<!--END-->
 		<Vehicle>
 			<Name>Mar_chomper</Name>
 			<_Editor>
