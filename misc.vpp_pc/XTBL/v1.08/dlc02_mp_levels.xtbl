@@ -171,6 +171,39 @@
 			<Load_image>Partial Recall</Load_image>
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
 		</mp_level_list>
+		<mp_level_list>
+			<Name>Townhall</Name>
+			<Filename>mp_townhall</Filename> <!--mp_5-->
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>14:00</time_of_day>
+			<distance_multiplier>0.5</distance_multiplier>
+			<level_image_name>mp_thumb_0mp6</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>60.0</wind_intensity>
+			<wind_direction>315.0</wind_direction>
+			<Display_name>MPDCT_WARLORDS_003</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>capture_the_flag</Flag>
+			</mode_flags>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<glow_multiplier>6</glow_multiplier>
+			<alternate_glow_multiplier>2</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>6</ideal_max_players>
+			<Load_image>Townhall</Load_image>
+			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
+		</mp_level_list>	
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
