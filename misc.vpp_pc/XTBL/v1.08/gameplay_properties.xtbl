@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--START ADDED-->
 		<Gameplay>
 			<Name>Invulnerable</Name>
 			<chunk_flags>
@@ -21,6 +22,7 @@
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
 		</Gameplay>
+<!--END-->
 		<Gameplay>
 			<Name>0102apts_a_rd_03</Name>
 			<chunk_flags>

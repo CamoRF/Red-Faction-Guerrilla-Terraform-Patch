@@ -2806,7 +2806,7 @@
 		<Effect>
 			<Name>mp_rack_light_red</Name>
 			<VFX>
-				<Filename>mp_flag_aura_red_a.effectx</Filename>
+				<Filename>mp_flag_aura_red_a.effectx</Filename> <!--FROM mp_rack_light_red.effectx-->
 			</VFX>
 			<Radius>.5</Radius>
 			<_Editor>

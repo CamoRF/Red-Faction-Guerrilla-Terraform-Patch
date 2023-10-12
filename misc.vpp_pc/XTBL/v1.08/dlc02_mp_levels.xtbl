@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--NOTE: DLC MP MAPS MOVED TO mp_levels.xtbl-->		
 		<mp_level_list>
 			<Name>Warehouse</Name>
 			<Filename>mp_warehouse</Filename>

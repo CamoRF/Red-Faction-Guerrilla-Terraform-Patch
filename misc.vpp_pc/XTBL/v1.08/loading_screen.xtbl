@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--START CUSTOM MAP LOADING SCREENS ADDED-->
 		<LoadingScreen>
 			<Name>Warehouse</Name>
 			<BG_image>
@@ -300,6 +301,8 @@
 			<Overlay_prob>0</Overlay_prob>
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
+<!--END-->
+<!--START DLC WRECKING CREW LOADING SCREENS ADDED-->
 		<LoadingScreen>
 			<Name>dlc03wc1</Name>
 			<BG_image>
@@ -426,6 +429,7 @@
 				<Category>MP levels:General</Category>
 			</_Editor>
 		</LoadingScreen>
+<!--END-->
 		<LoadingScreen>
 			<Name>News_EarthDemand</Name>
 			<BG_image>

@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--START DLC VEHICLES ADDED-->
 		<Vehicle>
 			<Name>Mar_chomper</Name>
 			<_Editor>
@@ -960,6 +961,7 @@
 			<Vehicle_Damage_Scale>1</Vehicle_Damage_Scale>
 			<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
 		</Vehicle>
+<!--END-->
 		<Vehicle>
 			<Name>MarsRover1</Name>
 			<_Editor>

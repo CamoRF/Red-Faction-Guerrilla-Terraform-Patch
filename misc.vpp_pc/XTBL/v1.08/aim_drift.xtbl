@@ -1,7 +1,8 @@
 <root>
 	<Table>
+<!--START DLC WEAPONS ADDED-->
 		<Profile>
-			<Name>camo_spiker</Name>
+			<Name>spiker</Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -36,6 +37,7 @@
 				<ReturnFire>40</ReturnFire>
 			</Bonuses>
 		</Profile>
+<!--END-->
 		<Profile>
 			<Name>Default</Name>
 			<_Editor>

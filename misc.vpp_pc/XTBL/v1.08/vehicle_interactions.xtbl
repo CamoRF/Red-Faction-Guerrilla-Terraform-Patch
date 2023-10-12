@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--START DLC VEHICLES ADDED-->
 		<Vehicle>
 			<Name>Mar_stomper</Name>
 			<_Editor>
@@ -1269,6 +1270,7 @@
 			<Anim_Set>Vehicle_MarChomper</Anim_Set>
 			<Vehicle_Interaction_Flags></Vehicle_Interaction_Flags>
 		</Vehicle>
+<!--END-->
 		<Vehicle>
 			<Name>Mar_Raider_1</Name>
 			<_Editor>

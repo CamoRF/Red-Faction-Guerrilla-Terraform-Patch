@@ -1,5 +1,36 @@
 <root>
 	<Table>
+<!--START DLC WEAPONS ADDED SP-->
+		<Upgrade>
+			<Name>spiker</Name>
+			<Type>Weapon</Type>
+			<Levels>
+				<Level>
+					<Cost>0</Cost>
+					<Value>0</Value>
+					<Available>True</Available>
+					<Show_Locked>False</Show_Locked>
+					<Unlock_Action>Unlocked</Unlock_Action>
+					<Also_Unlock_Level>1</Also_Unlock_Level>
+					<Activity_Count>0</Activity_Count>
+				</Level>
+				<Level>
+					<Cost>0</Cost>
+					<Value>1</Value>
+					<Available>True</Available>
+					<Show_Locked>False</Show_Locked>
+					<Unlock_Action>Unlocked</Unlock_Action>
+					<Also_Unlock_Level>2</Also_Unlock_Level>
+					<Activity_Count>0</Activity_Count>
+				</Level>
+			</Levels>
+			<_Editor>
+				<Category>Normal</Category>
+			</_Editor>
+			<Display_Name>UPG_RADIATION_NAME</Display_Name>
+			<Weapon>sp_spiker</Weapon>
+		</Upgrade>
+<!--END-->
 		<Upgrade>
 			<Name>sledgehammer</Name>
 			<Type>Weapon Upgrade</Type>

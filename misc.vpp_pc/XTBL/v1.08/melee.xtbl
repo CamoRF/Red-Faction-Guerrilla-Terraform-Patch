@@ -1,7 +1,8 @@
 <root>
 	<Table>
+<!--START DLC WEAPONS ADDED-->
 		<MeleeMove>
-			<Name>camo_missilepod_melee</Name>
+			<Name>missilepod_melee</Name>
 			<AttackAnim>melee</AttackAnim>
 			<HitRange>0.5</HitRange>
 			<HitRadius>0.25</HitRadius>
@@ -88,6 +89,119 @@
 				</AnimSet>
 			</MoveDataList>
 		</MeleeMove>
+		<MeleeMove>
+			<Name>marauder_charge_melee</Name>
+			<AttackAnim>melee</AttackAnim>
+			<HitRange>0.5</HitRange>
+			<HitRadius>0.4</HitRadius>
+			<ImpactDir>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>1.0</Z>
+			</ImpactDir>
+			<ImpactForce>85</ImpactForce>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Flags>
+				<Flag>continuous damage</Flag>
+			</Flags>
+			<AttackLimb>Right hand</AttackLimb>
+			<DefaultDamage>
+				<NPCDamage>150</NPCDamage>
+				<PlayerDamage>155</PlayerDamage>
+				<OnlineDamage>150</OnlineDamage>
+			</DefaultDamage>
+			<AwayImpulseScale>1.2</AwayImpulseScale>
+			<MoveDataList>
+				<AnimSet>
+					<AnimSetName>Player.xtbl</AnimSetName>
+					<AttackPoint>Right hand</AttackPoint>
+					<HitRange>1.5</HitRange>
+					<HitRadius>0.4</HitRadius>
+					<Damage>
+						<DefaultDamage>450</DefaultDamage>
+						<VehicleDamage>120</VehicleDamage>
+						<StructureDamage>50</StructureDamage>
+					</Damage>
+					<HitDirection>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>1.0</Z>
+					</HitDirection>
+					<Flags>
+						<Flag>structural damage</Flag>
+					</Flags>
+					<ImpactForce>130</ImpactForce>
+					<AwayImpulseScale>1.2</AwayImpulseScale>
+					<AttackAnim>melee</AttackAnim>
+					<CameraShake>melee_impact</CameraShake>
+					<RagdollImpulse>65</RagdollImpulse>
+					<HitHeight>1.4</HitHeight>
+					<SecondaryImpact>
+						<HitRange>1.5</HitRange>
+						<HitHeight>1.4</HitHeight>
+					</SecondaryImpact>
+				</AnimSet>
+			</MoveDataList>
+		</MeleeMove>
+		<MeleeMove>
+			<Name>marauder_charge_punch</Name>
+			<AttackAnim>melee</AttackAnim>
+			<HitRange>0.5</HitRange>
+			<HitRadius>0.4</HitRadius>
+			<ImpactDir>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>1.0</Z>
+			</ImpactDir>
+			<ImpactForce>85</ImpactForce>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Flags>
+				<Flag>continuous damage</Flag>
+			</Flags>
+			<AttackLimb>Right hand</AttackLimb>
+			<DefaultDamage>
+				<NPCDamage>150</NPCDamage>
+				<PlayerDamage>155</PlayerDamage>
+				<OnlineDamage>150</OnlineDamage>
+			</DefaultDamage>
+			<AwayImpulseScale>1.2</AwayImpulseScale>
+			<MoveDataList>
+				<AnimSet>
+					<AnimSetName>Player.xtbl</AnimSetName>
+					<AttackPoint>Right hand</AttackPoint>
+					<HitRange>1.5</HitRange>
+					<HitRadius>0.4</HitRadius>
+					<Damage>
+						<DefaultDamage>450</DefaultDamage>
+						<PlayerDamageFromNPC>320</PlayerDamageFromNPC>
+						<VehicleDamage>150</VehicleDamage>
+						<StructureDamage>60</StructureDamage>
+					</Damage>
+					<HitDirection>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>1.0</Z>
+					</HitDirection>
+					<Flags>
+						<Flag>structural damage</Flag>
+					</Flags>
+					<ImpactForce>130</ImpactForce>
+					<AwayImpulseScale>1.2</AwayImpulseScale>
+					<AttackAnim>melee2</AttackAnim>
+					<CameraShake>melee_impact</CameraShake>
+					<RagdollImpulse>65</RagdollImpulse>
+					<HitHeight>1.4</HitHeight>
+					<SecondaryImpact>
+						<HitRange>1.5</HitRange>
+						<HitHeight>1.4</HitHeight>
+					</SecondaryImpact>
+				</AnimSet>
+			</MoveDataList>
+		</MeleeMove>		
 		<MeleeMove>
 			<Name>sword stand overhead</Name>
 			<AttackAnim>kick civilian</AttackAnim>
@@ -254,6 +368,7 @@
 				</AnimSet>
 			</MoveDataList>
 		</MeleeMove>
+<!--END-->
 		<MeleeMove>
 			<Name>ar_melee</Name>
 			<AttackAnim>melee</AttackAnim>
