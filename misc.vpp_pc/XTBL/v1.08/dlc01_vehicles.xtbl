@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--START BASE GAME MARAUDER VEHICLES ADDED-->
 		<Vehicle>
 			<Name>Mar_Raider_1</Name>
 			<_Editor>
@@ -23,7 +24,6 @@
 					<Element>2000</Element>
 				</Downshift_RPMs>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -225,7 +225,6 @@
 				</Downshift_RPMs>
 				<Clutch_Slip_RPM>505</Clutch_Slip_RPM>
 				<Upshift_RPMs>6500
-					
 					<Element>5000</Element>
 					<Element>5000</Element>
 				</Upshift_RPMs>
@@ -333,6 +332,7 @@
 			</Aerodynamics>
 			<AIEnforcedMaxSpeed>74</AIEnforcedMaxSpeed>
 		</Vehicle>
+<!--END-->
 		<Vehicle>
 			<Name>EDF_ScoutTrans1</Name>
 			<_Editor>

@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--START BASE GAME MARAUDER VEHICLES ADDED-->
 		<Vehicle>
 			<Name>Mar_Raider_1</Name>
 			<_Editor>
@@ -698,6 +699,7 @@
 			<Anim_Set>Vehicle_MarJetter</Anim_Set>
 			<Vehicle_Interaction_Flags></Vehicle_Interaction_Flags>
 		</Vehicle>
+<!--END-->
 		<Vehicle>
 			<Name>Mar_chomper</Name>
 			<_Editor>

@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START DLC CHARACTERS ADDED-->		
+<!--START DLC CHARACTERS ADDED-->
 		<Character>
 			<Name>dlc_sam</Name>
 			<Model>
@@ -21,24 +21,9 @@
 			<Variation>0.0</Variation>
 			<Inventory>
 				<Item>
-					<Item_Name>mar_charge_placer</Item_Name>
-					<Item_Count>1</Item_Count>
-					<Item_Slot>-1</Item_Slot>
-				</Item>
-				<Item>
-					<Item_Name>mar_dlc_sledge</Item_Name>
-					<Item_Count>1</Item_Count>
-					<Item_Slot>3</Item_Slot>
-				</Item>
-				<Item>
-					<Item_Name>spiker</Item_Name>
-					<Item_Count>1</Item_Count>
-					<Item_Slot>1</Item_Slot>
-				</Item>
-				<Item>
 					<Item_Name>shotgun</Item_Name>
 					<Item_Count>1</Item_Count>
-					<Item_Slot>-1</Item_Slot>
+					<Item_Slot>1</Item_Slot>
 				</Item>
 			</Inventory>
 			<Sex>female</Sex>
@@ -572,7 +557,7 @@
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Special</origin_district>
 		</Character>
-<!--END-->		
+<!--END-->
 		<Character>
 			<Name>MP_Selma</Name>
 			<Model>
