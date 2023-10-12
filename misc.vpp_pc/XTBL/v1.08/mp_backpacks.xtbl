@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--NOTE: Current highest <Unique_ID>15</Unique_ID>, max is 15-->
 		<mp_backpacks>
 			<Name>Jetpack</Name>
 			<jetpack>
@@ -484,7 +485,7 @@
 			<pickup_tooltip>backpack_vision</pickup_tooltip>
 		</mp_backpacks>
 		<mp_backpacks>
-			<Name>Commando</Name>
+			<Name>Commando</Name> <!--Firepower-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -593,7 +594,7 @@
 			<pickup_tooltip>backpack_commando</pickup_tooltip>
 		</mp_backpacks>
 		<mp_backpacks>
-			<Name>Shockwave</Name>
+			<Name>Shockwave</Name> <!--Concussion-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -988,7 +989,6 @@
 					<activation_camera_shake>bp_active_quake</activation_camera_shake>
 				</activation_effects>
 				<deactivatable>True
-					
 					<player_deactivatable>False</player_deactivatable>
 				</deactivatable>
 				<uses_fuel>
@@ -1035,6 +1035,7 @@
 			<Unique_ID>9</Unique_ID>
 			<pickup_tooltip>backpack_tremor</pickup_tooltip>
 		</mp_backpacks>
+<!--START Kaboom ADDED-->
 		<mp_backpacks>
 			<Name>Kaboom</Name>
 			<_Editor>
@@ -1129,6 +1130,8 @@
 			</pickup_effects>
 			<Unique_ID>10</Unique_ID>
 		</mp_backpacks>
+<!--END-->
+<!--START OP Backpacks ADDED-->
 		<mp_backpacks>
 			<Name>Jetpack OP</Name>
 			<jetpack>
@@ -1530,6 +1533,8 @@
 			<Unique_ID>14</Unique_ID>
 			<pickup_tooltip>backpack_rhino</pickup_tooltip>
 		</mp_backpacks>
+<!--END-->
+<!--START Repair Backpack ADDED-->
 		<mp_backpacks>
 			<Name>Repair</Name>
 			<_Editor>
@@ -1627,6 +1632,7 @@
 			<Unique_ID>15</Unique_ID>
 			<pickup_tooltip>backpack_tremor</pickup_tooltip>
 		</mp_backpacks>
+<!--END-->
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
@@ -1982,8 +1988,7 @@
 					<Name>health_regen_per_second</Name>
 					<Type>Float</Type>
 					<Display_Name>Health regen (per second)</Display_Name>
-					<Description>The amount of health the carrier should regenerate per second
-Note: This is not a modifier, but a pure amount.</Description>
+					<Description>The amount of health the carrier should regenerate per second Note: This is not a modifier, but a pure amount.</Description>
 					<Default>0.0</Default>
 				</Element>
 				<Element>
@@ -2580,9 +2585,7 @@ Note: This is not a modifier, but a pure amount.</Description>
 						<Name>health_regen_per_second</Name>
 						<Type>Float</Type>
 						<Display_Name>Health regen (per second)</Display_Name>
-						<Description>The amount of health the carrier should regenerate per second
-
-Note: This is not a modifier, but a pure amount.</Description>
+						<Description>The amount of health the carrier should regenerate per second Note: This is not a modifier, but a pure amount.</Description>
 						<Default>0.0</Default>
 					</Element>
 					<Element>

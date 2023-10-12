@@ -5,7 +5,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>0</Unlock_Level>
+			<Unlock_Level>0</Unlock_Level> <!--FROM 5-->
 			<Type>icon</Type>
 		</entry>
 		<entry>
@@ -13,7 +13,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>1</Unlock_Level>
+			<Unlock_Level>1</Unlock_Level> <!--FROM 22-->
 			<Type>icon</Type>
 		</entry>
 		<entry>
@@ -21,7 +21,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>2</Unlock_Level>
+			<Unlock_Level>2</Unlock_Level> <!--FROM 37-->
 			<Type>icon</Type>
 		</entry>
 		<entry>
@@ -29,7 +29,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>3</Unlock_Level>
+			<Unlock_Level>3</Unlock_Level> <!--FROM 44-->
 			<Type>icon</Type>
 		</entry>
 		<entry>
@@ -37,7 +37,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>4</Unlock_Level>
+			<Unlock_Level>4</Unlock_Level> <!--FROM 54-->
 			<Type>icon</Type>
 		</entry>
 		<entry>
@@ -45,7 +45,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>5</Unlock_Level>
+			<Unlock_Level>5</Unlock_Level> <!--FROM 67-->
 			<Type>icon</Type>
 		</entry>
 		<entry>
@@ -53,7 +53,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>6</Unlock_Level>
+			<Unlock_Level>6</Unlock_Level> <!--FROM 78-->
 			<Type>icon</Type>
 		</entry>
 		<entry>
@@ -61,7 +61,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>7</Unlock_Level>
+			<Unlock_Level>7</Unlock_Level> <!--FROM 102-->
 			<Type>icon</Type>
 		</entry>
 		<entry>
@@ -69,7 +69,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>8</Unlock_Level>
+			<Unlock_Level>8</Unlock_Level> <!--FROM 107-->
 			<Type>icon</Type>
 		</entry>
 		<entry>
@@ -77,7 +77,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>9</Unlock_Level>
+			<Unlock_Level>9</Unlock_Level> <!--FROM 118-->
 			<Type>icon</Type>
 		</entry>
 		<entry>
@@ -85,7 +85,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>10</Unlock_Level>
+			<Unlock_Level>10</Unlock_Level> <!--FROM 121-->
 			<Type>icon</Type>
 		</entry>
 		<entry>
@@ -93,7 +93,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>11</Unlock_Level>
+			<Unlock_Level>11</Unlock_Level> <!--FROM 18-->
 			<Type>color</Type>
 		</entry>
 		<entry>
@@ -101,7 +101,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>12</Unlock_Level>
+			<Unlock_Level>12</Unlock_Level> <!--FROM 46-->
 			<Type>color</Type>
 		</entry>
 		<entry>
@@ -109,7 +109,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>13</Unlock_Level>
+			<Unlock_Level>13</Unlock_Level> <!--FROM 46-->
 			<Type>color</Type>
 		</entry>
 		<entry>
@@ -117,7 +117,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>14</Unlock_Level>
+			<Unlock_Level>14</Unlock_Level> <!--FROM 62-->
 			<Type>color</Type>
 		</entry>
 		<entry>
@@ -125,7 +125,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>15</Unlock_Level>
+			<Unlock_Level>15</Unlock_Level> <!--FROM 69-->
 			<Type>color</Type>
 		</entry>
 		<entry>
@@ -133,7 +133,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>16</Unlock_Level>
+			<Unlock_Level>16</Unlock_Level> <!--FROM 86-->
 			<Type>color</Type>
 		</entry>
 		<entry>
@@ -141,7 +141,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>17</Unlock_Level>
+			<Unlock_Level>17</Unlock_Level> <!--FROM 95-->
 			<Type>color</Type>
 		</entry>
 		<entry>
@@ -149,7 +149,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>18</Unlock_Level>
+			<Unlock_Level>18</Unlock_Level> <!--FROM 110-->
 			<Type>color</Type>
 		</entry>
 		<entry>
@@ -157,7 +157,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>19</Unlock_Level>
+			<Unlock_Level>19</Unlock_Level> <!--FROM 116-->
 			<Type>color</Type>
 		</entry>
 		<entry>
@@ -165,9 +165,10 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<Unlock_Level>20</Unlock_Level>
+			<Unlock_Level>20</Unlock_Level> <!--FROM 123-->
 			<Type>color</Type>
 		</entry>
+<!--START RANKS-->
 		<entry>
 			<Name>MENU_UNLOCK_RANK_1</Name>
 			<_Editor>
@@ -256,6 +257,7 @@
 			<Unlock_Level>126</Unlock_Level>
 			<Type>emblem</Type>
 		</entry>
+<!--END-->
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

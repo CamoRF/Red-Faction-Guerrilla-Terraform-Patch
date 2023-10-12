@@ -290,10 +290,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Marauder_kill_taunt_chance</Name>
-			<Value>50</Value> Maybe 75 in gameplay add-on
-			
-			
-			
+			<Value>50</Value> <!--Maybe 75 in gameplay add-on-->
 			<Description>Chance a marauder will do a celebratory taunt/cheer when he kills his target.</Description>
 			<_Editor>
 				<Category>AI:Marauders</Category>
@@ -301,10 +298,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ai_heavy_vehicle_always_cower_chance</Name>
-			<Value>25</Value> Maybe 100 in gameplay add-on
-			
-			
-			
+			<Value>25</Value> <!--Maybe 100 in gameplay add-on-->
 			<Description>Chance that a particular AI will not attempt to dive or evade a hostile heavy vehicle that is going to hit him/her. Overrides Ai_no_fall_back_chance - if this is set, the NPC will not fall back.</Description>
 			<_Editor>
 				<Category>AI:Behavioral Persona</Category>
@@ -312,10 +306,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ai_no_fall_back_chance</Name>
-			<Value>40</Value> Maybe 100 in gameplay add-on
-			
-			
-			
+			<Value>40</Value> <!--Maybe 100 in gameplay add-on-->
 			<Description>Chance that an AI will not fall back when engaging a heavy vehicle, such as a walker or tank.  The NPC will instead stand and engage the enemy vehicle at full auto. Overridded by Ai_heavy_vehicle_always_cower_chance - if that is true,  this will be as well.</Description>
 			<_Editor>
 				<Category>AI:Behavioral Persona</Category>
@@ -411,10 +402,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Civilian_avoid_player_thrown_weapon_dist</Name>
-			<Value>1.0</Value> Maybe 3.0 in gameplay add-on
-			
-			
-			
+			<Value>3.0</Value> <!--Maybe 1.0 in gameplay add-on-->
 			<Description>Distance at which a civilian will panick when the player throws a weapon in his/her vicinity.  Overrides the normal logic, which takes explosion radius into account.</Description>
 			<_Editor>
 				<Category>AI:vs. Player</Category>
@@ -422,40 +410,28 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>max_npcs_attacking_player_green</Name>
-			<Value>2</Value> Maybe 4 in gameplay add-on
-			
-			
-			
+			<Value>2</Value> <!--Maybe 4 in gameplay add-on-->
 			<_Editor>
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>max_npcs_attacking_player_yellow</Name>
-			<Value>2</Value> Maybe 6 in gameplay add-on
-			
-			
-			
+			<Value>2</Value> <!--Maybe 6 in gameplay add-on-->
 			<_Editor>
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>max_npcs_attacking_player_orange</Name>
-			<Value>3</Value> Maybe 8 in gameplay add-on
-			
-			
-			
+			<Value>3</Value> <!--Maybe 8 in gameplay add-on-->
 			<_Editor>
 				<Category>AI:vs. Player</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>max_npcs_attacking_player_red</Name>
-			<Value>4</Value> Maybe 10 in gameplay add-on
-			
-			
-			
+			<Value>4</Value> <!--Maybe 10 in gameplay add-on-->
 			<_Editor>
 				<Category>AI:vs. Player</Category>
 			</_Editor>
@@ -506,10 +482,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Killing_spree_start_period_ms</Name>
-			<Value>7000</Value> Maybe x2 in gameplay add-on
-			
-			
-			
+			<Value>7000</Value> <!--Maybe x2 in gameplay add-on-->
 			<Description>How long the HUD is up after killing spree starts.</Description>
 			<_Editor>
 				<Category>Activities:Killing Spree</Category>
@@ -517,10 +490,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Killing_spree_additional_period_ms</Name>
-			<Value>7000</Value> Maybe x2 in gameplay add-on
-			
-			
-			
+			<Value>7000</Value> <!--Maybe x2 in gameplay add-on-->
 			<Description>Player must get kills no more then this amount of time apart to keep it going.</Description>
 			<_Editor>
 				<Category>Activities:Killing Spree</Category>
@@ -528,7 +498,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Mp_leg_damage_multiplier</Name>
-			<Value>0.75</Value>
+			<Value>0.75</Value> <!--FROM 0.8-->
 			<_Editor>
 				<Category>Multiplayer</Category>
 			</_Editor>
@@ -536,14 +506,14 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ladder_move_speed</Name>
-			<Value>18.0</Value>
+			<Value>18.0</Value> <!--FROM 2.0-->
 			<_Editor>
 				<Category>Movement</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ladder_mp_move_speed</Name>
-			<Value>18.0</Value>
+			<Value>18.0</Value> <!--FROM 4.0-->
 			<_Editor>
 				<Category>Movement</Category>
 			</_Editor>
@@ -647,7 +617,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Mp_respawn_invulnerable_time_ms</Name>
-			<Value>2000</Value>
+			<Value>2000</Value> <!--FROM 5000-->
 			<Description>How long after a player spawns should he be invulnerable for? This is in milliseconds.</Description>
 			<_Editor>
 				<Category>Multiplayer</Category>
@@ -656,7 +626,7 @@
 		<Tweak_Table_Entry>
 			<Name>Aim_assist_slow</Name>
 			<Value>1</Value>
-			<Description>BOOL: Sticky aiming controls slowing down of the reticle when it is moved over an enemy</Description>
+			<Description>BOOL Sticky aiming controls slowing down of the reticle when it is moved over an enemy</Description>
 			<_Editor>
 				<Category>Camera:Aim assist</Category>
 			</_Editor>
@@ -664,7 +634,7 @@
 		<Tweak_Table_Entry>
 			<Name>Aim_assist_steer</Name>
 			<Value>1</Value>
-			<Description>BOOL: Aim rotate controls rotating the camera when an enemy is strafed over</Description>
+			<Description>BOOL Aim rotate controls rotating the camera when an enemy is strafed over</Description>
 			<_Editor>
 				<Category>Camera:Aim assist</Category>
 			</_Editor>
@@ -672,7 +642,7 @@
 		<Tweak_Table_Entry>
 			<Name>Aim_assist_slow_amount</Name>
 			<Value>0.475</Value>
-			<Description>FLOAT: How much to slow down camera movement</Description>
+			<Description>FLOAT How much to slow down camera movement</Description>
 			<_Editor>
 				<Category>Camera:Aim assist</Category>
 			</_Editor>
@@ -680,7 +650,7 @@
 		<Tweak_Table_Entry>
 			<Name>Aim_assist_steer_amount_x</Name>
 			<Value>1.5</Value>
-			<Description>FLOAT: How much to assist steering the camera</Description>
+			<Description>FLOAT How much to assist steering the camera</Description>
 			<_Editor>
 				<Category>Camera:Aim assist</Category>
 			</_Editor>
@@ -688,7 +658,7 @@
 		<Tweak_Table_Entry>
 			<Name>Aim_assist_steer_amount_y</Name>
 			<Value>1.1</Value>
-			<Description>FLOAT: How much to assist steering the camera</Description>
+			<Description>FLOAT How much to assist steering the camera</Description>
 			<_Editor>
 				<Category>Camera:Aim assist</Category>
 			</_Editor>
@@ -696,7 +666,7 @@
 		<Tweak_Table_Entry>
 			<Name>Aim_assist_dist</Name>
 			<Value>50</Value>
-			<Description>FLOAT: Aim assist ramps off towards this distance</Description>
+			<Description>FLOAT Aim assist ramps off towards this distance</Description>
 			<_Editor>
 				<Category>Camera:Aim assist</Category>
 			</_Editor>
@@ -704,7 +674,7 @@
 		<Tweak_Table_Entry>
 			<Name>Aim_assist_offset_min</Name>
 			<Value>0.5</Value>
-			<Description>FLOAT: Full assistance is done within the min offset and it ramps off twoards the max offset</Description>
+			<Description>FLOAT Full assistance is done within the min offset and it ramps off twoards the max offset</Description>
 			<_Editor>
 				<Category>Camera:Aim assist</Category>
 			</_Editor>
@@ -712,7 +682,7 @@
 		<Tweak_Table_Entry>
 			<Name>Aim_assist_offset_max</Name>
 			<Value>1.2</Value>
-			<Description>FLOAT: Full assistance is done within the min offset and it ramps off twoards the max offset</Description>
+			<Description>FLOAT Full assistance is done within the min offset and it ramps off twoards the max offset</Description>
 			<_Editor>
 				<Category>Camera:Aim assist</Category>
 			</_Editor>
@@ -727,7 +697,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_friendly_fire</Name>
-			<Value>1.0</Value>
+			<Value>0.4</Value>
 			<Description>Multiplier used to scale down damage that friendly humans do to eachother. (Single player only)</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -735,7 +705,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_offscreen</Name>
-			<Value>1.0</Value>
+			<Value>0.15</Value>
 			<Description>This value is applied to NPC damage when attacking another NPC when one or both are off screen.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -743,7 +713,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_onscreen</Name>
-			<Value>1.0</Value>
+			<Value>0.4</Value>
 			<Description>This value is applied to NPC damage when attacking another NPC when one or both are on screen.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -759,7 +729,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_npc_vehicle</Name>
-			<Value>1.0</Value>
+			<Value>0.2</Value>
 			<Description>This value is applied to NPC damage when attacking another NPC's vehicle</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -899,7 +869,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Repair_range</Name>
-			<Value>2.8</Value>
+			<Value>2.8</Value> <!--FROM 2.5-->
 			<Description>This is how far ahead a player can repair objects using the repair tool.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -907,7 +877,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Repair_radius</Name>
-			<Value>1.9</Value>
+			<Value>1.9</Value> <!--FROM 1.6-->
 			<Description>When a player uses the repair tool, objects within a sphere of this radius will be repaired</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -1019,10 +989,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Killing_spree_initial_kills</Name>
-			<Value>3</Value> 4 in rebalance add-on
-			
-			
-			
+			<Value>3</Value> <!--Maybe 4 in gameplay add-on-->
 			<Description>The number of kills required to start a killing spree.  These kills must occur within the amount of time specified by "Killing_spree_initial_time_ms" to begin the activity.</Description>
 			<_Editor>
 				<Category>Activities:Killing Spree</Category>
@@ -1030,10 +997,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Killing_spree_initial_time_ms</Name>
-			<Value>6000</Value> 12000 in rebalance add-on
-			
-			
-			
+			<Value>6000</Value> <!--Maybe 12000 in gameplay add-on-->
 			<Description>The amount of time (in ms) allowed to kill X number of people to start a killing spree.  X is specified by "Killing_spree_initial_kills".</Description>
 			<_Editor>
 				<Category>Activities:Killing Spree</Category>
@@ -1042,7 +1006,7 @@
 		<Tweak_Table_Entry>
 			<Name>Mp_enemy_player_name_min_dot</Name>
 			<Value>0.994</Value>
-			<Description>Used to determine whether we should render an enemy player's name or not. Minimum dot product between the camera's forward vec and the vec between the local player and the remote player</Description>
+			<Description>Used to determine whether we should render an enemy player's name or not Minimum dot product between the camera's forward vec and the vec between the local player and the remote player</Description>
 			<_Editor>
 				<Category>Multiplayer</Category>
 			</_Editor>
@@ -1050,7 +1014,7 @@
 		<Tweak_Table_Entry>
 			<Name>Mp_enemy_player_name_crouching_min_dot</Name>
 			<Value>0.999</Value>
-			<Description>Used to determine whether we should render an enemy player's name or not. Minimum dot product between the camera's forward vec and the vec between the local player and the remote player</Description>
+			<Description>Used to determine whether we should render an enemy player's name or not Minimum dot product between the camera's forward vec and the vec between the local player and the remote player</Description>
 			<_Editor>
 				<Category>Multiplayer</Category>
 			</_Editor>
@@ -1097,10 +1061,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Player_death_salvage_percent_kept</Name>
-			<Value>0.0</Value> Maybe 0.5 in gameplay add-on
-			
-			
-			
+			<Value>0.0</Value> <!--Maybe 0.5 in gameplay add-on-->
 			<Description>Amount of salvage the player returns with after death (from 0.0 - none to 1.0 - all)</Description>
 			<_Editor>
 				<Category>Human Death Penalties</Category>
@@ -1164,7 +1125,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blast_decal_min_radius</Name>
-			<Value>0.0</Value>
+			<Value>0.0</Value> <!--FROM 0.5-->
 			<Description>The minimum radius a blast decal must have to be drawn.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1258,6 +1219,7 @@
 				<Category>AI:Cover</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
+<!--These values might be interesting to tweak in gameplay add-on for stealth-->		
 		<Tweak_Table_Entry>
 			<Name>Ai_fov_length_low</Name>
 			<Value>35</Value>
@@ -1427,7 +1389,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ai_removes_attached_projectile_time</Name>
-			<Value>3600</Value>
+			<Value>10</Value> <!--Maybe 3600-->
 			<Description>Time, in seconds, for an NPC to remove projectiles that are attached.</Description>
 			<_Editor>
 				<Category>AI:Weapons</Category>
@@ -1518,7 +1480,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Mp_player_move_multiplier_side</Name>
-			<Value>1.00</Value>
+			<Value>1.00</Value> <!--FROM 0.85-->
 			<Description>Percentage of normal speed when moving sideways</Description>
 			<_Editor>
 				<Category>Multiplayer</Category>
@@ -1526,7 +1488,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Marauder_follow_player_chance</Name>
-			<Value>100</Value>
+			<Value>100</Value> <!--FROM 50-->
 			<Description>Chance ambient, friendly marauders will follow the player and give him nasty looks</Description>
 			<_Editor>
 				<Category>AI:Behavioral Persona</Category>
@@ -1662,7 +1624,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Max_guerrilla_conversion_dist</Name>
-			<Value>24</Value>
+			<Value>12</Value> <!--Maybe 24-->
 			<Description>Max distance away we will consider converting someone to a guerrilla</Description>
 			<_Editor>
 				<Category>AI</Category>
@@ -1670,7 +1632,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Marauder_raid_prob</Name>
-			<Value>2.0</Value>
+			<Value>2.0</Value> <!--FROM 0.5-->
 			<Description>This is the probability that a Marauder raid will attempt to spawn. This is evaluated every so many “hours” at night. Raids will only spawn if the player is near a patrol flagged as a marauder raid route.</Description>
 			<_Editor>
 				<Category>AI</Category>
@@ -1798,7 +1760,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Player_friendly_fire_threshold</Name>
-			<Value>50</Value>
+			<Value>75</Value> <!--Maybe 75-->
 			<Description>Damage you can do to a "friendly" marauder before he goes hostile on you.</Description>
 			<_Editor>
 				<Category>AI:Marauders</Category>
@@ -1806,7 +1768,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Player_friendly_fire_expire_time</Name>
-			<Value>60</Value>
+			<Value>20</Value> <!--Maybe 60-->
 			<Description>Seconds after damaging a "friendly" marauder that he forgets you did it, returning him to a friendly state.</Description>
 			<_Editor>
 				<Category>AI:Marauders</Category>
@@ -1815,7 +1777,7 @@
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll_vert_damp</Name>
 			<Value>.5</Value>
-			<Description>multiply upward forces by this, to prevent passengers from ragdolling on soft landings.(higher = more ragdolling)</Description>
+			<Description>multiply upward forces by this, to prevent passengers from ragdolling on soft landings. (higher =&gt; more ragdolling)</Description>
 			<_Editor>
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
@@ -1823,7 +1785,7 @@
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll_turret</Name>
 			<Value>900</Value>
-			<Description>Impulse for gunner to ragdoll. (higher = less ragdolling) 150 is remote charge, 450 is scout full speed hitting a heavy tank.</Description>
+			<Description>Impulse for gunner to ragdoll. (higher = less ragdolling) 150 is remote charge,  450 is scout full speed hitting a heavy tank.</Description>
 			<_Editor>
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
@@ -1831,7 +1793,7 @@
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll_vert_damp_turret</Name>
 			<Value>.35</Value>
-			<Description>multiply upward forces by this, to prevent gunners from ragdolling on soft landings. (higher = more ragdolling)</Description>
+			<Description>multiply upward forces by this, to prevent gunners from ragdolling on soft landings.(higher =&gt; more ragdolling)</Description>
 			<_Editor>
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
@@ -1894,10 +1856,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Edf_notice_player_with_obvious_weapon_dist</Name>
-			<Value>3.0</Value> Maybe 1.0 in rebalance add-on
-			
-			
-			
+			<Value>3.0</Value> <!--Maybe 1.0 in gameplay add-on-->
 			<Description>Distance at which EDF will react to the player carrying an "obvious" weapon</Description>
 			<_Editor>
 				<Category>AI:vs. Player</Category>
@@ -1914,7 +1873,7 @@
 		<Tweak_Table_Entry>
 			<Name>Sniper_prefer_enemy_y_dist</Name>
 			<Value>1.5</Value>
-			<Description>Distance inside which a scripted sniper will break off his sniper activity and attack the player as a normal EDF. (see also: Sniper_attack_player_xz_dist)</Description>
+			<Description>Distance inside which a scripted sniper will break off his sniper activity and attack the player as a normal EDF.(see also: Sniper_attack_player_xz_dist)</Description>
 			<_Editor>
 				<Category>AI:vs. Player</Category>
 			</_Editor>
@@ -1922,7 +1881,7 @@
 		<Tweak_Table_Entry>
 			<Name>Sniper_prefer_enemy_xz_dist</Name>
 			<Value>7.5</Value>
-			<Description>Distance inside which a scripted sniper will break off his sniper activity and attack the player as a normal EDF. (see also: Sniper_attack_player_y_dist)</Description>
+			<Description>Distance inside which a scripted sniper will break off his sniper activity and attack the player as a normal EDF.(see also: Sniper_attack_player_y_dist)</Description>
 			<_Editor>
 				<Category>AI:vs. Player</Category>
 			</_Editor>
@@ -2025,7 +1984,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Glass_min_radial_decals</Name>
-			<Value>1</Value>
+			<Value>1</Value> <!--FROM 2-->
 			<Description>The minimum number of radial cracks from bullet decals in glass appear (if they appear at all).</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -2033,7 +1992,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Glass_max_radial_decals</Name>
-			<Value>1</Value>
+			<Value>1</Value> <!--FROM 3-->
 			<Description>The maximum number of radial cracks from bullet decals in glass appear.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -2041,7 +2000,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Glass_radial_decal_prob</Name>
-			<Value>100</Value>
+			<Value>100</Value> <!--FROM 75-->
 			<Description>Probability that glass cracks will show up (out of 100).</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -2186,17 +2145,14 @@
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll_guerilla_bonus</Name>
 			<Value>1.5</Value>
-			<Description>multiplier for guerillas in the players car. (higher less ragdolling)</Description>
+			<Description>multiplier for guerillas in the players car.(higher =&gt; less ragdolling)</Description>
 			<_Editor>
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Salvage_touch_delay_ms</Name>
-			<Value>1000</Value> Maybe 750?
-			
-			
-			
+			<Value>1000</Value> <!--Maybe 750?-->
 			<Description>In ms, the delay between when salvage is spawned, and how soon you can pick it up.  This prevents salvage spawned in your face from using the sledge hammer from being picked up immediately.</Description>
 			<_Editor>
 				<Category>Miscellaneous</Category>
@@ -2276,10 +2232,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Salvage_spawn_dead_prob</Name>
-			<Value>0.25</Value> Maybe 0.50 in gameplay add-on
-			
-			
-			
+			<Value>0.25</Value> <!--Maybe 0.50 in gameplay add-on-->
 			<Description>This is the probability used for salvage spawns</Description>
 			<_Editor>
 				<Category>Miscellaneous</Category>
@@ -2303,7 +2256,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Thermo_mid_air_detonation_delay_ms</Name>
-			<Value>0</Value>
+			<Value>0</Value> <!--FROM 500-->
 			<Description>The amount of time (in ms) the player must wait before detonating a thermobaric rocket mid-air.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2319,7 +2272,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_activation_delay_ms</Name>
-			<Value>1000</Value>
+			<Value>1000</Value> <!--FROM 1500-->
 			<Description>Once placed, a proximity mine will become active after this period of time.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2327,7 +2280,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_detonation_delay_ms</Name>
-			<Value>650</Value>
+			<Value>650</Value> <!--FROM 600-->
 			<Description>Once triggered, proxy mines will detonate after this period of time.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2335,7 +2288,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_radius</Name>
-			<Value>2.5</Value>
+			<Value>2.5</Value> <!--FROM 3-->
 			<Description>Radius within which a proxy mine will detonate on a person.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2343,7 +2296,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Proxy_mine_vehicle_radius</Name>
-			<Value>5.0</Value>
+			<Value>4.5</Value>
 			<Description>Radius within which a proxy mine will detonate on a vehicle.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2403,7 +2356,7 @@
 			<_Editor>
 				<Category>Vehicles:Flyer</Category>
 			</_Editor>
-			<Description>default max velocity in m/s. 340 is about MACH 1</Description>
+			<Description>default max velocity in m/s.340 is about MACH 1</Description>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Turret_gunner_explosion_damage_modifier</Name>
@@ -2463,10 +2416,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Max_simultaneous_proxies</Name>
-			<Value>30</Value> Maybe double it if the limit is increased in RSL2
-			
-			
-			
+			<Value>30</Value> <!--Maybe double it if the limit is increased in RSL2-->
 			<Description>Maximum number of proximity mines that can be out in the world at any given time. The game will crash if more than 128 projectiles (total, not just proxies) are placed, so this tweakable value represents the number at which we start deleting old proxies.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2563,7 +2513,7 @@
 		<Tweak_Table_Entry>
 			<Name>score_penalty_for_mismatched_dlc</Name>
 			<Value>500</Value>
-			<Description>Score penality to apply to a playlist entry that wouldn't exist  for all players in the match. (Currently unused)</Description>
+			<Description>Score penality to apply to a playlist entry that wouldn't exist  for all players in the match.(Currently unused)</Description>
 			<_Editor>
 				<Category>Multiplayer:Playlist selection</Category>
 			</_Editor>
@@ -2602,7 +2552,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Damage_multiplier_player_damage_friendly</Name>
-			<Value>1.0</Value>
+			<Value>1.0</Value> <!--FROM 0.3-->
 			<Description>Multiplier used to scale down damage that the player does to friendly humans. (Single player only)</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2617,8 +2567,81 @@
 			</_Editor>
 		</Tweak_Table_Entry>
 	</Table>
-	<TableTemplates></TableTemplates>
-	<TableDescription></TableDescription>
+	<TableTemplates>
+		<Tweak_Table_Entry>
+			<Name>Stuntman_airtime_multiplier</Name>
+			<Value>20</Value>
+			<Description>Base Score = (Air time * airtime_multiplier) + (destruction * destruction_multiplier)</Description>
+			<_Editor>
+				<Category>Activities:Stuntman</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+		<Tweak_Table_Entry>
+			<Name>Stuntman_min_dist_for_bonus</Name>
+			<Value>20</Value>
+			<Description>This is the distance the player must jump to get the distance multiplier bonus to kick in.</Description>
+			<_Editor>
+				<Category>Activities:Stuntman</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+		<Tweak_Table_Entry>
+			<Name>Stuntman_destruction_multiplier</Name>
+			<Value>10</Value>
+			<Description>Base Score = (Air time * airtime_multiplier) + (destruction * destruction_multiplier)</Description>
+			<_Editor>
+				<Category>Activities:Stuntman</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+		<Tweak_Table_Entry>
+			<Name>Stuntman_min_height_for_bonus</Name>
+			<Value>20</Value>
+			<Description>This is the height the player must jump to get the height multiplier bonus to kick in.</Description>
+			<_Editor>
+				<Category>Activities:Stuntman</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+		<Tweak_Table_Entry>
+			<Name>Civilian_min_wounded_damage_pct</Name>
+			<Value>5</Value>
+			<Description>Percent of total HP that must be taken in a single blow to become "wounded" (switch to wounded animation set)</Description>
+			<_Editor>
+				<Category>AI</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+		<Tweak_Table_Entry>
+			<Name>Ai_cover_README</Name>
+			<Value>0</Value>
+			<Description>Raising these values can have significant computational cost - be careful!</Description>
+			<_Editor>
+				<Category>AI:Cover</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	</TableTemplates>
+	<TableDescription>
+		<Name>Tweak_Table_Entry</Name>
+		<Type>TableDescription</Type>
+		<Description>A simple way to add and modify tweakable values within a single table file.</Description>
+		<Required>false</Required>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>The name of the value.</Description>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>Value</Name>
+			<Type>Float</Type>
+			<Description>How this value is used is situation dependent</Description>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>Description</Name>
+			<Type>String</Type>
+			<Description>Breif description of how this value is used.  It is NOT read into the game.</Description>
+			<Required>false</Required>
+			<MultiLine>true</MultiLine>
+		</Element>
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Activities</Name>

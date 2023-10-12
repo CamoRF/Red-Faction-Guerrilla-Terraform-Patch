@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--NOTE: Current highest <Unique_ID>152</Unique_ID>-->
+<!--NOTE: Current highest <Unique_ID>152</Unique_ID>, max is 255-->
 <!--START DLC WEAPONS ADDED SP-->
 		<Weapon>
 			<Name>sp_missilepod</Name>
@@ -9093,16 +9093,11 @@
 			<Type>String</Type>
 			<Display_Name>MP kill phrase</Display_Name>
 			<Description>Phrase to use in the message on the HUD when a player is killed with this weapon. You can use these tokens in it:
-
 				%attacker - name of the attacker or in a suicide, the player that died
-
 				%victim - name of the victim. In a suicide death, %victim becomes %himself.
-
 				%icon - the small icon
-
 				%his - his/her/your, if local player's suicide
-
-			%himself - himself/herself/yourself, if local player's suicide</Description>
+				%himself - himself/herself/yourself, if local player's suicide</Description>
 			<Required>false</Required>
 			<Default>HM_KILL_PHRASE_STANDARD</Default>
 		</Element>
@@ -9149,7 +9144,7 @@
 				"projectile" - launched from a weapon, requires hit detection each frame
 				"thrown" - thrown by hand, requires hit detection each frame
 				"melee" - melee attack
-			"energy" - energy based weapon</Description>
+				"energy" - energy based weapon</Description>
 			<Default>bullet</Default>
 			<Choice>bullet</Choice>
 			<Choice>projectile</Choice>
@@ -10038,10 +10033,7 @@
 			<Element>
 				<Name>Threshold</Name>
 				<Type>Float</Type>
-				<Description>For bullets: Minimum distance for scaling damage by range;
-					typically the *maximum* bullet damage occurs at this range and closer.
-					For projectiles: Momentum at which damage scaling begins (scale depends on weapon, but usually velocity squared);
-				typically, this is the momentum value at which the weapon does the *minimum* damage.</Description>
+				<Description>For bullets: Minimum distance for scaling damage by range;typically the *maximum* bullet damage occurs at this range and closer.For projectiles: Momentum at which damage scaling begins (scale depends on weapon, but usually velocity squared);typically, this is the momentum value at which the weapon does the *minimum* damage.</Description>
 				<Required>false</Required>
 				<Default>0.0</Default>
 			</Element>
@@ -10082,10 +10074,7 @@
 			<Element>
 				<Name>Threshold</Name>
 				<Type>Float</Type>
-				<Description>For bullets: Maximum distance for scaling damage by range (except for extreme range);
-					typically, bullets do the *minimum* distance at this range and further.
-					For projectiles: Momentum at which damage scaling ends (scale depends on weapon, but typically is velocity squared);
-				typically, this is the momentum value at which the weapon does the *maximum* damage.</Description>
+				<Description>For bullets: Maximum distance for scaling damage by range (except for extreme range);typically, bullets do the *minimum* distance at this range and further.For projectiles: Momentum at which damage scaling ends (scale depends on weapon, but typically is velocity squared);typically, this is the momentum value at which the weapon does the *maximum* damage.</Description>
 				<Required>false</Required>
 				<Default>0.0</Default>
 			</Element>

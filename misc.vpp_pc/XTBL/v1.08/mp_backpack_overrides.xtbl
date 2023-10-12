@@ -1,10 +1,9 @@
 <root>
 	<Table>
 		<mp_backpacks>
-			<Name>Stealth</Name>
+			<Name>Commando</Name> <!--Firepower-->
 			<uses_fuel>
-				<fuel_use_per_second>0.05625</fuel_use_per_second>
-				<fuel_regen_per_second>0.1575</fuel_regen_per_second>
+				<fuel_regen_per_second>0.1</fuel_regen_per_second>
 			</uses_fuel>
 			<_Editor>
 				<Category>Entries</Category>
@@ -20,18 +19,20 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</mp_backpacks>
+		</mp_backpacks>		
 		<mp_backpacks>
-			<Name>Commando</Name>
+			<Name>Stealth</Name>
 			<uses_fuel>
-				<fuel_regen_per_second>0.1</fuel_regen_per_second>
+				<fuel_use_per_second>0.05625</fuel_use_per_second> <!--ADDED-->
+				<fuel_regen_per_second>0.1575</fuel_regen_per_second> <!--FROM 0.1-->
 			</uses_fuel>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</mp_backpacks>
+<!--START ADDED-->
 		<mp_backpacks>
-			<Name>Shockwave</Name>
+			<Name>Shockwave</Name> <!--Concussion-->
 			<uses_fuel>
 				<fuel_regen_per_second>0.11</fuel_regen_per_second>
 			</uses_fuel>
@@ -58,6 +59,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</mp_backpacks>
+<!--END-->
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>
