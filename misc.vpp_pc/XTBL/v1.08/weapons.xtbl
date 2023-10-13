@@ -1,6 +1,152 @@
 <root>
 	<Table>
-<!--NOTE: Current highest <Unique_ID>152</Unique_ID>, max is 255-->
+<!--NOTE: Current highest <Unique_ID>153</Unique_ID>, max is 255-->
+<!--START TEST-->
+		<Weapon>
+			<Name>camo_light_machine_gun</Name>
+			<Weapon_Class>bullet</Weapon_Class>
+			<Trigger_Type>automatic</Trigger_Type>
+			<Ammo_Type>bullet</Ammo_Type>
+			<Magazine_Size>1000</Magazine_Size> <!--FROM 90-->
+			<Max_Rounds>10000</Max_Rounds> <!--FROM 360-->
+			<Range_Max>60</Range_Max>
+			<Range_Red>120</Range_Red>
+			<Recoil_Kick>1.25</Recoil_Kick>
+			<Spread_Max>3.2</Spread_Max> <!--FROM 3.8-->
+			<Spread_Min>2.5</Spread_Min> <!--FROM 3.2-->
+			<Spread_Fine_Aim_Max>3.5</Spread_Fine_Aim_Max> <!--FROM 3.8-->
+			<Spread_Fine_Aim_Min>2.8</Spread_Fine_Aim_Min> <!--FROM 3.2-->
+			<Default_Refire_Delay>70</Default_Refire_Delay> <!--FROM 75-->
+			<To_Spread_Max>15</To_Spread_Max> <!--FROM 5--> <!--<Description>Number of shots for the gun to go to max spread (defaults to zero, ignored for "thrown" and "melee" weapons).</Description>-->
+			<To_Spread_Min>1000</To_Spread_Min> <!--FROM 900--> <!--<Description>Time (in milliseconds) for the gun to settle from maximum spread to minimum spread (defaults to zero, ignored for "thrown" and "melee" weapons).</Description>-->
+			<Spread_Multiplier_Run>1.0</Spread_Multiplier_Run>		
+			<Damage_Scaling_Min>
+				<Threshold>5</Threshold>
+				<NPC_Damage>75</NPC_Damage>
+				<Player_Damage>32</Player_Damage> <!--FROM 45-->
+				<Vehicle_Damage>55</Vehicle_Damage>
+				<Player_Vehicle_Damage>40</Player_Vehicle_Damage>
+			</Damage_Scaling_Min>
+			<Damage_Scaling_Max>
+				<Threshold>50</Threshold>
+				<NPC_Damage>50</NPC_Damage>
+				<Player_Damage>32</Player_Damage> <!--FROM 35-->
+				<Vehicle_Damage>40</Vehicle_Damage>
+				<Player_Vehicle_Damage>25</Player_Vehicle_Damage>
+			</Damage_Scaling_Max>
+			<_Editor>
+				<Category>Entries:EDF</Category>
+			</_Editor>
+			<MeleeAttacks>
+				<Crouching>rpg_melee</Crouching>
+				<CrouchMoving>rpg_melee</CrouchMoving>
+				<StandingSecondary>rpg_melee</StandingSecondary>
+				<MovingSecondary>rpg_melee</MovingSecondary>
+				<ProneAttackSecondary>rpg_melee</ProneAttackSecondary>
+				<StandingPrimary>rpg_melee</StandingPrimary>
+				<CrouchingPrimary>rpg_melee</CrouchingPrimary>
+				<CrouchingSecondary>rpg_melee</CrouchingSecondary>
+			</MeleeAttacks>
+			<Animation_Group>AK</Animation_Group>
+			<Flags>
+				<Flag>shatter</Flag>
+				<Flag>disable player cover</Flag>
+				<Flag>mp selectable</Flag>
+				<Flag>can fine aim</Flag>
+				<Flag>dont drop on death</Flag>
+				<Flag>penetrating bullets</Flag>
+				<Flag>armor piercing</Flag>
+				<Flag>is obvious weapon</Flag>
+			</Flags>
+			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
+			<Max_Engagement_Distance>60</Max_Engagement_Distance>
+			<Inventory_Item>camo_light_machine_gun</Inventory_Item>
+			<Item_3d>turret_head_1</Item_3d>
+			<Sounds>
+				<Fire_Sound>WEP_TUR_MACHINE_PC_ATTACK</Fire_Sound>
+				<Sound_Radius>70</Sound_Radius>
+				<NPC_Fire_Sounds>
+					<NPC_Fire_Sound>WEP_TUR_MACHINE_NPC_ATTACK</NPC_Fire_Sound>
+				</NPC_Fire_Sounds>
+			</Sounds>
+			<Visuals>
+				<Muzzle_Flash>wep_jetter_mp_flash</Muzzle_Flash>
+				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke>
+				<Fire_Camera_Shake>turret_mg</Fire_Camera_Shake>
+				<Tracer_Frequency>1</Tracer_Frequency>
+				<Overheated_effect>wep_HMG_turrent_overheat_a</Overheated_effect>
+			</Visuals>
+			<NPC_Firing_Pattern>Default Launcher</NPC_Firing_Pattern>
+			<Ammo_Box_Restock>360</Ammo_Box_Restock>
+			<Num_Magazines>10</Num_Magazines> <!--FROM 4-->
+			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<icon_name>ui_hud_weapon_icon_grinder</icon_name>
+			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
+			<reticule_name>ui_hud_reti_grinder</reticule_name>
+			<dummy>False</dummy>
+			<Max_Rounds_Upgrade>35</Max_Rounds_Upgrade>
+			<!--<mp_kill_phrase>HM_KILL_PHRASE_GRINDER</mp_kill_phrase>-->
+			<Reload_Delay>500</Reload_Delay> <!--FROM 250-->
+			<Headshot_Multiplier>2.0</Headshot_Multiplier>
+			<Bullet_Group>standard</Bullet_Group>
+			<Unique_ID>153</Unique_ID>
+			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
+			<Default_team>Guerilla</Default_team>
+			<Zoom_Magnification>1.45</Zoom_Magnification>
+			<fine_aim_reticule>ui_hud_reti_grinder2</fine_aim_reticule>
+			<aim_assist>1.0</aim_assist>
+			<Bullet_hole_scale>1.25</Bullet_hole_scale>
+		</Weapon>		
+		<!--<Weapon>
+			<Name>camo_riot_shield</Name>
+			<Weapon_Class>melee</Weapon_Class>
+			<Trigger_Type>single</Trigger_Type>
+			<Ammo_Type>melee</Ammo_Type>
+			<Magazine_Size>1</Magazine_Size>
+			<Max_Rounds>1</Max_Rounds>
+			<Range_Max>25</Range_Max>
+			<Range_Red>25</Range_Red>
+			<Default_Refire_Delay>0</Default_Refire_Delay>
+			<Damage_Scaling_Max>
+				<NPC_Damage>1000</NPC_Damage>
+				<Player_Damage>1000</Player_Damage>
+				<Vehicle_Damage>-1</Vehicle_Damage>
+				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
+			</Damage_Scaling_Max>
+			<Spread_Max>1</Spread_Max>
+			<Spread_Min>1</Spread_Min>
+			<_Editor>
+				<Category>Entries:Other</Category>
+			</_Editor>
+			<Animation_Group>2HCarry</Animation_Group>
+			<Flags>
+				<Flag>mp selectable</Flag>
+			</Flags>
+			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
+			<Max_Engagement_Distance>25</Max_Engagement_Distance>
+			<Inventory_Item>camo_riot_shield</Inventory_Item>
+			<Item_3d>riot_shield</Item_3d>
+			<MeleeAttacks>
+				<Crouching>rpg_melee</Crouching>
+				<CrouchMoving>rpg_melee</CrouchMoving>
+				<StandingSecondary>rpg_melee</StandingSecondary>
+				<MovingSecondary>rpg_melee</MovingSecondary>
+				<ProneAttackSecondary>rpg_melee</ProneAttackSecondary>
+				<StandingPrimary>rpg_melee</StandingPrimary>
+				<CrouchingPrimary>rpg_melee</CrouchingPrimary>
+				<CrouchingSecondary>rpg_melee</CrouchingSecondary>
+			</MeleeAttacks>
+			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
+			<Ammo_Box_Restock>0</Ammo_Box_Restock>
+			<Num_Magazines>2</Num_Magazines>
+			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
+			<dummy>False</dummy>
+			<Unique_ID>154</Unique_ID>
+			<Melee_Group>Riot_Shield</Melee_Group>
+			<aim_assist>0.5</aim_assist>
+		</Weapon>-->
+<!--END-->
 <!--START DLC WEAPONS ADDED SP-->
 		<Weapon>
 			<Name>sp_missilepod</Name>
@@ -147,9 +293,9 @@
 			<Flags>
 				<Flag>can fine aim</Flag>
 				<Flag>shatter</Flag>
-				<Flag>penetrating bullets</Flag>
+				<Flag>penetrating bullets</Flag> 
 				<Flag>is obvious weapon</Flag>
-				<Flag>dont drop on death</Flag>
+				<!--<Flag>dont drop on death</Flag>-->
 				<!--<Flag>mp selectable</Flag>-->
 			</Flags>
 			<Melee_Group>Riot_Shield</Melee_Group>
@@ -772,7 +918,7 @@
 				<Flag>shatter</Flag>
 				<Flag>penetrating bullets</Flag>
 				<Flag>is obvious weapon</Flag>
-				<Flag>dont drop on death</Flag>
+				<!--<Flag>dont drop on death</Flag>-->
 				<Flag>mp selectable</Flag>
 			</Flags>
 			<Melee_Group>Riot_Shield</Melee_Group>
