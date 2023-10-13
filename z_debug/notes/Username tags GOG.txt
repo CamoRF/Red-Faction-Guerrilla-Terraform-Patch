@@ -1,2 +1,0 @@
-%appdata%/kaiko in your file explorer bar, hit enter, and open config.ini. Under the [game] section you should have a value multiplayer_user_name=your_user_name. You can change the color with format tags, like so:
-multiplayer_user_name=[FORMAT][COLOR:#00FF8C]moneyl[/FORMAT]. Where #00FF8C is a hex color.

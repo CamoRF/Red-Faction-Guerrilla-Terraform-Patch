@@ -1,7 +1,7 @@
 <root>
 	<Table>
 		<Dlc01_Identifier>
-			<Name>TARGET_ATMOS_VENT01</Name> <!--TO DO: Find what all these strings are called in game-->
+			<Name>TARGET_ATMOS_VENT01</Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

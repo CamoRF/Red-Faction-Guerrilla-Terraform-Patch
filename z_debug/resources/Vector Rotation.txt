@@ -1,0 +1,4 @@
+* You should rotate the forward vector by the same amount you rotate the right. I think it gets more complicated if you're rotating about multiple axes.
+* Right, up, and forward are normalized vectors. So (1, 0, 0) means it's pointing in the positive x direction, (0, 0, -1) means it's pointing in the negative z direction, etc
+* Right hand rule for vectors: point your hand in the direction of the red line, then curl into a fist towards the blue line. Once you have a fist, stick your thumb out. If it's pointing up you're good. If it's pointing down, you should multiply your forward vector by negative 1
+* Equations for calculating the rotation matrix based on the angle of rotation.
