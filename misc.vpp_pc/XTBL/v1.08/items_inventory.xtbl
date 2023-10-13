@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START TEST-->		
+<!--START TEST-->
 		<Inventory_Item>
 			<Name>camo_light_machine_gun</Name>
 			<Display_Name>LIGHT MACHINE GUN</Display_Name> <!--WEAP_TURRET_MACH_GUN-->
@@ -12,18 +12,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
-		<!--<Inventory_Item>
-			<Name>riot_shield_test</Name>
-			<Display_Name>RIOT SHIELD</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>-->
-<!--END-->	
+<!--END-->
 <!--START DLC WEAPONS ADDED SP-->
 		<Inventory_Item>
 			<Name>sp_spiker</Name>
@@ -760,6 +749,17 @@
 		</Inventory_Item>
 	</Table>
 	<TableTemplates>
+		<!--<Inventory_Item>
+			<Name>riot_shield_test</Name>
+			<Display_Name>RIOT SHIELD</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<Description>Bang bang! Point and shoot.</Description>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>-->		
 		<Inventory_Item>
 			<Name>charge_launcher</Name>
 			<Display_Name>WEAP_CHARGE_LAUNCHER</Display_Name>

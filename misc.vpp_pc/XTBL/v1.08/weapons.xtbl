@@ -423,7 +423,7 @@
 			<Trigger_Type>automatic</Trigger_Type>
 			<Ammo_Type>bullet</Ammo_Type>
 			<Magazine_Size>100</Magazine_Size>
-			<Max_Rounds>400</Max_Rounds>
+			<Max_Rounds>500</Max_Rounds>
 			<Range_Max>60</Range_Max>
 			<Range_Red>120</Range_Red>
 			<Recoil_Kick>1.25</Recoil_Kick>
@@ -431,7 +431,7 @@
 			<Spread_Min>3.5</Spread_Min>
 			<Spread_Fine_Aim_Max>3.5</Spread_Fine_Aim_Max>
 			<Spread_Fine_Aim_Min>3.0</Spread_Fine_Aim_Min>
-			<Default_Refire_Delay>70</Default_Refire_Delay>
+			<Default_Refire_Delay>75</Default_Refire_Delay>
 			<To_Spread_Max>25</To_Spread_Max> <!--FROM 5--> <!--<Description>Number of shots for the gun to go to max spread (defaults to zero, ignored for "thrown" and "melee" weapons).</Description>-->
 			<To_Spread_Min>1000</To_Spread_Min> <!--FROM 900--> <!--<Description>Time (in milliseconds) for the gun to settle from maximum spread to minimum spread (defaults to zero, ignored for "thrown" and "melee" weapons).</Description>-->
 			<Spread_Multiplier_Run>1.25</Spread_Multiplier_Run>		
@@ -468,7 +468,7 @@
 				<Flag>disable player cover</Flag>
 				<Flag>mp selectable</Flag>
 				<Flag>can fine aim</Flag>
-				<!--<Flag>dont drop on death</Flag>-->
+				<Flag>dont drop on death</Flag>
 				<Flag>penetrating bullets</Flag>
 				<Flag>armor piercing</Flag>
 				<Flag>is obvious weapon</Flag>
@@ -476,7 +476,7 @@
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>60</Max_Engagement_Distance>
 			<Inventory_Item>camo_light_machine_gun</Inventory_Item>
-			<Item_3d>camo_light_machine_gun</Item_3d> <!--FROM turret_head_1--> <!--TO DO: NEED TO ADD BULLET CLIP AND MAKE IT SO IT CAN BE PICKED UP ON THE MAP, ITEMS_3D.XTBL?-->
+			<Item_3d>turret_head_1</Item_3d> <!--FROM turret_head_1--> <!--TO DO: NEED TO ADD BULLET CLIP AND MAKE IT SO IT CAN BE PICKED UP ON THE MAP, ITEMS_3D.XTBL?-->
 			<Sounds>
 				<Fire_Sound>WEP_TUR_MACHINE_PC_ATTACK</Fire_Sound>
 				<Sound_Radius>70</Sound_Radius>
@@ -493,10 +493,10 @@
 				<Overheated_effect>wep_HMG_turrent_overheat_a</Overheated_effect>
 			</Visuals>
 			<NPC_Firing_Pattern>Default Launcher</NPC_Firing_Pattern>
-			<Ammo_Box_Restock>400</Ammo_Box_Restock>
-			<Num_Magazines>4</Num_Magazines>
+			<Ammo_Box_Restock>500</Ammo_Box_Restock>
+			<Num_Magazines>5</Num_Magazines>
 			<Player_Move_Speed>1.25</Player_Move_Speed>
-			<icon_name>ui_hud_weapon_icon_grinder</icon_name>
+			<icon_name>ui_badge_icon_target</icon_name>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<reticule_name>ui_hud_reti_grinder</reticule_name>
 			<dummy>False</dummy>
@@ -508,7 +508,7 @@
 			<Unique_ID>153</Unique_ID>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<Default_team>Guerilla</Default_team>
-			<Zoom_Magnification>3.0</Zoom_Magnification> <!--AR is 1.65--> <!--FROM 1.45-->
+			<Zoom_Magnification>1.65</Zoom_Magnification> <!--AR is 1.65--> <!--FROM 1.45-->
 			<fine_aim_reticule>ui_hud_reti_grinder2</fine_aim_reticule>
 			<aim_assist>1.0</aim_assist>
 			<Bullet_hole_scale>1.25</Bullet_hole_scale>
@@ -533,7 +533,7 @@
 			<Spread_Max>1</Spread_Max>
 			<Spread_Min>1</Spread_Min>
 			<Projectile_Info>
-				<Model>camo_grenade</Model>
+				<Model>grenade</Model>
 				<Start_Speed>25</Start_Speed> <!--FROM 20-->
 				<Max_Speed>25</Max_Speed>
 				<Fuse_Time>2000</Fuse_Time> <!--FROM 1500-->
@@ -578,7 +578,7 @@
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>25</Max_Engagement_Distance>
 			<Inventory_Item>camo_grenade</Inventory_Item>
-			<Item_3d>camo_grenade</Item_3d>
+			<Item_3d>grenade</Item_3d>
 			<MeleeAttacks>
 				<StandingPrimary>remote_charge_melee</StandingPrimary>
 				<StandingSecondary>remote_charge_punch</StandingSecondary>
