@@ -399,7 +399,7 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Light the fuse and let it fly.</Description>
+			<!--<Description>Light the fuse and let it fly.</Description>-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -437,7 +437,7 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>place explosives that detonate when an enemy gets near.</Description>
+			<!--<Description>place explosives that detonate when an enemy gets near.</Description>-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -459,7 +459,7 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>If a weapon doesn't really need it's own entry.</Description>
+			<!--<Description>If a weapon doesn't really need it's own entry.</Description>-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -470,7 +470,7 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Light the fuse and let it fly.</Description>
+			<!--<Description>Light the fuse and let it fly.</Description>-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -478,7 +478,7 @@
 		<Inventory_Item>
 			<Name>ab_rpg</Name>
 			<Display_Name>WEAP_BOMB</Display_Name>
-			<Description>Player can't get this item, but we need an inventory item for the weapon.</Description>
+			<!--<Description>Player can't get this item, but we need an inventory item for the weapon.</Description>-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -498,7 +498,7 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Light the fuse and let it fly.</Description>
+			<!--<Description>Light the fuse and let it fly.</Description>-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -506,7 +506,7 @@
 		<Inventory_Item>
 			<Name>ab_rpg_dfa</Name>
 			<Display_Name>WEAP_BOMB_DFA</Display_Name>
-			<Description>Player can't get this item, but we need an inventory item for the weapon.</Description>
+			<!--<Description>Player can't get this item, but we need an inventory item for the weapon.</Description>-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -536,7 +536,7 @@
 		<Inventory_Item>
 			<Name>ab_rpg_kill_player</Name>
 			<Display_Name>WEAP_BOMB_PLAYER_KILL</Display_Name>
-			<Description>Player can't get this item, but we need an inventory item for the weapon.</Description>
+			<!--<Description>Player can't get this item, but we need an inventory item for the weapon.</Description>-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -712,7 +712,7 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Hell yes I am a sweet ostrich</Description>
+			<!--<Description>Hell yes I am a sweet ostrich</Description>-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -723,7 +723,7 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>place explosives and blow them up remotly</Description>
+			<!--<Description>place explosives and blow them up remotly</Description>-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -731,7 +731,7 @@
 		<Inventory_Item>
 			<Name>satellite_rpg</Name>
 			<Display_Name>WEAP_BOMB</Display_Name>
-			<Description>Player can't get this item, but we need an inventory item for the weapon.</Description>
+			<!--<Description>Player can't get this item, but we need an inventory item for the weapon.</Description>-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -742,7 +742,7 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Throw it at cars to get the people out</Description>
+			<!--<Description>Throw it at cars to get the people out</Description>-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

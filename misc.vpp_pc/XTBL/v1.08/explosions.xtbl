@@ -22,7 +22,7 @@
 			<SalvageProbability>0</SalvageProbability>
 			<human_damage_min>300</human_damage_min>
 			<Human_Damage_Max>750</Human_Damage_Max>
-			<Structural_Damage>23000</Structural_Damage>
+			<Structural_Damage>17250</Structural_Damage> <!--FROM 23000-->
 			<Unique_ID>122</Unique_ID>
 			<camera_shake_type>explosion_small</camera_shake_type>
 			<Flags>
@@ -33,7 +33,7 @@
 			<camera_shake_falloff>40.0</camera_shake_falloff>
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
+			<Always_Ragdoll>True</Always_Ragdoll> <!--FROM False-->
 		</Explosion>
 <!--END-->
 <!--START DLC WEAPONS ADDED-->
