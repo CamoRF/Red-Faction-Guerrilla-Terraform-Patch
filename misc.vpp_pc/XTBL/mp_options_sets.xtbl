@@ -15,7 +15,7 @@
 				<unlimited_ammo>False</unlimited_ammo>
 				<starting_backpack_wrapper>
 					<starting_backpack>Specific</starting_backpack> <!--ADDED-->
-					<starting_backpack>Fleetfoot</starting_backpack> <!--FROM None-->
+					<starting_backpack_type>Fleetfoot</starting_backpack_type> <!--FROM None-->
 				</starting_backpack_wrapper>
 				<starting_weapon_wrapper>
 					<replace_starting_weapon>
