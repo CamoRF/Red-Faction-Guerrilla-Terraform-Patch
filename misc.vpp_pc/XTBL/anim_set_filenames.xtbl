@@ -1,8 +1,4 @@
 <root><Table>
-<!--START DLC VEHICLES ADDED-->
-<Anim_Set_Filename><Name>Vehicle_MarChomper.xtbl</Name><Path>\Vehicles\MarChomp</Path></Anim_Set_Filename>
-<Anim_Set_Filename><Name>Vehicle_MarStomp.xtbl</Name><Path>\Vehicles\MarStomp</Path></Anim_Set_Filename>
-<!--END-->
 <Anim_Set_Filename><Name>Player.xtbl</Name><Path>\player</Path><Default_model>Player_.cmeshx</Default_model><Default_rig>Player.rigx</Default_rig></Anim_Set_Filename>
 <Anim_Set_Filename><Name>Male.xtbl</Name><Path>\male</Path><Default_model>Jake.cmeshx</Default_model><Default_rig>Jake.rigx</Default_rig></Anim_Set_Filename>
 <Anim_Set_Filename><Name>Civilian_Male.xtbl</Name><Path>\civilian\male</Path><Default_model>torvald.cmeshx</Default_model><Default_rig>torvald.rigx</Default_rig></Anim_Set_Filename>
@@ -68,6 +64,10 @@
 <Anim_Set_Filename><Name>Weap_guerilla_rt.xtbl</Name><Path>\weapons\guerilla_rocket_turret</Path></Anim_Set_Filename>
 <Anim_Set_Filename><Name>Heavy_Elite.xtbl</Name><Path>\Elite_Heavy</Path><Default_model>Scot.cmeshx</Default_model><Default_rig>Scot.rigx</Default_rig></Anim_Set_Filename>
 <Anim_Set_Filename><Name>Dan.xtbl</Name><Path>\</Path><Default_model>dan</Default_model><Default_rig>dan</Default_rig></Anim_Set_Filename>
+<!--START DLC VEHICLES ADDED-->
+<Anim_Set_Filename><Name>Vehicle_MarChomper.xtbl</Name><Path>\Vehicles\MarChomp</Path></Anim_Set_Filename>
+<Anim_Set_Filename><Name>Vehicle_MarStomp.xtbl</Name><Path>\Vehicles\MarStomp</Path></Anim_Set_Filename>
+<!--END-->
 </Table><TableTemplates></TableTemplates><TableDescription><Name>Anim_Set_Filename</Name><Type>TableDescription</Type><Display_Name>Anim Set Filename</Display_Name>
 <Element><Name>Name</Name><Type>String</Type></Element><Element><Name>Path</Name><Type>String</Type></Element><Element>	<Name>Default_model</Name>
 <Type>String</Type><Description>default rig opened when this animation set is opened in the Animation Editor</Description><Required>false</Required>
