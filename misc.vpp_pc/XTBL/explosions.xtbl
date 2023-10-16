@@ -38,6 +38,43 @@
 <!--END-->
 <!--START DLC WEAPONS ADDED-->
 		<Explosion>
+			<Name>DLC_remote_charge</Name>
+			<Radius>3.0</Radius>
+			<AI_Sound_Radius>75</AI_Sound_Radius>
+			<vehicle_damage_max>3000</vehicle_damage_max>
+			<vehicle_damage_min>200</vehicle_damage_min>
+			<Impulse>30000</Impulse>
+			<Effects>
+				<Element>dth_propane_tank_sm_a</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>3.75</CrumbleRadius>
+			<KnockdownRadius>5.5</KnockdownRadius>
+			<FlinchRadius>9.0</FlinchRadius>
+			<player_mult>0.8</player_mult>
+			<MaxSalvagePieces>0</MaxSalvagePieces>
+			<SalvageProbability>0</SalvageProbability>
+			<human_damage_min>250</human_damage_min>
+			<Human_Damage_Max>1250</Human_Damage_Max>
+			<Structural_Damage>27000</Structural_Damage>
+			<Unique_ID>100</Unique_ID>
+			<camera_shake_type>explosion_large</camera_shake_type>
+			<camera_shake_multiplier>0.85</camera_shake_multiplier>
+			<camera_shake_falloff>50.0</camera_shake_falloff>
+			<player_veh_mult>0.8</player_veh_mult>
+			<Material_Effects>
+				<Entry>
+					<Material>Concrete</Material>
+					<Effect>wep_rpg_exp_cement_a</Effect>
+				</Entry>
+			</Material_Effects>
+			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
+			<Ignore_Orientation>False</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
+		</Explosion>	
+		<Explosion>
 			<Name>DLC_missilepod</Name>
 			<Radius>2.0</Radius>
 			<AI_Sound_Radius>50</AI_Sound_Radius>

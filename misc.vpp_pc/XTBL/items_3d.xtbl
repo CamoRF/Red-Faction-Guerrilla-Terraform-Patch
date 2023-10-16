@@ -26,7 +26,8 @@ amb_broom.smeshx
 amb_data_pad.smeshx
 amb_fork.smeshx
 amb_box.smeshx-->
-<!--START TEST-->
+
+<!--START ADDED-->
 		<Item>
 			<Name>camo_light_machine_gun</Name>
 			<Touch_Script>give_item</Touch_Script>
@@ -142,7 +143,100 @@ amb_box.smeshx-->
 				<Filename>hmg_weapon_col.smeshx</Filename>
 			</Mesh>
 		</Item>-->
-<!--END-->		
+<!--END-->
+<!--START DLC WEAPONS ADDED-->
+		<Item>
+			<Name>royal_sword</Name>
+			<Item_Flags>
+				<Flag>spin</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<Mesh>
+				<Filename>dlc_royal_sword.smeshx</Filename>
+			</Mesh>
+			<pickup_static_mesh>
+				<Filename>dlc_royal_sword.smeshx</Filename>
+			</pickup_static_mesh>
+			<Touch_Script>give_item</Touch_Script>
+			<!--<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>-->
+			<Respawn_Delay>30000</Respawn_Delay>
+			<streaming_category>General</streaming_category>
+			<_Editor>
+				<Category>Entries:WeaponMarauder</Category>
+			</_Editor>
+		</Item>
+		<Item>
+			<Name>pickaxe</Name>
+			<_Editor>
+				<Category>Entries:Hammers</Category>
+			</_Editor>
+			<Spin_Time>5000</Spin_Time>
+			<streaming_category>General</streaming_category>
+			<Touch_Script>give_item</Touch_Script>
+			<Mesh>
+				<Filename>dlc_pickaxe.smeshx</Filename>
+			</Mesh>
+			<Item_Flags>
+				<Flag>high_res_map_large</Flag>
+			</Item_Flags>
+			<MaterialEffect>invulnerability</MaterialEffect>
+			<pickup_static_mesh>
+				<Filename>dlc_pickaxe.smeshx</Filename>
+			</pickup_static_mesh>
+			<!--<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>-->
+		</Item>
+		<Item>
+			<Name>mar_remote_charge</Name>
+			<Mass>.05</Mass>
+			<Respawn_Delay>5000</Respawn_Delay>
+			<_Editor>
+				<Category>Entries:WeaponMarauder</Category>
+			</_Editor>
+			<Item_Flags>
+				<Flag>collide_as_box</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<Collision_Sound>WEP_CHARGE_PLANT</Collision_Sound>
+			<streaming_category>General</streaming_category>
+			<Touch_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound>
+			<Touch_Sound_2>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound_2>
+			<character_mesh>
+				<character_mesh>
+					<Filename>dlc_marauder_charge.cmeshx</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>dlc_marauder_charge.rigx</Filename>
+				</rig>
+				<Anim_set>None</Anim_set>
+			</character_mesh>
+		</Item>
+		<Item>
+			<Name>mar_charge_placer</Name>
+			<_Editor>
+				<Category>Entries:WeaponMarauder</Category>
+			</_Editor>
+			<Spin_Time>5000</Spin_Time>
+			<Props>
+				<Prop>
+					<Name>mar_remote_charge</Name>
+					<Type>ammo</Type>
+				</Prop>
+			</Props>
+			<Touch_Script>give_item</Touch_Script>
+			<Respawn_Delay>45000</Respawn_Delay>
+			<Item_Flags>
+				<Flag>spin</Flag>
+			</Item_Flags>
+			<streaming_category>General</streaming_category>
+			<Touch_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound>
+			<Touch_Sound_2>SYS_WEP_CHARGE_AMMO_PICKUP</Touch_Sound_2>
+			<Mesh>
+				<Filename>dlc_mdr_detonator.smeshx</Filename>
+			</Mesh>
+			<pickup_static_mesh>
+				<Filename>dlc_marauder_charge_pickup.smeshx</Filename>
+			</pickup_static_mesh>
+		</Item>		
 		<Item>
 			<Name>EDF_Super_Gauss</Name>
 			<Item_Flags>
@@ -302,6 +396,8 @@ amb_box.smeshx-->
 				<Category>Entries:Projectiles</Category>
 			</_Editor>
 		</Item>
+<!--END-->
+<!--START DLC CHARACTERS ADDED-->	
 		<Item>
 			<Name>dlc_vasha_skirt</Name>
 			<Item_Flags>
@@ -467,6 +563,7 @@ amb_box.smeshx-->
 				<Category>Character Props:Sam_DLC</Category>
 			</_Editor>
 		</Item>
+<!--END-->
 		<Item>
 			<Name>first_aid_box</Name>
 			<Mesh>
@@ -2002,7 +2099,7 @@ amb_box.smeshx-->
 			<pickup_static_mesh>
 				<Filename>gutter_pickup.smeshx</Filename>
 			</pickup_static_mesh>
-			<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>
+			<!--<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>-->
 		</Item>
 		<Item>
 			<Name>arc_welder_clip</Name>
