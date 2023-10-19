@@ -28,7 +28,7 @@ amb_fork.smeshx
 amb_box.smeshx-->
 
 <!--START ADDED-->
-		<Item>
+<!--		<Item>
 			<Name>camo_light_machine_gun</Name>
 			<Touch_Script>give_item</Touch_Script>
 			<Respawn_Delay>60000</Respawn_Delay>
@@ -116,7 +116,7 @@ amb_box.smeshx-->
 			<Collision_Sound>WEP_GRENADE_IMPACT</Collision_Sound>
 			<Touch_Sound>SYS_WEP_AMMO_PICKUP</Touch_Sound>
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
-		</Item>
+		</Item>-->
 <!--		<Item>
 			<Name>turret_head_1</Name>
 			<Item_Flags>

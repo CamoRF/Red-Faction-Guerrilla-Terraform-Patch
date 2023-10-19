@@ -1225,7 +1225,6 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<Flag>siege</Flag>
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>2.0</glow_multiplier>
