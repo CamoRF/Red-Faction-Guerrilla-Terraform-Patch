@@ -3,11 +3,11 @@
 <!--START ADDED-->
 		<Explosion>
 			<Name>camo_grenade</Name>
-			<Radius>6.75</Radius>
+			<Radius>5.0</Radius> <!--FROM 6.75-->
 			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>900</vehicle_damage_max>
 			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>15000</Impulse>
+			<Impulse>10000</Impulse> <!--FROM 15000-->
 			<Effects>
 				<Element>wep_edf_grenade_exp_a</Element>
 			</Effects>
@@ -22,7 +22,7 @@
 			<SalvageProbability>0</SalvageProbability>
 			<human_damage_min>300</human_damage_min>
 			<Human_Damage_Max>750</Human_Damage_Max>
-			<Structural_Damage>17250</Structural_Damage> <!--FROM 23000-->
+			<Structural_Damage>10000</Structural_Damage> <!--FROM 17250--> <!--FROM 23000-->
 			<Unique_ID>122</Unique_ID>
 			<camera_shake_type>explosion_small</camera_shake_type>
 			<Flags>
@@ -34,6 +34,55 @@
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>True</Always_Ragdoll> <!--FROM False-->
+		</Explosion>
+		<Explosion>
+			<Name>camo_rocket</Name>
+			<Radius>10</Radius> <!--FROM 3.65-->
+			<AI_Sound_Radius>75</AI_Sound_Radius>
+			<vehicle_damage_max>3500</vehicle_damage_max>
+			<vehicle_damage_min>200</vehicle_damage_min>
+			<Impulse>99999</Impulse> <!--FROM 28000-->
+			<Effects>
+				<Element>wep_miner_rpg_exp_a</Element>
+			</Effects>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<CrumbleRadius>4.0</CrumbleRadius>
+			<KnockdownRadius>6.5</KnockdownRadius>
+			<FlinchRadius>10</FlinchRadius>
+			<player_mult>0.6</player_mult>
+			<MaxSalvagePieces>0</MaxSalvagePieces>
+			<SalvageProbability>0</SalvageProbability>
+			<human_damage_min>280</human_damage_min>
+			<Human_Damage_Max>1700</Human_Damage_Max>
+			<Structural_Damage>99999</Structural_Damage> <!--FROM 23625-->
+			<Unique_ID>4</Unique_ID>
+			<camera_shake_type>explosion_large</camera_shake_type>
+			<camera_shake_multiplier>0.9</camera_shake_multiplier>
+			<camera_shake_falloff>55.0</camera_shake_falloff>
+			<player_veh_mult>0.7</player_veh_mult>
+			<Material_Effects>
+				<Entry>
+					<Material>Concrete</Material>
+					<Effect>wep_rpg_exp_cement_a</Effect>
+				</Entry>
+				<Entry>
+					<Material>Terrain</Material>
+					<Effect>wep_rpg_exp_dirt_a</Effect>
+				</Entry>
+				<Entry>
+					<Material>Sand</Material>
+					<Effect>wep_rpg_exp_dirt_a</Effect>
+				</Entry>
+				<Entry>
+					<Material>Gravel</Material>
+					<Effect>wep_rpg_exp_dirt_a</Effect>
+				</Entry>
+			</Material_Effects>
+			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
+			<Ignore_Orientation>False</Ignore_Orientation>
+			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
 <!--END-->
 <!--START DLC WEAPONS ADDED-->

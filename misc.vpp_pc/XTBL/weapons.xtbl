@@ -19,7 +19,7 @@
 			<Default_Refire_Delay>75</Default_Refire_Delay>
 			<To_Spread_Max>25</To_Spread_Max> <!--FROM 5--> <!--<Description>Number of shots for the gun to go to max spread (defaults to zero, ignored for "thrown" and "melee" weapons).</Description>-->
 			<To_Spread_Min>1000</To_Spread_Min> <!--FROM 900--> <!--<Description>Time (in milliseconds) for the gun to settle from maximum spread to minimum spread (defaults to zero, ignored for "thrown" and "melee" weapons).</Description>-->
-			<Spread_Multiplier_Run>1.25</Spread_Multiplier_Run>		
+			<Spread_Multiplier_Run>0.8</Spread_Multiplier_Run>		
 			<Damage_Scaling_Min>
 				<Threshold>5</Threshold>
 				<NPC_Damage>75</NPC_Damage>
@@ -80,7 +80,7 @@
 			<NPC_Firing_Pattern>Default Launcher</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>500</Ammo_Box_Restock>
 			<Num_Magazines>5</Num_Magazines>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<icon_name>ui_badge_icon_target</icon_name>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<reticule_name>ui_hud_reti_grinder</reticule_name>
@@ -192,7 +192,7 @@
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
 			<Default_team>EDF</Default_team>
 			<aim_assist>0.5</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<icon_name>ui_badge_icon_ae_circle</icon_name>
 			<reticule_name>ui_hud_reti_mines</reticule_name>
 		</Weapon>
@@ -252,7 +252,7 @@
 				<Attachment_prop>holster-hammer</Attachment_prop>
 				<Special_Hit_Effect>wep_gutter_impact_flesh</Special_Hit_Effect>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -321,7 +321,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -389,7 +389,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -497,7 +497,7 @@
 				<Inaccurate_flight>0.12</Inaccurate_flight>
 			</Projectile_Info>
 			<Explosion>DLC_missilepod</Explosion>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Max_Rounds_Upgrade>63</Max_Rounds_Upgrade>
 		</Weapon>		
 		<Weapon>
@@ -598,7 +598,7 @@
 			<Fire_Cone_Angle>1.7</Fire_Cone_Angle>
 			<Even_Spread_Accuracy_Angle>0.2</Even_Spread_Accuracy_Angle>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>	
 		<Weapon>
 			<Name>sp_spiker</Name>
@@ -718,7 +718,7 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Max_Rounds_Upgrade>120</Max_Rounds_Upgrade>
 		</Weapon>		
 		<Weapon>
@@ -809,7 +809,7 @@
 			<_Editor>
 				<Category>Entries:EDF</Category>
 			</_Editor>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Bullet_hole_scale>0.8</Bullet_hole_scale>
 		</Weapon>
 <!--END-->
@@ -1128,7 +1128,7 @@
 			<Fire_Cone_Angle>1.7</Fire_Cone_Angle>
 			<Even_Spread_Accuracy_Angle>0.2</Even_Spread_Accuracy_Angle>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>edf_subverter</Name>
@@ -1219,7 +1219,7 @@
 			<_Editor>
 				<Category>Entries:EDF</Category>
 			</_Editor>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Bullet_hole_scale>0.8</Bullet_hole_scale>
 		</Weapon>
 		<Weapon>
@@ -1316,7 +1316,7 @@
 				<Inaccurate_flight>0.12</Inaccurate_flight>
 			</Projectile_Info>
 			<Explosion>DLC_missilepod</Explosion>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Max_Rounds_Upgrade>63</Max_Rounds_Upgrade>
 		</Weapon>
 		<Weapon>
@@ -1438,7 +1438,7 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Max_Rounds_Upgrade>120</Max_Rounds_Upgrade>
 		</Weapon>
 <!--END-->
@@ -1511,7 +1511,7 @@
 			<Default_team>EDF</Default_team>
 			<fine_aim_reticule>ui_hud_reti_assault</fine_aim_reticule>
 			<aim_assist>1.0</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>enforcer</Name>
@@ -1576,14 +1576,14 @@
 			<dummy>False</dummy>
 			<Headshot_Multiplier>2.5</Headshot_Multiplier>
 			<Zoom_Magnification>1.65</Zoom_Magnification>
-			<Autoaim_override>1.03425</Autoaim_override>
+			<Autoaim_override>0.7756875</Autoaim_override> <!--FROM 1.03425-->
 			<Dropped_ammo_scale>0.5</Dropped_ammo_scale>
 			<Unique_ID>99</Unique_ID>
 			<NPC_Autoaim>2.5</NPC_Autoaim>
 			<Default_team>EDF</Default_team>
 			<fine_aim_reticule>ui_hud_reti_enforcer2</fine_aim_reticule>
 			<aim_assist>1.0</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>sniper_rifle</Name>
@@ -1661,7 +1661,7 @@
 			<Visuals>
 				<Player_Hit_Camera_Shake>no_shake</Player_Hit_Camera_Shake>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>autoblaster</Name> <!--PEACEKEEPER-->
@@ -1755,7 +1755,7 @@
 			<Unique_ID>95</Unique_ID>
 			<Melee_Group>Medium_Ranged_Melee_Set</Melee_Group>
 			<Shots_Per_Round>5</Shots_Per_Round>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Fire_Cone_Angle>5.0</Fire_Cone_Angle>
 			<Even_Spread_Accuracy_Angle>3.0</Even_Spread_Accuracy_Angle>
 			<Default_team>EDF</Default_team>
@@ -1767,8 +1767,8 @@
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>bullet</Ammo_Type>
-			<Magazine_Size>4</Magazine_Size>
-			<Max_Rounds>8</Max_Rounds>
+			<Magazine_Size>5</Magazine_Size> <!--FROM 4-->
+			<Max_Rounds>10</Max_Rounds> <!--FROM 8-->
 			<Range_Max>80</Range_Max>
 			<Range_Red>80</Range_Red>
 			<Default_Refire_Delay>1000</Default_Refire_Delay>
@@ -1818,7 +1818,7 @@
 			</Damage_Scaling_Min>
 			<Bullet_hole_scale>1.5</Bullet_hole_scale>
 			<Zoom_Magnification>2.5</Zoom_Magnification>
-			<Ammo_Box_Restock>8</Ammo_Box_Restock>
+			<Ammo_Box_Restock>10</Ammo_Box_Restock> <!--FROM 8-->
 			<Num_Magazines>2</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<icon_name>ui_hud_weapon_icon_rail</icon_name>
@@ -1832,7 +1832,7 @@
 			<Default_team>EDF</Default_team>
 			<fine_aim_reticule>ui_hud_reti_raildriver2</fine_aim_reticule>
 			<aim_assist>0.5</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>gauss_rifle</Name>
@@ -1902,7 +1902,7 @@
 			<Default_team>EDF</Default_team>
 			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule>
 			<aim_assist>1.0</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>nano_rifle</Name>
@@ -1943,7 +1943,7 @@
 			<Spread_Max>1.45</Spread_Max>
 			<Spread_Fine_Aim_Min>0.2</Spread_Fine_Aim_Min>
 			<Spread_Fine_Aim_Max>0.8</Spread_Fine_Aim_Max>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>shotgun</Name>
@@ -2020,7 +2020,7 @@
 				<Tracer_Frequency>0</Tracer_Frequency>
 			</Visuals>
 			<aim_assist>1.0</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>singularity_bomb</Name>
@@ -2057,7 +2057,7 @@
 			<icon_name>ui_hud_weapon_icon_singbomb</icon_name>
 			<Default_team>EDF</Default_team>
 			<aim_assist>0.5</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>edf_pistol</Name>
@@ -2110,7 +2110,7 @@
 			<Spread_Fine_Aim_Max>0.7</Spread_Fine_Aim_Max>
 			<NPC_Firing_Pattern>Default Pistol</NPC_Firing_Pattern>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Reload_Delay>150</Reload_Delay>
 			<Bullet_hole_scale>0.7</Bullet_hole_scale>
 			<Ammo_Box_Restock>32</Ammo_Box_Restock>
@@ -2163,7 +2163,7 @@
 			<NPC_Firing_Pattern>Default m16</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>160</Ammo_Box_Restock>
 			<Num_Magazines>4</Num_Magazines>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<icon_name>ui_hud_weapon_icon_welder</icon_name>
 			<reticule_name>ui_hud_reti_arcwelder</reticule_name>
@@ -2237,7 +2237,7 @@
 				<Time_Until_Drop>5000</Time_Until_Drop>
 			</Projectile_Info>
 			<aim_assist>0.5</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>charge_placer</Name>
@@ -2272,7 +2272,7 @@
 			<Unique_ID>73</Unique_ID>
 			<Reload_Delay>150</Reload_Delay>
 			<aim_assist>0.5</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>rpg_launcher</Name>
@@ -2290,6 +2290,7 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
+			<Explosion>camo_rocket</Explosion> <!--ADDED-->
 			<Projectile_Info>
 				<Model>rpg_projectile</Model>
 				<Max_Speed>28</Max_Speed>
@@ -2333,7 +2334,7 @@
 			<Unique_ID>32</Unique_ID>
 			<Reload_Delay>262</Reload_Delay>
 			<aim_assist>0.5</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>mine_placer</Name>
@@ -2398,7 +2399,7 @@
 				<FarSingleShotInterval>1000</FarSingleShotInterval>
 				<Randomness>150</Randomness>
 			</FiringRate>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<MeleeAttacks>
 				<StandingPrimary>remote_charge_melee</StandingPrimary>
 				<StandingSecondary>remote_charge_punch</StandingSecondary>
@@ -2529,7 +2530,7 @@
 			<NPC_Firing_Pattern>Default Launcher</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>20</Ammo_Box_Restock>
 			<Num_Magazines>4</Num_Magazines>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<icon_name>ui_hud_weapon_icon_grinder</icon_name>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<reticule_name>ui_hud_reti_grinder</reticule_name>
@@ -2601,7 +2602,7 @@
 				<Attachment_prop>holster-hammer</Attachment_prop>
 				<Special_Hit_Effect>wep_gutter_impact_flesh</Special_Hit_Effect>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -2668,7 +2669,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -2734,7 +2735,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -2934,7 +2935,7 @@
 			<Inventory_Item>ab_rpg</Inventory_Item>
 			<Item_3d>rpg_launcher</Item_3d>
 			<Reload_Delay>250</Reload_Delay>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Default Launcher</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>3</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -3001,7 +3002,7 @@
 			<dummy>False</dummy>
 			<Unique_ID>34</Unique_ID>
 			<aim_assist>1.0</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>turret_gauss_standing</Name>
@@ -4196,7 +4197,7 @@
 			<Spread_Fine_Aim_Max>0.7</Spread_Fine_Aim_Max>
 			<NPC_Firing_Pattern>Default Pistol</NPC_Firing_Pattern>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Reload_Delay>150</Reload_Delay>
 			<Bullet_hole_scale>0.7</Bullet_hole_scale>
 			<Ammo_Box_Restock>64</Ammo_Box_Restock>
@@ -4315,7 +4316,7 @@
 			<fine_aim_reticule>ui_hud_reti_assault</fine_aim_reticule>
 			<aim_assist>1.0</aim_assist>
 			<Ragdoll_Chance>15</Ragdoll_Chance>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>turret_tank_1</Name>
@@ -4435,7 +4436,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -4512,7 +4513,7 @@
 				<FarSingleShotInterval>1000</FarSingleShotInterval>
 				<Randomness>150</Randomness>
 			</FiringRate>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<MeleeAttacks>
 				<StandingPrimary>remote_charge_melee</StandingPrimary>
 				<StandingSecondary>remote_charge_punch</StandingSecondary>
@@ -4609,7 +4610,7 @@
 				<Special_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Special_Sound>
 				<No_Ammo_Sound>WEP_CHARGE_DRYFIRE_PC</No_Ammo_Sound>
 			</Sounds>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Reload_Delay>150</Reload_Delay>
 			<Ammo_Box_Restock>18</Ammo_Box_Restock>
@@ -4710,7 +4711,7 @@
 				<Secondary_Camera_Shake>weapon_load_multirpg</Secondary_Camera_Shake>
 			</Visuals>
 			<Reload_Delay>250</Reload_Delay>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Default Launcher</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>9</Ammo_Box_Restock>
 			<Num_Magazines>3</Num_Magazines>
@@ -4818,7 +4819,7 @@
 			<NPC_Firing_Pattern>Default Launcher</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>4</Num_Magazines>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<icon_name>ui_hud_weapon_icon_thermo</icon_name>
 			<reticule_name>ui_hud_reti_thermobaric</reticule_name>
@@ -4926,7 +4927,7 @@
 			<fine_aim_reticule>ui_hud_reti_shotgun2</fine_aim_reticule>
 			<aim_assist>1.0</aim_assist>
 			<Ragdoll_Chance>80</Ragdoll_Chance>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>marauder_shockade</Name>
@@ -5097,7 +5098,7 @@
 			<Unique_ID>7</Unique_ID>
 			<Melee_Group>Medium_Ranged_Melee_Set</Melee_Group>
 			<Shots_Per_Round>5</Shots_Per_Round>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Fire_Cone_Angle>5.0</Fire_Cone_Angle>
 			<Even_Spread_Accuracy_Angle>3.0</Even_Spread_Accuracy_Angle>
 			<Default_team>EDF</Default_team>
@@ -5206,7 +5207,7 @@
 			<fine_aim_reticule>ui_hud_reti_enforcer2</fine_aim_reticule>
 			<aim_assist>1.0</aim_assist>
 			<Ragdoll_Chance>15</Ragdoll_Chance>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>gauss_rifle</Name>
@@ -5308,7 +5309,7 @@
 			<aim_assist>1.0</aim_assist>
 			<AIExplosion>gauss_rifle_npc</AIExplosion>
 			<Ragdoll_Chance>35</Ragdoll_Chance>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>sniper_rifle</Name>
@@ -5410,7 +5411,7 @@
 			<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
 			<aim_assist>0.5</aim_assist>
 			<Ragdoll_Chance>40</Ragdoll_Chance>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>rail_driver</Name>
@@ -5514,7 +5515,7 @@
 			<Dropped_ammo_scale>0.4</Dropped_ammo_scale>
 			<aim_assist>0.5</aim_assist>
 			<Ragdoll_Chance>35</Ragdoll_Chance>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>grenade</Name>
@@ -5601,7 +5602,7 @@
 			<Unique_ID>68</Unique_ID>
 			<Default_team>EDF</Default_team>
 			<aim_assist>1.0</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>singularity_bomb</Name>
@@ -5679,7 +5680,7 @@
 			</Visuals>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
 			<reticule_name>ui_hud_reti_singularitybomb</reticule_name>
@@ -5784,7 +5785,7 @@
 			<fine_aim_reticule>ui_hud_reti_nano2</fine_aim_reticule>
 			<Max_Rounds_Upgrade>30</Max_Rounds_Upgrade>
 			<aim_assist>1.0</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>grinder</Name>
@@ -5887,7 +5888,7 @@
 			<NPC_Firing_Pattern>Default Launcher</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>21</Ammo_Box_Restock>
 			<Num_Magazines>3</Num_Magazines>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<icon_name>ui_hud_weapon_icon_grinder</icon_name>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<reticule_name>ui_hud_reti_grinder</reticule_name>
@@ -5969,7 +5970,7 @@
 			<NPC_Firing_Pattern>Default m16</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>200</Ammo_Box_Restock>
 			<Num_Magazines>4</Num_Magazines>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<icon_name>ui_hud_weapon_icon_welder</icon_name>
 			<reticule_name>ui_hud_reti_arcwelder</reticule_name>
@@ -6047,7 +6048,7 @@
 			<MeleeAttacks>
 				<StandingPrimary>propane_tank_melee</StandingPrimary>
 			</MeleeAttacks>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -6120,7 +6121,7 @@
 			</Sounds>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<aim_assist>0.5</aim_assist>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>ab_rpg_dfa</Name>
@@ -6172,7 +6173,7 @@
 			<Inventory_Item>ab_rpg_dfa</Inventory_Item>
 			<Item_3d>rpg_launcher</Item_3d>
 			<Reload_Delay>250</Reload_Delay>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Default Launcher</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>3</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -6647,7 +6648,7 @@
 			<Inventory_Item>ab_rpg_kill_player</Inventory_Item>
 			<Item_3d>rpg_launcher</Item_3d>
 			<Reload_Delay>250</Reload_Delay>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Default Launcher</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>3</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -7152,7 +7153,7 @@
 			<Inventory_Item>satellite_rpg</Inventory_Item>
 			<Item_3d>rpg_launcher</Item_3d>
 			<Reload_Delay>250</Reload_Delay>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Default Launcher</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>3</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -7794,7 +7795,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -7852,7 +7853,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -7910,7 +7911,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -7967,7 +7968,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -8024,7 +8025,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -8081,7 +8082,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -8138,7 +8139,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -8195,7 +8196,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -8252,7 +8253,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -8309,7 +8310,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -8366,7 +8367,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -8423,7 +8424,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -8480,7 +8481,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -8537,7 +8538,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
@@ -8780,7 +8781,7 @@
 			<Max_Engagement_Distance>10</Max_Engagement_Distance>
 			<Inventory_Item>generic_inventory_item</Inventory_Item>
 			<Item_3d>grinder</Item_3d>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>12</Num_Magazines>
@@ -8997,7 +8998,7 @@
 			</Visuals>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
 			<reticule_name>ui_hud_reti_singularitybomb</reticule_name>
@@ -9295,7 +9296,7 @@
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
 			</Visuals>
-			<Player_Move_Speed>1.25</Player_Move_Speed>
+			<Player_Move_Speed>1</Player_Move_Speed>
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
