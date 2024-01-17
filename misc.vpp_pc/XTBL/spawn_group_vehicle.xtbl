@@ -1215,8 +1215,9 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+<!--START Safehouses-->		
 		<spawn_group_vehicle>
-			<Name>Amb_0410Safehouse</Name>
+			<Name>Amb_0410Safehouse</Name> <!--PARKER-->
 			<vehicle_list>
 				<vehicle_type>Min_LightPickup_1</vehicle_type>
 				<vehicle_type>Min_LightPickup_2</vehicle_type>
@@ -1305,6 +1306,7 @@
 				<Category>Entries:AmbientGroups</Category>
 			</_Editor>
 		</spawn_group_vehicle>
+<!--END Safehouses-->		
 		<spawn_group_vehicle>
 			<Name>EDF_staff_car_Gauss</Name>
 			<vehicle_list>
