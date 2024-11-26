@@ -3,9 +3,6 @@ v1.08 BETA CHANGES
 ------------------
 [New Weapon]
 * Added experimental Light Machine Gun
-* Added DLC Marauder Remote Charges to MP (hopefully, if RfgUtil can support peg files)
-* Added DLC Pickaxe to MP
-* Added DLC Royal Sword to MP
 
 [Interface]
 * Initial loading screen updated to current patch version
@@ -15,21 +12,14 @@ v1.08 BETA CHANGES
 * Increased population density
 * Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can also find them at the Badlands safehouse
 * Added Base SP Marauder Vehicles to DLC SP
-* Added DLC Weapons to Base SP (Add details like all the weapons in own line, add other weapons etc)
+
 * Added Bulldozer vehicle spawn to all safehouses
 
 [Misc]
 * Added SP DLC precache assets to "mp_common.vpp_pc", will be useful for transferring SP DLC map assets to MP maps in the future
 * Re-added comments for changes the patch makes to ".xtbls", they don't seem to cause issues since some vanilla .xtbl files use them and the game ignores entries that are commented out
 * Patch rebuilt "hopefully" for the last time to reduce file size using the new loose file feature in SyncFaction 
-* Reduced loading times in multiplayer (misc, table, mp_common and INSERT files here are now uncompressed + uncondensed)
 * Reverted some more out of scope changes in "tweak_table.xtbl" & added comments for gameplay add-on in future
-
-[Weapons]
-* [Insert changes to grenade here]
-
-[Characters]
-* Restored cut vanilla characters in multiplayer thanks to Reconstructor increasing a hardcoded limit (not done yet)
 
 [Maps]
 * Added team spawns & CTF to various WC maps
@@ -63,10 +53,19 @@ v1.08 BETA CHANGES
 * Fixed some spawns on Quarantine Siege
 * Fixed DLC weapon reticules & icons in SP DLC
 * Fixed missing some stuff for new weapons added by patch in "aim_drift.xtbl" & "weapon_firing_patterns.xtbl"
-* Fixed issue with team backpack racks not glowing red (hopefully, need to doublecheck)
-* Fixed issue with DLC Spiker weapon missing texture when it's on the ground or far away from player (hopefully, if RfgUtil can support peg files)
-* Fixed issue with XP message spam when finishing or winning a match (change still needs to be made in mp_xp.xtbl)
 * Fixed vanilla issue with missing specular textures in SP
 * Fixed vanilla issue with memorial texture in SP
 * Fixed vanilla issue with missing specular texture on Fallfactor and Junkyard maps
 * Fixed various issues on all maps
+
+[?]
+* Fixed issue with DLC Spiker weapon missing texture when it's on the ground or far away from player (hopefully, if RfgUtil or Rasts Tools can support peg files) ?
+* Fixed issue with XP message spam when finishing or winning a match (change still needs to be made in mp_xp.xtbl) ?
+* Fixed issue with team backpack racks not glowing red (hopefully, need to doublecheck)
+* Restored cut vanilla characters in multiplayer thanks to Reconstructor increasing a hardcoded limit (not done yet)
+* Reduced loading times in multiplayer (misc, table, mp_common and INSERT files here are now uncompressed + uncondensed)
+* [Insert changes to grenade here]
+* Added DLC Marauder Remote Charges to MP (hopefully, if RfgUtil can support peg files)	
+* Added DLC Pickaxe to MP
+* Added DLC Royal Sword to MP
+* Added DLC Weapons to Base SP (Add details like all the weapons in own line, add other weapons etc)
