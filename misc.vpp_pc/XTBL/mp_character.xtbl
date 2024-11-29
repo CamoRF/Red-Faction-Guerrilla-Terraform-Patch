@@ -2341,7 +2341,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				<Character_Element>
+<!--				<Character_Element>
 					<Character_Name>Bev</Character_Name>
 					<Display_Name>MENU_CHAR_BEV</Display_Name>
 					<Bitmap_Name>ui_mp_char_bev</Bitmap_Name>
@@ -2437,7 +2437,7 @@
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
-				</Character_Element>
+				</Character_Element>-->
 				<Character_Element>
 					<Character_Name>mp_guerilla_engineer_mason</Character_Name>
 					<Display_Name>MENU_CHAR_MASON</Display_Name>
@@ -3117,12 +3117,12 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				<Character_Element>
+<!--				<Character_Element>
 					<Character_Name>Jackson_Dust</Character_Name>
 					<Display_Name>MENU_CHAR_JACKSON</Display_Name>
-					<Bitmap_Name>ui_mp_char_jackson</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level> <!--FROM 34-->
-					<Persona_Group>Guerrilla Male</Persona_Group>
+					<Bitmap_Name>ui_mp_char_jackson</Bitmap_Name>-->
+					<!--<Unlock_Level>0</Unlock_Level>--> <!--FROM 34-->
+<!--					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
 							<backpack_name>Vision</backpack_name>
@@ -3213,7 +3213,7 @@
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
-				</Character_Element>
+				</Character_Element>-->
 				<Character_Element>
 					<Character_Name>Clark</Character_Name>
 					<Display_Name>MENU_CHAR_CLARK</Display_Name>
@@ -6061,12 +6061,12 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-				<Character_Element>
+<!--				<Character_Element>
 					<Character_Name>MP_Jackson</Character_Name>
 					<Display_Name>MENU_CHAR_JACKSON</Display_Name>
 					<Bitmap_Name>ui_mp_char_jackson</Bitmap_Name>
-					<Unlock_Level>0</Unlock_Level> <!--FROM 34-->
-					<Persona_Group>Guerrilla Male</Persona_Group>
+					<Unlock_Level>0</Unlock_Level>--> <!--FROM 34-->
+<!--					<Persona_Group>Guerrilla Male</Persona_Group>
 					<backpack_offsets>
 						<backpack>
 							<backpack_name>Commando</backpack_name>
@@ -6157,7 +6157,7 @@
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
-				</Character_Element>
+				</Character_Element>-->
 				<Character_Element>
 					<Character_Name>MP_Selma</Character_Name>
 					<Display_Name>MENU_CHAR_SELMA</Display_Name>
