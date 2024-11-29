@@ -6,7 +6,7 @@
 <!--START Characters ADDED-->
 				<Character_Element>
 					<Character_Name>EDF_Elite_Heavy_Tan_MP</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]EDF HEAVY[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_EDF_HEAVY</Display_Name>
 					<Bitmap_Name>ui_mp_char_edf_heavy</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
@@ -103,7 +103,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>mason</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]ALEC (ARMOR)[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_ALEC_ARMOR</Display_Name>
 					<Bitmap_Name>ui_mp_char_mason</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
@@ -200,7 +200,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>dlc_sam</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]DLC Samanya[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_MP_DLC_SAM</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -297,7 +297,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>dlc_hess</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]DLC Hess[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_DLC_HESS</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo5</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
@@ -394,7 +394,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>dlc_vasha</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]DLC Vasha[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_VASHA</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo5</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -491,7 +491,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Carmen</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Carmen[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_CARMEN</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo1</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -588,7 +588,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Camie</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Camie[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_CAMIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo5</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -685,7 +685,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Jorge</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Jenkins[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_JENKINS</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo2</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
@@ -782,7 +782,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>jean_oasis</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Elegant Jean[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_JEAN</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo7</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
@@ -879,7 +879,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Samanya</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Samanya[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_SAM</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -976,7 +976,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Mila_Oasis</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Mila[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_MILA</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo7</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -1073,7 +1073,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Debbie</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Scientist[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_DEBBIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo7</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -1170,7 +1170,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Marie</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Marie[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_MARIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo7</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -1267,7 +1267,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Rachel</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Elegant Rachel[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_RACHEL</Display_Name>
 					<Bitmap_Name>ui_mp_char_rachel</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -1364,7 +1364,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Admiral_Kobel</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Admiral Kobel[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_KOBEL</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo3</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
@@ -1461,7 +1461,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>EDF_General_Roth</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]General Roth[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_ROTH</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo4</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
@@ -1558,7 +1558,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>EDF_Voice</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Voice of Mars[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_VOICE_OF_MARS</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo6</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -1655,7 +1655,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Ian_Oasis</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Elegant Ian[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_IAN</Display_Name>
 					<Bitmap_Name>ui_mp_char_ian</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
@@ -4971,7 +4971,7 @@
 <!--START Characters ADDED-->
 				<Character_Element>
 					<Character_Name>Admiral_Kobel</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Admiral Kobel[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_KOBEL</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo3</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
@@ -4979,7 +4979,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>EDF_General_Roth</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]General Roth[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_ROTH</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo4</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
@@ -4987,7 +4987,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>EDF_Voice</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Voice of Mars[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_VOICE_OF_MARS</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo6</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -4995,7 +4995,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>EDF_Elite_Heavy_MP</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]EDF HEAVY[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_EDF_HEAVY</Display_Name>
 					<Bitmap_Name>ui_mp_char_edf_heavy_w</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>EDF Male</Persona_Group>
@@ -5142,7 +5142,7 @@
 <!--START Characters ADDED-->
 				<Character_Element>
 					<Character_Name>dlc_sam</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]DLC Samanya[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_DLC_SAM</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -5150,7 +5150,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>dlc_hess</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]DLC Hess[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_DLC_HESS</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo5</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
@@ -5158,7 +5158,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>dlc_vasha</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]DLC Vasha[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_DLC_VASHA</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo5</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -5166,7 +5166,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>EddieMP</Character_Name>
-					<Display_Name>MENU_CHAR_EDDIE</Display_Name> <!--[FORMAT][COLOR:#00FF8C]EDF HEAVY[/FORMAT]-->
+					<Display_Name>TF_MENU_CHAR_EDDIE</Display_Name> <!--Fix the string in localtexts_en_us to have their actual in game name-->
 					<Bitmap_Name>ui_mp_char_eddie</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Marauder Male</Persona_Group>
@@ -5174,7 +5174,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>SladeMP</Character_Name>
-					<Display_Name>MENU_CHAR_SLADE</Display_Name> <!--[FORMAT][COLOR:#00FF8C]EDF HEAVY[/FORMAT]-->
+					<Display_Name>TF_MENU_CHAR_SLADE</Display_Name>
 					<Bitmap_Name>ui_mp_char_slade</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Marauder Male</Persona_Group>
@@ -5182,7 +5182,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>MuirMP</Character_Name>
-					<Display_Name>MENU_CHAR_MUIR</Display_Name> <!--[FORMAT][COLOR:#00FF8C]EDF HEAVY[/FORMAT]-->
+					<Display_Name>TF_MENU_CHAR_MUIR</Display_Name> <!--END-->
 					<Bitmap_Name>ui_mp_char_muir</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Marauder Male</Persona_Group>
@@ -5190,7 +5190,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Camie</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Camie[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_CAMIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo5</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Marauder Male</Persona_Group>
@@ -5198,7 +5198,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Debbie</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Scientist[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_DEBBIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo7</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -5206,7 +5206,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Carmen</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Carmen[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_CARMEN</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo1</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -5214,7 +5214,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Jorge</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Jenkins[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_JENKINS</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo2</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
@@ -5222,7 +5222,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Ian_Oasis</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Elegant Ian[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_IAN</Display_Name>
 					<Bitmap_Name>ui_mp_char_ian</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
@@ -5230,7 +5230,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>jean_oasis</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Elegant Jean[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_JEAN</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo7</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Male</Persona_Group>
@@ -5238,7 +5238,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Samanya</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Samanya[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_SAM</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -5246,7 +5246,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Mila_Oasis</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Mila[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_MILA</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo7</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -5254,7 +5254,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Debbie</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Scientist[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_DEBBIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo7</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -5262,7 +5262,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Marie</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Marie[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_MARIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo7</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -5270,7 +5270,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>Rachel</Character_Name>
-					<Display_Name>[FORMAT][COLOR:#00FF8C]Elegant Rachel[/FORMAT]</Display_Name>
+					<Display_Name>TF_MENU_CHAR_RACHEL</Display_Name>
 					<Bitmap_Name>ui_mp_char_rachel</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
