@@ -36495,94 +36495,130 @@
   },  
   {
     "Identifier": "TF_MENU_CHAR_EDF_HEAVY",
-    "String": "[format][color:#00ff8c]EDF HEAVY[/format]"
+    "String": "[format][color:#ff8010]EDF HEAVY[/format]"
   },  
   {
     "Identifier": "TF_MENU_CHAR_ALEC_ARMOR",
-    "String": "[format][color:#00ff8c]ALEC MASON (ARMOR)[/format]"
+    "String": "[format][color:#ff8010]ALEC MASON (ARMOR)[/format]"
   }, 
   {
     "Identifier": "TF_MENU_CHAR_DLC_SAM",
-    "String": "[format][color:#00ff8c]DLC SAMANYA[/format]"
+    "String": "[format][color:#ff8010]DLC SAMANYA[/format]"
   },  
   {
     "Identifier": "TF_MENU_CHAR_DLC_HESS",
-    "String": "[format][color:#00ff8c]DLC HESS[/format]"
+    "String": "[format][color:#ff8010]DLC HESS[/format]"
   },  
   {
     "Identifier": "TF_MENU_CHAR_DLC_VASHA",
-    "String": "[format][color:#00ff8c]DLC VASHA[/format]"
+    "String": "[format][color:#ff8010]DLC VASHA[/format]"
   },   
   {
     "Identifier": "TF_MENU_CHAR_CARMEN",
-    "String": "[format][color:#00ff8c]CARMEN[/format]"
+    "String": "[format][color:#ff8010]CARMEN[/format]"
   },   
   {
     "Identifier": "TF_MENU_CHAR_CAMIE",
-    "String": "[format][color:#00ff8c]CARMEN[/format]"
+    "String": "[format][color:#ff8010]CAMIE[/format]"
   },   
   {
     "Identifier": "TF_MENU_CHAR_JENKINS",
-    "String": "[format][color:#00ff8c]JENKINS[/format]"
+    "String": "[format][color:#ff8010]JENKINS[/format]"
   },   
   {
     "Identifier": "TF_MENU_CHAR_JEAN",
-    "String": "[format][color:#00ff8c]JEAN (ELEGANT)[/format]"
+    "String": "[format][color:#ff8010]JEAN (ELEGANT)[/format]"
   },    
   {
     "Identifier": "TF_MENU_CHAR_SAM",
-    "String": "[format][color:#00ff8c]SAMANYA[/format]"
+    "String": "[format][color:#ff8010]SAMANYA[/format]"
   },     
   {
     "Identifier": "TF_MENU_CHAR_MILA",
-    "String": "[format][color:#00ff8c]MILA[/format]"
+    "String": "[format][color:#ff8010]MILA[/format]"
   },   
   {
     "Identifier": "TF_MENU_CHAR_DEBBIE",
-    "String": "[format][color:#00ff8c]DEBBIE (SCIENTIST)[/format]"
+    "String": "[format][color:#ff8010]DEBBIE (SCIENTIST)[/format]"
   },   
   {
     "Identifier": "TF_MENU_CHAR_MARIE",
-    "String": "[format][color:#00ff8c]MARIE[/format]"
+    "String": "[format][color:#ff8010]MARIE[/format]"
   },  
   {
     "Identifier": "TF_MENU_CHAR_RACHEL",
-    "String": "[format][color:#00ff8c]RACHEL (ELEGANT)[/format]"
+    "String": "[format][color:#ff8010]RACHEL (ELEGANT)[/format]"
   }, 
   {
     "Identifier": "TF_MENU_CHAR_KOBEL",
-    "String": "[format][color:#00ff8c]ADMIRAL KOBEL[/format]"
+    "String": "[format][color:#ff8010]ADMIRAL KOBEL[/format]"
   },   
   {
     "Identifier": "TF_MENU_CHAR_ROTH",
-    "String": "[format][color:#00ff8c]GENERAL ROTH[/format]"
+    "String": "[format][color:#ff8010]GENERAL ROTH[/format]"
   },   
   {
     "Identifier": "TF_MENU_CHAR_VOICE_OF_MARS",
-    "String": "[format][color:#00ff8c]VOICE OF MARS[/format]"
+    "String": "[format][color:#ff8010]VOICE OF MARS[/format]"
   },  
   {
     "Identifier": "TF_MENU_CHAR_IAN",
-    "String": "[format][color:#00ff8c]IAN (ELEGANT)[/format]"
-  },     
-  {
-    "Identifier": "TF_MENU_CHAR_IAN",
-    "String": "[format][color:#00ff8c]IAN (ELEGANT)[/format]"
-  },    
+    "String": "[format][color:#ff8010]IAN (ELEGANT)[/format]"
+  },       
   {
     "Identifier": "TF_MENU_CHAR_EDDIE",
-    "String": "[format][color:#00ff8c]EDDIE[/format]"
+    "String": "[format][color:#ff8010]EDDIE[/format]"
   },   
   {
     "Identifier": "TF_MENU_CHAR_SLADE",
-    "String": "[format][color:#00ff8c]SLADE[/format]"
+    "String": "[format][color:#ff8010]SCAVENGER[/format]"
   },     
   {
-    "Identifier": "TF_MENU_CHAR_SLADE",
-    "String": "[format][color:#00ff8c]MUIR[/format]"
+    "Identifier": "TF_MENU_CHAR_MUIR",
+    "String": "[format][color:#ff8010]MUIR[/format]"
+  },  
+  {
+    "Identifier": "TF_MENU_LEVEL_WAREHOUSE",
+    "String": "[format][color:#ff8010]WAREHOUSE[/format]"
   },   
   {
-    "Identifier": "TF_MP_SHIPMENT",
-    "String": "SHIPMENT"
+    "Identifier": "TF_MENU_LEVEL_JUNKYARD",
+    "String": "[format][color:#ff8010]JUNKYARD[/format]"
+  },   
+  {
+    "Identifier": "TF_MENU_LEVEL_SHIPMENT",
+    "String": "[format][color:#ff8010]SHIPMENT[/format]"
+  },
+  {
+    "Identifier": "TF_MENU_LEVEL_CLIFFSIDE",
+    "String": "[format][color:#ff8010]CLIFFSIDE[/format]"
+  },  
+  {
+    "Identifier": "TF_MENU_LEVEL_PARTIAL_RECALL",
+    "String": "[format][color:#ff8010]PARTIAL RECALL[/format]"
+  },
+  {
+    "Identifier": "TF_BACKPACK_KABOOM",
+    "String": "[format][color:#ff8010]KABOOM[/format]"
+  },  
+  {
+    "Identifier": "TF_BACKPACK_JETPACK_OP",
+    "String": "[format][color:#ff8010]JETPACK OP[/format]"
+  },  
+  {
+    "Identifier": "TF_BACKPACK_THRUST_OP",
+    "String": "[format][color:#ff8010]JETPACK OP[/format]"
+  },      
+  {
+    "Identifier": "TF_BACKPACK_CONCUSSION_OP",
+    "String": "[format][color:#ff8010]CONCUSSION OP[/format]"
+  },    
+  {
+    "Identifier": "TF_BACKPACK_RHINO_OP",
+    "String": "[format][color:#ff8010]RHINO OP[/format]"
+  },      
+  {
+    "Identifier": "TF_BACKPACK_REPAIR",
+    "String": "[format][color:#ff8010]REPAIR[/format]"
   }
 ]

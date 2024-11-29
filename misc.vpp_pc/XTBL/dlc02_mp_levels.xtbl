@@ -17,7 +17,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>10.0</wind_intensity>
 			<wind_direction>345.0</wind_direction>
-			<Display_name>MPDCT_FALLFACTOR_001</Display_name> <!--FROM MPDCT_FALLFACTOR_001-->
+			<Display_name>TF_MENU_LEVEL_WAREHOUSE</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -50,7 +50,7 @@
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MPDCT_DEADZONE_002</Display_name>
+			<Display_name>TF_MENU_LEVEL_JUNKYARD</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -85,8 +85,7 @@
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>5.0</wind_intensity>
 			<wind_direction>150</wind_direction>
-			<Display_name>TF_MP_SHIPMENT</Display_name>			
-			<!--<Display_name>MPST_CRESCENT_002</Display_name>-->
+			<Display_name>TF_MENU_LEVEL_SHIPMENT</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -121,7 +120,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MPDCT_RIFT_002</Display_name>
+			<Display_name>TF_MENU_LEVEL_CLIFFSIDE</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -156,7 +155,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>25</wind_intensity>
 			<wind_direction>190</wind_direction>
-			<Display_name>MENU_PLYLST_PATCH_35</Display_name>
+			<Display_name>TF_MENU_LEVEL_PARTIAL_RECALL</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>

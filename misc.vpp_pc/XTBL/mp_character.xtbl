@@ -200,7 +200,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>dlc_sam</Character_Name>
-					<Display_Name>TF_MENU_CHAR_MP_DLC_SAM</Display_Name>
+					<Display_Name>TF_MENU_CHAR_DLC_SAM</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -394,7 +394,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>dlc_vasha</Character_Name>
-					<Display_Name>TF_MENU_CHAR_VASHA</Display_Name>
+					<Display_Name>TF_MENU_CHAR_DLC_VASHA</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo5</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Guerrilla Female</Persona_Group>
@@ -5166,7 +5166,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>EddieMP</Character_Name>
-					<Display_Name>TF_MENU_CHAR_EDDIE</Display_Name> <!--Fix the string in localtexts_en_us to have their actual in game name-->
+					<Display_Name>TF_MENU_CHAR_EDDIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_eddie</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Marauder Male</Persona_Group>
@@ -5182,7 +5182,7 @@
 				</Character_Element>
 				<Character_Element>
 					<Character_Name>MuirMP</Character_Name>
-					<Display_Name>TF_MENU_CHAR_MUIR</Display_Name> <!--END-->
+					<Display_Name>TF_MENU_CHAR_MUIR</Display_Name>
 					<Bitmap_Name>ui_mp_char_muir</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
 					<Persona_Group>Marauder Male</Persona_Group>
