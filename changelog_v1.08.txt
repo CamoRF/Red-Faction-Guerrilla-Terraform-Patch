@@ -12,7 +12,6 @@ v1.08 BETA CHANGES
 * Increased population density
 * Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can also find them at the Badlands safehouse
 * Added Base SP Marauder Vehicles to DLC SP
-
 * Added Bulldozer vehicle spawn to all safehouses
 
 [Misc]
@@ -27,8 +26,11 @@ v1.08 BETA CHANGES
 * Renamed filename for Shipment to "mp_shipment.vpp_pc"
 * Renamed filename for Cliffside to "mp_clifside.vpp_pc"
 * Renamed filename for Partial Recall to "mp_partial_recall.vpp_pc"
-* Removed Pipeline Pitfalls "vpp_pc" file since the map has been disabled for a while increasing file size of patch for no reason
 * Remade Scrapheap with various improvements & fixes
+
+[New Maps]
+* Pipeline Pitfall
+* Retribution
 
 [Junkyard Map Updates]
 * Added some line of sight fixes/improvements
