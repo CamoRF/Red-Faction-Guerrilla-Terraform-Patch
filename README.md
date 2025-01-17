@@ -1,7 +1,5 @@
 ![Logo](https://raw.githubusercontent.com/CamoRF/Red-Faction-Guerrilla-Terraform-Patch/main/Logo.png?raw=true "Logo")
 
-# Development Paused: due to waiting on new tools and other reasons I'm not currently working on this.
-
 - Version: v1.0753 HOTFIX
 - Date: 6-10-2023
 - Build: 1135
