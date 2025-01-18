@@ -1,8 +1,16 @@
-------------------
-v1.08 BETA CHANGES
-------------------
-[New Weapon]
+--------------
+v2.00 CHANGES
+--------------
+
+[New Weapons]
 * Added experimental Light Machine Gun
+* Added DLC Pickaxe to MP
+* Added DLC Royal Sword to MP
+* Added DLC Marauder Remote Charges to MP (hopefully, if RfgUtil can support peg files)	
+
+[Weapon Balance]
+* Grenade (need to compare changes and add notes)
+* Rocket launcher damage to buildings (same as above)
 
 [Interface]
 * Initial loading screen updated to current patch version
@@ -13,12 +21,15 @@ v1.08 BETA CHANGES
 * Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can also find them at the Badlands safehouse
 * Added Base SP Marauder Vehicles to DLC SP
 * Added Bulldozer vehicle spawn to all safehouses
+* Added DLC Weapons to Base SP
 
 [Misc]
 * Added SP DLC precache assets to "mp_common.vpp_pc", will be useful for transferring SP DLC map assets to MP maps in the future
 * Re-added comments for changes the patch makes to ".xtbls", they don't seem to cause issues since some vanilla .xtbl files use them and the game ignores entries that are commented out
 * Patch rebuilt "hopefully" for the last time to reduce file size using the new loose file feature in SyncFaction 
 * Reverted some more out of scope changes in "tweak_table.xtbl" & added comments for gameplay add-on in future
+* Restored cut vanilla characters in multiplayer thanks to Reconstructor increasing a hardcoded limit
+* Optimized loading times (misc, table, mp_common and INSERT files here are now uncompressed + uncondensed)
 
 [Maps]
 * Added team spawns & CTF to various WC maps
@@ -50,6 +61,7 @@ v1.08 BETA CHANGES
 * Updated maps with various fixes
 
 [Fixes]
+* Fixed crash when loading SP DLC
 * Fixed some spawns on Transmission
 * Fixed some spawns on Partial Recall
 * Fixed some spawns on Quarantine Siege
@@ -59,15 +71,6 @@ v1.08 BETA CHANGES
 * Fixed vanilla issue with memorial texture in SP
 * Fixed vanilla issue with missing specular texture on Fallfactor and Junkyard maps
 * Fixed various issues on all maps
-
-[?]
-* Fixed issue with DLC Spiker weapon missing texture when it's on the ground or far away from player (hopefully, if RfgUtil or Rasts Tools can support peg files) ?
-* Fixed issue with XP message spam when finishing or winning a match (change still needs to be made in mp_xp.xtbl) ?
-* Fixed issue with team backpack racks not glowing red (hopefully, need to doublecheck)
-* Restored cut vanilla characters in multiplayer thanks to Reconstructor increasing a hardcoded limit (not done yet)
-* Reduced loading times in multiplayer (misc, table, mp_common and INSERT files here are now uncompressed + uncondensed)
-* [Insert changes to grenade here]
-* Added DLC Marauder Remote Charges to MP (hopefully, if RfgUtil can support peg files)	
-* Added DLC Pickaxe to MP
-* Added DLC Royal Sword to MP
-* Added DLC Weapons to Base SP (Add details like all the weapons in own line, add other weapons etc)
+* Fixed issue with XP message spam when finishing a multiplayer match
+* Fixed issue with team backpack racks not glowing red if your team cannot use them
+* Fixed issue with DLC Spiker weapon missing texture when it's on the ground or far away from player (not done yet)

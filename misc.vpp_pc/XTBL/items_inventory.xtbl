@@ -115,7 +115,7 @@
 		</Inventory_Item>
 		<Inventory_Item>
 			<Name>mar_charge_placer</Name>
-			<Display_Name>DLC REMOTE CHARGES</Display_Name> <!--FROM WEAP_CHARGE_PLACER-->
+			<Display_Name>WEAP_CHARGE_PLACER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
@@ -126,7 +126,7 @@
 		</Inventory_Item>
 		<Inventory_Item>
 			<Name>royal_sword</Name>
-			<Display_Name>ROYAL SWORD</Display_Name> <!--FROM WEAP_ROYAL_SWORD-->
+			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
