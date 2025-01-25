@@ -120,14 +120,6 @@
 			</_Editor>
 			<image_name>mp_hammer_ostrich</image_name>
 		</unlockable>
-		<unlockable>
-			<Name>pickaxe</Name>
-			<level_needed>0</level_needed> <!--FROM 125-->
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<image_name></image_name>
-		</unlockable>		
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

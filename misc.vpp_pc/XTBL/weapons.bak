@@ -887,9 +887,9 @@
 			<Reload_Delay>150</Reload_Delay>
 			<Ammo_Box_Restock>50</Ammo_Box_Restock>
 			<Num_Magazines>50</Num_Magazines>
-			<icon_name>ui_hud_weapon_icon_charges</icon_name> <!--FROM: ui_hud_weapon_icon_mcharge-->
+			<icon_name>ui_hud_weapon_icon_mcharge</icon_name> <!--CHANGE-->
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<reticule_name>ui_hud_reti_mines</reticule_name> <!--FROM: ui_hud_reti_maraudercharge -->
+			<reticule_name>ui_hud_reti_maraudercharge</reticule_name> <!--CHANGE-->
 			<dummy>False</dummy>
 			<Unique_ID>156</Unique_ID>
 			<Melee_Group>Small_Ranged_Melee_Set</Melee_Group>
@@ -959,8 +959,8 @@
 			<Num_Magazines>2</Num_Magazines>
 			<Player_Move_Speed>1.09</Player_Move_Speed>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<icon_name>ui_badge_icon_swords</icon_name> <!--FROM ui_hud_weapon_icon_royalsword-->
-			<reticule_name>ui_hud_reti_gutter</reticule_name> <!--FROM ui_hud_reti_royalsword-->
+			<icon_name>ui_hud_weapon_icon_royalsword</icon_name> <!--CHANGE-->
+			<reticule_name>ui_hud_reti_royalsword</reticule_name> <!--CHANGE-->
 			<dummy>False</dummy>
 			<Unique_ID>154</Unique_ID>
 			<Melee_Group>Gutter</Melee_Group>
@@ -970,7 +970,7 @@
 		</Weapon>
 		<Weapon>
 			<Name>pickaxe</Name>
-			<Weapon_Class>melee_sledgehammer</Weapon_Class> <!--FROM melee-->
+			<Weapon_Class>melee</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
 			<Magazine_Size>1</Magazine_Size>
@@ -1018,9 +1018,9 @@
 			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
 			<Ammo_Box_Restock>0</Ammo_Box_Restock>
 			<Num_Magazines>2</Num_Magazines>
-			<icon_name>ui_mp_weapon_upgrade1</icon_name> <!--FROM: ui_hud_weapon_icon_pickaxe-->
+			<icon_name>ui_hud_weapon_icon_pickaxe</icon_name> <!--CHANGE-->
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<reticule_name>ui_hud_reti_hammer</reticule_name> <!--FROM: ui_hud_reti_pickaxe-->
+			<reticule_name>ui_hud_reti_pickaxe</reticule_name> <!--CHANGE-->
 			<dummy>False</dummy>
 			<Melee_Group>Sledgehammer</Melee_Group>
 			<Unique_ID>155</Unique_ID>
