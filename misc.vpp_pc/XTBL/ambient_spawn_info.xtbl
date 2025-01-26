@@ -496,19 +496,6 @@
 				<Category>Parker</Category>
 			</_Editor>
 		</ambient_spawn_info>
-<!--		<ambient_spawn_info>
-			<Name>Racetrack</Name>
-			<npc_spawn_group>Default Guerilla</npc_spawn_group>
-			<vehicle_spawn_group>racetrack</vehicle_spawn_group>
-			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
-			<_Editor>
-				<Category>Test</Category>
-			</_Editor>
-			<ped_spawn_density>High</ped_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
-		</ambient_spawn_info>-->
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

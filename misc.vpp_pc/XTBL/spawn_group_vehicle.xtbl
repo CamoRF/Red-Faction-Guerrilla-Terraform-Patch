@@ -537,6 +537,30 @@
 				<vehicle_type>Col_Caravan_1</vehicle_type>
 				<vehicle_type>Col_Caravan_2</vehicle_type>
 				<vehicle_type>Col_Caravan_3</vehicle_type>
+<!--START ADDED-->
+				<vehicle_type>Min_LightPickup_1</vehicle_type>
+				<vehicle_type>Min_LightPickup_2</vehicle_type>
+				<vehicle_type>Min_LightPickup_3</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_1</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_2</vehicle_type>
+				<vehicle_type>Min_SupplyTruck_3</vehicle_type>
+				<vehicle_type>Min_Rover-A_1</vehicle_type>
+				<vehicle_type>Min_Rover-A_2</vehicle_type>
+				<vehicle_type>Min_Rover-A_3</vehicle_type>
+				<vehicle_type>Min_ATV_1</vehicle_type>					
+				<vehicle_type>Min_ATV_2</vehicle_type>
+				<vehicle_type>Min_ATV_3</vehicle_type>	
+				<vehicle_type>Col_Mini_Hauler_1</vehicle_type>		
+				<vehicle_type>Col_Mini_Hauler_2</vehicle_type>
+				<vehicle_type>Col_Mini_Hauler_3</vehicle_type>	
+				<vehicle_type>Min_DumpTruck_1</vehicle_type>				
+				<vehicle_type>Min_DumpTruck_2</vehicle_type>
+				<vehicle_type>Min_DumpTruck_3</vehicle_type>	
+				<vehicle_type>Col_FuelTanker_1</vehicle_type>
+				<vehicle_type>Col_FuelTanker_2</vehicle_type>
+				<vehicle_type>Col_FuelTanker_3</vehicle_type>
+				<vehicle_type>Min_Bulldozer_1</vehicle_type>				
+<!--END-->				
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:AmbientGroups</Category>
@@ -1132,29 +1156,6 @@
 			</vehicle_list>
 			<_Editor>
 				<Category>Entries:Guerilla</Category>
-			</_Editor>
-		</spawn_group_vehicle>
-		<spawn_group_vehicle>
-			<Name>racetrack</Name>
-			<vehicle_list>
-				<vehicle_type>Civ_ResRunner-C_1</vehicle_type>
-				<vehicle_type>EDF_APC-A_1</vehicle_type>
-				<vehicle_type>Min_LightPickup_1</vehicle_type>
-				<vehicle_type>EDF_Scout_1</vehicle_type>
-				<vehicle_type>Min_SupplyTruck_1</vehicle_type>
-				<vehicle_type>EDF_APC-A_2</vehicle_type>
-				<vehicle_type>EDF_APC-A_3</vehicle_type>
-				<vehicle_type>EDF_APC-A_4</vehicle_type>
-				<vehicle_type>Min_LightPickup_2</vehicle_type>
-				<vehicle_type>Min_LightPickup_3</vehicle_type>
-				<vehicle_type>EDF_Scout_2</vehicle_type>
-				<vehicle_type>EDF_Scout_3</vehicle_type>
-				<vehicle_type>EDF_Scout_4</vehicle_type>
-				<vehicle_type>Min_SupplyTruck_2</vehicle_type>
-				<vehicle_type>Min_SupplyTruck_3</vehicle_type>
-			</vehicle_list>
-			<_Editor>
-				<Category>Entries:Test</Category>
 			</_Editor>
 		</spawn_group_vehicle>
 		<spawn_group_vehicle>

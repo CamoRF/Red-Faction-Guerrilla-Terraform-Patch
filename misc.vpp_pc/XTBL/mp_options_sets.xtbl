@@ -150,7 +150,7 @@
 				<respawn_time_seconds>5</respawn_time_seconds>
 				<health_regen_speed_multiplier>1</health_regen_speed_multiplier>
 				<max_health_multiplier>1</max_health_multiplier>
-				<movement_speed_multiplier>1</movement_speed_multiplier>
+				<movement_speed_multiplier>1.25</movement_speed_multiplier> <!--FROM 1-->
 				<rubberbanding_level>None</rubberbanding_level>
 				<enemy_icon_visibility>default</enemy_icon_visibility>
 				<backpack_spawns_wrapper>

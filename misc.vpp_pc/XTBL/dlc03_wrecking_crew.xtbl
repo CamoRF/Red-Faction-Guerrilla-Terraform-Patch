@@ -128,7 +128,7 @@
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 01</games_played_rampage_stat>
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 01</games_played_total_chaos_stat>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 01</games_played_walker_stat>
-				</map>
+				</map>				
 			</maps>
 			<_Editor>
 				<Category>Entries</Category>
@@ -150,7 +150,7 @@
 			<total_chaos_info_text>
 				<info_text>MENU_WRECKING_CREW_TOTAL_CHAOS_INFO_LINE_1</info_text>
 				<info_text>MENU_WRECKING_CREW_TOTAL_CHAOS_INFO_LINE_2</info_text>
-			</total_chaos_info_text>
+			</total_chaos_info_text>		
 			<mode_stats>
 				<games_played_overall_mayhem_stat>wrecking crew - games by mode and map - total mayhem overall</games_played_overall_mayhem_stat>
 				<games_played_overall_fall_guy_stat>wrecking crew - games by mode and map - total fall guy overall</games_played_overall_fall_guy_stat>

@@ -121,13 +121,37 @@
 			<image_name>mp_hammer_ostrich</image_name>
 		</unlockable>
 		<unlockable>
-			<Name>pickaxe</Name>
+			<Name>camo_royal_sword</Name>
 			<level_needed>0</level_needed> <!--FROM 125-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<image_name></image_name>
-		</unlockable>		
+		</unlockable>
+		<unlockable>
+			<Name>camo_pickaxe</Name>
+			<level_needed>0</level_needed> <!--FROM 125-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<image_name></image_name>
+		</unlockable>
+		<unlockable>
+			<Name>camo_flag_edf</Name>
+			<level_needed>0</level_needed> <!--FROM 125-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<image_name></image_name>
+		</unlockable>	
+		<unlockable>
+			<Name>camo_flag_guerrilla</Name>
+			<level_needed>0</level_needed> <!--FROM 125-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<image_name></image_name>
+		</unlockable>			
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

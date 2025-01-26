@@ -5,6 +5,103 @@
 			<Character_Grid>
 <!--START Characters ADDED-->
 				<Character_Element>
+					<Character_Name>EDF_Elite_White</Character_Name>
+					<Display_Name>TF_MENU_CHAR_EDF_ELITE</Display_Name>
+					<Bitmap_Name>ui_mp_char_edf_elite_w</Bitmap_Name>
+					<Unlock_Level>0</Unlock_Level> <!--FROM 64-->
+					<Persona_Group>EDF Male</Persona_Group>
+					<backpack_offsets>
+						<backpack>
+							<backpack_name>Vision</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Tremor</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>-.03</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Thrust</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Stealth</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Shockwave</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Rhino</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Kaboom</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Jetpack</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Heal</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>-.02</Y>
+								<Z>.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Fleetfoot</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Commando</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+					</backpack_offsets>
+				</Character_Element>
+				<Character_Element>
 					<Character_Name>EDF_Elite_Heavy_Tan_MP</Character_Name>
 					<Display_Name>TF_MENU_CHAR_EDF_HEAVY</Display_Name>
 					<Bitmap_Name>ui_mp_char_edf_heavy</Bitmap_Name>
@@ -4969,6 +5066,14 @@
 			<Name>EDF</Name>
 			<Character_Grid>
 <!--START Characters ADDED-->
+				<Character_Element>
+					<Character_Name>EDF_Elite_White</Character_Name>
+					<Display_Name>TF_MENU_CHAR_EDF_ELITE</Display_Name>
+					<Bitmap_Name>ui_mp_char_edf_elite_w</Bitmap_Name>
+					<Unlock_Level>0</Unlock_Level> <!--FROM 64-->
+					<Persona_Group>EDF Male</Persona_Group>
+					<backpack_offsets></backpack_offsets>			
+				</Character_Element>				
 				<Character_Element>
 					<Character_Name>Admiral_Kobel</Character_Name>
 					<Display_Name>TF_MENU_CHAR_KOBEL</Display_Name>

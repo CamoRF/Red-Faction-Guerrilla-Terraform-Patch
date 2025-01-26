@@ -2401,6 +2401,11 @@
 						<Y>0.0</Y>
 						<Z>1.0</Z>
 					</HitDirection>
+<!--START ADDED-->
+					<Flags>
+						<Flag>structural damage</Flag>
+					</Flags>
+<!--END-->					
 					<ImpactForce>100</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<Flags></Flags>

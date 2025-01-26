@@ -3,17 +3,45 @@
 		<entry>
 			<Name>Wrecking Crew values</Name>
 			<maps>
-				<map>
-					<file_name>vanilla_wc1</file_name> <!--FROM wc1-->
-					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC1</display_name>
+<!--				<map>
+					<file_name>wc_deadzone</file_name>
+					<display_name>MENU_LEVEL_DEADZONE</display_name>
+					<image_name>mp_thumb_deadzone</image_name>
+					<Load_image>Deadzone</Load_image>
+					<time_of_day>8:30</time_of_day>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 01</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 01</games_played_rampage_stat>
-					<time_of_day>00:00</time_of_day>
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 01</games_played_total_chaos_stat>
+					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 01</games_played_walker_stat>
+					<Challenge_Set>wcdlc9_nordic</Challenge_Set>					
+				</map>	-->
+<!--				<map>
+					<file_name>mp_crashsite</file_name>
+					<display_name>MENU_LEVEL_CRASH_SITE</display_name>
+					<image_name>mp_thumb_crashsite</image_name>
+					<Load_image>Crash Site</Load_image>
+					<time_of_day>10:30</time_of_day>
+					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
+					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
+					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 01</games_played_mayhem_stat>
+					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 01</games_played_rampage_stat>
+					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 01</games_played_total_chaos_stat>
+					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 01</games_played_walker_stat>
+					<Challenge_Set>complex</Challenge_Set>					
+				</map>-->					
+				<map>
+					<file_name>vanilla_wc1</file_name> <!--FROM wc1-->
+					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC1</display_name>
 					<image_name>mp_thumb_complex</image_name>
 					<Load_image>Complex</Load_image>
+					<time_of_day>00:00</time_of_day>					
+					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
+					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
+					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 01</games_played_mayhem_stat>
+					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 01</games_played_rampage_stat>
+					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 01</games_played_total_chaos_stat>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 01</games_played_walker_stat>
 					<Challenge_Set>complex</Challenge_Set>
 				</map>
@@ -163,7 +191,7 @@
 <!--END-->
 <!--START DLC WEAPONS ADDED-->
 				<weapon>
-					<weapon_name>missilepod</weapon_name>
+					<weapon_name>camo_missilepod</weapon_name>
 					<mode_flags>
 						<Flag>mayhem</Flag>
 						<Flag>fall_guy</Flag>
@@ -174,7 +202,7 @@
 					<mayhem_attack_multiplier>0.5</mayhem_attack_multiplier>
 				</weapon>
 				<weapon>
-					<weapon_name>EDF_Super_Gauss</weapon_name>
+					<weapon_name>camo_EDF_Super_Gauss</weapon_name>
 					<mode_flags>
 						<Flag>mayhem</Flag>
 						<Flag>fall_guy</Flag>
@@ -388,7 +416,106 @@
 				<info_text>MENU_WRECKING_CREW_TOTAL_CHAOS_INFO_LINE_2</info_text>
 			</total_chaos_info_text>
 			<Character_Grid>
+<!--START ADDED-->		
 				<Character_Element>
+					<Character_Name>EDF_Elite_White</Character_Name>
+					<Display_Name>MENU_CHAR_ELITE</Display_Name>
+					<Bitmap_Name>ui_mp_char_edf_elite_w</Bitmap_Name>
+					<Team>EDF</Team>
+					<Persona_Group>EDF Male</Persona_Group>
+					<backpack_offsets>
+						<backpack>
+							<backpack_name>Vision</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Tremor</backpack_name>
+							<backpack_offset>
+								<X>-.02</X>
+								<Y>-.03</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Thrust</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Stealth</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Shockwave</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Rhino</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Kaboom</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Jetpack</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0.0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Heal</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>-.02</Y>
+								<Z>.02</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Fleetfoot</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+						<backpack>
+							<backpack_name>Commando</backpack_name>
+							<backpack_offset>
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</backpack_offset>
+						</backpack>
+					</backpack_offsets>
+				</Character_Element>
+<!--END-->				
+<!--				<Character_Element>
 					<Character_Name>mp_guerilla_engineer_mason</Character_Name>
 					<Display_Name>MENU_CHAR_MASON</Display_Name>
 					<Bitmap_Name>ui_mp_char_mason</Bitmap_Name>
@@ -484,7 +611,7 @@
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
-				</Character_Element>
+				</Character_Element>-->
 				<Character_Element>
 					<Character_Name>Chuck_Parker</Character_Name>
 					<Display_Name>MENU_CHAR_CHUCK</Display_Name>

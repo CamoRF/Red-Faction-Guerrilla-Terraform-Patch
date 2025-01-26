@@ -36528,7 +36528,11 @@
   <Entry>
     <Identifier>TF_MENU_CHAR_EDF_HEAVY</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EDF HEAVY</String>
-  </Entry>     
+  </Entry>   
+  <Entry>
+    <Identifier>TF_MENU_CHAR_EDF_ELITE</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EDF ELITE</String>
+  </Entry>   
   <Entry>
     <Identifier>TF_MENU_CHAR_ALEC_ARMOR</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]ALEC MASON (ARMOR)</String>
@@ -36637,4 +36641,52 @@
     <Identifier>TF_BACKPACK_REPAIR</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]REPAIR</String>
   </Entry>
+  <Entry>
+    <Identifier>TF_LMG</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]LIGHT MACHINE GUN</String>
+  </Entry>
+  <Entry>
+    <Identifier>TF_GRENADE</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GRENADE</String>
+  </Entry>    
+  <Entry>
+    <Identifier>TF_MISSILEPOD</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MISSILEPOD</String>
+  </Entry>   
+  <Entry>
+    <Identifier>TF_EDF_SUPER_GAUSS</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SUPER GAUSS RIFLE</String>
+  </Entry>   
+  <Entry>
+    <Identifier>TF_SPIKER</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SPIKER</String>
+  </Entry> 
+  <Entry>
+    <Identifier>TF_EDF_SUBVERTER</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SUBVERTER</String>
+  </Entry> 
+  <Entry>
+    <Identifier>TF_MAR_CHARGE_PLACER</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]REMOTE CHARGES (MARAUDER)</String>
+  </Entry> 
+  <Entry>
+    <Identifier>TF_ROYAL_SWORD</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]ROYAL SWORD</String>
+  </Entry>  
+  <Entry>
+    <Identifier>TF_PICKAXE</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PICKAXE</String>
+  </Entry>   
+  <Entry>
+    <Identifier>TF_EDF_FLAG</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EDF FLAG</String>
+  </Entry> 
+  <Entry>
+    <Identifier>TF_GUERRILLA_FLAG</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GUERRILLA FLAG</String>
+  </Entry>   
+  <Entry>
+    <Identifier>TF_GUTTER</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GUTTER</String>
+  </Entry>   
 </root>

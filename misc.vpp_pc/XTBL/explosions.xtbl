@@ -37,11 +37,11 @@
 		</Explosion>
 		<Explosion>
 			<Name>camo_rocket</Name>
-			<Radius>10</Radius> <!--FROM 3.65-->
+			<Radius>3.65</Radius>
 			<AI_Sound_Radius>75</AI_Sound_Radius>
 			<vehicle_damage_max>3500</vehicle_damage_max>
 			<vehicle_damage_min>200</vehicle_damage_min>
-			<Impulse>99999</Impulse> <!--FROM 28000-->
+			<Impulse>30800</Impulse> <!--FROM 28000-->
 			<Effects>
 				<Element>wep_miner_rpg_exp_a</Element>
 			</Effects>
@@ -56,7 +56,7 @@
 			<SalvageProbability>0</SalvageProbability>
 			<human_damage_min>280</human_damage_min>
 			<Human_Damage_Max>1700</Human_Damage_Max>
-			<Structural_Damage>99999</Structural_Damage> <!--FROM 23625-->
+			<Structural_Damage>25988</Structural_Damage> <!--FROM 23625-->
 			<Unique_ID>4</Unique_ID>
 			<camera_shake_type>explosion_large</camera_shake_type>
 			<camera_shake_multiplier>0.9</camera_shake_multiplier>

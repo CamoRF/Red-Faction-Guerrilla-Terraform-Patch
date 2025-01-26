@@ -1,158 +1,144 @@
 <root>
 	<Table>
-<!--START DLC WEAPONS ADDED SP-->
+<!--START DLC WEAPONS ADDED MP-->
 		<Inventory_Item>
-			<Name>sp_spiker</Name>
-			<Display_Name>WEAP_SPIKER</Display_Name>
+			<Name>camo_spiker</Name>
+			<Display_Name>TF_SPIKER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>sp_pickaxe</Name>
-			<Display_Name>WEAP_PICKAXE</Display_Name>
+			<Name>camo_pickaxe</Name>
+			<Display_Name>TF_PICKAXE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>sp_edf_super_gauss</Name>
-			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
+			<Name>camo_edf_super_gauss</Name>
+			<Display_Name>TF_EDF_SUPER_GAUSS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Super Version of Gauss</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>sp_mar_charge_placer</Name>
-			<Display_Name>WEAP_CHARGE_PLACER</Display_Name>
+			<Name>camo_mar_charge_placer</Name>
+			<Display_Name>TF_MAR_CHARGE_PLACER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>place explosives and blow them up remotly</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>sp_royal_sword</Name>
-			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
+			<Name>camo_royal_sword</Name>
+			<Display_Name>TF_ROYAL_SWORD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Very regal.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>sp_edf_subverter</Name>
-			<Display_Name>WEAP_SUBVERTER</Display_Name>
+			<Name>camo_edf_subverter</Name>
+			<Display_Name>TF_EDF_SUBVERTER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Submachinegun</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>sp_missilepod</Name>
-			<Display_Name>WEAP_MISSILEPOD</Display_Name>
+			<Name>camo_missilepod</Name>
+			<Display_Name>TF_MISSILEPOD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Fast missile launcher</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 <!--END-->
-<!--START DLC WEAPONS ADDED-->
+<!--START DLC WEAPONS ADDED SP-->
 		<Inventory_Item>
-			<Name>spiker</Name>
-			<Display_Name>WEAP_SPIKER</Display_Name>
+			<Name>camo_sp_spiker</Name>
+			<Display_Name>TF_SPIKER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>pickaxe</Name>
-			<Display_Name>WEAP_PICKAXE</Display_Name>
+			<Name>camo_sp_pickaxe</Name>
+			<Display_Name>TF_PICKAXE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>edf_super_gauss</Name>
-			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
+			<Name>camo_sp_edf_super_gauss</Name>
+			<Display_Name>TF_EDF_SUPER_GAUSS</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Super Version of Gauss</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>mar_charge_placer</Name>
-			<Display_Name>WEAP_CHARGE_PLACER</Display_Name>
+			<Name>camo_sp_mar_charge_placer</Name>
+			<Display_Name>TF_MAR_CHARGE_PLACER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>place explosives and blow them up remotly</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>royal_sword</Name>
-			<Display_Name>WEAP_ROYAL_SWORD</Display_Name>
+			<Name>camo_sp_royal_sword</Name>
+			<Display_Name>TF_ROYAL_SWORD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Very regal.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>edf_subverter</Name>
-			<Display_Name>WEAP_SUBVERTER</Display_Name>
+			<Name>camo_sp_edf_subverter</Name>
+			<Display_Name>TF_EDF_SUBVERTER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Submachinegun</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>missilepod</Name>
-			<Display_Name>WEAP_MISSILEPOD</Display_Name>
+			<Name>camo_sp_missilepod</Name>
+			<Display_Name>TF_MISSILEPOD</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Fast missile launcher</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -165,7 +151,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -176,7 +161,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -187,29 +171,26 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
 			<Name>camo_grenade</Name>
-			<Display_Name>WEAP_GRENADE</Display_Name>
+			<Display_Name>TF_GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description></Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
 			<Name>camo_light_machine_gun</Name>
-			<Display_Name>LIGHT MACHINE GUN</Display_Name> <!--WEAP_TURRET_MACH_GUN-->
+			<Display_Name>TF_LMG</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -221,7 +202,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -232,7 +212,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -243,7 +222,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -254,7 +232,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -265,7 +242,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -276,7 +252,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -287,7 +262,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -298,7 +272,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -309,7 +282,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -320,7 +292,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>place explosives and blow them up remotly</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -331,7 +302,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>place explosives and blow them up remotly</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -342,7 +312,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -353,7 +322,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -364,7 +332,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -375,7 +342,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>place explosives and blow them up remotly</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -386,7 +352,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Light the fuse and let it fly.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -413,7 +378,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -424,7 +388,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>place explosives that detonate when an enemy gets near.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -435,7 +398,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -457,7 +419,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Light the fuse and let it fly.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -465,7 +426,6 @@
 		<Inventory_Item>
 			<Name>ab_rpg</Name>
 			<Display_Name>WEAP_BOMB</Display_Name>
-			<Description>Player can't get this item, but we need an inventory item for the weapon.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -485,7 +445,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Light the fuse and let it fly.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -493,7 +452,6 @@
 		<Inventory_Item>
 			<Name>ab_rpg_dfa</Name>
 			<Display_Name>WEAP_BOMB_DFA</Display_Name>
-			<Description>Player can't get this item, but we need an inventory item for the weapon.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -504,7 +462,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -515,7 +472,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -523,7 +479,6 @@
 		<Inventory_Item>
 			<Name>ab_rpg_kill_player</Name>
 			<Display_Name>WEAP_BOMB_PLAYER_KILL</Display_Name>
-			<Description>Player can't get this item, but we need an inventory item for the weapon.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -534,7 +489,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -545,7 +499,6 @@
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -556,7 +509,6 @@
 			<Cost>500</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -567,7 +519,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -578,7 +529,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -589,7 +539,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -600,7 +549,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -611,7 +559,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -622,7 +569,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -633,7 +579,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -644,7 +589,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -655,7 +599,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -666,7 +609,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -677,7 +619,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -688,7 +629,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -699,7 +639,6 @@
 			<Cost>1000</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Hell yes I am a sweet ostrich</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -709,16 +648,14 @@
 			<Display_Name>WEAP_SINGULARITY</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>place explosives and blow them up remotly</Description>
+			<Max_Inventory>1</Max_Inventory>	
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
 			<Name>satellite_rpg</Name>
-			<Display_Name>WEAP_BOMB</Display_Name>
-			<Description>Player can't get this item, but we need an inventory item for the weapon.</Description>
+			<Display_Name>WEAP_BOMB</Display_Name>	
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -728,8 +665,7 @@
 			<Display_Name>WEAP_GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Throw it at cars to get the people out</Description>
+			<Max_Inventory>1</Max_Inventory>	
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -739,47 +675,13 @@
 			<Display_Name>MENU_HAMMER_UNLOCK</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
+			<Max_Inventory>1</Max_Inventory>			
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 		</Inventory_Item>
 	</Table>
 	<TableTemplates>
-		<!--<Inventory_Item>
-			<Name>riot_shield_test</Name>
-			<Display_Name>RIOT SHIELD</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>charge_launcher</Name>
-			<Display_Name>WEAP_CHARGE_LAUNCHER</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>turret_machinegun</Name>
-			<Display_Name>WEAP_TURRET_MACH_GUN</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<Description>Bang bang! Point and shoot.</Description>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>-->
 	</TableTemplates>
 	<TableDescription>
 		<Name>Inventory_Item</Name>
