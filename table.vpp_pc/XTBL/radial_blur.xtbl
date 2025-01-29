@@ -1,0 +1,122 @@
+<root>
+	<Table>
+		<Radial_blur>
+			<Name>very large</Name>
+			<Strength>0</Strength> <!--FROM 3.78-->
+			<Duration>0</Duration> <!--FROM .26-->
+			<Radius>0</Radius> <!--FROM 2-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Distance_fade>0</Distance_fade> <!--FROM 80-->
+			<Priority>0</Priority>
+		</Radial_blur>
+		<Radial_blur>
+			<Name>large</Name>
+			<Strength>0</Strength> <!--FROM 5.6-->
+			<Duration>0</Duration> <!--FROM .45-->
+			<Radius>0</Radius> <!--FROM 1-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Distance_fade>0</Distance_fade> <!--FROM 36-->
+			<Priority>0</Priority>
+		</Radial_blur>
+		<Radial_blur>
+			<Name>small</Name>
+			<Strength>0</Strength> <!--FROM 5-->
+			<Duration>0</Duration> <!--FROM .37-->
+			<Radius>0</Radius> <!--FROM 1.0-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Distance_fade>0</Distance_fade> <!--FROM 36-->
+			<Priority>0</Priority>
+		</Radial_blur>
+		<Radial_blur>
+			<Name>Quick large</Name>
+			<Strength>0</Strength> <!--FROM 3.6-->
+			<Duration>0</Duration> <!--FROM .33-->
+			<Radius>0</Radius> <!--FROM 1-->
+			<Distance_fade>0</Distance_fade> <!--FROM 40-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Priority>0</Priority>
+		</Radial_blur>
+		<Radial_blur>
+			<Name>EDF_Artillery_Gun</Name>
+			<Strength>0</Strength> <!--FROM 5-->
+			<Duration>0</Duration> <!--FROM .18-->
+			<Radius>0</Radius> <!--FROM 2-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Distance_fade>0</Distance_fade> <!--FROM 120-->
+			<Priority>0</Priority>
+		</Radial_blur>
+		<Radial_blur>
+			<Name>smaller</Name>
+			<Strength>0</Strength> <!--FROM 3.5-->
+			<Duration>0</Duration> <!--FROM .25-->
+			<Radius>0</Radius> <!--FROM 1.0-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Distance_fade>0</Distance_fade> <!--FROM 28-->
+			<Priority>0</Priority>
+		</Radial_blur>
+		<Radial_blur>
+			<Name>very large slow</Name>
+			<Strength>0</Strength> <!--FROM 4.2-->
+			<Duration>0</Duration> <!--FROM .45-->
+			<Radius>0</Radius> <!--FROM 2-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<Distance_fade>0</Distance_fade> <!--FROM 80-->
+			<Priority>0</Priority>
+		</Radial_blur>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>Radial_blur</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>Strength</Name>
+			<Type>Float</Type>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>Duration</Name>
+			<Type>Float</Type>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>Radius</Name>
+			<Type>Float</Type>
+			<Default>1.0</Default>
+		</Element>
+		<Element>
+			<Name>Distance_fade</Name>
+			<Type>Float</Type>
+			<Default>100</Default>
+		</Element>
+		<Element>
+			<Name>Priority</Name>
+			<Type>Int</Type>
+			<Description>Only the radial blur with the highest priority in the scene will play</Description>
+			<Default>0</Default>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

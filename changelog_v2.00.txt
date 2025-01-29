@@ -3,62 +3,60 @@ v2.00 CHANGES
 --------------
 
 [New Weapons]
-* Added experimental Light Machine Gun
-* Added DLC Pickaxe to MP
-* Added DLC Royal Sword to MP
-* Added DLC Marauder Remote Charges to MP (hopefully, if RfgUtil can support peg files)	
+* Added Light Machine Gun
+* Added DLC Pickaxe to multiplayer sledgehammer loadouts
+* Added DLC Royal Sword to multiplayer sledgehammer loadouts
+* Added DLC Marauder Remote Charges to multiplayer
+* Added DLC Weapons to the main singleplayer
+
+[New Vehicles]
+* Added DLC Marauder Vehicles to the main singleplayer; marauders can spawn with them and you can also find them at the Badlands safehouse
+* Added Bulldozer vehicle spawn to all safehouses
+
+[New Character]
+* Added cut EDF Elite character
 
 [Weapon Balance]
-* Grenade (need to compare changes and add notes)
-* Rocket launcher damage to buildings (same as above)
+* Reduced grenade damage to buildings
+* Reduced camera shake for Nanorifle
+* Reduced camera shake for Gauss Rifle
+* Reduced camera shake for Super Gauss Rifle
+* Increased rocket launcher damage to buildings
 
 [Interface]
 * Initial loading screen updated to current patch version
 * Added several new placeholder textures for future map loading screens, thumbnails and character thumbnails to make it easier to add new textures in the future without tedious hex editing
 
-[Singleplayer]
-* Increased population density
-* Added DLC Marauder Vehicles to Base SP, Marauders can spawn with them and you can also find them at the Badlands safehouse
-* Added Base SP Marauder Vehicles to DLC SP
-* Added Bulldozer vehicle spawn to all safehouses
-* Added DLC Weapons to Base SP
-
 [Misc]
-* Added SP DLC precache assets to "mp_common.vpp_pc", will be useful for transferring SP DLC map assets to MP maps in the future
+* Added DLC precache assets to "mp_common.vpp_pc", will be useful for transferring SP DLC map assets to MP maps in the future
 * Re-added comments for changes the patch makes to ".xtbls", they don't seem to cause issues since some vanilla .xtbl files use them and the game ignores entries that are commented out
 * Patch rebuilt "hopefully" for the last time to reduce file size using the new loose file feature in SyncFaction 
 * Reverted some more out of scope changes in "tweak_table.xtbl" & added comments for gameplay add-on in future
 * Restored cut vanilla characters in multiplayer thanks to Reconstructor increasing a hardcoded limit
-* Optimized loading times (misc, table, mp_common and INSERT files here are now uncompressed + uncondensed)
+* Optimized loading times
+* Increased population density in singleplayer
 
 [Maps]
+* Improvements to Invasion
 * Added team spawns & CTF to various WC maps
 * Added EDF crates on Complex to fix some line of sight issues with spawns
+* Added more weapon spawns to Shipment
+* Added some line of sight fixes/improvements to Junkyard
+* Adjusted some existing weapon spawns on Junkyard
+* Added more weapon spawns to Junkyard
+* Minor aesthetic improvements to Junkyard
+* Added team spawns to Junkyard
+* Added CTF to Junkyard
 * Renamed filename for Shipment to "mp_shipment.vpp_pc"
 * Renamed filename for Cliffside to "mp_clifside.vpp_pc"
 * Renamed filename for Partial Recall to "mp_partial_recall.vpp_pc"
 * Remade Scrapheap with various improvements & fixes
+* Renamed vanilla wrecking crew maps to "vanilla_wc1.vpp_pc" etc
+* Updated vanilla wrecking crew maps with various fixes
 
 [New Maps]
-* Pipeline Pitfall
-* Retribution
-
-[Junkyard Map Updates]
-* Added some line of sight fixes/improvements
-* Adjusted some existing weapon spawns
-* Added more weapon spawns
-* Aesthetic improvements
-* Added team spawns
-* Added CTF
-
-[Shipment Map Updates]
-* Added more weapon spawns
-* Fixed spectator cameras that were outside of the map
-* Fixed duplicate shotgun weapon spawn
-
-[Wrecking Crew]
-* Renamed map filenames to "vanilla_wc1.vpp_pc" etc
-* Updated maps with various fixes
+* Restored Pipeline Pitfall
+* Restored Retribution
 
 [Fixes]
 * Fixed crash when loading SP DLC
@@ -73,4 +71,22 @@ v2.00 CHANGES
 * Fixed various issues on all maps
 * Fixed issue with XP message spam when finishing a multiplayer match
 * Fixed issue with team backpack racks not glowing red if your team cannot use them
-* Fixed issue with DLC Spiker weapon missing texture when it's on the ground or far away from player (not done yet)
+* Fixed issue with DLC Spiker weapon missing texture when it's on the ground or far away from player
+* Fixed out of bounds exploit on Expansion
+* Fixed Misslepod killfeed
+* Fixed stealth and vision backpacks in same location on Scrapheap
+* Fixed issue with fleetfloot backpack on Gulch
+* Fixed movement speed increases for multiplayer also applying in singleplayer
+* Fixed issue with new backpack names
+* Fixed issue with bag sometimes spawning under the map on Outpost
+* Fixed issue with spawns on Townhall
+* Fixed spectator cameras that were outside of the map on Shipment
+* Fixed duplicate shotgun weapon spawn on Shipment
+* Fixed issue with Marauders not spawning with shotguns in singleplayer
+* Fixed issue with offensive raid at top right of Oasis in singleplayer
+* Fixed issue with side mission in EOS 
+* Fixed issue with transporter mission in Badlands
+* Fixed issue with transporter mission in singleplayer DLC
+* Fixed issue with new multiplayer character and map strings
+* Fixed issue with a Peacekeeper value being set incorrectly
+* Fixed issue with incorrect footstep sounds for some characters
