@@ -7197,7 +7197,7 @@
 			<origin_district>Special</origin_district>
 		</Character>
 		<Character>
-			<Name>Eddie</Name>
+			<Name>Eddie</Name> <!--Ravager-->
 			<Model>
 				<Filename>eddie.cmeshx</Filename>
 			</Model>
@@ -17080,7 +17080,7 @@
 			<origin_district>Oasis</origin_district>
 		</Character>
 		<Character>
-			<Name>Slade</Name>
+			<Name>Slade</Name> <!--Scavenger-->
 			<Model>
 				<Filename>eddie.cmeshx</Filename>
 			</Model>
@@ -17282,7 +17282,7 @@
 			<origin_district>Special</origin_district>
 		</Character>
 		<Character>
-			<Name>Muir</Name>
+			<Name>Muir</Name> <!--Raider-->
 			<Model>
 				<Filename>eddie.cmeshx</Filename>
 			</Model>
@@ -18116,7 +18116,7 @@
 			<origin_district>Special</origin_district>
 		</Character>
 		<Character>
-			<Name>EddieMP</Name>
+			<Name>EddieMP</Name> <!--Ravager-->
 			<Model>
 				<Filename>eddiemp.cmeshx</Filename>
 			</Model>
@@ -18316,7 +18316,7 @@
 			<origin_district>Special</origin_district>
 		</Character>
 		<Character>
-			<Name>SladeMP</Name>
+			<Name>SladeMP</Name> <!--Scavenger-->
 			<Model>
 				<Filename>eddiemp.cmeshx</Filename>
 			</Model>
@@ -18516,7 +18516,7 @@
 			<origin_district>Special</origin_district>
 		</Character>
 		<Character>
-			<Name>MuirMP</Name>
+			<Name>MuirMP</Name> <!--Raider-->
 			<Model>
 				<Filename>eddiemp.cmeshx</Filename>
 			</Model>

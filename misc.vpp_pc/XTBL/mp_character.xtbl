@@ -4280,7 +4280,7 @@
 					</backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>EddieMP</Character_Name>
+					<Character_Name>EddieMP</Character_Name> <!--Ravager-->
 					<Display_Name>MENU_CHAR_EDDIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_eddie</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -4668,7 +4668,7 @@
 					</backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>SladeMP</Character_Name>
+					<Character_Name>SladeMP</Character_Name> <!--Scavenger-->
 					<Display_Name>MENU_CHAR_SLADE</Display_Name>
 					<Bitmap_Name>ui_mp_char_slade</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -4959,7 +4959,7 @@
 					</backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>MuirMP</Character_Name>
+					<Character_Name>MuirMP</Character_Name> <!--Raider-->
 					<Display_Name>MENU_CHAR_MUIR</Display_Name>
 					<Bitmap_Name>ui_mp_char_muir</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -5176,7 +5176,7 @@
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>EddieMP</Character_Name>
+					<Character_Name>EddieMP</Character_Name> <!--Ravager-->
 					<Display_Name>TF_MENU_CHAR_EDDIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_eddie</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -5184,7 +5184,7 @@
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>SladeMP</Character_Name>
+					<Character_Name>SladeMP</Character_Name> <!--Scavenger-->
 					<Display_Name>TF_MENU_CHAR_SLADE</Display_Name>
 					<Bitmap_Name>ui_mp_char_slade</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -5192,7 +5192,7 @@
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>MuirMP</Character_Name>
+					<Character_Name>MuirMP</Character_Name> <!--Raider-->
 					<Display_Name>TF_MENU_CHAR_MUIR</Display_Name>
 					<Bitmap_Name>ui_mp_char_muir</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
