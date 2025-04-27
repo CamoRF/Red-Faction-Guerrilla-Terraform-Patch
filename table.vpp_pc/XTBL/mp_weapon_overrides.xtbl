@@ -1,7 +1,8 @@
 <root>
 	<Table>
+<!--START ADDED-->		
 		<mp_weapons>
-			<Name>camo_grenade</Name>
+			<Name>TF_grenade</Name>
 			<Ammo_count>
 				<Magazine_Size>1</Magazine_Size>
 				<Num_Magazines>2</Num_Magazines>
@@ -11,6 +12,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</mp_weapons>
+<!--END-->		
 		<mp_weapons>
 			<Name>mine_placer</Name>
 			<Ammo_count>

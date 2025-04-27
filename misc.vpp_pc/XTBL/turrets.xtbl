@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--START ADDED-->		
 		<Turret>
 			<Name>turret_stomper_mg</Name>
 			<HFovPos>180</HFovPos>
@@ -50,6 +51,7 @@
 			<VFovPosLeft>45</VFovPosLeft>
 			<VFovNegLeft>-30</VFovNegLeft>
 		</Turret>
+<!--END-->		
 		<Turret>
 			<Name>turret_tharsis_gun</Name>
 			<_Editor>

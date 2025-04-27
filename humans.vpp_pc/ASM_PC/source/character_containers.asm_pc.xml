@@ -3,8 +3,9 @@
   <Endian>Little</Endian>
   <Version>5</Version>
   <Containers>
+<!--START ADDED-->    
 	<ContainerEntry>
-      <Name>PC_DLC</Name>
+      <Name>rfg_DLC_Sam</Name>
       <Type>21</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
@@ -211,7 +212,7 @@
       </Primitives>
     </ContainerEntry>
     <ContainerEntry>
-      <Name>Vasha</Name>
+      <Name>Vasha_DLC</Name>
       <Type>20</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
@@ -253,8 +254,8 @@
           <DataSize>21300</DataSize>
         </PrimitiveEntry>
       </Primitives>
-    </ContainerEntry>    
-	<ContainerEntry>
+    </ContainerEntry>
+    <ContainerEntry>
       <Name>EDF_Elite_White</Name>
       <Type>20</Type>
       <Flags>128</Flags>
@@ -288,7 +289,7 @@
       </Primitives>
     </ContainerEntry>
     <ContainerEntry>
-      <Name>mason</Name>
+      <Name>Mason_Armour</Name>
       <Type>21</Type>
       <Flags>128</Flags>
       <DataOffset>6144</DataOffset>
@@ -385,6 +386,7 @@
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>
+<!--END-->	
     <ContainerEntry>
       <Name>MP_Selma</Name>
       <Type>20</Type>
@@ -3403,7 +3405,7 @@
         <int>2600</int>
         <int>366996</int>
         <int>292</int>
-        <int>3145728</int>
+        <int>3145776</int>
       </Sizes>
       <Primitives>
         <PrimitiveEntry>
@@ -3422,7 +3424,7 @@
           <Unknown3>4</Unknown3>
           <Unknown4>0</Unknown4>
           <HeaderSize>292</HeaderSize>
-          <DataSize>3145728</DataSize>
+          <DataSize>3145776</DataSize>
         </PrimitiveEntry>
       </Primitives>
     </ContainerEntry>

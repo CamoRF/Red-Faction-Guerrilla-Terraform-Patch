@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--ORIGINAL MP DLC Maps merged into mp_levels.xtbl, we will use this file for custom maps now-->		
 		<mp_level_list>
 			<Name>Warehouse</Name>
 			<Filename>mp_warehouse</Filename>

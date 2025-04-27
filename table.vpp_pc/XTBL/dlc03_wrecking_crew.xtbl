@@ -4,7 +4,7 @@
 			<Name>Wrecking Crew values</Name>
 			<maps>
 				<map>
-					<file_name>vanilla_wcdlc1</file_name>
+					<file_name>vanilla_wcdlc1</file_name> <!--FROM wcdlc1-->
 					<display_name>MENU_LEVEL_DLC_WC1</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
@@ -18,7 +18,7 @@
 					<Challenge_Set>wcdlc1_ruins</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc2</file_name>
+					<file_name>vanilla_wcdlc2</file_name> <!--FROM wcdlc2-->
 					<display_name>MENU_LEVEL_DLC_WC2</display_name>
 					<image_name>mp_thumb_wcdlc2</image_name>
 					<Load_image>dlc03wc2</Load_image>
@@ -32,7 +32,7 @@
 					<Challenge_Set>wcdlc2_repercussion</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc3</file_name>
+					<file_name>vanilla_wcdlc3</file_name> <!--FROM wcdlc3-->
 					<display_name>MENU_LEVEL_DLC_WC3</display_name>
 					<image_name>mp_thumb_wcdlc3</image_name>
 					<Load_image>dlc03wc3</Load_image>
@@ -46,7 +46,7 @@
 					<Challenge_Set>wcdlc3_imperial</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc4</file_name>
+					<file_name>vanilla_wcdlc4</file_name> <!--FROM wcdlc4-->
 					<display_name>MENU_LEVEL_DLC_WC4</display_name>
 					<image_name>mp_thumb_wcdlc4</image_name>
 					<Load_image>dlc03wc4</Load_image>
@@ -60,7 +60,7 @@
 					<Challenge_Set>wcdlc4_expansion</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc5</file_name>
+					<file_name>vanilla_wcdlc5</file_name> <!--FROM wcdlc5-->
 					<display_name>MENU_LEVEL_DLC_WC5</display_name>
 					<image_name>mp_thumb_wcdlc5</image_name>
 					<Load_image>dlc03wc5</Load_image>
@@ -74,7 +74,7 @@
 					<Challenge_Set>wcdlc5_frost</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc6</file_name>
+					<file_name>vanilla_wcdlc6</file_name> <!--FROM wcdlc6-->
 					<display_name>MENU_LEVEL_DLC_WC6</display_name>
 					<image_name>mp_thumb_wcdlc6</image_name>
 					<Load_image>dlc03wc6</Load_image>
@@ -88,7 +88,7 @@
 					<Challenge_Set>wcdlc6_abandoned</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc7</file_name>
+					<file_name>vanilla_wcdlc7</file_name> <!--FROM wcdlc7-->
 					<display_name>MENU_LEVEL_STRATOSPHERE</display_name>
 					<image_name>mp_thumb_wcdlc7</image_name>
 					<Load_image>dlc03wc7</Load_image>
@@ -102,7 +102,7 @@
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 01</games_played_walker_stat>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc8</file_name>
+					<file_name>vanilla_wcdlc8</file_name> <!--FROM wcdlc8-->
 					<display_name>MENU_LEVEL_INVASION</display_name>
 					<image_name>mp_thumb_wcdlc8</image_name>
 					<Load_image>dlc03wc8</Load_image>
@@ -116,7 +116,7 @@
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 01</games_played_walker_stat>
 				</map>
 				<map>
-					<file_name>vanilla_wcdlc9</file_name>
+					<file_name>vanilla_wcdlc9</file_name> <!--FROM wcdlc9-->
 					<display_name>MENU_LEVEL_NORDICSPECIAL</display_name>
 					<image_name>mp_thumb_wcdlc9</image_name>
 					<Load_image>dlc03wc9</Load_image>

@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--START ADDED-->
 		<LoadingScreen>
 			<Name>Warehouse</Name>
 			<BG_image>
@@ -426,6 +427,7 @@
 				<Category>MP levels:General</Category>
 			</_Editor>
 		</LoadingScreen>
+<!--END-->		
 		<LoadingScreen>
 			<Name>News_EarthDemand</Name>
 			<BG_image>

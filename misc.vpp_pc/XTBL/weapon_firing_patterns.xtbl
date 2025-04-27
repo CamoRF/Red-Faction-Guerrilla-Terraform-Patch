@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--START ADDED-->		
 		<Firing_Pattern>
 			<Name>Default Spiker</Name>
 			<Control_Points>
@@ -146,6 +147,7 @@
 				<Category>Entries:Special</Category>
 			</_Editor>
 		</Firing_Pattern>
+<!--END-->		
 		<Firing_Pattern>
 			<Name>turret_machinegun</Name>
 			<Control_Points>

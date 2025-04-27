@@ -1,7 +1,8 @@
 <root>
-	<Table>
+	<Table> <!--NEEDS COMMENTS-->
+<!--START ADDED-->		
 		<Weapon>
-			<Name>camo_light_machine_gun</Name>
+			<Name>TF_light_machine_gun</Name>
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
 			<Ammo_Type>bullet</Ammo_Type>
@@ -58,7 +59,7 @@
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>60</Max_Engagement_Distance>
-			<Inventory_Item>camo_light_machine_gun</Inventory_Item>
+			<Inventory_Item>TF_light_machine_gun</Inventory_Item>
 			<Item_3d>turret_head_1</Item_3d>
 			<Sounds>
 				<Fire_Sound>WEP_TUR_MACHINE_PC_ATTACK</Fire_Sound>
@@ -96,7 +97,7 @@
 			<Bullet_hole_scale>1.25</Bullet_hole_scale>
 		</Weapon>
 		<Weapon>
-			<Name>camo_grenade</Name>
+			<Name>TF_grenade</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>thrown</Ammo_Type>
@@ -111,7 +112,7 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Explosion>camo_grenade</Explosion>
+			<Explosion>TF_grenade</Explosion>
 			<Spread_Max>1</Spread_Max>
 			<Spread_Min>1</Spread_Min>
 			<Projectile_Info>
@@ -159,7 +160,7 @@
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>25</Max_Engagement_Distance>
-			<Inventory_Item>camo_grenade</Inventory_Item>
+			<Inventory_Item>TF_grenade</Inventory_Item>
 			<Item_3d>grenade</Item_3d>
 			<MeleeAttacks>
 				<StandingPrimary>remote_charge_melee</StandingPrimary>
@@ -194,7 +195,7 @@
 			<reticule_name>ui_hud_reti_mines</reticule_name>
 		</Weapon>
 		<Weapon>
-			<Name>camo_gutter</Name>
+			<Name>TF_gutter</Name>
 			<Weapon_Class>melee_sledgehammer</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -242,7 +243,7 @@
 				<StandingTertiary>sword stand overhead</StandingTertiary>
 				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>camo_gutter</Inventory_Item>
+			<Inventory_Item>TF_gutter</Inventory_Item>
 			<Item_3d>gutter</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
@@ -264,7 +265,7 @@
 			<aim_assist>0.75</aim_assist>
 		</Weapon>
 		<Weapon>
-			<Name>camo_flag_edf</Name>
+			<Name>TF_flag_edf</Name>
 			<Weapon_Class>melee_sledgehammer</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -312,7 +313,7 @@
 				<StandingTertiary>sword stand overhead</StandingTertiary>
 				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>camo_flag_edf</Inventory_Item>
+			<Inventory_Item>TF_flag_edf</Inventory_Item>
 			<Item_3d>flag_edf</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
@@ -332,7 +333,7 @@
 			<aim_assist>0.75</aim_assist>
 		</Weapon>
 		<Weapon>
-			<Name>camo_flag_guerrilla</Name>
+			<Name>TF_flag_guerrilla</Name>
 			<Weapon_Class>melee_sledgehammer</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -379,7 +380,7 @@
 				<StandingTertiary>sword stand overhead</StandingTertiary>
 				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>camo_flag_guerrilla</Inventory_Item>
+			<Inventory_Item>TF_flag_guerrilla</Inventory_Item>
 			<Item_3d>flag_guerrilla</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
@@ -399,7 +400,7 @@
 			<aim_assist>0.75</aim_assist>
 		</Weapon>		
 		<Weapon>
-			<Name>camo_mar_charge_placer</Name>
+			<Name>TF_mar_charge_placer</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>thrown</Ammo_Type>
@@ -452,7 +453,7 @@
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>10</Max_Engagement_Distance>
-			<Inventory_Item>camo_mar_charge_placer</Inventory_Item>
+			<Inventory_Item>TF_mar_charge_placer</Inventory_Item>
 			<Item_3d>mar_charge_placer</Item_3d>
 			<MeleeAttacks>
 				<StandingPrimary>marauder_charge_melee</StandingPrimary>
@@ -483,7 +484,7 @@
 			<aim_assist>0.5</aim_assist>
 		</Weapon>		
 		<Weapon>
-			<Name>camo_royal_sword</Name>
+			<Name>TF_royal_sword</Name>
 			<Weapon_Class>melee_sledgehammer</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -531,7 +532,7 @@
 				<StandingTertiary>sword stand overhead</StandingTertiary>
 				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>camo_royal_sword</Inventory_Item>
+			<Inventory_Item>TF_royal_sword</Inventory_Item>
 			<Item_3d>royal_sword</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
@@ -553,7 +554,7 @@
 			<aim_assist>0.75</aim_assist>
 		</Weapon>
 		<Weapon>
-			<Name>camo_pickaxe</Name>
+			<Name>TF_pickaxe</Name>
 			<Weapon_Class>melee_sledgehammer</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -593,7 +594,7 @@
 				<StandingTertiary>sledgehammer_melee_vert_u1</StandingTertiary>
 				<CrouchingTertiary>sledgehammer_melee_vert_u1</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>camo_pickaxe</Inventory_Item>
+			<Inventory_Item>TF_pickaxe</Inventory_Item>
 			<Item_3d>pickaxe</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
@@ -614,12 +615,12 @@
 			<aim_assist>0.75</aim_assist>
 		</Weapon>		
 		<Weapon>
-			<Name>camo_EDF_Super_Gauss</Name>
+			<Name>TF_EDF_Super_Gauss</Name>
 			<icon_name>ui_hud_weapon_icon_gauss</icon_name>
 			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name>
 			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule>
 			<Unique_ID>209</Unique_ID>
-			<Inventory_Item>camo_edf_super_gauss</Inventory_Item>
+			<Inventory_Item>TF_edf_super_gauss</Inventory_Item>
 			<Item_3d>EDF_Super_Gauss</Item_3d>
 			<Default_team>EDF</Default_team>
 			<Weapon_Class>bullet</Weapon_Class>
@@ -689,7 +690,7 @@
 			<Visuals>
 				<Muzzle_Flash>wep_gauss_rifle_muzzle</Muzzle_Flash>
 				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke>
-				<Fire_Camera_Shake>camo_weapon_fire_gauss_r</Fire_Camera_Shake>
+				<Fire_Camera_Shake>TF_weapon_fire_gauss_r</Fire_Camera_Shake>
 				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
 				<Player_Hit_Camera_Shake>npc_shockwave</Player_Hit_Camera_Shake>
 				<Tracer_Frequency>1</Tracer_Frequency>
@@ -715,9 +716,9 @@
 			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
-			<Name>camo_edf_subverter</Name>
+			<Name>TF_edf_subverter</Name>
 			<Unique_ID>210</Unique_ID>
-			<Inventory_Item>camo_edf_subverter</Inventory_Item>
+			<Inventory_Item>TF_edf_subverter</Inventory_Item>
 			<Item_3d>edf_subverter</Item_3d>
 			<Default_team>EDF</Default_team>
 			<icon_name>ui_badge_icon_edf</icon_name>
@@ -811,7 +812,7 @@
 			<Bullet_hole_scale>0.8</Bullet_hole_scale>
 		</Weapon>
 		<Weapon>
-			<Name>camo_missilepod</Name>
+			<Name>TF_missilepod</Name>
 			<icon_name>ui_badge_icon_murry</icon_name>
 			<reticule_name>ui_hud_reti_thermobaric</reticule_name>
 			<fine_aim_reticule>ui_hud_reti_thermobaric2</fine_aim_reticule>
@@ -858,7 +859,7 @@
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>30</Max_Engagement_Distance>
-			<Inventory_Item>camo_missilepod</Inventory_Item>
+			<Inventory_Item>TF_missilepod</Inventory_Item>
 			<Item_3d>missilepod</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Sounds>
@@ -907,7 +908,7 @@
 			<Max_Rounds_Upgrade>63</Max_Rounds_Upgrade>
 		</Weapon>
 		<Weapon>
-			<Name>camo_spiker</Name>
+			<Name>TF_spiker</Name>
 			<Weapon_Class>harpoon</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>projectile</Ammo_Type>
@@ -953,7 +954,7 @@
 			</Flags>
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>50</Max_Engagement_Distance>
-			<Inventory_Item>camo_spiker</Inventory_Item>
+			<Inventory_Item>TF_spiker</Inventory_Item>
 			<Item_3d>spiker</Item_3d>
 			<Recoil_Kick>.7</Recoil_Kick>
 			<Acceleration>0.0</Acceleration>
@@ -1876,7 +1877,7 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Explosion>camo_rocket</Explosion> <!--ADDED-->
+			<Explosion>TF_rocket</Explosion> <!--ADDED-->
 			<Projectile_Info>
 				<Model>rpg_projectile</Model>
 				<Max_Speed>28</Max_Speed>
@@ -4866,7 +4867,7 @@
 			<Visuals>
 				<Muzzle_Flash>wep_gauss_rifle_muzzle</Muzzle_Flash>
 				<Muzzle_Smoke>wep_muzzle_smoke_a</Muzzle_Smoke>
-				<Fire_Camera_Shake>camo_weapon_fire_gauss_r</Fire_Camera_Shake> <!--FROM weapon_fire_gauss_r-->
+				<Fire_Camera_Shake>TF_weapon_fire_gauss_r</Fire_Camera_Shake> <!--FROM weapon_fire_gauss_r-->
 				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
 				<Tracer_Frequency>1</Tracer_Frequency>
 				<Tracer_Effect>wep_gauss_rifle_tracer</Tracer_Effect>
@@ -5337,7 +5338,7 @@
 			</Sounds>
 			<Visuals>
 				<Muzzle_Flash>wep_nanorifle_flash_a</Muzzle_Flash>
-				<Fire_Camera_Shake>camo_weapon_fire_nano</Fire_Camera_Shake> <!--FROM weapon_fire_nano-->
+				<Fire_Camera_Shake>TF_weapon_fire_nano</Fire_Camera_Shake> <!--FROM weapon_fire_nano-->
 				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
 				<Tracer_Frequency>1</Tracer_Frequency>
 				<Tracer_Effect>wep_nanorifle_trail_a</Tracer_Effect>
@@ -5677,7 +5678,7 @@
 			<Visuals>
 				<Special_Effect>wep_reconstructor_swarm_a</Special_Effect>
 				<Muzzle_Flash>wep_reconstructor_muzzle_a</Muzzle_Flash>
-				<Fire_Camera_Shake>camo_weapon_fire_repair</Fire_Camera_Shake> <!--FROM weapon_fire_repair-->
+				<Fire_Camera_Shake>TF_weapon_fire_repair</Fire_Camera_Shake> <!--FROM weapon_fire_repair-->
 				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
 				<Secondary_Camera_Shake>npc_reconstructor</Secondary_Camera_Shake>
 				<Overheated_effect>wep_reconstructor_overheat_a</Overheated_effect>

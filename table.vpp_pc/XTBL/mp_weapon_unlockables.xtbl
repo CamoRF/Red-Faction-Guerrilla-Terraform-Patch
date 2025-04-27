@@ -120,8 +120,9 @@
 			</_Editor>
 			<image_name>mp_hammer_ostrich</image_name>
 		</unlockable>
+<!--START ADDED-->		
 		<unlockable>
-			<Name>camo_royal_sword</Name>
+			<Name>TF_royal_sword</Name>
 			<level_needed>0</level_needed>
 			<_Editor>
 				<Category>Entries</Category>
@@ -129,7 +130,7 @@
 			<image_name>mp_hammer_default</image_name>
 		</unlockable>
 		<unlockable>
-			<Name>camo_pickaxe</Name>
+			<Name>TF_pickaxe</Name>
 			<level_needed>0</level_needed>
 			<_Editor>
 				<Category>Entries</Category>
@@ -137,7 +138,7 @@
 			<image_name>mp_hammer_default</image_name>
 		</unlockable>
 		<unlockable>
-			<Name>camo_flag_edf</Name>
+			<Name>TF_flag_edf</Name>
 			<level_needed>0</level_needed>
 			<_Editor>
 				<Category>Entries</Category>
@@ -145,13 +146,14 @@
 			<image_name>mp_hammer_default</image_name>
 		</unlockable>	
 		<unlockable>
-			<Name>camo_flag_guerrilla</Name>
+			<Name>TF_flag_guerrilla</Name>
 			<level_needed>0</level_needed>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<image_name>mp_hammer_default</image_name>
 		</unlockable>
+<!--END-->		
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

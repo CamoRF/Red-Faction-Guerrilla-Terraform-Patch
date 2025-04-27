@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--START ADDED-->		
 		<Territory>
 			<Name>mp_warehouse</Name>
 			<Districts>
@@ -352,6 +353,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</Territory>
+<!--END-->		
 		<Territory>
 			<Name>terr01</Name>
 			<Districts>

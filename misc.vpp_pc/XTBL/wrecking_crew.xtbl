@@ -4,7 +4,7 @@
 			<Name>Wrecking Crew values</Name>
 			<maps>				
 				<map>
-					<file_name>vanilla_wc1</file_name>
+					<file_name>vanilla_wc1</file_name> <!--FROM wc1-->
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC1</display_name>
 					<image_name>mp_thumb_complex</image_name>
 					<Load_image>Complex</Load_image>
@@ -18,7 +18,7 @@
 					<Challenge_Set>complex</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wc2</file_name>
+					<file_name>vanilla_wc2</file_name> <!--FROM wc2-->
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC2</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 02</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 02</games_played_fall_guy_stat>
@@ -32,7 +32,7 @@
 					<Challenge_Set>watchtower</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wc3</file_name>
+					<file_name>vanilla_wc3</file_name> <!--FROM wc3-->
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC3</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 03</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 03</games_played_fall_guy_stat>
@@ -46,7 +46,7 @@
 					<Challenge_Set>scrapheap</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wc4</file_name>
+					<file_name>vanilla_wc4</file_name> <!--FROM wc4-->
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC4</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 04</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 04</games_played_fall_guy_stat>
@@ -60,7 +60,7 @@
 					<Challenge_Set>vista</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wc5</file_name>
+					<file_name>vanilla_wc5</file_name> <!--FROM wc5-->
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC5</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 05</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 05</games_played_fall_guy_stat>
@@ -74,7 +74,7 @@
 					<Challenge_Set>fortress</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wc6</file_name>
+					<file_name>vanilla_wc6</file_name> <!--FROM wc6-->
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC6</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 06</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 06</games_played_fall_guy_stat>
@@ -88,7 +88,7 @@
 					<Challenge_Set>factory</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wc7</file_name>
+					<file_name>vanilla_wc7</file_name> <!--FROM wc7-->
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC7</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 07</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 07</games_played_fall_guy_stat>
@@ -102,7 +102,7 @@
 					<Challenge_Set>gulch</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wc8</file_name>
+					<file_name>vanilla_wc8</file_name> <!--FROM wc8-->
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC8</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 08</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 08</games_played_fall_guy_stat>
@@ -116,7 +116,7 @@
 					<Challenge_Set>cascade</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wc9</file_name>
+					<file_name>vanilla_wc9</file_name> <!--FROM wc9-->
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC9</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 09</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 09</games_played_fall_guy_stat>
@@ -130,7 +130,7 @@
 					<Challenge_Set>transmission</Challenge_Set>
 				</map>
 				<map>
-					<file_name>vanilla_wc10</file_name>
+					<file_name>vanilla_wc10</file_name> <!--FROM wc10-->
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC10</display_name>
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 10</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 10</games_played_fall_guy_stat>

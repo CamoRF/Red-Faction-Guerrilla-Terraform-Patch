@@ -6,11 +6,11 @@
 				<point_limit>0</point_limit>
 				<num_rounds>1</num_rounds>
 				<round_time_limit_minutes>10</round_time_limit_minutes>
-				<friendly_fire>True</friendly_fire>
+				<friendly_fire>True</friendly_fire> <!--FROM False-->
 				<respawn_time_seconds>0</respawn_time_seconds>
 				<health_regen_speed_multiplier>1</health_regen_speed_multiplier>
 				<max_health_multiplier>1</max_health_multiplier>
-				<movement_speed_multiplier>1.25</movement_speed_multiplier>
+				<movement_speed_multiplier>1.25</movement_speed_multiplier> <!--FROM ?-->
 				<rubberbanding_level>None</rubberbanding_level>
 				<unlimited_ammo>False</unlimited_ammo>
 				<starting_backpack_wrapper>
@@ -24,7 +24,7 @@
 				</starting_weapon_wrapper>
 				<third_weapon_wrapper></third_weapon_wrapper>
 				<fourth_weapon_wrapper></fourth_weapon_wrapper>
-				<enemy_icon_visibility>delayed</enemy_icon_visibility>
+				<enemy_icon_visibility>delayed</enemy_icon_visibility> <!--FROM ?-->
 				<backpack_spawns_wrapper>
 					<backpack_spawns>Default</backpack_spawns>
 				</backpack_spawns_wrapper>
@@ -35,7 +35,7 @@
 					<leader_highlighting>False</leader_highlighting>
 					<generic_option_overrides>
 						<point_limit>20</point_limit>
-						<respawn_time_seconds>0</respawn_time_seconds>
+						<respawn_time_seconds>0</respawn_time_seconds> <!--FROM ?--->
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
@@ -43,7 +43,7 @@
 				<team_deathmatch>
 					<generic_option_overrides>
 						<point_limit>50</point_limit>
-						<respawn_time_seconds>0</respawn_time_seconds>
+						<respawn_time_seconds>0</respawn_time_seconds> <!--FROM ?--->
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
@@ -56,7 +56,7 @@
 					<flag_touch_return>True</flag_touch_return>
 					<flag_as_backpack>False</flag_as_backpack>
 					<generic_option_overrides>
-						<respawn_time_seconds>0</respawn_time_seconds>
+						<respawn_time_seconds>0</respawn_time_seconds> <!--FROM ?--->
 						<point_limit>3</point_limit>
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
@@ -67,7 +67,7 @@
 					<generic_option_overrides>
 						<num_rounds>2</num_rounds>
 						<round_time_limit_minutes>8</round_time_limit_minutes>
-						<respawn_time_seconds>0</respawn_time_seconds>
+						<respawn_time_seconds>0</respawn_time_seconds> <!--FROM ?--->
 						<rubberbanding_level>None</rubberbanding_level>
 						<weapon_respawn_speed>Normal</weapon_respawn_speed>
 					</generic_option_overrides>
@@ -81,7 +81,7 @@
 					<generic_option_overrides>
 						<point_limit>500</point_limit>
 						<round_time_limit_minutes>10</round_time_limit_minutes>
-						<respawn_time_seconds>0</respawn_time_seconds>
+						<respawn_time_seconds>0</respawn_time_seconds> <!--FROM ?--->
 						<third_weapon_wrapper>
 							<third_weapon>repair_tool</third_weapon>
 						</third_weapon_wrapper>

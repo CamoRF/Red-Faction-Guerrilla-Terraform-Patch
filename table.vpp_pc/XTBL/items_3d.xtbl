@@ -1,7 +1,8 @@
-<root>
+<root> <!--NEEDS COMMENTS-->
 	<Table>
+<!--START DLC Characters ADDED-->	
 		<Item>
-			<Name>vasha_skirt</Name>
+			<Name>Vasha_DLC_Skirt</Name>
 			<Item_Flags>
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
@@ -11,7 +12,7 @@
 					<Filename>vasha_skirt.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>vasha_skirt.rigx</Filename>
+					<Filename>Vasha_DLC_Skirt.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -65,14 +66,14 @@
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
 		<Item>
-			<Name>Hess_Helmet</Name>
+			<Name>Hess_DLC_Helmet</Name>
 			<Spin_Time>5000</Spin_Time>
 			<character_mesh>
 				<character_mesh>
 					<Filename>hess_helmet.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>hess_helmet.rigx</Filename>
+					<Filename>Hess_DLC_Helmet.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -85,7 +86,7 @@
 			</Item_Flags>
 		</Item>
 		<Item>
-			<Name>Hess_Props</Name>
+			<Name>Hess_DLC_Props</Name>
 			<Item_Flags>
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
@@ -95,7 +96,7 @@
 					<Filename>hess_props.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>hess_props.rigx</Filename>
+					<Filename>Hess_DLC_Props.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 				<Filename></Filename>
@@ -106,7 +107,7 @@
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
 		<Item>
-			<Name>Sam_DLC_Cape</Name>
+			<Name>rfg_DLC_Sam_Cape</Name>
 			<Item_Flags>
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
@@ -116,7 +117,7 @@
 					<Filename>sam_dlc_cape.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>sam_dlc_cape.rigx</Filename>
+					<Filename>rfg_DLC_Sam_Cape.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -126,7 +127,7 @@
 			</_Editor>
 		</Item>
 		<Item>
-			<Name>Sam_DLC_Skirt</Name>
+			<Name>rfg_DLC_Sam_Skirt</Name>
 			<Item_Flags>
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
@@ -136,7 +137,7 @@
 					<Filename>sam_dlc_skirt.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>sam_dlc_skirt.rigx</Filename>
+					<Filename>rfg_DLC_Sam_Skirt.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -146,7 +147,7 @@
 			</_Editor>
 		</Item>
 		<Item>
-			<Name>Sam_DLC_Hair</Name>
+			<Name>rfg_DLC_Sam_Hair</Name>
 			<Item_Flags>
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
@@ -156,7 +157,7 @@
 					<Filename>sam_dlc_hair.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>sam_dlc_hair.rigx</Filename>
+					<Filename>rfg_DLC_Sam_Hair.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -165,6 +166,8 @@
 				<Category>Character Props:Sam_DLC</Category>
 			</_Editor>
 		</Item>
+<!--END-->
+<!--START DLC Weapons ADDED-->		
 		<Item>
 			<Name>royal_sword</Name>
 			<Item_Flags>
@@ -225,7 +228,7 @@
 					<Filename>dlc_marauder_charge.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>dlc_marauder_charge.rigx</Filename>
+					<Filename>Marauder_Charge_DLC.rigx</Filename>
 				</rig>
 				<Anim_set>None</Anim_set>
 			</character_mesh>
@@ -415,7 +418,8 @@
 			<_Editor>
 				<Category>Entries:Projectiles</Category>
 			</_Editor>
-		</Item>		
+		</Item>
+<!--END-->		
 		<Item>
 			<Name>Lawrence_Eos_Coat</Name>
 			<Spin_Time>5000</Spin_Time>
@@ -4073,8 +4077,10 @@
 				<Category>Ambient Props</Category>
 			</_Editor>
 			<Item_Flags>
-				<Flag>collide_as_box</Flag>
-				<Flag>fast_cleanup</Flag>
+				<!--<Flag>collide_as_box</Flag>
+				<Flag>fast_cleanup</Flag>-->
+				<Flag>collide_as_cylinder</Flag> <!--ADDED-->
+				<Flag>collide_as_mover</Flag> <!--ADDED-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<streaming_category>General</streaming_category>

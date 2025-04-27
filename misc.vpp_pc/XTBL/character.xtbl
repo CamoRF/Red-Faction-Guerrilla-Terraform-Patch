@@ -2,13 +2,13 @@
 	<Table>
 <!--START ADDED-->
 		<Character>
-			<Name>PC_DLC</Name>
+			<Name>rfg_DLC_Sam</Name>
 			<Model>
-				<Filename>sam_dlc.cmeshx</Filename>
+				<Filename>sam_dlc.cmeshx</Filename> <!--Mesh inside .str2_pc-->
 			</Model>
 			<Anim_Set>Civilian_Female.xtbl</Anim_Set>
 			<Rig>
-				<Filename>sam_dlc.rigx</Filename>
+				<Filename>rfg_DLC_Sam.rigx</Filename> 
 			</Rig>
 			<Team>Marauder</Team>
 			<_Editor>
@@ -43,7 +43,7 @@
 					<Type>Back</Type>
 					<Items>
 						<Item>
-							<Name>Sam_DLC_Cape</Name>
+							<Name>rfg_DLC_Sam_Cape</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -54,7 +54,7 @@
 					<Type>Head</Type>
 					<Items>
 						<Item>
-							<Name>Sam_DLC_Hair</Name>
+							<Name>rfg_DLC_Sam_Hair</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -65,7 +65,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Sam_DLC_Skirt</Name>
+							<Name>rfg_DLC_Sam_Skirt</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -132,7 +132,7 @@
 			<origin_district>Special</origin_district>
 			<Heads>
 				<Head>
-					<Name>sam_dlc_head</Name>
+					<Name>rfg_DLC_Sam_Head</Name>
 					<Base_Head>base_hires_head</Base_Head>
 					<Lod_Head>none</Lod_Head>
 				</Head>
@@ -145,7 +145,7 @@
 			</Model>
 			<Anim_Set>Scavenger.xtbl</Anim_Set>
 			<Rig>
-				<Filename>hess.rigx</Filename>
+				<Filename>Hess_DLC.rigx</Filename>
 			</Rig>
 			<Team>Marauder</Team>
 			<_Editor>
@@ -185,7 +185,7 @@
 					<Type>Head</Type>
 					<Items>
 						<Item>
-							<Name>Hess_Helmet</Name>
+							<Name>Hess_DLC_Helmet</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -248,7 +248,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_Props</Name>
+							<Name>Hess_DLC_Props</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -317,7 +317,7 @@
 			<origin_district>Common</origin_district>
 		</Character>
 		<Character>
-			<Name>Vasha</Name>
+			<Name>Vasha_DLC</Name>
 			<Model>
 				<Filename>vasha.cmeshx</Filename>
 			</Model>
@@ -525,8 +525,7 @@
 			<origin_district>Special</origin_district>
 		</Character>
 		<Character>
-			<Team>Guerilla</Team>
-			<Name>mason</Name>
+			<Name>Alec_Armour</Name>
 			<Model>
 				<Filename>Mason.cmeshx</Filename>
 			</Model>

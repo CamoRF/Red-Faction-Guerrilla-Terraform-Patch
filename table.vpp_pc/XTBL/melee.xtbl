@@ -1,5 +1,6 @@
 <root>
 	<Table>
+<!--START ADDED-->		
 		<MeleeMove>
 			<Name>missilepod_melee</Name>
 			<AttackAnim>melee</AttackAnim>
@@ -367,6 +368,7 @@
 				</AnimSet>
 			</MoveDataList>
 		</MeleeMove>
+<!--END-->		
 		<MeleeMove>
 			<Name>ar_melee</Name>
 			<AttackAnim>melee</AttackAnim>

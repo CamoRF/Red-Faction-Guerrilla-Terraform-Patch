@@ -2,7 +2,7 @@
 	<Table>
 	</Table>
 	<TableTemplates>
-		<Startup_Video>
+		<!--<Startup_Video>
 			<Name>Default</Name>
 			<Video_List>
 				<Video>
@@ -39,7 +39,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Startup_Video>
+		</Startup_Video>-->
 	</TableTemplates>
 	<TableDescription>
 		<Name>Startup_Video</Name>

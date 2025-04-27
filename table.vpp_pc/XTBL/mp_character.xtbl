@@ -3,8 +3,9 @@
 		<MP_character>
 			<Name>FFA</Name>
 			<Character_Grid>
+<!--START ADDED-->			
 				<Character_Element>
-					<Character_Name>PC_DLC</Character_Name>
+					<Character_Name>rfg_DLC_Sam</Character_Name>
 					<Display_Name>TF_MENU_CHAR_DLC_SAM</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -198,7 +199,7 @@
 					</backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>Vasha</Character_Name>
+					<Character_Name>Vasha_DLC</Character_Name>
 					<Display_Name>TF_MENU_CHAR_DLC_VASHA</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo5</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -392,7 +393,7 @@
 					</backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>mason</Character_Name>
+					<Character_Name>Alec_Armour</Character_Name>
 					<Display_Name>TF_MENU_CHAR_ALEC_ARMOR</Display_Name>
 					<Bitmap_Name>ui_mp_char_mason</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -1846,6 +1847,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
+<!--END-->				
 				<Character_Element>
 					<Character_Name>EDF_Grunt_Braun</Character_Name>
 					<Display_Name>MENU_CHAR_GRUNT</Display_Name>
@@ -4280,7 +4282,7 @@
 					</backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>EddieMP</Character_Name>
+					<Character_Name>EddieMP</Character_Name> <!--Ravager-->
 					<Display_Name>MENU_CHAR_EDDIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_eddie</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -4668,7 +4670,7 @@
 					</backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>SladeMP</Character_Name>
+					<Character_Name>SladeMP</Character_Name> <!--Scavenger-->
 					<Display_Name>MENU_CHAR_SLADE</Display_Name>
 					<Bitmap_Name>ui_mp_char_slade</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -4959,7 +4961,7 @@
 					</backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>MuirMP</Character_Name>
+					<Character_Name>MuirMP</Character_Name> <!--Raider-->
 					<Display_Name>MENU_CHAR_MUIR</Display_Name>
 					<Bitmap_Name>ui_mp_char_muir</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -5063,6 +5065,7 @@
 		<MP_character>
 			<Name>EDF</Name>
 			<Character_Grid>
+<!--START ADDED-->				
 				<Character_Element>
 					<Character_Name>EDF_Elite_White</Character_Name>
 					<Display_Name>TF_MENU_CHAR_EDF_ELITE</Display_Name>
@@ -5103,6 +5106,7 @@
 					<Persona_Group>EDF Male</Persona_Group>
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
+<!--END-->				
 				<Character_Element>
 					<Character_Name>MP_Grunt_Braun</Character_Name>
 					<Display_Name>MENU_CHAR_GRUNT</Display_Name>
@@ -5151,6 +5155,7 @@
 		<MP_character>
 			<Name>Guerilla</Name>
 			<Character_Grid>
+<!--START ADDED-->				
 				<Character_Element>
 					<Character_Name>PC_DLC</Character_Name>
 					<Display_Name>TF_MENU_CHAR_DLC_SAM</Display_Name>
@@ -5176,7 +5181,7 @@
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>EddieMP</Character_Name>
+					<Character_Name>EddieMP</Character_Name> <!--Ravager-->
 					<Display_Name>TF_MENU_CHAR_EDDIE</Display_Name>
 					<Bitmap_Name>ui_mp_char_eddie</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -5184,7 +5189,7 @@
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>SladeMP</Character_Name>
+					<Character_Name>SladeMP</Character_Name> <!--Scavenger-->
 					<Display_Name>TF_MENU_CHAR_SLADE</Display_Name>
 					<Bitmap_Name>ui_mp_char_slade</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -5192,7 +5197,7 @@
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>MuirMP</Character_Name>
+					<Character_Name>MuirMP</Character_Name> <!--Raider-->
 					<Display_Name>TF_MENU_CHAR_MUIR</Display_Name>
 					<Bitmap_Name>ui_mp_char_muir</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -5287,6 +5292,7 @@
 					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
+<!--END-->				
 				<Character_Element>
 					<Character_Name>mp_guerilla_engineer</Character_Name>
 					<Display_Name>MENU_CHAR_JAKE</Display_Name>

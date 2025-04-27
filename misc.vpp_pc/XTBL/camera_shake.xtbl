@@ -2,7 +2,7 @@
 	<Table>
 <!--START ADDED-->		
 		<Camera_Shake>
-			<Name>camo_weapon_fire_repair</Name>
+			<Name>TF_weapon_fire_repair</Name>
 			<Wobble>
 				<Pitch>0.015</Pitch> <!--FROM 0.03-->
 				<Yaw>0.0</Yaw>
@@ -109,7 +109,7 @@
 			</Oscillation2>
 		</Camera_Shake>
 		<Camera_Shake>
-			<Name>camo_weapon_fire_gauss_r</Name>
+			<Name>TF_weapon_fire_gauss_r</Name>
 			<Wobble>
 				<Pitch>0.015</Pitch> <!--FROM 0.03-->
 				<Yaw>0.0</Yaw>
@@ -230,7 +230,7 @@
 			</Oscillation2>
 		</Camera_Shake>
 		<Camera_Shake>
-			<Name>camo_weapon_fire_nano</Name>
+			<Name>TF_weapon_fire_nano</Name>
 			<Wobble>
 				<Pitch>0.0</Pitch>
 				<Yaw>0.0</Yaw>
