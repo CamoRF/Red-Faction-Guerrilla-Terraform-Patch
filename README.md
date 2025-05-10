@@ -24,25 +24,7 @@
 - [Terraform Patch](https://github.com/users/CamoRF/projects/3/views/1)
 - [Requires Reconstructor Patches](https://github.com/orgs/rfg-modding/projects/1)
 
-# Releases
-- [v1.05 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6247)
-- [v1.06 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6259)
-- [v1.061 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6264)
-- [v1.062 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6267)
-- [v1.063 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6269)
-- [v1.064 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6340)
-- [v1.064.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6362)
-- [v1.064.2 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=6388)
-- [v1.07 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7501)
-- [v1.07.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7516)
-- [v1.07.2 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7626)
-- [v1.07.3 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7634)
-- [v1.07.3.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7635)
-- [v1.07.4 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7639)
-- [v1.07.4.1 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7649)
-- [v1.07.5 ALPHA](https://www.factionfiles.com/ff.php?action=file&id=7653)
-- [v1.07.5.1 BETA](https://www.factionfiles.com/ff.php?action=file&id=7696)
-- [v1.07.5.2 BETA](https://www.factionfiles.com/ff.php?action=file&id=7736)
+# Release
 - [v1.07.5.3 HOTFIX](https://www.factionfiles.com/ff.php?action=file&id=7744)
 
 # Tools Used
