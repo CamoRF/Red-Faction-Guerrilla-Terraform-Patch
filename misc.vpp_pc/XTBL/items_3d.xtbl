@@ -22,7 +22,7 @@
 			</_Editor>
 		</Item>
 		<Item>
-			<Name>Hess_CalfWrap_L</Name>
+			<Name>Hess_DLC_CalfWrap_L</Name>
 			<Spin_Time>5000</Spin_Time>
 			<_Editor>
 				<Category>Character Props:Hess</Category>
@@ -33,7 +33,7 @@
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
 		<Item>
-			<Name>Hess_BootCover_L</Name>
+			<Name>Hess_DLC_BootCover_L</Name>
 			<Spin_Time>5000</Spin_Time>
 			<_Editor>
 				<Category>Character Props:Hess</Category>
@@ -44,7 +44,7 @@
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
 		<Item>
-			<Name>Hess_KnifeCalf_R</Name>
+			<Name>Hess_DLC_KnifeCalf_R</Name>
 			<Spin_Time>5000</Spin_Time>
 			<_Editor>
 				<Category>Character Props:Hess</Category>
@@ -55,7 +55,7 @@
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
 		<Item>
-			<Name>Hess_BootCover_R</Name>
+			<Name>Hess_DLC_BootCover_R</Name>
 			<Spin_Time>5000</Spin_Time>
 			<_Editor>
 				<Category>Character Props:Hess</Category>

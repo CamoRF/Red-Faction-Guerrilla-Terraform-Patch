@@ -196,7 +196,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_CalfWrap_L</Name>
+							<Name>Hess_DLC_CalfWrap_L</Name>
 							<Character_Prop>l-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_L</Item_Prop>
 							<Chance>100</Chance>
@@ -209,7 +209,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_BootCover_L</Name>
+							<Name>Hess_DLC_BootCover_L</Name>
 							<Character_Prop>l-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_L</Item_Prop>
 							<Chance>100</Chance>
@@ -222,7 +222,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_KnifeCalf_R</Name>
+							<Name>Hess_DLC_KnifeCalf_R</Name>
 							<Character_Prop>r-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_R</Item_Prop>
 							<Chance>100</Chance>
@@ -235,7 +235,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_BootCover_R</Name>
+							<Name>Hess_DLC_BootCover_R</Name>
 							<Character_Prop>r-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_R</Item_Prop>
 							<Chance>100</Chance>
@@ -358,7 +358,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>vasha_skirt</Name>
+							<Name>Vasha_DLC_Skirt</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
