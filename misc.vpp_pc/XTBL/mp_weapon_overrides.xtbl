@@ -6,7 +6,7 @@
 			<Ammo_count>
 				<Magazine_Size>1</Magazine_Size>
 				<Num_Magazines>2</Num_Magazines>
-				<Max_Rounds>2</Max_Rounds>
+				<Max_Rounds>4</Max_Rounds> <!--FROM 2-->
 			</Ammo_count>
 			<_Editor>
 				<Category>Entries</Category>

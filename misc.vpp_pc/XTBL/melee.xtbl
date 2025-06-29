@@ -2,7 +2,7 @@
 	<Table>
 <!--START ADDED-->		
 		<MeleeMove>
-			<Name>missilepod_melee</Name>
+			<Name>TF_missilepod_melee</Name> <!--ADD TF_ in front and edit in weapons.xtbl-->
 			<AttackAnim>melee</AttackAnim>
 			<HitRange>0.5</HitRange>
 			<HitRadius>0.25</HitRadius>
@@ -90,7 +90,7 @@
 			</MoveDataList>
 		</MeleeMove>
 		<MeleeMove>
-			<Name>marauder_charge_melee</Name>
+			<Name>TF_marauder_charge_melee</Name>
 			<AttackAnim>melee</AttackAnim>
 			<HitRange>0.5</HitRange>
 			<HitRadius>0.4</HitRadius>
@@ -146,7 +146,7 @@
 			</MoveDataList>
 		</MeleeMove>
 		<MeleeMove>
-			<Name>marauder_charge_punch</Name>
+			<Name>TF_marauder_charge_punch</Name>
 			<AttackAnim>melee</AttackAnim>
 			<HitRange>0.5</HitRange>
 			<HitRadius>0.4</HitRadius>
@@ -368,7 +368,7 @@
 				</AnimSet>
 			</MoveDataList>
 		</MeleeMove>
-<!--END-->		
+<!--END-->
 		<MeleeMove>
 			<Name>ar_melee</Name>
 			<AttackAnim>melee</AttackAnim>

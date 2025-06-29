@@ -29,10 +29,8 @@ v2.00 CHANGES
 
 [Misc]
 * Added DLC precache assets to "mp_common.vpp_pc", will be useful for transferring SP DLC map assets to MP maps in the future
-* Re-added comments for changes the patch makes to ".xtbls", they don't seem to cause issues since some vanilla .xtbl files use them and the game ignores entries that are commented out
 * Patch rebuilt "hopefully" for the last time to reduce file size using the new loose file feature in SyncFaction 
 * Reverted some more out of scope changes in "tweak_table.xtbl" & added comments for gameplay add-on in future
-* Restored cut vanilla characters in multiplayer thanks to Reconstructor increasing a hardcoded limit
 * Optimized loading times
 * Increased population density in singleplayer
 
@@ -90,3 +88,4 @@ v2.00 CHANGES
 * Fixed issue with new multiplayer character and map strings
 * Fixed issue with a Peacekeeper value being set incorrectly
 * Fixed issue with incorrect footstep sounds for some characters
+* Fixed some missing characters in multiplayer

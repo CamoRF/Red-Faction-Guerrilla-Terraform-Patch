@@ -1,5 +1,7 @@
+<!--Comments compared to vanilla values-->
 <root>
 	<Table>	
+	<!--Fix XP spam at end of match?-->
 		<event>
 			<Name>Win match</Name>
 			<event_description>HM_XP_WIN_MATCH_DESC</event_description>

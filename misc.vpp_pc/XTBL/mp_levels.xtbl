@@ -1,5 +1,6 @@
+<!--Comments compared to vanilla values-->
 <root>
-	<Table> <!--NEEDS COMMENTS-->
+	<Table>
 		<mp_level_list>
 			<Name>Abandoned</Name>
 			<Filename>wcdlc6</Filename>

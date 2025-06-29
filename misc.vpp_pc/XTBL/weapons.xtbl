@@ -1,6 +1,7 @@
+<!--Comments are comparing to previous Terraform Versions-->
 <root>
-	<Table> <!--NEEDS COMMENTS-->
-<!--START ADDED-->		
+	<Table>
+<!--START ADDED-->
 		<Weapon>
 			<Name>TF_light_machine_gun</Name>
 			<Weapon_Class>bullet</Weapon_Class>
@@ -225,7 +226,7 @@
 				<Flag>held in left hand</Flag>
 				<Flag>disable player cover</Flag>
 				<Flag>dont drop on death</Flag>
-				<Flag>mp selectable</Flag>				
+				<!--<Flag>mp selectable</Flag>-->				
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
 			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
@@ -415,7 +416,7 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Explosion>DLC_remote_charge</Explosion>
+			<Explosion>TF_DLC_remote_charge</Explosion>
 			<Damage_Min_Dist>10</Damage_Min_Dist>
 			<Spread_Max>0</Spread_Max>
 			<Spread_Min>0</Spread_Min>
@@ -454,14 +455,14 @@
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>10</Max_Engagement_Distance>
 			<Inventory_Item>TF_mar_charge_placer</Inventory_Item>
-			<Item_3d>mar_charge_placer</Item_3d>
+			<Item_3d>TF_mar_charge_placer</Item_3d>
 			<MeleeAttacks>
-				<StandingPrimary>marauder_charge_melee</StandingPrimary>
-				<StandingSecondary>marauder_charge_punch</StandingSecondary>
-				<StandingTertiary>marauder_charge_melee</StandingTertiary>
-				<CrouchingPrimary>marauder_charge_melee</CrouchingPrimary>
-				<CrouchingSecondary>marauder_charge_punch</CrouchingSecondary>
-				<CrouchingTertiary>marauder_charge_melee</CrouchingTertiary>
+				<StandingPrimary>TF_marauder_charge_melee</StandingPrimary>
+				<StandingSecondary>TF_marauder_charge_punch</StandingSecondary>
+				<StandingTertiary>TF_marauder_charge_melee</StandingTertiary>
+				<CrouchingPrimary>TF_marauder_charge_melee</CrouchingPrimary>
+				<CrouchingSecondary>TF_marauder_charge_punch</CrouchingSecondary>
+				<CrouchingTertiary>TF_marauder_charge_melee</CrouchingTertiary>
 			</MeleeAttacks>
 			<Sounds>
 				<Special_Sound>SYS_WEP_CHARGE_AMMO_PICKUP</Special_Sound>
@@ -513,7 +514,7 @@
 				<Flag>shatter</Flag>
 				<Flag>held in left hand</Flag>
 				<Flag>disable player cover</Flag>
-				<Flag>mp selectable</Flag>
+				<!--<Flag>mp selectable</Flag>-->
 				<Flag>dont drop on death</Flag>	
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
@@ -533,7 +534,7 @@
 				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
 			</MeleeAttacks>
 			<Inventory_Item>TF_royal_sword</Inventory_Item>
-			<Item_3d>royal_sword</Item_3d>
+			<Item_3d>TF_royal_sword</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
@@ -595,7 +596,7 @@
 				<CrouchingTertiary>sledgehammer_melee_vert_u1</CrouchingTertiary>
 			</MeleeAttacks>
 			<Inventory_Item>TF_pickaxe</Inventory_Item>
-			<Item_3d>pickaxe</Item_3d>
+			<Item_3d>TF_pickaxe</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
@@ -621,7 +622,7 @@
 			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule>
 			<Unique_ID>209</Unique_ID>
 			<Inventory_Item>TF_edf_super_gauss</Inventory_Item>
-			<Item_3d>EDF_Super_Gauss</Item_3d>
+			<Item_3d>TF_EDF_Super_Gauss</Item_3d>
 			<Default_team>EDF</Default_team>
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
@@ -719,7 +720,7 @@
 			<Name>TF_edf_subverter</Name>
 			<Unique_ID>210</Unique_ID>
 			<Inventory_Item>TF_edf_subverter</Inventory_Item>
-			<Item_3d>edf_subverter</Item_3d>
+			<Item_3d>TF_edf_subverter</Item_3d>
 			<Default_team>EDF</Default_team>
 			<icon_name>ui_badge_icon_edf</icon_name>
 			<reticule_name>ui_hud_reti_enforcer</reticule_name>
@@ -741,9 +742,9 @@
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<NPC_Firing_Pattern>Default Enforcer</NPC_Firing_Pattern>
 			<NPC_Aim_Drift>Default</NPC_Aim_Drift>
-			<Recoil_Kick>0.92</Recoil_Kick>
+			<Recoil_Kick>0.87</Recoil_Kick> <!--FROM 0.92-->
 			<Spread_Min>1.0</Spread_Min>
-			<Spread_Max>4.0</Spread_Max>
+			<Spread_Max>3.5</Spread_Max> <!--FROM 4.0-->
 			<Spread_Fine_Aim_Min>0.5</Spread_Fine_Aim_Min>
 			<Spread_Fine_Aim_Max>2.5</Spread_Fine_Aim_Max>
 			<NPC_Spread_Min>1.25</NPC_Spread_Min>
@@ -778,14 +779,14 @@
 			<Damage_Scaling_Min>
 				<Threshold>5</Threshold>
 				<NPC_Damage>75</NPC_Damage>
-				<Player_Damage>45</Player_Damage>
+				<Player_Damage>50</Player_Damage> <!--FROM 45-->
 				<Vehicle_Damage>55</Vehicle_Damage>
 				<Player_Vehicle_Damage>40</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
 			<Damage_Scaling_Max>
 				<Threshold>50</Threshold>
 				<NPC_Damage>50</NPC_Damage>
-				<Player_Damage>35</Player_Damage>
+				<Player_Damage>40</Player_Damage> <!--FROM 35-->
 				<Vehicle_Damage>40</Vehicle_Damage>
 				<Player_Vehicle_Damage>25</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
@@ -843,12 +844,12 @@
 			<MeleeAttacks>
 				<Crouching>ar_melee</Crouching>
 				<CrouchMoving>ar_melee</CrouchMoving>
-				<StandingSecondary>missilepod_melee</StandingSecondary>
+				<StandingSecondary>TF_missilepod_melee</StandingSecondary>
 				<MovingSecondary>ar_melee</MovingSecondary>
 				<ProneAttackSecondary>ar_melee</ProneAttackSecondary>
-				<StandingPrimary>missilepod_melee</StandingPrimary>
-				<CrouchingPrimary>missilepod_melee</CrouchingPrimary>
-				<CrouchingSecondary>missilepod_melee</CrouchingSecondary>
+				<StandingPrimary>TF_missilepod_melee</StandingPrimary>
+				<CrouchingPrimary>TF_missilepod_melee</CrouchingPrimary>
+				<CrouchingSecondary>TF_missilepod_melee</CrouchingSecondary>
 			</MeleeAttacks>
 			<Animation_Group>Rocket Launcher</Animation_Group>
 			<Flags>
@@ -860,7 +861,7 @@
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>30</Max_Engagement_Distance>
 			<Inventory_Item>TF_missilepod</Inventory_Item>
-			<Item_3d>missilepod</Item_3d>
+			<Item_3d>TF_missilepod</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Sounds>
 				<Fire_Sound>WEP_TUR_ROCKET_PC_ATTACK</Fire_Sound>
@@ -903,7 +904,7 @@
 				<Acceleration>10</Acceleration>
 				<Inaccurate_flight>0.12</Inaccurate_flight>
 			</Projectile_Info>
-			<Explosion>DLC_missilepod</Explosion>
+			<Explosion>TF_DLC_missilepod</Explosion>
 			<Player_Move_Speed>1</Player_Move_Speed>
 			<Max_Rounds_Upgrade>63</Max_Rounds_Upgrade>
 		</Weapon>
@@ -916,10 +917,10 @@
 			<Max_Rounds>60</Max_Rounds>
 			<Range_Max>60</Range_Max>
 			<Range_Red>60</Range_Red>
-			<Default_Refire_Delay>90</Default_Refire_Delay>
+			<Default_Refire_Delay>0</Default_Refire_Delay> <!--FROM 90-->
 			<Damage_Scaling_Max>
 				<NPC_Damage>185</NPC_Damage>
-				<Player_Damage>60</Player_Damage>
+				<Player_Damage>65</Player_Damage> <!--FROM 60-->
 				<Threshold>100</Threshold>
 				<Vehicle_Damage>185</Vehicle_Damage>
 				<Player_Vehicle_Damage>45</Player_Vehicle_Damage>
@@ -955,8 +956,8 @@
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>50</Max_Engagement_Distance>
 			<Inventory_Item>TF_spiker</Inventory_Item>
-			<Item_3d>spiker</Item_3d>
-			<Recoil_Kick>.7</Recoil_Kick>
+			<Item_3d>TF_spiker</Item_3d>
+			<Recoil_Kick>0.0</Recoil_Kick> <!--FROM .7-->
 			<Acceleration>0.0</Acceleration>
 			<Sounds>
 				<Sound_Group>rail driver</Sound_Group>
@@ -992,7 +993,7 @@
 			<fine_aim_reticule>ui_hud_reti_assault0</fine_aim_reticule>
 			<dummy>False</dummy>
 			<mp_kill_phrase>HM_KILL_PHRASE_RAILED</mp_kill_phrase>
-			<Headshot_Multiplier>6.0</Headshot_Multiplier>
+			<Headshot_Multiplier>12.0</Headshot_Multiplier> <!--FROM 6.0-->
 			<Unique_ID>212</Unique_ID>
 			<NPC_Refire_Delay>250</NPC_Refire_Delay>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
@@ -1019,10 +1020,10 @@
 				<Restitution>1</Restitution>
 				<Gravity>0</Gravity>
 			</Projectile_Info>
-			<NPC_Aim_Drift>spiker</NPC_Aim_Drift>
+			<NPC_Aim_Drift>TF_spiker</NPC_Aim_Drift>
 			<Damage_Scaling_Min>
 				<NPC_Damage>185</NPC_Damage>
-				<Player_Damage>60</Player_Damage>
+				<Player_Damage>65</Player_Damage> <!--FROM 60-->
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
@@ -1042,7 +1043,7 @@
 			<Default_Refire_Delay>94</Default_Refire_Delay>
 			<Damage_Scaling_Max>
 				<NPC_Damage>40</NPC_Damage>
-				<Player_Damage>34</Player_Damage>
+				<Player_Damage>36</Player_Damage> <!--FROM 34-->
 				<Threshold>80</Threshold>
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
@@ -1069,7 +1070,7 @@
 			<Damage_Scaling_Min>
 				<Threshold>30</Threshold>
 				<NPC_Damage>60</NPC_Damage>
-				<Player_Damage>42</Player_Damage>
+				<Player_Damage>44</Player_Damage> <!--FROM 42-->
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
@@ -1077,7 +1078,7 @@
 			<Max_Engagement_Distance>18</Max_Engagement_Distance>
 			<Inventory_Item>m16</Inventory_Item>
 			<Item_3d>m16</Item_3d>
-			<Recoil_Kick>0.75</Recoil_Kick>
+			<Recoil_Kick>0.70</Recoil_Kick> <!--FROM 0.75-->
 			<Acceleration>0.0</Acceleration>
 			<Spread_Fine_Aim_Min>0.62</Spread_Fine_Aim_Min>
 			<Spread_Fine_Aim_Max>1.15</Spread_Fine_Aim_Max>

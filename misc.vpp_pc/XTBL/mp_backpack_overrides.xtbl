@@ -1,5 +1,6 @@
 <root>
-	<Table> <!--NEEDS COMMENTS-->
+	<Table>
+<!--Future comments compared to old Terraform Versions-->
 		<mp_backpacks>
 			<Name>Commando</Name>
 			<uses_fuel>

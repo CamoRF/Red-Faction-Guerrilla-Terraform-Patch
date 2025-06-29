@@ -1,3 +1,4 @@
+<!--Comments compared to vanilla values-->
 <root>
 	<Table>
 		<unlockable>
@@ -122,6 +123,14 @@
 		</unlockable>
 <!--START ADDED-->		
 		<unlockable>
+			<Name>TF_gutter</Name>
+			<level_needed>0</level_needed>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<image_name>mp_hammer_default</image_name>
+		</unlockable>		
+		<unlockable>
 			<Name>TF_royal_sword</Name>
 			<level_needed>0</level_needed>
 			<_Editor>
@@ -137,7 +146,7 @@
 			</_Editor>
 			<image_name>mp_hammer_default</image_name>
 		</unlockable>
-		<unlockable>
+<!--		<unlockable>
 			<Name>TF_flag_edf</Name>
 			<level_needed>0</level_needed>
 			<_Editor>
@@ -152,7 +161,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<image_name>mp_hammer_default</image_name>
-		</unlockable>
+		</unlockable>-->
 <!--END-->		
 	</Table>
 	<TableTemplates></TableTemplates>

@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START ADDED-->		
+<!--START ADDED-->
 		<Explosion>
 			<Name>TF_grenade</Name>
 			<Radius>5.0</Radius>
@@ -85,7 +85,7 @@
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
 		<Explosion>
-			<Name>DLC_remote_charge</Name>
+			<Name>TF_DLC_remote_charge</Name>
 			<Radius>3.0</Radius>
 			<AI_Sound_Radius>75</AI_Sound_Radius>
 			<vehicle_damage_max>3000</vehicle_damage_max>
@@ -122,7 +122,7 @@
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>	
 		<Explosion>
-			<Name>DLC_missilepod</Name>
+			<Name>TF_DLC_missilepod</Name>
 			<Radius>2.0</Radius>
 			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>1500</vehicle_damage_max>
@@ -161,8 +161,8 @@
 				<Flag>no gibs</Flag>
 			</Flags>
 		</Explosion>
-<!--END-->		
-		<Explosion> <!--EDITED>-->
+<!--END-->
+		<Explosion>
 			<Name>mp_shockwave_blast</Name>
 			<Radius>2.5</Radius>
 			<AI_Sound_Radius>50</AI_Sound_Radius>
@@ -195,7 +195,7 @@
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
-		<Explosion> <!--EDITED and moved?-->
+		<Explosion>
 			<Name>mp_kaboom</Name>
 			<Radius>7.2</Radius>
 			<CrumbleRadius>4.2</CrumbleRadius>
@@ -204,7 +204,7 @@
 			<vehicle_damage_min>300</vehicle_damage_min>
 			<Impulse>22000</Impulse>
 			<Effects>
-				<Element>wep_thermo_rpg_exp</Element> <!--FROM ?-->
+				<Element>wep_thermo_rpg_exp</Element>
 			</Effects>
 			<_Editor>
 				<Category>Entries:Multiplayer</Category>
@@ -226,7 +226,7 @@
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>
 		<Explosion>
-			<Name>rocket</Name> <!--EDITED?-->
+			<Name>rocket</Name>
 			<Radius>3.65</Radius>
 			<AI_Sound_Radius>75</AI_Sound_Radius>
 			<vehicle_damage_max>3500</vehicle_damage_max>

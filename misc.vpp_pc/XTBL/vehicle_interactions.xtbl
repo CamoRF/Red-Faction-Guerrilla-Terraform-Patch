@@ -1,8 +1,8 @@
 <root>
 	<Table>
-<!--START ADDED-->		
+<!--START ADDED-->
 		<Vehicle>
-			<Name>Mar_stomper</Name>
+			<Name>TF_Mar_stomper</Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -779,7 +779,7 @@
 			<Vehicle_Interaction_Flags></Vehicle_Interaction_Flags>
 		</Vehicle>
 		<Vehicle>
-			<Name>Mar_chomper</Name>
+			<Name>TF_Mar_chomper</Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -1270,6 +1270,7 @@
 			<Anim_Set>Vehicle_MarChomper</Anim_Set>
 			<Vehicle_Interaction_Flags></Vehicle_Interaction_Flags>
 		</Vehicle>
+<!--END-->
 		<Vehicle>
 			<Name>Mar_Raider_1</Name>
 			<_Editor>
@@ -1967,8 +1968,7 @@
 			</Waypoint_transitions>
 			<Anim_Set>Vehicle_MarJetter</Anim_Set>
 			<Vehicle_Interaction_Flags></Vehicle_Interaction_Flags>
-		</Vehicle>
-<!--END-->		
+		</Vehicle>	
 		<Vehicle>
 			<Name>Civ_ResRunner_1</Name>
 			<_Editor>

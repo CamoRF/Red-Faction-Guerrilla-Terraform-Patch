@@ -43,7 +43,7 @@
 					<Type>Back</Type>
 					<Items>
 						<Item>
-							<Name>rfg_DLC_Sam_Cape</Name>
+							<Name>TF_rfg_DLC_Sam_Cape</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -54,7 +54,7 @@
 					<Type>Head</Type>
 					<Items>
 						<Item>
-							<Name>rfg_DLC_Sam_Hair</Name>
+							<Name>TF_rfg_DLC_Sam_Hair</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -65,7 +65,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>rfg_DLC_Sam_Skirt</Name>
+							<Name>TF_rfg_DLC_Sam_Skirt</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -185,7 +185,7 @@
 					<Type>Head</Type>
 					<Items>
 						<Item>
-							<Name>Hess_DLC_Helmet</Name>
+							<Name>TF_Hess_DLC_Helmet</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -196,7 +196,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_DLC_CalfWrap_L</Name>
+							<Name>TF_Hess_DLC_CalfWrap_L</Name>
 							<Character_Prop>l-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_L</Item_Prop>
 							<Chance>100</Chance>
@@ -209,7 +209,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_DLC_BootCover_L</Name>
+							<Name>TF_Hess_DLC_BootCover_L</Name>
 							<Character_Prop>l-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_L</Item_Prop>
 							<Chance>100</Chance>
@@ -222,7 +222,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_DLC_KnifeCalf_R</Name>
+							<Name>TF_Hess_DLC_KnifeCalf_R</Name>
 							<Character_Prop>r-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_R</Item_Prop>
 							<Chance>100</Chance>
@@ -235,7 +235,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_DLC_BootCover_R</Name>
+							<Name>TF_Hess_DLC_BootCover_R</Name>
 							<Character_Prop>r-calf</Character_Prop>
 							<Item_Prop>Attach_Calf_R</Item_Prop>
 							<Chance>100</Chance>
@@ -248,7 +248,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Hess_DLC_Props</Name>
+							<Name>TF_Hess_DLC_Props</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -358,7 +358,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>Vasha_DLC_Skirt</Name>
+							<Name>TF_Vasha_DLC_Skirt</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>

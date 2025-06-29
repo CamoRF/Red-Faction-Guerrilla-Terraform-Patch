@@ -1,8 +1,9 @@
+<!--Comments compared to vanilla values-->
 <root>
 <Table>
 	<LOD>
 		<Name>Default</Name>
-		<lod_off_distance>34028237.0</lod_off_distance>
+		<lod_off_distance>34028237.0</lod_off_distance> <!--FROM ?-->
 		<_Editor>
 			<Category>Entries</Category>
 			</_Editor>

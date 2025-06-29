@@ -1,8 +1,8 @@
 <root>
 	<Table>
-<!--START ADDED-->		
+<!--START ADDED-->
 		<Vehicle>
-			<Name>Mar_chomper</Name>
+			<Name>TF_Mar_chomper</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -128,7 +128,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
+			<Vehicle_Interaction>TF_Mar_chomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<Effects>
 				<Exhaust>veh_exhaust_generic_a</Exhaust>
@@ -287,7 +287,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
+			<Vehicle_Interaction>TF_Mar_chomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<Effects>
 				<Exhaust>veh_exhaust_generic_a</Exhaust>
@@ -336,7 +336,7 @@
 			</Turrets>
 		</Vehicle>
 		<Vehicle>
-			<Name>Mar_chomper_MGWing</Name>
+			<Name>TF_Mar_chomper_MGWing</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -462,7 +462,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
+			<Vehicle_Interaction>TF_Mar_chomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<Effects>
 				<Exhaust>veh_exhaust_generic_a</Exhaust>
@@ -511,7 +511,7 @@
 			</Turrets>
 		</Vehicle>
 		<Vehicle>
-			<Name>Mar_chomper_Harp</Name>
+			<Name>TF_Mar_chomper_Harp</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -637,7 +637,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.1</Terrain_Damage_Scale>
-			<Vehicle_Interaction>Mar_chomper</Vehicle_Interaction>
+			<Vehicle_Interaction>TF_Mar_chomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<Effects>
 				<Exhaust>veh_exhaust_generic_a</Exhaust>
@@ -686,7 +686,7 @@
 			</Turrets>
 		</Vehicle>
 		<Vehicle>
-			<Name>Mar_stomper_MG</Name>
+			<Name>TF_Mar_stomper_MG</Name>
 			<_Editor>
 				<Category>Wheeled_Marauder</Category>
 			</_Editor>
@@ -817,7 +817,7 @@
 				<Normal_Spin_Damping_AI>1.5</Normal_Spin_Damping_AI>
 			</Angular_Damping>
 			<Terrain_Damage_Scale>0.5</Terrain_Damage_Scale>
-			<Vehicle_Interaction>Mar_stomper</Vehicle_Interaction>
+			<Vehicle_Interaction>TF_Mar_stomper</Vehicle_Interaction>
 			<CanBlockRoads>False</CanBlockRoads>
 			<spawn_offset_info>
 				<spawn_height>1.97</spawn_height>
@@ -849,13 +849,13 @@
 					<Seat>passenger_1</Seat>
 					<PropPoint>turret_1</PropPoint>
 					<Flags></Flags>
-					<AttachedTurret>turret_stomper_mg</AttachedTurret>
+					<AttachedTurret>TF_turret_stomper_mg</AttachedTurret>
 				</Mount>
 			</Turrets>
 			<Energy_Scale>1.5</Energy_Scale>
 		</Vehicle>
 		<Vehicle>
-			<Name>Mar_Walker</Name>
+			<Name>TF_Mar_Walker</Name>
 			<_Editor>
 				<Category>Mechs</Category>
 			</_Editor>
@@ -956,7 +956,7 @@
 			<Vehicle_Damage_Scale>1</Vehicle_Damage_Scale>
 			<Alert_Level_Multiplier>2.0</Alert_Level_Multiplier>
 		</Vehicle>
-<!--END-->		
+<!--END-->
 		<Vehicle>
 			<Name>MarsRover1</Name>
 			<_Editor>

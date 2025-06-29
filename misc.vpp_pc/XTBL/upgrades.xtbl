@@ -1,7 +1,7 @@
 <root>
 	<Table>
 <!--START ADDED-->
-<!--		<Upgrade>
+		<Upgrade>
 			<Name>missilepod</Name>
 			<Type>Weapon</Type>
 			<Levels>
@@ -40,7 +40,7 @@
 			<_Editor>
 				<Category>Normal</Category>
 			</_Editor>
-			<Weapon>camo_sp_missilepod</Weapon>
+			<Weapon>TF_missilepod</Weapon>
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
 			<Icon_Image>ui_hud_weapon_icon_pod</Icon_Image>
 			<Blueprint>ui_blueprint_misslepod</Blueprint>
@@ -75,7 +75,7 @@
 			<_Editor>
 				<Category>Normal</Category>
 			</_Editor>
-			<Weapon>camo_sp_EDF_Super_Gauss</Weapon>
+			<Weapon>TF_EDF_Super_Gauss</Weapon>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
 			<Icon_Image>ui_hud_weapon_icon_supergauss</Icon_Image>
 			<Blueprint>ui_blueprint_guass_rifle</Blueprint>
@@ -109,8 +109,8 @@
 				<Category>Normal</Category>
 			</_Editor>
 			<Display_Name>UPG_RADIATION_NAME</Display_Name>
-			<Weapon>camo_sp_spiker</Weapon>
-		</Upgrade>-->
+			<Weapon>TF_spiker</Weapon>
+		</Upgrade>
 <!--END-->
 		<Upgrade>
 			<Name>sledgehammer</Name>

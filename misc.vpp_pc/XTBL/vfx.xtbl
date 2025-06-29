@@ -1,4 +1,5 @@
-<root> <!--NEEDS COMMENTS-->
+<!--Comments compared to vanilla values-->
+<root>
 	<stream2_container_description>
 		<container>effect</container>
 		<container_name>vfx
@@ -3031,7 +3032,7 @@
 				<Category>Entries:Gameplay</Category>
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
-			<Singleplayer>True</Singleplayer>
+			<Singleplayer>False</Singleplayer> <!--FROM True-->
 			<Multiplayer>False</Multiplayer>
 		</Effect>
 		<Effect>
@@ -4565,7 +4566,7 @@
 				<Category>Entries:Gameplay</Category>
 			</_Editor>
 			<Streaming_Category>Preload</Streaming_Category>
-			<Singleplayer>True</Singleplayer>
+			<Singleplayer>False</Singleplayer> <!--FROM True-->
 			<Multiplayer>False</Multiplayer>
 			<Update_distance>1000000.0</Update_distance>
 			<LOD>
