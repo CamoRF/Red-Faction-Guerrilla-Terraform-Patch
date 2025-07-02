@@ -26,16 +26,17 @@ v2.00 CHANGES
 [Interface]
 * Initial loading screen updated to current patch version
 * Added several new placeholder textures for future map loading screens, thumbnails and character thumbnails to make it easier to add new textures in the future without tedious hex editing
+* Changes to multiplayer menu strings
 
 [Misc]
 * Added DLC precache assets to "mp_common.vpp_pc", will be useful for transferring SP DLC map assets to MP maps in the future
 * Patch rebuilt "hopefully" for the last time to reduce file size using the new loose file feature in SyncFaction 
 * Reverted some more out of scope changes in "tweak_table.xtbl" & added comments for gameplay add-on in future
-* Optimized loading times
+* Reduced loading times
 * Increased population density in singleplayer
 
 [Maps]
-* Improvements to Invasion
+* Various improvements to Invasion
 * Added team spawns & CTF to various WC maps
 * Added EDF crates on Complex to fix some line of sight issues with spawns
 * Added more weapon spawns to Shipment
@@ -53,20 +54,20 @@ v2.00 CHANGES
 * Updated vanilla wrecking crew maps with various fixes
 
 [New Maps]
-* Restored Pipeline Pitfall
-* Restored Retribution
+* Restored Pipeline Pitfall custom map
+* Restored Retribution custom map
 
 [Fixes]
 * Fixed crash when loading SP DLC
 * Fixed some spawns on Transmission
 * Fixed some spawns on Partial Recall
 * Fixed some spawns on Quarantine Siege
+* Fixed various issues on all maps
 * Fixed DLC weapon reticules & icons in SP DLC
-* Fixed missing some stuff for new weapons added by patch in "aim_drift.xtbl" & "weapon_firing_patterns.xtbl"
-* Fixed vanilla issue with missing specular textures in SP
+* Fixed missing data for new weapons added by patch in "aim_drift.xtbl" & "weapon_firing_patterns.xtbl"
+* Fixed vanilla issue with various missing specular textures in SP
 * Fixed vanilla issue with memorial texture in SP
 * Fixed vanilla issue with missing specular texture on Fallfactor and Junkyard maps
-* Fixed various issues on all maps
 * Fixed issue with XP message spam when finishing a multiplayer match
 * Fixed issue with team backpack racks not glowing red if your team cannot use them
 * Fixed issue with DLC Spiker weapon missing texture when it's on the ground or far away from player

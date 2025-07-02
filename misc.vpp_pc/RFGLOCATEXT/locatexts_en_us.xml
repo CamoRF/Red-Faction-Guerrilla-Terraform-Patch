@@ -3,7 +3,11 @@
   <Entry>
     <Identifier>TF_MENU_LEVEL_TESTING</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TESTING</String>
-  </Entry>  
+  </Entry>
+  <Entry>
+    <Identifier>TF_MENU_LEVEL_GREENBELT</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GREENBELT</String>
+  </Entry>
   <Entry>
     <Identifier>TF_MENU_LEVEL_WAREHOUSE</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]WAREHOUSE</String>
@@ -200,7 +204,7 @@
     <Identifier>TF_GUTTER</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GUTTER</String>
   </Entry>
-<!--END-->  
+<!--END-->
   <Entry>
     <Identifier />
     <Hash>1473498024</Hash>
@@ -20844,7 +20848,7 @@
   <Entry>
     <Identifier />
     <Hash>2495911055</Hash>
-    <String>TEST 1</String> <!--FROM BONUS MISSIONS-->
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]DLC CAMPAIGN</String> <!--FROM BONUS MISSIONS--> <!--SUB MENU-->
   </Entry>
   <Entry>
     <Identifier />
@@ -29389,7 +29393,7 @@
   <Entry>
     <Identifier />
     <Hash>2569503383</Hash>
-    <String>MULTIPLAYER</String>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MULTIPLAYER</String> <!--FROM MULTIPLAYER-->
   </Entry>
   <Entry>
     <Identifier />
@@ -29929,7 +29933,7 @@
   <Entry>
     <Identifier />
     <Hash>150336547</Hash>
-    <String>TEST 2</String> <!--FROM BONUS MISSIONS-->
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]DLC CAMPAIGN</String> <!--FROM BONUS MISSIONS-->  <!--MAIN MENU-->
   </Entry>
   <Entry>
     <Identifier />

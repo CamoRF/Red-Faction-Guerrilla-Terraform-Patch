@@ -1,9 +1,8 @@
 <root>
 	<Table>
-	<!--Might be unused, doublecheck weapons.xtbl-->
 <!--START ADDED-->		
-<!--		<Firing_Pattern>
-			<Name>TF_Default Spiker</Name>
+		<Firing_Pattern>
+			<Name>Default Spiker</Name> <!--Might be unused, doublecheck weapons.xtbl and dlc version-->
 			<Control_Points>
 				<Control_Point>
 					<Range_Percent>0.05</Range_Percent>
@@ -76,7 +75,7 @@
 			</Normal_Vehicle_Modifier>
 		</Firing_Pattern>
 		<Firing_Pattern>
-			<Name>TF_DLC EDF Super Gauss</Name>
+			<Name>DLC EDF Super Gauss</Name>
 			<Control_Points>
 				<Control_Point>
 					<Range_Percent>0.05</Range_Percent>
@@ -147,7 +146,7 @@
 			<_Editor>
 				<Category>Entries:Special</Category>
 			</_Editor>
-		</Firing_Pattern>-->
+		</Firing_Pattern>
 <!--END-->		
 		<Firing_Pattern>
 			<Name>turret_machinegun</Name>

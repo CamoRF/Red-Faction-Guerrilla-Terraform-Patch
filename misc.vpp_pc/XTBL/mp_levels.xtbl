@@ -2,7 +2,7 @@
 	<Table>
 		<mp_level_list>
 			<Name>Abandoned</Name>
-			<Filename>wcdlc6</Filename>
+			<Filename>mp_abandoned</Filename> <!--FROM wcdlc6-->
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -73,7 +73,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Cascade</Name>
-			<Filename>wc8</Filename>
+			<Filename>mp_cascade</Filename> <!--FROM wc8-->
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>

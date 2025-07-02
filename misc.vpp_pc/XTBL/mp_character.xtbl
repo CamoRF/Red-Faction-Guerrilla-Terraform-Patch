@@ -4,9 +4,9 @@
 		<MP_character>
 			<Name>FFA</Name>
 			<Character_Grid>
-<!--START ADDED-->			
+<!--START ADDED-->
 				<Character_Element>
-					<Character_Name>rfg_DLC_Sam</Character_Name>
+					<Character_Name>TF_Sam_DLC</Character_Name>
 					<Display_Name>TF_MENU_CHAR_DLC_SAM</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -103,7 +103,7 @@
 					</backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>Hess_DLC</Character_Name>
+					<Character_Name>TF_Hess_DLC</Character_Name>
 					<Display_Name>TF_MENU_CHAR_DLC_HESS</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo5</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -200,7 +200,7 @@
 					</backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>Vasha_DLC</Character_Name>
+					<Character_Name>TF_Vasha_DLC</Character_Name>
 					<Display_Name>TF_MENU_CHAR_DLC_VASHA</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo5</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -297,7 +297,7 @@
 					</backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>EDF_Elite_White</Character_Name>
+					<Character_Name>TF_EDF_Elite_White</Character_Name>
 					<Display_Name>TF_MENU_CHAR_EDF_ELITE</Display_Name>
 					<Bitmap_Name>ui_mp_char_edf_elite_w</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -394,7 +394,7 @@
 					</backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>Alec_Armour</Character_Name>
+					<Character_Name>TF_Alec_Armour</Character_Name>
 					<Display_Name>TF_MENU_CHAR_ALEC_ARMOR</Display_Name>
 					<Bitmap_Name>ui_mp_char_mason</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -696,7 +696,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-.01</Z>
+								<Z>.02</Z> <!--Test-->
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -720,7 +720,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0.0</Y>
-								<Z>0</Z>
+								<Z>.04</Z> <!--Test-->
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -736,7 +736,7 @@
 							<backpack_offset>
 								<X>-.01</X>
 								<Y>0.0</Y>
-								<Z>0</Z>
+								<Z>.04</Z> <!--Test-->
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -752,7 +752,7 @@
 							<backpack_offset>
 								<X>-.01</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>.04</Z> <!--Test-->
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -776,7 +776,7 @@
 							<backpack_offset>
 								<X>-.01</X>
 								<Y>-.02</Y>
-								<Z>-.04</Z>
+								<Z>.04</Z> <!--Test-->
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
@@ -793,7 +793,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-.08</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -801,7 +801,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-.08</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -809,7 +809,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-.08</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -817,7 +817,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-.08</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -825,7 +825,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-.02</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -833,7 +833,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-.08</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -841,7 +841,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-.08</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -849,7 +849,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-.08</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -857,7 +857,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-.02</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -865,7 +865,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>0</Z>
+								<Z>-.08</Z>
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -873,7 +873,7 @@
 							<backpack_offset>
 								<X>0</X>
 								<Y>0</Y>
-								<Z>-.02</Z>
+								<Z>-.08</Z>
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
@@ -1520,7 +1520,7 @@
 							<backpack_offset>
 								<X>.01</X>
 								<Y>-.02</Y>
-								<Z>.08</Z>
+								<Z>-.02</Z> <!--Test-->
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -1547,12 +1547,13 @@
 								<Z>.05</Z>
 							</backpack_offset>
 						</backpack>
+<!--Backpack Clipping Fix-->						
 						<backpack>
 							<backpack_name>Vision</backpack_name>
 							<backpack_offset>
 								<X>-.01</X>
 								<Y>0</Y>
-								<Z>.08</Z>
+								<Z>-.04</Z> <!--Setting this to a higher negative value will reduce pack clipping into characters, setting it to a higher negative number will move the pack further behind the camera possibly causing it to float-->
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
@@ -1649,7 +1650,7 @@
 							<backpack_offset>
 								<X>-.01</X>
 								<Y>0</Y>
-								<Z>.04</Z>
+								<Z>-.08</Z>
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
@@ -1666,7 +1667,7 @@
 							<backpack_offset>
 								<X>-.02</X>
 								<Y>0</Y>
-								<Z>.03</Z>
+								<Z>-.02</Z> <!--Test-->
 							</backpack_offset>
 						</backpack>
 						<backpack>
@@ -1746,7 +1747,7 @@
 							<backpack_offset>
 								<X>-.01</X>
 								<Y>0</Y>
-								<Z>.05</Z>
+								<Z>-.05</Z> <!--Test-->
 							</backpack_offset>
 						</backpack>
 					</backpack_offsets>
@@ -1848,7 +1849,7 @@
 						</backpack>
 					</backpack_offsets>
 				</Character_Element>
-<!--END-->				
+<!--END-->
 				<Character_Element>
 					<Character_Name>EDF_Grunt_Braun</Character_Name>
 					<Display_Name>MENU_CHAR_GRUNT</Display_Name>
@@ -5068,7 +5069,7 @@
 			<Character_Grid>
 <!--START ADDED-->				
 				<Character_Element>
-					<Character_Name>EDF_Elite_White</Character_Name>
+					<Character_Name>TF_EDF_Elite_White</Character_Name>
 					<Display_Name>TF_MENU_CHAR_EDF_ELITE</Display_Name>
 					<Bitmap_Name>ui_mp_char_edf_elite_w</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -5158,7 +5159,7 @@
 			<Character_Grid>
 <!--START ADDED-->				
 				<Character_Element>
-					<Character_Name>PC_DLC</Character_Name>
+					<Character_Name>TF_Sam_DLC</Character_Name>
 					<Display_Name>TF_MENU_CHAR_DLC_SAM</Display_Name>
 					<Bitmap_Name>ui_mp_char_samanya</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -5166,7 +5167,7 @@
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>Hess_DLC</Character_Name>
+					<Character_Name>TF_Hess_DLC</Character_Name>
 					<Display_Name>TF_MENU_CHAR_DLC_HESS</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo5</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>
@@ -5174,7 +5175,7 @@
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
 				<Character_Element>
-					<Character_Name>Vasha</Character_Name>
+					<Character_Name>TF_Vasha_DLC</Character_Name>
 					<Display_Name>TF_MENU_CHAR_DLC_VASHA</Display_Name>
 					<Bitmap_Name>ui_mp_char_camo5</Bitmap_Name>
 					<Unlock_Level>0</Unlock_Level>

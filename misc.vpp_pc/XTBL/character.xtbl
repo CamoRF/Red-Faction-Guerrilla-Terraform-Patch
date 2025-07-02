@@ -2,13 +2,13 @@
 	<Table>
 <!--START ADDED-->
 		<Character>
-			<Name>rfg_DLC_Sam</Name>
+			<Name>TF_Sam_DLC</Name>
 			<Model>
-				<Filename>sam_dlc.cmeshx</Filename> <!--Mesh inside .str2_pc-->
+				<Filename>tf_sam_dlc.cmeshx</Filename> <!--Mesh inside .str2_pc-->
 			</Model>
 			<Anim_Set>Civilian_Female.xtbl</Anim_Set>
 			<Rig>
-				<Filename>rfg_DLC_Sam.rigx</Filename> 
+				<Filename>TF_Sam_DLC.rigx</Filename> <!--These are packed into misc.vpp_pc-->
 			</Rig>
 			<Team>Marauder</Team>
 			<_Editor>
@@ -43,7 +43,7 @@
 					<Type>Back</Type>
 					<Items>
 						<Item>
-							<Name>TF_rfg_DLC_Sam_Cape</Name>
+							<Name>TF_Sam_DLC_Cape</Name> <!--items_3d.xtbl-->
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -54,7 +54,7 @@
 					<Type>Head</Type>
 					<Items>
 						<Item>
-							<Name>TF_rfg_DLC_Sam_Hair</Name>
+							<Name>TF_Sam_DLC_Hair</Name> <!--items_3d.xtbl-->
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -65,7 +65,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>TF_rfg_DLC_Sam_Skirt</Name>
+							<Name>TF_Sam_DLC_Skirt</Name> <!--items_3d.xtbl-->
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -132,20 +132,20 @@
 			<origin_district>Special</origin_district>
 			<Heads>
 				<Head>
-					<Name>rfg_DLC_Sam_Head</Name>
+					<Name>TF_Sam_DLC_Head</Name> <!--cpeg and gpeg inside .str2-->
 					<Base_Head>base_hires_head</Base_Head>
 					<Lod_Head>none</Lod_Head>
 				</Head>
 			</Heads>
 		</Character>
 		<Character>
-			<Name>Hess_DLC</Name>
+			<Name>TF_Hess_DLC</Name>
 			<Model>
-				<Filename>hess.cmeshx</Filename>
+				<Filename>tf_hess_dlc.cmeshx</Filename>
 			</Model>
 			<Anim_Set>Scavenger.xtbl</Anim_Set>
 			<Rig>
-				<Filename>Hess_DLC.rigx</Filename>
+				<Filename>TF_Hess_DLC.rigx</Filename>
 			</Rig>
 			<Team>Marauder</Team>
 			<_Editor>
@@ -317,13 +317,13 @@
 			<origin_district>Common</origin_district>
 		</Character>
 		<Character>
-			<Name>Vasha_DLC</Name>
+			<Name>TF_Vasha_DLC</Name>
 			<Model>
-				<Filename>vasha.cmeshx</Filename>
+				<Filename>tf_vasha_dlc.cmeshx</Filename>
 			</Model>
 			<Anim_Set>Civilian_Female.xtbl</Anim_Set>
 			<Rig>
-				<Filename>vasha.rigx</Filename>
+				<Filename>TF_Vasha_DLC.rigx</Filename>
 			</Rig>
 			<Team>Marauder</Team>
 			<_Editor>
@@ -425,9 +425,9 @@
 			<origin_district>Special</origin_district>
 		</Character>
 		<Character>
-			<Name>EDF_Elite_White</Name>
+			<Name>TF_EDF_Elite_White</Name>
 			<Model>
-				<Filename>mp_elite.cmeshx</Filename>
+				<Filename>tf_edf_elite_white.cmeshx</Filename>
 			</Model>
 			<Anim_Set>Elite.xtbl</Anim_Set>
 			<Rig>
@@ -525,7 +525,8 @@
 			<origin_district>Special</origin_district>
 		</Character>
 		<Character>
-			<Name>Alec_Armour</Name>
+			<Team>Guerilla</Team>
+			<Name>TF_Alec_Armour</Name>
 			<Model>
 				<Filename>Mason.cmeshx</Filename>
 			</Model>
@@ -668,7 +669,7 @@
 			<AimErrorPct>100</AimErrorPct>
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Special</origin_district>
-		</Character>		
+		</Character>
 <!--END-->
 		<Character>
 			<Name>MP_Selma</Name>

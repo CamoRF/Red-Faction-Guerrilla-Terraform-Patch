@@ -11,7 +11,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_1</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 28-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -19,7 +19,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_2</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 38-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -27,7 +27,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_3</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 51-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -35,7 +35,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_4</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 58-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -43,7 +43,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_5</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 65-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -51,7 +51,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_6</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 74-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -59,7 +59,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_7</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 81-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -67,7 +67,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_8</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 90-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -75,7 +75,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_9</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 93-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -83,7 +83,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_10</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 100-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -91,7 +91,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_11</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 104-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -99,7 +99,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_12</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 112-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -107,7 +107,7 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_13</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 119-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -115,13 +115,13 @@
 		</unlockable>
 		<unlockable>
 			<Name>sledge_upgrade_14</Name>
-			<level_needed>0</level_needed>
+			<level_needed>0</level_needed> <!--FROM 125-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
 			<image_name>mp_hammer_ostrich</image_name>
 		</unlockable>
-<!--START ADDED-->		
+<!--START ADDED-->
 		<unlockable>
 			<Name>TF_gutter</Name>
 			<level_needed>0</level_needed>
@@ -146,23 +146,7 @@
 			</_Editor>
 			<image_name>mp_hammer_default</image_name>
 		</unlockable>
-<!--		<unlockable>
-			<Name>TF_flag_edf</Name>
-			<level_needed>0</level_needed>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<image_name>mp_hammer_default</image_name>
-		</unlockable>	
-		<unlockable>
-			<Name>TF_flag_guerrilla</Name>
-			<level_needed>0</level_needed>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<image_name>mp_hammer_default</image_name>
-		</unlockable>-->
-<!--END-->		
+<!--END-->
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

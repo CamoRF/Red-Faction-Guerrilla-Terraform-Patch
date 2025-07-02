@@ -1,6 +1,50 @@
 <root>
 	<Table>
-<!--START ADDED-->		
+<!--START ADDED-->
+		<Territory>
+			<Name>mp_greenbelt</Name>
+			<Districts>
+				<District>
+					<Name>default</Name>
+					<Display_name>TERR_DUST</Display_name>
+					<Control>100</Control>
+					<Control_max>100</Control_max>
+					<Morale>0</Morale>
+					<Morale_max>100</Morale_max>
+					<liberated_tech>0</liberated_tech>
+					<liberated_marauder>0</liberated_marauder>
+					<liberated_edf>0</liberated_edf>
+					<min_progression_edf>0</min_progression_edf>
+					<Grid_index>
+						<Grid_item>
+							<Index>0808</Index>
+							<Grid_flags></Grid_flags>
+						</Grid_item>
+					</Grid_index>
+					<Grid_color>
+						<R>255</R>
+						<G>255</G>
+						<B>255</B>
+					</Grid_color>
+					<DiscLayer>Layer 0</DiscLayer>
+					<district_index>1</district_index>
+					<VFX_tint>
+						<R>234</R>
+						<G>239</G>
+						<B>133</B>
+					</VFX_tint>
+					<District_Flags></District_Flags>
+				</District>
+			</Districts>
+			<StreamingParams>
+				<VerticalMask></VerticalMask>
+				<HorizMask></HorizMask>
+			</StreamingParams>
+			<territory_index>0</territory_index>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Territory>
 		<Territory>
 			<Name>mp_warehouse</Name>
 			<Districts>

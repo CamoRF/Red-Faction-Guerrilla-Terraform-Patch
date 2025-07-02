@@ -618,7 +618,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Mp_respawn_invulnerable_time_ms</Name>
-			<Value>2000</Value> <!--FROM 5000-->
+			<Value>0</Value> <!--FROM 5000-->
 			<Description>How long after a player spawns should he be invulnerable for? This is in milliseconds.</Description>
 			<_Editor>
 				<Category>Multiplayer</Category>

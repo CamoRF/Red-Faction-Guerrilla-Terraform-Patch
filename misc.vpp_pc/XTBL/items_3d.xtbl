@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START DLC Characters ADDED-->
+<!--START CHARACTERS ADDED-->
 		<Item>
 			<Name>TF_Vasha_DLC_Skirt</Name>
 			<Item_Flags>
@@ -9,10 +9,10 @@
 			<Spin_Time>5000</Spin_Time>
 			<character_mesh>
 				<character_mesh>
-					<Filename>vasha_skirt.cmeshx</Filename>
+					<Filename>tf_vasha_dlc_skirt.cmeshx</Filename> <!--Packed into the characters .str2-->
 				</character_mesh>
 				<rig>
-					<Filename>Vasha_DLC_Skirt.rigx</Filename>
+					<Filename>TF_Vasha_DLC_Skirt.rigx</Filename> <!--Packed into misc.vpp_pc-->
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -28,7 +28,7 @@
 				<Category>Character Props:Hess</Category>
 			</_Editor>
 			<Mesh>
-				<Filename>hess_calfwrap_l.smeshx</Filename>
+				<Filename>tf_hess_dlc_calfwrap_l.smeshx</Filename>
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
@@ -39,7 +39,7 @@
 				<Category>Character Props:Hess</Category>
 			</_Editor>
 			<Mesh>
-				<Filename>hess_bootcover_l.smeshx</Filename>
+				<Filename>tf_hess_dlc_bootcover_l.smeshx</Filename>
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
@@ -50,7 +50,7 @@
 				<Category>Character Props:Hess</Category>
 			</_Editor>
 			<Mesh>
-				<Filename>hess_knifecalf_l.smeshx</Filename>
+				<Filename>tf_hess_dlc_knifecalf_l.smeshx</Filename>
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
@@ -61,7 +61,7 @@
 				<Category>Character Props:Hess</Category>
 			</_Editor>
 			<Mesh>
-				<Filename>hess_bootcover_r.smeshx</Filename>
+				<Filename>tf_hess_dlc_bootcover_r.smeshx</Filename>
 			</Mesh>
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
@@ -70,10 +70,10 @@
 			<Spin_Time>5000</Spin_Time>
 			<character_mesh>
 				<character_mesh>
-					<Filename>hess_helmet.cmeshx</Filename>
+					<Filename>tf_hess_dlc_helmet.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>Hess_DLC_Helmet.rigx</Filename>
+					<Filename>TF_Hess_DLC_Helmet.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -93,10 +93,10 @@
 			<Spin_Time>5000</Spin_Time>
 			<character_mesh>
 				<character_mesh>
-					<Filename>hess_props.cmeshx</Filename>
+					<Filename>tf_hess_dlc_props.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>Hess_DLC_Props.rigx</Filename>
+					<Filename>TF_Hess_DLC_Props.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 				<Filename></Filename>
@@ -107,17 +107,17 @@
 			<streaming_category>Character prop mesh only</streaming_category>
 		</Item>
 		<Item>
-			<Name>TF_rfg_DLC_Sam_Cape</Name>
+			<Name>TF_Sam_DLC_Cape</Name>
 			<Item_Flags>
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<character_mesh>
 				<character_mesh>
-					<Filename>sam_dlc_cape.cmeshx</Filename>
+					<Filename>tf_sam_dlc_cape.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>rfg_DLC_Sam_Cape.rigx</Filename>
+					<Filename>TF_Sam_DLC_Cape.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -127,17 +127,17 @@
 			</_Editor>
 		</Item>
 		<Item>
-			<Name>TF_rfg_DLC_Sam_Skirt</Name>
+			<Name>TF_Sam_DLC_Skirt</Name>
 			<Item_Flags>
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<character_mesh>
 				<character_mesh>
-					<Filename>sam_dlc_skirt.cmeshx</Filename>
+					<Filename>tf_sam_dlc_skirt.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>rfg_DLC_Sam_Skirt.rigx</Filename>
+					<Filename>TF_Sam_DLC_Skirt.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -147,17 +147,17 @@
 			</_Editor>
 		</Item>
 		<Item>
-			<Name>TF_rfg_DLC_Sam_Hair</Name>
+			<Name>TF_Sam_DLC_Hair</Name>
 			<Item_Flags>
 				<Flag>inherit_bone_transforms</Flag>
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<character_mesh>
 				<character_mesh>
-					<Filename>sam_dlc_hair.cmeshx</Filename>
+					<Filename>tf_sam_dlc_hair.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>rfg_DLC_Sam_Hair.rigx</Filename>
+					<Filename>TF_Sam_DLC_Hair.rigx</Filename>
 				</rig>
 				<Anim_set>none</Anim_set>
 			</character_mesh>
@@ -175,13 +175,13 @@
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<Mesh>
-				<Filename>dlc_royal_sword.smeshx</Filename>
+				<Filename>dlc_royal_sword.smeshx</Filename> <!--Packed into the .str2 in items.vpp_pc-->
 			</Mesh>
 			<pickup_static_mesh>
-				<Filename>dlc_royal_sword.smeshx</Filename>
+				<Filename>dlc_royal_sword.smeshx</Filename> <!--Packed into the .str2 in items.vpp_pc-->
 			</pickup_static_mesh>
 			<Touch_Script>give_item</Touch_Script>
-			<!--<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>-->
+			<!--<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>--> <!--Test if this fixes the strange sound with gutter, flag, sword etc-->
 			<Respawn_Delay>30000</Respawn_Delay>
 			<streaming_category>General</streaming_category>
 			<_Editor>
@@ -228,7 +228,7 @@
 					<Filename>dlc_marauder_charge.cmeshx</Filename>
 				</character_mesh>
 				<rig>
-					<Filename>Marauder_Charge_DLC.rigx</Filename>
+					<Filename>TF_Marauder_Charge_DLC.rigx</Filename> <!--Packed into misc.vpp_pc-->
 				</rig>
 				<Anim_set>None</Anim_set>
 			</character_mesh>
@@ -419,7 +419,7 @@
 				<Category>Entries:Projectiles</Category>
 			</_Editor>
 		</Item>
-<!--END-->		
+<!--END-->
 		<Item>
 			<Name>Lawrence_Eos_Coat</Name>
 			<Spin_Time>5000</Spin_Time>

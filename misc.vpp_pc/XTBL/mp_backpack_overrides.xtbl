@@ -2,7 +2,7 @@
 	<Table>
 <!--Future comments compared to old Terraform Versions-->
 		<mp_backpacks>
-			<Name>Commando</Name>
+			<Name>Commando</Name> <!--Firepower-->
 			<uses_fuel>
 				<fuel_regen_per_second>0.1</fuel_regen_per_second>
 			</uses_fuel>
@@ -32,7 +32,7 @@
 			</_Editor>
 		</mp_backpacks>
 		<mp_backpacks>
-			<Name>Shockwave</Name>
+			<Name>Shockwave</Name> <!--Concussion-->
 			<uses_fuel>
 				<fuel_regen_per_second>0.11</fuel_regen_per_second>
 			</uses_fuel>
