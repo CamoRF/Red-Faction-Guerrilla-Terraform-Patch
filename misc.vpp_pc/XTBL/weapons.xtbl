@@ -61,7 +61,7 @@
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>60</Max_Engagement_Distance>
 			<Inventory_Item>TF_light_machine_gun</Inventory_Item>
-			<Item_3d>turret_head_1</Item_3d> <!--Why does this shit break if i change it to a duplicated value of turret_head_1 in items_3d.xtbl?-->
+			<Item_3d>tf_lmg</Item_3d> <!--Why does this shit break if i change it to a duplicated value of turret_head_1 in items_3d.xtbl?-->
 			<Sounds>
 				<Fire_Sound>WEP_TUR_MACHINE_PC_ATTACK</Fire_Sound>
 				<Sound_Radius>70</Sound_Radius>
@@ -1091,7 +1091,7 @@
 			<reticule_name>ui_hud_reti_assault3</reticule_name>
 			<dummy>False</dummy>
 			<NPC_Aim_Drift>Default</NPC_Aim_Drift>
-			<Headshot_Multiplier>2.1</Headshot_Multiplier>
+			<Headshot_Multiplier>1.8</Headshot_Multiplier> <!--FROM 2.1-->
 			<Bullet_Group>Standard</Bullet_Group>
 			<Unique_ID>100</Unique_ID>
 			<Default_team>EDF</Default_team>
@@ -1105,13 +1105,13 @@
 			<Trigger_Type>automatic</Trigger_Type>
 			<Ammo_Type>bullet</Ammo_Type>
 			<Magazine_Size>32</Magazine_Size>
-			<Max_Rounds>128</Max_Rounds>
+			<Max_Rounds>192</Max_Rounds> <!--FROM 128-->
 			<Range_Max>45</Range_Max>
 			<Range_Red>60</Range_Red>
 			<Default_Refire_Delay>167</Default_Refire_Delay>
 			<Damage_Scaling_Max>
 				<NPC_Damage>24</NPC_Damage>
-				<Player_Damage>23</Player_Damage>
+				<Player_Damage>20</Player_Damage> <!--FROM 23-->
 				<Threshold>80</Threshold>
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
@@ -1130,7 +1130,7 @@
 			<Inventory_Item>enforcer</Inventory_Item>
 			<Item_3d>enforcer</Item_3d>
 			<Acceleration>0.0</Acceleration>
-			<Recoil_Kick>0.5</Recoil_Kick>
+			<Recoil_Kick>1.0</Recoil_Kick> <!--FROM 0.5-->
 			<NPC_Firing_Pattern>Default Enforcer</NPC_Firing_Pattern>
 			<Spread_Fine_Aim_Min>0.5</Spread_Fine_Aim_Min>
 			<Spread_Fine_Aim_Max>1.0</Spread_Fine_Aim_Max>
@@ -1149,20 +1149,20 @@
 			<Damage_Scaling_Min>
 				<Threshold>15</Threshold>
 				<NPC_Damage>40</NPC_Damage>
-				<Player_Damage>32</Player_Damage>
+				<Player_Damage>29</Player_Damage> <!--FROM 32-->
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
 			<Bullet_hole_scale>1.2</Bullet_hole_scale>
 			<Ammo_Box_Restock>64</Ammo_Box_Restock>
-			<Num_Magazines>4</Num_Magazines>
+			<Num_Magazines>6</Num_Magazines> <!--FROM 4-->
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<icon_name>ui_hud_weapon_icon_enforcer</icon_name>
 			<reticule_name>ui_hud_reti_enforcer</reticule_name>
 			<dummy>False</dummy>
 			<Headshot_Multiplier>2.5</Headshot_Multiplier>
 			<Zoom_Magnification>1.65</Zoom_Magnification>
-			<Autoaim_override>0.7756875</Autoaim_override>
+			<Autoaim_override>0.5817656</Autoaim_override> <!--FROM 0.7756875-->
 			<Dropped_ammo_scale>0.5</Dropped_ammo_scale>
 			<Unique_ID>99</Unique_ID>
 			<NPC_Autoaim>2.5</NPC_Autoaim>

@@ -2,19 +2,27 @@
 	<Table>
 <!--START LMG ADDED-->
 		<Item>
-			<Name>TF_LMG</Name>
+			<Name>tf_lmg</Name>
+			<Touch_Script>give_item</Touch_Script>
+			<Respawn_Delay>60000</Respawn_Delay> <!--Respawn times for weapon placements on maps-->		
 			<Item_Flags>
 				<Flag>high_res_map_large</Flag>
-				<Flag>collide_as_mover</Flag>
+				<Flag>spin</Flag>
+				<!--<Flag>collide_as_mover</Flag>-->
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
 			<Props>
 				<Prop>
-					<Name>gauss_clip</Name>
-					<Attach_tag>Clip_bone</Attach_tag>
+					<Name>rail_clip</Name>
+					<Attach_tag>Attach_Clip</Attach_tag>
 					<Type>clip</Type>
 				</Prop>
-			</Props>			
+				<Prop>
+					<Name>rail_power_pack</Name>
+					<Attach_tag>Attach_Pack</Attach_tag>
+					<Type>accessory_misc</Type>
+				</Prop>
+			</Props>		
 			<character_mesh>
 				<character_mesh>
 					<Filename>HMG_Weapon.cmeshX</Filename>
@@ -33,7 +41,10 @@
 			<Mesh>
 				<Filename>hmg_weapon_col.smeshx</Filename>
 			</Mesh>
+			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
+			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>			
 		</Item>
+<!--END-->		
 <!--START CHARACTERS ADDED-->
 		<Item>
 			<Name>TF_Vasha_DLC_Skirt</Name>
