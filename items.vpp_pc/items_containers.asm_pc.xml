@@ -4,6 +4,39 @@
   <Version>5</Version>
   <Containers>
     <ContainerEntry>
+      <Name>tf_lmg</Name>
+      <Type>23</Type>
+      <Flags>128</Flags>
+      <DataOffset>6144</DataOffset>
+      <CompressedSize>61109</CompressedSize>
+      <Sizes>
+        <int>3675</int>
+        <int>108</int>
+        <int>976</int>
+        <int>125284</int>
+      </Sizes>
+      <Primitives>
+        <PrimitiveEntry>
+          <Name>hmg_weapon_col.csmesh_pc</Name>
+          <Type>5</Type>
+          <Allocator>0</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>0</Unknown4>
+          <HeaderSize>3675</HeaderSize>
+          <DataSize>108</DataSize>
+        </PrimitiveEntry>
+        <PrimitiveEntry>
+          <Name>HMG_Weapon.ccmesh_pc</Name>
+          <Type>6</Type>
+          <Allocator>0</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>0</Unknown4>
+          <HeaderSize>976</HeaderSize>
+          <DataSize>125284</DataSize>
+        </PrimitiveEntry>
+      </Primitives>
+    </ContainerEntry>
+    <ContainerEntry>
       <Name>mar_remote_charge</Name>
       <Type>23</Type>
       <Flags>128</Flags>
