@@ -131,7 +131,7 @@
 			<image_name>mp_hammer_default</image_name>
 		</unlockable>		
 		<unlockable>
-			<Name>TF_royal_sword</Name>
+			<Name>royal_sword</Name>
 			<level_needed>0</level_needed>
 			<_Editor>
 				<Category>Entries</Category>
@@ -139,7 +139,7 @@
 			<image_name>mp_hammer_default</image_name>
 		</unlockable>
 		<unlockable>
-			<Name>TF_pickaxe</Name>
+			<Name>pickaxe</Name>
 			<level_needed>0</level_needed>
 			<_Editor>
 				<Category>Entries</Category>

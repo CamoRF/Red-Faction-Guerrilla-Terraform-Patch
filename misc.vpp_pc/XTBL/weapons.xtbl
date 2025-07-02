@@ -3,7 +3,7 @@
 	<Table>
 <!--START ADDED-->
 		<Weapon>
-			<Name>TF_light_machine_gun</Name>
+			<Name>TF_LMG</Name>
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
 			<Ammo_Type>bullet</Ammo_Type>
@@ -52,7 +52,7 @@
 				<Flag>shatter</Flag>
 				<Flag>disable player cover</Flag>
 				<Flag>can fine aim</Flag>
-				<Flag>dont drop on death</Flag>
+				<!--<Flag>dont drop on death</Flag>-->
 				<Flag>penetrating bullets</Flag>
 				<Flag>armor piercing</Flag>
 				<Flag>is obvious weapon</Flag>
@@ -401,7 +401,7 @@
 			<aim_assist>0.75</aim_assist>
 		</Weapon>		
 		<Weapon>
-			<Name>TF_mar_charge_placer</Name>
+			<Name>mar_charge_placer</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>thrown</Ammo_Type>
@@ -455,7 +455,7 @@
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>10</Max_Engagement_Distance>
 			<Inventory_Item>TF_mar_charge_placer</Inventory_Item>
-			<Item_3d>TF_mar_charge_placer</Item_3d>
+			<Item_3d>mar_charge_placer</Item_3d>
 			<MeleeAttacks>
 				<StandingPrimary>TF_marauder_charge_melee</StandingPrimary>
 				<StandingSecondary>TF_marauder_charge_punch</StandingSecondary>
@@ -485,7 +485,7 @@
 			<aim_assist>0.5</aim_assist>
 		</Weapon>		
 		<Weapon>
-			<Name>TF_royal_sword</Name>
+			<Name>royal_sword</Name>
 			<Weapon_Class>melee_sledgehammer</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -514,7 +514,6 @@
 				<Flag>shatter</Flag>
 				<Flag>held in left hand</Flag>
 				<Flag>disable player cover</Flag>
-				<!--<Flag>mp selectable</Flag>-->
 				<Flag>dont drop on death</Flag>	
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
@@ -534,7 +533,7 @@
 				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
 			</MeleeAttacks>
 			<Inventory_Item>TF_royal_sword</Inventory_Item>
-			<Item_3d>TF_royal_sword</Item_3d>
+			<Item_3d>royal_sword</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
@@ -555,7 +554,7 @@
 			<aim_assist>0.75</aim_assist>
 		</Weapon>
 		<Weapon>
-			<Name>TF_pickaxe</Name>
+			<Name>pickaxe</Name>
 			<Weapon_Class>melee_sledgehammer</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -578,7 +577,6 @@
 				<Flag>shatter</Flag>
 				<Flag>held in left hand</Flag>
 				<Flag>disable player cover</Flag>
-				<Flag>mp selectable</Flag>		
 				<Flag>dont drop on death</Flag>					
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
@@ -596,7 +594,7 @@
 				<CrouchingTertiary>sledgehammer_melee_vert_u1</CrouchingTertiary>
 			</MeleeAttacks>
 			<Inventory_Item>TF_pickaxe</Inventory_Item>
-			<Item_3d>TF_pickaxe</Item_3d>
+			<Item_3d>pickaxe</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>
@@ -616,13 +614,13 @@
 			<aim_assist>0.75</aim_assist>
 		</Weapon>		
 		<Weapon>
-			<Name>TF_EDF_Super_Gauss</Name>
+			<Name>EDF_Super_Gauss</Name>
 			<icon_name>ui_hud_weapon_icon_gauss</icon_name>
 			<reticule_name>ui_hud_reti_gaussrifle1</reticule_name>
 			<fine_aim_reticule>ui_hud_reti_gaussrifle2</fine_aim_reticule>
 			<Unique_ID>209</Unique_ID>
 			<Inventory_Item>TF_edf_super_gauss</Inventory_Item>
-			<Item_3d>TF_EDF_Super_Gauss</Item_3d>
+			<Item_3d>EDF_Super_Gauss</Item_3d>
 			<Default_team>EDF</Default_team>
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
@@ -717,10 +715,10 @@
 			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
-			<Name>TF_edf_subverter</Name>
+			<Name>edf_subverter</Name>
 			<Unique_ID>210</Unique_ID>
 			<Inventory_Item>TF_edf_subverter</Inventory_Item>
-			<Item_3d>TF_edf_subverter</Item_3d>
+			<Item_3d>edf_subverter</Item_3d>
 			<Default_team>EDF</Default_team>
 			<icon_name>ui_badge_icon_edf</icon_name>
 			<reticule_name>ui_hud_reti_enforcer</reticule_name>
@@ -813,7 +811,7 @@
 			<Bullet_hole_scale>0.8</Bullet_hole_scale>
 		</Weapon>
 		<Weapon>
-			<Name>TF_missilepod</Name>
+			<Name>missilepod</Name>
 			<icon_name>ui_badge_icon_murry</icon_name>
 			<reticule_name>ui_hud_reti_thermobaric</reticule_name>
 			<fine_aim_reticule>ui_hud_reti_thermobaric2</fine_aim_reticule>
@@ -861,7 +859,7 @@
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>30</Max_Engagement_Distance>
 			<Inventory_Item>TF_missilepod</Inventory_Item>
-			<Item_3d>TF_missilepod</Item_3d>
+			<Item_3d>missilepod</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Sounds>
 				<Fire_Sound>WEP_TUR_ROCKET_PC_ATTACK</Fire_Sound>
@@ -909,7 +907,7 @@
 			<Max_Rounds_Upgrade>63</Max_Rounds_Upgrade>
 		</Weapon>
 		<Weapon>
-			<Name>TF_spiker</Name>
+			<Name>spiker</Name>
 			<Weapon_Class>harpoon</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>projectile</Ammo_Type>
@@ -956,7 +954,7 @@
 			<Min_Engagement_Distance>20</Min_Engagement_Distance>
 			<Max_Engagement_Distance>50</Max_Engagement_Distance>
 			<Inventory_Item>TF_spiker</Inventory_Item>
-			<Item_3d>TF_spiker</Item_3d>
+			<Item_3d>spiker</Item_3d>
 			<Recoil_Kick>0.0</Recoil_Kick> <!--FROM .7-->
 			<Acceleration>0.0</Acceleration>
 			<Sounds>

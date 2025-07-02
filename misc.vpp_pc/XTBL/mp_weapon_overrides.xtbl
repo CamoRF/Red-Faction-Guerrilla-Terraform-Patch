@@ -4,9 +4,9 @@
 		<mp_weapons>
 			<Name>TF_grenade</Name>
 			<Ammo_count>
-				<Magazine_Size>1</Magazine_Size>
-				<Num_Magazines>2</Num_Magazines>
-				<Max_Rounds>4</Max_Rounds> <!--FROM 2-->
+				<Magazine_Size>4</Magazine_Size>
+				<Num_Magazines>4</Num_Magazines>
+				<Max_Rounds>4</Max_Rounds>
 			</Ammo_count>
 			<_Editor>
 				<Category>Entries</Category>

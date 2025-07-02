@@ -158,7 +158,7 @@
   </Entry>
   <Entry>
     <Identifier>TF_LMG</Identifier>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]LIGHT MACHINE GUN</String>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]LMG</String>
   </Entry>
   <Entry>
     <Identifier>TF_GRENADE</Identifier>

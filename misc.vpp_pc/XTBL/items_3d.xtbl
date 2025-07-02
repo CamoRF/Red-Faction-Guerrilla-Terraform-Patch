@@ -1,5 +1,39 @@
 <root>
 	<Table>
+<!--START LMG ADDED-->
+		<Item>
+			<Name>TF_LMG</Name>
+			<Item_Flags>
+				<Flag>high_res_map_large</Flag>
+				<Flag>collide_as_mover</Flag>
+			</Item_Flags>
+			<Spin_Time>5000</Spin_Time>
+			<Props>
+				<Prop>
+					<Name>gauss_clip</Name>
+					<Attach_tag>Clip_bone</Attach_tag>
+					<Type>clip</Type>
+				</Prop>
+			</Props>			
+			<character_mesh>
+				<character_mesh>
+					<Filename>HMG_Weapon.cmeshX</Filename>
+				</character_mesh>
+				<rig>
+					<Filename>HMG_Weapon.rigx</Filename>
+				</rig>
+				<Anim_set>Weap_Turret</Anim_set>
+				<Filename></Filename>
+			</character_mesh>
+			<_Editor>
+				<Category>Entries:Turrets</Category>
+			</_Editor>
+			<Mass>100</Mass>
+			<streaming_category>General</streaming_category>
+			<Mesh>
+				<Filename>hmg_weapon_col.smeshx</Filename>
+			</Mesh>
+		</Item>
 <!--START CHARACTERS ADDED-->
 		<Item>
 			<Name>TF_Vasha_DLC_Skirt</Name>
@@ -169,7 +203,7 @@
 <!--END-->
 <!--START DLC Weapons ADDED-->		
 		<Item>
-			<Name>TF_royal_sword</Name>
+			<Name>royal_sword</Name>
 			<Item_Flags>
 				<Flag>spin</Flag>
 			</Item_Flags>
@@ -189,7 +223,7 @@
 			</_Editor>
 		</Item>
 		<Item>
-			<Name>TF_pickaxe</Name>
+			<Name>pickaxe</Name>
 			<_Editor>
 				<Category>Entries:Hammers</Category>
 			</_Editor>
@@ -209,7 +243,7 @@
 			<!--<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>-->
 		</Item>
 		<Item>
-			<Name>TF_mar_remote_charge</Name>
+			<Name>mar_remote_charge</Name>
 			<Mass>.05</Mass>
 			<Respawn_Delay>5000</Respawn_Delay>
 			<_Editor>
@@ -234,7 +268,7 @@
 			</character_mesh>
 		</Item>
 		<Item>
-			<Name>TF_mar_charge_placer</Name>
+			<Name>mar_charge_placer</Name>
 			<_Editor>
 				<Category>Entries:WeaponMarauder</Category>
 			</_Editor>
@@ -261,7 +295,7 @@
 			</pickup_static_mesh>
 		</Item>		
 		<Item>
-			<Name>TF_EDF_Super_Gauss</Name>
+			<Name>EDF_Super_Gauss</Name>
 			<Item_Flags>
 				<Flag>spin</Flag>
 			</Item_Flags>
@@ -286,7 +320,7 @@
 			<Touch_Script>give_item</Touch_Script>
 		</Item>
 		<Item>
-			<Name>TF_edf_subverter</Name>
+			<Name>edf_subverter</Name>
 			<Touch_Script>give_item</Touch_Script>
 			<Respawn_Delay>30000</Respawn_Delay>
 			<_Editor>
@@ -312,7 +346,7 @@
 			</Props>
 		</Item>
 		<Item>
-			<Name>TF_edf_subverter_clip</Name>
+			<Name>edf_subverter_clip</Name>
 			<_Editor>
 				<Category>Entries:WeaponEDF</Category>
 			</_Editor>
@@ -328,7 +362,7 @@
 			</Item_Flags>
 		</Item>
 		<Item>
-			<Name>TF_missilepod</Name>
+			<Name>missilepod</Name>
 			<Touch_Script>give_item</Touch_Script>
 			<Respawn_Delay>60000</Respawn_Delay>
 			<_Editor>
@@ -354,7 +388,7 @@
 			</Props>
 		</Item>
 		<Item>
-			<Name>TF_missilepod_clip</Name>
+			<Name>missilepod_clip</Name>
 			<_Editor>
 				<Category>Entries:WeaponMarauder</Category>
 			</_Editor>
@@ -370,7 +404,7 @@
 			</Item_Flags>
 		</Item>
 		<Item>
-			<Name>TF_spiker</Name>
+			<Name>spiker</Name>
 			<Touch_Script>give_item</Touch_Script>
 			<Respawn_Delay>60000</Respawn_Delay>
 			<_Editor>
@@ -404,7 +438,7 @@
 			</pickup_static_mesh>
 		</Item>
 		<Item>
-			<Name>TF_spiker_projectile</Name>
+			<Name>spiker_projectile</Name>
 			<Item_Flags>
 				<Flag>collide_as_box</Flag>
 			</Item_Flags>
@@ -1063,6 +1097,15 @@
 				<Flag>collide_as_mover</Flag>
 			</Item_Flags>
 			<Spin_Time>5000</Spin_Time>
+<!--START ADDED-->
+			<Props>
+				<Prop>
+					<Name>gauss_clip</Name>
+					<Attach_tag>Clip_bone</Attach_tag>
+					<Type>clip</Type>
+				</Prop>
+			</Props>
+<!--END-->			
 			<character_mesh>
 				<character_mesh>
 					<Filename>HMG_Weapon.cmeshX</Filename>

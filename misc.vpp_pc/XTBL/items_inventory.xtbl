@@ -23,7 +23,7 @@
 		</Inventory_Item>
 		<Inventory_Item>
 			<Name>TF_gutter</Name>
-			<Display_Name>WEAP_GUTTER</Display_Name>
+			<Display_Name>TF_GUTTER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
@@ -33,7 +33,7 @@
 		</Inventory_Item>		
 		<Inventory_Item>
 			<Name>TF_flag_edf</Name>
-			<Display_Name>WEAP_FLAG_EDF</Display_Name>
+			<Display_Name>TF_EDF_FLAG</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
@@ -43,7 +43,7 @@
 		</Inventory_Item>		
 		<Inventory_Item>
 			<Name>TF_flag_guerrilla</Name>
-			<Display_Name>WEAP_FLAG_GUER</Display_Name>
+			<Display_Name>TF_GUERRILLA_FLAG</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
