@@ -1,4 +1,8 @@
   <Entry>
+    <Identifier>TF_MENU_LEVEL_TESTING</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TESTING</String>
+  </Entry>    
+  <Entry>
     <Identifier>TF_MENU_LEVEL_WAREHOUSE</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]WAREHOUSE</String>
   </Entry>
