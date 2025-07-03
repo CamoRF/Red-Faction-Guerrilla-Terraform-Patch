@@ -1,81 +1,8 @@
 <root>
 	<Table>
-<!--START DLC WEAPONS ADDED-->
+<!--START ADDED-->		
 		<Inventory_Item>
-			<Name>mar_charge_placer</Name> <!--FROM TF_mar_charge_placer-->
-			<Display_Name>TF_MAR_CHARGE_PLACER</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>royal_sword</Name>
-			<Display_Name>TF_ROYAL_SWORD</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>pickaxe</Name>
-			<Display_Name>TF_PICKAXE</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>EDF_Super_Gauss</Name>
-			<Display_Name>TF_EDF_SUPER_GAUSS</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>	
-		<Inventory_Item>
-			<Name>edf_subverter</Name>
-			<Display_Name>TF_EDF_SUBVERTER</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-		<Inventory_Item>
-			<Name>missilepod</Name>
-			<Display_Name>TF_MISSILEPOD</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>		
-		<Inventory_Item>
-			<Name>spiker</Name>
-			<Display_Name>TF_SPIKER</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>
-<!--END-->
-<!--START CUSTOM WEAPONS ADDED-->
-<!--START CUSTOM WEAPONS ADDED-->		
-		<Inventory_Item>
-			<Name>TF_LMG</Name>
+			<Name>TF_light_machine_gun</Name>
 			<Display_Name>TF_LMG</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -123,8 +50,78 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
+		</Inventory_Item>		
+		<Inventory_Item>
+			<Name>TF_mar_charge_placer</Name>
+			<Display_Name>TF_MAR_CHARGE_PLACER</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
 		</Inventory_Item>
-<!--END-->		
+		<Inventory_Item>
+			<Name>TF_royal_sword</Name>
+			<Display_Name>TF_ROYAL_SWORD</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>
+		<Inventory_Item>
+			<Name>TF_pickaxe</Name>
+			<Display_Name>TF_PICKAXE</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>
+		<Inventory_Item>
+			<Name>TF_edf_super_gauss</Name>
+			<Display_Name>TF_EDF_SUPER_GAUSS</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>	
+		<Inventory_Item>
+			<Name>TF_edf_subverter</Name>
+			<Display_Name>TF_EDF_SUBVERTER</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>
+		<Inventory_Item>
+			<Name>TF_missilepod</Name>
+			<Display_Name>TF_MISSILEPOD</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>		
+		<Inventory_Item>
+			<Name>TF_spiker</Name>
+			<Display_Name>TF_SPIKER</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>
+<!--END-->
 		<Inventory_Item>
 			<Name>gutter</Name>
 			<Display_Name>WEAP_GUTTER</Display_Name>

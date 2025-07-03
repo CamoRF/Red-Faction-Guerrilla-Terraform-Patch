@@ -108,7 +108,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Complex</Name>
-			<Filename>mp_complex</Filename> <!--FROM wc1-->
+			<Filename>wc1</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -532,7 +532,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Expansion</Name>
-			<Filename>mp_expansion</Filename> <!--FROM wcdlc4-->
+			<Filename>wcdlc4</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -567,7 +567,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Factory</Name>
-			<Filename>mp_factory</Filename> <!--FROM wc6-->
+			<Filename>wc6</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -637,7 +637,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Fortress</Name>
-			<Filename>mp_fortress</Filename> <!--FROM wc5-->
+			<Filename>wc5</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -708,7 +708,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Frost</Name>
-			<Filename>mp_frost</Filename> <!--FROM wcdlc5-->
+			<Filename>wcdlc5</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -850,7 +850,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Gulch</Name>
-			<Filename>mp_gulch</Filename> <!--FROM wc7-->
+			<Filename>wc7</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -920,7 +920,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Imperial</Name>
-			<Filename>mp_imperial</Filename> <!--FROM wcdlc3-->
+			<Filename>wcdlc3</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -955,7 +955,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Invasion</Name>
-			<Filename>mp_invasion</Filename> <!--FROM wcdlc8-->
+			<Filename>wcdlc8</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -990,7 +990,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Nordic Special</Name>
-			<Filename>mp_nordic_special</Filename> <!--FROM wcdlc9-->
+			<Filename>wcdlc9</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -1131,7 +1131,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Pipeline</Name>
-			<Filename>mp_pipeline</Filename> <!--FROM wc10-->
+			<Filename>wc10</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -1307,7 +1307,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Repercussion</Name>
-			<Filename>mp_repercussion</Filename> <!--FROM wcdlc2-->
+			<Filename>wcdlc2</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -1377,7 +1377,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Ruins</Name>
-			<Filename>mp_ruins</Filename> <!--FROM wcdlc1-->
+			<Filename>wcdlc1</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -1446,8 +1446,8 @@
 			<demolition_damage_multiplier>0.45</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
-			<Name>Scrapheap</Name>
-			<Filename>mp_scrapheap</Filename> <!--FROM wc3-->
+			<Name>Scrap Heap</Name>
+			<Filename>wc3</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -1515,7 +1515,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Stratosphere</Name>
-			<Filename>mp_stratosphere</Filename> <!--FROM wcdlc7-->
+			<Filename>wcdlc7</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -1550,7 +1550,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Transmission</Name>
-			<Filename>mp_transmission</Filename> <!--FROM wc9-->
+			<Filename>wc9</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -1585,7 +1585,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Vista</Name>
-			<Filename>mp_vista</Filename> <!--FROM wc4-->
+			<Filename>wc4</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>
@@ -1690,7 +1690,7 @@
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Watchtower</Name>
-			<Filename>mp_watchtower</Filename> <!--FROM wc2-->
+			<Filename>wc2</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
 			</_Editor>

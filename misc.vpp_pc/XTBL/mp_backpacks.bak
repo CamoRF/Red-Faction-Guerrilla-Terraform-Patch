@@ -11,14 +11,14 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<item_name>multi_object_backpack_jetpack</item_name>
-			<movement_speed_factor>1.0</movement_speed_factor>
+			<movement_speed_factor>1.2</movement_speed_factor>
 			<damage_taken_factor>1</damage_taken_factor>
 			<display_name>HM_BACKPACK_JETPACK</display_name>
 			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
 			<fuel_use_per_second>1.0</fuel_use_per_second>
-			<!--<kaboom_explosion_name>False</kaboom_explosion_name>-->
-			<radar>False</radar> <!--?-->
+			<kaboom_explosion_name>False</kaboom_explosion_name>
+			<radar>False</radar>
 			<jump_boost_horizontal>0.0</jump_boost_horizontal>
 			<jump_boost_vertical>0.0</jump_boost_vertical>
 			<health_regen_per_second>0.0</health_regen_per_second>
@@ -58,13 +58,13 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<item_name>multi_object_backpack_thrust</item_name>
-			<movement_speed_factor>1.0</movement_speed_factor>
+			<movement_speed_factor>1.2</movement_speed_factor>
 			<damage_taken_factor>1</damage_taken_factor>
 			<display_name>HM_BACKPACK_THRUST</display_name>
 			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
 			<fuel_use_per_second>1.0</fuel_use_per_second>
-			<!--<kaboom_explosion_name>False</kaboom_explosion_name>-->
+			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<radar>False</radar>
 			<jump_boost_horizontal>0.0</jump_boost_horizontal>
 			<jump_boost_vertical>0.0</jump_boost_vertical>
@@ -91,12 +91,12 @@
 					<jump_boost>
 						<jump_boost_horizontal>0</jump_boost_horizontal>
 						<jump_boost_vertical>10</jump_boost_vertical>
-						<jump_boost_delay_ms>180</jump_boost_delay_ms>
+						<jump_boost_delay_ms>90</jump_boost_delay_ms> <!--FROM 180-->
 						<jump_boost_downthrust_ground_hit_effect>mp_thrust_dust</jump_boost_downthrust_ground_hit_effect>
 					</jump_boost>
 					<reload_speed_factor>1</reload_speed_factor>
 					<fov_scale>1</fov_scale>
-					<!--<rhino>
+					<rhino>
 						<rhino_top_speed>10</rhino_top_speed>
 						<rhino_ramp_up_time_seconds>0.25</rhino_ramp_up_time_seconds>
 						<rhino_ramp_down_time_seconds>0.25</rhino_ramp_down_time_seconds>
@@ -104,7 +104,7 @@
 						<rhino_player_hit_damage>300</rhino_player_hit_damage>
 						<rhino_player_hit_speed>15</rhino_player_hit_speed>
 						<rhino_player_minimum_y_velocity>2</rhino_player_minimum_y_velocity>
-					</rhino>-->
+					</rhino>
 					<weapon>mp_backpack_thrust</weapon>
 					<replacement_bullet_hit_effect_self>wep_bullet_impact_steelsolid</replacement_bullet_hit_effect_self>
 					<fall_speed_safety_factor>1.3</fall_speed_safety_factor>
@@ -182,7 +182,7 @@
 			<display_name>HM_BACKPACK_FLEETFOOT</display_name>
 			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
-			<!--<kaboom_explosion_name>False</kaboom_explosion_name>-->
+			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<radar>False</radar>
 			<fuel_use_per_second>0.0</fuel_use_per_second>
 			<jump_boost_horizontal>5</jump_boost_horizontal>
@@ -295,7 +295,7 @@
 			<display_name>HM_BACKPACK_STEALTH</display_name>
 			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
-			<!--<kaboom_explosion_name>False</kaboom_explosion_name>-->
+			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<stealth>
 				<restealth_time_ms>250</restealth_time_ms>
 				<stealth_time_ms>1250</stealth_time_ms>
@@ -395,7 +395,7 @@
 			<display_name>HM_BACKPACK_VISION</display_name>
 			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
-			<!--<kaboom_explosion_name>False</kaboom_explosion_name>-->
+			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<stealth>
 				<restealth_time_ms>5000</restealth_time_ms>
 				<stealth_time_ms>2500</stealth_time_ms>
@@ -495,7 +495,7 @@
 			<display_name>HM_BACKPACK_COMMANDO</display_name>
 			<direct_damage_dealt_factor>1.4</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1.3</area_damage_dealt_factor>
-			<!--<kaboom_explosion_name>False</kaboom_explosion_name>-->
+			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<radar>True</radar>
 			<fuel_use_per_second>0.0</fuel_use_per_second>
 			<jump_boost_horizontal>0.0</jump_boost_horizontal>
@@ -604,7 +604,7 @@
 			<display_name>HM_BACKPACK_SHOCKWAVE</display_name>
 			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
-			<!--<kaboom_explosion_name>False</kaboom_explosion_name>-->
+			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<radar>False</radar>
 			<fuel_use_per_second>0.1</fuel_use_per_second>
 			<jump_boost_horizontal>0.0</jump_boost_horizontal>
@@ -645,13 +645,13 @@
 					<reload_speed_factor>1</reload_speed_factor>
 					<fov_scale>1</fov_scale>
 					<weapon>mp_backpack_ripple</weapon>
-					<!--<kaboom>
+					<kaboom>
 						<kaboom_explosion_name>mp_shockwave_blast</kaboom_explosion_name>
 						<kaboom_death_chance>0</kaboom_death_chance>
 						<kaboom_delay_ms>1000</kaboom_delay_ms>
 						<kaboom_damages_user>False</kaboom_damages_user>
 						<kaboom_camera_shake_user_intensity>1.0</kaboom_camera_shake_user_intensity>
-					</kaboom>-->
+					</kaboom>
 					<fall_speed_safety_factor>1.0</fall_speed_safety_factor>
 				</active_abilities>
 				<uses_fuel>
@@ -704,7 +704,7 @@
 			<display_name>HM_BACKPACK_HEAL</display_name>
 			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
-			<!--<kaboom_explosion_name>False</kaboom_explosion_name>-->
+			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<radar>False</radar>
 			<fuel_use_per_second>0.1</fuel_use_per_second>
 			<jump_boost_horizontal>0.0</jump_boost_horizontal>
@@ -1035,7 +1035,6 @@
 			<Unique_ID>9</Unique_ID>
 			<pickup_tooltip>backpack_tremor</pickup_tooltip>
 		</mp_backpacks>
-<!--START CUT KABOOM BACKPACK RESTORED-->		
 		<mp_backpacks>
 			<Name>Kaboom</Name>
 			<_Editor>
@@ -1130,8 +1129,6 @@
 			</pickup_effects>
 			<Unique_ID>10</Unique_ID>
 		</mp_backpacks>
-<!--END-->
-<!--START CUSTOM BACKPACKS ADDED-->		
 		<mp_backpacks>
 			<Name>Jetpack OP</Name>
 			<jetpack>
@@ -1142,13 +1139,13 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<item_name>multi_object_backpack_jetpack</item_name>
-			<movement_speed_factor>1.0</movement_speed_factor>
+			<movement_speed_factor>1.2</movement_speed_factor>
 			<damage_taken_factor>1</damage_taken_factor>
 			<display_name>TF_BACKPACK_JETPACK_OP</display_name>
 			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
 			<fuel_use_per_second>0.0</fuel_use_per_second>
-			<!--<kaboom_explosion_name>False</kaboom_explosion_name>-->
+			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<radar>False</radar>
 			<jump_boost_horizontal>0.0</jump_boost_horizontal>
 			<jump_boost_vertical>0.0</jump_boost_vertical>
@@ -1189,13 +1186,13 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<item_name>multi_object_backpack_thrust</item_name>
-			<movement_speed_factor>1.0</movement_speed_factor>
+			<movement_speed_factor>1</movement_speed_factor> <!--FROM 1-->
 			<damage_taken_factor>1</damage_taken_factor>
 			<display_name>TF_BACKPACK_THRUST_OP</display_name>
 			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
-			<fuel_use_per_second>1.0</fuel_use_per_second>
-			<!--<kaboom_explosion_name>False</kaboom_explosion_name>-->
+			<fuel_use_per_second>0.0</fuel_use_per_second> <!--FROM 1.0-->
+			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<radar>False</radar>
 			<jump_boost_horizontal>0.0</jump_boost_horizontal>
 			<jump_boost_vertical>0.0</jump_boost_vertical>
@@ -1222,12 +1219,12 @@
 					<jump_boost>
 						<jump_boost_horizontal>0</jump_boost_horizontal>
 						<jump_boost_vertical>25</jump_boost_vertical> <!--FROM 20-->
-						<jump_boost_delay_ms>180</jump_boost_delay_ms>
+						<jump_boost_delay_ms>0</jump_boost_delay_ms> <!--FROM 180-->
 						<jump_boost_downthrust_ground_hit_effect>mp_thrust_dust</jump_boost_downthrust_ground_hit_effect>
 					</jump_boost>
 					<reload_speed_factor>1</reload_speed_factor>
 					<fov_scale>1</fov_scale>
-					<!--<rhino>
+					<rhino>
 						<rhino_top_speed>10</rhino_top_speed>
 						<rhino_ramp_up_time_seconds>0.25</rhino_ramp_up_time_seconds>
 						<rhino_ramp_down_time_seconds>0.25</rhino_ramp_down_time_seconds>
@@ -1235,16 +1232,16 @@
 						<rhino_player_hit_damage>300</rhino_player_hit_damage>
 						<rhino_player_hit_speed>15</rhino_player_hit_speed>
 						<rhino_player_minimum_y_velocity>2</rhino_player_minimum_y_velocity>
-					</rhino>-->
+					</rhino>
 					<weapon>mp_backpack_thrust</weapon>
 					<replacement_bullet_hit_effect_self>wep_bullet_impact_steelsolid</replacement_bullet_hit_effect_self>
 					<fall_speed_safety_factor>2.6</fall_speed_safety_factor> <!--FROM 1.3-->
 				</active_abilities>
 				<uses_fuel>
-					<fuel_use_per_second>1.0</fuel_use_per_second> <!--FROM 0.8-->
+					<fuel_use_per_second>0.0</fuel_use_per_second> <!--FROM 0.8-->
 					<fuel_regen_per_second>1.0</fuel_regen_per_second>
 					<fuel_activation_cost>0</fuel_activation_cost>
-					<minimum_fuel_to_activate>1</minimum_fuel_to_activate>
+					<minimum_fuel_to_activate>0</minimum_fuel_to_activate> <!--FROM 1-->
 					<fuel_refill_foley>MP_BACKPACK_THRUST_REFUELED</fuel_refill_foley>
 				</uses_fuel>
 				<deactivatable>True
@@ -1308,12 +1305,12 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<item_name>multi_object_backpack_fleetfoot</item_name>
-			<movement_speed_factor>1</movement_speed_factor>
+			<movement_speed_factor>2.8</movement_speed_factor> <!--FROM 1.4-->
 			<damage_taken_factor>1</damage_taken_factor>
-			<display_name>TF_BACKPACK_FLEETFOOT_OP</display_name>
+			<display_name>TF_BACKPACK_CONCUSSION_OP</display_name>
 			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
-			<!--<kaboom_explosion_name>False</kaboom_explosion_name>-->
+			<kaboom_explosion_name>False</kaboom_explosion_name>
 			<radar>False</radar>
 			<fuel_use_per_second>0.0</fuel_use_per_second>
 			<jump_boost_horizontal>5</jump_boost_horizontal>
@@ -1322,10 +1319,10 @@
 			<jump_boost>
 				<jump_boost_horizontal>4</jump_boost_horizontal> <!--FROM 2-->
 				<jump_boost_vertical>8</jump_boost_vertical> <!--FROM 4-->
-				<jump_boost_timer_ms>0</jump_boost_timer_ms> <!--FROM 2500--> <!--How long after jump boosting must a player wait before they can jump boost again?-->
+				<jump_boost_timer_ms>2500</jump_boost_timer_ms>
 			</jump_boost>
 			<passive_abilities>
-				<movement_speed_factor>1.5</movement_speed_factor> <!--FROM 1.0-->
+				<movement_speed_factor>2.0</movement_speed_factor> <!--FROM 1.0-->
 				<damage_taken_factor>1.0</damage_taken_factor>
 				<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 				<area_damage_dealt_factor>1</area_damage_dealt_factor>
@@ -1340,14 +1337,14 @@
 					<player_deactivatable>True</player_deactivatable>
 				</deactivatable>
 				<uses_fuel>
-					<fuel_use_per_second>0</fuel_use_per_second> <!--FROM 0.18-->
-					<fuel_regen_per_second>1</fuel_regen_per_second> <!--FROM 0.15-->
-					<fuel_activation_cost>0</fuel_activation_cost> <!--FROM 0.05-->
+					<fuel_use_per_second>0.18</fuel_use_per_second>
+					<fuel_regen_per_second>0.15</fuel_regen_per_second>
+					<fuel_activation_cost>0.05</fuel_activation_cost>
 					<minimum_fuel_to_activate>0.25</minimum_fuel_to_activate>
 					<fuel_refill_foley>MP_BACKPACK_FLEET_REFUELED</fuel_refill_foley>
 				</uses_fuel>
 				<active_abilities>
-					<movement_speed_factor>4.75</movement_speed_factor> <!--FROM 1.45-->
+					<movement_speed_factor>7.25</movement_speed_factor> <!--FROM 1.45-->
 					<damage_taken_factor>1</damage_taken_factor>
 					<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 					<area_damage_dealt_factor>1</area_damage_dealt_factor>
@@ -1414,7 +1411,107 @@
 			<hint_text>HM_BACKPACK_FLEETFOOT_HINT</hint_text>
 			<Unique_ID>13</Unique_ID>
 			<pickup_tooltip>backpack_fleetfoot</pickup_tooltip>
-		</mp_backpacks>
+		</mp_backpacks>		
+<!--		<mp_backpacks>
+			<Name>Shockwave OP</Name>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<item_name>multi_object_backpack_shockwave</item_name>
+			<movement_speed_factor>1.1</movement_speed_factor>
+			<damage_taken_factor>1</damage_taken_factor>
+			<display_name>TF_BACKPACK_CONCUSSION_OP</display_name>
+			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
+			<area_damage_dealt_factor>1</area_damage_dealt_factor>
+			<kaboom_explosion_name>False</kaboom_explosion_name>
+			<radar>False</radar>
+			<fuel_use_per_second>0.1</fuel_use_per_second>
+			<jump_boost_horizontal>0.0</jump_boost_horizontal>
+			<jump_boost_vertical>0.0</jump_boost_vertical>
+			<shockwave>
+				<shockwave_explosion_name>mp_shockwave</shockwave_explosion_name>
+				<shockwave_timer_ms>1000</shockwave_timer_ms>
+			</shockwave>
+			<health_regen_per_second>0.0</health_regen_per_second>
+			<passive_abilities>
+				<movement_speed_factor>1</movement_speed_factor>
+				<damage_taken_factor>1.0</damage_taken_factor>
+				<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
+				<area_damage_dealt_factor>1</area_damage_dealt_factor>
+				<refire_delay_factor>1</refire_delay_factor>
+				<unlimited_ammo>False</unlimited_ammo>
+				<reload_speed_factor>1</reload_speed_factor>
+				<fov_scale>1</fov_scale>
+				<fall_speed_safety_factor>1.0</fall_speed_safety_factor>
+			</passive_abilities>
+			<activatable>0.0
+				<active_abilities>
+					<movement_speed_factor>1</movement_speed_factor>
+					<damage_taken_factor>1</damage_taken_factor>
+					<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
+					<area_damage_dealt_factor>1</area_damage_dealt_factor>
+					<ripple>
+						<ripple_range>12</ripple_range>
+						<ripple_player_hit_speed>24</ripple_player_hit_speed>
+						<ripple_effect_name>mp_shockwave_active_a</ripple_effect_name>
+						<ripple_player_minimum_y_velocity>8</ripple_player_minimum_y_velocity>
+						<ripple_player_damage>130</ripple_player_damage>
+						<ripple_mover_impulse>8000</ripple_mover_impulse>
+						<ripple_local_player_camera_shake>npc_shockwave</ripple_local_player_camera_shake>
+					</ripple>
+					<refire_delay_factor>1</refire_delay_factor>
+					<unlimited_ammo>False</unlimited_ammo>
+					<reload_speed_factor>1</reload_speed_factor>
+					<fov_scale>1</fov_scale>
+					<weapon>mp_backpack_ripple</weapon>
+					<kaboom>
+						<kaboom_explosion_name>mp_shockwave_blast</kaboom_explosion_name>
+						<kaboom_death_chance>0</kaboom_death_chance>
+						<kaboom_delay_ms>1000</kaboom_delay_ms>
+						<kaboom_damages_user>False</kaboom_damages_user>
+						<kaboom_camera_shake_user_intensity>1.0</kaboom_camera_shake_user_intensity>
+					</kaboom>
+					<fall_speed_safety_factor>1.0</fall_speed_safety_factor>
+				</active_abilities>
+				<uses_fuel>
+					<fuel_use_per_second>0</fuel_use_per_second>
+					<fuel_regen_per_second>0.44</fuel_regen_per_second>
+					<fuel_activation_cost>1</fuel_activation_cost>
+					<minimum_fuel_to_activate>1</minimum_fuel_to_activate>
+					<fuel_refill_foley>MP_BACKPACK_SHOCK_REFUELED</fuel_refill_foley>
+				</uses_fuel>
+				<no_cover>False</no_cover>
+				<no_fine_aim>False</no_fine_aim>
+				<activation_effects>
+					<ramp_up_effects>
+						<player_effects>mp_shockwave_charge_sound</player_effects>
+						<camera_shake>bp_ramp_shockwave</camera_shake>
+					</ramp_up_effects>
+					<failed_activation_foley>MP_BACKPACK_SHOCK_NO_FUEL</failed_activation_foley>
+					<activation_camera_shake>bp_active_shockwave</activation_camera_shake>
+					<loop_waits_for_attack>True</loop_waits_for_attack>
+				</activation_effects>
+			</activatable>
+			<activation_effects>
+				<ramp_up_effects>
+					<camera_shake>backpack_shockwave_ramp</camera_shake>
+					<player_effects>mp_shockwave_charge_sound</player_effects>
+				</ramp_up_effects>
+				<failed_activation_foley>MP_BACKPACK_NO_FUEL_WARNING</failed_activation_foley>
+			</activation_effects>
+			<pickup_effects>
+				<player_effects>
+					<effect>
+						<attack_effect>mp_shockwave_equip_sound</attack_effect>
+					</effect>
+				</player_effects>
+				<loop_waits_for_attack>True</loop_waits_for_attack>
+			</pickup_effects>
+			<icon_name>ui_hud_backpack_icon_shockwave</icon_name>
+			<hint_text>HM_BACKPACK_SHOCKWAVE_HINT</hint_text>
+			<Unique_ID>13</Unique_ID>
+			<pickup_tooltip>backpack_shockwave</pickup_tooltip>
+		</mp_backpacks>-->
 		<mp_backpacks>
 			<Name>Rhino OP</Name>
 			<display_name>OP RHINO</display_name>
@@ -1546,7 +1643,7 @@
 			<Unique_ID>14</Unique_ID>
 			<pickup_tooltip>backpack_rhino</pickup_tooltip>
 		</mp_backpacks>
-		<mp_backpacks> <!--No sound, try to give it reconstructor sound-->
+		<mp_backpacks>
 			<Name>Repair</Name>
 			<_Editor>
 				<Category>Entries</Category>
@@ -1569,7 +1666,7 @@
 					<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 					<area_damage_dealt_factor>1</area_damage_dealt_factor>
 					<repair>
-						<repair_radius>5</repair_radius> <!--FROM 10-->
+						<repair_radius>20</repair_radius> <!--FROM 10-->
 						<repair_offset>0</repair_offset>
 					</repair>
 					<refire_delay_factor>1</refire_delay_factor>
@@ -1591,13 +1688,13 @@
 							<loop_effect>wep_reconstructor_swarm_a</loop_effect>
 						</effect>
 					</player_effects>
-					<sfx_alr>WEP_RECONSTRUCTOR_PC</sfx_alr>
-					<sfx_npc_alr>WEP_RECONSTRUCTOR_NPC</sfx_npc_alr>
+					<sfx_alr>WEP_RECONSTRUCTOR_PC_ATTACK</sfx_alr>
+					<sfx_npc_alr>WEP_RECONSTRUCTOR_NPC_ATTACK</sfx_npc_alr>
 					<loop_waits_for_attack>True</loop_waits_for_attack>
 					<activation_camera_shake>bp_active_quake</activation_camera_shake>
 				</activation_effects>
 				<deactivatable>True
-					<player_deactivatable>True</player_deactivatable> <!--FROM False-->
+					<player_deactivatable>False</player_deactivatable>
 				</deactivatable>
 				<uses_fuel>
 					<fuel_use_per_second>0.10</fuel_use_per_second>
@@ -1609,9 +1706,9 @@
 			</activatable>
 			<jump_boost_horizontal>0.0</jump_boost_horizontal>
 			<jump_boost_vertical>0.0</jump_boost_vertical>
-			<!--<kaboom>
+			<kaboom>
 				<kaboom_explosion_name>mp_kaboom</kaboom_explosion_name>
-			</kaboom>-->
+			</kaboom>
 			<health_regen_per_second>0.0</health_regen_per_second>
 			<passive_abilities>
 				<movement_speed_factor>1.0</movement_speed_factor>
