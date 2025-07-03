@@ -1,8 +1,8 @@
 <root>
 	<Table>
-<!--START ADDED-->		
+<!--START ADDED-->
 		<MeleeMove>
-			<Name>TF_missilepod_melee</Name> <!--ADD TF_ in front and edit in weapons.xtbl-->
+			<Name>TF_missilepod_melee</Name>
 			<AttackAnim>melee</AttackAnim>
 			<HitRange>0.5</HitRange>
 			<HitRadius>0.25</HitRadius>
@@ -201,7 +201,9 @@
 					</SecondaryImpact>
 				</AnimSet>
 			</MoveDataList>
-		</MeleeMove>		
+		</MeleeMove>
+<!--END-->		
+<!--START gutter/royal sword animation fix-->		
 		<MeleeMove>
 			<Name>sword stand overhead</Name>
 			<AttackAnim>kick civilian</AttackAnim>
@@ -367,7 +369,7 @@
 					</AI>
 				</AnimSet>
 			</MoveDataList>
-		</MeleeMove>
+		</MeleeMove>		
 <!--END-->
 		<MeleeMove>
 			<Name>ar_melee</Name>

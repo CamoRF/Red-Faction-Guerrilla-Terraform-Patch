@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START ADDED-->		
+<!--START ADDED-->
 		<mp_weapons>
 			<Name>TF_grenade</Name>
 			<Ammo_count>
@@ -12,7 +12,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 		</mp_weapons>
-<!--END-->		
+<!--END-->
 		<mp_weapons>
 			<Name>mine_placer</Name>
 			<Ammo_count>

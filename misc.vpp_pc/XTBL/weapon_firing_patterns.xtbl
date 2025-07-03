@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START ADDED-->		
+<!--START ADDED-->
 		<Firing_Pattern>
 			<Name>Default Spiker</Name> <!--Might be unused, doublecheck weapons.xtbl and dlc version-->
 			<Control_Points>

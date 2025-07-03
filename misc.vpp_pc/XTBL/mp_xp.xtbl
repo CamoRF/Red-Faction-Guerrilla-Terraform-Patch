@@ -1,6 +1,6 @@
-<!--Comments compared to vanilla values-->
 <root>
 	<Table>	
+<!--Comments compared to vanilla values-->	
 	<!--Fix XP spam at end of match?-->
 		<event>
 			<Name>Win match</Name>

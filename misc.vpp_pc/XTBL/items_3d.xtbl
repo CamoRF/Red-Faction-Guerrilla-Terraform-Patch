@@ -42,9 +42,9 @@
 				<Filename>hmg_weapon_col.smeshx</Filename>
 			</Mesh>
 			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
-			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>			
+			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>		
 		</Item>
-<!--END-->		
+<!--END-->
 <!--START CHARACTERS ADDED-->
 		<Item>
 			<Name>TF_Vasha_DLC_Skirt</Name>

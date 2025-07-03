@@ -145,6 +145,10 @@
     <String>THRUST OP</String>
   </Entry>
   <Entry>
+    <Identifier>TF_FLEETFOOT_OP</Identifier>
+    <String>FLEETFOOT OP</String>
+  </Entry>  
+  <Entry>
     <Identifier>TF_BACKPACK_CONCUSSION_OP</Identifier>
     <String>CONCUSSION OP</String>
   </Entry>

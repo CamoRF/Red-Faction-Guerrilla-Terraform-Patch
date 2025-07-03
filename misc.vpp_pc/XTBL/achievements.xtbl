@@ -1,5 +1,7 @@
 <root>
 	<Table>
+<!--Comments compared to vanilla values-->
+<!--Probably revert, unlocks all cheats for testing-->	
 		<Achievement>
 			<Name>Welcome to Mars</Name>
 			<InternalId>1</InternalId>

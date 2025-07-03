@@ -1,7 +1,7 @@
-<!--Comments compared to vanilla values-->
 <root>
 	<Table>
-<!--START Custom Match-->		
+<!--Comments compared to vanilla values-->
+<!--START Custom match default/initial settings-->
 		<options_set>
 			<Name>Default</Name>
 			<generic_option_overrides>

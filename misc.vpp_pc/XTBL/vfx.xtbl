@@ -1,4 +1,3 @@
-<!--Comments compared to vanilla values-->
 <root>
 	<stream2_container_description>
 		<container>effect</container>
@@ -10,7 +9,7 @@
 		<container_other_category>cutscene</container_other_category>
 		<!-- This is used to filter out at different stages. The name is the xml element needed
 		to make the decision. Callbacks will occur with this variable at container creation
-		and adding primitives. -->
+		and adding primitives. --> <!--Volition comment-->
 		<container_filter>streaming_category</container_filter>
 		<container_multiplayer_filter>multiplayer</container_multiplayer_filter>
 		<container_singleplayer_filter>singleplayer</container_singleplayer_filter>
@@ -27,6 +26,7 @@
 			<report_errors>false</report_errors>
 		</container_contents>
 	</stream2_container_description>
+<!--Comments compared to vanilla values-->	
 	<Table>
 		<Effect>
 			<Name>mp_backpack_heal_a</Name>
