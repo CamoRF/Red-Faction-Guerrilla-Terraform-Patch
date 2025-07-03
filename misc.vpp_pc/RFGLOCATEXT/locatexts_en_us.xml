@@ -1,9 +1,14 @@
 ﻿<root>
 <!--START ADDED-->
   <Entry>
+    <Identifier>TF_TEST</Identifier>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TEST</String>
+  </Entry>
+<!--NEW MAPS-->  
+  <Entry>
     <Identifier>TF_MENU_LEVEL_TESTING</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TESTING</String>
-  </Entry>
+  </Entry>  
   <Entry>
     <Identifier>TF_MENU_LEVEL_GREENBELT</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GREENBELT</String>
@@ -33,10 +38,6 @@
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TOWNHALL</String>
   </Entry>
   <Entry>
-    <Identifier>TF_TEST</Identifier>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TEST</String>
-  </Entry>
-  <Entry>
 	<Identifier>TF_MENU_LEVEL_RETRIBUTION</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RETRIBUTION</String>
   </Entry>
@@ -44,6 +45,7 @@
     <Identifier>TF_MENU_LEVEL_PIPELINE_PITFALL</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PIPELINE PITFALL</String>
   </Entry>
+<!--NEW CHARACTERS-->  
   <Entry>
     <Identifier>TF_MENU_CHAR_EDF_HEAVY</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EDF HEAVY</String>
@@ -132,6 +134,7 @@
     <Identifier>TF_MENU_CHAR_MUIR</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RAIDER</String>
   </Entry>
+<!--BACKPACKS-->  
   <Entry>
     <Identifier>TF_BACKPACK_KABOOM</Identifier>
     <String>KABOOM</String>
@@ -160,6 +163,7 @@
     <Identifier>TF_BACKPACK_REPAIR</Identifier>
     <String>REPAIR</String>
   </Entry>
+<!--WEAPONS-->  
   <Entry>
     <Identifier>TF_LMG</Identifier>
     <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]LMG</String>
@@ -186,7 +190,7 @@
   </Entry>
   <Entry>
     <Identifier>TF_MAR_CHARGE_PLACER</Identifier>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MARAUDER CHARGES</String>
+    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MAR CHARGES</String>
   </Entry>
  <Entry>
     <Identifier>TF_ROYAL_SWORD</Identifier>
@@ -36698,255 +36702,5 @@
     <Identifier />
     <Hash>736214682</Hash>
     <String>YOU ARE NOT SIGNED IN</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>4004735136</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]WAREHOUSE</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>599855639</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JUNKYARD</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1874556447</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SHIPMENT</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>3533134930</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CLIFFSIDE</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>2883939327</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PARTIAL RECALL</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1465428410</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TOWNHALL</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>3672849560</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>388237007</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RETRIBUTION</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1715864188</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PIPELINE PITFALL</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>594549648</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EDF HEAVY</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>2395799518</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EDF ELITE</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1843545735</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]ALEC MASON (ARMOR)</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1510964450</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]DLC SAMANYA</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>16778430</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]DLC HESS</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1038833122</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]DLC VASHA</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>2737951998</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CARMEN</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>4054375267</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CAMIE</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>3334535738</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JENKINS</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>998468715</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JEAN (ELEGANT)</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>2618016440</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SAMANYA</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>2321534570</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MILA</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>731301024</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]DEBBIE (SCIENTIST)</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1508016463</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MARIE</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1809553149</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RACHEL (ELEGANT)</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>4281489156</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]ADMIRAL KOBEL</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>2104481260</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GENERAL ROTH</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>875641980</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]VOICE OF MARS</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>347321764</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IAN (ELEGANT)</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1189602686</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EDDIE</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>3751154453</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SCAVENGER</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1722425829</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RAIDER</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1722425829</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RAIDER</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>511507187</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]KABOOM</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1370535353</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JETPACK OP</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>185009746</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]THRUST OP</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>3837586106</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CONCUSSION OP</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>392439029</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RHINO OP</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>3841529613</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]REPAIR</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>3861225528</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]LIGHT MACHINE GUN</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1222338591</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GRENADE</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>4045155830</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MISSILEPOD</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>2634223560</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SUPER GAUSS RIFLE</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1477851663</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SPIKER</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>3071338901</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SUBVERTER</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>2159237176</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MARAUDER CHARGES</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>3916122274</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]ROYAL SWORD</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>3713687752</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PICKAXE</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>667036927</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EDF FLAG</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>1989378245</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GUERRILLA FLAG</String>
-  </Entry>
-  <Entry>
-    <Identifier />
-    <Hash>3182993149</Hash>
-    <String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GUTTER</String>
   </Entry>
 </root>
