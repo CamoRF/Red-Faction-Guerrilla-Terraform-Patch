@@ -1,7 +1,7 @@
 <root>
 	<Table>
-<!--Need to note current max unique ID-->
-<!--LMG doesn't have en empty clip sound, also increase the reload time-->	
+<!--Current max <Unique_ID>212</Unique_ID>-->
+<!--TEST: LMG doesn't have en empty clip sound, also increase the reload time-->	
 <!--START DLC WEAPONS ADDED-->
 		<Weapon>
 			<Name>mar_charge_placer</Name>
@@ -696,9 +696,11 @@
 			<Sounds>
 				<Fire_Sound>WEP_TUR_MACHINE_PC_ATTACK</Fire_Sound>
 				<Sound_Radius>70</Sound_Radius>
+				<No_Ammo_Sound>WEP_ASSAULT_DRYFIRE_PC</No_Ammo_Sound>
 				<NPC_Fire_Sounds>
 					<NPC_Fire_Sound>WEP_TUR_MACHINE_NPC_ATTACK</NPC_Fire_Sound>
 				</NPC_Fire_Sounds>
+				<Reload_Sound_Delay>0</Reload_Sound_Delay>				
 			</Sounds>
 			<Visuals>
 				<Muzzle_Flash>wep_jetter_mp_flash</Muzzle_Flash>
@@ -717,7 +719,7 @@
 			<reticule_name>ui_hud_reti_grinder</reticule_name>
 			<dummy>False</dummy>
 			<Max_Rounds_Upgrade>35</Max_Rounds_Upgrade>
-			<Reload_Delay>500</Reload_Delay>
+			<Reload_Delay>1000</Reload_Delay> <!--FROM 500-->
 			<Headshot_Multiplier>2.5</Headshot_Multiplier>
 			<Bullet_Group>standard</Bullet_Group>
 			<Unique_ID>201</Unique_ID>
@@ -857,7 +859,7 @@
 				<Flag>held in left hand</Flag>
 				<Flag>disable player cover</Flag>
 				<Flag>dont drop on death</Flag>
-				<!--<Flag>mp selectable</Flag>-->				
+				<Flag>mp selectable</Flag>
 			</Flags>
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
 			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
@@ -1032,6 +1034,71 @@
 			<aim_assist>0.75</aim_assist>
 		</Weapon>		
 <!--START MP WEAPONS-->
+		<Weapon>
+			<Name>repair_tool</Name> <!--Reconstructor-->
+			<Inventory_Item>repair_tool</Inventory_Item>
+			<Item_3d>repair_tool</Item_3d>
+			<Weapon_Class>repair</Weapon_Class>
+			<Trigger_Type>automatic</Trigger_Type>
+			<Ammo_Type>repair</Ammo_Type>
+			<Animation_Group>Arc</Animation_Group>
+			<Magazine_Size>0</Magazine_Size>
+			<Max_Rounds>1</Max_Rounds>
+			<Default_Refire_Delay>200</Default_Refire_Delay>
+			<Range_Max>0.0</Range_Max>
+			<Range_Red>0.0</Range_Red>
+			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
+			<Max_Engagement_Distance>0.0</Max_Engagement_Distance>
+			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
+			<Damage_Scaling_Max>
+				<NPC_Damage>0.0</NPC_Damage>
+				<Player_Damage>40</Player_Damage>
+				<Vehicle_Damage>-1</Vehicle_Damage>
+				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
+			</Damage_Scaling_Max>
+			<_Editor>
+				<Category>Entries:Other</Category>
+			</_Editor>
+			<Ammo_Box_Restock>0</Ammo_Box_Restock>
+			<Num_Magazines>2</Num_Magazines>
+			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
+			<icon_name>ui_hud_weapon_icon_repair</icon_name>
+			<dummy>False</dummy>
+			<Visuals>
+				<Special_Effect>wep_reconstructor_swarm_a</Special_Effect>
+				<Muzzle_Flash>wep_reconstructor_muzzle_a</Muzzle_Flash>
+				<Fire_Camera_Shake>TF_weapon_fire_repair</Fire_Camera_Shake> <!--FROM weapon_fire_repair-->
+				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
+				<Secondary_Camera_Shake>npc_reconstructor</Secondary_Camera_Shake>
+				<Overheated_effect>wep_reconstructor_overheat_a</Overheated_effect>
+			</Visuals>
+			<Flags>
+				<Flag>disable player cover</Flag>
+				<Flag>mp selectable</Flag>
+				<Flag>looping effects</Flag>
+			</Flags>
+			<MeleeAttacks>
+				<StandingPrimary>rpg_melee</StandingPrimary>
+				<StandingSecondary>rpg_melee</StandingSecondary>
+				<CrouchingPrimary>rpg_melee</CrouchingPrimary>
+				<CrouchingSecondary>rpg_melee</CrouchingSecondary>
+			</MeleeAttacks>
+			<reticule_name>ui_hud_reti_reconstructor</reticule_name>
+			<Unique_ID>38</Unique_ID>
+			<Overheat_Cool_Down_Time>2.45</Overheat_Cool_Down_Time>
+			<Overheat_Percent_Per_Shot>0.1</Overheat_Percent_Per_Shot>
+			<Sounds>
+				<Sound_Group>reconstructor</Sound_Group>
+				<Fire_Sound>WEP_RECONSTRUCTOR_PC_ATTACK</Fire_Sound>
+				<NPC_Fire_Sounds>
+					<NPC_Fire_Sound>WEP_RECONSTRUCTOR_NPC_ATTACK</NPC_Fire_Sound>
+				</NPC_Fire_Sounds>
+				<No_Ammo_Sound>WEP_RECONSTRUCTOR_PC_ATTACKFAIL_01</No_Ammo_Sound>
+			</Sounds>
+			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
+			<aim_assist>0.5</aim_assist>
+			<Player_Move_Speed>1</Player_Move_Speed>
+		</Weapon>		
 		<Weapon>
 			<Name>m16</Name> <!--ASSAULT RIFLE-->
 			<Weapon_Class>bullet</Weapon_Class>
@@ -2137,74 +2204,6 @@
 			<aim_assist>1.0</aim_assist>
 		</Weapon>
 <!--END-->
-		<Weapon>
-			<Name>gutter</Name>
-			<Weapon_Class>melee_gutter</Weapon_Class>
-			<Trigger_Type>single</Trigger_Type>
-			<Ammo_Type>melee</Ammo_Type>
-			<Magazine_Size>1</Magazine_Size>
-			<Max_Rounds>1</Max_Rounds>
-			<Range_Max>1.8</Range_Max>
-			<Range_Red>4.5</Range_Red>
-			<Default_Refire_Delay>0</Default_Refire_Delay>
-			<Damage_Scaling_Max>
-				<NPC_Damage>1000</NPC_Damage>
-				<Player_Damage>1000</Player_Damage>
-				<Vehicle_Damage>-1</Vehicle_Damage>
-				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
-			</Damage_Scaling_Max>
-			<Damage_Scaling_Min>
-				<NPC_Damage>25</NPC_Damage>
-				<Player_Damage>25</Player_Damage>
-				<Vehicle_Damage>-1</Vehicle_Damage>
-				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
-			</Damage_Scaling_Min>
-			<_Editor>
-				<Category>Entries:Marauder</Category>
-			</_Editor>
-			<Animation_Group>Gutter</Animation_Group>
-			<Flags>
-				<Flag>shatter</Flag>
-				<Flag>held in left hand</Flag>
-				<Flag>disable player cover</Flag>
-			</Flags>
-			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
-			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
-			<MeleeAttacks>
-				<StandingPrimary>sword stand sideways</StandingPrimary>
-				<StandingSecondary>sword stand overhead</StandingSecondary>
-				<MovingPrimary>sledgehammer_melee</MovingPrimary>
-				<MovingSecondary>sledgehammer_melee_2</MovingSecondary>
-				<Crouching>sledgehammer_melee</Crouching>
-				<CrouchMoving>sledgehammer_melee</CrouchMoving>
-				<ProneAttackPrimary>sledgehammer_melee</ProneAttackPrimary>
-				<ProneAttackSecondary>sledgehammer_melee_2</ProneAttackSecondary>
-				<CrouchingPrimary>sword stand sideways</CrouchingPrimary>
-				<CrouchingSecondary>sword stand overhead</CrouchingSecondary>
-				<StandingTertiary>sword stand overhead</StandingTertiary>
-				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
-			</MeleeAttacks>
-			<Inventory_Item>gutter</Inventory_Item>
-			<Item_3d>gutter</Item_3d>
-			<Acceleration>0.0</Acceleration>
-			<Visuals>
-				<Attachment_prop>holster-hammer</Attachment_prop>
-				<Special_Hit_Effect>wep_gutter_impact_flesh</Special_Hit_Effect>
-			</Visuals>
-			<Player_Move_Speed>1</Player_Move_Speed>
-			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
-			<Ammo_Box_Restock>0</Ammo_Box_Restock>
-			<Num_Magazines>2</Num_Magazines>
-			<icon_name>ui_hud_weapon_icon_gutter</icon_name>
-			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<reticule_name>ui_hud_reti_gutter</reticule_name>
-			<dummy>False</dummy>
-			<Melee_Group>Gutter</Melee_Group>
-			<Unique_ID>21</Unique_ID>
-			<Default_team>Marauder</Default_team>
-			<Zoom_Magnification>1.45</Zoom_Magnification>
-			<aim_assist>0.75</aim_assist>
-		</Weapon>
 		<Weapon>
 			<Name>flag_edf</Name>
 			<Weapon_Class>melee_gutter</Weapon_Class>
@@ -3712,6 +3711,74 @@
 			<Unique_ID>43</Unique_ID>
 			<aim_assist>1.0</aim_assist>
 		</Weapon>
+		<Weapon>
+			<Name>gutter</Name>
+			<Weapon_Class>melee_gutter</Weapon_Class>
+			<Trigger_Type>single</Trigger_Type>
+			<Ammo_Type>melee</Ammo_Type>
+			<Magazine_Size>1</Magazine_Size>
+			<Max_Rounds>1</Max_Rounds>
+			<Range_Max>1.8</Range_Max>
+			<Range_Red>4.5</Range_Red>
+			<Default_Refire_Delay>0</Default_Refire_Delay>
+			<Damage_Scaling_Max>
+				<NPC_Damage>1000</NPC_Damage>
+				<Player_Damage>1000</Player_Damage>
+				<Vehicle_Damage>-1</Vehicle_Damage>
+				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
+			</Damage_Scaling_Max>
+			<Damage_Scaling_Min>
+				<NPC_Damage>25</NPC_Damage>
+				<Player_Damage>25</Player_Damage>
+				<Vehicle_Damage>-1</Vehicle_Damage>
+				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
+			</Damage_Scaling_Min>
+			<_Editor>
+				<Category>Entries:Marauder</Category>
+			</_Editor>
+			<Animation_Group>Gutter</Animation_Group>
+			<Flags>
+				<Flag>shatter</Flag>
+				<Flag>held in left hand</Flag>
+				<Flag>disable player cover</Flag>
+			</Flags>
+			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
+			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
+			<MeleeAttacks>
+				<StandingPrimary>sword stand sideways</StandingPrimary>
+				<StandingSecondary>sword stand overhead</StandingSecondary>
+				<MovingPrimary>sledgehammer_melee</MovingPrimary>
+				<MovingSecondary>sledgehammer_melee_2</MovingSecondary>
+				<Crouching>sledgehammer_melee</Crouching>
+				<CrouchMoving>sledgehammer_melee</CrouchMoving>
+				<ProneAttackPrimary>sledgehammer_melee</ProneAttackPrimary>
+				<ProneAttackSecondary>sledgehammer_melee_2</ProneAttackSecondary>
+				<CrouchingPrimary>sword stand sideways</CrouchingPrimary>
+				<CrouchingSecondary>sword stand overhead</CrouchingSecondary>
+				<StandingTertiary>sword stand overhead</StandingTertiary>
+				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
+			</MeleeAttacks>
+			<Inventory_Item>gutter</Inventory_Item>
+			<Item_3d>gutter</Item_3d>
+			<Acceleration>0.0</Acceleration>
+			<Visuals>
+				<Attachment_prop>holster-hammer</Attachment_prop>
+				<Special_Hit_Effect>wep_gutter_impact_flesh</Special_Hit_Effect>
+			</Visuals>
+			<Player_Move_Speed>1</Player_Move_Speed>
+			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
+			<Ammo_Box_Restock>0</Ammo_Box_Restock>
+			<Num_Magazines>2</Num_Magazines>
+			<icon_name>ui_hud_weapon_icon_gutter</icon_name>
+			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
+			<reticule_name>ui_hud_reti_gutter</reticule_name>
+			<dummy>False</dummy>
+			<Melee_Group>Gutter</Melee_Group>
+			<Unique_ID>21</Unique_ID>
+			<Default_team>Marauder</Default_team>
+			<Zoom_Magnification>1.45</Zoom_Magnification>
+			<aim_assist>0.75</aim_assist>
+		</Weapon>		
 		<Weapon>
 			<Name>edf_pistol</Name>
 			<Weapon_Class>bullet</Weapon_Class>
@@ -5646,71 +5713,6 @@
 			<Unique_ID>35</Unique_ID>
 			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
 			<aim_assist>0.5</aim_assist>
-		</Weapon>
-		<Weapon>
-			<Name>repair_tool</Name>
-			<Inventory_Item>repair_tool</Inventory_Item>
-			<Item_3d>repair_tool</Item_3d>
-			<Weapon_Class>repair</Weapon_Class>
-			<Trigger_Type>automatic</Trigger_Type>
-			<Ammo_Type>repair</Ammo_Type>
-			<Animation_Group>Arc</Animation_Group>
-			<Magazine_Size>0</Magazine_Size>
-			<Max_Rounds>1</Max_Rounds>
-			<Default_Refire_Delay>200</Default_Refire_Delay>
-			<Range_Max>0.0</Range_Max>
-			<Range_Red>0.0</Range_Red>
-			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
-			<Max_Engagement_Distance>0.0</Max_Engagement_Distance>
-			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
-			<Damage_Scaling_Max>
-				<NPC_Damage>0.0</NPC_Damage>
-				<Player_Damage>40</Player_Damage>
-				<Vehicle_Damage>-1</Vehicle_Damage>
-				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
-			</Damage_Scaling_Max>
-			<_Editor>
-				<Category>Entries:Other</Category>
-			</_Editor>
-			<Ammo_Box_Restock>0</Ammo_Box_Restock>
-			<Num_Magazines>2</Num_Magazines>
-			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
-			<icon_name>ui_hud_weapon_icon_repair</icon_name>
-			<dummy>False</dummy>
-			<Visuals>
-				<Special_Effect>wep_reconstructor_swarm_a</Special_Effect>
-				<Muzzle_Flash>wep_reconstructor_muzzle_a</Muzzle_Flash>
-				<Fire_Camera_Shake>TF_weapon_fire_repair</Fire_Camera_Shake> <!--FROM weapon_fire_repair-->
-				<Fire_Camera_Shake_Ignore_Disabled>true</Fire_Camera_Shake_Ignore_Disabled>
-				<Secondary_Camera_Shake>npc_reconstructor</Secondary_Camera_Shake>
-				<Overheated_effect>wep_reconstructor_overheat_a</Overheated_effect>
-			</Visuals>
-			<Flags>
-				<Flag>disable player cover</Flag>
-				<Flag>mp selectable</Flag>
-				<Flag>looping effects</Flag>
-			</Flags>
-			<MeleeAttacks>
-				<StandingPrimary>rpg_melee</StandingPrimary>
-				<StandingSecondary>rpg_melee</StandingSecondary>
-				<CrouchingPrimary>rpg_melee</CrouchingPrimary>
-				<CrouchingSecondary>rpg_melee</CrouchingSecondary>
-			</MeleeAttacks>
-			<reticule_name>ui_hud_reti_reconstructor</reticule_name>
-			<Unique_ID>38</Unique_ID>
-			<Overheat_Cool_Down_Time>2.45</Overheat_Cool_Down_Time>
-			<Overheat_Percent_Per_Shot>0.1</Overheat_Percent_Per_Shot>
-			<Sounds>
-				<Sound_Group>reconstructor</Sound_Group>
-				<Fire_Sound>WEP_RECONSTRUCTOR_PC_ATTACK</Fire_Sound>
-				<NPC_Fire_Sounds>
-					<NPC_Fire_Sound>WEP_RECONSTRUCTOR_NPC_ATTACK</NPC_Fire_Sound>
-				</NPC_Fire_Sounds>
-				<No_Ammo_Sound>WEP_RECONSTRUCTOR_PC_ATTACKFAIL_01</No_Ammo_Sound>
-			</Sounds>
-			<Melee_Group>Large_Ranged_Melee_Set</Melee_Group>
-			<aim_assist>0.5</aim_assist>
-			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
 		<Weapon>
 			<Name>ab_rpg_dfa</Name>

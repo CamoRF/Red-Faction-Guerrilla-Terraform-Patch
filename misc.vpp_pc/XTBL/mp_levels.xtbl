@@ -16,7 +16,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_DLC_WC6</Display_name>
+			<Display_name>TF_MENU_LEVEL_ABANDONED</Display_name> <!--FROM MENU_LEVEL_DLC_WC6-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -52,7 +52,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_BROADSIDE</Display_name>
+			<Display_name>TF_MENU_LEVEL_BROADSIDE</Display_name> <!--FROM MENU_LEVEL_BROADSIDE-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -157,7 +157,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_COMPOUND</Display_name>
+			<Display_name>TF_MENU_LEVEL_COMPOUND</Display_name> <!--FROM MENU_LEVEL_COMPOUND-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -371,7 +371,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_DIVISION</Display_name>
+			<Display_name>TF_MENU_LEVEL_DIVISION</Display_name> <!--FROM MENU_LEVEL_DIVISION-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -476,7 +476,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_EQUILIBRIUM</Display_name>
+			<Display_name>TF_MENU_LEVEL_EQUILIBRIUM</Display_name> <!--FROM MENU_LEVEL_EQUILIBRIUM-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -546,7 +546,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_DLC_WC4</Display_name>
+			<Display_name>TF_MENU_LEVEL_EXPANSION</Display_name> <!--FROM MENU_LEVEL_DLC_WC4-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -722,7 +722,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_DLC_WC5</Display_name>
+			<Display_name>TF_MENU_LEVEL_FROST</Display_name> <!--FROM MENU_LEVEL_DLC_WC5-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -793,7 +793,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_GRADIENT</Display_name>
+			<Display_name>TF_MENU_LEVEL_GRADIENT</Display_name> <!--FROM MENU_LEVEL_GRADIENT-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -899,7 +899,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_HAVEN</Display_name>
+			<Display_name>TF_MENU_LEVEL_HAVEN</Display_name> <!--FROM MENU_LEVEL_HAVEN-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -934,7 +934,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_DLC_WC3</Display_name>
+			<Display_name>TF_MENU_LEVEL_IMPERIAL</Display_name> <!--FROM MENU_LEVEL_DLC_WC3-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -969,7 +969,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_INVASION</Display_name>
+			<Display_name>TF_MENU_LEVEL_INVASION</Display_name> <!--FROM MENU_LEVEL_INVASION-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1004,7 +1004,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_NORDICSPECIAL</Display_name>
+			<Display_name>TF_MENU_LEVEL_NORDIC_SPECIAL</Display_name> <!--FROM MENU_LEVEL_NORDICSPECIAL-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1180,7 +1180,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_PUNCTURE</Display_name>
+			<Display_name>TF_MENU_LEVEL_PUNCTURE</Display_name> <!--FROM MENU_LEVEL_PUNCTURE-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1286,7 +1286,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_REMNANT</Display_name>
+			<Display_name>TF_MENU_LEVEL_REMNANT</Display_name> <!--FROM MENU_LEVEL_REMNANT-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1321,7 +1321,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_DLC_WC2</Display_name>
+			<Display_name>TF_MENU_LEVEL_REPERCUSSION</Display_name> <!--FROM MENU_LEVEL_DLC_WC2-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1391,7 +1391,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_DLC_WC1</Display_name>
+			<Display_name>TF_MENU_LEVEL_RUINS</Display_name> <!--MENU_LEVEL_DLC_WC1-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1529,7 +1529,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_STRATOSPHERE</Display_name>
+			<Display_name>TF_MENU_LEVEL_STRATOSPHERE</Display_name> <!--FROM MENU_LEVEL_STRATOSPHERE-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1703,8 +1703,8 @@
 			<level_image_name>mp_thumb_watchtower</level_image_name>
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
-			<wind_direction>270</wind_direction>
-			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC2</Display_name>
+			<wind_direction>270</wind_direction> 
+			<Display_name>TF_MENU_LEVEL_WATCHTOWER</Display_name> <!--FROM MENU_WRECKING_CREW_MAP_NAME_WC2-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>

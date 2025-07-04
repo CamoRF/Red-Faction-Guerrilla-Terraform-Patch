@@ -1035,7 +1035,7 @@
 			<Unique_ID>9</Unique_ID>
 			<pickup_tooltip>backpack_tremor</pickup_tooltip>
 		</mp_backpacks>
-<!--START CUT KABOOM BACKPACK RESTORED-->		
+<!--START CUT KABOOM BACKPACK RESTORED-->	
 		<mp_backpacks>
 			<Name>Kaboom</Name>
 			<_Editor>
@@ -1044,7 +1044,7 @@
 			<item_name>multi_object_backpack_kaboom</item_name>
 			<movement_speed_factor>1</movement_speed_factor>
 			<damage_taken_factor>1</damage_taken_factor>
-			<display_name>TF_BACKPACK_KABOOM</display_name>
+			<display_name>HM_BACKPACK_KABOOM</display_name>
 			<direct_damage_dealt_factor>1</direct_damage_dealt_factor>
 			<area_damage_dealt_factor>1</area_damage_dealt_factor>
 			<kaboom_explosion_name>True</kaboom_explosion_name>
@@ -1417,8 +1417,8 @@
 		</mp_backpacks>
 		<mp_backpacks>
 			<Name>Rhino OP</Name>
-			<display_name>OP RHINO</display_name>
-			<item_name>TF_BACKPACK_RHINO_OP</item_name>
+			<display_name>TF_BACKPACK_RHINO_OP</display_name>
+			<item_name>multi_object_backpack_rhino</item_name>
 			<movement_speed_factor>1.0</movement_speed_factor>
 			<damage_taken_factor>1.0</damage_taken_factor>
 			<direct_damage_dealt_factor>1.1</direct_damage_dealt_factor>
@@ -1429,10 +1429,10 @@
 					<player_deactivatable>False</player_deactivatable>
 				</deactivatable>
 				<uses_fuel>
-					<fuel_use_per_second>0.0</fuel_use_per_second> <!--FROM 1.3-->
-					<fuel_regen_per_second>1.0</fuel_regen_per_second> <!--FROM .4-->
+					<fuel_use_per_second>1.2</fuel_use_per_second>
+					<fuel_regen_per_second>1.3</fuel_regen_per_second> <!--FROM .4-->
 					<fuel_activation_cost>0.0</fuel_activation_cost>
-					<minimum_fuel_to_activate>0.0</minimum_fuel_to_activate> <!--FROM 1.0-->
+					<minimum_fuel_to_activate>1.0</minimum_fuel_to_activate>
 					<fuel_refill_foley>MP_BACKPACK_RHINO_REFUELED</fuel_refill_foley>
 				</uses_fuel>
 				<active_abilities>
@@ -1546,7 +1546,7 @@
 			<Unique_ID>14</Unique_ID>
 			<pickup_tooltip>backpack_rhino</pickup_tooltip>
 		</mp_backpacks>
-		<mp_backpacks> <!--No sound, try to give it reconstructor sound-->
+		<mp_backpacks> <!--FIXED: No sound, try to give it reconstructor sound-->
 			<Name>Repair</Name>
 			<_Editor>
 				<Category>Entries</Category>

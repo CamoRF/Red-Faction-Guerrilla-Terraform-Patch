@@ -256,37 +256,37 @@
 	<fog_ground>
 		<key>
 			<time>24</time>
-			<value>0.0</value>
+			<value>-131.000000</value>
 		</key>
 		<key>
 			<time>35</time>
-			<value>0.0</value>
+			<value>-131.000000</value>
 		</key>
 	</fog_ground>
 	<fog_atmosphere_scale>
 		<key>
 			<time>24</time>
-			<value>0.0</value>
+			<value>0.057000</value>
 		</key>
 		<key>
 			<time>35</time>
-			<value>0.0</value>
+			<value>0.057000</value>
 		</key>
 	</fog_atmosphere_scale>
 	<fog_density_new>
 		<key>
 			<time>24</time>
-			<value>0.0</value>
+			<value>15.000000</value>
 		</key>
 		<key>
 			<time>35</time>
-			<value>0.0</value>
+			<value>15.000000</value>
 		</key>
 	</fog_density_new>
 	<fog_density_offset>
 		<key>
 			<time>24</time>
-			<value>0.0</value>
+			<value>0.400000</value>
 		</key>
 	</fog_density_offset>
 	<fog_color>
@@ -584,41 +584,41 @@
 	<fog_skybox_offset>
 		<key>
 			<time>39</time>
-			<value>0.0</value>
+			<value>-5.000000</value>
 		</key>
 	</fog_skybox_offset>
 	<fog_skybox_scale>
 		<key>
 			<time>39</time>
-			<value>0.0</value>
+			<value>150.000000</value>
 		</key>
 	</fog_skybox_scale>
 	<fog_clouds_offset>
 		<key>
 			<time>39</time>
-			<value>0.0</value>
+			<value>-30.000000</value>
 		</key>
 	</fog_clouds_offset>
 	<fog_clouds_scale>
 		<key>
 			<time>39</time>
-			<value>0.0</value>
+			<value>100.000000</value>
 		</key>
 	</fog_clouds_scale>
 	<fog_matte_offset>
 		<key>
 			<time>24</time>
-			<value>0.0</value>
+			<value>60.000000</value>
 		</key>
 	</fog_matte_offset>
 	<fog_matte_scale>
 		<key>
 			<time>16</time>
-			<value>0.0</value>
+			<value>50.000000</value>
 		</key>
 		<key>
 			<time>24</time>
-			<value>0.0</value>
+			<value>50.000000</value>
 		</key>
 	</fog_matte_scale>
 	<color_correct_saturation></color_correct_saturation>

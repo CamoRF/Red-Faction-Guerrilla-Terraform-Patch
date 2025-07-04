@@ -11,12 +11,12 @@
 			<effect_name>env_sun_corona_a</effect_name>
 			<scale>
 				<key>
-					<time>21</time>
-					<value>0.200000</value>
+					<time>0</time>
+					<value>0.450000</value>
 				</key>
 				<key>
-					<time>38</time>
-					<value>0.200000</value>
+					<time>17</time>
+					<value>0.450000</value>
 				</key>
 			</scale>
 			<tint>
@@ -133,5 +133,5 @@
 		</orbital>
 	</orbitals>
 	<horizon_mountain_enabled>true</horizon_mountain_enabled>
-	<fog_camera_follow>true</fog_camera_follow>
+	<fog_camera_follow>false</fog_camera_follow>
 </root>
