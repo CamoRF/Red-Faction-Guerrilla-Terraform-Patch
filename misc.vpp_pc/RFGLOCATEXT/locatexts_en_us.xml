@@ -2,11 +2,7 @@
 	<Entry>
 		<Identifier>TF_MENU_IRONWORKS_FRAGMENT</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IRONWORKS FRAGMENT</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_BROKEN_SALVAGE</Identifier>
-		<!--Derelict construction site with half-finished buildings, scaffolds, and cranes.-->
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]BROKEN SALVAGE</String>
+		<!--Interior and exterior factory and housing area set in Parker-->
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_BROKEN_SALVAGE</Identifier>
@@ -32,26 +28,32 @@
 		<Identifier>TF_MENU_LEVEL_NOVA_FORGE</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]NOVA FORGE</String>
 	</Entry>
+		<!--Ruins / RF1 style interior map with fire-->
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_IRONWELL_CANYON</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IRONWELL_CANYON</String>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IRONWELL CANYON</String>
+		<!--Rift-->
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_SHARDLINE_DEPOT</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SHARDLINE DEPOT</String>
 	</Entry>
+		<!--EDF base for terraformer-->
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_PANDEMONIUM</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PANDEMONIUM</String>
+		<!--See Quake screenshots-->
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_SCAFFOLD</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SCAFFOLD</String>
 	</Entry>
+		<!--Scrapheap?-->
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_ECHO_RIDGE</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]ECHO RIDGE</String>
 	</Entry>
+		<!--Downfall cave or Fortress?-->
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_OBLIVION_STRIP</Identifier>
 		<!--Highway checkpoint now overrun with wreckage and barricades, destroyed vehicles scattered everywhere-->
@@ -66,9 +68,10 @@
 		<Identifier>TF_MENU_LEVEL_MARAUDERS_HOLLOW</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MARAUDERS HOLLOW</String>
 	</Entry>
+		<!--Expansion-->
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_CRATER_RUN</Identifier>
-		<!--RETRIBUTION REMAKE-->
+		<!--Quarantine-->
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CRATER RUN</String>
 	</Entry>
 	<Entry>
@@ -108,8 +111,8 @@
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PIPELINE PITFALL</String>
 	</Entry>
 	<Entry>
-		<Identifier>TF_MENU_LEVEL_TESTING_MAP</Identifier>
-		<String>Testing Map</String>
+		<Identifier>TF_MENU_LEVEL_TESTING</Identifier>
+		<String>DEV_TESTING_MAP_01</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_BROADSIDE</Identifier>
@@ -197,15 +200,15 @@
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_CHAR_DLC_SAM</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]DLC SAMANYA</String>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SAMANYA (DLC)</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_CHAR_DLC_HESS</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]DLC HESS</String>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]HESS (DLC)</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_CHAR_DLC_VASHA</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]DLC VASHA</String>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]VASHA (DLC)</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_CHAR_CARMEN</Identifier>
@@ -304,6 +307,14 @@
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GRENADE</String>
 	</Entry>
 	<Entry>
+		<Identifier>TF_WEAPON_GRENADE</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]NANO GRENADE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_WEAPON_GRENADE</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SMOKE GRENADE</String>
+	</Entry>	
+	<Entry>
 		<Identifier>TF_WEAPON_MISSILEPOD</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MISSILEPOD</String>
 	</Entry>
@@ -321,11 +332,11 @@
 	</Entry>
 	<Entry>
 		<Identifier>TF_WEAPON_MAR_CHARGE_PLACER</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MAR CHARGES</String>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CHARGES (DLC)</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_WEAPON_ROYAL_SWORD</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]ROYAL SWORD</String>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IMPALER</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_WEAPON_PICKAXE</Identifier>
@@ -337,7 +348,7 @@
 	</Entry>
 	<Entry>
 		<Identifier>TF_WEAPON_GUERRILLA_FLAG</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GUERRILLA FLAG</String>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RF FLAG</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_WEAPON_GUTTER</Identifier>
