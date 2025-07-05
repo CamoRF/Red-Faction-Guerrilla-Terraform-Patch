@@ -1,77 +1,134 @@
 ﻿<root>
 	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_1</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 1</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_2</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 2</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_3</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 3</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_4</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 4</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_5</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 5</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_6</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 6</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_7</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 7</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_8</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 8</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_9</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 9</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_10</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 10</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_11</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 11</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_12</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 12</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_13</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 13</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_14</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 14</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_15</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 15</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_AVALNCHE</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]AVALANCHE</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_SHANTY_TOWN</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SHANTY TOWN</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_RAVINE_STATION</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RAVINE STATION</String>
+	</Entry>	
+	<Entry>
 		<Identifier>TF_MENU_IRONWORKS_FRAGMENT</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IRONWORKS FRAGMENT</String>
-		<!--Interior and exterior factory and housing area set in Parker-->
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_BROKEN_SALVAGE</Identifier>
-		<!--Derelict construction site with half-finished buildings, scaffolds, and cranes.-->
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]BROKEN SALVAGE</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_IRONREACH</Identifier>
-		<!--Fortress based but with more elevation, comm towers-->
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IRON REACH</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_EOS_JUNCTION</Identifier>
-		<!--Industrial rail yard with elevated platforms, shipping containers, crates, destroyed vehicles to mimick train, similar to that area in Uncharted 2-->
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EOS JUNCTION</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_DUSTSPIRE_RIDGE</Identifier>
-		<!--Cliffside shanty town with a bridge that collapses midway through the match using destruction cutters-->
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]DUSTSPIRE RIDGE</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_NOVA_FORGE</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]NOVA FORGE</String>
 	</Entry>
-		<!--Ruins / RF1 style interior map with fire-->
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_IRONWELL_CANYON</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IRONWELL CANYON</String>
-		<!--Rift-->
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_SHARDLINE_DEPOT</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SHARDLINE DEPOT</String>
 	</Entry>
-		<!--EDF base for terraformer-->
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_PANDEMONIUM</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PANDEMONIUM</String>
-		<!--See Quake screenshots-->
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_SCAFFOLD</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SCAFFOLD</String>
 	</Entry>
-		<!--Scrapheap?-->
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_ECHO_RIDGE</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]ECHO RIDGE</String>
 	</Entry>
-		<!--Downfall cave or Fortress?-->
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_OBLIVION_STRIP</Identifier>
-		<!--Highway checkpoint now overrun with wreckage and barricades, destroyed vehicles scattered everywhere-->
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]OBLIVION STRIP</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_FOUNDRY_6B</Identifier>
-		<!--WAREHOUSE exterior map-->
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]FOUNDRY 6B</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_MARAUDERS_HOLLOW</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MARAUDERS HOLLOW</String>
 	</Entry>
-		<!--Expansion-->
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_CRATER_RUN</Identifier>
-		<!--Quarantine-->
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CRATER RUN</String>
 	</Entry>
 	<Entry>
