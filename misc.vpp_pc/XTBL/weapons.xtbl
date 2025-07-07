@@ -1988,7 +1988,7 @@
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
 			<Unique_ID>32</Unique_ID>
-			<Reload_Delay>262</Reload_Delay>
+			<Reload_Delay>328</Reload_Delay> <!--FROM 262-->
 			<aim_assist>0.5</aim_assist>
 			<Player_Move_Speed>1</Player_Move_Speed>
 		</Weapon>
@@ -2193,7 +2193,7 @@
 			<dummy>False</dummy>
 			<Max_Rounds_Upgrade>60</Max_Rounds_Upgrade>
 			<mp_kill_phrase>HM_KILL_PHRASE_GRINDER</mp_kill_phrase>
-			<Reload_Delay>250</Reload_Delay>
+			<Reload_Delay>328</Reload_Delay> <!--FROM 250-->
 			<Headshot_Multiplier>3.0</Headshot_Multiplier>
 			<Bullet_Group>Grinder</Bullet_Group>
 			<Unique_ID>113</Unique_ID>
