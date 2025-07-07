@@ -59,7 +59,7 @@
 				<Flag>team_deathmatch</Flag>
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
-				<Flag>king_of_the_hill</Flag>
+				<!--<Flag>king_of_the_hill</Flag>-->
 			</mode_flags>
 			<alternate_time_of_day>07:00</alternate_time_of_day>
 			<glow_multiplier>3.2</glow_multiplier>
