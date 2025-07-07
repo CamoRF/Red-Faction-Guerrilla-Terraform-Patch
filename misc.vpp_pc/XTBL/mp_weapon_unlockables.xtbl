@@ -123,7 +123,7 @@
 		</unlockable>
 <!--START ADDED-->
 		<unlockable>
-			<Name>TF_gutter</Name>
+			<Name>gutter</Name>
 			<level_needed>0</level_needed>
 			<_Editor>
 				<Category>Entries</Category>

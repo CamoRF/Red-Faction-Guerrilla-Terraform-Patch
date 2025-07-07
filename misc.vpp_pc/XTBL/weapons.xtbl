@@ -56,9 +56,9 @@
 				<Flag>mp selectable</Flag>
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
-			<Max_Engagement_Distance>10</Max_Engagement_Distance>
+			<Max_Engagement_Distance>10</Max_Engagement_Distance> <!--Might also need to match the internal mesh name?-->
 			<Inventory_Item>mar_charge_placer</Inventory_Item> <!--These need to match weapon name or it breaks?-->
-			<Item_3d>mar_charge_placer</Item_3d> <!--These need to match weapon name or it breaks?-->
+			<Item_3d>mar_charge_placer</Item_3d> <!--These need to match weapon name or it breaks?--> 
 			<MeleeAttacks>
 				<StandingPrimary>TF_marauder_charge_melee</StandingPrimary>
 				<StandingSecondary>TF_marauder_charge_punch</StandingSecondary>
@@ -5560,6 +5560,7 @@
 			<Flags>
 				<Flag>non-inventory</Flag>
 				<Flag>disable player cover</Flag>
+				<Flag>mp selectable</Flag> <!--ADDED-->
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>25</Max_Engagement_Distance>
