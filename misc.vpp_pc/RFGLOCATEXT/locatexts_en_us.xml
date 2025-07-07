@@ -408,8 +408,8 @@
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RF FLAG</String>
 	</Entry>
 	<Entry>
-		<Identifier>TF_WEAPON_GUTTER</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GUTTER</String>
+		<Identifier>TF_NO_HAMMER/Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]NO HAMMER</String>
 	</Entry>
 	<Entry>
 		<Identifier />

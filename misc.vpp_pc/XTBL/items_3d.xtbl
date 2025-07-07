@@ -129,7 +129,7 @@
 			</_Editor>			
 		</Item>
 		<Item>
-			<Name>tf_gutter</Name>
+			<Name>tf_no_hammer</Name>
 			<Spin_Time>5000</Spin_Time>
 			<Respawn_Delay>30000</Respawn_Delay>
 			<Touch_Script>give_item</Touch_Script>
@@ -155,54 +155,6 @@
 			<!--<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>--> <!--Test if this fixes the strange sound with gutter, flag, sword etc-->
 			<_Editor>
 				<Category>Entries:WeaponMarauder</Category>
-			</_Editor>			
-		</Item>
-		<Item>
-			<Name>tf_flag_guerrilla</Name>
-			<Spin_Time>5000</Spin_Time>
-			<Respawn_Delay>30000</Respawn_Delay> <!--FROM 0-->
-			<Touch_Script>give_item</Touch_Script>	
-			<Item_Flags>
-				<Flag>spin</Flag> <!--ADDED-->
-				<Flag>fast_cleanup</Flag> <!--ADDED-->				
-			</Item_Flags>			
-			<character_mesh>
-				<character_mesh>
-					<Filename>mp_flag_guerilla.cmeshx</Filename>
-				</character_mesh>
-				<rig>
-					<Filename>mp_flag_guerilla.rigx</Filename>
-				</rig>
-				<Anim_set>NONE</Anim_set>
-				<Filename></Filename>
-			</character_mesh>
-			<streaming_category>Multiplayer</streaming_category>
-			<_Editor>
-				<Category>Entries:WeaponOther</Category>
-			</_Editor>			
-		</Item>		
-		<Item>
-			<Name>tf_flag_edf</Name>
-			<Spin_Time>5000</Spin_Time>
-			<Respawn_Delay>30000</Respawn_Delay> <!--FROM 0-->
-			<Touch_Script>give_item</Touch_Script>
-			<Item_Flags>
-				<Flag>spin</Flag> <!--ADDED-->		
-				<Flag>fast_cleanup</Flag> <!--ADDED-->				
-			</Item_Flags>			
-			<character_mesh>
-				<character_mesh>
-					<Filename>mp_flag_edf.cmeshx</Filename>
-				</character_mesh>
-				<rig>
-					<Filename>mp_flag_edf.rigx</Filename>
-				</rig>
-				<Anim_set>NONE</Anim_set>
-				<Filename></Filename>
-			</character_mesh>
-			<streaming_category>Multiplayer</streaming_category>
-			<_Editor>
-				<Category>Entries:WeaponOther</Category>
 			</_Editor>			
 		</Item>
 <!--END-->		

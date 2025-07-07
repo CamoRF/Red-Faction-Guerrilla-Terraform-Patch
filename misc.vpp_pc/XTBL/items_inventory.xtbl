@@ -94,28 +94,8 @@
 			</_Editor>
 		</Inventory_Item>
 		<Inventory_Item>
-			<Name>TF_gutter</Name>
-			<Display_Name>TF_WEAPON_GUTTER</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>		
-		<Inventory_Item>
-			<Name>TF_flag_edf</Name>
-			<Display_Name>TF_WEAPON_EDF_FLAG</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>		
-		<Inventory_Item>
-			<Name>TF_flag_guerrilla</Name>
-			<Display_Name>TF_WEAPON_GUERRILLA_FLAG</Display_Name>
+			<Name>TF_no_hammer</Name>
+			<Display_Name>TF_NO_HAMMER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
