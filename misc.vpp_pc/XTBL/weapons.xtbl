@@ -4,6 +4,74 @@
 <!--TEST: LMG doesn't have en empty clip sound, also increase the reload time-->	
 <!--START DLC WEAPONS ADDED-->
 		<Weapon>
+			<Name>tf_gutter</Name>
+			<Weapon_Class>melee_gutter</Weapon_Class>
+			<Trigger_Type>single</Trigger_Type>
+			<Ammo_Type>melee</Ammo_Type>
+			<Magazine_Size>1</Magazine_Size>
+			<Max_Rounds>1</Max_Rounds>
+			<Range_Max>1.8</Range_Max>
+			<Range_Red>4.5</Range_Red>
+			<Default_Refire_Delay>0</Default_Refire_Delay>
+			<Damage_Scaling_Max>
+				<NPC_Damage>1000</NPC_Damage>
+				<Player_Damage>1000</Player_Damage>
+				<Vehicle_Damage>-1</Vehicle_Damage>
+				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
+			</Damage_Scaling_Max>
+			<Damage_Scaling_Min>
+				<NPC_Damage>25</NPC_Damage>
+				<Player_Damage>25</Player_Damage>
+				<Vehicle_Damage>-1</Vehicle_Damage>
+				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
+			</Damage_Scaling_Min>
+			<_Editor>
+				<Category>Entries:Marauder</Category>
+			</_Editor>
+			<Animation_Group>Gutter</Animation_Group>
+			<Flags>
+				<Flag>held in left hand</Flag>
+				<Flag>disable player cover</Flag>
+				<Flag>mp selectable</Flag>
+			</Flags>
+			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
+			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
+			<MeleeAttacks>
+				<StandingPrimary>gutter stand sideways</StandingPrimary>
+				<StandingSecondary>gutter stand overhead</StandingSecondary>
+				<MovingPrimary>sledgehammer_melee</MovingPrimary>
+				<MovingSecondary>sledgehammer_melee_2</MovingSecondary>
+				<Crouching>sledgehammer_melee</Crouching>
+				<CrouchMoving>sledgehammer_melee</CrouchMoving>
+				<ProneAttackPrimary>sledgehammer_melee</ProneAttackPrimary>
+				<ProneAttackSecondary>sledgehammer_melee_2</ProneAttackSecondary>
+				<CrouchingPrimary>gutter stand sideways</CrouchingPrimary>
+				<CrouchingSecondary>gutter stand overhead</CrouchingSecondary>
+				<StandingTertiary>gutter stand overhead</StandingTertiary>
+				<CrouchingTertiary>gutter stand overhead</CrouchingTertiary>
+			</MeleeAttacks>
+			<Inventory_Item>tf_gutter</Inventory_Item>
+			<Item_3d>tf_gutter</Item_3d>
+			<Acceleration>0.0</Acceleration>
+			<Visuals>
+				<Attachment_prop>holster-hammer</Attachment_prop>
+				<Special_Hit_Effect>wep_gutter_impact_flesh</Special_Hit_Effect>
+			</Visuals>
+			<NPC_Firing_Pattern>Other</NPC_Firing_Pattern>
+			<Ammo_Box_Restock>0</Ammo_Box_Restock>
+			<Num_Magazines>2</Num_Magazines>
+			<Player_Move_Speed>1.07</Player_Move_Speed>
+			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
+			<icon_name>ui_hud_weapon_icon_gutter</icon_name>
+			<reticule_name>ui_hud_reti_gutter</reticule_name>
+			<dummy>False</dummy>
+			<Unique_ID>204</Unique_ID>
+			<Melee_Group>Gutter</Melee_Group>
+			<Default_team>Marauder</Default_team>
+			<Zoom_Magnification>1.45</Zoom_Magnification>
+			<aim_assist>0.75</aim_assist>
+		</Weapon>		
+		<Weapon>
 			<Name>mar_charge_placer</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>

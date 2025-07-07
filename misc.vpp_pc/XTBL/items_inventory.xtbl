@@ -84,7 +84,7 @@
 			</_Editor>
 		</Inventory_Item>		
 		<Inventory_Item>
-			<Name>TF_grenade</Name>
+			<Name>tf_grenade</Name>
 			<Display_Name>TF_WEAPON_GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
