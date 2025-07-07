@@ -240,9 +240,9 @@
 				<Flag>demolition</Flag>
 				<Flag>siege</Flag>
 			</mode_flags>
-			<alternate_time_of_day>18:00</alternate_time_of_day>
+			<alternate_time_of_day>00:00</alternate_time_of_day> <!--FROM 18:00-->
 			<glow_multiplier>6.0</glow_multiplier>
-			<alternate_glow_multiplier>3.8</alternate_glow_multiplier>
+			<alternate_glow_multiplier>3.0</alternate_glow_multiplier> <!--FROM 3.8-->
 			<ideal_min_players>2</ideal_min_players>
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Crash Site</Load_image>

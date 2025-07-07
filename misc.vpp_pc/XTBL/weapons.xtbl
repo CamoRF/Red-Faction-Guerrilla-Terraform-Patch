@@ -57,8 +57,8 @@
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>10</Max_Engagement_Distance>
-			<Inventory_Item>mar_charge_placer</Inventory_Item>
-			<Item_3d>mar_charge_placer</Item_3d>
+			<Inventory_Item>mar_charge_placer</Inventory_Item> <!--These need to match weapon name or it breaks?-->
+			<Item_3d>mar_charge_placer</Item_3d> <!--These need to match weapon name or it breaks?-->
 			<MeleeAttacks>
 				<StandingPrimary>TF_marauder_charge_melee</StandingPrimary>
 				<StandingSecondary>TF_marauder_charge_punch</StandingSecondary>
@@ -331,11 +331,11 @@
 			<Ammo_Type>bullet</Ammo_Type>
 			<Bullet_Group>standard</Bullet_Group>
 			<Animation_Group>Revolver</Animation_Group>
-			<Magazine_Size>30</Magazine_Size>
+			<Magazine_Size>50</Magazine_Size> <!--FROM 30-->
 			<Num_Magazines>6</Num_Magazines>
-			<Max_Rounds>180</Max_Rounds>
-			<Ammo_Box_Restock>180</Ammo_Box_Restock>
-			<Default_Refire_Delay>100</Default_Refire_Delay>
+			<Max_Rounds>300</Max_Rounds> <!--FROM 180-->
+			<Ammo_Box_Restock>300</Ammo_Box_Restock> <!--FROM 180-->
+			<Default_Refire_Delay>75</Default_Refire_Delay> <!--FROM 100-->
 			<Range_Max>65</Range_Max>
 			<Range_Red>80</Range_Red>
 			<Min_Engagement_Distance>7</Min_Engagement_Distance>
@@ -343,20 +343,20 @@
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<NPC_Firing_Pattern>Default Enforcer</NPC_Firing_Pattern>
 			<NPC_Aim_Drift>Default</NPC_Aim_Drift>
-			<Recoil_Kick>0.87</Recoil_Kick> <!--FROM 0.92-->
-			<Spread_Min>1.0</Spread_Min>
-			<Spread_Max>3.5</Spread_Max> <!--FROM 4.0-->
-			<Spread_Fine_Aim_Min>0.5</Spread_Fine_Aim_Min>
-			<Spread_Fine_Aim_Max>2.5</Spread_Fine_Aim_Max>
+			<Recoil_Kick>0.75</Recoil_Kick> <!--FROM 0.92-->
+			<Spread_Min>0.85</Spread_Min> <!--FROM 1.0-->
+			<Spread_Max>3.0</Spread_Max> <!--FROM 4.0-->
+			<Spread_Fine_Aim_Min>0.75</Spread_Fine_Aim_Min> <!--FROM 0.5-->
+			<Spread_Fine_Aim_Max>2.75</Spread_Fine_Aim_Max> <!--FROM 2.5-->
 			<NPC_Spread_Min>1.25</NPC_Spread_Min>
 			<NPC_Spread_Max>4.5</NPC_Spread_Max>
 			<To_Spread_Max>5</To_Spread_Max>
 			<To_Spread_Min>900</To_Spread_Min>
 			<Spread_Multiplier_Run>0.8</Spread_Multiplier_Run>
-			<Ragdoll_Force_Shoot>9</Ragdoll_Force_Shoot>
+			<Ragdoll_Force_Shoot>4</Ragdoll_Force_Shoot> <!--FROM 9-->
 			<Reload_Delay>150</Reload_Delay>
 			<Dropped_ammo_scale>0.4</Dropped_ammo_scale>
-			<Headshot_Multiplier>2.5</Headshot_Multiplier>
+			<Headshot_Multiplier>1.8</Headshot_Multiplier> <!--FROM 2.5-->
 			<Zoom_Magnification>1.65</Zoom_Magnification>
 			<aim_assist>1.0</aim_assist>
 			<Flags>
@@ -380,14 +380,14 @@
 			<Damage_Scaling_Min>
 				<Threshold>5</Threshold>
 				<NPC_Damage>75</NPC_Damage>
-				<Player_Damage>50</Player_Damage> <!--FROM 45-->
+				<Player_Damage>47</Player_Damage> <!--FROM 45-->
 				<Vehicle_Damage>55</Vehicle_Damage>
 				<Player_Vehicle_Damage>40</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
 			<Damage_Scaling_Max>
 				<Threshold>50</Threshold>
 				<NPC_Damage>50</NPC_Damage>
-				<Player_Damage>40</Player_Damage> <!--FROM 35-->
+				<Player_Damage>35</Player_Damage> <!--FROM 33-->
 				<Vehicle_Damage>40</Vehicle_Damage>
 				<Player_Vehicle_Damage>25</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
@@ -975,7 +975,7 @@
 			<Default_Refire_Delay>94</Default_Refire_Delay>
 			<Damage_Scaling_Max>
 				<NPC_Damage>40</NPC_Damage>
-				<Player_Damage>36</Player_Damage> <!--FROM 34-->
+				<Player_Damage>35</Player_Damage> <!--FROM 34-->
 				<Threshold>80</Threshold>
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
@@ -1002,7 +1002,7 @@
 			<Damage_Scaling_Min>
 				<Threshold>30</Threshold>
 				<NPC_Damage>60</NPC_Damage>
-				<Player_Damage>44</Player_Damage> <!--FROM 42-->
+				<Player_Damage>43</Player_Damage> <!--FROM 42-->
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
@@ -1010,7 +1010,7 @@
 			<Max_Engagement_Distance>18</Max_Engagement_Distance>
 			<Inventory_Item>m16</Inventory_Item>
 			<Item_3d>m16</Item_3d>
-			<Recoil_Kick>0.70</Recoil_Kick> <!--FROM 0.75-->
+			<Recoil_Kick>0.75</Recoil_Kick>
 			<Acceleration>0.0</Acceleration>
 			<Spread_Fine_Aim_Min>0.62</Spread_Fine_Aim_Min>
 			<Spread_Fine_Aim_Max>1.15</Spread_Fine_Aim_Max>
@@ -1588,7 +1588,7 @@
 			<Max_Rounds>64</Max_Rounds>
 			<Range_Max>65</Range_Max>
 			<Range_Red>65</Range_Red>
-			<Default_Refire_Delay>140</Default_Refire_Delay>
+			<Default_Refire_Delay>0</Default_Refire_Delay> <!--FROM 140-->
 			<Damage_Scaling_Max>
 				<NPC_Damage>45</NPC_Damage>
 				<Player_Damage>52</Player_Damage>
