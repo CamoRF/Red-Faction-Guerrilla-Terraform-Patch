@@ -1,65 +1,5 @@
 ﻿<root>
 	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_1</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 1</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_2</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 2</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_3</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 3</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_4</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 4</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_5</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 5</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_6</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 6</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_7</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 7</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_8</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 8</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_9</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 9</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_10</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 10</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_11</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 11</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_12</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 12</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_13</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 13</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_14</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 14</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_PLACEHOLDER_15</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 15</String>
-	</Entry>
-	<Entry>
 		<Identifier>TF_MENU_AVALNCHE</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]AVALANCHE</String>
 	</Entry>
@@ -171,6 +111,66 @@
 		<Identifier>TF_MENU_LEVEL_TESTING</Identifier>
 		<String>DEV_TESTING_MAP_01</String>
 	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_1</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 1</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_2</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 2</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_3</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 3</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_4</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 4</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_5</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 5</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_6</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 6</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_7</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 7</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_8</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 8</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_9</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 9</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_10</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 10</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_11</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 11</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_12</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 12</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_13</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 13</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_14</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 14</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_15</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 15</String>
+	</Entry>	
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_BROADSIDE</Identifier>
 		<String>BROADSIDE</String>
