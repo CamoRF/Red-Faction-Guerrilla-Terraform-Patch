@@ -1,5 +1,6 @@
 <root>
 	<Table>
+	<!--Add comments from vanilla values-->
 		<effect_heartbeat>
 			<Name>Player</Name>
 			<heartbeat_info>
