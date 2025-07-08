@@ -58,19 +58,19 @@
 	<Entry>
 		<Identifier>TF_MENU_PLACEHOLDER_15</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 15</String>
-	</Entry>	
+	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_AVALNCHE</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]AVALANCHE</String>
-	</Entry>	
+	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_SHANTY_TOWN</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SHANTY TOWN</String>
-	</Entry>	
+	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_RAVINE_STATION</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RAVINE STATION</String>
-	</Entry>	
+	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_IRONWORKS_FRAGMENT</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IRONWORKS FRAGMENT</String>
@@ -370,7 +370,7 @@
 	<Entry>
 		<Identifier>TF_WEAPON_GRENADE</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SMOKE GRENADE</String>
-	</Entry>	
+	</Entry>
 	<Entry>
 		<Identifier>TF_WEAPON_MISSILEPOD</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MISSILEPOD</String>
@@ -408,7 +408,7 @@
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RF FLAG</String>
 	</Entry>
 	<Entry>
-		<Identifier>TF_NO_HAMMER/Identifier>
+		<Identifier>TF_NO_HAMMER</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]NO HAMMER</String>
 	</Entry>
 	<Entry>
@@ -34362,7 +34362,8 @@
 	<Entry>
 		<Identifier />
 		<Hash>1595223260</Hash>
-		<String>HOST A MATCH WITH THE TERRAFORM PATCH.</String> <!--START A PARTY, INVITE YOUR FRIENDS, AND PLAY CUSTOM GAMES WITH THEM.-->
+		<String>HOST A MATCH WITH THE TERRAFORM PATCH.</String>
+		<!--START A PARTY, INVITE YOUR FRIENDS, AND PLAY CUSTOM GAMES WITH THEM.-->
 	</Entry>
 	<Entry>
 		<Identifier />

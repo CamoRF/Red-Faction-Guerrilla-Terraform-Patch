@@ -2,6 +2,7 @@
 	<Table>
 <!--TO DO: Restructure order of <Item> contents so they are consistent-->
 <!--TO DO: Restructure order of <Item> block orders so they are in categories-->
+<!--TO DO: Restore gutter and flag from v1.0753-->
 <!--	<Element>
 			<Name>Item_Flags</Name>
 			<Type>Flags</Type>
@@ -49,37 +50,9 @@
 			<Choice>blast_from_the_past</Choice> ?
 			<Choice>bagman_flag</Choice> Bagman multiplayer item uses it
 		</Element>-->	
-<!--START CUSTOM WEAPONS & PROPS ADDED-->		
-		<Item>
-			<Name>tf_gutter</Name>
-			<_Editor>
-				<Category>Entries:WeaponMarauder</Category>
-			</_Editor>
-			<Spin_Time>5000</Spin_Time>
-			<character_mesh>
-				<character_mesh>
-					<Filename>marauder_gutter.cmeshx</Filename>
-				</character_mesh>
-				<rig>
-					<Filename>marauder_gutter.rigx</Filename>
-				</rig>
-				<Anim_set>NONE</Anim_set>
-				<Filename></Filename>
-			</character_mesh>
-			<Touch_Script>give_item</Touch_Script>
-			<Respawn_Delay>30000</Respawn_Delay>
-			<streaming_category>General</streaming_category>
-			<Item_Flags>
-				<Flag>high_res_map_large</Flag>
-				<Flag>spin</Flag>
-			</Item_Flags>
-			<pickup_static_mesh>
-				<Filename>gutter_pickup.smeshx</Filename>
-			</pickup_static_mesh>
-			<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>
-		</Item>		
-		<Item>
-			<Name>tf_health_pickup</Name>
+<!--START CUSTOM WEAPONS & PROPS ADDED-->
+		<Item> <!--TO DO: health pickup-->
+			<Name>tf_health_pickup</Name> 
 			<Spin_Time>5000</Spin_Time> <!--How fast the object spins when placed on a map-->
 			<Respawn_Delay>15000</Respawn_Delay> <!--Respawn time when placed on a map-->			
 			<Touch_Script>give_full_health</Touch_Script> <!--What the item does when the player walks into it, see Touch_Script above for other scripts-->			
@@ -154,35 +127,6 @@
 			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
 			<_Editor>
 				<Category>Entries:WeaponEDF</Category>
-			</_Editor>			
-		</Item>
-		<Item>
-			<Name>tf_no_hammer</Name>
-			<Spin_Time>5000</Spin_Time>
-			<Respawn_Delay>30000</Respawn_Delay>
-			<Touch_Script>give_item</Touch_Script>
-			<Item_Flags>
-				<Flag>high_res_map_large</Flag>
-				<Flag>spin</Flag>
-				<Flag>fast_cleanup</Flag> <!--ADDED-->				
-			</Item_Flags>			
-			<character_mesh> <!--Attempting to add this to (flag_guerrilla, royal_sword etc) w/ edits caused the game to CRASH-->
-				<character_mesh>
-					<Filename>marauder_gutter.cmeshx</Filename>
-				</character_mesh>
-				<rig>
-					<Filename>marauder_gutter.rigx</Filename>
-				</rig>
-				<Anim_set>NONE</Anim_set>
-				<Filename></Filename>
-			</character_mesh>
-			<streaming_category>General</streaming_category>
-			<pickup_static_mesh>
-				<Filename>gutter_pickup.smeshx</Filename>
-			</pickup_static_mesh>
-			<!--<Touch_Sound>SYS_WEP_GUTTER_PICKUP</Touch_Sound>--> <!--Test if this fixes the strange sound with gutter, flag, sword etc-->
-			<_Editor>
-				<Category>Entries:WeaponMarauder</Category>
 			</_Editor>			
 		</Item>
 <!--END-->		
