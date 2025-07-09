@@ -1,0 +1,163 @@
+<root>
+<Table>
+	<ShotOptionRoot>
+		<Name>ShotOptions</Name>
+		<ShotOptions>
+			<ShotOption>
+				<Name>Framebuffer tint</Name>
+				<Type>OptColor</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Force TOD Lights</Name>
+				<Type>Opt3State</Type>
+				<Title1>- disabled -</Title1>
+				<Title2>OFF</Title2>
+				<Title3>ON</Title3>
+				</ShotOption>
+			<ShotOption>
+				<Name>Camera moves with target</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>TOD Character shadows</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Level Lights</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Spawning Peds</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Spawning Cars</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Letterbox Fade In</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Letterbox Fade Out</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Tree Shadows</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Disable Trees</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>PVS Enable</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Shader LOD Force Highest</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Shader LOD Restore</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>City No Render AL</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Spawning Remove All</Name>
+				<Type>OptBool</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Far Clip</Name>
+				<Type>OptFloat</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Shot Fade In:</Name>
+				<Type>OptFloat</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Shot Fade Out:</Name>
+				<Type>OptFloat</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Vint Shot Function</Name>
+				<Type>OptString</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Hide Player Compnt.</Name>
+				<Type>OptString</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Bink Play Filename</Name>
+				<Type>OptString</Type>
+				</ShotOption>
+			<ShotOption>
+				<Name>Bink Play Material</Name>
+				<Type>OptString</Type>
+				</ShotOption>
+			</ShotOptions>
+		</ShotOptionRoot>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>ShotOptionRoot</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		</Element>
+	<Element>
+		<Name>ShotOptions</Name>
+		<Type>Grid</Type>
+		<Element>
+			<Name>ShotOption</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Name</Name>
+				<Type>String</Type>
+				</Element>
+			<Element>
+				<Name>Type</Name>
+				<Type>Selection</Type>
+				<Default>OptBool</Default>
+				<Choice>OptBool</Choice>
+				<Choice>OptFloat</Choice>
+				<Choice>OptString</Choice>
+				<Choice>Opt3State</Choice>
+				<Choice>OptColor</Choice>
+				</Element>
+			<Element>
+				<Name>Title1</Name>
+				<Type>String</Type>
+				<Description>(used by 3States)</Description>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Title2</Name>
+				<Type>String</Type>
+				<Description>(used by 3States)</Description>
+				<Required>false</Required>
+				</Element>
+			<Element>
+				<Name>Title3</Name>
+				<Type>String</Type>
+				<Description>(used by 3States)</Description>
+				<Required>false</Required>
+				</Element>
+			</Element>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

@@ -1,0 +1,385 @@
+<root>
+<Table>
+	<Line_Group>
+		<Name>Samanya</Name>
+		<Lines>
+			<Line>
+				<Line_Name>saf_mis_res_badlands_engines</Line_Name>
+				<Begins_After>Start Your Engines</Begins_After>
+				<Ends_After>Guns of Tharsis</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_badlands_highway</Line_Name>
+				<Begins_After>Highway To Hell</Begins_After>
+				<Ends_After>Guns of Tharsis</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_badlands_save</Line_Name>
+				<Begins_After>Save the Guerrilla Camp</Begins_After>
+				<Ends_After>Assault the EDF Central Command</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_dust_above</Line_Name>
+				<Begins_After>Death From Above</Begins_After>
+				<Ends_After>Traffic Jam</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_dust_friends</Line_Name>
+				<Begins_After>Friends, Martians, Countrymen</Begins_After>
+				<Ends_After>Death From Above</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_dust_partytime</Line_Name>
+				<Begins_After>PartyTime</Begins_After>
+				<Ends_After>Death From Above</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_dust_refugee</Line_Name>
+				<Begins_After>Refugee Truck</Begins_After>
+				<Ends_After>Start Your Engines</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_dust_walker</Line_Name>
+				<Begins_After>Walker, Martian Ranger</Begins_After>
+				<Ends_After>Death From Above</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_eos_ants</Line_Name>
+				<Begins_After>Ants Vs Magnifying Glass</Begins_After>
+				<Ends_After>Final Mission</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_eos_assault</Line_Name>
+				<Begins_After>Assault the EDF Central Command</Begins_After>
+				<Ends_After>Final Mission</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_eos_broadcast</Line_Name>
+				<Begins_After>Emergency Broadcast System</Begins_After>
+				<Ends_After>Assault the EDF Central Command</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_eos_committee</Line_Name>
+				<Begins_After>Death By Committee</Begins_After>
+				<Ends_After>Save the Guerrilla Camp</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_eos_endgame</Line_Name>
+				<Begins_After>Final Mission</Begins_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_eos_sniper</Line_Name>
+				<Begins_After>Sniper Hunter</Begins_After>
+				<Ends_After>Save the Guerrilla Camp</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_manufacturing_guns</Line_Name>
+				<Begins_After>Guns of Tharsis</Begins_After>
+				<Ends_After>Save the Guerrilla Camp</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_oasis_tank</Line_Name>
+				<Begins_After>Tank Attack</Begins_After>
+				<Ends_After>Guns of Tharsis</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_oasis_traffic</Line_Name>
+				<Begins_After>Traffic Jam</Begins_After>
+				<Ends_After>Tank Attack</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_parker_intro1</Line_Name>
+				<Begins_After>Intro 1</Begins_After>
+				<Ends_After>We know where you are</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_parker_intro2</Line_Name>
+				<Begins_After>Intro 2</Begins_After>
+				<Ends_After>We know where you are</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_parker_tutorial</Line_Name>
+				<Begins_After>Tutorial</Begins_After>
+				<Ends_After>Intro 2</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_mis_res_parker_weknow</Line_Name>
+				<Begins_After>We know where you are</Begins_After>
+				<Ends_After>Death From Above</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>saf_sal_reminder_rifle</Line_Name>
+				<Begins_After>Death From Above</Begins_After>
+				<Ends_after_purchase>nano_rifle</Ends_after_purchase>
+				</Line>
+			<Line>
+				<Line_Name>saf_sal_reminder_shielding</Line_Name>
+				<Begins_After>Save the Guerrilla Camp</Begins_After>
+				<Ends_after_purchase>radiation</Ends_after_purchase>
+				</Line>
+			<Line>
+				<Line_Name>saf_sal_reminder_gen</Line_Name>
+				<Begins_After>Intro 1</Begins_After>
+				<Ends_After>Death From Above</Ends_After>
+				</Line>
+			</Lines>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Line_Group>
+	<Line_Group>
+		<Name>Old Coot Story</Name>
+		<Lines>
+			<Line>
+				<Line_Name>old_amb_batch01</Line_Name>
+				<Begins_After>Tutorial</Begins_After>
+				<Ends_After>Save the Guerrilla Camp</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>old_amb_batch02</Line_Name>
+				<Begins_After>Death From Above</Begins_After>
+				<Ends_After>Save the Guerrilla Camp</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>old_amb_batch03</Line_Name>
+				<Begins_After>Save the Guerrilla Camp</Begins_After>
+				</Line>
+			<Line>
+				<Line_Name>old_amb_batch04</Line_Name>
+				<Begins_After>Assault the EDF Central Command</Begins_After>
+				</Line>
+			</Lines>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Line_Group>
+	<Line_Group>
+		<Name>Generic Miner</Name>
+		<Lines>
+			<Line>
+				<Line_Name>amb_min_lib_res_parker</Line_Name>
+				<Begins_after_liberation_1>Parker</Begins_after_liberation_1>
+				<Ends_after_liberation_1>Dust</Ends_after_liberation_1>
+				</Line>
+			<Line>
+				<Line_Name>amb_min_lib_res_dust</Line_Name>
+				<Begins_after_liberation_1>Dust</Begins_after_liberation_1>
+				<Ends_after_liberation_1>Badlands</Ends_after_liberation_1>
+				<Ends_after_liberation_2>Oasis</Ends_after_liberation_2>
+				</Line>
+			<Line>
+				<Line_Name>amb_min_lib_res_badlands</Line_Name>
+				<Begins_after_liberation_1>Badlands</Begins_after_liberation_1>
+				<Ends_After>Guns of Tharsis</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>amb_min_lib_res_oasis</Line_Name>
+				<Begins_after_liberation_1>Oasis</Begins_after_liberation_1>
+				<Ends_After>Guns of Tharsis</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>amb_min_lib_res_eos</Line_Name>
+				<Begins_after_liberation_1>Eos</Begins_after_liberation_1>
+				</Line>
+			<Line>
+				<Line_Name>amb_min_mis_res_guns</Line_Name>
+				<Begins_After>Guns of Tharsis</Begins_After>
+				<Ends_After>Save the Guerrilla Camp</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>amb_min_mis_res_save</Line_Name>
+				<Begins_After>Save the Guerrilla Camp</Begins_After>
+				<Ends_After>Assault the EDF Central Command</Ends_After>
+				</Line>
+			<Line>
+				<Line_Name>amb_min_mis_res_assault</Line_Name>
+				<Ends_after_liberation_1>Eos</Ends_after_liberation_1>
+				<Begins_After>Assault the EDF Central Command</Begins_After>
+				</Line>
+			<Line>
+				<Line_Name>amb_min_gen_res_nano</Line_Name>
+				<Ends_After>Guns of Tharsis</Ends_After>
+				<Begins_after_purchase>nano_rifle</Begins_after_purchase>
+				</Line>
+			<Line>
+				<Line_Name>amb_min_gen_res_marauder</Line_Name>
+				<Begins_after_friendly>Marauder</Begins_after_friendly>
+				<Ends_after_liberation_1>Eos</Ends_after_liberation_1>
+				</Line>
+			</Lines>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Line_Group>
+	<Line_Group>
+		<Name>Guerrilla VIP</Name>
+		<Lines>
+			<Line>
+				<Line_Name>ext_amb_batch01</Line_Name>
+				<Begins_After>Tutorial</Begins_After>
+				</Line>
+			<Line>
+				<Line_Name>ext_amb_batch02</Line_Name>
+				<Begins_after_liberation_1>Parker</Begins_after_liberation_1>
+				</Line>
+			<Line>
+				<Line_Name>ext_amb_batch03</Line_Name>
+				<Begins_after_liberation_1>Dust</Begins_after_liberation_1>
+				</Line>
+			<Line>
+				<Line_Name>ext_amb_batch04</Line_Name>
+				<Begins_after_liberation_1>Oasis</Begins_after_liberation_1>
+				<Begins_after_liberation_2>Badlands</Begins_after_liberation_2>
+				</Line>
+			</Lines>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		</Line_Group>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Line_Group</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>Line Group</Display_Name>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Unique>true</Unique>
+		</Element>
+	<Element>
+		<Name>Lines</Name>
+		<Type>List</Type>
+		<Element>
+			<Name>Line</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Line_Name</Name>
+				<Type>Reference</Type>
+				<Display_Name>Line Name</Display_Name>
+				<Reference>
+					<File>rfg_lines_scripted.xtbl</File>
+					<Type>voice_line_data.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Begins_after_liberation_1</Name>
+				<Type>Reference</Type>
+				<Display_Name>Begins After Liberation 1</Display_Name>
+				<Description>This group unlocks after either district 1 or 2 is liberated.  (This is an OR, not an AND)</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>district_names.xtbl</File>
+					<Type>district_name_info.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Begins_after_liberation_2</Name>
+				<Type>Reference</Type>
+				<Display_Name>Begins After Liberation 2</Display_Name>
+				<Description>This group unlocks after either district 1 or 2 is liberated.  (This is an OR, not an AND)</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>district_names.xtbl</File>
+					<Type>district_name_info.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Ends_after_liberation_1</Name>
+				<Type>Reference</Type>
+				<Display_Name>Ends After Liberation 1</Display_Name>
+				<Description>This group locks if either of districts 1 or 2 are liberated.  (This is an OR not an AND)</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>district_names.xtbl</File>
+					<Type>district_name_info.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Ends_after_liberation_2</Name>
+				<Type>Reference</Type>
+				<Display_Name>Ends After Liberation 2</Display_Name>
+				<Description>This group locks if either of districts 1 or 2 are liberated.  (This is an OR not an AND)</Description>
+				<Required>false</Required>
+				<Reference>
+					<File>district_names.xtbl</File>
+					<Type>district_name_info.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Begins_After</Name>
+				<Type>Reference</Type>
+				<Display_Name>Begins After Mission</Display_Name>
+				<Required>false</Required>
+				<Reference>
+					<File>missions.xtbl</File>
+					<Type>mission.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Ends_After</Name>
+				<Type>Reference</Type>
+				<Display_Name>Ends After Mission</Display_Name>
+				<Required>false</Required>
+				<Reference>
+					<File>missions.xtbl</File>
+					<Type>mission.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Begins_after_purchase</Name>
+				<Type>Reference</Type>
+				<Display_Name>Begins After Purchase</Display_Name>
+				<Required>false</Required>
+				<Reference>
+					<File>upgrades.xtbl</File>
+					<Type>Upgrade.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Ends_after_purchase</Name>
+				<Type>Reference</Type>
+				<Display_Name>Ends After Purchase</Display_Name>
+				<Required>false</Required>
+				<Default>nano_rifle</Default>
+				<Reference>
+					<File>upgrades.xtbl</File>
+					<Type>Upgrade.Name</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			<Element>
+				<Name>Begins_after_friendly</Name>
+				<Type>Reference</Type>
+				<Display_Name>Begins After Friendly</Display_Name>
+				<Required>false</Required>
+				<Reference>
+					<File>human_team_names.xtbl</File>
+					<Type>HumanTeamNames.TeamNameList.TeamName</Type>
+					<OpenSeparate>False</OpenSeparate>
+					</Reference>
+				</Element>
+			</Element>
+		<Max_Children>25</Max_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		<Element_Name>Line.Line_Name</Element_Name>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

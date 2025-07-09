@@ -1,0 +1,92 @@
+<root>
+<Table>
+	<Activity_Mayhem>
+		<Name>Default</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Levels>
+			<Level>
+				<Threshold>10.0</Threshold>
+				<Reward>3</Reward>
+				</Level>
+			<Level>
+				<Threshold>20.0</Threshold>
+				<Reward>5</Reward>
+				</Level>
+			<Level>
+				<Threshold>50.0</Threshold>
+				<Reward>7</Reward>
+				</Level>
+			<Level>
+				<Threshold>100.</Threshold>
+				<Reward>10</Reward>
+				</Level>
+			<Level>
+				<Threshold>200.0</Threshold>
+				<Reward>15</Reward>
+				</Level>
+			</Levels>
+		<Time_per_score>100000</Time_per_score>
+		<Destroy_bonus>0.5</Destroy_bonus>
+		</Activity_Mayhem>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Activity_Mayhem</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>Activity Mayhem</Display_Name>
+	<Required>false</Required>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Unique>true</Unique>
+		</Element>
+	<Element>
+		<Name>Levels</Name>
+		<Type>List</Type>
+		<Element>
+			<Name>Level</Name>
+			<Type>Element</Type>
+			<Element>
+				<Name>Threshold</Name>
+				<Type>Float</Type>
+				<Default>0</Default>
+				</Element>
+			<Element>
+				<Name>Reward</Name>
+				<Type>Float</Type>
+				<Default>0</Default>
+				</Element>
+			</Element>
+		<Max_Children>5</Max_Children>
+		<Min_Children>5</Min_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Time_per_score</Name>
+		<Type>Int</Type>
+		<Display_Name>Time per score</Display_Name>
+		<Description>The amount of time (in ms) to be added to the mayhem timer per million dollars worth of damage.</Description>
+		<Default>50000</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	<Element>
+		<Name>Destroy_bonus</Name>
+		<Type>Float</Type>
+		<Display_Name>Building Destroyed Bonus</Display_Name>
+		<Description>Fraction of the total value of a building added to the score as a bonus for completly destroying a building.</Description>
+		<Default>0.5</Default>
+		<MinValue>0</MinValue>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

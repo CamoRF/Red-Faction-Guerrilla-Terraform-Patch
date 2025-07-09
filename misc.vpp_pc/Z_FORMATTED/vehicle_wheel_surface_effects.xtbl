@@ -1,0 +1,152 @@
+<root>
+<Table>
+	<Vehicle_wheel_surface_effect>
+		<Name>Terrain</Name>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Brake_foley>VEH_TIRES_BRAKE_GRAVEL</Brake_foley>
+		<Tire_motion_effect_front>veh_dust_fntwheel</Tire_motion_effect_front>
+		<Brake_effect>veh_terrain_braking_a</Brake_effect>
+		<Peel_effect>veh_terrain_braking_a</Peel_effect>
+		<Skid_effect>veh_terrain_skid_l_a</Skid_effect>
+		<Tire_motion_effect_back>veh_dust_bkwheel</Tire_motion_effect_back>
+		<Tire_motion_foley>VEH_TIRES_DRIVE_GRAVEL_LOW</Tire_motion_foley>
+		<Brake_light_foley>VEH_TIRES_BRAKE_GRAVEL_LIGHT</Brake_light_foley>
+		</Vehicle_wheel_surface_effect>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Vehicle_wheel_surface_effect</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>Vehicle Wheel Surface Effect</Display_Name>
+	<Element>
+		<Name>Name</Name>
+		<Type>Reference</Type>
+		<Reference>
+			<File>rfg_effect_materials.xtbl</File>
+			<Type>Material.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Tire_motion_foley</Name>
+		<Type>Reference</Type>
+		<Display_Name>Tire Motion Foley</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>foley.xtbl</File>
+			<Type>Foley.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Brake_foley</Name>
+		<Type>Reference</Type>
+		<Display_Name>Brake Foley</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>foley.xtbl</File>
+			<Type>Foley.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Brake_light_foley</Name>
+		<Type>Reference</Type>
+		<Display_Name>Brake Light Foley</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>foley.xtbl</File>
+			<Type>Foley.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Peel_foley</Name>
+		<Type>Reference</Type>
+		<Display_Name>Peel Foley</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>foley.xtbl</File>
+			<Type>Foley.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Skid_foley</Name>
+		<Type>Reference</Type>
+		<Display_Name>Skid Foley</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>foley.xtbl</File>
+			<Type>Foley.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Tire_motion_effect_front</Name>
+		<Type>Reference</Type>
+		<Display_Name>Tire Motion Effect Front</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>effects.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Tire_motion_effect_back</Name>
+		<Type>Reference</Type>
+		<Display_Name>Tire Motion Effect Back</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>effects.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Brake_effect</Name>
+		<Type>Reference</Type>
+		<Display_Name>Brake Effect</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>effects.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Peel_effect</Name>
+		<Type>Reference</Type>
+		<Display_Name>Peel Effect</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>effects.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	<Element>
+		<Name>Skid_effect</Name>
+		<Type>Reference</Type>
+		<Display_Name>Skid Effect</Display_Name>
+		<Required>false</Required>
+		<Reference>
+			<File>effects.xtbl</File>
+			<Type>Effect.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

@@ -1,0 +1,89 @@
+<root>
+<Table>
+	<Subtitle>
+		<Name>subtitle1</Name>
+		<String>D01SAM_PCM01_INTRO_01</String>
+		<Duration>13000</Duration>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Start>6800</Start>
+		<Persona>D01SAM_PCM01</Persona>
+		</Subtitle>
+	<Subtitle>
+		<Name>subtitle2</Name>
+		<String>D01SAM_PCM01_INTRO_02</String>
+		<Duration>3000</Duration>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Start>20400</Start>
+		<Persona>D01SAM_PCM01</Persona>
+		</Subtitle>
+	<Subtitle>
+		<Name>subtitle3</Name>
+		<String>D01SAM_PCM01_INTRO_03</String>
+		<Duration>13000</Duration>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Start>23000</Start>
+		<Persona>D01SAM_PCM01</Persona>
+		</Subtitle>
+	<Subtitle>
+		<Name>subtitle4</Name>
+		<String>D01SAM_PCM01_INTRO_04</String>
+		<Duration>2000</Duration>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Start>36800</Start>
+		<Persona>D01SAM_PCM01</Persona>
+		</Subtitle>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Subtitle</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>Name of this tool tip, used for reference only.</Description>
+		</Element>
+	<Element>
+		<Name>String</Name>
+		<Type>String</Type>
+		<Description>The localized tag for the text</Description>
+		</Element>
+	<Element>
+		<Name>Start</Name>
+		<Type>Int</Type>
+		<Description>start time in ms to play subtitle</Description>
+		<Default>0</Default>
+		</Element>
+	<Element>
+		<Name>Duration</Name>
+		<Type>Int</Type>
+		<Description>The duration the subtitle should be displayed (ms).</Description>
+		<Default>0</Default>
+		</Element>
+	<Element>
+		<Name>Persona</Name>
+		<Type>Reference</Type>
+		<Reference>
+			<File>..\dlc\dlc01\tables\dlc01_rfg_voice_personas.xtbl</File>
+			<Type>Persona.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>
