@@ -380,7 +380,7 @@
 			<Min_Engagement_Distance>1.2</Min_Engagement_Distance>
 			<Max_Engagement_Distance>2.5</Max_Engagement_Distance>
 			<MeleeAttacks>
-				<!--<StandingPrimary>sword stand sideways</StandingPrimary>
+				<StandingPrimary>sword stand sideways</StandingPrimary>
 				<StandingSecondary>sword stand overhead</StandingSecondary>
 				<MovingPrimary>sledgehammer_melee</MovingPrimary>
 				<MovingSecondary>sledgehammer_melee_2</MovingSecondary>
@@ -391,19 +391,7 @@
 				<CrouchingPrimary>sword stand sideways</CrouchingPrimary>
 				<CrouchingSecondary>sword stand overhead</CrouchingSecondary>
 				<StandingTertiary>sword stand overhead</StandingTertiary>
-				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>-->
-				<StandingPrimary>gutter stand sideways</StandingPrimary>
-				<StandingSecondary>gutter stand overhead</StandingSecondary>
-				<MovingPrimary>sledgehammer_melee</MovingPrimary>
-				<MovingSecondary>sledgehammer_melee_2</MovingSecondary>
-				<Crouching>sledgehammer_melee</Crouching>
-				<CrouchMoving>sledgehammer_melee</CrouchMoving>
-				<ProneAttackPrimary>sledgehammer_melee</ProneAttackPrimary>
-				<ProneAttackSecondary>sledgehammer_melee_2</ProneAttackSecondary>
-				<CrouchingPrimary>gutter stand sideways</CrouchingPrimary>
-				<CrouchingSecondary>gutter stand overhead</CrouchingSecondary>
-				<StandingTertiary>gutter stand overhead</StandingTertiary>
-				<CrouchingTertiary>gutter stand overhead</CrouchingTertiary>		
+				<CrouchingTertiary>sword stand overhead</CrouchingTertiary>
 			</MeleeAttacks>
 			<Inventory_Item>royal_sword</Inventory_Item>
 			<Item_3d>royal_sword</Item_3d>
