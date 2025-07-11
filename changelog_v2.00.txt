@@ -2,6 +2,13 @@
 v2.00 CHANGES
 --------------
 
+TODO: When patch is reaching final release, need to check repo issues etc and add to changelog
+
+[New Maps]
+* Restored Pipeline Pitfall custom map
+* Restored Retribution custom map
+* 
+
 [New Weapons]
 * Added Light Machine Gun
 * Added DLC Pickaxe to multiplayer sledgehammer loadouts
@@ -13,8 +20,10 @@ v2.00 CHANGES
 * Added DLC Marauder Vehicles to the main singleplayer; marauders can spawn with them and you can also find them at the Badlands safehouse
 * Added Bulldozer vehicle spawn to all safehouses
 
-[New Character]
-* Added cut EDF Elite character
+[New Characters]
+* Added cut EDF Elite character to multiplayer 
+* Added blue variant of EDF grunt to EDF team
+* Restored any vanilla multiplayer characters removed by previous Terraform Patch versions
 
 [Weapon Balance]
 * Reduced grenade damage to buildings
@@ -27,6 +36,7 @@ v2.00 CHANGES
 * Initial loading screen updated to current patch version
 * Added several new placeholder textures for future map loading screens, thumbnails and character thumbnails to make it easier to add new textures in the future without tedious hex editing
 * Changes to multiplayer menu strings
+* Multiplayer map selection is now in alphabetical order
 
 [Misc]
 * Added DLC precache assets to "mp_common.vpp_pc", will be useful for transferring SP DLC map assets to MP maps in the future
@@ -49,20 +59,14 @@ v2.00 CHANGES
 * Renamed filename for Shipment to "mp_shipment.vpp_pc"
 * Renamed filename for Cliffside to "mp_clifside.vpp_pc"
 * Renamed filename for Partial Recall to "mp_partial_recall.vpp_pc"
-* Remade Scrapheap with various improvements & fixes
-* Renamed vanilla wrecking crew maps to "vanilla_wc1.vpp_pc" etc
+* Renamed multiplayer versions of wrecking to maps to "mp_xxx.vpp_pc" etc
 * Updated vanilla wrecking crew maps with various fixes
 * Added night time as alternative time of day on Crash Site
-
-[New Maps]
-* Restored Pipeline Pitfall custom map
-* Restored Retribution custom map
 
 [Fixes]
 * Fixed crash when loading SP DLC
 * Fixed some spawns on Transmission
 * Fixed some spawns on Partial Recall
-* Fixed some spawns on Quarantine Siege
 * Fixed various issues on all maps
 * Fixed DLC weapon reticules & icons in SP DLC
 * Fixed missing data for new weapons added by patch in "aim_drift.xtbl" & "weapon_firing_patterns.xtbl"
@@ -91,3 +95,7 @@ v2.00 CHANGES
 * Fixed issue with a Peacekeeper value being set incorrectly
 * Fixed issue with incorrect footstep sounds for some characters
 * Fixed some missing characters in multiplayer
+* Fixed issue with grenade not being dropped on death
+* Fixed issue with grenade not being map placable
+* Fixed issue with damage control not working on Warehouse
+* Fixed issue with damage control not working on Townhall
