@@ -2,7 +2,7 @@
 	<Table>
 <!--START ADDED-->
 		<mp_weapons>
-			<Name>TF_grenade</Name>
+			<Name>TF_GRENADE</Name>
 			<Ammo_count>
 				<Magazine_Size>4</Magazine_Size>
 				<Num_Magazines>4</Num_Magazines>

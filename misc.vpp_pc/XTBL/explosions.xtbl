@@ -1,47 +1,9 @@
 <root>
 	<Table>
-<!--START ADDED-->
+<!--NOTE: Current max <Unique_ID>123</Unique_ID>-->	
+<!--START ADDED-->	
 		<Explosion>
-			<Name>TF_nano_grenade</Name> <!--FROM nano_rifle_exp-->
-			<Radius>1.2</Radius>
-			<AI_Sound_Radius>0</AI_Sound_Radius>
-			<vehicle_damage_max>300</vehicle_damage_max>
-			<vehicle_damage_min>300</vehicle_damage_min>
-			<Impulse>1000</Impulse>
-			<Effects>
-				<Element>wep_nanorifle_swarm_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>0</CrumbleRadius>
-			<KnockdownRadius>0</KnockdownRadius>
-			<FlinchRadius>1.31</FlinchRadius>
-			<player_mult>0</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>0</human_damage_min>
-			<Human_Damage_Max>0</Human_Damage_Max>
-			<Structural_Damage>0</Structural_Damage>
-			<Duration>750</Duration>
-			<Delay>0</Delay>
-			<Break_off_pieces>
-				<Time_between_breaks>150</Time_between_breaks>
-			</Break_off_pieces>
-			<Unique_ID>124</Unique_ID>
-			<camera_shake_multiplier>0</camera_shake_multiplier>
-			<Blast_decal_radius>0.0001</Blast_decal_radius>
-			<Flags>
-				<Flag>no gibs</Flag>
-				<Flag>nano dissolve</Flag>
-			</Flags>
-			<player_veh_mult>0</player_veh_mult>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>		
-		<Explosion>
-			<Name>TF_grenade</Name>
+			<Name>TF_GRENADE</Name>
 			<Radius>5.0</Radius>
 			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>900</vehicle_damage_max>
@@ -73,9 +35,9 @@
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>True</Always_Ragdoll>
-		</Explosion>		
+		</Explosion>
 		<Explosion>
-			<Name>TF_rocket</Name>
+			<Name>TF_ROCKET</Name>
 			<Radius>3.65</Radius>
 			<AI_Sound_Radius>75</AI_Sound_Radius>
 			<vehicle_damage_max>3500</vehicle_damage_max>
@@ -236,19 +198,19 @@
 		</Explosion>
 		<Explosion>
 			<Name>mp_kaboom</Name>
-			<Radius>7.2</Radius>
-			<CrumbleRadius>4.2</CrumbleRadius>
+			<Radius>5</Radius>
+			<CrumbleRadius>2</CrumbleRadius>
 			<AI_Sound_Radius>200</AI_Sound_Radius>
 			<vehicle_damage_max>700</vehicle_damage_max>
 			<vehicle_damage_min>300</vehicle_damage_min>
 			<Impulse>22000</Impulse>
 			<Effects>
-				<Element>wep_thermo_rpg_exp</Element>
+				<Element>mp_kaboom_pack_exp_a</Element>
 			</Effects>
 			<_Editor>
 				<Category>Entries:Multiplayer</Category>
 			</_Editor>
-			<KnockdownRadius>9.2</KnockdownRadius>
+			<KnockdownRadius>7</KnockdownRadius>
 			<FlinchRadius>22</FlinchRadius>
 			<Duration>250</Duration>
 			<Delay>0</Delay>
@@ -3285,9 +3247,7 @@
 			<Name>Blast_decal_radius</Name>
 			<Type>Float</Type>
 			<Display_Name>Blast Decal Radius</Display_Name>
-			<Description>This is the radius of the sphere used to place blast decals.
-
-If this is not set, an average of the Blast Radius and Secondary Damage Radius will be used.</Description>
+			<Description>This is the radius of the sphere used to place blast decals. If this is not set, an average of the Blast Radius and Secondary Damage Radius will be used.</Description>
 			<Required>false</Required>
 			<Default>0.0</Default>
 		</Element>

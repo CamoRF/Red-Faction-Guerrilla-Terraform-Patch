@@ -18,7 +18,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<EffectMaterial>Terrain</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -42,7 +42,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<EffectMaterial>Carbon</EffectMaterial>
 			<NoShowMax>True</NoShowMax>
@@ -67,7 +67,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<EffectMaterial>Carbon</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -110,7 +110,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
@@ -136,7 +136,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
@@ -162,7 +162,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Friction>.55</Friction>
 			<EffectMaterial>Composite</EffectMaterial>
@@ -188,7 +188,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Density>2000</Density>
 			<Friction>.9</Friction>
@@ -214,7 +214,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Density>2250</Density>
 			<Friction>0.9</Friction>
@@ -241,7 +241,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Density>2500</Density>
 			<Friction>0.9</Friction>
@@ -270,7 +270,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Brittleness>3.0</Brittleness>
 			<EffectMaterial>Electronics</EffectMaterial>
@@ -296,7 +296,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Friction>1.0</Friction>
 			<EffectMaterial>Flesh</EffectMaterial>
@@ -324,7 +324,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<LinkStrength>25</LinkStrength>
 			<LevelObjectProperties>RFG_Glass</LevelObjectProperties>
@@ -348,7 +348,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Density>1000</Density>
 			<Friction>0.2</Friction>
@@ -390,7 +390,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<LevelObjectProperties>Default</LevelObjectProperties>
 			<Brittleness>0.25</Brittleness>
@@ -418,7 +418,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<LevelObjectProperties>Default</LevelObjectProperties>
 			<Brittleness>0.5</Brittleness>
@@ -442,7 +442,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Density>400</Density>
 			<Friction>1</Friction>
@@ -471,7 +471,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Brittleness>0.75</Brittleness>
 			<EffectMaterial>Steel</EffectMaterial>
@@ -496,7 +496,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Brittleness>0.5</Brittleness>
 			<EffectMaterial>Steel</EffectMaterial>
@@ -521,7 +521,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -546,7 +546,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -571,7 +571,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<EffectMaterial>Steel</EffectMaterial>
 			<NoShowMax>False</NoShowMax>
@@ -595,7 +595,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Density>2500</Density>
 			<Friction>0.8</Friction>
@@ -621,7 +621,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Density>1750</Density>
 			<Friction>0.8</Friction>
@@ -666,7 +666,7 @@
 				<Flag>no_auto_delete</Flag>
 				<Flag>no_pickup_delete</Flag>
 				<Flag>use_pickup</Flag>
-<!--END-->
+<!--END-->				
 			</Flags>
 			<Friction>0.2</Friction>
 			<EffectMaterial>Glass</EffectMaterial>

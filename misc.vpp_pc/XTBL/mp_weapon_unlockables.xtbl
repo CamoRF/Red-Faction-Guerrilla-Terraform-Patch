@@ -1,7 +1,31 @@
 <root>
 	<Table>
-<!--Comments compared to vanilla values-->		
-<!--TO DO: Fix gutter not working as a selectable hammer-->
+<!--START ADDED-->
+		<unlockable>
+			<Name>royal_sword</Name>
+			<level_needed>0</level_needed>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<image_name>mp_hammer_default</image_name>
+		</unlockable>
+		<unlockable>
+			<Name>pickaxe</Name>
+			<level_needed>0</level_needed>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<image_name>mp_hammer_default</image_name>
+		</unlockable>
+		<unlockable>
+			<Name>TF_GUTTER</Name>
+			<level_needed>0</level_needed>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<image_name>mp_hammer_default</image_name>
+		</unlockable>			
+<!--END-->
 		<unlockable>
 			<Name>sledgehammer</Name>
 			<level_needed>0</level_needed>
@@ -121,33 +145,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<image_name>mp_hammer_ostrich</image_name>
-		</unlockable>
-<!--START ADDED-->
-		<!--<unlockable>
-			<Name>gutter</Name>
-			<level_needed>0</level_needed>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<image_name>mp_hammer_default</image_name>
-		</unlockable>-->		
-		<unlockable>
-			<Name>royal_sword</Name>
-			<level_needed>0</level_needed>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<image_name>mp_hammer_default</image_name>
-		</unlockable>
-		<unlockable>
-			<Name>pickaxe</Name>
-			<level_needed>0</level_needed>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<image_name>mp_hammer_default</image_name>
-		</unlockable>
-<!--END-->
+		</unlockable>		
 	</Table>
 	<TableTemplates></TableTemplates>
 	<TableDescription>

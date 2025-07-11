@@ -364,7 +364,7 @@
 				<Frequency>10</Frequency>
 			</Oscillation2>
 		</Camera_Shake>		
-<!--END-->
+<!--END-->		
 		<Camera_Shake>
 			<Name>backpack_kaboom_ramp</Name>
 			<Wobble>

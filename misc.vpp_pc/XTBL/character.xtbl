@@ -1,14 +1,13 @@
 <root>
 	<Table>
-<!--START ADDED-->
 		<Character>
 			<Name>TF_Sam_DLC</Name>
 			<Model>
-				<Filename>tf_sam_dlc.cmeshx</Filename> <!--Mesh inside .str2_pc-->
+				<Filename>tf_sam_dlc.cmeshx</Filename>
 			</Model>
 			<Anim_Set>Civilian_Female.xtbl</Anim_Set>
 			<Rig>
-				<Filename>TF_Sam_DLC.rigx</Filename> <!--These are packed into misc.vpp_pc-->
+				<Filename>TF_Sam_DLC.rigx</Filename>
 			</Rig>
 			<Team>Marauder</Team>
 			<_Editor>
@@ -43,7 +42,7 @@
 					<Type>Back</Type>
 					<Items>
 						<Item>
-							<Name>TF_Sam_DLC_Cape</Name> <!--items_3d.xtbl-->
+							<Name>TF_Sam_DLC_Cape</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -54,7 +53,7 @@
 					<Type>Head</Type>
 					<Items>
 						<Item>
-							<Name>TF_Sam_DLC_Hair</Name> <!--items_3d.xtbl-->
+							<Name>TF_Sam_DLC_Hair</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -65,7 +64,7 @@
 					<Type>accessory_misc</Type>
 					<Items>
 						<Item>
-							<Name>TF_Sam_DLC_Skirt</Name> <!--items_3d.xtbl-->
+							<Name>TF_Sam_DLC_Skirt</Name>
 							<Chance>100</Chance>
 						</Item>
 					</Items>
@@ -132,7 +131,7 @@
 			<origin_district>Special</origin_district>
 			<Heads>
 				<Head>
-					<Name>TF_Sam_DLC_Head</Name> <!--cpeg and gpeg inside .str2-->
+					<Name>TF_Sam_DLC_Head</Name>
 					<Base_Head>base_hires_head</Base_Head>
 					<Lod_Head>none</Lod_Head>
 				</Head>
@@ -670,7 +669,7 @@
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Special</origin_district>
 		</Character>
-<!--END-->
+<!--END-->		
 		<Character>
 			<Name>MP_Selma</Name>
 			<Model>
@@ -839,6 +838,8 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>100</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -907,8 +908,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>100</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>			
 			<origin_district>Common</origin_district>
 		</Character>
 		<Character>
@@ -967,6 +966,8 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>100</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -1035,8 +1036,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>100</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>			
 			<origin_district>Common</origin_district>
 		</Character>
 		<Character>
@@ -1102,6 +1101,8 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>100</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -1170,8 +1171,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>100</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>			
 			<origin_district>Dust</origin_district>
 		</Character>
 		<Character>
@@ -1235,6 +1234,8 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>100</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -1309,8 +1310,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>100</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>			
 			<origin_district>Eos</origin_district>
 		</Character>
 		<Character>
@@ -1347,6 +1346,7 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>100</AimErrorPct>
 			<Heads>
 				<Head>
 					<Name>oldCoot_head</Name>
@@ -1435,9 +1435,8 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>100</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->		
 			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>MP_Heidi</Name>
@@ -1492,6 +1491,8 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>100</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -1573,9 +1574,7 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>100</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>		
-			<origin_district>Eos</origin_district>			
+			<origin_district>Eos</origin_district>
 		</Character>
 		<Character>
 			<Name>MP_Grunt_Braun</Name>
@@ -1792,6 +1791,8 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>100</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -1860,9 +1861,7 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>100</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>	
-			<origin_district>Parker</origin_district>			
+			<origin_district>Parker</origin_district>
 		</Character>
 		<Character>
 			<Name>MP_Isaiah</Name>
@@ -1927,6 +1926,7 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>100</AimErrorPct>
 			<Props>
 				<Prop>
 					<Prop_Name>EarMuffs</Prop_Name>
@@ -2020,10 +2020,9 @@
 						</Item>
 					</Items>
 				</Prop>
-			</Props>		
-			<AimErrorPct>100</AimErrorPct>			
+			</Props>
 			<MP_Class_Name>Engineer</MP_Class_Name>
-			<origin_district>Parker</origin_district>			
+			<origin_district>Parker</origin_district>
 		</Character>
 		<Character>
 			<Name>Kyle</Name>
@@ -2067,6 +2066,8 @@
 				<Flag>use tech level</Flag>
 				<Flag>VIP</Flag>
 			</Flags>
+			<AimErrorPct>50</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -2135,8 +2136,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>50</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>			
 			<origin_district>Common</origin_district>
 		</Character>
 		<Character>
@@ -2202,6 +2201,8 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>75</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -2259,8 +2260,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>75</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>			
 			<origin_district>Common</origin_district>
 		</Character>
 		<Character>
@@ -2316,6 +2315,7 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>75</AimErrorPct>
 			<Props>
 				<Prop>
 					<Prop_Name>Hair</Prop_Name>
@@ -2397,7 +2397,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>75</AimErrorPct>			
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Common</origin_district>
 		</Character>
@@ -2462,6 +2461,8 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>75</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -2519,8 +2520,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>75</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>			
 			<origin_district>Oasis</origin_district>
 		</Character>
 		<Character>
@@ -2576,6 +2575,8 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>75</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -2633,8 +2634,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>75</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>			
 			<origin_district>Oasis</origin_district>
 		</Character>
 		<Character>
@@ -2817,6 +2816,7 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>75</AimErrorPct>
 			<Props>
 				<Prop>
 					<Prop_Name>Hair</Prop_Name>
@@ -2884,10 +2884,9 @@
 						</Item>
 					</Items>
 				</Prop>
-			</Props>			
-			<AimErrorPct>75</AimErrorPct>			
+			</Props>
 			<MP_Class_Name>Engineer</MP_Class_Name>
-			<origin_district>Oasis</origin_district>			
+			<origin_district>Oasis</origin_district>
 		</Character>
 		<Character>
 			<Name>Lawrence</Name>
@@ -2950,6 +2949,8 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>75</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -3017,10 +3018,8 @@
 						</Item>
 					</Items>
 				</Prop>
-			</Props>		
-			<AimErrorPct>75</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>		
-			<origin_district>Oasis</origin_district>				
+			</Props>
+			<origin_district>Oasis</origin_district>
 		</Character>
 		<Character>
 			<Name>Numah</Name>
@@ -3083,6 +3082,8 @@
 			<Flags>
 				<Flag>use tech level</Flag>
 			</Flags>
+			<AimErrorPct>75</AimErrorPct>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -3139,10 +3140,9 @@
 						</Item>
 					</Items>
 				</Prop>
-			</Props>		
-			<AimErrorPct>75</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>		
-			<origin_district>Oasis</origin_district>				
+			</Props>
+			<origin_district>Oasis</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>DBC_VIP_1</Name>
@@ -3205,6 +3205,9 @@
 			<Flags>
 				<Flag>VIP</Flag>
 			</Flags>
+			<AimErrorPct>70</AimErrorPct>
+			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 			<Props>
 				<Prop>
 					<Prop_Name>Coat</Prop_Name>
@@ -3218,9 +3221,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>70</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>				
-			<origin_district>Special</origin_district>			
 		</Character>
 		<Character>
 			<Name>DBC_VIP_2</Name>
@@ -3284,8 +3284,8 @@
 				<Flag>VIP</Flag>
 			</Flags>
 			<AimErrorPct>70</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>		
 			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>Admiral_Kobel</Name>
@@ -3314,6 +3314,7 @@
 			<Flags>
 				<Flag>unarmed</Flag>
 			</Flags>
+			<AimErrorPct>100</AimErrorPct>
 			<Heads>
 				<Head>
 					<Name>kobel_head</Name>
@@ -3321,6 +3322,7 @@
 					<Lod_Head>None</Lod_Head>
 				</Head>
 			</Heads>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -3378,8 +3380,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>100</AimErrorPct>
-			<MP_Class_Name>Engineer</MP_Class_Name>			
 			<origin_district>Special</origin_district>
 		</Character>
 		<Character>
@@ -3417,6 +3417,7 @@
 				<Flag>unarmed</Flag>
 				<Flag>no attaching projectiles</Flag>
 			</Flags>
+			<AimErrorPct>50</AimErrorPct>
 			<Heads>
 				<Head>
 					<Name>dan_head</Name>
@@ -3424,6 +3425,7 @@
 					<Lod_Head>None</Lod_Head>
 				</Head>
 			</Heads>
+			<MP_Class_Name>Engineer</MP_Class_Name>
 			<Props>
 				<Prop>
 					<Prop_Name>Torso</Prop_Name>
@@ -3505,8 +3507,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>50</AimErrorPct>			
-			<MP_Class_Name>Engineer</MP_Class_Name>			
 			<origin_district>Special</origin_district>
 		</Character>
 		<Character>
@@ -3544,6 +3544,7 @@
 				<Flag>VIP</Flag>
 				<Flag>no attaching projectiles</Flag>
 			</Flags>
+			<AimErrorPct>50</AimErrorPct>
 			<Heads>
 				<Head>
 					<Name>samanya_head</Name>
@@ -3633,7 +3634,6 @@
 					</Items>
 				</Prop>
 			</Props>
-			<AimErrorPct>50</AimErrorPct>			
 			<MP_Class_Name>Engineer</MP_Class_Name>
 			<origin_district>Special</origin_district>
 		</Character>
@@ -4345,6 +4345,7 @@
 			<Flags></Flags>
 			<AimErrorPct>75</AimErrorPct>
 			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>rfg_civilian1</Name>
@@ -4381,6 +4382,7 @@
 			<Flags></Flags>
 			<AimErrorPct>75</AimErrorPct>
 			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>rfg_soldier1</Name>
@@ -4423,6 +4425,7 @@
 			<Flags></Flags>
 			<AimErrorPct>75</AimErrorPct>
 			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>voice_test</Name>
@@ -4463,6 +4466,7 @@
 			<Flags></Flags>
 			<AimErrorPct>100</AimErrorPct>
 			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>EDF_Bureaucrat</Name>
@@ -8172,6 +8176,7 @@
 			</Flags>
 			<AimErrorPct>70</AimErrorPct>
 			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>EDF_Colonel_Baker</Name>
@@ -8249,6 +8254,7 @@
 			</Flags>
 			<AimErrorPct>70</AimErrorPct>
 			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>Kat</Name>
@@ -9425,6 +9431,7 @@
 				</Prop>
 			</Props>
 			<origin_district>Dust</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>Jamaya_Dust</Name>
@@ -10393,6 +10400,7 @@
 				</Prop>
 			</Props>
 			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>Jake</Name>
@@ -12143,6 +12151,7 @@
 			<Flags></Flags>
 			<AimErrorPct>100</AimErrorPct>
 			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>EDF_General_Roth</Name>
@@ -12342,6 +12351,7 @@
 				</Prop>
 			</Props>
 			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>SH_Sniper</Name>
@@ -12386,6 +12396,7 @@
 			<Flags></Flags>
 			<AimErrorPct>50</AimErrorPct>
 			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
 		</Character>
 		<Character>
 			<Name>EDF_Lieutenant_Enforcer</Name>
@@ -18959,6 +18970,266 @@
 		</Character>
 	</Table>
 	<TableTemplates>
+		<Character>
+			<Team>Guerilla</Team>
+			<Name>rfg_PC_test</Name>
+			<Model>
+				<Filename>Olga.cmeshx</Filename>
+			</Model>
+			<Anim_Set>Player_Female.xtbl</Anim_Set>
+			<Rig>
+				<Filename>olga.rigx</Filename>
+			</Rig>
+			<Team>Guerilla</Team>
+			<_Editor>
+				<Category>Entries:Test</Category>
+			</_Editor>
+			<Personas>
+				<Persona>PCM01</Persona>
+			</Personas>
+			<Height>1.0</Height>
+			<Variation>0.0</Variation>
+			<FootstepsControl>GUR_PC</FootstepsControl>
+			<Inventory>
+				<Item>
+					<Item_Name>m16</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+				<Item>
+					<Item_Name>rpg_launcher</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+				<Item>
+					<Item_Name>charge_placer</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+				<Item>
+					<Item_Name>sledgehammer</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+			</Inventory>
+			<Sex>female</Sex>
+			<max_hit_points>300</max_hit_points>
+			<knock_down_hits>30</knock_down_hits>
+			<max_speed>5</max_speed>
+			<Equip_Item_Name>m16</Equip_Item_Name>
+			<Props>
+				<Prop>
+					<Prop_Name>Hair</Prop_Name>
+					<Chance>100</Chance>
+					<Type>head_prop</Type>
+					<Items>
+						<Item>
+							<Name>Olga_Hair</Name>
+							<Character_Prop>Head</Character_Prop>
+							<Item_Prop>Attach_Olga</Item_Prop>
+							<Chance>100</Chance>
+						</Item>
+					</Items>
+				</Prop>
+			</Props>
+			<Last_Equip_Item_Name>sledgehammer</Last_Equip_Item_Name>
+			<Heads>
+				<Head>
+					<Base_Head>base_head</Base_Head>
+					<Lod_Head>base_head_lod</Lod_Head>
+					<Name>olga_head</Name>
+				</Head>
+			</Heads>
+			<Flags></Flags>
+			<AimErrorPct>100</AimErrorPct>
+			<origin_district>Special</origin_district>
+		</Character>
+		<Character>
+			<Team>Guerilla</Team>
+			<Name>rfg_PC_Kyle</Name>
+			<Model>
+				<Filename>player_.cmeshx</Filename>
+			</Model>
+			<Anim_Set>Player.xtbl</Anim_Set>
+			<Rig>
+				<Filename>Player.rigx</Filename>
+			</Rig>
+			<Team>Guerilla</Team>
+			<_Editor>
+				<Category>Entries:Test</Category>
+			</_Editor>
+			<Personas>
+				<Persona>PCM01</Persona>
+			</Personas>
+			<Height>1.0</Height>
+			<Variation>0.0</Variation>
+			<FootstepsControl>GUR_PC</FootstepsControl>
+			<Inventory>
+				<Item>
+					<Item_Name>m16</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+				<Item>
+					<Item_Name>rpg_launcher</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+				<Item>
+					<Item_Name>charge_placer</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+				<Item>
+					<Item_Name>sledgehammer</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+			</Inventory>
+			<Sex>male</Sex>
+			<max_hit_points>400</max_hit_points>
+			<knock_down_hits>30</knock_down_hits>
+			<max_speed>5</max_speed>
+			<Equip_Item_Name>sledgehammer</Equip_Item_Name>
+			<Props>
+				<Prop>
+					<Prop_Name>Head</Prop_Name>
+					<Type>head_prop</Type>
+					<Chance>100</Chance>
+					<Items>
+						<Item>
+							<Name>Kyle_hair</Name>
+							<Chance>100</Chance>
+							<Character_Prop>Head</Character_Prop>
+						</Item>
+						<Item>
+							<Name>Kyle_helmet</Name>
+							<Chance>0</Chance>
+							<Item_Prop>Attach_Kyle</Item_Prop>
+							<Character_Prop>Head</Character_Prop>
+						</Item>
+					</Items>
+				</Prop>
+				<Prop>
+					<Prop_Name>Torso</Prop_Name>
+					<Chance>0</Chance>
+					<Type>jetpack</Type>
+					<Items>
+						<Item>
+							<Name>Kyle_backpack</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>Kyle_scarf</Name>
+							<Chance>0</Chance>
+						</Item>
+						<Item>
+							<Name>Kyle_JetPack</Name>
+							<Chance>100</Chance>
+							<Character_Prop>spine2</Character_Prop>
+							<Item_Prop>Attach_Kyle</Item_Prop>
+						</Item>
+					</Items>
+				</Prop>
+				<Prop>
+					<Prop_Name>Waist</Prop_Name>
+					<Chance>40</Chance>
+					<Type>torso</Type>
+					<Items>
+						<Item>
+							<Name>Kyle_beltpack</Name>
+							<Chance>100</Chance>
+						</Item>
+					</Items>
+				</Prop>
+			</Props>
+			<Last_Equip_Item_Name>m16</Last_Equip_Item_Name>
+			<Heads>
+				<Head>
+					<Base_Head>base_head</Base_Head>
+					<Lod_Head>middle_head_lod</Lod_Head>
+					<Name>kyle_head</Name>
+				</Head>
+			</Heads>
+			<Flags></Flags>
+			<AimErrorPct>100</AimErrorPct>
+			<origin_district>Special</origin_district>
+		</Character>
+		<Character>
+			<Team>Guerilla</Team>
+			<Name>rfg_PC_jake</Name>
+			<Model>
+				<Filename>jake_mp.cmeshx</Filename>
+			</Model>
+			<Anim_Set>Player.xtbl</Anim_Set>
+			<Rig>
+				<Filename>jake_mp.rigx</Filename>
+			</Rig>
+			<Team>Guerilla</Team>
+			<_Editor>
+				<Category>Entries:Test</Category>
+			</_Editor>
+			<Personas>
+				<Persona>PCM01</Persona>
+			</Personas>
+			<Height>1.0</Height>
+			<Variation>0.0</Variation>
+			<FootstepsControl>GUR_PC</FootstepsControl>
+			<Inventory>
+				<Item>
+					<Item_Name>m16</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+				<Item>
+					<Item_Name>rpg_launcher</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+				<Item>
+					<Item_Name>charge_placer</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+				<Item>
+					<Item_Name>sledgehammer</Item_Name>
+					<Item_Count>1</Item_Count>
+					<Item_Slot>-1</Item_Slot>
+				</Item>
+			</Inventory>
+			<Sex>male</Sex>
+			<max_hit_points>550</max_hit_points>
+			<knock_down_hits>30</knock_down_hits>
+			<max_speed>5</max_speed>
+			<Equip_Item_Name>sledgehammer</Equip_Item_Name>
+			<Props>
+				<Prop>
+					<Prop_Name>Hair</Prop_Name>
+					<Chance>100</Chance>
+					<Type>accessory_misc</Type>
+					<Items>
+						<Item>
+							<Name>Jake_MP_Hair</Name>
+							<Character_Prop>Head</Character_Prop>
+							<Item_Prop>Attach_Mason</Item_Prop>
+							<Chance>100</Chance>
+						</Item>
+					</Items>
+				</Prop>
+			</Props>
+			<Last_Equip_Item_Name>m16</Last_Equip_Item_Name>
+			<Heads>
+				<Head>
+					<Name>jake_head</Name>
+					<Base_Head>base_head</Base_Head>
+					<Lod_Head>None</Lod_Head>
+				</Head>
+			</Heads>
+			<Flags></Flags>
+			<AimErrorPct>100</AimErrorPct>
+			<origin_district>Special</origin_district>
+			<MP_Class_Name>Engineer</MP_Class_Name> <!--ADDED-->
+		</Character>
 	</TableTemplates>
 	<TableDescription>
 		<Name>Character</Name>

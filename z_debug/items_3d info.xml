@@ -1,0 +1,47 @@
+<!--	<Element>
+			<Name>Item_Flags</Name>
+			<Type>Flags</Type>
+			<Display_Name>Item Flags</Display_Name>
+			<Description>Flags for the item.</Description>
+			<Required>false</Required>
+			<Flag>collide_as_box</Flag> Adds collision (box/square shaped)
+			<Flag>collide_as_capsule</Flag>  Adds collision (pill shaped)
+			<Flag>collide_as_cylinder</Flag> Adds collision (cylinder shaped)
+			<Flag>collide_as_mover</Flag> Adds collision (use in addition to types of collision and they will move when player walks into them)
+			<Flag>collide_as_sphere</Flag> Adds collision (sphere shaped)
+			<Flag>ignore_physics</Flag> ?
+			<Flag>inherit_bone_transforms</Flag> ?
+			<Flag>is_ammo_box</Flag> Untested, Ammo create/box in singleplayer uses it
+			<Flag>no_auto_delete</Flag> Stops the item despawning fast
+			<Flag>no_pickup_delete</Flag> Isn't deleted when it's picked up
+			<Flag>spin</Flag> Item spins on ground like a weapon pickup
+			<Flag>use_pickup</Flag> ?
+			<Flag>is_personal_shield</Flag> ?
+			<Flag>is_virtual_shield</Flag> ?
+			<Flag>high_res_map_large</Flag> ?
+			<Flag>high_res_map_small</Flag> ?
+			<Flag>special_bbox</Flag> ?
+			<Flag>fast_cleanup</Flag> Makes the item despawn fast for performance reasons
+		</Element>
+		<Element>
+			<Name>Touch_Script</Name>
+			<Type>Selection</Type>
+			<Display_Name>Touch Script</Display_Name>
+			<Description>Name of hard-coded script to initiate when item is "touched".</Description>
+			<Required>false</Required>
+			<Default>give_item</Default>
+			<Choice>give_item</Choice> Player picks up item when they walk into it
+			<Choice>give_rand_money</Choice> Saints row?
+			<Choice>give_full_health</Choice> Player health is restored and a HUD element appears
+			<Choice>give_health_percent</Choice> Untested
+			<Choice>give_money</Choice> Saints row?
+			<Choice>give_stash</Choice> ?
+			<Choice>give_salvage</Choice> Gives player salvage when they walk into it
+			<Choice>give_flag</Choice> CTF?
+			<Choice>give_backpack</Choice> Backpack rack stuff?
+			<Choice>ask_pickup</Choice> ?
+			<Choice>give_item_safehouse</Choice> ?
+			<Choice>increase_tech_level</Choice> ?
+			<Choice>blast_from_the_past</Choice> ?
+			<Choice>bagman_flag</Choice> Bagman multiplayer item uses it
+		</Element>-->	

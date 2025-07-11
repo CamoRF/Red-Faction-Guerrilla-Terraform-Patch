@@ -1,86 +1,85 @@
 <root>
 	<Table>
-	<!--Add comments from vanilla values-->
 		<effect_heartbeat>
 			<Name>Player</Name>
 			<heartbeat_info>
 				<heartbeat_item>
 					<health>0.0</health>
-					<red_ring>1.0</red_ring>
-					<flash_max>0.0</flash_max>
-					<flash_min>0</flash_min>
-					<flash_frequency>2.0</flash_frequency>
-					<volume>0.0</volume>
-					<shake>0.0</shake>
-					<blur>0.70</blur>
-					<saturation>1.0</saturation>
-					<bloom>1.0</bloom>
+					<red_ring>1.0</red_ring> <!--FROM 0.3-->
+					<flash_max>0.0</flash_max> <!--FROM 0.45-->
+					<flash_min>0.0</flash_min> <!--FROM 0.2-->
+					<flash_frequency>2.0</flash_frequency> <!--FROM 0.9-->
+					<volume>0.0</volume> <!--FROM 1.0-->
+					<shake>0.0</shake> <!--FROM 1.0-->
+					<blur>0.70</blur> <!--FROM 0.92-->
+					<saturation>1.0</saturation> <!--FROM 0.3-->
+					<bloom>1.0</bloom> <!--FROm 0.8-->
 				</heartbeat_item>
 				<heartbeat_item>
 					<health>0.15</health>
-					<red_ring>1.0</red_ring>
-					<flash_max>0.0</flash_max>
-					<flash_min>0</flash_min>
-					<flash_frequency>2.0</flash_frequency>
-					<volume>0.0</volume>
-					<shake>0.0</shake>
-					<blur>0.70</blur>
-					<saturation>1.0</saturation>
-					<bloom>1.0</bloom>
+					<red_ring>1.0</red_ring> <!--FROM 0.5-->
+					<flash_min>0.0</flash_min> <!--FROM 0.15-->
+					<flash_max>0.0</flash_max> <!--FROm 0.40-->
+					<flash_frequency>2.0</flash_frequency> <!--FROM 1.0-->
+					<volume>0.0</volume> <!--FROM 0.8-->
+					<shake>0.0</shake> <!--FROM 0.8-->
+					<blur>0.70</blur> <!--FROM 0.90-->
+					<saturation>1.0</saturation> <!--FROM 0.5-->
+					<bloom>1.0</bloom> <!--FROM 0.85-->
 				</heartbeat_item>
 				<heartbeat_item>
 					<health>0.3</health>
-					<red_ring>1.0</red_ring>
-					<flash_max>0.0</flash_max>
-					<flash_min>0</flash_min>
-					<flash_frequency>2.0</flash_frequency>
-					<volume>0.0</volume>
-					<shake>0.0</shake>
-					<blur>0.70</blur>
-					<saturation>1.0</saturation>
-					<bloom>1.0</bloom>
+					<red_ring>1.0</red_ring> <!--FROM 0.65-->
+					<flash_min>0.0</flash_min> <!--FROM 0.1-->
+					<flash_max>0.0</flash_max> <!--FROM 0.30-->
+					<flash_frequency>2.0</flash_frequency> <!--FROM 1.1-->
+					<volume>0.0</volume> <!--FROM 0.6-->
+					<shake>0.0</shake> <!--FROM 0.6-->
+					<blur>0.70</blur> <!--FROM 0.88-->
+					<saturation>1.0</saturation> <!--FROM 0.7-->
+					<bloom>1.0</bloom> <!--FRM 0.9-->
 				</heartbeat_item>
 				<heartbeat_item>
 					<health>0.5</health>
-					<red_ring>1.0</red_ring>
-					<flash_max>0.0</flash_max>
-					<flash_min>0</flash_min>
-					<flash_frequency>2.0</flash_frequency>
-					<volume>0.0</volume>
-					<shake>0.0</shake>
-					<blur>0.70</blur>
-					<saturation>1.0</saturation>
-					<bloom>1.0</bloom>
+					<red_ring>1.0</red_ring> <!--FROM 0.8-->
+					<flash_min>0.0</flash_min> <!--FROM 0.05-->
+					<flash_max>0.0</flash_max> <!--FROM 0.20-->
+					<flash_frequency>2.0</flash_frequency> <!--FROM 1.2-->
+					<volume>0.0</volume> <!--FROM 0.4-->
+					<shake>0.0</shake> <!--FROM 0.4-->
+					<blur>0.70</blur> <!--FROM 0.85-->
+					<saturation>1.0</saturation> <!--FROM 0.8-->
+					<bloom>1.0</bloom> <!--FROM 0.95-->
 				</heartbeat_item>
 				<heartbeat_item>
 					<health>0.75</health>
-					<red_ring>1.0</red_ring>
-					<flash_max>0.0</flash_max>
-					<flash_min>0</flash_min>
-					<flash_frequency>2.0</flash_frequency>
-					<volume>0.0</volume>
-					<shake>0.0</shake>
-					<blur>0.70</blur>
-					<saturation>1.0</saturation>
-					<bloom>1.0</bloom>
+					<red_ring>1.0</red_ring> <!--FROM 0.9-->
+					<flash_max>0.0</flash_max> <!--FROM 0.12-->
+					<flash_min>0.0</flash_min> <!--FROM 0.02-->
+					<flash_frequency>2.0</flash_frequency> <!--FROM 1.4-->
+					<volume>0.0</volume> <!--FROM 0.2-->
+					<shake>0.0</shake> <!--FROM 0.2-->
+					<blur>0.70</blur> <!--FROM 0.80-->
+					<saturation>1.0</saturation> <!--FROM 0.9-->
+					<bloom>1.0</bloom> <!--FROM 0.975-->
 				</heartbeat_item>
 				<heartbeat_item>
 					<health>0.9</health>
 					<red_ring>1.0</red_ring>
-					<flash_max>0.0</flash_max>
-					<flash_min>0</flash_min>
-					<flash_frequency>2.0</flash_frequency>
-					<volume>0.0</volume>
-					<shake>0.0</shake>
-					<blur>0.70</blur>
-					<saturation>1.0</saturation>
+					<flash_min>0.0</flash_min> <!--FROM 0-->
+					<flash_max>0.0</flash_max> <!--FROM 0.05-->
+					<flash_frequency>2.0</flash_frequency> <!--FROM 1.7-->
+					<volume>0.0</volume> <!--FROM 0.1-->
+					<shake>0.0</shake> <!--FROM 0.1-->
+					<blur>0.70</blur> <!--FROM 0.75-->
+					<saturation>1.0</saturation> <!--FROM 0.95-->
 					<bloom>1.0</bloom>
 				</heartbeat_item>
 				<heartbeat_item>
 					<health>1.0</health>
 					<red_ring>1.0</red_ring>
 					<flash_max>0.0</flash_max>
-					<flash_min>0</flash_min>
+					<flash_min>0.0</flash_min> <!--FROM 0-->
 					<flash_frequency>2.0</flash_frequency>
 					<volume>0.0</volume>
 					<shake>0.0</shake>

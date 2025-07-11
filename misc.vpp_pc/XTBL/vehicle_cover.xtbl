@@ -1,8 +1,8 @@
 <root>
 	<Table>
-		<Chassis>
 <!--START ADDED-->
-			<Name>TF_Mar_stomper</Name>
+		<Chassis>
+			<Name>Mar_stomper</Name>
 			<Mesh_Name>civ_truck1.carx</Mesh_Name>
 			<_Editor>
 				<Category>Civilian</Category>
@@ -155,7 +155,7 @@
 			</Cover_Nodes>
 		</Chassis>
 		<Chassis>
-			<Name>TF_Mar_chomper</Name>
+			<Name>Mar_chomper</Name>
 			<Mesh_Name>mar_chomper.carx</Mesh_Name>
 			<_Editor>
 				<Category>Civilian</Category>

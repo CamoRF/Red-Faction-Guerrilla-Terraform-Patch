@@ -87,7 +87,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
-			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC8</Display_name>
+			<Display_name>TF_MENU_LEVEL_CASCADE</Display_name> <!--FROM MENU_WRECKING_CREW_MAP_NAME_WC8-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -107,6 +107,41 @@
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
+			<Name>Cliffside</Name>
+			<Filename>mp_cliffside</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>15:00</time_of_day>
+			<distance_multiplier>1.25</distance_multiplier>
+			<level_image_name>mp_thumb_0mp4</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>60.0</wind_intensity>
+			<wind_direction>315.0</wind_direction>
+			<Display_name>TF_MENU_LEVEL_CLIFFSIDE</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>15:00</alternate_time_of_day>
+			<glow_multiplier>6</glow_multiplier>
+			<alternate_glow_multiplier>7</alternate_glow_multiplier>
+			<ideal_min_players>6</ideal_min_players>
+			<ideal_max_players>10</ideal_max_players>
+			<Load_image>Cliffside</Load_image>
+			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
+		</mp_level_list>		
+		<mp_level_list>
 			<Name>Complex</Name>
 			<Filename>mp_complex</Filename> <!--FROM wc1-->
 			<_Editor>
@@ -122,7 +157,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
-			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC1</Display_name>
+			<Display_name>TF_MENU_LEVEL_COMPLEX</Display_name> <!--FROM MENU_WRECKING_CREW_MAP_NAME_WC1-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -192,7 +227,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
-			<Display_name>MENU_LEVEL_CORNERED</Display_name>
+			<Display_name>TF_MENU_LEVEL_CORNERED</Display_name> <!--FROM MENU_LEVEL_CORNERED-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>siege</Flag>
@@ -228,7 +263,7 @@
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_CRASH_SITE</Display_name>
+			<Display_name>TF_MENU_LEVEL_CRASH_SITE</Display_name> <!--FROM MENU_LEVEL_CRASH_SITE-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -264,7 +299,7 @@
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>50</wind_intensity>
 			<wind_direction>215</wind_direction>
-			<Display_name>MENU_LEVEL_CRESCENT</Display_name>
+			<Display_name>TF_MENU_LEVEL_CRESCENT</Display_name> <!--FROM MENU_LEVEL_CRESCENT-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>siege</Flag>
@@ -300,7 +335,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>30</wind_intensity>
 			<wind_direction>190</wind_direction>
-			<Display_name>MENU_LEVEL_CREVICE</Display_name>
+			<Display_name>TF_MENU_LEVEL_CREVICE</Display_name> <!--FROM MENU_LEVEL_CREVICE-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>siege</Flag>
@@ -336,7 +371,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>20.0</wind_intensity>
 			<wind_direction>290.0</wind_direction>
-			<Display_name>MENU_LEVEL_DEADZONE</Display_name>
+			<Display_name>TF_MENU_LEVEL_DEADZONE</Display_name> <!--FROM MENU_LEVEL_DEADZONE-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -406,7 +441,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_DOUBLETIME</Display_name>
+			<Display_name>TF_MENU_LEVEL_DOUBLETIME</Display_name> <!--FROM MENU_LEVEL_DOUBLETIME-->	
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -424,7 +459,7 @@
 			<ideal_max_players>10</ideal_max_players>
 			<Load_image>Crossover</Load_image>
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
-		</mp_level_list>
+		</mp_level_list>	
 		<mp_level_list>
 			<Name>Downfall</Name>
 			<Filename>mp_downfall</Filename>
@@ -441,7 +476,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>10</wind_intensity>
 			<wind_direction>345</wind_direction>
-			<Display_name>MENU_LEVEL_DOWNFALL</Display_name>
+			<Display_name>TF_MENU_LEVEL_DOWNFALL</Display_name> <!--FROM MENU_LEVEL_DOWNFALL-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -511,7 +546,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>25</wind_intensity>
 			<wind_direction>190</wind_direction>
-			<Display_name>MENU_LEVEL_EXCAVATION</Display_name>
+			<Display_name>TF_MENU_LEVEL_EXCAVATION</Display_name> <!--FROM MENU_LEVEL_EXCAVATION-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -581,7 +616,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
-			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC6</Display_name>
+			<Display_name>TF_MENU_LEVEL_FACTORY</Display_name> <!--FROM MENU_WRECKING_CREW_MAP_NAME_WC6-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -616,7 +651,7 @@
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>80.0</wind_intensity>
 			<wind_direction>25.0</wind_direction>
-			<Display_name>MENU_LEVEL_FALL_FACTOR</Display_name>
+			<Display_name>TF_MENU_LEVEL_FALL_FACTOR</Display_name> <!--FROM MENU_LEVEL_FALL_FACTOR-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -651,7 +686,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
-			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC5</Display_name>
+			<Display_name>TF_MENU_LEVEL_FORTRESS</Display_name> <!--FROM MENU_WRECKING_CREW_MAP_NAME_WC5-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -686,7 +721,7 @@
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>65</wind_intensity>
 			<wind_direction>20</wind_direction>
-			<Display_name>MENU_LEVEL_FRAMEWORK</Display_name>
+			<Display_name>TF_MENU_LEVEL_FRAMEWORK</Display_name> <!--FROM MENU_LEVEL_FRAMEWORK-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>siege</Flag>
@@ -757,7 +792,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40.0</wind_intensity>
 			<wind_direction>130</wind_direction>
-			<Display_name>MENU_LEVEL_GARRISON</Display_name>
+			<Display_name>TF_MENU_LEVEL_GARRISON</Display_name> <!--FROM MENU_LEVEL_GARRISON-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -777,6 +812,42 @@
 			<Load_image>Garrison</Load_image>
 			<demolition_damage_multiplier>1.5</demolition_damage_multiplier>
 		</mp_level_list>
+		<mp_level_list>
+			<Name>Gauntlet</Name>
+			<Filename>mp_gauntlet</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>10:00</time_of_day>
+			<distance_multiplier>1.0</distance_multiplier>
+			<level_image_name>mp_thumb_gauntlet</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>45</wind_intensity>
+			<wind_direction>5</wind_direction>
+			<Display_name>TF_MENU_LEVEL_GAUNTLET</Display_name> <!--FROM MENU_LEVEL_GAUNTLET-->
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>siege</Flag>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+			</mode_flags>
+			<alternate_time_of_day>21:00</alternate_time_of_day>
+			<glow_multiplier>1.6</glow_multiplier>
+			<alternate_glow_multiplier>3.2</alternate_glow_multiplier>
+			<ideal_min_players>10</ideal_min_players>
+			<ideal_max_players>16</ideal_max_players>
+			<Load_image>Gauntlet</Load_image>
+			<demolition_damage_multiplier>1</demolition_damage_multiplier>
+		</mp_level_list>		
 		<mp_level_list>
 			<Name>Gradient</Name>
 			<Filename>mpdlc_overhang</Filename>
@@ -813,42 +884,6 @@
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
-			<Name>Gauntlet</Name>
-			<Filename>mp_gauntlet</Filename>
-			<_Editor>
-				<Category>Entries:General</Category>
-			</_Editor>
-			<player_weapons>
-				<Element>m16</Element>
-			</player_weapons>
-			<Description>0</Description>
-			<time_of_day>10:00</time_of_day>
-			<distance_multiplier>1.0</distance_multiplier>
-			<level_image_name>mp_thumb_gauntlet</level_image_name>
-			<dust_enabled>False</dust_enabled>
-			<wind_intensity>45</wind_intensity>
-			<wind_direction>5</wind_direction>
-			<Display_name>MENU_LEVEL_GAUNTLET</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>siege</Flag>
-				<Flag>deathmatch</Flag>
-				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>
-				<Flag>capture_the_flag</Flag>
-				<Flag>king_of_the_hill</Flag>
-			</mode_flags>
-			<alternate_time_of_day>21:00</alternate_time_of_day>
-			<glow_multiplier>1.6</glow_multiplier>
-			<alternate_glow_multiplier>3.2</alternate_glow_multiplier>
-			<ideal_min_players>10</ideal_min_players>
-			<ideal_max_players>16</ideal_max_players>
-			<Load_image>Gauntlet</Load_image>
-			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>
-		<mp_level_list>
 			<Name>Gulch</Name>
 			<Filename>mp_gulch</Filename> <!--FROM wc7-->
 			<_Editor>
@@ -864,7 +899,7 @@
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
-			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC7</Display_name>
+			<Display_name>TF_MENU_LEVEL_GULCH</Display_name> <!--FROM MENU_WRECKING_CREW_MAP_NAME_WC7-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -989,6 +1024,41 @@
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
+			<Name>Junkyard</Name>
+			<Filename>mp_junkyard</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>12:00</time_of_day>
+			<distance_multiplier>0.5</distance_multiplier>
+			<level_image_name>mp_thumb_0mp2</level_image_name>
+			<dust_enabled>True</dust_enabled>
+			<wind_intensity>60.0</wind_intensity>
+			<wind_direction>315.0</wind_direction>
+			<Display_name>TF_MENU_LEVEL_JUNKYARD</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>12:00</alternate_time_of_day>
+			<glow_multiplier>5</glow_multiplier>
+			<alternate_glow_multiplier>2</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
+			<Load_image>Junkyard</Load_image>
+			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
+		</mp_level_list>		
+		<mp_level_list>
 			<Name>Nordic Special</Name>
 			<Filename>mp_nordic_special</Filename> <!--FROM wcdlc9-->
 			<_Editor>
@@ -1039,7 +1109,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>60.0</wind_intensity>
 			<wind_direction>315.0</wind_direction>
-			<Display_name>MENU_LEVEL_OUTPOST</Display_name>
+			<Display_name>TF_MENU_LEVEL_OUTPOST</Display_name> <!--FROM MENU_LEVEL_OUTPOST-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1074,7 +1144,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>35</wind_intensity>
 			<wind_direction>95</wind_direction>
-			<Display_name>MENU_LEVEL_OVERPASS</Display_name>
+			<Display_name>TF_MENU_LEVEL_OVERPASS</Display_name> <!--FROM MENU_LEVEL_OVERPASS-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>siege</Flag>
@@ -1095,6 +1165,39 @@
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
+			<Name>Partial Recall</Name>
+			<Filename>mp_partial_recall</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>19:00</time_of_day>
+			<distance_multiplier>1.0</distance_multiplier>
+			<level_image_name>mp_thumb_0mp5</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>25</wind_intensity>
+			<wind_direction>190</wind_direction>
+			<Display_name>TF_MENU_LEVEL_PARTIAL_RECALL</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>19:00</alternate_time_of_day>
+			<glow_multiplier>2.2</glow_multiplier>
+			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
+			<Load_image>Partial Recall</Load_image>
+			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
+		</mp_level_list>		
+		<mp_level_list>
 			<Name>Pinnacle</Name>
 			<Filename>mp_pinnacle</Filename>
 			<_Editor>
@@ -1110,7 +1213,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>95.0</wind_intensity>
 			<wind_direction>175</wind_direction>
-			<Display_name>MENU_LEVEL_PINNACLE</Display_name>
+			<Display_name>TF_MENU_LEVEL_PINNACLE</Display_name> <!--FROM MENU_LEVEL_PINNACLE-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1145,7 +1248,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
-			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC10</Display_name>
+			<Display_name>TF_MENU_LEVEL_PIPELINE</Display_name> <!--FROM MENU_WRECKING_CREW_MAP_NAME_WC10-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1164,6 +1267,39 @@
 			<Load_image>Pipeline</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		<mp_level_list>
+			<Name>Pipeline Pitfall</Name>
+			<Filename>mp_pipeline_pitfall</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>00:00</time_of_day>
+			<distance_multiplier>1.75</distance_multiplier>
+			<level_image_name>mp_thumb_0mp9</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>40</wind_intensity>
+			<wind_direction>270</wind_direction>
+			<Display_name>TF_MENU_LEVEL_PIPELINE_PITFALL</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>10:30</alternate_time_of_day>
+			<glow_multiplier>0.9</glow_multiplier>
+			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
+			<ideal_min_players>8</ideal_min_players>
+			<ideal_max_players>16</ideal_max_players>
+			<Load_image>Pipeline Pitfall</Load_image>
+			<demolition_damage_multiplier>1</demolition_damage_multiplier>
+		</mp_level_list>		
 		<mp_level_list>
 			<Name>Puncture</Name>
 			<Filename>mpdlc_puncture</Filename>
@@ -1215,7 +1351,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>5.0</wind_intensity>
 			<wind_direction>150</wind_direction>
-			<Display_name>MENU_LEVEL_QUARANTINE</Display_name>
+			<Display_name>TF_MENU_LEVEL_QUARANTINE</Display_name> <!--FROM MENU_LEVEL_QUARANTINE-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1251,7 +1387,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40.0</wind_intensity>
 			<wind_direction>270.0</wind_direction>
-			<Display_name>MENU_LEVEL_RADIAL</Display_name>
+			<Display_name>TF_MENU_LEVEL_RADIAL</Display_name> <!--FROM MENU_LEVEL_RADIAL-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1341,6 +1477,41 @@
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
+			<Name>Retribution</Name>
+			<Filename>mp_retribution</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>07:00</time_of_day>
+			<distance_multiplier>0.75</distance_multiplier>
+			<level_image_name>mp_thumb_0mp8</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>5.0</wind_intensity>
+			<wind_direction>150</wind_direction>
+			<Display_name>TF_MENU_LEVEL_RETRIBUTION</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<glow_multiplier>2.0</glow_multiplier>
+			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>6</ideal_max_players>
+			<Load_image>Retribution</Load_image>
+			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
+		</mp_level_list>			
+		<mp_level_list>
 			<Name>Rift</Name>
 			<Filename>mp_rift</Filename>
 			<_Editor>
@@ -1356,7 +1527,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>35.0</wind_intensity>
 			<wind_direction>340</wind_direction>
-			<Display_name>MENU_LEVEL_RIFT</Display_name>
+			<Display_name>TF_MENU_LEVEL_RIFT</Display_name> <!--FROM MENU_LEVEL_RIFT-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1426,7 +1597,7 @@
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>70.0</wind_intensity>
 			<wind_direction>200.0</wind_direction>
-			<Display_name>MENU_LEVEL_SAND_PIT</Display_name>
+			<Display_name>TF_MENU_LEVEL_SAND_PIT</Display_name> <!--FROM MENU_LEVEL_SAND_PIT-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1461,7 +1632,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
-			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC3</Display_name>
+			<Display_name>TF_MENU_LEVEL_SCRAPHEAP</Display_name> <!--FROM MENU_WRECKING_CREW_MAP_NAME_WC3-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1494,7 +1665,7 @@
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>50</wind_intensity>
 			<wind_direction>315</wind_direction>
-			<Display_name>MENU_LEVEL_SETTLEMENT</Display_name>
+			<Display_name>TF_MENU_LEVEL_SETTLEMENT</Display_name> <!--FROM MENU_LEVEL_SETTLEMENT-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1513,6 +1684,41 @@
 			<Load_image>Settlement</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
+		<mp_level_list>
+			<Name>Shipment</Name>
+			<Filename>mp_shipment</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>15:30</time_of_day>
+			<distance_multiplier>0.5</distance_multiplier>
+			<level_image_name>mp_thumb_0mp3</level_image_name>
+			<dust_enabled>True</dust_enabled>
+			<wind_intensity>5.0</wind_intensity>
+			<wind_direction>150</wind_direction>
+			<Display_name>TF_MENU_LEVEL_SHIPMENT</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>15:30</alternate_time_of_day>
+			<glow_multiplier>2.0</glow_multiplier>
+			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
+			<Load_image>Shipment</Load_image>
+			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
+		</mp_level_list>		
 		<mp_level_list>
 			<Name>Stratosphere</Name>
 			<Filename>mp_stratosphere</Filename> <!--FROM wcdlc7-->
@@ -1549,6 +1755,74 @@
 			<demolition_damage_multiplier>1.75</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
+			<Name>Testing Map</Name>
+			<Filename>mp_testing</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>07:00</time_of_day>
+			<distance_multiplier>0.75</distance_multiplier>
+			<level_image_name>mp_thumb_quarantine</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>5.0</wind_intensity>
+			<wind_direction>150</wind_direction>
+			<Display_name>TF_MENU_LEVEL_TESTING</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<glow_multiplier>2.0</glow_multiplier>
+			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>6</ideal_max_players>
+			<Load_image>Quarantine</Load_image>
+			<demolition_damage_multiplier>1.8</demolition_damage_multiplier>
+		</mp_level_list>
+		<mp_level_list>
+			<Name>Townhall</Name>
+			<Filename>mp_townhall</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>14:00</time_of_day>
+			<distance_multiplier>0.5</distance_multiplier>
+			<level_image_name>mp_thumb_0mp6</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>60.0</wind_intensity>
+			<wind_direction>315.0</wind_direction>
+			<Display_name>TF_MENU_LEVEL_TOWNHALL</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>capture_the_flag</Flag>
+			</mode_flags>
+			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<glow_multiplier>6</glow_multiplier>
+			<alternate_glow_multiplier>2</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>6</ideal_max_players>
+			<Load_image>Townhall</Load_image>
+			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
+		</mp_level_list>		
+		<mp_level_list>
 			<Name>Transmission</Name>
 			<Filename>mp_transmission</Filename> <!--FROM wc9-->
 			<_Editor>
@@ -1564,7 +1838,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
-			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC9</Display_name>
+			<Display_name>TF_MENU_LEVEL_TRANSMISSION</Display_name> <!--FROM MENU_WRECKING_CREW_MAP_NAME_WC9-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1599,7 +1873,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>40</wind_intensity>
 			<wind_direction>270</wind_direction>
-			<Display_name>MENU_WRECKING_CREW_MAP_NAME_WC4</Display_name>
+			<Display_name>TF_MENU_LEVEL_VISTA</Display_name> <!--FROM MENU_WRECKING_CREW_MAP_NAME_WC4-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1619,6 +1893,38 @@
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
+			<Name>Warehouse</Name>
+			<Filename>mp_warehouse</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>0</Description>
+			<time_of_day>07:00</time_of_day>
+			<distance_multiplier>0.5</distance_multiplier>
+			<level_image_name>mp_thumb_0mp1</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>10.0</wind_intensity>
+			<wind_direction>345.0</wind_direction>
+			<Display_name>TF_MENU_LEVEL_WAREHOUSE</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+			</mode_flags>
+			<alternate_time_of_day>07:00</alternate_time_of_day>
+			<glow_multiplier>3.2</glow_multiplier>
+			<alternate_glow_multiplier>1.6</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
+			<Load_image>Warehouse</Load_image>
+			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
+		</mp_level_list>		
+		<mp_level_list>
 			<Name>Warlords</Name>
 			<Filename>mp_warlords</Filename>
 			<_Editor>
@@ -1634,7 +1940,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>30</wind_intensity>
 			<wind_direction>5</wind_direction>
-			<Display_name>MENU_LEVEL_WARLORDS</Display_name>
+			<Display_name>TF_MENU_LEVEL_WARLORDS</Display_name> <!--FROM MENU_LEVEL_WARLORDS-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1669,7 +1975,7 @@
 			<dust_enabled>True</dust_enabled>
 			<wind_intensity>70</wind_intensity>
 			<wind_direction>15</wind_direction>
-			<Display_name>MENU_LEVEL_WASTELAND</Display_name>
+			<Display_name>TF_MENU_LEVEL_WASTELAND</Display_name> <!--FROM MENU_LEVEL_WASTELAND-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
@@ -1739,7 +2045,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>35.0</wind_intensity>
 			<wind_direction>220</wind_direction>
-			<Display_name>MENU_LEVEL_WRECKAGE</Display_name>
+			<Display_name>TF_MENU_LEVEL_WRECKAGE</Display_name> <!--FROM MENU_LEVEL_WRECKAGE-->
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>

@@ -1,115 +1,240 @@
 ﻿<root>
+<!--NOTE: [format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]-->
 	<Entry>
-		<Identifier>TF_MENU_LEVEL_GREENBELT</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GREENBELT</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_LEVEL_WAREHOUSE</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]WAREHOUSE</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_LEVEL_JUNKYARD</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JUNKYARD</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_LEVEL_SHIPMENT</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SHIPMENT</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_LEVEL_TOWNHALL</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TOWNHALL</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_LEVEL_RETRIBUTION</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RETRIBUTION</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_LEVEL_PARTIAL_RECALL</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PARTIAL RECALL</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_LEVEL_CLIFFSIDE</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CLIFFSIDE</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_LEVEL_PIPELINE_PITFALL</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PIPELINE PITFALL</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_MENU_LEVEL_TESTING</Identifier>
-		<String>DEV_TESTING_MAP_01</String>
-	</Entry>
+		<Identifier>TF_MENU_LEVEL_ABANDONED</Identifier>
+		<String>ABANDONED</String>
+	</Entry>	
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_BROADSIDE</Identifier>
 		<String>BROADSIDE</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_CASCADE</Identifier>
+		<String>CASCADE</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_CLIFFSIDE</Identifier>
+		<String>CLIFFSIDE</String>
 	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_COMPLEX</Identifier>
+		<String>COMPLEX</String>
+	</Entry>		
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_COMPOUND</Identifier>
 		<String>COMPOUND</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_CORNERED</Identifier>
+		<String>CORNERED</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_CRASH_SITE</Identifier>
+		<String>CRASH SITE</String>
+	</Entry>		
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_CRESCENT</Identifier>
+		<String>CRESCENT</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_CREVICE</Identifier>
+		<String>CREVICE</String>
+	</Entry>		
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_DEADZONE</Identifier>
+		<String>DEADZONE</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_DIVISION</Identifier>
 		<String>DIVISION</String>
 	</Entry>
 	<Entry>
-		<Identifier>TF_MENU_LEVEL_IMPERIAL</Identifier>
-		<String>IMPERIAL</String>
-	</Entry>
+		<Identifier>TF_MENU_LEVEL_DOUBLETIME</Identifier>
+		<String>DOUBLETIME</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_DOWNFALL</Identifier>
+		<String>DOWNFALL</String>
+	</Entry>		
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_EQUILIBRIUM</Identifier>
+		<String>EQUILIBRIUM</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_EXCAVATION</Identifier>
+		<String>EXCAVATION</String>
+	</Entry>	
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_EXPANSION</Identifier>
 		<String>EXPANSION</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_FACTORY</Identifier>
+		<String>FACTORY</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_FALL_FACTOR</Identifier>
+		<String>FALL FACTOR</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_FORTRESS</Identifier>
+		<String>FORTRESS</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_FRAMEWORK</Identifier>
+		<String>FRAMEWORK</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_FROST</Identifier>
 		<String>FROST</String>
-	</Entry>
+	</Entry>	
 	<Entry>
-		<Identifier>TF_MENU_LEVEL_ABANDONED</Identifier>
-		<String>ABANDONED</String>
-	</Entry>
+		<Identifier>TF_MENU_LEVEL_GARRISON</Identifier>
+		<String>GARRISON</String>
+	</Entry>	
 	<Entry>
-		<Identifier>TF_MENU_LEVEL_EQUILIBRIUM</Identifier>
-		<String>EQUILIBRIUM</String>
-	</Entry>
+		<Identifier>TF_MENU_LEVEL_GAUNTLET</Identifier>
+		<String>GAUNTLET</String>
+	</Entry>	
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_GRADIENT</Identifier>
 		<String>GRADIENT</String>
-	</Entry>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_GULCH</Identifier>
+		<String>GULCH</String>
+	</Entry>		
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_HAVEN</Identifier>
 		<String>HAVEN</String>
-	</Entry>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_IMPERIAL</Identifier>
+		<String>IMPERIAL</String>
+	</Entry>	
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_INVASION</Identifier>
 		<String>INVASION</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_JUNKYARD</Identifier>
+		<String>JUNKYARD</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_NORDIC_SPECIAL</Identifier>
 		<String>NORDIC SPECIAL</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_OUTPOST</Identifier>
+		<String>OUTPOST</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_OVERPASS</Identifier>
+		<String>OVERPASS</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_PARTIAL_RECALL</Identifier>
+		<String>PARTIAL RECALL</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_PINNACLE</Identifier>
+		<String>PINNACLE</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_PIPELINE</Identifier>
+		<String>PIPELINE</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_PIPELINE_PITFALL</Identifier>
+		<String>PIPELINE PITFALL</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_PUNCTURE</Identifier>
 		<String>PUNCTURE</String>
-	</Entry>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_QUARANTINE</Identifier>
+		<String>QUARANTINE</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_RADIAL</Identifier>
+		<String>RADIAL</String>
+	</Entry>	
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_REMNANT</Identifier>
 		<String>REMNANT</String>
-	</Entry>
+	</Entry>	
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_REPERCUSSION</Identifier>
 		<String>REPERCUSSION</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_RETRIBUTION</Identifier>
+		<String>RETRIBUTION</String>
 	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_RIFT</Identifier>
+		<String>RIFT</String>
+	</Entry>	
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_RUINS</Identifier>
 		<String>RUINS</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_SAND_PIT</Identifier>
+		<String>SAND PIT</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_SCRAPHEAP</Identifier>
+		<String>SCRAPHEAP</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_SETTLEMENT</Identifier>
+		<String>SETTLEMENT</String>
 	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_SHIPMENT</Identifier>
+		<String>SHIPMENT</String>
+	</Entry>	
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_STRATOSPHERE</Identifier>
 		<String>STRATOSPHERE</String>
 	</Entry>
 	<Entry>
+		<Identifier>TF_MENU_LEVEL_TOWNHALL</Identifier>
+		<String>TOWNHALL</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_TRANSMISSION</Identifier>
+		<String>TRANSMISSION</String>
+	</Entry>		
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_VISTA</Identifier>
+		<String>VISTA</String>
+	</Entry>		
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_WAREHOUSE</Identifier>
+		<String>WAREHOUSE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_WARLORDS</Identifier>
+		<String>WARLORDS</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_WASTELAND</Identifier>
+		<String>WASTELAND</String>
+	</Entry>	
+	<Entry>
 		<Identifier>TF_MENU_LEVEL_WATCHTOWER</Identifier>
 		<String>WATCHTOWER</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_WRECKAGE</Identifier>
+		<String>WRECKAGE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_Z_TESTING_MAP_DEV_01</Identifier>
+		<String>Z_TESTING_MAP_DEV_01</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_CHAR_EDF_HEAVY</Identifier>
@@ -212,10 +337,6 @@
 		<String>FLEETFOOT OP</String>
 	</Entry>
 	<Entry>
-		<Identifier>TF_BACKPACK_CONCUSSION_OP</Identifier>
-		<String>CONCUSSION OP</String>
-	</Entry>
-	<Entry>
 		<Identifier>TF_BACKPACK_RHINO_OP</Identifier>
 		<String>RHINO OP</String>
 	</Entry>
@@ -224,48 +345,44 @@
 		<String>REPAIR</String>
 	</Entry>
 	<Entry>
-		<Identifier>TF_WEAPON_LMG</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]LMG</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_WEAPON_GRENADE</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GRENADE</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_WEAPON_NANO_GRENADE</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]NANO GRENADE</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_WEAPON_GRENADE</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SMOKE GRENADE</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_WEAPON_MISSILEPOD</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MISSILEPOD</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_WEAPON_EDF_SUPER_GAUSS</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SUPER GAUSS RIFLE</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_WEAPON_SPIKER</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SPIKER</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_WEAPON_EDF_SUBVERTER</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SUBVERTER</String>
-	</Entry>
-	<Entry>
-		<Identifier>TF_WEAPON_MAR_CHARGE_PLACER</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CHARGES (DLC)</String>
-	</Entry>
+		<Identifier>TF_WEAPON_GUTTER</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GUTTER</String>
+	</Entry>	
 	<Entry>
 		<Identifier>TF_WEAPON_ROYAL_SWORD</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IMPALER</String>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IMPALER (ROYAL SWORD)</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_WEAPON_PICKAXE</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PICKAXE</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_WEAPON_LMG</Identifier>
+		<String>LIGHT MACHINE GUN</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_WEAPON_GRENADE</Identifier>
+		<String>GRENADE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_WEAPON_MAR_CHARGE_PLACER</Identifier>
+		<String>CHARGES (DLC)</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_WEAPON_EDF_SUPER_GAUSS</Identifier>
+		<String>SUPER GAUSS RIFLE</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_WEAPON_EDF_SUBVERTER</Identifier>
+		<String>SUBVERTER</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_WEAPON_MISSILEPOD</Identifier>
+		<String>MISSILEPOD</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_WEAPON_SPIKER</Identifier>
+		<String>SPIKER</String>
 	</Entry>
 	<Entry>
 		<Identifier />
@@ -20910,8 +21027,7 @@
 	<Entry>
 		<Identifier />
 		<Hash>2495911055</Hash>
-		<String>DLC CAMPAIGN</String>
-		<!--FROM BONUS MISSIONS-->
+		<String>DLC CAMPAIGN</String> <!--FROM BONUS MISSIONS-->
 	</Entry>
 	<Entry>
 		<Identifier />
@@ -21691,14 +21807,12 @@
 	<Entry>
 		<Identifier />
 		<Hash>909505244</Hash>
-		<String>SPECTATOR MODE (DEFUNCT)</String>
-		<!--FROM SPECTATOR MODE-->
+		<String>SPECTATOR MODE (DEFUNCT)</String> <!--FROM SPECTATOR MODE-->
 	</Entry>
 	<Entry>
 		<Identifier />
 		<Hash>2638620213</Hash>
-		<String>TRADITIONAL SPECTATOR MODE REMAINS FUNCTIONAL; HOWEVER, PLEASE USE THE 'FIND GAME' OPTION TO JOIN A MATCH. IF THE LOBBY DOES NOT APPEAR, TRY RETURNING TO THE MAIN MENU OR RESTARTING THE GAME. IF THE ISSUE PERSISTS, FURTHER TROUBLESHOOTING MAY BE REQUIRED.</String>
-		<!--FROM FIND A MATCH TO WATCH IN SPECTATOR MODE-->
+		<String>TRADITIONAL SPECTATOR MODE REMAINS FUNCTIONAL; HOWEVER, PLEASE USE THE 'FIND GAME' OPTION TO JOIN A MATCH. IF THE LOBBY DOES NOT APPEAR, TRY RETURNING TO THE MAIN MENU OR RESTARTING THE GAME. IF THE ISSUE PERSISTS, FURTHER TROUBLESHOOTING MAY BE REQUIRED.</String> <!--FROM FIND A MATCH TO WATCH IN SPECTATOR MODE-->
 	</Entry>
 	<Entry>
 		<Identifier />
@@ -21928,8 +22042,7 @@
 	<Entry>
 		<Identifier />
 		<Hash>4015324250</Hash>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]FIND GAME</String>
-		<!--FROM FIND GAME-->
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]FIND GAME</String> <!--FROM FIND GAME-->
 	</Entry>
 	<Entry>
 		<Identifier />
@@ -23069,8 +23182,7 @@
 	<Entry>
 		<Identifier />
 		<Hash>230702160</Hash>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CUSTOMIZATION</String>
-		<!--FROM CUSTOMIZATION-->
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CUSTOMIZATION</String> <!--FROM CUSTOMIZATION-->
 	</Entry>
 	<Entry>
 		<Identifier />
@@ -24705,8 +24817,7 @@
 	<Entry>
 		<Identifier />
 		<Hash>2681423831</Hash>
-		<String>TRADITIONAL MATCHMAKING MODE REMAINS FUNCTIONAL; HOWEVER, PLEASE USE THE 'FIND GAME' OPTION TO JOIN A MATCH. IF THE LOBBY DOES NOT APPEAR, TRY RETURNING TO THE MAIN MENU OR RESTARTING THE GAME. IF THE ISSUE PERSISTS, FURTHER TROUBLESHOOTING MAY BE REQUIRED.</String>
-		<!--FROM QUICKLY FIND AND JOIN A GAME TO PLAY.-->
+		<String>TRADITIONAL MATCHMAKING MODE REMAINS FUNCTIONAL; HOWEVER, PLEASE USE THE 'FIND GAME' OPTION TO JOIN A MATCH. IF THE LOBBY DOES NOT APPEAR, TRY RETURNING TO THE MAIN MENU OR RESTARTING THE GAME. IF THE ISSUE PERSISTS, FURTHER TROUBLESHOOTING MAY BE REQUIRED.</String> <!--FROM QUICKLY FIND AND JOIN A GAME TO PLAY.-->
 	</Entry>
 	<Entry>
 		<Identifier />
@@ -30001,8 +30112,7 @@
 	<Entry>
 		<Identifier />
 		<Hash>150336547</Hash>
-		<String>DLC CAMPAIGN</String>
-		<!--FROM BONUS MISSIONS-->
+		<String>DLC CAMPAIGN</String> <!--FROM BONUS MISSIONS-->
 	</Entry>
 	<Entry>
 		<Identifier />
@@ -34212,14 +34322,12 @@
 	<Entry>
 		<Identifier />
 		<Hash>1624626889</Hash>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]HOST GAME</String>
-		<!--FROM CUSTOM MATCH WITH PARTY-->
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]HOST GAME</String> <!--FROM CUSTOM MATCH WITH PARTY-->
 	</Entry>
 	<Entry>
 		<Identifier />
 		<Hash>1595223260</Hash>
-		<String>HOST A MATCH WITH THE TERRAFORM PATCH.</String>
-		<!--START A PARTY, INVITE YOUR FRIENDS, AND PLAY CUSTOM GAMES WITH THEM.-->
+		<String>HOST A MATCH WITH THE TERRAFORM PATCH.</String> <!--START A PARTY, INVITE YOUR FRIENDS, AND PLAY CUSTOM GAMES WITH THEM.-->
 	</Entry>
 	<Entry>
 		<Identifier />
@@ -34239,8 +34347,7 @@
 	<Entry>
 		<Identifier />
 		<Hash>2128436436</Hash>
-		<String>MATCHMAKING (DEFUNCT)</String>
-		<!--FROM MATCHMAKING-->
+		<String>MATCHMAKING (DEFUNCT)</String> <!--FROM MATCHMAKING-->
 	</Entry>
 	<Entry>
 		<Identifier />
@@ -35015,14 +35122,12 @@
 	<Entry>
 		<Identifier />
 		<Hash>2902924840</Hash>
-		<String>SEARCH FOR GAMES TO JOIN WITH THE TERRAFORM PATCH.</String>
-		<!--FROM SEARCH FOR GAMES TO JOIN.-->
+		<String>SEARCH FOR GAMES TO JOIN WITH THE TERRAFORM PATCH.</String> <!--FROM SEARCH FOR GAMES TO JOIN.-->
 	</Entry>
 	<Entry>
 		<Identifier />
 		<Hash>2094955395</Hash>
-		<String>NO GAMES FOUND. PRESS X TO REFRESH. IF THE LOBBY DOES NOT APPEAR, PLEASE RETURN TO THE MAIN MENU OR RESTART THE GAME. IF THE ISSUE PERSISTS, EXCESSIVE DESTRUCTION DURING THE PREVIOUS MATCH MAY HAVE OCCURRED, AND A WAIT PERIOD MAY BE NECESSARY.</String>
-		<!--FROM NO GAMES FOUND.-->
+		<String>NO GAMES FOUND. PRESS X TO REFRESH. IF THE LOBBY DOES NOT APPEAR, PLEASE RETURN TO THE MAIN MENU OR RESTART THE GAME. IF THE ISSUE PERSISTS, EXCESSIVE DESTRUCTION DURING THE PREVIOUS MATCH MAY HAVE OCCURRED, AND A WAIT PERIOD MAY BE NECESSARY.</String> <!--FROM NO GAMES FOUND.-->
 	</Entry>
 	<Entry>
 		<Identifier />

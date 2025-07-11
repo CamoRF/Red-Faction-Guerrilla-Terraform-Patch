@@ -1,58 +1,57 @@
 <root>
-<!--Comments compared to vanilla values-->	
 	<Table>
 		<Tweak_Table_Entry>
 			<Name>TS_anarchy_draw_chance</Name>
-			<Value>-1</Value> <!--FROM .01-->
+			<Value>-2147483647.0</Value> <!--FROM .01-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_team_anarchy_draw_chance</Name>
-			<Value>-1</Value> <!--FROM .01-->
+			<Value>-2147483647.0</Value> <!--FROM .01-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_bagman_draw_chance</Name>
-			<Value>-1</Value> <!--FROM .01-->
+			<Value>-2147483647.0</Value> <!--FROM .01-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_team_bagman_draw_chance</Name>
-			<Value>-1</Value> <!--FROM .01-->
+			<Value>-2147483647.0</Value> <!--FROM .01-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_ctf_draw_chance</Name>
-			<Value>-1</Value> <!--FROM .1-->
+			<Value>-2147483647.0</Value> <!--FROM .1-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_siege_draw_chance</Name>
-			<Value>-1</Value> <!--FROM .2-->
+			<Value>-2147483647.0</Value> <!--FROM .2-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_damage_control_draw_chance</Name>
-			<Value>-1</Value> <!--FROM .01-->
+			<Value>-2147483647.0</Value> <!--FROM .01-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_skill_mismatch</Name>
-			<Value>-1</Value> <!--FROM .75-->
+			<Value>-2147483647.0</Value> <!--FROM .75-->
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -60,7 +59,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_undesired_playlist</Name>
-			<Value>-1</Value> <!--FROM .9-->
+			<Value>-2147483647.0</Value> <!--FROM .9-->
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -68,7 +67,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_bad_lag</Name>
-			<Value>-1</Value> <!--FROM .5-->
+			<Value>-2147483647.0</Value> <!--FROM .5-->
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -76,7 +75,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_server_migration</Name>
-			<Value>-1</Value> <!--FROM .9-->
+			<Value>-2147483647.0</Value>  <!--FROM .9-->
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -84,7 +83,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_bad_lag_rtt_ms</Name>
-			<Value>-1</Value> <!--FROM 250-->
+			<Value>-2147483647.0</Value> <!--FROM 250-->
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -92,7 +91,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_bad_lag_duration_ms</Name>
-			<Value>-1</Value> <!--FROM 15000-->
+			<Value>-2147483647.0</Value> <!--FROM 15000-->
 			<_Editor>
 				<Category>TrueSkill modifiers</Category>
 			</_Editor>
@@ -107,14 +106,38 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>TS_demolition_draw_chance</Name>
-			<Value>-1</Value> <!--FROM .01-->
+			<Value>-2147483647.0</Value> <!--FROM .01-->
 			<_Editor>
 				<Category>TrueSkill mode</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 	</Table>
 	<TableTemplates></TableTemplates>
-	<TableDescription></TableDescription>
+	<TableDescription>
+		<Name>Tweak_Table_Entry</Name>
+		<Type>TableDescription</Type>
+		<Description>A simple way to add and modify tweakable values within a single table file.</Description>
+		<Required>false</Required>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<Description>The name of the value.</Description>
+			<Unique>true</Unique>
+		</Element>
+		<Element>
+			<Name>Value</Name>
+			<Type>Float</Type>
+			<Description>How this value is used is situation dependent</Description>
+			<Default>0</Default>
+		</Element>
+		<Element>
+			<Name>Description</Name>
+			<Type>String</Type>
+			<Description>Breif description of how this value is used.  It is NOT read into the game.</Description>
+			<Required>false</Required>
+			<MultiLine>true</MultiLine>
+		</Element>
+	</TableDescription>
 	<EntryCategories>
 		<Category>
 			<Name>Others</Name>

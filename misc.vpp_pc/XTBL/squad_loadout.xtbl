@@ -37,7 +37,7 @@
 			</grenades>
 		</squad_loadout>
 		<squad_loadout>
-			<Name>Assault Rifle and Singularity</Name> <!--Maybe this could be used for LMG?-->
+			<Name>Assault Rifle and Singularity</Name>
 			<weapon_type>TF_LMG</weapon_type> <!--FROM m16-->
 			<grenades>
 				<grenade_type>singularity</grenade_type>

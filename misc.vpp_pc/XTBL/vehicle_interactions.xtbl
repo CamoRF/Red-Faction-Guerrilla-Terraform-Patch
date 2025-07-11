@@ -2,7 +2,7 @@
 	<Table>
 <!--START ADDED-->
 		<Vehicle>
-			<Name>TF_Mar_stomper</Name>
+			<Name>Mar_stomper</Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -779,7 +779,7 @@
 			<Vehicle_Interaction_Flags></Vehicle_Interaction_Flags>
 		</Vehicle>
 		<Vehicle>
-			<Name>TF_Mar_chomper</Name>
+			<Name>Mar_chomper</Name>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -1968,7 +1968,7 @@
 			</Waypoint_transitions>
 			<Anim_Set>Vehicle_MarJetter</Anim_Set>
 			<Vehicle_Interaction_Flags></Vehicle_Interaction_Flags>
-		</Vehicle>	
+		</Vehicle>
 		<Vehicle>
 			<Name>Civ_ResRunner_1</Name>
 			<_Editor>

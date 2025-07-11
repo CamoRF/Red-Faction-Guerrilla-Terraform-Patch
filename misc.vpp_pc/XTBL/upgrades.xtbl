@@ -877,7 +877,7 @@
 					<Description>UPG_JETPACK</Description>
 					<Cost>650</Cost>
 					<Value>1</Value>
-					<Available>True</Available>
+					<Available>False</Available>
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Unlock_Action>Unlocked</Unlock_Action>
 					<Show_Locked>False</Show_Locked>

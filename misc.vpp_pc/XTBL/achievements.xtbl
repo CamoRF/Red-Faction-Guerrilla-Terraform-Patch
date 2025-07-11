@@ -1,7 +1,7 @@
 <root>
 	<Table>
 <!--Comments compared to vanilla values-->
-<!--Probably revert, unlocks all cheats for testing-->	
+<!--Probably revert, unlocks all cheats for testing-->		
 		<Achievement>
 			<Name>Welcome to Mars</Name>
 			<InternalId>1</InternalId>
@@ -105,7 +105,7 @@
 				<Requirement>
 					<Stat>RF controls Oasis</Stat>
 					<Condition>at least</Condition>
-					<Value>0</Value> <!--From 1-->
+					<Value>0</Value> <!--FROM 1-->
 				</Requirement>
 			</Requirements>
 			<_Editor>
@@ -143,7 +143,7 @@
 				<Requirement>
 					<Stat>game completed</Stat>
 					<Condition>at least</Condition>
-					<Value>0</Value> <!--From 1-->
+					<Value>0</Value> <!--FROM 1-->
 				</Requirement>
 			</Requirements>
 			<_Editor>
@@ -200,7 +200,7 @@
 				<Requirement>
 					<Stat>activities completed</Stat>
 					<Condition>at least</Condition>
-					<Value>0</Value> <!--From 50-->
+					<Value>0</Value> <!--FROM 50-->
 				</Requirement>
 			</Requirements>
 			<_Editor>
@@ -455,7 +455,7 @@
 				<Requirement>
 					<Stat>tags found</Stat>
 					<Condition>at least</Condition>
-					<Value>0</Value> <!--From 36-->
+					<Value>0</Value> <!--FROM 36-->
 				</Requirement>
 			</Requirements>
 			<_Editor>
@@ -474,7 +474,7 @@
 				<Requirement>
 					<Stat>ore mined</Stat>
 					<Condition>at least</Condition>
-					<Value>0</Value> <!--From 300-->
+					<Value>0</Value> <!--FROM 300-->
 				</Requirement>
 			</Requirements>
 			<_Editor>
@@ -512,7 +512,7 @@
 				<Requirement>
 					<Stat>killing sprees</Stat>
 					<Condition>at least</Condition>
-					<Value>0</Value> <!--From 25-->
+					<Value>0</Value> <!--FROM 25-->
 				</Requirement>
 			</Requirements>
 			<_Editor>
@@ -550,7 +550,7 @@
 				<Requirement>
 					<Stat>supply crates destroyed</Stat>
 					<Condition>at least</Condition>
-					<Value>0</Value> <!--From 250-->
+					<Value>0</Value> <!--FROM 250-->
 				</Requirement>
 			</Requirements>
 			<_Editor>
@@ -588,7 +588,7 @@
 				<Requirement>
 					<Stat>hydrogen tanks blown up</Stat>
 					<Condition>at least</Condition>
-					<Value>0</Value> <!--From 100-->
+					<Value>0</Value> <!--FROM 100-->
 				</Requirement>
 			</Requirements>
 			<_Editor>
@@ -607,7 +607,7 @@
 				<Requirement>
 					<Stat>EDF killed with sledge</Stat>
 					<Condition>at least</Condition>
-					<Value>0</Value> <!--From 100-->
+					<Value>0</Value> <!--FROM 100-->
 				</Requirement>
 			</Requirements>
 			<_Editor>
@@ -626,7 +626,7 @@
 				<Requirement>
 					<Stat>EDF buildings destroyed</Stat>
 					<Condition>at least</Condition>
-					<Value>0</Value> <!--From 50-->
+					<Value>0</Value> <!--FROM 50-->
 				</Requirement>
 			</Requirements>
 			<_Editor>
@@ -645,7 +645,7 @@
 				<Requirement>
 					<Stat>flyers destroyed</Stat>
 					<Condition>at least</Condition>
-					<Value>0</Value> <!--From 50-->
+					<Value>0</Value> <!--FROM 50-->
 				</Requirement>
 			</Requirements>
 			<_Editor>

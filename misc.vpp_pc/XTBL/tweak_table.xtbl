@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--Comments compared to vanilla values-->		
+<!--Comments compared to vanilla values-->
 		<Tweak_Table_Entry>
 			<Name>Armored_explosion_damage_modifier</Name>
 			<Value>0.65</Value>
@@ -131,7 +131,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_min_fade_pct</Name>
-			<Value>1.0</Value>
+			<Value>0.0</Value> <!--FROM 1.0-->
 			<Description>Minimum fade percentage for NPCs near the camera.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -147,7 +147,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Tire_track_decal_fade_multiplier</Name>
-			<Value>0.5</Value>
+			<Value>0.0</Value> <!--FROM 0.5-->
 			<Description>This determines how much of a difference is made by the index of the track in the list (older tracks fade faster)</Description>
 			<_Editor>
 				<Category>Vehicles:Effects</Category>
@@ -155,7 +155,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Tire_tracks_fade_rate</Name>
-			<Value>0.0005</Value>
+			<Value>0.0</Value> <!--FROM 0.0005-->
 			<Description>The rate per frame that tire tracks will fade if no new tracks are being laid.</Description>
 			<_Editor>
 				<Category>Vehicles:Effects</Category>
@@ -491,7 +491,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Killing_spree_additional_period_ms</Name>
-			<Value>7000</Value> <!--Maybe x2 in gameplay add-on-->
+			<Value>7000</Value>  <!--Maybe x2 in gameplay add-on-->
 			<Description>Player must get kills no more then this amount of time apart to keep it going.</Description>
 			<_Editor>
 				<Category>Activities:Killing Spree</Category>
@@ -1126,7 +1126,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blast_decal_min_radius</Name>
-			<Value>0.0</Value> <!--FROM 0.5-->
+			<Value>0.5</Value>
 			<Description>The minimum radius a blast decal must have to be drawn.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1134,7 +1134,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blood_splatter_decal_max_dist</Name>
-			<Value>30</Value>
+			<Value>60</Value> <!--FROM 30-->
 			<Description>The maximum distance from the camera allowed to draw a blood splatter. (blood splatter is always drawn if the player is doing the shooting)</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1142,7 +1142,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_max_dist</Name>
-			<Value>15</Value>
+			<Value>30</Value> <!--FROM 15-->
 			<Description>The maximum distance from the camera allowed to draw a bullet impact for anyone other than the local player.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1150,7 +1150,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_max_dist_player</Name>
-			<Value>50</Value>
+			<Value>100</Value> <!--FROM 50-->
 			<Description>The maximum distance from the camera allowed to draw a bullet impact for the player.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1220,7 +1220,6 @@
 				<Category>AI:Cover</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
-<!--These values might be interesting to tweak in gameplay add-on for stealth-->		
 		<Tweak_Table_Entry>
 			<Name>Ai_fov_length_low</Name>
 			<Value>35</Value>
@@ -1390,7 +1389,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Ai_removes_attached_projectile_time</Name>
-			<Value>10</Value> <!--Maybe 3600-->
+			<Value>10</Value>
 			<Description>Time, in seconds, for an NPC to remove projectiles that are attached.</Description>
 			<_Editor>
 				<Category>AI:Weapons</Category>
@@ -1513,7 +1512,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_max_fade_dist</Name>
-			<Value>0.6</Value>
+			<Value>0.0</Value> <!--FROM 0.6-->
 			<Description>Distance from the camera at which friendly NPCs are fully faded-in.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -1754,14 +1753,14 @@
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll</Name>
 			<Value>400</Value>
-			<Description>Impulse needed to cause external passengers to ragdoll. (higher = less ragdolling)</Description>
+			<Description>Impulse needed to cause external passengers to ragdoll.  (higher = less ragdolling)</Description>
 			<_Editor>
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Player_friendly_fire_threshold</Name>
-			<Value>75</Value> <!--Maybe 75-->
+			<Value>75</Value>
 			<Description>Damage you can do to a "friendly" marauder before he goes hostile on you.</Description>
 			<_Editor>
 				<Category>AI:Marauders</Category>
@@ -1786,7 +1785,7 @@
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll_turret</Name>
 			<Value>900</Value>
-			<Description>Impulse for gunner to ragdoll. (higher = less ragdolling) 150 is remote charge,  450 is scout full speed hitting a heavy tank.</Description>
+			<Description>Impulse for gunner to ragdoll. (higher = less ragdolling) 150 is remote charge, 450 is scout full speed hitting a heavy tank.</Description>
 			<_Editor>
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
@@ -1794,7 +1793,7 @@
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll_vert_damp_turret</Name>
 			<Value>.35</Value>
-			<Description>multiply upward forces by this, to prevent gunners from ragdolling on soft landings.(higher =&gt; more ragdolling)</Description>
+			<Description>multiply upward forces by this, to prevent gunners from ragdolling on soft landings. (higher =&gt; more ragdolling)</Description>
 			<_Editor>
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
@@ -1874,7 +1873,7 @@
 		<Tweak_Table_Entry>
 			<Name>Sniper_prefer_enemy_y_dist</Name>
 			<Value>1.5</Value>
-			<Description>Distance inside which a scripted sniper will break off his sniper activity and attack the player as a normal EDF.(see also: Sniper_attack_player_xz_dist)</Description>
+			<Description>Distance inside which a scripted sniper will break off his sniper activity and attack the player as a normal EDF. (see also: Sniper_attack_player_xz_dist)</Description>
 			<_Editor>
 				<Category>AI:vs. Player</Category>
 			</_Editor>
@@ -1882,7 +1881,7 @@
 		<Tweak_Table_Entry>
 			<Name>Sniper_prefer_enemy_xz_dist</Name>
 			<Value>7.5</Value>
-			<Description>Distance inside which a scripted sniper will break off his sniper activity and attack the player as a normal EDF.(see also: Sniper_attack_player_y_dist)</Description>
+			<Description>Distance inside which a scripted sniper will break off his sniper activity and attack the player as a normal EDF. (see also: Sniper_attack_player_y_dist)</Description>
 			<_Editor>
 				<Category>AI:vs. Player</Category>
 			</_Editor>
@@ -2009,7 +2008,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blast_decal_min_alpha</Name>
-			<Value>0.5</Value>
+			<Value>1.0</Value> <!--FROM 0.5-->
 			<Description>The minimum alpha value decals will get based on distance.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -2146,7 +2145,7 @@
 		<Tweak_Table_Entry>
 			<Name>Vi_impulse_ragdoll_guerilla_bonus</Name>
 			<Value>1.5</Value>
-			<Description>multiplier for guerillas in the players car.(higher =&gt; less ragdolling)</Description>
+			<Description>multiplier for guerillas in the players car. (higher =&gt; less ragdolling)</Description>
 			<_Editor>
 				<Category>Vehicles:Interactions</Category>
 			</_Editor>
@@ -2357,7 +2356,7 @@
 			<_Editor>
 				<Category>Vehicles:Flyer</Category>
 			</_Editor>
-			<Description>default max velocity in m/s.340 is about MACH 1</Description>
+			<Description>default max velocity in m/s. 340 is about MACH 1</Description>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Turret_gunner_explosion_damage_modifier</Name>
@@ -2417,7 +2416,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Max_simultaneous_proxies</Name>
-			<Value>30</Value> <!--Maybe double it if the limit is increased in RSL2-->
+			<Value>15</Value> <!--FROM 30-->
 			<Description>Maximum number of proximity mines that can be out in the world at any given time. The game will crash if more than 128 projectiles (total, not just proxies) are placed, so this tweakable value represents the number at which we start deleting old proxies.</Description>
 			<_Editor>
 				<Category>Weapons</Category>
@@ -2514,7 +2513,7 @@
 		<Tweak_Table_Entry>
 			<Name>score_penalty_for_mismatched_dlc</Name>
 			<Value>500</Value>
-			<Description>Score penality to apply to a playlist entry that wouldn't exist  for all players in the match.(Currently unused)</Description>
+			<Description>Score penality to apply to a playlist entry that wouldn't exist  for all players in the match. (Currently unused)</Description>
 			<_Editor>
 				<Category>Multiplayer:Playlist selection</Category>
 			</_Editor>

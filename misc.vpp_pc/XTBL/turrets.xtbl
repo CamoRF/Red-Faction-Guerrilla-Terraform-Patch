@@ -2,7 +2,7 @@
 	<Table>
 <!--START ADDED-->
 		<Turret>
-			<Name>TF_turret_stomper_mg</Name>
+			<Name>turret_stomper_mg</Name>
 			<HFovPos>180</HFovPos>
 			<HFovNeg>-180</HFovNeg>
 			<Mass>50</Mass>

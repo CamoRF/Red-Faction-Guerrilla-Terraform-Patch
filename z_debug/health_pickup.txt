@@ -1,0 +1,16 @@
+		<Item> <!--TO DO: health pickup-->
+			<Name>tf_health_pickup</Name> 
+			<Spin_Time>5000</Spin_Time> <!--How fast the object spins when placed on a map-->
+			<Respawn_Delay>15000</Respawn_Delay> <!--Respawn time when placed on a map-->			
+			<Touch_Script>give_full_health</Touch_Script> <!--What the item does when the player walks into it, see Touch_Script above for other scripts-->			
+			<Item_Flags>
+				<Flag>spin</Flag> <!--Item properties, see Item_Flag above for other flags-->
+			</Item_Flags>
+			<streaming_category>General</streaming_category> <!--Maybe .asm_pc stuff-->
+			<Mesh>
+				<Filename>firstaidbox.smeshx</Filename>
+			</Mesh>
+			<_Editor> <!--Probably used by Volitions tools-->
+				<Category>Ambient Props</Category>
+			</_Editor>			
+		</Item>

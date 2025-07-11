@@ -2,6 +2,172 @@
 	<Table>
 <!--START ADDED-->
 		<MeleeMove>
+			<Name>sword stand overhead</Name>
+			<AttackAnim>kick civilian</AttackAnim>
+			<AttackLimb>Right foot</AttackLimb>
+			<HitRange>0.5</HitRange>
+			<HitRadius>0.5</HitRadius>
+			<DefaultDamage>
+				<NPCDamage>50</NPCDamage>
+				<PlayerDamage>50</PlayerDamage>
+				<OnlineDamage>50</OnlineDamage>
+			</DefaultDamage>
+			<ImpactDir>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>1.0</Z>
+			</ImpactDir>
+			<ImpactForce>50</ImpactForce>
+			<Flags></Flags>
+			<AwayImpulseScale>0.0</AwayImpulseScale>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<MoveDataList>
+				<AnimSet>
+					<AnimSetName>Player.xtbl</AnimSetName>
+					<AttackPoint>Weapon</AttackPoint>
+					<HitRange>1.6</HitRange>
+					<HitRadius>0.55</HitRadius>
+					<Damage>
+						<DefaultDamage>2650</DefaultDamage>
+						<VehicleDamage>200</VehicleDamage>
+						<StructureDamage>5000</StructureDamage>
+					</Damage>
+					<HitDirection>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>1.0</Z>
+					</HitDirection>
+					<Flags>
+						<Flag>always knock down</Flag>
+						<Flag>structural damage</Flag>
+					</Flags>
+					<ImpactForce>250</ImpactForce>
+					<AwayImpulseScale>1.5</AwayImpulseScale>
+					<AttackAnim>melee slow slow slow</AttackAnim>
+					<CameraShake>hammer_impact</CameraShake>
+					<RagdollImpulse>150</RagdollImpulse>
+					<HitHeight>1.0</HitHeight>
+					<SecondaryImpact>
+						<HitRange>3.0</HitRange>
+						<HitHeight>1.2</HitHeight>
+					</SecondaryImpact>
+				</AnimSet>
+				<AnimSet>
+					<AnimSetName>Scavenger.xtbl</AnimSetName>
+					<AttackAnim>melee2</AttackAnim>
+					<AttackPoint>Weapon</AttackPoint>
+					<HitRadius>0.4</HitRadius>
+					<Flags></Flags>
+					<SecondaryImpact>
+						<HitRange>2.0</HitRange>
+						<HitHeight>1.2</HitHeight>
+					</SecondaryImpact>
+					<AI>
+						<MinAttackDist>0.5</MinAttackDist>
+						<MaxAttackDist>1.5</MaxAttackDist>
+					</AI>
+					<Damage>
+						<DefaultDamage>300</DefaultDamage>
+						<NPCDamage>550</NPCDamage>
+					</Damage>
+					<ImpactForce>70</ImpactForce>
+					<RagdollImpulse>70</RagdollImpulse>
+					<AwayImpulseScale>1.0</AwayImpulseScale>
+					<CameraShake>melee_impact</CameraShake>
+				</AnimSet>
+			</MoveDataList>
+		</MeleeMove>
+		<MeleeMove>
+			<Name>sword stand sideways</Name>
+			<AttackAnim>kick civilian</AttackAnim>
+			<AttackLimb>Right foot</AttackLimb>
+			<HitRange>0.5</HitRange>
+			<HitRadius>0.5</HitRadius>
+			<DefaultDamage>
+				<NPCDamage>50</NPCDamage>
+				<PlayerDamage>50</PlayerDamage>
+				<OnlineDamage>50</OnlineDamage>
+			</DefaultDamage>
+			<ImpactDir>
+				<X>0.0</X>
+				<Y>0.0</Y>
+				<Z>1.0</Z>
+			</ImpactDir>
+			<ImpactForce>50</ImpactForce>
+			<Flags></Flags>
+			<AwayImpulseScale>0.0</AwayImpulseScale>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<MoveDataList>
+				<AnimSet>
+					<AnimSetName>Player.xtbl</AnimSetName>
+					<AttackPoint>Weapon</AttackPoint>
+					<HitRange>1.6</HitRange>
+					<HitRadius>0.55</HitRadius>
+					<Damage>
+						<DefaultDamage>2500</DefaultDamage>
+						<VehicleDamage>200</VehicleDamage>
+						<StructureDamage>5000</StructureDamage>
+					</Damage>
+					<HitDirection>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>1.0</Z>
+					</HitDirection>
+					<Flags>
+						<Flag>always knock down</Flag>
+						<Flag>structural damage</Flag>
+					</Flags>
+					<ImpactForce>250</ImpactForce>
+					<AwayImpulseScale>1.0</AwayImpulseScale>
+					<AttackAnim>melee slow</AttackAnim>
+					<CameraShake>hammer_alt_impact</CameraShake>
+					<RagdollImpulse>160</RagdollImpulse>
+					<HitHeight>1.0</HitHeight>
+					<SecondaryImpact>
+						<HitRange>3.0</HitRange>
+						<HitHeight>1.5</HitHeight>
+					</SecondaryImpact>
+				</AnimSet>
+				<AnimSet>
+					<AnimSetName>Scavenger.xtbl</AnimSetName>
+					<AttackAnim>melee</AttackAnim>
+					<AttackPoint>Weapon</AttackPoint>
+					<HitRadius>0.5</HitRadius>
+					<HitRange>2.0</HitRange>
+					<HitHeight>1.2</HitHeight>
+					<HitDirection>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>1.0</Z>
+					</HitDirection>
+					<Damage>
+						<DefaultDamage>300</DefaultDamage>
+						<VehicleDamage>100</VehicleDamage>
+						<NPCDamage>500</NPCDamage>
+					</Damage>
+					<ImpactForce>70</ImpactForce>
+					<RagdollImpulse>70</RagdollImpulse>
+					<AwayImpulseScale>1.0</AwayImpulseScale>
+					<CameraShake>melee_impact</CameraShake>
+					<Flags>
+						<Flag>no orient correction</Flag>
+					</Flags>
+					<SecondaryImpact>
+						<HitRange>2.0</HitRange>
+						<HitHeight>1.2</HitHeight>
+					</SecondaryImpact>
+					<AI>
+						<MinAttackDist>1.0</MinAttackDist>
+						<MaxAttackDist>2.5</MaxAttackDist>
+					</AI>
+				</AnimSet>
+			</MoveDataList>
+		</MeleeMove>
+		<MeleeMove>
 			<Name>TF_missilepod_melee</Name>
 			<AttackAnim>melee</AttackAnim>
 			<HitRange>0.5</HitRange>
@@ -202,175 +368,6 @@
 				</AnimSet>
 			</MoveDataList>
 		</MeleeMove>
-<!--END-->		
-<!--START gutter/royal sword animation fix-->		
-		<MeleeMove>
-			<Name>sword stand overhead</Name>
-			<AttackAnim>kick civilian</AttackAnim>
-			<AttackLimb>Right foot</AttackLimb>
-			<HitRange>0.5</HitRange>
-			<HitRadius>0.5</HitRadius>
-			<DefaultDamage>
-				<NPCDamage>50</NPCDamage>
-				<PlayerDamage>50</PlayerDamage>
-				<OnlineDamage>50</OnlineDamage>
-			</DefaultDamage>
-			<ImpactDir>
-				<X>0.0</X>
-				<Y>0.0</Y>
-				<Z>1.0</Z>
-			</ImpactDir>
-			<ImpactForce>50</ImpactForce>
-			<Flags></Flags>
-			<AwayImpulseScale>0.0</AwayImpulseScale>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<MoveDataList>
-				<AnimSet>
-					<AnimSetName>Player.xtbl</AnimSetName>
-					<AttackPoint>Weapon</AttackPoint>
-					<HitRange>1.6</HitRange>
-					<HitRadius>0.55</HitRadius>
-					<Damage>
-						<DefaultDamage>2650</DefaultDamage>
-						<VehicleDamage>200</VehicleDamage>
-						<StructureDamage>5000</StructureDamage>
-					</Damage>
-					<HitDirection>
-						<X>0.0</X>
-						<Y>0.0</Y>
-						<Z>1.0</Z>
-					</HitDirection>
-					<Flags>
-						<Flag>always knock down</Flag>
-						<Flag>structural damage</Flag>
-					</Flags>
-					<ImpactForce>250</ImpactForce>
-					<AwayImpulseScale>1.5</AwayImpulseScale>
-					<AttackAnim>melee slow slow slow</AttackAnim>
-					<CameraShake>hammer_impact</CameraShake>
-					<RagdollImpulse>150</RagdollImpulse>
-					<HitHeight>1.0</HitHeight>
-					<SecondaryImpact>
-						<HitRange>3.0</HitRange>
-						<HitHeight>1.2</HitHeight>
-					</SecondaryImpact>
-				</AnimSet>
-				<AnimSet>
-					<AnimSetName>Scavenger.xtbl</AnimSetName>
-					<AttackAnim>melee2</AttackAnim>
-					<AttackPoint>Weapon</AttackPoint>
-					<HitRadius>0.4</HitRadius>
-					<Flags></Flags>
-					<SecondaryImpact>
-						<HitRange>2.0</HitRange>
-						<HitHeight>1.2</HitHeight>
-					</SecondaryImpact>
-					<AI>
-						<MinAttackDist>0.5</MinAttackDist>
-						<MaxAttackDist>1.5</MaxAttackDist>
-					</AI>
-					<Damage>
-						<DefaultDamage>300</DefaultDamage>
-						<NPCDamage>550</NPCDamage>
-					</Damage>
-					<ImpactForce>70</ImpactForce>
-					<RagdollImpulse>70</RagdollImpulse>
-					<AwayImpulseScale>1.0</AwayImpulseScale>
-					<CameraShake>melee_impact</CameraShake>
-				</AnimSet>
-			</MoveDataList>
-		</MeleeMove>
-		<MeleeMove>
-			<Name>sword stand sideways</Name>
-			<AttackAnim>kick civilian</AttackAnim>
-			<AttackLimb>Right foot</AttackLimb>
-			<HitRange>0.5</HitRange>
-			<HitRadius>0.5</HitRadius>
-			<DefaultDamage>
-				<NPCDamage>50</NPCDamage>
-				<PlayerDamage>50</PlayerDamage>
-				<OnlineDamage>50</OnlineDamage>
-			</DefaultDamage>
-			<ImpactDir>
-				<X>0.0</X>
-				<Y>0.0</Y>
-				<Z>1.0</Z>
-			</ImpactDir>
-			<ImpactForce>50</ImpactForce>
-			<Flags></Flags>
-			<AwayImpulseScale>0.0</AwayImpulseScale>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<MoveDataList>
-				<AnimSet>
-					<AnimSetName>Player.xtbl</AnimSetName>
-					<AttackPoint>Weapon</AttackPoint>
-					<HitRange>1.6</HitRange>
-					<HitRadius>0.55</HitRadius>
-					<Damage>
-						<DefaultDamage>2500</DefaultDamage>
-						<VehicleDamage>200</VehicleDamage>
-						<StructureDamage>5000</StructureDamage>
-					</Damage>
-					<HitDirection>
-						<X>0.0</X>
-						<Y>0.0</Y>
-						<Z>1.0</Z>
-					</HitDirection>
-					<Flags>
-						<Flag>always knock down</Flag>
-						<Flag>structural damage</Flag>
-					</Flags>
-					<ImpactForce>250</ImpactForce>
-					<AwayImpulseScale>1.0</AwayImpulseScale>
-					<AttackAnim>melee slow</AttackAnim>
-					<CameraShake>hammer_alt_impact</CameraShake>
-					<RagdollImpulse>160</RagdollImpulse>
-					<HitHeight>1.0</HitHeight>
-					<SecondaryImpact>
-						<HitRange>3.0</HitRange>
-						<HitHeight>1.5</HitHeight>
-					</SecondaryImpact>
-				</AnimSet>
-				<AnimSet>
-					<AnimSetName>Scavenger.xtbl</AnimSetName>
-					<AttackAnim>melee</AttackAnim>
-					<AttackPoint>Weapon</AttackPoint>
-					<HitRadius>0.5</HitRadius>
-					<HitRange>2.0</HitRange>
-					<HitHeight>1.2</HitHeight>
-					<HitDirection>
-						<X>0.0</X>
-						<Y>0.0</Y>
-						<Z>1.0</Z>
-					</HitDirection>
-					<Damage>
-						<DefaultDamage>300</DefaultDamage>
-						<VehicleDamage>100</VehicleDamage>
-						<NPCDamage>500</NPCDamage>
-					</Damage>
-					<ImpactForce>70</ImpactForce>
-					<RagdollImpulse>70</RagdollImpulse>
-					<AwayImpulseScale>1.0</AwayImpulseScale>
-					<CameraShake>melee_impact</CameraShake>
-					<Flags>
-						<Flag>no orient correction</Flag>
-					</Flags>
-					<SecondaryImpact>
-						<HitRange>2.0</HitRange>
-						<HitHeight>1.2</HitHeight>
-					</SecondaryImpact>
-					<AI>
-						<MinAttackDist>1.0</MinAttackDist>
-						<MaxAttackDist>2.5</MaxAttackDist>
-					</AI>
-				</AnimSet>
-			</MoveDataList>
-		</MeleeMove>		
-<!--END-->
 		<MeleeMove>
 			<Name>ar_melee</Name>
 			<AttackAnim>melee</AttackAnim>
@@ -2402,7 +2399,7 @@
 						<X>0.0</X>
 						<Y>0.0</Y>
 						<Z>1.0</Z>
-					</HitDirection>				
+					</HitDirection>
 					<ImpactForce>100</ImpactForce>
 					<AwayImpulseScale>1.0</AwayImpulseScale>
 					<Flags></Flags>

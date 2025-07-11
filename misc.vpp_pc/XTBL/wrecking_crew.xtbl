@@ -2,18 +2,18 @@
 	<Table>
 		<entry>
 			<Name>Wrecking Crew values</Name>
-			<maps>		
+			<maps>
 				<map>
 					<file_name>wc1</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC1</display_name>
-					<image_name>mp_thumb_complex</image_name>
-					<Load_image>Complex</Load_image>
-					<time_of_day>00:00</time_of_day>					
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 01</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 01</games_played_rampage_stat>
+					<time_of_day>00:00</time_of_day>
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 01</games_played_total_chaos_stat>
+					<image_name>mp_thumb_complex</image_name>
+					<Load_image>Complex</Load_image>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 01</games_played_walker_stat>
 					<Challenge_Set>complex</Challenge_Set>
 				</map>
@@ -24,7 +24,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 02</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 02</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 02</games_played_rampage_stat>
-					<time_of_day>10:30</time_of_day>
+					<time_of_day>10:30</time_of_day> <!--FROM 08:30-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 02</games_played_total_chaos_stat>
 					<image_name>mp_thumb_watchtower</image_name>
 					<Load_image>Watchtower</Load_image>
@@ -44,7 +44,7 @@
 					<Load_image>Scrap Heap</Load_image>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 07</games_played_walker_stat>
 					<Challenge_Set>scrapheap</Challenge_Set>
-				</map>
+				</map>				
 				<map>
 					<file_name>wc4</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC4</display_name>
@@ -52,7 +52,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 04</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 04</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 04</games_played_rampage_stat>
-					<time_of_day>19:00</time_of_day>
+					<time_of_day>19:00</time_of_day> <!--FROM 06:30-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 04</games_played_total_chaos_stat>
 					<image_name>mp_thumb_vista</image_name>
 					<Load_image>Vista</Load_image>
@@ -66,13 +66,13 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 05</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 05</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 05</games_played_rampage_stat>
-					<time_of_day>10:30</time_of_day>
+					<time_of_day>10:30</time_of_day> <!--FROM 06:00-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 05</games_played_total_chaos_stat>
 					<image_name>mp_thumb_fortress</image_name>
 					<Load_image>Fortress</Load_image>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 08</games_played_walker_stat>
 					<Challenge_Set>fortress</Challenge_Set>
-				</map>
+				</map>				
 				<map>
 					<file_name>wc6</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC6</display_name>
@@ -80,7 +80,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 06</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 06</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 06</games_played_rampage_stat>
-					<time_of_day>10:30</time_of_day>
+					<time_of_day>10:30</time_of_day> <!--FROM 13:00-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 06</games_played_total_chaos_stat>
 					<image_name>mp_thumb_factory</image_name>
 					<Load_image>Factory</Load_image>
@@ -100,7 +100,7 @@
 					<Load_image>Gulch</Load_image>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 09</games_played_walker_stat>
 					<Challenge_Set>gulch</Challenge_Set>
-				</map>
+				</map>				
 				<map>
 					<file_name>wc8</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC8</display_name>
@@ -108,7 +108,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 08</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 08</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 08</games_played_rampage_stat>
-					<time_of_day>10:30</time_of_day>
+					<time_of_day>10:30</time_of_day> <!--FROM 08:00-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 08</games_played_total_chaos_stat>
 					<image_name>mp_thumb_cascade</image_name>
 					<Load_image>Cascade</Load_image>
@@ -122,13 +122,13 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 09</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 09</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 09</games_played_rampage_stat>
-					<time_of_day>10:30</time_of_day>
+					<time_of_day>10:30</time_of_day> <!--FROM 18:00-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 09</games_played_total_chaos_stat>
 					<image_name>mp_thumb_transmission</image_name>
 					<Load_image>Transmission</Load_image>
 					<games_played_walker_stat>wrecking crew - games by mode and map - total walker level 10</games_played_walker_stat>
 					<Challenge_Set>transmission</Challenge_Set>
-				</map>
+				</map>				
 				<map>
 					<file_name>wc10</file_name>
 					<display_name>MENU_WRECKING_CREW_MAP_NAME_WC10</display_name>
@@ -136,7 +136,7 @@
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 10</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 10</games_played_mayhem_stat>
 					<games_played_rampage_stat>wrecking crew - games by mode and map - total rampage level 10</games_played_rampage_stat>
-					<time_of_day>10:30</time_of_day>
+					<time_of_day>10:30</time_of_day> <!--FROM 06:30-->
 					<games_played_total_chaos_stat>wrecking crew - games by mode and map - total total chaos level 10</games_played_total_chaos_stat>
 					<image_name>mp_thumb_pipeline</image_name>
 					<Load_image>Pipeline</Load_image>
@@ -148,39 +148,6 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<weapons>
-				<weapon>
-					<weapon_name>camo_grenade</weapon_name>
-					<mode_flags>
-						<Flag>mayhem</Flag>
-						<Flag>fall_guy</Flag>
-						<Flag>rampage</Flag>
-						<Flag>total_chaos</Flag>
-					</mode_flags>
-					<rampage_time_penalty_ms>1000</rampage_time_penalty_ms>
-					<mayhem_attack_multiplier>12</mayhem_attack_multiplier>
-				</weapon>
-				<weapon>
-					<weapon_name>camo_missilepod</weapon_name>
-					<mode_flags>
-						<Flag>mayhem</Flag>
-						<Flag>fall_guy</Flag>
-						<Flag>rampage</Flag>
-						<Flag>total_chaos</Flag>
-					</mode_flags>
-					<rampage_time_penalty_ms>30000</rampage_time_penalty_ms>
-					<mayhem_attack_multiplier>0.5</mayhem_attack_multiplier>
-				</weapon>
-				<weapon>
-					<weapon_name>camo_EDF_Super_Gauss</weapon_name>
-					<mode_flags>
-						<Flag>mayhem</Flag>
-						<Flag>fall_guy</Flag>
-						<Flag>rampage</Flag>
-						<Flag>total_chaos</Flag>
-					</mode_flags>
-					<rampage_time_penalty_ms>1000</rampage_time_penalty_ms>
-					<mayhem_attack_multiplier>12</mayhem_attack_multiplier>
-				</weapon>
 				<weapon>
 					<weapon_name>sledgehammer</weapon_name>
 					<mode_flags>
@@ -316,15 +283,6 @@
 			</weapons>
 			<backpacks>
 				<backpack>
-					<backpack_name>Kaboom</backpack_name>
-					<rampage_time_penalty_ms>12000</rampage_time_penalty_ms>
-					<mode_flags>
-						<Flag>fall_guy</Flag>
-						<Flag>rampage</Flag>
-						<Flag>total_chaos</Flag>
-					</mode_flags>
-				</backpack>
-				<backpack>
 					<backpack_name>Jetpack</backpack_name>
 					<rampage_time_penalty_ms>0</rampage_time_penalty_ms>
 					<mode_flags>
@@ -381,8 +339,8 @@
 				<info_text>MENU_WRECKING_CREW_TOTAL_CHAOS_INFO_LINE_1</info_text>
 				<info_text>MENU_WRECKING_CREW_TOTAL_CHAOS_INFO_LINE_2</info_text>
 			</total_chaos_info_text>
-			<Character_Grid>							
-			<Character_Element>
+			<Character_Grid>
+				<Character_Element>
 					<Character_Name>mp_guerilla_engineer_mason</Character_Name>
 					<Display_Name>MENU_CHAR_MASON</Display_Name>
 					<Bitmap_Name>ui_mp_char_mason</Bitmap_Name>
