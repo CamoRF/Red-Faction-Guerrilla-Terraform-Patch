@@ -2045,7 +2045,7 @@
 			<dust_enabled>False</dust_enabled>
 			<wind_intensity>5.0</wind_intensity>
 			<wind_direction>150</wind_direction>
-			<Display_name>TF_MENU_LEVEL_TESTING</Display_name>
+			<Display_name>TF_MENU_LEVEL_Z_TESTING_MAP_DEV_01</Display_name>
 			<options_set>Default</options_set>
 			<mode_flags>
 				<Flag>deathmatch</Flag>
