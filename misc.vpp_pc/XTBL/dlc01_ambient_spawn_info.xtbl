@@ -1,12 +1,11 @@
 <root>
-<!--Comments compared to vanilla values-->	
 	<Table>
 		<ambient_spawn_info>
 			<Name>MV_0709</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>
+			<ped_spawn_density>High</ped_spawn_density> <!--FROM Low-->
+			<veh_spawn_density>High</veh_spawn_density> <!--ADDED-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--FROM Low-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--ADDED-->
 			<npc_spawn_group>Default Marauder DLC</npc_spawn_group>
 			<vehicle_spawn_group>Default_Marauder_DLC</vehicle_spawn_group>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
@@ -16,10 +15,10 @@
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>MV_0908</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>			
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>			
+			<ped_spawn_density>High</ped_spawn_density> <!--FROM Low-->
+			<veh_spawn_density>High</veh_spawn_density>	<!--ADDED-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--FROM Low-->
+			<night_veh_spawn_density>High</night_veh_spawn_density>	<!--ADDED-->
 			<npc_spawn_group>Default Marauder DLC</npc_spawn_group>
 			<vehicle_spawn_group>Default_Marauder_DLC</vehicle_spawn_group>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
@@ -29,10 +28,10 @@
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>MV_0708</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>		
+			<ped_spawn_density>High</ped_spawn_density> <!--ADDED-->
+			<veh_spawn_density>High</veh_spawn_density> <!--ADDED-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--ADDED-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--ADDED-->
 			<npc_spawn_group>Default Marauder DLC</npc_spawn_group>
 			<vehicle_spawn_group>Default_Marauder_DLC</vehicle_spawn_group>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
@@ -42,10 +41,10 @@
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>MV_0808</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>		
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>			
+			<ped_spawn_density>High</ped_spawn_density> <!--ADDED-->
+			<veh_spawn_density>High</veh_spawn_density> <!--ADDED-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--ADDED-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--ADDED-->
 			<npc_spawn_group>Default Marauder DLC</npc_spawn_group>
 			<vehicle_spawn_group>Default_Marauder_DLC</vehicle_spawn_group>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
@@ -55,10 +54,10 @@
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>MV_0907</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>			
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>			
+			<ped_spawn_density>High</ped_spawn_density> <!--ADDED-->
+			<veh_spawn_density>High</veh_spawn_density> <!--ADDED-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--ADDED-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--ADDED-->	
 			<npc_spawn_group>Default Marauder DLC</npc_spawn_group>
 			<vehicle_spawn_group>Default_Marauder_DLC</vehicle_spawn_group>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
@@ -68,10 +67,10 @@
 		</ambient_spawn_info>
 		<ambient_spawn_info>
 			<Name>MV_0809</Name>
-			<ped_spawn_density>High</ped_spawn_density>
-			<veh_spawn_density>High</veh_spawn_density>		
-			<night_ped_spawn_density>High</night_ped_spawn_density>
-			<night_veh_spawn_density>High</night_veh_spawn_density>			
+			<ped_spawn_density>High</ped_spawn_density> <!--ADDED-->
+			<veh_spawn_density>High</veh_spawn_density> <!--ADDED-->
+			<night_ped_spawn_density>High</night_ped_spawn_density> <!--ADDED-->
+			<night_veh_spawn_density>High</night_veh_spawn_density> <!--ADDED-->
 			<npc_spawn_group>Default Marauder DLC</npc_spawn_group>
 			<vehicle_spawn_group>Default_Marauder_DLC</vehicle_spawn_group>
 			<default_ambient_behavior>Dust Ambient</default_ambient_behavior>
