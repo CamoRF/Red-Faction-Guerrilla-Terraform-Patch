@@ -5389,6 +5389,14 @@
 					<Persona_Group>Guerrilla Female</Persona_Group>
 					<backpack_offsets></backpack_offsets>
 				</Character_Element>
+				<Character_Element>
+					<Character_Name>Clark</Character_Name>
+					<Display_Name>MENU_CHAR_CLARK</Display_Name>
+					<Bitmap_Name>ui_mp_char_clark</Bitmap_Name>
+					<Unlock_Level>0</Unlock_Level>
+					<Persona_Group>Guerrilla Male</Persona_Group>
+					<backpack_offsets></backpack_offsets>
+				</Character_Element>			
 <!--END-->
 				<Character_Element>
 					<Character_Name>mp_guerilla_engineer</Character_Name>
