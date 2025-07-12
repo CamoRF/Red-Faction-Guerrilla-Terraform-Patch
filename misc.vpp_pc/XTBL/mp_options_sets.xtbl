@@ -8,9 +8,9 @@
 				<round_time_limit_minutes>10</round_time_limit_minutes>
 				<friendly_fire>True</friendly_fire> <!--FROM False-->
 				<respawn_time_seconds>0</respawn_time_seconds> <!--FROM 5-->
-				<health_regen_speed_multiplier>0</health_regen_speed_multiplier> <!--FROM 1-->
+				<health_regen_speed_multiplier>1</health_regen_speed_multiplier> <!--FROM 1-->
 				<max_health_multiplier>1</max_health_multiplier>
-				<movement_speed_multiplier>1.25</movement_speed_multiplier> <!--FROM 1-->
+				<movement_speed_multiplier>1</movement_speed_multiplier> <!--FROM 1-->
 				<rubberbanding_level>None</rubberbanding_level>
 				<unlimited_ammo>False</unlimited_ammo>
 				<starting_backpack_wrapper>
