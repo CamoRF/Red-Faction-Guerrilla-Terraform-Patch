@@ -1,7 +1,7 @@
 <root>
 	<Table>
 <!--NOTE: Current max <Unique_ID>123</Unique_ID>-->	
-<!--START ADDED-->	
+<!--START ADDED-->
 		<Explosion>
 			<Name>TF_GRENADE</Name>
 			<Radius>5.0</Radius>
