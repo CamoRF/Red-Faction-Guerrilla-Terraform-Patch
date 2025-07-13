@@ -1,5 +1,6 @@
 ﻿<root>
-<!--NOTE: [format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]-->
+<!--[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TEXT HERE-->
+<!--[format][color:#7851a9]TEXT HERE[/format]-->		
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_ABANDONED</Identifier>
 		<String>ABANDONED</String>
@@ -237,6 +238,90 @@
 		<String>Z_TESTING_MAP_DEV_01</String>
 	</Entry>
 	<Entry>
+		<Identifier>TF_MENU_CHAR_LAWRENCE</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JAYDE</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_CHAR_LAWRENCE</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]LAWRENCE (EOS)</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_CHAR_JAMAYA</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JAMAYA (EOS)</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_CHAR_SELMA</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SELMA (OASIS)</String>
+	</Entry>		
+	<Entry>
+		<Identifier>TF_MENU_CHAR_KAT</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]KAT (OASIS)</String>
+	</Entry>		
+	<Entry>
+		<Identifier>TF_MENU_CHAR_JOHN</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JOHN (OASIS)</String>
+	</Entry>		
+	<Entry>
+		<Identifier>TF_MENU_CHAR_JAKE</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JAKE (OASIS)</String>
+	</Entry>		
+	<Entry>
+		<Identifier>TF_MENU_CHAR_JACKSON</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JACKSON (OASIS)</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_CHAR_ISAIAH</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]ISAIAH (OASIS)</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_CHAR_HEIDI</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]HEIDI (OASIS)</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_CHAR_DUSTIN</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]DUSTIN (OASIS)</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_CHAR_CELIA</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CELIA (OASIS)</String>
+	</Entry>		
+	<Entry>
+		<Identifier>TF_MENU_CHAR_BLAIR</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]BLAIR (OASIS)</String>
+	</Entry>		
+	<Entry>
+		<Identifier>TF_MENU_CHAR_CLARK</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CLARK</String>
+	</Entry>			
+	<Entry>
+		<Identifier>TF_MENU_CHAR_OLGA_OASIS</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]OLGA (OASIS)</String>
+	</Entry>		
+	<Entry>
+		<Identifier>TF_MENU_CHAR_OLGA</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]OLGA</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_CHAR_GRUNT</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EDF GRUNT</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_CHAR_JOHN_DLC</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JOHN (DLC)</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_CHAR_CELIA_DLC</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CELIA (DLC)</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_CHAR_KAT_DLC</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]KAT (DLC)</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_CHAR_PIERCE_DLC</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PIERCE (DLC)</String>
+	</Entry>	
+	<Entry>
 		<Identifier>TF_MENU_CHAR_EDF_HEAVY</Identifier>
 		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EDF HEAVY</String>
 	</Entry>
@@ -274,7 +359,7 @@
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_CHAR_JEAN</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JEAN (ELEGANT)</String>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]JEAN (OASIS)</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_CHAR_SAM</Identifier>
@@ -294,7 +379,7 @@
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_CHAR_RACHEL</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RACHEL (ELEGANT)</String>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RACHEL</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_CHAR_KOBEL</Identifier>
@@ -310,7 +395,7 @@
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_CHAR_IAN</Identifier>
-		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IAN (ELEGANT)</String>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IAN (OASIS)</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_CHAR_EDDIE</Identifier>
