@@ -2,6 +2,22 @@
 <!--[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TEXT HERE-->
 <!--[format][color:#7851a9]TEXT HERE[/format]-->		
 	<Entry>
+		<Identifier>TF_WEAPON_SNOWBALL</Identifier>
+		<String>SNOWBALL</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_WEAPON_FLASH_BANG</Identifier>
+		<String>FLASH BANG</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_WEAPON_NANO_GRENADE</Identifier>
+		<String>NANO GRENADE</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_WEAPON_SMOKE_GRENADE</Identifier>
+		<String>SMOKE GRENADE</String>
+	</Entry>	
+	<Entry>
 		<Identifier>TF_MENU_LEVEL_ABANDONED</Identifier>
 		<String>ABANDONED</String>
 	</Entry>	

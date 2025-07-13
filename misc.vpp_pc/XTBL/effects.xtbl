@@ -1,5 +1,31 @@
 <root>
 <Table>
+<!--START ADDED-->
+	<Effect>
+		<Name>tf_snowball</Name>
+		<visual>wep_bullet_impact_ice</visual>
+		<_Editor>
+			<Category>Entries:Weapons:Impacts - Bullets</Category>
+			</_Editor>
+		<kill_sound_when_done>False</kill_sound_when_done>
+		<sound_follows_effect>True</sound_follows_effect>
+		<vfx_kill_particles>False</vfx_kill_particles>
+		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<sound>WEP_MELEE_SLEDGE_DIRT</sound>
+		</Effect>	
+	<Effect>
+		<Name>tf_smoke_grenade</Name>
+		<visual>tf_smoke_grenade</visual>
+		<kill_sound_when_done>False</kill_sound_when_done>
+		<sound_follows_effect>True</sound_follows_effect>
+		<_Editor>
+			<Category>Entries:Environment:Exterior:Smoke</Category>
+			</_Editor>
+		<vfx_kill_particles>True</vfx_kill_particles>
+		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles_fade_time>60</vfx_kill_particles_fade_time>
+		</Effect>
+<!--END-->		
 	<Effect>
 		<Name>shockwave_grenade_exp</Name>
 		<visual>shockwave_grenade_exp</visual>

@@ -22,6 +22,28 @@
 </stream2_container_description>
 
 <Table>
+<!--START ADDED-->
+	<Decal_Info>
+		<Name>tf_snowball</Name> <!--FROM car_track-->
+		<Material>
+			<Filename>decal_tire_track_a.matx</Filename>
+			</Material>
+		<Preload>True</Preload>
+		<Life_Time>-1</Life_Time>
+		<Fade_Time>0</Fade_Time>
+		<Width>.25</Width>
+		<Depth>0.3</Depth>
+		<Depth_Fade_Start>0.75</Depth_Fade_Start>
+		<Depth_Fade_End>0.9533333</Depth_Fade_End>
+		<Slope_Fade_Start>60</Slope_Fade_Start>
+		<Slope_Fade_End>85</Slope_Fade_End>
+		<_Editor>
+			<Category>Entries:tire_tracks</Category>
+			</_Editor>
+		<Length>.25</Length>
+		<Double_sided>False</Double_sided>
+		</Decal_Info>
+<!--END-->		
 	<Decal_Info>
 		<Name>decal_bullet_cem</Name>
 		<Material>
