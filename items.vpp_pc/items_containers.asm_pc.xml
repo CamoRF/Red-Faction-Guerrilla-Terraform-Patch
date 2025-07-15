@@ -5,6 +5,28 @@
   <Containers>
 <!--START ADDED-->    
     <ContainerEntry>
+      <Name>tf_smoke_grenade</Name>
+      <Type>23</Type>
+      <Flags>128</Flags>
+      <DataOffset>6144</DataOffset>
+      <CompressedSize>3175</CompressedSize>
+      <Sizes>
+        <int>956</int>
+        <int>8004</int>
+      </Sizes>
+      <Primitives>
+        <PrimitiveEntry>
+          <Name>edf_grenade.csmesh_pc</Name>
+          <Type>5</Type>
+          <Allocator>0</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>0</Unknown4>
+          <HeaderSize>956</HeaderSize>
+          <DataSize>8004</DataSize>
+        </PrimitiveEntry>
+      </Primitives>
+    </ContainerEntry>    
+	<ContainerEntry>
       <Name>tf_snowball</Name>
       <Type>23</Type>
       <Flags>128</Flags>

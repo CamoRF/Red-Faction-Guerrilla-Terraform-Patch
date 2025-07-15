@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--Current max <Unique_ID>211</Unique_ID>, use 212 for next weapon-->
+<!--Current max <Unique_ID>211</Unique_ID>, use 212 for next weapon-->			
 		<Weapon>
 			<Name>TF_SMOKE_GRENADE</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
@@ -12,8 +12,8 @@
 			<Range_Red>25</Range_Red>
 			<Default_Refire_Delay>2000</Default_Refire_Delay>
 			<Damage_Scaling_Max>
-				<NPC_Damage>1000</NPC_Damage>
-				<Player_Damage>1000</Player_Damage>
+				<NPC_Damage>-1</NPC_Damage>
+				<Player_Damage>-1</Player_Damage>
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
@@ -43,7 +43,6 @@
 					<Flag>align orient to flightpath</Flag>
 					<Flag>bounce on impact</Flag>
 					<Flag>tossable</Flag>
-					<Flag>detonate on explosion impact</Flag>
 				</Projectile_Flags>
 				<Time_Until_Propelled>0.0</Time_Until_Propelled>
 				<Time_Until_Prop_Expire>10000</Time_Until_Prop_Expire>
@@ -56,7 +55,6 @@
 			</_Editor>
 			<Animation_Group>remote charge</Animation_Group>
 			<Flags>
-				<Flag>shatter</Flag>
 				<Flag>disable player cover</Flag>
 				<Flag>draw projectile in opposite hand</Flag>
 				<Flag>held in left hand</Flag>
@@ -87,7 +85,7 @@
 			</Sounds>
 			<Reload_Delay>0</Reload_Delay>
 			<Ammo_Box_Restock>4</Ammo_Box_Restock>
-			<Num_Magazines>1</Num_Magazines>
+			<Num_Magazines>4</Num_Magazines>
 			<Max_AI_Penetrating_Distance>40.0</Max_AI_Penetrating_Distance>
 			<dummy>False</dummy>
 			<Unique_ID>211</Unique_ID>

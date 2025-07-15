@@ -42,7 +42,7 @@
 			<!--START ADDED-->
 			<Blocker>
 				<Opacity>1.0</Opacity>
-				<LifeSpan>60000</LifeSpan>
+				<LifeSpan>30000</LifeSpan>
 			</Blocker>
 			<!--END-->			
 			<_Editor>
@@ -67,7 +67,7 @@
 				<Minimum_time>0.0</Minimum_time>
 			</LOD>
 		</Effect>
-<!--END-->		
+<!--END-->	
 		<Effect>
 			<Name>mp_backpack_heal_a</Name>
 			<VFX>
