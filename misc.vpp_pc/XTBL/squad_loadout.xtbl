@@ -9,7 +9,7 @@
 		</squad_loadout>
 		<squad_loadout>
 			<Name>Pistol and Grenade</Name>
-			<weapon_type>TF_edf_subverter</weapon_type> <!--FROM edf_pistol-->
+			<weapon_type>edf_subverter</weapon_type> <!--FROM edf_pistol-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -107,7 +107,7 @@
 		</squad_loadout>
 		<squad_loadout>
 			<Name>Gutter</Name>
-			<weapon_type>TF_royal_sword</weapon_type> <!--FROM gutter-->
+			<weapon_type>royal_sword</weapon_type> <!--FROM gutter-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -146,7 +146,7 @@
 		</squad_loadout>
 		<squad_loadout>
 			<Name>Gauss Rifle and Grenade</Name>
-			<weapon_type>TF_EDF_Super_Gauss</weapon_type> <!--FROM gauss_rifle-->
+			<weapon_type>EDF_Super_Gauss</weapon_type> <!--FROM gauss_rifle-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -168,7 +168,7 @@
 		</squad_loadout>
 		<squad_loadout>
 			<Name>Shotgun and Shockade</Name>
-			<weapon_type>TF_spiker</weapon_type> <!--FROM shotgun-->
+			<weapon_type>spiker</weapon_type> <!--FROM shotgun-->
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>

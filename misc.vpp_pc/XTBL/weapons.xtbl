@@ -24,7 +24,7 @@
 				<Model>grenade</Model>
 				<Start_Speed>25</Start_Speed>
 				<Max_Speed>25</Max_Speed>
-				<Fuse_Time>1000</Fuse_Time>
+				<Fuse_Time>750</Fuse_Time>
 				<Mass>1</Mass>
 				<Linear_Damp>0</Linear_Damp>
 				<Angular_Damp>0</Angular_Damp>
@@ -43,6 +43,7 @@
 					<Flag>align orient to flightpath</Flag>
 					<Flag>bounce on impact</Flag>
 					<Flag>tossable</Flag>
+					<Flag>detonate on explosion impact</Flag>						
 				</Projectile_Flags>
 				<Time_Until_Propelled>0.0</Time_Until_Propelled>
 				<Time_Until_Prop_Expire>10000</Time_Until_Prop_Expire>

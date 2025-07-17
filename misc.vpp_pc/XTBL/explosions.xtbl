@@ -1,41 +1,7 @@
 <root>
 	<Table>
-<!--NOTE: Current max <Unique_ID>127</Unique_ID>, use 128 next when adding explosions-->	
-<!--START ADDED-->
-		<Explosion>
-			<Name>TF_FLASH_BANG</Name>
-			<Radius>5.0</Radius>
-			<AI_Sound_Radius>50</AI_Sound_Radius>
-			<vehicle_damage_max>900</vehicle_damage_max>
-			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>10000</Impulse>
-			<Effects>
-				<Element>wep_edf_grenade_exp_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>2.0</CrumbleRadius>
-			<KnockdownRadius>5.0</KnockdownRadius>
-			<FlinchRadius>6.25</FlinchRadius>
-			<player_mult>0.8</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>300</human_damage_min>
-			<Human_Damage_Max>750</Human_Damage_Max>
-			<Structural_Damage>10000</Structural_Damage>
-			<Unique_ID>127</Unique_ID>
-			<camera_shake_type>explosion_small</camera_shake_type>
-			<Flags>
-				<Flag>no gibs</Flag>
-			</Flags>
-			<player_veh_mult>0.8</player_veh_mult>
-			<camera_shake_multiplier>1.0</camera_shake_multiplier>
-			<camera_shake_falloff>40.0</camera_shake_falloff>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>True</Always_Ragdoll>
-		</Explosion>		
+<!--NOTE: Current max <Unique_ID>125</Unique_ID>, use 126 next when adding explosions-->	
+<!--START ADDED-->		
 		<Explosion>
 			<Name>TF_NANO_GRENADE</Name>
 			<Radius>1.2</Radius>
@@ -63,7 +29,7 @@
 			<Break_off_pieces>
 				<Time_between_breaks>150</Time_between_breaks>
 			</Break_off_pieces>
-			<Unique_ID>126</Unique_ID>
+			<Unique_ID>125</Unique_ID>
 			<camera_shake_multiplier>0</camera_shake_multiplier>
 			<Blast_decal_radius>0.0001</Blast_decal_radius>
 			<Flags>
@@ -74,41 +40,7 @@
 			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
 			<Ignore_Orientation>False</Ignore_Orientation>
 			<Always_Ragdoll>False</Always_Ragdoll>
-		</Explosion>		
-		<Explosion>
-			<Name>TF_SNOWBALL</Name>
-			<Radius>0.1</Radius>
-			<AI_Sound_Radius>50</AI_Sound_Radius>
-			<vehicle_damage_max>900</vehicle_damage_max>
-			<vehicle_damage_min>50</vehicle_damage_min>
-			<Impulse>100000</Impulse>
-			<Effects>
-				<Element>wep_edf_grenade_exp_a</Element>
-			</Effects>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-			<CrumbleRadius>2.0</CrumbleRadius>
-			<KnockdownRadius>5.0</KnockdownRadius>
-			<FlinchRadius>6.25</FlinchRadius>
-			<player_mult>0.8</player_mult>
-			<MaxSalvagePieces>0</MaxSalvagePieces>
-			<SalvageProbability>0</SalvageProbability>
-			<human_damage_min>100</human_damage_min>
-			<Human_Damage_Max>200</Human_Damage_Max>
-			<Structural_Damage>5000</Structural_Damage>
-			<Unique_ID>125</Unique_ID>
-			<camera_shake_type>explosion_small</camera_shake_type>
-			<Flags>
-				<Flag>no gibs</Flag>
-			</Flags>
-			<player_veh_mult>0.8</player_veh_mult>
-			<camera_shake_multiplier>1.0</camera_shake_multiplier>
-			<camera_shake_falloff>40.0</camera_shake_falloff>
-			<player_vehicle_impulse_mult>1.0</player_vehicle_impulse_mult>
-			<Ignore_Orientation>False</Ignore_Orientation>
-			<Always_Ragdoll>True</Always_Ragdoll>
-		</Explosion>		
+		</Explosion>	
 		<Explosion>
 			<Name>TF_SMOKE_GRENADE</Name>
 			<Radius>0.1</Radius>
@@ -122,7 +54,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-			<CrumbleRadius>0.000001</CrumbleRadius>
+			<CrumbleRadius>0.0</CrumbleRadius>
 			<KnockdownRadius>0.0</KnockdownRadius>
 			<FlinchRadius>0.0</FlinchRadius>
 			<player_mult>0.8</player_mult>

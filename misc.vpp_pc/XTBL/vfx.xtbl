@@ -39,12 +39,10 @@
 				<Filename>tf_smoke_grenade.effectx</Filename>
 			</VFX>
 			<Streaming_Category>Preload</Streaming_Category>
-			<!--START ADDED-->
 			<Blocker>
 				<Opacity>1.0</Opacity>
 				<LifeSpan>30000</LifeSpan>
-			</Blocker>
-			<!--END-->			
+			</Blocker>		
 			<_Editor>
 				<Category>Entries:Environment:Exterior:Smoke</Category>
 			</_Editor>

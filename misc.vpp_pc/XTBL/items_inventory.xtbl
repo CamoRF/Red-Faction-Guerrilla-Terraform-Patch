@@ -1,26 +1,6 @@
 <root>
 	<Table>
-<!--START ADDED-->
-		<Inventory_Item>
-			<Name>TF_SNOWBALL</Name>
-			<Display_Name>TF_WEAPON_SNOWBALL</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>		
-		<Inventory_Item>
-			<Name>TF_FLASH_BANG</Name>
-			<Display_Name>TF_WEAPON_FLASH_BANG</Display_Name>
-			<Cost>100</Cost>
-			<Default_Count>1</Default_Count>
-			<Max_Inventory>1</Max_Inventory>
-			<_Editor>
-				<Category>Entries</Category>
-			</_Editor>
-		</Inventory_Item>		
+<!--START ADDED-->	
 		<Inventory_Item>
 			<Name>TF_NANO_GRENADE</Name>
 			<Display_Name>TF_WEAPON_SMOKE_GRENADE</Display_Name>

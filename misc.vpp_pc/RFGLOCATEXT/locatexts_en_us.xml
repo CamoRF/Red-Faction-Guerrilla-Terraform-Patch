@@ -1,18 +1,14 @@
 ﻿<root>
 <!--[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TEXT HERE-->
-<!--[format][color:#7851a9]TEXT HERE[/format]-->		
+<!--[format][color:#7851a9]TEXT HERE[/format]-->
 	<Entry>
-		<Identifier>TF_WEAPON_SNOWBALL</Identifier>
-		<String>SNOWBALL</String>
+		<Identifier>TF_WEAPON_NO_HAMMER</Identifier>
+		<String>NO HAMMER</String>
 	</Entry>	
-	<Entry>
-		<Identifier>TF_WEAPON_FLASH_BANG</Identifier>
-		<String>FLASH BANG</String>
-	</Entry>
 	<Entry>
 		<Identifier>TF_WEAPON_NANO_GRENADE</Identifier>
 		<String>NANO GRENADE</String>
-	</Entry>	
+	</Entry>
 	<Entry>
 		<Identifier>TF_WEAPON_SMOKE_GRENADE</Identifier>
 		<String>SMOKE GRENADE</String>
