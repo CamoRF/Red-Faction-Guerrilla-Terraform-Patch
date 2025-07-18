@@ -72,7 +72,7 @@ TODO: When patch is reaching final release, need to check repo issues etc and ad
 * Fixed missing data for new weapons added by patch in "aim_drift.xtbl" & "weapon_firing_patterns.xtbl"
 * Fixed vanilla issue with various missing specular textures in SP
 * Fixed vanilla issue with memorial texture in SP
-* Fixed vanilla issue with missing specular texture on Fallfactor and Junkyard maps
+* Fixed vanilla issue with missing specular texture on Excavation, Fall factor, Framework and Junkyard maps
 * Fixed issue with XP message spam when finishing a multiplayer match
 * Fixed issue with team backpack racks not glowing red if your team cannot use them
 * Fixed issue with DLC Spiker weapon missing texture when it's on the ground or far away from player
