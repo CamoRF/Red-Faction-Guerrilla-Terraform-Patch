@@ -257,7 +257,7 @@
 				<Element>m16</Element>
 			</player_weapons>
 			<Description>0</Description>
-			<time_of_day>10:30</time_of_day>
+			<time_of_day>10:30</time_of_day> <!--Use the alt time of day instead, remove the fog-->
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crashsite</level_image_name>
 			<dust_enabled>True</dust_enabled>
