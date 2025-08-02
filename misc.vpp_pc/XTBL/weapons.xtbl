@@ -2392,7 +2392,7 @@
 			<mp_kill_phrase>HM_KILL_PHRASE_WELDER</mp_kill_phrase>
 			<Headshot_Multiplier>1.0</Headshot_Multiplier>
 			<Unique_ID>92</Unique_ID>
-			<Reload_Delay>250</Reload_Delay>
+			<Reload_Delay>328</Reload_Delay> <!--FROM 250-->
 			<Default_team>Guerilla</Default_team>
 			<Zoom_Magnification>1.45</Zoom_Magnification>
 			<fine_aim_reticule>ui_hud_reti_arcwelder2</fine_aim_reticule>
