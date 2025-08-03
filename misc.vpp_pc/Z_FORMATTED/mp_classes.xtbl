@@ -1,6 +1,6 @@
 <root>
 	<Table>
-<!--START ADDED-->
+<!--THIS REMOVES HAMMER IF YOU CHANGE PLAYER CLASS IN CHARACTER XTBLS-->
 <!--		<mp_classes_list>
 			<Name>NoHammer</Name>
 			<display_name>TF_WEAPON_NO_HAMMER</display_name>

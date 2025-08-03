@@ -17,7 +17,7 @@
 			<max_party_size>8</max_party_size>
 			<xp_scalar>1</xp_scalar>
 		</playlists>
-		<playlists>
+	<!--<playlists>
 			<Name>Team Anarchy_6-8</Name>
 			<Online_ID>3</Online_ID>
 			<Display_Name>MENU_TEAM_ANARCHY</Display_Name>
@@ -72,7 +72,7 @@
 			</_Editor>
 			<max_party_size>4</max_party_size>
 			<xp_scalar>1</xp_scalar>
-		</playlists>
+		</playlists>-->
 		<playlists>
 			<Name>Anarchy_5-6</Name>
 			<Online_ID>0</Online_ID>
@@ -127,7 +127,7 @@
 			<max_party_size>1</max_party_size>
 			<xp_scalar>1</xp_scalar>
 		</playlists>
-		<playlists>
+		<!--<playlists>
 			<Name>Team Objective_8-10</Name>
 			<Online_ID>2</Online_ID>
 			<Display_Name>MENU_TEAM_OBJECTIVE</Display_Name>
@@ -246,8 +246,8 @@
 			</_Editor>
 			<max_party_size>5</max_party_size>
 			<xp_scalar>1</xp_scalar>
-		</playlists>
-		<playlists>
+		</playlists>-->
+		<!--<playlists>
 			<Name>Siege_10-12</Name>
 			<Online_ID>1</Online_ID>
 			<Display_Name>MENU_SIEGE</Display_Name>
@@ -282,8 +282,8 @@
 			</_Editor>
 			<max_party_size>6</max_party_size>
 			<xp_scalar>1</xp_scalar>
-		</playlists>
-		<playlists>
+		</playlists>-->
+		<!--<playlists>
 			<Name>LargeMixer_14-16</Name>
 			<Online_ID>4</Online_ID>
 			<Display_Name>MENU_LARGE_MIXER</Display_Name>
@@ -331,8 +331,8 @@
 			</_Editor>
 			<max_party_size>8</max_party_size>
 			<xp_scalar>1</xp_scalar>
-		</playlists>
-		<playlists>
+		</playlists>-->
+		<!--<playlists>
 			<Name>Bagman_5-6</Name>
 			<Online_ID>6</Online_ID>
 			<Display_Name>MENU_MP_MODE_BAGMAN</Display_Name>
@@ -384,8 +384,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<xp_scalar>1</xp_scalar>
-		</playlists>
-		<playlists>
+		</playlists>-->
+		<!--<playlists>
 			<Name>TeamBagman_6-8</Name>
 			<Online_ID>9</Online_ID>
 			<Display_Name>MENU_MP_MODE_TM_BAGMAN</Display_Name>
@@ -440,8 +440,8 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<xp_scalar>1</xp_scalar>
-		</playlists>
-		<playlists>
+		</playlists>-->
+		<!--<playlists>
 			<Name>Hardcore_6-8</Name>
 			<Online_ID>10</Online_ID>
 			<Display_Name>MENU_PLYLST_PATCH_65</Display_Name>
@@ -470,10 +470,10 @@
 			</_Editor>
 			<max_party_size>4</max_party_size>
 			<xp_scalar>1</xp_scalar>
-		</playlists>
+		</playlists>-->
 	</Table>
 	<TableTemplates>
-		<playlists>
+		<!--<playlists>
 			<Name>Beginner_6</Name>
 			<Online_ID>11</Online_ID>
 			<Display_Name>MENU_PLYLST_PATCH_4</Display_Name>
@@ -538,7 +538,7 @@
 				<Category>Entries</Category>
 			</_Editor>
 			<xp_scalar>1</xp_scalar>
-		</playlists>
+		</playlists>-->
 	</TableTemplates>
 	<TableDescription>
 		<Name>playlists</Name>

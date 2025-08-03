@@ -12,6 +12,7 @@
 			<Friction>0.8</Friction>
 			<Flags>
 				<Flag>structural</Flag>
+<!--STOPS DEBRIS DESPAWNING AS QUICKLY AND ADDS COLLISION-->				
 <!--START ADDED-->
 				<Flag>collide_as_cylinder</Flag>
 				<Flag>collide_as_mover</Flag>

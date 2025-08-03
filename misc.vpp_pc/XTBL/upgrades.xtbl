@@ -40,7 +40,7 @@
 			<_Editor>
 				<Category>Normal</Category>
 			</_Editor>
-			<Weapon>TF_missilepod</Weapon>
+			<Weapon>missilepod</Weapon>
 			<Display_Name>WEAP_MISSILEPOD</Display_Name>
 			<Icon_Image>ui_hud_weapon_icon_pod</Icon_Image>
 			<Blueprint>ui_blueprint_misslepod</Blueprint>
@@ -75,7 +75,7 @@
 			<_Editor>
 				<Category>Normal</Category>
 			</_Editor>
-			<Weapon>TF_EDF_Super_Gauss</Weapon>
+			<Weapon>EDF_Super_Gauss</Weapon>
 			<Display_Name>WEAP_SUPERGAUSS</Display_Name>
 			<Icon_Image>ui_hud_weapon_icon_supergauss</Icon_Image>
 			<Blueprint>ui_blueprint_guass_rifle</Blueprint>
@@ -109,7 +109,7 @@
 				<Category>Normal</Category>
 			</_Editor>
 			<Display_Name>UPG_RADIATION_NAME</Display_Name>
-			<Weapon>TF_spiker</Weapon>
+			<Weapon>spiker</Weapon>
 		</Upgrade>
 <!--END-->
 		<Upgrade>
@@ -867,7 +867,7 @@
 				<Level>
 					<Cost>0</Cost>
 					<Value>0</Value>
-					<Available>True</Available>
+					<Available>True</Available> <!--FROM False, I think. Jetpack fix-->
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Unlock_Action>Unlocked</Unlock_Action>
 					<Show_Locked>False</Show_Locked>
@@ -1416,6 +1416,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>MENU_HAMMER_UNLOCK</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1449,6 +1450,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>WEAP_SLEDGE_UPG_3</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1482,6 +1484,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>WEAP_SLEDGE_UPG_4</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1515,6 +1518,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>WEAP_SLEDGE_UPG_5</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1548,6 +1552,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>WEAP_SLEDGE_UPG_6</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1581,6 +1586,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>WEAP_SLEDGE_UPG_7</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1614,6 +1620,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>WEAP_SLEDGE_UPG_8</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1647,6 +1654,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>WEAP_SLEDGE_UPG_9</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1680,6 +1688,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>WEAP_SLEDGE_UPG_10</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1713,6 +1722,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>WEAP_SLEDGE_UPG_11</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1746,6 +1756,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>WEAP_SLEDGE_UPG_12</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1779,6 +1790,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>WEAP_SLEDGE_UPG_13</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1812,6 +1824,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>WEAP_SLEDGE_UPG_14</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1845,6 +1858,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>HM_BACKPACK_THRUST</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1877,6 +1891,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>HM_BACKPACK_FLEETFOOT</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->					
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1909,6 +1924,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>HM_BACKPACK_STEALTH</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1941,6 +1957,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>HM_BACKPACK_VISION</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -1973,6 +1990,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>HM_BACKPACK_COMMANDO</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -2005,6 +2023,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>HM_BACKPACK_SHOCKWAVE</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -2037,6 +2056,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>HM_BACKPACK_HEAL</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -2069,6 +2089,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>HM_BACKPACK_RHINO</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>
@@ -2101,6 +2122,7 @@
 					<Also_Unlock_Level>1</Also_Unlock_Level>
 					<Upgrade_Name>HM_BACKPACK_EARTHQUAKE</Upgrade_Name>
 					<Activity_Count>0</Activity_Count>
+					<District_Liberated>Oasis</District_Liberated> <!--ADDED-->
 				</Level>
 			</Levels>
 			<_Editor>

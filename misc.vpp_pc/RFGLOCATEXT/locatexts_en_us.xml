@@ -2,6 +2,18 @@
 <!--[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TEXT HERE-->
 <!--[format][color:#7851a9]TEXT HERE[/format]-->
 	<Entry>
+		<Identifier>TF_UPG_MISSILEPOD</Identifier>
+		<String>MISSILEPOD</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_UPG_MISSILEPOD_AMMO</Identifier>
+		<String>MISSILEPOD AMMO UPGRADE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_UPG_SUPER_GAUSS</Identifier>
+		<String>SUPER GAUSS RIFLE</String>
+	</Entry>	
+	<Entry>
 		<Identifier>TF_WEAPON_NO_HAMMER</Identifier>
 		<String>NO HAMMER</String>
 	</Entry>	

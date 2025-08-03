@@ -1142,7 +1142,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Bullet_hole_decal_max_dist</Name>
-			<Value>30</Value> <!--FROM 15-->
+			<Value>100</Value> <!--FROM 15-->
 			<Description>The maximum distance from the camera allowed to draw a bullet impact for anyone other than the local player.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -1512,7 +1512,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Camera_npc_max_fade_dist</Name>
-			<Value>0.0</Value> <!--FROM 0.6-->
+			<Value>1.2</Value> <!--FROM 0.6-->
 			<Description>Distance from the camera at which friendly NPCs are fully faded-in.</Description>
 			<_Editor>
 				<Category>Camera:Fade</Category>
@@ -1983,7 +1983,7 @@
 			</_Editor>
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
-			<Name>Glass_min_radial_decals</Name>
+			<Name>Glass_min_radial_decals</Name> <!--Glass decal fix-->
 			<Value>1</Value> <!--FROM 2-->
 			<Description>The minimum number of radial cracks from bullet decals in glass appear (if they appear at all).</Description>
 			<_Editor>
@@ -2008,7 +2008,7 @@
 		</Tweak_Table_Entry>
 		<Tweak_Table_Entry>
 			<Name>Blast_decal_min_alpha</Name>
-			<Value>1.0</Value> <!--FROM 0.5-->
+			<Value>0.5</Value>
 			<Description>The minimum alpha value decals will get based on distance.</Description>
 			<_Editor>
 				<Category>Miscellaneous:Decals</Category>
@@ -2568,7 +2568,7 @@
 		</Tweak_Table_Entry>
 	</Table>
 	<TableTemplates>
-		<Tweak_Table_Entry>
+		<!--<Tweak_Table_Entry>
 			<Name>Stuntman_airtime_multiplier</Name>
 			<Value>20</Value>
 			<Description>Base Score = (Air time * airtime_multiplier) + (destruction * destruction_multiplier)</Description>
@@ -2615,7 +2615,7 @@
 			<_Editor>
 				<Category>AI:Cover</Category>
 			</_Editor>
-		</Tweak_Table_Entry>
+		</Tweak_Table_Entry>-->
 	</TableTemplates>
 	<TableDescription>
 		<Name>Tweak_Table_Entry</Name>
