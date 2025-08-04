@@ -28,7 +28,7 @@
 				<Flag>king_of_the_hill</Flag>
 				<Flag>siege</Flag>
 			</mode_flags>
-			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<alternate_time_of_day>10:30</alternate_time_of_day> <!--FROM 00:00-->
 			<glow_multiplier>2.0</glow_multiplier>
 			<alternate_glow_multiplier>6.0</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
@@ -80,7 +80,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_cascade</level_image_name>
@@ -98,7 +98,7 @@
 				<Flag>capture_the_flag</Flag>
 				<Flag>king_of_the_hill</Flag>
 			</mode_flags>
-			<alternate_time_of_day>00:00</alternate_time_of_day>
+			<alternate_time_of_day>10:30</alternate_time_of_day> <!--FROM 00:00-->
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>1.2</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
@@ -115,7 +115,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>15:00</time_of_day>
 			<distance_multiplier>1.25</distance_multiplier>
 			<level_image_name>mp_thumb_0mp4</level_image_name>
@@ -150,7 +150,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Small Size</Description>
 			<time_of_day>00:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_complex</level_image_name>
@@ -185,7 +185,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>15:00</time_of_day>
 			<distance_multiplier>0.9</distance_multiplier>
 			<level_image_name>mp_thumb_compound</level_image_name>
@@ -220,7 +220,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Original Siege Map</Description>
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.2</distance_multiplier>
 			<level_image_name>mp_thumb_cornered</level_image_name>
@@ -256,7 +256,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>18:00</time_of_day> <!--FROM 10:30-->
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crashsite</level_image_name>
@@ -292,7 +292,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Original Siege Map</Description>
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_crescent</level_image_name>
@@ -328,7 +328,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Original Siege Map</Description>
 			<time_of_day>00:00</time_of_day>
 			<distance_multiplier>1.35</distance_multiplier>
 			<level_image_name>mp_thumb_crevice</level_image_name>
@@ -364,7 +364,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>08:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_deadzone</level_image_name>
@@ -391,7 +391,7 @@
 			<demolition_damage_multiplier>0.75</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
-			<Name>Division</Name>
+			<Name>Division</Name> <!--Add Siege?-->
 			<Filename>mpdlc_division</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
@@ -399,7 +399,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_division</level_image_name>
@@ -426,7 +426,7 @@
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
-			<Name>Doubletime</Name>
+			<Name>Doubletime</Name> <!--Add Siege?-->
 			<Filename>mp_pcx_crossover</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
@@ -469,7 +469,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>07:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_downfall</level_image_name>
@@ -496,7 +496,7 @@
 			<demolition_damage_multiplier>0.6</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
-			<Name>Equilibrium</Name>
+			<Name>Equilibrium</Name> <!--Add Siege?-->
 			<Filename>mpdlc_landbridge</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
@@ -504,7 +504,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>15:00</time_of_day>
 			<distance_multiplier>1.25</distance_multiplier>
 			<level_image_name>mp_thumb_equilibrium</level_image_name>
@@ -539,7 +539,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>16:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_excavation</level_image_name>
@@ -574,7 +574,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Size</Description>
 			<time_of_day>09:00</time_of_day>
 			<distance_multiplier>3.0</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc4</level_image_name>
@@ -609,7 +609,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Small Size</Description>
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_factory</level_image_name>
@@ -644,7 +644,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Mixer</Description>
 			<time_of_day>19:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_fallfactor</level_image_name>
@@ -679,7 +679,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Small Size</Description>
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_fortress</level_image_name>
@@ -714,7 +714,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Original Siege Map</Description>
 			<time_of_day>18:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_framework</level_image_name>
@@ -750,7 +750,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>11:00</time_of_day>
 			<distance_multiplier>1.3</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc5</level_image_name>
@@ -785,7 +785,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Mixer</Description>
 			<time_of_day>20:30</time_of_day>
 			<distance_multiplier>1.25</distance_multiplier>
 			<level_image_name>mp_thumb_garrison</level_image_name>
@@ -821,7 +821,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Original Siege Map</Description>
 			<time_of_day>10:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_gauntlet</level_image_name>
@@ -857,7 +857,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>15:30</time_of_day>
 			<distance_multiplier>1.1</distance_multiplier>
 			<level_image_name>mp_thumb_gradient</level_image_name>
@@ -892,7 +892,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Size</Description>
 			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier>
 			<level_image_name>mp_thumb_gulch</level_image_name>
@@ -927,7 +927,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Size</Description>
 			<time_of_day>16:00</time_of_day>
 			<distance_multiplier>1.1</distance_multiplier>
 			<level_image_name>mp_thumb_haven</level_image_name>
@@ -962,7 +962,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Size</Description>
 			<time_of_day>12:00</time_of_day>
 			<distance_multiplier>1.3</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc3</level_image_name>
@@ -997,7 +997,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>00:00</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc8</level_image_name>
@@ -1032,7 +1032,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>12:00</time_of_day>
 			<distance_multiplier>0.5</distance_multiplier>
 			<level_image_name>mp_thumb_0mp2</level_image_name>
@@ -1067,7 +1067,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>8:30</time_of_day>
 			<distance_multiplier>1.1</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc9</level_image_name>
@@ -1093,7 +1093,7 @@
 			<Load_image>dlc03wc9</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
 		</mp_level_list>
-		<mp_level_list>
+		<mp_level_list> <!--Add Siege?-->
 			<Name>Outpost</Name>
 			<Filename>mp_pcx_assembly</Filename>
 			<_Editor>
@@ -1102,7 +1102,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>00:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_assembly</level_image_name>
@@ -1137,7 +1137,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Original Siege Map</Description>
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_overpass</level_image_name>
@@ -1173,7 +1173,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_0mp5</level_image_name>
@@ -1198,7 +1198,7 @@
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
 		</mp_level_list>		
 		<mp_level_list>
-			<Name>Pinnacle</Name>
+			<Name>Pinnacle</Name> <!--Could be used for a new siege map with different assets like the ones from Cornered or Gauntlet-->
 			<Filename>mp_pinnacle</Filename>
 			<_Editor>
 				<Category>Entries:General</Category>
@@ -1206,7 +1206,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Size</Description>
 			<time_of_day>18:30</time_of_day>
 			<distance_multiplier>1.25</distance_multiplier>
 			<level_image_name>mp_thumb_pinnacle</level_image_name>
@@ -1241,7 +1241,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Size</Description>
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier>
 			<level_image_name>mp_thumb_pipeline</level_image_name>
@@ -1276,7 +1276,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Size</Description>
 			<time_of_day>00:00</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier>
 			<level_image_name>mp_thumb_0mp9</level_image_name>
@@ -1309,7 +1309,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>15:30</time_of_day>
 			<distance_multiplier>0.9</distance_multiplier>
 			<level_image_name>mp_thumb_puncture</level_image_name>
@@ -1344,7 +1344,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Small Size</Description>
 			<time_of_day>07:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_quarantine</level_image_name>
@@ -1361,7 +1361,6 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
-				<!--<Flag>siege</Flag>-->
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>2.0</glow_multiplier>
@@ -1380,7 +1379,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Size</Description>
 			<time_of_day>15:00</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_radial</level_image_name>
@@ -1397,6 +1396,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
+				<Flag>siege</Flag>				
 			</mode_flags>
 			<alternate_time_of_day>10:30</alternate_time_of_day>
 			<glow_multiplier>5.0</glow_multiplier>
@@ -1415,7 +1415,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>08:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_remnant</level_image_name>
@@ -1450,7 +1450,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Size</Description>
 			<time_of_day>18:00</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc2</level_image_name>
@@ -1485,7 +1485,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>07:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_0mp8</level_image_name>
@@ -1520,7 +1520,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>14:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_rift</level_image_name>
@@ -1537,6 +1537,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
+				<Flag>siege</Flag>	
 			</mode_flags>
 			<alternate_time_of_day>22:30</alternate_time_of_day>
 			<glow_multiplier>2.5</glow_multiplier>
@@ -1555,7 +1556,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc1</level_image_name>
@@ -1590,7 +1591,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Medium Size</Description>
 			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_sandpit</level_image_name>
@@ -1625,7 +1626,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Small Size</Description>
 			<time_of_day>21:00</time_of_day>
 			<distance_multiplier>0.75</distance_multiplier>
 			<level_image_name>mp_thumb_scrapheap</level_image_name>
@@ -1658,7 +1659,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Mixer</Description>
 			<time_of_day>09:00</time_of_day>
 			<distance_multiplier>1.6</distance_multiplier>
 			<level_image_name>mp_thumb_settlement</level_image_name>
@@ -1693,7 +1694,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Small Size</Description>
 			<time_of_day>15:30</time_of_day>
 			<distance_multiplier>0.5</distance_multiplier>
 			<level_image_name>mp_thumb_0mp3</level_image_name>
@@ -1728,7 +1729,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Size</Description>
 			<time_of_day>14:00</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier>
 			<level_image_name>mp_thumb_wcdlc7</level_image_name>
@@ -1745,6 +1746,7 @@
 				<Flag>demolition</Flag>
 				<Flag>king_of_the_hill</Flag>
 				<Flag>capture_the_flag</Flag>
+				<Flag>siege</Flag>				
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>6</glow_multiplier>
@@ -1763,7 +1765,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Small Size</Description>
 			<time_of_day>14:00</time_of_day>
 			<distance_multiplier>0.5</distance_multiplier>
 			<level_image_name>mp_thumb_0mp6</level_image_name>
@@ -1788,7 +1790,7 @@
 			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
 		</mp_level_list>		
 		<mp_level_list>
-			<Name>Transmission</Name>
+			<Name>Transmission</Name> <!--Add siege?-->
 			<Filename>mp_transmission</Filename> <!--FROM wc9-->
 			<_Editor>
 				<Category>Entries:General</Category>
@@ -1796,7 +1798,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Size</Description>
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier>
 			<level_image_name>mp_thumb_transmission</level_image_name>
@@ -1831,7 +1833,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Small Size</Description>
 			<time_of_day>19:00</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_vista</level_image_name>
@@ -1853,7 +1855,7 @@
 			<glow_multiplier>0.9</glow_multiplier>
 			<alternate_glow_multiplier>0.7</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
-			<ideal_max_players>8</ideal_max_players>
+			<ideal_max_players>6</ideal_max_players> <!--FROM 8-->
 			<Load_image>Vista</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
 		</mp_level_list>
@@ -1866,7 +1868,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Small Size</Description>
 			<time_of_day>07:00</time_of_day>
 			<distance_multiplier>0.5</distance_multiplier>
 			<level_image_name>mp_thumb_0mp1</level_image_name>
@@ -1885,7 +1887,7 @@
 			<glow_multiplier>3.2</glow_multiplier>
 			<alternate_glow_multiplier>1.6</alternate_glow_multiplier>
 			<ideal_min_players>2</ideal_min_players>
-			<ideal_max_players>8</ideal_max_players>
+			<ideal_max_players>6</ideal_max_players> <!--FROM 8-->
 			<Load_image>Warehouse</Load_image>
 			<demolition_damage_multiplier>0.9</demolition_damage_multiplier>
 		</mp_level_list>		
@@ -1898,7 +1900,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Size</Description>
 			<time_of_day>18:00</time_of_day>
 			<distance_multiplier>1.25</distance_multiplier>
 			<level_image_name>mp_thumb_warlords</level_image_name>
@@ -1933,7 +1935,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Mixer</Description>
 			<time_of_day>21:00</time_of_day>
 			<distance_multiplier>1.75</distance_multiplier>
 			<level_image_name>mp_thumb_wasteland</level_image_name>
@@ -1968,7 +1970,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Small Size</Description>
 			<time_of_day>10:30</time_of_day>
 			<distance_multiplier>1.0</distance_multiplier>
 			<level_image_name>mp_thumb_watchtower</level_image_name>
@@ -2003,7 +2005,7 @@
 			<player_weapons>
 				<Element>m16</Element>
 			</player_weapons>
-			<Description>0</Description>
+			<Description>Large Mixer</Description>
 			<time_of_day>17:30</time_of_day>
 			<distance_multiplier>1.5</distance_multiplier>
 			<level_image_name>mp_thumb_wreckage</level_image_name>
@@ -2055,6 +2057,7 @@
 				<Flag>bagman</Flag>
 				<Flag>team_bagman</Flag>
 				<Flag>demolition</Flag>
+				<Flag>siege</Flag>
 			</mode_flags>
 			<alternate_time_of_day>00:00</alternate_time_of_day>
 			<glow_multiplier>2.0</glow_multiplier>
