@@ -2,6 +2,46 @@
 <!--DLC ARROW:--> <!--[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TEXT HERE-->
 <!--COLOURED TEXT:--> <!--[format][color:#7851a9]TEXT HERE[/format]-->
 	<Entry>
+		<Identifier>TF_MPDCT_JUNKYARD_001</Identifier>
+		<String>KING OF THE SCRAP</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MPDCT_GULCH_002</Identifier>
+		<String>SILOS</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MPDCT_FROST_001</Identifier>
+		<String>CLIFFTOP</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MPDCT_FROST_002</Identifier>
+		<String>LAB</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MPDCT_EXPANSION_001</Identifier>
+		<String>NORTHSIDE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MPDCT_EXPANSION_002</Identifier>
+		<String>SOUTHSIDE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MPDCT_EXPANSION_003</Identifier>
+		<String>VALLEY</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MPDCT_ABANDONED_001</Identifier>
+		<String>GARAGE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MPDCT_ABANDONED_002</Identifier>
+		<String>SHACK</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MPDCT_ABANDONED_003</Identifier>
+		<String>ELEVATOR</String>
+	</Entry>	
+	<Entry>
 		<Identifier>TF_MPDCT_STRATOSPHERE_001</Identifier>
 		<String>SHIPPING CONTAINER 1</String>
 	</Entry>
