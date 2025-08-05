@@ -3,7 +3,7 @@
 <!--NOTE: Current max <Unique_ID>125</Unique_ID>, use 126 next when adding explosions-->	
 <!--START ADDED-->		
 		<Explosion>
-			<Name>TF_NANO_GRENADE</Name>
+			<Name>tf_nano_grenade</Name>
 			<Radius>1.2</Radius>
 			<AI_Sound_Radius>0</AI_Sound_Radius>
 			<vehicle_damage_max>300</vehicle_damage_max>
@@ -42,7 +42,7 @@
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>	
 		<Explosion>
-			<Name>TF_SMOKE_GRENADE</Name>
+			<Name>tf_smoke_grenade</Name>
 			<Radius>0.1</Radius>
 			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>-1</vehicle_damage_max>
@@ -76,7 +76,7 @@
 			<Always_Ragdoll>False</Always_Ragdoll>
 		</Explosion>		
 		<Explosion>
-			<Name>TF_GRENADE</Name>
+			<Name>tf_grenade</Name>
 			<Radius>5.0</Radius>
 			<AI_Sound_Radius>50</AI_Sound_Radius>
 			<vehicle_damage_max>900</vehicle_damage_max>
@@ -110,7 +110,7 @@
 			<Always_Ragdoll>True</Always_Ragdoll>
 		</Explosion>
 		<Explosion>
-			<Name>TF_ROCKET</Name>
+			<Name>tf_rocket</Name>
 			<Radius>3.65</Radius>
 			<AI_Sound_Radius>75</AI_Sound_Radius>
 			<vehicle_damage_max>3500</vehicle_damage_max>
