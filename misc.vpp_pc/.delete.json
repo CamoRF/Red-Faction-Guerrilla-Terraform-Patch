@@ -1,4 +1,6 @@
 [
     "mp_deadzone_mp_deadzone.dtodx",
-    "mp_garrison_mp_deadzone.dtodx"
+    "mp_garrison_mp_deadzone.dtodx",
+	"mp_radial.dtodx",
+	"mp_deadzone.dtodx"
 ]

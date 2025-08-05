@@ -1,0 +1,1521 @@
+<root>
+	<Table>
+<!--Comments compared to vanilla values-->	
+<!--TODO: Test if XP spam is fixed at end of match-->		
+		<event>
+			<Name>Win match</Name>
+			<event_description>HM_XP_WIN_MATCH_DESC</event_description>
+			<value>20</value>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<team_event>True</team_event>
+			<server_authoritative>False</server_authoritative>
+			<player_event>True</player_event>
+			<display_name>HM_XP_WIN_MATCH</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Finish match</Name>
+			<event_description>HM_XP_FINISH_MATCH_DESC</event_description>
+			<value>10</value>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<team_event>True</team_event>
+			<server_authoritative>False</server_authoritative>
+			<player_event>True</player_event>
+			<display_name>HM_XP_FINISH_MATCH</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+<!--END-->		
+		<event>
+			<Name>Kill</Name>
+			<value>6</value> <!--FROM 3-->
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<event_description>HM_XP_KILL_DESC</event_description>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<display_name>HM_XP_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Protect Siege target</Name>
+			<event_description>HM_XP_PROTECT_SIEGE_TEAM_DESC</event_description>
+			<value>6</value> <!--FROM 3-->
+			<_Editor>
+				<Category>Entries:Siege</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<display_name>HM_XP_PROTECT_SIEGE_TEAM</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<parameter>25</parameter>
+			<parameter_description>Enemy killed must be within X meters of target to trigger this</parameter_description>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Destroy Siege target team</Name>
+			<event_description>HM_XP_DSTRY_TARGET_TEAM_DESC</event_description>
+			<value>30</value> <!--FROM 15-->
+			<_Editor>
+				<Category>Entries:Siege</Category>
+			</_Editor>
+			<team_event>True</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>False</player_event>
+			<display_name>HM_XP_DSTRY_TARGET_TEAM</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Destroy Siege target</Name>
+			<event_description>HM_XP_DSTRY_TARGET_DESC</event_description>
+			<value>20</value> <!--FROM 10-->
+			<_Editor>
+				<Category>Entries:Siege</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<player_event>True</player_event>
+			<display_name>HM_XP_DSTRY_TARGET</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Destroy assist Siege target</Name>
+			<event_description>HM_XP_DSTRY_ASSIST_TARGET_DESC</event_description>
+			<value>4</value> <!--FROM 2-->
+			<_Editor>
+				<Category>Entries:Siege</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<player_event>True</player_event>
+			<display_name>HM_XP_DSTRY_ASSIST_TARGET</display_name>
+			<parameter>15</parameter>
+			<parameter_description>In meters, how close does the player have to be to the target?</parameter_description>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Deathmatch kill solo</Name>
+			<event_description>HM_XP_DM_KILL_SOLO_DESC</event_description>
+			<value>10</value> <!--FROM 5-->
+			<_Editor>
+				<Category>Entries:Deathmatch</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<display_name>HM_XP_DM_KILL_SOLO</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Deathmatch kill</Name>
+			<event_description>HM_XP_DM_KILL_DESC</event_description>
+			<value>4</value> <!--FROM 2-->
+			<_Editor>
+				<Category>Entries:Deathmatch</Category>
+			</_Editor>
+			<team_event>True</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>False</player_event>
+			<display_name>HM_XP_DM_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Hold King of the Hill target</Name>
+			<event_description>HM_XP_HOLD_TARGET_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<_Editor>
+				<Category>Entries:Damage Control</Category>
+			</_Editor>
+			<team_event>True</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>False</player_event>
+			<display_name>HM_XP_HOLD_TARGET</display_name>
+			<repeat_delay_ms>8000</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Repair assist King of the Hill target</Name>
+			<event_description>HM_XP_REPAIR_ASSIST_TARGET_DESC</event_description>
+			<value>4</value> <!--FROM 2-->
+			<_Editor>
+				<Category>Entries:Damage Control</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<player_event>True</player_event>
+			<display_name>HM_XP_REPAIR_ASSIST_TARGET</display_name>
+			<parameter>15</parameter>
+			<parameter_description>In meters, how close does the player have to be to the target?</parameter_description>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Repair King of the Hill target</Name>
+			<event_description>HM_XP_REPAIR_TARGET_DESC</event_description>
+			<value>10</value> <!--FROM 5-->
+			<_Editor>
+				<Category>Entries:Damage Control</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<player_event>True</player_event>
+			<display_name>HM_XP_REPAIR_TARGET</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Destroy assist King of the Hill target</Name>
+			<event_description>HM_XP_DSTRY_ASSIST_TARGET_DESC</event_description>
+			<value>4</value> <!--FROM 2-->
+			<_Editor>
+				<Category>Entries:Damage Control</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<player_event>True</player_event>
+			<display_name>HM_XP_DSTRY_ASSIST_DC_TARGET</display_name>
+			<parameter>15</parameter>
+			<parameter_description>In meters, how close does the player have to be to the target?</parameter_description>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Destroy King of the Hill target</Name>
+			<event_description>HM_XP_DSTRY_TARGET_DESC</event_description>
+			<value>10</value> <!--FROM 5-->
+			<_Editor>
+				<Category>Entries:Damage Control</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<player_event>True</player_event>
+			<display_name>HM_XP_DSTRY_DC_TARGET</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Protect King of the Hill target</Name>
+			<display_name>HM_XP_PROTECT_TARGET</display_name>
+			<event_description>HM_XP_PROTECT_TARGET_DESC</event_description>
+			<value>6</value> <!--FROM 3-->
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>10</parameter>
+			<parameter_description>Enemy killed must be within X meters of target to trigger this</parameter_description>
+			<_Editor>
+				<Category>Entries:Damage Control</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Protect flag</Name>
+			<event_description>HM_XP_PROTECT_FLAG_DESC</event_description>
+			<value>6</value> <!--FROM 3-->
+			<_Editor>
+				<Category>Entries:Capture the Flag</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<parameter>10</parameter>
+			<parameter_description>The enemy must be within (parameter) meters of the flag.</parameter_description>
+			<display_name>HM_XP_PROTECT_FLAG</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Protect flag carrier</Name>
+			<event_description>HM_XP_PROTECT_FLAG_CARRIER_DESC</event_description>
+			<value>6</value> <!--FROM 3-->
+			<_Editor>
+				<Category>Entries:Capture the Flag</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<parameter>10</parameter>
+			<parameter_description>The enemy must be within (parameter) meters of the flag carrier.</parameter_description>
+			<display_name>HM_XP_PROTECT_FLAG_CARRIER</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Kill flag carrier</Name>
+			<event_description>HM_XP_KILL_FLAG_CARRIER_DESC</event_description>
+			<value>10</value> <!--FROM 5-->
+			<_Editor>
+				<Category>Entries:Capture the Flag</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<display_name>HM_XP_KILL_FLAG_CARRIER</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Capture flag team</Name>
+			<event_description>HM_XP_CAPTURE_FLAG_TEAM_DESC</event_description>
+			<value>40</value> <!--FROM 20-->
+			<_Editor>
+				<Category>Entries:Capture the Flag</Category>
+			</_Editor>
+			<team_event>True</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>False</player_event>
+			<display_name>HM_XP_CAPTURE_FLAG_TEAM</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Capture flag</Name>
+			<event_description>HM_XP_CAPTURE_FLAG_DESC</event_description>
+			<value>40</value> <!--FROM 20-->
+			<_Editor>
+				<Category>Entries:Capture the Flag</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<display_name>HM_XP_CAPTURE_FLAG</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Bagman kill</Name>
+			<event_description>HM_XP_BAGMAN_KILL_DESC</event_description>
+			<value>10</value> <!--FROM 5-->
+			<_Editor>
+				<Category>Entries:Bagman</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<display_name>HM_XP_BAGMAN_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>True</bagman_locked>
+		</event>
+		<event>
+			<Name>Protect bagman</Name>
+			<event_description>HM_XP_PROTECT_BAGMAN_DESC</event_description>
+			<value>6</value> <!--FROM 3-->
+			<_Editor>
+				<Category>Entries:Bagman</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<parameter>10</parameter>
+			<parameter_description>The enemy must be within (parameter) meters of the bagman.</parameter_description>
+			<display_name>HM_XP_PROTECT_BAGMAN</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>True</bagman_locked>
+		</event>
+		<event>
+			<Name>Kill bagman</Name>
+			<event_description>HM_XP_KILL_BAGMAN_DESC</event_description>
+			<value>10</value> <!--FROM 5-->
+			<_Editor>
+				<Category>Entries:Bagman</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<display_name>HM_XP_KILL_BAGMAN</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>True</bagman_locked>
+		</event>
+		<event>
+			<Name>Hold bag team</Name>
+			<event_description>HM_XP_HOLD_BAG_TEAM_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<_Editor>
+				<Category>Entries:Bagman</Category>
+			</_Editor>
+			<team_event>True</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>False</player_event>
+			<display_name>HM_XP_HOLD_BAG_TEAM</display_name>
+			<repeat_delay_ms>5000</repeat_delay_ms>
+			<bagman_locked>True</bagman_locked>
+		</event>
+		<event>
+			<Name>Hold bag</Name>
+			<event_description>HM_XP_HOLD_BAG_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<_Editor>
+				<Category>Entries:Bagman</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<display_name>HM_XP_HOLD_BAG</display_name>
+			<repeat_delay_ms>10000</repeat_delay_ms>
+			<bagman_locked>True</bagman_locked>
+		</event>
+		<event>
+			<Name>Pick up bag</Name>
+			<event_description>HM_XP_PICKUP_BAG_DESC</event_description>
+			<value>4</value> <!--FROM 2-->
+			<_Editor>
+				<Category>Entries:Bagman</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<display_name>HM_XP_PICKUP_BAG</display_name>
+			<repeat_delay_ms>15000</repeat_delay_ms>
+			<bagman_locked>True</bagman_locked>
+		</event>
+		<event>
+			<Name>Hold bag solo</Name>
+			<event_description>HM_XP_HOLD_BAG_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<_Editor>
+				<Category>Entries:Bagman</Category>
+			</_Editor>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>True</player_event>
+			<display_name>HM_XP_HOLD_BAG_SOLO</display_name>
+			<repeat_delay_ms>3000</repeat_delay_ms>
+			<bagman_locked>True</bagman_locked>
+		</event>
+		<event>
+			<Name>Back off kill</Name>
+			<event_description>HM_XP_BACK_OFF_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 53-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<parameter>3</parameter>
+			<parameter_description>Maximum meters away the enemy is</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_BACK_OFF_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Backfire</Name>
+			<display_name>HM_XP_BACKFIRE</display_name>
+			<event_description>HM_XP_BACKFIRE_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 59-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Backwhat</Name>
+			<display_name>HM_XP_BACKWHAT</display_name>
+			<event_description>HM_XP_BACKWHAT_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 33-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Barrel kill</Name>
+			<event_description>HM_XP_BARREL_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 73-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_BARREL_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Blindside</Name>
+			<display_name>HM_XP_BLINDSIDE</display_name>
+			<event_description>HM_XP_BLINDSIDE_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 89-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>BBQ</Name>
+			<display_name>HM_XP_BBQ</display_name>
+			<event_description>HM_XP_BBQ_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 87-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>1000</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Bunny kill</Name>
+			<event_description>HM_XP_BUNNY_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 83-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_BUNNY_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Camper</Name>
+			<display_name>HM_XP_CAMPER</display_name>
+			<event_description>HM_XP_CAMPER_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 115-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Charge kill</Name>
+			<event_description>HM_XP_CHARGE_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 63-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_CHARGE_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Cliff kill</Name>
+			<event_description>HM_XP_CLIFF_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 39-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_CLIFF_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Death from above</Name>
+			<display_name>HM_XP_DEATH_FROM_ABOVE</display_name>
+			<event_description>HM_XP_DEATH_FROM_ABOVE_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 26-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Death from below</Name>
+			<display_name>HM_XP_DEATH_FROM_BELOW</display_name>
+			<event_description>HM_XP_DEATH_FROM_BELOW_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 101-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Debris kill</Name>
+			<event_description>HM_XP_DEBRIS_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 20-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_DEBRIS_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Direct hit kill</Name>
+			<event_description>HM_XP_DIRECT_HIT_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 56-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_DIRECT_HIT_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Doing it wrong</Name>
+			<display_name>HM_XP_DOING_IT_WRONG</display_name>
+			<event_description>HM_XP_DOING_IT_WRONG_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 61-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Doubleback</Name>
+			<display_name>HM_XP_DOUBLEBACK</display_name>
+			<event_description>HM_XP_DOUBLEBACK_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 108-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Easy kill</Name>
+			<event_description>HM_XP_EASY_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 99-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_EASY_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Flagman</Name>
+			<display_name>HM_XP_FLAGMAN</display_name>
+			<event_description>HM_XP_FLAGMAN_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 75-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Flying kill</Name>
+			<event_description>HM_XP_FLYING_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 77-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<parameter>1</parameter>
+			<parameter_description>Seconds after you jump/fall (last touching ground)</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_FLYING_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Full control</Name>
+			<display_name>HM_XP_FULL_CONTROL</display_name>
+			<event_description>HM_XP_FULL_CONTROL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 47-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Ghost kill</Name>
+			<event_description>HM_XP_GHOST_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 55-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_GHOST_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Good timing</Name>
+			<event_description>HM_XP_GOOD_TIMING_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 85-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_GOOD_TIMING</display_name>
+			<repeat_delay_ms>10000</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Group knockdown</Name>
+			<event_description>HM_XP_GROUP_KNOCKDOWN_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 36-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>2</parameter>
+			<parameter_description>Minimum number of enemies knocked down</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_GROUP_KNOCKDOWN</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Hail Mary</Name>
+			<display_name>HM_XP_HAIL_MARY</display_name>
+			<event_description>HM_XP_HAIL_MARY_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 71-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>40</parameter>
+			<parameter_description>Enemy distance from player</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Headshot kill</Name>
+			<event_description>HM_XP_HEADSHOT_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 42-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_HEADSHOT_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Heal teammate</Name>
+			<event_description>HM_XP_HEAL_TEAMMATE_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 7-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<parameter>0.5</parameter>
+			<parameter_description>How much percentage you must heal a player to get this event</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_HEAL_TEAMMATE</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Kill assist</Name>
+			<value>2</value> <!--FROM 1-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<event_description>HM_XP_ASSIST_DESC</event_description>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<player_event>True</player_event>
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 4-->
+			</bonus>
+			<parameter>0.1</parameter>
+			<parameter_description>Ratio of damage required to get an assist</parameter_description>
+			<display_name>HM_XP_ASSIST</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Kill streak</Name>
+			<event_description>HM_XP_KILL_STREAK_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 32-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>5</parameter>
+			<parameter_description>Kills in a row</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_KILL_STREAK</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Kung fu kill</Name>
+			<event_description>HM_XP_KUNF_FU_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 70-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_KUNF_FU_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Lined up</Name>
+			<display_name>HM_XP_LINED_UP</display_name>
+			<event_description>HM_XP_LINED_UP_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 105-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Melee kill</Name>
+			<event_description>HM_XP_MELEE_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 21-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_MELEE_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Multiple kills</Name>
+			<event_description>HM_XP_MULTIPLE_KILLS_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 49-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<parameter>3</parameter>
+			<parameter_description>Seconds since initial kill</parameter_description>
+			<display_name>HM_XP_MULTIPLE_KILLS</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>No problem</Name>
+			<display_name>HM_XP_NO_PROBLEM</display_name>
+			<event_description>HM_XP_NO_PROBLEM_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 117-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Pack hunter</Name>
+			<display_name>HM_XP_PACK_HUNTER</display_name>
+			<event_description>HM_XP_PACK_HUNTER_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 10-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>5</parameter>
+			<parameter_description>Distance to teammate</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Power overwhelming</Name>
+			<display_name>HM_XP_POWER_OVERWHELMING</display_name>
+			<event_description>HM_XP_POWER_OVERWHELMING_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 66-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Rescue kill</Name>
+			<display_name>HM_XP_RESCUE_KILL</display_name>
+			<event_description>HM_XP_RESCUE_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 12-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>5</parameter>
+			<parameter_description>You or the enemy has to be within X meters of a downed teammate.</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Retaliation kill</Name>
+			<event_description>HM_XP_RETALIATION_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 17-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>5</parameter>
+			<parameter_description>Maximum seconds since teammate killed</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_RETALIATION_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Revenge kill</Name>
+			<event_description>HM_XP_REVENGE_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 91-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>15</parameter>
+			<parameter_description>Maximum seconds since respawn</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_REVENGE_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Shaken not stirred</Name>
+			<display_name>HM_XP_SHAKEN_NOT_STIRRED</display_name>
+			<event_description>HM_XP_SHAKEN_NOT_STIRRED_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 80-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Sharpshooter</Name>
+			<display_name>HM_XP_SHARPSHOOTER</display_name>
+			<event_description>HM_XP_SHARPSHOOTER_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 96-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>60</parameter>
+			<parameter_description>Distance from player to enemy</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Sticky kill</Name>
+			<event_description>HM_XP_STICKY_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 41-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_STICKY_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Sticky save</Name>
+			<event_description>HM_XP_STICKY_SAVE_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 27-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_STICKY_SAVE</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Streak stopper</Name>
+			<event_description>HM_XP_STREAK_STOPPER_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 23-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>5</parameter>
+			<parameter_description>Kill streak enemy must be on</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_STREAK_STOPPER</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Survivor</Name>
+			<event_description>HM_XP_SURVIVOR_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 29-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<parameter>0.333</parameter>
+			<parameter_description>Health amount before healing</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_SURVIVOR</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Synchronized kill</Name>
+			<display_name>HM_XP_SYNC_KILL</display_name>
+			<event_description>HM_XP_SYNC_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 14-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>10</parameter>
+			<parameter_description>You have to be within X meters of the teammate.</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Taste the rainbow</Name>
+			<display_name>HM_XP_TASTE_THE_RAINBOW</display_name>
+			<event_description>HM_XP_TASTE_THE_RAINBOW_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 103-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Vertigo</Name>
+			<display_name>HM_XP_VERTIGO</display_name>
+			<event_description>HM_XP_VERTIGO_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 113-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>0.7</parameter>
+			<parameter_description>Maximum dot product required. Range is 0 to 1, the lower it is, the further above/below the enemy needs to be.</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Whos number one</Name>
+			<display_name>HM_XP_WHOS_NUMBER_ONE</display_name>
+			<event_description>HM_XP_WHOS_NUMBER_ONE_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 45-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>X-ray kill</Name>
+			<event_description>HM_XP_XRAY_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 94-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_XRAY</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Zombie kill</Name>
+			<event_description>HM_XP_ZOMBIE_KILL_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<bonus>
+				<minimum_level>0</minimum_level> <!--FROM 111-->
+			</bonus>
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>0.1</parameter>
+			<parameter_description>How many seconds after you die until eligible</parameter_description>
+			<_Editor>
+				<Category>Entries:Bonuses</Category>
+			</_Editor>
+			<display_name>HM_XP_ZOMBIE_KILL</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Demolition</Name>
+			<display_name>HM_XP_DEMOLITION</display_name>
+			<event_description>HM_XP_DEMOLITION_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>8</parameter>
+			<parameter_description>How many points until this event is triggered?</parameter_description>
+			<_Editor>
+				<Category>Entries:Demolition</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Demolition team</Name>
+			<display_name>HM_XP_DEMOLITION_TEAM</display_name>
+			<event_description>HM_XP_DEMOLITION_TEAM_DESC</event_description>
+			<value>2</value> <!--FROM 1-->
+			<player_event>False</player_event>
+			<team_event>True</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>8</parameter>
+			<parameter_description>How many points until this event is triggered?</parameter_description>
+			<_Editor>
+				<Category>Entries:Demolition</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Kill engineer</Name>
+			<display_name>HM_XP_KILL_ENGINEER</display_name>
+			<event_description>HM_XP_KILL_ENGINEER_DESC</event_description>
+			<value>10</value> <!--FROM 5-->
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Demolition</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Protect engineer</Name>
+			<display_name>HM_XP_PROTECT_ENGINEER</display_name>
+			<event_description>HM_XP_PROTECT_ENGINEER_DESC</event_description>
+			<value>6</value> <!--FROM 3-->
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<parameter>10</parameter>
+			<parameter_description>How close does the player have to be to the engineer to earn this?</parameter_description>
+			<_Editor>
+				<Category>Entries:Demolition</Category>
+			</_Editor>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Pick up flag</Name>
+			<display_name>HM_XP_PICK_UP_FLAG</display_name>
+			<event_description>HM_XP_PICK_UP_FLAG_DESC</event_description>
+			<value>4</value> <!--FROM 2-->
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Capture the Flag</Category>
+			</_Editor>
+			<repeat_delay_ms>15000</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Return flag</Name>
+			<display_name>HM_XP_RETURN_FLAG</display_name>
+			<event_description>HM_XP_RETURN_FLAG_DESC</event_description>
+			<value>4</value> <!--FROM 2-->
+			<player_event>True</player_event>
+			<team_event>False</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<_Editor>
+				<Category>Entries:Capture the Flag</Category>
+			</_Editor>
+			<repeat_delay_ms>15000</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+		<event>
+			<Name>Defend Siege target</Name>
+			<event_description>HM_XP_DEFEND_SIEGE_TARGET_DESC</event_description>
+			<value>30</value> <!--FROM 15-->
+			<_Editor>
+				<Category>Entries:Siege</Category>
+			</_Editor>
+			<team_event>True</team_event>
+			<server_authoritative>True</server_authoritative> <!--FROM False-->
+			<player_event>False</player_event>
+			<display_name>HM_XP_DEFEND_SIEGE_TARGET</display_name>
+			<repeat_delay_ms>0</repeat_delay_ms>
+			<bagman_locked>False</bagman_locked>
+		</event>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>event</Name>
+		<Type>TableDescription</Type>
+		<Display_Name>Event</Display_Name>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>display_name</Name>
+			<Type>String</Type>
+			<Display_Name>Display name</Display_Name>
+			<Default>!! display_name !!</Default>
+			<MaxLength>32</MaxLength>
+		</Element>
+		<Element>
+			<Name>event_description</Name>
+			<Type>String</Type>
+			<Display_Name>Event description</Display_Name>
+			<Description>What is this event for?</Description>
+			<Default>!! add description !!</Default>
+			<MultiLine>true</MultiLine>
+		</Element>
+		<Element>
+			<Name>value</Name>
+			<Type>Int</Type>
+			<Display_Name>XP Value</Display_Name>
+			<Default>1</Default>
+		</Element>
+		<Element>
+			<Name>repeat_delay_ms</Name>
+			<Type>Int</Type>
+			<Display_Name>Repeat delay (ms)</Display_Name>
+			<Description>How often can this XP event be gained?</Description>
+			<Default>0</Default>
+			<MinValue>0</MinValue>
+		</Element>
+		<Element>
+			<Name>bonus</Name>
+			<Type>Element</Type>
+			<Display_Name>Bonus event</Display_Name>
+			<Description>Is this a bonus XP event, meaning it doesn't affect the player's score?</Description>
+			<Required>false</Required>
+			<Element>
+				<Name>minimum_level</Name>
+				<Type>Int</Type>
+				<Display_Name>Minimum level</Display_Name>
+				<Description>At what level does this bonus event get unlocked?</Description>
+				<Default>1</Default>
+			</Element>
+		</Element>
+		<Element>
+			<Name>player_event</Name>
+			<Type>Selection</Type>
+			<Display_Name>Player event</Display_Name>
+			<Description>Can this event be triggered for a single player?</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>team_event</Name>
+			<Type>Selection</Type>
+			<Display_Name>Team event</Display_Name>
+			<Description>Can this event be triggered for a whole team?</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>server_authoritative</Name>
+			<Type>Selection</Type>
+			<Display_Name>Server authoritative</Display_Name>
+			<Description>Is the server responsible for telling all other players when this event triggers?</Description>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+		<Element>
+			<Name>parameter</Name>
+			<Type>Float</Type>
+			<Display_Name>Event parameter</Display_Name>
+			<Description>Some events use this parameter. Some don't. See your local event dealer for details.</Description>
+			<Required>false</Required>
+			<Default>0.0</Default>
+		</Element>
+		<Element>
+			<Name>parameter_description</Name>
+			<Type>String</Type>
+			<Display_Name>Event parameter description</Display_Name>
+			<Description>What is the event parameter used for (if anything) for this event? This field is not read into the game.</Description>
+			<Required>false</Required>
+			<MultiLine>true</MultiLine>
+		</Element>
+		<Element>
+			<Name>bagman_locked</Name>
+			<Type>Selection</Type>
+			<Display_Name>Bagman Locked</Display_Name>
+			<Default>False</Default>
+			<Choice>True</Choice>
+			<Choice>False</Choice>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+			<Category>
+				<Name>Bonuses</Name>
+			</Category>
+			<Category>
+				<Name>Siege</Name>
+			</Category>
+			<Category>
+				<Name>Deathmatch</Name>
+			</Category>
+			<Category>
+				<Name>Damage Control</Name>
+			</Category>
+			<Category>
+				<Name>Capture the Flag</Name>
+			</Category>
+			<Category>
+				<Name>Bagman</Name>
+			</Category>
+			<Category>
+				<Name>Demolition</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

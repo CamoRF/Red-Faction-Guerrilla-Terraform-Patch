@@ -1,5 +1,5 @@
 <root>
-	<Table>
+	<Table>		
 		<mp_level_list>
 			<Name>Abandoned</Name>
 			<Filename>mp_abandoned</Filename> <!--FROM wcdlc6-->
@@ -35,6 +35,39 @@
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>dlc03wc6</Load_image>
 			<demolition_damage_multiplier>0.65</demolition_damage_multiplier>
+		</mp_level_list>		
+		<mp_level_list>
+			<Name>Aerial Excavation</Name>
+			<Filename>mp_aerial_excavation</Filename> <!--FROM mp_partial_recall-->
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>Medium Size</Description>
+			<time_of_day>19:00</time_of_day>
+			<distance_multiplier>1.0</distance_multiplier>
+			<level_image_name>mp_thumb_0mp5</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>25</wind_intensity>
+			<wind_direction>190</wind_direction>
+			<Display_name>TF_MENU_LEVEL_PARTIAL_RECALL</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>19:00</alternate_time_of_day>
+			<glow_multiplier>2.2</glow_multiplier>
+			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
+			<ideal_min_players>2</ideal_min_players>
+			<ideal_max_players>8</ideal_max_players>
+			<Load_image>Aerial Excavation</Load_image>
+			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
 		</mp_level_list>
 		<mp_level_list>
 			<Name>Broadside</Name>
@@ -105,41 +138,6 @@
 			<ideal_max_players>8</ideal_max_players>
 			<Load_image>Cascade</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>
-		<mp_level_list>
-			<Name>Cliffside</Name>
-			<Filename>mp_cliffside</Filename>
-			<_Editor>
-				<Category>Entries:General</Category>
-			</_Editor>
-			<player_weapons>
-				<Element>m16</Element>
-			</player_weapons>
-			<Description>Medium Size</Description>
-			<time_of_day>15:00</time_of_day>
-			<distance_multiplier>1.25</distance_multiplier>
-			<level_image_name>mp_thumb_0mp4</level_image_name>
-			<dust_enabled>False</dust_enabled>
-			<wind_intensity>60.0</wind_intensity>
-			<wind_direction>315.0</wind_direction>
-			<Display_name>TF_MENU_LEVEL_CLIFFSIDE</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>deathmatch</Flag>
-				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
-				<Flag>capture_the_flag</Flag>
-				<Flag>king_of_the_hill</Flag>
-				<Flag>demolition</Flag>
-			</mode_flags>
-			<alternate_time_of_day>15:00</alternate_time_of_day>
-			<glow_multiplier>6</glow_multiplier>
-			<alternate_glow_multiplier>7</alternate_glow_multiplier>
-			<ideal_min_players>6</ideal_min_players>
-			<ideal_max_players>10</ideal_max_players>
-			<Load_image>Cliffside</Load_image>
-			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
 		</mp_level_list>		
 		<mp_level_list>
 			<Name>Complex</Name>
@@ -530,6 +528,41 @@
 			<Load_image>Equilibrium</Load_image>
 			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
 		</mp_level_list>
+		<mp_level_list>
+			<Name>Equilibrium Koth</Name>
+			<Filename>mp_equilibrium_koth</Filename> <!--FROM mp_cliffside-->
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>Medium Size</Description>
+			<time_of_day>15:00</time_of_day>
+			<distance_multiplier>1.25</distance_multiplier>
+			<level_image_name>mp_thumb_0mp4</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>60.0</wind_intensity>
+			<wind_direction>315.0</wind_direction>
+			<Display_name>TF_MENU_LEVEL_EQUILIBRIUM_KOTH</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>deathmatch</Flag>
+				<Flag>team_deathmatch</Flag>
+				<Flag>bagman</Flag>
+				<Flag>team_bagman</Flag>
+				<Flag>capture_the_flag</Flag>
+				<Flag>king_of_the_hill</Flag>
+				<Flag>demolition</Flag>
+			</mode_flags>
+			<alternate_time_of_day>15:00</alternate_time_of_day>
+			<glow_multiplier>6</glow_multiplier>
+			<alternate_glow_multiplier>7</alternate_glow_multiplier>
+			<ideal_min_players>6</ideal_min_players>
+			<ideal_max_players>10</ideal_max_players>
+			<Load_image>Equilibrium Koth</Load_image>
+			<demolition_damage_multiplier>1.7</demolition_damage_multiplier>
+		</mp_level_list>		
 		<mp_level_list>
 			<Name>Excavation</Name>
 			<Filename>mp_excavation</Filename>
@@ -1163,39 +1196,6 @@
 			<ideal_max_players>16</ideal_max_players>
 			<Load_image>Overpass</Load_image>
 			<demolition_damage_multiplier>1</demolition_damage_multiplier>
-		</mp_level_list>
-		<mp_level_list>
-			<Name>Partial Recall</Name>
-			<Filename>mp_partial_recall</Filename>
-			<_Editor>
-				<Category>Entries:General</Category>
-			</_Editor>
-			<player_weapons>
-				<Element>m16</Element>
-			</player_weapons>
-			<Description>Medium Size</Description>
-			<time_of_day>19:00</time_of_day>
-			<distance_multiplier>1.0</distance_multiplier>
-			<level_image_name>mp_thumb_0mp5</level_image_name>
-			<dust_enabled>False</dust_enabled>
-			<wind_intensity>25</wind_intensity>
-			<wind_direction>190</wind_direction>
-			<Display_name>TF_MENU_LEVEL_PARTIAL_RECALL</Display_name>
-			<options_set>Default</options_set>
-			<mode_flags>
-				<Flag>deathmatch</Flag>
-				<Flag>team_deathmatch</Flag>
-				<Flag>bagman</Flag>
-				<Flag>team_bagman</Flag>
-				<Flag>demolition</Flag>
-			</mode_flags>
-			<alternate_time_of_day>19:00</alternate_time_of_day>
-			<glow_multiplier>2.2</glow_multiplier>
-			<alternate_glow_multiplier>5.0</alternate_glow_multiplier>
-			<ideal_min_players>2</ideal_min_players>
-			<ideal_max_players>8</ideal_max_players>
-			<Load_image>Partial Recall</Load_image>
-			<demolition_damage_multiplier>1.0</demolition_damage_multiplier>
 		</mp_level_list>		
 		<mp_level_list>
 			<Name>Pinnacle</Name> <!--Could be used for a new siege map with different assets like the ones from Cornered or Gauntlet-->
@@ -1232,6 +1232,35 @@
 			<Load_image>Pinnacle</Load_image>
 			<demolition_damage_multiplier>2.2</demolition_damage_multiplier>
 		</mp_level_list>
+		<mp_level_list>
+			<Name>Pinpoint Pinnacle</Name>
+			<Filename>mp_pinpoint_pinnacle</Filename>
+			<_Editor>
+				<Category>Entries:General</Category>
+			</_Editor>
+			<player_weapons>
+				<Element>m16</Element>
+			</player_weapons>
+			<Description>Large Size</Description>
+			<time_of_day>18:30</time_of_day>
+			<distance_multiplier>1.25</distance_multiplier>
+			<level_image_name>mp_thumb_pinnacle</level_image_name>
+			<dust_enabled>False</dust_enabled>
+			<wind_intensity>95.0</wind_intensity>
+			<wind_direction>175</wind_direction>
+			<Display_name>TF_MENU_LEVEL_PINPOINT_PINNACLE</Display_name>
+			<options_set>Default</options_set>
+			<mode_flags>
+				<Flag>team_deathmatch</Flag>
+			</mode_flags>
+			<alternate_time_of_day>07:00</alternate_time_of_day>
+			<glow_multiplier>4.5</glow_multiplier>
+			<alternate_glow_multiplier>9.0</alternate_glow_multiplier>
+			<ideal_min_players>8</ideal_min_players>
+			<ideal_max_players>12</ideal_max_players>
+			<Load_image>Pinnacle</Load_image>
+			<demolition_damage_multiplier>2.2</demolition_damage_multiplier>
+		</mp_level_list>		
 		<mp_level_list>
 			<Name>Pipeline</Name>
 			<Filename>mp_pipeline</Filename> <!--FROM wc10-->

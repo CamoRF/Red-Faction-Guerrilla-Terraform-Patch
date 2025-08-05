@@ -1,0 +1,144 @@
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_1</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 1</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_2</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 2</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_3</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 3</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_4</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 4</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_5</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 5</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_6</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 6</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_7</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 7</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_8</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 8</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_9</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 9</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_10</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 10</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_11</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 11</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_12</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 12</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_13</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 13</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_14</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 14</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_PLACEHOLDER_15</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PLACEHOLDER 15</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_WEAPON_EDF_FLAG</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EDF FLAG</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_WEAPON_GUERRILLA_FLAG</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RF FLAG</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_NO_HAMMER</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]NO HAMMER</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_AVALNCHE</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]AVALANCHE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_SHANTY_TOWN</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SHANTY TOWN</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_RAVINE_STATION</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]RAVINE STATION</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_IRONWORKS_FRAGMENT</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IRONWORKS FRAGMENT</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_BROKEN_SALVAGE</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]BROKEN SALVAGE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_IRONREACH</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IRON REACH</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_EOS_JUNCTION</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]EOS JUNCTION</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_DUSTSPIRE_RIDGE</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]DUSTSPIRE RIDGE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_NOVA_FORGE</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]NOVA FORGE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_IRONWELL_CANYON</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]IRONWELL CANYON</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_SHARDLINE_DEPOT</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SHARDLINE DEPOT</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_PANDEMONIUM</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]PANDEMONIUM</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_SCAFFOLD</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]SCAFFOLD</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_ECHO_RIDGE</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]ECHO RIDGE</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_OBLIVION_STRIP</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]OBLIVION STRIP</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_FOUNDRY_6B</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]FOUNDRY 6B</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_MARAUDERS_HOLLOW</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]MARAUDERS HOLLOW</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_CRATER_RUN</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]CRATER RUN</String>
+	</Entry>	

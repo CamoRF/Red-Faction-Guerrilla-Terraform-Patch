@@ -2,7 +2,7 @@
 	<Table>
 <!--Current max <Unique_ID>212</Unique_ID>, use 213 for next weapon-->			
 		<Weapon>
-			<Name>gauss_rifle</Name>
+			<Name>tf_charge_launcher</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>projectile</Ammo_Type>
@@ -33,7 +33,7 @@
 			<Spread_Multiplier_Run>0.8</Spread_Multiplier_Run>
 			<_Editor>
 				<Category>Entries:EDF</Category>
-				<Comments>modified base weapon data</Comments>
+				<Comments>Gauss rifle that fires remote charges</Comments>
 			</_Editor>
 			<Ragdoll_Force_Shoot>13.0</Ragdoll_Force_Shoot>
 			<MeleeAttacks>
@@ -51,7 +51,7 @@
 				<Flag>is obvious weapon</Flag>
 				<Flag>mp selectable</Flag>				
 			</Flags>
-			<Inventory_Item>gauss_rifle</Inventory_Item>
+			<Inventory_Item>tf_charge_launcher</Inventory_Item>
 			<Item_3d>gauss_rifle</Item_3d>
 			<Recoil_Kick>0</Recoil_Kick>
 			<Sounds>
@@ -722,7 +722,7 @@
 			<Bullet_hole_scale>0.8</Bullet_hole_scale>
 		</Weapon>-->		
 		<Weapon>
-			<Name>TF_SMOKE_GRENADE</Name>
+			<Name>tf_smoke_grenade</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>thrown</Ammo_Type>
@@ -737,7 +737,7 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Explosion>TF_SMOKE_GRENADE</Explosion>
+			<Explosion>tf_smoke_grenade</Explosion>
 			<Spread_Max>1</Spread_Max>
 			<Spread_Min>1</Spread_Min>
 			<Projectile_Info>
@@ -783,8 +783,8 @@
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>25</Max_Engagement_Distance>
-			<Inventory_Item>TF_SMOKE_GRENADE</Inventory_Item>
-			<Item_3d>TF_SMOKE_GRENADE</Item_3d>
+			<Inventory_Item>tf_smoke_grenade</Inventory_Item>
+			<Item_3d>tf_smoke_grenade</Item_3d>
 			<MeleeAttacks>
 				<StandingPrimary>remote_charge_melee</StandingPrimary>
 				<StandingSecondary>remote_charge_punch</StandingSecondary>
@@ -818,7 +818,7 @@
 			<reticule_name>ui_hud_reti_mines</reticule_name>
 		</Weapon>
 		<Weapon>
-			<Name>TF_LMG</Name>
+			<Name>tf_lmg</Name>
 			<Weapon_Class>bullet</Weapon_Class>
 			<Trigger_Type>automatic</Trigger_Type>
 			<Ammo_Type>bullet</Ammo_Type>
@@ -874,8 +874,8 @@
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>60</Max_Engagement_Distance>
-			<Inventory_Item>TF_LMG</Inventory_Item>
-			<Item_3d>TF_LMG</Item_3d>
+			<Inventory_Item>tf_lmg</Inventory_Item>
+			<Item_3d>tf_lmg</Item_3d>
 			<Sounds>
 				<Fire_Sound>WEP_TUR_MACHINE_PC_ATTACK</Fire_Sound>
 				<Sound_Radius>70</Sound_Radius>
@@ -914,7 +914,7 @@
 			<Bullet_hole_scale>1.25</Bullet_hole_scale>
 		</Weapon>		
 		<Weapon>
-			<Name>TF_GRENADE</Name>
+			<Name>tf_grenade</Name>
 			<Weapon_Class>thrown_charge</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>thrown</Ammo_Type>
@@ -929,7 +929,7 @@
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Max>
-			<Explosion>TF_GRENADE</Explosion>
+			<Explosion>tf_grenade</Explosion>
 			<Spread_Max>1</Spread_Max>
 			<Spread_Min>1</Spread_Min>
 			<Projectile_Info>
@@ -976,8 +976,8 @@
 			</Flags>
 			<Min_Engagement_Distance>0.0</Min_Engagement_Distance>
 			<Max_Engagement_Distance>25</Max_Engagement_Distance>
-			<Inventory_Item>TF_GRENADE</Inventory_Item>
-			<Item_3d>TF_GRENADE</Item_3d>
+			<Inventory_Item>tf_grenade</Inventory_Item>
+			<Item_3d>tf_grenade</Item_3d>
 			<MeleeAttacks>
 				<StandingPrimary>remote_charge_melee</StandingPrimary>
 				<StandingSecondary>remote_charge_punch</StandingSecondary>
@@ -1011,7 +1011,7 @@
 			<reticule_name>ui_hud_reti_mines</reticule_name>
 		</Weapon>			
 		<Weapon>
-			<Name>TF_GUTTER</Name>
+			<Name>tf_gutter</Name>
 			<Weapon_Class>melee_sledgehammer</Weapon_Class>
 			<Trigger_Type>single</Trigger_Type>
 			<Ammo_Type>melee</Ammo_Type>
@@ -1056,8 +1056,8 @@
 				<StandingTertiary>gutter stand overhead</StandingTertiary>
 				<CrouchingTertiary>gutter stand overhead</CrouchingTertiary>
 			</MeleeAttacks>
-			<Inventory_Item>TF_GUTTER</Inventory_Item>
-			<Item_3d>TF_GUTTER</Item_3d>
+			<Inventory_Item>tf_gutter</Inventory_Item>
+			<Item_3d>tf_gutter</Item_3d>
 			<Acceleration>0.0</Acceleration>
 			<Visuals>
 				<Attachment_prop>holster-hammer</Attachment_prop>

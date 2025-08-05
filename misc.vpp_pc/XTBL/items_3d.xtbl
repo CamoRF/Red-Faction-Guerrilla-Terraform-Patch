@@ -2,7 +2,32 @@
 	<Table>
 <!--START ADDED-->	
 		<Item>
-			<Name>TF_NANO_GRENADE</Name>
+			<Name>tf_charge_launcher</Name>
+			<Spin_Time>5000</Spin_Time>	
+			<Respawn_Delay>45000</Respawn_Delay>
+			<Touch_Script>give_item</Touch_Script>			
+			<Item_Flags>
+				<Flag>spin</Flag>
+			</Item_Flags>
+			<Props>
+				<Prop>
+					<Name>gauss_clip</Name>
+					<Attach_tag>Clip_bone</Attach_tag>
+					<Type>clip</Type>
+				</Prop>
+			</Props>
+			<Touch_Sound>SYS_WEP_GUN_PICKUP</Touch_Sound>
+			<Touch_Sound_2>SYS_WEP_AMMO_PICKUP</Touch_Sound_2>
+			<streaming_category>General</streaming_category>
+			<Mesh>
+				<Filename>tf_charge_launcher.smeshx</Filename>
+			</Mesh>
+			<_Editor>
+				<Category>Entries:WeaponEDF</Category>
+			</_Editor>			
+		</Item>
+		<Item>
+			<Name>tf_nano_grenade</Name>
 			<Spin_Time>5000</Spin_Time>
 			<Respawn_Delay>30000</Respawn_Delay>			
 			<Touch_Script>give_item</Touch_Script>
@@ -23,7 +48,7 @@
 			</_Editor>			
 		</Item>		
 		<Item>
-			<Name>TF_SMOKE_GRENADE</Name>
+			<Name>tf_smoke_grenade</Name>
 			<Spin_Time>5000</Spin_Time>
 			<Respawn_Delay>30000</Respawn_Delay>			
 			<Touch_Script>give_item</Touch_Script>
@@ -44,7 +69,7 @@
 			</_Editor>			
 		</Item>		
 		<Item>
-			<Name>TF_GUTTER</Name>
+			<Name>tf_gutter</Name>
 			<_Editor>
 				<Category>Entries:WeaponMarauder</Category>
 			</_Editor>
@@ -108,7 +133,7 @@
 			</_Editor>			
 		</Item>
 		<Item>
-			<Name>TF_LMG</Name>
+			<Name>tf_lmg</Name>
 			<Spin_Time>5000</Spin_Time>		
 			<Respawn_Delay>60000</Respawn_Delay>			
 			<Touch_Script>give_item</Touch_Script>	
@@ -149,7 +174,7 @@
 			</_Editor>			
 		</Item>		
 		<Item>
-			<Name>TF_GRENADE</Name>
+			<Name>tf_grenade</Name>
 			<Spin_Time>5000</Spin_Time>
 			<Respawn_Delay>30000</Respawn_Delay>			
 			<Touch_Script>give_item</Touch_Script>

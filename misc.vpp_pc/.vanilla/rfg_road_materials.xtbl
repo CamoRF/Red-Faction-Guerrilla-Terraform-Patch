@@ -1,0 +1,190 @@
+<root>
+<Table>
+	<road_material>
+		<Name>Parker Path</Name>
+		<diffuse>
+			<Filename>prk_default_path_d.tga</Filename>
+			</diffuse>
+		<material>Gravel</material>
+		<_Editor>
+			<Category>Entries:Parker</Category>
+			</_Editor>
+		</road_material>
+	<road_material>
+		<Name>Oasis Concrete Panels</Name>
+		<diffuse>
+			<Filename>oas_grnd_concrt_01_d.tga</Filename>
+			</diffuse>
+		<material>Concrete</material>
+		<_Editor>
+			<Category>Entries:Oasis</Category>
+			</_Editor>
+		</road_material>
+	<road_material>
+		<Name>Dust Dirt</Name>
+		<diffuse>
+			<Filename>Dust_grnd_road_01_d.tga</Filename>
+			</diffuse>
+		<material>Terrain</material>
+		<_Editor>
+			<Category>Entries:Dust</Category>
+			</_Editor>
+		</road_material>
+	<road_material>
+		<Name>Dust Concrete</Name>
+		<diffuse>
+			<Filename>dust_grnd_conc_d.tga</Filename>
+			</diffuse>
+		<material>Concrete</material>
+		<_Editor>
+			<Category>Entries:Dust</Category>
+			</_Editor>
+		</road_material>
+	<road_material>
+		<Name>Dust Concrete Panels</Name>
+		<diffuse>
+			<Filename>dust_road_d.tga</Filename>
+			</diffuse>
+		<material>Concrete</material>
+		<_Editor>
+			<Category>Entries:Dust</Category>
+			</_Editor>
+		</road_material>
+	<road_material>
+		<Name>Dust Grating 2</Name>
+		<diffuse>
+			<Filename>dust_road_grate2_d.tga</Filename>
+			</diffuse>
+		<material>Steel</material>
+		<_Editor>
+			<Category>Entries:Dust</Category>
+			</_Editor>
+		</road_material>
+	<road_material>
+		<Name>Dust Grating</Name>
+		<diffuse>
+			<Filename>dust_road_grate_d.tga</Filename>
+			</diffuse>
+		<material>Steel</material>
+		<_Editor>
+			<Category>Entries:Dust</Category>
+			</_Editor>
+		</road_material>
+	<road_material>
+		<Name>Oasis Concrete</Name>
+		<diffuse>
+			<Filename>oas_grnd_concrt_02_d.tga</Filename>
+			</diffuse>
+		<material>Concrete</material>
+		<_Editor>
+			<Category>Entries:Oasis</Category>
+			</_Editor>
+		</road_material>
+	<road_material>
+		<Name>Oasis Dirt</Name>
+		<diffuse>
+			<Filename>oas_grnd_road_01_d.tga</Filename>
+			</diffuse>
+		<material>Terrain</material>
+		<_Editor>
+			<Category>Entries:Oasis</Category>
+			</_Editor>
+		</road_material>
+	<road_material>
+		<Name>Eos Foundation</Name>
+		<diffuse>
+			<Filename>eos_foundation_d.tga</Filename>
+			</diffuse>
+		<material>Concrete</material>
+		<_Editor>
+			<Category>Entries:Eos</Category>
+			</_Editor>
+		</road_material>
+	<road_material>
+		<Name>Eos Paved</Name>
+		<diffuse>
+			<Filename>eos_grnd_road_d.tga</Filename>
+			</diffuse>
+		<material>Concrete</material>
+		<_Editor>
+			<Category>Entries:Eos</Category>
+			</_Editor>
+		</road_material>
+	<road_material>
+		<Name>End Game Gravel 1</Name>
+		<diffuse>
+			<Filename>ENDgm_Grnd4_D.tga</Filename>
+			</diffuse>
+		<material>Gravel</material>
+		<_Editor>
+			<Category>Entries:End Game</Category>
+			</_Editor>
+		</road_material>
+	<road_material>
+		<Name>End Game Gravel 2</Name>
+		<diffuse>
+			<Filename>endgm_road_d.tga</Filename>
+			</diffuse>
+		<material>Gravel</material>
+		<_Editor>
+			<Category>Entries:End Game</Category>
+			</_Editor>
+		</road_material>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>road_material</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>Road Material</Display_Name>
+	<Description>Material properties for roads.</Description>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Unique>true</Unique>
+		</Element>
+	<Element>
+		<Name>diffuse</Name>
+		<Type>Filename</Type>
+		<Display_Name>Diffuse Texture</Display_Name>
+		<Description>The diffuse texture that identifies this material.</Description>
+		<Extension>tga</Extension>
+		<StartingPath>data\maps\Environments\terrain</StartingPath>
+		<ShowPreload>False</ShowPreload>
+		</Element>
+	<Element>
+		<Name>material</Name>
+		<Type>Reference</Type>
+		<Display_Name>Effect Material</Display_Name>
+		<Description>The effect material for this texture.</Description>
+		<Reference>
+			<File>rfg_effect_materials.xtbl</File>
+			<Type>Material.Name</Type>
+			<OpenSeparate>False</OpenSeparate>
+			</Reference>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		<Category>
+			<Name>Dust</Name>
+			</Category>
+		<Category>
+			<Name>End Game</Name>
+			</Category>
+		<Category>
+			<Name>Eos</Name>
+			</Category>
+		<Category>
+			<Name>Oasis</Name>
+			</Category>
+		<Category>
+			<Name>Parker</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

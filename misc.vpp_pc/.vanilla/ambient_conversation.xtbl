@@ -1,0 +1,46 @@
+<root>
+   <Table></Table>
+
+   <TableTemplates>
+   </TableTemplates>
+
+   <TableDescription>
+      <Name>Conversation</Name>
+      <Type>TableDescription</Type>
+      <Element>
+         <Name>Name</Name>
+         <Type>String</Type>
+         <Unique>true</Unique>
+      </Element>
+      <Element>
+         <Name>Lines</Name>
+         <Type>Grid</Type>
+         <Element>
+            <Name>LineElement</Name>
+            <Type>Element</Type>
+            <Element>
+               <Name>Persona</Name>
+               <Type>Reference</Type>
+               <Reference>
+                  <File>persona.xtbl</File>
+                  <Type>Persona.Name</Type>
+               </Reference>
+            </Element>
+            <Element>
+               <Name>Line</Name>
+               <Type>Reference</Type>
+               <Reference>
+                  <File>voice.xtbl</File>
+                  <Type>Voice.Name</Type>
+               </Reference>
+            </Element>
+         </Element>
+      </Element>
+   </TableDescription>
+
+   <EntryCategories>
+      <Category>
+         <Name>Entries</Name>
+      </Category>
+   </EntryCategories>
+</root>

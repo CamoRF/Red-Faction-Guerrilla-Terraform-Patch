@@ -2,7 +2,17 @@
 	<Table>
 <!--START ADDED-->	
 		<Inventory_Item>
-			<Name>TF_NANO_GRENADE</Name>
+			<Name>tf_charge_launcher</Name>
+			<Display_Name>WEAP_CHARGE_LAUNCHER</Display_Name>
+			<Cost>100</Cost>
+			<Default_Count>1</Default_Count>
+			<Max_Inventory>1</Max_Inventory>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+		</Inventory_Item>		
+		<Inventory_Item>
+			<Name>tf_nano_grenade</Name>
 			<Display_Name>TF_WEAPON_SMOKE_GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -12,7 +22,7 @@
 			</_Editor>
 		</Inventory_Item>		
 		<Inventory_Item>
-			<Name>TF_SMOKE_GRENADE</Name>
+			<Name>tf_smoke_grenade</Name>
 			<Display_Name>TF_WEAPON_SMOKE_GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -22,12 +32,11 @@
 			</_Editor>
 		</Inventory_Item>		
 		<Inventory_Item>
-			<Name>TF_GUTTER</Name>
+			<Name>tf_gutter</Name>
 			<Display_Name>WEAP_GUTTER</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
 			<Max_Inventory>1</Max_Inventory>
-			<Description>Swing Swing, Konk &amp; Ouch</Description>
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
@@ -53,7 +62,7 @@
 			</_Editor>
 		</Inventory_Item>		
 		<Inventory_Item>
-			<Name>TF_LMG</Name>
+			<Name>tf_lmg</Name>
 			<Display_Name>TF_WEAPON_LMG</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -63,7 +72,7 @@
 			</_Editor>
 		</Inventory_Item>		
 		<Inventory_Item>
-			<Name>TF_GRENADE</Name>
+			<Name>tf_grenade</Name>
 			<Display_Name>TF_WEAPON_GRENADE</Display_Name>
 			<Cost>100</Cost>
 			<Default_Count>1</Default_Count>
@@ -655,7 +664,7 @@
 		</Inventory_Item>
 	</Table>
 	<TableTemplates>
-		<Inventory_Item>
+		<!--<Inventory_Item>
 			<Name>charge_launcher</Name>
 			<Display_Name>WEAP_CHARGE_LAUNCHER</Display_Name>
 			<Cost>100</Cost>
@@ -676,7 +685,7 @@
 			<_Editor>
 				<Category>Entries</Category>
 			</_Editor>
-		</Inventory_Item>
+		</Inventory_Item>-->
 	</TableTemplates>
 	<TableDescription>
 		<Name>Inventory_Item</Name>

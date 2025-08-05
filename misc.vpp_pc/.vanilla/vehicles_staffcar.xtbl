@@ -1,0 +1,71 @@
+<root><Table><Skeleton_Set>
+<Name>Vehicles_Staffcar</Name>
+<Groups>
+<Group><group>Default</group><States>
+<State><ID>driving forward</ID><Animation><Filename>stfcr_dr_drive.animx</Filename></Animation></State>
+<State><ID>vehicle pass sit 1</ID><Animation><Filename>stfcr_pssngr_enter_cab.animx</Filename></Animation></State>
+<State><ID>vehicle enter stand</ID><Animation><Filename>mstrk_dr_enter_std.animx</Filename></Animation></State>
+<State><ID>vehicle enter stand 2</ID><Animation><Filename>mstrk_pssngr_enter_std.animx</Filename></Animation></State>
+<State><ID>turret middle</ID><Animation><Filename>trrtmg_rd_std_m.animx</Filename></Animation></State>
+<State><ID>vehicle dive exit</ID><Animation><Filename>blucrb_dr_dve.animx</Filename></Animation></State>
+<State><ID>vehicle pass stand 1</ID><Animation><Filename>stfcr_pssngr_std_l.animx</Filename></Animation></State>
+<State><ID>vehicle pass stand 2</ID><Animation><Filename>stfcr_pssngr_std_r.animx</Filename></Animation></State>
+<State><ID>driver look back</ID><Animation><Filename>stfcr_dr_lookarnd_bck.animx</Filename></Animation></State>
+<State><ID>vehicle prone</ID><Animation><Filename>male_prone-crwl.animx</Filename></Animation></State>
+</States><Actions>
+<Action><ID>vehicle open door outside 1</ID><Animation><Filename>stfcr_dr_opn_door.animx</Filename></Animation></Action>
+<Action><ID>vehicle open door outside 2</ID><Animation><Filename>stfcr_pssngr_opn_door.animx</Filename></Animation></Action>
+<Action><ID>vehicle open door outside 3</ID><Animation><Filename>stfcr_pssngr_opnrdr_l.animx</Filename></Animation></Action>
+<Action><ID>vehicle open door outside 4</ID><Animation><Filename>stfcr_pssngr_opnrdr_r.animx</Filename></Animation></Action>
+<Action><ID>vehicle enter primary 1</ID><Animation><Filename>stfcr_dr_entrclmb_cab.animx</Filename></Animation></Action>
+<Action><ID>vehicle enter pass 1</ID><Animation><Filename>stfcr_pssngr_entrclmb_cab.animx</Filename></Animation></Action>
+<Action><ID>vehicle enter pass 2</ID><Animation><Filename>stfcr_pssngr_entrclmb_bckl.animx</Filename></Animation></Action>
+<Action><ID>vehicle enter pass 3</ID><Animation><Filename>stfcr_pssngr_entrclmb_bckr.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit driver</ID><Animation><Filename>stfcr_dr_exit_cab.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 1</ID><Animation><Filename>stfcr_pssngr_exit_cab.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 2</ID><Animation><Filename>stfcr_pssngr_ext_bckl.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 3</ID><Animation><Filename>stfcr_pssngr_exit_bckr.animx</Filename></Animation></Action>
+<Action><ID>trans Sitting to Stand</ID><Animation><Filename>scout_pssngr-rd.animx</Filename></Animation></Action>
+<Action><ID>vehicle driver to passenger</ID><Animation><Filename>blucrb_dr_trnstn_pssngr.animx</Filename></Animation></Action>
+<Action><ID>vehicle passenger to driver</ID><Animation><Filename>blucrb_dr_trnstn_cab.animx</Filename></Animation></Action>
+<Action><ID>trans Stand to Sitting</ID><Animation><Filename>scout_pssngr-sit.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit main</ID><Animation><Filename>stfcr_dr_ext_frt.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 1 quick</ID><Animation><Filename>stfcr_pssngr_exit_qck.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit driver quick</ID><Animation><Filename>stfcr_dr_exit_qck.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit flip</ID><Animation><Filename>male_ext_flip.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 2 quick</ID><Animation><Filename>stfcr_pssngr_extqck_bckl.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 3 quick</ID><Animation><Filename>stfcr_pssngr_extqck_bckr.animx</Filename></Animation></Action>
+<Action><ID>vehicle close door inside 1</ID><Animation><Filename>stfcr_dr_clse_door.animx</Filename></Animation></Action>
+<Action><ID>vehicle close door inside 2</ID><Animation><Filename>stfcr_pssngr_clse_door.animx</Filename></Animation></Action>
+<Action><ID>vehicle close door inside 3</ID><Animation><Filename>stfcr_pssngr_clsrrdr_l.animx</Filename></Animation></Action>
+<Action><ID>vehicle close door inside 4</ID><Animation><Filename>stfcr_pssngr_clsrrdr_r.animx</Filename></Animation></Action>
+<Action><ID>vehicle enter secondary 1</ID><Animation><Filename>stfcr_pssngr_entrclmb_lftbk.animx</Filename></Animation></Action>
+<Action><ID>vehicle enter secondary 2</ID><Animation><Filename>stfcr_pssngr_entrclmb_rtbck.animx</Filename></Animation></Action>
+<Action><ID>vehicle enter tertiary 2</ID><Animation><Filename>stfcr_pssngr_entrclmb_frtr.animx</Filename></Animation></Action>
+<Action><ID>vehicle enter tertiary 1</ID><Animation><Filename>stfcr_pssngr_entrclmb_frtl.animx</Filename></Animation></Action>
+<Action><ID>vehicle enter pass 5</ID><Animation><Filename>stfcr_pssngr_clmb_l.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 4</ID><Animation><Filename>stfcr_pssngr_exit_lftbk.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 5</ID><Animation><Filename>stfcr_pssngr_exit_rtbck.animx</Filename></Animation></Action>
+<Action><ID>vehicle enter pass 6</ID><Animation><Filename>stfcr_pssngr_clmb_r.animx</Filename></Animation></Action>
+<Action><ID>dive</ID><Animation><Filename>stfcr_dr_dve_exit.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 1 dive</ID><Animation><Filename>stfcr_pssngr_dve_exit.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 2 dive</ID><Animation><Filename>stfcr_pssngr_dve_bckl.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 3 dive</ID><Animation><Filename>stfcr_pssngr_dve_bckr.animx</Filename></Animation></Action>
+<Action><ID>flinch body</ID><Animation><Filename>blucrb_flnch_seat_cab.animx</Filename></Animation></Action>
+<Action><ID>dive a</ID><Animation><Filename>stfcr_pssngr_dve_exta.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit driver dr side</ID><Animation><Filename>stfcr_dr_exit_drsd.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 1 dr side</ID><Animation><Filename>stfcr_pssngr_exit_drsd.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit driver ps side</ID><Animation><Filename>stfcr_dr_exit_pssd.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit pass 1 ps side</ID><Animation><Filename>stfcr_pssngr_exit_pssd.animx</Filename></Animation></Action>
+</Actions></Group>
+</Groups><_Editor><Category>Entries</Category></_Editor></Skeleton_Set></Table><TableTemplates></TableTemplates>
+<TableDescription><Name>Skeleton_Set</Name><Type>TableDescription</Type><Display_Name>Skeleton Set</Display_Name><Element><Name>Name</Name><Type>String</Type><Display_Name>Skeleton Name</Display_Name></Element>
+<Element><Name>Parent_Skeleton</Name><Type>String</Type><Display_Name>Parent Skeleton</Display_Name><Required>false</Required></Element>
+<Element><Name>Variant_Type</Name><Type>Reference</Type><Display_Name>Variant Type</Display_Name><Required>false</Required><Reference><File>anim_set_variants.xtbl</File><Type>Override.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element>
+<Element><Name>Groups</Name><Type>Grid</Type><Element><Name>Group</Name><Type>Element</Type>
+<Element><Name>group</Name><Type>Reference</Type><Display_Name>Group</Display_Name><Unique>true</Unique><Reference><File>anim_groups.xtbl</File><Type>Anim_Group.Name</Type></Reference></Element>
+<Element><Name>States</Name><Type>Grid</Type><Element><Name>State</Name><Type>Element</Type><Element><Name>ID</Name><Type>Reference</Type><Reference><File>anim_states.xtbl</File><Type>State.Name</Type></Reference></Element>
+<Element><Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element></Element><Num_Display_Rows>30</Num_Display_Rows></Element>
+<Element><Name>Actions</Name><Type>Grid</Type><Element><Name>Action</Name><Type>Element</Type><Element><Name>ID</Name><Type>Reference</Type><Reference><File>anim_actions.xtbl</File><Type>Action.Name</Type></Reference></Element>
+<Element><Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element>
+</Element><Num_Display_Rows>30</Num_Display_Rows></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element></TableDescription><EntryCategories><Category><Name>Entries</Name></Category></EntryCategories></root>

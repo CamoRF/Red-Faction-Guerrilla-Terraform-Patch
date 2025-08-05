@@ -5,6 +5,28 @@
   <Containers>
 <!--START ADDED-->    
     <ContainerEntry>
+      <Name>tf_charge_launcher</Name>
+      <Type>23</Type>
+      <Flags>128</Flags>
+      <DataOffset>6144</DataOffset>
+      <CompressedSize>25582</CompressedSize>
+      <Sizes>
+        <int>1116</int>
+        <int>45900</int>
+      </Sizes>
+      <Primitives>
+        <PrimitiveEntry>
+          <Name>tf_charge_launcher.csmesh_pc</Name>
+          <Type>5</Type>
+          <Allocator>0</Allocator>
+          <Unknown3>6</Unknown3>
+          <Unknown4>0</Unknown4>
+          <HeaderSize>1116</HeaderSize>
+          <DataSize>45900</DataSize>
+        </PrimitiveEntry>
+      </Primitives>
+    </ContainerEntry>   
+	<ContainerEntry>
       <Name>tf_smoke_grenade</Name>
       <Type>23</Type>
       <Flags>128</Flags>
@@ -25,29 +47,7 @@
           <DataSize>8004</DataSize>
         </PrimitiveEntry>
       </Primitives>
-    </ContainerEntry>    
-	<ContainerEntry>
-      <Name>tf_snowball</Name>
-      <Type>23</Type>
-      <Flags>128</Flags>
-      <DataOffset>6144</DataOffset>
-      <CompressedSize>1388</CompressedSize>
-      <Sizes>
-        <int>824</int>
-        <int>2004</int>
-      </Sizes>
-      <Primitives>
-        <PrimitiveEntry>
-          <Name>rpg_projectile.csmesh_pc</Name>
-          <Type>5</Type>
-          <Allocator>0</Allocator>
-          <Unknown3>6</Unknown3>
-          <Unknown4>0</Unknown4>
-          <HeaderSize>824</HeaderSize>
-          <DataSize>2004</DataSize>
-        </PrimitiveEntry>
-      </Primitives>
-    </ContainerEntry>   
+    </ContainerEntry>
 	<ContainerEntry>
       <Name>tf_flash_bang</Name>
       <Type>23</Type>

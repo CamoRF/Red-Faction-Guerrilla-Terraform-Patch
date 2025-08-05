@@ -1,0 +1,213 @@
+<root>
+<Table>
+	<Objective>
+		<Name>Download Data</Name>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		<Description>Find a computer terminal and download the EDF resource collection data.</Description>
+		</Objective>
+	<Objective>
+		<Name>Steal Nano-Rifle Parts</Name>
+		<Description>Steal the nano-rifle parts from the research lab in the compound at the top of the hill.</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Free the Prisoners</Name>
+		<Description>Destroy the Prison Gate and free the POWs from their Prisoner Barracks</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Locate Other Prison Camps</Name>
+		<Description>Somewhere in the camp's HQ will be the coordinates of other Prison Camps. Retrieve that data.</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>R2-Destroy all Fuel Tanks</Name>
+		<Description>R2-Destroy the EDF Fuel Tanks to disrupt the vehicle patrols in the area.</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>R2-Bonus Target - EDF Documents</Name>
+		<Description>Steal the EDF Documents located in the Communications Building.</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>R2-Bonus Target - Radar Dish</Name>
+		<Description>Destroy the nearby EDF Radar Dish.</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Destroy the Alarm Sirens</Name>
+		<Description>[quest] Destroy all the alarm sirens in this prison camp</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Free the POWs</Name>
+		<Description>Free the POWs being held at these locations. Destroy the prison barracks once they are free.</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Retrieve POW Camp prisoner data</Name>
+		<Description>[quest] Access the Prison Camp HQ's database to download the identities of all the prisoners ever kept here.</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Chemical Transport</Name>
+		<Description>This truck contains Medical supplies that would be useful to the guerillas in Dust.  Get them there!</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Cripple Ore Plant</Name>
+		<Description>Cripple the Ore Plant by destroying all Refinery Buildings</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Destroy the Landing Pad</Name>
+		<Description>Destroy the Landing Pad to cut off aerial reinforcements.</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Destroy Mining Supplies</Name>
+		<Description>Cripple this mine by destroying 5 Supply Sheds</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Visit Parker Town</Name>
+		<Description>Go see what's happening in Parker Town.</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Destroy Guard Towers</Name>
+		<Description>Destroy all 4 guard towers surrounding the town of Parker</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Acquire Rockets</Name>
+		<Description>Grab some confiscated mining rockets from the EDF Armory</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Garage Bonus</Name>
+		<Description>Bring a vehicle to the garage for a bonus weapon</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Mission Start</Name>
+		<Description>These buildings contain missions</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Target - Blockades</Name>
+		<Description>Destroy all 4 blockades</Description>
+		<_Editor>
+			<Category>Objective:test_luke_ow</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Target - Smoke Stacks</Name>
+		<Description>Destroy the large EDF smoke stacks</Description>
+		<_Editor>
+			<Category>Objective:test_luke_ow</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Target - Tank</Name>
+		<Description>Destroy the EDF tank</Description>
+		<_Editor>
+			<Category>Objective:test_luke_ow</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Mission: We Know Where You Are</Name>
+		<Description>Talk to the Garage Mechanic to begin the Mission</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Mission: Death From Above</Name>
+		<Description>Talk to the Faction Leader to start the mission</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Mission: Walker, Martian Ranger</Name>
+		<Description>Talk to the Faction Member in Dust to start the mission</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	<Objective>
+		<Name>Mission: Refugee Truck</Name>
+		<Description>Talk to the Faction Member to start the Mission</Description>
+		<_Editor>
+			<Category>Objective</Category>
+			</_Editor>
+		</Objective>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Objective</Name>
+	<Type>TableDescription</Type>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Unique>true</Unique>
+		</Element>
+	<Element>
+		<Name>Description</Name>
+		<Type>String</Type>
+		<Description>This is the description that is displayed in the mision objectives screen.</Description>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Objective</Name>
+		<Category>
+			<Name>test_luke_ow</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>

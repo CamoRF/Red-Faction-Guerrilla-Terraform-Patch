@@ -5,7 +5,7 @@
 			<generic_option_overrides>
 				<point_limit>0</point_limit>
 				<num_rounds>1</num_rounds>
-				<round_time_limit_minutes>10</round_time_limit_minutes>
+				<round_time_limit_minutes>255</round_time_limit_minutes> <!--FROM 10--> <!--255 is max-->
 				<friendly_fire>True</friendly_fire> <!--FROM False-->
 				<respawn_time_seconds>0</respawn_time_seconds> <!--FROM 5-->
 				<health_regen_speed_multiplier>1</health_regen_speed_multiplier> <!--FROM 1-->
@@ -15,7 +15,7 @@
 				<unlimited_ammo>False</unlimited_ammo>
 				<starting_backpack_wrapper>
 					<starting_backpack>Specific</starting_backpack> <!--FROM None-->
-					<starting_backpack_type>Fleetfoot</starting_backpack_type> <!--ADDED-->					
+					<starting_backpack_type>Fleetfoot_OP</starting_backpack_type> <!--ADDED-->	<!--FROM Fleetfoot-->				
 				</starting_backpack_wrapper>
 				<starting_weapon_wrapper>
 					<replace_starting_weapon>

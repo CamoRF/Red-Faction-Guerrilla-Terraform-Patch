@@ -1,0 +1,59 @@
+<root><Table><Skeleton_Set>
+<Name>Walker_Flamer</Name>
+<Groups>
+<Group><group>Default</group><States>
+<State><ID>walk</ID><Animation><Filename>walker_flamer_move_forward</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>walker_flamer_move_forward</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>walker_flmr_std.animx</Filename></Animation></State>
+<State><ID>crouch</ID><Animation><Filename>walker_flame_off.animx</Filename></Animation></State>
+<State><ID>calm fall run state</ID><Animation><Filename>walker_flmr_std.animx</Filename></Animation></State>
+<State><ID>calm fall state</ID><Animation><Filename>walker_flmr_std.animx</Filename></Animation></State>
+<State><ID>driving forward</ID><Animation><Filename>walker_flmr_drvr_enter_std.animx</Filename></Animation></State>
+<State><ID>vehicle enter stand</ID><Animation><Filename>mstrk_dr_enter_std.animx</Filename></Animation></State>
+<State><ID>calm fall state</ID><Animation><Filename>walker_flmr_std.animx</Filename></Animation></State>
+<State><ID>walk back</ID><Animation><Filename>walker_flamer_move_backward</Filename></Animation></State>
+<State><ID>walk left</ID><Animation><Filename>walker_flamer_move_left</Filename></Animation></State>
+<State><ID>walk right</ID><Animation><Filename>walker_flamer_move_right</Filename></Animation></State>
+<State><ID>shuffle left state</ID><Animation><Filename>walker_flamer_rotate_left</Filename></Animation></State>
+<State><ID>shuffle right state</ID><Animation><Filename>walker_flamer_rotate_right</Filename></Animation></State>
+<State><ID>turn left</ID><Animation><Filename>wlkrflmr_std_trn_r.animx</Filename></Animation></State>
+<State><ID>turn right</ID><Animation><Filename>wlkrflmr_std_trn_l.animx</Filename></Animation></State>
+<State><ID>walk back anim</ID><Animation><Filename>wlkrflmr_wlk_bck.animx</Filename></Animation></State>
+<State><ID>walk left anim</ID><Animation><Filename>wlkrflmr_wlk_r.animx</Filename></Animation></State>
+<State><ID>walk right anim</ID><Animation><Filename>wlkrflmr_wlk_l.animx</Filename></Animation></State>
+<State><ID>run back anim</ID><Animation><Filename>wlkrflmr_run_bwd.animx</Filename></Animation></State>
+<State><ID>run left anim</ID><Animation><Filename>wlkrflmr_run_r.animx</Filename></Animation></State>
+<State><ID>run right anim</ID><Animation><Filename>wlkrflmr_run_l.animx</Filename></Animation></State>
+<State><ID>driving forward</ID><Animation><Filename>wlkrflmr_dr_drive.animx</Filename></Animation></State>
+<State><ID>walk anim</ID><Animation><Filename>walker_flame_wlk.animx</Filename></Animation></State>
+<State><ID>run anim</ID><Animation><Filename>walker_flame_run.animx</Filename></Animation></State>
+</States><Actions>
+<Action><ID>melee</ID><Animation><Filename>walker_flmr_action.animx</Filename></Animation></Action>
+<Action><ID>melee3</ID><Animation><Filename>walker_flmr_action.animx</Filename></Animation></Action>
+<Action><ID>land normal</ID><Animation><Filename>walker_flmr_action.animx</Filename></Animation></Action>
+<Action><ID>land run</ID><Animation><Filename>walker_flmr_action.animx</Filename></Animation></Action>
+<Action><ID>crouch to stand</ID><Animation><Filename>walker_flame_strtup.animx</Filename></Animation></Action>
+<Action><ID>vehicle enter primary 1</ID><Animation><Filename>walker_flmr_drvr_enter.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit driver</ID><Animation><Filename>walker_flmr_drvr_exit.animx</Filename></Animation></Action>
+<Action><ID>vehicle exit main</ID><Animation><Filename>walker_flame_shtdwn.animx</Filename></Animation></Action>
+<Action><ID>run jump start</ID><Animation><Filename>walker_flmr_action.animx</Filename></Animation></Action>
+<Action><ID>stand jump start</ID><Animation><Filename>walker_flmr_action.animx</Filename></Animation></Action>
+<Action><ID>melee2</ID><Animation><Filename>walker_flmr_action.animx</Filename></Animation></Action>
+<Action><ID>melee4</ID><Animation><Filename>walker_flmr_action.animx</Filename></Animation></Action>
+<Action><ID>land normal</ID><Animation><Filename>walker_flmr_action.animx</Filename></Animation></Action>
+<Action><ID>land run</ID><Animation><Filename>walker_flmr_action.animx</Filename></Animation></Action>
+<Action><ID>stand turn left</ID><Animation><Filename>walker_flmr_action.animx</Filename></Animation></Action>
+<Action><ID>stand turn right</ID><Animation><Filename>walker_flmr_action.animx</Filename></Animation></Action>
+<Action><ID>vehicle enter primary 2</ID><Animation><Filename>walker_flmr_drvr_entrclmb_b.animx</Filename></Animation></Action>
+</Actions></Group>
+</Groups><_Editor><Category>Entries</Category></_Editor></Skeleton_Set></Table><TableTemplates></TableTemplates>
+<TableDescription><Name>Skeleton_Set</Name><Type>TableDescription</Type><Display_Name>Skeleton Set</Display_Name><Element><Name>Name</Name><Type>String</Type><Display_Name>Skeleton Name</Display_Name></Element>
+<Element><Name>Parent_Skeleton</Name><Type>String</Type><Display_Name>Parent Skeleton</Display_Name><Required>false</Required></Element>
+<Element><Name>Variant_Type</Name><Type>Reference</Type><Display_Name>Variant Type</Display_Name><Required>false</Required><Reference><File>anim_set_variants.xtbl</File><Type>Override.Name</Type><OpenSeparate>False</OpenSeparate></Reference></Element>
+<Element><Name>Groups</Name><Type>Grid</Type><Element><Name>Group</Name><Type>Element</Type>
+<Element><Name>group</Name><Type>Reference</Type><Display_Name>Group</Display_Name><Unique>true</Unique><Reference><File>anim_groups.xtbl</File><Type>Anim_Group.Name</Type></Reference></Element>
+<Element><Name>States</Name><Type>Grid</Type><Element><Name>State</Name><Type>Element</Type><Element><Name>ID</Name><Type>Reference</Type><Reference><File>anim_states.xtbl</File><Type>State.Name</Type></Reference></Element>
+<Element><Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element></Element><Num_Display_Rows>30</Num_Display_Rows></Element>
+<Element><Name>Actions</Name><Type>Grid</Type><Element><Name>Action</Name><Type>Element</Type><Element><Name>ID</Name><Type>Reference</Type><Reference><File>anim_actions.xtbl</File><Type>Action.Name</Type></Reference></Element>
+<Element><Name>Animation</Name><Type>Filename</Type><Extension>animx</Extension><StartingPath>data\anim</StartingPath><ShowPreload>False</ShowPreload></Element>
+</Element><Num_Display_Rows>30</Num_Display_Rows></Element></Element><Num_Display_Rows>8</Num_Display_Rows></Element></TableDescription><EntryCategories><Category><Name>Entries</Name></Category></EntryCategories></root>

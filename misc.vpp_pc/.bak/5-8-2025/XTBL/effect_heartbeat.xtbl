@@ -1,0 +1,204 @@
+<root>
+	<Table>
+		<effect_heartbeat>
+			<Name>Player</Name>
+			<heartbeat_info>
+				<heartbeat_item>
+					<health>0.0</health>
+					<red_ring>1.0</red_ring> <!--FROM 0.3-->
+					<flash_max>0.0</flash_max> <!--FROM 0.45-->
+					<flash_min>0.0</flash_min> <!--FROM 0.2-->
+					<flash_frequency>2.0</flash_frequency> <!--FROM 0.9-->
+					<volume>0.0</volume> <!--FROM 1.0-->
+					<shake>0.0</shake> <!--FROM 1.0-->
+					<blur>0.70</blur> <!--FROM 0.92-->
+					<saturation>1.0</saturation> <!--FROM 0.3-->
+					<bloom>1.0</bloom> <!--FROm 0.8-->
+				</heartbeat_item>
+				<heartbeat_item>
+					<health>0.15</health>
+					<red_ring>1.0</red_ring> <!--FROM 0.5-->
+					<flash_min>0.0</flash_min> <!--FROM 0.15-->
+					<flash_max>0.0</flash_max> <!--FROm 0.40-->
+					<flash_frequency>2.0</flash_frequency> <!--FROM 1.0-->
+					<volume>0.0</volume> <!--FROM 0.8-->
+					<shake>0.0</shake> <!--FROM 0.8-->
+					<blur>0.70</blur> <!--FROM 0.90-->
+					<saturation>1.0</saturation> <!--FROM 0.5-->
+					<bloom>1.0</bloom> <!--FROM 0.85-->
+				</heartbeat_item>
+				<heartbeat_item>
+					<health>0.3</health>
+					<red_ring>1.0</red_ring> <!--FROM 0.65-->
+					<flash_min>0.0</flash_min> <!--FROM 0.1-->
+					<flash_max>0.0</flash_max> <!--FROM 0.30-->
+					<flash_frequency>2.0</flash_frequency> <!--FROM 1.1-->
+					<volume>0.0</volume> <!--FROM 0.6-->
+					<shake>0.0</shake> <!--FROM 0.6-->
+					<blur>0.70</blur> <!--FROM 0.88-->
+					<saturation>1.0</saturation> <!--FROM 0.7-->
+					<bloom>1.0</bloom> <!--FRM 0.9-->
+				</heartbeat_item>
+				<heartbeat_item>
+					<health>0.5</health>
+					<red_ring>1.0</red_ring> <!--FROM 0.8-->
+					<flash_min>0.0</flash_min> <!--FROM 0.05-->
+					<flash_max>0.0</flash_max> <!--FROM 0.20-->
+					<flash_frequency>2.0</flash_frequency> <!--FROM 1.2-->
+					<volume>0.0</volume> <!--FROM 0.4-->
+					<shake>0.0</shake> <!--FROM 0.4-->
+					<blur>0.70</blur> <!--FROM 0.85-->
+					<saturation>1.0</saturation> <!--FROM 0.8-->
+					<bloom>1.0</bloom> <!--FROM 0.95-->
+				</heartbeat_item>
+				<heartbeat_item>
+					<health>0.75</health>
+					<red_ring>1.0</red_ring> <!--FROM 0.9-->
+					<flash_max>0.0</flash_max> <!--FROM 0.12-->
+					<flash_min>0.0</flash_min> <!--FROM 0.02-->
+					<flash_frequency>2.0</flash_frequency> <!--FROM 1.4-->
+					<volume>0.0</volume> <!--FROM 0.2-->
+					<shake>0.0</shake> <!--FROM 0.2-->
+					<blur>0.70</blur> <!--FROM 0.80-->
+					<saturation>1.0</saturation> <!--FROM 0.9-->
+					<bloom>1.0</bloom> <!--FROM 0.975-->
+				</heartbeat_item>
+				<heartbeat_item>
+					<health>0.9</health>
+					<red_ring>1.0</red_ring>
+					<flash_min>0.0</flash_min> <!--FROM 0-->
+					<flash_max>0.0</flash_max> <!--FROM 0.05-->
+					<flash_frequency>2.0</flash_frequency> <!--FROM 1.7-->
+					<volume>0.0</volume> <!--FROM 0.1-->
+					<shake>0.0</shake> <!--FROM 0.1-->
+					<blur>0.70</blur> <!--FROM 0.75-->
+					<saturation>1.0</saturation> <!--FROM 0.95-->
+					<bloom>1.0</bloom>
+				</heartbeat_item>
+				<heartbeat_item>
+					<health>1.0</health>
+					<red_ring>1.0</red_ring>
+					<flash_max>0.0</flash_max>
+					<flash_min>0.0</flash_min> <!--FROM 0-->
+					<flash_frequency>2.0</flash_frequency>
+					<volume>0.0</volume>
+					<shake>0.0</shake>
+					<blur>0.70</blur>
+					<saturation>1.0</saturation>
+					<bloom>1.0</bloom>
+				</heartbeat_item>
+			</heartbeat_info>
+			<_Editor>
+				<Category>Entries</Category>
+			</_Editor>
+			<heartbeat_time_short>400.0</heartbeat_time_short>
+			<heartbeat_time_long>800.0</heartbeat_time_long>
+		</effect_heartbeat>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>effect_heartbeat</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+			<MaxLength>24</MaxLength>
+		</Element>
+		<Element>
+			<Name>heartbeat_time_short</Name>
+			<Type>Float</Type>
+			<Default>400.0</Default>
+		</Element>
+		<Element>
+			<Name>heartbeat_time_long</Name>
+			<Type>Float</Type>
+			<Default>800.0</Default>
+		</Element>
+		<Element>
+			<Name>heartbeat_info</Name>
+			<Type>Grid</Type>
+			<Element>
+				<Name>heartbeat_item</Name>
+				<Type>Element</Type>
+				<Element>
+					<Name>health</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+					<MaxValue>1</MaxValue>
+				</Element>
+				<Element>
+					<Name>red_ring</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+					<MaxValue>1</MaxValue>
+				</Element>
+				<Element>
+					<Name>flash_min</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+					<MaxValue>1</MaxValue>
+				</Element>
+				<Element>
+					<Name>flash_max</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+					<MaxValue>1</MaxValue>
+				</Element>
+				<Element>
+					<Name>flash_frequency</Name>
+					<Type>Float</Type>
+					<Description>Multiplier to heartbeat times.  A value &gt; 1.0 will have longer beats while &lt; 1.0 will have shorter beats.</Description>
+					<Default>1.0</Default>
+				</Element>
+				<Element>
+					<Name>volume</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+					<MaxValue>1</MaxValue>
+				</Element>
+				<Element>
+					<Name>shake</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+					<MaxValue>1</MaxValue>
+				</Element>
+				<Element>
+					<Name>blur</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+					<MaxValue>2</MaxValue>
+				</Element>
+				<Element>
+					<Name>saturation</Name>
+					<Type>Float</Type>
+					<Default>0.0</Default>
+					<MinValue>0</MinValue>
+					<MaxValue>5</MaxValue>
+				</Element>
+				<Element>
+					<Name>bloom</Name>
+					<Type>Float</Type>
+					<Description>This value is actually inverted (1.0 = normal bloom).</Description>
+					<Default>1.0</Default>
+					<MinValue>-1</MinValue>
+					<MaxValue>1</MaxValue>
+				</Element>
+			</Element>
+			<Max_Children>10</Max_Children>
+			<Min_Children>2</Min_Children>
+			<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	</TableDescription>
+	<EntryCategories>
+		<Category>
+			<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

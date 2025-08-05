@@ -1,0 +1,160 @@
+<root>
+<Table>
+	<Blood_decal_info>
+		<Name>Blood_decal_info</Name>
+		<Close_decals>
+			<Decal>blood_decal_close</Decal>
+			</Close_decals>
+		<Medium_decals>
+			<Decal>blood_decal_medium</Decal>
+			</Medium_decals>
+		<Far_decals>
+			<Decal>blood_decal_far</Decal>
+			</Far_decals>
+		<Close_distance>1.0</Close_distance>
+		<Medium_distance>2.0</Medium_distance>
+		<Far_distance>4.0</Far_distance>
+		<Close_random_size_multiplier>0.2</Close_random_size_multiplier>
+		<Medium_random_size_multiplier>0.5</Medium_random_size_multiplier>
+		<Far_random_size_multiplier>0.8</Far_random_size_multiplier>
+		<Melee_size_multiplier>1.5</Melee_size_multiplier>
+		<Melee_distance_multiplier>2.0</Melee_distance_multiplier>
+		<_Editor>
+			<Category>Entries</Category>
+			</_Editor>
+		<Decal_probability>0.5066667</Decal_probability>
+		<Death_size_multiplier>2.0</Death_size_multiplier>
+		</Blood_decal_info>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Blood_decal_info</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>Blood Decal Info</Display_Name>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>Unused, but required by the tools.</Description>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Close_decals</Name>
+		<Type>List</Type>
+		<Description>List of decals to pick from in the close range.</Description>
+		<Element>
+			<Name>Decal</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>decal_info.xtbl</File>
+				<Type>Decal_Info.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		<Min_Children>1</Min_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Medium_decals</Name>
+		<Type>List</Type>
+		<Description>List of decals to pick from in the medium range.</Description>
+		<Element>
+			<Name>Decal</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>decal_info.xtbl</File>
+				<Type>Decal_Info.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		<Min_Children>1</Min_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Far_decals</Name>
+		<Type>List</Type>
+		<Description>List of decals to pick from in the far range.</Description>
+		<Element>
+			<Name>Decal</Name>
+			<Type>Reference</Type>
+			<Reference>
+				<File>decal_info.xtbl</File>
+				<Type>Decal_Info.Name</Type>
+				<OpenSeparate>False</OpenSeparate>
+				</Reference>
+			</Element>
+		<Min_Children>1</Min_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Close_distance</Name>
+		<Type>Float</Type>
+		<Description>If a blood decal is will be placed less than this distance away, consider it close.</Description>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Medium_distance</Name>
+		<Type>Float</Type>
+		<Description>If a blood decal is will be placed less than this distance away, consider it medium.</Description>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Far_distance</Name>
+		<Type>Float</Type>
+		<Description>If a blood decal is will be placed less than this distance away, consider it far.</Description>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Close_random_size_multiplier</Name>
+		<Type>Float</Type>
+		<Description>Multiplier for how much to randomly increase the size of the decal.</Description>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Medium_random_size_multiplier</Name>
+		<Type>Float</Type>
+		<Description>Multiplier for how much to randomly increase the size of the decal.</Description>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Far_random_size_multiplier</Name>
+		<Type>Float</Type>
+		<Description>Multiplier for how much to randomly increase the size of the decal.</Description>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Melee_size_multiplier</Name>
+		<Type>Float</Type>
+		<Description>All melee blood decals are multiplied by this.</Description>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Melee_distance_multiplier</Name>
+		<Type>Float</Type>
+		<Description>All melee distance checks are multiplied by this.</Description>
+		<Default>0.0</Default>
+		</Element>
+	<Element>
+		<Name>Decal_probability</Name>
+		<Type>Float</Type>
+		<Description>Probability of spawning a decal.  This can be overridden in code by a force, although that won't guarantee that a decal will appear.</Description>
+		<Default>0.0</Default>
+		<MinValue>0</MinValue>
+		<MaxValue>1</MaxValue>
+		<UseSlider>True</UseSlider>
+		</Element>
+	<Element>
+		<Name>Death_size_multiplier</Name>
+		<Type>Float</Type>
+		<Description>Multiply the size of the decal by this when the player was killed by the attack.</Description>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		</Category>
+	</EntryCategories>
+</root>

@@ -1,0 +1,37 @@
+<root>
+	<Table>
+		<SndBnk>
+			<Name>dlc01_voc_spe</Name>
+			<NameCRC>0x882da664</NameCRC>
+			<File>dlc01_voc_spe</File>
+			<Directory>xbox2</Directory>
+		</SndBnk>
+		<SndBnk>
+			<Name>dlc01_voc_mar</Name>
+			<NameCRC>0x4e9f8ec9</NameCRC>
+			<File>dlc01_voc_mar</File>
+			<Directory>xbox2</Directory>
+		</SndBnk>
+	</Table>
+	<TableTemplates></TableTemplates>
+	<TableDescription>
+		<Name>SndBnk</Name>
+		<Type>TableDescription</Type>
+		<Element>
+			<Name>Name</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>File</Name>
+			<Type>String</Type>
+		</Element>
+		<Element>
+			<Name>Directory</Name>
+			<Type>String</Type>
+			<Description>Directory below pc or xbox2</Description>
+		</Element>
+		<ReferencedBy>foley.xtbl</ReferencedBy>
+		<ReferencedBy>wavebanks.xtbl</ReferencedBy>
+	</TableDescription>
+	<EntryCategories></EntryCategories>
+	</root>

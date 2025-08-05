@@ -47,7 +47,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>Cliffside</Name>
+			<Name>Equilibrium Koth</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp4_0.tga</Filename>
 			</BG_image>
@@ -62,7 +62,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>Partial Recall</Name>
+			<Name>Aerial Excavation</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_0mp5_0.tga</Filename>
 			</BG_image>
@@ -122,7 +122,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>Placeholder</Name>
+			<Name>Greenbelt</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp9_0.tga</Filename>
 			</BG_image>
@@ -137,7 +137,7 @@
 			<Image_rot>0.0</Image_rot>
 		</LoadingScreen>
 		<LoadingScreen>
-			<Name>Placeholder</Name>
+			<Name>Echo Ridge</Name>
 			<BG_image>
 				<Filename>ui_loading_mp_mp10_0.tga</Filename>
 			</BG_image>

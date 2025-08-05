@@ -1,5 +1,6 @@
 <root>
 <Table>
+<!--DO I NEED TO ADD ANYTHING FROM THE DLC FOR THE SPIKER PROJECTILE TO WORK PROPERLY?-->
 <!--START ADDED-->	
 	<Effect>
 		<Name>tf_smoke_grenade</Name>
@@ -33,10 +34,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Impacts - Bullets</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		</Effect>
 	<Effect>
 		<Name>mp_backpack_tremor_a</Name>
@@ -231,31 +233,34 @@
 		<_Editor>
 			<Category>Entries:Weapons:Rail Driver</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>wep_hammer_impact_cushion</Name>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		<sound>WEP_MELEE_SLEDGE_DIRT</sound>
 		</Effect>
 	<Effect>
 		<Name>wep_hammer_impact_sand</Name>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		<sound>WEP_MELEE_SLEDGE_DIRT</sound>
 		<visual>wep_hammer_impact_dirt</visual>
 		</Effect>
@@ -266,10 +271,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		</Effect>
 	<Effect>
 		<Name>wep_hammer_impact_composite</Name>
@@ -277,22 +283,24 @@
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<sound>WEP_MELEE_SLEDGE_WOOD</sound>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		</Effect>
 	<Effect>
 		<Name>wep_hammer_impact_plastic</Name>
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<visual>wep_hammer_impact_plastic</visual>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		<sound>WEP_MELEE_SLEDGE_DIRT</sound>
 		</Effect>
 	<Effect>
@@ -302,10 +310,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>wep_hammer_impact_concrete</Name>
@@ -314,10 +323,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>wep_hammer_impact_dirt</Name>
@@ -326,10 +336,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>wep_hammer_impact_flesh</Name>
@@ -338,10 +349,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>wep_hammer_impact_steelfence</Name>
@@ -350,10 +362,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>wep_hammer_impact_steelbeam</Name>
@@ -362,10 +375,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>wep_hammer_impact_steelthin</Name>
@@ -374,10 +388,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>wep_hammer_impact_steelsolid</Name>
@@ -386,10 +401,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>wep_hammer_impact_stone</Name>
@@ -398,11 +414,12 @@
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
-		</Effect>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
+		</Effect>	
 	<Effect>
 		<Name>wep_turret_harpoon_trail_a</Name>
 		<visual>wep_turret_harpoon_trail_a</visual>
@@ -1933,10 +1950,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Common Effects</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->	
 		</Effect>
 	<Effect>
 		<Name>wep_miner_rpg_exp_a</Name>
@@ -2131,6 +2149,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--TODO-->	
 	<Effect>
 		<Name>wep_melee_impact_steelsolid</Name>
 		<visual>wep_melee_generic_a</visual>
@@ -2391,6 +2410,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--END-->		
 	<Effect>
 		<Name>des_stone_impact_terrain_sm</Name>
 		<visual>des_terrain_impact_a</visual>
@@ -3483,6 +3503,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--TODO-->	
 	<Effect>
 		<Name>wep_bullet_impact_exit_steelsolid</Name>
 		<visual>wep_bullet_impact_metal_a</visual>
@@ -3495,6 +3516,7 @@
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		<sound>WEP_ROUND_IMP_STEEL_SOLID</sound>
 		</Effect>
+<!--END-->		
 	<Effect>
 		<Name>des_concrete_load_lg</Name>
 		<visual>des_concrete_load_a</visual>
@@ -3528,6 +3550,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--TODO-->	
 	<Effect>
 		<Name>wep_bullet_impact_vehicle_steel</Name>
 		<visual>wep_bullet_impact_metal_a</visual>
@@ -3540,6 +3563,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--END-->		
 	<Effect>
 		<Name>audio_test_amb_walla_industrial_01</Name>
 		<_Editor>
@@ -3596,10 +3620,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Grinder</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		</Effect>
 	<Effect>
 		<Name>wep_grinder_muzzle_flash_a</Name>
@@ -3607,10 +3632,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Grinder</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		</Effect>
 	<Effect>
 		<Name>wep_remote_charge_exp_a</Name>
@@ -3652,10 +3678,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Arc Welder</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>env_dust_rolling_a</Name>
@@ -3825,6 +3852,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--TODO-->	
 	<Effect>
 		<Name>wep_edf_grenade_exp_a</Name>
 		<visual>wep_edf_grenade_exp_a</visual>
@@ -3837,6 +3865,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--END-->		
 	<Effect>
 		<Name>veh_walker_civ_run_dirt_l_npc</Name>
 		<visual>veh_walker_civ_run_dirt_l</visual>
@@ -4126,10 +4155,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Marauder Shotgun</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		</Effect>
 	<Effect>
 		<Name>des_composite_impact_sm</Name>
@@ -4178,6 +4208,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--TODO-->	
 	<Effect>
 		<Name>wep_edf_sniper_flash_a</Name>
 		<visual>wep_edf_sniper_flash_a</visual>
@@ -4200,6 +4231,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--END-->		
 	<Effect>
 		<Name>mp_flag_aura_red_a</Name>
 		<visual>mp_flag_aura_red_a</visual>
@@ -4564,6 +4596,7 @@
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		<sound>WEP_SINGULARITY_VORTEX_NEAR</sound>
 		</Effect>
+<!--TODO-->		
 	<Effect>
 		<Name>wep_bullet_impact_exp</Name>
 		<visual>wep_bullet_impact_exp</visual>
@@ -4575,6 +4608,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--END-->		
 	<Effect>
 		<Name>mp_backpacks_fuel_r</Name>
 		<visual>mp_backpacks_fuel_r</visual>
@@ -4609,6 +4643,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--TODO-->		
 	<Effect>
 		<Name>wep_bullet_impact_composite</Name>
 		<visual>wep_bullet_impact_composite</visual>
@@ -4621,6 +4656,7 @@
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		<sound>WEP_ROUND_IMP_CARBON</sound>
 		</Effect>
+<!--END-->		
 	<Effect>
 		<Name>mp_shockwave_active_a</Name>
 		<visual>mp_shockwave_active_a</visual>
@@ -4633,6 +4669,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--TODO-->				
 	<Effect>
 		<Name>wep_bullet_impact_glass_a</Name>
 		<visual>wep_bullet_impact_glass_a</visual>
@@ -4645,6 +4682,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--END-->		
 	<Effect>
 		<Name>mp_commando_tracer_a</Name>
 		<visual>mp_commando_tracer_a</visual>
@@ -4859,6 +4897,7 @@
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		<sound>AMB_WALL_VENT_LOOP</sound>
 		</Effect>
+<!--TODO-->		
 	<Effect>
 		<Name>wep_melee_impact_composite</Name>
 		<visual>wep_melee_generic_a</visual>
@@ -5281,6 +5320,7 @@
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		<sound>OBJ_EXCAVATOR_DTH</sound>
 		</Effect>
+<!--TODO-->		
 	<Effect>
 		<Name>wep_grinder_trail_a</Name>
 		<visual>wep_grinder_trail_a</visual>
@@ -5366,24 +5406,26 @@
 	<Effect>
 		<Name>wep_nanorifle_flash_a</Name>
 		<visual>wep_nanorifle_flash_a</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<_Editor>
 			<Category>Entries:Weapons:Nanorifle</Category>
 			</_Editor>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time> <!--ADDED-->			
 		</Effect>
 	<Effect>
 		<Name>wep_nanorifle_swarm_a</Name>
 		<visual>wep_nanorifle_swarm_a</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<_Editor>
 			<Category>Entries:Weapons:Nanorifle</Category>
 			</_Editor>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time> <!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>dth_generic_sm_a</Name>
@@ -5399,13 +5441,14 @@
 	<Effect>
 		<Name>wep_nanorifle_chunk_a</Name>
 		<visual>wep_nanorifle_chunk_a</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<_Editor>
 			<Category>Entries:Weapons:Nanorifle</Category>
 			</_Editor>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time> <!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>dth_generic_sm_exp_a</Name>
@@ -5527,13 +5570,14 @@
 	<Effect>
 		<Name>wep_reconstructor_swarm_a</Name>
 		<visual>wep_reconstrutor_swarm_a</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<_Editor>
 			<Category>Entries:Weapons:Reconstructor</Category>
 			</_Editor>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time> <!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>env_building_smoke_a</Name>
@@ -5574,13 +5618,14 @@
 	<Effect>
 		<Name>wep_edf_pistol_muzzle_smoke_a</Name>
 		<visual>wep_edf_pistol_muzzle_smoke_a</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<_Editor>
 			<Category>Entries:Weapons:EDF Revolver</Category>
 			</_Editor>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time> <!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>env_edf_screen_f</Name>
@@ -5689,6 +5734,7 @@
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		<sound>AMB_EDF_SECURITYPANEL_LOOP_02</sound>
 		</Effect>
+<!--TODO-->		
 	<Effect>
 		<Name>wep_bullet_impact_sand</Name>
 		<kill_sound_when_done>False</kill_sound_when_done>
@@ -6150,8 +6196,9 @@
 			</_Editor>
 		<kill_sound_when_done>False</kill_sound_when_done>
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time> <!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>env_edf_screen_e</Name>
@@ -6199,6 +6246,7 @@
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--TODO-->		
 	<Effect>
 		<Name>wep_melee_impact_cloth</Name>
 		<_Editor>
@@ -6233,6 +6281,7 @@
 			</_Editor>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--TODO-->		
 	<Effect>
 		<Name>wep_bullet_impact_sewage_a</Name>
 		<visual>wep_bullet_impact_sewage_a</visual>
@@ -6267,6 +6316,7 @@
 			</_Editor>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		</Effect>
+<!--TODO-->		
 	<Effect>
 		<Name>wep_bullet_impact_coolant_a</Name>
 		<visual>wep_bullet_impact_coolant_a</visual>
@@ -6291,6 +6341,7 @@
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		<sound>EFX_FIRE_LOOP_SM</sound>
 		</Effect>
+<!--TODO-->		
 	<Effect>
 		<Name>wep_bullet_impact_cardboard_a</Name>
 		<visual>wep_bullet_impact_cardboard_a</visual>
@@ -6338,6 +6389,7 @@
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
 		<sound>OBJ_PAPER_DTH_NEAR</sound>
 		</Effect>
+<!--TODO-->		
 	<Effect>
 		<Name>wep_bullet_impact_sewage_b</Name>
 		<visual>wep_bullet_impact_sewage_b</visual>
@@ -7093,16 +7145,18 @@
 		<sound>WEP_GUTTER_IMPACT_CARBON</sound>
 		<visual>wep_hammer_impact_carbon</visual>
 		</Effect>
+<!--END-->		
 	<Effect>
 		<Name>wep_reconstructor_muzzle_a</Name>
 		<visual>wep_reconstructor_muzzle_a</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<_Editor>
 			<Category>Entries:Weapons:Reconstructor</Category>
 			</_Editor>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time> <!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>env_power_core_a</Name>
@@ -7116,6 +7170,7 @@
 			</_Editor>
 		<sound>AMB_POWERCORE_GENERATOR_LOOP_01</sound>
 		</Effect>
+<!--TODO-->		
 	<Effect>
 		<Name>wep_reconstructor_chunk_a</Name>
 		<visual>wep_reconstructor_chunk_a</visual>
@@ -7161,6 +7216,7 @@
 			<Category>Entries:Multiplayer:Backpacks:Jetpack</Category>
 			</_Editor>
 		</Effect>
+<!--TODO-->	
 	<Effect>
 		<Name>wep_rail_driver_hit</Name>
 		<visual>wep_rail_driver_hit</visual>
@@ -7276,14 +7332,15 @@
 	<Effect>
 		<Name>mp_kaboom_pack_exp_a</Name>
 		<visual>mp_kaboom_pack_exp_a</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		<_Editor>
 			<Category>Entries:Multiplayer</Category>
 			</_Editor>
-		</Effect>
+		</Effect>	
 	<Effect>
 		<Name>wep_mass_driver_muzzle_a</Name>
 		<visual>wep_mass_driver_muzzle_a</visual>
@@ -7562,10 +7619,11 @@
 	<Effect>
 		<Name>wep_edf_grenade_trail</Name>
 		<visual>wep_edf_grenade_trail</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		<_Editor>
 			<Category>Entries:Weapons:EDF Grenade</Category>
 			</_Editor>
@@ -7870,7 +7928,7 @@
 	<Effect>
 		<Name>wep_thermo_rpg_exp</Name>
 		<visual>wep_thermo_rpg_exp</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
@@ -7941,7 +7999,7 @@
 	<Effect>
 		<Name>wep_bullethit_water_a</Name>
 		<visual>wep_bullethit_water_a</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<_Editor>
@@ -7953,10 +8011,11 @@
 	<Effect>
 		<Name>wep_thermo_rpg_muzzle</Name>
 		<visual>wep_thermo_rpg_muzzle</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		<_Editor>
 			<Category>Entries:Weapons:Thermobaric Rockets</Category>
 			</_Editor>
@@ -8099,14 +8158,15 @@
 			<Category>Entries:Gameplay</Category>
 			</_Editor>
 		<sound>OBJ_NANOFORGE_LASER_POWERDOWN</sound>
-		</Effect>
+		</Effect>	
 	<Effect>
 		<Name>wep_bullethit_acid_a</Name>
 		<sound>WEP_ROUND_IMP_ACID</sound>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
 		<stop_when_host_destroyed>True</stop_when_host_destroyed>
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		<_Editor>
 			<Category>Entries:Weapons:Impacts - Bullets</Category>
 			</_Editor>
@@ -8632,13 +8692,14 @@
 			<Category>Entries:Gameplay</Category>
 			</_Editor>
 		</Effect>
+<!--TODO-->		
 	<Effect>
 		<Name>wep_edf_sniper_trail_a</Name>
 		<visual>wep_edf_sniper_trail_a</visual>
 		<_Editor>
 			<Category>Entries:Weapons:EDF Sniper Rifle</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<stop_when_host_destroyed>False</stop_when_host_destroyed>
@@ -8690,10 +8751,11 @@
 	<Effect>
 		<Name>wep_hammer_impact_rubber</Name>
 		<sound>WEP_MELEE_SLEDGE_RUBBER</sound>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
@@ -8701,10 +8763,11 @@
 	<Effect>
 		<Name>wep_bullet_impact_rubber</Name>
 		<sound>WEP_ROUND_IMP_RUBBER</sound>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		<_Editor>
 			<Category>Entries:Weapons:Impacts - Bullets</Category>
 			</_Editor>
@@ -8723,10 +8786,11 @@
 	<Effect>
 		<Name>wep_edf_autoblaster_flash</Name>
 		<visual>wep_edf_autoblaster_flash</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->				
 		<_Editor>
 			<Category>Entries:Weapons:EDF Autoblaster</Category>
 			</_Editor>
@@ -8800,10 +8864,11 @@
 	<Effect>
 		<Name>wep_gauss_rifle_exp</Name>
 		<visual>wep_gauss_rifle_exp</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->				
 		<_Editor>
 			<Category>Entries:Weapons:EDF Gauss Rifle</Category>
 			</_Editor>
@@ -8811,10 +8876,11 @@
 	<Effect>
 		<Name>wep_gauss_rifle_muzzle</Name>
 		<visual>wep_gauss_rifle_muzzle</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		<_Editor>
 			<Category>Entries:Weapons:EDF Gauss Rifle</Category>
 			</_Editor>
@@ -8822,10 +8888,11 @@
 	<Effect>
 		<Name>wep_gauss_rifle_tracer</Name>
 		<visual>wep_gauss_rifle_tracer</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->			
 		<_Editor>
 			<Category>Entries:Weapons:EDF Gauss Rifle</Category>
 			</_Editor>
@@ -8845,13 +8912,14 @@
 	<Effect>
 		<Name>wep_nanorifle_trail_a</Name>
 		<visual>wep_nanorifle_trail_a</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<_Editor>
 			<Category>Entries:Weapons:Nanorifle</Category>
 			</_Editor>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		</Effect>
 	<Effect>
 		<Name>veh_headlight_a</Name>
@@ -8944,7 +9012,7 @@
 	<Effect>
 		<Name>wep_rail_driver_trail_b</Name>
 		<visual>wep_rail_driver_trail_b</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<vfx_kill_particles>False</vfx_kill_particles>
 		<_Editor>
@@ -9763,10 +9831,11 @@
 		<_Editor>
 			<Category>Entries:Weapons:Impacts - Bullets</Category>
 			</_Editor>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
 		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->				
 		</Effect>
 	<Effect>
 		<Name>dth_filing_cabinet_a</Name>
@@ -9853,10 +9922,11 @@
 		<Name>wep_hammer_impact_ice</Name>
 		<visual>wep_hammer_impact_ice</visual>
 		<sound>WEP_MELEE_SLEDGE_DIRT</sound>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->				
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
@@ -9867,7 +9937,7 @@
 		<kill_sound_when_done>False</kill_sound_when_done>
 		<sound_follows_effect>True</sound_follows_effect>
 		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<stop_when_host_destroyed>False</stop_when_host_destroyed>	
 		<_Editor>
 			<Category>Entries:Main Menu</Category>
 			</_Editor>
@@ -9908,10 +9978,11 @@
 	<Effect>
 		<Name>wep_rpg_exp_cement_a</Name>
 		<visual>wep_rpg_exp_cement</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		<_Editor>
 			<Category>Entries:Weapons:Miner RPG</Category>
 			</_Editor>
@@ -9930,10 +10001,11 @@
 	<Effect>
 		<Name>wep_bullet_impact_forcefield</Name>
 		<visual>wep_bullethit_forcefield</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		<_Editor>
 			<Category>Entries:Weapons:Impacts - Bullets</Category>
 			</_Editor>
@@ -9986,10 +10058,11 @@
 	<Effect>
 		<Name>wep_hammer_hit_forcefield</Name>
 		<visual>wep_hammer_hit_forcefield</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		<_Editor>
 			<Category>Entries:Weapons:Melee Impacts:Sledgehammer</Category>
 			</_Editor>
@@ -9998,10 +10071,11 @@
 	<Effect>
 		<Name>wep_grinder_disc_exp</Name>
 		<visual>wep_grinder_disc_exp</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		<_Editor>
 			<Category>Entries:Weapons:Grinder</Category>
 			</_Editor>
@@ -10010,10 +10084,11 @@
 	<Effect>
 		<Name>wep_rpg_exp_dirt_a</Name>
 		<visual>wep_rpg_exp_dirt</visual>
-		<kill_sound_when_done>False</kill_sound_when_done>
+		<kill_sound_when_done>True</kill_sound_when_done> <!--FROM False-->
 		<sound_follows_effect>True</sound_follows_effect>
-		<vfx_kill_particles>False</vfx_kill_particles>
-		<stop_when_host_destroyed>False</stop_when_host_destroyed>
+		<vfx_kill_particles>True</vfx_kill_particles> <!--FROM False-->
+		<stop_when_host_destroyed>True</stop_when_host_destroyed> <!--FROM False-->
+		<vfx_kill_particles_fade_time>1</vfx_kill_particles_fade_time>	<!--ADDED-->		
 		<_Editor>
 			<Category>Entries:Weapons:Miner RPG</Category>
 			</_Editor>

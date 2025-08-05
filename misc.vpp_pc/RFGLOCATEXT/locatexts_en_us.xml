@@ -1,6 +1,34 @@
 ﻿<root>
-<!--[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TEXT HERE-->
-<!--[format][color:#7851a9]TEXT HERE[/format]-->
+<!--DLC ARROW:--> <!--[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]TEXT HERE-->
+<!--COLOURED TEXT:--> <!--[format][color:#7851a9]TEXT HERE[/format]-->
+	<Entry>
+		<Identifier>TF_MPDCT_STRATOSPHERE_001</Identifier>
+		<String>SHIPPING CONTAINER 1</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MPDCT_STRATOSPHERE_002</Identifier>
+		<String>SHIPPING CONTAINER 2</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MPDCT_STRATOSPHERE_003</Identifier>
+		<String>SHIPPING CONTAINER 3</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MPDCT_KOTH</Identifier>
+		<String>KING OF THE HILL</String>
+	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_GREENBELT</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]GREENBELT</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_ECHO_RIDGE</Identifier>
+		<String>[format][color:#ff8010][IMAGE_TINT:UI_HUD_CONVOY_ARROW_ICON][/format]ECHO RIDGE</String>
+	</Entry>	
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_Z_TESTING_MAP_DEV_02</Identifier>
+		<String>Z_TESTING_MAP_DEV_02</String>
+	</Entry>
 	<Entry>
 		<Identifier>TF_UPG_MISSILEPOD</Identifier>
 		<String>MISSILEPOD</String>
@@ -38,9 +66,13 @@
 		<String>CASCADE</String>
 	</Entry>	
 	<Entry>
-		<Identifier>TF_MENU_LEVEL_CLIFFSIDE</Identifier>
-		<String>CLIFFSIDE</String>
+		<Identifier>TF_MENU_LEVEL_EQUILIBRIUM_KOTH</Identifier>
+		<String>EQUILIBRIUM KOTH</String>
 	</Entry>
+	<Entry>
+		<Identifier>TF_MENU_LEVEL_PINPOINT_PINNACLE</Identifier>
+		<String>PINPOINT PINNACLE</String>
+	</Entry>	
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_COMPLEX</Identifier>
 		<String>COMPLEX</String>
@@ -158,8 +190,8 @@
 		<String>OVERPASS</String>
 	</Entry>	
 	<Entry>
-		<Identifier>TF_MENU_LEVEL_PARTIAL_RECALL</Identifier>
-		<String>PARTIAL RECALL</String>
+		<Identifier>TF_MENU_LEVEL_AERIAL_EXCAVATION</Identifier>
+		<String>AERIAL EXCAVATION</String>
 	</Entry>
 	<Entry>
 		<Identifier>TF_MENU_LEVEL_PINNACLE</Identifier>

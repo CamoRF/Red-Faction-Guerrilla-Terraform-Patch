@@ -1,0 +1,378 @@
+<root>
+<Table>
+	<Firing_Pattern>
+		<Name>Default Spiker</Name>
+		<Control_Points>
+			<Control_Point>
+				<Range_Percent>0.05</Range_Percent>
+				<Min_Burst_Size>7</Min_Burst_Size>
+				<Max_Burst_Size>15</Max_Burst_Size>
+				<Min_Burst_Interval>0.4</Min_Burst_Interval>
+				<Max_Burst_Interval>0.6</Max_Burst_Interval>
+				</Control_Point>
+			<Control_Point>
+				<Range_Percent>0.15</Range_Percent>
+				<Min_Burst_Size>6</Min_Burst_Size>
+				<Max_Burst_Size>12</Max_Burst_Size>
+				<Min_Burst_Interval>0.45</Min_Burst_Interval>
+				<Max_Burst_Interval>0.7</Max_Burst_Interval>
+				</Control_Point>
+			<Control_Point>
+				<Range_Percent>0.3</Range_Percent>
+				<Min_Burst_Size>5</Min_Burst_Size>
+				<Max_Burst_Size>10</Max_Burst_Size>
+				<Min_Burst_Interval>0.5</Min_Burst_Interval>
+				<Max_Burst_Interval>0.8</Max_Burst_Interval>
+				</Control_Point>
+			<Control_Point>
+				<Range_Percent>0.6</Range_Percent>
+				<Min_Burst_Size>3</Min_Burst_Size>
+				<Max_Burst_Size>6</Max_Burst_Size>
+				<Min_Burst_Interval>0.55</Min_Burst_Interval>
+				<Max_Burst_Interval>0.9</Max_Burst_Interval>
+				</Control_Point>
+			<Control_Point>
+				<Range_Percent>1.0</Range_Percent>
+				<Min_Burst_Size>1</Min_Burst_Size>
+				<Max_Burst_Size>3</Max_Burst_Size>
+				<Min_Burst_Interval>0.6</Min_Burst_Interval>
+				<Max_Burst_Interval>1.0</Max_Burst_Interval>
+				</Control_Point>
+			</Control_Points>
+		<_Editor>
+			<Category>Entries:Rifle</Category>
+			</_Editor>
+		<Flyer_Modifier>
+			<Multiplier>0.35</Multiplier>
+			<Adjustment>0.0</Adjustment>
+			</Flyer_Modifier>
+		<Heavy_Vehicle_Modifier>
+			<Multiplier>0.35</Multiplier>
+			<Adjustment>0.0</Adjustment>
+			</Heavy_Vehicle_Modifier>
+		<Covering_Fire_Modifier>
+			<Multiplier>1.0</Multiplier>
+			<Adjustment>-0.3</Adjustment>
+			</Covering_Fire_Modifier>
+		<Alert_Modifier>
+			<Multiplier>1.1</Multiplier>
+			<Adjustment>0.0</Adjustment>
+			</Alert_Modifier>
+		<Ammo_Minimums>
+			<Control_Point>
+				<Ammo_Percent>0.5</Ammo_Percent>
+				<Min_Effective_Range>0.0</Min_Effective_Range>
+				</Control_Point>
+			<Control_Point>
+				<Ammo_Percent>0.1</Ammo_Percent>
+				<Min_Effective_Range>0.1</Min_Effective_Range>
+				</Control_Point>
+			</Ammo_Minimums>
+		<Normal_Vehicle_Modifier>
+			<Multiplier>0.6</Multiplier>
+			<Adjustment>0.0</Adjustment>
+			</Normal_Vehicle_Modifier>
+		</Firing_Pattern>
+	<Firing_Pattern>
+		<Name>DLC EDF Super Gauss</Name>
+		<Control_Points>
+			<Control_Point>
+				<Range_Percent>0.05</Range_Percent>
+				<Min_Burst_Size>4</Min_Burst_Size>
+				<Max_Burst_Size>8</Max_Burst_Size>
+				<Min_Burst_Interval>0.4</Min_Burst_Interval>
+				<Max_Burst_Interval>0.6</Max_Burst_Interval>
+				</Control_Point>
+			<Control_Point>
+				<Range_Percent>0.15</Range_Percent>
+				<Min_Burst_Size>4</Min_Burst_Size>
+				<Max_Burst_Size>8</Max_Burst_Size>
+				<Min_Burst_Interval>0.45</Min_Burst_Interval>
+				<Max_Burst_Interval>0.75</Max_Burst_Interval>
+				</Control_Point>
+			<Control_Point>
+				<Range_Percent>0.3</Range_Percent>
+				<Min_Burst_Size>4</Min_Burst_Size>
+				<Max_Burst_Size>7</Max_Burst_Size>
+				<Min_Burst_Interval>0.5</Min_Burst_Interval>
+				<Max_Burst_Interval>0.85</Max_Burst_Interval>
+				</Control_Point>
+			<Control_Point>
+				<Range_Percent>0.6</Range_Percent>
+				<Min_Burst_Size>2</Min_Burst_Size>
+				<Max_Burst_Size>4</Max_Burst_Size>
+				<Min_Burst_Interval>1</Min_Burst_Interval>
+				<Max_Burst_Interval>1.75</Max_Burst_Interval>
+				</Control_Point>
+			<Control_Point>
+				<Range_Percent>1.0</Range_Percent>
+				<Min_Burst_Size>2</Min_Burst_Size>
+				<Max_Burst_Size>4</Max_Burst_Size>
+				<Min_Burst_Interval>1</Min_Burst_Interval>
+				<Max_Burst_Interval>1.75</Max_Burst_Interval>
+				</Control_Point>
+			</Control_Points>
+		<Ammo_Minimums>
+			<Control_Point>
+				<Ammo_Percent>0.5</Ammo_Percent>
+				<Min_Effective_Range>0.0</Min_Effective_Range>
+				</Control_Point>
+			<Control_Point>
+				<Ammo_Percent>0.1</Ammo_Percent>
+				<Min_Effective_Range>0.3</Min_Effective_Range>
+				</Control_Point>
+			</Ammo_Minimums>
+		<Alert_Modifier>0.4<Multiplier>1.2</Multiplier>
+			<Adjustment>0.0</Adjustment>
+			</Alert_Modifier>
+		<Flyer_Modifier>
+			<Multiplier>0.25</Multiplier>
+			<Adjustment>0.0</Adjustment>
+			</Flyer_Modifier>
+		<Heavy_Vehicle_Modifier>
+			<Multiplier>0.5</Multiplier>
+			<Adjustment>0.0</Adjustment>
+			</Heavy_Vehicle_Modifier>
+		<Normal_Vehicle_Modifier>
+			<Multiplier>0.75</Multiplier>
+			<Adjustment>0.0</Adjustment>
+			</Normal_Vehicle_Modifier>
+		<Covering_Fire_Modifier>
+			<Multiplier>1.0</Multiplier>
+			<Adjustment>-0.15</Adjustment>
+			</Covering_Fire_Modifier>
+		<_Editor>
+			<Category>Entries:Special</Category>
+			</_Editor>
+		</Firing_Pattern>
+	</Table>
+
+<TableTemplates>
+	</TableTemplates>
+
+<TableDescription>
+	<Name>Firing_Pattern</Name>
+	<Type>TableDescription</Type>
+	<Display_Name>Firing Pattern</Display_Name>
+	<Element>
+		<Name>Name</Name>
+		<Type>String</Type>
+		<Description>Unique name of the weapon firing pattern profile.</Description>
+		<Unique>true</Unique>
+		</Element>
+	<Element>
+		<Name>Control_Points</Name>
+		<Type>Grid</Type>
+		<Display_Name>Control Points</Display_Name>
+		<Description>Describes how burst size and interval between bursts scales with range.</Description>
+		<Element>
+			<Name>Control_Point</Name>
+			<Type>Element</Type>
+			<Display_Name>Control Point</Display_Name>
+			<Element>
+				<Name>Range_Percent</Name>
+				<Type>Float</Type>
+				<Display_Name>Range Percent</Display_Name>
+				<Description>Percent of the weapon's max range (see weapons.xtbl) that this point applies to.</Description>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			<Element>
+				<Name>Min_Burst_Size</Name>
+				<Type>Float</Type>
+				<Display_Name>Min Burst Size</Display_Name>
+				<Default>1</Default>
+				<MinValue>1</MinValue>
+				</Element>
+			<Element>
+				<Name>Max_Burst_Size</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Burst Size</Display_Name>
+				<Default>1</Default>
+				<MinValue>1</MinValue>
+				</Element>
+			<Element>
+				<Name>Min_Burst_Interval</Name>
+				<Type>Float</Type>
+				<Display_Name>Min Burst Interval (sec)</Display_Name>
+				<Default>1</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			<Element>
+				<Name>Max_Burst_Interval</Name>
+				<Type>Float</Type>
+				<Display_Name>Max Burst Interval (sec)</Display_Name>
+				<Default>1</Default>
+				<MinValue>0</MinValue>
+				</Element>
+			</Element>
+		<Max_Children>8</Max_Children>
+		<Min_Children>1</Min_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Ammo_Minimums</Name>
+		<Type>Grid</Type>
+		<Display_Name>Ammo Percentage Modifications</Display_Name>
+		<Description>Describes the minimum effective range percent (see above table) at a given ammo level.</Description>
+		<Element>
+			<Name>Control_Point</Name>
+			<Type>Element</Type>
+			<Display_Name>Control Point</Display_Name>
+			<Element>
+				<Name>Ammo_Percent</Name>
+				<Type>Float</Type>
+				<Display_Name>Ammo Percent</Display_Name>
+				<Description>Percent of ammo left in the weapon.</Description>
+				<Default>0.0</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>1</MaxValue>
+				</Element>
+			<Element>
+				<Name>Min_Effective_Range</Name>
+				<Type>Float</Type>
+				<Display_Name>Min Effective Range</Display_Name>
+				<Description>Scales the firing pattern up to this value.</Description>
+				<Default>0.4</Default>
+				<MinValue>0</MinValue>
+				<MaxValue>1</MaxValue>
+				</Element>
+			</Element>
+		<Max_Children>3</Max_Children>
+		<Min_Children>0</Min_Children>
+		<Num_Display_Rows>8</Num_Display_Rows>
+		</Element>
+	<Element>
+		<Name>Alert_Modifier</Name>
+		<Type>Element</Type>
+		<Display_Name>At Green/Yellow Alert</Display_Name>
+		<Description>Describes how the effective range percentage is scaled at green or yellow alert.</Description>
+		<Default>0.4</Default>
+		<Element>
+			<Name>Multiplier</Name>
+			<Type>Float</Type>
+			<Description>Range percentage is multiplied by this value.</Description>
+			<Default>1.0</Default>
+			<MinValue>0.1</MinValue>
+			<MaxValue>5</MaxValue>
+			</Element>
+		<Element>
+			<Name>Adjustment</Name>
+			<Type>Float</Type>
+			<Description>This value is added to the range percentage.</Description>
+			<Default>0.3</Default>
+			<MinValue>-2</MinValue>
+			<MaxValue>2</MaxValue>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Flyer_Modifier</Name>
+		<Type>Element</Type>
+		<Display_Name>Vs. Flyers</Display_Name>
+		<Description>Describes how the effective range percent is scaled when attacking a flyer.</Description>
+		<Element>
+			<Name>Multiplier</Name>
+			<Type>Float</Type>
+			<Description>Range percentage is multiplied by this value.</Description>
+			<Default>0.25</Default>
+			<MinValue>0.1</MinValue>
+			<MaxValue>5</MaxValue>
+			</Element>
+		<Element>
+			<Name>Adjustment</Name>
+			<Type>Float</Type>
+			<Description>This value is added to the range percentage.</Description>
+			<Default>0.0</Default>
+			<MinValue>-2</MinValue>
+			<MaxValue>2</MaxValue>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Heavy_Vehicle_Modifier</Name>
+		<Type>Element</Type>
+		<Display_Name>Vs. Walkers and Tanks</Display_Name>
+		<Description>Describes how the effective range percent is scaled when attacking a heavy vehicle.</Description>
+		<Element>
+			<Name>Multiplier</Name>
+			<Type>Float</Type>
+			<Description>Range percentage is multiplied by this value.</Description>
+			<Default>0.5</Default>
+			<MinValue>0.1</MinValue>
+			<MaxValue>5</MaxValue>
+			</Element>
+		<Element>
+			<Name>Adjustment</Name>
+			<Type>Float</Type>
+			<Description>This value is added to the range percentage.</Description>
+			<Default>0.0</Default>
+			<MinValue>-2</MinValue>
+			<MaxValue>2</MaxValue>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Normal_Vehicle_Modifier</Name>
+		<Type>Element</Type>
+		<Display_Name>Vs. Normal Vehicles</Display_Name>
+		<Description>Describes how the effective range percent is scaled when attacking a normal vehicle.</Description>
+		<Element>
+			<Name>Multiplier</Name>
+			<Type>Float</Type>
+			<Description>Range percentage is multiplied by this value.</Description>
+			<Default>0.75</Default>
+			<MinValue>0.1</MinValue>
+			<MaxValue>5</MaxValue>
+			</Element>
+		<Element>
+			<Name>Adjustment</Name>
+			<Type>Float</Type>
+			<Description>This value is added to the range percentage.</Description>
+			<Default>0.0</Default>
+			<MinValue>-2</MinValue>
+			<MaxValue>2</MaxValue>
+			</Element>
+		</Element>
+	<Element>
+		<Name>Covering_Fire_Modifier</Name>
+		<Type>Element</Type>
+		<Display_Name>Providing Covering Fire</Display_Name>
+		<Description>Describes how the effective range percent is scaled when providing covering fire.</Description>
+		<Element>
+			<Name>Multiplier</Name>
+			<Type>Float</Type>
+			<Description>Range percentage is multiplied by this value.</Description>
+			<Default>1.0</Default>
+			<MinValue>0.1</MinValue>
+			<MaxValue>5</MaxValue>
+			</Element>
+		<Element>
+			<Name>Adjustment</Name>
+			<Type>Float</Type>
+			<Description>This value is added to the range percentage.</Description>
+			<Default>-0.3</Default>
+			<MinValue>-2</MinValue>
+			<MaxValue>2</MaxValue>
+			</Element>
+		</Element>
+	</TableDescription>
+
+<EntryCategories>
+	<Category>
+		<Name>Entries</Name>
+		<Category>
+			<Name>Launcher</Name>
+			</Category>
+		<Category>
+			<Name>Pistol</Name>
+			</Category>
+		<Category>
+			<Name>Rifle</Name>
+			</Category>
+		<Category>
+			<Name>Special</Name>
+			</Category>
+		<Category>
+			<Name>Turret</Name>
+			</Category>
+		</Category>
+	</EntryCategories>
+</root>
