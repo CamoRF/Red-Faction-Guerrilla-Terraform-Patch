@@ -5,7 +5,7 @@
 			<maps>
 				<map>
 					<file_name>wcdlc1</file_name>
-					<display_name>MENU_LEVEL_DLC_WC1</display_name>
+					<display_name>TF_MENU_LEVEL_RUINS</display_name> <!--FROM MENU_LEVEL_DLC_WC1-->
 					<games_played_overall_stat>wrecking crew - games by mode and map - total overall level 01</games_played_overall_stat>
 					<games_played_fall_guy_stat>wrecking crew - games by mode and map - total fall guy level 01</games_played_fall_guy_stat>
 					<games_played_mayhem_stat>wrecking crew - games by mode and map - total mayhem level 01</games_played_mayhem_stat>
@@ -19,7 +19,7 @@
 				</map>
 				<map>
 					<file_name>wcdlc2</file_name>
-					<display_name>MENU_LEVEL_DLC_WC2</display_name>
+					<display_name>TF_MENU_LEVEL_REPERCUSSION</display_name> <!--FROM MENU_LEVEL_DLC_WC2-->
 					<image_name>mp_thumb_wcdlc2</image_name>
 					<Load_image>dlc03wc2</Load_image>
 					<time_of_day>18:00</time_of_day>
@@ -33,7 +33,7 @@
 				</map>
 				<map>
 					<file_name>wcdlc3</file_name>
-					<display_name>MENU_LEVEL_DLC_WC3</display_name>
+					<display_name>TF_MENU_LEVEL_IMPERIAL</display_name> <!--FROM MENU_LEVEL_DLC_WC3-->
 					<image_name>mp_thumb_wcdlc3</image_name>
 					<Load_image>dlc03wc3</Load_image>
 					<time_of_day>12:00</time_of_day> <!--FROM 09:00-->
@@ -47,7 +47,7 @@
 				</map>
 				<map>
 					<file_name>wcdlc4</file_name>
-					<display_name>MENU_LEVEL_DLC_WC4</display_name>
+					<display_name>TF_MENU_LEVEL_EXPANSION</display_name> <!--FROM MENU_LEVEL_DLC_WC4-->
 					<image_name>mp_thumb_wcdlc4</image_name>
 					<Load_image>dlc03wc4</Load_image>
 					<time_of_day>09:00</time_of_day>
@@ -61,7 +61,7 @@
 				</map>
 				<map>
 					<file_name>wcdlc5</file_name>
-					<display_name>MENU_LEVEL_DLC_WC5</display_name>
+					<display_name>TF_MENU_LEVEL_FROST</display_name> <!--FROM MENU_LEVEL_DLC_WC5-->
 					<image_name>mp_thumb_wcdlc5</image_name>
 					<Load_image>dlc03wc5</Load_image>
 					<time_of_day>11:00</time_of_day> <!--FROM 11:30-->
@@ -75,7 +75,7 @@
 				</map>
 				<map>
 					<file_name>wcdlc6</file_name>
-					<display_name>MENU_LEVEL_DLC_WC6</display_name>
+					<display_name>TF_MENU_LEVEL_ABANDONED</display_name> <!--FROM MENU_LEVEL_DLC_WC6-->
 					<image_name>mp_thumb_wcdlc6</image_name>
 					<Load_image>dlc03wc6</Load_image>
 					<time_of_day>18:00</time_of_day>
@@ -89,7 +89,7 @@
 				</map>
 				<map>
 					<file_name>wcdlc7</file_name>
-					<display_name>MENU_LEVEL_STRATOSPHERE</display_name>
+					<display_name>TF_MENU_LEVEL_STRATOSPHERE</display_name> <!--FROM MENU_LEVEL_STRATOSPHERE-->
 					<image_name>mp_thumb_wcdlc7</image_name>
 					<Load_image>dlc03wc7</Load_image>
 					<time_of_day>14:00</time_of_day> <!--FROM 10:30-->
@@ -103,7 +103,7 @@
 				</map>
 				<map>
 					<file_name>wcdlc8</file_name>
-					<display_name>MENU_LEVEL_INVASION</display_name>
+					<display_name>TF_MENU_LEVEL_INVASION</display_name> <!--FROM MENU_LEVEL_INVASION-->
 					<image_name>mp_thumb_wcdlc8</image_name>
 					<Load_image>dlc03wc8</Load_image>
 					<time_of_day>00:00</time_of_day> <!--FROM 23:30-->
@@ -117,7 +117,7 @@
 				</map>
 				<map>
 					<file_name>wcdlc9</file_name>
-					<display_name>MENU_LEVEL_NORDICSPECIAL</display_name>
+					<display_name>TF_MENU_LEVEL_NORDIC_SPECIAL</display_name> <!--FROM MENU_LEVEL_NORDICSPECIAL-->
 					<image_name>mp_thumb_wcdlc9</image_name>
 					<Load_image>dlc03wc9</Load_image>
 					<time_of_day>8:30</time_of_day>
