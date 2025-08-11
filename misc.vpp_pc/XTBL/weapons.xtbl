@@ -1926,7 +1926,7 @@
 			<Default_Refire_Delay>775</Default_Refire_Delay>
 			<Damage_Scaling_Max>
 				<NPC_Damage>350</NPC_Damage>
-				<Player_Damage>251</Player_Damage>
+				<Player_Damage>250</Player_Damage> <!--FROM 251-->
 				<Threshold>150</Threshold>
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
@@ -1952,7 +1952,7 @@
 			<Damage_Scaling_Min>
 				<Threshold>50</Threshold>
 				<NPC_Damage>410</NPC_Damage>
-				<Player_Damage>306</Player_Damage>
+				<Player_Damage>306</Player_Damage> <!--FROM 306-->
 				<Vehicle_Damage>-1</Vehicle_Damage>
 				<Player_Vehicle_Damage>-1</Player_Vehicle_Damage>
 			</Damage_Scaling_Min>
